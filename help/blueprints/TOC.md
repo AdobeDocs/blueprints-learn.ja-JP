@@ -1,30 +1,30 @@
 ---
-user-guide-title: デジタルエクスペリエンスの青写真
-breadcrumb-title: '青写真 '
-user-guide-description: 設計図は、確立されたビジネス上の問題に対処するための反復可能な実装であり、アーキテクチャ図、技術上の考慮事項、および関連ドキュメントのリンクが含まれています。
+user-guide-title: デジタルエクスペリエンスブループリント
+breadcrumb-title: 'ブループリント '
+user-guide-description: ブループリントは、確立したビジネス上の問題に対処するための繰り返し可能な実装で、アーキテクチャ図、技術上の考慮事項、関連ドキュメントへのリンクが含まれます。
 product: adobe experience platform
 role: アーキテクト、開発者、実業家
 translation-type: tm+mt
-source-git-commit: 4f952331b25ce0b0941d110976d2a0eda061c4b3
+source-git-commit: af73c0fa0576cd836685824964bade10c0e0110d
 workflow-type: tm+mt
-source-wordcount: '112'
-ht-degree: 2%
+source-wordcount: '117'
+ht-degree: 24%
 
 ---
 
-# デジタルエクスペリエンスのブループリント{#architecture}
+# デジタルエクスペリエンスブループリント {#architecture}
 
 + [概要](/help/blueprints/overview.md)
 + アーキテクチャの概要図{#architecture-overview}
    + [Experience Cloud](/help/blueprints/experience-platform/experience-cloud.md)
    + [Experience Platformとアプリ](/help/blueprints/experience-platform/platform-applications.md)
    + [Experience Platformデータフロー](/help/blueprints/experience-platform/platform-data-flow.md)
-+ Audience Activation{#audience-activation}
++ プロファイルとAudience Activation{#audience-activation}
    + [概要](/help/blueprints/audience-activation/overview.md)
    + [匿名Audience Activation](/help/blueprints/audience-activation/anonymous.md)
    + [オンライン/オフラインAudience Activation](/help/blueprints/audience-activation/online-offline.md)
-+ 顧客アクティビティハブ{#customer-activity-hub}
-   + [概要](/help/blueprints/customer-activity-hub/overview.md)
+   + [Enterprise Destinationsへのアクティベーション](/help/blueprints/audience-activation/enterprise-destinations.md)
+   + [顧客アクティビティハブ](/help/blueprints/audience-activation/customer-activity.md)
 + Customer Journey Analytics{#customer-journey-analytics}
    + [概要](/help/blueprints/customer-journey-analytics/overview.md)
    + [デジタル行動データ統合](/help/blueprints/customer-journey-analytics/digital-behavioral-data-consolidation.md)
