@@ -1,17 +1,17 @@
 ---
-title: デジタルエクスペリエンスの青写真
+title: デジタルエクスペリエンスブループリント
 description: Digital Experience Blueprintsは、戦略に対処し、確立されたビジネス上の問題を解決するための繰り返し可能な実装です。 TTV（タイム・トゥ・バリュー）を短縮し、成功への迅速なパスを提供します。
 solution: Experience Platform
+exl-id: 52898310-9723-4ec2-ba10-f45fefe29e93
 translation-type: tm+mt
-source-git-commit: 37ef1ea91b3cf83e9ab444fa0f907d4115d0fd24
+source-git-commit: 28915e33bffece1d365803db1b03c0460224dd32
 workflow-type: tm+mt
 source-wordcount: '285'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
-
-# デジタルエクスペリエンスの青写真
+# デジタルエクスペリエンスブループリント
 
 Digital Experience Blueprintsは、戦略に対処し、確立されたビジネス上の問題を解決するための繰り返し可能な実装です。 Blueprintsは、価値ある期間を短縮し、成功への迅速なパスを提供します。
 
@@ -19,7 +19,7 @@ Digital Experience Blueprintsは、戦略に対処し、確立されたビジネ
 
 ## 新機能
 
-* **[お客様のアクティビティハブのブループリント](/help/blueprints/customer-activity-hub/overview.md)**
+* **[お客様のアクティビティハブのブループリント](/help/blueprints/audience-activation/customer-activity.md)**
 
    *エージェント支援のサポートと販売に関するコンテキストを提供します。*
 * **[企業データ調査およびレポートのブループリント](/help/blueprints/data-exploration/overview.md)**
