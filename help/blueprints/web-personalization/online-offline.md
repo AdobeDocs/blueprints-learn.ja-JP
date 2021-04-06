@@ -3,15 +3,14 @@ title: オンライン/オフラインのウェブパーソナライゼーショ
 description: Webパーソナライゼーションを電子メールや、既知の匿名チャネルパーソナライゼーションと同期します。
 solution: Experience Platform, Real-time Customer Data Platform, Target, Audience Manager, Analytics, Experience Cloud Services, Data Collection
 kt: 7194thumb-web-personalization-scenario2.jpg
+exl-id: 29667c0e-bb79-432e-af3a-45bd0b3b43bb
 translation-type: tm+mt
-source-git-commit: 9b6c220a515c5abae22b58fe33558d7d2fed375d
+source-git-commit: 2daba1965d6dce011bcce924f8e7471d7dfd42fb
 workflow-type: tm+mt
-source-wordcount: '958'
+source-wordcount: '971'
 ht-degree: 0%
 
 ---
-
-
 
 # オンライン/オフラインのウェブパーソナライゼーションシナリオ
 
@@ -36,10 +35,10 @@ Webパーソナライゼーションを電子メールや、既知の匿名チ�
 
 ## ガードレール
 
-* Experience Platform間で共有されるセグメントは、セグメントの実現から数分以内に共有されます。セグメントの実現は、ストリーミングまたはバッチの評価の方法を使用して行われます。 AEPセグメントのメンバーシップがAAMプロファイルで実現され始めるまで、AEPとAAMの間で最初のセグメント設定の同期が4時間以内に行われます。 AAMプロファイルにログインすると、AEPセグメントメンバーシップをAdobe Target経由で同じページパーソナライゼーションで使用できるようになります。
-* AEPとAAMの間で4時間のセグメント設定同期内に発生するセグメントの実現に関しては、これらのセグメントの実現は、後続のバッチセグメントジョブで「既存の」セグメントとしてAAMに実現されます。
-* AEPからのバッチセグメント共有 — 1日に1回、またはAPIを使用して手動で開始。 これらのセグメントのメンバーシップが認識されると、数分以内にAAMに共有され、ターゲット内の同じ/次のページのパーソナライゼーションに使用できます。
-* ストリーミングセグメント化は～ p95 5分以内で実現されます。 これらのセグメントの再分割が行われると、数分以内にAAMに共有され、ターゲット内の同じ/次のページのパーソナライゼーションに使用できます。
+* Experience Platform間で共有されるセグメントは、セグメントの実現から数分以内に共有されます。セグメントの実現は、ストリーミングまたはバッチの評価の方法を使用して行われます。 Experience PlatformとAudience Managerの間で、Experience PlatformセグメントのメンバーシップがAudience Managerプロファイルで実現され始めるまでに、約4時間の初期セグメント設定の同期が行われます。 Audience Managerプロファイルに入ると、Experience PlatformセグメントのメンバーシップをAdobe Target経由で同じページパーソナライゼーションで使用できます。
+* Experience PlatformとAudience Managerの間の4時間のセグメント構成同期内に発生するセグメント実現に関しては、これらのセグメント実現は、後続のバッチセグメントジョブで「既存の」セグメントとしてAudience Managerされます。
+* Experience Platformからのバッチセグメント共有 — 1日に1回、またはAPIを使用して手動で開始。 これらのセグメントのメンバーシップが認識されると、数分以内にAudience Managerに共有され、ターゲット内の同じ/次のページのパーソナライゼーションに使用できます。
+* ストリーミングセグメントは約5分以内に実現されます。 これらのセグメントの再分割が行われると、数分以内にAudience Managerに共有され、ターゲット内の同じ/次のページのパーソナライゼーションに使用できます。
 * デフォルトでは、セグメント共有サービスでは、各Adobe Analyticsレポートスイートで最大75オーディエンスを共有できます。 お客様がAudience Managerライセンスを持っている場合、Adobe AnalyticsとAdobe Target、Audience ManagerとAdobe Targetの間で共有できるオーディエンスの数に制限はありません。
 
 ## 導入の前提条件
@@ -102,5 +101,3 @@ Web/モバイルパーソナライゼーションのブループリントは、�
 * [Journey Orchestrationサービスとモバイルメッセージングベンダーを使用して、顧客がモバイルメッセージをリアルタイムでパーソナライズできるAdobe Experience Platform](https://medium.com/adobetech/how-adobe-experience-platform-helped-a-client-personalize-their-mobile-messaging-in-real-time-with-7d634aefa098)
 * [秒単位のセグメント：Adobe Experience Platformがリアルタイムの顧客プロファイルを実現した経緯](https://medium.com/adobetech/segmentation-in-seconds-how-adobe-experience-platform-made-real-time-customer-profiles-a-reality-a7a8552b0847)
 * [最適なオンラインエクスペリエンスの構築：クエリサービスを備えたエンリッチ統合プロファイル](https://medium.com/adobetech/build-an-optimal-online-experience-enrich-unified-profile-with-query-service-8027c196ab33)
-
-
