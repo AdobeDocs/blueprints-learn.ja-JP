@@ -4,7 +4,7 @@ description: Digital Experience Blueprintsは、戦略に対処し、確立さ�
 solution: Experience Platform
 exl-id: 52898310-9723-4ec2-ba10-f45fefe29e93
 translation-type: tm+mt
-source-git-commit: 28915e33bffece1d365803db1b03c0460224dd32
+source-git-commit: 3f27f27159d9fb07124f289164dd85941ec58a25
 workflow-type: tm+mt
 source-wordcount: '285'
 ht-degree: 2%
@@ -22,7 +22,7 @@ Digital Experience Blueprintsは、戦略に対処し、確立されたビジネ
 * **[お客様のアクティビティハブのブループリント](/help/blueprints/audience-activation/customer-activity.md)**
 
    *エージェント支援のサポートと販売に関するコンテキストを提供します。*
-* **[企業データ調査およびレポートのブループリント](/help/blueprints/data-exploration/overview.md)**
+* **[企業データ調査およびレポートのブループリント](/help/blueprints/data-insights/overview.md)**
 
    *データレーク内のデータの調査クエリと分析を実行します。*
 * **[Customer Journey Analyticsブループリント](/help/blueprints/customer-journey-analytics/overview.md)**
