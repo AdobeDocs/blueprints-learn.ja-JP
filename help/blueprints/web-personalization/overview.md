@@ -1,25 +1,26 @@
 ---
-title: WebおよびモバイルパーソナライゼーションのBlueprint
-description: リアルタイムの顧客プロファイルで、パーソナライズされたWebおよびモバイルコンテンツを配信します。
+title: Web&モバイルパーソナライゼーション
+description: リアルタイム顧客プロファイルを使用してパーソナライズされた Web およびモバイルコンテンツを配信します。
 solution: Experience Platform, Real-time Customer Data Platform, Target, Audience Manager, Analytics, Experience Cloud Services
 kt: null
 thumbnail: null
+exl-id: 8ad028fd-3190-42da-9f46-7e927e8878f8
 translation-type: tm+mt
-source-git-commit: e1a9881996a181310bdc32cb083e4c5654139bf0
+source-git-commit: 844fff1cefe367575beb5c03aa0f0d026eb9f39b
 workflow-type: tm+mt
-source-wordcount: '387'
-ht-degree: 0%
+source-wordcount: '384'
+ht-degree: 2%
 
 ---
 
-# WebおよびモバイルパーソナライゼーションのBlueprint
+# Webとモバイルのパーソナライゼーション
 
 
-Webおよびモバイルパーソナライゼーションのブループリントでは、複数のアプリケーションでオーディエンスの分類を使用して、顧客体験をパーソナライズし最適化する機能について説明します。 顧客の行動、人口統計、忠誠度レベルおよび前のトランザクションを使用して、レイアウト、誘い文句（CTA：コールトゥアクション）、コンテンツをパーソナライズできます。
+Webおよびモバイルパーソナライゼーションでは、複数のアプリケーションでオーディエンスのセグメント化を使用して、顧客体験をパーソナライズし、最適化する機能に対応しています。 顧客の行動、人口統計、忠誠度レベルおよび前のトランザクションを使用して、レイアウト、誘い文句（CTA：コールトゥアクション）、コンテンツをパーソナライズできます。
 
-## シナリオ
+## ブループリント
 
-| シナリオ | 説明 | Experience Cloudアプリ |
+| Blueprint | 説明 | Experience Cloudアプリ |
 |---|---|---|
 | **[行動パーソナライゼーション](behavioral.md)** | <ul><li>オンライン行動とオーディエンスデータに基づいてパーソナライズ</li></ul> | <ul><li>Adobe Target</li><li>Adobe Analytics *（オプション）*</li><li>Adobe Audience Manager *（オプション）*</li></ul> |
 | **[オンライン/オフラインのWebパーソナライゼーション](online-offline.md)** | <ul><li>オフライン属性とイベント（トランザクション、予約、CRM、忠誠度データ）を使用してパーソナライズします。</li><li>Web、電子メールおよびその他の既知のチャネル間でパーソナライゼーションを同期します。</li></ul> | <ul><li>リアルタイム顧客データプラットフォーム</li><li>Adobe Target</li><li>Adobe Analytics *（オプション）*</li><li>Adobe Audience Manager *（オプション）*</li></ul> |
@@ -40,4 +41,3 @@ Webおよびモバイルパーソナライゼーションのブループリン�
 * [秒単位のセグメント：Adobe Experience Platformがリアルタイムの顧客プロファイルを実現した経緯](https://medium.com/adobetech/segmentation-in-seconds-how-adobe-experience-platform-made-real-time-customer-profiles-a-reality-a7a8552b0847)
 * [分析ワークロードとリアルタイム顧客プロファイル：同じ脳の2つの面と1つの目的を持つ](https://medium.com/adobetech/analytical-workloads-and-real-time-customer-profile-two-sides-of-the-same-brain-with-a-cdfac85ce8c1)
 * [最適なオンラインエクスペリエンスの構築：クエリサービスを備えたエンリッチ統合プロファイル](https://medium.com/adobetech/build-an-optimal-online-experience-enrich-unified-profile-with-query-service-8027c196ab33)
-
