@@ -3,16 +3,16 @@ user-guide-title: デジタルエクスペリエンスブループリント
 breadcrumb-title: 'ブループリント '
 user-guide-description: ブループリントは、確立したビジネス上の問題に対処するための繰り返し可能な実装で、アーキテクチャ図、技術上の考慮事項、関連ドキュメントへのリンクが含まれます。
 product: adobe experience platform
-role: アーキテクト、開発者、実業家
+role: Architect, Developer, Business Practitioner
 translation-type: tm+mt
-source-git-commit: 08b0a9e06b4a5cc1f411a3cab1cc23fa47325844
+source-git-commit: f5d8b3fea11df0ffaeb59f0b53e93d76426ef252
 workflow-type: tm+mt
-source-wordcount: '115'
-ht-degree: 25%
+source-wordcount: '120'
+ht-degree: 24%
 
 ---
 
-# デジタルエクスペリエンスブループリント {#architecture}
+# デジタルエクスペリエンスブループリント  {#architecture}
 
 + [概要](/help/blueprints/overview.md)
 + アーキテクチャの概要図{#architecture-overview}
@@ -31,9 +31,11 @@ ht-degree: 25%
    + [呼び出し偏向](/help/blueprints/customer-journey-analytics/call-deflect.md)
 + データ収集と準備{#data-ingestion}
    + [概要](/help/blueprints/data-ingestion/overview.md)
+   + [データの取り込みとExperience Platformの準備](/help/blueprints/data-ingestion/ingestion.md)
    + [サーバー側のエンタープライズデータ収集](/help/blueprints/data-ingestion/server-side-collection.md)
-+ データ分析とカスタムデータサイエンス{#data-exploration}
++ データ分析、インテリジェンス、AI/ML{#data-exploration}
    + [概要](/help/blueprints/data-insights/overview.md)
+   + [データ分析とインテリジェンス](/help/blueprints/data-insights/analysis.md)
    + [プロファイルエンリッチメントのカスタムデータサイエンス](/help/blueprints/data-insights/data-science.md)
 + マルチチャネルメッセージオーケストレーション{#multi-channel-message-orchestration}
    + [概要](/help/blueprints/multi-channel-message-orchestration/overview.md)
