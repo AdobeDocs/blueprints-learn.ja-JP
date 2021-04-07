@@ -1,18 +1,18 @@
 ---
-title: オンライン/オフラインAudience Activationのシナリオ
+title: オンライン/オフラインAudience Activationのブループリント
 description: オンライン/オフラインAudience Activation
 solution: Experience Platform, Real-time Customer Data Platform, Target, Audience Manager, Analytics, Experience Cloud Services, Data Collection
 kt: 7086
+exl-id: 011f4909-b208-46db-ac1c-55b3671ee48c
 translation-type: tm+mt
-source-git-commit: c4bd4bbd40f2ae6b9ab980c5274a6e2007d976d3
+source-git-commit: 844fff1cefe367575beb5c03aa0f0d026eb9f39b
 workflow-type: tm+mt
 source-wordcount: '724'
 ht-degree: 0%
 
 ---
 
-
-# オンライン/オフラインAudience Activationのシナリオ
+# オンライン/オフラインAudience Activationのブループリント
 
 オフライン注文、トランザクション、CRM、忠誠度データなどのオフライン属性やイベント、およびオンラインでのターゲット設定とパーソナライゼーションに関するオンラインビヘイビアーを使用します。
 
