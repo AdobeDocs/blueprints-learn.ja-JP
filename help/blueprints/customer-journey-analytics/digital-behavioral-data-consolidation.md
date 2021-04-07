@@ -1,18 +1,18 @@
 ---
-title: デジタル行動データ統合のシナリオ
-description: 顧客のジャーニー全体での顧客のインタラクションからインサイトを分析および抽出します。
+title: Digital Behavioral Data Consolidation Blueprint
+description: カスタマージャーニーをまたいで顧客インタラクションからのインサイトを分析および抽出します。
 solution: Experience Platform, Customer Journey Analytics, Data Collection
 kt: 7208
+exl-id: b042909c-d323-40d5-8b35-f3e5e3e26694
 translation-type: tm+mt
-source-git-commit: e1a9881996a181310bdc32cb083e4c5654139bf0
+source-git-commit: 844fff1cefe367575beb5c03aa0f0d026eb9f39b
 workflow-type: tm+mt
 source-wordcount: '569'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
-
-# デジタル行動データ統合のシナリオ
+# Digital Behavioral Data Consolidation Blueprint
 
 様々なWeb、モバイル、オフラインのプロパティからデータを統合することにより、様々なチャネルにわたる顧客の行動を1つの統合表示にします。
 
@@ -82,7 +82,3 @@ Customer Journey Analyticsへのデータ取り込み：
 * [Customer Journey Analytics製品の説明](https://helpx.adobe.com/legal/product-descriptions/customer-journey-analytics.html)
 * [Customer Journey Analyticsドキュメント](https://experienceleague.adobe.com/docs/customer-journey-analytics.html)
 * [Customer Journey Analyticsチュートリアル](https://experienceleague.adobe.com/docs/customer-journey-analytics-learn/tutorials/overview.html)
-
-
-
-
