@@ -1,18 +1,18 @@
 ---
-title: 呼び出し偏向分析シナリオ
-description: コールセンターに連絡する前に、顧客の行動を分析します。
+title: 呼び出し偏向分析ブループリント
+description: コールセンターに問い合わせる前の顧客の行動を分析します。
 solution: Experience Platform, Customer Journey Analytics
 kt: 7209
+exl-id: 13593c1c-4c58-4b8a-aa6c-7530fd679a14
 translation-type: tm+mt
-source-git-commit: e1a9881996a181310bdc32cb083e4c5654139bf0
+source-git-commit: 844fff1cefe367575beb5c03aa0f0d026eb9f39b
 workflow-type: tm+mt
 source-wordcount: '658'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
-
-# 呼び出し偏向ジャーニー分析のシナリオ
+# 呼び出し偏向ジャーニー分析ブループリント
 
 コールセンターに連絡する前に、デスクトップとモバイルでの顧客の行動を分析します。 顧客が行おうとしている行動、表示したコンテンツ、カスタマーサポートに連絡する前に検索した用語を把握することで、顧客のジャーニーを改善する機会を特定します。 顧客が電話をかけなくても問題を解決できるように改善できるコンテンツおよびセルフサービスツールを決定します。
 
