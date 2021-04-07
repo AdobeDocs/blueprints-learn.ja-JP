@@ -1,18 +1,18 @@
 ---
-title: オンライン/オフラインのウェブパーソナライゼーションシナリオ
+title: オンライン/オフラインWebパーソナライゼーションのブループリント
 description: Webパーソナライゼーションを電子メールや、既知の匿名チャネルパーソナライゼーションと同期します。
 solution: Experience Platform, Real-time Customer Data Platform, Target, Audience Manager, Analytics, Experience Cloud Services, Data Collection
 kt: 7194thumb-web-personalization-scenario2.jpg
 exl-id: 29667c0e-bb79-432e-af3a-45bd0b3b43bb
 translation-type: tm+mt
-source-git-commit: 2daba1965d6dce011bcce924f8e7471d7dfd42fb
+source-git-commit: 844fff1cefe367575beb5c03aa0f0d026eb9f39b
 workflow-type: tm+mt
 source-wordcount: '971'
 ht-degree: 0%
 
 ---
 
-# オンライン/オフラインのウェブパーソナライゼーションシナリオ
+# オンライン/オフラインWebパーソナライゼーションのブループリント
 
 Webパーソナライゼーションを電子メールや、既知の匿名チャネルパーソナライゼーションと同期します。
 
