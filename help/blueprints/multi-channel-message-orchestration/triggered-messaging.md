@@ -1,18 +1,18 @@
 ---
-title: トリガーされたメッセージングとAdobe Experience Platformのシナリオ
+title: トリガーされたメッセージングとAdobe Experience PlatformのBlueprint
 description: Adobe Experience Platformを中心としたハブストリーミングデータ、顧客プロファイルおよびセグメントとして使用して、トリガーされたメッセージおよびエクスペリエンスを実行します。
 solution: Experience Platform, Campaign, Journey Orchestration
 kt: 7197
+exl-id: 97831309-f235-4418-bd52-28af815e1878
 translation-type: tm+mt
-source-git-commit: df1e14631eddb0055f8e7a42db1e34d459667433
+source-git-commit: 844fff1cefe367575beb5c03aa0f0d026eb9f39b
 workflow-type: tm+mt
 source-wordcount: '605'
 ht-degree: 1%
 
 ---
 
-
-# トリガーされたメッセージングとAdobe Experience Platformのシナリオ
+# トリガーされたメッセージングとAdobe Experience PlatformのBlueprint
 
 Adobe Experience Platformを中心としたハブストリーミングデータ、顧客プロファイルおよびセグメントとして使用して、トリガーされたメッセージおよびエクスペリエンスを実行します。
 
