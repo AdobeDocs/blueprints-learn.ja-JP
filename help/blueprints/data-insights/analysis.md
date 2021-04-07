@@ -1,21 +1,21 @@
 ---
-title: 企業データ調査およびレポートのブループリント
+title: データ分析とインテリジェンスのブループリント
 description: この設計図は、Adobe Experience Platform内で、データレーク内に存在するデータの調査クエリと分析を実行する機能を示しています。
 solution: Experience Platform
 kt: 7207
 thumbnail: null
 exl-id: 3b22dfdd-3fbe-40b3-b798-1ee983723039
 translation-type: tm+mt
-source-git-commit: f5d8b3fea11df0ffaeb59f0b53e93d76426ef252
+source-git-commit: 844fff1cefe367575beb5c03aa0f0d026eb9f39b
 workflow-type: tm+mt
-source-wordcount: '364'
+source-wordcount: '361'
 ht-degree: 0%
 
 ---
 
-# 企業データ調査およびレポートのブループリント
+# データ分析とインテリジェンスのブループリント
 
-企業データの調査とレポートは、Adobe Experience Platform内でデータレーク内に存在するデータの調査クエリと分析を実行する機能を備えています。
+データ分析とインテリジェンスは、Adobe Experience Platform内でデータレーク内のデータの探索クエリと分析を実行する機能を備えています。
 
 Experience Platformのクエリサービスを使用すると、SQLクエリをデータに対して実行できます。 Data Science Workspaceを使用すると、データ調査、データ科学、および機械学習のワークロードをデータに対して実行できます。
 
