@@ -1,21 +1,21 @@
 ---
-title: Customer Journey Analyticsブループリント
-description: 顧客のジャーニー全体からデータおよび顧客行動を統一および分析
+title: Customer Journey Analytics
+description: カスタマージャーニーをまたいでデータおよび顧客の行動を統合および分析します。
 solution: Experience Platform, Customer Journey Analytics
 kt: null
 thumbnail: null
+exl-id: 3bb2dada-f4cd-43f7-a0d0-f276510ad224
 translation-type: tm+mt
-source-git-commit: e1a9881996a181310bdc32cb083e4c5654139bf0
+source-git-commit: 844fff1cefe367575beb5c03aa0f0d026eb9f39b
 workflow-type: tm+mt
-source-wordcount: '295'
-ht-degree: 2%
+source-wordcount: '292'
+ht-degree: 8%
 
 ---
 
+# Customer Journey Analytics
 
-# Customer Journey Analyticsブループリント
-
-Customer Journey AnalyticsのBlueprintは、ブランドが様々なインタラクションチャネルやソースから顧客のデータと行動を統一し、すべての顧客のインタラクションに関するジャーニーベースの表示を作成する方法を示しています。 レポートと分析は、Customer Journey Analytics申し込みサービスで実行でき、顧客のインタラクションと行動パターンを評価し、洞察を得ることができます。
+Customer Journey Analyticsでは、ブランドが様々なインタラクションチャネルやソースから顧客データや行動を統一して、すべての顧客インタラクションに関するジャーニーベースの表示を作成する方法を示します。 レポートと分析は、Customer Journey Analytics申し込みサービスで実行でき、顧客のインタラクションと行動パターンを評価し、洞察を得ることができます。
 
 一般的な分析には、次のものがあります。
 
@@ -25,9 +25,9 @@ Customer Journey AnalyticsのBlueprintは、ブランドが様々なインタラ
 * どのキャンペーンがコンバージョンをもたらし、エンゲージメントを増やしたか
 * セルフサービスエクスペリエンスを最適化するツール使用分析
 
-## シナリオ
+## ブループリント
 
-| シナリオ | 説明 | Experience Cloudアプリ |
+| Blueprint | 説明 | Experience Cloudアプリ |
 |---|---|---|
 | **[デジタル行動データ統合](digital-behavioral-data-consolidation.md)** | <ul><li>様々なWeb、モバイル、オフラインのプロパティからデータを統合することにより、様々なチャネルにわたる顧客の行動を1つの統合表示にします。</li></ul> | <ul><li>Adobe Experience Platform</li><li>Customer Journey Analytics</li><li>Adobe Analytics（オプション）</li></ul> |
 | **[コールセンターの偏向](call-deflect.md)** | <ul><li>コールセンターのデータをWeb、モバイル、その他のインタラクションデータと共に取り込むことで、エージェント支援呼び出しの結果として最も示唆的な行動を特定します。</li><li>これらのインサイトを使用して、顧客体験を最適化し、最適化されたセルフサービスコンテンツとツールを通じて、エージェント支援インタラクションへのパスを減らすことができます。  </li></ul> | <ul><li>Adobe Experience Platform</li><li>Customer Journey Analytics</li> |
