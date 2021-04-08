@@ -1,21 +1,21 @@
 ---
-title: Enterprise Destinations BlueprintへのプロファイルとAudience Activation
-description: プロファイルとAudience Activation
-solution: Experience Platform,Real-time Customer Data Platform,Target,Audience Manager,Analytics,Experience Cloud Services,Data Collection
-kt: 7086
-exl-id: 32133174-eb28-44ce-ab2a-63fcb5b51cb5
+title: Enterprise Destinations Blueprintへのオーディエンスとプロファイルのアクティベーション
+description: Enterprise Destinationsへのオーディエンスおよびプロファイルアクティベーション
+solution: Experience Platform,Real-time Customer Data Platform
+kt: 7475
+exl-id: null
 translation-type: tm+mt
-source-git-commit: 2fa5fc1def554713b057e1478bdd65a15913e0e4
+source-git-commit: e9e8473f62fa222e483f7aeed33148433f1ec427
 workflow-type: tm+mt
-source-wordcount: '633'
+source-wordcount: '662'
 ht-degree: 0%
 
 ---
 
 
-# Enterprise Destinations BlueprintへのプロファイルとAudience Activation
+# Enterprise Destinations Blueprintへのオーディエンスとプロファイルのアクティベーション
 
-アクティベーションおよびレポートの使用例に応じて、エンタープライズ・データ・ストアに対するプロファイル変更のレプリケーションと更新を行います。
+アクティベーションおよびレポートの使用例に応じて、プロファイルおよびオーディエンスの変更をエンタープライズ・データ・ストアにレプリケーションおよび更新します。
 
 リアルタイム顧客データプラットフォームからエンタープライズシステムやアプリケーションに対する顧客行動を通知することで、顧客に対する販売またはサポート行動を開始します。
 
@@ -79,10 +79,12 @@ ht-degree: 0%
 
 ## 関連ドキュメント
 
+* [Destinationsドキュメント](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/overview.html)
+* [Enterprise Cloudストレージの宛先](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/overview.html?lang=en#catalog)
+* [HTTP宛先](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/http-destination.html?lang=en#overview)
 * [リアルタイム顧客データプラットフォーム製品の説明](https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform.html)
 * [プロファイルとセグメント化のガイドライン](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=en)
 * [セグメントドキュメント](https://experienceleague.adobe.com/docs/experience-platform/segmentation/api/streaming-segmentation.html)
-* [Destinationsドキュメント](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/overview.html)
 
 ## 関連するビデオとTutorials
 
