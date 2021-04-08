@@ -6,9 +6,9 @@ kt: 7207
 thumbnail: null
 exl-id: 3b22dfdd-3fbe-40b3-b798-1ee983723039,a972ea56-d1c8-45da-9044-ed31222a2441
 translation-type: tm+mt
-source-git-commit: 77ddc003d4328074ad269de5837a02f5e6d6add5
+source-git-commit: cd98c46d948af9026449c947496df82fd1be6718
 workflow-type: tm+mt
-source-wordcount: '361'
+source-wordcount: '285'
 ht-degree: 0%
 
 ---
@@ -32,13 +32,6 @@ Experience Platformのクエリサービスを使用すると、SQLクエリを�
 ## アプリ
 
 * Adobe Experience Platform
-
-## シナリオ
-
-| シナリオ | 説明 | Experience Cloudアプリケーション/サービス |
-|---|---|---|
-| **データ調査 — データの生クエリ** | <ul><li>対話型クエリ・ユーザー・インタフェースまたは接続されたSQLクライアントを使用して、データ・レークでSQLクエリを書き込み、実行します。 Data Science Workspaceは、Experience Platform内の生のデータをクエリし、インサイトを得るためにも使用できます。</li></ul> | <ul><li>Adobe Experience Platform</li></ul> |
-| **Enterprise Dashboarding** | <ul><li>Business IntelligenceツールをExperience Platformに接続して、ダッシュボーディングおよびレポートの使用例に応じてデータを視覚化します。</li></ul> | <ul><li>Adobe Experience Platform</li></ul> |
 
 ## 建築
 
