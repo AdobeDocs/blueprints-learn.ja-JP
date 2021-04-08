@@ -5,9 +5,9 @@ solution: Experience Platform, Real-time Customer Data Platform, Target, Audienc
 kt: 7194thumb-web-personalization-scenario2.jpg
 exl-id: 29667c0e-bb79-432e-af3a-45bd0b3b43bb
 translation-type: tm+mt
-source-git-commit: 844fff1cefe367575beb5c03aa0f0d026eb9f39b
+source-git-commit: e9e8473f62fa222e483f7aeed33148433f1ec427
 workflow-type: tm+mt
-source-wordcount: '971'
+source-wordcount: '973'
 ht-degree: 0%
 
 ---
@@ -41,6 +41,21 @@ Webパーソナライゼーションを電子メールや、既知の匿名チ�
 * ストリーミングセグメントは約5分以内に実現されます。 これらのセグメントの再分割が行われると、数分以内にAudience Managerに共有され、ターゲット内の同じ/次のページのパーソナライゼーションに使用できます。
 * デフォルトでは、セグメント共有サービスでは、各Adobe Analyticsレポートスイートで最大75オーディエンスを共有できます。 お客様がAudience Managerライセンスを持っている場合、Adobe AnalyticsとAdobe Target、Audience ManagerとAdobe Targetの間で共有できるオーディエンスの数に制限はありません。
 
+## 実装パターン
+
+Web/モバイルパーソナライゼーションのBlueprintは、以下に説明する方法で実装できます。
+
+1. プラットフォームWeb SDK/モバイルSDKとEdge Networkを使用する。
+1. 従来のアプリケーション固有のSDK（AppMeasurement.jsなど）の使用
+
+### 1.プラットフォームWeb/モバイルSDKとエッジアプローチ
+
+<img src="assets/websdkflow.svg" alt="プラットフォームWeb SDK/モバイルSDKおよびエッジネットワークアプローチのリファレンスアーキテクチャ" style="border:1px solid #4a4a4a" />
+
+### 2.アプリケーション固有のSDKアプローチ
+
+<img src="assets/appsdkflow.png" alt="アプリケーション固有のSDKアプローチのリファレンスアーキテクチャ" style="border:1px solid #4a4a4a" />
+
 ## 導入の前提条件
 
 | 申し込み/サービス | 必要なライブラリ | メモ |
@@ -64,18 +79,6 @@ Webパーソナライゼーションを電子メールや、既知の匿名チ�
    >
    >各アプリケーションでExperience CloudIDを使用し、同じExperience Cloud組織に属している必要があります。これにより、複数のアプリケーション間でオーディエンスを共有できます。
 1. [Experience PlatformとAdobe Targetの間でのオーディエンス共有のプロビジョニングの要求(共有オーディエンス)](https://www.adobe.com/go/audiences)
-
-## 導入データフロー図
-
-Web/モバイルパーソナライゼーションのブループリントは、従来のアプリケーション固有のSDK（AppMeasurement.jsなど）を使用するか、プラットフォームのWeb SDK/モバイルSDKとEdge Networkを使用して実装できます。
-
-### プラットフォームWeb/モバイルSDKとエッジアプローチ
-
-<img src="assets/websdkflow.svg" alt="プラットフォームWeb SDK/モバイルSDKおよびエッジネットワークアプローチのリファレンスアーキテクチャ" style="border:1px solid #4a4a4a" />
-
-### アプリケーション固有のSDKアプローチ
-
-<img src="assets/appsdkflow.png" alt="アプリケーション固有のSDKアプローチのリファレンスアーキテクチャ" style="border:1px solid #4a4a4a" />
 
 ## 関連ドキュメント
 
