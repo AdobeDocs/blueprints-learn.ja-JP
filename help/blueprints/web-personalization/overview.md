@@ -6,7 +6,7 @@ kt: null
 thumbnail: null
 exl-id: 8ad028fd-3190-42da-9f46-7e927e8878f8
 translation-type: tm+mt
-source-git-commit: 844fff1cefe367575beb5c03aa0f0d026eb9f39b
+source-git-commit: e9e8473f62fa222e483f7aeed33148433f1ec427
 workflow-type: tm+mt
 source-wordcount: '384'
 ht-degree: 2%
@@ -14,7 +14,6 @@ ht-degree: 2%
 ---
 
 # Webとモバイルのパーソナライゼーション
-
 
 Webおよびモバイルパーソナライゼーションでは、複数のアプリケーションでオーディエンスのセグメント化を使用して、顧客体験をパーソナライズし、最適化する機能に対応しています。 顧客の行動、人口統計、忠誠度レベルおよび前のトランザクションを使用して、レイアウト、誘い文句（CTA：コールトゥアクション）、コンテンツをパーソナライズできます。
 
