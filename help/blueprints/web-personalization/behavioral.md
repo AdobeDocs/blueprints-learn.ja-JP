@@ -5,9 +5,9 @@ solution: Experience Platform, Target, Audience Manager, Analytics, Experience C
 kt: 7085thumb-web-personalization-scenario1.jpg
 exl-id: b9882c2c-cb45-4efa-a85c-8fe48f641a12
 translation-type: tm+mt
-source-git-commit: 844fff1cefe367575beb5c03aa0f0d026eb9f39b
+source-git-commit: e9e8473f62fa222e483f7aeed33148433f1ec427
 workflow-type: tm+mt
-source-wordcount: '607'
+source-wordcount: '605'
 ht-degree: 0%
 
 ---
@@ -37,6 +37,24 @@ ht-degree: 0%
 
 セグメント共有サービスでは、デフォルトで各Adobe Analyticsレポートスイートで最大75オーディエンスを共有できます。 Audience Managerをオーディエンス共有に使用する場合、共有できるオーディエンスの数に制限はありません。 
 
+## 実装パターン
+
+Web/モバイルパーソナライゼーションのBlueprintは、以下に説明する方法で実装できます。
+
+1. プラットフォームWeb SDK/モバイルSDKとEdge Networkを使用する。
+1. 従来のアプリケーション固有のSDK（AppMeasurement.jsなど）の使用
+
+### 1.プラットフォームWeb/モバイルSDKとエッジアプローチ
+
+<img src="assets/websdkflow.svg" alt="プラットフォームWeb SDK/モバイルSDKおよびエッジネットワークアプローチのリファレンスアーキテクチャ" style="border:1px solid #4a4a4a" />
+
+### 2.アプリケーション固有のSDKアプローチ
+
+<img src="assets/appsdkflow.png" alt="アプリケーション固有のSDKアプローチのリファレンスアーキテクチャ" style="border:1px solid #4a4a4a" />
+
+
+
+
 ## 導入の前提条件
 
 | 申し込み/サービス | 必要なライブラリ | メモ |
@@ -65,21 +83,6 @@ ht-degree: 0%
 1. [ユーザーとオーディエンス共有サービスのプロビジョニングを要求する(共有オーディエンス)](https://www.adobe.com/go/audiences)
 1. [Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-build.html)または[Adobe Audience Manager](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/segments/segment-builder.html)にセグメントを作成し、[Experience Cloud](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-publish.html)に共有するオーディエンスを設定します(Audience ManagerまたはAdobe Analyticsを使用している場合)
 1. Adobe Targetでオーディエンスが入手できたら、それらを[Adobe Target](https://experienceleague.adobe.com/docs/target/using/audiences/target.html)でのエクスペリエンスをターゲット設定するために使用できます。
-
-
-## 導入データフロー図
-
-Web/モバイルパーソナライゼーションのBlueprintは、プラットフォームWeb SDKまたはモバイルSDKとEdgeネットワークを使用するか、従来のアプリケーション固有のSDK（例えば、AppMeasurement.js）を使用して実装できます。
-
-### プラットフォームWeb/モバイルSDKとエッジネットワークアプローチ
-
-<img src="assets/websdkflow.svg" alt="プラットフォームWeb SDK/モバイルSDKおよびエッジネットワークアプローチのリファレンスアーキテクチャ" style="border:1px solid #4a4a4a" />
-
-
-### アプリケーション固有のSDKアプローチ
-
-<img src="assets/appsdkflow.png" alt="アプリケーション固有のSDKアプローチのリファレンスアーキテクチャ" style="border:1px solid #4a4a4a" />
-
 
 ## 関連ドキュメント
 
