@@ -5,7 +5,7 @@ solution: Experience Platform, Campaign
 kt: 7196
 exl-id: 4e55218c-c158-4f78-9f0b-c03528d992fa
 translation-type: tm+mt
-source-git-commit: ee1d97af9bf58076fbce24fbc8a3f0d50a4b52a0
+source-git-commit: 009a55715b832c3167e9a3413ccf89e0493227df
 workflow-type: tm+mt
 source-wordcount: '544'
 ht-degree: 0%
@@ -33,7 +33,7 @@ Adobe Experience Platformを顧客のプロファイルとセグメント化の�
 
 ## 建築
 
-<img src="assets/aepbatch.svg" alt="バッチメッセージングとAdobe Experience Platformシナリオのリファレンスアーキテクチャ" style="border:1px solid #4a4a4a" />
+<img src="assets/aepbatch.svg" alt="Batch MessagingとAdobe Experience PlatformのBlueprintのリファレンスアーキテクチャ" style="border:1px solid #4a4a4a" />
 
 ## ガードレール
 
@@ -69,7 +69,7 @@ Adobe Experience Platformを顧客のプロファイルとセグメント化の�
 1. 顧客固有の名前空間を作成します。
 1. ID追加をスキーマに送信します。
 1. プロファイルのスキーマとデータセットを有効にします。
-1. 様々な表示のリアルタイム顧客プロファイル用にマージルールを設定します（オプション）。
+1. 異なる表示の[!UICONTROL リアルタイム顧客プロファイル]（オプション）にマージルールを設定します。
 1. キャンペーンに使用するセグメントを作成します。
 
 #### ソース/宛先
