@@ -6,9 +6,9 @@ kt: 7204
 thumbnail: null
 exl-id: 21f8a73e-6be7-448e-8cd3-ebee9fc848e1,5c3c94b6-c928-4d93-8b38-f8bd2aad2e68
 translation-type: tm+mt
-source-git-commit: cd98c46d948af9026449c947496df82fd1be6718
+source-git-commit: 2343151a1ed5374c299fb9317f6282c232d5d23b
 workflow-type: tm+mt
-source-wordcount: '667'
+source-wordcount: '598'
 ht-degree: 0%
 
 ---
@@ -40,19 +40,19 @@ ht-degree: 0%
 
 | データの作成の方法 | 説明 |
 |------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| データサイエンスワークスペース — データ準備 | モデル駆動変換、スクリプト変換。<br>[ドキュメント](https://experienceleague.adobe.com/docs/experience-platform/data-science-workspace/home.html?lang=en) |
+| [!UICONTROL Data Science Workspace]  — データ準備 | モデル駆動変換、スクリプト変換。<br>[ドキュメント](https://experienceleague.adobe.com/docs/experience-platform/data-science-workspace/home.html?lang=en) |
 >[!NOTE]
 >
 >|外部ETLツール（[!DNL Snaplogic]、[!DNL Mulesoft]、[!DNL Informatica]など） | ETLツールで複雑な変換を実行し、標準のExperience PlatformソースAPIまたはコネクタを使用して結果のデータを取り込みます。                                                                                                                                                               |
 
-|クエリサービス — データ準備                                  |データの結合、分割、結合、変換、クエリ、フィルターを新しいデータセットにまとめます。 テーブルを選択として作成(CTAS) <br>[ドキュメント](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=en#sql)の使用                                                                       |
+| [!UICONTROL クエリサービス] — データ準備                                  |データの結合、分割、結合、変換、クエリ、フィルターを新しいデータセットにまとめます。 テーブルを選択として作成(CTAS) <br>[ドキュメント](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=en#sql)の使用                                                                       |
 | XDMマッパーとデータ準備関数（ストリーミングとバッチ）     |Experience Platformの取り込み中に、CSVまたはJSON形式のソース属性をXDM属性にマップします。<br>データの取り込み時に関数を計算するつまり、データの形式設定、分割、連結などを行います。<br>[ドキュメント](https://experienceleague.adobe.com/docs/experience-platform/data-prep/home.html?lang=en) |
 
 ## 関連するブログ投稿
 
-* [Adobe Experience PlatformJourney Orchestrationでの外部データ・プラットフォームの活用](https://medium.com/adobetech/leveraging-external-data-platforms-in-adobe-experience-platform-journey-orchestration-54fc6134fe17?source=your_stories_page-------------------------------------)
-* [Icebergによる高スループットの取り込み](https://medium.com/adobetech/high-throughput-ingestion-with-iceberg-ccf7877a413f?source=your_stories_page-------------------------------------)
-* [Adobe Experience Platformでのクエリサービスのテクニック(クエリの作成と派生データセットの保存)](https://medium.com/adobetech/query-service-tricks-in-adobe-experience-platform-writing-queries-and-storing-derived-datasets-eaee0d6d683e?source=your_stories_page-------------------------------------)
-* [Adobe Experience Platformのエクスペリエンスデータモデルを掘り下げて、リアルタイムの顧客プロファイルのパワーをより深く理解](https://medium.com/adobetech/digging-into-adobe-experience-platforms-experience-data-model-to-more-fully-understand-the-power-3e109271e04f?source=your_stories_page-------------------------------------)
-* [Adobe Experience Platformの探索的データ分析の前置き](https://medium.com/adobetech/an-introductory-look-at-exploratory-data-analysis-on-adobe-experience-platform-1bfce7501d9a?source=your_stories_page-------------------------------------)
-* [Adobe Experience Platformでデータ科学のXDMデータを大規模にモデリングする](https://medium.com/adobetech/modeling-xdm-data-for-data-science-at-scale-on-adobe-experience-platform-222bb2a6dbf7?source=your_stories_page-------------------------------------)
+* [[!DNL Leveraging External Data Platforms in Adobe Experience Platform Journey Orchestration]](https://medium.com/adobetech/leveraging-external-data-platforms-in-adobe-experience-platform-journey-orchestration-54fc6134fe17?source=your_stories_page-------------------------------------)
+* [[!DNL High Throughput Ingestion with Iceberg]](https://medium.com/adobetech/high-throughput-ingestion-with-iceberg-ccf7877a413f?source=your_stories_page-------------------------------------)
+* [[!DNL Query Service Tricks in Adobe Experience Platform (Writing Queries and Storing Derived Datasets)]](https://medium.com/adobetech/query-service-tricks-in-adobe-experience-platform-writing-queries-and-storing-derived-datasets-eaee0d6d683e?source=your_stories_page-------------------------------------)
+* [[!DNL Digging into Adobe Experience Platform’s Experience Data Model to More Fully Understand the Power of Real-time Customer Profile]](https://medium.com/adobetech/digging-into-adobe-experience-platforms-experience-data-model-to-more-fully-understand-the-power-3e109271e04f?source=your_stories_page-------------------------------------)
+* [[!DNL An Introductory Look at Exploratory Data Analysis on Adobe Experience Platform]](https://medium.com/adobetech/an-introductory-look-at-exploratory-data-analysis-on-adobe-experience-platform-1bfce7501d9a?source=your_stories_page-------------------------------------)
+* [[!DNL Modeling XDM Data for Data Science at Scale on Adobe Experience Platform]](https://medium.com/adobetech/modeling-xdm-data-for-data-science-at-scale-on-adobe-experience-platform-222bb2a6dbf7?source=your_stories_page-------------------------------------)
