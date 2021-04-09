@@ -5,9 +5,9 @@ solution: Experience Platform, Real-time Customer Data Platform, Target, Audienc
 kt: 7086
 exl-id: 011f4909-b208-46db-ac1c-55b3671ee48c
 translation-type: tm+mt
-source-git-commit: 844fff1cefe367575beb5c03aa0f0d026eb9f39b
+source-git-commit: 2404d871a852df8fed3adb97a79cc15e994db762
 workflow-type: tm+mt
-source-wordcount: '724'
+source-wordcount: '731'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,7 @@ ht-degree: 0%
 ## アプリ
 
 * Adobe Experience Platform
-* リアルタイム顧客データプラットフォーム
+* [!UICONTROL リアルタイム顧客データプラットフォーム]
 
 ## 建築
 
@@ -39,8 +39,8 @@ ht-degree: 0%
 * バッチセグメントジョブは、事前に決定されたスケジュールに基づいて1日に1回実行されます。 次に、セグメントエクスポートジョブは、スケジュールされた宛先配信の前に実行されます。 バッチセグメントジョブと宛先配信ジョブは、別々に実行されます。 バッチセグメントジョブと書き出しジョブのパフォーマンスは、プロファイル数、プロファイルのサイズ、評価対象のセグメント数に依存します。
 * ストリーミングセグメントジョブは、プロファイルに到着するストリーミングデータの分単位で評価され、即座にセグメントのメンバーシップがプロファイルに書き込まれ、登録するアプリケーションのイベントが送信されます。
 * ストリーミングセグメントのメンバーシップは、ストリーミング先に対して即座に行われ、単一のセグメントのメンバーシップイベントまたは宛先の取り込みパターンに依存する複数のプロファイルイベントのマイクロバッチで配信されます。 スケジュール済みの宛先は、配信前にプロファイルから、セグメントエクスポートジョブを開始します。ストリーミングで評価され、スケジュール済みのバッチセグメント配信を介して配信されるセグメントについて、
-* RTCDPセグメントのメンバーシップをAudience Managerに共有する場合、この処理は、セグメントのストリーミングに関しては数分以内に、バッチセグメントに関するバッチセグメント評価が完了した時点で数分以内に行われます。
-* Experience Platform間で共有されるセグメントは、セグメントの実現から数分以内に共有されます。セグメントの実現は、ストリーミングまたはバッチの評価の方法を使用して行われます。 AEPとAAMの間で、最初にセグメントが作成された後、最初にセグメント設定を同期することができます。約4時間後に、AAMプロファイルでAEPセグメントのメンバーシップが実現され始めます。 Experience PlatformとAudience Managerオーディエンスの共有の構成前、またはオーディエンスメタデータがExperience Platform間で同期される前に実現されたオーディエンスメンバーシップは、「既存」のセグメントメンバーシップが共有される次のセグメントジョブまでAudience Managerで実現されません。
+* [!UICONTROL Real-time Customer Data Platform]のセグメントメンバーシップをAudience Managerに共有する場合、セグメントのストリーミングに関しては数分以内に、バッチセグメント用のバッチセグメント評価が完了した時点で数分以内に発生します。
+* Experience Platform間で共有されるセグメントは、セグメントの実現から数分以内に共有されます。セグメントの実現は、ストリーミングまたはバッチの評価の方法を使用して行われます。 Experience PlatformとAudience Managerの間で、最初にセグメントを作成した後、最初にセグメントの設定を同期できます。4時間後に、Experience PlatformセグメントのメンバーシップがAudience Managerプロファイルで実現され始めます。 Experience PlatformとAudience Managerオーディエンスの共有の構成前、またはオーディエンスメタデータがExperience Platform間で同期される前に実現されたオーディエンスメンバーシップは、「既存」のセグメントメンバーシップが共有される次のセグメントジョブまでAudience Managerで実現されません。
 * バッチセグメントジョブからの宛先ジョブをバッチまたはストリーミングする場合、プロファイル属性の更新とセグメントのメンバーシップを共有できます。
 * ストリーミング送信先へのセグメント化ジョブは、セグメントメンバーシップの更新のみを共有します。
 
@@ -50,25 +50,25 @@ ht-degree: 0%
 1. スキーマ上の正しいIDとIDの名前空間を設定し、取り込んだデータを統合プロファイルに確実に結合できるようにします。
 1. プロファイル用のスキーマとデータセットを有効にします。
 1. データをプラットフォームに取り込みます。
-1. Experience Platformで定義されたオーディエンスをAudience Managerに共有するために、Experience PlatformとAudience Managerの間でReal-time Customer Data Platformセグメント共有をプロビジョニングします。
+1. Experience PlatformとAudience Managerの間で[!UICONTROL Real-time Customer Data Platform]のセグメント共有をプロビジョニングし、Experience Platformで定義されたオーディエンスをAudience Managerに共有します。
 1. Experience Platform内の作成者セグメント。バッチまたはストリーミングで評価されます。 セグメントがバッチとストリーミングのどちらとして評価されるかは、システムによって自動的に判断されます。
 1. プロファイル属性とオーディエンスのメンバーシップを目的の宛先に共有する宛先を設定します。
 
 ## 実装に関する考慮事項
 
-* 宛先にプロファイルデータを共有するには、宛先のペイロードで使用する特定のID値を宛先のペイロードに含める必要があります。 ターゲットの宛先に必要なIDはすべて、プラットフォームに取り込まれ、リアルタイム顧客プロファイルのIDとして設定する必要があります。
+* 宛先にプロファイルデータを共有するには、宛先のペイロードで使用する特定のID値を宛先のペイロードに含める必要があります。 ターゲットの宛先に必要なIDはすべて、プラットフォームに取り込まれ、[!UICONTROL リアルタイムカスタマープロファイル]のIDとして設定する必要があります。
 
 * オーディエンスをExperience Platform間で共有するアクティベーションシナリオでは、[!UICONTROL リアルタイム顧客プロファイル]に含まれるすべてのIDがAudience Managerに共有されます。 Experience Platformのオーディエンスは、必要な宛先IDが[!UICONTROL リアルタイム顧客プロファイル]に含まれる場合はAudience Manager先を通じて共有でき、[!UICONTROL リアルタイム顧客プロファイル]のIDがAudience Manager内でリンクされている必要な宛先IDと関連付けられる場合は共有できます。
 
 ## 関連ドキュメント
 
-* [リアルタイム顧客データプラットフォーム製品の説明](https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform.html)
-* [プロファイルとセグメント化のガイドライン](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=en)
+* [[!UICONTROL リアルタイム顧客データ] プラットフォーム製品の説明](https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform.html)
+* [プロファイルと分類のガイドライン](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=en)
 * [セグメントドキュメント](https://experienceleague.adobe.com/docs/experience-platform/segmentation/api/streaming-segmentation.html)
 * [Destinationsドキュメント](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/overview.html)
 
 ## 関連するビデオとTutorials
 
-* [リアルタイム顧客データプラットフォームの概要](https://experienceleague.adobe.com/docs/platform-learn/tutorials/application-services/rtcdp/understanding-the-real-time-customer-data-platform.html)
-* [リアルタイム顧客データプラットフォームのデモ](https://experienceleague.adobe.com/docs/platform-learn/tutorials/application-services/rtcdp/demo.html)
+* [[!UICONTROL リアルタイム顧客データ] プラットフォームビュー](https://experienceleague.adobe.com/docs/platform-learn/tutorials/application-services/rtcdp/understanding-the-real-time-customer-data-platform.html)
+* [リアルタイム顧客データプラット [!UICONTROL フォームのデモ]](https://experienceleague.adobe.com/docs/platform-learn/tutorials/application-services/rtcdp/demo.html)
 * [セグメントの作成](https://experienceleague.adobe.com/docs/platform-learn/tutorials/segments/create-segments.html)
