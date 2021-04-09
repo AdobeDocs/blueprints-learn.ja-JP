@@ -4,9 +4,9 @@ description: Digital Experience Blueprintsは、戦略に対処し、確立さ�
 solution: Experience Platform
 exl-id: 52898310-9723-4ec2-ba10-f45fefe29e93
 translation-type: tm+mt
-source-git-commit: 5ee692fb1ffe0e360f561a8fdaa0c21b6545d41b
+source-git-commit: 652f8d2cab997418aa8752d3d2c80f715ef6a85c
 workflow-type: tm+mt
-source-wordcount: '280'
+source-wordcount: '274'
 ht-degree: 2%
 
 ---
@@ -34,19 +34,18 @@ Digital Experience Blueprintsは、戦略に対処し、確立されたビジネ
 <table style="table-layout:fixed">
 <tr>
   <td>
-    <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/multi-channel-message-orchestration/triggered-messaging.html"><img alt="トリガーされたメッセージングとAdobe Experience Platformのブループリントのサムネール画像" src="multi-channel-message-orchestration/assets/triggered.svg" /></a>
-    <div><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/multi-channel-message-orchestration/triggered-messaging.html"><strong>トリガーされたメッセージングとAdobe Experience PlatformのBlueprint</strong></a></div>
-    <p><em>Adobe Experience Platformを中心としたトリガーメッセージとエクスペリエンス。</em></p>
+    <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/multi-channel-message-orchestration/triggered-messaging.html"><img alt="トリガーされたメッセージングとExperience PlatformのBlueprintのサムネール画像" src="multi-channel-message-orchestration/assets/triggered.svg" /></a>
+    <div><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/multi-channel-message-orchestration/triggered-messaging.html"><strong>トリガーされたメッセージングとExperience Platform</strong></a></div>
+    <p><em>[!UICONTROL Platform]を中央ハブとして使用するトリガーメッセージとエクスペリエンス。</em></p>
   </td>
   <td>
     <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/online-offline.html"><img alt="オンライン/オフラインAudience ActivationのBlueprintのサムネール画像" src="audience-activation/assets/onoff.svg" /></a>
-    <div><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/online-offline.html"><strong>オンライン/オフラインAudience Activationのブループリント</strong></a></div>
+    <div><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/online-offline.html"><strong>オンライン/オフラインAudience Activation</strong></a></div>
     <p><em>オーディエンスがアクティブ化したクロスチャネル広告を配信します。</em></p>
   </td>
   <td>
     <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journey-analytics/digital-behavioral-data-consolidation.html"><img alt="Digital Behavioral Data Consolidation Blueprintのサムネール画像" src="customer-journey-analytics/assets/CJA.svg" /></a>
-    <div><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journey-analytics/digital-behavioral-data-consolidation.html"><strong>Digital Behavioral Data Consolidation Blueprint 
-</strong></a></div>
+    <div><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journey-analytics/digital-behavioral-data-consolidation.html"><strong>デジタル行動データ統合</strong></a></div>
     <p><em>様々なチャネルにわたる顧客行動を1つの統合表示で把握</em></p>
   </td>
 </tr>
