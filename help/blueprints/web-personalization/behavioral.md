@@ -5,9 +5,9 @@ solution: Experience Platform, Target, Audience Manager, Analytics, Experience C
 kt: 7085thumb-web-personalization-scenario1.jpg
 exl-id: b9882c2c-cb45-4efa-a85c-8fe48f641a12
 translation-type: tm+mt
-source-git-commit: 087da6c5c5c6a6e9deee890d2ea02cf8591bdf15
+source-git-commit: 870541f548266ab82d74fec2e84b8cb6d5c952eb
 workflow-type: tm+mt
-source-wordcount: '524'
+source-wordcount: '532'
 ht-degree: 0%
 
 ---
@@ -41,12 +41,12 @@ ht-degree: 0%
 
 Web/モバイルパーソナライゼーションのBlueprintは、以下に説明する方法で実装できます。
 
-1. プラットフォームWeb SDK/モバイルSDKとEdge Networkを使用する。
+1. [!UICONTROL プラットフォームWeb SDK]または[!UICONTROL プラットフォームモバイルSDK]と[!UICONTROL エッジネットワーク]を使用する。
 1. 従来のアプリケーション固有のSDK（AppMeasurement.jsなど）の使用
 
 ### 1.プラットフォームWeb/モバイルSDKとエッジアプローチ
 
-<img src="assets/websdkflow.svg" alt="プラットフォームWeb SDK/モバイルSDKおよびエッジネットワークアプローチのリファレンスアーキテクチャ" style="border:1px solid #4a4a4a" />
+<img src="assets/websdkflow.svg" alt="[!UICONTROLプラットフォームWeb SDK]または[!UICONTROLプラットフォームモバイルSDK]および[!UICONTROLエッジネットワーク]アプローチのリファレンスアーキテクチャ" style="border:1px solid #4a4a4a" />
 
 ### 2.アプリケーション固有のSDKアプローチ
 
@@ -59,10 +59,10 @@ Web/モバイルパーソナライゼーションのBlueprintは、以下に説�
 
 | 申し込み/サービス | 必要なライブラリ | メモ |
 |---|---|---|
-| Adobe Target | プラットフォームWeb SDK*、at.js 0.9.1以降、またはmbox.js 61+ | at.jsは、mbox.jsが開発されなくなったので、推奨されます。 |
-| Adobe Audience Manager（オプション） | プラットフォームWeb SDK*またはdil.js 5.0+ |  |
-| Adobe Analytics（オプション） | プラットフォームWeb SDK*またはAppMeasurement.js 1.6.4以降 |  |
-| Experience CloudIDサービス | プラットフォームWeb SDK*またはVisitorAPI.js 2.0以降 |  |
+| Adobe Target | [!UICONTROL プラットフォームWeb SDK]*、at.js 0.9.1以上、またはmbox.js 61+ | at.jsは、mbox.jsが開発されなくなったので、推奨されます。 |
+| Adobe Audience Manager（オプション） | [!UICONTROL プラットフォームWeb SDK]*またはdil.js 5.0+ |  |
+| Adobe Analytics（オプション） | [!UICONTROL プラットフォームWeb SDK]*またはAppMeasurement.js 1.6.4以降 |  |
+| Experience CloudIDサービス | [!UICONTROL プラットフォームWeb SDK]*またはVisitorAPI.js 2.0以降 |  |
 | Experience PlatformモバイルSDK（オプション） | iOSおよびAndroid™の場合は4.11以降 |  |
 | Experience PlatformWeb SDK | 1.0、現在のExperience PlatformSDKバージョンでは、[様々な使用例がExperience Cloudアプリケーションでまだサポートされていません](https://github.com/adobe/alloy/projects/5) |  |
 
@@ -70,7 +70,7 @@ Web/モバイルパーソナライゼーションのBlueprintは、以下に説�
 
 1. [Webアプリケーションまたはモバイルアプリケ](https://experienceleague.adobe.com/docs/target/using/implement-target/implementing-target.html) ーション用にAdobeターゲットを実装します。
 
-   Audience ManagerまたはAnalyticsを使用している場合：
+   Audience ManagerまたはAdobe Analyticsを使用する場合：
 
 1. [Adobe Audience Managerの実装](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/implement-audience-manager.html)
 1. [Adobe Analyticsの実装](https://experienceleague.adobe.com/docs/analytics/implementation/home.html)
