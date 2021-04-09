@@ -6,7 +6,7 @@ kt: 7207
 thumbnail: null
 exl-id: 3b22dfdd-3fbe-40b3-b798-1ee983723039,a972ea56-d1c8-45da-9044-ed31222a2441
 translation-type: tm+mt
-source-git-commit: 9a5137c5e71946c258cb94188ee53d742396d361
+source-git-commit: 009a55715b832c3167e9a3413ccf89e0493227df
 workflow-type: tm+mt
 source-wordcount: '283'
 ht-degree: 0%
@@ -21,7 +21,7 @@ Experience Platformの[!UICONTROL クエリサービス]では、SQLクエリを
 
 また、Experience Platformでは、サードパーティのSQLクライアント、インターフェイス、およびBusiness Intelligence(BI)ツールとの接続を[!DNL PostgreSQL]プロトコルを使用して、Experience Platform内のデータに直接接続し、アクセスし、クエリできます。
 
-シナリオの詳細に示すように、クエリのタイムアウトと、クエリ結果に含まれるデータ量に適用されるガードレールもあります。
+設計図の詳細に示すように、クエリのタイムアウトと、クエリ結果に含まれるデータ量に適用されるガードレールもあります。
 
 ## 使用例
 
