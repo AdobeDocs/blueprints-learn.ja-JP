@@ -6,9 +6,9 @@ kt: 7204
 thumbnail: null
 exl-id: 21f8a73e-6be7-448e-8cd3-ebee9fc848e1,5c3c94b6-c928-4d93-8b38-f8bd2aad2e68
 translation-type: tm+mt
-source-git-commit: 2343151a1ed5374c299fb9317f6282c232d5d23b
+source-git-commit: 37416aafc997838888edec2658d2621d20839f94
 workflow-type: tm+mt
-source-wordcount: '598'
+source-wordcount: '600'
 ht-degree: 0%
 
 ---
@@ -41,12 +41,9 @@ ht-degree: 0%
 | データの作成の方法 | 説明 |
 |------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Data Science Workspace]  — データ準備 | モデル駆動変換、スクリプト変換。<br>[ドキュメント](https://experienceleague.adobe.com/docs/experience-platform/data-science-workspace/home.html?lang=en) |
->[!NOTE]
->
->|外部ETLツール（[!DNL Snaplogic]、[!DNL Mulesoft]、[!DNL Informatica]など） | ETLツールで複雑な変換を実行し、標準のExperience PlatformソースAPIまたはコネクタを使用して結果のデータを取り込みます。                                                                                                                                                               |
-
-| [!UICONTROL クエリサービス] — データ準備                                  |データの結合、分割、結合、変換、クエリ、フィルターを新しいデータセットにまとめます。 テーブルを選択として作成(CTAS) <br>[ドキュメント](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=en#sql)の使用                                                                       |
-| XDMマッパーとデータ準備関数（ストリーミングとバッチ）     |Experience Platformの取り込み中に、CSVまたはJSON形式のソース属性をXDM属性にマップします。<br>データの取り込み時に関数を計算するつまり、データの形式設定、分割、連結などを行います。<br>[ドキュメント](https://experienceleague.adobe.com/docs/experience-platform/data-prep/home.html?lang=en) |
+| 外部ETLツール（[!DNL Snaplogic]、[!DNL Mulesoft]、[!DNL Informatica]など） | ETLツールで複雑な変換を実行し、標準Experience Platform[!UICONTROL フローサービス]APIまたはソースコネクタを使用して結果のデータを取り込みます。 |
+| [!UICONTROL クエリサービス]  — データ準備 | 結合、分割、結合、変換、クエリ、フィルタの各データを新しいデータセットにまとめます。 テーブルを選択として作成(CTAS) <br>[ドキュメント](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=en#sql)の使用 |
+| XDMマッパーとデータ準備機能（ストリーミングとバッチ） | Experience Platformの取り込み時に、CSV形式またはJSON形式のソース属性をXDM属性にマップします。<br>データの取り込み時に関数を計算するつまり、データの形式設定、分割、連結などを行います。<br>[ドキュメント](https://experienceleague.adobe.com/docs/experience-platform/data-prep/home.html?lang=en) |
 
 ## 関連するブログ投稿
 
