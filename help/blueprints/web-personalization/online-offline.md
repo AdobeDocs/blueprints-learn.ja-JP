@@ -5,9 +5,9 @@ solution: Experience Platform, Real-time Customer Data Platform, Target, Audienc
 kt: 7194thumb-web-personalization-scenario2.jpg
 exl-id: 29667c0e-bb79-432e-af3a-45bd0b3b43bb
 translation-type: tm+mt
-source-git-commit: cbc9c48041d00c45fc75d3bb65bd865f1f7ecc9c
+source-git-commit: 37416aafc997838888edec2658d2621d20839f94
 workflow-type: tm+mt
-source-wordcount: '858'
+source-wordcount: '865'
 ht-degree: 0%
 
 ---
@@ -45,12 +45,12 @@ Webパーソナライゼーションを電子メールや、既知の匿名チ�
 
 Web/モバイルパーソナライゼーションのBlueprintは、以下に説明する方法で実装できます。
 
-1. プラットフォームWeb SDK/モバイルSDKとEdge Networkを使用する。
+1. [!UICONTROL プラットフォームWeb SDK]または[!UICONTROL プラットフォームモバイルSDK]と[!UICONTROL エッジネットワーク]を使用する。
 1. 従来のアプリケーション固有のSDK（AppMeasurement.jsなど）の使用
 
 ### 1.プラットフォームWeb/モバイルSDKとエッジアプローチ
 
-<img src="assets/websdkflow.svg" alt="プラットフォームWeb SDK/モバイルSDKおよびエッジネットワークアプローチのリファレンスアーキテクチャ" style="border:1px solid #4a4a4a" />
+<img src="assets/websdkflow.svg" alt="[!UICONTROLプラットフォームWeb SDK]または[!UICONTROLプラットフォームモバイルSDK]および[!UICONTROLエッジネットワーク]アプローチのリファレンスアーキテクチャ" style="border:1px solid #4a4a4a" />
 
 ### 2.アプリケーション固有のSDKアプローチ
 
@@ -60,10 +60,10 @@ Web/モバイルパーソナライゼーションのBlueprintは、以下に説�
 
 | 申し込み/サービス | 必要なライブラリ | メモ |
 |---|---|---|
-| Adobe Target | プラットフォームWeb SDK*、at.js 0.9.1以降、またはmbox.js 61+ | at.jsは、mbox.jsが開発されなくなったので、推奨されます。 |
-| Adobe Audience Manager（オプション） | プラットフォームWeb SDK*またはdil.js 5.0+ |  |
-| Adobe Analytics（オプション） | プラットフォームWeb SDK*またはAppMeasurement.js 1.6.4以降 | Adobe Analyticsの追跡では、地域データ収集(RDC)を使用する必要があります。 |
-| Experience CloudIDサービス | プラットフォームWeb SDK*またはVisitorAPI.js 2.0以降 | （推奨）Experience Platform Launchを使用してIDサービスをデプロイし、アプリケーションが呼び出される前にIDが確実に設定されるようにします |
+| Adobe Target | [!UICONTROL プラットフォームWeb SDK]*、at.js 0.9.1以上、またはmbox.js 61+ | at.jsは、mbox.jsが開発されなくなったので、推奨されます。 |
+| Adobe Audience Manager（オプション） | [!UICONTROL プラットフォームWeb SDK]*またはdil.js 5.0+ |  |
+| Adobe Analytics（オプション） | [!UICONTROL プラットフォームWeb SDK]*またはAppMeasurement.js 1.6.4以降 | Adobe Analyticsの追跡では、地域データ収集(RDC)を使用する必要があります。 |
+| Experience CloudIDサービス | [!UICONTROL プラットフォームWeb SDK]*またはVisitorAPI.js 2.0以降 | （推奨）Experience Platform Launchを使用してIDサービスをデプロイし、アプリケーションが呼び出される前にIDが確実に設定されるようにします |
 | Experience PlatformモバイルSDK（オプション） | iOSおよびAndroid™の場合は4.11以降 |  |
 | Experience PlatformWeb SDK | 1.0、現在のExperience PlatformSDKバージョンでは、[様々な使用例がExperience Cloudアプリケーションでまだサポートされていません](https://github.com/adobe/alloy/projects/5) |  |
 
