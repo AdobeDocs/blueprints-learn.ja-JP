@@ -6,9 +6,9 @@ kt: null
 thumbnail: null
 exl-id: eeeb4325-d0e8-4fd8-86ab-0b8afdd0b69f
 translation-type: tm+mt
-source-git-commit: 2343151a1ed5374c299fb9317f6282c232d5d23b
+source-git-commit: cbc9c48041d00c45fc75d3bb65bd865f1f7ecc9c
 workflow-type: tm+mt
-source-wordcount: '353'
+source-wordcount: '348'
 ht-degree: 0%
 
 ---
@@ -20,8 +20,8 @@ ht-degree: 0%
 
 | Blueprint | 説明 | Experience Cloudアプリ |
 |---|---|---|
-| **[匿名Webおよび広告Audience Activation](anonymous.md)** | <ul><li>Webおよび広告チャネルにわたるターゲットオーディエンス。匿名顧客データや行動顧客データに使用できます。</li><li>サードパーティのオーディエンスデータとの統合により、パーソナライゼーションを向上。</li></ul> | <ul><li>Adobe Audience Manager</li></ul> |
-| **[オンライン/オフライン+ PIIプロファイルとAudience Activation](online-offline.md)** | <ul><li>電子メールプロバイダー、ソーシャルネットワーク、広告先など、既知のプロファイルベースの送信先に対してアクティブ化します。 </li><li>オフライン注文、トランザクション、CRM、忠誠度データなどのオフライン属性やイベントを、オンラインでのターゲティングとパーソナライゼーションのためのオンライン行動と共に使用します。</li></ul> | <ul><li>Adobe Experience Platform</li><li> [!UICONTROL リアルタイム顧客データプラットフォーム]</li><li>Adobe Audience Manager（オプション）</li></ul> |
+| **[匿名Audience Activation](anonymous.md)** | <ul><li>Webおよび広告チャネルにわたるターゲットオーディエンス。匿名顧客データや行動顧客データに使用できます。</li><li>サードパーティのオーディエンスデータとの統合により、パーソナライゼーションを向上。</li></ul> | <ul><li>Adobe Audience Manager</li></ul> |
+| **[オンライン/オフラインAudience Activation](online-offline.md)** | <ul><li>電子メールプロバイダー、ソーシャルネットワーク、広告先など、既知のプロファイルベースの送信先に対してアクティブ化します。 </li><li>オフライン注文、トランザクション、CRM、忠誠度データなどのオフライン属性やイベントを、オンラインでのターゲティングとパーソナライゼーションのためのオンライン行動と共に使用します。</li></ul> | <ul><li>Adobe Experience Platform</li><li> [!UICONTROL リアルタイム顧客データプラットフォーム]</li><li>Adobe Audience Manager（オプション）</li></ul> |
 | **[Enterprise Destinationsへのオーディエンスおよびプロファイルアクティベーション](enterprise-destinations.md)** | <ul><li>アクティベーションおよびレポートの使用例に応じて、プロファイルおよびオーディエンスの変更をエンタープライズ・データ・ストアにレプリケーションおよび更新します。 </li></ul><ul><li>[!UICONTROL リアルタイム顧客データプラットフォーム]からエンタープライズシステムやアプリケーションに対する顧客行動の通知を通じて、顧客に対する販売またはサポート活動を開始します。</li></ul> | <ul><li>Adobe Experience Platform</li><li>[!UICONTROL リアルタイム顧客データプラットフォーム]</li><li>Experience Platformアクティベーション</li><li>Adobe Audience Manager（オプション）</li></ul> |
 | **[顧客アクティビティハブ](customer-activity.md)** | <ul><li>サポートや販売体験など、エージェントがサポートするインタラクションに対して、より深い消費者コンテキストを提供します。 Experience Platformに対するプロファイル参照を使用すると、エージェントは、最近の購入、キャンペーンインタラクション、傾向、オーディエンスのメンバーシップ、およびリアルタイム顧客プロファイルに保存された他の属性やインサイトなど、消費者に関するより多くのコンテキストを受け取ることができます。</li></ul> | <ul><li>Adobe Experience Platform</li></ul> |
 
