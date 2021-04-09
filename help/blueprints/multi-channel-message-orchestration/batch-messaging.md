@@ -5,7 +5,7 @@ solution: Experience Platform, Campaign
 kt: 7196
 exl-id: 4e55218c-c158-4f78-9f0b-c03528d992fa
 translation-type: tm+mt
-source-git-commit: 844fff1cefe367575beb5c03aa0f0d026eb9f39b
+source-git-commit: ee1d97af9bf58076fbce24fbc8a3f0d50a4b52a0
 workflow-type: tm+mt
 source-wordcount: '544'
 ht-degree: 0%
@@ -41,7 +41,7 @@ Adobe Experience Platformを顧客のプロファイルとセグメント化の�
 * キャンペーンは、プロファイルがキャンペーン内に存在する必要があることを意味するすべてのアクティブなプロファイルにとって真実の源であり、Experience Platformセグメントに基づいて新しいプロファイルを作成してはならない。
 * Experience Platformからのセグメントメンバーシップの実現は、バッチ（1日1回）とストリーミング（約5分）の両方で遅延します。
 
-**キャンペーンとのReal-time Customer Data Platformセグメントの共有：**
+**[!UICONTROL キャンペーンとのリアルタイム顧客データ] プラットフォームセグメント共有：**
 
 * 20セグメントの制限に関する推奨事項
 * アクティベーションは24時間ごとに制限されます
