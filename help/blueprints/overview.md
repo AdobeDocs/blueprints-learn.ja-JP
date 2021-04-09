@@ -4,9 +4,9 @@ description: Digital Experience Blueprintsは、戦略に対処し、確立さ�
 solution: Experience Platform
 exl-id: 52898310-9723-4ec2-ba10-f45fefe29e93
 translation-type: tm+mt
-source-git-commit: 3c139ed925fc7999ea3b7e6eb21bf68ae9ff23cb
+source-git-commit: 5ee692fb1ffe0e360f561a8fdaa0c21b6545d41b
 workflow-type: tm+mt
-source-wordcount: '279'
+source-wordcount: '280'
 ht-degree: 2%
 
 ---
@@ -45,7 +45,8 @@ Digital Experience Blueprintsは、戦略に対処し、確立されたビジネ
   </td>
   <td>
     <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journey-analytics/digital-behavioral-data-consolidation.html"><img alt="Digital Behavioral Data Consolidation Blueprintのサムネール画像" src="customer-journey-analytics/assets/CJA.svg" /></a>
-    <div><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journey-analytics/digital-behavioral-data-consolidation.html"><strong>Web/モバイルパーソナライゼーションのBlueprint</strong></a></div>
+    <div><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journey-analytics/digital-behavioral-data-consolidation.html"><strong>Digital Behavioral Data Consolidation Blueprint 
+</strong></a></div>
     <p><em>様々なチャネルにわたる顧客行動を1つの統合表示で把握</em></p>
   </td>
 </tr>
