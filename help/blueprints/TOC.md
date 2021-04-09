@@ -1,18 +1,18 @@
 ---
-user-guide-title: デジタルエクスペリエンスブループリント
+user-guide-title: デジタルエクスペリエンスのブループリント
 breadcrumb-title: 'ブループリント '
-user-guide-description: ブループリントは、確立したビジネス上の問題に対処するための繰り返し可能な実装で、アーキテクチャ図、技術上の考慮事項、関連ドキュメントへのリンクが含まれます。
+user-guide-description: ブループリントは、ビジネス上の一般的な問題に対処するための反復可能な実装であり、その中にはアーキテクチャ図、技術上の考慮事項、関連ドキュメントのリンクなどが含まれています。
 product: adobe experience platform
 role: Architect, Developer, Business Practitioner
 translation-type: tm+mt
-source-git-commit: f5d8b3fea11df0ffaeb59f0b53e93d76426ef252
+source-git-commit: 04fa7c1f111a27e782d4a70282f51397a096b46c
 workflow-type: tm+mt
-source-wordcount: '120'
-ht-degree: 24%
+source-wordcount: '115'
+ht-degree: 25%
 
 ---
 
-# デジタルエクスペリエンスブループリント  {#architecture}
+# デジタルエクスペリエンスのブループリント  {#architecture}
 
 + [概要](/help/blueprints/overview.md)
 + アーキテクチャの概要図{#architecture-overview}
@@ -31,7 +31,7 @@ ht-degree: 24%
    + [呼び出し偏向](/help/blueprints/customer-journey-analytics/call-deflect.md)
 + データ収集と準備{#data-ingestion}
    + [概要](/help/blueprints/data-ingestion/overview.md)
-   + [データの取り込みとExperience Platformの準備](/help/blueprints/data-ingestion/ingestion.md)
+   + [データの準備と取り込み](/help/blueprints/data-ingestion/ingestion.md)
    + [サーバー側のエンタープライズデータ収集](/help/blueprints/data-ingestion/server-side-collection.md)
 + データ分析、インテリジェンス、AI/ML{#data-exploration}
    + [概要](/help/blueprints/data-insights/overview.md)
@@ -43,6 +43,6 @@ ht-degree: 24%
    + [トリガーされたメッセージングとExperience Platform](/help/blueprints/multi-channel-message-orchestration/triggered-messaging.md)
 + Web &amp;モバイルパーソナライゼーション{#web-personalization}
    + [概要](/help/blueprints/web-personalization/overview.md)
-   + [行動分析に基づくウェブパーソナライゼーション](/help/blueprints/web-personalization/behavioral.md)
-   + [オンライン/オフラインのWebパーソナライゼーション](/help/blueprints/web-personalization/online-offline.md)
+   + [行動パーソナライゼーション](/help/blueprints/web-personalization/behavioral.md)
+   + [オンライン/オフラインのパーソナライゼーション](/help/blueprints/web-personalization/online-offline.md)
 
