@@ -1,15 +1,15 @@
 ---
 title: Customer Journey Analytics
-description: カスタマージャーニーをまたいでデータおよび顧客の行動を統合および分析します。
+description: カスタマージャーニー全体を通して得られたデータと顧客行動を統合して分析します。
 solution: Experience Platform, Customer Journey Analytics
 kt: null
 thumbnail: null
 exl-id: 3bb2dada-f4cd-43f7-a0d0-f276510ad224
 translation-type: tm+mt
-source-git-commit: 844fff1cefe367575beb5c03aa0f0d026eb9f39b
+source-git-commit: 2343151a1ed5374c299fb9317f6282c232d5d23b
 workflow-type: tm+mt
-source-wordcount: '292'
-ht-degree: 8%
+source-wordcount: '233'
+ht-degree: 10%
 
 ---
 
@@ -25,8 +25,6 @@ Customer Journey Analyticsでは、ブランドが様々なインタラクショ
 * どのキャンペーンがコンバージョンをもたらし、エンゲージメントを増やしたか
 * セルフサービスエクスペリエンスを最適化するツール使用分析
 
-## ブループリント
-
 | Blueprint | 説明 | Experience Cloudアプリ |
 |---|---|---|
 | **[デジタル行動データ統合](digital-behavioral-data-consolidation.md)** | <ul><li>様々なWeb、モバイル、オフラインのプロパティからデータを統合することにより、様々なチャネルにわたる顧客の行動を1つの統合表示にします。</li></ul> | <ul><li>Adobe Experience Platform</li><li>Customer Journey Analytics</li><li>Adobe Analytics（オプション）</li></ul> |
@@ -34,9 +32,9 @@ Customer Journey Analyticsでは、ブランドが様々なインタラクショ
 
 ## 関連するブログ投稿
 
-* [Adobe Experience Platformのマルチチャネルオーケストレーションの青写真](https://medium.com/adobetech/blueprint-for-multi-channel-orchestration-in-adobe-experience-platform-c68317e94184)
-* [Adobe Experience PlatformJourney Orchestrationでの外部データ・プラットフォームの活用](https://medium.com/adobetech/leveraging-external-data-platforms-in-adobe-experience-platform-journey-orchestration-54fc6134fe17)
-* [Apache Airflowを使用したAdobe Experience Platformオーケストレーションサービスでのイベントベースのトリガー](https://medium.com/adobetech/event-based-triggering-on-adobe-experience-platform-orchestration-service-using-apache-airflow-8607b28251f1)
-* [Adobe Campaign ClassicJourney Orchestration統合](https://medium.com/adobetech/adobe-campaign-classic-integration-with-journey-orchestration-ae577653281)
-* [パーソナライズされたJourney Orchestrationエクスペリエンスをリアルタイムで構築するためのAdobeの新しいチャネルサービスの力を実証](https://medium.com/adobetech/demonstrating-the-power-of-adobes-new-journey-orchestration-service-to-build-personalized-aa60d88cd34)
-* [オムニチャネル界のJourney Orchestration](https://medium.com/adobetech/journey-orchestration-in-an-omnichannel-world-3a2d32d556d9)
+* [[!DNL Blueprint for Multi-Channel Orchestration in Adobe Experience Platform]](https://medium.com/adobetech/blueprint-for-multi-channel-orchestration-in-adobe-experience-platform-c68317e94184)
+* [[!DNL Leveraging External Data Platforms in Adobe Experience Platform Journey Orchestration]](https://medium.com/adobetech/leveraging-external-data-platforms-in-adobe-experience-platform-journey-orchestration-54fc6134fe17)
+* [[!DNL Event-Based Triggering on Adobe Experience Platform Orchestration Service using Apache Airflow]](https://medium.com/adobetech/event-based-triggering-on-adobe-experience-platform-orchestration-service-using-apache-airflow-8607b28251f1)
+* [[!DNL Adobe Campaign Classic Integration with Journey Orchestration]](https://medium.com/adobetech/adobe-campaign-classic-integration-with-journey-orchestration-ae577653281)
+* [[!DNL Demonstrating the Power of Adobe’s New Journey Orchestration Service to Build Personalized Omnichannel Experiences in Real-Time]](https://medium.com/adobetech/demonstrating-the-power-of-adobes-new-journey-orchestration-service-to-build-personalized-aa60d88cd34)
+* [[!DNL Journey Orchestration in an Omnichannel World]](https://medium.com/adobetech/journey-orchestration-in-an-omnichannel-world-3a2d32d556d9)
