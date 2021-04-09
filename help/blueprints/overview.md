@@ -1,17 +1,17 @@
 ---
-title: デジタルエクスペリエンスブループリント
+title: デジタルエクスペリエンスのブループリント
 description: Digital Experience Blueprintsは、戦略に対処し、確立されたビジネス上の問題を解決するための繰り返し可能な実装です。 TTV（タイム・トゥ・バリュー）を短縮し、成功への迅速なパスを提供します。
 solution: Experience Platform
 exl-id: 52898310-9723-4ec2-ba10-f45fefe29e93
 translation-type: tm+mt
-source-git-commit: 844fff1cefe367575beb5c03aa0f0d026eb9f39b
+source-git-commit: 2343151a1ed5374c299fb9317f6282c232d5d23b
 workflow-type: tm+mt
-source-wordcount: '284'
+source-wordcount: '255'
 ht-degree: 2%
 
 ---
 
-# デジタルエクスペリエンスブループリント
+# デジタルエクスペリエンスのブループリント
 
 Digital Experience Blueprintsは、戦略に対処し、確立されたビジネス上の問題を解決するための繰り返し可能な実装です。 Blueprintsは、価値ある期間を短縮し、成功への迅速なパスを提供します。
 
@@ -19,15 +19,15 @@ Digital Experience Blueprintsは、戦略に対処し、確立されたビジネ
 
 ## 新機能
 
+* **[Enterprise Destinations Blueprintへのオーディエンスとプロファイルのアクティベーション](/help/blueprints/audience-activation/enterprise-destinations.md)**
+
+   *お客様のプロファイルをすべてのシステムにわたって最新の状態に維持し、セールス・チームやサポート・チーム&#x200B;を強化します。*
 * **[お客様のアクティビティハブのブループリント](/help/blueprints/audience-activation/customer-activity.md)**
 
    *エージェント支援のサポートと販売に関するコンテキストを提供します。*
-* **[データ分析とインテリジェンスのブループリント](/help/blueprints/data-insights/overview.md)**
+* **[データ分析とインテリジェンスのブループリント](/help/blueprints/data-insights/analysis.md)**
 
    *データレーク内のデータの調査クエリと分析を実行します。*
-* **[Customer Journey Analyticsブループリント](/help/blueprints/customer-journey-analytics/overview.md)**
-
-   *顧客のジャーニー全体からデータおよび顧客行動を統一および分析&#x200B;します。*
 
 ## 特集の青写真
 
@@ -54,7 +54,7 @@ Digital Experience Blueprintsは、戦略に対処し、確立されたビジネ
 
 ## ブログ投稿
 
-* [Adobe Experience Platformの新しいデジタル体験の設計図を紹介](https://medium.com/adobetech/introducing-adobe-experience-platforms-new-digital-experience-blueprints-93a6b5f5da7c)
-* [Adobe Experience PlatformのAudience Activationの青写真](https://medium.com/adobetech/a-blueprint-for-audience-activation-in-adobe-experience-platform-b2b30fae90fd)
-* [Adobe Experience Platformリアルタイム顧客プロファイルを使用したウェブパーソナライゼーションのBlueprint](https://medium.com/adobetech/blueprint-for-web-personalization-using-adobe-experience-platform-real-time-customer-profile-fef2ce7a4b2f)
-* [Adobe Experience Platformのマルチチャネルオーケストレーションの青写真](https://medium.com/adobetech/blueprint-for-multi-channel-orchestration-in-adobe-experience-platform-c68317e94184)
+* [[!DNL Introducing Adobe Experience Platform’s New Digital Experience Blueprints]](https://medium.com/adobetech/introducing-adobe-experience-platforms-new-digital-experience-blueprints-93a6b5f5da7c)
+* [[!DNL Blueprint for Audience Activation in Adobe Experience Platform]](https://medium.com/adobetech/a-blueprint-for-audience-activation-in-adobe-experience-platform-b2b30fae90fd)
+* [[!DNL Blueprint for Web Personalization using Adobe Experience Platform Real-Time Customer Profile]](https://medium.com/adobetech/blueprint-for-web-personalization-using-adobe-experience-platform-real-time-customer-profile-fef2ce7a4b2f)
+* [[!DNL Blueprint for Multi-Channel Orchestration in Adobe Experience Platform]](https://medium.com/adobetech/blueprint-for-multi-channel-orchestration-in-adobe-experience-platform-c68317e94184)
