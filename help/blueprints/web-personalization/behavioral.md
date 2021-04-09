@@ -5,14 +5,14 @@ solution: Experience Platform, Target, Audience Manager, Analytics, Experience C
 kt: 7085thumb-web-personalization-scenario1.jpg
 exl-id: b9882c2c-cb45-4efa-a85c-8fe48f641a12
 translation-type: tm+mt
-source-git-commit: 009a55715b832c3167e9a3413ccf89e0493227df
+source-git-commit: 087da6c5c5c6a6e9deee890d2ea02cf8591bdf15
 workflow-type: tm+mt
-source-wordcount: '523'
+source-wordcount: '524'
 ht-degree: 0%
 
 ---
 
-# 行動分析ウェブパーソナライゼーションブループリント
+# 行動分析Web/モバイルパーソナライゼーションBlueprint
 
 オンライン行動およびオーディエンスデータに基づいてパーソナライズします。
 
@@ -70,7 +70,7 @@ Web/モバイルパーソナライゼーションのBlueprintは、以下に説�
 
 1. [Webアプリケーションまたはモバイルアプリケ](https://experienceleague.adobe.com/docs/target/using/implement-target/implementing-target.html) ーション用にAdobeターゲットを実装します。
 
-   オーディエンスマネージャーまたはAnalyticsを使用している場合：
+   Audience ManagerまたはAnalyticsを使用している場合：
 
 1. [Adobe Audience Managerの実装](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/implement-audience-manager.html)
 1. [Adobe Analyticsの実装](https://experienceleague.adobe.com/docs/analytics/implementation/home.html)
