@@ -6,9 +6,9 @@ kt: 7204
 thumbnail: null
 exl-id: 5c3c94b6-c928-4d93-8b38-f8bd2aad2e68
 translation-type: tm+mt
-source-git-commit: ee1d97af9bf58076fbce24fbc8a3f0d50a4b52a0
+source-git-commit: cbc9c48041d00c45fc75d3bb65bd865f1f7ecc9c
 workflow-type: tm+mt
-source-wordcount: '215'
+source-wordcount: '213'
 ht-degree: 0%
 
 ---
@@ -21,5 +21,5 @@ ht-degree: 0%
 
 | Blueprint | 説明 | Experience Cloudアプリ |
 |---|---|---|
-| **[データの準備とExperience Platformへの取り込み](ingestion.md)** | <ul><li>データの準備と取り込みのブループリントには、データを準備し、Adobe Experience Platformに取り込むためのすべての方法が含まれます。</ul></li> | <ul><li> Adobe Experience Platform </ul></li> |
-| **[サーバー側転送 — エンタープライズコレクション](server-side-collection.md)** | <ul><li>電子メールプロバイダー、ソーシャルネットワーク、広告先など、既知のプロファイルベースの送信先に対してアクティブ化します。 </li><li>オフライン注文、トランザクション、CRM、忠誠度データなどのオフライン属性やイベントを、オンラインでのターゲティングとパーソナライゼーションのためのオンライン行動と共に使用します。</li></ul> | <ul><li>Adobe Experience Platform</li><li> [!UICONTROL リアルタイム顧客データプラットフォーム]</li><li>Adobe Audience Manager（オプション）</li></ul> |
+| **[データの準備と取り込み](ingestion.md)** | <ul><li>データの準備と取り込みのブループリントには、データを準備し、Adobe Experience Platformに取り込むためのすべての方法が含まれます。</ul></li> | <ul><li> Adobe Experience Platform </ul></li> |
+| **[サーバー側のエンタープライズデータ収集](server-side-collection.md)** | <ul><li>電子メールプロバイダー、ソーシャルネットワーク、広告先など、既知のプロファイルベースの送信先に対してアクティブ化します。 </li><li>オフライン注文、トランザクション、CRM、忠誠度データなどのオフライン属性やイベントを、オンラインでのターゲティングとパーソナライゼーションのためのオンライン行動と共に使用します。</li></ul> | <ul><li>Adobe Experience Platform</li><li> [!UICONTROL リアルタイム顧客データプラットフォーム]</li><li>Adobe Audience Manager（オプション）</li></ul> |
