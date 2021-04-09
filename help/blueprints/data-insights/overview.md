@@ -6,9 +6,9 @@ kt: 7207
 thumbnail: null
 exl-id: 3b22dfdd-3fbe-40b3-b798-1ee983723039
 translation-type: tm+mt
-source-git-commit: e9e8473f62fa222e483f7aeed33148433f1ec427
+source-git-commit: 9a5137c5e71946c258cb94188ee53d742396d361
 workflow-type: tm+mt
-source-wordcount: '214'
+source-wordcount: '210'
 ht-degree: 0%
 
 ---
@@ -17,13 +17,11 @@ ht-degree: 0%
 
 データ分析、インテリジェンス、およびAI/MLは、Adobe Experience Platform内でデータレーク内のデータの探索クエリと分析を実行する機能を備えています。
 
-Experience Platformのクエリサービスを使用すると、SQLクエリをデータに対して実行できます。 さらに、Experience Platformは、サードパーティのSQLクライアント、インタフェース、およびBusiness Intelligence(BI)ツールとの接続を、PostgreSQLプロトコルを使用して、Experience Platform内のデータに直接接続し、アクセスし、クエリすることを可能にします。
+Experience Platformの[!UICONTROL クエリサービス]では、SQLクエリをデータに対して実行できます。 また、Experience Platformでは、サードパーティのSQLクライアント、インターフェイス、およびBusiness Intelligence(BI)ツールとの接続を[!DNL PostgreSQL]プロトコルを使用して、Experience Platform内のデータに直接接続し、アクセスし、クエリできます。
 
-Data Science Workspaceを使用すると、データ調査、データ科学、および機械学習のワークロードをデータに対して実行できます。 モデルをトレーニング、スコア、操作して、顧客のプロファイルをさらに強化し、顧客の行動とエクスペリエンスに関するより深い洞察を表示できます。
-
-## ブループリント
+[!UICONTROL Data Science ] Workspaceを使用すると、データ調査、データ科学、および機械学習のワークロードをデータに対して実行できます。モデルをトレーニング、スコア、操作して、顧客のプロファイルをさらに強化し、顧客の行動とエクスペリエンスに関するより深い洞察を表示できます。
 
 | Blueprint | 説明 | Experience Cloudアプリ |
 |---|---|---|
 | **[データ分析とインテリジェンス](analysis.md)** | <ul><li>データ分析とインテリジェンス・ブループリントには、Adobe Experience Platform内のより深い洞察を得るためにデータを照会および分析する方法が含まれています</ul></li> | <ul><li> Adobe Experience Platform情報</ul></li> |
-| **[プロファイルエンリッチメント設計図のカスタムデータサイエンス](data-science.md)** | <ul><li>モデルのトレーニング、スコア、操作を行い、顧客のプロファイルと行動モデルに基づく顧客の洞察をさらに強化する</li></ul> | <ul><li>Adobe Experience Platform情報</li><li> リアルタイム顧客データプラットフォーム</li></ul> |
+| **[プロファイルエンリッチメントのカスタムデータサイエンス](data-science.md)** | <ul><li>モデルのトレーニング、スコア、操作を行い、顧客のプロファイルと行動モデルに基づく顧客の洞察をさらに強化する</li></ul> | <ul><li>Adobe Experience Platform情報</li><li> [!UICONTROL リアルタイム顧客データプラットフォーム]</li></ul> |
