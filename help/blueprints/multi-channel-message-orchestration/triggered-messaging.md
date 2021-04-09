@@ -5,7 +5,7 @@ solution: Experience Platform, Campaign, Journey Orchestration
 kt: 7197
 exl-id: 97831309-f235-4418-bd52-28af815e1878
 translation-type: tm+mt
-source-git-commit: 844fff1cefe367575beb5c03aa0f0d026eb9f39b
+source-git-commit: 2404d871a852df8fed3adb97a79cc15e994db762
 workflow-type: tm+mt
 source-wordcount: '605'
 ht-degree: 1%
@@ -78,7 +78,7 @@ Adobe Experience Platformを中心としたハブストリーミングデータ�
 1. 顧客固有の名前空間を作成します。
 1. ID追加をスキーマに送信します。
 1. プロファイルのスキーマとデータセットを有効にします。
-1. 様々な表示のリアルタイム顧客プロファイル用にマージルールを設定します（オプション）。
+1. 異なる表示の[!UICONTROL リアルタイム顧客プロファイル]（オプション）にマージルールを設定します。
 1. キャンペーンに使用するセグメントを作成します。
 
 #### ソース/宛先
