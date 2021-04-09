@@ -5,10 +5,10 @@ solution: Experience Platform, Campaign, Journey Orchestration
 kt: 7197
 exl-id: 97831309-f235-4418-bd52-28af815e1878
 translation-type: tm+mt
-source-git-commit: 009a55715b832c3167e9a3413ccf89e0493227df
+source-git-commit: 37416aafc997838888edec2658d2621d20839f94
 workflow-type: tm+mt
-source-wordcount: '607'
-ht-degree: 1%
+source-wordcount: '621'
+ht-degree: 0%
 
 ---
 
@@ -54,7 +54,7 @@ Adobe Experience Platformをストリーミングデータ、顧客プロファ�
 * 現在、Offer decisioningをサポートしていません
 * [Experience Platformのプロファイルとデータ取り込みのガードレール](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=en)を参照
 
-### Campaign Standard
+### Adobe Campaign Standard
 
 * スループットは14 tps（1時間あたり50,000）のみサポート可能
 * セグメントメンバーシップ開始ジャーニーはサポートされていません
@@ -69,7 +69,7 @@ Adobe Experience Platformをストリーミングデータ、顧客プロファ�
 #### スキーマ/データセット
 
 1. お客様が提供するデータに基づいて、Experience Platformで個々のプロファイル、エクスペリエンスのイベント、および複数のエンティティに関するスキーマを設定します。
-1. 次のキャンペーンスキーマを作成します。broadLog、trackingLog、配信不能アドレス、プロファイル環境設定（オプション）。
+1. 次のAdobe Campaignスキーマを作成します。broadLog、trackingLog、配信不能アドレス、プロファイル環境設定（オプション）。
 1. データ追加使用量ラベルを管理用のデータセットに貼り付けます。
 1. 宛先にガバナンスを適用するポリシーを作成します。
 
@@ -79,16 +79,16 @@ Adobe Experience Platformをストリーミングデータ、顧客プロファ�
 1. ID追加をスキーマに送信します。
 1. プロファイルのスキーマとデータセットを有効にします。
 1. 異なる表示の[!UICONTROL リアルタイム顧客プロファイル]（オプション）にマージルールを設定します。
-1. キャンペーンに使用するセグメントを作成します。
+1. Adobe Campaignに使用するセグメントを作成します。
 
 #### ソース/宛先
 
 1. ストリーミングAPIおよびソースコネクタを使用して、Experience Platformにデータを取り込みます。
-1. キャンペーンで使用する[!DNL Azure] BLOBストレージ先を構成します。
+1. Adobe Campaignで使用する[!DNL Azure] BLOBストレージ先を構成します。
 
 #### モバイルアプリの展開
 
-1. Campaign Classic用キャンペーンSDKまたはCampaign Standard用Experience PlatformSDKを実装します。 Experience Platform Launchが存在する場合は、Experience PlatformSDKでCampaign Classic/標準拡張を使用することをお勧めします。
+1. Adobe Campaign Classic向けAdobe CampaignSDKまたはAdobe Campaign Standard向けExperience PlatformSDKを実装します。 Experience Platform Launchが存在する場合は、Experience PlatformSDKでAdobe Campaign ClassicまたはAdobe Campaign Standardの拡張機能を使用することをお勧めします。
 
 
 ### Journey Orchestration
@@ -97,7 +97,7 @@ Adobe Experience Platformをストリーミングデータ、顧客プロファ�
 1. 外部データソースを設定します。
 1. カスタムアクションを設定
 
-### Campaign Standard
+### Adobe Campaign Standard
 
 1. 適切なパーソナライゼーション設定でメッセージングテンプレートを設定します。
 1. 書き出しワークフローの書き出しトランザクションメッセージログを設定します。 レコメンデーションは、最大4時間ごとに実行することをお勧めします。
@@ -107,7 +107,7 @@ Adobe Experience Platformをストリーミングデータ、顧客プロファ�
 
 * [Adobe Experience Platform文書](https://experienceleague.adobe.com/docs/experience-platform.html?lang=en)
 * [Journey Orchestrationドキュメント](https://experienceleague.adobe.com/docs/journey-orchestration.html?lang=en)
-* [Campaign Classicドキュメント](https://experienceleague.adobe.com/docs/campaign-classic.html?lang=en)
-* [Campaign Standardドキュメント](https://experienceleague.adobe.com/docs/campaign-standard.html?lang=en)
+* [Adobe Campaign Classic文書](https://experienceleague.adobe.com/docs/campaign-classic.html?lang=en)
+* [Adobe Campaign Standard文書](https://experienceleague.adobe.com/docs/campaign-standard.html?lang=en)
 * [Experience Platform Launchドキュメント](https://experienceleague.adobe.com/docs/launch.html?lang=en)
 * [Experience PlatformモバイルSDKドキュメント](https://experienceleague.adobe.com/docs/mobile.html?lang=en)
