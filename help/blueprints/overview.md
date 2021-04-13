@@ -4,18 +4,16 @@ description: Digital Experience Blueprintsは、戦略に対処し、確立さ�
 solution: Experience Platform
 exl-id: 52898310-9723-4ec2-ba10-f45fefe29e93
 translation-type: tm+mt
-source-git-commit: 652f8d2cab997418aa8752d3d2c80f715ef6a85c
+source-git-commit: b5b2fff60678a9a36ffffd0a2bf22c8f76573a3e
 workflow-type: tm+mt
-source-wordcount: '274'
+source-wordcount: '265'
 ht-degree: 2%
 
 ---
 
 # デジタルエクスペリエンスのブループリント
 
-Digital Experience Blueprintsは、戦略に対処し、確立されたビジネス上の問題を解決するための繰り返し可能な実装です。 Blueprintsは、価値ある期間を短縮し、成功への迅速なパスを提供します。
-
-各BlueprintオファーAdobeのお客様は、高価値のビジネス上の問題、アーキテクチャ、導入手順、技術上の考慮事項、および関連ドキュメントへのリンクについて説明する一連のアーティファクトを受け取ります。
+Digital Experience Blueprintsは、戦略に取り組み、確立されたビジネス上の問題を迅速に解決できる、繰り返し可能な実装です。 各Blueprintは、高価値のビジネス上の問題、アーキテクチャ、導入手順、技術上の考慮事項、および関連ドキュメントへのリンクについて説明する一連のアーティファクトを提供します。
 
 ## 新機能
 
