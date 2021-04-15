@@ -5,10 +5,10 @@ user-guide-description: ブループリントは、ビジネス上の一般的�
 product: adobe experience platform
 role: Architect, Developer, Business Practitioner
 translation-type: tm+mt
-source-git-commit: 04fa7c1f111a27e782d4a70282f51397a096b46c
+source-git-commit: b0664edc3d29d693d33eefc3b3c6da8bf7308224
 workflow-type: tm+mt
 source-wordcount: '115'
-ht-degree: 25%
+ht-degree: 31%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 25%
    + [顧客アクティビティハブ](/help/blueprints/audience-activation/customer-activity.md)
 + Customer Journey Analytics{#customer-journey-analytics}
    + [概要](/help/blueprints/customer-journey-analytics/overview.md)
-   + [デジタル行動データ統合](/help/blueprints/customer-journey-analytics/digital-behavioral-data-consolidation.md)
+   + [クロスチャネルジャーニー分析](/help/blueprints/customer-journey-analytics/digital-behavioral-data-consolidation.md)
    + [呼び出し偏向](/help/blueprints/customer-journey-analytics/call-deflect.md)
 + データ収集と準備{#data-ingestion}
    + [概要](/help/blueprints/data-ingestion/overview.md)
