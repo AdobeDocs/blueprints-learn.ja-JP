@@ -5,18 +5,16 @@ solution: Experience Platform,Real-time Customer Data Platform
 kt: 7475
 exl-id: 32133174-eb28-44ce-ab2a-63fcb5b51cb5,None
 translation-type: tm+mt
-source-git-commit: a63da7d5da3038cf66b5f2c99e117d4aa5b21cc1
+source-git-commit: b0664edc3d29d693d33eefc3b3c6da8bf7308224
 workflow-type: tm+mt
-source-wordcount: '635'
+source-wordcount: '660'
 ht-degree: 0%
 
 ---
 
 # Enterprise Destinations Blueprintへのオーディエンスとプロファイルのアクティベーション
 
-アクティベーションおよびレポートの使用例に応じて、プロファイルおよびオーディエンスの変更をエンタープライズ・データ・ストアにレプリケーションおよび更新します。<!-- This sentence is difficult to mentally process because there's no verb. Describe what the customer can do with this feature. The first paragraph on a page should not be an abstract description.-->
-
-[!UICONTROL リアルタイム顧客データプラットフォーム]からエンタープライズシステムやアプリケーションに対する顧客行動の通知を通じて、顧客に対する販売またはサポート活動を開始します。<!-- What kinds of sales or support actions? You might add a "For example...." The content in these blueprints should be more simple and friendly.-->
+[!UICONTROL Real-time Customer Data Platform]から企業のデータ・ストアやアプリケーションに、ストリーミングまたはバッチでプロファイルとオーディエンスの変更とイベントを共有します。 これらのプロファイルおよびオーディエンスイベントは、廃棄された申し込みプロセスやウェビナー登録のフォローアップ、[!UICONTROL Real-time Customer Data Platform]の最新の顧客属性とインテリジェンスを使用したエンタープライズアプリケーションの更新など、顧客に対する販売またはサポート活動を開始するために使用できます。
 
 ## 使用例
 
@@ -49,7 +47,7 @@ ht-degree: 0%
 
 ## 導入手順
 
-1. 取り込むデータのスキーマを作成します。<!-- Cross-references to these topics would be helpful -->
+1. 取り込むデータのスキーマを作成します。
 1. 取り込むデータのデータセットを作成します。
 1. スキーマ上の正しいIDとIDの名前空間を設定し、取り込んだデータを統合プロファイルに確実に結合できるようにします。
 1. プロファイル処理のスキーマとデータセットを有効にします。
