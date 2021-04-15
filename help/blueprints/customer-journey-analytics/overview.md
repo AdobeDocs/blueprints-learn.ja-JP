@@ -6,7 +6,7 @@ kt: null
 thumbnail: null
 exl-id: 3bb2dada-f4cd-43f7-a0d0-f276510ad224
 translation-type: tm+mt
-source-git-commit: cbc9c48041d00c45fc75d3bb65bd865f1f7ecc9c
+source-git-commit: b0664edc3d29d693d33eefc3b3c6da8bf7308224
 workflow-type: tm+mt
 source-wordcount: '234'
 ht-degree: 10%
@@ -27,7 +27,7 @@ Customer Journey Analyticsでは、ブランドが様々なインタラクショ
 
 | Blueprint | 説明 | Experience Cloudアプリ |
 |---|---|---|
-| **[デジタル行動データ統合](digital-behavioral-data-consolidation.md)** | <ul><li>様々なWeb、モバイル、オフラインのプロパティからデータを統合することにより、様々なチャネルにわたる顧客の行動を1つの統合表示にします。</li></ul> | <ul><li>Adobe Experience Platform</li><li>Customer Journey Analytics</li><li>Adobe Analytics（オプション）</li></ul> |
+| **[クロスチャネルジャーニー分析](digital-behavioral-data-consolidation.md)** | <ul><li>様々なWeb、モバイル、オフラインのプロパティからデータを統合することにより、様々なチャネルにわたる顧客の行動を1つの統合表示にします。</li></ul> | <ul><li>Adobe Experience Platform</li><li>Customer Journey Analytics</li><li>Adobe Analytics（オプション）</li></ul> |
 | **[呼び出し偏向ジャーニー分析](call-deflect.md)** | <ul><li>コールセンターのデータをWeb、モバイル、その他のインタラクションデータと共に取り込むことで、エージェント支援呼び出しの結果として最も示唆的な行動を特定します。</li><li>これらのインサイトを使用して、顧客体験を最適化し、最適化されたセルフサービスコンテンツとツールを通じて、エージェント支援インタラクションへのパスを減らすことができます。  </li></ul> | <ul><li>Adobe Experience Platform</li><li>Customer Journey Analytics</li> |
 
 ## 関連するブログ投稿
