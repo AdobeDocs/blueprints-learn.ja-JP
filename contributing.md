@@ -1,9 +1,9 @@
 ---
 source-git-commit: 8225c25ca54acb10ff9e9dd07d869b0c9a626c0b
-workflow-type: tm+mt
-translation-type: tm+mt
+workflow-type: ht
+translation-type: ht
 source-wordcount: '296'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 # 貢献
@@ -16,9 +16,9 @@ ht-degree: 93%
 
 このプロジェクトはアドビの[行動規範](code-of-conduct.md)に従います。参加者は、この規範を順守することが期待されます。受け入れがたい動作を見つけた場合は、[Grp-opensourceoffice@adobe.com](mailto:Grp-opensourceoffice@adobe.com) に報告してください。
 
-## 寄稿者ガイドドキュメント
+## 貢献者ガイドドキュメント
 
-[寄稿者ガイド](https://docs.adobe.com/content/help/en/contributor/contributor-guide/introduction.html)を参照してください。
+[コントリビューターガイド](https://docs.adobe.com/content/help/ja/contributor/contributor-guide/introduction.html)を参照してください。
 
 ## ご質問がある場合は、
 
