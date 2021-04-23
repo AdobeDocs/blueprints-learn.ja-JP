@@ -1,61 +1,61 @@
 ---
 source-git-commit: 8225c25ca54acb10ff9e9dd07d869b0c9a626c0b
-workflow-type: tm+mt
-translation-type: tm+mt
+workflow-type: ht
+translation-type: ht
 source-wordcount: '430'
-ht-degree: 6%
+ht-degree: 100%
 
 ---
-# Contribute記事
+# 貢献に関する記事
 
-ドキュメントチーム以外のAdobe社員の方々から、コミュニティからの寄付を歓迎します。
+アドビのコミュニティやドキュメントチーム以外の従業員からの貢献を歓迎します。
 
-## Adobeオープンソースコード
+## アドビオープンソース行動規範
 
-このプロジェクトでは、[アドビオープンソース行動規範](code-of-conduct.md) または [.NET Foundation 行動規範](https://dotnetfoundation.org/code-of-conduct)を採用しています。詳しくは、[投稿](contributing.md)の記事を参照してください。
+このプロジェクトでは、[アドビオープンソース行動規範](code-of-conduct.md)または [.NET Foundation 行動規範](https://dotnetfoundation.org/code-of-conduct)を採用しています。詳しくは、[貢献](contributing.md)の記事を参照してください。
 
-## Adobeコンテンツへの貢献について
+## アドビコンテンツへの貢献について
 
-『[Adobeドキュメント寄稿者ガイド](https://docs.adobe.com/content/help/en/contributor/contributor-guide/introduction.html)』を参照してください。
+[アドビドキュメントのコントリビューターガイド](https://docs.adobe.com/content/help/ja/contributor/contributor-guide/introduction.html)を参照してください。
 
-貢献の方法は、自分が何者であるか、また、貢献したい変更の種類によって異なります。
+どのように貢献するかは、貢献者の技術経験度と、貢献者がどのような変更に貢献したいかによって異なります。
 
-### 小さな変更
+### 軽微な変更
 
-心の良さからマイナーアップデートを行う場合は、記事にアクセスし、記事のGitHubソースに移動する記事の&#x200B;**編集**&#x200B;リンクをクリックします。 次に、GitHub UIを使用して更新を行います。 詳しくは、一般的な[Adobeドキュメント寄稿者ガイド](https://docs.adobe.com/content/help/en/contributor/contributor-guide/introduction.html)を参照してください。
+善意で軽微な更新を行う場合は、その記事にアクセスして、「**編集**」リンクをクリックすると、その記事の GitHub ソースに移動します。その後、GitHub UI を使用して更新を行います。詳しくは、一般的な[アドビドキュメントのコントリビューターガイド](https://docs.adobe.com/content/help/ja/contributor/contributor-guide/introduction.html)を参照してください。
 
-このレポートのドキュメントやコード例に関して提出する小さな修正や説明は、Adobe利用条件でカバーされます。
+このリポジトリのドキュメントおよびコード例について送信した軽微な修正または説明には、アドビの利用条件が適用されます。
 
-### コミュニティメンバーからの主な変更または新しい記事
+### コミュニティメンバーからの大きな変更または新しい記事
 
-Adobeコミュニティに属していて、新しい記事を作成したり、大きな変更を送信したりする場合は、Gitリポジトリの「問題」タブを使用して、ドキュメントチームとの会話を開始に送信してください。 計画に同意したら、公共のリポジトリと私的なリポジトリの組み合わせを通して新しいコンテンツを持ち込むのに役立つよう、従業員と協力する必要があります。
+アドビコミュニティの一員として、新しい記事を作成したり大きな変更を送信したりする場合は、Git リポジトリの「Issues」タブを使用して問題を送信し、ドキュメントチームとの会話を開始してください。計画に同意したら、パブリックリポジトリおよびプライベートリポジトリでの作業を組み合わせて新しいコンテンツを取り込むために従業員と協力する必要があります。
 
 <!--
 If you submit a pull request with significant changes to documentation and code examples, you'll see a message in the pull request asking you to submit an online contribution license agreement (CLA). We need you to complete the online form before we can review your pull request.
 -->
 
-### Adobeの従業員からの主な変更
+### アドビ従業員からの大きな変更
 
-Adobe Experience Cloudソリューションのテクニカルライター、プログラムマネージャ、または製品チームの開発者で、お客様が技術記事の提供や作成を行う場合は、`https://git.corp.adobe.com/AdobeDocs`のプライベートリポジトリを使用する必要があります。
+Adobe Experience Cloud ソリューションの製品チームに所属するテクニカルライター、プログラムマネージャー、デベロッパーが業務の一環として技術的記事に貢献したり技術的記事を作成したりする場合は、`https://git.corp.adobe.com/AdobeDocs` のプライベートリポジトリを使用する必要があります。
 
 <!--Employees from other parts of the Adobe world should use the public repo for minor updates.-->
 
 ## ツールとセットアップ
 
-コミュニティの寄稿者は、基本的な編集にGitHub UIを使用したり、レポのフォークを使用して大きな貢献を行ったりできます。
+コミュニティの貢献者は、GitHub UI を使用して、基本的な編集をしたり、リポジトリをフォークしたりして、大きな貢献をすることができます。
 
-詳しくは、『[Adobeドキュメント寄稿者ガイド](https://docs.adobe.com/content/help/en/contributor/contributor-guide/introduction.html)』を参照してください。
+詳しくは、[アドビドキュメントのコントリビューターガイド](https://docs.adobe.com/content/help/ja/contributor/contributor-guide/introduction.html)を参照してください。
 
-## マークダウンを使用してトピックをフォーマットする方法
+## トピックをフォーマットするためのマークダウンの使用方法
 
-このリポジトリ内のすべての記事は、GitHubフレーバー付きのマークダウンを使用しています。 マークダウンに詳しくない場合は、次を参照してください。
+このリポジトリのすべての記事は、GitHub 固有のマークダウンを使用しています。マークダウンについて詳しくは、以下を参照してください。
 
-* [マークダウンの基本](https://help.github.com/articles/getting-started-with-writing-and-formatting-on-github/)
-* [印刷可能なMarkDownチートシート](https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf)
+* [マークダウンの基本](https://docs.github.com/ja/github/writing-on-github/getting-started-with-writing-and-formatting-on-github)
+* [印刷用マークダウンチートシート](https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf)
 
 ## ラベル
 
-パブリック・リポジトリでは、プル・リクエストのワークフローを管理し、プル・リクエストの状況を把握できるように、プル・リクエストの自動ラベルが割り当てられます。
+パブリックリポジトリでは、アドビがプル要求ワークフローを管理したり、プル要求の状況を貢献者が把握できるようにしたりするために、プル要求に自動ラベルが割り当てられます。
 
-* **変更の作成者への送信**:作成者は保留中のプル要求を通知されました。
-* **ready-to-merge**:引き出し要求レビューチームによるレビューの準備が整いました。
+* **Change sent to author**：保留中のプル要求について作成者に通知されました。
+* **ready-to-merge**：プル要求レビューチームによるレビューの準備ができました。
