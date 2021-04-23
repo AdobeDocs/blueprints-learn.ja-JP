@@ -1,17 +1,29 @@
 ---
 source-git-commit: 8225c25ca54acb10ff9e9dd07d869b0c9a626c0b
-workflow-type: tm+mt
-translation-type: tm+mt
+workflow-type: ht
+translation-type: ht
 source-wordcount: '170'
 ht-degree: 100%
 
 ---
 # MIT ライセンス
 
-© Copyright 2020 Adobe. All rights reserved.
+© Copyright 2020 Adobe.All rights reserved.
 
-本ソフトウェアおよび関連ドキュメントファイル（以下、「ソフトウェア」と呼びます）を入手する個人は誰であっても、制約なくソフトウェアを取り扱うこと（ソフトウェアの複製を使用、複製、変更、結合、公開、配布、サブライセンスおよび販売する権利、ならびにソフトウェアを提供する相手に同権利を許可する権利を含みますが、これに限定するものではありません）が、以下の条項を条件として本書により無料で許可されます。
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the &quot;Software&quot;), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
 
-上記の著作権表示とこの許諾通知を、ソフトウェアのすべての複製または相当部分に含める必要があります。
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
 
-本ソフトウェアは「現状有姿で」提供されるものであり、明示的か黙示的かにかかわらず、いかなる種類の保証（商品性、特定目的に対する適合性および権利の非侵害性に関する保証を含みますが、これに限定するものではありません）も適用されません。いかなる場合も、作成者または著作権保持者は、本ソフトウェアまたは本ソフトウェアの使用もしくはその他の取り扱いから、またはそれらに関連して生じる一切の請求、損害、その他の責任に対して、契約上の行為、不法行為またはそれ以外にかかわらず、いかなる責任も負いません。
+THE SOFTWARE IS PROVIDED &quot;AS IS&quot;, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
