@@ -1,6 +1,6 @@
 ---
 title: Customer Journey Analytics
-description: カスタマージャーニー全体を通して得られたデータと顧客行動を統合して分析します。
+description: カスタマージャーニーをまたいでデータおよび顧客行動を統合および分析します
 solution: Experience Platform, Customer Journey Analytics
 kt: null
 thumbnail: null
@@ -9,26 +9,26 @@ translation-type: tm+mt
 source-git-commit: b0664edc3d29d693d33eefc3b3c6da8bf7308224
 workflow-type: tm+mt
 source-wordcount: '234'
-ht-degree: 10%
+ht-degree: 84%
 
 ---
 
 # Customer Journey Analytics
 
-Customer Journey Analyticsでは、ブランドが様々なインタラクションチャネルやソースから顧客データや行動を統一して、すべての顧客インタラクションに関するジャーニーベースの表示を作成する方法を示します。 レポートと分析は、Customer Journey Analytics申し込みサービスで実行でき、顧客のインタラクションと行動パターンを評価し、洞察を得ることができます。
+Customer Journey Analyticsでは、ブランドが様々なインタラクションチャネルやソースから顧客データや行動を統一して、すべての顧客インタラクションに関するジャーニーベースの表示を作成する方法を示します。 レポートおよび分析は、Customer Journey Analytics アプリケーションサービスで実行でき、顧客インタラクションおよび行動パターンを評価してインサイトを得ることができます。
 
-一般的な分析には、次のものがあります。
+共通する分析を以下に示します。
 
-* 上/下コンバージョンパス
-* 最多閲覧コンテンツ
-* カテゴリと製品
-* どのキャンペーンがコンバージョンをもたらし、エンゲージメントを増やしたか
-* セルフサービスエクスペリエンスを最適化するツール使用分析
+* トップ／ボトムコンバージョンパス
+* 閲覧数上位のコンテンツ
+* カテゴリおよび製品
+* コンバージョンおよびエンゲージメント向上につながったキャンペーン
+* セルフサービスエクスペリエンスを最適化するためのツール使用状況分析
 
-| Blueprint | 説明 | Experience Cloudアプリ |
+| Blueprint | 説明 | Experience Cloud アプリケーション |
 |---|---|---|
-| **[クロスチャネルジャーニー分析](digital-behavioral-data-consolidation.md)** | <ul><li>様々なWeb、モバイル、オフラインのプロパティからデータを統合することにより、様々なチャネルにわたる顧客の行動を1つの統合表示にします。</li></ul> | <ul><li>Adobe Experience Platform</li><li>Customer Journey Analytics</li><li>Adobe Analytics（オプション）</li></ul> |
-| **[呼び出し偏向ジャーニー分析](call-deflect.md)** | <ul><li>コールセンターのデータをWeb、モバイル、その他のインタラクションデータと共に取り込むことで、エージェント支援呼び出しの結果として最も示唆的な行動を特定します。</li><li>これらのインサイトを使用して、顧客体験を最適化し、最適化されたセルフサービスコンテンツとツールを通じて、エージェント支援インタラクションへのパスを減らすことができます。  </li></ul> | <ul><li>Adobe Experience Platform</li><li>Customer Journey Analytics</li> |
+| **[クロスチャネルジャーニー分析](digital-behavioral-data-consolidation.md)** | <ul><li>Web、モバイルおよびオフラインの様々なプロパティからのデータを統合することで、複数のチャネルをまたいだ顧客行動を単一の統合されたビューに表示する。</li></ul> | <ul><li>Adobe Experience Platform</li><li>Customer Journey Analytics</li><li>Adobe Analytics（オプション）</li></ul> |
+| **[呼び出し偏向ジャーニー分析](call-deflect.md)** | <ul><li>コールセンターデータを web、モバイルおよびその他のインタラクションデータと組み合わせることで、どのような行動が担当者による通話に最も影響を与えるかを判別する。</li><li>最適化されたセルフサービスコンテンツおよびツールを使用することで、これらのインサイトは、カスタマーエクスペリエンスの最適化や、担当者のサポートを受けるまでの道のりを短縮するのに使用できる。  </li></ul> | <ul><li>Adobe Experience Platform</li><li>Customer Journey Analytics</li> |
 
 ## 関連するブログ投稿
 
