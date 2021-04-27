@@ -1,6 +1,6 @@
 ---
-title: 'マルチチャネルメッセージオーケストレーション '
-description: 画面全体で個々のジャストインタイムの顧客エクスペリエンスを提供します。
+title: 'マルチチャネルメッセージオーケストレーション  '
+description: 画面をまたいで、ジャストインタイムの個人用カスタマーエクスペリエンスを配信します。
 solution: Experience Platform
 kt: null
 thumbnail: null
@@ -9,19 +9,19 @@ translation-type: tm+mt
 source-git-commit: 9a5137c5e71946c258cb94188ee53d742396d361
 workflow-type: tm+mt
 source-wordcount: '233'
-ht-degree: 0%
+ht-degree: 82%
 
 ---
 
-# マルチチャネルメッセージオーケストレーション
+# マルチチャネルメッセージオーケストレーション 
 
 マルチチャネルメッセージオーケストレーションは、ブランドが電子メール、SMS、モバイルアラートなどのチャネルを通じて、顧客と積極的に関わり合い、お客様と通信する方法を示します。
 
-オーケストレーションツールは、オーディエンス状態を他のチャネルの意思決定エンジンと共有することで、Webおよびモバイルパーソナライゼーションのために、他のインタラクションチャネル(受信チャネルなど)と統合できます。 様々な要因によって、顧客のインタラクションがトリガーベースかスケジュール済みか、ターゲット設定とパーソナライゼーションに必要なデータかなど、使用するアプリケーションとデプロイメントオプションを決定できます。 これらの要因により、メッセージオーケストレーション機能を構築する際に、様々なシナリオや展開オプションが発生する可能性があります。
+オーケストレーションツールは、他のインタラクションチャネル（インバウンドチャネルなど）と統合でき、オーディエンスの状態を他のチャネルのディシジョンエンジンと共有することで、web およびモバイルをパーソナライズできます。顧客インタラクションはトリガーベースかそれともスケジュールされているか、ターゲティングおよびパーソナライズ機能にはどのデータが必要かなど、様々な要因が、使用するアプリケーションおよびデプロイメントオプションを決定するのに役立ちます。これらの要因は、メッセージオーケストレーション機能を構築する際に、様々なシナリオやデプロイメントオプションにつながります。
 
 
-| Blueprint | 説明 | Experience Cloudアプリ |
+| Blueprint | 説明 | Experience Cloud アプリケーション |
 |---|---|---|
-| **バッチおよびトランザクションメッセージ** | <ul><li>スケジュール済みおよびバッチアウトバウンドキャンペーンの作成と実行</li><li>トランザクションメッセージの配信</li></ul> | <ul><li>Adobe Campaign ClassicとManaged Services</li><li>Adobe Campaign Standard</li></ul> |
-| **[バッチメッセージングとAdobe Experience Platform](batch-messaging.md)** | <ul><li>Adobe Experience Platformを顧客のプロファイルとセグメント化の中心として、スケジュール済みおよびバッチメッセージングキャンペーンを実行</li></ul> | <ul><li>[!UICONTROL リアルタイム顧客データプラットフォーム]</li><li>Adobe Campaign Classic、Managed Services、Campaign Standard</li><li>サポートされるサードパーティのメッセージングプロバイダー</li></ul> |
-| **[トリガーされたメッセージングとAdobe Experience Platform](triggered-messaging.md)** | <ul><li>ストリーミングジャーニーのオーケストレーションとメッセージ配信のJourney Orchestrationを備え、ストリーミングデータ、顧客プロファイル、セグメント化の中心としてAdobe Experience Platformを使用して、トリガーおよびストリーミングメッセージングを実行します。</li></ul> | <ul><li>Adobe Experience Platform</li><li>Journey Orchestration</li><li>メッセージ配信用のAdobe Campaignまたは他のサードパーティアプリケーション</li></ul> |
+| **バッチおよびトランザクションメッセージ** | <ul><li>スケジュールされたキャンペーンやバッチアウトバウンドキャンペーンを作成および実行します</li><li>トランザクションメッセージを配信します</li></ul> | <ul><li>Adobe Campaign Classic および Managed Services</li><li>Adobe Campaign Standard</li></ul> |
+| **[バッチメッセージングとAdobe Experience Platform](batch-messaging.md)** | <ul><li>Adobe Experience Platform を顧客プロファイルおよびセグメント化の中央ハブとして使用して、スケジュールされたキャンペーンおよびバッチメッセージキャンペーンを実行します</li></ul> | <ul><li>[!UICONTROL リアルタイム顧客データプラットフォーム]</li><li>Adobe Campaign Classic、Managed Services または Campaign Standard</li><li>サポートされているサードパーティメッセージングプロバイダー</li></ul> |
+| **[トリガーされたメッセージングとAdobe Experience Platform](triggered-messaging.md)** | <ul><li>ストリーミングデータ、顧客プロファイル、セグメント化の中央ハブとしての Adobe Experience Platform と、ストリーミングジャーニーオーケストレーションとメッセージ配信のための Journey Orchestration を使用して、トリガーされるメッセージとストリーミングメッセージングを実行します</li></ul> | <ul><li>Adobe Experience Platform</li><li>Journey Orchestration</li><li>Adobe Campaign またはその他のメッセージ配信用サードパーティアプリケーション</li></ul> |
