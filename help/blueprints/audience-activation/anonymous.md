@@ -1,6 +1,6 @@
 ---
-title: 匿名Audience Activationのブループリント
-description: Anonymous Audience Activation。
+title: 匿名 Audience Activation Blueprint
+description: 匿名 Audience Activation。
 solution: Experience Platform, Audience Manager
 kt: 7211
 thumbnail: null
@@ -9,40 +9,40 @@ translation-type: tm+mt
 source-git-commit: 37416aafc997838888edec2658d2621d20839f94
 workflow-type: tm+mt
 source-wordcount: '158'
-ht-degree: 1%
+ht-degree: 87%
 
 ---
 
 # 匿名Audience Activationのブループリント
 
-匿名の顧客データや行動チャネルデータに基づいて、Webや広告全体にわたるターゲットオーディエンスを行うことができます。 この機能により、複数のデバイスにわたって、パーソナライズされた一貫したリアルタイムの顧客体験を実現します。
+匿名および行動顧客データに基づいて、web および広告チャネルをまたいでオーディエンスをターゲットできます。この機能を使用すると、デバイスをまたいでパーソナライズされた一貫性のあるリアルタイムカスタマーエクスペリエンスを実現します。
 
-## 使用例
+## ユースケース
 
-* 匿名デジタルオーディエンスのターゲット設定とパーソナライゼーションを実行します。
-* サポートされる広告ネットワークをターゲットにするオーディエンスを構築します。
+* 匿名デジタルオーディエンスのターゲティングおよびパーソナライズ機能を実行する。
+* サポートされている広告ネットワークでのターゲティング用にオーディエンスを作成する。
 
-## アプリ
+## アプリケーション
 
 * Adobe Audience Manager
 
-## 建築
+## 構造
 
 <img src="assets/aam.svg" alt="匿名Audience ActivationのBlueprintのリファレンスアーキテクチャ" style="border:1px solid #4a4a4a" />
 
-## 導入手順
+## 実装手順
 
 <!-- These steps should link to help. -->
 
-1. [Audience Managerの実装](https://experienceleague.corp.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/implement-audience-manager.html?lang=en#implementation-integration-guides)。
-1. Audience Managerにデータを収集します。
-1. セグメント定義で使用するシグナルと特性を設定します。
-1. Audience Managerでセグメントを作成します。
-1. オーディエンスを共有するAudience Managerで宛先を設定します。
+1. [Audience Manager を実装](https://experienceleague.corp.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/implement-audience-manager.html?lang=en#implementation-integration-guides)します。
+1. Audience Manager にデータを収集します。
+1. セグメント定義に使用するシグナルおよび特性を設定します。
+1. Audience Manager でセグメントを作成します。
+1. Audience Manager で宛先を設定して、オーディエンスを共有します。
 
 ## 関連ドキュメント
 
-* [Audience Manager](https://experienceleague.adobe.com/docs/audience-manager.html?lang=en)
-* [Experience Cloud [!UICONTROL オーディエンス]](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html)
-* [Audience Managerとターゲットの統合](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/aam-target-integration.html)
-* [Audience Managerを通じたAdobe Analyticsセグメントの共有](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-publish.html)
+* [Audience Manager](https://experienceleague.adobe.com/docs/audience-manager.html?lang=ja)
+* [[!UICONTROL Experience Cloud Audiences]](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html?lang=ja)
+* [Audience Manager と Target の統合](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/aam-target-integration.html?lang=ja)
+* [Audience Managerを通じたAdobe Analyticsセグメントの共有](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-publish.html?lang=ja)
