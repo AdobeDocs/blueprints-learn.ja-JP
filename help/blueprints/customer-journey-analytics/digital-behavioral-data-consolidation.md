@@ -1,6 +1,6 @@
 ---
 title: クロスチャネルジャーニー分析
-description: カスタマージャーニー全体を通した顧客とのインタラクションからインサイトを分析および抽出します。
+description: カスタマージャーニーをまたいだ顧客インタラクションからインサイトを分析および抽出します。
 solution: Experience Platform, Customer Journey Analytics, Data Collection
 kt: 7208
 exl-id: b042909c-d323-40d5-8b35-f3e5e3e26694
@@ -8,20 +8,20 @@ translation-type: tm+mt
 source-git-commit: b0664edc3d29d693d33eefc3b3c6da8bf7308224
 workflow-type: tm+mt
 source-wordcount: '568'
-ht-degree: 2%
+ht-degree: 98%
 
 ---
 
 # クロスチャネルジャーニー分析ブループリント
 
-様々なWeb、モバイル、オフラインのプロパティからデータを統合することにより、様々なチャネルにわたる顧客の行動を1つの統合表示にします。
+Web、モバイルおよびオフラインの様々なプロパティからのデータを統合することで、複数のチャネルをまたいだ顧客行動を単一の統合されたビューに表示する。
 
-## 使用例
+## ユースケース
 
-* デスクトップとモバイルで顧客のインタラクションを分析し、顧客の行動を把握し、インサイトを抽出してデジタル顧客体験を最適化します。
-* サポートインタラクションや店頭購入など、デジタルやオフラインのチャネルを含むチャネル間での顧客のインタラクションを分析し、顧客のジャーニーをより深く理解し最適化する。 
+* デスクトップとモバイルをまたいで顧客インタラクションを分析して顧客行動を把握し、デジタルカスタマーエクスペリエンスを最適化するためにインサイトを抽出する。
+* デジタルおよびオフラインチャネル（サポートとのやり取りや店舗での購入など）を含む、チャネルをまたいだ顧客インタラクションを分析し、カスタマージャーニーをより深く把握し、最適化する。 
 
-## アプリ
+## アプリケーション
 
 * Adobe Experience Platform
 * Customer Journey Analytics
@@ -29,56 +29,55 @@ ht-degree: 2%
 
 ## 統合パターン
 
-* Adobe Experience Platform→Customer Journey Analytics
-* Adobe Analytics→Adobe Experience Platform→Customer Journey Analytics
+* Adobe Experience Platform → Customer Journey Analytics
+* Adobe Analytics → Adobe Experience Platform → Customer Journey Analytics
 
-## 建築
+## 構造
 
-<img src="assets/CJA.svg" alt="Customer Journey Analyticsのブループリントのリファレンスアーキテクチャ" style="border:1px solid #4a4a4a" />
+<img src="assets/CJA.svg" alt="Customer Journey Analytics ブループリントの参照アーキテクチャ" style="border:1px solid #4a4a4a" />
 
 ## ガードレール
 
-Customer Journey Analyticsへのデータ取り込み：
+Customer Journey Analytics へのデータ取り込み：
 
-* 湖へのデータ取り込み：API ～ 7 GB/時、ソースコネクタ～ 200 GB/時、レークへ15分、Adobe Analyticsソースコネクタ～ 45分
-* データがデータレークに発行された後、Customer Journey Analyticsが処理されるまでに最大90分かかる場合があります。
+* データレイクへのデータ取り込み：API ～ 7 GB/時間、ソースコネクタ ～ 200 GB/時間、データレイクへのストリーミング ～ 15 分、データレイクへの Adobe Analytics ソースコネクタ ～ 45 分。
+* データがデータレイクに公開された後、Customer Journey Analytics で処理するまで、最大 90 分かかる可能性があります。
 
-## 導入手順
+## 実装手順
 
-1. データセットとスキーマを設定します。
-1. データをプラットフォームに取り込みます。
-データは、Customer Journey Analyticsに処理する前にプラットフォームに取り込む必要があります。
-1. チャネル間のイベントデータセットを分析し、和集合で分析対象の名前空間IDが共通であるか、Customer Journey Analyticsのフィールドベースのステッチ機能を使用して再キーされているかを確認します。 
+1. データセットおよびスキーマを設定します。
+1. Platform にデータを取り込みます。データは、Customer Journey Analytics で処理される前に、Platform に取り込まれる必要があります。
+1. 結合で分析されるクロスチャネルイベントデータセットを分析して、共通の名前空間 ID を持つか、Customer Journey Analytics のフィールドベースのステッチ機能でキー更新されていることを確認します。 
 
    >[!NOTE]
    >
-   >Customer Journey Analyticsは現在、ステッチにExperience PlatformプロファイルまたはIDサービスを使用していません。
+   >Customer Journey Analytics は、現在、Experience Platform プロファイルや ID サービスをステッチに使用していません。
 
-1. データに対するフィールドベースのIDステッチのカスタムデータ準備または使用を実行し、時系列データセット間の共通キーをCustomer Journey Analyticsに取り込むようにします。
-1. 参照データに、イベントデータのフィールドに結合できるプライマリIDを指定します。 ライセンスの行としてカウントします。
-1. プロファイルデータには、イベントデータのプライマリIDと同じプライマリIDを設定します。
-1. データをExperience PlatformからCustomer Journey Analyticsに取り込むためのデータ接続を設定します。 データがデータレークに到着した後、90分以内にCustomer Journey Analyticsに処理されます。
-1. 表示に含める特定のディメンションおよび指標を選択するには、接続でデータ表示を設定します。 アトリビューションと配分の設定は、データ表示でも設定されます。 これらの設定は、レポート時に計算されます。
-1. プロジェクトを作成して、Analysis Workspace内でダッシュボードとレポートを設定します。
+1. 時系列のデータセットをまたいで共通キーを Customer Journey Analytics に取り込むために、カスタムデータ準備を実行するか、データに対するフィールドベースの ID ステッチを使用します。
+1. イベントデータのフィールドに結合できるプライマリ ID をルックアップデータに提供します。ライセンスの行としてカウントされます。
+1. イベントデータのプライマリ ID と同じプライマリ ID をプロファイルデータに設定します。
+1. Experience Platform から Customer Journey Analytics への取り込みデータに対するデータ接続を設定します。データがデータレイクに入ったら、90 分以内に Customer Journey Analytics で処理されます。
+1. 接続のデータビューを設定して、ビューに含める特定のディメンションおよび指標を選択します。また、属性および配分設定も、データビューで設定されます。これらの設定は、レポート時に計算されます。
+1. Analysis Workspace 内でダッシュボードおよびレポートを設定するためのプロジェクトを作成します。
 
-## 実装に関する考慮事項
+## 実装のための考慮事項
 
-### IDのステッチの考慮事項
+### ID ステッチの考慮事項
 
-* 結合する時系列データは、すべてのレコードで同じID名前空間を持つ必要があります。
-* 個別のデータセットを統合する和集合プロセスでは、データセット全体で共通の主要な人/エンティティキーが必要です。
-* 現在、セカンダリキーベースの和集合はサポートされていません。
-* フィールドベースのIDの切り替えプロセスでは、認証IDなど、後続の一時的なIDレコードに基づいて、行のIDを再入力できます。 これにより、個別のレコードを、デバイスやcookieレベルではなく、個人レベルでの分析用に単一のIDに解決できます。
-* ステッチは週に1回行われ、ステッチの後に再生が行われます。
+* 結合される時系列データは、レコードごとに同じ ID 名前空間を持っている必要があります。
+* 異なるデータセットを統合する結合プロセスでは、データセット間で共通のプライマリユーザー／エンティティキーが必要です。
+* セカンダリキーベースの結合は、現在、サポートされていません。
+* フィールドベースの ID ステッチプロセスを使用すると、以降の一時的な ID レコード（認証 ID など）に基づいて、行の ID をキー更新できます。これを使用すると、デバイスまたは cookie レベルではなくユーザーレベルで分析するために、異なるレコードを単一の ID に解決できます。
+* ステッチは 1 週間に 1 回行われ、ステッチの後に繰り返されます。
 
-## FAQ
+## よくある質問
 
-* Customer Journey Analyticsにおけるデータモデルのダウンストリームの影響は何ですか。
+* Customer Journey Analytics のデータモデルは、ダウンストリームにどのような影響がありますか？
 
-   同じXDMフィールドのオブジェクトと属性は、Customer Journey Analytics内の1つのディメンションに結合されます。 宛先  様々なデータセットの複数の属性を同じCustomer Journey Analyticsディメンションにマージする場合、データセットは同じXDMフィールドまたはスキーマを参照する必要があります。
+   同じ XDM フィールドのオブジェクトおよび属性は、Customer Journey Analytics の 1 つのディメンションに結合されます。様々なデータセットから同じ Customer Journey Analytics ディメンションに複数の属性を結合するために、データセットは、同じ XDM フィールドまたはスキーマを参照している必要があります。
 
 ## 関連ドキュメント
 
-* [Customer Journey Analytics製品の説明](https://helpx.adobe.com/legal/product-descriptions/customer-journey-analytics.html)
-* [Customer Journey Analyticsドキュメント](https://experienceleague.adobe.com/docs/customer-journey-analytics.html)
-* [Customer Journey Analyticsチュートリアル](https://experienceleague.adobe.com/docs/customer-journey-analytics-learn/tutorials/overview.html)
+* [Customer Journey Analytics 製品説明](https://helpx.adobe.com/jp/legal/product-descriptions/customer-journey-analytics.html)
+* [Customer Journey Analytics ドキュメント](https://experienceleague.adobe.com/docs/customer-journey-analytics.html?lang=ja)
+* [Customer Journey Analytics チュートリアル](https://experienceleague.adobe.com/docs/customer-journey-analytics-learn/tutorials/overview.html?lang=ja)
