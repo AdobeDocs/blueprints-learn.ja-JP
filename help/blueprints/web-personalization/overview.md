@@ -1,5 +1,5 @@
 ---
-title: Web&モバイルパーソナライゼーション
+title: 'Web およびモバイルパーソナライズ機能 '
 description: パーソナライズされたWebおよびモバイルコンテンツを[!UICONTROL リアルタイム顧客プロファイル]で配信します。
 solution: Experience Platform, Real-time Customer Data Platform, Target, Audience Manager, Analytics, Experience Cloud Services
 kt: null
@@ -9,18 +9,18 @@ translation-type: tm+mt
 source-git-commit: cbc9c48041d00c45fc75d3bb65bd865f1f7ecc9c
 workflow-type: tm+mt
 source-wordcount: '214'
-ht-degree: 0%
+ht-degree: 79%
 
 ---
 
 # Webとモバイルのパーソナライゼーション
 
-Webおよびモバイルパーソナライゼーションでは、複数のアプリケーションでオーディエンスのセグメント化を使用して、顧客体験をパーソナライズし、最適化する機能に対応しています。 顧客の行動、人口統計、忠誠度レベルおよび前のトランザクションを使用して、レイアウト、誘い文句（CTA：コールトゥアクション）、コンテンツをパーソナライズできます。
+Webおよびモバイルパーソナライゼーションでは、複数のアプリケーションでオーディエンスのセグメント化を使用して、顧客体験をパーソナライズし、最適化する機能に対応しています。 顧客行動、人口統計、ロイヤリティレベルおよび以前のトランザクションを使用して、レイアウト、コールトゥアクションおよびコンテンツをパーソナライズできます。
 
-| Blueprint | 説明 | Experience Cloudアプリ |
+| Blueprint | 説明 | Experience Cloud アプリケーション |
 |---|---|---|
-| **[行動分析に基づくWeb/モバイルパーソナライゼーション](behavioral.md)** | <ul><li>オンライン行動とオーディエンスデータに基づいてパーソナライズ</li></ul> | <ul><li>Adobe Target</li><li>Adobe Analytics *（オプション）*</li><li>Adobe Audience Manager *（オプション）*</li></ul> |
-| **[オンライン/オフラインWeb/モバイルパーソナライゼーション](online-offline.md)** | <ul><li>オフライン属性とイベント（トランザクション、予約、CRM、忠誠度データ）を使用してパーソナライズします。</li><li>Web、電子メールおよびその他の既知のチャネル間でパーソナライゼーションを同期します。</li></ul> | <ul><li>[!UICONTROL リアルタイム顧客データプラットフォーム]</li><li>Adobe Target</li><li>Adobe Analytics *（オプション）*</li><li>Adobe Audience Manager *（オプション）*</li></ul> |
+| **[行動分析に基づくWeb/モバイルパーソナライゼーション](behavioral.md)** | <ul><li>オンライン行動およびオーディエンスデータに基づいてパーソナライズします。</li></ul> | <ul><li>Adobe Target</li><li>Adobe Analytics *（オプション）*</li><li>Adobe Audience Manager *（オプション）*</li></ul> |
+| **[オンライン/オフラインWeb/モバイルパーソナライゼーション](online-offline.md)** | <ul><li>オフライン属性およびイベント（トランザクション、予約、CRM およびロイヤリティデータ）を使用してパーソナライズします。</li><li>Web、電子メール、その他の既知のチャネルをまたいでパーソナライズ機能を同期します。</li></ul> | <ul><li>[!UICONTROL リアルタイム顧客データプラットフォーム]</li><li>Adobe Target</li><li>Adobe Analytics *（オプション）*</li><li>Adobe Audience Manager *（オプション）*</li></ul> |
 
 ## 関連するブログ投稿
 
