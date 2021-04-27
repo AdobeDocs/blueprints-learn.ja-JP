@@ -8,7 +8,7 @@ translation-type: tm+mt
 source-git-commit: 870541f548266ab82d74fec2e84b8cb6d5c952eb
 workflow-type: tm+mt
 source-wordcount: '532'
-ht-degree: 0%
+ht-degree: 78%
 
 ---
 
@@ -16,26 +16,26 @@ ht-degree: 0%
 
 オンライン行動およびオーディエンスデータに基づいてパーソナライズします。
 
-## 使用例
+## ユースケース
 
-* ランディングページ最適化
+* ランディングページの最適化
 * 行動ターゲティング
-* 旧製品/コンテンツ表示、製品/コンテンツアフィニティ、環境属性、サードパーティオーディエンスデータ、人口統計に基づくパーソナライズ
+* 以前の製品／コンテンツ表示、製品／コンテンツの親和性、環境属性、サードパーティオーディエンスデータおよび人口統計に基づいたパーソナライズ機能
 
-## アプリ
+## アプリケーション
 
 * Adobe Target
 * Adobe Analytics（オプション）
 * Adobe Audience Manager（オプション）
 
-## 建築
+## 構造
 
 <img src="assets/personalization.svg" alt="行動分析ウェブパーソナライゼーションのBlueprintのリファレンスアーキテクチャ" style="border:1px solid #4a4a4a" />
 
 
 ## ガードレール
 
-セグメント共有サービスでは、デフォルトで各Adobe Analyticsレポートスイートで最大75オーディエンスを共有できます。 Audience Managerをオーディエンス共有に使用する場合、共有できるオーディエンスの数に制限はありません。 
+デフォルトでは、セグメント共有サービスを使用すると、各 Adobe Analytics レポートスイートで最大 75 のオーディエンスを共有できます。Audience Manager をオーディエンス共有に使用している場合、共有できるオーディエンスの数に制限はありません。 
 
 ## 実装パターン
 
@@ -50,44 +50,44 @@ Web/モバイルパーソナライゼーションのBlueprintは、以下に説�
 
 ### 2.アプリケーション固有のSDKアプローチ
 
-<img src="assets/appsdkflow.png" alt="アプリケーション固有のSDKアプローチのリファレンスアーキテクチャ" style="border:1px solid #4a4a4a" />
+<img src="assets/appsdkflow.png" alt="アプリケーション専用 SDK アプローチの参照アーキテクチャ" style="border:1px solid #4a4a4a" />
 
 
 
 
-## 導入の前提条件
+## 実装の前提条件
 
-| 申し込み/サービス | 必要なライブラリ | メモ |
+| アプリケーション／サービス | 必須ライブラリ | メモ |
 |---|---|---|
-| Adobe Target | [!UICONTROL プラットフォームWeb SDK]*、at.js 0.9.1以上、またはmbox.js 61+ | at.jsは、mbox.jsが開発されなくなったので、推奨されます。 |
+| Adobe Target | [!UICONTROL プラットフォームWeb SDK]*、at.js 0.9.1以上、またはmbox.js 61+ | mbox.js は今後開発されないので、at.js をお勧めします。 |
 | Adobe Audience Manager（オプション） | [!UICONTROL プラットフォームWeb SDK]*またはdil.js 5.0+ |  |
 | Adobe Analytics（オプション） | [!UICONTROL プラットフォームWeb SDK]*またはAppMeasurement.js 1.6.4以降 |  |
-| Experience CloudIDサービス | [!UICONTROL プラットフォームWeb SDK]*またはVisitorAPI.js 2.0以降 |  |
-| Experience PlatformモバイルSDK（オプション） | iOSおよびAndroid™の場合は4.11以降 |  |
-| Experience PlatformWeb SDK | 1.0、現在のExperience PlatformSDKバージョンでは、[様々な使用例がExperience Cloudアプリケーションでまだサポートされていません](https://github.com/adobe/alloy/projects/5) |  |
+| Experience Cloud ID サービス | [!UICONTROL プラットフォームWeb SDK]*またはVisitorAPI.js 2.0以降 |  |
+| Experience Platform Mobile SDK（オプション） | 4.11 以上（iOS および Android™ 用） |  |
+| Experience Platform Web SDK | 1.0、現在の Experience Platform SDK バージョンは、[Experience Cloud アプリケーションをまだサポートしていない様々なユースケースがあります](https://github.com/adobe/alloy/projects/5) |  |
 
-## 導入手順
+## 実装手順
 
-1. [Webアプリケーションまたはモバイルアプリケ](https://experienceleague.adobe.com/docs/target/using/implement-target/implementing-target.html) ーション用にAdobeターゲットを実装します。
+1. web またはモバイルアプリケーション用に [Adobe Target を実装](https://experienceleague.adobe.com/docs/target/using/implement-target/implementing-target.html?lang=ja)します。
 
    Audience ManagerまたはAdobe Analyticsを使用する場合：
 
-1. [Adobe Audience Managerの実装](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/implement-audience-manager.html)
-1. [Adobe Analyticsの実装](https://experienceleague.adobe.com/docs/analytics/implementation/home.html)
-1. [Experience CloudIDサービスの実装](https://experienceleague.adobe.com/docs/id-service/using/implementation/implementation-guides.html)
+1. [Adobe Audience Manager を実装](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/implement-audience-manager.html?lang=ja)します
+1. [Adobe Analytics を実装](https://experienceleague.adobe.com/docs/analytics/implementation/home.html?lang=ja)します
+1. [Experience Cloud ID サービスを実装](https://experienceleague.adobe.com/docs/id-service/using/implementation/implementation-guides.html?lang=ja)します
 
    >[!NOTE]
    >
-   >各アプリケーションでExperience CloudIDを使用し、同じExperience Cloud組織に属している必要があります。これにより、複数のアプリケーション間でオーディエンスを共有できます。
+   >アプリケーション間のオーディエンス共有を許可するために、各アプリケーションは、Experience Cloud ID を使用し、同じ Experience Cloud 組織に属している必要があります。
 
-1. [ユーザーとオーディエンス共有サービスのプロビジョニングを要求する(共有オーディエンス)](https://www.adobe.com/go/audiences)
-1. [Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-build.html)または[Adobe Audience Manager](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/segments/segment-builder.html)にセグメントを作成し、[Experience Cloud](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-publish.html)に共有するオーディエンスを設定します(Audience ManagerまたはAdobe Analyticsを使用している場合)
-1. Adobe Targetでオーディエンスが入手できたら、それらを[Adobe Target](https://experienceleague.adobe.com/docs/target/using/audiences/target.html)でのエクスペリエンスをターゲット設定するために使用できます。
+1. [ユーザーおよびオーディエンス共有サービス（共有オーディエンス）のプロビジョニングをリクエスト](https://www.adobe.com/go/audiences)します
+1. [Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-build.html?lang=ja) または [Adobe Audience Manager](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/segments/segment-builder.html?lang=ja) でセグメントを作成し、[これらのオーディエンスを Experience Cloud に共有するように設定](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-publish.html?lang=ja)します（Audience Manager または Adobe Analytics を使用している場合）
+1. オーディエンスが Adobe Target で使用できるようになったら、[Adobe Target によるターゲティングエクスペリエンス](https://experienceleague.adobe.com/docs/target/using/audiences/target.html?lang=ja)で使用できます
 
 ## 関連ドキュメント
 
-* [Experience Cloudオーディエンス](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html)
-* [Audience ManagerとAdobe Targetの統合](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/aam-target-integration.html)
+* [Experience Cloud Audiences](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html?lang=ja)
+* [Audience Manager と Adobe Target の統合](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/aam-target-integration.html?lang=ja)
 * [Adobe Audience Managerを通じたAdobe Analyticsセグメント共有](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-publish.html)
 
 
