@@ -5,10 +5,10 @@ solution: Experience Platform, Real-time Customer Data Platform, Target, Audienc
 kt: 7086
 exl-id: 011f4909-b208-46db-ac1c-55b3671ee48c
 translation-type: tm+mt
-source-git-commit: 24b6ffe3021389d33e84688a8f1a90711ca4b772
+source-git-commit: db083e30d8add029e99cade25d561a26da78338e
 workflow-type: tm+mt
-source-wordcount: '990'
-ht-degree: 35%
+source-wordcount: '1040'
+ht-degree: 34%
 
 ---
 
@@ -51,8 +51,10 @@ ht-degree: 35%
 | オーディエンスアプリケーションの統合 | 頻度 | スループット/ボリューム | 待ち時間（セグメント評価） | 待ち時間(セグメントアクティベーション) |
 |---|---|---|---|---|
 | リアルタイム顧客データプラットフォームからAudience Manager | セグメントタイプによって異なります。上のセグメント化ガードレールの表を参照してください。 | セグメントタイプによって異なります。上のセグメント化ガードレールの表を参照してください。 | セグメントタイプによって異なります。上のセグメント化ガードレールの表を参照してください。 | セグメント評価が完了してから数分以内に<br>リアルタイムの顧客データプラットフォームとAudience Managerの初期オーディエンス設定の同期には、約4時間かかります。<br>4時間の間に実現したオーディエンスのメンバーシップは、その後のバッチセグメントジョブに関するAudience Managerに対して、「既存の」オーディエンスのメンバーシップとして書き込まれます。 |
-| Adobe AnalyticsからAudience Managerへ |  | 各Adobe Analyticsレポートスイートで共有できるオーディエンスは、デフォルトで最大75個です。 Audience Managerライセンスを使用する場合、Adobe AnalyticsとAdobe Target、Adobe Audience Manager、Adobe Target間で共有できるオーディエンスの数に制限はありません。 |  |  |
+| リアルタイム顧客データプラットフォームからAd Cloud | Real-time Customer Data PlatformからAdobe Advertising Cloudにオーディエンスを共有するには、Audience Managerが必要です。 オーディエンス・マネージャへのリアルタイム顧客データ・プラットフォームの共有に適用されるのと同じガードレールは、リアルタイム顧客データ・プラットフォーム・オーディエンスのAdvertising Cloudへの統合に適用されます。 | - | - | - |
 | Adobe Analyticsからリアルタイム顧客データプラットフォーム | 現在はご利用いただけません | 現在はご利用いただけません | 現在はご利用いただけません | 現在はご利用いただけません |
+| Adobe AnalyticsからAudience Managerへ | - | 各Adobe Analyticsレポートスイートで共有できるオーディエンスは、デフォルトで最大75個です。 Audience Managerライセンスを使用する場合、Adobe AnalyticsとAdobe Target、Adobe Audience Manager、Adobe Target間で共有できるオーディエンスの数に制限はありません。 | - | - |
+
 
 
 
