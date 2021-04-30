@@ -5,10 +5,10 @@ solution: Experience Platform,Real-time Customer Data Platform
 kt: 7475
 exl-id: 32133174-eb28-44ce-ab2a-63fcb5b51cb5,None
 translation-type: tm+mt
-source-git-commit: 3a4a0e2387e72d378589edfdc5b0c27a50c42db5
+source-git-commit: 76fe52d8e83e075f9e7ce6e8596880181b01a7fd
 workflow-type: tm+mt
-source-wordcount: '1003'
-ht-degree: 15%
+source-wordcount: '345'
+ht-degree: 39%
 
 ---
 
@@ -26,22 +26,11 @@ ht-degree: 15%
 
 ## 構造
 
-<img src="assets/enterprise_destination.svg" alt="エンタープライズアクティベーションシナリオのリファレンスアーキテクチャ" style="border:1px solid #4a4a4a" />
+<img src="assets/enterprise_destination_activation.svg" alt="エンタープライズアクティベーションシナリオのリファレンスアーキテクチャ" style="border:1px solid #4a4a4a" />
 
 ## ガードレール
 
-[プロファイルおよびセグメント化ガイドライン](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=ja)
-
-### セグメントの評価とアクティベーションのためのガードレール
-
-| セグメントタイプ | 頻度 | スループット | 待ち時間（セグメント評価） | 待ち時間(セグメントアクティベーション) | アクティベーションペイロード |
-|---|---|---|---|---|---|
-| エッジセグメント | エッジセグメントは現在ベータ版であり、有効なリアルタイムセグメントをExperience Platformエッジネットワークで評価し、Adobe TargetとAdobeJourney Optimizerを介した同じページ判定をリアルタイムで行うことができます。 |  | ～100 ms | Adobe Targetでのパーソナライゼーション、エッジプロファイルでのプロファイル検索、cookieベースの宛先を介したアクティベーションに対して、すぐに使用できます。 | オーディエンスの検索とCookieベースの宛先に対して、Edgeで使用できるプロファイルメンバーシップ。<br>オーディエンスのメンバーシップとプロファイル属性は、Adobe TargetとJourney Optimizerで利用できます。 |
-| ストリーミングセグメント化 | 新しいストリーミングイベントまたは記録がリアルタイム顧客プロファイルに取り込まれるたびに、そのセグメント定義が有効なストリーミングセグメントとなります。 <br>ストリーミングセグメントの条件に関するガイダンスについては、 [セグメント](https://experienceleague.adobe.com/docs/experience-platform/segmentation/api/streaming-segmentation.html?lang=ja) 化に関するドキュメントを参照してください。 | 1秒あたり最大1500イベント | ～ p95 &lt;5分 | ストリーミング先：ストリーミングオーディエンスのメンバーシップは、宛先の要件に基づいて約10分またはマイクロバッチ処理内にアクティブ化されます。<br>予定されている宛先：ストリーミングオーディエンスのメンバーシップは、スケジュールされた宛先配信時間に基づいて、バッチでアクティブ化されます。 | ストリーミング先：オーディエンスメンバーシップの変更、ID値およびプロファイル属性。<br>予定されている宛先：オーディエンスメンバーシップの変更、ID値およびプロファイル属性。 |
-| 増分セグメント化 | 前回の増分またはバッチセグメントの評価後にリアルタイム顧客プロファイルに取り込まれた新しいデータに対して、1時間に1回。 |  |  | ストリーミング先：増分オーディエンスメンバーシップは、宛先の要件に基づいて約10分またはマイクロバッチ処理内にアクティブ化されます。<br>予定されている宛先：増分オーディエンスメンバーシップは、スケジュールされた宛先の配信時間に基づいてバッチでアクティブ化されます。 | ストリーミング先：オーディエンスメンバーシップの変更とID値のみ。<br>予定されている宛先：オーディエンスメンバーシップの変更、ID値およびプロファイル属性。 |
-| バッチセグメント | 事前に定義されたシステムセットスケジュールに基づいて、またはAPIを介して手動で開始する1日に1回。 |  | ジョブあたり約1時間(最大10 TBのプロファイルストアサイズ)。10 TB ～ 100 TBのプロファイルストアサイズでは、ジョブあたり2時間。 バッチセグメントジョブのパフォーマンスは、プロファイル数、プロファイルのサイズ、評価対象のセグメント数に依存します。 | ストリーミング先：バッチオーディエンスメンバーシップは、セグメント化の評価が完了した後、または宛先の要件に基づいてマイクロバッチ処理が完了した後、約10回アクティブ化されます。<br>予定されている宛先：バッチオーディエンスのメンバーシップは、予定されている宛先配信時間に基づいてアクティブ化されます。 | ストリーミング先：オーディエンスメンバーシップの変更とID値のみ。<br>予定されている宛先：オーディエンスメンバーシップの変更、ID値およびプロファイル属性。 |
-
-
+「オーディエンスとプロファイルのアクティベーションの概要」ページで説明されているガードレールを参照してください。[LINK](overview.md)
 
 ## 実装手順
 
@@ -53,33 +42,14 @@ ht-degree: 15%
 1. Experience Platformでのセグメントの作成。バッチまたはストリーミングで評価されます。 システムは、セグメントをバッチとして、またはストリーミングとして評価するかを自動的に判定します。
 1. プロファイル属性およびオーディエンスメンバーシップを目的の宛先に共有するための宛先を設定します。
 
-## 実装のための考慮事項
-
-属性とIDのアクティブ化
-
-* [!UICONTROL Real-time Customer Data ] Platformは、オーディエンスのメンバーシップをアクティブにするほか、アクティベーション対象として選択したセグメントのメンバーであるプロファイルに対して発生する属性およびIDの変更をアクティブにできます。属性またはIDをアクティブにする場合は、属性やIDの更新を送信するすべてのプロファイルを含むグローバルセグメントを定義する必要があります。 この時点で、セグメントと目的の属性を選択し、宛先設定の一部としてアクティブ化できます。
-* バッチ宛先は、属性のみの変更イベントのアクティベーションをサポートしていません。 オーディエンスの全メンバーシップまたは増分メンバーシップは、アクティベーションのために選択した属性と共に送信できますが、バッチ宛先を使用して属性のみの変更イベントをアクティブにすることはできません。
-
-ストリーミング送信先へのバッチセグメントのアクティブ化
-
-* ストリーミング送信先へのバッチセグメントアクティベーションがサポートされています。 バッチセグメントジョブは、セグメントジョブがストリーミングアクティベーション用に完了すると、パイプラインにメッセージを配置します
-
-バッチ宛先へのストリーミングセグメントのアクティブ化
-
-* バッチ宛先へのセグメントアクティベーションのストリーミングがサポートされます。 バッチ宛先スケジュールは、バッチ宛先スケジュールに基づいてプロファイルセグメントメンバーシップをエクスポートします。 これには、ストリーミングメソッドとバッチメソッドで決定されたセグメントメンバーシップの両方が含まれます。
-
-エクスペリエンスイベントのアクティブ化
-
-* 生のエクスペリエンスイベントのアクティブ化はサポートされていません。 エクスペリエンスイベントに対してアクティブ化するには、エクスペリエンスイベントロジックを含むまたは除外する必要なルールを使用してセグメントを作成する必要があります。 これにより、エクスペリエンスのイベントに対して定義されたセグメントが作成され、セグメントのメンバーシップは、生のエクスペリエンスのイベントをアクティブ化するプロキシとしてアクティブ化できます。 また、[!UICONTROL Launch Server Side]を使用して、SDKで収集した生のエクスペリエンスイベントをアクティブにすることも検討してください。
-
 ## 関連ドキュメント
 
 * [宛先ドキュメント](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/overview.html?lang=ja)
 * [クラウドストレージの宛先の概要](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/overview.html?lang=en#catalog)
 * [HTTP宛先](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/http-destination.html?lang=en#overview)
 * [リアルタイム顧客データプラットフォーム製品説明](https://helpx.adobe.com/jp/legal/product-descriptions/real-time-customer-data-platform.html)
-* [プロファイルと分類のガイドライン](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=en)
-* [セグメント化ドキュメント](https://experienceleague.adobe.com/docs/experience-platform/segmentation/api/streaming-segmentation.html)
+* [プロファイルと分類のガイドライン](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=ja)
+* [セグメント化ドキュメント](https://experienceleague.adobe.com/docs/experience-platform/segmentation/api/streaming-segmentation.html?lang=ja)
 
 ## 関連ビデオおよびチュートリアル
 
