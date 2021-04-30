@@ -1,49 +1,49 @@
 ---
-title: データの準備と取り込みのBlueprint
-description: この設計図は、Adobe Experience Platformでデータを取り込み、調製する方法をすべて示しています。
+title: データ準備と取り込みブループリント
+description: このブループリントは、Adobe Experience Platform でデータを取り込んだり準備したりするためのあらゆる方法を示します。
 solution: Experience Platform,Data Collection
 kt: 7204
 thumbnail: null
 exl-id: 21f8a73e-6be7-448e-8cd3-ebee9fc848e1,5c3c94b6-c928-4d93-8b38-f8bd2aad2e68
 translation-type: tm+mt
-source-git-commit: 37416aafc997838888edec2658d2621d20839f94
+source-git-commit: 9e0954334e8b8a8c5bf52651611e7afa165f6d21
 workflow-type: tm+mt
 source-wordcount: '600'
-ht-degree: 0%
+ht-degree: 84%
 
 ---
 
-# データの準備と取り込みのBlueprint
+# データ準備と取り込みブループリント
 
-データの準備と取り込みのブループリントには、データを準備し、Adobe Experience Platformに取り込むためのすべての方法が含まれます。
+データ準備と取り込みブループリントは、データを準備したり Adobe Experience Platform に取り込んだりするためのあらゆる方法を網羅しています。
 
-データの準備には、ソースデータとエクスペリエンスデータモデル(XDM)スキーマとのマッピングが含まれます。 また、日付形式、フィールド分割/連結/変換、レコードの結合/結合/再入力など、データに対する変換も実行されます。 データの準備は、顧客データの統合を支援し、レポートや顧客プロファイルの分析/データ科学/アクティベーションのためのデータを含む、集計/フィルタリングされたを提供します。
+データの準備には、ソースデータとエクスペリエンスデータモデル(XDM)スキーマとのマッピングが含まれます。 また、データ変換（日付形式、フィールドの分割／連結／コンバージョン、レコードの結合／キー更新など）の実行も含まれます。データ準備は、顧客データを統合して、集計／フィルタリングされた分析を提供するのに役立ちます。これには、レポート作成や顧客プロファイルの組み立て／データサイエンス／アクティベーションのためのデータ準備が含まれます。
 
-## 建築
+## 構造
 
-<img src="assets/dataingest.svg" alt="データの準備と取り込みに関するBlueprintのリファレンス・アーキテクチャ" style="border:1px solid #4a4a4a" />
+<img src="assets/data_ingestion.svg" alt="データ準備と取り込みブループリントの参照アーキテクチャ" style="border:1px solid #4a4a4a" />
 
 ## データ取り込み方法
 
-| 取り込み方法 | 説明 |
+| 取り込みの方法 | 説明 |
 |------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Web/モバイルSDK | 待ち時間：<ul><li>リアルタイム — Edge Networkに対する同じページコレクション</li><li>プロファイルへのストリーミング取り込み：1分</li><li>データレークへのストリーミング取り込み（マイクロバッチから15分）</ul>ドキュメント： <ul><li>[Web SDK](https://experienceleague.corp.adobe.com/docs/web-sdk.html)</li><li>[モバイルSDK](https://experienceleague.adobe.com/docs/mobile.html?lang=en)</li></ul> |
-| ストリーミングソース | 待ち時間：<ul><li>リアルタイム — Edge Networkに対する同じページコレクション</li><li>プロファイルへのストリーミング取り込み：1分</li><li>データレークへのストリーミング取り込み（マイクロバッチから15分）</li></ul>[ドキュメント](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=en#connectors) |
-| ストリーミングAPI | 待ち時間：<ul><li>リアルタイム — Edge Networkに対する同じページコレクション</li><li>プロファイルへのストリーミング取り込み：1分</li><li>データレークへのストリーミング取り込み（マイクロバッチから15分）</li><li>7 GB/時</li></ul>[ドキュメント](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/overview.html?lang=en#what-can-you-do-with-streaming-ingestion%3F) |
-| ETLツール | ETLツールを使用して、企業データを変更し、Experience Platformに取り込む前に変換します。<br><br>待ち時間：<ul><li>タイミングは外部のETLツールのスケジュールに依存し、次に、標準のインジェストガードレールが、インジェストに使用される方法に基づいて適用されます。</li></ul> |
-| バッチソース | ソースからのスケジュールされたフェッチ<br>遅延：～ 200 GB/時<br><br>[ドキュメント](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=en#connectors)<br>[ビデオTutorials](https://experienceleague.adobe.com/docs/platform-learn/tutorials/sources/overview.html) |
-| バッチAPI | 待ち時間：<ul><li>サイズとトラフィックの負荷に応じて、プロファイルへのバッチ取り込みが45分以内に行われる</li><li>サイズとトラフィックの負荷に応じて、データレークへのバッチ取り込み</li></ul>[ドキュメント](https://experienceleague.adobe.com/docs/experience-platform/ingestion/batch/overview.html?lang=en#batch) |
-| AdobeのApplication Connectors | Adobe Experience Cloudアプリケーションをソースとするデータを自動的に取り込む<ul><li>Adobe Analytics:[ドキュメント](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html?lang=en#connectors)と[ビデオチュートリアル](https://experienceleague.adobe.com/docs/platform-learn/tutorials/sources/ingest-data-from-adobe-analytics.html)</li><li>Audience Manager:[ドキュメント](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/audience-manager.html?lang=en#connectors)と[ビデオチュートリアル](https://experienceleague.adobe.com/docs/platform-learn/tutorials/sources/ingest-data-from-aam.html)</li></ul> |
+| web／Mobile SDK | 待ち時間：<ul><li>リアルタイム - Edge Network への同じページの収集</li><li>プロファイルへのストリーミングの取り込み ～ 1 分</li><li>データレイクへのストリーミングの取り込み（マイクロバッチ ～ 15 分）</ul>ドキュメント： <ul><li>[Web SDK](https://experienceleague.corp.adobe.com/docs/web-sdk.html)</li><li>[Mobile SDK](https://experienceleague.adobe.com/docs/mobile.html?lang=ja)</li></ul> |
+| ストリーミングソース | 待ち時間：<ul><li>リアルタイム - Edge Network への同じページの収集</li><li>プロファイルへのストリーミングの取り込み ～ 1 分</li><li>データレイクへのストリーミングの取り込み（マイクロバッチ ～ 15 分）</li></ul>[ドキュメント](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=ja#connectors) |
+| ストリーミング API | 待ち時間：<ul><li>リアルタイム - Edge Network への同じページの収集</li><li>プロファイルへのストリーミングの取り込み ～ 1 分</li><li>データレイクへのストリーミングの取り込み（マイクロバッチ ～ 15 分）</li><li>7 GB/時間</li></ul>[ドキュメント](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/overview.html?lang=ja#what-can-you-do-with-streaming-ingestion%3F) |
+| ETL ツール | Experience Platform に取り込む前に、ETL ツールを使用してエンタープライズデータを変更および変換します。<br><br>待ち時間：<ul><li>タイミングは外部 ETL ツールのスケジュールに依存し、その後、取り込みに使用される方法に基づいて、標準的な取り込みガードレールが適用されます。</li></ul> |
+| バッチソース | ソースからのスケジュールされた取得<br>待ち時間：～ 200 GB/時間<br><br>[ドキュメント](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=en#connectors)<br>[ビデオチュートリアル](https://experienceleague.adobe.com/docs/platform-learn/tutorials/sources/overview.html?lang=ja) |
+| バッチ API | 待ち時間：<ul><li>プロファイルへのバッチ取り込みはサイズおよびトラフィックの負荷に依存 ～45 分</li><li>データレイクへのバッチ取り込みはサイズおよびトラフィックの負荷に依存</li></ul>[ドキュメント](https://experienceleague.adobe.com/docs/experience-platform/ingestion/batch/overview.html?lang=ja#batch) |
+| アドビアプリケーションコネクタ | Adobe Experience Cloud アプリケーションから供給されるデータを自動的に取り込みます<ul><li>Adobe Analytics：[ドキュメント](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html?lang=ja#connectors)および[ビデオチュートリアル](https://experienceleague.adobe.com/docs/platform-learn/tutorials/sources/ingest-data-from-adobe-analytics.html?lang=ja)</li><li>Audience Manager：[ドキュメント](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/audience-manager.html?lang=ja#connectors)および[ビデオチュートリアル](https://experienceleague.adobe.com/docs/platform-learn/tutorials/sources/ingest-data-from-aam.html?lang=ja)</li></ul> |
 
 
-## データの準備方法
+## データ準備方法
 
-| データの作成の方法 | 説明 |
+| データ準備の方法 | 説明 |
 |------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [!UICONTROL Data Science Workspace]  — データ準備 | モデル駆動変換、スクリプト変換。<br>[ドキュメント](https://experienceleague.adobe.com/docs/experience-platform/data-science-workspace/home.html?lang=en) |
+| [!UICONTROL Data Science Workspace]  — データ準備 | モデル主導の変換、スクリプト化された変換。<br>[ドキュメント](https://experienceleague.adobe.com/docs/experience-platform/data-science-workspace/home.html?lang=ja) |
 | 外部ETLツール（[!DNL Snaplogic]、[!DNL Mulesoft]、[!DNL Informatica]など） | ETLツールで複雑な変換を実行し、標準Experience Platform[!UICONTROL フローサービス]APIまたはソースコネクタを使用して結果のデータを取り込みます。 |
-| [!UICONTROL クエリサービス]  — データ準備 | 結合、分割、結合、変換、クエリ、フィルタの各データを新しいデータセットにまとめます。 テーブルを選択として作成(CTAS) <br>[ドキュメント](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=en#sql)の使用 |
-| XDMマッパーとデータ準備機能（ストリーミングとバッチ） | Experience Platformの取り込み時に、CSV形式またはJSON形式のソース属性をXDM属性にマップします。<br>データの取り込み時に関数を計算するつまり、データの形式設定、分割、連結などを行います。<br>[ドキュメント](https://experienceleague.adobe.com/docs/experience-platform/data-prep/home.html?lang=en) |
+| [!UICONTROL クエリサービス]  — データ準備 | 結合、分割、結合、変換、クエリ、フィルタの各データを新しいデータセットにまとめます。 テーブルを選択として作成(CTAS) <br>[ドキュメント](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=ja#sql)の使用 |
+| XDMマッパーとデータ準備機能（ストリーミングとバッチ） | Experience Platformの取り込み時に、CSV形式またはJSON形式のソース属性をXDM属性にマップします。<br>取り込まれたデータに対して、関数を計算します（データの形式、分割、連結など）。<br>[ドキュメント](https://experienceleague.adobe.com/docs/experience-platform/data-prep/home.html?lang=ja) |
 
 ## 関連するブログ投稿
 
