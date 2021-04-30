@@ -1,37 +1,37 @@
 ---
-title: サーバー側エンタープライズデータ収集ブループリント
-description: Experience PlatformSDKによって収集されたデータを宛先にストリーム配信
+title: サーバーサイドエンタープライズデータ収集ブループリント
+description: Experience Platform SDK で収集したデータを宛先にストリーミング
 solution: Experience Platform,Data Collection
 kt: 7202
 exl-id: 8d6f0705-628b-44e4-a3fc-da6c5e308a5b,c7d6356d-a1ae-472b-b501-5c736e990252
 translation-type: tm+mt
-source-git-commit: 2343151a1ed5374c299fb9317f6282c232d5d23b
+source-git-commit: 9e0954334e8b8a8c5bf52651611e7afa165f6d21
 workflow-type: tm+mt
 source-wordcount: '215'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
-# サーバー側エンタープライズデータ収集ブループリント
+# サーバーサイドエンタープライズデータ収集ブループリント
 
-Server Side Enterprise Data Collection Blueprintは、Adobe Experience PlatformWebおよびモバイルSDKで収集されたデータを、Experience Platformエッジネットワークから目的の場所に転送する方法を示しています。 SDKから収集されたすべての生データ、またはExperience Platform Launchで設定されたイベントやルールに基づく特定のデータを転送できます。
+サーバーサイドエンタープライズデータ収集ブループリントは、Adobe Experience Platform Web SDK および Mobile SDK を使用して収集されたデータを Experience Platform Edge Network から目的の宛先に転送する方法を示します。SDK から収集された生のデータをすべて転送することも、Experience Platform Launch で設定されたイベントおよびルールに基づいて特定のデータを転送することもできます。
 
-## 使用例
+## ユースケース
 
-* 単一のコレクションタグを使用してWebやモバイルからデータを収集し、クライアントブラウザーとアプリでのコードの重み付けを軽くします。 収集したデータを様々なエンドポイントに伝播し、1つのデータ収集ソースを作成します。
-* 収集したデータをパートナーのアプリケーションまたはデータストレージの場所に転送し、収集したデータに対するインサイトやアプリを作成します。
+* 単一の収集タグを使用して web またはモバイルからデータを収集し、クライアントブラウザーおよびアプリのコードを軽量化する。収集したデータを様々なエンドポイントに伝達し、データ収集の単一のソースとする。
+* 収集されたデータをパートナーアプリケーションやデータ保存場所に転送して、収集されたデータに対するインサイトおよびアプリケーションを構築する。
 
-## アプリ
+## アプリケーション
 
-* Adobe Experience Platformコレクション
+* Adobe Experience Platform コレクション
 
-## 建築
+## 構造
 
-<img src="assets/entcollect.svg" alt="企業データ収集のリファレンスアーキテクチャ" style="border:1px solid #4a4a4a" />
+<img src="assets/enterprise_collection.svg" alt="エンタープライズデータ収集の参照アーキテクチャ" style="border:1px solid #4a4a4a" />
 
 ## 関連ドキュメント
 
-[Experience Platform Launchサーバー側ドキュメント](https://experienceleague.adobe.com/docs/launch/using/server-side-info/server-side-overview.html?lang=en#server-side-info)
+[Experience Platform Launch サーバーサイドドキュメント](https://experienceleague.adobe.com/docs/launch/using/server-side-info/server-side-overview.html?lang=ja#server-side-info)
 
 ## 関連するブログ投稿
 
