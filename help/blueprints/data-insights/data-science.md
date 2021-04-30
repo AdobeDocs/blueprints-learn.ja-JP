@@ -1,47 +1,47 @@
 ---
-title: プロファイルエンリッチメント設計図のカスタムデータサイエンス
-description: この青写真は、Adobe Experience PlatformのData Science WorkspaceがExperience Platform内のデータをどのように使用して、モデルをトレーニング、導入、スコア化し、データから機械学習のインサイトを得るかを示しています。
+title: プロファイルエンリッチメントのためのカスタムデータサイエンスブループリント
+description: このブループリントは、Adobe Experience Platform の Data Science Workspace がモデルをトレーニング、デプロイ、スコアリングするために、Experience Platform 内のデータをどのように使用して、データから機械学習によるインサイトを提供するかを示します。
 solution: Experience Platform,Data Collection
 kt: 7203
 exl-id: e5ec6886-4fa4-4c9b-a2d8-e843d7758669,f0efaf3c-6c4f-47c3-ab8a-e8e146dd071c
 translation-type: tm+mt
-source-git-commit: 2343151a1ed5374c299fb9317f6282c232d5d23b
+source-git-commit: 9e0954334e8b8a8c5bf52651611e7afa165f6d21
 workflow-type: tm+mt
 source-wordcount: '370'
-ht-degree: 0%
+ht-degree: 69%
 
 ---
 
-# プロファイルエンリッチメント設計図のカスタムデータサイエンス
+# プロファイルエンリッチメントのためのカスタムデータサイエンスブループリント
 
 Custom Data Science forプロファイルエンリッチメントBlueprintは、Adobe Experience Platformのデータを[!UICONTROL Data Science Workspace]でどのように使用して、機械学習の洞察を提供するモデルのトレーニング、展開、スコアリングを行えるかを説明しています。 これらのモデルは、[!UICONTROL リアルタイム顧客プロファイル]に対して有効なデータセットに直接出力し、顧客プロファイルをさらに強化できます。 これらのインサイトは、パーソナライゼーションのためにアクションを付けることができます。 機械学習インサイトの例としては、ライフタイム値スコア、製品とカテゴリのアフィニティ、コンバージョンする傾向、傾向から傾向などがあります。
 
-## 使用例
+## ユースケース
 
-* Experience Platform内の顧客データからインサイトと発見のパターンを抽出します。 このデータからモデルをトレーニングし、スコアを作成します。
+* Experience Platform の顧客データからインサイトを抽出してパターンを見つける。このデータからモデルをトレーニングおよびスコアリングする。
 * より詳細なパーソナライゼーションと最適化されたジャーニーを実現するため、[!UICONTROL リアルタイム顧客プロファイル]を、モデルに基づくインサイトと属性で強化します。
-* モデルをトレーニングおよびスコアして、顧客のライフタイム値、コンバージョンや傾向、商品やコンテンツのアフィニティ、エンゲージメントスコアなどの顧客インサイトを判断します。
+* 顧客のライフタイムバリュー、コンバージョン傾向やチャーン傾向、製品およびコンテンツの親和性、エンゲージメントスコアなどの顧客インサイトを判別するためのモデルをトレーニングおよびスコアリングする。
 
-## 建築
+## 構造
 
-<img src="assets/datascience.svg" alt="プロファイルエンリッチメント設計図のカスタムデータサイエンスのリファレンスアーキテクチャ" style="border:1px solid #4a4a4a" />
+<img src="assets/data_science.svg" alt="プロファイルエンリッチメントのためのカスタムデータサイエンスブループリントの参照アーキテクチャ" style="border:1px solid #4a4a4a" />
 
-## 導入手順
+## 実装手順
 
-1. スキーマとデータセットを作成します。
-1. データをExperience Platformに取り込みます。
-1. DSWノートブックを作成します。
-1. 言語を選択します。 PythonとPySparkがサポートされています。
-1. ノートブックに作成者モデル
+1. スキーマおよびデータセットを作成します。
+1. データを Experience Platform に取り込みます。
+1. DSW ノートブックを作成します。
+1. 言語を選択します。Python と PySpark をサポートしています。
+1. ノートブックでモデルを作成します。
 1. モデルをトレーニングします。
-1. モデルにスコアを付け、ターゲットデータを使用した予測を生成します。
+1. モデルをスコアリングして、ターゲットデータを使用した予測を生成します。
 1. モデル結果を[!UICONTROL リアルタイム顧客プロファイル]にプッシュする場合は、プロファイル用にモデル結果データセットを有効にします。
 
 ## 関連ドキュメント
 
-* [Adobe Experience Platformインテリジェンス製品の説明](https://helpx.adobe.com/legal/product-descriptions/adobe-experience-platform-intelligence---product-description.html)
-* [[!UICONTROL Data Science ] Workspaceのドキュメント](https://experienceleague.adobe.com/docs/experience-platform/data-science-workspace/home.html?lang=en)
-* [[!UICONTROL Data Science ] Workspaceのチュートリアル](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-science-workspace/understanding-data-science-workspace.html)
+* [Adobe Experience Platform インテリジェンス製品説明](https://helpx.adobe.com/jp/legal/product-descriptions/adobe-experience-platform-intelligence---product-description.html)
+* [Data Science Workspace ドキュメント](https://experienceleague.adobe.com/docs/experience-platform/data-science-workspace/home.html?lang=ja)
+* [Data Science Workspace チュートリアル](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-science-workspace/understanding-data-science-workspace.html?lang=ja)
 
 ## 関連するブログ投稿
 
