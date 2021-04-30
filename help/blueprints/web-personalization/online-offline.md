@@ -5,10 +5,10 @@ solution: Experience Platform, Real-time Customer Data Platform, Target, Audienc
 kt: 7194thumb-web-personalization-scenario2.jpg
 exl-id: 29667c0e-bb79-432e-af3a-45bd0b3b43bb
 translation-type: tm+mt
-source-git-commit: 9a52c5f9513e39b31956aaa0f30cad1426b63a95
+source-git-commit: ed56e79cd45c956cab23c640810dc8e1cc204c16
 workflow-type: tm+mt
-source-wordcount: '1091'
-ht-degree: 48%
+source-wordcount: '648'
+ht-degree: 80%
 
 ---
 
@@ -31,27 +31,11 @@ web パーソナライズ機能を電子メールおよびその他の既知お�
 
 ## 構造
 
-<img src="assets/onoff.svg" alt="オンライン/オフラインWebパーソナライゼーションのBlueprintのリファレンスアーキテクチャ" style="border:1px solid #4a4a4a" />
+<img src="assets/online_offline_personalization.svg" alt="オンライン/オフラインWebパーソナライゼーションのBlueprintのリファレンスアーキテクチャ" style="border:1px solid #4a4a4a" />
 
 ## ガードレール
 
-### セグメントの評価とアクティベーションのためのガードレール
-
-| セグメントタイプ | 頻度 | スループット | 待ち時間（セグメント評価） | 待ち時間(セグメントアクティベーション) |
-|---|---|---|---|---|
-| エッジセグメント | エッジセグメントは現在ベータ版であり、有効なリアルタイムセグメントをExperience Platformエッジネットワークで評価し、Adobe TargetとAdobeJourney Optimizerを介した同じページ判定をリアルタイムで行うことができます。 |  | ～100 ms | Adobe Targetでのパーソナライゼーション、エッジプロファイルでのプロファイル検索、cookieベースの宛先を介したアクティベーションに対して、すぐに使用できます。 |
-| ストリーミングセグメント化 | 新しいストリーミングイベントまたは記録がリアルタイム顧客プロファイルに取り込まれるたびに、そのセグメント定義が有効なストリーミングセグメントとなります。 <br>ストリーミングセグメントの条件に関するガイダンスについては、 [セグメント](https://experienceleague.adobe.com/docs/experience-platform/segmentation/api/streaming-segmentation.html?lang=ja) 化に関するドキュメントを参照してください。 | 1秒あたり最大1500イベント | ～ p95 &lt;5分 | これらのセグメントの実現が行われると、数分以内にAudience Managerとオーディエンス共有サービスに共有され、Adobe Targetの同じ/次のページのパーソナライゼーションに利用できます。 |
-| 増分セグメント化 | 前回の増分またはバッチセグメントの評価後にリアルタイム顧客プロファイルに取り込まれた新しいデータに対して、1時間に1回。 |  |  | これらのセグメントのメンバーシップが認識されると、数分以内にAudience Managerとオーディエンス共有サービスに共有され、Adobe Targetの同じ/次のページのパーソナライゼーションに利用できます。 |
-| バッチセグメント | 事前に定義されたシステムセットスケジュールに基づいて、またはAPIを介して手動で開始する1日に1回。 |  | ジョブあたり約1時間(最大10 TBのプロファイルストアサイズ)。10 TB ～ 100 TBのプロファイルストアサイズでは、ジョブあたり2時間。 バッチセグメントジョブのパフォーマンスは、プロファイル数、プロファイルのサイズ、評価対象のセグメント数に依存します。 | これらのセグメントのメンバーシップが認識されると、数分以内にAudience Managerとオーディエンス共有サービスに共有され、Adobe Targetの同じ/次のページのパーソナライゼーションに利用できます。 |
-
-### アプリケーション間のオーディエンス共有のガードレール
-
-
-| オーディエンス共有統合パターン | 詳細 | 頻度 | スループット | 待ち時間（セグメント評価） | 待ち時間(セグメントアクティベーション) |
-|---|---|---|---|---|---|
-| リアルタイム顧客データプラットフォームからAudience Manager |  | セグメントタイプによって異なります。上のセグメント化ガードレールの表を参照してください。 | セグメントタイプによって異なります。上のセグメント化ガードレールの表を参照してください。 | セグメントタイプによって異なります。上のセグメント化ガードレールの表を参照してください。 | セグメント評価が完了してから数分以内に<br>リアルタイムの顧客データプラットフォームとAudience Managerの初期オーディエンス設定の同期には、約4時間かかります。<br>4時間の間に実現したオーディエンスのメンバーシップは、その後のバッチセグメントジョブに関するAudience Managerに対して、「既存の」オーディエンスのメンバーシップとして書き込まれます。 |
-| Adobe AnalyticsからAudience Managerへ | 各Adobe Analyticsレポートスイートで共有できるオーディエンスは、デフォルトで最大75個です。 Audience Managerライセンスを使用する場合、Adobe AnalyticsとAdobe Target、Adobe Audience Manager、Adobe Target間で共有できるオーディエンスの数に制限はありません。 |  |  |  |  |
-| Adobe Analyticsからリアルタイム顧客データプラットフォーム | 現在はご利用いただけません。 |  |  |  |  |
+「オーディエンスとプロファイルアクティベーションの設計図」セクションの下のガードレールを参照してください — [LINK](../audience-activation/overview.md)
 
 ## 実装パターン
 
@@ -62,11 +46,11 @@ Web/モバイルパーソナライゼーションのBlueprintは、以下に説�
 
 ### 1.プラットフォームWeb/モバイルSDKとエッジアプローチ
 
-<img src="assets/websdkflow.svg" alt="[!UICONTROLプラットフォームWeb SDK]または[!UICONTROLプラットフォームモバイルSDK]および[!UICONTROLエッジネットワーク]アプローチのリファレンスアーキテクチャ" style="border:1px solid #4a4a4a" />
+<img src="assets/web_sdk_flow.svg" alt="[!UICONTROLプラットフォームWeb SDK]または[!UICONTROLプラットフォームモバイルSDK]および[!UICONTROLエッジネットワーク]アプローチのリファレンスアーキテクチャ" style="border:1px solid #4a4a4a" />
 
 ### 2.アプリケーション固有のSDKアプローチ
 
-<img src="assets/appsdkflow.png" alt="アプリケーション専用 SDK アプローチの参照アーキテクチャ" style="border:1px solid #4a4a4a" />
+<img src="assets/app_sdk_flow.png" alt="アプリケーション専用 SDK アプローチの参照アーキテクチャ" style="border:1px solid #4a4a4a" />
 
 ## 実装の前提条件
 
@@ -96,7 +80,7 @@ Web/モバイルパーソナライゼーションのBlueprintは、以下に説�
 
 * [Audience Manager およびその他の Experience Cloud ソリューションを使用した Experience Platform セグメント共有](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-experience-platform/aam-aep-audience-sharing.html?lang=ja)
 * [Experience Platform セグメント化の概要](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=ja)
-* [ストリーミングセグメント化](https://experienceleague.adobe.com/docs/experience-platform/segmentation/api/streaming-segmentation.html)
+* [ストリーミングセグメント化](https://experienceleague.adobe.com/docs/experience-platform/segmentation/api/streaming-segmentation.html?lang=ja)
 * [Experience Platform セグメントビルダーの概要](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=ja)
 * [Audience Manager ソースコネクタ](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/audience-manager.html?lang=ja)
 * [Adobe Audience Managerを通じたAdobe Analyticsセグメント共有](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-publish.html?lang=ja)
