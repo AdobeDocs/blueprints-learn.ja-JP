@@ -4,7 +4,7 @@ description: デジタルエクスペリエンスブループリントは、戦�
 solution: Experience Platform
 exl-id: 52898310-9723-4ec2-ba10-f45fefe29e93
 translation-type: tm+mt
-source-git-commit: b5b2fff60678a9a36ffffd0a2bf22c8f76573a3e
+source-git-commit: 9e0954334e8b8a8c5bf52651611e7afa165f6d21
 workflow-type: tm+mt
 source-wordcount: '265'
 ht-degree: 37%
@@ -37,7 +37,7 @@ Digital Experience Blueprintsは、戦略に取り組み、確立されたビジ
     <p><em>[!UICONTROL Platform]を中央ハブとして使用するトリガーメッセージとエクスペリエンス。</em></p>
   </td>
   <td>
-    <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/online-offline.html"><img alt="オンライン/オフラインAudience ActivationのBlueprintのサムネール画像" src="audience-activation/assets/onoff.svg" /></a>
+    <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/online-offline.html"><img alt="オンライン/オフラインAudience ActivationのBlueprintのサムネール画像" src="audience-activation/assets/online_offline_activation.svg" /></a>
     <div><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/online-offline.html"><strong>オンライン／オフライン Audience Activation</strong></a></div>
     <p><em>オーディエンスアクティベーションのクロスチャネル広告を配信します。</em></p>
   </td>
