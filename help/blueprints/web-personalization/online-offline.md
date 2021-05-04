@@ -5,10 +5,10 @@ solution: Experience Platform, Real-time Customer Data Platform, Target, Audienc
 kt: 7194thumb-web-personalization-scenario2.jpg
 exl-id: 29667c0e-bb79-432e-af3a-45bd0b3b43bb
 translation-type: tm+mt
-source-git-commit: ed56e79cd45c956cab23c640810dc8e1cc204c16
+source-git-commit: 61cb72965cd528cf264231058b1010829a87df9e
 workflow-type: tm+mt
-source-wordcount: '648'
-ht-degree: 80%
+source-wordcount: '676'
+ht-degree: 77%
 
 ---
 
@@ -31,11 +31,17 @@ web パーソナライズ機能を電子メールおよびその他の既知お�
 
 ## 構造
 
-<img src="assets/online_offline_personalization.svg" alt="オンライン/オフラインWebパーソナライゼーションのBlueprintのリファレンスアーキテクチャ" style="border:1px solid #4a4a4a" />
+### リアルタイム顧客データプラットフォーム、ターゲット、Audience Managerを使用したオンライン/オフラインパーソナライゼーションアーキテクチャ図
+
+<img src="assets/online_offline_personalization_with_apps.svg" alt="オンライン/オフラインWebパーソナライゼーションのBlueprintのリファレンスアーキテクチャ" style="border:1px solid #4a4a4a" />
 
 ## ガードレール
 
 「オーディエンスとプロファイルアクティベーションの設計図」セクションの下のガードレールを参照してください — [LINK](../audience-activation/overview.md)
+
+### オンライン/オフラインパーソナライゼーションガードレール図
+
+<img src="assets/personalization_guardrails.svg" alt="オンライン/オフラインWebパーソナライゼーションのBlueprintのガードレール図" style="border:1px solid #4a4a4a" />
 
 ## 実装パターン
 
