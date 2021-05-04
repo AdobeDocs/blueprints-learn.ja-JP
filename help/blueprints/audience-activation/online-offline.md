@@ -5,10 +5,10 @@ solution: Experience Platform, Real-time Customer Data Platform, Target, Audienc
 kt: 7086
 exl-id: 011f4909-b208-46db-ac1c-55b3671ee48c
 translation-type: tm+mt
-source-git-commit: da21d1796eb9a2c9c0f087d82606874ca55bd4ea
+source-git-commit: 762836aba236ed78f4f396e8521a99c775dd52fc
 workflow-type: tm+mt
-source-wordcount: '448'
-ht-degree: 74%
+source-wordcount: '506'
+ht-degree: 67%
 
 ---
 
@@ -46,13 +46,14 @@ ht-degree: 74%
 
 ## 実装手順
 
-1. Experience Platform でスキーマおよびデータセットを設定します。
-1. 取り込まれたデータが統合プロファイルに確実にステッチできるようにするために、スキーマに正しい ID および ID 名前空間を設定します。
-1. プロファイル用のスキーマおよびデータセットを有効にします。
-1. Platform にデータを取り込みます。
-1. Experience PlatformとAudience Managerの間で[!UICONTROL Real-time Customer Data Platform]のセグメント共有をプロビジョニングし、Experience Platformで定義されたオーディエンスをAudience Managerに共有します。
-1. Experience Platform の作成者セグメントが、バッチまたはストリーミングで評価されます。システムは、セグメントをバッチとして、またはストリーミングとして評価するかを自動的に判定します。
-1. プロファイル属性およびオーディエンスメンバーシップを目的の宛先に共有するための宛先を設定します。
+1. [取り込むデータの](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/create-a-schema.html) スキーマを作成します。
+1. [取り込むデータの](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/create-datasets-and-ingest-data.html) データセットを作成します。
+1. [取り込まれたデータが統合プロファイルに確実にステッチできるようにするために、スキーマに正しい ID および ID 名前空間を設定します。](https://experienceleague.adobe.com/docs/platform-learn/tutorials/identities/label-ingest-and-verify-identity-data.html)
+1. [プロファイルのスキーマとデータセットを有効にします](https://experienceleague.adobe.com/docs/platform-learn/tutorials/profiles/bring-data-into-the-real-time-customer-profile.html)。
+1. [データをプラットフォームに取り込みます](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2020.1.dataingestion)。
+1. [Experience Platform で定義されたオーディエンスが Audience Manager に共有されるように、Experience Platform と Audience Manager の間のリアルタイム顧客データプラットフォームセグメント共有をプロビジョニングします。](https://www.adobe.com/go/audiences)
+1. [Experience Platformでセグメントを作成し](https://experienceleague.adobe.com/docs/platform-learn/tutorials/segments/create-segments.html?lang=ja)、バッチまたはストリーミングで評価します。システムは、セグメントをバッチとして、またはストリーミングとして評価するかを自動的に判定します。
+1. [プロファイル属性およびオーディエンスメンバーシップを目的の宛先に共有するための宛先を設定します。](https://experienceleague.adobe.com/docs/platform-learn/tutorials/destinations/create-destinations-and-activate-data.html)
 
 ## 実装のための考慮事項
 
@@ -71,4 +72,4 @@ ht-degree: 74%
 
 * [リアルタイム顧客データプラットフォームの概要](https://experienceleague.adobe.com/docs/platform-learn/tutorials/application-services/rtcdp/understanding-the-real-time-customer-data-platform.html?lang=ja)
 * [[!UICONTROL リアルタイム顧客データプラットフォームのデモ]](https://experienceleague.adobe.com/docs/platform-learn/tutorials/application-services/rtcdp/demo.html?lang=ja)
-* [セグメントの作成](https://experienceleague.adobe.com/docs/platform-learn/tutorials/segments/create-segments.html?lang=ja)
+* [セグメントの作成](https://experienceleague.adobe.com/docs/platform-learn/tutorials/segments/create-segments.html)
