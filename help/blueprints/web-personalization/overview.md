@@ -6,10 +6,10 @@ kt: null
 thumbnail: null
 exl-id: 8ad028fd-3190-42da-9f46-7e927e8878f8
 translation-type: tm+mt
-source-git-commit: cbc9c48041d00c45fc75d3bb65bd865f1f7ecc9c
+source-git-commit: 61cb72965cd528cf264231058b1010829a87df9e
 workflow-type: tm+mt
-source-wordcount: '214'
-ht-degree: 79%
+source-wordcount: '247'
+ht-degree: 68%
 
 ---
 
@@ -21,6 +21,14 @@ Webおよびモバイルパーソナライゼーションでは、複数のア�
 |---|---|---|
 | **[行動分析に基づくWeb/モバイルパーソナライゼーション](behavioral.md)** | <ul><li>オンライン行動およびオーディエンスデータに基づいてパーソナライズします。</li></ul> | <ul><li>Adobe Target</li><li>Adobe Analytics *（オプション）*</li><li>Adobe Audience Manager *（オプション）*</li></ul> |
 | **[オンライン/オフラインWeb/モバイルパーソナライゼーション](online-offline.md)** | <ul><li>オフライン属性およびイベント（トランザクション、予約、CRM およびロイヤリティデータ）を使用してパーソナライズします。</li><li>Web、電子メール、その他の既知のチャネルをまたいでパーソナライズ機能を同期します。</li></ul> | <ul><li>[!UICONTROL リアルタイム顧客データプラットフォーム]</li><li>Adobe Target</li><li>Adobe Analytics *（オプション）*</li><li>Adobe Audience Manager *（オプション）*</li></ul> |
+
+## Webおよびモバイルのパーソナライゼーション用ガードレール
+
+「オーディエンスとプロファイルアクティベーションの設計図」セクションの下のガードレールを参照してください — [LINK](../audience-activation/overview.md)
+
+### オンライン/オフラインパーソナライゼーションガードレール図
+
+<img src="assets/personalization_guardrails.svg" alt="オンライン/オフラインWebパーソナライゼーションのBlueprintのリファレンスアーキテクチャ" style="border:1px solid #4a4a4a" />
 
 ## 関連するブログ投稿
 
