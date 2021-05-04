@@ -6,10 +6,10 @@ kt: null
 thumbnail: null
 exl-id: 3bb2dada-f4cd-43f7-a0d0-f276510ad224
 translation-type: tm+mt
-source-git-commit: b0664edc3d29d693d33eefc3b3c6da8bf7308224
+source-git-commit: 58368eb06b9bbd6c332424bdcfa2789dde7d4c2f
 workflow-type: tm+mt
-source-wordcount: '234'
-ht-degree: 84%
+source-wordcount: '250'
+ht-degree: 79%
 
 ---
 
@@ -29,6 +29,13 @@ Customer Journey Analyticsでは、ブランドが様々なインタラクショ
 |---|---|---|
 | **[クロスチャネルジャーニー分析](digital-behavioral-data-consolidation.md)** | <ul><li>Web、モバイルおよびオフラインの様々なプロパティからのデータを統合することで、複数のチャネルをまたいだ顧客行動を単一の統合されたビューに表示する。</li></ul> | <ul><li>Adobe Experience Platform</li><li>Customer Journey Analytics</li><li>Adobe Analytics（オプション）</li></ul> |
 | **[呼び出し偏向ジャーニー分析](call-deflect.md)** | <ul><li>コールセンターデータを web、モバイルおよびその他のインタラクションデータと組み合わせることで、どのような行動が担当者による通話に最も影響を与えるかを判別する。</li><li>最適化されたセルフサービスコンテンツおよびツールを使用することで、これらのインサイトは、カスタマーエクスペリエンスの最適化や、担当者のサポートを受けるまでの道のりを短縮するのに使用できる。  </li></ul> | <ul><li>Adobe Experience Platform</li><li>Customer Journey Analytics</li> |
+
+## Customer Journey Analyticsの青写真用ガードレール
+
+### ガードレール図
+
+<img src="assets/cja_guardrails.svg" alt="Customer Journey Analyticsの設計図のガードレール図" style="border:1px solid #4a4a4a" />
+
 
 ## 関連するブログ投稿
 
