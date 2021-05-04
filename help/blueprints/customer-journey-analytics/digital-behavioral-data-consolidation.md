@@ -5,9 +5,9 @@ solution: Experience Platform, Customer Journey Analytics, Data Collection
 kt: 7208
 exl-id: b042909c-d323-40d5-8b35-f3e5e3e26694
 translation-type: tm+mt
-source-git-commit: b0664edc3d29d693d33eefc3b3c6da8bf7308224
+source-git-commit: 58368eb06b9bbd6c332424bdcfa2789dde7d4c2f
 workflow-type: tm+mt
-source-wordcount: '568'
+source-wordcount: '518'
 ht-degree: 98%
 
 ---
@@ -35,13 +35,6 @@ Web、モバイルおよびオフラインの様々なプロパティからの�
 ## 構造
 
 <img src="assets/CJA.svg" alt="Customer Journey Analytics ブループリントの参照アーキテクチャ" style="border:1px solid #4a4a4a" />
-
-## ガードレール
-
-Customer Journey Analytics へのデータ取り込み：
-
-* データレイクへのデータ取り込み：API ～ 7 GB/時間、ソースコネクタ ～ 200 GB/時間、データレイクへのストリーミング ～ 15 分、データレイクへの Adobe Analytics ソースコネクタ ～ 45 分。
-* データがデータレイクに公開された後、Customer Journey Analytics で処理するまで、最大 90 分かかる可能性があります。
 
 ## 実装手順
 
