@@ -1,27 +1,27 @@
 ---
 title: Experience CloudアプリケーションとのオーディエンスとプロファイルのアクティベーションBlueprint
-description: Experience Platform内のプロファイルとオーディエンスを管理し、Experience Cloudアプリと共有します。
+description: Experience Platform内のプロファイルとオーディエンスを管理し、Experience Cloudアプリケーションと共有します。
 solution: Experience Platform, Real-time Customer Data Platform, Target, Audience Manager, Analytics, Experience Cloud Services
 kt: 7722
 exl-id: null
 translation-type: tm+mt
-source-git-commit: c1a281f0808a0f081b2b63927a8bddb6377bbbad
+source-git-commit: 0f69d5b2422cc9750ed9c71ea0c10e3271973bf2
 workflow-type: tm+mt
 source-wordcount: '289'
-ht-degree: 33%
+ht-degree: 34%
 
 ---
 
 # Experience CloudアプリケーションとのオーディエンスとプロファイルのアクティベーションBlueprint
 
-Experience Platform内のプロファイルとオーディエンスを管理し、Experience Cloudアプリと共有します。 豊富な顧客セグメントやインサイトをExperience Platformで作成して共有し、Experience Cloudアプリで共有します。
+Experience Platform内のプロファイルとオーディエンスを管理し、Experience Cloudアプリと共有します。 豊富な顧客セグメントやインサイトをExperience Platformで作成して共有し、Experience Cloudアプリケーションと共有します。
 
-Experience Cloudアプリケーションとのアクティベーションは、[オンライン/オフラインAudience ActivationのBlueprint](online-offline.md)と密接に連携しています。 Experience PlatformとExperience Cloudのアプリケーション間の統合に関する詳細は、このブループリントに記載されています。
+Experience Cloudアプリケーションとのアクティベーションは、[オンライン/オフラインAudience ActivationのBlueprint](online-offline.md)と密接に連携しています。 Experience PlatformアプリケーションとExperience Cloudアプリケーション間の統合に関する詳細は、このブループリントに記載されています。
 
 ## ユースケース
 
-* Experience Cloudによる顧客インタラクションチャネル全体にわたるパーソナライズとターゲット設定。
-* Experience Cloudアプリケーション間およびExperience Platform間でのオーディエンスおよびプロファイルデータの共有。
+* Experience Cloudによる顧客のインタラクションチャネル全体にわたってパーソナライズおよびターゲットを行います。
+* Experience PlatformとExperience Cloudアプリケーションの間でオーディエンスとプロファイルのデータを共有します。
 
 ## アプリケーション
 
@@ -29,9 +29,9 @@ Experience Cloudアプリケーションとのアクティベーションは、[
 * [!UICONTROL リアルタイム顧客データプラットフォーム]
 * Experience Platformアクティベーション
 * Experience Cloud アプリケーション
-   * Audience Manager
-   * ターゲット
-   * Campaign
+   * Adobe Audience Manager
+   * Adobe Target
+   * Adobe Campaign
    * Journey Optimizer
 
 ## 構造
