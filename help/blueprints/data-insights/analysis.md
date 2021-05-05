@@ -6,10 +6,10 @@ kt: 7207
 thumbnail: null
 exl-id: 3b22dfdd-3fbe-40b3-b798-1ee983723039,a972ea56-d1c8-45da-9044-ed31222a2441
 translation-type: tm+mt
-source-git-commit: 6365fa00a77ba22774b2d6de3e882a3e09dcae0f
+source-git-commit: 9fe9d67c5f97b633e45155bd54e2006f1b797332
 workflow-type: tm+mt
-source-wordcount: '315'
-ht-degree: 29%
+source-wordcount: '316'
+ht-degree: 31%
 
 ---
 
@@ -46,7 +46,7 @@ Experience Platformの[!UICONTROL クエリサービス]では、SQLクエリを
 
 1. [取り込むデータの](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/create-a-schema.html) スキーマを作成します。
 1. [取り込むデータの](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/create-datasets-and-ingest-data.html) データセットを作成します。
-1. [データをプラットフォームに取り込みます](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2020.1.dataingestion)。
+1. [データを Experience Platform に取り込みます。](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2020.1.dataingestion)
 1. データが、[!UICONTROL クエリサービス]および[!UICONTROL データサイエンスワークスペース]で生のアクセスとクエリに使用できることを確認します。
 1. Business IntelligenceツールとSQLクライアントを[!UICONTROL クエリサービス]に接続して、視覚化、データクエリ、調査を行います。
 
