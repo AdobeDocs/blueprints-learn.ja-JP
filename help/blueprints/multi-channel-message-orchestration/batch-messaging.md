@@ -5,7 +5,7 @@ solution: Experience Platform, Campaign
 kt: 7196
 exl-id: 4e55218c-c158-4f78-9f0b-c03528d992fa
 translation-type: tm+mt
-source-git-commit: 81df87f850b7ac4be9dce7a3b96d39a3a47685c5
+source-git-commit: 01f70fe432d7be38b71889ae19c0d5fe4cf0f78a
 workflow-type: tm+mt
 source-wordcount: '639'
 ht-degree: 48%
