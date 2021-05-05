@@ -6,9 +6,9 @@ kt: null
 thumbnail: null
 exl-id: 8ad028fd-3190-42da-9f46-7e927e8878f8
 translation-type: tm+mt
-source-git-commit: da21d1796eb9a2c9c0f087d82606874ca55bd4ea
+source-git-commit: d30af99dc08d0bc723edc4c1c4705ebc07c3c7b7
 workflow-type: tm+mt
-source-wordcount: '255'
+source-wordcount: '254'
 ht-degree: 66%
 
 ---
@@ -24,7 +24,7 @@ Webおよびモバイルパーソナライゼーションでは、複数のア�
 
 ## Webおよびモバイルのパーソナライゼーション用ガードレール
 
-オーディエンスとプロファイルのアクティベーションに関するガードレールについては、オーディエンスとプロファイルアクティベーションのブループリントのセクション — [LINK](../audience-activation/overview.md)の下のガードレールを参照してください。
+[オーディエンスとプロファイルのアクティベーションに関するガードレールについては、「オーディエンスとプロファイルアクティベーションの設計図」の項の下のガードレールを参照してください。](../audience-activation/overview.md)
 
 ### オンライン/オフラインパーソナライゼーションガードレール図
 
