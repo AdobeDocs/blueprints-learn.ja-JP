@@ -5,10 +5,10 @@ solution: Experience Platform, Real-time Customer Data Platform, Target, Audienc
 kt: 7086
 exl-id: 011f4909-b208-46db-ac1c-55b3671ee48c
 translation-type: tm+mt
-source-git-commit: d6eaf978a8f587b881480c14f192cb9e29e3c7e2
+source-git-commit: 2fc1adc04a9ca2184c88970d5ba0785957327f68
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '543'
+ht-degree: 63%
 
 ---
 
@@ -17,6 +17,8 @@ ht-degree: 0%
 オンライン行動と共に、オフライン属性およびイベント（オフラインの注文、トランザクション、CRM、ロイヤリティデータなど）を、オンラインターゲティングとパーソナライズ機能に使用します。
 
 既知のプロファイルベースの宛先（電子メールプロバイダー、ソーシャルネットワーク、広告など）に対して、オーディエンスをアクティベーションします。
+
+オンライン/オフラインAudience Activationのブループリントは、[オーディエンスとプロファイルのアクティベーションと、Experience CloudアプリケーションのBlueprint](platform-and-applications.md)と密接に連携しています。 詳細は、[オーディエンスとプロファイルのアクティベーションに、Experience CloudアプリケーションのBlueprint](platform-and-applications.md)と共に記載されています。   Experience PlatformアプリケーションとExperience Cloudアプリケーションの間の統合に固有です。
 
 ## ユースケース
 
@@ -42,7 +44,7 @@ ht-degree: 0%
 
 ## ガードレール
 
-「オーディエンスとプロファイルのアクティベーションの概要」ページで説明されているガードレールを参照してください。[LINK](overview.md)
+[「オーディエンスとプロファイルのアクティベーションの概要」ページで説明されているガードレールを参照してください。](overview.md)
 
 ## 実装手順
 
