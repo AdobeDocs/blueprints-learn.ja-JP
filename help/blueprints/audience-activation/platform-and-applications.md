@@ -5,10 +5,10 @@ solution: Experience Platform, Real-time Customer Data Platform, Target, Audienc
 kt: 7722
 exl-id: null
 translation-type: tm+mt
-source-git-commit: 0f69d5b2422cc9750ed9c71ea0c10e3271973bf2
+source-git-commit: d81329f6e90a0bdc0b76a41e4045b8e1aa5f89cd
 workflow-type: tm+mt
-source-wordcount: '289'
-ht-degree: 34%
+source-wordcount: '264'
+ht-degree: 37%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 34%
 
 Experience Platform内のプロファイルとオーディエンスを管理し、Experience Cloudアプリと共有します。 豊富な顧客セグメントやインサイトをExperience Platformで作成して共有し、Experience Cloudアプリケーションと共有します。
 
-Experience Cloudアプリケーションとのアクティベーションは、[オンライン/オフラインAudience ActivationのBlueprint](online-offline.md)と密接に連携しています。 Experience PlatformアプリケーションとExperience Cloudアプリケーション間の統合に関する詳細は、このブループリントに記載されています。
+Experience Cloudアプリケーションとのアクティベーションは、[オンライン/オフラインAudience ActivationのBlueprint](online-offline.md)と密接に連携しています。
 
 ## ユースケース
 
@@ -35,8 +35,6 @@ Experience Cloudアプリケーションとのアクティベーションは、[
    * Journey Optimizer
 
 ## 構造
-
-### Experience Cloudアプリケーションとのオーディエンスとプロファイルのアクティベーション
 
 <img src="assets/activation+apps.svg" alt="Experience Cloudアプリケーションを使用したオーディエンスおよびプロファイルアクティベーションのリファレンスアーキテクチャ" style="border:1px solid #4a4a4a" />
 
