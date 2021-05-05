@@ -5,10 +5,10 @@ solution: Experience Platform, Campaign, Journey Orchestration
 kt: 7197
 exl-id: 97831309-f235-4418-bd52-28af815e1878
 translation-type: tm+mt
-source-git-commit: 37416aafc997838888edec2658d2621d20839f94
+source-git-commit: 81df87f850b7ac4be9dce7a3b96d39a3a47685c5
 workflow-type: tm+mt
-source-wordcount: '621'
-ht-degree: 81%
+source-wordcount: '694'
+ht-degree: 68%
 
 ---
 
@@ -68,23 +68,23 @@ ht-degree: 81%
 
 #### スキーマ／データセット
 
-1. 顧客提供データに基づいて、Experience Platform で個人プロファイル、エクスペリエンスイベントおよびマルチエンティティスキーマを設定します。
-1. 次のAdobe Campaignスキーマを作成します。broadLog、trackingLog、配信不能アドレス、プロファイル環境設定（オプション）。
-1. ガバナンス用に、データセットにデータ使用ラベルを追加します。
-1. ポリシーを作成して、宛先のガバナンスを実施します。
+1. [顧客提供データに基づいて、Experience Platform で個人プロファイル、エクスペリエンスイベントおよびマルチエンティティスキーマを設定します。](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/create-a-schema.html)
+1. broadLog、trackingLog、配信不能アドレス、プロファイル環境設定（オプション）用のAdobe Campaignスキーマを作成します。
+1. [取り込むデータの](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/create-datasets-and-ingest-data.html) データセットExperience Platformを作成します。
+1. [データ追加使用](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-governance/classify-data-using-governance-labels.html) ラベル管理のデータセットへのExperience Platform。
+1. [宛先のガバナンスを実施するポリシーを作成します。](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-governance/create-data-usage-policies.html)
 
 #### プロファイル／ID
 
-1. 任意の顧客専用の名前空間を作成します。
-1. スキーマに ID を追加します。
-1. プロファイル用のスキーマおよびデータセットを有効にします。
-1. 異なる表示の[!UICONTROL リアルタイム顧客プロファイル]（オプション）にマージルールを設定します。
+1. [顧客固有の名前空間を作成します](https://experienceleague.adobe.com/docs/platform-learn/tutorials/identities/label-ingest-and-verify-identity-data.html)。
+1. [ID追加をスキーマに送信します](https://experienceleague.adobe.com/docs/platform-learn/tutorials/identities/label-ingest-and-verify-identity-data.html)。
+1. [プロファイルのスキーマとデータセットを有効にします](https://experienceleague.adobe.com/docs/platform-learn/tutorials/profiles/bring-data-into-the-real-time-customer-profile.html)。
+1. [様々な表示の](https://experienceleague.adobe.com/docs/platform-learn/tutorials/profiles/create-merge-policies.html) リアルタイム顧客プロファイル  （オプション）に対してマージポリシーを設定します。
 1. Adobe Campaignに使用するセグメントを作成します。
 
 #### ソース／宛先
 
-1. ストリーミング API およびソースコネクタを使用して、Experience Platform にデータを取り込みます。
-1. Adobe Campaignで使用する[!DNL Azure] BLOBストレージ先を構成します。
+1. [ストリーミングAPIとソースコネクタを使用して、Experience ](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2020.1.dataingestion) Platformにデータを取り込みます。1.Adobe Campaignで使用する [!DNL Azure] BLOBストレージ先を設定します。
 
 #### モバイルアプリデプロイメント
 
