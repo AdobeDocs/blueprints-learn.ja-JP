@@ -5,10 +5,10 @@ solution: Experience Platform,Data Collection
 kt: 7203
 exl-id: e5ec6886-4fa4-4c9b-a2d8-e843d7758669,f0efaf3c-6c4f-47c3-ab8a-e8e146dd071c
 translation-type: tm+mt
-source-git-commit: 6365fa00a77ba22774b2d6de3e882a3e09dcae0f
+source-git-commit: 9fe9d67c5f97b633e45155bd54e2006f1b797332
 workflow-type: tm+mt
-source-wordcount: '398'
-ht-degree: 62%
+source-wordcount: '399'
+ht-degree: 63%
 
 ---
 
@@ -30,7 +30,7 @@ Custom Data Science forプロファイルエンリッチメントBlueprintは、
 
 1. [取り込むデータの](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/create-a-schema.html) スキーマを作成します。
 1. [取り込むデータの](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/create-datasets-and-ingest-data.html) データセットを作成します。
-1. [データをプラットフォームに取り込みます](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2020.1.dataingestion)。
+1. [データを Experience Platform に取り込みます。](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2020.1.dataingestion)
 1. DSW ノートブックを作成します。
 1. 言語を選択します。Python と PySpark をサポートしています。
 1. ノートブックでモデルを作成します。
