@@ -1,6 +1,6 @@
 ---
-title: データ分析とインテリジェンスのブループリント
-description: このブループリントは、Adobe Experience Platform 内の機能を示し、データレイクに存在するデータの探索的クエリおよび分析を実行します。
+title: データ分析とインテリジェンスブループリント
+description: このブループリントは、データレイクに存在するデータの探索的クエリおよび分析を実行する Adobe Experience Platform 内の機能を示します。
 solution: Experience Platform
 kt: 7207
 thumbnail: null
@@ -9,19 +9,19 @@ translation-type: tm+mt
 source-git-commit: 9fe9d67c5f97b633e45155bd54e2006f1b797332
 workflow-type: tm+mt
 source-wordcount: '316'
-ht-degree: 31%
+ht-degree: 85%
 
 ---
 
-# データ分析とインテリジェンスのブループリント
+# データ分析とインテリジェンスブループリント
 
-データ分析とインテリジェンスは、Adobe Experience Platform内でデータレーク内のデータの探索クエリと分析を実行する機能を備えています。
+データ分析とインテリジェンスは、Adobe Experience Platform 内の機能で構成され、データレイクに存在するデータの調査クエリおよび分析を実行します。
 
-Experience Platformの[!UICONTROL クエリサービス]では、SQLクエリをデータに対して実行できます。 [!UICONTROL Data Science ] Workspaceを使用すると、データ調査、データ科学、および機械学習のワークロードをデータに対して実行できます。
+Experience Platform の[!UICONTROL クエリサービス]を使用すると、データに対して SQL クエリを実行できます。[!UICONTROL Data Science Workspace] を使用すると、データに対して、データ調査、データサイエンスおよび機械学習のワークロードを実行できます。
 
-また、Experience Platformでは、サードパーティのSQLクライアント、インターフェイス、およびBusiness Intelligence(BI)ツールとの接続を[!DNL PostgreSQL]プロトコルを使用して、Experience Platform内のデータに直接接続し、アクセスし、クエリできます。
+また、Experience Platform を使用すると、サードパーティ SQL クライアント、インターフェイスおよびビジネスインテリジェンス（BI）ツールとの接続が可能になり、[!DNL PostgreSQL] プロトコルを使用して、Experience Platform 内で直接データへの接続やアクセス、クエリを実行できます。
 
-設計図の詳細に示すように、クエリのタイムアウトと、クエリ結果に含まれるデータ量に適用されるガードレールもあります。
+ブループリントの詳細に記載されているように、クエリタイムアウトや、クエリ結果に含まれるデータ量に対して、特定のガードレールが適用されます。
 
 ## ユースケース
 
@@ -33,7 +33,7 @@ Experience Platformの[!UICONTROL クエリサービス]では、SQLクエリを
 
 * Adobe Experience Platform
 
-## 構造
+## アーキテクチャ
 
 <img src="assets/data_exploration.svg" alt="エンタープライズデータ調査およびレポートブループリントの参照アーキテクチャ" style="border:1px solid #4a4a4a" />
 
@@ -44,13 +44,13 @@ Experience Platformの[!UICONTROL クエリサービス]では、SQLクエリを
 
 ## 実装手順
 
-1. [取り込むデータの](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/create-a-schema.html) スキーマを作成します。
-1. [取り込むデータの](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/create-datasets-and-ingest-data.html) データセットを作成します。
+1. [取り込むデータのスキーマを作成します。](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/create-a-schema.html)
+1. [取り込むデータのデータセットを作成します。](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/create-datasets-and-ingest-data.html)
 1. [データを Experience Platform に取り込みます。](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2020.1.dataingestion)
-1. データが、[!UICONTROL クエリサービス]および[!UICONTROL データサイエンスワークスペース]で生のアクセスとクエリに使用できることを確認します。
-1. Business IntelligenceツールとSQLクライアントを[!UICONTROL クエリサービス]に接続して、視覚化、データクエリ、調査を行います。
+1. 生のアクセスおよびクエリ用にデータが[!UICONTROL クエリサービス]および [!UICONTROL Data Science Workspace] で使用できることを確認します。
+1. ビジュアライゼーション、データクエリおよび調査用に、ビジネスインテリジェンスツールおよび SQL クライアントを[!UICONTROL クエリサービス]に接続します。
 
 ## 関連ドキュメント
 
 * [Adobe Experience Platform インテリジェンス製品説明](https://helpx.adobe.com/jp/legal/product-descriptions/adobe-experience-platform-intelligence---product-description.html)
-* [クエリサービスドキュメント](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=ja)
+* [[!UICONTROL クエリサービス]ドキュメント](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=ja)
