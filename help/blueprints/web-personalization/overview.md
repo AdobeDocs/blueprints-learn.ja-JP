@@ -1,6 +1,6 @@
 ---
 title: 'Web およびモバイルパーソナライズ機能 '
-description: パーソナライズされたWebおよびモバイルコンテンツを[!UICONTROL リアルタイム顧客プロファイル]で配信します。
+description: '[!UICONTROL リアルタイム顧客プロファイル]でパーソナライズされた Web およびモバイルコンテンツを配信します。'
 solution: Experience Platform, Real-time Customer Data Platform, Target, Audience Manager, Analytics, Experience Cloud Services
 kt: null
 thumbnail: null
@@ -9,18 +9,18 @@ translation-type: tm+mt
 source-git-commit: d30af99dc08d0bc723edc4c1c4705ebc07c3c7b7
 workflow-type: tm+mt
 source-wordcount: '254'
-ht-degree: 66%
+ht-degree: 87%
 
 ---
 
-# Webとモバイルのパーソナライゼーション
+# Web およびモバイルパーソナライズ機能
 
-Webおよびモバイルパーソナライゼーションでは、複数のアプリケーションでオーディエンスのセグメント化を使用して、顧客体験をパーソナライズし、最適化する機能に対応しています。 顧客行動、人口統計、ロイヤリティレベルおよび以前のトランザクションを使用して、レイアウト、コールトゥアクションおよびコンテンツをパーソナライズできます。
+Web およびモバイルパーソナライズ機能は、複数のアプリケーションでオーディエンスのセグメント化を使用する機能を処理して、カスタマーエクスペリエンスをパーソナライズおよび最適化します。顧客行動、人口統計、ロイヤリティレベルおよび以前のトランザクションを使用して、レイアウト、コールトゥアクションおよびコンテンツをパーソナライズできます。
 
-| Blueprint | 説明 | Experience Cloud アプリケーション |
+| ブループリント | 説明 | Experience Cloud アプリケーション |
 |---|---|---|
-| **[行動分析に基づくWeb/モバイルパーソナライゼーション](behavioral.md)** | <ul><li>オンライン行動およびオーディエンスデータに基づいてパーソナライズします。</li></ul> | <ul><li>Adobe Target</li><li>Adobe Analytics *（オプション）*</li><li>Adobe Audience Manager *（オプション）*</li></ul> |
-| **[オンライン/オフラインWeb/モバイルパーソナライゼーション](online-offline.md)** | <ul><li>オフライン属性およびイベント（トランザクション、予約、CRM およびロイヤリティデータ）を使用してパーソナライズします。</li><li>Web、電子メール、その他の既知のチャネルをまたいでパーソナライズ機能を同期します。</li></ul> | <ul><li>[!UICONTROL リアルタイム顧客データプラットフォーム]</li><li>Adobe Target</li><li>Adobe Analytics *（オプション）*</li><li>Adobe Audience Manager *（オプション）*</li></ul> |
+| **[行動による Web／モバイルパーソナライズ機能](behavioral.md)** | <ul><li>オンライン行動およびオーディエンスデータに基づいてパーソナライズします。</li></ul> | <ul><li>Adobe Target</li><li>Adobe Analytics *（オプション）*</li><li>Adobe Audience Manager *（オプション）*</li></ul> |
+| **[オンライン／オフライン Web／モバイルパーソナライズ機能](online-offline.md)** | <ul><li>オフライン属性およびイベント（トランザクション、予約、CRM およびロイヤリティデータ）を使用してパーソナライズします。</li><li>Web、電子メール、その他の既知のチャネルをまたいでパーソナライズ機能を同期します。</li></ul> | <ul><li>[!UICONTROL リアルタイム顧客データプラットフォーム]</li><li>Adobe Target</li><li>Adobe Analytics *（オプション）*</li><li>Adobe Audience Manager *（オプション）*</li></ul> |
 
 ## Webおよびモバイルのパーソナライゼーション用ガードレール
 
@@ -28,7 +28,7 @@ Webおよびモバイルパーソナライゼーションでは、複数のア�
 
 ### オンライン/オフラインパーソナライゼーションガードレール図
 
-<img src="assets/personalization_guardrails.svg" alt="オンライン/オフラインWebパーソナライゼーションのBlueprintのリファレンスアーキテクチャ" style="border:1px solid #4a4a4a" />
+<img src="assets/personalization_guardrails.svg" alt="オンライン／オフライン Web パーソナライズ機能ブループリントの参照アーキテクチャ" style="border:1px solid #4a4a4a" />
 
 ## 関連するブログ投稿
 
