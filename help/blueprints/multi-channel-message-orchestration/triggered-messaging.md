@@ -1,6 +1,6 @@
 ---
-title: トリガーされたメッセージングとAdobe Experience PlatformのBlueprint
-description: ストリーミングデータ、顧客プロファイル、セグメント化の中央ハブとして Adobe Experience Platform を使用して、トリガーされたメッセージとエクスペリエンスを実行します。
+title: トリガーされるメッセージおよび Adobe Experience Platform ブループリント
+description: ストリーミングデータ、顧客プロファイル、セグメント化の中央ハブとして Adobe Experience Platform を使用して、トリガーされるメッセージとエクスペリエンスを実行します。
 solution: Experience Platform, Campaign, Journey Orchestration
 kt: 7197
 exl-id: 97831309-f235-4418-bd52-28af815e1878
@@ -8,13 +8,13 @@ translation-type: tm+mt
 source-git-commit: 01f70fe432d7be38b71889ae19c0d5fe4cf0f78a
 workflow-type: tm+mt
 source-wordcount: '694'
-ht-degree: 68%
+ht-degree: 81%
 
 ---
 
-# トリガーされたメッセージングとAdobe Experience PlatformのBlueprint
+# トリガーされるメッセージおよび Adobe Experience Platform ブループリント
 
-ストリーミングデータ、顧客プロファイル、セグメント化の中央ハブとして Adobe Experience Platform を使用して、トリガーされたメッセージとエクスペリエンスを実行します。
+ストリーミングデータ、顧客プロファイル、セグメント化の中央ハブとして Adobe Experience Platform を使用して、トリガーされるメッセージとエクスペリエンスを実行します。
 
 ## ユースケース
 
@@ -23,9 +23,9 @@ ht-degree: 68%
 * 買い物かごおよび申請フォームの破棄
 * 場所でトリガーされるメッセージ
 
-## 構造
+## アーキテクチャ
 
-<img src="assets/triggered.svg" alt="トリガーされたメッセージングとAdobe Experience PlatformのBlueprintのリファレンスアーキテクチャ" style="border:1px solid #4a4a4a" />
+<img src="assets/triggered.svg" alt="トリガーされるメッセージおよび Adobe Experience Platform ブループリントの参照アーキテクチャ" style="border:1px solid #4a4a4a" />
 
 ## 統合パターン
 
@@ -69,7 +69,7 @@ ht-degree: 68%
 #### スキーマ／データセット
 
 1. [顧客提供データに基づいて、Experience Platform で個人プロファイル、エクスペリエンスイベントおよびマルチエンティティスキーマを設定します。](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/create-a-schema.html)
-1. broadLog、trackingLog、配信不能アドレス、プロファイル環境設定（オプション）用のAdobe Campaignスキーマを作成します。
+1. broadLog、trackingLog、配信不能アドレスおよびプロファイル環境設定用に Adobe Campaign スキーマを作成します（オプション）。
 1. [取り込むデータの](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/create-datasets-and-ingest-data.html) データセットExperience Platformを作成します。
 1. [データ追加使用](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-governance/classify-data-using-governance-labels.html) ラベル管理のデータセットへのExperience Platform。
 1. [宛先のガバナンスを実施するポリシーを作成します。](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-governance/create-data-usage-policies.html)
@@ -80,7 +80,7 @@ ht-degree: 68%
 1. [ID追加をスキーマに送信します](https://experienceleague.adobe.com/docs/platform-learn/tutorials/identities/label-ingest-and-verify-identity-data.html)。
 1. [プロファイルのスキーマとデータセットを有効にします](https://experienceleague.adobe.com/docs/platform-learn/tutorials/profiles/bring-data-into-the-real-time-customer-profile.html)。
 1. [様々な表示の](https://experienceleague.adobe.com/docs/platform-learn/tutorials/profiles/create-merge-policies.html) リアルタイム顧客プロファイル  （オプション）に対してマージポリシーを設定します。
-1. Adobe Campaignに使用するセグメントを作成します。
+1. Adobe Campaign 使用状況用のセグメントを作成します。
 
 #### ソース／宛先
 
@@ -88,7 +88,7 @@ ht-degree: 68%
 
 #### モバイルアプリデプロイメント
 
-1. Adobe Campaign Classic向けAdobe CampaignSDKまたはAdobe Campaign Standard向けExperience PlatformSDKを実装します。 Experience Platform Launchが存在する場合は、Experience PlatformSDKでAdobe Campaign ClassicまたはAdobe Campaign Standardの拡張機能を使用することをお勧めします。
+1. Adobe Campaign Classic 用の Adobe Campaign SDK または Adobe Campaign Standard 用の Experience Platform SDK を実装します。Experience Platform Launch がある場合は、Adobe Campaign Classic または Adobe Campaign Standard 拡張と Experience Platform SDK を使用することをお勧めします。
 
 
 ### Journey Orchestration
@@ -107,7 +107,7 @@ ht-degree: 68%
 
 * [Adobe Experience Platform ドキュメント](https://experienceleague.adobe.com/docs/experience-platform.html?lang=ja)
 * [Journey Orchestration ドキュメント](https://experienceleague.adobe.com/docs/journey-orchestration.html?lang=ja)
-* [Adobe Campaign Classic文書](https://experienceleague.adobe.com/docs/campaign-classic.html?lang=ja)
-* [Adobe Campaign Standard文書](https://experienceleague.adobe.com/docs/campaign-standard.html?lang=ja)
+* [Adobe Campaign Classic ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic.html?lang=ja)
+* [Adobe Campaign Standard ドキュメント](https://experienceleague.adobe.com/docs/campaign-standard.html?lang=ja)
 * [Experience Platform Launch ドキュメント](https://experienceleague.adobe.com/docs/launch.html?lang=ja)
 * [Experience Platform Mobile SDK ドキュメント](https://experienceleague.adobe.com/docs/mobile.html?lang=ja)
