@@ -1,6 +1,6 @@
 ---
 title: クロスチャネルジャーニー分析
-description: カスタマージャーニーをまたいだ顧客インタラクションからインサイトを分析および抽出します。
+description: カスタマージャーニー全体を通した顧客とのインタラクションからインサイトを分析および抽出します。
 solution: Experience Platform, Customer Journey Analytics, Data Collection
 kt: 7208
 exl-id: b042909c-d323-40d5-8b35-f3e5e3e26694
@@ -8,18 +8,18 @@ translation-type: tm+mt
 source-git-commit: 9fe9d67c5f97b633e45155bd54e2006f1b797332
 workflow-type: tm+mt
 source-wordcount: '548'
-ht-degree: 92%
+ht-degree: 96%
 
 ---
 
 # クロスチャネルジャーニー分析ブループリント
 
-Web、モバイルおよびオフラインの様々なプロパティからのデータを統合することで、複数のチャネルをまたいだ顧客行動を単一の統合されたビューに表示する。
+Web、モバイルおよびオフラインの様々なプロパティからのデータを統合することで、複数のチャネルをまたいだ顧客行動を単一の統合されたビューに表示します。
 
 ## ユースケース
 
-* デスクトップとモバイルをまたいで顧客インタラクションを分析して顧客行動を把握し、デジタルカスタマーエクスペリエンスを最適化するためにインサイトを抽出する。
-* デジタルおよびオフラインチャネル（サポートとのやり取りや店舗での購入など）を含む、チャネルをまたいだ顧客インタラクションを分析し、カスタマージャーニーをより深く把握し、最適化する。 
+* デスクトップとモバイルをまたいで顧客インタラクションを分析して顧客行動を把握し、デジタルカスタマーエクスペリエンスを最適化するためにインサイトを抽出します。
+* デジタルおよびオフラインチャネル（サポートとのやり取りや店舗での購入など）を含む、チャネルをまたいだ顧客インタラクションを分析し、カスタマージャーニーをより深く把握し、最適化します。 
 
 ## アプリケーション
 
@@ -32,14 +32,14 @@ Web、モバイルおよびオフラインの様々なプロパティからの�
 * Adobe Experience Platform → Customer Journey Analytics
 * Adobe Analytics → Adobe Experience Platform → Customer Journey Analytics
 
-## 構造
+## アーキテクチャ
 
 <img src="assets/CJA.svg" alt="Customer Journey Analytics ブループリントの参照アーキテクチャ" style="border:1px solid #4a4a4a" />
 
 ## 実装手順
 
-1. [取り込むデータの](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/create-a-schema.html) スキーマを作成します。
-1. [取り込むデータの](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/create-datasets-and-ingest-data.html) データセットを作成します。
+1. [取り込むデータのスキーマを作成します。](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/create-a-schema.html)
+1. [取り込むデータのデータセットを作成します。](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/create-datasets-and-ingest-data.html)
 1. [データを Experience Platform に取り込みます。](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2020.1.dataingestion)データは、Customer Journey Analytics で処理される前に、Platform に取り込まれる必要があります。
 1. 結合で分析されるクロスチャネルイベントデータセットを分析して、共通の名前空間 ID を持つか、Customer Journey Analytics のフィールドベースのステッチ機能でキー更新されていることを確認します。 
 
@@ -54,11 +54,11 @@ Web、モバイルおよびオフラインの様々なプロパティからの�
 1. 接続のデータビューを設定して、ビューに含める特定のディメンションおよび指標を選択します。また、属性および配分設定も、データビューで設定されます。これらの設定は、レポート時に計算されます。
 1. Analysis Workspace 内でダッシュボードおよびレポートを設定するためのプロジェクトを作成します。
 
-## 実装のための考慮事項
+## 実装に関する考慮事項
 
-### ID ステッチの考慮事項
+### ID ステッチに関する考慮事項
 
-* 結合される時系列データは、レコードごとに同じ ID 名前空間を持っている必要があります。
+* 結合される時系列データは、すべてのレコードに同じ ID 名前空間を持っている必要があります。
 * 異なるデータセットを統合する結合プロセスでは、データセット間で共通のプライマリユーザー／エンティティキーが必要です。
 * セカンダリキーベースの結合は、現在、サポートされていません。
 * フィールドベースの ID ステッチプロセスを使用すると、以降の一時的な ID レコード（認証 ID など）に基づいて、行の ID をキー更新できます。これを使用すると、デバイスまたは cookie レベルではなくユーザーレベルで分析するために、異なるレコードを単一の ID に解決できます。
