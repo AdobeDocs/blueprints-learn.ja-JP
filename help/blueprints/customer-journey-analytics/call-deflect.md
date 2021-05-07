@@ -1,5 +1,5 @@
 ---
-title: 呼び出し偏向分析ブループリント
+title: コールディフレクション分析ブループリント
 description: コールセンターに問い合わせる前の顧客行動を分析します。
 solution: Experience Platform, Customer Journey Analytics
 kt: 7209
@@ -8,11 +8,11 @@ translation-type: tm+mt
 source-git-commit: 9fe9d67c5f97b633e45155bd54e2006f1b797332
 workflow-type: tm+mt
 source-wordcount: '639'
-ht-degree: 93%
+ht-degree: 97%
 
 ---
 
-# 呼び出し偏向ジャーニー分析ブループリント
+# コールディフレクションジャーニー分析ブループリント
 
 コールセンターに問い合わせる前の顧客の行動をデスクトップとモバイルをまたいで分析します。カスタマーサポートに問い合わせる前に顧客が取った行動、表示したコンテンツ、検索したフレーズを把握することで、カスタマージャーニーを向上させる機会を特定します。顧客が電話することなく問題を解決できるように、改善できるコンテンツおよびセルフサービスツールを判別します。
 
@@ -30,17 +30,16 @@ ht-degree: 93%
 
 * Adobe Experience Platform → Customer Journey Analytics
 
-## 構造
+## アーキテクチャ
 
 <img src="assets/CJA.svg" alt="Customer Journey Analytics ブループリントの参照アーキテクチャ" style="border:1px solid #4a4a4a" />
 
 ## 実装手順
 
-1. [取り込むデータの](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/create-a-schema.html) スキーマを作成します。
-1. [取り込むデータの](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/create-datasets-and-ingest-data.html) データセットを作成します。
+1. [取り込むデータのスキーマを作成します。](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/create-a-schema.html)
+1. [取り込むデータのデータセットを作成します。](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/create-datasets-and-ingest-data.html)
 1. [データを Experience Platform に取り込みます。](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2020.1.dataingestion)データは、Customer Journey Analytics に取り込まれる前に、Platform に取り込まれる必要があります。
-1. クロスチャネルイベントデータセットを分析します。
-結合で分析されたデータセットは、共通の名前空間 ID を持つか、Customer Journey Analytics のフィールドベースのステッチ機能でキー更新されている必要があります。 
+1. クロスチャネルイベントデータセットを分析します。結合で分析されたデータセットは、共通の名前空間 ID を持つか、Customer Journey Analytics のフィールドベースのステッチ機能でキー更新されている必要があります。 
 
    >[!NOTE]
    >
@@ -53,13 +52,13 @@ ht-degree: 93%
 1. 接続のデータビューを設定して、ビューに含める特定のディメンションおよび指標を選択します。また、属性および配分設定も、データビューで設定されます。これらの設定は、レポート時に計算されます。
 1. Analysis Workspace 内でダッシュボードおよびレポートを設定するためのプロジェクトを作成します。
 
-## 実装のための考慮事項
+## 実装に関する考慮事項
 
-### ID ステッチの考慮事項
+### ID ステッチに関する考慮事項
 
-* 結合される時系列データは、レコードごとに同じ ID 名前空間を持っている必要があります。コールセンターデータを匿名デバイスデータに接続するには、デジタル ID が呼び出し ID に結びつけられている必要があります。この結びつきは、以下のようなメカニズムで発生します。
-   * 関係をトラッキングするためのルックアップテーブルと共に、ダイヤル番号が、その時間、その訪問者の一意のダイヤル番号である。
-   * サポートをリクエストする前にユーザーを認証する必要があり、この認証をコールセンター担当者が決定する識別子（例えば、電話番号や電子メール）に結びつける。
+* 結合される時系列データは、すべてのレコードに同じ ID 名前空間を持っている必要があります。コールセンターデータを匿名デバイスデータに接続するには、デジタル ID が呼び出し ID に結びつけられている必要があります。この結びつきは、以下のようなメカニズムで発生します。
+   * 関係をトラッキングするためのルックアップテーブルと共に、ダイヤル番号が、その時間、その訪問者の一意のダイヤル番号であること。
+   * サポートをリクエストする前にユーザーの認証を要求し、この認証をコールセンター担当者が決定する識別子（例えば、電話番号や電子メール）に結びつける。
    * オンボーディングパートナーを使用して、サポートリクエストに結びつけられる既知の識別子と共にオンラインデバイス識別子を入力する。
 * 異なるデータセットを統合する結合プロセスでは、データセット間で共通のプライマリユーザー／エンティティキーが必要です。
 * セカンダリキーベースの結合は、現在、サポートされていません。
