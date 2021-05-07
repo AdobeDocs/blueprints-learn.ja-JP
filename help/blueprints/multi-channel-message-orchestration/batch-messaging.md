@@ -1,5 +1,5 @@
 ---
-title: Batch MessagingとAdobe Experience PlatformBlueprint
+title: バッチメッセージおよび Adobe Experience Platform ブループリント
 description: Adobe Experience Platform を顧客プロファイルおよびセグメント化の中央ハブとして使用して、スケジュールされたキャンペーンおよびバッチメッセージキャンペーンを実行します。
 solution: Experience Platform, Campaign
 kt: 7196
@@ -8,11 +8,11 @@ translation-type: tm+mt
 source-git-commit: 01f70fe432d7be38b71889ae19c0d5fe4cf0f78a
 workflow-type: tm+mt
 source-wordcount: '639'
-ht-degree: 48%
+ht-degree: 82%
 
 ---
 
-# Batch MessagingとAdobe Experience PlatformBlueprint
+# バッチメッセージおよび Adobe Experience Platform ブループリント
 
 Adobe Experience Platform を顧客プロファイルおよびセグメント化の中央ハブとして使用して、スケジュールされたキャンペーンおよびバッチメッセージキャンペーンを実行します。
 
@@ -31,17 +31,17 @@ Adobe Experience Platform を顧客プロファイルおよびセグメント化
 * Adobe Experience Platform → Adobe Campaign Classic
 * Adobe Experience Platform → Adobe Campaign Standard
 
-## 構造
+## アーキテクチャ
 
-<img src="assets/aepbatch.svg" alt="Batch MessagingとAdobe Experience PlatformのBlueprintのリファレンスアーキテクチャ" style="border:1px solid #4a4a4a" />
+<img src="assets/aepbatch.svg" alt="バッチメッセージおよび Adobe Experience Platform ブループリントの参照アーキテクチャ" style="border:1px solid #4a4a4a" />
 
 ## ガードレール
 
-* Adobe Campaign単一の組織単位の導入のみをサポート
-* Adobe Campaignは、プロファイルがAdobe Campaign内に存在する必要があることを意味するすべてのアクティブなプロファイルにとって真実の源であり、Experience Platformセグメントに基づいて新しいプロファイルを作成してはならない。
+* Adobe Campaign の単一の組織単位デプロイメントのみをサポートします
+* Adobe Campaign は、すべてのアクティブなプロファイルに関する信頼できるソースです。つまり、プロファイルは Adobe Campaign に存在する必要があるため、Experience Platform セグメントに基づいた新しいプロファイルを作成しないでください。
 * Experience Platform からのセグメントメンバーシップ適合は、バッチ（1 日 1 回）およびストリーミング（5 分以内）の両方に対して待ち時間があります
 
-**[!UICONTROL Adobe Campaignとのリアルタイム顧客データ] プラットフォームセグメント共有：**
+Adobe Campaign に共有する&#x200B;**[!UICONTROL リアルタイム顧客データプラットフォーム]セグメント：**
 
 * 20 セグメントに制限することをお勧めします
 * アクティベーションは、24 時間ごとに制限されます
@@ -50,7 +50,7 @@ Adobe Experience Platform を顧客プロファイルおよびセグメント化
 * 「適合された」セグメントメンバーシップを含むすべてのプロファイルのセグメントごとに 1 ファイル、またはセグメントメンバーシップがファイルの属性として追加されている場合は、「適合」および「既存」の両方のプロファイルのセグメントごとに 1 ファイル
 * 増分またはフルセグメント書き出しがサポートされます
 * ファイルの暗号化はサポートされません
-* 最大4時間に実行するAdobe Campaignエクスポートワークフロー
+* Adobe Campaign エクスポートワークフローは最大で 4 時間ごとに実行します
 * [Experience Platform のプロファイルおよびデータ取り込みのガードレール](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=ja)を参照してください
 
 ## 実装手順
@@ -60,7 +60,7 @@ Adobe Experience Platform を顧客プロファイルおよびセグメント化
 #### スキーマ／データセット
 
 1. [顧客提供データに基づいて、Experience Platform で個人プロファイル、エクスペリエンスイベントおよびマルチエンティティスキーマを設定します。](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/create-a-schema.html)
-1. broadLog、trackingLog、配信不能アドレス、プロファイル環境設定（オプション）用のAdobe Campaignスキーマを作成します。
+1. broadLog、trackingLog、配信不能アドレスおよびプロファイル環境設定用に Adobe Campaign スキーマを作成します（オプション）。
 1. [取り込むデータの](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/create-datasets-and-ingest-data.html) データセットExperience Platformを作成します。
 1. [データ追加使用](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-governance/classify-data-using-governance-labels.html) ラベル管理のデータセットへのExperience Platform。
 1. [宛先のガバナンスを実施するポリシーを作成します。](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-governance/create-data-usage-policies.html)
@@ -71,16 +71,16 @@ Adobe Experience Platform を顧客プロファイルおよびセグメント化
 1. [ID追加をスキーマに送信します](https://experienceleague.adobe.com/docs/platform-learn/tutorials/identities/label-ingest-and-verify-identity-data.html)。
 1. [プロファイルのスキーマとデータセットを有効にします](https://experienceleague.adobe.com/docs/platform-learn/tutorials/profiles/bring-data-into-the-real-time-customer-profile.html)。
 1. [様々な表示の](https://experienceleague.adobe.com/docs/platform-learn/tutorials/profiles/create-merge-policies.html) リアルタイム顧客プロファイル  （オプション）に対してマージポリシーを設定します。
-1. Adobe Campaignに使用するセグメントを作成します。
+1. Adobe Campaign 使用状況用のセグメントを作成します。
 
 #### ソース／宛先
 
 1. [ストリーミング API およびソースコネクタを使用して、Experience Platform にデータを取り込みます。](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2020.1.dataingestion)
-1. Adobe Campaignで使用する[!DNL Azure] BLOBストレージ先を構成します。
+1. Adobe Campaign で使用する [!DNL Azure] Blob ストレージ宛先を設定します。
 
 #### モバイルアプリデプロイメント
 
-1. Adobe Campaign Classic向けAdobe CampaignSDKまたはAdobe Campaign Standard向けExperience PlatformSDKを実装します。 Experience Platform Launchが存在する場合は、Experience PlatformSDKでAdobe Campaign ClassicまたはAdobe Campaign Standardの拡張機能を使用することをお勧めします。
+1. Adobe Campaign Classic 用の Adobe Campaign SDK または Adobe Campaign Standard 用の Experience Platform SDK を実装します。Experience Platform Launch がある場合は、Adobe Campaign Classic または Adobe Campaign Standard 拡張と Experience Platform SDK を使用することをお勧めします。
 
 #### Adobe Campaign
 
@@ -88,17 +88,17 @@ Adobe Experience Platform を顧客プロファイルおよびセグメント化
 
 >[!IMPORTANT]
 >
->この時点で、プロファイルとイベントのデータに関するExperience Platform内のデータモデルが何かを理解し、Adobe Campaignにどのデータが必要かを把握することが重要です。
+>この時点で、Experience Platform 内にあるプロファイルおよびイベントデータ用のデータモデルを把握し、Adobe Campaign で必要になるデータを知っておくことが重要です。
 
 #### インポートワークフロー
 
-1. シンプル化されたプロファイルデータをAdobe CampaignのSFTPに読み込み、取り込みます。
-1. オーケストレーションとメッセージングのパーソナライズデータをAdobe CampaignのSFTPに読み込んで取り込みます。
+1. シンプル化されたプロファイルデータを Adobe Campaign sFTP に読み込んで取り込みます。
+1. オーケストレーションおよびメッセージングパーソナライズ機能データを Adobe Campaign sFTP に読み込んで取り込みます。
 1. ワークフローを使用して [!DNL Azure] Blob から Experience Platform セグメントを取り込みます。
 
 #### エクスポートワークフロー
 
-1. Adobe Campaignログを4時間ごとにワークフロー経由でExperience Platformに送り返します（broadLog、trackingLog、配信不能なアドレス）。
+1. ワークフローを使用して、4 時間ごとに Experience Platform に Adobe Campaign ログを返します（broadLog、trackingLog、配信不能アドレス）。
 1. コンサルティングが作成したワークフローを使用して、4 時間ごとに Experience Platform にプロファイル環境設定を返します（オプション）。
 
 
