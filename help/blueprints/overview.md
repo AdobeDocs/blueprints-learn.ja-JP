@@ -1,50 +1,50 @@
 ---
 title: デジタルエクスペリエンスブループリント
-description: デジタルエクスペリエンスブループリントは、戦略に対処し、既存のビジネス上の問題を解決するための反復可能な実装です。価値実現までの時間を短縮し、成功への近道となります。
+description: デジタルエクスペリエンスブループリントは、戦略に取り組み、確立されたビジネス上の問題を解決するための反復可能な実装です。価値実現までの時間を短縮し、成功への近道となります。
 solution: Experience Platform
 exl-id: 52898310-9723-4ec2-ba10-f45fefe29e93
 translation-type: tm+mt
 source-git-commit: 9e0954334e8b8a8c5bf52651611e7afa165f6d21
 workflow-type: tm+mt
 source-wordcount: '265'
-ht-degree: 37%
+ht-degree: 100%
 
 ---
 
 # デジタルエクスペリエンスブループリント
 
-Digital Experience Blueprintsは、戦略に取り組み、確立されたビジネス上の問題を迅速に解決できる、繰り返し可能な実装です。 各Blueprintは、高価値のビジネス上の問題、アーキテクチャ、導入手順、技術上の考慮事項、および関連ドキュメントへのリンクについて説明する一連のアーティファクトを提供します。
+デジタルエクスペリエンスブループリントは、戦略に取り組み、確立されたビジネス上の問題を迅速に解決するための反復可能な実装です。各ブループリントでは、価値の高いビジネス上の問題、アーキテクチャ、実装手順、技術上の考慮事項および関連ドキュメントへのリンクを説明する一連の成果物を提供します。
 
 ## 新着情報
 
-* **[Enterprise Destinations Blueprintへのオーディエンスとプロファイルのアクティベーション](/help/blueprints/audience-activation/enterprise-destinations.md)**
+* **[エンタープライズ宛先へのオーディエンスとプロファイルアクティベーションブループリント](/help/blueprints/audience-activation/enterprise-destinations.md)**
 
-   *お客様のプロファイルをすべてのシステムにわたって最新の状態に維持し、セールス・チームやサポート・チーム&#x200B;を強化します。*
+   *顧客プロファイルをあらゆるシステムをまたいで最新の状態に維持し、セールスチームやサポートチームを強化します。*
 * **[顧客アクティビティハブブループリント](/help/blueprints/audience-activation/customer-activity.md)**
 
    *担当者がサポートおよび販売を支援する際のコンテキストを提供します。*
-* **[データ分析とインテリジェンスのブループリント](/help/blueprints/data-insights/analysis.md)**
+* **[データ分析とインテリジェンスブループリント](/help/blueprints/data-insights/analysis.md)**
 
-   *データレイクのデータの探索的クエリおよび分析を実行します。*
+   *データレイクのデータの調査クエリおよび分析を実行します。*
 
 ## おすすめのブループリント
 
 <table style="table-layout:fixed">
 <tr>
   <td>
-    <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/multi-channel-message-orchestration/triggered-messaging.html"><img alt="トリガーされたメッセージングとExperience PlatformのBlueprintのサムネール画像" src="multi-channel-message-orchestration/assets/triggered.svg" /></a>
-    <div><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/multi-channel-message-orchestration/triggered-messaging.html"><strong>トリガーされたメッセージングとExperience Platform</strong></a></div>
-    <p><em>[!UICONTROL Platform]を中央ハブとして使用するトリガーメッセージとエクスペリエンス。</em></p>
+    <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/multi-channel-message-orchestration/triggered-messaging.html?lang=ja"><img alt="トリガーされるメッセージおよび Experience Platform ブループリントのサムネイル画像" src="multi-channel-message-orchestration/assets/triggered.svg" /></a>
+    <div><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/multi-channel-message-orchestration/triggered-messaging.html"><strong>トリガーされるメッセージおよび Experience Platform</strong></a></div>
+    <p><em>[!UICONTROL Platform] を中央ハブとして使用するトリガーメッセージとエクスペリエンス。</em></p>
   </td>
   <td>
-    <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/online-offline.html"><img alt="オンライン/オフラインAudience ActivationのBlueprintのサムネール画像" src="audience-activation/assets/online_offline_activation.svg" /></a>
-    <div><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/online-offline.html"><strong>オンライン／オフライン Audience Activation</strong></a></div>
+    <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/online-offline.html?lang=ja"><img alt="オンライン／オフラインオーディエンスアクティベーションブループリントのサムネイル画像" src="audience-activation/assets/online_offline_activation.svg" /></a>
+    <div><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/online-offline.html"><strong>オンライン／オフラインオーディエンスアクティベーション</strong></a></div>
     <p><em>オーディエンスアクティベーションのクロスチャネル広告を配信します。</em></p>
   </td>
   <td>
-    <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journey-analytics/digital-behavioral-data-consolidation.html"><img alt="Digital Behavioral Data Consolidation Blueprintのサムネール画像" src="customer-journey-analytics/assets/CJA.svg" /></a>
+    <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journey-analytics/digital-behavioral-data-consolidation.html?lang=ja"><img alt="デジタル行動データ統合ブループリントのサムネイル画像" src="customer-journey-analytics/assets/CJA.svg" /></a>
     <div><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journey-analytics/digital-behavioral-data-consolidation.html"><strong>デジタル行動データ統合</strong></a></div>
-    <p><em>様々なチャネルにわたる顧客行動を1つの統合表示で把握</em></p>
+    <p><em>様々なチャネルにわたる顧客行動を 1 つの統合表示で把握。</em></p>
   </td>
 </tr>
 </table>
