@@ -1,5 +1,5 @@
 ---
-title: 行動分析ウェブパーソナライゼーションブループリント
+title: 行動による Web パーソナライズ機能ブループリント
 description: オンライン行動およびオーディエンスデータに基づいてパーソナライズします。
 solution: Experience Platform, Target, Audience Manager, Analytics, Experience Cloud Services, Data Collection
 kt: 7085thumb-web-personalization-scenario1.jpg
@@ -8,11 +8,11 @@ translation-type: tm+mt
 source-git-commit: 76fe52d8e83e075f9e7ce6e8596880181b01a7fd
 workflow-type: tm+mt
 source-wordcount: '532'
-ht-degree: 78%
+ht-degree: 100%
 
 ---
 
-# 行動分析Web/モバイルパーソナライゼーションBlueprint
+# 行動による Web／モバイルパーソナライズ機能ブループリント
 
 オンライン行動およびオーディエンスデータに基づいてパーソナライズします。
 
@@ -28,9 +28,9 @@ ht-degree: 78%
 * Adobe Analytics（オプション）
 * Adobe Audience Manager（オプション）
 
-## 構造
+## アーキテクチャ
 
-<img src="assets/behavioral_personalization.svg" alt="行動分析ウェブパーソナライゼーションのBlueprintのリファレンスアーキテクチャ" style="border:1px solid #4a4a4a" />
+<img src="assets/behavioral_personalization.svg" alt="行動による Web パーソナライズ機能ブループリントの参照アーキテクチャ" style="border:1px solid #4a4a4a" />
 
 
 ## ガードレール
@@ -39,35 +39,35 @@ ht-degree: 78%
 
 ## 実装パターン
 
-Web/モバイルパーソナライゼーションのBlueprintは、以下に説明する方法で実装できます。
+Web／モバイルパーソナライズ機能ブループリントは、以下に説明する方法で実装できます。
 
-1. [!UICONTROL プラットフォームWeb SDK]または[!UICONTROL プラットフォームモバイルSDK]と[!UICONTROL エッジネットワーク]を使用する。
-1. 従来のアプリケーション固有のSDK（AppMeasurement.jsなど）の使用
+1. [!UICONTROL Platform Web SDK] または [!UICONTROL Platform Mobile SDK] と[!UICONTROL エッジネットワーク]を使用。
+1. 従来のアプリケーション固有 SDK（AppMeasurement.js など）を使用
 
-### 1.プラットフォームWeb/モバイルSDKとエッジアプローチ
+### 1. Platform Web／Mobile SDK およびエッジアプローチ
 
-<img src="assets/web_sdk_flow.svg" alt="[!UICONTROLプラットフォームWeb SDK]または[!UICONTROLプラットフォームモバイルSDK]および[!UICONTROLエッジネットワーク]アプローチのリファレンスアーキテクチャ" style="border:1px solid #4a4a4a" />
+<img src="assets/web_sdk_flow.svg" alt="[!UICONTROL Platform Web SDK] または [!UICONTROL Platform Mobile SDK] および [!UICONTROL Edge Network] アプローチの参照アーキテクチャ" style="border:1px solid #4a4a4a" />
 
-### 2.アプリケーション固有のSDKアプローチ
+### 2. アプリケーション固有 SDK アプローチ
 
-<img src="assets/app_sdk_flow.png" alt="アプリケーション専用 SDK アプローチの参照アーキテクチャ" style="border:1px solid #4a4a4a" />
+<img src="assets/app_sdk_flow.png" alt="アプリケーション固有 SDK アプローチの参照アーキテクチャ" style="border:1px solid #4a4a4a" />
 
 ## 実装の前提条件
 
 | アプリケーション／サービス | 必須ライブラリ | メモ |
 |---|---|---|
-| Adobe Target | [!UICONTROL プラットフォームWeb SDK]*、at.js 0.9.1以上、またはmbox.js 61+ | mbox.js は今後開発されないので、at.js をお勧めします。 |
-| Adobe Audience Manager（オプション） | [!UICONTROL プラットフォームWeb SDK]*またはdil.js 5.0+ |  |
-| Adobe Analytics（オプション） | [!UICONTROL プラットフォームWeb SDK]*またはAppMeasurement.js 1.6.4以降 |  |
-| Experience Cloud ID サービス | [!UICONTROL プラットフォームWeb SDK]*またはVisitorAPI.js 2.0以降 |  |
-| Experience Platform Mobile SDK（オプション） | 4.11 以上（iOS および Android™ 用） |  |
-| Experience Platform Web SDK | 1.0、現在の Experience Platform SDK バージョンは、[Experience Cloud アプリケーションをまだサポートしていない様々なユースケースがあります](https://github.com/adobe/alloy/projects/5) |  |
+| Adobe Target | [!UICONTROL Platform Web SDK]*、at.js 0.9.1 以降または mbox.js 61 以降 | mbox.js は今後開発されないため、at.js をお勧めします。 |
+| Adobe Audience Manager（オプション） | [!UICONTROL Platform Web SDK]* または dil.js 5.0 以降 |  |
+| Adobe Analytics（オプション） | [!UICONTROL Platform Web SDK]* または AppMeasurement.js 1.6.4 以降 |  |
+| Experience Cloud ID サービス | [!UICONTROL Platform Web SDK]* または VisitorAPI.js 2.0 以降 |  |
+| Experience Platform Mobile SDK（オプション） | 4.11 以降（iOS および Android™ 用） |  |
+| Experience Platform Web SDK | 現在の Experience Platform SDK バージョンである 1.0 には、[Experience Cloud アプリケーションをまだサポートしていない様々なユースケースがあります](https://github.com/adobe/alloy/projects/5) |  |
 
 ## 実装手順
 
-1. web またはモバイルアプリケーション用に [Adobe Target を実装](https://experienceleague.adobe.com/docs/target/using/implement-target/implementing-target.html?lang=ja)します。
+1. Web またはモバイルアプリケーション用に [Adobe Target を実装](https://experienceleague.adobe.com/docs/target/using/implement-target/implementing-target.html?lang=ja)します。
 
-   Audience ManagerまたはAdobe Analyticsを使用する場合：
+   Audience Manager または Adobe Analytics を使用する場合：
 
 1. [Adobe Audience Manager を実装](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/implement-audience-manager.html?lang=ja)します
 1. [Adobe Analytics を実装](https://experienceleague.adobe.com/docs/analytics/implementation/home.html?lang=ja)します
@@ -75,7 +75,7 @@ Web/モバイルパーソナライゼーションのBlueprintは、以下に説�
 
    >[!NOTE]
    >
-   >アプリケーション間のオーディエンス共有を許可するために、各アプリケーションは、Experience Cloud ID を使用し、同じ Experience Cloud 組織に属している必要があります。
+   >アプリケーション間のオーディエンス共有を許可するためには、各アプリケーションは、Experience Cloud ID を使用し、同じ Experience Cloud 組織に属している必要があります。
 
 1. [ユーザーおよびオーディエンス共有サービス（共有オーディエンス）のプロビジョニングをリクエスト](https://www.adobe.com/go/audiences)します
 1. [Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-build.html?lang=ja) または [Adobe Audience Manager](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/segments/segment-builder.html?lang=ja) でセグメントを作成し、[これらのオーディエンスを Experience Cloud に共有するように設定](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-publish.html?lang=ja)します（Audience Manager または Adobe Analytics を使用している場合）
@@ -85,7 +85,7 @@ Web/モバイルパーソナライゼーションのBlueprintは、以下に説�
 
 * [Experience Cloud Audiences](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html?lang=ja)
 * [Audience Manager と Adobe Target の統合](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/aam-target-integration.html?lang=ja)
-* [Adobe Audience Managerを通じたAdobe Analyticsセグメント共有](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-publish.html)
+* [Adobe Audience Manager を使用した Adobe Analytics セグメント共有](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-publish.html)
 
 
 ## 関連するブログ投稿
