@@ -4,11 +4,10 @@ description: オンライン／オフラインオーディエンスアクティ�
 solution: Experience Platform, Real-time Customer Data Platform, Target, Audience Manager, Analytics, Experience Cloud Services, Data Collection
 kt: 7086
 exl-id: 011f4909-b208-46db-ac1c-55b3671ee48c
-translation-type: tm+mt
-source-git-commit: 2fc1adc04a9ca2184c88970d5ba0785957327f68
+source-git-commit: f527b23587e4ec893532997c3c99270946d7fa31
 workflow-type: tm+mt
-source-wordcount: '543'
-ht-degree: 74%
+source-wordcount: '522'
+ht-degree: 77%
 
 ---
 
@@ -37,10 +36,6 @@ ht-degree: 74%
 
 <img src="assets/online_offline_activation.svg" alt="オンライン／オフラインオーディエンスアクティベーションブループリントの参照アーキテクチャ" style="border:1px solid #4a4a4a" />
 <br>
-
-### Experience Cloudアプリケーションを使用したオンライン/オフラインAudience Activation
-
-<img src="assets/activation+apps.svg" alt="Experience Cloudアプリケーションを使用したオンライン/オフラインAudience ActivationのBlueprintのリファレンスアーキテクチャ" style="border:1px solid #4a4a4a" />
 
 ## ガードレール
 
