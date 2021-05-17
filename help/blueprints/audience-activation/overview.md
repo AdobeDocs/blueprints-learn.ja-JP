@@ -5,11 +5,10 @@ solution: Experience Platform, Real-time Customer Data Platform
 kt: null
 thumbnail: null
 exl-id: eeeb4325-d0e8-4fd8-86ab-0b8afdd0b69f
-translation-type: tm+mt
-source-git-commit: 5471d9c0f6fdef6fbac72d5d35f32353ea5a5ee8
+source-git-commit: fb0ed8245f2be9b9260afbc3b749fde0eae58b5c
 workflow-type: tm+mt
-source-wordcount: '678'
-ht-degree: 91%
+source-wordcount: '941'
+ht-degree: 66%
 
 ---
 
@@ -28,6 +27,17 @@ ht-degree: 91%
 | **[Experience Cloudアプリケーションとのオーディエンスとプロファイルのアクティベーション](platform-and-applications.md)** | </ul><li>Experience Platform内のプロファイルとオーディエンスを管理し、Experience Cloudアプリケーションと共有する</li><li>豊富な顧客セグメントとインサイトをExperience Platformで作成して共有し、Experience Cloudアプリケーションと共有します。</li></ul> | <ul><li>Adobe Experience Platform</li><li>[!UICONTROL リアルタイム顧客データプラットフォーム]</li><li>Experience Platformアクティベーション</li><li>Experience Cloud アプリケーション</li></ul> |
 | **[顧客アクティビティハブ](customer-activity.md)** | <ul><li>担当者がサポートするインタラクションに、詳細な消費者コンテキスト（サポートおよび販売エクスペリエンスなど）を提供します。Experience Platform のプロファイルルックアップを使用して、担当者は、最近の購入、キャンペーンインタラクション、傾向、オーディエンスメンバーシップ、リアルタイム顧客プロファイルに格納されたその他の属性およびインサイトなど、消費者に関するより詳細なコンテキストを受け取ることができます。</li></ul> | <ul><li>Adobe Experience Platform</li></ul> |
 
+## リアルタイムの顧客プロファイルアーキテクチャ
+
+下の図は、Experience Platformのリアルタイム顧客プロファイルの主なコンポーネントを示しています。
+
+第1のデータソースはExperience Platformに取り込まれる。 データソースがプロファイル処理用に設定されている場合は、リアルタイム顧客プロファイルにフィードされます。 各データソースに対して1つのプロファイルフラグメントまたはドキュメントが作成され、各データソースに対して設定された各プライマリidレコードが作成されます。 また、データがプロファイルに取り込まれると、IDサービスによって処理されます。 スキーマでマークされた複数のIDを持ち、対応する値がレコードに入力されたデータソースのレコードは、IDサービス内のID関係として処理されます。
+
+IDが1つだけのレコードは、IDサービスによって処理されません。このようなレコードには、グラフにさらに入力するIDリンクがないためです。 また、IDサービスでは、プライマリIDとセカンダリIDが区別されないことに注意してください。 ID間のアイデンティティ関係を処理するだけです。
+
+プロファイルフラグメントのマージは、アイデンティティグラフが関連する様々なソースプロファイルフラグメント間の関係を提供する際に行われます。 マージポリシーは、どのソースフラグメントと、どのIDグラフをマージするかを決定します。 プロファイルがプロファイルフラグメントのマージにアクセスすると、いつでも、プロファイルの最新の結合表示を確実にするためにフラグメントが発生します。 ガバナンスおよびポリシーのルールにより、指定した宛先に対して、許可されたセグメントおよび属性のみをアクティブ化できます。
+
+<img src="assets/profile_architecture.jpg" alt="リアルタイム顧客プロファイルのリファレンスアーキテクチャ" style="border:1px solid #4a4a4a" />
 
 
 ## オーディエンスおよびプロファイルアクティベーションの設計図用ガードレール
