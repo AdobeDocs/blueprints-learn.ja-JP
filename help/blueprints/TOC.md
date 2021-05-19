@@ -4,11 +4,11 @@ breadcrumb-title: 'ブループリント '
 user-guide-description: ブループリントは、既存のビジネス上の問題に対処するための反復可能な実装で、アーキテクチャ図、技術上の考慮事項および関連ドキュメントリンクが含まれます。
 product: adobe experience platform
 role: Architect, Developer, Business Practitioner
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: b8770bdc4db581be11b347e3788b1d6e6534fe10
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '120'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 95%
    + [匿名オーディエンスアクティベーション](/help/blueprints/audience-activation/anonymous.md)
    + [オンライン／オフラインオーディエンスアクティベーション](/help/blueprints/audience-activation/online-offline.md)
    + [エンタープライズ宛先へのアクティベーション](/help/blueprints/audience-activation/enterprise-destinations.md)
-   + [Experience Cloudアプリケーションとのアクティベーション](/help/blueprints/audience-activation/platform-and-applications.md)
+   + [Experience Cloud アプリケーションを使用したアクティベーション](/help/blueprints/audience-activation/platform-and-applications.md)
    + [顧客アクティビティハブ ](/help/blueprints/audience-activation/customer-activity.md)
 + Customer Journey Analytics {#customer-journey-analytics}
    + [概要](/help/blueprints/customer-journey-analytics/overview.md)
