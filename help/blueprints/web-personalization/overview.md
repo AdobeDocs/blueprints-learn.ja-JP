@@ -5,11 +5,11 @@ solution: Experience Platform, Real-time Customer Data Platform, Target, Audienc
 kt: null
 thumbnail: null
 exl-id: 8ad028fd-3190-42da-9f46-7e927e8878f8
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d30af99dc08d0bc723edc4c1c4705ebc07c3c7b7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '254'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -22,11 +22,11 @@ Web およびモバイルパーソナライズ機能は、複数のアプリケ�
 | **[行動による Web／モバイルパーソナライズ機能](behavioral.md)** | <ul><li>オンライン行動およびオーディエンスデータに基づいてパーソナライズします。</li></ul> | <ul><li>Adobe Target</li><li>Adobe Analytics *（オプション）*</li><li>Adobe Audience Manager *（オプション）*</li></ul> |
 | **[オンライン／オフライン Web／モバイルパーソナライズ機能](online-offline.md)** | <ul><li>オフライン属性およびイベント（トランザクション、予約、CRM およびロイヤリティデータ）を使用してパーソナライズします。</li><li>Web、電子メール、その他の既知のチャネルをまたいでパーソナライズ機能を同期します。</li></ul> | <ul><li>[!UICONTROL リアルタイム顧客データプラットフォーム]</li><li>Adobe Target</li><li>Adobe Analytics *（オプション）*</li><li>Adobe Audience Manager *（オプション）*</li></ul> |
 
-## Webおよびモバイルのパーソナライゼーション用ガードレール
+## Web およびモバイルパーソナライズ機能のガードレール
 
-[オーディエンスとプロファイルのアクティベーションに関するガードレールについては、「オーディエンスとプロファイルアクティベーションの設計図」の項の下のガードレールを参照してください。](../audience-activation/overview.md)
+[オーディエンスとプロファイルのアクティベーションに関連するガードレールについては、「オーディエンスとプロファイルのアクティベーションブループリント」の節のガードレールを参照してください。](../audience-activation/overview.md)
 
-### オンライン/オフラインパーソナライゼーションガードレール図
+### オンライン／オフラインパーソナライズ機能ガードレール図
 
 <img src="assets/personalization_guardrails.svg" alt="オンライン／オフライン Web パーソナライズ機能ブループリントの参照アーキテクチャ" style="border:1px solid #4a4a4a" />
 
