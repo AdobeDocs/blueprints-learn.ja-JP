@@ -4,11 +4,11 @@ description: Web パーソナライズ機能を電子メールおよびその他
 solution: Experience Platform, Real-time Customer Data Platform, Target, Audience Manager, Analytics, Experience Cloud Services, Data Collection
 kt: 7194thumb-web-personalization-scenario2.jpg
 exl-id: 29667c0e-bb79-432e-af3a-45bd0b3b43bb
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d30af99dc08d0bc723edc4c1c4705ebc07c3c7b7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '648'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -35,7 +35,7 @@ Web パーソナライズ機能を電子メールおよびその他の既知お�
 
 ## ガードレール
 
-[Webおよびモバイルパーソナライゼーションの青写真の概要ページのガードレールを参照してください。](overview.md)
+[Web およびモバイルパーソナライズ機能ブループリントの概要ページのガードレールを参照してください。](overview.md)
 
 ## 実装パターン
 
@@ -84,7 +84,7 @@ Web／モバイルパーソナライズ機能ブループリントは、以下�
 * [Experience Platform セグメントビルダーの概要](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=ja)
 * [Audience Manager ソースコネクタ](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/audience-manager.html?lang=ja)
 * [Adobe Audience Manager を使用した Adobe Analytics セグメント共有](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-publish.html?lang=ja)
-* [Experience Platform Web SDK ドキュメント](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html)
+* [Experience Platform Web SDK ドキュメント](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=ja)
 * [Experience Cloud ID サービスドキュメント](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=ja)
 * [Experience Platform Launch ドキュメント](https://experienceleague.adobe.com/docs/launch/using/home.html?lang=ja)
 
