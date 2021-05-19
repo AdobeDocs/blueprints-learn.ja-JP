@@ -8,11 +8,11 @@ exl-id: 9b12cd7a-5e5f-443a-91a1-44273cdabc2d
 source-git-commit: 42f67219f6ced3f563c8416e2e73d217e6998193
 workflow-type: tm+mt
 source-wordcount: '64'
-ht-degree: 82%
+ht-degree: 100%
 
 ---
 
-# Adobe Experience Platform&amp;アプリ
+# Adobe Experience Platform およびアプリケーション
 
 ## Adobe Experience Platform およびアプリケーションアーキテクチャ図
 
@@ -22,6 +22,6 @@ ht-degree: 82%
 
 >[!VIDEO](https://video.tv.adobe.com/v/32456/?quality=12&learn=on)
 
-## Adobe Experience Platform&amp;アプリケーションの詳細なアーキテクチャ図
+## Adobe Experience Platform およびアプリケーションの詳細アーキテクチャ図
 
 <img src="assets/aep+apps_horizontal.svg" alt="Experience Platform およびアプリケーション" style="border:1px solid #4a4a4a" />
