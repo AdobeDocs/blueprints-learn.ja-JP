@@ -1,26 +1,26 @@
 ---
-title: Experience CloudアプリケーションとのオーディエンスとプロファイルのアクティベーションBlueprint
-description: Experience Platform内のプロファイルとオーディエンスを管理し、Experience Cloudアプリケーションと共有します。
+title: Experience Cloud アプリケーションを使用したオーディエンスとプロファイルのアクティベーションブループリント
+description: Experience Platform でプロファイルおよびオーディエンスを管理し、Experience Cloud アプリケーションを使用して共有します。
 solution: Experience Platform, Real-time Customer Data Platform, Target, Audience Manager, Analytics, Experience Cloud Services
 kt: 7722
 exl-id: null
 source-git-commit: f527b23587e4ec893532997c3c99270946d7fa31
 workflow-type: tm+mt
 source-wordcount: '270'
-ht-degree: 39%
+ht-degree: 92%
 
 ---
 
-# Experience CloudアプリケーションとのオーディエンスとプロファイルのアクティベーションBlueprint
+# Experience Cloud アプリケーションを使用したオーディエンスとプロファイルのアクティベーションブループリント
 
-Experience Platform内のプロファイルとオーディエンスを管理し、Experience Cloudアプリと共有します。 豊富な顧客セグメントやインサイトをExperience Platformで作成して共有し、Experience Cloudアプリケーションと共有します。
+Experience Platform でプロファイルおよびオーディエンスを管理し、Experience Cloud アプリケーションを使用して共有します。Experience Platform でリッチな顧客セグメントおよびインサイトを構築および共有し、Experience Cloud アプリケーションを使用して共有します。
 
-Experience Cloudアプリケーションとのアクティベーションは、[オンライン/オフラインAudience ActivationのBlueprint](online-offline.md)と密接に連携しています。
+Experience Cloud アプリケーションを使用したアクティベーションは、[オンライン／オフラインオーディエンスアクティベーションブループリント](online-offline.md)と密接に連携しています。
 
 ## ユースケース
 
-* Experience Cloudによる顧客のインタラクションチャネル全体にわたってパーソナライズおよびターゲットを行います。
-* Experience PlatformとExperience Cloudアプリケーションの間でオーディエンスとプロファイルのデータを共有します。
+* Experience Cloud による顧客インタラクションチャネルをまたいでパーソナライズおよびターゲット設定します。
+* Experience Platform と Experience Cloud アプリケーションの間でオーディエンスおよびプロファイルデータを共有します。
 
 ## アプリケーション
 
@@ -35,16 +35,16 @@ Experience Cloudアプリケーションとのアクティベーションは、[
 
 ## アーキテクチャ
 
-[Experience CloudアプリケーションとのExperience Platform統合に関する追加のアーキテクチャ図については、「Experience Platformとアプリケーションのアーキテクチャ」セクションを参照してください。](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/architecture-overview/platform-applications.html)
+[Experience CloudアプリケーションとのExperience Platform統合に関する追加のアーキテクチャ図については、「Experience Platformとアプリケーションのアーキテクチャ」セクションを参照してください。](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/architecture-overview/platform-applications.html?lang=ja)
 
-### Experience Cloudアプリケーションとのオーディエンスとプロファイルのアクティベーション
+### Experience Cloud アプリケーションを使用したオーディエンスとプロファイルのアクティベーション
 
-<img src="../experience-platform/assets/aep+apps_horizontal.svg" alt="Experience Cloudアプリケーションを使用したオーディエンスおよびプロファイルアクティベーションのリファレンスアーキテクチャ" style="border:1px solid #4a4a4a" />
+<img src="../experience-platform/assets/aep+apps_horizontal.svg" alt="Experience Cloud アプリケーションを使用したオーディエンスとプロファイルのアクティベーションの参照アーキテクチャ" style="border:1px solid #4a4a4a" />
 <br>
 
 ## ガードレール
 
-オーディエンスとプロファイルのアクティベーションの概要ページ](overview.md)の[ガードレールを参照してください。
+[オーディエンスとプロファイルのアクティベーションの概要ページのガードレール](overview.md)を参照してください
 
 ## 関連ドキュメント
 
