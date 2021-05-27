@@ -6,9 +6,9 @@ kt: 7211
 thumbnail: null
 exl-id: f17599f1-2e75-4cbe-841a-9fd1dae71ada
 source-git-commit: 53914ce36ef0e48734c04818fbf8a5285fbb14ab
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '158'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -33,7 +33,7 @@ ht-degree: 93%
 
 <!-- These steps should link to help. -->
 
-1. [Audience Manager を実装](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/implement-audience-manager.html?lang=en#implementation-integration-guides)します。
+1. [Audience Manager を実装します](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/implement-audience-manager.html?lang=ja#implementation-integration-guides)。
 1. Audience Manager にデータを収集します。
 1. セグメント定義に使用するシグナルおよび特性を設定します。
 1. Audience Manager でセグメントを作成します。
