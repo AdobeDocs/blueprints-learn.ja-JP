@@ -5,9 +5,9 @@ solution: Experience Platform, Real-time Customer Data Platform, Target, Audienc
 kt: 7722
 exl-id: null
 source-git-commit: f527b23587e4ec893532997c3c99270946d7fa31
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '270'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -26,7 +26,7 @@ Experience Cloud アプリケーションを使用したアクティベーショ
 
 * Adobe Experience Platform
 * [!UICONTROL リアルタイム顧客データプラットフォーム]
-* Experience Platform Activation
+* Experience Platform アクティベーション
 * Experience Cloud アプリケーション
    * Adobe Audience Manager
    * Adobe Target
@@ -35,7 +35,7 @@ Experience Cloud アプリケーションを使用したアクティベーショ
 
 ## アーキテクチャ
 
-[Experience CloudアプリケーションとのExperience Platform統合に関する追加のアーキテクチャ図については、「Experience Platformとアプリケーションのアーキテクチャ」セクションを参照してください。](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/architecture-overview/platform-applications.html?lang=ja)
+[Experience Cloud アプリケーションとの Experience Platform 統合に関する追加のアーキテクチャ図については、Experience Platform およびアプリケーションアーキテクチャの節を参照してください。](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/architecture-overview/platform-applications.html?lang=ja)
 
 ### Experience Cloud アプリケーションを使用したオーディエンスとプロファイルのアクティベーション
 
