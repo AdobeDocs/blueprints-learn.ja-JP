@@ -4,18 +4,17 @@ breadcrumb-title: 'ブループリント '
 user-guide-description: ブループリントは、既存のビジネス上の問題に対処するための反復可能な実装で、アーキテクチャ図、技術上の考慮事項および関連ドキュメントリンクが含まれます。
 product: adobe experience platform
 role: Architect, Developer, Business Practitioner
-translation-type: ht
-source-git-commit: b8770bdc4db581be11b347e3788b1d6e6534fe10
-workflow-type: ht
-source-wordcount: '120'
-ht-degree: 100%
+source-git-commit: 70b3bf294741888c3d109a2d4ef710d428800abf
+workflow-type: tm+mt
+source-wordcount: '119'
+ht-degree: 98%
 
 ---
 
 # デジタルエクスペリエンスブループリント {#architecture}
 
 + [概要](/help/blueprints/overview.md)
-+ アーキテクチャ概要図 {#architecture-overview}
++ アーキテクチャの概要{#architecture-overview}
    + [Experience Cloud](/help/blueprints/experience-platform/experience-cloud.md)
    + [Experience Platform およびアプリケーション](/help/blueprints/experience-platform/platform-applications.md)
    + [Experience Platform データフロー](/help/blueprints/experience-platform/platform-data-flow.md)
