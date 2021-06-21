@@ -5,10 +5,10 @@ solution: Experience Platform
 kt: null
 thumbnail: null
 exl-id: 273d024f-a220-4336-89f2-e3bffafcdc37
-source-git-commit: faf65f9cd457982baea0a94275a441cd8b5c0b3a
+source-git-commit: 83cda30e0fac5c3a2c38ca4b2df2c2405736e4a0
 workflow-type: tm+mt
-source-wordcount: '231'
-ht-degree: 54%
+source-wordcount: '190'
+ht-degree: 45%
 
 ---
 
@@ -18,6 +18,5 @@ ht-degree: 54%
 
 | ブループリント | 説明 | Experience Cloud アプリケーション |
 |---|---|---|
-| **バッチおよびトランザクションメッセージ** | <ul><li>スケジュールされたキャンペーンやバッチアウトバウンドキャンペーンを作成および実行します</li><li>トランザクションメッセージを配信します</li></ul> | <ul><li>Adobe Campaign Classic および Managed Services</li><li>Adobe Campaign Standard</li></ul> |
-| **[バッチメッセージおよび Adobe Experience Platform](batch-messaging.md)** | <ul><li>Adobe Experience Platform を顧客プロファイルおよびセグメント化の中央ハブとして使用して、スケジュールされたキャンペーンおよびバッチメッセージキャンペーンを実行します</li></ul> | <ul><li>[!UICONTROL リアルタイム顧客データプラットフォーム]</li><li>Adobe Campaign Classic、Managed Services または Campaign Standard</li><li>サポートされているサードパーティメッセージングプロバイダー</li></ul> |
-| **[トリガーされるメッセージおよび Adobe Experience Platform](triggered-messaging.md)** | <ul><li>ストリーミングデータ、顧客プロファイル、セグメント化の中央ハブとしての Adobe Experience Platform と、ストリーミングジャーニーオーケストレーションとメッセージ配信のための Journey Orchestration を使用して、トリガーされるメッセージとストリーミングメッセージングを実行します</li></ul> | <ul><li>Adobe Experience Platform</li><li>Journey Orchestration</li><li>Adobe Campaign またはその他のメッセージ配信用サードパーティアプリケーション</li></ul> |
+| **[Adobe Campaign](batch-messaging.md)** | <ul><li>Adobe Experience Platform を顧客プロファイルおよびセグメント化の中央ハブとして使用して、スケジュールされたキャンペーンおよびバッチメッセージキャンペーンを実行します</li></ul> | <ul><li>[!UICONTROL リアルタイム顧客データプラットフォーム]</li><li>Adobe Campaign Classic、Managed Services または Campaign Standard</li><li>サポートされているサードパーティメッセージングプロバイダー</li></ul> |
+| **[Journey Optimizer](journey-optimizer.md)** | <ul><li>ストリーミングデータ、顧客プロファイル、セグメント化の中央ハブとしての Adobe Experience Platform と、ストリーミングジャーニーオーケストレーションとメッセージ配信のための Journey Orchestration を使用して、トリガーされるメッセージとストリーミングメッセージングを実行します</li></ul> | <ul><li>Adobe Experience Platform</li><li>Journey Optimizer</li></ul> |
