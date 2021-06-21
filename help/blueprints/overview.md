@@ -3,11 +3,10 @@ title: デジタルエクスペリエンスブループリント
 description: デジタルエクスペリエンスブループリントは、戦略に取り組み、確立されたビジネス上の問題を解決するための反復可能な実装です。価値実現までの時間を短縮し、成功への近道となります。
 solution: Experience Platform
 exl-id: 52898310-9723-4ec2-ba10-f45fefe29e93
-translation-type: ht
-source-git-commit: 9e0954334e8b8a8c5bf52651611e7afa165f6d21
-workflow-type: ht
+source-git-commit: 584007cc71e00729732c67a97546e2c21aed3f87
+workflow-type: tm+mt
 source-wordcount: '265'
-ht-degree: 100%
+ht-degree: 94%
 
 ---
 
@@ -32,18 +31,18 @@ ht-degree: 100%
 <table style="table-layout:fixed">
 <tr>
   <td>
-    <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/multi-channel-message-orchestration/triggered-messaging.html?lang=ja"><img alt="トリガーされるメッセージおよび Experience Platform ブループリントのサムネイル画像" src="multi-channel-message-orchestration/assets/triggered.svg" /></a>
-    <div><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/multi-channel-message-orchestration/triggered-messaging.html?lang=ja"><strong>トリガーされるメッセージおよび Experience Platform</strong></a></div>
+    <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/triggered-messaging.html"><img alt="トリガーされるメッセージおよび Experience Platform ブループリントのサムネイル画像" src="customer-journeys/assets/triggered.svg" /></a>
+    <div><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/triggered-messaging.html"><strong>トリガーされるメッセージおよび Experience Platform</strong></a></div>
     <p><em>[!UICONTROL Platform] を中央ハブとして使用するトリガーメッセージとエクスペリエンス。</em></p>
   </td>
   <td>
     <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/online-offline.html?lang=ja"><img alt="オンライン／オフラインオーディエンスアクティベーションブループリントのサムネイル画像" src="audience-activation/assets/online_offline_activation.svg" /></a>
-    <div><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/online-offline.html?lang=ja"><strong>オンライン／オフラインオーディエンスアクティベーション</strong></a></div>
+    <div><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/online-offline.html"><strong>オンライン／オフラインオーディエンスアクティベーション</strong></a></div>
     <p><em>オーディエンスアクティベーションのクロスチャネル広告を配信します。</em></p>
   </td>
   <td>
     <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journey-analytics/digital-behavioral-data-consolidation.html?lang=ja"><img alt="デジタル行動データ統合ブループリントのサムネイル画像" src="customer-journey-analytics/assets/CJA.svg" /></a>
-    <div><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journey-analytics/digital-behavioral-data-consolidation.html?lang=ja"><strong>デジタル行動データ統合</strong></a></div>
+    <div><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journey-analytics/digital-behavioral-data-consolidation.html"><strong>デジタル行動データ統合</strong></a></div>
     <p><em>様々なチャネルにわたる顧客行動を 1 つの統合表示で把握。</em></p>
   </td>
 </tr>
