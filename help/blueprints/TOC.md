@@ -4,8 +4,8 @@ breadcrumb-title: 'ブループリント '
 user-guide-description: ブループリントは、既存のビジネス上の問題に対処するための反復可能な実装で、アーキテクチャ図、技術上の考慮事項および関連ドキュメントリンクが含まれます。
 product: adobe experience platform
 role: Architect, Developer, Business Practitioner
-source-git-commit: 70b3bf294741888c3d109a2d4ef710d428800abf
-workflow-type: ht
+source-git-commit: 584007cc71e00729732c67a97546e2c21aed3f87
+workflow-type: tm+mt
 source-wordcount: '119'
 ht-degree: 100%
 
@@ -37,10 +37,10 @@ ht-degree: 100%
    + [概要](/help/blueprints/data-insights/overview.md)
    + [データ分析およびインテリジェンス](/help/blueprints/data-insights/analysis.md)
    + [プロファイルエンリッチメントのためのカスタムデータサイエンス](/help/blueprints/data-insights/data-science.md)
-+ マルチチャネルメッセージオーケストレーション {#multi-channel-message-orchestration}
-   + [概要](/help/blueprints/multi-channel-message-orchestration/overview.md)
-   + [バッチメッセージおよび Experience Platform](/help/blueprints/multi-channel-message-orchestration/batch-messaging.md)
-   + [トリガーされるメッセージおよび Experience Platform](/help/blueprints/multi-channel-message-orchestration/triggered-messaging.md)
++ マルチチャネルメッセージオーケストレーション {#customer-journeys}
+   + [概要](/help/blueprints/customer-journeys/overview.md)
+   + [バッチメッセージおよび Experience Platform](/help/blueprints/customer-journeys/batch-messaging.md)
+   + [トリガーされるメッセージおよび Experience Platform](/help/blueprints/customer-journeys/triggered-messaging.md)
 + Web およびモバイルパーソナライズ機能 {#web-personalization}
    + [概要](/help/blueprints/web-personalization/overview.md)
    + [行動によるパーソナライズ機能](/help/blueprints/web-personalization/behavioral.md)
