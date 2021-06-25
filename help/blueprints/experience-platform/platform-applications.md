@@ -8,7 +8,7 @@ exl-id: 9b12cd7a-5e5f-443a-91a1-44273cdabc2d
 source-git-commit: 584007cc71e00729732c67a97546e2c21aed3f87
 workflow-type: tm+mt
 source-wordcount: '939'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -69,7 +69,7 @@ ht-degree: 97%
       <td>現在の統合はありません</td>
       <td>
         <ul>
-          <li>Analytics によって収集されたデータは、Experience Platform データレイクおよびプロファイルストアに送信できます。 <a href="https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html?lang=ja">Analytics データコネクタ</a>
+          <li>Analytics によって収集されたデータは、Experience Platform データレイクおよびプロファイルストアに送信できます。<a href="https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html?lang=ja">Analytics データコネクタ</a>
           </li>
         </ul>
       </td>
@@ -93,7 +93,7 @@ ht-degree: 97%
       </td>
       <td>
         <ul>
-          <li>収集されたデータおよび評価されたオーディエンスメンバーシップは、Experience Platform データレイクおよびプロファイルストアと共有できます。 <a href="https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/audience-manager.html?lang=ja">Audience Manager ソースコネクタ</a>
+          <li>収集されたデータおよび評価されたオーディエンスメンバーシップは、Experience Platform データレイクおよびプロファイルストアと共有できます。<a href="https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/audience-manager.html?lang=ja">Audience Manager ソースコネクタ</a>
           </li>
         </ul>
       </td>
@@ -126,7 +126,7 @@ ht-degree: 97%
       <td colspan="1">
         <ul>
           <li>
-            <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/batch-messaging.html?lang=en">バッチメッセージ</a>
+            <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/batch-messaging.html?lang=ja">バッチメッセージ</a>
           </li>
         </ul>
       </td>
@@ -162,7 +162,7 @@ ht-degree: 97%
       <td colspan="1">
         <ul>
           <li>
-            <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journey-analytics/overview.html?lang=en">Customer Journey Analytics</a>
+            <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journey-analytics/overview.html?lang=ja">Customer Journey Analytics</a>
           </li>
         </ul>
       </td>
@@ -218,7 +218,7 @@ ht-degree: 97%
       </td>
       <td colspan="1">
         <ul>
-          <li>Marketo アカウント、連絡先および商談データは、B2B-CDP で作成されるオーディエンスおよび Customer Journey Analytics、Experience Platform Query Service、Data Science Workspace での分析でさらに使用するために、Marketo で生成されたインタラクションおよびキャンペーンデータと共に、Experience Platform に取り込まれます。 <a href="https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/marketo/marketo.html?lang=ja">Marketo Engage コネクタ</a>
+          <li>Marketo アカウント、連絡先および商談データは、B2B-CDP で作成されるオーディエンスおよび Customer Journey Analytics、Experience Platform Query Service、Data Science Workspace での分析でさらに使用するために、Marketo で生成されたインタラクションおよびキャンペーンデータと共に、Experience Platform に取り込まれます。<a href="https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/marketo/marketo.html?lang=ja">Marketo Engage コネクタ</a>
           </li>
         </ul>
       </td>
