@@ -4,10 +4,10 @@ description: Web パーソナライズ機能を電子メールおよびその他
 solution: Experience Platform, Real-time Customer Data Platform, Target, Audience Manager, Analytics, Experience Cloud Services, Data Collection
 kt: 7194thumb-web-personalization-scenario2.jpg
 exl-id: 29667c0e-bb79-432e-af3a-45bd0b3b43bb
-source-git-commit: d30af99dc08d0bc723edc4c1c4705ebc07c3c7b7
+source-git-commit: 848f1366f3dd2d7948a31cfc606e906ec7f74fbb
 workflow-type: tm+mt
-source-wordcount: '648'
-ht-degree: 100%
+source-wordcount: '640'
+ht-degree: 98%
 
 ---
 
@@ -45,7 +45,7 @@ Web／モバイルパーソナライズ機能ブループリントは、以下�
 
 ### 1. Platform Web／Mobile SDK およびエッジアプローチ
 
-<img src="assets/web_sdk_flow.svg" alt="[!UICONTROL Platform Web SDK] または [!UICONTROL Platform Mobile SDK] および [!UICONTROL Edge Network] アプローチの参照アーキテクチャ" style="border:1px solid #4a4a4a" />
+[Experience PlatformWebおよびモバイルSDKのブループリントを参照してください。](../data-ingestion/websdk.md)
 
 ### 2. アプリケーション固有 SDK アプローチ
 
