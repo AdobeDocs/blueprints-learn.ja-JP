@@ -4,10 +4,10 @@ breadcrumb-title: 'ブループリント '
 user-guide-description: ブループリントは、既存のビジネス上の問題に対処するための反復可能な実装で、アーキテクチャ図、技術上の考慮事項および関連ドキュメントリンクが含まれます。
 product: adobe experience platform
 role: Architect, Developer, Business Practitioner
-source-git-commit: d2bd81f4c4c7145508cfea74c74c0d9f62e0a884
+source-git-commit: 55e2bf2ac2339b0a6bf4a6ba3a4592ea511dd858
 workflow-type: tm+mt
-source-wordcount: '116'
-ht-degree: 98%
+source-wordcount: '119'
+ht-degree: 95%
 
 ---
 
@@ -37,6 +37,7 @@ ht-degree: 98%
    + [概要](/help/blueprints/data-ingestion/overview.md)
    + [データ準備および取り込み](/help/blueprints/data-ingestion/ingestion.md)
    + [サーバーサイドエンタープライズデータ収集](/help/blueprints/data-ingestion/server-side-collection.md)
+   + [Experience PlatformWebSDK](/help/blueprints/data-ingestion/websdk.md)
 + データ分析、インテリジェンス、および AI／ML {#data-exploration}
    + [概要](/help/blueprints/data-insights/overview.md)
    + [データ分析およびインテリジェンス](/help/blueprints/data-insights/analysis.md)
