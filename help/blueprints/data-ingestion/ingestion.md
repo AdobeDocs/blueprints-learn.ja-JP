@@ -5,10 +5,10 @@ solution: Experience Platform,Data Collection
 kt: 7204
 thumbnail: null
 exl-id: 21f8a73e-6be7-448e-8cd3-ebee9fc848e1,5c3c94b6-c928-4d93-8b38-f8bd2aad2e68
-source-git-commit: 45e47c3ac88a67069485952aaa57741820c37143
+source-git-commit: 55e2bf2ac2339b0a6bf4a6ba3a4592ea511dd858
 workflow-type: tm+mt
-source-wordcount: '600'
-ht-degree: 100%
+source-wordcount: '624'
+ht-degree: 96%
 
 ---
 
@@ -21,6 +21,12 @@ ht-degree: 100%
 ## アーキテクチャ
 
 <img src="assets/data_ingestion.png" alt="データ準備と取り込みブループリントの参照アーキテクチャ" style="border:1px solid #4a4a4a" />
+
+## データ取得ガードレール
+
+次の図は、Adobe Experience Platformにデータを取り込む際の平均パフォーマンスのガードレールと待ち時間を示しています。
+
+<img src="../experience-platform/assets/aep_data_flow_guardrails.png" alt="Experience Platform データフロー" style="border:1px solid #4a4a4a" width="90%" />
 
 ## データ取り込み方法
 
