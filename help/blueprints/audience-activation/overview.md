@@ -5,10 +5,10 @@ solution: Experience Platform, Real-time Customer Data Platform
 kt: null
 thumbnail: null
 exl-id: eeeb4325-d0e8-4fd8-86ab-0b8afdd0b69f
-source-git-commit: 55e2bf2ac2339b0a6bf4a6ba3a4592ea511dd858
+source-git-commit: 64f29b492d010539e310c7d24979dedee56068f7
 workflow-type: tm+mt
-source-wordcount: '941'
-ht-degree: 100%
+source-wordcount: '968'
+ht-degree: 97%
 
 ---
 
@@ -39,6 +39,11 @@ ht-degree: 100%
 
 ID グラフは、関連付けられた様々なソースプロファイルフラグメントをまたいで関係を提供するので、プロファイルフラグメントの結合が発生します。フラグメントが結合されているので、結合ポリシーが、使用されるソースフラグメントと ID グラフを決定します。確実に最新のプロファイルの結合を表示するために、プロファイルにアクセスするといつでも、プロファイルフラグメントの結合が発生します。ガバナンスおよびポリシールールにより、認証されたセグメントおよび属性のみを、指定された宛先に対して確実にアクティブ化できます。
 
+## セグメント化と宛先の概要
+
+次の図に、様々なセグメント化方法と、様々なプロファイルおよびオーディエンスのアクティブ化パターンの概要を示します。
+
+<img src="assets/segmentation_destination_overview.png" alt="リアルタイム顧客プロファイルの参照アーキテクチャ" style="border:1px solid #4a4a4a" width="90%"/>
 
 ## オーディエンスとプロファイルのアクティベーションブループリントのガードレール
 
