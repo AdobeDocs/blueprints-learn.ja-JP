@@ -1,18 +1,18 @@
 ---
-title: データ準備と取り込みブループリント
+title: Web/モバイルSDKデータ収集ブループリント
 description: このブループリントは、Experience PlatformWebおよびモバイルSDKを使用したアーキテクチャと取り込みを示します
 solution: Experience Platform,Data Collection
 kt: null
 thumbnail: null
 exl-id: null
-source-git-commit: 55e2bf2ac2339b0a6bf4a6ba3a4592ea511dd858
+source-git-commit: f6f25c1b650445c5c3686de80c80334aacc17db5
 workflow-type: tm+mt
-source-wordcount: '67'
-ht-degree: 7%
+source-wordcount: '72'
+ht-degree: 0%
 
 ---
 
-# Experience PlatformWebSDKデータ収集
+# Experience PlatformWeb/モバイルSDKのデータ収集
 
 次のアーキテクチャ図は、統合WebSDKを使用した統合パスとExperience Platform収集を示しています。
 
@@ -20,4 +20,4 @@ ht-degree: 7%
 
 ## リファレンスドキュメント
 
-[Experience PlatformWebSDKの概要](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=en)
+[Experience PlatformWeb/モバイルSDKの概要](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=en)
