@@ -7,7 +7,7 @@ role: Architect, Developer, User
 source-git-commit: 1c352489190da65d9c39e126456980d7aa7981f1
 workflow-type: tm+mt
 source-wordcount: '119'
-ht-degree: 95%
+ht-degree: 97%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 95%
    + [概要](/help/blueprints/customer-journey-analytics/overview.md)
    + [クロスチャネルジャーニー分析](/help/blueprints/customer-journey-analytics/digital-behavioral-data-consolidation.md)
    + [コールディフレクション](/help/blueprints/customer-journey-analytics/call-deflect.md)
-+ 顧客ジャーニー{#customer-journeys}
++ カスタマージャーニー{#customer-journeys}
    + [概要](/help/blueprints/customer-journeys/overview.md)
    + [バッチメッセージおよび Experience Platform](/help/blueprints/customer-journeys/batch-messaging.md)
    + [Journey Optimizer](/help/blueprints/customer-journeys/journey-optimizer.md)
