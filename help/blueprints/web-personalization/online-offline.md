@@ -4,10 +4,10 @@ description: Web パーソナライズ機能を電子メールおよびその他
 solution: Experience Platform, Real-time Customer Data Platform, Target, Audience Manager, Analytics, Experience Cloud Services, Data Collection
 kt: 7194thumb-web-personalization-scenario2.jpg
 exl-id: 29667c0e-bb79-432e-af3a-45bd0b3b43bb
-source-git-commit: 848f1366f3dd2d7948a31cfc606e906ec7f74fbb
+source-git-commit: 176f4950ffb5b21005b6ad8cfbb993186086442b
 workflow-type: tm+mt
-source-wordcount: '640'
-ht-degree: 98%
+source-wordcount: '731'
+ht-degree: 86%
 
 ---
 
@@ -53,6 +53,11 @@ Web／モバイルパーソナライズ機能ブループリントは、以下�
 
 ## 実装の前提条件
 
+IDの前提条件
+
+* Adobe Experience PlatformからAdobe Targetにオーディエンスを共有するには、ECIDをIDとして使用する必要があります。
+* 代替IDと代替IDの両方がAudience Managerに収集されている限り、Audience Managerは代替IDをECIDに解決できるので、代替IDを使用してAudience Manager経由でAdobe TargetにExperience Platformオーディエンスを共有できます。 Audience ManagerとTargetは、ECID IDを介してオーディエンスメンバーシップを解決するので、Adobe Targetに対する最終的なオーディエンス共有をおこなうには、ECIDが引き続き必要です。
+
 | アプリケーション／サービス | 必須ライブラリ | メモ |
 |---|---|---|
 | Adobe Target | [!UICONTROL Platform Web SDK]*、at.js 0.9.1 以降または mbox.js 61 以降 | mbox.js は今後開発されないため、at.js をお勧めします。 |
@@ -61,6 +66,8 @@ Web／モバイルパーソナライズ機能ブループリントは、以下�
 | Experience Cloud ID サービス | [!UICONTROL Platform Web SDK]* または VisitorAPI.js 2.0 以降 | （推奨）アプリケーション呼び出しの前に ID が設定されるように、Experience Platform Launch を使用して ID サービスをデプロイします |
 | Experience Platform Mobile SDK（オプション） | 4.11 以降（iOS および Android™ 用） |  |
 | Experience Platform Web SDK | 現在の Experience Platform SDK バージョンである 1.0 には、[Experience Cloud アプリケーションをまだサポートしていない様々なユースケースがあります](https://github.com/adobe/alloy/projects/5) |  |
+
+
 
 
 ## 実装手順
