@@ -4,10 +4,10 @@ breadcrumb-title: 'ブループリント '
 user-guide-description: ブループリントは、既存のビジネス上の問題に対処するための反復可能な実装で、アーキテクチャ図、技術上の考慮事項および関連ドキュメントリンクが含まれます。
 product: adobe experience platform
 role: Architect, Developer, User
-source-git-commit: 1c352489190da65d9c39e126456980d7aa7981f1
+source-git-commit: c5fd3f33d48d830b5e5058b919e814e7f84ace81
 workflow-type: tm+mt
-source-wordcount: '119'
-ht-degree: 97%
+source-wordcount: '121'
+ht-degree: 93%
 
 ---
 
@@ -45,5 +45,5 @@ ht-degree: 97%
 + Web およびモバイルパーソナライズ機能 {#web-personalization}
    + [概要](/help/blueprints/web-personalization/overview.md)
    + [行動によるパーソナライズ機能](/help/blueprints/web-personalization/behavioral.md)
-   + [オンライン／オフラインパーソナライズ機能](/help/blueprints/web-personalization/online-offline.md)
+   + [オンラインとオフラインのデータを使用したパーソナライゼーション](/help/blueprints/web-personalization/online-offline.md)
 
