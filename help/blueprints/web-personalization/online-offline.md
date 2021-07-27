@@ -1,17 +1,17 @@
 ---
-title: オンライン／オフライン web パーソナライズ機能ブループリント
+title: オンラインとオフラインのデータを使用したWeb/モバイルのパーソナライゼーション
 description: Web パーソナライズ機能を電子メールおよびその他の既知および匿名のチャネルパーソナライズ機能と同期します。
 solution: Experience Platform, Real-time Customer Data Platform, Target, Audience Manager, Analytics, Experience Cloud Services, Data Collection
 kt: 7194thumb-web-personalization-scenario2.jpg
 exl-id: 29667c0e-bb79-432e-af3a-45bd0b3b43bb
-source-git-commit: 176f4950ffb5b21005b6ad8cfbb993186086442b
+source-git-commit: 3e3077c2a5f6dd67ccc4645ad2340efcbb4f4137
 workflow-type: tm+mt
-source-wordcount: '731'
-ht-degree: 86%
+source-wordcount: '734'
+ht-degree: 84%
 
 ---
 
-# オンライン／オフライン Web／モバイルパーソナライズ機能ブループリント
+# オンラインとオフラインのデータを使用したWeb/モバイルのパーソナライゼーション
 
 Web パーソナライズ機能を電子メールおよびその他の既知および匿名のチャネルパーソナライズ機能と同期します。
 
