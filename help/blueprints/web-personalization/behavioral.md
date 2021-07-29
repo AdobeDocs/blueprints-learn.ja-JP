@@ -5,9 +5,9 @@ solution: Experience Platform, Target, Audience Manager, Analytics, Experience C
 kt: 7085thumb-web-personalization-scenario1.jpg
 exl-id: b9882c2c-cb45-4efa-a85c-8fe48f641a12
 source-git-commit: 848f1366f3dd2d7948a31cfc606e906ec7f74fbb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '524'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -45,7 +45,7 @@ Web／モバイルパーソナライズ機能ブループリントは、以下�
 
 ### 1. Platform Web／Mobile SDK およびエッジアプローチ
 
-[Experience PlatformWebおよびモバイルSDKのブループリントを参照してください。](../data-ingestion/websdk.md)
+[Experience Platform Web および Mobile SDK のブループリントを参照してください。](../data-ingestion/websdk.md)
 
 ### 2. アプリケーション固有 SDK アプローチ
 
@@ -84,7 +84,7 @@ Web／モバイルパーソナライズ機能ブループリントは、以下�
 
 * [Experience Cloud Audiences](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html?lang=ja)
 * [Audience Manager と Adobe Target の統合](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/aam-target-integration.html?lang=ja)
-* [Adobe Audience Manager を使用した Adobe Analytics セグメント共有](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-publish.html)
+* [Adobe Audience Manager を使用した Adobe Analytics セグメント共有](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-publish.html?lang=ja)
 
 
 ## 関連するブログ投稿
