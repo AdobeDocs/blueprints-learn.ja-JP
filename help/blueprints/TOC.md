@@ -7,7 +7,7 @@ role: Architect, Developer, User
 source-git-commit: c5fd3f33d48d830b5e5058b919e814e7f84ace81
 workflow-type: tm+mt
 source-wordcount: '121'
-ht-degree: 93%
+ht-degree: 95%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 93%
    + [概要](/help/blueprints/customer-journey-analytics/overview.md)
    + [クロスチャネルジャーニー分析](/help/blueprints/customer-journey-analytics/digital-behavioral-data-consolidation.md)
    + [コールディフレクション](/help/blueprints/customer-journey-analytics/call-deflect.md)
-+ カスタマージャーニー{#customer-journeys}
++ カスタマージャーニー {#customer-journeys}
    + [概要](/help/blueprints/customer-journeys/overview.md)
    + [バッチメッセージおよび Experience Platform](/help/blueprints/customer-journeys/batch-messaging.md)
    + [Journey Optimizer](/help/blueprints/customer-journeys/journey-optimizer.md)
@@ -37,7 +37,7 @@ ht-degree: 93%
    + [概要](/help/blueprints/data-ingestion/overview.md)
    + [データ準備および取り込み](/help/blueprints/data-ingestion/ingestion.md)
    + [サーバーサイドエンタープライズデータ収集](/help/blueprints/data-ingestion/server-side-collection.md)
-   + [Experience PlatformWebSDK](/help/blueprints/data-ingestion/websdk.md)
+   + [Experience Platform Web SDK](/help/blueprints/data-ingestion/websdk.md)
 + データ分析、インテリジェンス、および AI／ML {#data-exploration}
    + [概要](/help/blueprints/data-insights/overview.md)
    + [データ分析およびインテリジェンス](/help/blueprints/data-insights/analysis.md)
