@@ -7,7 +7,7 @@ exl-id: 29667c0e-bb79-432e-af3a-45bd0b3b43bb
 source-git-commit: 3e3077c2a5f6dd67ccc4645ad2340efcbb4f4137
 workflow-type: tm+mt
 source-wordcount: '734'
-ht-degree: 84%
+ht-degree: 85%
 
 ---
 
@@ -45,7 +45,7 @@ Web／モバイルパーソナライズ機能ブループリントは、以下�
 
 ### 1. Platform Web／Mobile SDK およびエッジアプローチ
 
-[Experience PlatformWebおよびモバイルSDKのブループリントを参照してください。](../data-ingestion/websdk.md)
+[Experience Platform Web および Mobile SDK のブループリントを参照してください。](../data-ingestion/websdk.md)
 
 ### 2. アプリケーション固有 SDK アプローチ
 
