@@ -6,9 +6,9 @@ kt: null
 thumbnail: null
 exl-id: eeeb4325-d0e8-4fd8-86ab-0b8afdd0b69f
 source-git-commit: 64f29b492d010539e310c7d24979dedee56068f7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '968'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -23,8 +23,8 @@ ht-degree: 97%
 |---|---|---|
 | **[匿名オーディエンスアクティベーション](anonymous.md)** | <ul><li>匿名および行動顧客データについて、Web および広告チャネルをまたいでオーディエンスをターゲットします。</li><li>サードパーティオーディエンスデータと統合して、パーソナライズ機能を強化します。</li></ul> | <ul><li>Adobe Audience Manager</li></ul> |
 | **[オンライン／オフラインオーディエンスアクティベーション](online-offline.md)** | <ul><li>既知のプロファイルベースの宛先（電子メールプロバイダー、ソーシャルネットワーク、広告など）に対してアクティブ化します。 </li><li>オンライン行動と共に、オフライン属性およびイベント（オフラインの注文、トランザクション、CRM、ロイヤリティデータなど）を、オンラインターゲティングとパーソナライズ機能に使用します。</li></ul> | <ul><li>Adobe Experience Platform</li><li> [!UICONTROL リアルタイム顧客データプラットフォーム]</li><li>Adobe Audience Manager（オプション）</li></ul> |
-| **[エンタープライズ宛先へのオーディエンスおよびプロファイルのアクティベーション](enterprise-destinations.md)** | <ul><li>アクティベーションとレポートのユースケースに応じて、プロファイルとオーディエンスの変更をエンタープライズデータストアにレプリケートとアップデートを実行します。 </li></ul><ul><li>[!UICONTROL リアルタイム顧客データプラットフォーム]からエンタープライズシステムやアプリケーションへの顧客行動の通知によって、顧客に対するセールスやサポート活動を開始します。</li></ul> | <ul><li>Adobe Experience Platform</li><li>[!UICONTROL リアルタイム顧客データプラットフォーム]</li><li>Experience Platform アクティベーション</li><li>Adobe Audience Manager（オプション）</li></ul> |
-| **[Experience Cloud アプリケーションを使用したオーディエンスとプロファイルのアクティベーション](platform-and-applications.md)** | <ul><li>Experience Platform でプロファイルおよびオーディエンスを管理し、Experience Cloud アプリケーションを使用して共有します</li><li>Experience Platform でリッチな顧客セグメントおよびインサイトを構築および共有し、Experience Cloud アプリケーションを使用して共有します</li></ul> | <ul><li>Adobe Experience Platform</li><li>[!UICONTROL リアルタイム顧客データプラットフォーム]</li><li>Experience Platform アクティベーション</li><li>Experience Cloud アプリケーション</li></ul> |
+| **[エンタープライズ宛先へのオーディエンスおよびプロファイルのアクティベーション](enterprise-destinations.md)** | <ul><li>アクティベーションとレポートのユースケースに応じて、プロファイルとオーディエンスの変更をエンタープライズデータストアにレプリケートとアップデートを実行します。 </li></ul><ul><li>[!UICONTROL リアルタイム顧客データプラットフォーム]からエンタープライズシステムやアプリケーションへの顧客行動の通知によって、顧客に対するセールスやサポート活動を開始します。</li></ul> | <ul><li>Adobe Experience Platform</li><li>[!UICONTROL リアルタイム顧客データプラットフォーム]</li><li>Experience Platform Activation</li><li>Adobe Audience Manager（オプション）</li></ul> |
+| **[Experience Cloud アプリケーションを使用したオーディエンスとプロファイルのアクティベーション](platform-and-applications.md)** | <ul><li>Experience Platform でプロファイルおよびオーディエンスを管理し、Experience Cloud アプリケーションを使用して共有します</li><li>Experience Platform でリッチな顧客セグメントおよびインサイトを構築および共有し、Experience Cloud アプリケーションを使用して共有します</li></ul> | <ul><li>Adobe Experience Platform</li><li>[!UICONTROL リアルタイム顧客データプラットフォーム]</li><li>Experience Platform Activation</li><li>Experience Cloud アプリケーション</li></ul> |
 | **[顧客アクティビティハブ](customer-activity.md)** | <ul><li>担当者がサポートするインタラクションに、詳細な消費者コンテキスト（サポートおよび販売エクスペリエンスなど）を提供します。Experience Platform のプロファイルルックアップを使用して、担当者は、最近の購入、キャンペーンインタラクション、傾向、オーディエンスメンバーシップ、リアルタイム顧客プロファイルに格納されたその他の属性およびインサイトなど、消費者に関するより詳細なコンテキストを受け取ることができます。</li></ul> | <ul><li>Adobe Experience Platform</li></ul> |
 
 ## リアルタイム顧客プロファイルアーキテクチャ
@@ -41,7 +41,7 @@ ID グラフは、関連付けられた様々なソースプロファイルフ�
 
 ## セグメント化と宛先の概要
 
-次の図に、様々なセグメント化方法と、様々なプロファイルおよびオーディエンスのアクティブ化パターンの概要を示します。
+次の図に、様々なセグメント化メソッドと、様々なプロファイルおよびオーディエンスのアクティベーションパターンの概要を示します。
 
 <img src="assets/segmentation_destination_overview.png" alt="リアルタイム顧客プロファイルの参照アーキテクチャ" style="border:1px solid #4a4a4a" width="90%"/>
 
