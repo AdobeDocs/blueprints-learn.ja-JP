@@ -4,10 +4,10 @@ breadcrumb-title: 'ブループリント '
 user-guide-description: ブループリントは、既存のビジネス上の問題に対処するための反復可能な実装で、アーキテクチャ図、技術上の考慮事項および関連ドキュメントリンクが含まれます。
 product: adobe experience platform
 role: Architect, Developer, User
-source-git-commit: c5fd3f33d48d830b5e5058b919e814e7f84ace81
-workflow-type: ht
-source-wordcount: '121'
-ht-degree: 100%
+source-git-commit: 606b209693213c3eb7875cb9eda67f989489114b
+workflow-type: tm+mt
+source-wordcount: '123'
+ht-degree: 91%
 
 ---
 
@@ -21,8 +21,8 @@ ht-degree: 100%
 + オーディエンスおよびプロファイルのアクティベーション {#audience-activation}
    + [概要](/help/blueprints/audience-activation/overview.md)
    + [匿名オーディエンスアクティベーション](/help/blueprints/audience-activation/anonymous.md)
-   + [オンライン／オフラインオーディエンスアクティベーション](/help/blueprints/audience-activation/online-offline.md)
-   + [エンタープライズ宛先へのアクティベーション](/help/blueprints/audience-activation/enterprise-destinations.md)
+   + [オンラインおよびオフラインデータを使用したアクティベーション](/help/blueprints/audience-activation/online-offline.md)
+   + [ファイルおよびエンタープライズストリーミングの宛先](/help/blueprints/audience-activation/enterprise-destinations.md)
    + [Experience Cloud アプリケーションを使用したアクティベーション](/help/blueprints/audience-activation/platform-and-applications.md)
    + [顧客アクティビティハブ](/help/blueprints/audience-activation/customer-activity.md)
 + Customer Journey Analytics {#customer-journey-analytics}
