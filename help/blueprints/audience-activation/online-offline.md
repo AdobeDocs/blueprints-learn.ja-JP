@@ -1,23 +1,23 @@
 ---
-title: オンライン／オフラインオーディエンスアクティベーションブループリント
+title: オンラインおよびオフラインのデータブループリントを使用したアクティベーション
 description: オンライン／オフラインオーディエンスアクティベーション。
 solution: Experience Platform, Real-time Customer Data Platform, Target, Audience Manager, Analytics, Experience Cloud Services, Data Collection
 kt: 7086
 exl-id: 011f4909-b208-46db-ac1c-55b3671ee48c
-source-git-commit: f527b23587e4ec893532997c3c99270946d7fa31
+source-git-commit: 8f1d76c317dbe4c7e916b4513960b4549a2d3424
 workflow-type: tm+mt
-source-wordcount: '522'
-ht-degree: 100%
+source-wordcount: '530'
+ht-degree: 91%
 
 ---
 
-# オンライン／オフラインオーディエンスアクティベーションブループリント
+# オンラインおよびオフラインのデータブループリントを使用したアクティベーション
 
 オンライン行動と共に、オフライン属性およびイベント（オフラインの注文、トランザクション、CRM、ロイヤリティデータなど）を、オンラインターゲティングとパーソナライズ機能に使用します。
 
 既知のプロファイルベースの宛先（電子メールプロバイダー、ソーシャルネットワーク、広告など）に対して、オーディエンスをアクティブ化します。
 
-オンライン／オフラインオーディエンスアクティベーションブループリントは、[Experience Cloud アプリケーションを使用したオーディエンスとプロファイルのアクティベーションブループリント](platform-and-applications.md)と密接に連携しています。追加の詳細は、Experience Platform と Experience Cloud アプリケーションの間の統合に特有な、[Experience Cloud アプリケーションを使用したオーディエンスとプロファイルのアクティベーションブループリント](platform-and-applications.md)で提供されます。
+オンラインおよびオフラインのデータブループリントを使用したアクティベーションは、Experience Cloudアプリケーションのブループリント](platform-and-applications.md)を使用したオーディエンスおよびプロファイルのアクティベーションと密接に連携します。 [追加の詳細は、Experience Platform と Experience Cloud アプリケーションの間の統合に特有な、[Experience Cloud アプリケーションを使用したオーディエンスとプロファイルのアクティベーションブループリント](platform-and-applications.md)で提供されます。
 
 ## ユースケース
 
@@ -32,7 +32,7 @@ ht-degree: 100%
 
 ## アーキテクチャ
 
-### 宛先を使用したオンライン／オフラインオーディエンスアクティベーション
+### 宛先を使用したオンラインおよびオフラインデータのアクティブ化
 
 <img src="assets/online_offline_activation.svg" alt="オンライン／オフラインオーディエンスアクティベーションブループリントの参照アーキテクチャ" style="border:1px solid #4a4a4a" />
 <br>
