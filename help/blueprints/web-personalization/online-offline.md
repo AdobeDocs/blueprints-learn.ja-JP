@@ -1,17 +1,17 @@
 ---
-title: オンラインとオフラインのデータを使用したWeb/モバイルのパーソナライゼーション
+title: オンラインとオフラインのデータを使用した web／モバイルのパーソナライゼーション
 description: Web パーソナライズ機能を電子メールおよびその他の既知および匿名のチャネルパーソナライズ機能と同期します。
 solution: Experience Platform, Real-time Customer Data Platform, Target, Audience Manager, Analytics, Experience Cloud Services, Data Collection
 kt: 7194thumb-web-personalization-scenario2.jpg
 exl-id: 29667c0e-bb79-432e-af3a-45bd0b3b43bb
 source-git-commit: 3e3077c2a5f6dd67ccc4645ad2340efcbb4f4137
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '734'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
-# オンラインとオフラインのデータを使用したWeb/モバイルのパーソナライゼーション
+# オンラインとオフラインのデータを使用した web／モバイルのパーソナライゼーション
 
 Web パーソナライズ機能を電子メールおよびその他の既知および匿名のチャネルパーソナライズ機能と同期します。
 
@@ -53,10 +53,10 @@ Web／モバイルパーソナライズ機能ブループリントは、以下�
 
 ## 実装の前提条件
 
-IDの前提条件
+ID の前提条件
 
-* Adobe Experience PlatformからAdobe Targetにオーディエンスを共有するには、ECIDをIDとして使用する必要があります。
-* 代替IDと代替IDの両方がAudience Managerに収集されている限り、Audience Managerは代替IDをECIDに解決できるので、代替IDを使用してAudience Manager経由でAdobe TargetにExperience Platformオーディエンスを共有できます。 Audience ManagerとTargetは、ECID IDを介してオーディエンスメンバーシップを解決するので、Adobe Targetに対する最終的なオーディエンス共有をおこなうには、ECIDが引き続き必要です。
+* Adobe Experience Platform から Adobe Target にオーディエンスを共有するには、ECID を ID として使用する必要があります。
+* ECID と代替 ID の両方が Audience Manager に収集されている場合、Audience Manager は代替 ID を ECID に解決できるため、代替 ID を使用して Audience Manager 経由で、Experience Platform のオーディエンスを Adobe Target に共有できます。Audience Manager と Target は、ECID ID を介してオーディエンスメンバーシップを解決するので、Adobe Target に対する最終的なオーディエンス共有を行うには、ECID が引き続き必要です。
 
 | アプリケーション／サービス | 必須ライブラリ | メモ |
 |---|---|---|
@@ -90,7 +90,7 @@ IDの前提条件
 * [Experience Platform セグメントビルダーの概要](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=ja)
 * [Audience Manager ソースコネクタ](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/audience-manager.html?lang=ja)
 * [Adobe Audience Manager を使用した Adobe Analytics セグメント共有](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-publish.html?lang=ja)
-* [Experience Platform Web SDK ドキュメント](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html)
+* [Experience Platform Web SDK ドキュメント](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=ja)
 * [Experience Cloud ID サービスドキュメント](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=ja)
 * [Experience Platform Launch ドキュメント](https://experienceleague.adobe.com/docs/launch/using/home.html?lang=ja)
 
