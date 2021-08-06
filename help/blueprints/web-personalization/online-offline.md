@@ -1,13 +1,14 @@
 ---
 title: オンラインとオフラインのデータを使用した web／モバイルのパーソナライゼーション
 description: Web パーソナライズ機能を電子メールおよびその他の既知および匿名のチャネルパーソナライズ機能と同期します。
+landing-page-description: Web パーソナライズ機能を電子メールおよびその他の既知および匿名のチャネルパーソナライズ機能と同期します。
 solution: Experience Platform, Real-time Customer Data Platform, Target, Audience Manager, Analytics, Experience Cloud Services, Data Collection
 kt: 7194thumb-web-personalization-scenario2.jpg
 exl-id: 29667c0e-bb79-432e-af3a-45bd0b3b43bb
-source-git-commit: 8f1d76c317dbe4c7e916b4513960b4549a2d3424
+source-git-commit: aa0cb68acc93821b978e58f638f8ab16a33cdfe6
 workflow-type: tm+mt
-source-wordcount: '748'
-ht-degree: 91%
+source-wordcount: '760'
+ht-degree: 92%
 
 ---
 
