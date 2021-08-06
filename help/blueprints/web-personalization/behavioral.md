@@ -1,13 +1,14 @@
 ---
 title: 行動による Web パーソナライズ機能ブループリント
 description: オンライン行動およびオーディエンスデータに基づいてパーソナライズします。
+landing-page-description: オンラインの行動とオーディエンスデータに基づいてパーソナライズする方法を説明します。
 solution: Experience Platform, Target, Audience Manager, Analytics, Experience Cloud Services, Data Collection
 kt: 7085thumb-web-personalization-scenario1.jpg
 exl-id: b9882c2c-cb45-4efa-a85c-8fe48f641a12
-source-git-commit: 848f1366f3dd2d7948a31cfc606e906ec7f74fbb
-workflow-type: ht
-source-wordcount: '524'
-ht-degree: 100%
+source-git-commit: aa0cb68acc93821b978e58f638f8ab16a33cdfe6
+workflow-type: tm+mt
+source-wordcount: '534'
+ht-degree: 98%
 
 ---
 
@@ -84,7 +85,7 @@ Web／モバイルパーソナライズ機能ブループリントは、以下�
 
 * [Experience Cloud Audiences](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html?lang=ja)
 * [Audience Manager と Adobe Target の統合](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/aam-target-integration.html?lang=ja)
-* [Adobe Audience Manager を使用した Adobe Analytics セグメント共有](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-publish.html?lang=ja)
+* [Adobe Audience Manager を使用した Adobe Analytics セグメント共有](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-publish.html)
 
 
 ## 関連するブログ投稿
