@@ -1,18 +1,18 @@
 ---
-title: 行動による Web パーソナライズ機能ブループリント
+title: 行動による web パーソナライズ機能ブループリント
 description: オンライン行動およびオーディエンスデータに基づいてパーソナライズします。
-landing-page-description: オンラインの行動とオーディエンスデータに基づいてパーソナライズする方法を説明します。
+landing-page-description: オンライン行動およびオーディエンスデータに基づいてパーソナライズする方法を説明します。
 solution: Experience Platform, Target, Audience Manager, Analytics, Experience Cloud Services, Data Collection
 kt: 7085thumb-web-personalization-scenario1.jpg
 exl-id: b9882c2c-cb45-4efa-a85c-8fe48f641a12
 source-git-commit: aa0cb68acc93821b978e58f638f8ab16a33cdfe6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '534'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
-# 行動による Web／モバイルパーソナライズ機能ブループリント
+# 行動による web／モバイルパーソナライズ機能ブループリント
 
 オンライン行動およびオーディエンスデータに基づいてパーソナライズします。
 
@@ -30,7 +30,7 @@ ht-degree: 98%
 
 ## アーキテクチャ
 
-<img src="assets/behavioral_personalization.svg" alt="行動による Web パーソナライズ機能ブループリントの参照アーキテクチャ" style="border:1px solid #4a4a4a" />
+<img src="assets/behavioral_personalization.svg" alt="行動による web パーソナライズ機能ブループリントの参照アーキテクチャ" style="border:1px solid #4a4a4a" />
 
 
 ## ガードレール
@@ -85,7 +85,7 @@ Web／モバイルパーソナライズ機能ブループリントは、以下�
 
 * [Experience Cloud Audiences](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html?lang=ja)
 * [Audience Manager と Adobe Target の統合](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/aam-target-integration.html?lang=ja)
-* [Adobe Audience Manager を使用した Adobe Analytics セグメント共有](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-publish.html)
+* [Adobe Audience Manager を使用した Adobe Analytics セグメント共有](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-publish.html?lang=ja)
 
 
 ## 関連するブログ投稿
