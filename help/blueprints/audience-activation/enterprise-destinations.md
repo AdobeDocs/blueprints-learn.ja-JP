@@ -1,17 +1,17 @@
 ---
-title: ファイルおよびエンタープライズストリーミングの宛先のブループリントに対するオーディエンスとプロファイルのアクティベーション
-description: エンタープライズ宛先へのオーディエンスおよびプロファイルのアクティベーション
+title: ファイルとエンタープライズストリーミング宛先に対するオーディエンスとプロファイルのアクティベーションブループリント
+description: エンタープライズ宛先へのオーディエンスとプロファイルのアクティベーション
 solution: Experience Platform,Real-time Customer Data Platform
 kt: 7475
 exl-id: 32133174-eb28-44ce-ab2a-63fcb5b51cb5,None
 source-git-commit: 8f1d76c317dbe4c7e916b4513960b4549a2d3424
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '417'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
-# ファイルおよびエンタープライズストリーミングの宛先のブループリントに対するオーディエンスとプロファイルのアクティベーション
+# ファイルとエンタープライズストリーミング宛先に対するオーディエンスとプロファイルのアクティベーションブループリント
 
 プロファイルとオーディエンスの変更とイベントを、[!UICONTROL リアルタイム顧客データプラットフォーム]からエンタープライズデータストアやアプリケーションにストリーミングまたはバッチで共有します。これらのプロファイルおよびオーディエンスイベントは、破棄された申し込みプロセスやウェビナー登録のフォローアップ、[!UICONTROL リアルタイム顧客データプラットフォーム]の最新の顧客属性とインテリジェンスを使用したエンタープライズアプリケーションのアップデートなど、顧客に対する販売またはサポート活動を開始するために使用できます。
 
@@ -21,7 +21,7 @@ ht-degree: 94%
 
 ## アプリケーション
 
-* Adobe Experience Platformアクティベーション
+* Adobe Experience Platform Activation
 
 ## アーキテクチャ
 
@@ -56,4 +56,4 @@ ht-degree: 94%
 
 * [[!UICONTROL リアルタイム顧客データプラットフォーム]の概要](https://experienceleague.adobe.com/docs/platform-learn/tutorials/application-services/rtcdp/understanding-the-real-time-customer-data-platform.html?lang=ja)
 * [[!UICONTROL リアルタイム顧客データプラットフォーム]のデモ](https://experienceleague.adobe.com/docs/platform-learn/tutorials/application-services/rtcdp/demo.html?lang=ja)
-* [セグメントの作成](https://experienceleague.adobe.com/docs/platform-learn/tutorials/segments/create-segments.html)
+* [セグメントの作成](https://experienceleague.adobe.com/docs/platform-learn/tutorials/segments/create-segments.html?lang=ja)
