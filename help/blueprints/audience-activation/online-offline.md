@@ -1,23 +1,23 @@
 ---
-title: オンラインとオフラインのデータブループリントを使用したアクティベーション
+title: オンラインとオフラインのデータを使用したアクティベーションブループリント
 description: オンライン／オフラインオーディエンスアクティベーション。
 solution: Experience Platform, Real-time Customer Data Platform, Target, Audience Manager, Analytics, Experience Cloud Services, Data Collection
 kt: 7086
 exl-id: 011f4909-b208-46db-ac1c-55b3671ee48c
 source-git-commit: 0a1cd20e267136df305bba0b740ab57a450cb953
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '527'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
-# オンラインとオフラインのデータブループリントを使用したアクティベーション
+# オンラインとオフラインのデータを使用したアクティベーションブループリント
 
 オンライン行動と共に、オフライン属性およびイベント（オフラインの注文、トランザクション、CRM、ロイヤリティデータなど）を、オンラインターゲティングとパーソナライズ機能に使用します。
 
 既知のプロファイルベースの宛先（電子メールプロバイダー、ソーシャルネットワーク、広告など）に対して、オーディエンスをアクティブ化します。
 
-オンラインおよびオフラインのデータブループリントを使用したアクティベーションは、Experience Cloudアプリケーションのブループリント](platform-and-applications.md)を使用したオーディエンスおよびプロファイルのアクティベーションと密接に連携します。 [追加の詳細は、Experience Platform と Experience Cloud アプリケーションの間の統合に特有な、[Experience Cloud アプリケーションを使用したオーディエンスとプロファイルのアクティベーションブループリント](platform-and-applications.md)で提供されます。
+オンラインとオフラインのデータを使用したアクティベーションブループリントは、[Experience Cloud アプリケーションを使用したオーディエンスとプロファイルのアクティベーションブループリント](platform-and-applications.md)と密接に連携しています。追加の詳細は、Experience Platform と Experience Cloud アプリケーションの間の統合に特有な、[Experience Cloud アプリケーションを使用したオーディエンスとプロファイルのアクティベーションブループリント](platform-and-applications.md)で提供されます。
 
 ## ユースケース
 
@@ -32,7 +32,7 @@ ht-degree: 92%
 
 ## アーキテクチャ
 
-### 宛先を使用したオンラインおよびオフラインデータのアクティブ化
+### 宛先を使用したオンラインとオフラインのデータのアクティベーション
 
 <img src="assets/online_offline_activation.svg" alt="オンライン／オフラインオーディエンスアクティベーションブループリントの参照アーキテクチャ" style="border:1px solid #4a4a4a" />
 <br>
@@ -69,4 +69,4 @@ ht-degree: 92%
 
 * [[!UICONTROL リアルタイム顧客データプラットフォーム]の概要](https://experienceleague.adobe.com/docs/platform-learn/tutorials/application-services/rtcdp/understanding-the-real-time-customer-data-platform.html?lang=ja)
 * [[!UICONTROL リアルタイム顧客データプラットフォーム]のデモ](https://experienceleague.adobe.com/docs/platform-learn/tutorials/application-services/rtcdp/demo.html?lang=ja)
-* [セグメントの作成](https://experienceleague.adobe.com/docs/platform-learn/tutorials/segments/create-segments.html)
+* [セグメントの作成](https://experienceleague.adobe.com/docs/platform-learn/tutorials/segments/create-segments.html?lang=ja)
