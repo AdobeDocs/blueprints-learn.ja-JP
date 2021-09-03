@@ -8,7 +8,7 @@ exl-id: 3bb2dada-f4cd-43f7-a0d0-f276510ad224
 source-git-commit: 724d4c1016bbbdc7431df159af052f587288d2bf
 workflow-type: tm+mt
 source-wordcount: '255'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ Customer Journey Analytics は、ブランドが様々なインタラクショ�
 * トップ／ボトムコンバージョンパス
 * チャネルのエンゲージメントとコンバージョン
 * 閲覧数上位のコンテンツ
-* 上位のカテゴリと製品
+* 上位のカテゴリおよび製品
 * コンバージョンおよびエンゲージメント向上につながったキャンペーン
 * セルフサービスエクスペリエンスを最適化するためのツール使用状況分析
 

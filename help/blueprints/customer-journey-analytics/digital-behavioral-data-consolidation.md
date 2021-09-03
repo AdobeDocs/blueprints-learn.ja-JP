@@ -7,7 +7,7 @@ exl-id: b042909c-d323-40d5-8b35-f3e5e3e26694
 source-git-commit: 2cf3445775b2db827938d2927214a4073da20cdb
 workflow-type: tm+mt
 source-wordcount: '619'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -39,8 +39,8 @@ Web、モバイルおよびオフラインの様々なプロパティからの�
 
 1. データを取り込むために[スキーマを作成](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/create-a-schema.html?lang=ja)します。
 1. データを取り込むために[データセットを作成](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/create-datasets-and-ingest-data.html?lang=ja)します。
-1. データを Experience Platform に取り込みます。データは、Customer Journey Analytics で処理される前に、Platform に取り込まれる必要があります。データの取り込みとデータソースのタイプについて詳しくは、次のドキュメントを参照してください。 [Analyticsデ](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=ja) ータコネクタな [どのデータソース](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html?lang=ja)。[データ取得のチュートリアル](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2020.1.dataingestion&amp;lang=ja)
-1. 結合で分析されるクロスチャネルイベントデータセットを分析して、共通の名前空間 ID を持つか、Customer Journey Analytics のフィールドベースのステッチ機能でキー更新されていることを確認します。 Customer Journey AnalyticsでのIDの組み合わせについて詳しくは、クロスチャネル分析のドキュメントを参照してください。 [IDステッチ](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/cca/overview.html?lang=en)
+1. データを Experience Platform に取り込みます。データは、Customer Journey Analytics で処理される前に、Platform に取り込まれる必要があります。データの取り込みとデータソースのタイプについて詳しくは、次のドキュメントを参照してください。[Analytics データコネクタ](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html?lang=ja)などの[データソース](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=ja)。[データ取り込みのチュートリアル](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2020.1.dataingestion&amp;lang=ja)
+1. 結合で分析されるクロスチャネルイベントデータセットを分析して、共通の名前空間 ID を持つか、Customer Journey Analytics のフィールドベースのステッチ機能でキー更新されていることを確認します。Customer Journey Analytics での ID ステッチについて詳しくは、クロスチャネル分析のドキュメントを参照してください。[ID ステッチ](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/cca/overview.html?lang=ja)
 
    >[!NOTE]
    >
