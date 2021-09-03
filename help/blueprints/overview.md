@@ -1,9 +1,8 @@
 ---
 title: デジタルエクスペリエンスブループリント
 description: デジタルエクスペリエンスブループリントは、戦略に取り組み、確立されたビジネス上の問題を解決するための反復可能な実装です。価値実現までの時間を短縮し、成功への近道となります。
-solution: Experience Platform
 exl-id: 52898310-9723-4ec2-ba10-f45fefe29e93
-source-git-commit: 83cda30e0fac5c3a2c38ca4b2df2c2405736e4a0
+source-git-commit: d35b3cc34e0b3ab6fce9fc15a96e5f1183b0a0fd
 workflow-type: tm+mt
 source-wordcount: '265'
 ht-degree: 100%
