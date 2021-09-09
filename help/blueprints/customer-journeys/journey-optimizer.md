@@ -4,10 +4,10 @@ description: ストリーミングデータ、顧客プロファイル、セグ�
 solution: Experience Platform, Campaign, Journey Orchestration
 kt: 7197
 exl-id: 97831309-f235-4418-bd52-28af815e1878
-source-git-commit: 3c950cebaa25901ae50433775c510ed834d8bcd5
+source-git-commit: 93561231286b5bfd9bf3660399b542d27aedb52c
 workflow-type: tm+mt
-source-wordcount: '699'
-ht-degree: 98%
+source-wordcount: '712'
+ht-degree: 95%
 
 ---
 
@@ -53,7 +53,7 @@ Adobe Journey Optimizer は、マーケティングチームが顧客行動に�
 
 ## ガードレール
 
-* 制限について詳しくは、リンクを参照してください
+* Journey Optimizer [LINK](https://experienceleague.adobe.com/docs/journeys/using/starting-with-journeys/limitations.html?lang=en)のガードレールの詳細については、リンクを参照してください。
 * バッチセグメント - 認定ユーザーの毎日のボリュームを確実に把握し、宛先システムがジャーニーごと、およびすべてのジャーニーのバーストスループットを処理するために必要です
 * ストリーミングセグメント - ジャーニーごと、およびすべてのジャーニーの毎日のストリーミング認定ボリュームと共に、プロファイル認定の最初のバーストを処理するために必要です
 * プロファイル更新アクティビティ - リアルタイム顧客プロファイルは、ジャーニー内からネイティブに更新できます。プロファイル格納への更新処理には、最大 1 分の遅延があります
