@@ -4,16 +4,16 @@ description: Experience Platform SDK で収集したデータを宛先にスト�
 solution: Experience Platform,Data Collection
 kt: 7202
 exl-id: 8d6f0705-628b-44e4-a3fc-da6c5e308a5b
-source-git-commit: 3bcb5d798986e563fda6f40fc730ff62b74b3187
+source-git-commit: 3c950cebaa25901ae50433775c510ed834d8bcd5
 workflow-type: tm+mt
-source-wordcount: '228'
-ht-degree: 100%
+source-wordcount: '220'
+ht-degree: 82%
 
 ---
 
 # サーバーサイドエンタープライズデータ収集ブループリント
 
-サーバーサイドエンタープライズデータ収集ブループリントは、Adobe Experience Platform Web SDK および Mobile SDK を使用して収集されたデータを Experience Platform Edge Network から目的の宛先に転送する方法を示します。SDK から収集された生のデータをすべて転送することも、Experience Platform Launch で設定されたイベントおよびルールに基づいて特定のデータを転送することもできます。
+サーバーサイドエンタープライズデータ収集ブループリントは、Adobe Experience Platform Web SDK および Mobile SDK を使用して収集されたデータを Experience Platform Edge Network から目的の宛先に転送する方法を示します。SDKから収集したすべての生データや、タグプロパティ（旧称Launch）で設定したイベントやルールに基づいて、特定のデータを転送できます。
 
 ## ユースケース
 
@@ -30,8 +30,8 @@ ht-degree: 100%
 
 ## 関連ドキュメント
 
-[Experience Platform Launch サーバーサイドドキュメント](https://experienceleague.adobe.com/docs/launch/using/server-side-info/server-side-overview.html?lang=ja#server-side-info)
-[Experience Platform Launch サーバーサイドビデオ](https://experienceleague.adobe.com/docs/launch-learn/tutorials/server-side/overview.html?lang=ja)
+* [イベント転送のドキュメント](https://experienceleague.adobe.com/docs/experience-platform/tags/event-forwarding/overview.html)
+* [イベント転送ビデオ](https://experienceleague.adobe.com/docs/launch-learn/tutorials/server-side/overview.html?lang=ja)
 
 ## 関連するブログ投稿
 

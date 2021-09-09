@@ -4,10 +4,10 @@ description: このブループリントは、Adobe Experience Platform の Data
 solution: Experience Platform,Data Collection
 kt: 7203
 exl-id: e5ec6886-4fa4-4c9b-a2d8-e843d7758669,f0efaf3c-6c4f-47c3-ab8a-e8e146dd071c
-source-git-commit: 9fe9d67c5f97b633e45155bd54e2006f1b797332
+source-git-commit: c26bf7523dc9b3310678a4129ea10ad06ef5e7cb
 workflow-type: tm+mt
-source-wordcount: '399'
-ht-degree: 100%
+source-wordcount: '442'
+ht-degree: 83%
 
 ---
 
@@ -27,15 +27,15 @@ ht-degree: 100%
 
 ## 実装手順
 
-1. データを取り込むために[スキーマを作成](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/create-a-schema.html?lang=ja)します。
+1. データを取り込むために[スキーマを作成](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2021.1.xdm)します。
 1. データを取り込むために[データセットを作成](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/create-datasets-and-ingest-data.html?lang=ja)します。
 1. Experience Platform に[データを取り込みます](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2020.1.dataingestion&amp;lang=ja)。
-1. DSW ノートブックを作成します。
+1. [DSWノートブックの作成](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-science-workspace/load-data-in-jupyterlab-notebooks.html?lang=en)を参照してください。
 1. 言語を選択します。Python と PySpark をサポートしています。
-1. ノートブックでモデルを作成します。
-1. モデルをトレーニングします。
-1. モデルをスコアリングして、ターゲットデータを使用した予測を生成します。
-1. モデル結果を[!UICONTROL リアルタイム顧客プロファイル]にプッシュする場合は、プロファイル用のモデル結果データセットを有効にします。
+1. [ノートブックでモデルを作成します。](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-science-workspace/recipe-builder-template.html?lang=en)
+1. [モデルのトレーニング](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-science-workspace/schedule-training-scoring.html?lang=en)。
+1. [モデルをスコアリングして、ターゲットデータを使用した予測を生成します。](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-science-workspace/schedule-training-scoring.html?lang=en)
+1. [モデルの結果をリアルタイム顧客プロファイルにプッシュする場合は、プロファイルのモデル結果デ [!UICONTROL ータセットを有効にします]](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-science-workspace/dsw-profile-segmentation.html?lang=en)。
 
 ## 関連ドキュメント
 
