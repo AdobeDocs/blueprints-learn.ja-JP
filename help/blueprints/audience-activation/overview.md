@@ -6,9 +6,9 @@ kt: null
 thumbnail: null
 exl-id: eeeb4325-d0e8-4fd8-86ab-0b8afdd0b69f
 source-git-commit: cbeb90f9ed89e91bab45dcb1dbb30f59c5910bbd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '951'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -23,8 +23,8 @@ ht-degree: 92%
 |---|---|---|
 | **[匿名オーディエンスアクティベーション](anonymous.md)** | <ul><li>匿名および行動顧客データについて、web および広告チャネルをまたいでオーディエンスをターゲットします。</li><li>サードパーティオーディエンスデータと統合して、パーソナライズ機能を強化します。</li></ul> | <ul><li>Adobe Audience Manager</li></ul> |
 | **[オンラインとオフラインのデータを使用したアクティベーション](online-offline.md)** | <ul><li>既知のプロファイルベースの宛先（電子メールプロバイダー、ソーシャルネットワーク、広告など）に対してアクティブ化します。 </li><li>オンライン行動と共に、オフライン属性およびイベント（オフラインの注文、トランザクション、CRM、ロイヤリティデータなど）を、オンラインターゲティングとパーソナライズ機能に使用します。</li></ul> | <ul><li>Adobe Experience Platform</li><li> [!UICONTROL リアルタイム顧客データプラットフォーム]</li><li>Adobe Audience Manager（オプション）</li></ul> |
-| **[ファイルとエンタープライズストリーミング宛先に対するアクティベーション](enterprise-destinations.md)** | <ul><li>エンタープライズシステムやアプリケーションをまたいだリアルタイム顧客プロファイルのアクティブ化とアクセスにより、豊富なコンテキストに沿った顧客体験を実現します。 </li></ul><ul><li>リアルタイム顧客プロファイルからインサイトとイベントを利用して、販売またはサポートエクスペリエンスを開始します。</li></ul> | <ul><li>Adobe Experience Platform</li><li>[!UICONTROL リアルタイム顧客データプラットフォーム]</li><li>Experience Platform Activation</li><li>Adobe Audience Manager（オプション）</li></ul> |
-| **[Experience Cloud アプリケーションを使用したオーディエンスとプロファイルのアクティベーション](platform-and-applications.md)** | <ul><li>Experience Platform でプロファイルおよびオーディエンスを管理し、Experience Cloud アプリケーションを使用して共有します</li><li>Experience Platform でリッチな顧客セグメントおよびインサイトを構築および共有し、Experience Cloud アプリケーションを使用して共有します</li></ul> | <ul><li>Adobe Experience Platform</li><li>[!UICONTROL リアルタイム顧客データプラットフォーム]</li><li>Experience Platformの有効化</li><li>Experience Cloud アプリケーション</li></ul> |
+| **[ファイルとエンタープライズストリーミング宛先に対するアクティベーション](enterprise-destinations.md)** | <ul><li>エンタープライズシステムやアプリケーションをまたいだリアルタイム顧客プロファイルのアクティベーションとアクセスにより、豊富なコンテキストに沿った顧客体験を実現します。 </li></ul><ul><li>リアルタイム顧客プロファイルからインサイトとイベントを利用して、セールスやサポートエクスペリエンスを開始します。</li></ul> | <ul><li>Adobe Experience Platform</li><li>[!UICONTROL リアルタイム顧客データプラットフォーム]</li><li>Experience Platform Activation</li><li>Adobe Audience Manager（オプション）</li></ul> |
+| **[Experience Cloud アプリケーションを使用したオーディエンスとプロファイルのアクティベーション](platform-and-applications.md)** | <ul><li>Experience Platform でプロファイルおよびオーディエンスを管理し、Experience Cloud アプリケーションを使用して共有します</li><li>Experience Platform でリッチな顧客セグメントおよびインサイトを構築および共有し、Experience Cloud アプリケーションを使用して共有します</li></ul> | <ul><li>Adobe Experience Platform</li><li>[!UICONTROL リアルタイム顧客データプラットフォーム]</li><li>Experience Platform Activation</li><li>Experience Cloud アプリケーション</li></ul> |
 | **[顧客アクティビティハブ](customer-activity.md)** | <ul><li>担当者がサポートするインタラクションに、詳細な消費者コンテキスト（サポートおよび販売エクスペリエンスなど）を提供します。Experience Platform のプロファイルルックアップを使用して、担当者は、最近の購入、キャンペーンインタラクション、傾向、オーディエンスメンバーシップ、リアルタイム顧客プロファイルに格納されたその他の属性およびインサイトなど、消費者に関するより詳細なコンテキストを受け取ることができます。</li></ul> | <ul><li>Adobe Experience Platform</li></ul> |
 
 ## リアルタイム顧客プロファイルアーキテクチャ
@@ -53,7 +53,7 @@ ID グラフは、関連付けられた様々なソースプロファイルフ�
 ### 属性と ID のアクティブ化
 
 * [!UICONTROL リアルタイム顧客データプラットフォーム]は、オーディエンスのメンバーシップをアクティブにするほか、アクティベーション対象として選択したセグメントのメンバーであるプロファイルに対して発生する、属性および ID の変更をアクティブにできます。属性やアイデンティティをアクティブ化することが目的の場合は、属性やアイデンティティのアップデートが送信されるすべてのプロファイルを含むグローバルセグメントを定義する必要があります。この時点で、セグメントと目的の属性を選択し、宛先設定の一部としてアクティブ化できます。
-* バッチ宛先は、属性のみを変更するイベントのアクティベーションをサポートしていません。完全または増分的なオーディエンスメンバーシップは、アクティブ化のために選択した属性と共に送信できます。
+* バッチ宛先は、属性のみを変更するイベントのアクティベーションをサポートしていません。完全または増分的なオーディエンスメンバーシップは、アクティベーションのために選択した属性と共に送信できます。
 
 ### ストリーミング宛先へのバッチセグメントのアクティブ化
 
