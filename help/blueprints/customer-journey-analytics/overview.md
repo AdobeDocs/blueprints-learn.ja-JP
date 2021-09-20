@@ -5,10 +5,10 @@ solution: Experience Platform, Customer Journey Analytics
 kt: null
 thumbnail: null
 exl-id: 3bb2dada-f4cd-43f7-a0d0-f276510ad224
-source-git-commit: 724d4c1016bbbdc7431df159af052f587288d2bf
+source-git-commit: ec32344078e8bad9639d8d11ce93ed68fda186f3
 workflow-type: tm+mt
-source-wordcount: '255'
-ht-degree: 100%
+source-wordcount: '262'
+ht-degree: 91%
 
 ---
 
@@ -27,15 +27,12 @@ Customer Journey Analytics は、ブランドが様々なインタラクショ�
 
 | ブループリント | 説明 | Experience Cloud アプリケーション |
 |---|---|---|
-| **[クロスチャネルジャーニー分析](digital-behavioral-data-consolidation.md)** | <ul><li>Web、モバイルおよびオフラインの様々なプロパティからのデータを統合することで、複数のチャネルをまたいだ顧客行動を単一の統合されたビューに表示します。</li></ul> | <ul><li>Adobe Experience Platform</li><li>Customer Journey Analytics</li><li>Adobe Analytics（オプション）</li></ul> |
-| **[コールディフレクションジャーニー分析](call-deflect.md)** | <ul><li>コールセンターデータを Web、モバイルおよびその他のインタラクションデータと組み合わせることで、どのような行動が担当者による通話に最も影響を与えるかを判別する。</li><li>最適化されたセルフサービスコンテンツおよびツールを使用することで、これらのインサイトは、カスタマーエクスペリエンスの最適化や、担当者のサポートを受けるまでの道のりを短縮するために使用できます。  </li></ul> | <ul><li>Adobe Experience Platform</li><li>Customer Journey Analytics</li> |
+| **[クロスチャネルジャーニー分析](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/cross-channel.html)** | <ul><li>Web、モバイルおよびオフラインの様々なプロパティからのデータを統合することで、複数のチャネルをまたいだ顧客行動を単一の統合されたビューに表示します。</li></ul> | <ul><li>Adobe Experience Platform</li><li>Customer Journey Analytics</li><li>Adobe Analytics（オプション）</li></ul> |
+| **[コールディフレクションジャーニー分析](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/call-center.html)** | <ul><li>コールセンターデータを Web、モバイルおよびその他のインタラクションデータと組み合わせることで、どのような行動が担当者による通話に最も影響を与えるかを判別する。</li><li>最適化されたセルフサービスコンテンツおよびツールを使用することで、これらのインサイトは、カスタマーエクスペリエンスの最適化や、担当者のサポートを受けるまでの道のりを短縮するために使用できます。  </li></ul> | <ul><li>Adobe Experience Platform</li><li>Customer Journey Analytics</li> |
 
-## Customer Journey Analytics ブループリントのガードレール
+## Customer Journey Analyticsブループリントのガードレール図
 
-### ガードレール図
-
-<img src="assets/cja_guardrails.png" alt="Customer Journey Analytics ブループリントのガードレール図" style="border:1px solid #4a4a4a" />
-
+![ガードレール図](assets/cja_guardrails.png)
 
 ## 関連するブログ投稿
 
