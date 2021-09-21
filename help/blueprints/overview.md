@@ -2,10 +2,10 @@
 title: デジタルエクスペリエンスブループリント
 description: デジタルエクスペリエンスブループリントは、戦略に取り組み、確立されたビジネス上の問題を解決するための反復可能な実装です。価値実現までの時間を短縮し、成功への近道となります。
 exl-id: 52898310-9723-4ec2-ba10-f45fefe29e93
-source-git-commit: d35b3cc34e0b3ab6fce9fc15a96e5f1183b0a0fd
+source-git-commit: d2b0643bd567a10b27591d22480db1bde2a0a36a
 workflow-type: tm+mt
-source-wordcount: '265'
-ht-degree: 100%
+source-wordcount: '269'
+ht-degree: 93%
 
 ---
 
@@ -40,8 +40,8 @@ ht-degree: 100%
     <p><em>オーディエンスアクティベーションのクロスチャネル広告を配信します。</em></p>
   </td>
   <td>
-    <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journey-analytics/digital-behavioral-data-consolidation.html?lang=ja"><img alt="デジタル行動データ統合ブループリントのサムネイル画像" src="customer-journey-analytics/assets/CJA.svg" /></a>
-    <div><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journey-analytics/digital-behavioral-data-consolidation.html"><strong>デジタル行動データ統合</strong></a></div>
+    <a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/cross-channel.html?lang=en"><img alt="デジタル行動データ統合ブループリントのサムネイル画像" src="customer-journey-analytics/assets/CJA.svg" /></a>
+    <div><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/cross-channel.html?lang=en"><strong>クロスチャネルジャーニー分析</strong></a></div>
     <p><em>様々なチャネルにわたる顧客行動を 1 つの統合表示で把握。</em></p>
   </td>
 </tr>
