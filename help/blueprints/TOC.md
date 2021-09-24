@@ -7,14 +7,14 @@ role: Architect, Developer, User
 source-git-commit: ec32344078e8bad9639d8d11ce93ed68fda186f3
 workflow-type: tm+mt
 source-wordcount: '123'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
 # デジタルエクスペリエンスブループリント {#architecture}
 
 + [概要](/help/blueprints/overview.md)
-+ [すべての使用例を見る](/help/blueprints/use-cases.md)
++ [すべてのユースケースを見る](/help/blueprints/use-cases.md)
 + アーキテクチャの概要 {#architecture-overview}
    + [Experience Cloud](/help/blueprints/experience-platform/experience-cloud.md)
    + [Experience Platform およびアプリケーション](/help/blueprints/experience-platform/platform-applications.md)
@@ -26,7 +26,7 @@ ht-degree: 92%
    + [ファイルとエンタープライズストリーミング宛先に対するアクティベーション](/help/blueprints/audience-activation/enterprise-destinations.md)
    + [Experience Cloud アプリケーションを使用したアクティベーション](/help/blueprints/audience-activation/platform-and-applications.md)
    + [顧客アクティビティハブ](/help/blueprints/audience-activation/customer-activity.md)
-+ Customer Journey Analytics {#customer-journey-analytics}
++ Customer Journey Analytics{#customer-journey-analytics}
    + [概要](/help/blueprints/customer-journey-analytics/overview.md)
 + カスタマージャーニー {#customer-journeys}
    + [概要](/help/blueprints/customer-journeys/overview.md)
