@@ -5,7 +5,7 @@ user-guide-description: ブループリントは、既存のビジネス上の�
 product: adobe experience platform
 role: Architect, Developer, User
 source-git-commit: ec32344078e8bad9639d8d11ce93ed68fda186f3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '123'
 ht-degree: 100%
 
@@ -19,14 +19,14 @@ ht-degree: 100%
    + [Experience Cloud](/help/blueprints/experience-platform/experience-cloud.md)
    + [Experience Platform およびアプリケーション](/help/blueprints/experience-platform/platform-applications.md)
    + [Experience Platform データフロー](/help/blueprints/experience-platform/platform-data-flow.md)
-+ オーディエンスとプロファイルのアクティベーション{#audience-activation}
++ オーディエンスとプロファイルのアクティベーション {#audience-activation}
    + [概要](/help/blueprints/audience-activation/overview.md)
    + [匿名オーディエンスアクティベーション](/help/blueprints/audience-activation/anonymous.md)
    + [オンラインとオフラインのデータを使用したアクティベーション](/help/blueprints/audience-activation/online-offline.md)
    + [ファイルとエンタープライズストリーミング宛先に対するアクティベーション](/help/blueprints/audience-activation/enterprise-destinations.md)
    + [Experience Cloud アプリケーションを使用したアクティベーション](/help/blueprints/audience-activation/platform-and-applications.md)
    + [顧客アクティビティハブ](/help/blueprints/audience-activation/customer-activity.md)
-+ Customer Journey Analytics{#customer-journey-analytics}
++ Customer Journey Analytics {#customer-journey-analytics}
    + [概要](/help/blueprints/customer-journey-analytics/overview.md)
 + カスタマージャーニー {#customer-journeys}
    + [概要](/help/blueprints/customer-journeys/overview.md)
