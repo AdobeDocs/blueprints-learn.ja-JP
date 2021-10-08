@@ -5,10 +5,10 @@ landing-page-description: Web パーソナライズ機能を電子メールお�
 solution: Experience Platform, Real-time Customer Data Platform, Target, Audience Manager, Analytics, Experience Cloud Services, Data Collection
 kt: 7194thumb-web-personalization-scenario2.jpg
 exl-id: 29667c0e-bb79-432e-af3a-45bd0b3b43bb
-source-git-commit: 5e93d3a5a09a3a20418ec7e563b93d22aef3ddc7
-workflow-type: ht
-source-wordcount: '760'
-ht-degree: 100%
+source-git-commit: fd4ca13589f988605bfd7a3bdf64c43cd9acad68
+workflow-type: tm+mt
+source-wordcount: '738'
+ht-degree: 94%
 
 ---
 
@@ -57,7 +57,7 @@ Web／モバイルパーソナライズ機能ブループリントは、以下�
 ID の前提条件
 
 * Adobe Experience Platform から Adobe Target にオーディエンスを共有するには、ECID を ID として使用する必要があります。
-* 代替 ID を使用して、Audience Manager 経由で Experience Platform のオーディエンスを Adobe Target に共有できます。これは、ECID と代替 ID の両方が Audience Manager に収集され、Audience Manager と Experience Platform の両方で同じ ID 名前空間を使用している場合、Audience Manager は代替 ID を ECID に解決できるからです。Audience Manager と Target は、ECID ID を介してオーディエンスメンバーシップを解決するので、Adobe Target に対する最終的なオーディエンス共有を行うには、ECID が引き続き必要です。
+* 代替 ID を使用して、Audience Managerを介してExperience PlatformオーディエンスをAdobe Targetと共有することもできます。 Experience Platformは、次のサポートされている名前空間を使用して、Audience Managerに対するオーディエンスをアクティブ化します。IDFA、GAID、AdCloud、Google、ECID、EMAIL_LC_SHA256。 Audience Manager と Target は、ECID ID を介してオーディエンスメンバーシップを解決するので、Adobe Target に対する最終的なオーディエンス共有を行うには、ECID が引き続き必要です。
 
 | アプリケーション／サービス | 必須ライブラリ | メモ |
 |---|---|---|
@@ -91,7 +91,7 @@ ID の前提条件
 * [Experience Platform セグメントビルダーの概要](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=ja)
 * [Audience Manager ソースコネクタ](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/audience-manager.html?lang=ja)
 * [Adobe Audience Manager を使用した Adobe Analytics セグメント共有](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-publish.html?lang=ja)
-* [Experience Platform Web SDK ドキュメント](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=ja)
+* [Experience Platform Web SDK ドキュメント](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html)
 * [Experience Cloud ID サービスドキュメント](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=ja)
 * [Experience Platform タグドキュメント](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=ja)
 
