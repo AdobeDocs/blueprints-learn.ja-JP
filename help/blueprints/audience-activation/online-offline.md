@@ -4,10 +4,10 @@ description: オンライン／オフラインオーディエンスアクティ�
 solution: Experience Platform, Real-time Customer Data Platform, Target, Audience Manager, Analytics, Experience Cloud Services, Data Collection
 kt: 7086
 exl-id: 011f4909-b208-46db-ac1c-55b3671ee48c
-source-git-commit: 3c950cebaa25901ae50433775c510ed834d8bcd5
-workflow-type: ht
-source-wordcount: '525'
-ht-degree: 100%
+source-git-commit: e4e4838813d68ed3dc209c71354a86c1af264f1a
+workflow-type: tm+mt
+source-wordcount: '532'
+ht-degree: 93%
 
 ---
 
@@ -56,7 +56,7 @@ ht-degree: 100%
 
 * プロファイルデータを宛先に共有するには、宛先ペイロードの宛先で使用される特定の ID 値を含める必要があります。ターゲットの宛先に必要な ID は、Platform に取り込まれ、[!UICONTROL リアルタイム顧客プロファイル]の ID として設定される必要があります。
 
-* オーディエンスが Experience Platform から Audience Manager に共有されるアクティベーションシナリオでは、[!UICONTROL リアルタイム顧客プロファイル]に含まれるすべての ID が、Audience Manager に共有されます。必須の宛先 ID が[!UICONTROL リアルタイム顧客プロファイル]に含まれている場合、または[!UICONTROL リアルタイム顧客プロファイル]内の ID が Audience Manager でリンクされる必須の宛先 ID と関連付けられる場合、Experience Platform からのオーディエンスは、Audience Manager 宛先を使用して共有できます。
+* オーディエンスがExperience PlatformからAudience Managerに共有されるアクティベーションシナリオでは、次の ID が自動的に共有されます。IDFA、GAID、AdCloud、Google、ECID、EMAIL_LC_SHA256。 現在、顧客の名前空間は共有されていません。 必須の宛先 ID が[!UICONTROL リアルタイム顧客プロファイル]に含まれている場合、または[!UICONTROL リアルタイム顧客プロファイル]内の ID が Audience Manager でリンクされる必須の宛先 ID と関連付けられる場合、Experience Platform からのオーディエンスは、Audience Manager 宛先を使用して共有できます。
 
 ## 関連ドキュメント
 
@@ -69,4 +69,4 @@ ht-degree: 100%
 
 * [[!UICONTROL リアルタイム顧客データプラットフォーム]の概要](https://experienceleague.adobe.com/docs/platform-learn/tutorials/application-services/rtcdp/understanding-the-real-time-customer-data-platform.html?lang=ja)
 * [[!UICONTROL リアルタイム顧客データプラットフォーム]のデモ](https://experienceleague.adobe.com/docs/platform-learn/tutorials/application-services/rtcdp/demo.html?lang=ja)
-* [セグメントの作成](https://experienceleague.adobe.com/docs/platform-learn/tutorials/segments/create-segments.html?lang=ja)
+* [セグメントの作成](https://experienceleague.adobe.com/docs/platform-learn/tutorials/segments/create-segments.html)
