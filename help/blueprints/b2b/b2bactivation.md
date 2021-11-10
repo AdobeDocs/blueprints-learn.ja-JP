@@ -1,32 +1,33 @@
 ---
 title: B2B アクティベーション
-description: Real-time Customer Data Platformを使用して、アカウントベースのオーディエンスとプロファイル中心の顧客エクスペリエンスを提供し​ます。
+description: リアルタイム顧客データプラットフォームを使用して、アカウントベースのオーディエンスと、プロファイル中心の顧客エクスペリエンスを提供します。
 solution: Experience Platform, Real-time Customer Data Platform
 kt: 9311
 exl-id: null
 source-git-commit: d811d82418d477372caa9e5b0b67af197275d459
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '821'
-ht-degree: 4%
+ht-degree: 100%
 
 ---
 
 # B2B オーディエンスとプロファイルのアクティベーション
 
-個々の顧客に関連付けられたアカウント、オポチュニティおよびリード情報を使用して、アクションにつながる b2b プロファイルを作成し、チャネルをまたいだパーソナライゼーションとターゲティングを改善します。
+個々の顧客に関連付けられたアカウント、オポチュニティおよびリード情報を使用して、アクションにつながる B2B プロファイルを作成し、チャネルをまたいだパーソナライゼーションとターゲティングを改善します。
 
 ## ユースケース
 
 * アカウント、商談、リードを含む B2B データに対して、複数のチャネルをまたいでターゲティングとパーソナライゼーションをおこなうための顧客のオーディエンスを作成します。
-* ターゲティングとパーソナライゼーションのために、Experience Platformの宛先に対するオーディエンスをアクティブ化します。
+* ターゲティングとパーソナライゼーションのために、Experience Platform の宛先に対してオーディエンスをアクティブ化します。
 
 ## アプリケーション
 
-* Real-time Customer Data Platform B2B エディション
+* リアルタイム顧客データプラットフォーム B2B エディション
 
 ## 統合パターン
 
-* B2B データソース (Marketo、Salesforce など ) -> Real-time Customer Data Platform B2B Edition -> Destinations 様々な B2B データソースを使用して、アカウント、リード、オポチュニティおよび人のデータをReal-time Customer Data Platformの B2B Edition にマッピングできます。
+* B2B データソース (Marketo、Salesforce など )-> リアルタイム顧客データプラットフォーム -> 宛先
+様々な B2B データソースを使用して、アカウント、リード、オポチュニティおよび人のデータをリアルタイム顧客データプラットフォーム B2B エディションにマッピングできます。
 
 ## アーキテクチャ
 
@@ -35,66 +36,67 @@ ht-degree: 4%
 
 ## ガードレール
 
-Marketo Engage関連のガードレールおよび実装手順は、Marketo Engageがソースまたは宛先として使用されている場合にのみ関連します。
+Marketo Engage 関連のガードレールおよび実装手順は、Marketo Engage がソースまたは宛先として使用されている場合にのみ該当します。
 
 ### 複数のインスタンスと IMS 組織のサポート：
 
-次に、マッピングインスタンスとMarketo EngageインスタンスでサポートされるExperience Platformの概要を示します。
+以下に、Experience Platform および Marketo Engage のインスタンスのマッピングにおいてサポートされるパターンの概要を示します。
 
-#### Marketo as a data source toExperience Platform:
+#### Experience Platform に対するデータソースとしての Marketo：
 
-* 1 つのMarketo Engageインスタンスに対する複数のExperience Platformインスタンスがサポートされます。
-* 多数のMarketo Engageインスタンスに対する複数のExperience Platformインスタンスは、をサポートしていません。
-* 1 つのMarketo Engageインスタンスから多くのExperience Platformインスタンスへの変換はサポートされていません。
-* 1 つのMarketo Engageインスタンスから 1 つのExperience Platformインスタンスへ、複数のサンドボックスへとがサポートされます。
+* 1 つの Marketo Engage インスタンスに対する複数の Experience Platform インスタンスがサポートされます。
+* 多数の Marketo Engage インスタンスに対する複数の Experience Platform インスタンスは、サポートされていません。
+* 多数の Marketo Engage インスタンスに対する 1 つの Experience Platform インスタンスは、サポートされていません。
+* 1 つの Experience Platform インスタンスに対する 1 つの Marketo Engage インスタンスおよび複数のサンドボックスがサポートされます。
 
-#### MarketoをExperience Platformの宛先にする：
+#### Experience Platform の宛先としての Marketo：
 
-* 多数のMarketo EngageインスタンスへのExperience Platformがサポートされます
-* 1 つのExperience Platformインスタンスに対する多数のMarketo Engageインスタンスがサポートされます
+* 多数の Marketo Engage インスタンスに対する Experience Platform がサポートされます
+* 1 つの Marketo Engage インスタンスに対する多数の Experience Platform インスタンスがサポートされます
 
-#### Experience Platformプロファイルとセグメント化ガードレール：
+#### Experience Platform のプロファイルとセグメント化のガードレール：
 
-* Experience Platformのプロファイルとセグメント化のガードレールを参照してください — [プロファイルとセグメント化のガイドライン](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=ja)
-* アカウント、リード、商談を含む B2B セグメントでは、複数エンティティの関係を使用するので、セグメント評価がバッチになります。 ストリーミングセグメント化は、ユーザーとイベントに限定されたセグメントでサポートされます。
+* Experience Platform のプロファイルとセグメント化のガードレールを参照してください — [プロファイルとセグメント化のガイドライン](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=ja)
+* アカウント、リード、商談を含む B2B セグメントでは、複数エンティティの関係を使用するので、セグメント評価がバッチになります。ストリーミングのセグメント化は、ユーザーとイベントに限定されたセグメントに対してサポートされます。
 
-#### Experience Platform-Marketo Engageソースコネクタ：
+#### Experience Platform - Marketo Engage ソースコネクタ：
 
 * 履歴バックフィルの完了には、データの量に応じて、最大 7 日かかる場合があります。
-* Marketoからの継続的なデータ更新や変更は、ストリーミング API を介してExperience Platformに送信されます。ストリーミング API は、プロファイルに対して最大 5 分、ボリュームに応じてデータレイクに対して約 15 分待ちます。
+* Marketo からの継続的なデータ更新や変更は、ストリーミング API を介して Experience Platform に送信されます。ストリーミング API は量に応じて、プロファイルに対して最大 5 分、データレイクに対して約 15 分の遅延が生じることがあります。
 
-#### Experience Platform- Marketo宛先コネクタ：
+#### Experience Platform - Marketo 宛先コネクタ：
 
-* Real-time Customer Data PlatformからMarketo Engageへのストリーミングセグメントの共有には、最大 5 分かかる場合があります。
-* バッチセグメント化は、Experience Platformセグメント化スケジュールに基づいて、1 日に 1 回共有されます。 アカウント、リード、商談を含む B2B セグメントでは、複数エンティティの関係を使用するので、セグメントがバッチになります。
+* リアルタイム顧客データプラットフォームから Marketo Engage へのストリーミングセグメントの共有には、最大 5 分かかる場合があります。
+* バッチのセグメント化は、Experience Platform のセグメント化スケジュールに基づいて、1 日に 1 回共有されます。アカウント、リード、商談を含む B2B セグメントでは、複数エンティティの関係を使用するので、セグメントがバッチになります。
 
-#### Marketo Engageガードレール：
+#### Marketo Engage ガードレール：
 
-* Real-time Customer Data PlatformオーディエンスがMarketo Engageの連絡先およびリードと一致するには、連絡先とリードがMarketo Engageで直接取り込まれ、定義されている必要があります。
+* リアルタイム顧客データプラットフォームオーディエンスが Marketo Engage の連絡先およびリードと一致するには、連絡先とリードが Marketo Engage に直接取り込まれ、定義されている必要があります。
 
 #### 宛先ガードレール
 
-* 宛先に関する具体的なガイダンスについては、宛先のドキュメントを参照してください。 [宛先のガイドライン](https://experienceleague.adobe.com/docs/experience-platform/destinations/home.html?lang=en)
+* 宛先に関する具体的なガイダンスについては、宛先のドキュメントを参照してください。[宛先のガイドライン](https://experienceleague.adobe.com/docs/experience-platform/destinations/home.html?lang=ja)
 
 
 ## 実装手順
 
-Real-time Customer Data Platformの B2B エディションの実装と設定の方法に関するガイダンスについては、Real-time Customer Data Platformドキュメントの B2B エディションを参照してください。 [B2B エディションオブReal-time Customer Data Platform](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/b2b-overview.html?lang=en)
+リアルタイム顧客データプラットフォーム B2B エディションの実装と設定の方法に関するガイダンスについては、リアルタイム顧客データプラットフォームドキュメントの B2B エディションを参照してください。[リアルタイム顧客データプラットフォーム B2B エディション](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/b2b-overview.html?lang=ja)
 
-実装には、2 つのパターンが存在する可能性があります。 Marketo Engageから B2B データとプロファイルを取り込む機能と、他の CRM データソースから B2B データを取り込む機能の両方です。
+実装には、2 つのパターンが存在する可能性があります。Marketo Engage から B2B データとプロファイルを取り込む機能と、他の CRM データソースから B2B データを取り込む機能の両方です。
 
 ## 実装に関する考慮事項
 
 ブループリントの主要な考慮事項と設定に関するガイダンス
 
-* Marketoとの CRM 統合となし：実装でMarketo Engageをソースとして使用し、Marketo Engageが CRM に接続される場合は、Experience PlatformでMarketoソースコネクタを使用して CRM データをExperience Platformに取り込みます。 追加のテーブルを取り込む必要がある場合は、Experience Platformソースコネクタを使用します。 実装でMarketo Engageをソースとして使用しない場合は、CRM ソースExperience Platformコネクタを使用して CRM ソースを AEP に直接接続します。
-* Real-time Customer Data Platformの B2B エディションのみからのリードの開始と育成は、お勧めしません。 この使用例では、リード育成ツール (Marketo Engageなど ) の使用をお勧めします。
-* AEP 用のMarketo Engage宛先コネクタは、アクティブ化のためにオーディエンスをMarketo Engageにプッシュし、電子メールアドレスと ECID のみをプッシュします。 連絡先が存在しない場合、新規リードは作成されません。そのため、プロファイルとリードのデータをMarketo Engageに取り込む必要があります。
+* CRM 統合（Marketo 有/無）：
+実装で Marketo Engage をソースとして使用し、Marketo Engage が CRM に接続される場合は、Experience Platform で Marketoソースコネクタを使用して CRM データを Experience Platform に取り込みます。追加のテーブルを取り込む必要がある場合は、Experience Platform ソースコネクタを使用します。実装で Marketo Engage をソースとして使用しない場合は、CRM ソース Experience Platform コネクタを使用して CRM ソースを AEP に直接接続します。
+* リアルタイム顧客データプラットフォーム B2B エディションのみからのリードの開始と育成は、お勧めしません。このユースケースでは、リード育成ツール (Marketo Engage など ) の使用をお勧めします。
+* アクティブ化のためにオーディエンスを Marketo Engage にプッシュする AEP 用の Marketo Engage 宛先コネクタは、電子メールアドレスと ECID のみをプッシュします。連絡先がまだ存在しない場合、新規リードは作成されません。そのため、プロファイルとリードのデータを Marketo Engage に取り込む必要があります。
 
 ## 関連ドキュメント
 
-* [B2B エディションオブReal-time Customer Data Platform](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/b2b-overview.html?lang=en)
+* [リアルタイム顧客データプラットフォーム B2B エディション](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/b2b-overview.html?lang=ja)
 * [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform.html?lang=ja)
-* [Marketo Engage](https://experienceleague.adobe.com/docs/marketo/using/home.html?lang=en)
-* [Adobe Experience Platform - Marketo Source Connector](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/marketo/marketo.html?lang=ja)
-* [Adobe Experience Platform - Marketo Destination Connector](https://experienceleague.adobe.com/docs/marketo/using/product-docs/core-marketo-concepts/smart-lists-and-static-lists/static-lists/push-an-adobe-experience-cloud-segment-to-a-marketo-static-list.html?lang=en)
+* [Marketo Engage](https://experienceleague.adobe.com/docs/marketo/using/home.html?lang=ja)
+* [Adobe Experience Platform - Marketo ソースコネクタ](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/marketo/marketo.html?lang=ja)
+* [Adobe Experience Platform - Marketo 宛先コネクタ](https://experienceleague.adobe.com/docs/marketo/using/product-docs/core-marketo-concepts/smart-lists-and-static-lists/static-lists/push-an-adobe-experience-cloud-segment-to-a-marketo-static-list.html?lang=ja)
