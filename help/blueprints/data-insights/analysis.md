@@ -5,8 +5,8 @@ solution: Experience Platform
 kt: 7207
 thumbnail: null
 exl-id: a972ea56-d1c8-45da-9044-ed31222a2441
-source-git-commit: 5e93d3a5a09a3a20418ec7e563b93d22aef3ddc7
-workflow-type: ht
+source-git-commit: 55584ea85570bbcd4c959b0bd94b9e0bdc2e962f
+workflow-type: tm+mt
 source-wordcount: '337'
 ht-degree: 100%
 
@@ -34,7 +34,7 @@ Experience Platform の[!UICONTROL クエリサービス]を使用すると、�
 
 ## アーキテクチャ
 
-<img src="assets/data_exploration.svg" alt="エンタープライズデータ調査およびレポートブループリントの参照アーキテクチャ" style="border:1px solid #4a4a4a" />
+<img src="assets/data_exploration.svg" alt="エンタープライズデータ調査およびレポートブループリントの参照アーキテクチャ" style="width:80%; border:1px solid #4a4a4a" />
 
 ## ガードレール
 

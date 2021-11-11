@@ -4,7 +4,7 @@ description: Experience Platform でプロファイルおよびオーディエ�
 solution: Experience Platform, Real-time Customer Data Platform, Target, Audience Manager, Analytics, Experience Cloud Services
 kt: 7722
 exl-id: null
-source-git-commit: f527b23587e4ec893532997c3c99270946d7fa31
+source-git-commit: 55584ea85570bbcd4c959b0bd94b9e0bdc2e962f
 workflow-type: tm+mt
 source-wordcount: '270'
 ht-degree: 100%
@@ -26,7 +26,7 @@ Experience Cloud アプリケーションを使用したアクティベーショ
 
 * Adobe Experience Platform
 * [!UICONTROL リアルタイム顧客データプラットフォーム]
-* Experience Platform アクティベーション
+* Experience Platform Activation
 * Experience Cloud アプリケーション
    * Adobe Audience Manager
    * Adobe Target
@@ -39,7 +39,7 @@ Experience Cloud アプリケーションを使用したアクティベーショ
 
 ### Experience Cloud アプリケーションを使用したオーディエンスとプロファイルのアクティベーション
 
-<img src="../experience-platform/assets/aep+apps_horizontal.svg" alt="Experience Cloud アプリケーションを使用したオーディエンスとプロファイルのアクティベーションの参照アーキテクチャ" style="border:1px solid #4a4a4a" />
+<img src="../experience-platform/assets/aep+apps_horizontal.svg" alt="Experience Cloud アプリケーションを使用したオーディエンスとプロファイルのアクティベーションの参照アーキテクチャ" style="width:80%; border:1px solid #4a4a4a" />
 <br>
 
 ## ガードレール

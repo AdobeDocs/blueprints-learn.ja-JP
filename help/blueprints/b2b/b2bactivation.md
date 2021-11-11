@@ -4,8 +4,8 @@ description: リアルタイム顧客データプラットフォームを使用�
 solution: Experience Platform, Real-time Customer Data Platform
 kt: 9311
 exl-id: null
-source-git-commit: d811d82418d477372caa9e5b0b67af197275d459
-workflow-type: ht
+source-git-commit: 55584ea85570bbcd4c959b0bd94b9e0bdc2e962f
+workflow-type: tm+mt
 source-wordcount: '821'
 ht-degree: 100%
 
@@ -31,7 +31,7 @@ ht-degree: 100%
 
 ## アーキテクチャ
 
-<img src="assets/b2b-activation.svg" alt="B2B アクティベーションブループリントの参照アーキテクチャ" style="border:1px solid #4a4a4a" />
+<img src="assets/b2b-activation.svg" alt="B2B アクティベーションブループリントの参照アーキテクチャ" style="width:80%; border:1px solid #4a4a4a" />
 <br>
 
 ## ガードレール
@@ -95,7 +95,7 @@ Marketo Engage 関連のガードレールおよび実装手順は、Marketo Eng
 
 ## 関連ドキュメント
 
-* [リアルタイム顧客データプラットフォーム B2B エディション](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/b2b-overview.html?lang=ja)
+* [リアルタイム顧客データプラットフォーム B2B エディション](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/b2b-overview.html?lang=en)
 * [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform.html?lang=ja)
 * [Marketo Engage](https://experienceleague.adobe.com/docs/marketo/using/home.html?lang=ja)
 * [Adobe Experience Platform - Marketo ソースコネクタ](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/marketo/marketo.html?lang=ja)
