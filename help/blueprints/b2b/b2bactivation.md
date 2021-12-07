@@ -4,7 +4,7 @@ description: リアルタイム顧客データプラットフォームを使用�
 solution: Experience Platform, Real-time Customer Data Platform
 kt: 9311
 source-git-commit: bc8aab586175ab004614764645ee8a86713b407b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '821'
 ht-degree: 100%
 
@@ -94,7 +94,7 @@ Marketo Engage 関連のガードレールおよび実装手順は、Marketo Eng
 
 ## 関連ドキュメント
 
-* [リアルタイム顧客データプラットフォーム B2B エディション](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/b2b-overview.html?lang=en)
+* [リアルタイム顧客データプラットフォーム B2B エディション](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/b2b-overview.html?lang=ja)
 * [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform.html?lang=ja)
 * [Marketo Engage](https://experienceleague.adobe.com/docs/marketo/using/home.html?lang=ja)
 * [Adobe Experience Platform - Marketo ソースコネクタ](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/marketo/marketo.html?lang=ja)
