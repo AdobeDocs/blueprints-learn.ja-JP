@@ -4,10 +4,10 @@ description: オンライン／オフラインオーディエンスアクティ�
 solution: Experience Platform, Real-time Customer Data Platform, Target, Audience Manager, Analytics, Experience Cloud Services, Data Collection
 kt: 7086
 exl-id: 011f4909-b208-46db-ac1c-55b3671ee48c
-source-git-commit: 55584ea85570bbcd4c959b0bd94b9e0bdc2e962f
-workflow-type: ht
-source-wordcount: '532'
-ht-degree: 100%
+source-git-commit: c51ea51266ef61d5fdfdb50f4e0c1316790b1986
+workflow-type: tm+mt
+source-wordcount: '729'
+ht-degree: 72%
 
 ---
 
@@ -56,7 +56,15 @@ ht-degree: 100%
 
 * プロファイルデータを宛先に共有するには、宛先ペイロードの宛先で使用される特定の ID 値を含める必要があります。ターゲットの宛先に必要な ID は、Platform に取り込まれ、[!UICONTROL リアルタイム顧客プロファイル]の ID として設定される必要があります。
 
-* Experience Platform から Audience Manager にオーディエンスが共有されるアクティベーションシナリオでは、次の ID が自動的に共有されます。IDFA、GAID、AdCloud、Google、ECID、EMAIL_LC_SHA256。現在、顧客の名前空間は共有されていません。必須の宛先 ID が[!UICONTROL リアルタイム顧客プロファイル]に含まれている場合、または[!UICONTROL リアルタイム顧客プロファイル]内の ID が Audience Manager でリンクされる必須の宛先 ID と関連付けられる場合、Experience Platform からのオーディエンスは、Audience Manager 宛先を使用して共有できます。
+### Real-time Customer Data PlatformからAudience Managerへのオーディエンスの共有
+
+* RT-CDP のオーディエンスメンバーシップは、セグメント評価が完了し、セグメント評価がバッチで行われたかストリーミングで行われたかに関わらず、リアルタイム顧客プロファイルに書き込まれるとすぐに、ストリーミング方式でAudience Managerに共有されます。 クオリファイドプロファイルに関連するプロファイルデバイスの地域ルーティング情報が含まれる場合、RTCDP からのオーディエンスメンバーシップは、関連するAudience Managerエッジ上でストリーミング方式で選定されます。 RTCDP のプロファイルに地域ルーティング情報が含まれていない場合は、プロファイルメンバーシップがAudience Managerハブの場所に送信され、バッチベースの評価とアクティブ化がおこなわれます。 エッジのアクティベーションの対象となるプロファイルは、RTCDP からのセグメント認定から数分以内にアクティブ化され、エッジのアクティベーションの対象とならないプロファイルはAudience Managerハブで認定され、12～24 時間の処理期間を持つ場合があります。
+
+* プロファイルに対して Analytics データを収集するために有効にした場合、または別のプロファイルレコードクラスデータセットとして WebSDK から直接、プロファイルに対して有効にする必要がある Analytics Data Connector から収集できます。
+
+* Experience Platform から Audience Manager にオーディエンスが共有されるアクティベーションシナリオでは、次の ID が自動的に共有されます。IDFA、GAID、AdCloud、Google、ECID、EMAIL_LC_SHA256。現在、カスタム名前空間は共有されていません。
+
+必須の宛先 ID が[!UICONTROL リアルタイム顧客プロファイル]に含まれている場合、または[!UICONTROL リアルタイム顧客プロファイル]内の ID が Audience Manager でリンクされる必須の宛先 ID と関連付けられる場合、Experience Platform からのオーディエンスは、Audience Manager 宛先を使用して共有できます。
 
 ## 関連ドキュメント
 
@@ -69,4 +77,4 @@ ht-degree: 100%
 
 * [[!UICONTROL リアルタイム顧客データプラットフォーム]の概要](https://experienceleague.adobe.com/docs/platform-learn/tutorials/application-services/rtcdp/understanding-the-real-time-customer-data-platform.html?lang=ja)
 * [[!UICONTROL リアルタイム顧客データプラットフォーム]のデモ](https://experienceleague.adobe.com/docs/platform-learn/tutorials/application-services/rtcdp/demo.html?lang=ja)
-* [セグメントの作成](https://experienceleague.adobe.com/docs/platform-learn/tutorials/segments/create-segments.html?lang=ja)
+* [セグメントの作成](https://experienceleague.adobe.com/docs/platform-learn/tutorials/segments/create-segments.html)
