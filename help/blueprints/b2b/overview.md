@@ -1,18 +1,18 @@
 ---
-title: B2B アクティベーションとマーケティング
+title: B2B 分析とアクティベーション
 description: リアルタイム顧客データプラットフォームを使用して、アカウントベースのオーディエンスと、プロファイル中心の顧客エクスペリエンスを提供します。
 solution: Experience Platform, Real-time Customer Data Platform
 kt: 9311
-thumbnail: null
-source-git-commit: bc8aab586175ab004614764645ee8a86713b407b
-workflow-type: ht
-source-wordcount: '161'
-ht-degree: 100%
+exl-id: 52898310-9723-4ec2-ba10-f45fefe29e93
+source-git-commit: 7a26fa761cce509c15678a341e2ed3a8542330d6
+workflow-type: tm+mt
+source-wordcount: '177'
+ht-degree: 86%
 
 ---
 
 
-# B2B アクティベーションとマーケティング
+# B2B 分析とアクティベーション
 
 B2B データドリブン型マーケティングでは、オーディエンスとプロファイルのアクティベーションが成功のカギです。ただし多くのブランドでは、依然としてチャネルファーストのアクティベーションに注力し、多くの場合、リーチやパーソナライズ機能に一貫性がありません。
 
@@ -20,4 +20,5 @@ B2B データドリブン型マーケティングでは、オーディエンス�
 
 | ブループリント | 説明 | Experience Cloud アプリケーション |
 |---|---|---|
+| **[B2B 分析](b2bactivation.md)** | <ul><li>B2B アカウント情報をカスタマージャーニー分析に含める</li></ul> | <ul><li>AdobeCustomer Journey Analytics</li></ul> |
 | **[B2B オーディエンスアクティベーション](b2bactivation.md)** | <ul><li>Web、E メールおよび広告チャネルにわたって B2B オーディエンスをターゲット設定します。</li></ul> | <ul><li>Adobe リアルタイム顧客データプラットフォーム B2B エディション</li></ul> |
