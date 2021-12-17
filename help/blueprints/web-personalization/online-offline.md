@@ -5,10 +5,10 @@ landing-page-description: Web パーソナライズ機能を電子メールお�
 solution: Experience Platform, Real-time Customer Data Platform, Target, Audience Manager, Analytics, Experience Cloud Services, Data Collection
 kt: 7194thumb-web-personalization-scenario2.jpg
 exl-id: 29667c0e-bb79-432e-af3a-45bd0b3b43bb
-source-git-commit: 55584ea85570bbcd4c959b0bd94b9e0bdc2e962f
-workflow-type: ht
-source-wordcount: '738'
-ht-degree: 100%
+source-git-commit: b52346f224964b50ff5e5e553eca88670b7580f3
+workflow-type: tm+mt
+source-wordcount: '1065'
+ht-degree: 67%
 
 ---
 
@@ -21,6 +21,7 @@ Web パーソナライズ機能を電子メールおよびその他の既知お�
 * ランディングページの最適化
 * 行動およびオフラインプロファイルターゲット設定
 * オフラインインサイト（トランザクション、ロイヤリティおよび CRM データなど）およびモデル化されたインサイトに加えて、以前の製品／コンテンツ表示、製品／コンテンツの親和性、環境属性、サードパーティオーディエンスデータおよび人口統計に基づいたパーソナライズ機能
+* Adobe Targetを使用して、Real-time Customer Data Platformで定義されたオーディエンスを Web サイトやモバイルアプリで共有およびターゲット設定します。
 
 ## アプリケーション
 
@@ -28,6 +29,46 @@ Web パーソナライズ機能を電子メールおよびその他の既知お�
 * Adobe Target
 * Adobe Audience Manager（オプション）：サードパーティオーディエンスデータ、Co-op ベースのデバイスグラフ、Adobe Analytics で Platform セグメントを表示する機能および Platform で Adobe Analytics セグメントを表示する機能を追加
 * Adobe Analytics（オプション）：Adobe Analytics データからの履歴行動データおよび詳細なセグメント化に基づいてセグメントを作成する機能を追加
+
+## 統合パターン
+
+<table class="tg" style="undefined;table-layout: fixed; width: 790px">
+<colgroup>
+<col style="width: 20px">
+<col style="width: 276px">
+<col style="width: 229px">
+<col style="width: 265px">
+</colgroup>
+<thead>
+  <tr>
+    <th class="tg-y6fn">#</th>
+    <th class="tg-f7v4">統合パターン</th>
+    <th class="tg-y6fn">機能</th>
+    <th class="tg-f7v4">前提条件</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td class="tg-0lax">1</td>
+    <td class="tg-73oq"><span style="font-weight:400;font-style:normal">オーディエンス共有サービスアプローチを介した Target およびAudience Managerへの RTCDP ストリーミングおよびバッチオーディエンス共有</span></td>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal"> — オーディエンス共有サービスを介して、RTCDP から Target およびAudience Managerにストリーミングおよびバッチオーディエンスを共有します。 リアルタイムで評価されるオーディエンスには、WebSDK と、統合パターン 3 で概要を説明したリアルタイムのオーディエンス評価が必要です。</span></td>
+    <td class="tg-73oq"> — オーディエンス共有サービスを介したオーディエンス投影は、プロビジョニングする必要があります。<br>- Target との統合には、統合インスタンスと同じ IMS Org が必要です。Experience Platform<br>- Target が操作をおこなうには、ID を ECID に解決して、Edge と共有する必要があります。 AAMは、照合する承認済み ID の個別リストを持ちます<br> — この統合には WebSDK のデプロイメントは必要ありません。</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">2</td>
+    <td class="tg-73oq">Edge アプローチを介した Target への RTCDP ストリーミングおよびバッチオーディエンス共有</td>
+    <td class="tg-0lax">- Edge ネットワークを介して、RTCDP から Target へのストリーミングオーディエンスとバッチオーディエンスを共有します。 リアルタイムで評価されるオーディエンスには、WebSDK と、統合パターン 3 で概要を説明したリアルタイムのオーディエンス評価が必要です。</td>
+    <td class="tg-73oq"><span style="text-decoration:none"> — 現在ベータ版</span><br>- RTCDP の宛先でターゲットの宛先を設定する必要があります。<br>- Target との統合には、統合インスタンスと同じ IMS Org が必要です。Experience Platform<br>WebSDK は不要です。 WebSDK および AT.js がサポートされています。 <br>- AT.js を使用する場合、ECID に対するプロファイル参照のみがサポートされます。 <br>- Edge 上でカスタム ID 名前空間を検索する場合は、WebSDK デプロイメントが必要です。また、各 ID を ID マップで ID として設定する必要があります。</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">3</td>
+    <td class="tg-73oq">WebSDK を使用して Edge ネットワークを介して Target に共有される Edge に関する RTCDP のリアルタイムセグメント評価。</td>
+    <td class="tg-0lax">- Edge 上で同じまたは次のページのパーソナライゼーションに対して、リアルタイムでオーディエンスを評価します。</td>
+    <td class="tg-73oq"><span style="text-decoration:none"> — 現在ベータ版</span><br>- RTCDP の宛先でターゲットの宛先を設定する必要があります。<br>- Target との統合には、統合インスタンスと同じ IMS Org が必要です。Experience Platform<br>- WebSDK を実装する必要があります。<br>- API 経由でもサポートされます。</td>
+  </tr>
+</tbody>
+</table>
+
 
 ## アーキテクチャ
 
@@ -78,10 +119,11 @@ ID の前提条件
 1. [Adobe Analytics を実装](https://experienceleague.adobe.com/docs/analytics/implementation/home.html?lang=ja)します（オプション）
 1. [Experience Platform および[!UICONTROL リアルタイム顧客プロファイル]を実装します](https://experienceleague.adobe.com/docs/platform-learn/getting-started-for-data-architects-and-data-engineers/overview.html?lang=ja)
 1. [Experience Cloud ID サービス](https://experienceleague.adobe.com/docs/id-service/using/implementation/implementation-guides.html?lang=ja)または [Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=ja) を実装します
+1. [Experience Platform および Adobe Target 間のオーディエンス共有（共有オーディエンス）のプロビジョニングをリクエスト](https://www.adobe.com/go/audiences)します
    >[!NOTE]
    >
-   >アプリケーション間のオーディエンス共有を許可するためには、各アプリケーションは、Experience Cloud ID を使用し、同じ Experience Cloud 組織に属している必要があります。
-1. [Experience Platform および Adobe Target 間のオーディエンス共有（共有オーディエンス）のプロビジョニングをリクエスト](https://www.adobe.com/go/audiences)します
+   >RTCDP とAdobe Targetの間でオーディエンス共有サービスを使用する場合、オーディエンスはExperience CloudID を使用して共有され、同じExperience Cloud組織の一部である必要があります。ECID 以外の ID のサポートには、WebSDK と Experience Edge ネットワークを使用する必要があります。
+
 
 ## 関連ドキュメント
 
@@ -91,7 +133,7 @@ ID の前提条件
 * [Experience Platform セグメントビルダーの概要](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=ja)
 * [Audience Manager ソースコネクタ](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/audience-manager.html?lang=ja)
 * [Adobe Audience Manager を使用した Adobe Analytics セグメント共有](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-publish.html?lang=ja)
-* [Experience Platform Web SDK ドキュメント](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=ja)
+* [Experience Platform Web SDK ドキュメント](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html)
 * [Experience Cloud ID サービスドキュメント](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=ja)
 * [Experience Platform タグドキュメント](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=ja)
 
