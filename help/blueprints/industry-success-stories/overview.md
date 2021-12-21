@@ -1,10 +1,10 @@
 ---
 title: デジタルエクスペリエンスブループリント業界の成功事例
 description: Digital Experience Blueprints の成功事例では、Adobe Experience Platformを活用したAdobe Experience Cloud Applications を使用して、様々な業界がビジネス価値を実現している様子を紹介しています。
-source-git-commit: 41cb8d159c5aa358bb492e722a39ac61e3414dcc
+source-git-commit: c393d73d2fa7acd4e5c2d99c098503b023b6115d
 workflow-type: tm+mt
-source-wordcount: '300'
-ht-degree: 25%
+source-wordcount: '271'
+ht-degree: 27%
 
 ---
 
@@ -19,23 +19,23 @@ ht-degree: 25%
 <tr>
   <td>
     <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/platform-and-applications.html?lang=ja"><img alt="オーディエンスのアクティベーション、customer journey analytics、カスタマージャーニーブループリントを使用するアパレル業界向けのサムネール画像" src="https://experienceleague.adobe.com/docs/blueprints-learn/assets/aep+apps_vertical.svg?lang=en"/></a>
-    <div><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/platform-and-applications.html?lang=en"><strong>アパレル業界：Experience Cloud・アプリケーションでの有効化 </strong></a></div>
-    <p><em>複数のブループリントを使用して、リアルタイムマーケティング、クロスチャネルアクティベーション、およびクロスチャネル分析を有効にしました。</em></p>
+    <div><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/platform-and-applications.html?lang=en"><strong>アパレル業界</strong></a></div>
+    <p><em>リアルタイムマーケティング、クロスチャネルアクティベーション、およびクロスチャネル分析。</em></p>
   </td>
   <td>
     <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer.html?lang=ja"><img alt="オンライン/オフラインデータとJourney Optimizerブループリントを使用したアクティベーションを使用した小売業界向けのサムネール画像" src="https://experienceleague.adobe.com/docs/blueprints-learn/assets/aep+apps_vertical.svg?lang=en"/></a>
-    <div><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer.html?lang=en"><strong>小売業界：Experience Cloud・アプリケーションでの有効化 </strong></a></div>
-    <p><em>デジタルメディア、E メール、プッシュおよび Web チャネルにわたって、リアルタイムで顧客体験を提供します。</em></p>
+    <div><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer.html?lang=en"><strong>小売業界</strong></a></div>
+    <p><em>デジタルメディア、E メール、プッシュおよび Web チャネルにわたるリアルタイムの顧客体験。</em></p>
   </td>
   <td>
     <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer.html?lang=en"><img alt="Journey Optimizer Blueprint のサムネール画像" src="https://experienceleague.adobe.com/docs/blueprints-learn/assets/journey-optimizer.png?lang=en" /></a>
-    <div><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer.html?lang=en"><strong>通信業界：トリガーされたメッセージのJourney Optimizer</strong></a></div>
-    <p><em>顧客に合わせてリアルタイムの契約を提供し、顧客の長期ロイヤリティに対する効率的なオンボーディングを提供します。</em></p>
+    <div><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer.html?lang=en"><strong>通信業</strong></a></div>
+    <p><em>Tailoring は、リアルタイムで契約し、長期のロイヤリティに対する効率的な顧客オンボーディングを提供します。</em></p>
   </td>
   <td>
     <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/online-offline.html?lang=ja"><img alt="オンライン/オフラインデータブループリントのアクティベーションのサムネール画像" src="https://experienceleague.adobe.com/docs/blueprints-learn/assets/online_offline_activation.svg" /></a>
-    <div><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/online-offline.html?lang=en"><strong>旅行および接客業：オンラインおよびオフラインデータを使用したアクティベーション</strong></a></div>
-    <p><em>様々なチャネルをまたいだ顧客行動に関する単一の統合されたビューで、リアルタイムでの意思決定を実現します。</em></p>
+    <div><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/online-offline.html?lang=en"><strong>旅行および接客業</strong></a></div>
+    <p><em>様々なチャネルをまたいだ顧客の行動を統合的に把握し、リアルタイムでの意思決定を可能にします。</em></p>
   </td>
 </tr>
 </table>
