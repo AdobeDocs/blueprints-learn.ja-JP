@@ -3,8 +3,7 @@ title: B2B 分析とアクティベーション
 description: リアルタイム顧客データプラットフォームを使用して、アカウントベースのオーディエンスと、プロファイル中心の顧客エクスペリエンスを提供します。
 solution: Experience Platform, Real-time Customer Data Platform
 kt: 9311
-exl-id: 52898310-9723-4ec2-ba10-f45fefe29e93
-source-git-commit: 7a26fa761cce509c15678a341e2ed3a8542330d6
+source-git-commit: 6da7ce0e5ae27fd7946c57f1a05a55a98026839d
 workflow-type: tm+mt
 source-wordcount: '177'
 ht-degree: 86%
