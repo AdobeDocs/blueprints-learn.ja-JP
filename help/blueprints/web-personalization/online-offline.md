@@ -5,9 +5,9 @@ landing-page-description: Web パーソナライズ機能を電子メールお�
 solution: Experience Platform, Real-time Customer Data Platform, Target, Audience Manager, Analytics, Experience Cloud Services, Data Collection
 kt: 7194thumb-web-personalization-scenario2.jpg
 exl-id: 29667c0e-bb79-432e-af3a-45bd0b3b43bb
-source-git-commit: b52346f224964b50ff5e5e553eca88670b7580f3
+source-git-commit: 0de426911553ae3b7907d7d08b25a07a11b34c0f
 workflow-type: tm+mt
-source-wordcount: '1065'
+source-wordcount: '1078'
 ht-degree: 67%
 
 ---
@@ -71,6 +71,12 @@ Web パーソナライズ機能を電子メールおよびその他の既知お�
 
 
 ## アーキテクチャ
+
+概要アーキテクチャ
+
+<img src="assets/RTCDP+Target.png" alt="オンライン／オフライン Web パーソナライズ機能ブループリントの参照アーキテクチャ" style="width:80%; border:1px solid #4a4a4a" />
+
+詳細なアーキテクチャ
 
 <img src="assets/online_offline_personalization_with_apps.svg" alt="オンライン／オフライン Web パーソナライズ機能ブループリントの参照アーキテクチャ" style="width:80%; border:1px solid #4a4a4a" />
 
