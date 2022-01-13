@@ -5,27 +5,29 @@ solution: Experience Platform, Campaign, Analytics, Target, Audience Manager, Ma
 kt: 7200
 thumbnail: null
 exl-id: 67f7e236-4fa2-434d-af22-953e94a079c1
-source-git-commit: d9ba365e53d78291bca15fd10fe6e49e54c331f6
+source-git-commit: 070c78ee3cf32e70af90c6cbcdd77d5258a32fb7
 workflow-type: tm+mt
 source-wordcount: '107'
-ht-degree: 54%
+ht-degree: 34%
 
 ---
 
 # Adobe Experience Cloud アーキテクチャ図
 
-以下のアーキテクチャ図に、Adobe Experience Cloud アプリケーションおよび Adobe Experience Platform がエンタープライズカスタマーエクスペリエンスアーキテクチャにどのように適合するかを示します。
-
-<img src="assets/aec_experience_architecture.svg" alt="Experience Cloud" style="width:80%; border:1px solid #4a4a4a" />
-<br>
-<br>
 次のアーキテクチャ図は、Adobe Experience PlatformがAdobe Experience Cloudアプリケーションに接続し、統合して、データ、コンテンツ、エクスペリエンス配信にわたって大規模にパーソナライゼーションを実現する方法を示しています。
 <br>
 <br>
-<img src="assets/personalization_at_scale.png" alt="Experience Cloud" style="width:80%; border:1px solid #4a4a4a" />
+<img src="assets/pers_at_scale.png" alt="Experience Cloud" style="width:80%; border:1px solid #4a4a4a" />
 <br>
 <br>
+次のアーキテクチャ図は、Adobe Experience CloudアプリケーションとAdobe Experience Platformが企業のカスタマーエクスペリエンスアーキテクチャにどのように適合するかを示しています。
+<br>
+<br>
+<img src="assets/aec_experience_architecture.svg" alt="Experience Cloud" style="width:80%; border:1px solid #4a4a4a" />
+<br>
+<br>
+
 次のアーキテクチャ図は、Adobe Experience PlatformがAdobe Experience Cloudアプリケーションに接続し、統合する方法を示しています。
- <br>
+<br>
 <br>
 <img src="assets/experience_cloud.svg" alt="Experience Cloud" style="width:80%; border:1px solid #4a4a4a" />
