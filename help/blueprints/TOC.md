@@ -5,9 +5,9 @@ user-guide-description: ブループリントは、既存のビジネス上の�
 product: adobe experience platform
 role: Architect, Developer, User
 source-git-commit: 12a791205a2d8ee1cd0a7184eba54340f7d9ab1d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '142'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -15,19 +15,19 @@ ht-degree: 92%
 
 + [概要](/help/blueprints/overview.md)
 + [すべてのユースケースを見る](/help/blueprints/use-cases.md)
-+ 業界の成功事例をすべて見る{#industry-success-stories}
++ 業界の成功事例をすべて見る {#industry-success-stories}
    + [概要](/help/blueprints/industry-success-stories/overview.md)
    + [アパレル](/help/blueprints/industry-success-stories/apparel.md)
    + [小売](/help/blueprints/industry-success-stories/retail.md)
    + [通信業](/help/blueprints/industry-success-stories/telecommunications.md)
-   + [旅行と接客業](/help/blueprints/industry-success-stories/travel-hospitality.md)
+   + [観光および接客業](/help/blueprints/industry-success-stories/travel-hospitality.md)
 + アーキテクチャの概要 {#architecture-overview}
    + [Experience Cloud](/help/blueprints/experience-platform/experience-cloud.md)
    + [Experience Platform およびアプリケーション](/help/blueprints/experience-platform/platform-applications.md)
    + [Experience Platform データフロー](/help/blueprints/experience-platform/platform-data-flow.md)
-+ オーディエンスとプロファイルのアクティベーション {#audience-activation}
++ Audience および Profile アクティベーション {#audience-activation}
    + [概要](/help/blueprints/audience-activation/overview.md)
-   + [匿名オーディエンスアクティベーション](/help/blueprints/audience-activation/anonymous.md)
+   + [匿名 Audience アクティベーション](/help/blueprints/audience-activation/anonymous.md)
    + [オンラインとオフラインのデータを使用したアクティベーション](/help/blueprints/audience-activation/online-offline.md)
    + [ファイルとエンタープライズストリーミング宛先に対するアクティベーション](/help/blueprints/audience-activation/enterprise-destinations.md)
    + [Experience Cloud アプリケーションを使用したアクティベーション](/help/blueprints/audience-activation/platform-and-applications.md)
