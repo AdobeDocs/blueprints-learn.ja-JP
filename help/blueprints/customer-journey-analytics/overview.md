@@ -6,9 +6,9 @@ kt: null
 thumbnail: null
 exl-id: 3bb2dada-f4cd-43f7-a0d0-f276510ad224
 source-git-commit: 18c5ac6e01636d4d3b0ea0eb2edb92c949c870c5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '304'
-ht-degree: 83%
+ht-degree: 100%
 
 ---
 
@@ -25,12 +25,14 @@ Customer Journey Analytics は、ブランドが様々なインタラクショ�
 * コンバージョンおよびエンゲージメント向上につながったキャンペーン
 * セルフサービスエクスペリエンスを最適化するためのツール使用状況分析
 
-Customer Journey Analyticsの使用例の完全なリストについては、こちらにあるCustomer Journey Analyticsドキュメントを参照してください。
+Customer Journey Analytics の使用例の完全なリストについては、こちらにある Customer Journey Analytics ドキュメントを参照してください。
 
-## [Customer Journey Analyticsユースケースリンク](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/cja-usecases.html?lang=en)
+## [Customer Journey Analytics ユースケースリンク](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/cja-usecases.html?lang=ja)
 
 主な使用例を次に示します。
-|ブループリント |説明 |Experience Cloud | |—|—|—| | **[クロスチャネルジャーニー分析](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/cross-channel.html?lang=ja)**  | <ul><li>Web、モバイルおよびオフラインの様々なプロパティからのデータを統合することで、複数のチャネルをまたいだ顧客行動を単一の統合されたビューに表示します。</li></ul> | <ul><li>Adobe Experience Platform</li><li>Customer Journey Analytics</li><li>Adobe Analytics（オプション）</li></ul>|
+| ブループリント | 説明 | Experience Cloud アプリケーション |
+|---|---|---|
+| **[クロスチャネルジャーニー分析](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/cross-channel.html?lang=ja)**  | <ul><li>Web、モバイルおよびオフラインの様々なプロパティからのデータを統合することで、複数のチャネルをまたいだ顧客行動を単一の統合されたビューに表示します。</li></ul> | <ul><li>Adobe Experience Platform</li><li>Customer Journey Analytics</li><li>Adobe Analytics（オプション）</li></ul>|
 | **[コールディフレクションジャーニー分析](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/call-center.html?lang=ja)** | <ul><li>コールセンターデータを Web、モバイルおよびその他のインタラクションデータと組み合わせることで、どのような行動が担当者による通話に最も影響を与えるかを判別する。</li><li>最適化されたセルフサービスコンテンツおよびツールを使用することで、これらのインサイトは、カスタマーエクスペリエンスの最適化や、担当者のサポートを受けるまでの道のりを短縮するために使用できます。  </li></ul> | <ul><li>Adobe Experience Platform</li><li>Customer Journey Analytics</li> |
 
 ## Customer Journey Analytics ブループリントのガードレール図
