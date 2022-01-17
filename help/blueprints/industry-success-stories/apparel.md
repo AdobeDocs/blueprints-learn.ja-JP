@@ -1,44 +1,44 @@
 ---
-title: アパレル業界 —Experience Cloudアプリケーションを使用したアクティベーション
+title: アパレル業界 - Experience Cloud アプリケーションを使用したアクティベーション
 description: 複数のブループリントを使用して、リアルタイムマーケティング、クロスチャネルアクティベーション、およびクロスチャネル分析を有効にしました。
 solution: Experience Platform, Real-time Customer Data Platform, Customer Journey Analytics, Journey Orchestration
 kt: 9487
 source-git-commit: c393d73d2fa7acd4e5c2d99c098503b023b6115d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '336'
-ht-degree: 16%
+ht-degree: 100%
 
 ---
 
 
 # アパレル業界のビジネス課題
 
-この特定のアピール会社は、履物、アパレル、機器、アクセサリー、サービスの設計、開発、製造、および世界的なマーケティングと販売において世界的なリーダーです。
+この特定のアピールカンパニーは、履物、アパレル、機器、アクセサリー、サービスの設計、開発、製造、および世界的なマーケティングと販売において世界的なリーダーです。
 
-グローバルなテクノロジーチームは、Adobe Experience Platformと関連するAdobeソリューションを使用して、次の主要な問題点に対処しています。
+この会社のグローバルなテクノロジーチームは、Adobe Experience Platform と関連する Adobe ソリューションを使用して、次の主要な問題点の領域に対処しています。
 
 * 一貫したクロスチャネルのメッセージングとアクティベーション
 * トリガーベースのリアルタイムマーケティング
-* 顧客 360 の分析とアトリビューションを実行するためのキャンペーンの効果と能力を測定するパーソナライゼーションと能力
+* パーソナライゼーションとキャンペーンの効果を測定する能力、および 360 の顧客の分析とアトリビューションを実行する機能
 
-## Adobe法
+## アドビの取り組み
 
-* 強力な Platform 基盤を構築して、ビジネスに価値を提供し、企業全体での採用を実現します。
-* 技術チームと協力して、テクノロジーの導入によってビジネス価値を実現します。
-* キャンペーンのセグメント化、アクティブ化、レポートを直接おこなうために、このアパレル会社の顧客を 360 ビューで表示します。
-* パーソナライズされたトリガージャーニーを自動化し、調整します。
+* 強力な Platform の基盤を作成して、ビジネスにバリューを提供し、企業全体での採用を実現します。
+* 複数のテクノロジーチームと協力し、テクノロジーの導入によってビジネスバリューを実現します。
+* キャンペーンのセグメント化、アクティブ化、レポートを直接おこなうために、このアパレル会社の顧客の 360 ビューを作成します。
+* トリガーを自動化し、パーソナライズされたカスタマージャーニーをオーケストレートします。
 
-## ビジネス価値の提供
+## 提供されるビジネスバリュー
 
-| 目標 | 戦術 | ロック解除値 |
+| 目標 | 戦術 | 解放されたバリュー |
 |---|---|---|
-| **接続されたクロスチャネルエクスペリエンス&#x200B;**<br></br>**エンゲージメントとリテンションの促進&#x200B;**<br></br>**データの民主化とインサイト**</ul> | <ul><li>数千万ものプロファイルと数百のセグメント、複数の宛先、レポートダッシュボードを作成するために、複数のエンタープライズデータセットを転送</li><li>Real-time Customer Data Platformを使用した複数の宛先でのアクティブ化</li><li>顧客レベルの分析機能は、顧客ジャーニー分析で解放</li><li>Adobe Journey Optimizerを通じて実装された顧客インタラクション用の自動イベントトリガー</li></ul> | <ul><li><strong> 顧客プロファイル： </strong>セグメント化のための顧客の 360 度の表示</li><li><strong>宛先のアクティベーション： </strong>有料メディア、電子メールおよび Social プラットフォームでのアクティベーション</li><li><strong>顧客分析と属性： </strong>アドホックで容易に配布できるクロスチャネルアトリビューション分析<li><strong>Journey Orchestration: </strong> リアルタイムのコンテキストを使用して、トリガーキャンペーンとスケジュール済みキャンペーンを作成し、運用します</li></ul> |
+| **接続されたクロスチャネルエクスペリエンス&#x200B;**<br></br>**エンゲージメントとリテンションの促進&#x200B;**<br></br>**データの民主化と Insights**</ul> | <ul><li>数千万ものプロファイルと数百のセグメント、複数の宛先、レポートダッシュボードを作成するために、複数のエンタープライズデータセットをオンボーディング</li><li>Real-time Customer Data Platform を使用した複数の宛先でのアクティベーション</li><li>カスタマージャーニー分析で解放された顧客レベルの分析機能</li><li>Adobe Journey Optimizer を通じて実装された顧客インタラクション用の自動イベントトリガー</li></ul> | <ul><li><strong>顧客プロファイル：</strong>セグメント化のための顧客の 360 度の表示</li><li><strong>宛先のアクティベーション：</strong>有料メディア、電子メールおよびソーシャルプラットフォームでのアクティベーション</li><li><strong>顧客の分析とアトリビューション：</strong>アドホックで容易に利用できるクロスチャネルアトリビューション分析<li><strong>Journey Orchestration：</strong> リアルタイムのコンテキストを使用して、トリガーキャンペーンとスケジュール済みキャンペーンを作成し、運用します</li></ul> |
 
-## プライマリブループリント：オーディエンスとアクティベーション (Experience Cloudアプリ )
+## プライマリブループリント：Experience Cloud アプリケーションを使用したアクティベーションおよびオーディエンス
 
 ### 説明
 
-<ul><li>Experience Platform でプロファイルおよびオーディエンスを管理し、Experience Cloud アプリケーションを使用して共有します</li><li>Experience Platform でリッチな顧客セグメントおよびインサイトを構築および共有し、Experience Cloud アプリケーションを使用して共有します</li></ul>
+<ul><li>Experience Platform でプロファイルおよびオーディエンスを管理し、Experience Cloud アプリケーションを使用して共有</li><li>Experience Platform でリッチな顧客セグメントおよびインサイトを構築および共有し、Experience Cloud アプリケーションを使用して共有</li></ul>
 
 ### Experience Cloud アプリケーション
 
@@ -46,7 +46,7 @@ ht-degree: 16%
 
 ### ブループリントアーキテクチャ
 
-<a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/platform-and-applications.html?lang=ja"><img alt="オーディエンスアクティベーション、customer journey analytics、カスタマージャーニーブループリントを使用したアパレルビジネス用のサムネール画像" src="https://experienceleague.adobe.com/docs/blueprints-learn/assets/aep+apps_vertical.svg?lang=en"/></a>
+<a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/platform-and-applications.html?lang=ja"><img alt="Audience アクティベーション、Customer Journey Analytics、カスタマージャーニーブループリントを使用したアパレルビジネス用のサムネール画像" src="https://experienceleague.adobe.com/docs/blueprints-learn/assets/aep+apps_vertical.svg?lang=en"/></a>
 
 
 
