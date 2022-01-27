@@ -6,9 +6,9 @@ solution: Experience Platform, Real-time Customer Data Platform, Target, Audienc
 kt: 7194thumb-web-personalization-scenario2.jpg
 exl-id: 29667c0e-bb79-432e-af3a-45bd0b3b43bb
 source-git-commit: 0746a479d4e651244995a8c355ed4c58b968f0c1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1143'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -74,15 +74,15 @@ Web パーソナライズ機能を電子メールおよびその他の既知お�
 
 概要アーキテクチャ
 
-<img src="assets/RTCDP+Target.png" alt="オンライン／オフライン Web パーソナライズ機能ブループリントの参照アーキテクチャ" style="width:80%; border:1px solid #4a4a4a" />
+<img src="assets/RTCDP+Target.png" alt="オンライン／オフライン web パーソナライズ機能ブループリントの参照アーキテクチャ" style="width:80%; border:1px solid #4a4a4a" />
 
 プロセスフローアーキテクチャ
 
-<img src="assets/RTCDP+Target_flow.png" alt="オンライン／オフライン Web パーソナライズ機能ブループリントの参照アーキテクチャ" style="width:80%; border:1px solid #4a4a4a" />
+<img src="assets/RTCDP+Target_flow.png" alt="オンライン／オフライン web パーソナライズ機能ブループリントの参照アーキテクチャ" style="width:80%; border:1px solid #4a4a4a" />
 
-詳細なアーキテクチャ
+詳細アーキテクチャ
 
-<img src="assets/personalization_with_apps.png" alt="オンライン／オフライン Web パーソナライズ機能ブループリントの参照アーキテクチャ" style="width:80%; border:1px solid #4a4a4a"/>
+<img src="assets/personalization_with_apps.png" alt="オンライン／オフライン web パーソナライズ機能ブループリントの参照アーキテクチャ" style="width:80%; border:1px solid #4a4a4a"/>
 
 ## ガードレール
 
@@ -128,12 +128,12 @@ ID の前提条件
 1. Web またはモバイルアプリケーション用に [Adobe Target を実装](https://experienceleague.adobe.com/docs/target/using/implement-target/implementing-target.html?lang=ja)します
 1. [Adobe Audience Manager を実装](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/implement-audience-manager.html?lang=ja)します（オプション）
 1. [Adobe Analytics を実装](https://experienceleague.adobe.com/docs/analytics/implementation/home.html?lang=ja)します（オプション）
-1. [Experience Platform および[!UICONTROL Real-time Customer Profile]を実装します](https://experienceleague.adobe.com/docs/platform-learn/getting-started-for-data-architects-and-data-engineers/overview.html?lang=ja)
+1. [Experience Platform および [!UICONTROL Real-time Customer Profile] を実装します](https://experienceleague.adobe.com/docs/platform-learn/getting-started-for-data-architects-and-data-engineers/overview.html?lang=ja)
 1. [Experience Cloud ID サービス](https://experienceleague.adobe.com/docs/id-service/using/implementation/implementation-guides.html?lang=ja)または [Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=ja) を実装します
-1. [Real-time Customer Data Platform内でAdobe Targetを宛先として有効にする](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection.html?lang=en) オーディエンス共有アプローチの場合は [Experience PlatformとAdobe Target（共有オーディエンス）間でのオーディエンス共有用のプロビジョニングをリクエストします](https://www.adobe.com/go/audiences) を使用して、オーディエンスをExperience Platformから Target に共有できます。
+1. [Real-time Customer Data Platform 内の宛先として](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection.html?lang=ja)、またはオーディエンス共有アプローチ用に Adobe Target を有効にする [Experience Platform と Adobe Target 間のオーディエンス共有（共有オーディエンス）のプロビジョニングをリクエスト](https://www.adobe.com/go/audiences)して、Experience Platform から Target へオーディエンスを共有します。
    >[!NOTE]
    >
-   >RTCDP とAdobe Targetの間でオーディエンス共有サービスを使用する場合、Experience Cloud ID を使用してオーディエンスを共有し、同じ Experience Cloud Org に属している必要があります。ECID 以外の ID のサポートには、WebSDK と Experience Edge ネットワークを使用する必要があります。
+   >RTCDP と Adobe Target の間でオーディエンス共有サービスを使用する場合、Experience Cloud ID を使用してオーディエンスを共有し、同じ Experience Cloud Org に属している必要があります。ECID 以外の ID のサポートには、Web SDK と Experience Edge ネットワークを使用する必要があります。
 
 
 ## 関連ドキュメント
@@ -141,11 +141,11 @@ ID の前提条件
 * [Audience Manager およびその他の Experience Cloud ソリューションを使用した Experience Platform セグメント共有](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-experience-platform/aam-aep-audience-sharing.html?lang=ja)
 * [Experience Platform セグメント化の概要](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=ja)
 * [ストリーミングセグメント化](https://experienceleague.adobe.com/docs/experience-platform/segmentation/api/streaming-segmentation.html?lang=ja)
-* [Real-time Customer Data Platform用Adobe Target Connection](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection.html?lang=en)
+* [Real-time Customer Data Platform 向け Adobe Target 接続](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection.html?lang=ja)
 * [Experience Platform セグメントビルダーの概要](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=ja)
 * [Audience Manager ソースコネクタ](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/audience-manager.html?lang=ja)
 * [Adobe Audience Manager を使用した Adobe Analytics セグメント共有](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-publish.html?lang=ja)
-* [Experience Platform Web SDK ドキュメント](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html)
+* [Experience Platform Web SDK ドキュメント](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=ja)
 * [Experience Cloud ID サービスドキュメント](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=ja)
 * [Experience Platform タグドキュメント](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=ja)
 
