@@ -5,9 +5,9 @@ solution: Experience Platform, Real-time Customer Data Platform, Target, Audienc
 kt: 7086
 exl-id: 011f4909-b208-46db-ac1c-55b3671ee48c
 source-git-commit: 0415f2fb46b3a8d667c938c6ae13affb683530c6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '730'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -60,7 +60,7 @@ ht-degree: 92%
 
 * RT-CDP のオーディエンスメンバーシップは、セグメント評価が完了し、セグメント評価がバッチで行われたかストリーミングで行われたかに関わらず、リアルタイム顧客プロファイルに書き込まれるとすぐに、ストリーミング方式で Audience Manager に共有されます。選定されたプロファイルに、関連するプロファイルデバイスの地域ルーティング情報が含まれる場合、RTCDP からのオーディエンスメンバーシップは、関連する Audience Manager エッジ上でストリーミング方式で選定されます。RTCDP のプロファイルに地域ルーティング情報が含まれていない場合は、プロファイルメンバーシップが Audience Manager ハブの場所に送信され、バッチベースの評価とアクティブ化が行われます。エッジのアクティベーションの対象となるプロファイルは、RTCDP のセグメントの選定から数分以内にアクティブ化され、エッジのアクティベーションの対象とならないプロファイルは Audience Manager ハブで選定され、12～24 時間の処理期間を持つ場合があります。
 
-* プロファイルに対して Analytics データを収集するために有効にした場合、または別のプロファイルレコードクラスデータセットとして Web SDK から直接、プロファイルに対して有効にする必要がある Analytics Data Connector から収集できます。
+* プロファイルの関連デバイス情報が保存されている Audience Manager エッジの地域ルーティング情報は、Analytics データのプロファイルへの収集が有効になっている場合は、Analytics データコネクタから収集できます。プロファイルへの収集が有効になっていない場合は、別のプロファイルレコードクラスのデータセットとして Web SDK から直接収集し、その後プロファイルに対して有効にする必要があります。
 
 * Experience Platform から Audience Manager にオーディエンスが共有されるアクティベーションシナリオでは、次の ID が自動的に共有されます。IDFA、GAID、AdCloud、Google、ECID、EMAIL_LC_SHA256。現在、カスタムの名前空間は共有されません。
 
@@ -77,4 +77,4 @@ ht-degree: 92%
 
 * [[!UICONTROL Real-time Customer Data Platform] の概要](https://experienceleague.adobe.com/docs/platform-learn/tutorials/application-services/rtcdp/understanding-the-real-time-customer-data-platform.html?lang=ja)
 * [[!UICONTROL Real-time Customer Data Platform] のデモ](https://experienceleague.adobe.com/docs/platform-learn/tutorials/application-services/rtcdp/demo.html?lang=ja)
-* [セグメントの作成](https://experienceleague.adobe.com/docs/platform-learn/tutorials/segments/create-segments.html)
+* [セグメントの作成](https://experienceleague.adobe.com/docs/platform-learn/tutorials/segments/create-segments.html?lang=ja)
