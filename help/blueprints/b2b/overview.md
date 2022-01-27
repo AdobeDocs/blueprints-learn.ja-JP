@@ -3,7 +3,7 @@ title: B2B Analytics および アクティベーション
 description: Real-time Customer Data Platform​ を使用して、アカウントベースのオーディエンスと、プロファイル中心のカスタマーエクスペリエンスを提供します。
 solution: Experience Platform, Real-time Customer Data Platform
 kt: 9311
-source-git-commit: c64aa472624abd7279e9c26e2affa0878796ab33
+source-git-commit: 3b5628d856d754046b7a95ad22b660211c35260d
 workflow-type: tm+mt
 source-wordcount: '185'
 ht-degree: 95%
@@ -18,7 +18,6 @@ B2B データドリブン型マーケティングでは、オーディエンス�
 
 | ブループリント | 説明 | Experience Cloud アプリケーション |
 |---|---|---|
-
-| **[B2B アナリティクス](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/b2b.html)** | <ul><li>B2B アカウント情報をカスタマージャーニー分析に含める</li></ul>|<ul><li>Adobe Customer Journey Analytics</li></ul>|
-| **[B2B Audience アクティベーション](b2bactivation.md)** | <ul><li>Web、電子メールおよび広告チャネルにわたって B2B Audience をターゲット設定します。</li></ul>|<ul><li>Adobe Real-time Customer Data Platform B2B エディション</li></ul>|
+| **[B2B アナリティクス](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/b2b.html)** | <ul><li>B2B アカウント情報をカスタマージャーニー分析に含める</li></ul> | <ul><li>Adobe Customer Journey Analytics</li></ul> |
+| **[B2B Audience アクティベーション](b2bactivation.md)** | <ul><li>Web、電子メールおよび広告チャネルにわたって B2B Audience をターゲット設定します。</li></ul> | <ul><li>Adobe Real-time Customer Data Platform B2B エディション</li></ul> |
 
