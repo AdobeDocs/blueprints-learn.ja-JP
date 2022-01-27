@@ -1,7 +1,6 @@
 ---
-source-git-commit: 8225c25ca54acb10ff9e9dd07d869b0c9a626c0b
-workflow-type: ht
-translation-type: ht
+source-git-commit: f323d2deee5547abd0ccc8247a23ac7a144b2f07
+workflow-type: tm+mt
 source-wordcount: '430'
 ht-degree: 100%
 
@@ -22,7 +21,7 @@ ht-degree: 100%
 
 ### 軽微な変更
 
-善意で軽微な更新を行う場合は、その記事にアクセスして、「**編集**」リンクをクリックすると、その記事の GitHub ソースに移動します。その後、GitHub UI を使用して更新を行います。詳しくは、一般的な[アドビドキュメントのコントリビューターガイド](https://docs.adobe.com/content/help/ja/contributor/contributor-guide/introduction.html)を参照してください。
+善意で軽微な更新を行う場合は、その記事にアクセスして、「**編集**」リンクをクリックすると、その記事の GitHub ソースに移動します。その後、GitHub UI を使用して更新を行います。詳しくは、一般的な[アドビドキュメントのコントリビューターガイド](https://docs.adobe.com/content/help/en/contributor/contributor-guide/introduction.html)を参照してください。
 
 このリポジトリのドキュメントおよびコード例について送信した軽微な修正または説明には、アドビの利用条件が適用されます。
 
@@ -44,7 +43,7 @@ Adobe Experience Cloud ソリューションの製品チームに所属するテ
 
 コミュニティの貢献者は、GitHub UI を使用して、基本的な編集をしたり、リポジトリをフォークしたりして、大きな貢献をすることができます。
 
-詳しくは、[アドビドキュメントのコントリビューターガイド](https://docs.adobe.com/content/help/ja/contributor/contributor-guide/introduction.html)を参照してください。
+詳しくは、[アドビドキュメントのコントリビューターガイド](https://docs.adobe.com/content/help/en/contributor/contributor-guide/introduction.html)を参照してください。
 
 ## トピックをフォーマットするためのマークダウンの使用方法
 

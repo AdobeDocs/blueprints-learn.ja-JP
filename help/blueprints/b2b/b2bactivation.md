@@ -3,8 +3,8 @@ title: B2B アクティベーション
 description: Real-time Customer Data Platform を使用して、アカウントベースのオーディエンスと、プロファイル中心のカスタマーエクスペリエンスを提供します。
 solution: Experience Platform, Real-time Customer Data Platform
 kt: 9311
-source-git-commit: 733394239c4f8f647291a7dfe198b741cb21ed36
-workflow-type: ht
+source-git-commit: c64aa472624abd7279e9c26e2affa0878796ab33
+workflow-type: tm+mt
 source-wordcount: '821'
 ht-degree: 100%
 
@@ -94,7 +94,7 @@ Real-time Customer Data Platform B2B エディションの実装と設定の方�
 
 ## 関連ドキュメント
 
-* [Real-time Customer Data Platform B2B エディション](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/b2b-overview.html?lang=ja)
+* [Real-time Customer Data Platform B2B エディション](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/b2b-overview.html?lang=en)
 * [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform.html?lang=ja)
 * [Marketo Engage](https://experienceleague.adobe.com/docs/marketo/using/home.html?lang=ja)
 * [Adobe Experience Platform - Marketo ソースコネクタ](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/marketo/marketo.html?lang=ja)

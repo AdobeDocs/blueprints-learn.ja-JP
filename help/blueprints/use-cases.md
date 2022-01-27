@@ -2,8 +2,8 @@
 title: デジタルエクスペリエンスブループリントのユースケース
 description: デジタルエクスペリエンスブループリントは、戦略に取り組み、確立されたビジネス上の問題を解決するための反復可能な実装です。価値実現までの時間を短縮し、成功への近道となります。
 exl-id: 7ec2b5c9-b46c-4434-b0d3-8aba863e9006
-source-git-commit: c80967fc9463996b4a3892dd5d0e76270d9247d1
-workflow-type: ht
+source-git-commit: f323d2deee5547abd0ccc8247a23ac7a144b2f07
+workflow-type: tm+mt
 source-wordcount: '691'
 ht-degree: 100%
 

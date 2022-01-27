@@ -4,8 +4,8 @@ breadcrumb-title: 'ブループリント '
 user-guide-description: ブループリントは、既存のビジネス上の問題に対処するための反復可能な実装で、アーキテクチャ図、技術上の考慮事項および関連ドキュメントリンクが含まれます。
 product: adobe experience platform
 role: Architect, Developer, User
-source-git-commit: 12a791205a2d8ee1cd0a7184eba54340f7d9ab1d
-workflow-type: ht
+source-git-commit: a347672abe145f5cb1eedee79bc4d8d4c08d991e
+workflow-type: tm+mt
 source-wordcount: '142'
 ht-degree: 100%
 

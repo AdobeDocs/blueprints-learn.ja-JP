@@ -4,10 +4,10 @@ description: このブループリントは、Adobe Experience Platform の Data
 solution: Experience Platform,Data Collection
 kt: 7203
 exl-id: e5ec6886-4fa4-4c9b-a2d8-e843d7758669,f0efaf3c-6c4f-47c3-ab8a-e8e146dd071c
-source-git-commit: 55584ea85570bbcd4c959b0bd94b9e0bdc2e962f
-workflow-type: ht
-source-wordcount: '442'
-ht-degree: 100%
+source-git-commit: f323d2deee5547abd0ccc8247a23ac7a144b2f07
+workflow-type: tm+mt
+source-wordcount: '453'
+ht-degree: 97%
 
 ---
 
@@ -34,7 +34,7 @@ ht-degree: 100%
 1. 言語を選択します。Python と PySpark をサポートしています。
 1. ノートブックで[モデルを作成します](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-science-workspace/recipe-builder-template.html?lang=ja)。
 1. [モデルをトレーニングします](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-science-workspace/schedule-training-scoring.html?lang=ja)。
-1. [モデルをスコアリング](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-science-workspace/schedule-training-scoring.html?lang=ja)して、ターゲットデータを使用した予測を生成します。
+1. [モデルをスコアリング](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-science-workspace/schedule-training-scoring.html?lang=en)して、ターゲットデータを使用した予測を生成します。
 1. [モデル結果を[!UICONTROL リアルタイム顧客プロファイル]にプッシュする場合は、プロファイル用のモデル結果データセットを有効にします](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-science-workspace/dsw-profile-segmentation.html?lang=ja)。
 
 ## 関連ドキュメント

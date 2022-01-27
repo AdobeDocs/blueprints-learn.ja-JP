@@ -5,10 +5,10 @@ landing-page-description: Web パーソナライズ機能を電子メールお�
 solution: Experience Platform, Real-time Customer Data Platform, Target, Audience Manager, Analytics, Experience Cloud Services, Data Collection
 kt: 7194thumb-web-personalization-scenario2.jpg
 exl-id: 29667c0e-bb79-432e-af3a-45bd0b3b43bb
-source-git-commit: 0746a479d4e651244995a8c355ed4c58b968f0c1
-workflow-type: ht
-source-wordcount: '1143'
-ht-degree: 100%
+source-git-commit: a347672abe145f5cb1eedee79bc4d8d4c08d991e
+workflow-type: tm+mt
+source-wordcount: '1146'
+ht-degree: 98%
 
 ---
 
@@ -58,13 +58,13 @@ Web パーソナライズ機能を電子メールおよびその他の既知お�
     <td class="tg-0lax">2</td>
     <td class="tg-73oq">Edge アプローチを介した Target への RTCDP ストリーミングおよびバッチオーディエンス共有</td>
     <td class="tg-0lax">- Edge ネットワークを介して、RTCDP から Target へのストリーミングオーディエンスとバッチオーディエンスを共有します。リアルタイムで評価される Audience には、WebSDK と、統合パターン 3 で概要を説明したリアルタイムのオーディエンス評価が必要です。</td>
-    <td class="tg-73oq"><span style="text-decoration:none">- 現在ベータ版</span><br>- RTCDP の宛先で Target の宛先を設定する必要があります。<br>- Target との統合には、Experience Platform インスタンスと同じ IMS Org が必要です。<br>WebSDK は不要です。WebSDK および AT.js がサポートされています。<br>- AT.js を使用する場合、ECID に対するプロファイル参照のみがサポートされます。<br>- Edge 上でカスタム ID 名前空間を検索する場合は、WebSDK デプロイメントが必要です。また、各 ID を ID マップで ID として設定する必要があります。</td>
+    <td class="tg-73oq">- RTCDP の宛先でターゲットの宛先を設定する必要があります。<br>- Target との統合には、Experience Platform インスタンスと同じ IMS Org が必要です。<br>WebSDK は不要です。WebSDK および AT.js がサポートされています。<br>- AT.js を使用する場合、ECID に対するプロファイル参照のみがサポートされます。<br>- Edge 上でカスタム ID 名前空間を検索する場合は、WebSDK デプロイメントが必要です。また、各 ID を ID マップで ID として設定する必要があります。</td>
   </tr>
   <tr>
     <td class="tg-0lax">3</td>
     <td class="tg-73oq">WebSDK を使用し、Edge ネットワークを介して Target に共有される Edge に関する RTCDP のリアルタイムセグメント評価。</td>
     <td class="tg-0lax">- Edge 上で同じまたは次のページのパーソナライゼーションに対して、リアルタイムでオーディエンスを評価します。</td>
-    <td class="tg-73oq"><span style="text-decoration:none">- 現在ベータ版</span><br>- RTCDP の宛先で Target の宛先を設定する必要があります。<br>- Target との統合には、Experience Platform インスタンスと同じ IMS Org が必要です。<br>- WebSDK を実装する必要があります。<br>- API 経由でもサポートされます。</td>
+    <td class="tg-73oq">- RTCDP の宛先でターゲットの宛先を設定する必要があります。<br>- Target との統合には、Experience Platform インスタンスと同じ IMS Org が必要です。<br>- WebSDK を実装する必要があります。<br>- API 経由でもサポートされます。</td>
   </tr>
 </tbody>
 </table>
@@ -79,6 +79,11 @@ Web パーソナライズ機能を電子メールおよびその他の既知お�
 プロセスフローアーキテクチャ
 
 <img src="assets/RTCDP+Target_flow.png" alt="オンライン／オフライン web パーソナライズ機能ブループリントの参照アーキテクチャ" style="width:80%; border:1px solid #4a4a4a" />
+
+<br>
+
+<img src="assets/RTCDP+Target_sequence.png" alt="オンライン／オフライン web パーソナライズ機能ブループリントの参照アーキテクチャ" style="width:80%; border:1px solid #4a4a4a" />
+
 
 詳細アーキテクチャ
 
@@ -141,11 +146,11 @@ ID の前提条件
 * [Audience Manager およびその他の Experience Cloud ソリューションを使用した Experience Platform セグメント共有](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-experience-platform/aam-aep-audience-sharing.html?lang=ja)
 * [Experience Platform セグメント化の概要](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=ja)
 * [ストリーミングセグメント化](https://experienceleague.adobe.com/docs/experience-platform/segmentation/api/streaming-segmentation.html?lang=ja)
-* [Real-time Customer Data Platform 向け Adobe Target 接続](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection.html?lang=ja)
+* [Real-time Customer Data Platform 向け Adobe Target 接続](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection.html?lang=en)
 * [Experience Platform セグメントビルダーの概要](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=ja)
 * [Audience Manager ソースコネクタ](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/audience-manager.html?lang=ja)
 * [Adobe Audience Manager を使用した Adobe Analytics セグメント共有](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-publish.html?lang=ja)
-* [Experience Platform Web SDK ドキュメント](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=ja)
+* [Experience Platform Web SDK ドキュメント](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html)
 * [Experience Cloud ID サービスドキュメント](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=ja)
 * [Experience Platform タグドキュメント](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=ja)
 
