@@ -6,17 +6,19 @@ kt: 7200
 thumbnail: null
 exl-id: 67f7e236-4fa2-434d-af22-953e94a079c1
 source-git-commit: ad3e1a7a6a870785653394472db186c535dd814c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '107'
-ht-degree: 71%
+ht-degree: 100%
 
 ---
 
 # Adobe Experience Cloud アーキテクチャ図
 
-次のアーキテクチャ図は、Adobe Experience PlatformがAdobe Experience Cloudアプリケーションに接続し、統合して、データ、コンテンツ、エクスペリエンス配信にわたって大規模にパーソナライゼーションを実現する方法を示しています。
+以下のアーキテクチャ図に、Adobe Experience Platform が Adobe Experience Cloud アプリケーションと接続、統合して、データ、コンテンツ、エクスペリエンス配信をまたいで大規模にパーソナライゼーションを実現する方法を示します。
 
-<img src="assets/pers_at_scale.png" alt="Experience Cloud" style="width:95%; border:1px solid #4a4a4a" /><br>以下のアーキテクチャ図に、Adobe Experience Cloud アプリケーションおよび Adobe Experience Platform がエンタープライズカスタマーエクスペリエンスアーキテクチャにどのように適合するかを示します。
+<img src="assets/pers_at_scale.png" alt="Experience Cloud" style="width:95%; border:1px solid #4a4a4a" />
+<br>
+以下のアーキテクチャ図に、Adobe Experience Cloud アプリケーションおよび Adobe Experience Platform がエンタープライズカスタマーエクスペリエンスアーキテクチャにどのように適合するかを示します。
 
 <img src="assets/aec_experience_architecture.svg" alt="Experience Cloud" style="width:95%; border:1px solid #4a4a4a" />
 <br>
