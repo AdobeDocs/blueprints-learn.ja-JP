@@ -4,10 +4,10 @@ breadcrumb-title: 'ブループリント '
 user-guide-description: ブループリントは、既存のビジネス上の問題に対処するための反復可能な実装で、アーキテクチャ図、技術上の考慮事項および関連ドキュメントリンクが含まれます。
 product: adobe experience platform
 role: Architect, Developer, User
-source-git-commit: a86df4a1b2de38bcb244a6afe1cea87adc7e26fa
+source-git-commit: 66b0ceec973d31a902eef0c3a86bd7fcd51b7b8a
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '161'
+ht-degree: 86%
 
 ---
 
@@ -39,13 +39,15 @@ ht-degree: 0%
    + [概要](/help/blueprints/customer-journey-analytics/overview.md)
 + カスタマージャーニー {#customer-journeys}
    + [概要](/help/blueprints/customer-journeys/overview.md)
-   + [キャンペーン管理Cloud Services](/help/blueprints/customer-journeys/campaign.md)
-   + [Campaign v8](/help/blueprints/customer-journeys/campaign-v8.md)
-   + [Campaign v7](/help/blueprints/customer-journeys/campaign-v7.md)
-   + [Real-Time CDPを使用したキャンペーン](/help/blueprints/customer-journeys/rtcdp-and-campaign.md)
-   + [Journey Optimizerを使用したキャンペーン](/help/blueprints/customer-journeys/ajo-and-campaign.md)
-   + [Journey Optimizer](/help/blueprints/customer-journeys/journey-optimizer.md)
-   + [サードパーティのメッセージ](/help/blueprints/customer-journeys/3rd-party-messaging.md)
+   + Journey Optimizer{#journey-optimizer}
+      + [Journey Optimizer](/help/blueprints/customer-journeys/journey-optimizer.md)
+      + [Journey OptimizerとAdobe Campaign](/help/blueprints/customer-journeys/ajo-and-campaign.md)
+      + [サードパーティのメッセージ](/help/blueprints/customer-journeys/3rd-party-messaging.md)
+   + Campaign v8{#campaign-v8}
+      + [Campaign v8](/help/blueprints/customer-journeys/campaign-v8.md)
+   + Campaign v7{#campaign-v7}
+      + [Campaign v7](/help/blueprints/customer-journeys/campaign-v7.md)
+      + [Real-Time CDPとAdobe Campaign](/help/blueprints/customer-journeys/rtcdp-and-campaign.md)
 + データ収集および準備 {#data-ingestion}
    + [概要](/help/blueprints/data-ingestion/overview.md)
    + [データ準備および取り込み](/help/blueprints/data-ingestion/ingestion.md)

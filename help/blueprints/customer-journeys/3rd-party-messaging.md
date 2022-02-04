@@ -2,12 +2,10 @@
 title: Journey Optimizer — サードパーティのメッセージングブループリント
 description: Adobe Journey Optimizerをサードパーティのメッセージングシステムと共に使用して、パーソナライズされた通信を調整および送信する方法を示します。
 solution: Experience Platform, Journey Optimizer
-hidefromtoc: true
-exl-id: 57e4d90a-61c9-444d-9bc5-40c7e58b4d21
-source-git-commit: 13f750c0ff820ab01ed4fc615aba864bc2dc7b75
+source-git-commit: 1c46cbdfc395de4fc9139966cf869ba1feeceaaa
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '829'
+ht-degree: 33%
 
 ---
 

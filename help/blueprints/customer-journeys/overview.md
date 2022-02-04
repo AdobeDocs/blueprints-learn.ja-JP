@@ -5,10 +5,10 @@ solution: Experience Platform, Campaign v8, Campaign Classic v7, Campaign Standa
 kt: null
 thumbnail: null
 exl-id: 273d024f-a220-4336-89f2-e3bffafcdc37
-source-git-commit: 6ffa7b7025bd143c9c02f4708a96207141b841e6
+source-git-commit: 5e27cc2f0114e404c6b6bb1e6f88a79d762f9e03
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '258'
+ht-degree: 46%
 
 ---
 
@@ -20,7 +20,8 @@ ht-degree: 0%
 
 <ul><li>Adobe Campaign Managed Cloud Services</li><li>Adobe Journey Optimizer</li></ul>
 
-| ブループリント | 説明 | Experience Cloud アプリケーション |
+| ブループリント | 説明 | アーキテクチャ |
 |---|---|---|
-| **[Adobe Campaign Managed Cloud Services](campaign.md)** | IT システムの実行に伴う負担と複雑さを軽減し、マーケターが E メール、SMS、ダイレクトメールなどのチャネルをまたいでバッチベースのマーケティングキャンペーンを構築できるようにする、従来のキャンペーンアプリケーションです。 お客様は、複雑なデータ管理プロセスと豊富なマーケティングキャンペーンコミュニケーションを組み合わせることができます。 | Adobe Campaign v8<br>Adobe Campaign v7<br>Adobe Campaign Standard |
-| **[Journey Optimizer](journey-optimizer.md)** | Experience Platformに基づいてネイティブに構築されたリアルタイム顧客プロファイルを使用すると、マーケティングチームはリアルタイムで顧客行動を変え、いつでも任意のチャネルでの顧客行動に応えることができます | Adobe Experience Platform<br>Adobe Journey Optimizer |
+| **[Journey Optimizer](journey-optimizer.md)** | Experience Platformに基づいてネイティブに構築されたリアルタイム顧客プロファイルを使用すると、マーケティングチームはリアルタイムで顧客行動を変え、いつでも任意のチャネルでの顧客行動に応えることができます | <img src="assets/ajo-architecture.svg" alt="Journey Optimizer Blueprint の参照アーキテクチャ" style="width:75%; border:1px solid #4a4a4a" /> |
+| **[Adobe Campaign v8](campaign-v8.md)** | 非常に複雑なデータ管理とキャンペーンプロセスに最適化された次世代キャンペーンツール。 顧客が、Discover と豊富なマーケティングキャンペーンコミュニケーションを組み合わせて作成できる | <img src="assets/campaign-v8-architecture.svg" alt="Campaign v8 ブループリントのリファレンスアーキテクチャ" style="width:75%; border:1px solid #4a4a4a" /> |
+| **[Adobe Campaign v7](campaign-v7.md)** | E メール、SMS、ダイレクトメールなど、複数のチャネルをまたいだバッチベースのマーケティングキャンペーン用に構築された従来のキャンペーンツールです。 お客様は、1 か所で様々な顧客コミュニケーションを調整および管理できます。 | <img src="assets/campaign-v7-architecture.svg" alt="Campaign v7 ブループリントのリファレンスアーキテクチャ" style="width:75%; border:1px solid #4a4a4a" /> |
