@@ -2,9 +2,10 @@
 title: Campaign v7 ブループリント
 description: Adobe Campaign v7 は、電子メールやダイレクトメールなどの従来のマーケティングチャネル用に構築されたキャンペーンツールです。 堅牢な ETL およびデータ管理機能を提供し、最適なキャンペーンの作成とキュレーションを支援します。 そのオーケストレーションエンジンは、バッチベースのジャーニーに重点を置いた、豊富なマルチタッチマーケティングプログラムを提供します。  また、マーケティングチームが、パスワードのリセット、注文の確認、電子メールの受信などに関して、あらゆる IT システムの包括的なペイロードに基づいて事前に定義されたメッセージを送信できるリアルタイムメッセージングサーバーと組み合わせています。
 solution: Campaign Classic v7
-source-git-commit: 1c46cbdfc395de4fc9139966cf869ba1feeceaaa
+exl-id: 71c808f5-59e6-4f49-a6ba-581ed508bc04
+source-git-commit: 0c072465c2cac954631fe3a8dbdcef280ee397ab
 workflow-type: tm+mt
-source-wordcount: '1236'
+source-wordcount: '1193'
 ht-degree: 3%
 
 ---
@@ -35,7 +36,7 @@ Adobe Campaign v7 は、電子メールやダイレクトメールなどの従�
 | シナリオ | 説明 | 機能 |
 | :-- | :--- | :--- |
 | [Journey OptimizerとAdobe Campaign](ajo-and-campaign.md) | Adobe Journey Optimizerを使用して、リアルタイム顧客プロファイルを利用して 1:1 エクスペリエンスの調整をおこない、ネイティブのAdobe Campaignトランザクションメッセージングシステムを活用してメッセージを送信する方法を示します | Adobe Campaignのネイティブリアルタイムメッセージング機能を利用してラストマイル通信を実行しながら、リアルタイム顧客プロファイルとJourney Optimizerの機能を活用して、瞬時のエクスペリエンスで調整<br><br>注意点：<br><ul><li>リアルタイムメッセージサーバーを介して 1 時間に最大 50,000 件のメッセージを送信可能<li>Journey Optimizerからのスロットルは実行されないので、プリセールスのエンタープライズアーキテクトが技術的な検証を行う</li><li>offer decisioningは、Campaign v7 リアルタイムメッセージングサーバーへのペイロードでサポートされていません</li></ul> |
-| [Real-Time CDPとAdobe Campaign](rtcdp-and-campaign.md) | Adobe Experience PlatformのReal-Time CDPとその一元化されたセグメント化ツールをAdobe Campaignと共に使用して、パーソナライズされた会話を提供する方法を紹介します | <ul><li>製品化された宛先を介して、Experience PlatformからAdobe Campaign v8 にネイティブにオーディエンスを共有</li><li>顧客の会話から配信およびインタラクションデータをExperience Platformに取り込み、リアルタイム顧客プロファイルを強化し、メッセージングキャンペーンに関するクロスチャネルレポートを提供するネイティブサポート</li></ul> |
+| [Real-Time CDPとAdobe Campaign](rtcdp-and-campaign.md) | Adobe Experience PlatformのReal-Time CDPとその一元化されたセグメント化ツールをAdobe Campaignと共に使用して、パーソナライズされた会話を提供する方法を紹介します | <ul><li>クラウドストレージのファイル交換ワークフローとAdobe Campaign取り込みワークフローを使用した、Real-Time CDPからAdobe Campaignへのオーディエンスの共有 </li><li>顧客との会話からAdobe Campaignのリアルタイム CDP に配信およびインタラクションデータを簡単に共有して、リアルタイム顧客プロファイルを強化し、メッセージングキャンペーンに関するクロスチャネルレポートを提供します。</li></ul> |
 
 <br>
 
@@ -88,9 +89,7 @@ Adobe Campaign v7 は、電子メールやダイレクトメールなどの従�
 ### リアルタイムメッセージングサーバーのサイズ設定
 
 * 1 時間に最大 50,000 件のメッセージを送信可能
-* デフォルトでは、1 台のリアルタイムメッセージングサーバーのみがプロビジョニングされます。 これは、24 時間で期限切れになるセッショントークンを介して、サーバーとの通信が確実におこなわれるようにするためです
-* オプションで、最大 8 台のリアルタイムメッセージングサーバーをデプロイできますが、認証ではユーザー/パスのみがサポートされます
-* 推奨されるアプローチは、常に 1 つのリアルタイムメッセージングサーバーを利用して、可能な限りセッショントークンベースの認証を活用することです
+* デフォルトでは、2 つのリアルタイムメッセージングサーバーがプロビジョニングされます。 最大 8 台のリアルタイムメッセージングサーバを拡張可能
 
 ### SMS 設定
 
