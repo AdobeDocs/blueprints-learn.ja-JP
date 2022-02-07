@@ -4,10 +4,10 @@ description: オンライン／オフラインオーディエンスアクティ�
 solution: Experience Platform, Real-time Customer Data Platform, Target, Audience Manager, Analytics, Experience Cloud Services, Data Collection
 kt: 7086
 exl-id: 011f4909-b208-46db-ac1c-55b3671ee48c
-source-git-commit: a347672abe145f5cb1eedee79bc4d8d4c08d991e
+source-git-commit: c4adcc5d23bb0482a348d7b5b2b70b06ff2873e8
 workflow-type: tm+mt
-source-wordcount: '730'
-ht-degree: 100%
+source-wordcount: '764'
+ht-degree: 79%
 
 ---
 
@@ -58,9 +58,9 @@ ht-degree: 100%
 
 ### Real-time Customer Data Platform から Audience Manager へのオーディエンスの共有
 
-* RT-CDP のオーディエンスメンバーシップは、セグメント評価が完了し、セグメント評価がバッチで行われたかストリーミングで行われたかに関わらず、リアルタイム顧客プロファイルに書き込まれるとすぐに、ストリーミング方式で Audience Manager に共有されます。選定されたプロファイルに、関連するプロファイルデバイスの地域ルーティング情報が含まれる場合、RTCDP からのオーディエンスメンバーシップは、関連する Audience Manager エッジ上でストリーミング方式で選定されます。RTCDP のプロファイルに地域ルーティング情報が含まれていない場合は、プロファイルメンバーシップが Audience Manager ハブの場所に送信され、バッチベースの評価とアクティブ化が行われます。エッジのアクティベーションの対象となるプロファイルは、RTCDP のセグメントの選定から数分以内にアクティブ化され、エッジのアクティベーションの対象とならないプロファイルは Audience Manager ハブで選定され、12～24 時間の処理期間を持つ場合があります。
+* RT-CDP のオーディエンスメンバーシップは、セグメント評価が完了し、セグメント評価がバッチで行われたかストリーミングで行われたかに関わらず、リアルタイム顧客プロファイルに書き込まれるとすぐに、ストリーミング方式で Audience Manager に共有されます。選定されたプロファイルに、関連するプロファイルデバイスの地域ルーティング情報が含まれる場合、RTCDP からのオーディエンスメンバーシップは、関連する Audience Manager エッジ上でストリーミング方式で選定されます。If the regional routing information was applied to a profile with a timestamp in the past 14 days it will be evaluate on the Audience Manager Edge in streaming. If the profiles from RTCDP do not contain regional routing information or the regional routing information is greater than 14 days old, then the profile memberships are sent to the Audience Manager hub location for batch based evaluation and activation. Profiles that are eligible for Edge activation will activate within minutes of segment qualification from RTCDP, profiles that do not qualify for Edge activation will qualify in the Audience Manager hub and may have a 12-24 hour timeframe for processing.
 
-* プロファイルの関連デバイス情報が保存されている Audience Manager エッジの地域ルーティング情報は、Analytics データのプロファイルへの収集が有効になっている場合は、Analytics データコネクタから収集できます。プロファイルへの収集が有効になっていない場合は、別のプロファイルレコードクラスのデータセットとして Web SDK から直接収集し、その後プロファイルに対して有効にする必要があります。
+* Regional routing information for which Edge the Audience Manager profile is stored on can be collected to Experience Platform from Audience Manager, the Visitor ID Service, Analytics, Launch, or directly from the Web SDK as a separate profile record class dataset using the &quot;data capture region information&quot; XDM field group.
 
 * Experience Platform から Audience Manager にオーディエンスが共有されるアクティベーションシナリオでは、次の ID が自動的に共有されます。IDFA、GAID、AdCloud、Google、ECID、EMAIL_LC_SHA256。現在、カスタムの名前空間は共有されません。
 
