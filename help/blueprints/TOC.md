@@ -3,13 +3,15 @@ user-guide-title: デジタルエクスペリエンスブループリント
 breadcrumb-title: 'ブループリント '
 user-guide-description: ブループリントは、既存のビジネス上の問題に対処するための反復可能な実装で、アーキテクチャ図、技術上の考慮事項および関連ドキュメントリンクが含まれます。
 product: adobe experience platform
+mini-toc-levels: 3
 role: Architect, Developer, User
-source-git-commit: 66b0ceec973d31a902eef0c3a86bd7fcd51b7b8a
+source-git-commit: 28774e211ceedec2e099abbe0dbfee91267bda21
 workflow-type: tm+mt
-source-wordcount: '161'
-ht-degree: 86%
+source-wordcount: '172'
+ht-degree: 78%
 
 ---
+
 
 # デジタルエクスペリエンスブループリント {#architecture}
 
@@ -28,7 +30,9 @@ ht-degree: 86%
 + Audience および Profile アクティベーション {#audience-activation}
    + [概要](/help/blueprints/audience-activation/overview.md)
    + [匿名 Audience アクティベーション](/help/blueprints/audience-activation/anonymous.md)
-   + [オンラインとオフラインのデータを使用したアクティベーション](/help/blueprints/audience-activation/online-offline.md)
+   + [ソーシャルおよび広告チャネルに対するアクティベーション]{#audience-activation}
+      + [オンラインおよびオフラインのデータを使用したアクティベーション](/help/blueprints/audience-activation/online-offline.md)
+      + [facebook Custom Audiences へのアクティベーション](/help/blueprints/audience-activation/destinations/facebook.md)
    + [ファイルとエンタープライズストリーミング宛先に対するアクティベーション](/help/blueprints/audience-activation/enterprise-destinations.md)
    + [Experience Cloud アプリケーションを使用したアクティベーション](/help/blueprints/audience-activation/platform-and-applications.md)
    + [顧客アクティビティハブ](/help/blueprints/audience-activation/customer-activity.md)
@@ -61,4 +65,3 @@ ht-degree: 86%
    + [概要](/help/blueprints/web-personalization/overview.md)
    + [行動によるパーソナライズ機能](/help/blueprints/web-personalization/behavioral.md)
    + [オンラインとオフラインのデータを使用したパーソナライゼーション](/help/blueprints/web-personalization/online-offline.md)
-
