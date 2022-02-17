@@ -5,7 +5,7 @@ user-guide-description: ブループリントは、既存のビジネス上の�
 product: adobe experience platform
 mini-toc-levels: 3
 role: Architect, Developer, User
-source-git-commit: 28774e211ceedec2e099abbe0dbfee91267bda21
+source-git-commit: a61fa9d1c6a77e9eb32ff363f724de92fbac8585
 workflow-type: tm+mt
 source-wordcount: '172'
 ht-degree: 78%
@@ -30,8 +30,8 @@ ht-degree: 78%
 + Audience および Profile アクティベーション {#audience-activation}
    + [概要](/help/blueprints/audience-activation/overview.md)
    + [匿名 Audience アクティベーション](/help/blueprints/audience-activation/anonymous.md)
-   + [ソーシャルおよび広告チャネルに対するアクティベーション]{#audience-activation}
-      + [オンラインおよびオフラインのデータを使用したアクティベーション](/help/blueprints/audience-activation/online-offline.md)
+   + [オンラインおよびオフラインのデータを使用したアクティベーション](/help/blueprints/audience-activation/online-offline.md)
+   + ソーシャルおよび広告チャネルに対するアクティベーション{#audience-activation}
       + [facebook Custom Audiences へのアクティベーション](/help/blueprints/audience-activation/destinations/facebook.md)
    + [ファイルとエンタープライズストリーミング宛先に対するアクティベーション](/help/blueprints/audience-activation/enterprise-destinations.md)
    + [Experience Cloud アプリケーションを使用したアクティベーション](/help/blueprints/audience-activation/platform-and-applications.md)
