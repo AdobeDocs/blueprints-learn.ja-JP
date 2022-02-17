@@ -4,9 +4,9 @@ description: オンライン／オフラインオーディエンスアクティ�
 solution: Experience Platform, Real-time Customer Data Platform, Target, Audience Manager, Analytics, Experience Cloud Services, Data Collection
 kt: 7086
 exl-id: 011f4909-b208-46db-ac1c-55b3671ee48c
-source-git-commit: c4adcc5d23bb0482a348d7b5b2b70b06ff2873e8
+source-git-commit: 53ef83cbaa9dde0793e379c0044f449cfca078ab
 workflow-type: tm+mt
-source-wordcount: '764'
+source-wordcount: '743'
 ht-degree: 79%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 79%
 
 既知のプロファイルベースの宛先（電子メールプロバイダー、ソーシャルネットワーク、広告など）に対して、オーディエンスをアクティブ化します。
 
-オンラインとオフラインのデータを使用したアクティベーションブループリントは、[Experience Cloud アプリケーションを使用したオーディエンスとプロファイルのアクティベーションブループリント](platform-and-applications.md)と密接に連携しています。追加の詳細は、Experience Platform と Experience Cloud アプリケーションの間の統合に特有な、[Experience Cloud アプリケーションを使用したオーディエンスとプロファイルのアクティベーションブループリント](platform-and-applications.md)で提供されます。
+追加の詳細は、Experience Platform と Experience Cloud アプリケーションの間の統合に特有な、[Experience Cloud アプリケーションを使用したオーディエンスとプロファイルのアクティベーションブループリント](platform-and-applications.md)で提供されます。
 
 ## ユースケース
 
@@ -58,9 +58,9 @@ ht-degree: 79%
 
 ### Real-time Customer Data Platform から Audience Manager へのオーディエンスの共有
 
-* RT-CDP のオーディエンスメンバーシップは、セグメント評価が完了し、セグメント評価がバッチで行われたかストリーミングで行われたかに関わらず、リアルタイム顧客プロファイルに書き込まれるとすぐに、ストリーミング方式で Audience Manager に共有されます。選定されたプロファイルに、関連するプロファイルデバイスの地域ルーティング情報が含まれる場合、RTCDP からのオーディエンスメンバーシップは、関連する Audience Manager エッジ上でストリーミング方式で選定されます。If the regional routing information was applied to a profile with a timestamp in the past 14 days it will be evaluate on the Audience Manager Edge in streaming. If the profiles from RTCDP do not contain regional routing information or the regional routing information is greater than 14 days old, then the profile memberships are sent to the Audience Manager hub location for batch based evaluation and activation. Profiles that are eligible for Edge activation will activate within minutes of segment qualification from RTCDP, profiles that do not qualify for Edge activation will qualify in the Audience Manager hub and may have a 12-24 hour timeframe for processing.
+* RT-CDP のオーディエンスメンバーシップは、セグメント評価が完了し、セグメント評価がバッチで行われたかストリーミングで行われたかに関わらず、リアルタイム顧客プロファイルに書き込まれるとすぐに、ストリーミング方式で Audience Manager に共有されます。選定されたプロファイルに、関連するプロファイルデバイスの地域ルーティング情報が含まれる場合、RTCDP からのオーディエンスメンバーシップは、関連する Audience Manager エッジ上でストリーミング方式で選定されます。地域ルーティング情報が過去 14 日間のタイムスタンプを持つプロファイルに適用された場合、ストリーミングのAudience Managerエッジで評価されます。 RTCDP からのプロファイルに地域ルーティング情報が含まれていない場合、または地域ルーティング情報が 14 日以上前にある場合、プロファイルメンバーシップはAudience Managerハブの場所に送信され、バッチベースの評価とアクティブ化がおこなわれます。 エッジのアクティベーションの対象となるプロファイルは、RTCDP からのセグメント認定から数分以内にアクティブ化され、エッジのアクティベーションの対象とならないプロファイルはAudience Managerハブで認定され、12～24 時間の処理期間を持つ場合があります。
 
-* Regional routing information for which Edge the Audience Manager profile is stored on can be collected to Experience Platform from Audience Manager, the Visitor ID Service, Analytics, Launch, or directly from the Web SDK as a separate profile record class dataset using the &quot;data capture region information&quot; XDM field group.
+* Audience Managerプロファイルが格納されているエッジの地域ルーティング情報は、Audience Manager、訪問者 ID サービス、Analytics、Launch からExperience Platformに収集したり、「data capture region information」XDM フィールドグループを使用して、Web SDK から直接収集したりできます。
 
 * Experience Platform から Audience Manager にオーディエンスが共有されるアクティベーションシナリオでは、次の ID が自動的に共有されます。IDFA、GAID、AdCloud、Google、ECID、EMAIL_LC_SHA256。現在、カスタムの名前空間は共有されません。
 
