@@ -1,79 +1,93 @@
 ---
-title: オンラインとオフラインのデータを使用したアクティベーションブループリント
-description: オンライン／オフラインオーディエンスアクティベーション。
-solution: Experience Platform, Real-time Customer Data Platform, Target, Audience Manager, Analytics, Experience Cloud Services, Data Collection
+title: Google Customer Match へのアクティベーション
+description: Google Customer Match へのアクティベーション。
+solution: Experience Platform, Real-time Customer Data Platform, Data Collection
 kt: 7086
-source-git-commit: f1477d39a2b2349708ad74625bab6c5f4012ae1e
+source-git-commit: 0a0181a5fd84a645344fadefd47838237807c97c
 workflow-type: tm+mt
-source-wordcount: '743'
-ht-degree: 79%
+source-wordcount: '1010'
+ht-degree: 3%
 
 ---
 
-# オンラインとオフラインのデータを使用したアクティベーションブループリント
 
-オンライン行動と共に、オフライン属性およびイベント（オフラインの注文、トランザクション、CRM、ロイヤリティデータなど）を、オンラインターゲティングとパーソナライズ機能に使用します。
+# Google Customer Match へのアクティベーション
 
-既知のプロファイルベースの宛先（電子メールプロバイダー、ソーシャルネットワーク、広告など）に対して、オーディエンスをアクティブ化します。
-
-追加の詳細は、Experience Platform と Experience Cloud アプリケーションの間の統合に特有な、[Experience Cloud アプリケーションを使用したオーディエンスとプロファイルのアクティベーションブループリント](platform-and-applications.md)で提供されます。
+複数のソースから顧客データを取り込んで、顧客の単一のプロファイル表示を作成し、マーケティングやパーソナライゼーション用に作成したオーディエンスにセグメント化し、Google Customer Match などの Social Ad Networks と共有します。 Google Customer Match を使用すると、オンラインとオフラインのデータを使用して、次のようなGoogleの所有および運用するプロパティをまたいで、顧客にリーチし、再び関与させることができます。検索、ショッピング、Gmail、YouTube。
 
 ## ユースケース
 
 * ソーシャルおよび広告の宛先の既知のオーディエンスに対するオーディエンスターゲティング。
 * オンラインおよびオフライン属性を使用したオンラインパーソナライズ機能。
-* 既知のチャネル（電子メール、SMS など）に対するオーディエンスをアクティブ化。
 
 ## アプリケーション
 
-* Adobe Experience Platform
-* [!UICONTROL Real-time Customer Data Platform]
+* リアルタイム顧客データプラットフォーム
 
-## アーキテクチャ
+## 構造
 
-### 宛先を使用したオンラインとオフラインのデータのアクティベーション
-
-<img src="assets/online_offline_activation.svg" alt="オンライン／オフラインオーディエンスアクティベーションブループリントの参照アーキテクチャ" style="width:80%; border:1px solid #4a4a4a" />
-<br>
-
-## ガードレール
-
-[オーディエンスとプロファイルのアクティベーションの概要ページに説明されているガードレールを参照してください。](overview.md)
+<img src="../assets/gcm.png" alt="Google Customer Match Activation の参照アーキテクチャ" style="width:80%; border:1px solid #4a4a4a" />
 
 ## 実装手順
 
-1. データを取り込むために[スキーマを作成](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2021.1.xdm)します。
-1. データを取り込むために[データセットを作成](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/create-datasets-and-ingest-data.html?lang=ja)します。
-1. 取り込まれたデータが統合プロファイルに確実にステッチできるようにするために、スキーマに[正しい ID および ID 名前空間を設定します](https://experienceleague.adobe.com/docs/platform-learn/tutorials/identities/label-ingest-and-verify-identity-data.html?lang=ja)。
-1. [プロファイル用のスキーマおよびデータセットを有効にします](https://experienceleague.adobe.com/docs/platform-learn/tutorials/profiles/bring-data-into-the-real-time-customer-profile.html?lang=ja)。
-1. Experience Platform に[データを取り込みます](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2020.1.dataingestion&amp;lang=ja)。
-1. Experience Platform で定義されたオーディエンスが Audience Manager に共有されるように、[Experience Platform と Audience Manager の間の [!UICONTROL Real-time Customer Data Platform の]セグメント共有を](https://www.adobe.com/go/audiences)プロビジョニングします。
-1. Experience Platform で[セグメントを作成します。](https://experienceleague.adobe.com/docs/platform-learn/tutorials/segments/create-segments.html?lang=ja)セグメントをバッチとして、またはストリーミングとして評価するかを、システムが自動的に判定します。
-1. プロファイル属性およびオーディエンスメンバーシップを目的の宛先に共有するための[宛先を設定します。](https://experienceleague.adobe.com/docs/platform-learn/tutorials/destinations/create-destinations-and-activate-data.html?lang=ja)
+1. プロファイルデータソースで使用する ID 名前空間を設定します。
+   * 標準の名前空間（電子メール、Email SHA256 Hash など）を使用します（使用可能な場合）。
+   * Google Customer Match には、サポートされている ID のリストが含まれています。 Google Customer Match に対してアクティブ化するには、アクティブ化するプロファイルに、サポートされている ID の 1 つが存在する必要があります。
+   * 現在、Google Customer Match では次の ID がサポートされています。GAID、IDFA、phone_sha256_e.164、email_lc_sha256、user_id。
+   * 詳しくは、 [Google Customer Match Destination Guide](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/google-customer-match.html).
+   * 標準の名前空間が適用可能な ID で使用できないカスタム名前空間を作成します。
+1. プロファイルデータソーススキーマとデータセットを設定します。
+   * すべてのプロファイルレコードソースデータのプロファイルレコードスキーマを作成します。
+      * 各スキーマのプライマリ ID とセカンダリ ID を指定します。
+      * プロファイル取り込み用にスキーマを有効にします。
+   * すべてのプロファイルレコードソースデータのプロファイルレコードデータセットを作成し、関連するスキーマを割り当てます。
+      * プロファイル取り込み用にデータセットを有効にします。
+   * すべてのプロファイル時系列ベースのソースデータ用に、プロファイルエクスペリエンスイベントスキーマを作成します。
+      * スキーマのプライマリ ID とセカンダリ ID を指定します。
+   * プロファイル取り込み用にスキーマを有効にします。
+   * すべてのプロファイルエクスペリエンスイベントソースデータのプロファイルエクスペリエンスイベントデータセットを作成し、関連するスキーマを割り当てます。
+      * プロファイル取り込み用にデータセットを有効にします。
+1. ソースコネクタを使用してソースデータを取り込み、上で設定した関連付けられたデータセットに取り込みます。
+   * 資格情報を使用してソースコネクタアカウントを設定します。
+   * データフローを設定して、指定したスケジュールでソースファイルまたはフォルダーの場所から指定したデータセットにデータを取り込みます。
+   * ソースデータのフィールドをターゲットスキーマにマッピングします。
+   * フィールドを変換して、Experience Platformに取り込むための正しい形式にします。
+      * 日付変換
+      * 必要に応じて小文字に変換（電子メールアドレスなど）
+      * パターン変換（電話番号など）
+      * エクスペリエンスイベントレコードに一意のレコード ID が存在しない場合は、その ID をソースデータに追加します。
+      * 配列とマップタイプのフィールドを変換し、配列とマップの正しいマッピングとモデリングを、Experience Platformでのセグメント化に使用できるようにします。
+1. ID グラフの正しい設定と、プロファイルの結合に含めるデータセットが正しく設定されていることを確認するには、プロファイル結合ポリシーを設定します。
+1. データフローの実行後、プロファイルデータの取り込みが成功し、エラーが発生しなかったことを確認します。
+   * Inspect ID の関係を正しく処理するための、複数のプロファイルの ID グラフ。
+   * Inspectを使用して、複数のプロファイルの属性とイベントを設定し、属性とイベントをプロファイルに正しく取り込むようにします。
+1. セグメントを作成してプロファイルオーディエンスを作成する
+   * 属性とイベントに対するルールを使用して、セグメントビルダーでセグメントを作成します。
+   * セグメントを保存して評価します。 セグメントは、指定されたスケジュールで 1 日 1 回評価されます。
+      * セグメントルールがストリーミングセグメント化の対象である場合、新しいストリーミングデータがプロファイルに取り込まれると、セグメントは評価されます。 ストリーミングセグメントも、スケジュールされたバッチセグメント化の間、1 日に 1 回評価されます。
+1. セグメントの結果が期待どおりであることを確認します。
+   * 指定したセグメントのセグメント結果数を確認します。
+   * セグメントに含める必要があるプロファイルを調べて、セグメントメンバーシップがプロファイルのセグメントメンバーシップ部分に含まれていることを確認します。
+1. オーディエンスの宛先への配信を「宛先」設定で設定します。
+   * 詳しくは、 [Google Customer Match Destination Guide](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/google-customer-match.html) facebookの宛先の設定について詳しくは、を参照してください。
+   * 宛先を設定する際に、宛先に対してアクティブ化するオーディエンスを選択します。
+   * 宛先へのオーディエンスの配信を開始する、宛先データフローのスケジュールされた開始日を決定します。
+   * 各宛先には、送信する必要な属性とオプションの属性があります。
+      * Googleカスタマーマッチの場合は、必要な ID の 1 つを含める必要があります。また、は、Experience Platform内のオーディエンスのプロファイルを、Googleカスタマーマッチでターゲット設定できるプロファイルと照合するために使用します。
+   * 各宛先には、ストリーミング、バッチ、ファイルベース、JSON ペイロードのどちらでも、指定された配信タイプがあります。
+      * Googleカスタマーマッチの場合、オーディエンスメンバーシップは、JSON 形式のGoogleカスタマーマッチエンドポイントにストリーミング方式で配信されます。
+      * オーディエンスメンバーシップは、ストリーミングまたはバッチセグメント化の評価の後に、Experience Platformでストリーミング方式で配信されます。
+1. 宛先フローによって、オーディエンスが期待どおりに宛先に配信されたことを確認します。
+   * 監視インターフェイスをチェックして、オーディエンスが予想されるプロファイル数で配信されたことを確認します。 オーディエンスサイズは、アクティブ化されたプロファイルの想定される数を反映する必要があります。Google Customer Match などの特定の宛先には E メールハッシュ ID などの特定のフィールドが必要で、オーディエンスのメンバーであるプロファイルに存在しない場合は、宛先に対して有効化されません。
+   * スキップされたプロファイル ID がないか、必須の属性がないプロファイル ID を確認します。
+   * 解決が必要なその他のエラーがないかを確認します。
+1. オーディエンスが、期待される数のオーディエンスメンバーシップで終了先に対してアクティブ化されたことを確認します。
+   * アクティベーションフローが完了したら、Google Ads アカウントに切り替えます。 アクティブ化されたセグメントは、顧客リストとしてGoogleアカウントに表示されます。 なお、一部のオーディエンスは、セグメントサイズに応じて、提供するアクティブユーザーが 100 人を超えない限り、設定されません。
 
-## 実装に関する考慮事項
+## ガードレール
 
-* プロファイルデータを宛先に共有するには、宛先ペイロードの宛先で使用される特定の ID 値を含める必要があります。ターゲットの宛先に必要な ID は、Platform に取り込まれ、[!UICONTROL リアルタイム顧客プロファイル]の ID として設定される必要があります。
-
-### Real-time Customer Data Platform から Audience Manager へのオーディエンスの共有
-
-* RT-CDP のオーディエンスメンバーシップは、セグメント評価が完了し、セグメント評価がバッチで行われたかストリーミングで行われたかに関わらず、リアルタイム顧客プロファイルに書き込まれるとすぐに、ストリーミング方式で Audience Manager に共有されます。選定されたプロファイルに、関連するプロファイルデバイスの地域ルーティング情報が含まれる場合、RTCDP からのオーディエンスメンバーシップは、関連する Audience Manager エッジ上でストリーミング方式で選定されます。地域ルーティング情報が過去 14 日間のタイムスタンプを持つプロファイルに適用された場合、ストリーミングのAudience Managerエッジで評価されます。 RTCDP からのプロファイルに地域ルーティング情報が含まれていない場合、または地域ルーティング情報が 14 日以上前にある場合、プロファイルメンバーシップはAudience Managerハブの場所に送信され、バッチベースの評価とアクティブ化がおこなわれます。 エッジのアクティベーションの対象となるプロファイルは、RTCDP からのセグメント認定から数分以内にアクティブ化され、エッジのアクティベーションの対象とならないプロファイルはAudience Managerハブで認定され、12～24 時間の処理期間を持つ場合があります。
-
-* Audience Managerプロファイルが格納されているエッジの地域ルーティング情報は、Audience Manager、訪問者 ID サービス、Analytics、Launch からExperience Platformに収集したり、「data capture region information」XDM フィールドグループを使用して、Web SDK から直接収集したりできます。
-
-* Experience Platform から Audience Manager にオーディエンスが共有されるアクティベーションシナリオでは、次の ID が自動的に共有されます。IDFA、GAID、AdCloud、Google、ECID、EMAIL_LC_SHA256。現在、カスタムの名前空間は共有されません。
-
-必須の宛先 ID が[!UICONTROL リアルタイム顧客プロファイル]に含まれている場合、または[!UICONTROL リアルタイム顧客プロファイル]内の ID が Audience Manager でリンクされる必須の宛先 ID と関連付けられる場合、Experience Platform からのオーディエンスは、Audience Manager 宛先を使用して共有できます。
+[プロファイルとセグメント化ガードレール](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=ja)
 
 ## 関連ドキュメント
 
-* [[!UICONTROL Real-time Customer Data Platform] 製品説明](https://helpx.adobe.com/jp/legal/product-descriptions/real-time-customer-data-platform.html)
-* [プロファイルおよびセグメント化ガイドライン](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=ja)
-* [セグメント化ドキュメント](https://experienceleague.adobe.com/docs/experience-platform/segmentation/api/streaming-segmentation.html?lang=ja)
-* [宛先ドキュメント](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/overview.html?lang=ja)
-
-## 関連ビデオおよびチュートリアル
-
-* [[!UICONTROL Real-time Customer Data Platform] の概要](https://experienceleague.adobe.com/docs/platform-learn/tutorials/application-services/rtcdp/understanding-the-real-time-customer-data-platform.html?lang=ja)
-* [[!UICONTROL Real-time Customer Data Platform] のデモ](https://experienceleague.adobe.com/docs/platform-learn/tutorials/application-services/rtcdp/demo.html?lang=ja)
-* [セグメントの作成](https://experienceleague.adobe.com/docs/platform-learn/tutorials/segments/create-segments.html)
+Google Customer Match へのアクティベーション — [宛先の設定](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/google-customer-match.html)

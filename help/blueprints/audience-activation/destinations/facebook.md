@@ -3,13 +3,13 @@ title: facebook Custom Audiences へのアクティベーション
 description: facebook Custom Audiences へのアクティベーション。
 solution: Experience Platform, Real-time Customer Data Platform, Data Collection
 kt: 7086
-source-git-commit: f1477d39a2b2349708ad74625bab6c5f4012ae1e
+exl-id: b75a7a01-04ba-4617-960d-f73f7a9cc6c7
+source-git-commit: 051b094412419363e5e2406f2e436cc528bd409e
 workflow-type: tm+mt
-source-wordcount: '963'
+source-wordcount: '957'
 ht-degree: 3%
 
 ---
-
 
 # facebook Custom Audiences へのアクティベーション
 
@@ -18,7 +18,10 @@ ht-degree: 3%
 ## ユースケース
 
 * ソーシャルおよび広告の宛先の既知のオーディエンスに対するオーディエンスターゲティング。
-* オンラインおよびオフライン属性を使用したオンラインパーソナライズ機能。アプリケーション
+* オンラインおよびオフライン属性を使用したオンラインパーソナライズ機能。
+
+## アプリケーション
+
 * リアルタイム顧客データプラットフォーム
 
 ## 構造
@@ -31,7 +34,7 @@ ht-degree: 3%
    * 標準の名前空間（電子メール、Email SHA256 Hash など）を使用します（使用可能な場合）。
    * Facebookは、サポートされている id のリストを持ちます。 facebookカスタムオーディエンスに対してアクティブ化するには、アクティブ化するプロファイルに、サポートされている ID の 1 つが存在する必要があります。
    * 現在、Facebookでは次の ID がサポートされています。GAID、IDFA、phone_sha256、email_lc_sha256、extern_id。
-   * 詳しくは、 [Facebook Destination Guide](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/social/facebook.html?lang=en).
+   * 詳しくは、 [Facebook Destination Guide](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/social/facebook.html).
    * 標準の名前空間が適用可能な ID で使用できないカスタム名前空間を作成します。
 1. プロファイルデータソーススキーマとデータセットを設定します。
    * すべてのプロファイルレコードソースデータのプロファイルレコードスキーマを作成します。
@@ -66,7 +69,7 @@ ht-degree: 3%
    * 指定したセグメントのセグメント結果数を確認します。
    * セグメントに含める必要があるプロファイルを調べて、セグメントメンバーシップがプロファイルのセグメントメンバーシップ部分に含まれていることを確認します。
 1. オーディエンスの宛先への配信を「宛先」設定で設定します。
-   * 詳しくは、 [Facebook Destination Guide](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/social/facebook.html?lang=en) facebookの宛先の設定について詳しくは、を参照してください。
+   * 詳しくは、 [Facebook Destination Guide](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/social/facebook.html) facebookの宛先の設定について詳しくは、を参照してください。
    * 宛先を設定する際に、宛先に対してアクティブ化するオーディエンスを選択します。
    * 宛先へのオーディエンスの配信を開始する、宛先データフローのスケジュールされた開始日を決定します。
    * 各宛先には、送信する必要な属性とオプションの属性があります。
@@ -87,4 +90,4 @@ ht-degree: 3%
 
 ## 関連ドキュメント
 
-facebook Custom Audiences へのアクティベーション — [宛先の設定](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/social/facebook.html?lang=en)
+facebook Custom Audiences へのアクティベーション — [宛先の設定](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/social/facebook.html)
