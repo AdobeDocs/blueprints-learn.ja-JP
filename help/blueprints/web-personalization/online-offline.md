@@ -8,7 +8,7 @@ exl-id: 29667c0e-bb79-432e-af3a-45bd0b3b43bb
 source-git-commit: 91db73c9fb14d461ee62444199c3d053bd094639
 workflow-type: tm+mt
 source-wordcount: '1146'
-ht-degree: 68%
+ht-degree: 70%
 
 ---
 
@@ -64,7 +64,7 @@ Web パーソナライズ機能を電子メールおよびその他の既知お�
     <td class="tg-0lax">3</td>
     <td class="tg-73oq"><span style="font-weight:400;font-style:normal">オーディエンス共有サービスのアプローチを使用した、Target およびAudience Managerに対するReal-time Customer Data Platformのストリーミングおよびバッチオーディエンス共有</span></td>
     <td class="tg-0lax"><span style="font-weight:400;font-style:normal"> — オーディエンス共有サービスを使用して、Real-time Customer Data Platformから Target にストリーミングオーディエンスとバッチオーディエンスを共有し、Audience Managerを行います。 リアルタイムで評価される Audience には、WebSDK と、統合パターン 1 で概要を説明したリアルタイムのオーディエンス評価が必要です。</span></td>
-    <td class="tg-73oq"> - オーディエンス共有サービスを介したオーディエンス投影は、プロビジョニングする必要があります。<br>- Target との統合には、Experience Platform インスタンスと同じ IMS Org が必要です。<br>- Target がアクションを実行するためには、ID を ECID 向けに解決して、Edge と共有する必要があります。<br> — この統合には WebSDK のデプロイメントは必要ありません。</td>
+    <td class="tg-73oq"> - オーディエンス共有サービスを介したオーディエンス投影は、プロビジョニングする必要があります。<br>- Target との統合には、Experience Platform インスタンスと同じ IMS Org が必要です。<br>- Target がアクションを実行するためには、ID を ECID 向けに解決して、Edge と共有する必要があります。<br> - この統合には WebSDK のデプロイメントは不要です。</td>
   </tr>
 </tbody>
 </table>
@@ -135,7 +135,7 @@ ID の前提条件
 
 ### チュートリアル
 
-* [リアルタイム CDP とAdobe Targetを使用した次回ヒットのパーソナライゼーション](https://experienceleague.adobe.com/docs/platform-learn/tutorials/experience-cloud/next-hit-personalization.html?lang=en)
+* [Real-Time CDP と Adobe Target を使用した、次のヒットのパーソナライゼーション](https://experienceleague.adobe.com/docs/platform-learn/tutorials/experience-cloud/next-hit-personalization.html?lang=ja)
 
 ## 関連するブログ投稿
 
