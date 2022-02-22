@@ -3,8 +3,9 @@ title: B2B アクティベーション
 description: Real-time Customer Data Platform を使用して、アカウントベースのオーディエンスと、プロファイル中心のカスタマーエクスペリエンスを提供します。
 solution: Experience Platform, Real-time Customer Data Platform
 kt: 9311
-source-git-commit: c64aa472624abd7279e9c26e2affa0878796ab33
-workflow-type: tm+mt
+exl-id: 5215d077-b0a9-4417-ae9b-f4961d4a73fa
+source-git-commit: fcfd45ce954e9a273561ab6fd824aa16fd0fe1e9
+workflow-type: ht
 source-wordcount: '821'
 ht-degree: 100%
 
@@ -25,7 +26,7 @@ ht-degree: 100%
 
 ## 統合パターン
 
-* B2B データソース (Marketo、Salesforce など) -> Real-time Customer Data Platform B2B エディション -> 宛先の
+* B2B データソース (Marketo、Salesforce など)-> Real-time Customer Data Platform B2B エディション -> 宛先の
 様々な B2B データソースを使用して、アカウント、リード、オポチュニティおよび人々のデータを Real-time Customer Data Platform B2B エディションにマッピングできます。
 
 ## アーキテクチャ
@@ -88,13 +89,13 @@ Real-time Customer Data Platform B2B エディションの実装と設定の方�
 ブループリントの主要な考慮事項と設定に関するガイダンス
 
 * CRM 統合（Marketo 有/無）：
-実装で Marketo Engage をソースとして使用し、Marketo Engage が CRM に接続される場合は、Experience Platform で Marketoソースコネクタを使用して CRM データを Experience Platform に取り込みます。追加のテーブルを取り込む必要がある場合は、Experience Platform ソースコネクタを使用します。実装で Marketo Engage をソースとして使用しない場合は、CRM ソース Experience Platform コネクタを使用して CRM ソースを AEP に直接接続します。
+実装で Marketo Engage をソースとして使用し、Marketo Engage が CRM に接続される場合は、Experience Platform で Marketo ソースコネクタを使用して CRM データを Experience Platform に取り込みます。追加のテーブルを取り込む必要がある場合は、Experience Platform ソースコネクタを使用します。実装で Marketo Engage をソースとして使用しない場合は、CRM ソース Experience Platform コネクタを使用して CRM ソースを AEP に直接接続します。
 * Real-time Customer Data Platform B2B エディションのみからのリードの開始と育成は、お勧めしません。このユースケースでは、リード育成ツール (Marketo Engage など ) の使用をお勧めします。
 * アクティブ化のためにオーディエンスを Marketo Engage にプッシュする AEP 用の Marketo Engage 宛先コネクタは、電子メールアドレスと ECID のみをプッシュします。連絡先がまだ存在しない場合、新規リードは作成されません。そのため、プロファイルとリードのデータを Marketo Engage に取り込む必要があります。
 
 ## 関連ドキュメント
 
-* [Real-time Customer Data Platform B2B エディション](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/b2b-overview.html?lang=en)
+* [Real-time Customer Data Platform B2B エディション](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/b2b-overview.html?lang=ja)
 * [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform.html?lang=ja)
 * [Marketo Engage](https://experienceleague.adobe.com/docs/marketo/using/home.html?lang=ja)
 * [Adobe Experience Platform - Marketo ソースコネクタ](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/marketo/marketo.html?lang=ja)
