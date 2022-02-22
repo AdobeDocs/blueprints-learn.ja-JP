@@ -6,7 +6,7 @@ kt: null
 thumbnail: null
 exl-id: 8ad028fd-3190-42da-9f46-7e927e8878f8
 source-git-commit: f323d2deee5547abd0ccc8247a23ac7a144b2f07
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '262'
 ht-degree: 100%
 
@@ -27,7 +27,7 @@ Web およびモバイルパーソナライズ機能は、複数のアプリケ�
 
 ### オンライン／オフラインパーソナライズ機能ガードレール図
 
-<img src="assets/personalization_guardrails.png" alt="オンライン／オフライン Web パーソナライズ機能ブループリントの参照アーキテクチャ" style="width:80%; border:1px solid #4a4a4a" />
+<img src="assets/personalization_guardrails.png" alt="オンライン／オフライン web パーソナライズ機能ブループリントの参照アーキテクチャ" style="width:80%; border:1px solid #4a4a4a" />
 
 ## 関連するブログ投稿
 
