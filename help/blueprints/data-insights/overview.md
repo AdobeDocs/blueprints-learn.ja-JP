@@ -6,7 +6,7 @@ kt: 7207
 thumbnail: null
 exl-id: 3b22dfdd-3fbe-40b3-b798-1ee983723039
 source-git-commit: f323d2deee5547abd0ccc8247a23ac7a144b2f07
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '210'
 ht-degree: 100%
 
@@ -23,4 +23,4 @@ Experience Platform の[!UICONTROL クエリサービス]を使用すると、�
 | ブループリント | 説明 | Experience Cloud アプリケーション |
 |---|---|---|
 | **[データ分析とインテリジェンス](analysis.md)** | <ul><li>データ分析とインテリジェンスブループリントには、Adobe Experience Platform 内のデータを照会および分析して、より深いインサイトを得る方法が含まれる</ul></li> | <ul><li> Adobe Experience Platform インテリジェンス</ul></li> |
-| **[プロファイルエンリッチメントのためのカスタムデータサイエンス](data-science.md)** | <ul><li>モデルのトレーニング、スコア、操作を行って、顧客プロファイルと行動モデルに基づく顧客インサイトをさらに強化</li></ul> | <ul><li>Adobe Experience Platform インテリジェンス</li><li> [!UICONTROL リアルタイム顧客データプラットフォーム]</li></ul> |
+| **[プロファイルエンリッチメントのためのカスタムデータサイエンス](data-science.md)** | <ul><li>モデルのトレーニング、スコア、操作を行って、顧客プロファイルと行動モデルに基づく顧客インサイトをさらに強化</li></ul> | <ul><li>Adobe Experience Platform インテリジェンス</li><li> [!UICONTROL Real-time Customer Data Platform]</li></ul> |
