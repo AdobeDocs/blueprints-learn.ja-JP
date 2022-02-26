@@ -5,9 +5,9 @@ landing-page-description: Web パーソナライズ機能を電子メールお�
 solution: Experience Platform, Real-time Customer Data Platform, Target, Audience Manager, Analytics, Experience Cloud Services, Data Collection
 kt: 7194thumb-web-personalization-scenario2.jpg
 exl-id: 29667c0e-bb79-432e-af3a-45bd0b3b43bb
-source-git-commit: 8d01529c611b2dabeeb6b11a227e7c3a9f132774
+source-git-commit: 7d614edd9d6db1d6da936c79f4de9bb66db72c0b
 workflow-type: tm+mt
-source-wordcount: '1452'
+source-wordcount: '1463'
 ht-degree: 50%
 
 ---
@@ -51,7 +51,7 @@ Web パーソナライズ機能を電子メールおよびその他の既知お�
   <tr>
     <td class="tg-0lax">1</td>
 <td class="tg-73oq">Real-time Customer Data Platformから Target に共有される Edge に関するリアルタイムのセグメント評価</td>
-    <td class="tg-0lax">- Edge 上で同じまたは次のページのパーソナライゼーションに対して、リアルタイムでオーディエンスを評価します。<br>- Edge ネットワークを通じて、Real-time Customer Data Platformから Target へのストリーミングおよびバッチオーディエンスを共有します。</td>
+    <td class="tg-0lax">- Edge 上で同じまたは次のページのパーソナライゼーションに対して、リアルタイムでオーディエンスを評価します。<br> — さらに、ストリーミングまたはバッチで評価されたセグメントも Edge ネットワークに投影され、エッジセグメントの評価とパーソナライゼーションに含められます。</td>
     <td class="tg-73oq">- Datastream は、Target とExperience Platformの拡張を有効にして Experience Edge で設定する必要があります。Datastream ID は、Target の宛先設定で提供されます。<br> — ターゲットの宛先は、Real-time Customer Data Platform Destinations で設定する必要があります。<br>- Target との統合には、Experience Platform インスタンスと同じ IMS Org が必要です。<br>- WebSDK を実装する必要があります。<br>- Mobile SDK および API ベースの実装は、現在使用できません</td> 
   </tr>
   <tr>
