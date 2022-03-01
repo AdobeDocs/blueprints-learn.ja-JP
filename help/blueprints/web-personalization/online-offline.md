@@ -5,7 +5,7 @@ landing-page-description: Web パーソナライズ機能を電子メールお�
 solution: Experience Platform, Real-time Customer Data Platform, Target, Audience Manager, Analytics, Experience Cloud Services, Data Collection
 kt: 7194thumb-web-personalization-scenario2.jpg
 exl-id: 29667c0e-bb79-432e-af3a-45bd0b3b43bb
-source-git-commit: bf2fd224c0eb3e4933dd39a9c26aeaf613fe5abc
+source-git-commit: 05cda4f092b7f0ee54e580124e5349955e353d9c
 workflow-type: tm+mt
 source-wordcount: '1521'
 ht-degree: 48%
@@ -117,7 +117,6 @@ Web パーソナライズ機能を電子メールおよびその他の既知お�
 Web/モバイル SDK での Edge Network の使用
 <img src="assets/web_sdk_flow.png" alt="アプリケーション固有 SDK アプローチの参照アーキテクチャ" style="width:80%; border:1px solid #4a4a4a" />
 
-<br>
 シーケンス図
 
 <img src="assets/RTCDP+Target_sequence.png" alt="オンライン／オフライン web パーソナライズ機能ブループリントの参照アーキテクチャ" style="width:80%; border:1px solid #4a4a4a" />
