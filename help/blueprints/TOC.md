@@ -5,10 +5,10 @@ user-guide-description: ブループリントは、既存のビジネス上の�
 product: adobe experience platform
 mini-toc-levels: 3
 role: Architect, Developer, User
-source-git-commit: bdbf083e60a94b29debb70976aad47a083b41e32
+source-git-commit: 274f87c0d9bf7e9276b978a097a9633a55f09ede
 workflow-type: tm+mt
-source-wordcount: '177'
-ht-degree: 76%
+source-wordcount: '175'
+ht-degree: 82%
 
 ---
 
@@ -30,13 +30,14 @@ ht-degree: 76%
 + オーディエンスとプロファイルのアクティベーション {#audience-activation}
    + [概要](/help/blueprints/audience-activation/overview.md)
    + [匿名オーディエンスアクティベーション](/help/blueprints/audience-activation/anonymous.md)
-   + [オンラインおよびオフラインのデータを使用したアクティベーション](/help/blueprints/audience-activation/online-offline.md)
-   + ソーシャルおよび広告チャネルに対するアクティベーション{#audience-activation}
-      + [facebook Custom Audiences へのアクティベーション](/help/blueprints/audience-activation/destinations/facebook.md)
-      + [Google Customer Match へのアクティベーション](/help/blueprints/audience-activation/destinations/gcm.md)
-   + [ファイルとエンタープライズストリーミング宛先に対するアクティベーション](/help/blueprints/audience-activation/enterprise-destinations.md)
+   + 既知の顧客のアクティベーション{#known-customer-audience-activation}
+      + [概要](/help/blueprints/audience-activation/known.md)
+      + ソーシャルおよび広告チャネルに対するアクティベーション{#audience-activation}
+         + [facebook Custom Audiences へのアクティベーション](/help/blueprints/audience-activation/destinations/facebook.md)
+         + [Google Customer Match へのアクティベーション](/help/blueprints/audience-activation/destinations/gcm.md)
+      + [ファイルとエンタープライズストリーミング宛先に対するアクティベーション](/help/blueprints/audience-activation/enterprise-destinations.md)
+      + [顧客アクティビティハブ](/help/blueprints/audience-activation/customer-activity.md)
    + [Experience Cloud アプリケーションを使用したアクティベーション](/help/blueprints/audience-activation/platform-and-applications.md)
-   + [顧客アクティビティハブ](/help/blueprints/audience-activation/customer-activity.md)
 + B2B アクティベーションとマーケティング {#b2b-activation}
    + [概要](/help/blueprints/b2b/overview.md)
    + [B2B アクティベーション](/help/blueprints/b2b/b2bactivation.md)

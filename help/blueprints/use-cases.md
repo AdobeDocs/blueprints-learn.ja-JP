@@ -2,10 +2,10 @@
 title: デジタルエクスペリエンスブループリントのユースケース
 description: デジタルエクスペリエンスブループリントは、戦略に取り組み、確立されたビジネス上の問題を解決するための反復可能な実装です。価値実現までの時間を短縮し、成功への近道となります。
 exl-id: 7ec2b5c9-b46c-4434-b0d3-8aba863e9006
-source-git-commit: 3afcc2c293242a3b68ee4e4603ab686f6b309232
+source-git-commit: 657e94baf69ba1898a163a082fbfef36fdfd9a3a
 workflow-type: tm+mt
-source-wordcount: '692'
-ht-degree: 98%
+source-wordcount: '691'
+ht-degree: 96%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 98%
  <tr>
   <td>ソーシャルおよび広告の宛先の既知のオーディエンスに対するオーディエンスターゲティング。</td>
   <td rowspan="3" style="vertical-align: middle; border-left: 1px solid rgb(219,219,219); border-right:  1px solid rgb(219,219,219)"><a
-  href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/online-offline.html?lang=ja">オンライン／オフラインオーディエンスアクティベーション</a></td>
+  href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/known.html?lang=en">既知の顧客のアクティベーション</a></td>
  </tr>
  <tr>
   <td>オンラインおよびオフライン属性を使用したオンラインパーソナライズ機能。</td>
@@ -43,12 +43,12 @@ ht-degree: 98%
  <tr>
   <td>エンタープライズトラッキング、ストレージ、分析、顧客データおよびインサイトのアクティベーションに向けた、クラウドストレージ宛先またはストリーミング宛先へのプロファイルおよびオーディエンスのアクティベーション。</td>
   <td style="vertical-align: middle; border-left: 1px solid rgb(219,219,219); border-right:  1px solid rgb(219,219,219)"><a
-  href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/enterprise-destinations.html?lang=ja">エンタープライズ宛先へのアクティベーション</a></td>
+  href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/enterprise-destinations.html?lang=en">エンタープライズ宛先へのアクティベーション</a></td>
  </tr>
  <tr>
   <td>Experience Cloud による顧客インタラクションチャネルをまたいでパーソナライズおよびターゲット設定します。</td>
   <td rowspan="2" style="vertical-align: middle; border-left: 1px solid rgb(219,219,219); border-right:  1px solid rgb(219,219,219)"><a
-  href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/platform-and-applications.html?lang=ja">Experience Cloud アプリケーションを使用したアクティベーション</a></td>
+  href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/platform-and-applications.html?lang=en">Experience Cloud アプリケーションを使用したアクティベーション</a></td>
  </tr>
  <tr>
   <td>Experience Platform と Experience Cloud アプリケーションの間でオーディエンスおよびプロファイルデータを共有します。</td>
@@ -56,7 +56,7 @@ ht-degree: 98%
  <tr>
   <td>担当者がサポートするインタラクションに、詳細な消費者コンテキスト（サポートおよび販売エクスペリエンスなど）を提供します。Experience Platform のプロファイルルックアップを使用して、担当者は、最近の購入、キャンペーンインタラクション、傾向、オーディエンスメンバーシップ、リアルタイム顧客プロファイルに格納されたその他の属性およびインサイトなど、消費者に対するより詳細なコンテキストを受け取ることができます。</td>
   <td style="vertical-align: middle; border-left: 1px solid rgb(219,219,219); border-right:  1px solid rgb(219,219,219)"><a
-  href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/customer-activity.html?lang=ja">顧客アクティビティハブ</a></td>
+  href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/customer-activity.html?lang=en">顧客アクティビティハブ</a></td>
  </tr>
  <tr>
   <td>デスクトップとモバイルをまたいで顧客インタラクションを分析して顧客行動を把握し、デジタルカスタマーエクスペリエンスを最適化するためにインサイトを抽出します。</td>
