@@ -2,10 +2,10 @@
 title: デジタルエクスペリエンスブループリント
 description: デジタルエクスペリエンスブループリントは、戦略に取り組み、確立されたビジネス上の問題を解決するための反復可能な実装です。価値実現までの時間を短縮し、成功への近道となります。
 exl-id: 52898310-9723-4ec2-ba10-f45fefe29e93
-source-git-commit: 274f87c0d9bf7e9276b978a097a9633a55f09ede
+source-git-commit: 7611084c357e721f954ff980ef88b965609dd5ed
 workflow-type: tm+mt
-source-wordcount: '269'
-ht-degree: 85%
+source-wordcount: '255'
+ht-degree: 90%
 
 ---
 
@@ -35,8 +35,8 @@ ht-degree: 85%
     <p><em>[!UICONTROL Platform] を中心としたハブとして使用して、リアルタイムでメッセージを送信し、顧客体験に影響を与えます。</em></p>
   </td>
   <td>
-    <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/known.html"><img alt="既知の顧客アクティベーションブループリントのサムネール画像" src="audience-activation/assets/online_offline_activation.svg" /></a>
-    <div><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/known.html"><strong>オンライン／オフラインオーディエンスアクティベーション</strong></a></div>
+    <a href="/help/blueprints/audience-activation/known.md"><img alt="既知の顧客アクティベーションブループリントのサムネール画像" src="audience-activation/assets/online_offline_activation.svg" /></a>
+    <div><a href="/help/blueprints/audience-activation/known.md"><strong>オンライン／オフラインオーディエンスアクティベーション</strong></a></div>
     <p><em>オーディエンスアクティベーションのクロスチャネル広告を配信します。</em></p>
   </td>
   <td>
