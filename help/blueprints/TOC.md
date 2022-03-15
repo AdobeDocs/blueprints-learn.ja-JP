@@ -8,7 +8,7 @@ role: Architect, Developer, User
 source-git-commit: 274f87c0d9bf7e9276b978a097a9633a55f09ede
 workflow-type: tm+mt
 source-wordcount: '175'
-ht-degree: 82%
+ht-degree: 98%
 
 ---
 
@@ -32,8 +32,8 @@ ht-degree: 82%
    + [匿名オーディエンスアクティベーション](/help/blueprints/audience-activation/anonymous.md)
    + 既知の顧客のアクティベーション{#known-customer-audience-activation}
       + [概要](/help/blueprints/audience-activation/known.md)
-      + ソーシャルおよび広告チャネルに対するアクティベーション{#audience-activation}
-         + [facebook Custom Audiences へのアクティベーション](/help/blueprints/audience-activation/destinations/facebook.md)
+      + ソーシャルおよび広告チャネルに対するアクティベーション {#audience-activation}
+         + [Facebook Custom Audiences へのアクティベーション](/help/blueprints/audience-activation/destinations/facebook.md)
          + [Google Customer Match へのアクティベーション](/help/blueprints/audience-activation/destinations/gcm.md)
       + [ファイルとエンタープライズストリーミング宛先に対するアクティベーション](/help/blueprints/audience-activation/enterprise-destinations.md)
       + [顧客アクティビティハブ](/help/blueprints/audience-activation/customer-activity.md)
@@ -45,15 +45,15 @@ ht-degree: 82%
    + [概要](/help/blueprints/customer-journey-analytics/overview.md)
 + カスタマージャーニー {#customer-journeys}
    + [概要](/help/blueprints/customer-journeys/overview.md)
-   + Journey Optimizer{#journey-optimizer}
+   + Journey Optimizer {#journey-optimizer}
       + [Journey Optimizer](/help/blueprints/customer-journeys/journey-optimizer.md)
-      + [Journey OptimizerとAdobe Campaign](/help/blueprints/customer-journeys/ajo-and-campaign.md)
+      + [Journey Optimizer と Adobe Campaign](/help/blueprints/customer-journeys/ajo-and-campaign.md)
       + [サードパーティのメッセージ](/help/blueprints/customer-journeys/3rd-party-messaging.md)
-   + Campaign v8{#campaign-v8}
+   + Campaign v8 {#campaign-v8}
       + [Campaign v8](/help/blueprints/customer-journeys/campaign-v8.md)
-   + Campaign v7{#campaign-v7}
+   + Campaign v7 {#campaign-v7}
       + [Campaign v7](/help/blueprints/customer-journeys/campaign-v7.md)
-      + [Real-Time CDPとAdobe Campaign](/help/blueprints/customer-journeys/rtcdp-and-campaign.md)
+      + [Real-Time CDP と Adobe Campaign](/help/blueprints/customer-journeys/rtcdp-and-campaign.md)
 + データ収集と準備 {#data-ingestion}
    + [概要](/help/blueprints/data-ingestion/overview.md)
    + [データ準備および取り込み](/help/blueprints/data-ingestion/ingestion.md)
@@ -66,4 +66,4 @@ ht-degree: 82%
 + Web およびモバイルパーソナライズ機能 {#web-personalization}
    + [概要](/help/blueprints/web-personalization/overview.md)
    + [行動によるパーソナライズ機能](/help/blueprints/web-personalization/behavioral.md)
-   + [オンラインとオフラインのデータを使用したパーソナライゼーション](/help/blueprints/web-personalization/online-offline.md)
+   + [オンラインとオフラインのデータを使用したパーソナライズ機能](/help/blueprints/web-personalization/online-offline.md)

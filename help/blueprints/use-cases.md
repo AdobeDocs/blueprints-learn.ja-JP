@@ -5,7 +5,7 @@ exl-id: 7ec2b5c9-b46c-4434-b0d3-8aba863e9006
 source-git-commit: 657e94baf69ba1898a163a082fbfef36fdfd9a3a
 workflow-type: tm+mt
 source-wordcount: '691'
-ht-degree: 96%
+ht-degree: 98%
 
 ---
 
@@ -38,7 +38,7 @@ ht-degree: 96%
   <td>オンラインおよびオフライン属性を使用したオンラインパーソナライズ機能。</td>
  </tr>
  <tr>
-  <td>既知のチャネル（電子メール、SMS など）に対するオーディエンスをアクティブ化。</td>
+  <td>既知のチャネル（電子メール、SMS など）に対するオーディエンスをアクティブ化します。</td>
  </tr>
  <tr>
   <td>エンタープライズトラッキング、ストレージ、分析、顧客データおよびインサイトのアクティベーションに向けた、クラウドストレージ宛先またはストリーミング宛先へのプロファイルおよびオーディエンスのアクティベーション。</td>
@@ -78,7 +78,7 @@ ht-degree: 96%
  <tr>
   <td>スケジュールされた電子メールキャンペーン。</td>
   <td rowspan="2" style="vertical-align: middle; border-left: 1px solid rgb(219,219,219); border-right:  1px solid rgb(219,219,219)"><a
-  href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/campaign-managed-cloud-services.html?lang=en">キャンペーン管理Cloud Services</a></td>
+  href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/campaign-managed-cloud-services.html?lang=ja">Campaign の管理によるクラウドサービス</a></td>
   <td rowspan="6" style="vertical-align: middle; border-left: 1px solid rgb(219,219,219); border-right:  1px solid rgb(219,219,219)">カスタマージャーニー</td>
  </tr>
  <tr>
@@ -87,7 +87,7 @@ ht-degree: 96%
  <tr>
   <td>トリガーされるメッセージ。</td>
   <td rowspan="4" style="vertical-align: middle; border-left: 1px solid rgb(219,219,219); border-right:  1px solid rgb(219,219,219)"><a
-  href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer.html?lang=en">Journey Optimizer</a></td>
+  href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer.html?lang=ja">Journey Optimizer</a></td>
  </tr>
  <tr>
   <td>登録確認。</td>
