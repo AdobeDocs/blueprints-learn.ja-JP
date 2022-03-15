@@ -4,9 +4,9 @@ description: ストリーミングデータ、顧客プロファイル、セグ�
 solution: Experience Platform, Journey Optimizer
 exl-id: 97831309-f235-4418-bd52-28af815e1878
 source-git-commit: 2ead62f94e761cd9453be284a9fde3c5803879eb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1046'
-ht-degree: 41%
+ht-degree: 100%
 
 ---
 
@@ -19,17 +19,17 @@ Adobe Journey Optimizer は、マーケティングチームが顧客行動に�
 ## ユースケース
 
 * トリガーされるメッセージ
-* ようこそと登録の確認
+* 「ようこそ」と「登録」の確認
 * 買い物かごおよび申請フォームの破棄
 * 場所でトリガーされるメッセージ
 * 競技場での体験
-* 旅行と接客の事前到着および滞在の経験
+* 旅行と接客の、到着前および滞在のエクスペリエンス
 
 <br>
 
 ## アーキテクチャ
 
-<img src="assets/ajo-architecture.svg" alt="参照アーキテクチャJourney Optimizerブループリント" style="width:100%; border:1px solid #4a4a4a" />
+<img src="assets/ajo-architecture.svg" alt="参照アーキテクチャ Journey Optimizer ブループリント" style="width:100%; border:1px solid #4a4a4a" />
 
 <br>
 
@@ -37,7 +37,7 @@ Adobe Journey Optimizer は、マーケティングチームが顧客行動に�
 
 | シナリオ | 説明 | 機能 |
 | :-- | :--- | :--- |
-| [サードパーティのメッセージ](3rd-party-messaging.md) | Adobe Journey Optimizerをサードパーティのメッセージングシステムと共に使用して、パーソナライズされた通信を調整および送信する方法を示します | ブランドや会社とのやり取りに応じて、パーソナライズされたコミュニケーションを顧客に即座に提供する<br><br>注意点：<br><ul><li>サードパーティシステムは、認証のためにベアラートークンをサポートする必要があります。</li><li>マルチテナントアーキテクチャが原因で静的 IP がサポートされない</li><li>1 秒あたりの API 呼び出しに関しては、サードパーティシステムのアーキテクチャの制約に注意してください。  お客様がJourney Optimizerからのボリュームをサポートするために、サードパーティベンダーから追加のボリュームを購入する必要が生じる場合があります</li><li>メッセージまたはペイロードのOffer decisioningをサポートしていません</li></ul> |
+| [サードパーティのメッセージ](3rd-party-messaging.md) | Adobe Journey Optimizer をサードパーティのメッセージングシステムと共に使用して、パーソナライズされた通信を調整および送信する方法を示します | 顧客のブランドや企業とのインタラクションに応じて、1：1 のパーソナライズされたコミュニケーションを提供します<br><br>注意点：<br><ul><li>サードパーティシステムは、認証のためにベアラートークンをサポートする必要があります。</li><li>マルチテナントアーキテクチャが原因で静的 IP がサポートされません</li><li>1 秒あたりの API 呼び出しに関しては、サードパーティシステムのアーキテクチャの制約にご注意ください。顧客が Journey Optimizer からのボリュームをサポートするために、サードパーティベンダーから追加のボリュームを購入する必要が生じる場合があります</li><li>メッセージまたはペイロードの Offer Decisioning をサポートしていません</li></ul> |
 
 <br>
 
@@ -45,7 +45,7 @@ Adobe Journey Optimizer は、マーケティングチームが顧客行動に�
 
 | 統合 | 説明 | 機能 |
 | :-- | :--- | :--- |
-| [Journey OptimizerとAdobe Campaign](ajo-and-campaign.md) | Adobe Journey Optimizerを使用して、リアルタイム顧客プロファイルを利用して 1:1 エクスペリエンスの調整をおこない、ネイティブのAdobe Campaignトランザクションメッセージングシステムを活用してメッセージを送信する方法を示します | Adobe Campaignのネイティブリアルタイムメッセージング機能を利用してラストマイル通信を実行しながら、リアルタイム顧客プロファイルとJourney Optimizerの機能を活用して、瞬時のエクスペリエンスで調整<br><br>注意点：<br><ul><li>Campaign アプリケーションは、v7 ビルドが 21.1 より上か v8 のどちらかである必要があります</li><li>メッセージングスループット</li><ul><li>Campaign v7 - 1 時間あたり最大 50,000</li><li>Campaign v8 - 1 時間あたり最大 1M</li><li>Campaign Standard- 1 時間あたり最大 50,000 個</li></ul><li>スロットルは実行されないので、使用例ではエンタープライズアーキテクトによる技術的な検証が必要です</li><li>Campaign から送信されたメッセージのOffer decisioningを利用するサポートはありません</li></ul> |
+| [Journey Optimizer と Adobe Campaign](ajo-and-campaign.md) | Adobe Journey Optimizer を使用して、リアルタイム顧客プロファイルを利用して 1:1 エクスペリエンスの調整をおこない、ネイティブの Adobe Campaign トランザクションメッセージングシステムを活用してメッセージを送信する方法を示します | リアルタイム顧客プロファイルと Journey Optimizer の機能を活用し、瞬時のエクスペリエンスで調整しながら、Adobe Campaign のネイティブリアルタイムメッセージング機能を利用して、ラストマイルのコミュニケーションを実現します。<br><br>注意点：<br><ul><li>Campaign アプリケーションは、v7 ビルドが 21.1 より上か v8 のどちらかである必要があります</li><li>メッセージングスループット</li><ul><li>Campaign v7 - 1 時間あたり最大 50,000</li><li>Campaign v8 - 1 時間あたり最大 100,000</li><li>Campaign Standard - 1 時間あたり最大 50,000</li></ul><li>スロットルは実行されないので、ユースケースではエンタープライズアーキテクトによる技術的な検証が必要です</li><li>Campaign から送信されたメッセージの Offer Decisioning を利用するサポートはありません</li></ul> |
 
 <br>
 
@@ -53,15 +53,15 @@ Adobe Journey Optimizer は、マーケティングチームが顧客行動に�
 
 Adobe Experience Platform
 
-* スキーマとデータセットは、Journey Optimizerデータソースを設定する前に、システムで設定する必要があります
-* エクスペリエンスイベントクラスベースのスキーマの場合、ルールベースのイベントではないイベントをトリガーする場合に、「オーケストレーションイベント ID 」フィールドグループを追加します
-* 個々のプロファイルクラスベースのスキーマの場合、「Profile test details」フィールドグループを追加して、Journey Optimizerで使用するテストプロファイルを読み込めるようにします
+* Journey Optimizer のデータソースを設定する前に、スキーマとデータセットをシステムに設定する必要があります。
+* エクスペリエンスイベントクラスベースのスキーマの場合、ルールベースのイベントではないイベントをトリガーする場合に、を追加します エクスペリエンスイベントクラスベースのスキーマでは、ルールベースのイベントではないイベントをトリガーさせたい場合は「オーケストレーションイベント ID」フィールドグループを追加します。
+* 個別のプロファイルクラスベースのスキーマの場合、「Profile test details」フィールドグループを追加して、Journey Optimizer で使用するテストプロファイルを読み込めるようにします
 
 電子メール
 
 * メッセージ送信に使用するサブドメインの準備が整っている必要があります
-* サブドメインは、Adobeに完全にデリゲートすることも（推奨）、CNAME を使用してAdobe固有の DNS サーバー（カスタム）を指すこともできます
-* Google TXT レコードは、配信品質を高めるために各サブドメインに必要です
+* サブドメインは、アドビに完全にデリゲートすることも（推奨）、CNAME を使用してアドビ固有の DNS サーバー（カスタム）を指すこともできます
+* Google TXT レコードは、配信品質を高めるために各サブドメインに必要
 
 モバイルプッシュ
 
@@ -72,32 +72,32 @@ Adobe Experience Platform
 
 ## ガードレール
 
-[Journey Optimizer Guardrails 製品リンク](https://experienceleague.adobe.com/docs/journeys/using/starting-with-journeys/limitations.html?lang=ja)
+[Journey Optimizer ガードレール製品リンク](https://experienceleague.adobe.com/docs/journeys/using/starting-with-journeys/limitations.html?lang=ja)
 
 上記のリンクには記載されていないことに注意してください。
 
 * バッチセグメント - 認定ユーザーの毎日のボリュームを確実に把握し、宛先システムがジャーニーごと、およびすべてのジャーニーのバーストスループットを処理するために必要です
 * ストリーミングセグメント - ジャーニーごと、およびすべてのジャーニーの毎日のストリーミング認定ボリュームと共に、プロファイル認定の最初のバーストを処理するために必要です
-* メッセージでのOffer decisioningのみをネイティブでサポート（カスタムアクションなし）
+* メッセージでのみの Offer Decisioning をネイティブでサポート（カスタムアクションなし）
 * サポートされるメッセージタイプ：
    * 電子メール
    * プッシュ（FCM／APNS）
-   * カスタムアクション（Rest API を介する）
+   * カスタムアクション（Rest API を経由する）
 * サードパーティシステムへのアウトバウンド統合
-   * インフラストラクチャはマルチテナントなので、単一の静的 IP はサポートされません ( すべてのデータセンター IP を許可リストする必要があります )
-   * カスタムアクションでは、POSTおよびPUTメソッドのみがサポートされます
+   * インフラはマルチテナントであるため、単一の静的 IP をサポートしていません（すべてのデータセンター IP を許可リストに含める必要があります）
+   * カスタムアクションは POST メソッドと PUT メソッドのみ対応
    * ユーザー/パスまたは認証トークンを使用した認証
-* Adobe Experience PlatformまたはJourney Optimizerの個々のコンポーネントを様々なサンドボックス間でパッケージ化および移動する機能はありません。 新しい環境に再実装する必要がある
+* Adobe Experience Platform や Journey Optimizer の個々のコンポーネントをパッケージ化して、様々なサンドボックス間で移動させることはできません。新しい環境に再実装する必要があります
 
 ### データ取り込みガードレール
 
-<img src="assets/aep-data-ingestion-details-latency.svg" alt="参照アーキテクチャJourney Optimizerブループリント" style="width:80%; border:1px solid #4a4a4a" />
+<img src="assets/aep-data-ingestion-details-latency.svg" alt="参照アーキテクチャ Journey Optimizer ブループリント" style="width:80%; border:1px solid #4a4a4a" />
 
 <br>
 
-### 有効化ガードレール
+### アクティベーションガードレール
 
-<img src="assets/ajo-activation-details-latency.svg" alt="参照アーキテクチャJourney Optimizerブループリント" style="width:80%; border:1px solid #4a4a4a" />
+<img src="assets/ajo-activation-details-latency.svg" alt="参照アーキテクチャ Journey Optimizer ブループリント" style="width:80%; border:1px solid #4a4a4a" />
 
 <br>
 
@@ -115,10 +115,10 @@ Adobe Experience Platform
 #### プロファイル／ID
 
 1. [任意の顧客専用の名前空間を作成します。](https://experienceleague.adobe.com/docs/platform-learn/tutorials/identities/label-ingest-and-verify-identity-data.html?lang=ja)
-1. [スキーマに ID を追加します](https://experienceleague.adobe.com/docs/platform-learn/tutorials/identities/label-ingest-and-verify-identity-data.html)。
+1. [スキーマに ID を追加します](https://experienceleague.adobe.com/docs/platform-learn/tutorials/identities/label-ingest-and-verify-identity-data.html?lang=ja)。
 1. [プロファイル用のスキーマおよびデータセットを有効にします](https://experienceleague.adobe.com/docs/platform-learn/tutorials/profiles/bring-data-into-the-real-time-customer-profile.html?lang=ja)。
 1. [!UICONTROL リアルタイム顧客プロファイル]の様々な表示用に[結合ポリシーを設定](https://experienceleague.adobe.com/docs/platform-learn/tutorials/profiles/create-merge-policies.html?lang=ja)します（オプション）。
-1. セグメントを作成してジャーニーを使用する。
+1. ジャーニー使用状況用のセグメントを作成します。
 
 #### ソース／宛先
 
@@ -126,26 +126,26 @@ Adobe Experience Platform
 
 ### Journey Optimizer
 
-1. Experience Platformデータソースを設定し、プロファイルの一部としてキャッシュするフィールドを決定します。カスタマージャーニーの開始に使用するストリーミングデータは、オーケストレーション ID を取得するために最初にJourney Optimizer内で設定する必要があります。 次に、このオーケストレーション ID が、取り込みで使用するために開発者に提供されます
+1. Experience Platform データソースを設定し、カスタマージャーニーの開始に使用する profileStreaming データの一部としてキャッシュするフィールドを決定します。このデータは、まず Journey Optimizer 内で設定され、オーケストレーションIDを取得する必要があります。このオーケストレーション ID は、取り込みに使用するためにデベロッパーに供給されます
 1. 外部データソースを設定します。
 1. カスタムアクションを設定します。
 
 ### モバイルプッシュ設定
 
-1. Experience PlatformMobile SDK を実装して、プッシュトークンとログイン情報を収集し、既知の顧客プロファイルに結び付けます。
-1. Adobeタグを活用し、次の拡張子を持つモバイルプロパティを作成します。
+1. Experience Platform Mobile SDK を実装して、プッシュトークンとログイン情報を収集し、既知の顧客プロファイルに結び付けます
+1. Adobe タグを活用し、次の拡張子を持つモバイルプロパティを作成します。
 1. Adobe Journey Optimizer
 1. Adobe Experience Platform Edge Network
-1. ID （Edge ネットワーク用）
+1. IDEdge ネットワーク用
 1. モバイルコア
-1. モバイルアプリデプロイメント用と Web デプロイメント用の専用のデータストリームがあることを確認します。
-1. 詳しくは、 [Adobe Journey Optimizer Mobile ガイド](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-journey-optimizer)
+1. モバイルアプリデプロイメント用と Web デプロイメント用の専用のデータストリームがあることを確認
+1. 詳しくは、 [Adobe Journey Optimizer Mobile ガイド](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-journey-optimizer) を参照
 
 
 ## 関連ドキュメント
 
-* [Experience Platform文書](https://experienceleague.adobe.com/docs/experience-platform.html?lang=ja)
-* [Experience Platform タグドキュメント](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=en)
+* [Experience Platform ドキュメント](https://experienceleague.adobe.com/docs/experience-platform.html?lang=ja)
+* [Experience Platform タグドキュメント](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=ja)
 * [Experience Platform Mobile SDK ドキュメント](https://experienceleague.adobe.com/docs/mobile.html?lang=ja)
 * [Journey Optimizer ドキュメント](https://experienceleague.adobe.com/docs/journey-optimizer/using/ajo-home.html?lang=ja)
-* [Journey Optimizer Product Description](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer.html)
+* [Journey Optimizer 製品説明](https://helpx.adobe.com/jp/legal/product-descriptions/adobe-journey-optimizer.html)
