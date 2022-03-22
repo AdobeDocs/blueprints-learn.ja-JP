@@ -4,10 +4,10 @@ description: Experience Platform でプロファイルおよびオーディエ�
 solution: Experience Platform, Real-time Customer Data Platform, Target, Audience Manager, Analytics, Experience Cloud Services
 kt: 7722
 exl-id: f36014e8-170d-47e1-b4ec-10c0ea70612d
-source-git-commit: 8d9875595cb5cb4a4815fff9213defc2921e647d
+source-git-commit: 2b4e1f7134b240b68a432bfd70fe698ff634857a
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '741'
+ht-degree: 79%
 
 ---
 
@@ -52,17 +52,19 @@ Experience Cloudアプリケーションを使用したアクティベーショ�
 
 ### Real-time Customer Data Platform から Audience Manager へのオーディエンスの共有
 
+* 詳しくは、次のドキュメントを参照してください。 [Audience Manager およびその他の Experience Cloud ソリューションを使用した Experience Platform セグメント共有](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-experience-platform/aam-aep-audience-sharing.html?lang=ja).
+
 * RT-CDP のオーディエンスメンバーシップは、セグメント評価が完了し、セグメント評価がバッチで行われたかストリーミングで行われたかに関わらず、リアルタイム顧客プロファイルに書き込まれるとすぐに、ストリーミング方式で Audience Manager に共有されます。選定されたプロファイルに、関連するプロファイルデバイスの地域ルーティング情報が含まれる場合、RTCDP からのオーディエンスメンバーシップは、関連する Audience Manager エッジ上でストリーミング方式で選定されます。地域ルーティング情報が過去 14 日間のタイムスタンプを持つプロファイルに適用された場合、ストリーミングの Audience Manager Edge エッジで評価されます。RTCDP からのプロファイルに地域ルーティング情報が含まれていない場合、または地域ルーティング情報が 14 日以上前のものである場合、プロファイルのメンバーシップは、バッチベースの評価とアクティブ化のために Audience Manager ハブロケーションに送信されます。エッジのアクティベーションの対象となるプロファイルは、RTCDP のセグメントの選定から数分以内にアクティブ化され、エッジのアクティベーションの対象とならないプロファイルは Audience Manager ハブで選定され、12～24 時間の処理期間を持つ場合があります。
 
 * Audience Manager プロファイルが保存されている Edge の地域ルーティング情報は、Audience Manager、Visitor ID サービス、Analytics、Launch、または Web SDK から直接、XDM フィールドグループ「データキャプチャ地域情報」を使用して、個別のプロファイルレコードクラスのデータセットとして Experience Platform に収集することが可能です。
 
-* Experience Platform から Audience Manager にオーディエンスが共有されるアクティベーションシナリオでは、次の ID が自動的に共有されます。IDFA、GAID、AdCloud、Google、ECID、EMAIL_LC_SHA256。現在、カスタムの名前空間は共有されません。
+* オーディエンスがExperience PlatformからAudience Managerに共有されるアクティベーションシナリオでは、次の ID が自動的に共有されます。ECID、IDFA、GAID、ハッシュ化された電子メールアドレス (EMAIL_LC_SHA256)、AdCloud ID。 現在、カスタムの名前空間は共有されません。
 
 * 必須の宛先 ID が[!UICONTROL リアルタイム顧客プロファイル]に含まれている場合、または[!UICONTROL リアルタイム顧客プロファイル]内の ID が Audience Manager でリンクされる必須の宛先 ID と関連付けられる場合、Experience Platform からのオーディエンスは、Audience Manager 宛先を使用して共有できます。
 
 ### Real-time Customer Data Platformから Target へのオーディエンスの共有
 
-* 詳しくは、 [オンラインとオフラインのデータを使用した Web/モバイルパーソナライゼーションブループリント](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/web-personalization/online-offline.html) を参照してください。
+* 詳しくは、 [Web/Mobile Personalizationとオンラインおよびオフラインのデータブループリント](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/web-personalization/online-offline.html) を参照してください。
 
 ### Real-time Customer Data Platformから Campaign およびJourney Optimizerへのオーディエンスの共有
 
