@@ -4,10 +4,10 @@ description: オンライン／オフラインオーディエンスアクティ�
 solution: Experience Platform, Real-time Customer Data Platform, Target, Audience Manager, Analytics, Experience Cloud Services, Data Collection
 kt: 7086
 exl-id: 011f4909-b208-46db-ac1c-55b3671ee48c
-source-git-commit: 20dd657a85ffeb8ae2f160855369643c2f2743bb
+source-git-commit: 58e589d230d1f5d8506869d02ad2bb0ddc966b7d
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '561'
+ht-degree: 70%
 
 ---
 
@@ -29,19 +29,25 @@ ht-degree: 0%
 
 * Adobe Experience Platform
 * [!UICONTROL Real-time Customer Data Platform]
+* Audience Managerユーザーベースの宛先は、Facebook、LinkedIn、Google Customer Match に対するユーザーベースのアクティベーションにも利用できます。
 
 ## アーキテクチャ
 
-### 宛先を使用したオンラインとオフラインのデータのアクティベーション
+### Real-time Customer Data Platformを使用した既知のお客様のアクティベーション
 
-<img src="assets/online_offline_activation.svg" alt="オンライン／オフラインオーディエンスアクティベーションブループリントの参照アーキテクチャ" style="width:80%; border:1px solid #4a4a4a" />
+<img src="assets/known_activation.svg" alt="既知の顧客アクティベーションブループリントの参照アーキテクチャ" style="width:80%; border:1px solid #4a4a4a" />
+<br>
+
+### Audience Managerユーザーベースの宛先を使用した既知の顧客のアクティベーション
+
+<img src="assets/AAM_PBD.svg" alt="既知の顧客アクティベーションブループリントの参照アーキテクチャ" style="width:80%; border:1px solid #4a4a4a" />
 <br>
 
 ## ガードレール
 
 [「オーディエンスとプロファイルのアクティベーションの概要」ページで概要を説明しているガードレールを参照してください。](overview.md).
 
-## 実装手順
+## Real-time Customer Data Platformの実装手順
 
 1. データを取り込むために[スキーマを作成](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2021.1.xdm)します。
 1. データを取り込むために[データセットを作成](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/create-datasets-and-ingest-data.html?lang=ja)します。
@@ -57,6 +63,12 @@ ht-degree: 0%
 * プロファイルデータを宛先に共有するには、宛先ペイロードの宛先で使用される特定の ID 値を含める必要があります。ターゲットの宛先に必要な ID は、Platform に取り込まれ、[!UICONTROL リアルタイム顧客プロファイル]の ID として設定される必要があります。
 
 * 詳しくは、 [オーディエンスとプロファイルのアクティベーション (Experience Cloudアプリケーションブループリント )](platform-and-applications.md) Real-time Customer Data PlatformからAudience Manager、Analytics、Target、Campaign、Journey Optimizerへのオーディエンスの共有について詳しくは、こちらを参照してください。
+
+## Audience Managerの People Based Destinations の実装手順
+
+* Audience Managerの実装について詳しくは、次を参照してください [ドキュメント](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/implement-audience-manager.html?lang=ja).
+
+* People Based Destinations をAudience Managerに実装する方法について詳しくは、以下を参照してください [ドキュメント](https://experienceleague.adobe.com/docs/audience-manager/user-guide/faqs/faq-people-based-destinations.html).
 
 ## 関連ドキュメント
 

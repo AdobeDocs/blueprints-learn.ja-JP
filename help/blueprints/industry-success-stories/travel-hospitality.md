@@ -3,13 +3,13 @@ title: 観光および接客業 - オンラインおよびオフラインのデ�
 description: 様々なチャネルにわたる顧客行動を 1 つの統合表示に基づいて、リアルタイムで決定します。
 solution: Experience Platform, Real-time Customer Data Platform, Customer Journey Analytics, Analytics, Audience Manager, Experience Manager, Target
 kt: 9485
-source-git-commit: c393d73d2fa7acd4e5c2d99c098503b023b6115d
-workflow-type: ht
+exl-id: 8b96cc5f-bcdd-4bd3-81e4-084f697ac1d3
+source-git-commit: 58e589d230d1f5d8506869d02ad2bb0ddc966b7d
+workflow-type: tm+mt
 source-wordcount: '407'
 ht-degree: 100%
 
 ---
-
 
 # 観光および接客業のビジネス課題
 
@@ -42,8 +42,4 @@ ht-degree: 100%
 
 ### ブループリントアーキテクチャ
 
-<a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/platform-and-applications.html?lang=ja"><img alt="様々なチャネルをまたいだ顧客行動を 1 つの統合ビューでリアルタイムに意思決定する、旅行および接客業向けのサムネール画像。" src="https://experienceleague.adobe.com/docs/blueprints-learn/assets/online_offline_activation.svg"/></a>
-
-
-
-
+<a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/platform-and-applications.html?lang=ja"><img alt="様々なチャネルをまたいだ顧客行動を 1 つの統合ビューでリアルタイムに意思決定する、旅行および接客業向けのサムネール画像。" src="https://experienceleague.adobe.com/docs/blueprints-learn/assets/known_activation.svg"/></a>
