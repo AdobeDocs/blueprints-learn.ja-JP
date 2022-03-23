@@ -6,10 +6,10 @@ solution: Experience Platform, Audience Manager
 kt: 7211
 thumbnail: null
 exl-id: f17599f1-2e75-4cbe-841a-9fd1dae71ada
-source-git-commit: f46c09a88cf2b49c816ab27c5daef20c01e99b09
+source-git-commit: 64e7b61c1b4b1d600641fd3299a2b84154873cfb
 workflow-type: tm+mt
-source-wordcount: '391'
-ht-degree: 40%
+source-wordcount: '397'
+ht-degree: 41%
 
 ---
 
@@ -26,6 +26,9 @@ ht-degree: 40%
 
 ## アプリケーション
 
+* Audience Manager
+* Real-time Customer Data Platform
+
 Audience ManagerとReal-time Customer Data Platformの両方を、AnonymousAudience Activationをオンサイトと広告の宛先に活用できます。 Real-time Customer Data Platformは、匿名デバイス識別子が ( [宛先ドキュメント](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/overview.html?lang=en).
 
 Microsoft Bing、Google DV360、TradeDesk は、匿名デバイスベースのターゲティングでサポートされる主なReal-time Customer Data Platform広告先です。 これら以外にも、Real-time Customer Data Platformは、 [宛先ドキュメント](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/overview.html?lang=en) そして、 [既知の顧客アクティベーションブループリント](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/known-customer-audience-activation/known.html).
@@ -34,9 +37,9 @@ Microsoft Bing、Google DV360、TradeDesk は、匿名デバイスベースの�
 
 <img src="assets/anonymous_activation.svg" alt="匿名オーディエンスアクティベーションブループリントの参照アーキテクチャ" style="width:80%; border:1px solid #4a4a4a" />
 
-## 実装手順
+<br>
 
-<!-- These steps should link to help. -->
+## 実装手順
 
 1. [Audience Manager を実装します](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/implement-audience-manager.html?lang=ja#implementation-integration-guides)。
 1. Audience Manager にデータを収集します。
