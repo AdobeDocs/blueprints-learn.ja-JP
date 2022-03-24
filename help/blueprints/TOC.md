@@ -6,9 +6,9 @@ product: adobe experience platform
 mini-toc-levels: 3
 role: Architect, Developer, User
 source-git-commit: 274f87c0d9bf7e9276b978a097a9633a55f09ede
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '175'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 98%
 + オーディエンスとプロファイルのアクティベーション {#audience-activation}
    + [概要](/help/blueprints/audience-activation/overview.md)
    + [匿名オーディエンスアクティベーション](/help/blueprints/audience-activation/anonymous.md)
-   + 既知の顧客のアクティベーション{#known-customer-audience-activation}
+   + 既知の顧客のアクティベーション {#known-customer-audience-activation}
       + [概要](/help/blueprints/audience-activation/known.md)
       + ソーシャルおよび広告チャネルに対するアクティベーション {#audience-activation}
          + [Facebook Custom Audiences へのアクティベーション](/help/blueprints/audience-activation/destinations/facebook.md)
