@@ -6,8 +6,8 @@ kt: 7722
 exl-id: f36014e8-170d-47e1-b4ec-10c0ea70612d
 source-git-commit: 2b4e1f7134b240b68a432bfd70fe698ff634857a
 workflow-type: tm+mt
-source-wordcount: '741'
-ht-degree: 79%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 79%
 
 Experience Platform でプロファイルおよびオーディエンスを管理し、Experience Cloud アプリケーションを使用して共有します。Experience Platform でリッチな顧客セグメントおよびインサイトを構築および共有し、Experience Cloud アプリケーションを使用して共有します。
 
-Experience Cloudアプリケーションを使用したアクティベーションは、 [既知の顧客アクティベーションブループリント](known.md).
+Experience Cloud アプリケーションを使用したアクティベーションは、[既知の顧客アクティベーションブループリント](known.md)と密接に連携しています。
 
 ## ユースケース
 
@@ -35,7 +35,7 @@ Experience Cloudアプリケーションを使用したアクティベーショ�
 
 ## アーキテクチャ
 
-詳しくは、 [Experience Platformとアプリケーションのアーキテクチャの節](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/architecture-overview/platform-applications.html?lang=ja) を参照してください。
+Experience Platform と Experience Cloud アプリケーションの統合に関する追加のアーキテクチャ図については、[Experience Platform およびアプリケーションアーキテクチャの節](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/architecture-overview/platform-applications.html?lang=ja)を参照してください。
 
 ### Experience Cloud アプリケーションを使用したオーディエンスとプロファイルのアクティベーション
 
@@ -62,13 +62,13 @@ Experience Cloudアプリケーションを使用したアクティベーショ�
 
 * 必須の宛先 ID が[!UICONTROL リアルタイム顧客プロファイル]に含まれている場合、または[!UICONTROL リアルタイム顧客プロファイル]内の ID が Audience Manager でリンクされる必須の宛先 ID と関連付けられる場合、Experience Platform からのオーディエンスは、Audience Manager 宛先を使用して共有できます。
 
-### Real-time Customer Data Platformから Target へのオーディエンスの共有
+### Real-time Customer Data Platform から Target へのオーディエンスの共有
 
-* 詳しくは、 [Web/Mobile Personalizationとオンラインおよびオフラインのデータブループリント](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/web-personalization/online-offline.html) を参照してください。
+* Real-time Customer Data Platform から Target へのプロファイルとオーディエンスの共有に関する詳細は、 [オンラインとオフラインのデータを使用した Web/モバイルのパーソナライゼーションブループリント](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/web-personalization/online-offline.html?lang=ja) を参照してください。
 
-### Real-time Customer Data Platformから Campaign およびJourney Optimizerへのオーディエンスの共有
+### Real-time Customer Data Platform から Campaign および Journey Optimizer へのオーディエンスの共有
 
-* 詳しくは、 [顧客ジャーニーのブループリント](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/overview.html) を参照してください。
+* Real-time Customer Data Platform から Campaign および Journey Optimizer へのプロファイルとオーディエンスの共有に関する詳細は、[カスタマージャーニーのブループリント](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/overview.html?lang=ja) を参照してください。
 
 ## 関連ドキュメント
 

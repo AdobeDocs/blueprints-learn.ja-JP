@@ -7,7 +7,7 @@ exl-id: 011f4909-b208-46db-ac1c-55b3671ee48c
 source-git-commit: 58e589d230d1f5d8506869d02ad2bb0ddc966b7d
 workflow-type: tm+mt
 source-wordcount: '561'
-ht-degree: 70%
+ht-degree: 82%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 70%
 
 オンライン行動と共に、オフライン属性およびイベント（オフラインの注文、トランザクション、CRM、ロイヤリティデータなど）を、オンラインターゲティングとパーソナライズ機能に使用します。
 
-ガバナンスコントロールが組み込まれた識別子が拡張され、既知の顧客とのコミュニケーションの機会が増えました。 既知のプロファイルベースの宛先（電子メールプロバイダー、ソーシャルネットワーク、広告など）に対して、オーディエンスをアクティブ化します。
+ガバナンスコントロールが組み込まれた拡大された識別子は、既知の顧客とコミュニケーションをとる機会を増やします。既知のプロファイルベースの宛先（電子メールプロバイダー、ソーシャルネットワーク、広告など）に対して、オーディエンスをアクティブ化します。
 
 追加の詳細は、Experience Platform と Experience Cloud アプリケーションの間の統合に特有な、[Experience Cloud アプリケーションを使用したオーディエンスとプロファイルのアクティベーションブループリント](platform-and-applications.md)で提供されます。
 
@@ -45,9 +45,9 @@ ht-degree: 70%
 
 ## ガードレール
 
-[「オーディエンスとプロファイルのアクティベーションの概要」ページで概要を説明しているガードレールを参照してください。](overview.md).
+[オーディエンスとプロファイルのアクティベーションの概要ページに説明されているガードレールを参照してください。](overview.md)
 
-## Real-time Customer Data Platformの実装手順
+## 実装手順 Real-time Customer Data Platform
 
 1. データを取り込むために[スキーマを作成](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2021.1.xdm)します。
 1. データを取り込むために[データセットを作成](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/create-datasets-and-ingest-data.html?lang=ja)します。
@@ -62,7 +62,7 @@ ht-degree: 70%
 
 * プロファイルデータを宛先に共有するには、宛先ペイロードの宛先で使用される特定の ID 値を含める必要があります。ターゲットの宛先に必要な ID は、Platform に取り込まれ、[!UICONTROL リアルタイム顧客プロファイル]の ID として設定される必要があります。
 
-* 詳しくは、 [オーディエンスとプロファイルのアクティベーション (Experience Cloudアプリケーションブループリント )](platform-and-applications.md) Real-time Customer Data PlatformからAudience Manager、Analytics、Target、Campaign、Journey Optimizerへのオーディエンスの共有について詳しくは、こちらを参照してください。
+* Real-time Customer Data Platform から Audience Manager、Analytics、Target、Campaign、Journey Optimizer へのオーディエンスの共有に関する詳細は、[オーディエンスとプロファイルのアクティベーション (Experience Cloud アプリケーションブループリント )](platform-and-applications.md)を参照してください。
 
 ## Audience Managerの People Based Destinations の実装手順
 
