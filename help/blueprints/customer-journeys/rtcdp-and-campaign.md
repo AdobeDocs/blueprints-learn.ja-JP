@@ -1,16 +1,16 @@
 ---
-title: Real-Time CDPとAdobe Campaignの統合パターン
+title: Real-Time CDP と Adobe Campaign の統合パターン
 description: Adobe Experience Platform とそのリアルタイム顧客プロファイル、および一元化されたセグメント化ツールを Adobe Campaign と併用して、パーソナライズされた会話を提供する方法を紹介します。
 solution: Experience Platform, Campaign v8, Campaign Classic v7, Campaign Standard
 exl-id: a15e8304-2763-42fc-9978-11f2482ea8b8
 source-git-commit: e158cb7c14970a9deb035fde50c9c070b0760203
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '767'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
-# Real-Time CDPとAdobe Campaignの統合パターン
+# Real-Time CDP と Adobe Campaign の統合パターン
 
 Adobe Experience Platform とそのリアルタイム顧客プロファイル、および一元化されたセグメント化ツールを Adobe Campaign と併用して、パーソナライズされた会話を提供する方法を紹介します。
 
@@ -25,7 +25,7 @@ Adobe Experience Platform とそのリアルタイム顧客プロファイル、
 
 ## アーキテクチャ
 
-<img src="assets/rtcdp-campaign-architecture.svg" alt="バッチメッセージおよびAdobe Experience Platform統合パターンの参照アーキテクチャ" style="width:100%; border:1px solid #4a4a4a" />
+<img src="assets/rtcdp-campaign-architecture.svg" alt="バッチメッセージおよび Adobe Experience Platform 統合パターンの参照アーキテクチャ" style="width:100%; border:1px solid #4a4a4a" />
 
 <br>
 
@@ -72,7 +72,7 @@ Adobe Experience Platform とそのリアルタイム顧客プロファイル、
 #### プロファイル／ID
 
 1. [任意の顧客専用の名前空間を作成します。](https://experienceleague.adobe.com/docs/platform-learn/tutorials/identities/label-ingest-and-verify-identity-data.html?lang=ja)
-1. [スキーマに ID を追加します](https://experienceleague.adobe.com/docs/platform-learn/tutorials/identities/label-ingest-and-verify-identity-data.html)。
+1. [スキーマに ID を追加します](https://experienceleague.adobe.com/docs/platform-learn/tutorials/identities/label-ingest-and-verify-identity-data.html?lang=ja)。
 1. [プロファイル用のスキーマおよびデータセットを有効にします](https://experienceleague.adobe.com/docs/platform-learn/tutorials/profiles/bring-data-into-the-real-time-customer-profile.html?lang=ja)。
 1. [!UICONTROL リアルタイム顧客プロファイル]の様々な表示用に[結合ポリシーを設定](https://experienceleague.adobe.com/docs/platform-learn/tutorials/profiles/create-merge-policies.html?lang=ja)します（オプション）。
 1. Adobe Campaign 使用状況用のセグメントを作成します。
