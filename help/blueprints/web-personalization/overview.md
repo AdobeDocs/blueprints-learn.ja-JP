@@ -6,22 +6,22 @@ kt: null
 thumbnail: null
 exl-id: 8ad028fd-3190-42da-9f46-7e927e8878f8
 source-git-commit: aba3bfcecac07cb51393fef9e6278d9d6af3e377
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '236'
-ht-degree: 72%
+ht-degree: 100%
 
 ---
 
 # Web およびモバイルパーソナライズ機能
 
-Web およびモバイルパーソナライゼーションは、複数のアプリケーションでプロファイルとオーディエンスのセグメント化を使用して、顧客体験をパーソナライズおよび最適化する機能に対応します。 顧客の行動、人口統計、ロイヤリティレベル、以前のトランザクションを活用して、レイアウト、コールトゥアクション、コンテンツをパーソナライズできます。
+Web およびモバイルパーソナライズ機能は、複数のアプリケーションでプロファイルおよびオーディエンスのセグメント化を使用する機能を処理して、カスタマーエクスペリエンスをパーソナライズおよび最適化します。顧客の行動、人口統計、ロイヤリティレベル、以前のトランザクションを活用して、レイアウト、コールトゥアクション、コンテンツをパーソナライズすることが可能です。
 
 <br>
 
 | ブループリント | 説明 | Experience Cloud アプリケーション |
 |---|---|---|
 | **[行動による Web／モバイルパーソナライズ機能](behavioral.md)** | <ul><li>オンライン行動およびオーディエンスデータに基づいてパーソナライズします。</li></ul> | <ul><li>Adobe Target</li><li>Adobe Real-time Customer Data Platform *（オプション）*</li><li>Adobe Analytics *（オプション）*</li><li>Adobe Audience Manager *（オプション）*</li></ul> |
-| **[オンラインとオフラインのデータを使用した Web／モバイルのパーソナライゼーション](online-offline.md)** | <ul><li>完全な顧客プロファイルと拡張セグメント化により、パーソナライズされたエクスペリエンスを改善します。</li><li>オフライン属性およびイベント（トランザクション、予約、CRM およびロイヤリティデータ）を使用してパーソナライズします。</li><li>Web、電子メール、その他の既知のチャネルをまたいでパーソナライズ機能を同期します。</li></ul> | <ul><li>Adobe Target</li><li>[!UICONTROL Real-time Customer Data Platform]</li><li>Adobe Analytics *（オプション）*</li><li>Adobe Audience Manager *（オプション）*</li></ul> |
+| **[オンラインとオフラインのデータを使用した Web／モバイルのパーソナライゼーション](online-offline.md)** | <ul><li>完全な顧客プロファイルとセグメンテーションの強化により、パーソナライズされたエクスペリエンス実現します。</li><li>オフライン属性およびイベント（トランザクション、予約、CRM およびロイヤリティデータ）を使用してパーソナライズします。</li><li>Web、電子メール、その他の既知のチャネルをまたいでパーソナライズ機能を同期します。</li></ul> | <ul><li>Adobe Target</li><li>[!UICONTROL Real-time Customer Data Platform]</li><li>Adobe Analytics *（オプション）*</li><li>Adobe Audience Manager *（オプション）*</li></ul> |
 
 <br>
 
@@ -33,7 +33,7 @@ Web およびモバイルパーソナライゼーションは、複数のアプ�
 
 ### オンライン／オフラインパーソナライズ機能ガードレール図
 
-<img src="assets/personalization_guardrails.png" alt="オンライン／オフライン web パーソナライズ機能ブループリントの参照アーキテクチャ" style="width:80%; border:1px solid #4a4a4a" />
+<img src="assets/personalization_guardrails.png" alt="オンライン／オフライン Web パーソナライズ機能ブループリントの参照アーキテクチャ" style="width:80%; border:1px solid #4a4a4a" />
 
 ## 関連するブログ投稿
 
