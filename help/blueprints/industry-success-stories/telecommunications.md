@@ -1,15 +1,15 @@
 ---
 title: 通信業界 - トリガーメッセージ用の Journey Optimizer
 description: 顧客の長期ロイヤリティに対する効率的なオンボーディングと併せ、顧客に合わせてリアルタイムの契約を提供します。
-solution: Experience Platform, Journey Optimizer
+solution: Journey Optimizer
 kt: 9486
-source-git-commit: c393d73d2fa7acd4e5c2d99c098503b023b6115d
-workflow-type: ht
+exl-id: fa4a6569-3972-4b97-91f1-7ca8ffd3c5b3
+source-git-commit: d19555201107b6aa827e63eb8ecff8642d9f967c
+workflow-type: tm+mt
 source-wordcount: '334'
 ht-degree: 100%
 
 ---
-
 
 # 通信業界のビジネス課題
 
@@ -42,8 +42,3 @@ ht-degree: 100%
 ### ブループリントアーキテクチャ
 
 <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer.html?lang=ja"><img alt="通信業向けのサムネイル画像は、顧客の長期ロイヤリティに対する効率的なオンボーディングを提供しながら、顧客に合わせてリアルタイムの契約を提供します。" src="https://experienceleague.adobe.com/docs/blueprints-learn/assets/journey-optimizer.png?lang=en"/></a>
-
-
-
-
-
