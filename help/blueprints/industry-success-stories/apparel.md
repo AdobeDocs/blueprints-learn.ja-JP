@@ -1,15 +1,15 @@
 ---
 title: アパレル業界 - Experience Cloud アプリケーションを使用したアクティベーション
 description: 複数のブループリントを使用して、リアルタイムマーケティング、クロスチャネルアクティベーション、およびクロスチャネル分析を有効にしました。
-solution: Experience Platform, Real-time Customer Data Platform, Customer Journey Analytics, Journey Orchestration
+solution: Real-time Customer Data Platform, Customer Journey Analytics, Journey Orchestration
 kt: 9487
-source-git-commit: c393d73d2fa7acd4e5c2d99c098503b023b6115d
-workflow-type: ht
+exl-id: f1a3e785-c804-43bd-90de-da4359bdd810
+source-git-commit: 17faffdd972f2485951ac1e870b578e9b1a011a5
+workflow-type: tm+mt
 source-wordcount: '336'
 ht-degree: 100%
 
 ---
-
 
 # アパレル業界のビジネス課題
 
@@ -47,7 +47,3 @@ ht-degree: 100%
 ### ブループリントアーキテクチャ
 
 <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/platform-and-applications.html?lang=ja"><img alt="Audience アクティベーション、Customer Journey Analytics、カスタマージャーニーブループリントを使用したアパレルビジネス用のサムネール画像" src="https://experienceleague.adobe.com/docs/blueprints-learn/assets/aep+apps_vertical.svg?lang=en"/></a>
-
-
-
-
