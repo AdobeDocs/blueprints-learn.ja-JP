@@ -6,10 +6,10 @@ solution: Experience Platform, Audience Manager
 kt: 7211
 thumbnail: null
 exl-id: f17599f1-2e75-4cbe-841a-9fd1dae71ada
-source-git-commit: 64e7b61c1b4b1d600641fd3299a2b84154873cfb
+source-git-commit: 4a46b7a4c278107c806d3ddd14591c7abe1a13d3
 workflow-type: tm+mt
-source-wordcount: '397'
-ht-degree: 41%
+source-wordcount: '380'
+ht-degree: 35%
 
 ---
 
@@ -39,15 +39,13 @@ Microsoft Bing、Google DV360、TradeDesk は、匿名デバイスベースの�
 
 <br>
 
-## 実装手順
+## 実装手順 Audience Manager
 
-1. [Audience Manager を実装します](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/implement-audience-manager.html?lang=ja#implementation-integration-guides)。
-1. Audience Manager にデータを収集します。
-1. セグメント定義に使用するシグナルおよび特性を設定します。
-1. Audience Manager でセグメントを作成します。
-1. Audience Manager で宛先を設定して、オーディエンスを共有します。
+* Audience Managerの実装について詳しくは、次を参照してください [ドキュメント](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/implement-audience-manager.html?lang=ja).
 
-Real-time Customer Data Platformの実装手順については、 [既知の顧客アクティベーションブループリント](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/known-customer-audience-activation/known.html).
+## Real-time Customer Data Platformの実装手順
+
+* Real-time Customer Data Platformの実装手順については、以下を参照してください [ドキュメント](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/known-customer-audience-activation/known.html).
 
 ## 関連ドキュメント
 
