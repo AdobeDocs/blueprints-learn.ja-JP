@@ -1,11 +1,11 @@
 ---
 title: 顧客アクティビティハブブループリント
 description: 「[!UICONTROL リアルタイム顧客プロファイル]を検索し、担当者がサポートおよび販売を支援する際のコンテキストを提供します。」
-solution: Experience Platform,Data Collection
+solution: Data Collection
 kt: 7195
 exl-id: 3616cbf1-2e59-4e68-a1ff-1d2e3b344a1c
-source-git-commit: 687e5d61be990b7a837e413d4643cffde4f1d584
-workflow-type: ht
+source-git-commit: 1d286f4dabe71f359c14a88c91f306ea443646a6
+workflow-type: tm+mt
 source-wordcount: '382'
 ht-degree: 100%
 
@@ -49,5 +49,5 @@ ht-degree: 100%
 
 * [Adobe Experience Platform Activation 製品説明](https://helpx.adobe.com/jp/legal/product-descriptions/adobe-experience-platform0.html)
 * [[!UICONTROL リアルタイム顧客プロファイル]ドキュメント](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=ja)
-* [プロファイルのガードレール](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=ja)
+* [プロファイルのガードレール](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html)
 * [Profile Lookup API](https://www.adobe.io/apis/experienceplatform/home/api-reference.html)
