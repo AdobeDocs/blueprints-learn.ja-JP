@@ -5,10 +5,10 @@ user-guide-description: ブループリントは、既存のビジネス上の�
 product: adobe experience platform
 mini-toc-levels: 3
 role: Architect, Developer, User
-source-git-commit: 274f87c0d9bf7e9276b978a097a9633a55f09ede
-workflow-type: ht
+source-git-commit: d80f7171c61373f4757d2a84313d0ceab800d29b
+workflow-type: tm+mt
 source-wordcount: '175'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -59,6 +59,7 @@ ht-degree: 100%
    + [データ準備および取り込み](/help/blueprints/data-ingestion/ingestion.md)
    + [サーバーサイドエンタープライズデータ収集](/help/blueprints/data-ingestion/server-side-collection.md)
    + [Experience Platform Web SDK](/help/blueprints/data-ingestion/websdk.md)
+   + [アプリケーション SDK](/help/blueprints/data-ingestion/appsdk.md)
 + データ分析、インテリジェンス、AI／ML {#data-exploration}
    + [概要](/help/blueprints/data-insights/overview.md)
    + [データ分析とインテリジェンス](/help/blueprints/data-insights/analysis.md)
@@ -66,4 +67,4 @@ ht-degree: 100%
 + Web およびモバイルパーソナライズ機能 {#web-personalization}
    + [概要](/help/blueprints/web-personalization/overview.md)
    + [行動によるパーソナライズ機能](/help/blueprints/web-personalization/behavioral.md)
-   + [オンラインとオフラインのデータを使用したパーソナライズ機能](/help/blueprints/web-personalization/online-offline.md)
+   + [既知の顧客Personalization](/help/blueprints/web-personalization/known-personalization.md)

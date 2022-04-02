@@ -5,10 +5,10 @@ solution: Real-time Customer Data Platform, Target, Audience Manager, Analytics,
 kt: null
 thumbnail: null
 exl-id: 8ad028fd-3190-42da-9f46-7e927e8878f8
-source-git-commit: 17faffdd972f2485951ac1e870b578e9b1a011a5
+source-git-commit: 4fef6460b305dc01671eeb9a90e58483f42d35e2
 workflow-type: tm+mt
 source-wordcount: '236'
-ht-degree: 100%
+ht-degree: 94%
 
 ---
 
@@ -21,7 +21,7 @@ Web およびモバイルパーソナライズ機能は、複数のアプリケ�
 | ブループリント | 説明 | Experience Cloud アプリケーション |
 |---|---|---|
 | **[行動による Web／モバイルパーソナライズ機能](behavioral.md)** | <ul><li>オンライン行動およびオーディエンスデータに基づいてパーソナライズします。</li></ul> | <ul><li>Adobe Target</li><li>Adobe Real-time Customer Data Platform *（オプション）*</li><li>Adobe Analytics *（オプション）*</li><li>Adobe Audience Manager *（オプション）*</li></ul> |
-| **[オンラインとオフラインのデータを使用した Web／モバイルのパーソナライゼーション](online-offline.md)** | <ul><li>完全な顧客プロファイルとセグメンテーションの強化により、パーソナライズされたエクスペリエンス実現します。</li><li>オフライン属性およびイベント（トランザクション、予約、CRM およびロイヤリティデータ）を使用してパーソナライズします。</li><li>Web、電子メール、その他の既知のチャネルをまたいでパーソナライズ機能を同期します。</li></ul> | <ul><li>Adobe Target</li><li>[!UICONTROL Real-time Customer Data Platform]</li><li>Adobe Analytics *（オプション）*</li><li>Adobe Audience Manager *（オプション）*</li></ul> |
+| **[Web/Mobile Personalizationと既知の顧客データ](known-personalization.md)** | <ul><li>完全な顧客プロファイルとセグメンテーションの強化により、パーソナライズされたエクスペリエンス実現します。</li><li>オフライン属性およびイベント（トランザクション、予約、CRM およびロイヤリティデータ）を使用してパーソナライズします。</li><li>Web、電子メール、その他の既知のチャネルをまたいでパーソナライズ機能を同期します。</li></ul> | <ul><li>Adobe Target</li><li>[!UICONTROL Real-time Customer Data Platform]</li><li>Adobe Analytics *（オプション）*</li><li>Adobe Audience Manager *（オプション）*</li></ul> |
 
 <br>
 
@@ -31,7 +31,7 @@ Web およびモバイルパーソナライズ機能は、複数のアプリケ�
 
 <br>
 
-### オンライン／オフラインパーソナライズ機能ガードレール図
+### 既知の顧客Personalization Guardrail の図
 
 <img src="assets/personalization_guardrails.png" alt="オンライン／オフライン Web パーソナライズ機能ブループリントの参照アーキテクチャ" style="width:80%; border:1px solid #4a4a4a" />
 

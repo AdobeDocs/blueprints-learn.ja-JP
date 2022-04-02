@@ -5,10 +5,10 @@ landing-page-description: オンライン行動およびオーディエンスデ
 solution: Experience Platform, Target, Audience Manager, Analytics, Experience Cloud Services, Data Collection
 kt: 7085thumb-web-personalization-scenario1.jpg
 exl-id: b9882c2c-cb45-4efa-a85c-8fe48f641a12
-source-git-commit: f323d2deee5547abd0ccc8247a23ac7a144b2f07
-workflow-type: ht
-source-wordcount: '534'
-ht-degree: 100%
+source-git-commit: d80f7171c61373f4757d2a84313d0ceab800d29b
+workflow-type: tm+mt
+source-wordcount: '622'
+ht-degree: 96%
 
 ---
 
@@ -27,15 +27,12 @@ ht-degree: 100%
 * Adobe Target
 * Adobe Analytics（オプション）
 * Adobe Audience Manager（オプション）
+* Adobe Real-time Customer Data Platform （オプション）
 
 ## アーキテクチャ
 
-<img src="assets/behavioral_personalization.png" alt="行動による web パーソナライズ機能ブループリントの参照アーキテクチャ" style="width:80%; border:1px solid #4a4a4a" />
+<img src="assets/behavioral_personalization.svg" alt="行動による web パーソナライズ機能ブループリントの参照アーキテクチャ" style="width:80%; border:1px solid #4a4a4a" />
 
-
-## ガードレール
-
-デフォルトでは、セグメント共有サービスを使用すると、各 Adobe Analytics レポートスイートで最大 75 のオーディエンスを共有できます。Audience Manager をオーディエンス共有に使用している場合、共有できるオーディエンスの数に制限はありません。 
 
 ## 実装パターン
 
@@ -50,24 +47,14 @@ Web／モバイルパーソナライズ機能ブループリントは、以下�
 
 ### 2. アプリケーション固有 SDK アプローチ
 
-<img src="assets/app_sdk_flow.png" alt="アプリケーション固有 SDK アプローチの参照アーキテクチャ" style="width:80%; border:1px solid #4a4a4a" />
+[アプリケーション固有の SDK ブループリントを参照してください。](../data-ingestion/appsdk.md)
 
-## 実装の前提条件
-
-| アプリケーション／サービス | 必須ライブラリ | メモ |
-|---|---|---|
-| Adobe Target | [!UICONTROL Platform Web SDK]*、at.js 0.9.1 以降または mbox.js 61 以降 | mbox.js は今後開発されないため、at.js をお勧めします。 |
-| Adobe Audience Manager（オプション） | [!UICONTROL Platform Web SDK]* または dil.js 5.0 以降 |  |
-| Adobe Analytics（オプション） | [!UICONTROL Platform Web SDK]* または AppMeasurement.js 1.6.4 以降 |  |
-| Experience Cloud ID サービス | [!UICONTROL Platform Web SDK]* または VisitorAPI.js 2.0 以降 |  |
-| Experience Platform Mobile SDK（オプション） | 4.11 以降（iOS および Android™ 用） |  |
-| Experience Platform Web SDK | 現在の Experience Platform SDK バージョンである 1.0 には、[Experience Cloud アプリケーションをまだサポートしていない様々なユースケースがあります](https://github.com/adobe/alloy/projects/5) |  |
 
 ## 実装手順
 
 1. Web またはモバイルアプリケーション用に [Adobe Target を実装](https://experienceleague.adobe.com/docs/target/using/implement-target/implementing-target.html?lang=ja)します。
 
-   Audience Manager または Adobe Analytics を使用する場合：
+### 実装手順 —Audience ManagerまたはAdobe Analytics
 
 1. [Adobe Audience Manager を実装](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/implement-audience-manager.html?lang=ja)します
 1. [Adobe Analytics を実装](https://experienceleague.adobe.com/docs/analytics/implementation/home.html?lang=ja)します
@@ -81,12 +68,28 @@ Web／モバイルパーソナライズ機能ブループリントは、以下�
 1. [Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-build.html?lang=ja) または [Adobe Audience Manager](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/segments/segment-builder.html?lang=ja) でセグメントを作成し、[これらのオーディエンスを Experience Cloud に共有するように設定](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-publish.html?lang=ja)します（Audience Manager または Adobe Analytics を使用している場合）
 1. オーディエンスが Adobe Target で使用できるようになったら、[Adobe Target によるターゲティングエクスペリエンス](https://experienceleague.adobe.com/docs/target/using/audiences/target.html?lang=ja)で使用できます
 
+### 実装手順 — Real-time Customer Data Platform
+
+1. データを取り込むために[スキーマを作成](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2021.1.xdm)します。
+1. データを取り込むために[データセットを作成](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/create-datasets-and-ingest-data.html?lang=ja)します。
+1. 取り込まれたデータが統合プロファイルに確実にステッチできるようにするために、スキーマに[正しい ID および ID 名前空間を設定します](https://experienceleague.adobe.com/docs/platform-learn/tutorials/identities/label-ingest-and-verify-identity-data.html?lang=ja)。
+1. [プロファイル用のスキーマおよびデータセットを有効にします](https://experienceleague.adobe.com/docs/platform-learn/tutorials/profiles/bring-data-into-the-real-time-customer-profile.html?lang=ja)。
+1. Experience Platform に[データを取り込みます](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2020.1.dataingestion&amp;lang=ja)。
+1. Experience Platform で定義されたオーディエンスが Audience Manager に共有されるように、[Experience Platform と Audience Manager の間の [!UICONTROL Real-time Customer Data Platform の]セグメント共有を](https://www.adobe.com/go/audiences)プロビジョニングします。
+1. Experience Platform で[セグメントを作成します。](https://experienceleague.adobe.com/docs/platform-learn/tutorials/segments/create-segments.html?lang=ja)セグメントをバッチとして、またはストリーミングとして評価するかを、システムが自動的に判定します。
+1. プロファイル属性およびオーディエンスメンバーシップを目的の宛先に共有するための[宛先を設定します。](https://experienceleague.adobe.com/docs/platform-learn/tutorials/destinations/create-destinations-and-activate-data.html?lang=ja)
+
+
 ## 関連ドキュメント
 
 * [Experience Cloud Audiences](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html?lang=ja)
 * [Audience Manager と Adobe Target の統合](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/aam-target-integration.html?lang=ja)
-* [Adobe Audience Manager を使用した Adobe Analytics セグメント共有](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-publish.html?lang=ja)
-
+* [Adobe Audience Manager を使用した Adobe Analytics セグメント共有](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-publish.html)
+* [[!UICONTROL Real-time Customer Data Platform] の概要](https://experienceleague.adobe.com/docs/platform-learn/tutorials/application-services/rtcdp/understanding-the-real-time-customer-data-platform.html?lang=ja)
+* [[!UICONTROL Real-time Customer Data Platform] 製品説明](https://helpx.adobe.com/jp/legal/product-descriptions/real-time-customer-data-platform.html)
+* [プロファイルおよびセグメント化ガイドライン](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=ja)
+* [セグメント化ドキュメント](https://experienceleague.adobe.com/docs/experience-platform/segmentation/api/streaming-segmentation.html?lang=ja)
+* [宛先ドキュメント](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/overview.html?lang=ja)
 
 ## 関連するブログ投稿
 
