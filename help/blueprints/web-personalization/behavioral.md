@@ -5,9 +5,9 @@ landing-page-description: オンライン行動およびオーディエンスデ
 solution: Experience Platform, Target, Audience Manager, Analytics, Experience Cloud Services, Data Collection
 kt: 7085thumb-web-personalization-scenario1.jpg
 exl-id: b9882c2c-cb45-4efa-a85c-8fe48f641a12
-source-git-commit: d80f7171c61373f4757d2a84313d0ceab800d29b
+source-git-commit: 99de2ae48ef0b6177193ffbbb9cef71e7bc83e59
 workflow-type: tm+mt
-source-wordcount: '622'
+source-wordcount: '612'
 ht-degree: 96%
 
 ---
@@ -38,17 +38,8 @@ ht-degree: 96%
 
 Web／モバイルパーソナライズ機能ブループリントは、以下に説明する方法で実装できます。
 
-1. [!UICONTROL Platform Web SDK] または [!UICONTROL Platform Mobile SDK] と[!UICONTROL エッジネットワーク]を使用。
-1. 従来のアプリケーション固有 SDK（AppMeasurement.js など）を使用
-
-### 1. Platform Web／Mobile SDK およびエッジアプローチ
-
-[Experience Platform Web および Mobile SDK のブループリントを参照してください。](../data-ingestion/websdk.md)
-
-### 2. アプリケーション固有 SDK アプローチ
-
-[アプリケーション固有の SDK ブループリントを参照してください。](../data-ingestion/appsdk.md)
-
+1. [!UICONTROL Platform Web SDK] または [!UICONTROL Platform Mobile SDK] と[!UICONTROL エッジネットワーク]を使用。[Experience Platform Web および Mobile SDK のブループリントを参照してください。](../data-ingestion/websdk.md)
+1. 従来のアプリケーション固有 SDK（AppMeasurement.js など）を使用.[アプリケーション固有の SDK ブループリントを参照してください。](../data-ingestion/appsdk.md)
 
 ## 実装手順
 
