@@ -5,7 +5,7 @@ solution: Data Collection
 kt: null
 thumbnail: null
 exl-id: 3cc9e849-a75d-40ad-a604-6acf4c2c9f89
-source-git-commit: 4fef6460b305dc01671eeb9a90e58483f42d35e2
+source-git-commit: 3425495df36ff8da0f2fd737b35d294ccafe31bd
 workflow-type: tm+mt
 source-wordcount: '112'
 ht-degree: 100%
@@ -16,11 +16,11 @@ ht-degree: 100%
 
 のアーキテクチャ図は、Experience Platform Web SDK を使用した統合パスとデータ収集を示しています。
 
-<img src="assets/web_sdk_flow.png" alt="Experience Platform Web および Mobile SDK を使用した実装の参照アーキテクチャ" style="width:80%; border:1px solid #4a4a4a" />
+<img src="assets/web_sdk_flow.png" alt="Experience Platform Web および Mobile SDK を使用した実装の参照アーキテクチャ" style="width:90%; border:1px solid #4a4a4a" />
 
 シーケンス図
 
-<img src="assets/web_sdk_sequence.png" alt="オンライン／オフライン Web パーソナライズ機能ブループリントの参照アーキテクチャ" style="width:80%; border:1px solid #4a4a4a" />
+<img src="assets/web_sdk_sequence.png" alt="オンライン／オフライン Web パーソナライズ機能ブループリントの参照アーキテクチャ" style="width:90%; border:1px solid #4a4a4a" />
 
 ## リファレンスドキュメント
 
