@@ -5,7 +5,7 @@ solution: Data Collection
 kt: 7204
 thumbnail: null
 exl-id: 21f8a73e-6be7-448e-8cd3-ebee9fc848e1
-source-git-commit: 1d286f4dabe71f359c14a88c91f306ea443646a6
+source-git-commit: c08dbf26ad559d48dfc8af5e19ec30e5bbfced65
 workflow-type: tm+mt
 source-wordcount: '652'
 ht-degree: 100%
@@ -20,13 +20,13 @@ ht-degree: 100%
 
 ## アーキテクチャ
 
-<img src="../experience-platform/assets/aep_data_flow.png" alt="データ準備と取り込みブループリントの参照アーキテクチャ" style="width:80%; border:1px solid #4a4a4a" />
+<img src="../experience-platform/assets/aep_data_flow.svg" alt="データ準備と取り込みブループリントの参照アーキテクチャ" style="width:80%; border:1px solid #4a4a4a" />
 
 ## データ取り込みガードレール
 
 次の図は、Adobe Experience Platform にデータを取り込む際の平均パフォーマンスのガードレールとレイテンシを示しています。
 
-<img src="../experience-platform/assets/aep_data_flow_guardrails.png" alt="Experience Platform データフロー" style="border:1px solid #4a4a4a" width="90%" />
+<img src="../experience-platform/assets/aep_data_flow_guardrails.svg" alt="Experience Platform データフロー" style="border:1px solid #4a4a4a" width="90%" />
 
 ## データ取り込み方法
 
