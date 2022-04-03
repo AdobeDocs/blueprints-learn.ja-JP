@@ -2,9 +2,9 @@
 title: デジタルエクスペリエンスブループリント
 description: デジタルエクスペリエンスブループリントは、戦略に取り組み、確立されたビジネス上の問題を解決するための反復可能な実装です。価値実現までの時間を短縮し、成功への近道となります。
 exl-id: 52898310-9723-4ec2-ba10-f45fefe29e93
-source-git-commit: 58e589d230d1f5d8506869d02ad2bb0ddc966b7d
-workflow-type: ht
-source-wordcount: '255'
+source-git-commit: 5f35c36d3ef426396aadf0292e291d7738520032
+workflow-type: tm+mt
+source-wordcount: '254'
 ht-degree: 100%
 
 ---
@@ -31,17 +31,17 @@ ht-degree: 100%
 <tr>
   <td>
     <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer.html?lang=ja"><img alt="トリガーされるメッセージおよび Experience Platform ブループリントのサムネイル画像" src="customer-journeys/assets/ajo-architecture.svg" /></a>
-    <div><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer.html?lang=ja"><strong>クロスチャネルオーケストレーション</strong></a></div>
+    <div><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer.html"><strong>クロスチャネルオーケストレーション</strong></a></div>
     <p><em>[!UICONTROL Platform] を中心としたハブとして使用して、リアルタイムでメッセージを送信し、顧客体験に影響を与えます。</em></p>
   </td>
   <td>
     <a href="/help/blueprints/audience-activation/known.md"><img alt="既知の顧客アクティベーションブループリントのサムネール画像" src="audience-activation/assets/known_activation.svg" /></a>
-    <div><a href="/help/blueprints/audience-activation/known.md"><strong>オンライン／オフラインオーディエンスアクティベーション</strong></a></div>
+    <div><a href="/help/blueprints/audience-activation/known.md"><strong>既知の顧客のアクティベーション</strong></a></div>
     <p><em>オーディエンスアクティベーションのクロスチャネル広告を配信します。</em></p>
   </td>
   <td>
     <a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/cross-channel.html?lang=ja"><img alt="デジタル行動データ統合ブループリントのサムネイル画像" src="customer-journey-analytics/assets/CJA.svg" /></a>
-    <div><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/cross-channel.html?lang=ja"><strong>クロスチャネルジャーニー分析</strong></a></div>
+    <div><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/cross-channel.html?lang=en"><strong>クロスチャネルジャーニー分析</strong></a></div>
     <p><em>様々なチャネルにわたる顧客行動を 1 つの統合表示で把握。</em></p>
   </td>
 </tr>
