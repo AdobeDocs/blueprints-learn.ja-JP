@@ -2,20 +2,20 @@
 title: 匿名オーディエンスアクティベーションブループリント
 description: 匿名および行動顧客データに基づいて、web および広告チャネルをまたいでオーディエンスをターゲットする方法を説明します。この機能を使用すると、デバイスをまたいでパーソナライズされた一貫性のあるリアルタイムカスタマーエクスペリエンスを実現します。
 landing-page-description: 匿名および行動顧客データに基づいて、web および広告チャネルをまたいでオーディエンスをターゲットする方法を説明します。
-solution: Audience Manager, Experience Platform
+solution: Audience Manager
 kt: 7211
 thumbnail: null
 exl-id: f17599f1-2e75-4cbe-841a-9fd1dae71ada
-source-git-commit: 3425495df36ff8da0f2fd737b35d294ccafe31bd
+source-git-commit: 16c05fcb36fb3f11b0d86ad30710e399cecc05c0
 workflow-type: tm+mt
 source-wordcount: '380'
-ht-degree: 94%
+ht-degree: 87%
 
 ---
 
 # 匿名オーディエンスアクティベーションブループリント
 
-匿名オーディエンスのアクティベーションは、匿名デバイスおよび行動データに基づいて、web、モバイル、広告の各チャネルをまたいでオーディエンスをターゲティングしてパーソナライズする機能です。
+匿名オーディエンスのアクティベーションは、匿名デバイスや行動データに基づいて、Web、モバイル、広告の各チャネルにわたってオーディエンスに対するターゲティングとパーソナライズをおこなう機能です。
 
 ## ユースケース
 
