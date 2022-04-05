@@ -2,10 +2,10 @@
 title: Web/Mobile Personalizationの概要
 description: Web パーソナライズ機能を電子メールおよびその他の既知および匿名のチャネルパーソナライズ機能と同期します。
 landing-page-description: Web パーソナライズ機能を電子メールおよびその他の既知および匿名のチャネルパーソナライズ機能と同期します。
-solution: Experience Platform, Real-time Customer Data Platform, Target, Audience Manager, Analytics, Experience Cloud Services, Data Collection
+solution: Real-time Customer Data Platform, Target, Audience Manager, Analytics, Experience Cloud Services, Data Collection, Experience Platform
 kt: 7194thumb-web-personalization-scenario2.jpg
 exl-id: 29667c0e-bb79-432e-af3a-45bd0b3b43bb
-source-git-commit: 4eb6100fa29eac9426fd03ccceadc0a64f1d4b8f
+source-git-commit: 24d5ec498d09f6dac443561bd530d58a33dae7af
 workflow-type: tm+mt
 source-wordcount: '1230'
 ht-degree: 62%
