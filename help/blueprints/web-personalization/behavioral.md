@@ -1,14 +1,14 @@
 ---
 title: 行動による web パーソナライズ機能ブループリント
-description: オンライン行動およびオーディエンスデータに基づいてパーソナライズします。
+description: オンライン行動とオーディエンスデータに基づいてコンテンツをパーソナライズする方法を見つけます。
 landing-page-description: オンライン行動およびオーディエンスデータに基づいてパーソナライズする方法を説明します。
 solution: Experience Platform, Target, Audience Manager, Analytics, Experience Cloud Services, Data Collection
 kt: 7085thumb-web-personalization-scenario1.jpg
 exl-id: b9882c2c-cb45-4efa-a85c-8fe48f641a12
-source-git-commit: 4eb6100fa29eac9426fd03ccceadc0a64f1d4b8f
+source-git-commit: 16b022263e622c07528329e71f479c63628f6ee0
 workflow-type: tm+mt
-source-wordcount: '612'
-ht-degree: 96%
+source-wordcount: '617'
+ht-degree: 94%
 
 ---
 
