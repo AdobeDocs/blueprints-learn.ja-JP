@@ -9,7 +9,7 @@ exl-id: f17599f1-2e75-4cbe-841a-9fd1dae71ada
 source-git-commit: 16c05fcb36fb3f11b0d86ad30710e399cecc05c0
 workflow-type: tm+mt
 source-wordcount: '380'
-ht-degree: 87%
+ht-degree: 93%
 
 ---
 
@@ -39,13 +39,13 @@ Microsoft Bing、Google DV360、TradeDesk は、匿名デバイスベースの�
 
 <br>
 
-## 実装手順 Audience Manager
+## Audience Manager の実装手順
 
 * Audience Manager の実装について詳しくは、次の[ドキュメント](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/implement-audience-manager.html?lang=ja)を参照してください.
 
-## Real-time Customer Data Platformの実装手順
+## Real-time Customer Data Platform の実装手順
 
-* Real-time Customer Data Platformの実装手順については、以下を参照してください [ドキュメント](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/known-customer-audience-activation/known.html).
+* Real-time Customer Data Platform の実装手順については、次の[ドキュメント](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/known-customer-audience-activation/known.html)を参照してください。
 
 ## 関連ドキュメント
 
