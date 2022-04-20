@@ -5,9 +5,9 @@ landing-page-description: Web パーソナライズ機能を電子メールお�
 solution: Real-time Customer Data Platform, Target, Audience Manager, Analytics, Experience Cloud Services, Data Collection, Experience Platform
 kt: 7194thumb-web-personalization-scenario2.jpg
 exl-id: 29667c0e-bb79-432e-af3a-45bd0b3b43bb
-source-git-commit: 24d5ec498d09f6dac443561bd530d58a33dae7af
+source-git-commit: 4d0313e079a6f0f48f9c958f598f0fd02b90fd5f
 workflow-type: tm+mt
-source-wordcount: '1230'
+source-wordcount: '1229'
 ht-degree: 62%
 
 ---
@@ -57,7 +57,7 @@ ht-degree: 62%
 
 ### 実装パターン 1 - Web/Mobile SDK を使用した Edge ネットワーク（推奨されるアプローチ）
 
-Web/Mobile SDK での Edge Network の使用. リアルタイムのエッジセグメント化には、Web/Mobile SDK または Edge API 実装アプローチが必要です。
+Web/Mobile SDK での Edge Network の使用. リアルタイムのエッジセグメント化には、Web/モバイル SDK または Edge API 実装アプローチが必要です。
 
 [Experience Platform Web および Mobile SDK のブループリントを参照してください。](../data-ingestion/websdk.md)
 
@@ -74,7 +74,7 @@ Web/Mobile SDK での Edge Network の使用. リアルタイムのエッジセ�
 1. [Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=ja)を実装します。Experience Platform Web SDK は、リアルタイムの Edge セグメント化には必要ですが、Real-time Customer Data Platform から Target へのストリーミングオーディエンスとバッチオーディエンスの共有には不要です。現在、Mobile SDK と API を使用したリアルタイムセグメント化のサポートは利用できません。
 1. [Edge データストリームを使用して Edge ネットワークを設定](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/datastreams.html?lang=ja)
 1. [Real-time Customer Data Platform 内で Adobe Target を宛先として有効化](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection.html?lang=ja)
-1. （オプション） [Adobe Audience Managerの実装](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/implement-audience-manager.html?lang=ja) （オプション）
+1. （オプション） [Adobe Audience Managerの実装](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/implement-audience-manager.html?lang=ja).
 1. （オプション） [Experience PlatformとAdobe Target（共有オーディエンス）間でのオーディエンス共有用のプロビジョニングをリクエストします](https://www.adobe.com/go/audiences) を使用して、オーディエンスをExperience Platformから Target に共有できます。
 
 ## ガードレール

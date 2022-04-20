@@ -4,7 +4,8 @@ description: このブループリントは、アプリケーション固有の 
 solution: Experience Platform,Data Collection
 kt: null
 thumbnail: null
-source-git-commit: 4eb6100fa29eac9426fd03ccceadc0a64f1d4b8f
+exl-id: 05bf0a34-e5c7-498c-8d5d-1d549c00e070
+source-git-commit: 4d0313e079a6f0f48f9c958f598f0fd02b90fd5f
 workflow-type: tm+mt
 source-wordcount: '89'
 ht-degree: 49%
@@ -15,7 +16,7 @@ ht-degree: 49%
 
 以下のアーキテクチャ図は、実装にアプリケーション固有の SDK を使用した統合パスとデータ収集を示しています。
 
-<img src="assets/app_sdk_flow.png" alt="アプリケーション固有の SDK を使用した実装のリファレンスアーキテクチャ" style="width:90%; border:1px solid #4a4a4a" />
+<img src="assets/app_sdk_flow.svg" alt="アプリケーション固有の SDK を使用した実装のリファレンスアーキテクチャ" style="width:90%; border:1px solid #4a4a4a" />
 
 ## リファレンスドキュメント
 
