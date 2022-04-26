@@ -5,10 +5,10 @@ user-guide-description: ブループリントは、既存のビジネス上の�
 product: adobe experience platform
 mini-toc-levels: 3
 role: Architect, Developer, User
-source-git-commit: fb981a16bc02190731a7c1dac8cc6bd5f0667304
+source-git-commit: 96d4e0c62b85070e1650adf637519098d227c53d
 workflow-type: tm+mt
-source-wordcount: '182'
-ht-degree: 96%
+source-wordcount: '184'
+ht-degree: 95%
 
 ---
 
@@ -70,3 +70,4 @@ ht-degree: 96%
    + [概要](/help/blueprints/web-personalization/overview.md)
    + [行動によるパーソナライズ機能](/help/blueprints/web-personalization/behavioral.md)
    + [既知の顧客のパーソナライズ機能](/help/blueprints/web-personalization/known-personalization.md)
+   + [offer decisioning](/help/blueprints/web-personalization/offers-edge.md)
