@@ -5,7 +5,7 @@ solution: Real-time Customer Data Platform, Data Collection
 kt: 7086
 exl-id: b75a7a01-04ba-4617-960d-f73f7a9cc6c7
 source-git-commit: 3425495df36ff8da0f2fd737b35d294ccafe31bd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '957'
 ht-degree: 100%
 
@@ -69,7 +69,7 @@ ht-degree: 100%
    * 指定したセグメントのセグメント結果数を確認します。
    * セグメントに含める必要があるプロファイルを調べて、セグメントメンバーシップがプロファイルのセグメントメンバーシップ部分に含まれていることを確認します。
 1. オーディエンスの宛先への配信を「宛先」設定で設定します。
-   * Facebook の宛先設定の詳細に関しては、 [Facebook Destination Guide](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/social/facebook.html) を参照してください。
+   * Facebook の宛先設定の詳細に関しては、 [Facebook Destination Guide](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/social/facebook.html?lang=ja) を参照してください。
    * 宛先を設定する際に、宛先に対してアクティブ化するオーディエンスを選択します。
    * 宛先へのオーディエンスの配信を開始する、宛先データフローのスケジュールされた開始日を決定します。
    * 各宛先には、送信する必要な属性とオプションの属性があります。
@@ -90,4 +90,4 @@ ht-degree: 100%
 
 ## 関連ドキュメント
 
-Facebook Custom Audiences へのアクティベーション — [宛先の設定](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/social/facebook.html)
+Facebook Custom Audiences へのアクティベーション — [宛先の設定](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/social/facebook.html?lang=ja)
