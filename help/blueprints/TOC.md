@@ -5,10 +5,10 @@ user-guide-description: ブループリントは、既存のビジネス上の�
 product: adobe experience platform
 mini-toc-levels: 3
 role: Architect, Developer, User
-source-git-commit: d80f7171c61373f4757d2a84313d0ceab800d29b
-workflow-type: ht
-source-wordcount: '175'
-ht-degree: 100%
+source-git-commit: 5309a5ce986ebf238884df2aac38eb175f3dda11
+workflow-type: tm+mt
+source-wordcount: '182'
+ht-degree: 96%
 
 ---
 
@@ -48,7 +48,9 @@ ht-degree: 100%
    + Journey Optimizer {#journey-optimizer}
       + [Journey Optimizer](/help/blueprints/customer-journeys/journey-optimizer.md)
       + [Journey Optimizer と Adobe Campaign](/help/blueprints/customer-journeys/ajo-and-campaign.md)
-      + [サードパーティのメッセージ](/help/blueprints/customer-journeys/3rd-party-messaging.md)
+      + [サードパーティのメッセージング](/help/blueprints/customer-journeys/3rd-party-messaging.md)
+      + offer decisioning{#offer-decisioning}
+      + [エッジのoffer decisioning](/help/blueprints/customer-journeys/offer_decisioning/offers-edge.md)
    + Campaign v8 {#campaign-v8}
       + [Campaign v8](/help/blueprints/customer-journeys/campaign-v8.md)
    + Campaign v7 {#campaign-v7}
