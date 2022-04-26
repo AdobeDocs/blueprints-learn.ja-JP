@@ -6,7 +6,7 @@ kt: 7207
 thumbnail: null
 exl-id: a972ea56-d1c8-45da-9044-ed31222a2441
 source-git-commit: 4eb6100fa29eac9426fd03ccceadc0a64f1d4b8f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '337'
 ht-degree: 100%
 
@@ -38,7 +38,8 @@ Experience Platform の[!UICONTROL クエリサービス]を使用すると、�
 
 ## ガードレール
 
-ベストプラクティスとガードレールについての詳細は、クエリサービス製品ドキュメントを参照してください。[クエリサービスガイダンス](https://experienceleague.adobe.com/docs/experience-platform/query/best-practices/writing-queries.html?lang=ja#best-practices)
+ベストプラクティスとガードレールについての詳細は、クエリサービス製品ドキュメントを参照してください。
+[クエリサービスガイダンス](https://experienceleague.adobe.com/docs/experience-platform/query/best-practices/writing-queries.html?lang=ja#best-practices)
 
 ## 実装手順
 
