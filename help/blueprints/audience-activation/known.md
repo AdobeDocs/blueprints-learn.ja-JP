@@ -5,7 +5,7 @@ solution: Real-time Customer Data Platform, Target, Audience Manager, Analytics,
 kt: 7086
 exl-id: 011f4909-b208-46db-ac1c-55b3671ee48c
 source-git-commit: 3425495df36ff8da0f2fd737b35d294ccafe31bd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '558'
 ht-degree: 100%
 
@@ -80,4 +80,4 @@ ht-degree: 100%
 
 * [[!UICONTROL Real-time Customer Data Platform] の概要](https://experienceleague.adobe.com/docs/platform-learn/tutorials/application-services/rtcdp/understanding-the-real-time-customer-data-platform.html?lang=ja)
 * [[!UICONTROL Real-time Customer Data Platform] のデモ](https://experienceleague.adobe.com/docs/platform-learn/tutorials/application-services/rtcdp/demo.html?lang=ja)
-* [セグメントの作成](https://experienceleague.adobe.com/docs/platform-learn/tutorials/segments/create-segments.html)
+* [セグメントの作成](https://experienceleague.adobe.com/docs/platform-learn/tutorials/segments/create-segments.html?lang=ja)
