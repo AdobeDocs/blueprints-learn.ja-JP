@@ -6,9 +6,9 @@ solution: Target, Audience Manager, Analytics, Experience Cloud Services, Data C
 kt: 7085thumb-web-personalization-scenario1.jpg
 exl-id: b9882c2c-cb45-4efa-a85c-8fe48f641a12
 source-git-commit: 24d5ec498d09f6dac443561bd530d58a33dae7af
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '617'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -39,13 +39,13 @@ ht-degree: 94%
 Web／モバイルパーソナライズ機能ブループリントは、以下に説明する方法で実装できます。
 
 1. [!UICONTROL Platform Web SDK] または [!UICONTROL Platform Mobile SDK] と[!UICONTROL エッジネットワーク]を使用。[Experience Platform Web および Mobile SDK のブループリントを参照してください。](../data-ingestion/websdk.md)
-1. 従来のアプリケーション固有 SDK（AppMeasurement.js など）を使用.[アプリケーション固有の SDK ブループリントを参照してください。](../data-ingestion/appsdk.md)
+1. 従来のアプリケーション固有 SDK（AppMeasurement.js など）を使用.[アプリケーション固有の SDK ブループリントを参照](../data-ingestion/appsdk.md)
 
 ## 実装手順
 
 1. Web またはモバイルアプリケーション用に [Adobe Target を実装](https://experienceleague.adobe.com/docs/target/using/implement-target/implementing-target.html?lang=ja)します。
 
-### 実装手順 —Audience ManagerまたはAdobe Analytics
+### 実装手順 - Audience Manager または Adobe Analytics
 
 1. [Adobe Audience Manager を実装](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/implement-audience-manager.html?lang=ja)します
 1. [Adobe Analytics を実装](https://experienceleague.adobe.com/docs/analytics/implementation/home.html?lang=ja)します
@@ -59,7 +59,7 @@ Web／モバイルパーソナライズ機能ブループリントは、以下�
 1. [Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-build.html?lang=ja) または [Adobe Audience Manager](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/segments/segment-builder.html?lang=ja) でセグメントを作成し、[これらのオーディエンスを Experience Cloud に共有するように設定](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-publish.html?lang=ja)します（Audience Manager または Adobe Analytics を使用している場合）
 1. オーディエンスが Adobe Target で使用できるようになったら、[Adobe Target によるターゲティングエクスペリエンス](https://experienceleague.adobe.com/docs/target/using/audiences/target.html?lang=ja)で使用できます
 
-### 実装手順 — Real-time Customer Data Platform
+### 実装手順 - Real-time Customer Data Platform
 
 1. データを取り込むために[スキーマを作成](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2021.1.xdm)します。
 1. データを取り込むために[データセットを作成](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/create-datasets-and-ingest-data.html?lang=ja)します。
@@ -75,7 +75,7 @@ Web／モバイルパーソナライズ機能ブループリントは、以下�
 
 * [Experience Cloud Audiences](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html?lang=ja)
 * [Audience Manager と Adobe Target の統合](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/aam-target-integration.html?lang=ja)
-* [Adobe Audience Manager を使用した Adobe Analytics セグメント共有](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-publish.html)
+* [Adobe Audience Manager を使用した Adobe Analytics セグメント共有](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-publish.html?lang=ja)
 * [[!UICONTROL Real-time Customer Data Platform] の概要](https://experienceleague.adobe.com/docs/platform-learn/tutorials/application-services/rtcdp/understanding-the-real-time-customer-data-platform.html?lang=ja)
 * [[!UICONTROL Real-time Customer Data Platform] 製品説明](https://helpx.adobe.com/jp/legal/product-descriptions/real-time-customer-data-platform.html)
 * [プロファイルおよびセグメント化ガイドライン](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=ja)
