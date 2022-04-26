@@ -1,5 +1,5 @@
 ---
-title: Web/Mobile Personalizationの概要
+title: Web/Mobile パーソナライズ機能の概要
 description: Web パーソナライズ機能を電子メールおよびその他の既知および匿名のチャネルパーソナライズ機能と同期します。
 landing-page-description: Web パーソナライズ機能を電子メールおよびその他の既知および匿名のチャネルパーソナライズ機能と同期します。
 solution: Real-time Customer Data Platform, Target, Audience Manager, Analytics, Experience Cloud Services, Data Collection, Experience Platform
@@ -8,16 +8,16 @@ exl-id: 29667c0e-bb79-432e-af3a-45bd0b3b43bb
 source-git-commit: 4d0313e079a6f0f48f9c958f598f0fd02b90fd5f
 workflow-type: tm+mt
 source-wordcount: '1229'
-ht-degree: 62%
+ht-degree: 99%
 
 ---
 
 
-# Web/Mobile Personalizationと既知の顧客データ
+# Web/Mobile パーソナライズ機能と既知の顧客データ
 
 ## ユースケース
 
-* 既知の顧客データを使用したオンラインパーソナライゼーション
+* 既知の顧客データを使用したオンラインパーソナライズ機能
 * ランディングページの最適化
 * トランザクション、ロイヤリティ、CRM データ、およびモデル化されたインサイトなどのオフラインデータに加えて、以前の製品／コンテンツ表示、製品／コンテンツの親和性、環境属性、および人口統計に基づいたパーソナライズ機能
 * Adobe Target を使用して、Real-time Customer Data Platform で定義されたオーディエンスを Web サイトやモバイルアプリで共有、およびターゲット設定します。
@@ -26,18 +26,18 @@ ht-degree: 62%
 
 * [!UICONTROL Real-time Customer Data Platform]
 * Adobe Target
-* Adobe Audience Manager（オプション）:サードパーティのオーディエンスデータ、Co-op ベースのデバイスグラフを追加します。
+* Adobe Audience Manager（オプション）：サードパーティのオーディエンスデータ、Co-op ベースのデバイスグラフを追加します。
 * Adobe Analytics（オプション）：Adobe Analytics データからの履歴行動データおよび詳細なセグメント化に基づいてセグメントを作成する機能を追加
 
 ## 統合パターン
 
 | 統合パターン | 機能 | 前提条件 |
 |---|---|---|
-| Real-time Customer Data Platform から Target に共有される Edge に関するリアルタイムのセグメント評価 | <ul><li>Edge 上で同じまたは次のページのパーソナライゼーションに対して、リアルタイムでオーディエンスを評価します。</li><li>さらに、ストリーミングまたはバッチ方式で評価されたセグメントも Edge Network に投影され、エッジセグメントの評価とパーソナライゼーションに含められます。</li></ul> | <ul><li>Web/Mobile SDK を実装する必要があります。</li><li>Datastream は、Target と DataStream 拡張を有効にして Experience Edge で設定する必要があります。</li><li>Target の宛先は、Real-time Customer Data Platform Destinations で設定する必要があります。</li><li>Target との統合には、統合インスタンスと同じ IMS Org が必要です。Experience Platformインスタンス。</li></ul> |
-| - Edge アプローチを通じて、Real-time Customer Data Platform から Target へのストリーミングおよびバッチオーディエンスを共有 | <ul><li>Edge ネットワークを通じて、Real-time Customer Data Platformから Target へのストリーミングオーディエンスとバッチオーディエンスを共有します。 リアルタイムで評価されるオーディエンスには、WebSDK および Edge ネットワークの実装が必要です。</li></ul> | <ul><li>Web/Mobile SDK は、ストリーミングオーディエンスとバッチオーディエンスを Target に共有する場合には必要ありませんが、リアルタイムのエッジセグメント評価を有効にする必要があります。</li><li>AT.js を使用する場合、ECID ID 名前空間に対するプロファイル統合のみがサポートされます。</li><li>Edge 上でカスタム ID 名前空間を検索する場合は、WebSDK デプロイメントが必要です。また、各 ID を ID マップ内の ID として設定する必要があります。</li><li>Target の宛先は、Real-time Customer Data Platform Destinations で設定する必要があります。</li><li>Target との統合には、統合インスタンスと同じ IMS Org が必要です。Experience Platformインスタンス。</li></ul> |
-| オーディエンス共有サービスを介して、Real-time Customer Data Platform から Target および Audience Manager にストリーミングおよびバッチオーディエンスを共有 | <ul><li>この統合パターンは、サードパーティのデータやオーディエンスからの追加のエンリッチメントをAudience Managerで必要とする場合に利用できます。</li></ul> | <ul><li>Web/Mobile SDK は、ストリーミングオーディエンスとバッチオーディエンスを Target に共有する場合には必要ありませんが、リアルタイムのエッジセグメント評価を有効にする必要があります。</li><li>AT.js を使用する場合、ECID ID 名前空間に対するプロファイル統合のみがサポートされます。</li><li>Edge 上でカスタム ID 名前空間を検索する場合は、WebSDK デプロイメントが必要です。また、各 ID を ID マップ内の ID として設定する必要があります。</li><li>オーディエンス共有サービスを介したオーディエンス投影は、プロビジョニングする必要があります。</li><li>Target の宛先は、Real-time Customer Data Platform Destinations で設定する必要があります。</li><li>Target との統合には、統合インスタンスと同じ IMS Org が必要です。Experience Platformインスタンス。</li></ul> |
+| Real-time Customer Data Platform から Target に共有される Edge に関するリアルタイムのセグメント評価 | <ul><li>Edge 上で同じまたは次のページのパーソナライズ機能に対して、リアルタイムでオーディエンスを評価します。</li><li>さらに、ストリーミングやバッチ方式で評価されたセグメントも Edge ネットワークに投影され、Edge セグメントの評価とパーソナライズ機能に含められます。</li></ul> | <ul><li>Web/Mobile SDK を実装する必要があります。</li><li>Datastream は、Target と Experience Platform 拡張を有効にして Experience Edge で設定する必要があります。</li><li>Target の宛先は、Real-time Customer Data Platform で設定する必要があります。</li><li>Target との統合には、Experience Platform インスタンスと同じ IMS Org が必要です。</li></ul> |
+| - Edge アプローチを通じて、Real-time Customer Data Platform から Target へのストリーミングおよびバッチオーディエンスを共有 | <ul><li>Edge ネットワークを通じて、Real-time Customer Data Platform から Target へのストリーミングおよびバッチオーディエンスを共有します。リアルタイムで評価されるオーディエンスには、WebSDK および Edge ネットワークの実装が必要です。</li></ul> | <ul><li>Web/Mobile SDK は、Target へのストリーミングおよびバッチオーディエンスの共有には必要ありませんが、リアルタイムでのエッジセグメント評価を可能にするために必要です。</li><li>AT.js を使用する場合、ECID ID 名前空間に対するプロファイル統合のみがサポートされます。</li><li>Edge 上でカスタム ID 名前空間を検索する場合は、WebSDK デプロイメントが必要です。また、各 ID を ID マップで ID として設定する必要があります。</li><li>Target の宛先は、Real-time Customer Data Platform で設定する必要があります。</li><li>Target との統合には、Experience Platform インスタンスと同じ IMS Org が必要です。</li></ul> |
+| オーディエンス共有サービスを介して、Real-time Customer Data Platform から Target および Audience Manager にストリーミングおよびバッチオーディエンスを共有 | <ul><li>この統合パターンは、サードパーティのデータやオーディエンスからの追加のエンリッチメントを Audience Manager で必要とする場合に利用できます。</li></ul> | <ul><li>Web/Mobile SDK は、Target へのストリーミングおよびバッチオーディエンスの共有には必要ありませんが、リアルタイムでのエッジセグメント評価を可能にするために必要です。</li><li>AT.js を使用する場合、ECID ID 名前空間に対するプロファイル統合のみがサポートされます。</li><li>Edge 上でカスタム ID 名前空間を検索する場合は、WebSDK デプロイメントが必要です。また、各 ID を ID マップで ID として設定する必要があります。</li><li>オーディエンス共有サービスを介したオーディエンス投影は、プロビジョニングする必要があります。</li><li>Target の宛先は、Real-time Customer Data Platform で設定する必要があります。</li><li>Target との統合には、Experience Platform インスタンスと同じ IMS Org が必要です。</li></ul> |
 
-## Adobe Targetへのリアルタイム、ストリーミングおよびバッチオーディエンス共有
+## リアルタイム、ストリーミングおよびバッチオーディエンスの Adobe Target への共有
 
 アーキテクチャ
 
@@ -53,17 +53,17 @@ ht-degree: 62%
 
 ## 実装パターン
 
-既知のお客様のPersonalizationは、いくつかの実装方法でサポートされます。
+既知のお客様のパーソナライズ機能は、いくつかの実装方法でサポートされます。
 
-### 実装パターン 1 - Web/Mobile SDK を使用した Edge ネットワーク（推奨されるアプローチ）
+### 実装パターン1 - Web/Mobile SDK を使用した Edge ネットワーク（推奨されるアプローチ）
 
-Web/Mobile SDK での Edge Network の使用. リアルタイムのエッジセグメント化には、Web/モバイル SDK または Edge API 実装アプローチが必要です。
+Web/Mobile SDK での Edge Network の使用.リアルタイムのエッジセグメント化には、Web/Mobile SDK または Edge API 実装アプローチが必要です。
 
 [Experience Platform Web および Mobile SDK のブループリントを参照してください。](../data-ingestion/websdk.md)
 
 ### 実装パターン 2 — アプリケーション固有の SDK
 
-従来のアプリケーション固有の SDK（AT.js や AppMeasurement.js など）を使用する。 リアルタイムエッジセグメント評価は、この実装方法ではサポートされていません。 ただし、この実装アプローチでは、Experience Platformハブからのストリーミングおよびバッチオーディエンス共有がサポートされます。
+従来のアプリケーション固有の SDK（AT.js や AppMeasurement.js など）を使用。リアルタイムエッジセグメント評価は、この実装方法ではサポートされていません。ただし、この実装アプローチでは、Experience Platformハブからのストリーミングおよびバッチオーディエンス共有がサポートされます。
 
 [アプリケーション固有の SDK ブループリントを参照してください。](../data-ingestion/appsdk.md)
 
@@ -75,7 +75,7 @@ Web/Mobile SDK での Edge Network の使用. リアルタイムのエッジセ�
 1. [Edge データストリームを使用して Edge ネットワークを設定](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/datastreams.html?lang=ja)
 1. [Real-time Customer Data Platform 内で Adobe Target を宛先として有効化](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection.html?lang=ja)
 1. （オプション） [Adobe Audience Managerの実装](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/implement-audience-manager.html?lang=ja).
-1. （オプション） [Experience PlatformとAdobe Target（共有オーディエンス）間でのオーディエンス共有用のプロビジョニングをリクエストします](https://www.adobe.com/go/audiences) を使用して、オーディエンスをExperience Platformから Target に共有できます。
+1. （オプション）[Experience Platform と Adobe Target（共有オーディエンス）間でのオーディエンス共有用のプロビジョニングをリクエスト](https://www.adobe.com/go/audiences)して、オーディエンスを Experience Platform から Target に共有します。
 
 ## ガードレール
 
