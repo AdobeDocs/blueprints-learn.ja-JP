@@ -2,10 +2,11 @@
 title: offer decisioning
 description: キオスクやエージェント支援エクスペリエンスなど、様々なチャネルをまたいで、パーソナライズされたオファーを消費者に提供します。
 solution: Experience Platform, Journey Optimizer
-source-git-commit: 5309a5ce986ebf238884df2aac38eb175f3dda11
+exl-id: 31e5f624-5578-49e1-ab92-5cabd596a632
+source-git-commit: 3e75ce52939c84ce9ae1faf72f7f1508d74c1ecc
 workflow-type: tm+mt
-source-wordcount: '688'
-ht-degree: 38%
+source-wordcount: '702'
+ht-degree: 39%
 
 ---
 
@@ -71,12 +72,14 @@ Adobe Experience Platform
 ## 実装パターン
 
 * Web サイトやモバイルアプリケーションにデプロイするために Web または Mobile SDK を使用して、SDK がデプロイされたOffer decisioningを実装します。
+   * [Web/モバイル SDK ブループリント](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/data-ingestion/websdk.html?lang=ja)
    * [WebSDK](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/api-reference/offer-delivery/web-sdk.html)
    * [MobileSDK](https://aep-sdks.gitbook.io/docs/)
 
 または
 
-* API サーバーからサーバーへの実装の場合は、Edge Network Server API を使用して、サーバーからサーバーへの直接Offer decisioningを実装します。 [リンク](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/api-reference/offer-delivery/deliver-offers.html)
+* API サーバーからサーバーへの実装の場合は、Edge Network Server API を使用して、サーバーからサーバーへの直接Offer decisioningを実装します。
+   * [Edge Network Server API](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/api-reference/offer-delivery/deliver-offers.html)
 
 <br>
 
