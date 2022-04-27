@@ -2,10 +2,11 @@
 title: offer decisioning（ハブ）
 description: キオスク、エージェント支援のエクスペリエンス、E メールおよびその他のアウトバウンド配信を含むチャネルをまたいで、パーソナライズされたオファーを消費者に配信します。
 solution: Experience Platform, Journey Optimizer
-source-git-commit: 8ad119551e25c1f6acb66fec544c8a67b26c0927
+exl-id: 5a386e18-bbac-4216-a35f-0a5016785e4a
+source-git-commit: 9cdb1bf7a8e97fce6a41fb135441c12ed8e477e0
 workflow-type: tm+mt
-source-wordcount: '745'
-ht-degree: 35%
+source-wordcount: '797'
+ht-degree: 33%
 
 ---
 
@@ -27,6 +28,7 @@ Adobe判定管理は、Adobe Journey Optimizerの一部として提供される�
 
 * キオスクおよびストアエクスペリエンスでパーソナライズされたオファー。
 * コールセンターやセールスインタラクションなど、エージェントの支援によってパーソナライズされたオファー。
+* E メール、SMS、またはその他のアウトバウンドインタラクションに含まれるオファー。
 * クロスチャネルのジャーニー実行 — Adobe Journey Optimizerを通じて、Web、モバイル、E メールおよびその他のインタラクションチャネル間の一貫性を提供します。
 
 <br>
@@ -72,10 +74,10 @@ Adobe Experience Platform
 
 ## 実装パターン
 
-* Adobe Journey Optimizerとの直接統合により、E メール、SMS、アウトバウンドチャネルで実装。
-* 他のチャネルエクスペリエンスの場合は、 [判定 API](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/api-reference/offer-delivery/decisioning-vs-edge-apis.html).
+* との直接統合により、E メール、SMS、アウトバウンドチャネルで実装。 [Adobe Journey Optimizer](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started-decision/offers-e2e.html).
+* サーバー API ベースのOffer decisioningの実装の場合、 [判定 API](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/api-reference/offer-delivery/decisioning-vs-edge-apis.html).
+* メッセージ配信アプリケーションにオファーを一括で配信するバッチベースの決定を実装するには、 [バッチ判定 API](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/api-reference/offer-delivery/batch-decisioning-api.html).
 * エッジベースのリアルタイムエクスペリエンスの場合は、Web/モバイル SDK または Edge Decisioning API を使用します ( [Edge ブループリントのoffer decisioning](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer/offer-decisioning/offers-edge.html).
-
 <br>
 
 ## 実装手順
