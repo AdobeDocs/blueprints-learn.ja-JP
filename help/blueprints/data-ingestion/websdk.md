@@ -5,19 +5,20 @@ solution: Data Collection
 kt: null
 thumbnail: null
 exl-id: 3cc9e849-a75d-40ad-a604-6acf4c2c9f89
-source-git-commit: 3e75ce52939c84ce9ae1faf72f7f1508d74c1ecc
+source-git-commit: 3c134d6a4f8afb091631c14b05f34d6133a8865b
 workflow-type: tm+mt
-source-wordcount: '216'
-ht-degree: 36%
+source-wordcount: '237'
+ht-degree: 33%
 
 ---
 
 
 # 概要
 
-Web および Mobile SDK の概要と詳細については、以下を参照してください。
+Web SDK、Mobile SDK、および Edge Network Server API の概要と詳細については、以下を参照してください。
 * [WebSDK の概要](https://experienceleague.adobe.com/docs/web-sdk.html?lang=ja)
 * [MobileSDK の概要](https://aep-sdks.gitbook.io/docs/)
+* [Edge Network Server API](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/overview.html)
 
 WebSDK でサポートされるアプリケーション機能の詳細な概要については、次のドキュメントを参照してください。
 * [WebSDK アプリケーション機能のサポート](https://github.com/orgs/adobe/projects/18/views/1)
@@ -28,7 +29,7 @@ WebSDK でサポートされるアプリケーション機能の詳細な概要�
 * [Target](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/adobe-target/target-overview.html)
 * [Analytics for Target](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/adobe-target/a4t/overview.html)
 
-## Experience PlatformWeb/Mobile SDK の導入
+## Experience PlatformWeb/Mobile SDK または Edge Network Server API のデプロイメント
 
 次のアーキテクチャ図は、Experience PlatformWeb SDK を使用したデプロイメントとデータ収集を示しています。
 
