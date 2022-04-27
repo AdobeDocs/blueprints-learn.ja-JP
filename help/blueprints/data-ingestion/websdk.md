@@ -1,14 +1,14 @@
 ---
-title: Web／Mobile SDK データ収集ブループリント
-description: このブループリントは、Experience Platform Web および Mobile SDK を使用したアーキテクチャと取り込みを示しています。
-solution: Data Collection
+title: Web/Mobile SDK、Edge Network Deployment ブループリント
+description: このブループリントは、Experience PlatformWeb、Mobile SDK、Edge Network を通じたアーキテクチャと取り込みを示します
+solution: Experience Platform,Data Collection
 kt: null
 thumbnail: null
 exl-id: 3cc9e849-a75d-40ad-a604-6acf4c2c9f89
-source-git-commit: 3c134d6a4f8afb091631c14b05f34d6133a8865b
+source-git-commit: c840330d6c81831b868e81d3452d0c416bf55938
 workflow-type: tm+mt
-source-wordcount: '237'
-ht-degree: 33%
+source-wordcount: '241'
+ht-degree: 24%
 
 ---
 
