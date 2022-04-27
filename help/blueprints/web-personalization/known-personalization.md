@@ -5,10 +5,10 @@ landing-page-description: Web パーソナライズ機能を電子メールお�
 solution: Real-time Customer Data Platform, Target, Audience Manager, Analytics, Experience Cloud Services, Data Collection, Experience Platform
 kt: 7194thumb-web-personalization-scenario2.jpg
 exl-id: 29667c0e-bb79-432e-af3a-45bd0b3b43bb
-source-git-commit: 4d0313e079a6f0f48f9c958f598f0fd02b90fd5f
+source-git-commit: b1da29f76b274334ca36d0c144adcb6aa797fc0e
 workflow-type: tm+mt
-source-wordcount: '1229'
-ht-degree: 99%
+source-wordcount: '1268'
+ht-degree: 95%
 
 ---
 
@@ -33,7 +33,7 @@ ht-degree: 99%
 
 | 統合パターン | 機能 | 前提条件 |
 |---|---|---|
-| Real-time Customer Data Platform から Target に共有される Edge に関するリアルタイムのセグメント評価 | <ul><li>Edge 上で同じまたは次のページのパーソナライズ機能に対して、リアルタイムでオーディエンスを評価します。</li><li>さらに、ストリーミングやバッチ方式で評価されたセグメントも Edge ネットワークに投影され、Edge セグメントの評価とパーソナライズ機能に含められます。</li></ul> | <ul><li>Web/Mobile SDK を実装する必要があります。</li><li>Datastream は、Target と Experience Platform 拡張を有効にして Experience Edge で設定する必要があります。</li><li>Target の宛先は、Real-time Customer Data Platform で設定する必要があります。</li><li>Target との統合には、Experience Platform インスタンスと同じ IMS Org が必要です。</li></ul> |
+| Real-time Customer Data Platform から Target に共有される Edge に関するリアルタイムのセグメント評価 | <ul><li>Edge 上で同じまたは次のページのパーソナライズ機能に対して、リアルタイムでオーディエンスを評価します。</li><li>さらに、ストリーミングやバッチ方式で評価されたセグメントも Edge ネットワークに投影され、Edge セグメントの評価とパーソナライズ機能に含められます。</li></ul> | <ul><li>Web/モバイル SDK を実装するか、Edge Network Server API を使用する必要があります。</li><li>Datastream は、Target と Experience Platform 拡張を有効にして Experience Edge で設定する必要があります。</li><li>Target の宛先は、Real-time Customer Data Platform で設定する必要があります。</li><li>Target との統合には、Experience Platform インスタンスと同じ IMS Org が必要です。</li></ul> |
 | - Edge アプローチを通じて、Real-time Customer Data Platform から Target へのストリーミングおよびバッチオーディエンスを共有 | <ul><li>Edge ネットワークを通じて、Real-time Customer Data Platform から Target へのストリーミングおよびバッチオーディエンスを共有します。リアルタイムで評価されるオーディエンスには、WebSDK および Edge ネットワークの実装が必要です。</li></ul> | <ul><li>Web/Mobile SDK は、Target へのストリーミングおよびバッチオーディエンスの共有には必要ありませんが、リアルタイムでのエッジセグメント評価を可能にするために必要です。</li><li>AT.js を使用する場合、ECID ID 名前空間に対するプロファイル統合のみがサポートされます。</li><li>Edge 上でカスタム ID 名前空間を検索する場合は、WebSDK デプロイメントが必要です。また、各 ID を ID マップで ID として設定する必要があります。</li><li>Target の宛先は、Real-time Customer Data Platform で設定する必要があります。</li><li>Target との統合には、Experience Platform インスタンスと同じ IMS Org が必要です。</li></ul> |
 | オーディエンス共有サービスを介して、Real-time Customer Data Platform から Target および Audience Manager にストリーミングおよびバッチオーディエンスを共有 | <ul><li>この統合パターンは、サードパーティのデータやオーディエンスからの追加のエンリッチメントを Audience Manager で必要とする場合に利用できます。</li></ul> | <ul><li>Web/Mobile SDK は、Target へのストリーミングおよびバッチオーディエンスの共有には必要ありませんが、リアルタイムでのエッジセグメント評価を可能にするために必要です。</li><li>AT.js を使用する場合、ECID ID 名前空間に対するプロファイル統合のみがサポートされます。</li><li>Edge 上でカスタム ID 名前空間を検索する場合は、WebSDK デプロイメントが必要です。また、各 ID を ID マップで ID として設定する必要があります。</li><li>オーディエンス共有サービスを介したオーディエンス投影は、プロビジョニングする必要があります。</li><li>Target の宛先は、Real-time Customer Data Platform で設定する必要があります。</li><li>Target との統合には、Experience Platform インスタンスと同じ IMS Org が必要です。</li></ul> |
 
@@ -55,11 +55,11 @@ ht-degree: 99%
 
 既知のお客様のパーソナライズ機能は、いくつかの実装方法でサポートされます。
 
-### 実装パターン1 - Web/Mobile SDK を使用した Edge ネットワーク（推奨されるアプローチ）
+### 実装パターン 1 - Web/Mobile SDK または Edge Network API を使用した Edge ネットワーク（推奨されるアプローチ）
 
-Web/Mobile SDK での Edge Network の使用.リアルタイムのエッジセグメント化には、Web/Mobile SDK または Edge API 実装アプローチが必要です。
-
-[Experience Platform Web および Mobile SDK のブループリントを参照してください。](../data-ingestion/websdk.md)
+* Web/Mobile SDK での Edge Network の使用.リアルタイムのエッジセグメント化には、Web/Mobile SDK または Edge API 実装アプローチが必要です。
+* [Experience Platform Web および Mobile SDK のブループリントを参照してください。](../data-ingestion/websdk.md) （SDK ベースの実装用）
+* [Edge Network Server API を参照してください。](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/overview.html) Edge プロファイルを使用したAdobe Targetの API ベース実装の場合
 
 ### 実装パターン 2 — アプリケーション固有の SDK
 
