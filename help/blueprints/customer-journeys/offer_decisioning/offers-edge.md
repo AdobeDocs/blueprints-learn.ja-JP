@@ -3,10 +3,10 @@ title: エッジのoffer decisioning
 description: リアルタイムの Web エクスペリエンスやモバイルエクスペリエンスを含む、複数のチャネルをまたいで消費者にパーソナライズされたオファーを提供します。
 solution: Experience Platform, Journey Optimizer
 exl-id: 31e5f624-5578-49e1-ab92-5cabd596a632
-source-git-commit: 9cdb1bf7a8e97fce6a41fb135441c12ed8e477e0
+source-git-commit: fd8762711a6c3b04d0dd991e4dced2fb6be48c13
 workflow-type: tm+mt
-source-wordcount: '745'
-ht-degree: 36%
+source-wordcount: '768'
+ht-degree: 35%
 
 ---
 
@@ -56,8 +56,8 @@ Adobe Experience Platform
 
 ## ガードレール
 
-[Journey Optimizer ガードレール製品リンク](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/limitations.html)
-
+* Journey Optimizer Guardraul については、次を参照してください。 [Journey Optimizer Guardrails](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/limitations.html)
+* offer decisioningガードレールについては、次を参照してください。 [offer decisioning製品の説明](https://helpx.adobe.com/legal/product-descriptions/offer-decisioning-app-service.html).
 
 ### データ取り込みガードレール
 
@@ -114,5 +114,5 @@ Adobe Experience Platform
 * [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform.html)
 * [Adobe Journey Optimizer](https://experienceleague.adobe.com/docs/journey-optimizer.html)
 * [Adobe Journey Optimizer Decision Management](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started-decision/starting-offer-decisioning.html)
-* [Adobe Journey Optimizer Product Description](https://helpx.adobe.com/jp/legal/product-descriptions/adobe-journey-optimizer.html)
+* [Adobe Journey Optimizer Product Description](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer.html)
 * [AdobeOffer decisioningの製品説明](https://helpx.adobe.com/legal/product-descriptions/offer-decisioning-app-service.html)

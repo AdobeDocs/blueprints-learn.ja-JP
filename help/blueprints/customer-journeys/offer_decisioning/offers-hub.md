@@ -3,10 +3,10 @@ title: offer decisioning（ハブ）
 description: キオスク、エージェント支援のエクスペリエンス、E メールおよびその他のアウトバウンド配信を含むチャネルをまたいで、パーソナライズされたオファーを消費者に配信します。
 solution: Experience Platform, Journey Optimizer
 exl-id: 5a386e18-bbac-4216-a35f-0a5016785e4a
-source-git-commit: 9cdb1bf7a8e97fce6a41fb135441c12ed8e477e0
+source-git-commit: fd8762711a6c3b04d0dd991e4dced2fb6be48c13
 workflow-type: tm+mt
-source-wordcount: '797'
-ht-degree: 33%
+source-wordcount: '820'
+ht-degree: 32%
 
 ---
 
@@ -22,7 +22,7 @@ Adobe判定管理は、Adobe Journey Optimizerの一部として提供される�
 
 エッジでの決定管理について詳しくは、 [エッジでの決定管理](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer/offer-decisioning/offers-edge.html?lang=en) ブループリント。
 
-決定管理の詳細については、こちら (https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started-decision/starting-offer-decisioning.html) の製品ドキュメントを参照してください。
+決定管理について詳しくは、製品ドキュメントを参照してください。 [ここ](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started-decision/starting-offer-decisioning.html)
 
 ## ユースケース
 
@@ -57,7 +57,8 @@ Adobe Experience Platform
 
 ## ガードレール
 
-[Journey Optimizer ガードレール製品リンク](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/limitations.html)
+* Journey Optimizer Guardraul については、次を参照してください。 [Journey Optimizer Guardrails](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/limitations.html)
+* offer decisioningガードレールについては、次を参照してください。 [offer decisioning製品の説明](https://helpx.adobe.com/legal/product-descriptions/offer-decisioning-app-service.html).
 
 
 ### データ取り込みガードレール
@@ -108,5 +109,5 @@ Adobe Experience Platform
 * [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform.html)
 * [Adobe Journey Optimizer](https://experienceleague.adobe.com/docs/journey-optimizer.html)
 * [Adobe Journey Optimizer Decision Management](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started-decision/starting-offer-decisioning.html)
-* [Adobe Journey Optimizer Product Description](https://helpx.adobe.com/jp/legal/product-descriptions/adobe-journey-optimizer.html)
+* [Adobe Journey Optimizer Product Description](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer.html)
 * [AdobeOffer decisioningの製品説明](https://helpx.adobe.com/legal/product-descriptions/offer-decisioning-app-service.html)
