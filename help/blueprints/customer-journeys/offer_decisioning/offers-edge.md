@@ -3,10 +3,10 @@ title: エッジのoffer decisioning
 description: リアルタイムの Web エクスペリエンスやモバイルエクスペリエンスを含む、複数のチャネルをまたいで消費者にパーソナライズされたオファーを提供します。
 solution: Experience Platform, Journey Optimizer
 exl-id: 31e5f624-5578-49e1-ab92-5cabd596a632
-source-git-commit: bfc8133f0a48cb35dd62e74e92eeb041e93be5c7
+source-git-commit: bedfce6f9ded6c168656e8c37c59f85f250481a1
 workflow-type: tm+mt
-source-wordcount: '768'
-ht-degree: 35%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -82,7 +82,6 @@ Adobe Experience Platform
 
 * API サーバーからサーバーへのベースの実装の場合は、Edge Network Service API を使用して、Offer decisioningの直接サーバー間実装を行います。
    * [Edge Network Server API](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/api-reference/offer-delivery/deliver-offers.html)
-   * [判定 API](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/api-reference/offer-delivery/decisioning-vs-edge-apis.html)
 
 <br>
 
