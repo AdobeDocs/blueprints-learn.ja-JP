@@ -3,7 +3,7 @@ title: offer decisioning（ハブ）
 description: キオスク、エージェント支援のエクスペリエンス、E メールおよびその他のアウトバウンド配信を含むチャネルをまたいで、パーソナライズされたオファーを消費者に配信します。
 solution: Experience Platform, Journey Optimizer
 exl-id: 5a386e18-bbac-4216-a35f-0a5016785e4a
-source-git-commit: fd8762711a6c3b04d0dd991e4dced2fb6be48c13
+source-git-commit: 494d70fca12a42befb7b726562d98cec17a21d22
 workflow-type: tm+mt
 source-wordcount: '820'
 ht-degree: 32%
@@ -57,7 +57,7 @@ Adobe Experience Platform
 
 ## ガードレール
 
-* Journey Optimizer Guardraul については、次を参照してください。 [Journey Optimizer Guardrails](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/limitations.html)
+* Journey Optimizer Guardrail の場合は、次を参照してください。 [Journey Optimizer Guardrails](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/limitations.html).
 * offer decisioningガードレールについては、次を参照してください。 [offer decisioning製品の説明](https://helpx.adobe.com/legal/product-descriptions/offer-decisioning-app-service.html).
 
 
