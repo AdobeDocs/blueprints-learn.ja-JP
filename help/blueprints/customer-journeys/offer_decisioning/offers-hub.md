@@ -3,16 +3,20 @@ title: offer decisioning（ハブ）
 description: キオスク、エージェント支援のエクスペリエンス、E メールおよびその他のアウトバウンド配信を含むチャネルをまたいで、パーソナライズされたオファーを消費者に配信します。
 solution: Experience Platform, Journey Optimizer
 exl-id: 5a386e18-bbac-4216-a35f-0a5016785e4a
-source-git-commit: 494d70fca12a42befb7b726562d98cec17a21d22
+source-git-commit: 7f566536c4ff5a6af321d60058ad67c13c28bf64
 workflow-type: tm+mt
-source-wordcount: '820'
-ht-degree: 32%
+source-wordcount: '904'
+ht-degree: 28%
 
 ---
 
 # Journey Optimizer — ハブのOffer decisioning
 
+決定管理について詳しくは、製品ドキュメントを参照してください。 [ここ](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started-decision/starting-offer-decisioning.html) とOffer decisioningの概要 [ここ](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer/offer-decisioning/offers-overview.html)
+
 Adobe判定管理は、Adobe Journey Optimizerの一部として提供されるサービスです。 このブループリントは、アプリケーションの使用例と技術的機能の概要を示し、Offer decisioningを構成する様々なアーキテクチャコンポーネントと考慮事項について詳しく説明します。
+
+Journey Optimizerは、あらゆるタッチポイントにわたって適切なタイミングで顧客に最適なオファーとエクスペリエンスを提供するために使用されます。 offer decisioningは、マーケティングオファーの一元化されたライブラリと、Adobe Experience Platformが作成するリッチなリアルタイムプロファイルにルールと制約を適用する決定エンジンを使用して、適切なオファーを適切なタイミングで顧客に送信します。
 
 判定管理は、2 つの方法のいずれかでデプロイできます。 1 つ目は、中央のデータセンターアーキテクチャであるAdobe Experience Platformハブを通じて行う方法です。 「ハブ」アプローチでは、オファーは、500 ミリ秒を超える待ち時間で実行、パーソナライズ、配信されます。 したがって、ハブアーキテクチャは、1 秒未満の待ち時間を要求しない顧客体験に最適です。例えば、コールセンターや人とのやり取りなど、キオスクやエージェントが支援するエクスペリエンスに提供するオファーの決定などです。 E メールやアウトバウンドキャンペーンに挿入されるオファーも、ハブアプローチを利用します。
 
@@ -20,11 +24,9 @@ Adobe判定管理は、Adobe Journey Optimizerの一部として提供される�
 
 このブループリントは、ハブでの決定管理の詳細をカバーします。
 
-エッジでの決定管理について詳しくは、 [エッジでの決定管理](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer/offer-decisioning/offers-edge.html?lang=en) ブループリント。
+エッジでの決定管理について詳しくは、 [エッジでの決定管理](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer/offer-decisioning/offers-edge.html) ブループリント。
 
-決定管理について詳しくは、製品ドキュメントを参照してください。 [ここ](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started-decision/starting-offer-decisioning.html)
-
-## ユースケース
+## ハブでの決定管理の使用例
 
 * キオスクおよびストアエクスペリエンスでパーソナライズされたオファー。
 * コールセンターやセールスインタラクションなど、エージェントの支援によってパーソナライズされたオファー。

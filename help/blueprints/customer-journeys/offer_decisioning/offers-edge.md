@@ -3,14 +3,16 @@ title: エッジのoffer decisioning
 description: リアルタイムの Web エクスペリエンスやモバイルエクスペリエンスを含む、複数のチャネルをまたいで消費者にパーソナライズされたオファーを提供します。
 solution: Experience Platform, Journey Optimizer
 exl-id: 31e5f624-5578-49e1-ab92-5cabd596a632
-source-git-commit: bedfce6f9ded6c168656e8c37c59f85f250481a1
+source-git-commit: 7f566536c4ff5a6af321d60058ad67c13c28bf64
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '772'
+ht-degree: 34%
 
 ---
 
 # Journey Optimizer — エッジのOffer decisioning
+
+決定管理について詳しくは、製品ドキュメントを参照してください。 [ここ](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started-decision/starting-offer-decisioning.html) とOffer decisioningの概要 [ここ](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer/offer-decisioning/offers-overview.html)
 
 Adobe判定管理は、Adobe Journey Optimizerの一部として提供されるサービスです。 このブループリントは、アプリケーションの使用例と技術的機能の概要を示し、Offer decisioningを構成する様々なアーキテクチャコンポーネントと考慮事項について詳しく説明します。
 
@@ -20,14 +22,11 @@ Adobe判定管理は、Adobe Journey Optimizerの一部として提供される�
 
 このブループリントでは、Edge での判定管理の詳細を説明します。
 
-ハブでの決定管理について詳しくは、 [ハブでの決定管理](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer/offer-decisioning/offers-hub.html?lang=en) ブループリント。
+ハブでの決定管理について詳しくは、 [ハブでの決定管理](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer/offer-decisioning/offers-hub.html) ブループリント。
 
-決定管理について詳しくは、製品ドキュメントを参照してください。 [ここ](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started-decision/starting-offer-decisioning.html)
+## エッジでの決定管理の使用例
 
-## ユースケース
-
-* Web またはモバイルによるオンラインパーソナライゼーション。
-* インバウンドoffer decisioningとオファーの提案。
+* Web またはモバイルインバウンドエクスペリエンスを使用したオンラインパーソナライゼーション。
 * クロスチャネルのジャーニー実行 — Adobe Journey Optimizerを通じて、Web、モバイル、E メールおよびその他のインタラクションチャネル間の一貫性を提供します。
 
 <br>
