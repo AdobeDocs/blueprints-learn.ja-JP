@@ -3,10 +3,10 @@ title: offer decisioning（ハブ）
 description: キオスク、エージェント支援のエクスペリエンス、E メールおよびその他のアウトバウンド配信を含むチャネルをまたいで、パーソナライズされたオファーを消費者に配信します。
 solution: Experience Platform, Journey Optimizer
 exl-id: 5a386e18-bbac-4216-a35f-0a5016785e4a
-source-git-commit: 7f566536c4ff5a6af321d60058ad67c13c28bf64
+source-git-commit: 011f5b247ccd606348b4cbb4210218f28eddbd4c
 workflow-type: tm+mt
-source-wordcount: '904'
-ht-degree: 28%
+source-wordcount: '881'
+ht-degree: 29%
 
 ---
 
@@ -30,7 +30,8 @@ Journey Optimizerは、あらゆるタッチポイントにわたって適切な
 
 * キオスクおよびストアエクスペリエンスでパーソナライズされたオファー。
 * コールセンターやセールスインタラクションなど、エージェントの支援によってパーソナライズされたオファー。
-* E メール、SMS、またはその他のアウトバウンドインタラクションに含まれるオファー。
+* E メール、SMS、モバイルプッシュ通知、その他のアウトバウンドインタラクションに含まれるオファー。
+* 外部の ESP およびメッセージングシステムに配信用のオファーを提供します。
 * クロスチャネルのジャーニー実行 — Adobe Journey Optimizerを通じて、Web、モバイル、E メールおよびその他のインタラクションチャネル間の一貫性を提供します。
 
 <br>
@@ -40,12 +41,6 @@ Journey Optimizerは、あらゆるタッチポイントにわたって適切な
 <img src="../assets/offers_hub.svg" alt="エッジブループリントの参照アーキテクチャOffer decisioning" style="width:100%; border:1px solid #4a4a4a" />
 
 <br>
-
-## 統合パターン
-
-| 統合 | 説明 |
-| :-- | :--- |
-| [Adobe Targetとのoffer decisioning](https://experienceleague.adobe.com/docs/target/using/integrate/ajo/offer-decision.html) | offer decisioningをAdobe Targetと統合して、オファーを Target エクスペリエンスとしてテストおよび配信できます。 |
 
 ## 前提条件
 

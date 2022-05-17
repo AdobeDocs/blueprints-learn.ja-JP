@@ -2,9 +2,10 @@
 title: offer decisioningの概要
 description: カスタマージャーニーをまたいでパーソナライズされたオファーを配信する。
 solution: Experience Platform, Journey Optimizer
-source-git-commit: 7f566536c4ff5a6af321d60058ad67c13c28bf64
+exl-id: f6271802-faab-4ffc-92d6-4c4d7d423ed4
+source-git-commit: 8842b8637a30151577a93653c16b4d37e2cf7c27
 workflow-type: tm+mt
-source-wordcount: '582'
+source-wordcount: '634'
 ht-degree: 2%
 
 ---
@@ -24,7 +25,7 @@ Journey Optimizerは、あらゆるタッチポイントにわたって適切な
 
 <img src="../assets/offers_overview.png" alt="offer decisioning" style="width:100%; border:1px solid #4a4a4a" />
 
-判定管理は、2 つの方法のいずれかでデプロイできます。
+決定管理は、エッジ上またはハブを介して、2 つの方法のいずれかでデプロイできます。 これらの各メソッドには、以下に示す各ブループリントで概要を説明するように、サービスを動作させるための特定のインターフェイスとプロトコルのセットがあります。 追加の詳細は、決定管理ドキュメントでも入手できます [ここ](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/api-reference/offer-delivery-api/decisioning-vs-edge-apis.html).
 
 ## ハブでの決定管理
 

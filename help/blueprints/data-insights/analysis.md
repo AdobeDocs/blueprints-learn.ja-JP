@@ -5,10 +5,10 @@ solution: Experience Platform
 kt: 7207
 thumbnail: null
 exl-id: a972ea56-d1c8-45da-9044-ed31222a2441
-source-git-commit: 4eb6100fa29eac9426fd03ccceadc0a64f1d4b8f
-workflow-type: ht
-source-wordcount: '337'
-ht-degree: 100%
+source-git-commit: 011f5b247ccd606348b4cbb4210218f28eddbd4c
+workflow-type: tm+mt
+source-wordcount: '318'
+ht-degree: 82%
 
 ---
 
@@ -16,11 +16,11 @@ ht-degree: 100%
 
 データ分析とインテリジェンスは、Adobe Experience Platform 内の機能で構成され、データレイクに存在するデータの調査クエリおよび分析を実行します。
 
-Experience Platform の[!UICONTROL クエリサービス]を使用すると、データに対して SQL クエリを実行できます。[!UICONTROL Data Science Workspace] を使用すると、データに対して、データ調査、データサイエンスおよび機械学習のワークロードを実行できます。
+Experience Platform の[!UICONTROL クエリサービス]を使用すると、データに対して SQL クエリを実行できます。
 
-また、Experience Platform を使用すると、サードパーティ SQL クライアント、インターフェイスおよびビジネスインテリジェンス（BI）ツールとの接続が可能になり、[!DNL PostgreSQL] プロトコルを使用して、Experience Platform 内で直接データへの接続やアクセス、クエリを実行できます。
+Experience Platformを使用すると、サードパーティの SQL クライアント、インターフェイス、およびBusiness Intelligence(BI) ツールとの接続で、 [!DNL PostgreSQL] プロトコル。
 
-ブループリントの詳細に記載されているように、クエリタイムアウトや、クエリ結果に含まれるデータ量に対して、特定のガードレールが適用されます。
+以下の「ガードレール」の節で説明するように、クエリのタイムアウトと、クエリ結果に含まれるデータの量に対して、特定のガードレールが適用されます。
 
 ## ユースケース
 
