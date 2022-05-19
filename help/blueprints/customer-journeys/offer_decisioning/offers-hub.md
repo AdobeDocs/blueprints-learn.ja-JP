@@ -1,44 +1,44 @@
 ---
-title: offer decisioning（ハブ）
-description: キオスク、エージェント支援のエクスペリエンス、E メールおよびその他のアウトバウンド配信を含むチャネルをまたいで、パーソナライズされたオファーを消費者に配信します。
+title: ハブの Offer Decisioning
+description: キオスク、エージェント支援エクスペリエンス、電子メールやその他のアウトバウンド配信など、さまざまなチャネルで消費者にパーソナライズされたオファーを配信します。
 solution: Experience Platform, Journey Optimizer
 exl-id: 5a386e18-bbac-4216-a35f-0a5016785e4a
 source-git-commit: 011f5b247ccd606348b4cbb4210218f28eddbd4c
 workflow-type: tm+mt
 source-wordcount: '881'
-ht-degree: 29%
+ht-degree: 86%
 
 ---
 
-# Journey Optimizer — ハブのOffer decisioning
+# Journey Optimizer — ハブの Offer Decisioning
 
-決定管理について詳しくは、製品ドキュメントを参照してください。 [ここ](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started-decision/starting-offer-decisioning.html) とOffer decisioningの概要 [ここ](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer/offer-decisioning/offers-overview.html)
+決定管理について詳しくは、製品ドキュメントを参照してください。 [ここ](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started-decision/starting-offer-decisioning.html?lang=ja) とOffer decisioningの概要 [ここ](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer/offer-decisioning/offers-overview.html)
 
-Adobe判定管理は、Adobe Journey Optimizerの一部として提供されるサービスです。 このブループリントは、アプリケーションの使用例と技術的機能の概要を示し、Offer decisioningを構成する様々なアーキテクチャコンポーネントと考慮事項について詳しく説明します。
+アドビの判定管理は、Adobe Journey Optimizer の一部として提供されるサービスです。このブループリントは、アプリケーションのユースケースと技術的機能の概要を示し、Offer Decisioning を構成する様々なアーキテクチャコンポーネントと考慮事項について詳しく説明します。
 
 Journey Optimizerは、あらゆるタッチポイントにわたって適切なタイミングで顧客に最適なオファーとエクスペリエンスを提供するために使用されます。 offer decisioningは、マーケティングオファーの一元化されたライブラリと、Adobe Experience Platformが作成するリッチなリアルタイムプロファイルにルールと制約を適用する決定エンジンを使用して、適切なオファーを適切なタイミングで顧客に送信します。
 
-判定管理は、2 つの方法のいずれかでデプロイできます。 1 つ目は、中央のデータセンターアーキテクチャであるAdobe Experience Platformハブを通じて行う方法です。 「ハブ」アプローチでは、オファーは、500 ミリ秒を超える待ち時間で実行、パーソナライズ、配信されます。 したがって、ハブアーキテクチャは、1 秒未満の待ち時間を要求しない顧客体験に最適です。例えば、コールセンターや人とのやり取りなど、キオスクやエージェントが支援するエクスペリエンスに提供するオファーの決定などです。 E メールやアウトバウンドキャンペーンに挿入されるオファーも、ハブアプローチを利用します。
+判定管理は、2 つの方法のいずれかでデプロイすることができます。1 つは、単一のデータセンターアーキテクチャである Adobe Experience Platform Hub を通じて行う方法です。「ハブ」アプローチでは、オファーは、500 ミリ秒を超えるレイテンシで実行、パーソナライズ、配信されます。したがって、ハブアーキテクチャは、1秒未満の遅延を必要としない顧客体験に最適です。たとえば、コールセンターや対面でのやり取りなど、キオスクやエージェント支援エクスペリエンスに提供されるオファー判定が含まれます。電子メールやアウトバウンドキャンペーンに挿入されるオファーも、ハブアプローチを利用します。
 
-2 つ目のアプローチは、Experience Edge ネットワークを介して行われます。Experience Edge ネットワークは、地理的にグローバルに分散されたインフラストラクチャで、2 秒および 1 ミリ秒の高速なエクスペリエンスを提供します。 待ち時間を最小限に抑えるために、消費者の地域に最も近いエッジインフラストラクチャによって実行されるエンドコンシューマーエクスペリエンス。 Edge 上の決定管理は、Web やモバイルのインバウンドパーソナライゼーションリクエストなどのリアルタイムのコンシューマーエクスペリエンスを提供するように設計されています。
+2 つ目のアプローチは、Experience Edge ネットワークを介したものです。Experience Edge ネットワークは、地理的にグローバルに分散されたインフラストラクチャで、1 秒未満および 1 ミリ秒の高速なエクスペリエンスを提供します。レイテンシを最小限に抑えるために、消費者の地理的位置に最も近いエッジインフラストラクチャによって実行される最終消費者エクスペリエンス。Edge 上の判定管理は、Web やモバイルのインバウンドパーソナライゼーションリクエストなどのリアルタイムの顧客体験を提供するように設計されています。
 
-このブループリントは、ハブでの決定管理の詳細をカバーします。
+このブループリントは、ハブ上での判定管理の詳細をカバーします。
 
-エッジでの決定管理について詳しくは、 [エッジでの決定管理](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer/offer-decisioning/offers-edge.html) ブループリント。
+ハブ上での判定管理について詳しくは、[ハブ上での判定管理](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer/offer-decisioning/offers-edge.html)ブループリントを参照してください。
 
 ## ハブでの決定管理の使用例
 
-* キオスクおよびストアエクスペリエンスでパーソナライズされたオファー。
+* キオスクおよびストアエクスペリエンスに関してパーソナライズされたオファー。
 * コールセンターやセールスインタラクションなど、エージェントの支援によってパーソナライズされたオファー。
 * E メール、SMS、モバイルプッシュ通知、その他のアウトバウンドインタラクションに含まれるオファー。
 * 外部の ESP およびメッセージングシステムに配信用のオファーを提供します。
-* クロスチャネルのジャーニー実行 — Adobe Journey Optimizerを通じて、Web、モバイル、E メールおよびその他のインタラクションチャネル間の一貫性を提供します。
+* クロスチャネルのジャーニー実行 — Adobe Journey Optimizer を通じて、Web、モバイル、電子メールおよびその他のインタラクションチャネル間の一貫性を提供します。
 
 <br>
 
 ## アーキテクチャ
 
-<img src="../assets/offers_hub.svg" alt="エッジブループリントの参照アーキテクチャOffer decisioning" style="width:100%; border:1px solid #4a4a4a" />
+<img src="../assets/offers_hub.svg" alt="エッジブループリントの参照アーキテクチャ Offer Decisioning" style="width:100%; border:1px solid #4a4a4a" />
 
 <br>
 
@@ -47,15 +47,15 @@ Journey Optimizerは、あらゆるタッチポイントにわたって適切な
 Adobe Experience Platform
 
 * Journey Optimizer のデータソースを設定する前に、スキーマとデータセットをシステムに設定する必要があります。
-* エクスペリエンスイベントクラスベースのスキーマの場合、ルールベースのイベントではないイベントをトリガーする場合に、を追加します エクスペリエンスイベントクラスベースのスキーマでは、ルールベースのイベントではないイベントをトリガーさせたい場合は「オーケストレーションイベント ID」フィールドグループを追加します。
+* エクスペリエンスイベントクラスベースのスキーマの場合、ルールベースのイベントではないイベントをトリガーする場合に、を追加します エクスペリエンスイベントクラスベースのスキーマでは、ルールベースのイベントではないイベントをトリガーさせたい場合は「オーケストレーション eventID」フィールドグループを追加します。
 * 個別のプロファイルクラスベースのスキーマの場合、「Profile test details」フィールドグループを追加して、Journey Optimizer で使用するテストプロファイルを読み込めるようにします
 
 <br>
 
 ## ガードレール
 
-* Journey Optimizer Guardrail の場合は、次を参照してください。 [Journey Optimizer Guardrails](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/limitations.html).
-* offer decisioningガードレールについては、次を参照してください。 [offer decisioning製品の説明](https://helpx.adobe.com/legal/product-descriptions/offer-decisioning-app-service.html).
+* Journey Optimizer ガードレールに関しては、次の [Journey Optimizer ガードレール](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/limitations.html?lang=ja)を参照してください。
+* Offer Decisioning ガードレールに関しては、次の [Offer Decisioning 製品の説明](https://helpx.adobe.com/jp/legal/product-descriptions/offer-decisioning-app-service.html)を参照してください。
 
 
 ### データ取り込みガードレール
@@ -72,10 +72,10 @@ Adobe Experience Platform
 
 ## 実装パターン
 
-* との直接統合により、E メール、SMS、アウトバウンドチャネルで実装。 [Adobe Journey Optimizer](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started-decision/offers-e2e.html).
-* サーバー API ベースのOffer decisioningの実装の場合、 [判定 API](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/api-reference/offer-delivery/decisioning-vs-edge-apis.html).
-* メッセージ配信アプリケーションにオファーを一括で配信するバッチベースの決定を実装するには、 [バッチ判定 API](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/api-reference/offer-delivery/batch-decisioning-api.html).
-* エッジベースのリアルタイムエクスペリエンスの場合は、Web/モバイル SDK または Edge Decisioning API を使用します ( [Edge ブループリントのoffer decisioning](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer/offer-decisioning/offers-edge.html).
+* [Adobe Journey Optimizer](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started-decision/offers-e2e.html?lang=ja) との直接統合により、電子メール、SMS、アウトバウンドチャネルで実装。
+* サーバー API ベースの Offer Decisioning の実装の場合、[判定 API](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/api-reference/offer-delivery/decisioning-vs-edge-apis.html?lang=ja) を使用します。
+* メッセージ配信アプリケーションにオファーを一括で配信するバッチベースの判定を実装するには、 [バッチ判定 API](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/api-reference/offer-delivery/batch-decisioning-api.html?lang=ja) を使用します。
+* エッジベースのリアルタイムエクスペリエンスの場合は、[エッジブループリントの Offer Decisioning](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer/offer-decisioning/offers-edge.html) で概説されているように、Web／モバイル SDK または エッジ判定 API を使用します。
 <br>
 
 ## 実装手順
@@ -103,8 +103,8 @@ Adobe Experience Platform
 
 ## 関連ドキュメント
 
-* [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform.html)
-* [Adobe Journey Optimizer](https://experienceleague.adobe.com/docs/journey-optimizer.html)
-* [Adobe Journey Optimizer Decision Management](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started-decision/starting-offer-decisioning.html)
-* [Adobe Journey Optimizer Product Description](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer.html)
-* [AdobeOffer decisioningの製品説明](https://helpx.adobe.com/legal/product-descriptions/offer-decisioning-app-service.html)
+* [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform.html?lang=ja)
+* [Adobe Journey Optimizer](https://experienceleague.adobe.com/docs/journey-optimizer.html?lang=ja)
+* [Adobe Journey Optimizer 判定管理](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started-decision/starting-offer-decisioning.html)
+* [Journey Optimizer 製品説明](https://helpx.adobe.com/jp/legal/product-descriptions/adobe-journey-optimizer.html)
+* [Adobe Offer Decisioning 製品説明](https://helpx.adobe.com/legal/product-descriptions/offer-decisioning-app-service.html)

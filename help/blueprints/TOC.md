@@ -8,7 +8,7 @@ role: Architect, Developer, User
 source-git-commit: 7f566536c4ff5a6af321d60058ad67c13c28bf64
 workflow-type: tm+mt
 source-wordcount: '193'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -47,10 +47,10 @@ ht-degree: 89%
    + [概要](/help/blueprints/customer-journeys/overview.md)
    + Journey Optimizer {#journey-optimizer}
       + [Journey Optimizer](/help/blueprints/customer-journeys/journey-optimizer.md)
-      + offer decisioning{#offer-decisioning}
+      + Offer Decisioning {#offer-decisioning}
          + [概要](/help/blueprints/customer-journeys/offer_decisioning/offers-overview.md)
-         + [エッジのoffer decisioning](/help/blueprints/customer-journeys/offer_decisioning/offers-edge.md)
-         + [offer decisioning（ハブ）](/help/blueprints/customer-journeys/offer_decisioning/offers-hub.md)
+         + [エッジの Offer Decisioning](/help/blueprints/customer-journeys/offer_decisioning/offers-edge.md)
+         + [ハブの Offer Decisioning](/help/blueprints/customer-journeys/offer_decisioning/offers-hub.md)
       + [Journey Optimizer と Adobe Campaign](/help/blueprints/customer-journeys/ajo-and-campaign.md)
       + [サードパーティのメッセージング](/help/blueprints/customer-journeys/3rd-party-messaging.md)
    + Campaign v8 {#campaign-v8}
@@ -62,8 +62,8 @@ ht-degree: 89%
    + [概要](/help/blueprints/data-ingestion/overview.md)
    + [データ準備および取り込み](/help/blueprints/data-ingestion/ingestion.md)
    + [サーバーサイドエンタープライズデータ収集](/help/blueprints/data-ingestion/server-side-collection.md)
-   + デプロイメント{#deployment}
-      + [Experience PlatformWeb SDK および Edge ネットワーク](/help/blueprints/data-ingestion/websdk.md)
+   + デプロイメント {#deployment}
+      + [Experience Platform Web SDK および Edge ネットワーク](/help/blueprints/data-ingestion/websdk.md)
       + [アプリケーション SDK](/help/blueprints/data-ingestion/appsdk.md)
 + データ分析、インテリジェンス、AI／ML {#data-exploration}
    + [概要](/help/blueprints/data-insights/overview.md)
@@ -73,4 +73,4 @@ ht-degree: 89%
    + [概要](/help/blueprints/web-personalization/overview.md)
    + [行動によるパーソナライズ機能](/help/blueprints/web-personalization/behavioral.md)
    + [既知の顧客のパーソナライズ機能](/help/blueprints/web-personalization/known-personalization.md)
-   + [offer decisioning](/help/blueprints/web-personalization/offers-edge.md)
+   + [Offer Decisioning](/help/blueprints/web-personalization/offers-edge.md)
