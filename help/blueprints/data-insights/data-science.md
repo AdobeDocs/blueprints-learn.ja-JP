@@ -4,10 +4,10 @@ description: このブループリントは、Adobe Experience Platform の Data
 solution: Data Collection
 kt: 7203
 exl-id: e5ec6886-4fa4-4c9b-a2d8-e843d7758669,f0efaf3c-6c4f-47c3-ab8a-e8e146dd071c
-source-git-commit: 011f5b247ccd606348b4cbb4210218f28eddbd4c
+source-git-commit: 56ed25f8ed954126c3291559b7f67f04565c01d4
 workflow-type: tm+mt
-source-wordcount: '283'
-ht-degree: 70%
+source-wordcount: '505'
+ht-degree: 48%
 
 ---
 
@@ -30,6 +30,25 @@ Custom Data Science for Profile Enrichment ブループリントは、Adobe Expe
 1. データを取り込むために[スキーマを作成](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2021.1.xdm)します。
 1. データを取り込むために[データセットを作成](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/create-datasets-and-ingest-data.html?lang=ja)します。
 1. Experience Platform に[データを取り込みます](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2020.1.dataingestion&amp;lang=ja)。
+
+モデル結果をリアルタイム顧客プロファイルに取り込む場合は、データを取り込む前に、必ず次の操作をおこなってください。
+
+1. 取り込まれたデータが統合プロファイルに確実にステッチできるようにするために、スキーマに[正しい ID および ID 名前空間を設定します](https://experienceleague.adobe.com/docs/platform-learn/tutorials/identities/label-ingest-and-verify-identity-data.html?lang=ja)。
+1. [プロファイル用のスキーマおよびデータセットを有効にします](https://experienceleague.adobe.com/docs/platform-learn/tutorials/profiles/bring-data-into-the-real-time-customer-profile.html?lang=ja)。
+
+## 実装に関する考慮事項
+
+* ほとんどの場合、モデルの結果はエクスペリエンスイベントではなく、プロファイル属性として取り込む必要があります。 モデルの結果は、単純な属性文字列にすることができます。 取り込むモデル結果が複数ある場合は、配列またはマップタイプのフィールドを使用することをお勧めします。
+* 統合プロファイル属性データの毎日の書き出しである日別プロファイルスナップショットデータセットを利用して、プロファイル属性データに関するモデルのトレーニングをおこなうことができます。 プロファイルスナップショットデータセットのドキュメントにアクセスできます [ここ](https://experienceleague.adobe.com/docs/experience-platform/dashboards/query.html#profile-attribute-datasets).
+* データからデータを抽出するには、次のExperience Platformを使用できます
+   * データアクセス SDK
+      * データは生のファイル形式です
+      * プロファイルエクスペリエンスのイベントデータは、未統合の未統合の未処理の状態のままです。
+   * RTCDP の宛先
+      * セグメント化できるのは、プロファイル属性とセグメントメンバーシップのみです。
+   * クエリサービス
+      * 大量の生データにアクセスすると、10 分のタイムアウト時にクエリがタイムアウトする場合があります。 データを増分的にクエリすることをお勧めします。
+
 
 ## 関連ドキュメント
 

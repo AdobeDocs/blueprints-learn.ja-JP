@@ -3,10 +3,10 @@ title: エッジの Offer Decisioning
 description: 複数のチャネルをまたいで、リアルタイムの Web エクスペリエンスやモバイルエクスペリエンスを含む、パーソナライズされたオファー顧客にを提供します。
 solution: Experience Platform, Journey Optimizer
 exl-id: 31e5f624-5578-49e1-ab92-5cabd596a632
-source-git-commit: 7f566536c4ff5a6af321d60058ad67c13c28bf64
+source-git-commit: 56ed25f8ed954126c3291559b7f67f04565c01d4
 workflow-type: tm+mt
-source-wordcount: '772'
-ht-degree: 93%
+source-wordcount: '847'
+ht-degree: 85%
 
 ---
 
@@ -57,6 +57,10 @@ Adobe Experience Platform
 
 * Journey Optimizer ガードレールに関しては、次の [Journey Optimizer ガードレール](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/limitations.html?lang=ja)を参照してください。
 * Offer Decisioning ガードレールに関しては、次の [Offer Decisioning 製品の説明](https://helpx.adobe.com/jp/legal/product-descriptions/offer-decisioning-app-service.html)を参照してください。
+* 1 秒あたりのリクエスト数= 5000
+* 応答の待ち時間（250 ミリ秒未満）。
+* エッジのリアルタイムプロファイルにアクセスします。 プロファイルで使用できるのは、エッジから推定されたオーディエンスとプロファイル属性のみです。
+* 初めてのエクスペリエンスでパーソナライゼーションが必要な場合は、フルプロファイルを利用できるので、ハブが最適です。 初めてのエッジエクスペリエンスでは、エッジプロファイルがハブから同期する必要があります。 したがって、エッジからの最初のエクスペリエンスには、以前にハブにアップロードされたプロファイルデータは含まれません。
 
 ### データ取り込みガードレール
 

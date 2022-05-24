@@ -3,10 +3,10 @@ title: ハブの Offer Decisioning
 description: キオスク、エージェント支援エクスペリエンス、電子メールやその他のアウトバウンド配信など、さまざまなチャネルで消費者にパーソナライズされたオファーを配信します。
 solution: Experience Platform, Journey Optimizer
 exl-id: 5a386e18-bbac-4216-a35f-0a5016785e4a
-source-git-commit: 011f5b247ccd606348b4cbb4210218f28eddbd4c
+source-git-commit: 56ed25f8ed954126c3291559b7f67f04565c01d4
 workflow-type: tm+mt
-source-wordcount: '881'
-ht-degree: 86%
+source-wordcount: '901'
+ht-degree: 84%
 
 ---
 
@@ -56,6 +56,9 @@ Adobe Experience Platform
 
 * Journey Optimizer ガードレールに関しては、次の [Journey Optimizer ガードレール](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/limitations.html?lang=ja)を参照してください。
 * Offer Decisioning ガードレールに関しては、次の [Offer Decisioning 製品の説明](https://helpx.adobe.com/jp/legal/product-descriptions/offer-decisioning-app-service.html)を参照してください。
+* 1 秒あたりのリクエスト数= 2000
+* 応答の待ち時間（500 ミリ秒未満）。
+* オーディエンスメンバーシップ、属性、エクスペリエンスイベントを含む、完全なリアルタイム顧客プロファイルへのアクセス。
 
 
 ### データ取り込みガードレール
