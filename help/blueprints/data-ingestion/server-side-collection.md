@@ -4,16 +4,16 @@ description: Experience Platform SDK で収集したデータを宛先にスト�
 solution: Data Collection
 kt: 7202
 exl-id: 8d6f0705-628b-44e4-a3fc-da6c5e308a5b
-source-git-commit: 3425495df36ff8da0f2fd737b35d294ccafe31bd
-workflow-type: ht
-source-wordcount: '235'
-ht-degree: 100%
+source-git-commit: e6ef8a1e7b90778c0163227e32d2691dfaf9c9d2
+workflow-type: tm+mt
+source-wordcount: '231'
+ht-degree: 86%
 
 ---
 
-# サーバーサイドエンタープライズデータ収集ブループリント
+# イベント転送のブループリント
 
-サーバーサイドエンタープライズデータ収集ブループリントは、Adobe Experience Platform Web SDK および Mobile SDK を使用して収集されたデータを Experience Platform Edge Network から目的の宛先に転送する方法を示します。SDK から収集された生のデータをすべて転送することも、タグプロパティ（旧称 Launch）で設定されたイベントおよびルールに基づいて特定のデータを転送することもできます。
+イベント転送ブループリントは、Adobe Experience Platform Web および Mobile SDK で収集されたデータをExperience PlatformEdge Network から目的の宛先に転送する方法を示します。 SDK から収集された生のデータをすべて転送することも、タグプロパティ（旧称 Launch）で設定されたイベントおよびルールに基づいて特定のデータを転送することもできます。
 
 ## ユースケース
 
@@ -22,7 +22,7 @@ ht-degree: 100%
 
 ## アプリケーション
 
-* Adobe Experience Platform コレクション
+* Adobe Experience Platform のデータ収集
 
 ## アーキテクチャ
 
