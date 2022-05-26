@@ -5,10 +5,10 @@ user-guide-description: ブループリントは、既存のビジネス上の�
 product: adobe experience platform
 mini-toc-levels: 3
 role: Architect, Developer, User
-source-git-commit: fff87b7bbea6db6bb5af0386b5919e78077a7858
+source-git-commit: f39c916d4b13d17eb3705c7adf01353929ff7956
 workflow-type: tm+mt
-source-wordcount: '190'
-ht-degree: 98%
+source-wordcount: '194'
+ht-degree: 96%
 
 ---
 
@@ -62,6 +62,7 @@ ht-degree: 98%
    + [概要](/help/blueprints/data-ingestion/overview.md)
    + [データ準備および取り込み](/help/blueprints/data-ingestion/ingestion.md)
    + [イベント転送](/help/blueprints/data-ingestion/server-side-collection.md)
+   + [マルチサンドボックスデータ収集](/help/blueprints/data-ingestion/multi-sandbox-data-collection.md)
    + デプロイメント {#deployment}
       + [Experience Platform Web SDK および Edge ネットワーク](/help/blueprints/data-ingestion/websdk.md)
       + [アプリケーション SDK](/help/blueprints/data-ingestion/appsdk.md)
