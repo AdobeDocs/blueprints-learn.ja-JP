@@ -4,8 +4,8 @@ description: Google Customer Match へのアクティベーション。
 solution: Real-time Customer Data Platform, Data Collection
 kt: 7086
 exl-id: 32bdc04d-b101-4b17-af27-329e5c71d888
-source-git-commit: 3425495df36ff8da0f2fd737b35d294ccafe31bd
-workflow-type: ht
+source-git-commit: 6fa38772f77ffd565580db55f8f2889b0e703949
+workflow-type: tm+mt
 source-wordcount: '1010'
 ht-degree: 100%
 
@@ -27,7 +27,7 @@ ht-degree: 100%
 
 ## アーキテクチャ
 
-<img src="../assets/gcm.png" alt="Google Customer Match アクティベーションの参照アーキテクチャ" style="width:90%; border:1px solid #4a4a4a" />
+<img src="../assets/gcm.svg" alt="Google Customer Match アクティベーションの参照アーキテクチャ" style="width:90%; border:1px solid #4a4a4a" />
 
 ## 実装手順
 
@@ -70,7 +70,7 @@ ht-degree: 100%
    * 指定したセグメントのセグメント結果数を確認します。
    * セグメントに含める必要があるプロファイルを調べて、セグメントメンバーシップがプロファイルのセグメントメンバーシップ部分に含まれていることを確認します。
 1. オーディエンスの宛先への配信を「宛先」設定で設定します。
-   * Google Customer Match の宛先設定の詳細に関しては、 [Google Customer Match Destination Guide](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/google-customer-match.html?lang=ja) を参照してください。
+   * Google Customer Match の宛先設定の詳細に関しては、 [Google Customer Match Destination Guide](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/google-customer-match.html) を参照してください。
    * 宛先を設定する際に、宛先に対してアクティブ化するオーディエンスを選択します。
    * 宛先へのオーディエンスの配信を開始する、宛先データフローのスケジュールされた開始日を決定します。
    * 各宛先には、送信する必要な属性とオプションの属性があります。
@@ -91,4 +91,4 @@ ht-degree: 100%
 
 ## 関連ドキュメント
 
-Google Customer Match へのアクティベーション — [宛先の設定](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/google-customer-match.html?lang=ja)
+Google Customer Match へのアクティベーション — [宛先の設定](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/google-customer-match.html)
