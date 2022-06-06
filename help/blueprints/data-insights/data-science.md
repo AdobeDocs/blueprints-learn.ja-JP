@@ -7,13 +7,13 @@ exl-id: e5ec6886-4fa4-4c9b-a2d8-e843d7758669,f0efaf3c-6c4f-47c3-ab8a-e8e146dd071
 source-git-commit: 56ed25f8ed954126c3291559b7f67f04565c01d4
 workflow-type: tm+mt
 source-wordcount: '505'
-ht-degree: 48%
+ht-degree: 64%
 
 ---
 
 # プロファイルエンリッチメントのためのカスタムデータサイエンスブループリント
 
-Custom Data Science for Profile Enrichment ブループリントは、Adobe Experience Platformのデータを使用して、モデルをトレーニング、デプロイ、スコアリングし、Experience PlatformとReal-time Customer Data Platformに関する機械学習の洞察をデータサイエンスおよび機械学習ツールから提供する方法を示します。 モデル化されたインサイトをExperience Platformに取り込んで、リアルタイム顧客プロファイルを強化できます。 機械学習インサイトの例には、ライフタイム値、スコアリング、製品およびカテゴリの親和性、コンバージョン傾向、チャーン傾向が含まれます。
+プロファイルエンリッチメントのためのカスタムデータサイエンスブループリントは、Adobe Experience Platformのデータを使用して、モデルをトレーニング、デプロイ、スコアリングし、Experience Platform と Real-time Customer Data Platform に関する機械学習の洞察を、データサイエンスおよび機械学習ツールから提供する方法を示します。モデル化されたインサイトを Experience Platform に取り込んで、リアルタイム顧客プロファイルをエンリッチメントすることができます。機械学習インサイトの例には、ライフタイム値、スコアリング、製品およびカテゴリの親和性、コンバージョン傾向、チャーン傾向が含まれます。
 
 ## ユースケース
 
@@ -53,7 +53,7 @@ Custom Data Science for Profile Enrichment ブループリントは、Adobe Expe
 ## 関連ドキュメント
 
 * [Adobe Experience Platform インテリジェンス製品説明](https://helpx.adobe.com/jp/legal/product-descriptions/adobe-experience-platform-intelligence---product-description.html)
-* [Adobe Experience Platform Query Service](https://experienceleague.adobe.com/docs/experience-platform/query/home.html)
+* [Adobe Experience Platform クエリサービス](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=ja)
 
 ## 関連するブログ投稿
 

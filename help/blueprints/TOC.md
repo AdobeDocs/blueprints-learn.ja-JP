@@ -8,7 +8,7 @@ role: Architect, Developer, User
 source-git-commit: ac995cdb942fd14d87281c4b499239732a1e4019
 workflow-type: tm+mt
 source-wordcount: '194'
-ht-degree: 89%
+ht-degree: 94%
 
 ---
 
@@ -49,8 +49,8 @@ ht-degree: 89%
       + [Journey Optimizer](/help/blueprints/customer-journeys/journey-optimizer.md)
       + 決定管理{#decision-management}
          + [概要](/help/blueprints/customer-journeys/decision_management/decision-management-overview.md)
-         + [エッジでの決定管理](/help/blueprints/customer-journeys/decision_management/decision-management-edge.md)
-         + [ハブでの決定管理](/help/blueprints/customer-journeys/decision_management/decision-management-hub.md)
+         + [エッジでの意思決定管理](/help/blueprints/customer-journeys/decision_management/decision-management-edge.md)
+         + [ハブの意思決定管理](/help/blueprints/customer-journeys/decision_management/decision-management-hub.md)
       + [Journey Optimizer と Adobe Campaign](/help/blueprints/customer-journeys/ajo-and-campaign.md)
       + [サードパーティのメッセージング](/help/blueprints/customer-journeys/3rd-party-messaging.md)
    + Campaign v8 {#campaign-v8}
