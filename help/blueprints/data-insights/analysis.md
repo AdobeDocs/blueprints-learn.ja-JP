@@ -6,9 +6,9 @@ kt: 7207
 thumbnail: null
 exl-id: a972ea56-d1c8-45da-9044-ed31222a2441
 source-git-commit: 011f5b247ccd606348b4cbb4210218f28eddbd4c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '318'
-ht-degree: 82%
+ht-degree: 100%
 
 ---
 
@@ -18,9 +18,9 @@ ht-degree: 82%
 
 Experience Platform の[!UICONTROL クエリサービス]を使用すると、データに対して SQL クエリを実行できます。
 
-Experience Platformを使用すると、サードパーティの SQL クライアント、インターフェイス、およびBusiness Intelligence(BI) ツールとの接続で、 [!DNL PostgreSQL] プロトコル。
+Experience Platform を使用すると、サードパーティ SQL クライアント、インターフェイスおよびビジネスインテリジェンス（BI）ツールとの接続が可能になり、[!DNL PostgreSQL] プロトコルを使用して、Experience Platform 内で直接データへの接続やアクセス、クエリを実行することができます。
 
-以下の「ガードレール」の節で説明するように、クエリのタイムアウトと、クエリ結果に含まれるデータの量に対して、特定のガードレールが適用されます。
+以下のガードレールの節に記載されているように、クエリタイムアウトや、クエリ結果に含まれるデータ量に対して、特定のガードレールが適用されます。
 
 ## ユースケース
 
@@ -38,8 +38,7 @@ Experience Platformを使用すると、サードパーティの SQL クライ�
 
 ## ガードレール
 
-ベストプラクティスとガードレールについての詳細は、クエリサービス製品ドキュメントを参照してください。
-[クエリサービスガイダンス](https://experienceleague.adobe.com/docs/experience-platform/query/best-practices/writing-queries.html?lang=ja#best-practices)
+ベストプラクティスとガードレールについての詳細は、クエリサービス製品ドキュメントを参照してください。[クエリサービスガイダンス](https://experienceleague.adobe.com/docs/experience-platform/query/best-practices/writing-queries.html?lang=ja#best-practices)
 
 ## 実装手順
 
