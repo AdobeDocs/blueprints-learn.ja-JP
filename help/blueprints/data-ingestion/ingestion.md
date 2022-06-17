@@ -6,9 +6,9 @@ kt: 7204
 thumbnail: null
 exl-id: 21f8a73e-6be7-448e-8cd3-ebee9fc848e1
 source-git-commit: 5ee530220cd5928f9ab4aabd50148b963273d67c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '674'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 99%
 
 ## データ取り込みガードレール
 
-次の図は、Adobe Experience Platform にデータを取り込む際の平均パフォーマンスのガードレールとレイテンシを示しています。
+次の図は、Adobe Experience Platform にデータを取り込む際の平均パフォーマンスのガードレールと待ち時間を示しています。
 
 <img src="../experience-platform/assets/aep_data_flow_guardrails.svg" alt="Experience Platform データフロー" style="border:1px solid #4a4a4a" width="90%" />
 
@@ -36,7 +36,7 @@ ht-degree: 99%
 | ストリーミングソース | [ストリーミングソース](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=ja#connectors)<br>レイテンシ：<ul><li>リアルタイム - Edge Network への同じページの収集</li><li>プロファイルへのストリーミングの取り込み 最大 1 分</li><li>データレイクへのストリーミングの取り込み（マイクロバッチ 最大 15 分）</li></ul> |
 | ストリーミング API | [Edge Network Server API（推奨）](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/interactive-data-collection.html?lang=ja) - Edge セグメント化を含む Edge サービスをサポートしますが、<br>[データ収集コアサービス API](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/streaming/http.html?lang=ja) - は Edge サービスをサポートしておらず、ハブに直接ルートします。<br>レイテンシ：<ul><li>リアルタイム - Edge Network への同じページの収集</li><li>プロファイルへのストリーミングの取り込み 最大 1 分</li><li>データレイクへのストリーミングの取り込み（マイクロバッチ 最大 15 分）</li><li>7 GB/時間</li></ul>[ドキュメント](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/overview.html?lang=ja#what-can-you-do-with-streaming-ingestion%3F) |
 | ETL ツール | Experience Platform に取り込む前に、ETL ツールを使用してエンタープライズデータを変更および変換します。<br><br>レイテンシ：<ul><li>タイミングは外部 ETL ツールのスケジュールに依存し、その後、取り込みに使用される方法に基づいて、標準的な取り込みガードレールが適用されます。</li></ul> |
-| バッチソース | ソースからのスケジュールされた取得<br>レイテンシ：最大 200 GB/時間<br><br>[ドキュメント](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=en#connectors)<br>[ビデオチュートリアル](https://experienceleague.adobe.com/docs/platform-learn/tutorials/sources/overview.html?lang=ja) |
+| バッチソース | ソースからのスケジュールされた取得<br>レイテンシ：最大 200 GB/時間<br><br>[ドキュメント](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=ja#connectors)<br>[ビデオチュートリアル](https://experienceleague.adobe.com/docs/platform-learn/tutorials/sources/overview.html?lang=ja) |
 | バッチ API | レイテンシ：<ul><li>プロファイルへのバッチ取り込みはサイズおよびトラフィックの負荷に依存 最大 45 分</li><li>データレイクへのバッチ取り込みはサイズおよびトラフィックの負荷に依存</li></ul>[ドキュメント](https://experienceleague.adobe.com/docs/experience-platform/ingestion/batch/overview.html?lang=ja#batch) |
 | アドビアプリケーションコネクタ | Adobe Experience Cloud アプリケーションから供給されるデータを自動的に取り込みます<ul><li>Adobe Analytics：[ドキュメント](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html?lang=ja#connectors)および[ビデオチュートリアル](https://experienceleague.adobe.com/docs/platform-learn/tutorials/sources/ingest-data-from-adobe-analytics.html?lang=ja)</li><li>Audience Manager：[ドキュメント](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/audience-manager.html?lang=ja#connectors)および[ビデオチュートリアル](https://experienceleague.adobe.com/docs/platform-learn/tutorials/sources/ingest-data-from-aam.html?lang=ja)</li></ul> |
 
@@ -45,7 +45,7 @@ ht-degree: 99%
 
 | データ準備の方法 | 説明 |
 |------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 外部 ETL ツール ([!DNL Snaplogic], [!DNL Mulesoft], [!DNL Informatica]など ) | ETL ツールで複雑な変換を実行し、標準 Experience Platform [!UICONTROL フローサービス] API またはソースコネクタを使用して、結果のデータを取り込みます。 |
+| 外部 ETL ツール ([!DNL Snaplogic]、[!DNL Mulesoft]、[!DNL Informatica]など ) | ETL ツールで複雑な変換を実行し、標準 Experience Platform [!UICONTROL フローサービス] API またはソースコネクタを使用して、結果のデータを取り込みます。 |
 | [!UICONTROL クエリサービス] - データ準備 | 結合、分割、結合、変換、クエリ、フィルターの各データを新しいデータセットにまとめます。Create Table as Select（CTAS）<br>[ドキュメント](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=ja#sql)の使用 |
 | XDM マッパーとデータ準備機能（ストリーミングとバッチ） | Experience Platform の取り込み時に、CSV 形式または JSON 形式のソース属性を XDM 属性にマップします。<br>取り込まれたデータに対して、関数を計算します（データの形式、分割、連結など）。<br>[ドキュメント](https://experienceleague.adobe.com/docs/experience-platform/data-prep/home.html?lang=ja) |
 
