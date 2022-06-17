@@ -4,9 +4,9 @@ description: Adobe Journey Optimizer を Adobe Campaign と併用し、Campaign 
 solution: Journey Optimizer, Campaign, Campaign v8, Campaign Classic v7, Campaign Standard
 exl-id: 076446a9-dfb9-464c-a04f-6864b8cb7b48
 source-git-commit: 37fa3bc00175a4636766564f0b8fb847fa8a951e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1150'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -56,7 +56,7 @@ Adobe Journey Optimizer を Adobe Campaign と併用し、Campaign のリアル�
    * ストリーミングセグメント（5 分未満での認定）
 * バッチセグメント - 認定ユーザーの毎日のボリュームを確実に把握し、宛先システムがジャーニーごと、およびすべてのジャーニーのバーストスループットを処理するために必要です
 * ストリーミングセグメント - ジャーニーごと、およびすべてのジャーニーの毎日のストリーミング認定ボリュームと共に、プロファイル認定の最初のバーストを処理するために必要です
-* での決定管理はサポートされていません
+* 意思決定管理はサポートされていません
 * ビジネスイベントはサポートされていません
 * サードパーティシステムへのアウトバウンド統合
    * インフラはマルチテナントであるため、単一の静的 IP をサポートしていません（すべてのデータセンター IP を許可リストに含める必要があります）
@@ -76,7 +76,7 @@ Adobe Journey Optimizer を Adobe Campaign と併用し、Campaign のリアル�
 * AC（v7）は、イベントが開始したジャーニーのみ、サポートします。
    * 開始されたセグメントまたはセグメントメンバーシップが開始したジャーニーがありません
    * Audience の読み込みとビジネスイベントベースのジャーニーは、実行インスタンスに送信できる量が多いため、サポートされていません
-* AC(v7) も AC(v8) も、メッセージでの決定管理をサポートしていません
+* AC（v7）も AC（v8）も、メッセージの 意思決定管理 をサポートしていません
 * Campaign へのアウトバウンド API コールのスロットリングはありません
 * トランザクションメッセージログは、AEP とネイティブに同期されていません。コンサルティングの取り組みが必要です。最大 4 時間ごとにログを書き出すことを推奨
 
@@ -108,9 +108,9 @@ Adobe Journey Optimizer を Adobe Campaign と併用し、Campaign のリアル�
 #### プロファイル／ID
 
 1. [任意の顧客専用の名前空間を作成します。](https://experienceleague.adobe.com/docs/platform-learn/tutorials/identities/label-ingest-and-verify-identity-data.html?lang=ja)
-1. [スキーマに ID を追加します](https://experienceleague.adobe.com/docs/platform-learn/tutorials/identities/label-ingest-and-verify-identity-data.html)。
+1. [スキーマに ID を追加します](https://experienceleague.adobe.com/docs/platform-learn/tutorials/identities/label-ingest-and-verify-identity-data.html?lang=ja)。
 1. [プロファイル用のスキーマおよびデータセットを有効にします](https://experienceleague.adobe.com/docs/platform-learn/tutorials/profiles/bring-data-into-the-real-time-customer-profile.html?lang=ja)。
-1. [!UICONTROL リアルタイム顧客プロファイル]の様々な表示用に[結合ポリシーを設定](https://experienceleague.adobe.com/docs/platform-learn/tutorials/profiles/create-merge-policies.html?lang=ja)します（オプション）。
+1. [!UICONTROL Real-Time Customer Profile] の様々な表示用に[結合ポリシーを設定](https://experienceleague.adobe.com/docs/platform-learn/tutorials/profiles/create-merge-policies.html?lang=ja)します（オプション）。
 1. ジャーニー使用状況用のセグメントを作成します。
 
 #### ソース／宛先
