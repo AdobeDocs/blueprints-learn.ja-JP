@@ -4,9 +4,9 @@ description: Adobe Campaign v8 は、電子メールやダイレクトメール�
 solution: Campaign,Campaign v8
 exl-id: 89b3a761-9cb3-4e01-8da0-043e634fa61f
 source-git-commit: 37fa3bc00175a4636766564f0b8fb847fa8a951e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1035'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -35,7 +35,7 @@ Adobe Campaign v8 は、電子メールやダイレクトメールなどの従�
 
 | シナリオ | 説明 | 機能 |
 | :-- | :--- | :--- |
-| [Journey Optimizer と Adobe Campaign](ajo-and-campaign.md) | Adobe Journey Optimizer を使用して、リアルタイム顧客プロファイルを利用して 1:1 エクスペリエンスの調整をおこない、ネイティブの Adobe Campaign トランザクションメッセージングシステムを活用してメッセージを送信する方法を示します | リアルタイム顧客プロファイルと Journey Optimizer の機能を活用し、瞬時のエクスペリエンスで調整しながら、Adobe Campaign のネイティブリアルタイムメッセージング機能を利用して、ラストマイルのコミュニケーションを実現します。<br><br>注意点：<br><ul><li>リアルタイムメッセージサーバーを介して 1 時間に最大 100 万件のメッセージを送信可能<li>Journey Optimizer からのスロットリングは行われませんので、プリセールスのエンタープライズアーキテクトによる技術的な検証を必ず行います</li><li>決定管理は、Campaign v8 へのペイロードではサポートされていません</li></ul> |
+| [Journey Optimizer と Adobe Campaign](ajo-and-campaign.md) | Adobe Journey Optimizer を使用し、Real-Time Customer Profile を利用して 1:1 エクスペリエンスの調整をおこない、ネイティブの Adobe Campaign トランザクションメッセージングシステムを活用してメッセージを送信する方法を示します | Real-Time Customer Profile と Journey Optimizer の機能を活用し、瞬時のエクスペリエンスで調整しながら、Adobe Campaign のネイティブリアルタイムメッセージング機能を利用して、ラストマイルのコミュニケーションを実現します。<br><br>注意点：<br><ul><li>リアルタイムメッセージサーバーを介して 1 時間に最大 100 万件のメッセージを送信可能<li>Journey Optimizer からのスロットリングは行われませんので、プリセールスのエンタープライズアーキテクトによる技術的な検証を必ず行います</li><li>意思決定管理 は、Campaign v8 へのペイロードではサポートされていません</li></ul> |
 
 <br>
 
@@ -51,7 +51,7 @@ Adobe Campaign v8 は、電子メールやダイレクトメールなどの従�
    * リアルタイムメッセージングサーバとの通信を許可するエンタープライズシステムの ID。また、許可リスト登録可能な IP または範囲が静的に割り当てられていることを確認します。
    * これは、Campaign コントロールパネルで設定および制御可能
 * sFTP キー管理
-   * SSH 公開鍵を Campaign で提供された sFTP で使用できるようにします。これは、Campaign コントロールパネルで設定および制御できます。
+   * SSH パブリックキーを Campaign で提供された sFTP で使用できるようにします。これは、Campaign コントロールパネルで設定および制御できます。
 
 ### 電子メール
 
