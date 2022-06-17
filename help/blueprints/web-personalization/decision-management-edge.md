@@ -1,17 +1,17 @@
 ---
-title: 決定管理を使用した Web/モバイルパーソナライゼーション
+title: 意思決定管理を使用した Web およびモバイルパーソナライズ機能
 description: キオスクやエージェント支援エクスペリエンスなど、さまざまなチャネルで消費者にパーソナライズされたオファーを提供します。
 solution: Experience Platform, Journey Optimizer
 exl-id: f2a6e7fd-c8bb-4356-8ca1-96956662ecf5
 source-git-commit: 53237df8202aa68599c183572376b529be53fe42
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '74'
-ht-degree: 17%
+ht-degree: 100%
 
 ---
 
-# Journey Optimizer — エッジでの決定管理
+# Journey Optimizer — エッジでの意思決定管理
 
-Adobe Journey Optimizer Decision Management を使用して、Web サイト、モバイルアプリ、キオスク、他の顧客タッチポイントをまたいだインバウンドチャネルに対するオファーをパーソナライズし、配信できます。
+Adobe Journey Optimizer 意思決定管理 を使用して、Web サイト、モバイルアプリ、キオスクなどのインバウンドチャネル、およびその他の顧客のタッチポイントでオファーをパーソナライズおよび配信することができます。
 
-決定管理を使用した Web およびモバイルパーソナライゼーションのブループリントは、顧客ジャーニーの決定管理ブループリントの節にあります [ここ](../customer-journeys/decision_management/decision-management-edge.md).
+意思決定管理を使用した Web およびモバイルパーソナライズ機能のブループリントは、Customer Journey 意思決定管理ブループリントの節にあります。[ここをクリック](../customer-journeys/decision_management/decision-management-edge.md)
