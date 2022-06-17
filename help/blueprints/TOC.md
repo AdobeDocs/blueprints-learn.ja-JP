@@ -6,9 +6,9 @@ product: adobe experience platform
 mini-toc-levels: 3
 role: Architect, Developer, User
 source-git-commit: ac995cdb942fd14d87281c4b499239732a1e4019
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '194'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -47,7 +47,7 @@ ht-degree: 94%
    + [概要](/help/blueprints/customer-journeys/overview.md)
    + Journey Optimizer {#journey-optimizer}
       + [Journey Optimizer](/help/blueprints/customer-journeys/journey-optimizer.md)
-      + 決定管理{#decision-management}
+      + 意思決定管理 {#decision-management}
          + [概要](/help/blueprints/customer-journeys/decision_management/decision-management-overview.md)
          + [エッジでの意思決定管理](/help/blueprints/customer-journeys/decision_management/decision-management-edge.md)
          + [ハブの意思決定管理](/help/blueprints/customer-journeys/decision_management/decision-management-hub.md)
@@ -60,7 +60,7 @@ ht-degree: 94%
       + [Real-Time CDP と Adobe Campaign](/help/blueprints/customer-journeys/rtcdp-and-campaign.md)
 + データ収集と準備 {#data-ingestion}
    + [概要](/help/blueprints/data-ingestion/overview.md)
-   + [データ準備および取り込み](/help/blueprints/data-ingestion/ingestion.md)
+   + [データ準備と取り込み](/help/blueprints/data-ingestion/ingestion.md)
    + [イベント転送](/help/blueprints/data-ingestion/server-side-collection.md)
    + [マルチサンドボックスデータ収集](/help/blueprints/data-ingestion/multi-sandbox-data-collection.md)
    + デプロイメント {#deployment}
@@ -74,4 +74,4 @@ ht-degree: 94%
    + [概要](/help/blueprints/web-personalization/overview.md)
    + [行動によるパーソナライズ機能](/help/blueprints/web-personalization/behavioral.md)
    + [既知の顧客のパーソナライズ機能](/help/blueprints/web-personalization/known-personalization.md)
-   + [決定管理](/help/blueprints/web-personalization/decision-management-edge.md)
+   + [意思決定管理](/help/blueprints/web-personalization/decision-management-edge.md)
