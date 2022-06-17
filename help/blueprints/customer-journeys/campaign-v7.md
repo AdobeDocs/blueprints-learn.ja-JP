@@ -4,9 +4,9 @@ description: Adobe Campaign v7 は、電子メールやダイレクトメール�
 solution: Campaign,Campaign Classic v7
 exl-id: 71c808f5-59e6-4f49-a6ba-581ed508bc04
 source-git-commit: 37fa3bc00175a4636766564f0b8fb847fa8a951e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1193'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -35,8 +35,8 @@ Adobe Campaign v7 は、電子メールやダイレクトメールなどの従�
 
 | シナリオ | 説明 | 機能 |
 | :-- | :--- | :--- |
-| [Journey Optimizer と Adobe Campaign](ajo-and-campaign.md) | Adobe Journey Optimizer を使用して、リアルタイム顧客プロファイルを利用して 1:1 エクスペリエンスの調整をおこない、ネイティブの Adobe Campaign トランザクションメッセージングシステムを活用してメッセージを送信する方法を示します | リアルタイム顧客プロファイルと Journey Optimizer の機能を活用し、瞬時のエクスペリエンスで調整しながら、Adobe Campaign のネイティブリアルタイムメッセージング機能を利用して、ラストマイルのコミュニケーションを実現します。<br><br>注意点：<br><ul><li>リアルタイムメッセージサーバーを介して 1 時間に最大 50,000 件のメッセージを送信可能<li>Journey Optimizer からのスロットリングは行われませんので、プリセールスのエンタープライズアーキテクトによる技術的な検証を必ず行います</li><li>決定管理は、Campaign v7 リアルタイムメッセージングサーバーへのペイロードではサポートされていません</li></ul> |
-| [Real-Time CDP と Adobe Campaign](rtcdp-and-campaign.md) | Adobe Experience Platform の Real-Time CDP とその一元化されたセグメント化ツールを Adobe Campaign と併用して、パーソナライズされた会話を提供する方法を紹介します | <ul><li>クラウドストレージのファイル交換と Adobe Campaign の取り込みワークフローを使用した、Real-Time CDP から Adobe Campaign へのオーディエンスの共有 </li><li>顧客との会話から得られた配信データとインタラクションデータを Adobe Campaign から リアルタイムReal-Time CDP に戻し、リアルタイム顧客プロファイルとメッセージングキャンペーンのクロスチャネルレポートの両方を簡単に共有できる</li></ul> |
+| [Journey Optimizer と Adobe Campaign](ajo-and-campaign.md) | Adobe Journey Optimizer を使用し、Real-Time Customer Profile を利用して 1:1 エクスペリエンスの調整をおこない、ネイティブの Adobe Campaign トランザクションメッセージングシステムを活用してメッセージを送信する方法を示します | Real-Time Customer Profile と Journey Optimizer の機能を活用し、瞬時のエクスペリエンスで調整しながら、Adobe Campaign のネイティブリアルタイムメッセージング機能を利用して、ラストマイルのコミュニケーションを実現します。<br><br>注意点：<br><ul><li>リアルタイムメッセージサーバーを介して 1 時間に最大 50,000 件のメッセージを送信可能<li>Journey Optimizer からのスロットリングは行われませんので、プリセールスのエンタープライズアーキテクトによる技術的な検証を必ず行います</li><li>Campaign v7 リアルタイムメッセージングサーバーへのペイロードでは、意思決定管理 はサポートされていません。</li></ul> |
+| [Real-Time CDP と Adobe Campaign](rtcdp-and-campaign.md) | Adobe Experience Platform の Real-Time CDP とその一元化されたセグメント化ツールを Adobe Campaign と併用して、パーソナライズされた会話を提供する方法を紹介します | <ul><li>クラウドストレージのファイル交換と Adobe Campaign の取り込みワークフローを使用した、Real-Time CDP から Adobe Campaign へのオーディエンスの共有 </li><li>顧客との会話から得られた配信データとインタラクションデータを Adobe Campaign から リアルタイムReal-Time CDP に戻し、Real-Time Customer Profile とメッセージングキャンペーンのクロスチャネルレポートの両方を簡単に共有できる</li></ul> |
 
 <br>
 
@@ -51,7 +51,7 @@ Adobe Campaign v7 は、電子メールやダイレクトメールなどの従�
    * リアルタイムメッセージングサーバとの通信を許可するエンタープライズシステムの ID。また、許可リスト登録可能な IP または範囲が静的に割り当てられていることを確認します。
    * これは、Campaign コントロールパネルで設定および制御可能
 * sFTP キー管理
-   * SSH 公開鍵を Campaign で提供された sFTP で使用できるようにします。これは、Campaign コントロールパネルで設定および制御できます。
+   * SSH パブリックキーを Campaign で提供された sFTP で使用できるようにします。これは、Campaign コントロールパネルで設定および制御できます。
 
 ### 電子メール
 
@@ -120,7 +120,7 @@ Adobe Campaign v7 は、電子メールやダイレクトメールなどの従�
 
 ## 実装手順
 
-Adobe Campaign v7 の実装に関しては、[はじめる前に](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/about-adobe-campaign-classic.html?lang=ja) を参照してください。
+Adobe Campaign v7 の実装に関しては、[はじめる前に](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/about-adobe-campaign-classic.html?lang=ja)を参照してください。
 
 
 ## 関連ドキュメント
