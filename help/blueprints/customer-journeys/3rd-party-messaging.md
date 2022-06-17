@@ -4,9 +4,9 @@ description: Adobe Journey Optimizer をサードパーティのメッセージ�
 solution: Journey Optimizer
 exl-id: 3a14fc06-6d9c-4cd8-bc5c-f38e253d53ce
 source-git-commit: 37fa3bc00175a4636766564f0b8fb847fa8a951e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '829'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -51,7 +51,7 @@ Adobe Experience Platform
    * ストリーミングセグメント（5 分未満での認定）
 * バッチセグメント - 認定ユーザーの毎日のボリュームを確実に把握し、宛先システムがジャーニーごと、およびすべてのジャーニーのバーストスループットを処理するために必要です
 * ストリーミングセグメント - ジャーニーごと、およびすべてのジャーニーの毎日のストリーミング認定ボリュームと共に、プロファイル認定の最初のバーストを処理するために必要です
-* での決定管理はサポートされていません
+* 意思決定管理はサポートされていません
 * サードパーティシステムへのアウトバウンド統合
    * インフラはマルチテナントであるため、単一の静的 IP をサポートしていません（すべてのデータセンター IP を許可リストに含める必要があります）
    * カスタムアクションは POST メソッドと PUT メソッドのみ対応
@@ -67,7 +67,7 @@ Adobe Experience Platform
    * 接続数
 * API 呼び出しをおこなうために必要な認証を理解する必要があります
    * 認証タイプ：  トークン |パスワード | OAuth2 はJourney Optimizer 経由でサポートされます
-   * 認証キャッシュの期間：トークンの有効期間はどれくらいですか？ 
+   * 認証キャッシュの期間：トークンの有効期間はどれくらいですか？
 * バッチ取り込みのみがサポートされている場合は、Amazon Kinesis や Azure Event Grid 1st などのクラウドストレージエンジンにストリーミングする必要があります
    * データは、これらのクラウドストレージエンジンのバッチ処理を行い、サードパーティに送り込むことができます
    * すべての必要なミドルウェアは、顧客またはサードパーティが提供する責任を負います
@@ -88,9 +88,9 @@ Adobe Experience Platform
 #### プロファイル／ID
 
 1. [任意の顧客専用の名前空間を作成します。](https://experienceleague.adobe.com/docs/platform-learn/tutorials/identities/label-ingest-and-verify-identity-data.html?lang=ja)
-1. [スキーマに ID を追加します](https://experienceleague.adobe.com/docs/platform-learn/tutorials/identities/label-ingest-and-verify-identity-data.html)。
+1. [スキーマに ID を追加します](https://experienceleague.adobe.com/docs/platform-learn/tutorials/identities/label-ingest-and-verify-identity-data.html?lang=ja)。
 1. [プロファイル用のスキーマおよびデータセットを有効にします](https://experienceleague.adobe.com/docs/platform-learn/tutorials/profiles/bring-data-into-the-real-time-customer-profile.html?lang=ja)。
-1. [!UICONTROL リアルタイム顧客プロファイル]の様々な表示用に[結合ポリシーを設定](https://experienceleague.adobe.com/docs/platform-learn/tutorials/profiles/create-merge-policies.html?lang=ja)します（オプション）。
+1. [!UICONTROL Real-Time Customer Profile] の様々な表示用に[結合ポリシーを設定](https://experienceleague.adobe.com/docs/platform-learn/tutorials/profiles/create-merge-policies.html?lang=ja)します（オプション）。
 1. ジャーニー使用状況用のセグメントを作成します。
 
 #### ソース／宛先
