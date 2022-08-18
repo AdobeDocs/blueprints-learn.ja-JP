@@ -5,10 +5,10 @@ user-guide-description: ブループリントは、既存のビジネス上の�
 product: adobe experience platform
 mini-toc-levels: 3
 role: Architect, Developer, User
-source-git-commit: ac995cdb942fd14d87281c4b499239732a1e4019
+source-git-commit: dfd1592c79fd20899705e68cfd4cd1a1bb3ebb87
 workflow-type: tm+mt
-source-wordcount: '194'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -43,6 +43,7 @@ ht-degree: 100%
    + [B2B アクティベーション](/help/blueprints/b2b/b2bactivation.md)
 + Customer Journey Analytics {#customer-journey-analytics}
    + [概要](/help/blueprints/customer-journey-analytics/overview.md)
+   + [CJA オーディエンスを RTCDP に共有する](/help/blueprints/customer-journey-analytics/cja-rtcdp.md)
 + カスタマージャーニー {#customer-journeys}
    + [概要](/help/blueprints/customer-journeys/overview.md)
    + Journey Optimizer {#journey-optimizer}
