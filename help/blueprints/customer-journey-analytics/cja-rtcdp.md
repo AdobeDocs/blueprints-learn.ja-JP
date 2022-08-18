@@ -4,16 +4,20 @@ description: Customer Journey Analyticsのカスタマージャーニー全体�
 solution: Customer Journey Analytics
 kt: null
 thumbnail: null
-source-git-commit: 0d188a41b6c90bc838eaf4b1d0d1f31b3596e7ca
+source-git-commit: 8a252e0f061bddb14ce1a21b49137a22fdf700da
 workflow-type: tm+mt
-source-wordcount: '175'
-ht-degree: 33%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 # Real-time Customer Data PlatformとのCustomer Journey Analytics
 
 Customer Journey Analytics(CJA) で識別されたオーディエンスを作成し、Adobe Experience Platformのリアルタイム顧客プロファイルに公開して、顧客のターゲティングとパーソナライズを実現します。 Customer Journey Analyticsの詳細なフィルターおよび計算済みフィールドから、履歴データを使用する、またはより絞り込まれたオーディエンスを使用するオーディエンスの作成に最適です。
+
+## Customer Journey AnalyticsAudience Publishing ガイド
+
+Customer Journey AnalyticsからReal-time Customer Data Platformへのオーディエンスの公開に関する実装と設定に関するガイダンスについては、次のドキュメントを参照してください。 [ドキュメント](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/audiences/publish.html)
 
 ## Customer Journey Analytics ブループリントのアーキテクチャ
 
@@ -22,10 +26,6 @@ Customer Journey Analytics(CJA) で識別されたオーディエンスを作成
 ## Customer Journey Analytics ブループリントのガードレール図
 
 ![ガードレール図](assets/cja_guardrails.svg)
-
-## Customer Journey AnalyticsAudience Publishing ガイド
-
-Customer Journey AnalyticsからReal-time Customer Data Platformへのオーディエンスの公開に関する実装と設定に関するガイダンスについては、次のドキュメントを参照してください。 [ドキュメント](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/audiences/publish.html)
 
 ## 関連するブログ投稿
 
