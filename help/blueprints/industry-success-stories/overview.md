@@ -4,8 +4,8 @@ description: Digital Experience Blueprints の成功事例では、Adobe Experie
 exl-id: 9e73bae3-ba34-4819-a54e-710965fe74d9
 source-git-commit: 3de073a8e11dfc228c597f52f494159725eef1ed
 workflow-type: tm+mt
-source-wordcount: '255'
-ht-degree: 78%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -18,23 +18,23 @@ ht-degree: 78%
 <table style="table-layout:fixed">
 <tr>
   <td>
-    <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/industry-success-stories/apparel.html"><img alt="Audience アクティベーション、Customer Journey Analytics、カスタマージャーニーブループリントを使用したアパレル産業用のサムネール画像" src="../experience-platform/assets/aep+apps_vertical.svg"/></a>
+    <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/industry-success-stories/apparel.html?lang=ja"><img alt="Audience アクティベーション、Customer Journey Analytics、カスタマージャーニーブループリントを使用したアパレル産業用のサムネール画像" src="../experience-platform/assets/aep+apps_vertical.svg"/></a>
     </td>
   <td>
-    <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/industry-success-stories/retail.html"><img alt="オンラインとオフラインのデータおよび Journey Optimizer ブループリントを使用した、アクティベーションによる小売業界向けのサムネール画像" src="../experience-platform/assets/aep+apps_vertical.svg"/></a>
+    <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/industry-success-stories/retail.html?lang=ja"><img alt="オンラインとオフラインのデータおよび Journey Optimizer ブループリントを使用した、アクティベーションによる小売業界向けのサムネール画像" src="../experience-platform/assets/aep+apps_vertical.svg"/></a>
 
 </td>
   <td>
-    <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/industry-success-stories/telecommunications.html"><img alt="Journey Optimizer ブループリントのサムネール画像" src="../customer-journeys/assets/ajo-architecture.svg" /></a>
+    <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/industry-success-stories/telecommunications.html?lang=ja"><img alt="Journey Optimizer ブループリントのサムネール画像" src="../customer-journeys/assets/ajo-architecture.svg" /></a>
   </td>
   <td>
-    <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/industry-success-stories/travel-hospitality.html"><img alt="オンラインとオフラインのデータブループリントのアクティベーション用のサムネール画像" src="../audience-activation/assets/known_activation.svg" /></a>
+    <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/industry-success-stories/travel-hospitality.html?lang=ja"><img alt="オンラインとオフラインのデータブループリントのアクティベーション用のサムネール画像" src="../audience-activation/assets/known_activation.svg" /></a>
   </td>
 </tr>
 <tr>
   <td>
     <div><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/industry-success-stories/apparel.html"><strong>アパレル業界</strong></a></div>
-    <p><em>リアルタイムマーケティング、クロスチャネルアクティベーション、およびクロスチャネル分析。</em></p>
+    <p><em>リアルタイムマーケティング、クロスチャネルアクティベーション、および Cross-Channel Analytics。</em></p>
   </td>
   <td>
     <div><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/industry-success-stories/retail.html"><strong>小売業界</strong></a></div>
