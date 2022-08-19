@@ -3,9 +3,9 @@ title: デジタルエクスペリエンスブループリント業界の成功�
 description: Digital Experience Blueprints の成功事例では、Adobe Experience Platform を活用した Adobe Experience Cloud Applications を使用して、様々な業界がビジネス価値を実現している様子を紹介しています。
 exl-id: 9e73bae3-ba34-4819-a54e-710965fe74d9
 source-git-commit: 3de073a8e11dfc228c597f52f494159725eef1ed
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '255'
+ht-degree: 100%
 
 ---
 
@@ -33,19 +33,19 @@ ht-degree: 0%
 </tr>
 <tr>
   <td>
-    <div><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/industry-success-stories/apparel.html"><strong>アパレル業界</strong></a></div>
+    <div><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/industry-success-stories/apparel.html?lang=ja"><strong>アパレル業界</strong></a></div>
     <p><em>リアルタイムマーケティング、クロスチャネルアクティベーション、および Cross-Channel Analytics。</em></p>
   </td>
   <td>
-    <div><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/industry-success-stories/retail.html"><strong>小売業界</strong></a></div>
+    <div><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/industry-success-stories/retail.html?lang=ja"><strong>小売業界</strong></a></div>
     <p><em>デジタルメディア、電子メール、プッシュおよび Web チャネルにわたるリアルタイムのカスタマーエクスペリエンス。</em></p>
   </td>
   <td>
-    <div><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/industry-success-stories/telecommunications.html"><strong>通信業</strong></a></div>
+    <div><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/industry-success-stories/telecommunications.html?lang=ja"><strong>通信業</strong></a></div>
     <p><em>顧客の長期ロイヤリティに対する効率的なオンボーディングと併せ、リアルタイムに案件を調整。</em></p>
   </td>
   <td>
-    <div><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/industry-success-stories/travel-hospitality.html"><strong>観光および接客業</strong></a></div>
+    <div><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/industry-success-stories/travel-hospitality.html?lang=ja"><strong>観光および接客業</strong></a></div>
     <p><em>様々なチャネルをまたいだ顧客の行動を統合的に把握した、リアルタイムでの意思決定。</em></p>
   </td>
 </tr>
