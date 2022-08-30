@@ -5,10 +5,10 @@ landing-page-description: Web パーソナライズ機能を電子メールお�
 solution: Real-time Customer Data Platform, Target, Audience Manager, Analytics, Experience Cloud Services, Data Collection, Experience Platform
 kt: 7194thumb-web-personalization-scenario2.jpg
 exl-id: 29667c0e-bb79-432e-af3a-45bd0b3b43bb
-source-git-commit: 310ef2284ffbc58d74f1924f5fe73ca226201da0
+source-git-commit: 590096ff0f2f96871fd03623fc167d215d55cdb8
 workflow-type: tm+mt
-source-wordcount: '1341'
-ht-degree: 80%
+source-wordcount: '1379'
+ht-degree: 78%
 
 ---
 
@@ -59,6 +59,7 @@ ht-degree: 80%
 
 * Web／Mobile SDK での Edge Network の使用.リアルタイムのエッジセグメント化には、Web/Mobile SDK または Edge API 実装アプローチが必要です。
 * [Experience Platform Web および Mobile SDK のブループリントを参照してください](../data-ingestion/websdk.md)（SDK ベースの実装用）。
+* Mobile SDK で使用する場合、 [Adobe Journey Optimizer — 判定拡張機能](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-journey-optimizer-decisioning) は、Mobile SDK にインストールされている必要があります。
 * Edge プロファイルを使用したAdobe Targetの API ベース実装の場合、[Edge Network Server API を参照してください](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/overview.html?lang=ja)。
 
 ### 実装パターン 2 — アプリケーション固有の SDK
@@ -71,7 +72,7 @@ ht-degree: 80%
 
 1. Web またはモバイルアプリケーション用に [Adobe Target を実装](https://experienceleague.adobe.com/docs/target/using/implement-target/implementing-target.html?lang=ja)します
 1. [Experience Platform および[!UICONTROL Real-time Customer Profile の実装]](https://experienceleague.adobe.com/docs/platform-learn/getting-started-for-data-architects-and-data-engineers/overview.html?lang=ja)すると、作成したオーディエンスは、該当する[結合ポリシー](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html?lang=ja#create-a-merge-policy)を Edge 上でアクティブに設定することにより、確実にアクティブ化することができます。
-1. 実装方法 [Experience PlatformWeb SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=ja) またはExperience PlatformMobile SDK。 Experience PlatformWeb/Mobile SDK または EDGE API は、リアルタイムのエッジセグメント化には必要ですが、Real-time Customer Data Platformから Target へのストリーミングおよびバッチオーディエンスの共有には不要です。
+1. 実装方法 [Experience PlatformWeb SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=ja) または [Experience Platformモバイル SDK](https://aep-sdks.gitbook.io/docs/) 適切な拡張機能 (Target またはAdobe Journey Optimizer - Decisioning) がインストールされている。 Experience PlatformWeb/Mobile SDK または EDGE API は、リアルタイムのエッジセグメント化には必要ですが、Real-time Customer Data Platformから Target へのストリーミングおよびバッチオーディエンスの共有には不要です。
 1. [Edge データストリームを使用して Edge ネットワークを設定](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/datastreams.html?lang=ja)
 1. [Real-time Customer Data Platform 内で Adobe Target を宛先として有効化](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection.html?lang=ja)
 1. （オプション）[Adobe Audience Manager を実装](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/implement-audience-manager.html?lang=ja).
