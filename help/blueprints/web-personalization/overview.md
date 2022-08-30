@@ -5,10 +5,10 @@ solution: Real-time Customer Data Platform, Target, Audience Manager, Analytics,
 kt: null
 thumbnail: null
 exl-id: 8ad028fd-3190-42da-9f46-7e927e8878f8
-source-git-commit: 3425495df36ff8da0f2fd737b35d294ccafe31bd
+source-git-commit: 310ef2284ffbc58d74f1924f5fe73ca226201da0
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '240'
+ht-degree: 97%
 
 ---
 
@@ -21,7 +21,7 @@ Web およびモバイルパーソナライズ機能は、複数のアプリケ�
 | ブループリント | 説明 | Experience Cloud アプリケーション |
 |---|---|---|
 | **[行動による Web／モバイルパーソナライズ機能](behavioral.md)** | <ul><li>オンライン行動およびオーディエンスデータに基づいてパーソナライズします。</li></ul> | <ul><li>Adobe Target</li><li>Adobe Real-time Customer Data Platform *（オプション）*</li><li>Adobe Analytics *（オプション）*</li><li>Adobe Audience Manager *（オプション）*</li></ul> |
-| **[既知の顧客データ付き Web/モバイルパーソナライズ機能](known-personalization.md)** | <ul><li>完全な顧客プロファイルとセグメンテーションの強化により、パーソナライズされたエクスペリエンス実現します。</li><li>オフライン属性およびイベント（トランザクション、予約、CRM およびロイヤリティデータ）を使用してパーソナライズします。</li><li>Web、電子メール、その他の既知のチャネルをまたいでパーソナライズ機能を同期します。</li></ul> | <ul><li>Adobe Target</li><li>[!UICONTROL Real-time Customer Data Platform]</li><li>Adobe Analytics *（オプション）*</li><li>Adobe Audience Manager *（オプション）*</li></ul> |
+| **[既知の顧客データ付き Web/モバイルパーソナライズ機能](known-personalization.md)** | <ul><li>完全な顧客プロファイルとセグメンテーションの強化により、パーソナライズされたエクスペリエンス実現します。</li><li>オフライン属性およびイベント（トランザクション、予約、CRM およびロイヤリティデータ）を使用してパーソナライズします。</li><li>Web、電子メール、その他の既知のチャネルをまたいでパーソナライズ機能を同期します。</li></ul> | <ul><li>Adobe Target</li><li>[!UICONTROL Real-time Customer Data Platform]</li><li>Adobe AnalyticsまたはCustomer Journey Analytics *（オプション）*</li><li>Adobe Audience Manager *（オプション）*</li></ul> |
 
 <br>
 
@@ -33,7 +33,7 @@ Web およびモバイルパーソナライズ機能は、複数のアプリケ�
 
 ### 既知の顧客のパーソナライズ機能ガードレールの図
 
-<img src="assets/personalization_guardrails.png" alt="オンライン／オフライン Web パーソナライズ機能ブループリントの参照アーキテクチャ" style="width:90%; border:1px solid #4a4a4a" />
+<img src="assets/personalization_guardrails.svg" alt="オンライン／オフライン Web パーソナライズ機能ブループリントの参照アーキテクチャ" style="width:90%; border:1px solid #4a4a4a" />
 
 ## 関連するブログ投稿
 
