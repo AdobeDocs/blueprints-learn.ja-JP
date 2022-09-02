@@ -6,9 +6,9 @@ product: adobe experience platform
 mini-toc-levels: 3
 role: Architect, Developer, User
 source-git-commit: a5a8de74c2ce176e1ca36fa536ad1c088fccdc27
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '203'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -52,7 +52,7 @@ ht-degree: 95%
       + 意思決定管理 {#decision-management}
          + [概要](/help/blueprints/customer-journeys/decision_management/decision-management-overview.md)
          + [エッジでの意思決定管理](/help/blueprints/customer-journeys/decision_management/decision-management-edge.md)
-         + [ハブの意思決定管理](/help/blueprints/customer-journeys/decision_management/decision-management-hub.md)
+         + [ハブでの意思決定管理](/help/blueprints/customer-journeys/decision_management/decision-management-hub.md)
       + [Journey Optimizer と Adobe Campaign](/help/blueprints/customer-journeys/ajo-and-campaign.md)
       + [サードパーティのメッセージング](/help/blueprints/customer-journeys/3rd-party-messaging.md)
    + Campaign v8 {#campaign-v8}
@@ -60,9 +60,9 @@ ht-degree: 95%
    + Campaign v7 {#campaign-v7}
       + [Campaign v7](/help/blueprints/customer-journeys/campaign-v7.md)
       + [Real-Time CDP と Adobe Campaign](/help/blueprints/customer-journeys/rtcdp-and-campaign.md)
-+ データ収集と準備 {#data-ingestion}
++ データの収集と準備 {#data-ingestion}
    + [概要](/help/blueprints/data-ingestion/overview.md)
-   + [データ準備と取り込み](/help/blueprints/data-ingestion/ingestion.md)
+   + [データの準備と取り込み](/help/blueprints/data-ingestion/ingestion.md)
    + [イベント転送](/help/blueprints/data-ingestion/server-side-collection.md)
    + [マルチサンドボックスデータ収集](/help/blueprints/data-ingestion/multi-sandbox-data-collection.md)
    + デプロイメント {#deployment}
