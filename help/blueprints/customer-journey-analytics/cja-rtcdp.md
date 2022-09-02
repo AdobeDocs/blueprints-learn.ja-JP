@@ -1,23 +1,24 @@
 ---
-title: Customer Journey Analytics Real-time Customer Data Platform
-description: Customer Journey Analyticsのカスタマージャーニー全体からデータと顧客行動を統合および分析し、CJA から RTCDP にオーディエンスを公開します。
+title: Real-time Customer Data Platform を使用した Customer Journey Analytics
+description: Customer Journey Analytics のカスタマージャーニー全体からデータと顧客行動を統合および分析し、CJA から RTCDP にオーディエンスを公開します。
 solution: Customer Journey Analytics
 kt: null
 thumbnail: null
-source-git-commit: 8a252e0f061bddb14ce1a21b49137a22fdf700da
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+exl-id: 9e1ba723-63f2-4622-ba67-f2a315c3ba0c
+source-git-commit: 3d2fbd7b6e94b6f56a72e0956709557c21b4c419
+workflow-type: ht
+source-wordcount: '175'
+ht-degree: 100%
 
 ---
 
-# Real-time Customer Data PlatformとのCustomer Journey Analytics
+# Real-time Customer Data Platform を使用した Customer Journey Analytics
 
-Customer Journey Analytics(CJA) で識別されたオーディエンスを作成し、Adobe Experience Platformのリアルタイム顧客プロファイルに公開して、顧客のターゲティングとパーソナライズを実現します。 Customer Journey Analyticsの詳細なフィルターおよび計算済みフィールドから、履歴データを使用する、またはより絞り込まれたオーディエンスを使用するオーディエンスの作成に最適です。
+Customer Journey Analytics（CJA）で識別されたオーディエンスを作成し、Adobe Experience Platform のリアルタイム顧客プロファイルに公開して、顧客のターゲティングとパーソナライゼーションを実現します。Customer Journey Analytics の詳細なフィルターおよび計算済みフィールドから、履歴データの使用や、より絞り込まれたオーディエンスを使用てのオーディエンスの作成に最適です。
 
-## Customer Journey AnalyticsAudience Publishing ガイド
+## Customer Journey Analytics オーディエンス公開ガイド
 
-Customer Journey AnalyticsからReal-time Customer Data Platformへのオーディエンスの公開に関する実装と設定に関するガイダンスについては、次のドキュメントを参照してください。 [ドキュメント](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/audiences/publish.html)
+Customer Journey Analytics から Real-time Customer Data Platform へのオーディエンスの公開に関する実装と設定ガイダンスについては、次のドキュメントを参照してください。[ドキュメント](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/audiences/publish.html?lang=ja)
 
 ## Customer Journey Analytics ブループリントのアーキテクチャ
 
