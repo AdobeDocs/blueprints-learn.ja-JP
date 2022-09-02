@@ -5,10 +5,10 @@ user-guide-description: ブループリントは、既存のビジネス上の�
 product: adobe experience platform
 mini-toc-levels: 3
 role: Architect, Developer, User
-source-git-commit: a5a8de74c2ce176e1ca36fa536ad1c088fccdc27
-workflow-type: ht
-source-wordcount: '203'
-ht-degree: 100%
+source-git-commit: c0994c3f09d854c635049054328abcd2d552c28e
+workflow-type: tm+mt
+source-wordcount: '208'
+ht-degree: 95%
 
 ---
 
@@ -29,8 +29,8 @@ ht-degree: 100%
    + [Experience Platform データフロー](/help/blueprints/experience-platform/platform-data-flow.md)
 + オーディエンスとプロファイルのアクティベーション {#audience-activation}
    + [概要](/help/blueprints/audience-activation/overview.md)
-   + [匿名オーディエンスアクティベーション](/help/blueprints/audience-activation/anonymous.md)
-   + 既知の顧客のアクティベーション {#known-customer-audience-activation}
+   + [匿名オーディエンスアクティベーション (AAM)](/help/blueprints/audience-activation/anonymous.md)
+   + 既知のお客様のアクティベーション (RTCDP) {#known-customer-audience-activation}
       + [概要](/help/blueprints/audience-activation/known.md)
       + ソーシャルおよび広告チャネルに対するアクティベーション {#audience-activation}
          + [Facebook Custom Audiences へのアクティベーション](/help/blueprints/audience-activation/destinations/facebook.md)
@@ -74,6 +74,6 @@ ht-degree: 100%
    + [プロファイルエンリッチメントのためのカスタムデータサイエンス](/help/blueprints/data-insights/data-science.md)
 + Web およびモバイルパーソナライズ機能 {#web-personalization}
    + [概要](/help/blueprints/web-personalization/overview.md)
-   + [行動によるパーソナライズ機能](/help/blueprints/web-personalization/behavioral.md)
-   + [既知の顧客のパーソナライズ機能](/help/blueprints/web-personalization/known-personalization.md)
+   + [行動によるパーソナライズ機能 - Target](/help/blueprints/web-personalization/behavioral.md)
+   + [既知のお客様のパーソナライゼーション — Target と RTCDP](/help/blueprints/web-personalization/known-personalization.md)
    + [意思決定管理](/help/blueprints/web-personalization/decision-management-edge.md)
