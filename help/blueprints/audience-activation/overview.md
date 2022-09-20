@@ -5,10 +5,10 @@ solution: Real-time Customer Data Platform
 kt: null
 thumbnail: null
 exl-id: eeeb4325-d0e8-4fd8-86ab-0b8afdd0b69f
-source-git-commit: 17faffdd972f2485951ac1e870b578e9b1a011a5
+source-git-commit: 56df8ad75940a6924cdef18c81acb91ee7471db6
 workflow-type: tm+mt
-source-wordcount: '837'
-ht-degree: 100%
+source-wordcount: '861'
+ht-degree: 95%
 
 ---
 
@@ -17,13 +17,14 @@ ht-degree: 100%
 
 データドリブン型マーケティングでは、オーディエンスとプロファイルのアクティベーションが成功のカギです。ただし、多くのブランドでは、依然としてチャネルファーストのアクティベーションに注力し、多くの場合、リーチやパーソナライズ機能に一貫性がありません。
 
-チャネルファーストのアプローチでは、各チャネルは他チャネルと連携せずに機能し、パーソナライズの取り組みは、そのチャネルのブランドとやり取りする顧客のみをターゲットにします。このアプローチは、顧客が多くの異なるタッチポイントをまたいでブランドとやり取りしているという現実を反映していません。オーディエンスとプロファイルのアクティベーションでは、ブランドは、複数のチャネルをまたいで顧客インタラクションを結びつけ、すべてのチャネルに対してアクティベーションできる一元化されたプロファイルとオーディエンスを実現できます。
+チャネルファーストのアプローチでは、各チャネルは他チャネルと連携せずに機能し、パーソナライズの取り組みは、そのチャネルのブランドとやり取りする顧客のみをターゲットにします。このアプローチは、顧客が様々なタッチポイントをまたいでブランドとやり取りする現実を反映しているわけではありません。 オーディエンスとプロファイルのアクティベーションでは、ブランドは、複数のチャネルをまたいで顧客インタラクションを結びつけ、すべてのチャネルに対してアクティベーションできる一元化されたプロファイルとオーディエンスを実現できます。
 
 | ブループリント | 説明 | Experience Cloud アプリケーション |
 |---|---|---|
 | **[匿名オーディエンスアクティベーション](anonymous.md)** | <ul><li>匿名および行動顧客データについて、Web および広告チャネルをまたいでオーディエンスをターゲットできます。</li><li>サードパーティオーディエンスデータと統合して、パーソナライズ機能を強化します。</li></ul> | <ul><li>Adobe Audience Manager</li></ul> |
 | **[既知の顧客のアクティベーション](known.md)** | <ul><li>既知のプロファイルベースの宛先（電子メールプロバイダー、ソーシャルネットワーク、広告など）に対してアクティブ化します。 </li><li>オンライン行動と共に、オフライン属性およびイベント（オフラインの注文、トランザクション、CRM、ロイヤリティデータなど）を、オンラインターゲティングとパーソナライズ機能に使用します。</li></ul> | <ul><li>Adobe Experience Platform</li><li> [!UICONTROL Real-time Customer Data Platform]</li><li>Adobe Audience Manager（オプション）</li></ul> |
 | **[Experience Cloud アプリケーションを使用したオーディエンスとプロファイルのアクティベーション](platform-and-applications.md)** | <ul><li>Experience Platform でプロファイルおよびオーディエンスを管理し、Experience Cloud アプリケーションを使用して共有します</li><li>Experience Platform でリッチな顧客セグメントおよびインサイトを構築および共有し、Experience Cloud アプリケーションを使用して共有します</li></ul> | <ul><li>Adobe Experience Platform</li><li>[!UICONTROL Real-time Customer Data Platform]</li><li>Experience Platform Activation</li><li>Experience Cloud アプリケーション</li></ul> |
+| **[セグメントの一致](segment-match.md)** | <ul><li>ガバナンス、権限、環境設定の管理システムが改善され、マーケターは、主要パートナーと共にファーストパーティ認証済みオーディエンスをさらに強化できます。</li></ul> | <ul><li>Adobe Experience Platform </li></ul> |
 
 ## リアルタイム顧客プロファイルアーキテクチャ
 
