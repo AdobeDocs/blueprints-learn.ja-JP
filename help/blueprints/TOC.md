@@ -5,10 +5,10 @@ user-guide-description: ブループリントは、既存のビジネス上の�
 product: adobe experience platform
 mini-toc-levels: 3
 role: Architect, Developer, User
-source-git-commit: 833524d20fe69a08a299035020e29d2d877b797d
+source-git-commit: 9fac27843985da725ffac9c6b01518b595fdb22b
 workflow-type: tm+mt
-source-wordcount: '208'
-ht-degree: 93%
+source-wordcount: '210'
+ht-degree: 90%
 
 ---
 
@@ -27,6 +27,9 @@ ht-degree: 93%
    + [Experience Cloud](/help/blueprints/experience-platform/experience-cloud.md)
    + [Experience Platform およびアプリケーション](/help/blueprints/experience-platform/platform-applications.md)
    + [Experience Platform データフロー](/help/blueprints/experience-platform/platform-data-flow.md)
+   + デプロイメントモデル{#deployment}
+      + [Experience Platform Web SDK および Edge ネットワーク](/help/blueprints/data-ingestion/websdk.md)
+      + [アプリケーション SDK](/help/blueprints/data-ingestion/appsdk.md)
 + オーディエンスとプロファイルのアクティベーション {#audience-activation}
    + [概要](/help/blueprints/audience-activation/overview.md)
    + [匿名オーディエンスアクティベーション (AAM)](/help/blueprints/audience-activation/anonymous.md)
@@ -61,14 +64,11 @@ ht-degree: 93%
    + Campaign v7 {#campaign-v7}
       + [Campaign v7](/help/blueprints/customer-journeys/campaign-v7.md)
       + [Real-Time CDP と Adobe Campaign](/help/blueprints/customer-journeys/rtcdp-and-campaign.md)
-+ データの収集と準備 {#data-ingestion}
++ データの取り込みとデータの書き出し{#data-ingestion}
    + [概要](/help/blueprints/data-ingestion/overview.md)
    + [データの準備と取り込み](/help/blueprints/data-ingestion/ingestion.md)
    + [イベント転送](/help/blueprints/data-ingestion/server-side-collection.md)
    + [マルチサンドボックスデータ収集](/help/blueprints/data-ingestion/multi-sandbox-data-collection.md)
-   + デプロイメント {#deployment}
-      + [Experience Platform Web SDK および Edge ネットワーク](/help/blueprints/data-ingestion/websdk.md)
-      + [アプリケーション SDK](/help/blueprints/data-ingestion/appsdk.md)
 + データ分析、インテリジェンス、AI／ML {#data-exploration}
    + [概要](/help/blueprints/data-insights/overview.md)
    + [データ分析とインテリジェンス](/help/blueprints/data-insights/analysis.md)
