@@ -5,7 +5,7 @@ user-guide-description: ブループリントは、既存のビジネス上の�
 product: adobe experience platform
 mini-toc-levels: 3
 role: Architect, Developer, User
-source-git-commit: 9fac27843985da725ffac9c6b01518b595fdb22b
+source-git-commit: fc247d3a933d6df33e43f3a1f55f9dfb1eba35a6
 workflow-type: tm+mt
 source-wordcount: '210'
 ht-degree: 90%
@@ -40,8 +40,8 @@ ht-degree: 90%
          + [Google Customer Match へのアクティベーション](/help/blueprints/audience-activation/destinations/gcm.md)
       + [ファイルとエンタープライズストリーミング宛先に対するアクティベーション](/help/blueprints/audience-activation/enterprise-destinations.md)
       + [顧客アクティビティハブ](/help/blueprints/audience-activation/customer-activity.md)
+      + [セグメントの一致](/help/blueprints/audience-activation/segment-match.md)
    + [Experience Cloud アプリケーションを使用したアクティベーション](/help/blueprints/audience-activation/platform-and-applications.md)
-   + [セグメントの一致](/help/blueprints/audience-activation/segment-match.md)
 + B2B アクティベーションとマーケティング {#b2b-activation}
    + [概要](/help/blueprints/b2b/overview.md)
    + [B2B アクティベーション](/help/blueprints/b2b/b2bactivation.md)
