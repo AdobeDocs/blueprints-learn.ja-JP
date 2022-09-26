@@ -7,8 +7,8 @@ mini-toc-levels: 3
 role: Architect, Developer, User
 source-git-commit: fc247d3a933d6df33e43f3a1f55f9dfb1eba35a6
 workflow-type: tm+mt
-source-wordcount: '210'
-ht-degree: 90%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -32,8 +32,8 @@ ht-degree: 90%
       + [アプリケーション SDK](/help/blueprints/data-ingestion/appsdk.md)
 + オーディエンスとプロファイルのアクティベーション {#audience-activation}
    + [概要](/help/blueprints/audience-activation/overview.md)
-   + [匿名オーディエンスアクティベーション (AAM)](/help/blueprints/audience-activation/anonymous.md)
-   + 既知のお客様のアクティベーション (RTCDP) {#known-customer-audience-activation}
+   + [匿名オーディエンスアクティベーション(AAM)](/help/blueprints/audience-activation/anonymous.md)
+   + 既知の顧客のアクティベーション（RTCDP）{#known-customer-audience-activation}
       + [概要](/help/blueprints/audience-activation/known.md)
       + ソーシャルおよび広告チャネルに対するアクティベーション {#audience-activation}
          + [Facebook Custom Audiences へのアクティベーション](/help/blueprints/audience-activation/destinations/facebook.md)
@@ -48,7 +48,7 @@ ht-degree: 90%
 + Customer Journey Analytics {#customer-journey-analytics}
    + [概要](/help/blueprints/customer-journey-analytics/overview.md)
    + [CJA オーディエンスを RTCDP に共有する](/help/blueprints/customer-journey-analytics/cja-rtcdp.md)
-   + [CJA とJourney Optimizer](/help/blueprints/customer-journey-analytics/cja-ajo.md)
+   + [CJA と Journey Optimizer](/help/blueprints/customer-journey-analytics/cja-ajo.md)
 + カスタマージャーニー {#customer-journeys}
    + [概要](/help/blueprints/customer-journeys/overview.md)
    + Journey Optimizer {#journey-optimizer}
@@ -75,6 +75,6 @@ ht-degree: 90%
    + [プロファイルエンリッチメントのためのカスタムデータサイエンス](/help/blueprints/data-insights/data-science.md)
 + Web およびモバイルパーソナライズ機能 {#web-personalization}
    + [概要](/help/blueprints/web-personalization/overview.md)
-   + [行動によるパーソナライズ機能 - Target](/help/blueprints/web-personalization/behavioral.md)
-   + [既知のお客様のパーソナライゼーション — Target と RTCDP](/help/blueprints/web-personalization/known-personalization.md)
+   + [行動によるパーソナライズ機能- Target](/help/blueprints/web-personalization/behavioral.md)
+   + [既知の顧客のパーソナライズ機能 — Target と RTCDP](/help/blueprints/web-personalization/known-personalization.md)
    + [意思決定管理](/help/blueprints/web-personalization/decision-management-edge.md)
