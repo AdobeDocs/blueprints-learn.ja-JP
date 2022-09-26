@@ -6,9 +6,9 @@ kt: 7199
 thumbnail: null
 exl-id: 9b12cd7a-5e5f-443a-91a1-44273cdabc2d
 source-git-commit: 4c66e906b9faf4bd9b1ee75fcf263b8a35d3b782
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '925'
-ht-degree: 68%
+ht-degree: 100%
 
 ---
 
@@ -94,9 +94,9 @@ ht-degree: 68%
 </td>
 <td>
 <ul>
-<li><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/anonymous.html?lang=en">匿名オーディエンスアクティベーション</a></li>
-<li><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/online-offline.html?lang=en">オンライン／オフラインオーディエンスアクティベーション</a></li>
-<li><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/platform-and-applications.html?lang=en">Experience Platform およびアプリケーションを使用したアクティベーション</a></li>
+<li><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/anonymous.html?lang=ja">匿名オーディエンスアクティベーション</a></li>
+<li><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/online-offline.html?lang=ja">オンライン／オフラインオーディエンスアクティベーション</a></li>
+<li><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/platform-and-applications.html?lang=ja">Experience Platform およびアプリケーションを使用したアクティベーション</a></li>
 </ul>
 </td>
 </tr>
@@ -109,7 +109,7 @@ ht-degree: 68%
 </td>
 <td colspan="1">
 <ul>
-<li>Campaign で収集されたインタラクションおよびキャンペーンデータは、Experience Platformにデータソースとして取り込み、Real-time Customer Data Platformを介したオーディエンスの構築や、Customer Journey AnalyticsおよびExperience Platformクエリサービスを介した分析でさらに使用できます。</li>
+<li>Campaign によって収集されたインタラクションおよびキャンペーンデータは、Real-time Customer Data Platform で作成されるオーディエンスおよび Customer Journey Analytics および Experience Platform Query Service での分析でさらに使用するために、データソースとして Experience Platform に取り込むことができます。</li>
 </ul>
 </td>
 <td colspan="1">
@@ -127,12 +127,12 @@ ht-degree: 68%
 </td>
 <td colspan="1">
 <ul>
-<li>Campaign で収集されたインタラクションおよびキャンペーンデータは、Experience Platformにデータソースとして取り込み、Real-time Customer Data Platformを介したオーディエンスの構築や、Customer Journey AnalyticsおよびExperience Platformクエリサービスを介した分析でさらに使用できます。</li>
+<li>Campaign によって収集されたインタラクションおよびキャンペーンデータは、Real-time Customer Data Platform で作成されるオーディエンスおよび Customer Journey Analytics および Experience Platform Query Service での分析でさらに使用するために、データソースとして Experience Platform に取り込むことができます。</li>
 </ul>
 </td>
 <td colspan="1">
 <ul>
-<li><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/batch-messaging.html?lang=en">バッチメッセージ</a></li>
+<li><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/batch-messaging.html?lang=ja">バッチメッセージ</a></li>
 </ul>
 </td>
 </tr>
@@ -145,12 +145,12 @@ ht-degree: 68%
 </td>
 <td colspan="1">
 <ul>
-<li>顧客ジャーニー分析でオーディエンスを構築し、オーディエンスの結果をReal-time Customer Data Platformと共有します。 <a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/audiences/publish.html?lang=en">CJA オーディエンスの公開</a></li>
+<li>Customer Journey Analtyics でオーディエンスを構築し、オーディエンスの結果を Real-time Customer Data Platform と共有します。<a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/audiences/publish.html?lang=ja">CJA オーディエンスの公開</a></li>
 </ul>
 </td>
 <td colspan="1">
 <ul>
-<li><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journey-analytics/overview.html?lang=ja">Real-time Customer Data Platform を使用した</a></li>
+<li><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journey-analytics/overview.html?lang=ja">Customer Journey Analytics</a></li>
 </ul>
 </td>
 </tr>
@@ -168,7 +168,7 @@ ht-degree: 68%
 </td>
 <td colspan="1">
 <ul>
-<li><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/online-offline.html?lang=en">オンライン／オフラインオーディエンスアクティベーション</a></li>
+<li><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/online-offline.html?lang=ja">オンライン／オフラインオーディエンスアクティベーション</a></li>
 </ul>
 </td>
 </tr>
@@ -181,7 +181,7 @@ ht-degree: 68%
 </td>
 <td colspan="1">
 <ul>
-<li>Journey Optimizerで生成されたインタラクションとキャンペーンのデータは、Real-time Customer Data Platformを介したオーディエンスの構築や、Customer Journey AnalyticsおよびExperience Platformクエリサービスを介した分析でさらに使用できるように、Experience Platformに収集されます。</li>
+<li>Journey Optimizer によって生成されたインタラクションおよびキャンペーンデータは、Real-time Customer Data Platform で作成されるオーディエンスおよび Customer Journey Analytics ならびに Experience Platform Query Service での分析でさらに使用するために、Experience Platform に取り込むことができます。</li>
 </ul>
 </td>
 <td colspan="1">
@@ -199,7 +199,7 @@ ht-degree: 68%
 </td>
 <td colspan="1">
 <ul>
-<li>Magentoにネイティブなデータは、Magentoソースコネクタを介してExperience Platformに送信できます。 </li>
+<li>Magento にネイティブなデータは、Magento ソースコネクタを介して Experience Platform に送信することができます。 </li>
 </ul>
 </td>
 <td colspan="1">現在の統合はありません</td>
@@ -213,7 +213,7 @@ ht-degree: 68%
 </td>
 <td colspan="1">
 <ul>
-<li>Marketoのアカウント、連絡先、商談データは、Marketoが生成したインタラクションおよびキャンペーンデータと共にExperience Platformに取り込まれ、B2B-CDP を介したオーディエンス構築や、Customer Journey AnalyticsおよびExperience Platformクエリサービスを介した分析でさらに使用できます。<a href="https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/marketo/marketo.html?lang=ja">Marketo Engage コネクタ</a></li>
+<li>Marketo アカウント、連絡先および商談データは、Marketo で生成されたインタラクションおよびキャンペーンデータと共に、B2B-CDP を介したオーディエンス構築および Customer Journey Analytics を介した分析、ならびに Experience Platform Query Service でさらに使用するために、Experience Platform に取り込まれます。<a href="https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/marketo/marketo.html?lang=ja">Marketo Engage コネクタ</a></li>
 </ul>
 </td>
 <td colspan="1">
@@ -232,13 +232,13 @@ ht-degree: 68%
 <td colspan="1">
 <ul>
 <li>オーディエンスおよびプロファイル指標は、プロファイルインサイトレポートダッシュボードを強化するために、Experience Platform データレイクに送信されます。</li>
-<li>データレイクのオーディエンスとプロファイルデータは、クエリサービスとCustomer Journey Analyticsを通じてさらにインサイトを得るために使用できます。</li>
+<li>データレイクのオーディエンスおよびプロファイルデータはQuery Service および Customer Journey Analytics でさらにインサイトを得るために使用することができます。</li>
 </ul>
 </td>
 <td colspan="1">
 <ul>
-<li><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/online-offline.html?lang=en">オンライン／オフラインオーディエンスアクティベーション</a></li>
-<li><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/platform-and-applications.html?lang=en">Experience Platform およびアプリケーションを使用したアクティベーション</a></li>
+<li><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/online-offline.html?lang=ja">オンライン／オフラインオーディエンスアクティベーション</a></li>
+<li><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/platform-and-applications.html?lang=ja">Experience Platform およびアプリケーションを使用したアクティベーション</a></li>
 </ul>
 </td>
 </tr>
@@ -246,18 +246,18 @@ ht-degree: 68%
 <td colspan="1">Target</td>
 <td colspan="1">
 <ul>
-<li>Real-time Customer Data Platformで定義されたオーディエンスとプロファイル属性は、Target と共有し、Target が提供するパーソナライゼーションおよびターゲティングエクスペリエンスで使用できます。</li>
+<li>Real-time Customer Data Platform で定義されたオーディエンスおよびプロファイルの属性は、Target と共有して、パーソナライズ機能や Target で配信されたエクスペリエンスのターゲティングで使用することができます。</li>
 </ul>
 </td>
 <td colspan="1">
 <ul>
-<li>Target のエクスペリエンスおよびインタラクション用に収集されたデータは、Web/Mobile SDKExperience Platformを通じてExperience Platformに収集できます。 このデータは、Real-time Customer Data Platformを介したオーディエンス構築で、また、Customer Journey AnalyticsおよびExperience Platformクエリサービスを介した分析に使用できます。</li>
+<li>Target エクスペリエンスおよびインタラクション用に収集されたデータは、Experience Platform Web／モバイル SDK を使用して Experience Platform に収集することができます。このデータは、Real-time Customer Data Platform で作成されるオーディエンスおよび Customer Journey Analytics ならびに Experience Platform Query Service での分析に使用することができます。</li>
 </ul>
 </td>
 <td colspan="1">
 <ul>
-<li><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/online-offline.html?lang=en">オンライン／オフラインオーディエンスアクティベーション</a></li>
-<li><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/platform-and-applications.html?lang=en">Experience Platform およびアプリケーションを使用したアクティベーション</a></li>
+<li><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/online-offline.html?lang=ja">オンライン／オフラインオーディエンスアクティベーション</a></li>
+<li><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/platform-and-applications.html?lang=ja">Experience Platform およびアプリケーションを使用したアクティベーション</a></li>
 </ul>
 </td>
 </tr>
