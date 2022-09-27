@@ -3,16 +3,16 @@ title: エッジでの意思決定管理
 description: 複数のチャネルをまたいで、リアルタイムの Web エクスペリエンスやモバイルエクスペリエンスを含む、パーソナライズされたオファー顧客にを提供します。
 solution: Experience Platform, Journey Optimizer
 exl-id: 31e5f624-5578-49e1-ab92-5cabd596a632
-source-git-commit: 5b2f7531cc05178127fb08d3fdafcbce70192ecd
-workflow-type: ht
-source-wordcount: '847'
-ht-degree: 100%
+source-git-commit: b3d4e89c7e4170ffee2cc1776ffa26d2e0ce79e6
+workflow-type: tm+mt
+source-wordcount: '854'
+ht-degree: 96%
 
 ---
 
 # Journey Optimizer — エッジでの意思決定管理
 
-意思決定管理について詳しくは、製品ドキュメント[ここ](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started-decision/starting-offer-decisioning.html?lang=ja)と 意思決定管理 の概要[ここ](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer/offer-decisioning/decision-management-overview.html?lang=ja)を参照してください。
+意思決定管理について詳しくは、製品ドキュメント[ここ](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started-decision/starting-offer-decisioning.html?lang=ja)と 意思決定管理 の概要[ここ](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer/decision-management/decision-management-overview.html?lang=en)を参照してください。
 
 アドビの意思決定管理は、Adobe Journey Optimizer の一部として提供されるサービスです。このブループリントは、アプリケーションのユースケースと技術的機能の概要を示し、意思決定管理を構成する様々なアーキテクチャコンポーネントと考慮事項について詳しく説明します。
 
@@ -22,7 +22,7 @@ ht-degree: 100%
 
 このブループリントでは、Edge 上での意思決定管理の詳細を説明します。
 
-ハブの意思決定管理について詳しくは、[ハブの意思決定管理](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer/offer-decisioning/decision-management-hub.html?lang=ja) ブループリントを参照してください。
+ハブの意思決定管理について詳しくは、[ハブの意思決定管理](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer/decision-management/decision-management-hub.html?lang=en) ブループリントを参照してください。
 
 ## エッジでの意思決定管理のユースケース
 
@@ -77,7 +77,7 @@ Adobe Experience Platform
 ## 実装パターン
 
 * Web サイトやモバイルアプリケーションにデプロイするために Web または Mobile SDK を使用して、SDK がデプロイされた意思決定管理を実装します。
-   * [Web／モバイル SDK ブループリント](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/data-ingestion/websdk.html?lang=ja)
+   * [Web／モバイル SDK ブループリント](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/architecture-overview/deployment/websdk.html?lang=en)
    * [WebSDK](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/offer-decisioning/offer-decisioning-overview.html?lang=ja)
    * [MobileSDK](https://aep-sdks.gitbook.io/docs/)
 
@@ -102,7 +102,7 @@ Adobe Experience Platform
 #### プロファイル／ID
 
 1. [任意の顧客専用の名前空間を作成します。](https://experienceleague.adobe.com/docs/platform-learn/tutorials/identities/label-ingest-and-verify-identity-data.html?lang=ja)
-1. [スキーマに ID を追加します](https://experienceleague.adobe.com/docs/platform-learn/tutorials/identities/label-ingest-and-verify-identity-data.html?lang=ja)。
+1. [スキーマに ID を追加します](https://experienceleague.adobe.com/docs/platform-learn/tutorials/identities/label-ingest-and-verify-identity-data.html)。
 1. [プロファイル用のスキーマおよびデータセットを有効にします](https://experienceleague.adobe.com/docs/platform-learn/tutorials/profiles/bring-data-into-the-real-time-customer-profile.html?lang=ja)。
 1. [!UICONTROL Real-Time Customer Profile] の様々な表示用に[結合ポリシーを設定](https://experienceleague.adobe.com/docs/platform-learn/tutorials/profiles/create-merge-policies.html?lang=ja)します（オプション）。
 1. ジャーニー使用状況用のセグメントを作成します。
@@ -115,6 +115,6 @@ Adobe Experience Platform
 
 * [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform.html?lang=ja)
 * [Adobe Journey Optimizer](https://experienceleague.adobe.com/docs/journey-optimizer.html?lang=ja)
-* [Adobe Journey Optimizer 意思決定管理](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started-decision/starting-offer-decisioning.html?lang=ja)
+* [Adobe Journey Optimizer 意思決定管理](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started-decision/starting-offer-decisioning.html)
 * [Journey Optimizer 製品説明](https://helpx.adobe.com/jp/legal/product-descriptions/adobe-journey-optimizer.html)
-* [Adobe 意思決定管理製品の説明](https://helpx.adobe.com/jp/legal/product-descriptions/offer-decisioning-app-service.html)
+* [Adobe 意思決定管理製品の説明](https://helpx.adobe.com/legal/product-descriptions/offer-decisioning-app-service.html)

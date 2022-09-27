@@ -3,16 +3,16 @@ title: ハブの意思決定管理
 description: キオスク、エージェント支援エクスペリエンス、電子メールやその他のアウトバウンド配信など、さまざまなチャネルで消費者にパーソナライズされたオファーを配信します。
 solution: Experience Platform, Journey Optimizer
 exl-id: 5a386e18-bbac-4216-a35f-0a5016785e4a
-source-git-commit: 5b2f7531cc05178127fb08d3fdafcbce70192ecd
-workflow-type: ht
-source-wordcount: '901'
-ht-degree: 100%
+source-git-commit: b3d4e89c7e4170ffee2cc1776ffa26d2e0ce79e6
+workflow-type: tm+mt
+source-wordcount: '907'
+ht-degree: 96%
 
 ---
 
 # Journey Optimizer — ハブでの意思決定管理
 
-意思決定管理について詳しくは、製品ドキュメント[ここ](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started-decision/starting-offer-decisioning.html?lang=ja)と 意思決定管理 の概要[ここ](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer/offer-decisioning/decision-management-overview.html?lang=ja)を参照してください。
+意思決定管理について詳しくは、製品ドキュメント[ここ](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started-decision/starting-offer-decisioning.html?lang=ja)と 意思決定管理 の概要[ここ](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer/decision-management/decision-management-overview.html?lang=en)を参照してください。
 
 アドビの意思決定管理は、Adobe Journey Optimizer の一部として提供されるサービスです。このブループリントは、アプリケーションのユースケースと技術的機能の概要を示し、意思決定管理を構成する様々なアーキテクチャコンポーネントと考慮事項について詳しく説明します。
 
@@ -24,7 +24,7 @@ Journey Optimizerは、あらゆるタッチポイントにわたり、適切な
 
 このブループリントは、ハブの意思決定管理の詳細をカバーします。
 
-ハブの意思決定管理について詳しくは、[ハブの意思決定管理](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer/offer-decisioning/decision-management-edge.html?lang=ja)ブループリントを参照してください。
+ハブの意思決定管理について詳しくは、[ハブの意思決定管理](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer/decision-management/decision-management-edge.html?lang=en)ブループリントを参照してください。
 
 ## ハブの意思決定管理のユースケース
 
@@ -78,7 +78,7 @@ Adobe Experience Platform
 * [Adobe Journey Optimizer](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started-decision/offers-e2e.html?lang=ja) との直接統合により、電子メール、SMS、アウトバウンドチャネルで実装。
 * サーバー API ベースの 意思決定管理 の実装の場合、[判定 API](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/api-reference/offer-delivery/decisioning-vs-edge-apis.html?lang=ja) を使用します。
 * メッセージ配信アプリケーションにオファーを一括で配信するバッチベースの判定を実装するには、 [バッチ判定 API](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/api-reference/offer-delivery/batch-decisioning-api.html?lang=ja) を使用します。
-* エッジベースのリアルタイムエクスペリエンスの場合は、[エッジブループリントの意思決定管理](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer/offer-decisioning/decision-management-edge.html?lang=ja) で概説されているように、Web／モバイル SDK または エッジ判定 API を使用します。
+* エッジベースのリアルタイムエクスペリエンスの場合は、[エッジブループリントの意思決定管理](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer/decision-management/decision-management-edge.html?lang=en) で概説されているように、Web／モバイル SDK または エッジ判定 API を使用します。
 <br>
 
 ## 実装手順
@@ -95,7 +95,7 @@ Adobe Experience Platform
 #### プロファイル／ID
 
 1. [任意の顧客専用の名前空間を作成します。](https://experienceleague.adobe.com/docs/platform-learn/tutorials/identities/label-ingest-and-verify-identity-data.html?lang=ja)
-1. [スキーマに ID を追加します](https://experienceleague.adobe.com/docs/platform-learn/tutorials/identities/label-ingest-and-verify-identity-data.html?lang=ja)。
+1. [スキーマに ID を追加します](https://experienceleague.adobe.com/docs/platform-learn/tutorials/identities/label-ingest-and-verify-identity-data.html)。
 1. [プロファイル用のスキーマおよびデータセットを有効にします](https://experienceleague.adobe.com/docs/platform-learn/tutorials/profiles/bring-data-into-the-real-time-customer-profile.html?lang=ja)。
 1. [!UICONTROL Real-Time Customer Profile] の様々な表示用に[結合ポリシーを設定](https://experienceleague.adobe.com/docs/platform-learn/tutorials/profiles/create-merge-policies.html?lang=ja)します（オプション）。
 1. ジャーニー使用状況用のセグメントを作成します。
@@ -108,6 +108,6 @@ Adobe Experience Platform
 
 * [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform.html?lang=ja)
 * [Adobe Journey Optimizer](https://experienceleague.adobe.com/docs/journey-optimizer.html?lang=ja)
-* [Adobe Journey Optimizer 意思決定管理](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started-decision/starting-offer-decisioning.html?lang=ja)
+* [Adobe Journey Optimizer 意思決定管理](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started-decision/starting-offer-decisioning.html)
 * [Journey Optimizer 製品説明](https://helpx.adobe.com/jp/legal/product-descriptions/adobe-journey-optimizer.html)
-* [Adobe 意思決定管理製品の説明](https://helpx.adobe.com/jp/legal/product-descriptions/offer-decisioning-app-service.html)
+* [Adobe 意思決定管理製品の説明](https://helpx.adobe.com/legal/product-descriptions/offer-decisioning-app-service.html)

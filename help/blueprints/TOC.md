@@ -5,10 +5,10 @@ user-guide-description: ブループリントは、既存のビジネス上の�
 product: adobe experience platform
 mini-toc-levels: 3
 role: Architect, Developer, User
-source-git-commit: fc247d3a933d6df33e43f3a1f55f9dfb1eba35a6
+source-git-commit: 84eb7427077a068c3fe3b2cfc4856e115427f4ca
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '206'
+ht-degree: 94%
 
 ---
 
@@ -16,13 +16,12 @@ ht-degree: 0%
 # デジタルエクスペリエンスブループリント {#architecture}
 
 + [概要](/help/blueprints/overview.md)
-+ [すべてのユースケースを見る](/help/blueprints/use-cases.md)
 + 業界の垂直ブループリント{#vertical-blueprints}
-   + [概要](/help/blueprints/industry-success-stories/overview.md)
-   + [アパレル](/help/blueprints/industry-success-stories/apparel.md)
-   + [小売](/help/blueprints/industry-success-stories/retail.md)
-   + [通信業](/help/blueprints/industry-success-stories/telecommunications.md)
-   + [観光および接客業](/help/blueprints/industry-success-stories/travel-hospitality.md)
+   + [概要](/help/blueprints/vertical-blueprints/overview.md)
+   + [アパレル](/help/blueprints/vertical-blueprints/apparel.md)
+   + [小売](/help/blueprints/vertical-blueprints/retail.md)
+   + [通信業](/help/blueprints/vertical-blueprints/telecommunications.md)
+   + [観光および接客業](/help/blueprints/vertical-blueprints/travel-hospitality.md)
 + アーキテクチャの概要 {#architecture-overview}
    + [Experience Cloud](/help/blueprints/experience-platform/experience-cloud.md)
    + [Experience Platform およびアプリケーション](/help/blueprints/experience-platform/platform-applications.md)

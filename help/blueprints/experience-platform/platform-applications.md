@@ -5,10 +5,10 @@ solution: Experience Platform, Campaign, Analytics, Target, Customer Journey Ana
 kt: 7199
 thumbnail: null
 exl-id: 9b12cd7a-5e5f-443a-91a1-44273cdabc2d
-source-git-commit: 4c66e906b9faf4bd9b1ee75fcf263b8a35d3b782
-workflow-type: ht
-source-wordcount: '925'
-ht-degree: 100%
+source-git-commit: 83f1f5e0e508d35d6711710cdb4d367f67e4f715
+workflow-type: tm+mt
+source-wordcount: '917'
+ht-degree: 95%
 
 ---
 
@@ -57,8 +57,8 @@ ht-degree: 100%
 <td colspan="1">
 <ul>
 <li><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/anonymous.html?lang=ja">匿名オーディエンスアクティベーション</a></li>
-<li><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/online-offline.html?lang=ja">オンライン／オフラインオーディエンスアクティベーション</a></li>
-<li><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/platform-and-applications.html?lang=ja">Experience Platform およびアプリケーションを使用したアクティベーション</a></li>
+<li><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/known-customer-audience-activation/known.html?lang=ja">既知の顧客のアクティベーション</a></li>
+<li><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/architecture-overview/platform-applications.html?lang=ja">Experience Platform およびアプリケーションを使用したアクティベーション</a></li>
 </ul>
 </td>
 </tr>
@@ -94,8 +94,8 @@ ht-degree: 100%
 </td>
 <td>
 <ul>
-<li><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/anonymous.html?lang=ja">匿名オーディエンスアクティベーション</a></li>
-<li><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/online-offline.html?lang=ja">オンライン／オフラインオーディエンスアクティベーション</a></li>
+<li><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/anonymous.html?lang=en">匿名オーディエンスアクティベーション</a></li>
+<li><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/known-customer-audience-activation/known.html">既知の顧客のアクティベーション</a></li>
 <li><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/platform-and-applications.html?lang=ja">Experience Platform およびアプリケーションを使用したアクティベーション</a></li>
 </ul>
 </td>
@@ -114,7 +114,7 @@ ht-degree: 100%
 </td>
 <td colspan="1">
 <ul>
-<li><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/batch-messaging.html?lang=ja">バッチメッセージ</a></li>
+<li><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/overview.html?lang=en">カスタマージャーニー</a></li>
 </ul>
 </td>
 </tr>
@@ -132,7 +132,7 @@ ht-degree: 100%
 </td>
 <td colspan="1">
 <ul>
-<li><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/batch-messaging.html?lang=ja">バッチメッセージ</a></li>
+<li><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/overview.html?lang=ja">カスタマージャーニー</a></li>
 </ul>
 </td>
 </tr>
@@ -150,7 +150,7 @@ ht-degree: 100%
 </td>
 <td colspan="1">
 <ul>
-<li><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journey-analytics/overview.html?lang=ja">Customer Journey Analytics</a></li>
+<li><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journey-analytics/overview.html?lang=en">Customer Journey Analytics</a></li>
 </ul>
 </td>
 </tr>
@@ -168,7 +168,7 @@ ht-degree: 100%
 </td>
 <td colspan="1">
 <ul>
-<li><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/online-offline.html?lang=ja">オンライン／オフラインオーディエンスアクティベーション</a></li>
+<li><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/known-customer-audience-activation/known.html?lang=en">既知の顧客のアクティベーション</a></li>
 </ul>
 </td>
 </tr>
@@ -186,7 +186,7 @@ ht-degree: 100%
 </td>
 <td colspan="1">
 <ul>
-<li><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer.html?lang=ja">Journey Optimizer</a></li>
+<li><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer.html?lang=en">Journey Optimizer</a></li>
 </ul>
 </td>
 </tr>
@@ -237,8 +237,8 @@ ht-degree: 100%
 </td>
 <td colspan="1">
 <ul>
-<li><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/online-offline.html?lang=ja">オンライン／オフラインオーディエンスアクティベーション</a></li>
-<li><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/platform-and-applications.html?lang=ja">Experience Platform およびアプリケーションを使用したアクティベーション</a></li>
+<li><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/known-customer-audience-activation/known.html?lang=en">既知の顧客のアクティベーション</a></li>
+<li><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/platform-and-applications.html?lang=en">Experience Platform およびアプリケーションを使用したアクティベーション</a></li>
 </ul>
 </td>
 </tr>
@@ -256,8 +256,8 @@ ht-degree: 100%
 </td>
 <td colspan="1">
 <ul>
-<li><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/online-offline.html?lang=ja">オンライン／オフラインオーディエンスアクティベーション</a></li>
-<li><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/platform-and-applications.html?lang=ja">Experience Platform およびアプリケーションを使用したアクティベーション</a></li>
+<li><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/known-customer-audience-activation/known.html?lang=en">既知の顧客のアクティベーション</a></li>
+<li><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/platform-and-applications.html?lang=en">Experience Platform およびアプリケーションを使用したアクティベーション</a></li>
 </ul>
 </td>
 </tr>

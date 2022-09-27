@@ -4,10 +4,10 @@ description: Experience Platform でプロファイルおよびオーディエ�
 solution: Real-time Customer Data Platform, Target, Audience Manager, Analytics, Experience Cloud Services
 kt: 7722
 exl-id: f36014e8-170d-47e1-b4ec-10c0ea70612d
-source-git-commit: 3425495df36ff8da0f2fd737b35d294ccafe31bd
-workflow-type: ht
-source-wordcount: '741'
-ht-degree: 100%
+source-git-commit: 094591020413933932356cb8c393bf569bcfca50
+workflow-type: tm+mt
+source-wordcount: '739'
+ht-degree: 95%
 
 ---
 
@@ -64,7 +64,7 @@ Experience Platform と Experience Cloud アプリケーションの統合に関
 
 ### Real-time Customer Data Platform から Target へのオーディエンスの共有
 
-* Real-time Customer Data Platform から Target へのプロファイルとオーディエンスの共有に関する詳細は、[オンラインとオフラインのデータを使用した web／モバイルのパーソナライゼーションブループリント](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/web-personalization/online-offline.html?lang=ja)を参照してください。
+* 詳しくは、 [既知の顧客のパーソナライゼーション — Target および RTCDP ブループリント](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/web-personalization/known-personalization.html) を参照してください。
 
 ### Real-time Customer Data Platform から Campaign および Journey Optimizer へのオーディエンスの共有
 
