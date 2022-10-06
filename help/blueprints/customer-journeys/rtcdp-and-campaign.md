@@ -1,12 +1,12 @@
 ---
-title: Real-Time CDPとAdobe Campaign v7 の統合パターン
+title: Real-Time CDPとAdobe Campaign v7 およびCampaign Standardの統合パターン
 description: Adobe Experience Platform とそのリアルタイム顧客プロファイル、および一元化されたセグメント化ツールを Adobe Campaign と併用して、パーソナライズされた会話を提供する方法を紹介します。
 solution: Real-time Customer Data Platform, Campaign
 exl-id: a15e8304-2763-42fc-9978-11f2482ea8b8
-source-git-commit: f8116387105cf1fe0adfc148562529d62ca90cfc
+source-git-commit: 163dd644b690c1f5554a3929e1f83c121e132df5
 workflow-type: tm+mt
-source-wordcount: '768'
-ht-degree: 98%
+source-wordcount: '804'
+ht-degree: 94%
 
 ---
 
@@ -79,6 +79,8 @@ Adobe Experience Platform とそのリアルタイム顧客プロファイル、
 
 #### ソース／宛先
 
+1. [Experience PlatformとCampaign Standardのソースと宛先](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/adobe-experience-platform/aep-sources-destinations/get-started-sources-destinations.html)
+1. [Experience Platformと Campaign v7 のソースと宛先](https://experienceleague.adobe.com/docs/campaign-classic/using/integrating-with-adobe-experience-cloud/aep-sources-destinations/get-started-sources-destinations.html)
 1. ストリーミング API およびソースコネクタを使用して、[Experience Platform にデータを取り込みます。](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2020.1.dataingestion&amp;lang=ja)
 1. Adobe Campaign で使用する [!DNL Azure] Blob ストレージ宛先を設定します。
 
