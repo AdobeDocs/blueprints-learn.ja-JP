@@ -32,12 +32,12 @@ Adobe Journey Optimizer を Adobe Campaign と併用し、Campaign のリアル�
 * Journey Optimizer のデータソースを設定する前に、スキーマとデータセットをシステムに設定する必要があります。
 * エクスペリエンスイベントクラスベースのスキーマの場合、ルールベースのイベントではないイベントをトリガーする場合に、を追加します エクスペリエンスイベントクラスベースのスキーマでは、ルールベースのイベントではないイベントをトリガーさせたい場合は「オーケストレーション eventID」フィールドグループを追加します。
 * 個別のプロファイルクラスベースのスキーマの場合、「Profile test details」フィールドグループを追加して、Journey Optimizer で使用するテストプロファイルを読み込めるようにします
-* Journey Optimizer と Campaign が同じ IMS 組織内でプロビジョニングされています
+* Journey Optimizer と Campaign が同じ IMS 組織内でプロビジョニングされています。
 
 ### Campaign v7/v8 または Campaign Standard
 
-* リアルタイムメッセージングサービス (Message Center) の実行インスタンスは、アドビが管理する Cloud Services がホストする必要があります
-* すべてのメッセージの作成は、Campaign インスタンス自体内でおこなわれます
+* リアルタイムメッセージングサービス (Message Center) の実行インスタンスは、アドビが管理する Cloud Services がホストする必要があります。
+* すべてのメッセージの作成は、Campaign インスタンス自体内でおこなわれます。
 
 <br>
 

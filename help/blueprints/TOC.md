@@ -8,7 +8,7 @@ role: Architect, Developer, User
 source-git-commit: 6901596cbb661ffa8cf57c6ae958db1978bf1520
 workflow-type: tm+mt
 source-wordcount: '248'
-ht-degree: 80%
+ht-degree: 84%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 80%
 # デジタルエクスペリエンスブループリント {#architecture}
 
 + [概要](/help/blueprints/overview.md)
-+ 業界の垂直ブループリント{#vertical-blueprints}
++ 垂直な業界のブループリント {#vertical-blueprints}
    + [概要](/help/blueprints/vertical-blueprints/overview.md)
    + [アパレル](/help/blueprints/vertical-blueprints/apparel.md)
    + [小売](/help/blueprints/vertical-blueprints/retail.md)
@@ -32,7 +32,7 @@ ht-degree: 80%
 + オーディエンスとプロファイルのアクティベーション {#audience-activation}
    + [概要](/help/blueprints/audience-activation/overview.md)
    + [匿名オーディエンスアクティベーション(AAM)](/help/blueprints/audience-activation/anonymous.md)
-   + 既知の顧客のアクティベーション（RTCDP）{#known-customer-audience-activation}
+   + 既知の顧客のアクティベーション（RTCDP） {#known-customer-audience-activation}
       + [概要](/help/blueprints/audience-activation/known.md)
       + ソーシャルおよび広告チャネルに対するアクティベーション {#audience-activation}
          + [Facebook Custom Audiences へのアクティベーション](/help/blueprints/audience-activation/destinations/facebook.md)
@@ -69,7 +69,7 @@ ht-degree: 80%
       + [Campaign v7](/help/blueprints/customer-journeys/campaign-v7.md)
       + [Real-Time CDP と Adobe Campaign v7](/help/blueprints/customer-journeys/rtcdp-and-campaign.md)
       + [Adobe Campaign v7 とのJourney Optimizer](/help/blueprints/customer-journeys/ajo-and-campaign-v7.md)
-+ データの取り込みとデータの書き出し{#data-ingestion}
++ データの取り込みとデータの書き出し {#data-ingestion}
    + [概要](/help/blueprints/data-ingestion/overview.md)
    + [データの準備と取り込み](/help/blueprints/data-ingestion/ingestion.md)
    + [イベント転送](/help/blueprints/data-ingestion/server-side-collection.md)
