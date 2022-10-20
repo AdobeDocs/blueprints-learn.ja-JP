@@ -3,10 +3,10 @@ title: Experience Platformおよびアプリケーションガードレール
 description: Guardrail は、Adobe Experience Platformおよびアプリケーション内のコンポーネントとサービスに対するパフォーマンスの期待値と影響を定義します
 solution: Customer Journey Analytics, Journey Orchestration, Real-time Customer Data Platform
 thumbnail: null
-source-git-commit: 4de3d70cc3218ec79a49daa0511d2ad779d49508
+source-git-commit: 8a53151558f4df9d2909d43d13bdbd800adbc79f
 workflow-type: tm+mt
-source-wordcount: '254'
-ht-degree: 24%
+source-wordcount: '288'
+ht-degree: 31%
 
 ---
 
@@ -30,7 +30,23 @@ Guardrail は、データとシステムの使用状況、パフォーマンス�
 
 [Journey Optimizer Guardrails](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/guardrails.html?lang=en)
 
+<br>
 
+## エンドツーエンドの遅延
+
+### データ取り込み
+
+次の図は、Adobe Experience Platform にデータを取り込む際の平均パフォーマンスのガードレールと待ち時間を示しています。
+
+<img src="../assets/aep_data_flow_guardrails.svg" alt="Experience Platform データフロー" style="border:1px solid #4a4a4a" width="85%" />
+
+<br>
+
+### Journey Optimizer
+
+<img src="../assets/activation-latency.svg" alt="参照アーキテクチャ Journey Optimizer ブループリント" style="width:85%; border:1px solid #4a4a4a" />
+
+<br>
 
 ## 製品の説明
 
