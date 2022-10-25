@@ -1,12 +1,12 @@
 ---
-title: Real-Time CDPとAdobe Campaign v7 およびCampaign Standardの統合パターン
+title: Real-Time CDP と Adobe Campaign v7 および Campaign Standard の統合パターン
 description: Adobe Experience Platform とそのリアルタイム顧客プロファイル、および一元化されたセグメント化ツールを Adobe Campaign と併用して、パーソナライズされた会話を提供する方法を紹介します。
 solution: Real-time Customer Data Platform, Campaign
 exl-id: a15e8304-2763-42fc-9978-11f2482ea8b8
 source-git-commit: 163dd644b690c1f5554a3929e1f83c121e132df5
 workflow-type: tm+mt
 source-wordcount: '804'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -79,8 +79,8 @@ Adobe Experience Platform とそのリアルタイム顧客プロファイル、
 
 #### ソース／宛先
 
-1. [Experience PlatformとCampaign Standardのソースと宛先](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/adobe-experience-platform/aep-sources-destinations/get-started-sources-destinations.html)
-1. [Experience Platformと Campaign v7 のソースと宛先](https://experienceleague.adobe.com/docs/campaign-classic/using/integrating-with-adobe-experience-cloud/aep-sources-destinations/get-started-sources-destinations.html)
+1. [Experience Platform と Campaign Standard のソースと宛先](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/adobe-experience-platform/aep-sources-destinations/get-started-sources-destinations.html?lang=ja)
+1. [Experience Platform と Campaign v7 のソースと宛先](https://experienceleague.adobe.com/docs/campaign-classic/using/integrating-with-adobe-experience-cloud/aep-sources-destinations/get-started-sources-destinations.html?lang=ja)
 1. ストリーミング API およびソースコネクタを使用して、[Experience Platform にデータを取り込みます。](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2020.1.dataingestion&amp;lang=ja)
 1. Adobe Campaign で使用する [!DNL Azure] Blob ストレージ宛先を設定します。
 
@@ -108,13 +108,13 @@ Adobe Experience Platform とそのリアルタイム顧客プロファイル、
 
 * プッシュ通知用にモバイルデバイスとの統合に関してサポートされる 2 つの方法を示します。
    * Experience Platform Mobile SDK
-   * Campaign モバイル SDK
+   * Campaign Mobile SDK
 * Experience Platform Mobile SDK ルート：
    * アドビタグと Campaign Classic 拡張機能を活用して、Experience Platform Mobile SDK との統合を設定します。
    * アドビタグとデータ収集に関する実務知識が必要です
-   * SDK のデプロイ、FCM（Android）およびAPNS（iOS）との統合によるプッシュトークンの取得、プッシュ通知を受け取るためのアプリの設定、プッシュインタラクションの処理など、Android および iOS でのプッシュ通知に関するモバイル開発経験が必要です。
+   * SDK のデプロイ、FCM（Android）および APNS（iOS）との統合によるプッシュトークンの取得、プッシュ通知を受け取るためのアプリの設定、プッシュインタラクションの処理など、Android および iOS でのプッシュ通知に関するモバイル開発経験が必要です。
 * Campaign モバイル SDK
-   * 詳しくは、[Campaign SDK ドキュメント] を参照（Campaign モバイル SDK。ここで説明するデプロイメントドキュメントに従ってください）。
+   * 詳しくは、[Campaign SDK ドキュメント]を参照（Campaign モバイル SDK。ここで説明するデプロイメントドキュメントに従ってください）。
 
    >[!IMPORTANT]
    >Campaign SDK をデプロイし、他の Experience Cloud アプリケーションと連携する場合は、データ収集に Experience Platform Mobile SDK を使用する必要があります。これにより、デバイス上でクライアント側の呼び出しが重複します。
