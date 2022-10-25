@@ -5,9 +5,9 @@ solution: Real-time Customer Data Platform, Target, Audience Manager, Analytics,
 kt: 7722
 exl-id: f36014e8-170d-47e1-b4ec-10c0ea70612d
 source-git-commit: 094591020413933932356cb8c393bf569bcfca50
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '739'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -56,7 +56,7 @@ Experience Platform と Experience Cloud アプリケーションの統合に関
 
 * RT-CDP のオーディエンスメンバーシップは、セグメント評価が完了し、セグメント評価がバッチで行われたかストリーミングで行われたかに関わらず、リアルタイム顧客プロファイルに書き込まれるとすぐに、ストリーミング方式で Audience Manager に共有されます。選定されたプロファイルに、関連するプロファイルデバイスの地域ルーティング情報が含まれる場合、RTCDP からのオーディエンスメンバーシップは、関連する Audience Manager エッジ上でストリーミング方式で選定されます。地域ルーティング情報が過去 14 日間のタイムスタンプを持つプロファイルに適用された場合、ストリーミングの Audience Manager Edge エッジで評価されます。RTCDP からのプロファイルに地域ルーティング情報が含まれていない場合、または地域ルーティング情報が 14 日以上前のものである場合、プロファイルのメンバーシップは、バッチベースの評価とアクティブ化のために Audience Manager ハブロケーションに送信されます。エッジのアクティベーションの対象となるプロファイルは、RTCDP のセグメントの選定から数分以内にアクティブ化され、エッジのアクティベーションの対象とならないプロファイルは Audience Manager ハブで選定され、12～24 時間の処理期間を持つ場合があります。
 
-* Audience Manager プロファイルが保存されている Edge の地域ルーティング情報は、Audience Manager、Visitor ID サービス、Analytics、Launch、または Web SDK から直接、XDM フィールドグループ「データキャプチャ地域情報」を使用して、個別のプロファイルレコードクラスのデータセットとして Experience Platform に収集することが可能です。
+* Audience Manager プロファイルが保存されている Edge の地域ルーティング情報は、Audience Manager、Visitor ID サービス、Analytics、Launch、または web SDK から直接、XDM フィールドグループ「データキャプチャ地域情報」を使用して、個別のプロファイルレコードクラスのデータセットとして Experience Platform に収集することが可能です。
 
 * Experience Platform から Audience Manager にオーディエンスが共有されるアクティベーションシナリオでは、次の ID が自動的に共有されます。ECID、IDFA、GAID、ハッシュ化されたメールアドレス（EMAIL_LC_SHA256）、AdCloud ID。現在、カスタムの名前空間は共有されません。
 
@@ -64,7 +64,7 @@ Experience Platform と Experience Cloud アプリケーションの統合に関
 
 ### Real-time Customer Data Platform から Target へのオーディエンスの共有
 
-* 詳しくは、 [既知の顧客のパーソナライゼーション — Target および RTCDP ブループリント](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/web-personalization/known-personalization.html) を参照してください。
+* Real-time Customer Data Platform から Target へのプロファイルとオーディエンスの共有に関する詳細は、[既知の顧客のパーソナライズ機能 - Target と RTCDP ブループリント](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/web-personalization/known-personalization.html?lang=ja)を参照してください。
 
 ### Real-time Customer Data Platform から Campaign および Journey Optimizer へのオーディエンスの共有
 
