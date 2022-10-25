@@ -1,15 +1,15 @@
 ---
-title: Journey OptimizerとAdobe Campaign v7 ブループリント
+title: Journey Optimizer と Adobe Campaign v7 ブループリント
 description: Adobe Journey Optimizer を Adobe Campaign と併用し、Campaign のリアルタイムメッセージングサーバーを利用してネイティブでメッセージを送信する方法を示します
 solution: Journey Optimizer, Campaign, Campaign v8, Campaign Classic v7, Campaign Standard
 source-git-commit: 6901596cbb661ffa8cf57c6ae958db1978bf1520
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '1128'
+ht-degree: 100%
 
 ---
 
-# Journey Optimizer と Adobe Campaign v7
+# Journey Optimizer と Adobe Campaignv7
 
 Adobe Journey Optimizer を Adobe Campaign と併用し、Campaign のリアルタイムメッセージングサーバーを利用してネイティブでメッセージを送信する方法を示します。
 
@@ -29,14 +29,14 @@ Adobe Journey Optimizer を Adobe Campaign と併用し、Campaign のリアル�
 ### Adobe Experience Platform
 
 * Journey Optimizer のデータソースを設定する前に、スキーマとデータセットをシステムに設定する必要があります。
-* エクスペリエンスイベントクラスベースのスキーマの場合、ルールベースのイベントではないイベントをトリガーする場合に、を追加します エクスペリエンスイベントクラスベースのスキーマでは、ルールベースのイベントではないイベントをトリガーさせたい場合は「オーケストレーション eventID」フィールドグループを追加します。
+* エクスペリエンスイベントクラスベースのスキーマの場合、ルールベースのイベントではないイベントをトリガーする場合に、「オーケストレーション eventID」フィールドグループを追加します。
 * 個別のプロファイルクラスベースのスキーマの場合、「Profile test details」フィールドグループを追加して、Journey Optimizer で使用するテストプロファイルを読み込めるようにします
-* Journey Optimizer と Campaign が同じ IMS 組織内でプロビジョニングされています
+* Journey Optimizer と Campaign が同じ IMS 組織内でプロビジョニングされています。
 
 ### Campaign v7
 
-* リアルタイムメッセージングサービス (Message Center) の実行インスタンスは、アドビが管理する Cloud Services がホストする必要があります
-* すべてのメッセージの作成は、Campaign インスタンス自体内でおこなわれます
+* リアルタイムメッセージングサービス（Message Center）の実行インスタンスは、アドビが管理する Cloud Services がホストする必要があります。
+* すべてのメッセージの作成は、Campaign インスタンス自体内で行われます。
 
 <br>
 
@@ -65,9 +65,9 @@ Adobe Journey Optimizer を Adobe Campaign と併用し、Campaign のリアル�
 
 <br>
 
-### キャンペーン (v7)
+### Campaign（v7）
 
-* Message Center の実行インスタンスは、アドビが管理する Cloud Services がホストする必要がある
+* Message Center の実行インスタンスは、アドビが管理する Cloud Services がホストする必要があります
 * v7 ビルドが 21.1 より上か v8 のどちらかである必要があります
 * メッセージングスループット
    * AC（v7）1 時間あたり 50k
@@ -75,9 +75,9 @@ Adobe Journey Optimizer を Adobe Campaign と併用し、Campaign のリアル�
 * AC（v7）は、イベントが開始したジャーニーのみ、サポートします。
    * 開始されたセグメントまたはセグメントメンバーシップが開始したジャーニーがありません
    * Audience の読み込みとビジネスイベントベースのジャーニーは、実行インスタンスに送信できる量が多いため、サポートされていません
-* AC（v7）も AC（v8）も、メッセージの 意思決定管理 をサポートしていません
+* AC（v7）も AC（v8）も、メッセージの意思決定管理をサポートしていません
 * Campaign へのアウトバウンド API コールのスロットリングはありません
-* Campaign v8.4 では、Experience PlatformでAdobe Campaign Managed Services Source Connector を利用して、Campaign の配信およびトラッキングイベントをExperience Platformに同期できます。 詳しくは、ソースコネクタのドキュメントを参照してください。 [リンク](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html)
+* Campaign v8.4 では、Experience Platform で Adobe Campaign Managed Services ソースコネクタを利用して、Campaign の配信およびトラッキングイベントを Experience Platform に同期することができます。詳しくは、ソースコネクタのドキュメントを参照してください。[リンク](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=ja)
 
 <br>
 
@@ -96,9 +96,9 @@ Adobe Journey Optimizer を Adobe Campaign と併用し、Campaign のリアル�
 #### プロファイル／ID
 
 1. [任意の顧客専用の名前空間を作成します。](https://experienceleague.adobe.com/docs/platform-learn/tutorials/identities/label-ingest-and-verify-identity-data.html?lang=ja)
-1. [スキーマに ID を追加します](https://experienceleague.adobe.com/docs/platform-learn/tutorials/identities/label-ingest-and-verify-identity-data.html)。
+1. [スキーマに ID を追加します](https://experienceleague.adobe.com/docs/platform-learn/tutorials/identities/label-ingest-and-verify-identity-data.html?lang=ja)。
 1. [プロファイル用のスキーマおよびデータセットを有効にします](https://experienceleague.adobe.com/docs/platform-learn/tutorials/profiles/bring-data-into-the-real-time-customer-profile.html?lang=ja)。
-1. [!UICONTROL Real-Time Customer Profile] の様々な表示用に[結合ポリシーを設定](https://experienceleague.adobe.com/docs/platform-learn/tutorials/profiles/create-merge-policies.html?lang=ja)します（オプション）。
+1. [!UICONTROL リアルタイム顧客プロファイル]の様々な表示用に[結合ポリシーを設定](https://experienceleague.adobe.com/docs/platform-learn/tutorials/profiles/create-merge-policies.html?lang=ja)します（オプション）。
 1. ジャーニー使用状況用のセグメントを作成します。
 
 #### ソース／宛先
@@ -107,15 +107,15 @@ Adobe Journey Optimizer を Adobe Campaign と併用し、Campaign のリアル�
 
 ### Journey Optimizer
 
-1. Experience Platform データソースを設定し、カスタマージャーニーの開始に使用する profileStreaming データの一部としてキャッシュするフィールドを決定します。このデータは、まず Journey Optimizer 内で設定され、オーケストレーションIDを取得する必要があります。このオーケストレーション ID は、取り込みに使用するためにデベロッパーに供給されます
+1. Experience Platform データソースを設定し、カスタマージャーニーの開始に使用する profileStreaming データの一部としてキャッシュするフィールドを決定します。このデータは、まず Journey Optimizer 内で設定され、オーケストレーション ID を取得する必要があります。このオーケストレーション ID は、取り込みに使用するためにデベロッパーに供給されます
 1. 外部データソースを設定
 1. Campaign インスタンス用のカスタムアクションを設定
 
 ### Campaign v7
 
 * メッセージテンプレートは、適切なパーソナライズ機能コンテキストを使用して設定する必要があります
-* Campaign Standard の場合：エクスポートワークフローは、トランザクションメッセージログをExperience Platformにエクスポートするように設定する必要があります。 最大で 4 時間ごとに実行することをお勧めします。
-* Campaign v8.4 では、Experience PlatformでAdobe Campaign Managed Services Source Connector を利用して、Campaign の配信およびトラッキングイベントをExperience Platformに同期できます。 詳しくは、ソースコネクタのドキュメントを参照してください。 [リンク](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html)
+* Campaign Standard - トランザクションメッセージログを Experience Platform に書き戻すには、書き出しワークフローを設定する必要があります。最大でも 4 時間ごとに実行することをお勧めします。
+* Campaign v8.4 では、Experience Platform で Adobe Campaign Managed Services ソースコネクタを利用して、Campaign の配信およびトラッキングイベントを Experience Platform に同期することができます。詳しくは、ソースコネクタのドキュメントを参照してください。[リンク](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=ja)
 
 ### モバイルプッシュ設定（オプション）
 
@@ -125,8 +125,8 @@ Adobe Journey Optimizer を Adobe Campaign と併用し、Campaign のリアル�
    * Adobe Experience Platform Edge Network
    * IDEdge ネットワーク用
    * モバイルコア
-1. モバイルアプリデプロイメント用と Web デプロイメント用の専用のデータストリームがあることを確認
-1. 詳しくは、 [Adobe Journey Optimizer Mobile ガイド](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-journey-optimizer) を参照
+1. モバイルアプリデプロイメント用と web デプロイメント用の専用のデータストリームがあることを確認
+1. 詳しくは、[Adobe Journey Optimizer Mobile ガイド](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-journey-optimizer)を参照
 
    >[!IMPORTANT]
    >Journey Optimizer 経由でリアルタイムの通信を送信し、Campaign 経由でバッチプッシュ通知を送信する場合、Journey Optimizer と Campaign の両方でモバイルトークンを収集する必要が生じる場合があります。Campaign v8 では、プッシュトークンをキャプチャするために Campaign SDK を排他的に使用する必要があります。
