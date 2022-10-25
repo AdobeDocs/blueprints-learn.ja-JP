@@ -4,9 +4,9 @@ description: Adobe Journey Optimizer を Adobe Campaign と併用し、Campaign 
 solution: Journey Optimizer, Campaign, Campaign v8, Campaign Classic v7, Campaign Standard
 exl-id: 076446a9-dfb9-464c-a04f-6864b8cb7b48
 source-git-commit: 6901596cbb661ffa8cf57c6ae958db1978bf1520
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '504'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -30,14 +30,14 @@ Adobe Journey Optimizer を Adobe Campaign と併用し、Campaign のリアル�
 ### Adobe Experience Platform
 
 * Journey Optimizer のデータソースを設定する前に、スキーマとデータセットをシステムに設定する必要があります。
-* エクスペリエンスイベントクラスベースのスキーマの場合、ルールベースのイベントではないイベントをトリガーする場合に、を追加します エクスペリエンスイベントクラスベースのスキーマでは、ルールベースのイベントではないイベントをトリガーさせたい場合は「オーケストレーション eventID」フィールドグループを追加します。
+* エクスペリエンスイベントクラスベースのスキーマの場合、ルールベースのイベントではないイベントをトリガーする場合に、「オーケストレーション eventID」フィールドグループを追加します。
 * 個別のプロファイルクラスベースのスキーマの場合、「Profile test details」フィールドグループを追加して、Journey Optimizer で使用するテストプロファイルを読み込めるようにします
 * Journey Optimizer と Campaign が同じ IMS 組織内でプロビジョニングされています。
 
 ### Campaign v7/v8 または Campaign Standard
 
-* リアルタイムメッセージングサービス (Message Center) の実行インスタンスは、アドビが管理する Cloud Services がホストする必要があります。
-* すべてのメッセージの作成は、Campaign インスタンス自体内でおこなわれます。
+* リアルタイムメッセージングサービス（Message Center）の実行インスタンスは、アドビが管理する Cloud Services がホストする必要があります。
+* すべてのメッセージの作成は、Campaign インスタンス自体内で行われます。
 
 <br>
 
@@ -66,9 +66,9 @@ Adobe Journey Optimizer を Adobe Campaign と併用し、Campaign のリアル�
 
 <br>
 
-### Campaign 統合
+### Campaign の統合
 
-Adobe CampaignおよびAdobe Journey Optimizerの特定のバージョンとの統合に関するガイダンスについては、各Adobe Campaignバージョンに対応するガイドを参照してください。
+Adobe Campaign および Adobe Journey Optimizer の特定のバージョンとの統合に関するガイダンスについては、各 Adobe Campaign バージョンに対応するガイドを参照してください。
 
-* [Adobe Journey Optimizer &amp; Campaign v7](ajo-and-campaign-v7.md)
-* [Adobe Journey Optimizer &amp; Campaign v8](ajo-and-campaign-v8.md)
+* [Adobe Journey Optimizer ＆ Campaign v7](ajo-and-campaign-v7.md)
+* [Adobe Journey Optimizer ＆ Campaign v8](ajo-and-campaign-v8.md)
