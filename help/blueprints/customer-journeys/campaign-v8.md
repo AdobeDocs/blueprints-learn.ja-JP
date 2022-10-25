@@ -4,9 +4,9 @@ description: Adobe Campaign v8 は、電子メールやダイレクトメール�
 solution: Campaign,Campaign v8
 exl-id: 89b3a761-9cb3-4e01-8da0-043e634fa61f
 source-git-commit: f8116387105cf1fe0adfc148562529d62ca90cfc
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1059'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -22,8 +22,8 @@ Adobe Campaign v8 は、電子メールやダイレクトメールなどの従�
 * オンボーディングおよびリマーケティングキャンペーン
 * ダイレクトメール広告、パンフレット、雑誌キャンペーン
 * シンプルなトランザクションメッセージ（パスワードリセット、電子メールの受信、注文確認など）
-* 分析およびプロファイル作成のためのAdobe Experience Platformへの Campaign データの統合
-* Real-time Customer Data Platformオーディエンスの Campaign への共有。
+* 分析およびプロファイル作成のための Adobe Experience Platform への Campaign データの統合
+* Real-time Customer Data Platform オーディエンスの Campaign への共有。
 
 <br>
 
@@ -37,20 +37,20 @@ Adobe Campaign v8 は、電子メールやダイレクトメールなどの従�
 
 | シナリオ | 説明 | 機能 |
 | :-- | :--- | :--- |
-| [Journey Optimizer と Adobe Campaign](ajo-and-campaign.md) | Adobe Journey Optimizer を使用し、Real-Time Customer Profile を利用して 1:1 エクスペリエンスの調整をおこない、ネイティブの Adobe Campaign トランザクションメッセージングシステムを活用してメッセージを送信する方法を示します | Real-Time Customer Profile と Journey Optimizer の機能を活用し、瞬時のエクスペリエンスで調整しながら、Adobe Campaign のネイティブリアルタイムメッセージング機能を利用して、ラストマイルのコミュニケーションを実現します。<br><br>注意点：<br><ul><li>リアルタイムメッセージサーバーを介して 1 時間に最大 100 万件のメッセージを送信可能<li>Journey Optimizer からのスロットリングは行われませんので、プリセールスのエンタープライズアーキテクトによる技術的な検証を必ず行います</li><li>意思決定管理 は、Campaign v8 へのペイロードではサポートされていません</li></ul> |
+| [Journey Optimizer と Adobe Campaign](ajo-and-campaign.md) | Adobe Journey Optimizer を使用し、Real-Time Customer Profile を利用して 1:1 エクスペリエンスの調整を行い、ネイティブの Adobe Campaign トランザクションメッセージングシステムを活用してメッセージを送信する方法を示します | Real-Time Customer Profile と Journey Optimizer の機能を活用し、瞬時のエクスペリエンスで調整しながら、Adobe Campaign のネイティブリアルタイムメッセージング機能を利用して、ラストマイルのコミュニケーションを実現します。<br><br>注意点：<br><ul><li>リアルタイムメッセージサーバーを介して 1 時間に最大 100 万件のメッセージを送信可能<li>Journey Optimizer からのスロットリングは行われませんので、プリセールスのエンタープライズアーキテクトによる技術的な検証を必ず行います</li><li>意思決定管理は、Campaign v8 へのペイロードではサポートされていません</li></ul> |
 
 <br>
 
 ## 前提条件
 
 
-### アプリケーションサーバおよびリアルタイムメッセージングサーバ
+### アプリケーションサーバーおよびリアルタイムメッセージングサーバー
 
 * Adobe Campaign Client Console は、Campaign v8 ソフトウェアとやり取りして使用するために必要です。これは Windows ベースのクライアントで、標準のインターネットプロトコル（SOAP、HTTP など）を使用します。ソフトウェアの配布、インストール、実行に必要な権限が組織で有効になっていることを確認します。
 
 * IP アドレス許可リストへの登録
    * クライアントコンソールへのアクセス時にすべてのユーザーが利用する IP 範囲を指定します
-   * リアルタイムメッセージングサーバとの通信を許可するエンタープライズシステムの ID。また、許可リスト登録可能な IP または範囲が静的に割り当てられていることを確認します。
+   * リアルタイムメッセージングサーバーとの通信を許可するエンタープライズシステムの ID。また、許可リスト登録可能な IP または範囲が静的に割り当てられていることを確認します。
    * これは、Campaign コントロールパネルで設定および制御可能
 * sFTP キー管理
    * SSH パブリックキーを Campaign で提供された sFTP で使用できるようにします。これは、Campaign コントロールパネルで設定および制御できます。
@@ -64,7 +64,7 @@ Adobe Campaign v8 は、電子メールやダイレクトメールなどの従�
 ### モバイルプッシュ
 
 * モバイルデベロッパーを使用して、モバイルアプリをデプロイ、設定およびビルドが可能
-* アドビは、メッセージペイロードをサーバーに送信するために必要な情報を FCM (Android) および APNS (iOS) から収集する SDK のみを提供しています。モバイルアプリをコード化、デプロイ、管理、デバッグするのは、お客様の責任です
+* アドビは、メッセージペイロードをサーバーに送信するために必要な情報を FCM（Android）および APNS（iOS）から収集する SDK のみを提供しています。モバイルアプリをコード化、デプロイ、管理、デバッグするのは、お客様の責任です
 
 ### Webapps（オプション）
 
@@ -79,7 +79,7 @@ Adobe Campaign v8 は、電子メールやダイレクトメールなどの従�
 
 * ストレージは最大 2 億のプロファイルに拡張可能で、最大 1B のプロファイルに拡張可能
 * Adobe Admin Console を介したユーザーアクセスの設定と制御
-* Campaign へのデータの読み込みは、バッチファイルを使用しておこなう必要があります
+* Campaign へのデータの読み込みは、バッチファイルを使用して行う必要があります
    * API データの読み込みのサポートは、主にデータベース内のプロファイルや単純なオブジェクトの管理（作成と更新）に使用します。大量のデータの読み込みや、バッチ操作などの操作に向けたものではありません。
    * API を使用したカスタムアプリケーション目的でのデータ読み取りはサポートされていません
    * API を介して読み込まれたデータは、アプリケーションデータベースでステージングされ、1 時間ごとにクラウドデータベースにレプリケートされます
@@ -92,7 +92,7 @@ Adobe Campaign v8 は、電子メールやダイレクトメールなどの従�
 ### リアルタイムメッセージングサーバーのサイズ設定
 
 * 1 時間に最大 100 万件のメッセージを送信可能
-* デフォルトでは、2 つのリアルタイムメッセージングサーバーがプロビジョニングされます。最大 8 台のリアルタイムメッセージングサーバを拡張可能
+* デフォルトでは、2 つのリアルタイムメッセージングサーバーがプロビジョニングされます。最大 8 台のリアルタイムメッセージングサーバーを拡張可能
 
 ### SMS 設定
 
@@ -106,7 +106,7 @@ Adobe Campaign v8 は、電子メールやダイレクトメールなどの従�
 ### モバイルプッシュ設定
 
 * Campaign SDK のみが、Campaign v8 ではサポートされています。アドビカスタマーケアに連絡
-* SDK のインストールと設定の方法については、[Campaign SDK ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-push-notifications/integrating-campaign-sdk-into-the-mobile-application.html?lang=ja) を参照してください。
+* SDK のインストールと設定の方法については、[Campaign SDK ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-push-notifications/integrating-campaign-sdk-into-the-mobile-application.html?lang=ja)を参照してください。
 
    >[!IMPORTANT]
    >その他の Experience Cloud アプリケーションでは、データ収集に Experience Platform Mobile SDK を使用する必要があります。これは別の SDK なので、Campaign SDK と共にインストールする必要があります
@@ -115,7 +115,7 @@ Adobe Campaign v8 は、電子メールやダイレクトメールなどの従�
 
 ## 実装手順
 
-[Adobe Campaign v8 の実装](https://experienceleague.adobe.com/docs/campaign/campaign-v8/implement/implement.html?lang=ja) の入門ガイドを参照してください。
+[Adobe Campaign v8 の実装](https://experienceleague.adobe.com/docs/campaign/campaign-v8/implement/implement.html?lang=ja)の入門ガイドを参照してください。
 
 
 ## 関連ドキュメント
