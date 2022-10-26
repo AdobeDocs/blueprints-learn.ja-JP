@@ -5,10 +5,10 @@ solution: Customer Journey Analytics
 kt: null
 thumbnail: null
 exl-id: 3bb2dada-f4cd-43f7-a0d0-f276510ad224
-source-git-commit: 654ec6c8176a446a2a5fb7ffb0aa8a854a31c46b
+source-git-commit: 6059edc6a6b65e87ed1c06a072feea45703e9103
 workflow-type: tm+mt
-source-wordcount: '399'
-ht-degree: 98%
+source-wordcount: '413'
+ht-degree: 95%
 
 ---
 
@@ -43,7 +43,9 @@ Customer Journey Analytics の使用例の完全なリストについては、�
 
 ## Customer Journey Analytics ブループリントのガードレール図
 
-![ガードレール図](assets/cja_guardrails.svg)
+* 詳細なガードレールおよび終了から終了までの待ち時間については、 [デプロイメントガードレールドキュメント](../experience-platform/deployment/guardrails.md)
+
+![ガードレール図](../experience-platform/assets/CJA_guardrails.svg)
 
 ## 関連するブログ投稿
 

@@ -5,10 +5,10 @@ solution: Customer Journey Analytics
 kt: null
 thumbnail: null
 exl-id: 9e1ba723-63f2-4622-ba67-f2a315c3ba0c
-source-git-commit: 3d2fbd7b6e94b6f56a72e0956709557c21b4c419
-workflow-type: ht
-source-wordcount: '175'
-ht-degree: 100%
+source-git-commit: d47efe9bb7d19a745e0d75d21a09cb87912bd60b
+workflow-type: tm+mt
+source-wordcount: '189'
+ht-degree: 92%
 
 ---
 
@@ -26,7 +26,9 @@ Customer Journey Analytics から Real-time Customer Data Platform へのオー�
 
 ## Customer Journey Analytics ブループリントのガードレール図
 
-![ガードレール図](assets/cja_guardrails.svg)
+* 詳細なガードレールおよび終了から終了までの待ち時間については、 [デプロイメントガードレールドキュメント](../experience-platform/deployment/guardrails.md)
+
+![ガードレール図](../experience-platform/assets/CJA_guardrails.svg)
 
 ## 関連するブログ投稿
 

@@ -4,10 +4,10 @@ description: Real-time Customer Data Platform を使用して、アカウント�
 solution: Real-time Customer Data Platform
 kt: 9311
 exl-id: 5215d077-b0a9-4417-ae9b-f4961d4a73fa
-source-git-commit: 2db815520027e3fed71eb1eb5138009fd2ed93a1
-workflow-type: ht
-source-wordcount: '821'
-ht-degree: 100%
+source-git-commit: 6059edc6a6b65e87ed1c06a072feea45703e9103
+workflow-type: tm+mt
+source-wordcount: '837'
+ht-degree: 95%
 
 ---
 
@@ -36,7 +36,10 @@ ht-degree: 100%
 
 ## ガードレール
 
-Marketo Engage 関連のガードレールおよび実装手順は、Marketo Engage がソースまたは宛先として使用されている場合にのみ該当します。
+* Marketo Engage 関連のガードレールおよび実装手順は、Marketo Engage がソースまたは宛先として使用されている場合にのみ該当します。
+
+* 終了から終了までの待ち時間に関する追加の詳細およびガードレールについては、 [デプロイメントガードレールドキュメント](../experience-platform/deployment/guardrails.md)
+
 
 ### 複数のインスタンスと IMS 組織のサポート：
 
@@ -56,7 +59,7 @@ Marketo Engage 関連のガードレールおよび実装手順は、Marketo Eng
 
 #### Experience Platform のプロファイルとセグメント化のガードレール：
 
-* Experience Platform のプロファイルとセグメント化のガードレールを参照してください - [プロファイルとセグメント化のガイドライン](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=ja)
+* Experience Platformのプロファイルとセグメント化のガードレールを参照してください — [プロファイルとセグメント化ガードレール](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=ja)
 * アカウント、リード、商談を含む B2B セグメントでは、複数エンティティの関係を使用するので、セグメント評価がバッチになります。ストリーミングのセグメント化は、ユーザーとイベントに限定されたセグメントに対してサポートされます。
 
 #### Experience Platform - Marketo Engage ソースコネクタ：
@@ -75,7 +78,7 @@ Marketo Engage 関連のガードレールおよび実装手順は、Marketo Eng
 
 #### 宛先ガードレール
 
-* 宛先に関する具体的なガイダンスについては、宛先のドキュメントを参照してください。[宛先のガイドライン](https://experienceleague.adobe.com/docs/experience-platform/destinations/home.html?lang=ja)
+* 宛先に関する具体的なガイダンスについては、宛先のドキュメントを参照してください。[宛先ガードレール](https://experienceleague.adobe.com/docs/experience-platform/destinations/guardrails.html?lang=en)
 
 
 ## 実装手順
@@ -95,7 +98,7 @@ Real-time Customer Data Platform B2B エディションの実装と設定の方�
 
 ## 関連ドキュメント
 
-* [Real-time Customer Data Platform B2B エディション](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/b2b-overview.html?lang=ja)
+* [Real-time Customer Data Platform B2B エディション](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/b2b-overview.html?lang=en)
 * [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform.html?lang=ja)
 * [Marketo Engage](https://experienceleague.adobe.com/docs/marketo/using/home.html?lang=ja)
 * [Adobe Experience Platform - Marketo ソースコネクタ](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/marketo/marketo.html?lang=ja)
