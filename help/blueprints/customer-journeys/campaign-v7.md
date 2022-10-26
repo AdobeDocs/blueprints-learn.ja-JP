@@ -3,10 +3,10 @@ title: Campaign v7 ブループリント
 description: Adobe Campaign v7 は、電子メールやダイレクトメールなどの従来のマーケティングチャネル用に構築されたキャンペーンツールです。堅牢な ETL およびデータ管理機能を提供し、最適なキャンペーンの作成とキュレーションを支援します。そのオーケストレーションエンジンは、バッチベースのジャーニーに重点を置いた、豊富なマルチタッチマーケティングプログラムを提供します。また、リアルタイムメッセージングサーバーと組み合わせることで、マーケティングチームは、パスワードのリセット、注文確認、電子領収書など、あらゆる IT システムから包括的なペイロードに基づいて事前に定義したメッセージを送信することが可能になります。
 solution: Campaign,Campaign Classic v7
 exl-id: 71c808f5-59e6-4f49-a6ba-581ed508bc04
-source-git-commit: 37fa3bc00175a4636766564f0b8fb847fa8a951e
-workflow-type: ht
-source-wordcount: '1193'
-ht-degree: 100%
+source-git-commit: a74ef566bf468c5508263f4070beaf6d0cd73a0e
+workflow-type: tm+mt
+source-wordcount: '1195'
+ht-degree: 97%
 
 ---
 
@@ -35,20 +35,20 @@ Adobe Campaign v7 は、電子メールやダイレクトメールなどの従�
 
 | シナリオ | 説明 | 機能 |
 | :-- | :--- | :--- |
-| [Journey Optimizer と Adobe Campaign](ajo-and-campaign.md) | Adobe Journey Optimizer を使用し、Real-Time Customer Profile を利用して 1:1 エクスペリエンスの調整をおこない、ネイティブの Adobe Campaign トランザクションメッセージングシステムを活用してメッセージを送信する方法を示します | Real-Time Customer Profile と Journey Optimizer の機能を活用し、瞬時のエクスペリエンスで調整しながら、Adobe Campaign のネイティブリアルタイムメッセージング機能を利用して、ラストマイルのコミュニケーションを実現します。<br><br>注意点：<br><ul><li>リアルタイムメッセージサーバーを介して 1 時間に最大 50,000 件のメッセージを送信可能<li>Journey Optimizer からのスロットリングは行われませんので、プリセールスのエンタープライズアーキテクトによる技術的な検証を必ず行います</li><li>Campaign v7 リアルタイムメッセージングサーバーへのペイロードでは、意思決定管理 はサポートされていません。</li></ul> |
-| [Real-Time CDP と Adobe Campaign](rtcdp-and-campaign.md) | Adobe Experience Platform の Real-Time CDP とその一元化されたセグメント化ツールを Adobe Campaign と併用して、パーソナライズされた会話を提供する方法を紹介します | <ul><li>クラウドストレージのファイル交換と Adobe Campaign の取り込みワークフローを使用した、Real-Time CDP から Adobe Campaign へのオーディエンスの共有 </li><li>顧客との会話から得られた配信データとインタラクションデータを Adobe Campaign から リアルタイムReal-Time CDP に戻し、Real-Time Customer Profile とメッセージングキャンペーンのクロスチャネルレポートの両方を簡単に共有できる</li></ul> |
+| [Real-Time CDP と Adobe Campaign](rtcdp-and-campaign.md) | Adobe Experience Platform の Real-Time CDP とその一元化されたセグメント化ツールを Adobe Campaign と併用して、パーソナライズされた会話を提供する方法を紹介します | <ul><li>クラウドストレージのファイル交換ワークフローとAdobe Campaign取り込みワークフローを使用した、Real-Time CDPからAdobe Campaignへのプロファイルとオーディエンスの共有 </li><li>顧客との会話から得られた配信データとインタラクションデータを Adobe Campaign から リアルタイムReal-Time CDP に戻し、Real-Time Customer Profile とメッセージングキャンペーンのクロスチャネルレポートの両方を簡単に共有できる</li></ul> |
+| [Journey Optimizer と Adobe Campaign](ajo-and-campaign.md) | Adobe Journey Optimizer を使用し、Real-Time Customer Profile を利用して 1:1 エクスペリエンスの調整を行い、ネイティブの Adobe Campaign トランザクションメッセージングシステムを活用してメッセージを送信する方法を示します | Real-Time Customer Profile と Journey Optimizer の機能を活用し、瞬時のエクスペリエンスで調整しながら、Adobe Campaign のネイティブリアルタイムメッセージング機能を利用して、ラストマイルのコミュニケーションを実現します。<br><br>注意点：<br><ul><li>リアルタイムメッセージサーバーを介して 1 時間に最大 50,000 件のメッセージを送信可能<li>Journey Optimizer からのスロットリングは行われませんので、プリセールスのエンタープライズアーキテクトによる技術的な検証を必ず行います</li><li>Campaign v7 リアルタイムメッセージングサーバーへのペイロードでは、意思決定管理 はサポートされていません。</li></ul> |
 
 <br>
 
 ## 前提条件
 
-### アプリケーションサーバおよびリアルタイムメッセージングサーバ
+### アプリケーションサーバーおよびリアルタイムメッセージングサーバー
 
 * Adobe Campaign Client Console は、Campaign v8 ソフトウェアとやり取りして使用するために必要です。これは Windows ベースのクライアントで、標準のインターネットプロトコル（SOAP、HTTP など）を使用します。ソフトウェアの配布、インストール、実行に必要な権限が組織で有効になっていることを確認します。
 
 * IP アドレス許可リストへの登録
    * クライアントコンソールへのアクセス時にすべてのユーザーが利用する IP 範囲を指定します
-   * リアルタイムメッセージングサーバとの通信を許可するエンタープライズシステムの ID。また、許可リスト登録可能な IP または範囲が静的に割り当てられていることを確認します。
+   * リアルタイムメッセージングサーバーとの通信を許可するエンタープライズシステムの ID。また、許可リスト登録可能な IP または範囲が静的に割り当てられていることを確認します。
    * これは、Campaign コントロールパネルで設定および制御可能
 * sFTP キー管理
    * SSH パブリックキーを Campaign で提供された sFTP で使用できるようにします。これは、Campaign コントロールパネルで設定および制御できます。
@@ -62,7 +62,7 @@ Adobe Campaign v7 は、電子メールやダイレクトメールなどの従�
 ### モバイルプッシュ
 
 * モバイルデベロッパーを使用して、モバイルアプリをデプロイ、設定およびビルドが可能
-* アドビは、メッセージペイロードをサーバーに送信するために必要な情報を FCM (Android) および APNS (iOS) から収集する SDK のみを提供しています。モバイルアプリをコード化、デプロイ、管理、デバッグするのは、お客様の責任です
+* アドビは、メッセージペイロードをサーバーに送信するために必要な情報を FCM（Android）および APNS（iOS）から収集する SDK のみを提供しています。モバイルアプリをコード化、デプロイ、管理、デバッグするのは、お客様の責任です
 
 ### Webapps（オプション）
 
@@ -89,7 +89,7 @@ Adobe Campaign v7 は、電子メールやダイレクトメールなどの従�
 ### リアルタイムメッセージングサーバーのサイズ設定
 
 * 1 時間に最大 50,000 件のメッセージを送信可能
-* デフォルトでは、2 つのリアルタイムメッセージングサーバーがプロビジョニングされます。最大 8 台のリアルタイムメッセージングサーバを拡張可能
+* デフォルトでは、2 つのリアルタイムメッセージングサーバーがプロビジョニングされます。最大 8 台のリアルタイムメッセージングサーバーを拡張可能
 
 ### SMS 設定
 
@@ -108,7 +108,7 @@ Adobe Campaign v7 は、電子メールやダイレクトメールなどの従�
 * Experience Platform Mobile SDK ルート：
    * アドビタグと Campaign Classic 拡張機能を活用して、Experience Platform Mobile SDK との統合を設定します。
    * アドビタグとデータ収集に関する実務知識が必要です
-   * SDK のデプロイ、FCM（Android）およびAPNS（iOS）との統合によるプッシュトークンの取得、プッシュ通知を受け取るためのアプリの設定、プッシュインタラクションの処理など、Android および iOS でのプッシュ通知に関するモバイル開発経験が必要です。
+   * SDK のデプロイ、FCM（Android）および APNS（iOS）との統合によるプッシュトークンの取得、プッシュ通知を受け取るためのアプリの設定、プッシュインタラクションの処理など、Android および iOS でのプッシュ通知に関するモバイル開発経験が必要です。
 * Campaign モバイル SDK
    * アドビカスタマーケアに連絡
    * SDK のインストールと設定の方法については、[Campaign SDK ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-push-notifications/integrating-campaign-sdk-into-the-mobile-application.html?lang=ja) を参照してください。

@@ -2,10 +2,10 @@
 title: Journey Optimizer と Adobe Campaign v7 ブループリント
 description: Adobe Journey Optimizer を Adobe Campaign と併用し、Campaign のリアルタイムメッセージングサーバーを利用してネイティブでメッセージを送信する方法を示します
 solution: Journey Optimizer, Campaign, Campaign v8, Campaign Classic v7, Campaign Standard
-source-git-commit: 6901596cbb661ffa8cf57c6ae958db1978bf1520
-workflow-type: ht
-source-wordcount: '1128'
-ht-degree: 100%
+source-git-commit: a74ef566bf468c5508263f4070beaf6d0cd73a0e
+workflow-type: tm+mt
+source-wordcount: '975'
+ht-degree: 96%
 
 ---
 
@@ -68,16 +68,14 @@ Adobe Journey Optimizer を Adobe Campaign と併用し、Campaign のリアル�
 ### Campaign（v7）
 
 * Message Center の実行インスタンスは、アドビが管理する Cloud Services がホストする必要があります
-* v7 ビルドが 21.1 より上か v8 のどちらかである必要があります
+* v7 build > 21.1 のいずれかにある必要があります
 * メッセージングスループット
    * AC（v7）1 時間あたり 50k
-   * AC（v8）1 時間あたり最大 1M（パッケージに基づく）
 * AC（v7）は、イベントが開始したジャーニーのみ、サポートします。
    * 開始されたセグメントまたはセグメントメンバーシップが開始したジャーニーがありません
    * Audience の読み込みとビジネスイベントベースのジャーニーは、実行インスタンスに送信できる量が多いため、サポートされていません
-* AC（v7）も AC（v8）も、メッセージの意思決定管理をサポートしていません
+* AC(v7) は、メッセージでの決定管理をサポートしていません
 * Campaign へのアウトバウンド API コールのスロットリングはありません
-* Campaign v8.4 では、Experience Platform で Adobe Campaign Managed Services ソースコネクタを利用して、Campaign の配信およびトラッキングイベントを Experience Platform に同期することができます。詳しくは、ソースコネクタのドキュメントを参照してください。[リンク](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=ja)
 
 <br>
 
@@ -96,7 +94,7 @@ Adobe Journey Optimizer を Adobe Campaign と併用し、Campaign のリアル�
 #### プロファイル／ID
 
 1. [任意の顧客専用の名前空間を作成します。](https://experienceleague.adobe.com/docs/platform-learn/tutorials/identities/label-ingest-and-verify-identity-data.html?lang=ja)
-1. [スキーマに ID を追加します](https://experienceleague.adobe.com/docs/platform-learn/tutorials/identities/label-ingest-and-verify-identity-data.html?lang=ja)。
+1. [スキーマに ID を追加します](https://experienceleague.adobe.com/docs/platform-learn/tutorials/identities/label-ingest-and-verify-identity-data.html)。
 1. [プロファイル用のスキーマおよびデータセットを有効にします](https://experienceleague.adobe.com/docs/platform-learn/tutorials/profiles/bring-data-into-the-real-time-customer-profile.html?lang=ja)。
 1. [!UICONTROL リアルタイム顧客プロファイル]の様々な表示用に[結合ポリシーを設定](https://experienceleague.adobe.com/docs/platform-learn/tutorials/profiles/create-merge-policies.html?lang=ja)します（オプション）。
 1. ジャーニー使用状況用のセグメントを作成します。
@@ -114,8 +112,7 @@ Adobe Journey Optimizer を Adobe Campaign と併用し、Campaign のリアル�
 ### Campaign v7
 
 * メッセージテンプレートは、適切なパーソナライズ機能コンテキストを使用して設定する必要があります
-* Campaign Standard - トランザクションメッセージログを Experience Platform に書き戻すには、書き出しワークフローを設定する必要があります。最大でも 4 時間ごとに実行することをお勧めします。
-* Campaign v8.4 では、Experience Platform で Adobe Campaign Managed Services ソースコネクタを利用して、Campaign の配信およびトラッキングイベントを Experience Platform に同期することができます。詳しくは、ソースコネクタのドキュメントを参照してください。[リンク](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=ja)
+* Campaign v7 — エクスポートワークフローの場合、トランザクションメッセージログをExperience Platformにエクスポートするように設定する必要があります。 最大でも 4 時間ごとに実行することをお勧めします。
 
 ### モバイルプッシュ設定（オプション）
 
@@ -135,11 +132,6 @@ Adobe Journey Optimizer を Adobe Campaign と併用し、Campaign のリアル�
 
 ## 関連ドキュメント
 
-* [Experience Platform ドキュメント](https://experienceleague.adobe.com/docs/experience-platform.html?lang=ja)
-* [Experience Platform タグドキュメント](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=ja)
-* [Experience Platform Mobile SDK ドキュメント](https://experienceleague.adobe.com/docs/mobile.html?lang=ja)
 * [Journey Optimizer ドキュメント](https://experienceleague.adobe.com/docs/journey-optimizer/using/ajo-home.html?lang=ja)
 * [Journey Optimizer 製品説明](https://helpx.adobe.com/jp/legal/product-descriptions/adobe-journey-optimizer.html)
-* [Campaign v8 ドキュメント](https://experienceleague.adobe.com/docs/campaign-v8.html?lang=ja)
 * [Campaign v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic.html?lang=ja)
-* [Campaign Standard ドキュメント](https://experienceleague.adobe.com/docs/campaign-standard.html?lang=ja)

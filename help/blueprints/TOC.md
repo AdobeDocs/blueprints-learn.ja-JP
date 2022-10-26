@@ -5,10 +5,10 @@ user-guide-description: ブループリントは、既存のビジネス上の�
 product: adobe experience platform
 mini-toc-levels: 3
 role: Architect, Developer, User
-source-git-commit: 4ada1c55ea67a2d723050a2c72b4ab02c9394660
+source-git-commit: e7a640580038c547cf983956ed155099aa14b159
 workflow-type: tm+mt
-source-wordcount: '249'
-ht-degree: 84%
+source-wordcount: '248'
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,6 @@ ht-degree: 84%
 + 垂直な業界のブループリント {#vertical-blueprints}
    + [概要](/help/blueprints/vertical-blueprints/overview.md)
    + [アパレル](/help/blueprints/vertical-blueprints/apparel.md)
-   + [医療](/help/blueprints/vertical-blueprints/healthcare-vertical.md)
    + [小売](/help/blueprints/vertical-blueprints/retail.md)
    + [通信業](/help/blueprints/vertical-blueprints/telecommunications.md)
    + [観光および接客業](/help/blueprints/vertical-blueprints/travel-hospitality.md)
@@ -60,17 +59,17 @@ ht-degree: 84%
          + [ハブでの意思決定管理](/help/blueprints/customer-journeys/decision_management/decision-management-hub.md)
       + [Journey Optimizer と Adobe Campaign](/help/blueprints/customer-journeys/ajo-and-campaign.md)
       + [サードパーティのメッセージング](/help/blueprints/customer-journeys/3rd-party-messaging.md)
-   + Campaign Standard{#campaign-standard}
-      + [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard.html)
-      + [Real-Time CDPとAdobe Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/adobe-experience-platform/aep-sources-destinations/get-started-sources-destinations.html)
+   + Campaign Standard {#campaign-standard}
+      + [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard.html?lang=ja)
+      + [Real-Time CDP と Adobe Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/adobe-experience-platform/aep-sources-destinations/get-started-sources-destinations.html?lang=ja)
    + Campaign v8 {#campaign-v8}
       + [Campaign v8](/help/blueprints/customer-journeys/campaign-v8.md)
-      + [Adobe Campaign v8 とのReal-Time CDP](/help/blueprints/customer-journeys/rtcdp-and-campaign-v8.md)
-      + [Adobe Campaign v8 とのJourney Optimizer](/help/blueprints/customer-journeys/ajo-and-campaign-v8.md)
+      + [Real-Time CDP と Adobe Campaign v8](/help/blueprints/customer-journeys/rtcdp-and-campaign-v8.md)
+      + [Journey Optimizer と Adobe Campaign v8](/help/blueprints/customer-journeys/ajo-and-campaign-v8.md)
    + Campaign v7 {#campaign-v7}
       + [Campaign v7](/help/blueprints/customer-journeys/campaign-v7.md)
-      + [Real-Time CDP と Adobe Campaign v7](/help/blueprints/customer-journeys/rtcdp-and-campaign.md)
-      + [Adobe Campaign v7 とのJourney Optimizer](/help/blueprints/customer-journeys/ajo-and-campaign-v7.md)
+      + [Real-Time CDP と Adobe Campaignv7](/help/blueprints/customer-journeys/rtcdp-and-campaign.md)
+      + [Journey Optimizer と Adobe Campaign v7](/help/blueprints/customer-journeys/ajo-and-campaign-v7.md)
 + データの取り込みとデータの書き出し {#data-ingestion}
    + [概要](/help/blueprints/data-ingestion/overview.md)
    + [データの準備と取り込み](/help/blueprints/data-ingestion/ingestion.md)

@@ -3,10 +3,10 @@ title: Campaign v8 ブループリント、Campaign と AEP
 description: Adobe Campaign v8 は、電子メールやダイレクトメールなどの従来のマーケティングチャネル用に構築された次世代キャンペーンツールです。堅牢な ETL およびデータ管理機能を提供し、最適なキャンペーンの作成とキュレーションを支援します。そのオーケストレーションエンジンは、バッチベースのジャーニーに重点を置いた、豊富なマルチタッチマーケティングプログラムを提供します。また、拡張性の高いリアルタイムメッセージングサーバーと組み合わせることで、マーケティングチームは、パスワードのリセット、注文確認、電子領収書など、あらゆる IT システムから包括的なペイロードに基づいて事前に定義したメッセージを送信することが可能になります。
 solution: Campaign,Campaign v8
 exl-id: 89b3a761-9cb3-4e01-8da0-043e634fa61f
-source-git-commit: f8116387105cf1fe0adfc148562529d62ca90cfc
-workflow-type: ht
-source-wordcount: '1059'
-ht-degree: 100%
+source-git-commit: c79422931cb4305347a4034ae1cb6bac2be1e229
+workflow-type: tm+mt
+source-wordcount: '1147'
+ht-degree: 95%
 
 ---
 
@@ -37,6 +37,7 @@ Adobe Campaign v8 は、電子メールやダイレクトメールなどの従�
 
 | シナリオ | 説明 | 機能 |
 | :-- | :--- | :--- |
+| [Adobe Campaignを使用したリアルタイム顧客データプラットフォーム](rtcdp-and-campaign-v8.md) | Adobe Experience Platformとそのリアルタイム顧客プロファイルおよび一元化されたセグメント化ツールをAdobe Campaignと共に使用して、パーソナライズされた会話を提供する方法を紹介します | <ul><li>クラウドストレージのファイル交換ワークフローとAdobe Campaign取り込みワークフローを使用した、Real-Time CDPからAdobe Campaignへのプロファイルとオーディエンスの共有 </li><li>顧客との会話から得られた配信データとインタラクションデータを Adobe Campaign から リアルタイムReal-Time CDP に戻し、Real-Time Customer Profile とメッセージングキャンペーンのクロスチャネルレポートの両方を簡単に共有できる</li></ul> |
 | [Journey Optimizer と Adobe Campaign](ajo-and-campaign.md) | Adobe Journey Optimizer を使用し、Real-Time Customer Profile を利用して 1:1 エクスペリエンスの調整を行い、ネイティブの Adobe Campaign トランザクションメッセージングシステムを活用してメッセージを送信する方法を示します | Real-Time Customer Profile と Journey Optimizer の機能を活用し、瞬時のエクスペリエンスで調整しながら、Adobe Campaign のネイティブリアルタイムメッセージング機能を利用して、ラストマイルのコミュニケーションを実現します。<br><br>注意点：<br><ul><li>リアルタイムメッセージサーバーを介して 1 時間に最大 100 万件のメッセージを送信可能<li>Journey Optimizer からのスロットリングは行われませんので、プリセールスのエンタープライズアーキテクトによる技術的な検証を必ず行います</li><li>意思決定管理は、Campaign v8 へのペイロードではサポートされていません</li></ul> |
 
 <br>
