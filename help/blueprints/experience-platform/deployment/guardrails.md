@@ -3,7 +3,7 @@ title: Experience Platformおよびアプリケーションガードレール
 description: Guardrail は、Adobe Experience Platformおよびアプリケーション内のコンポーネントとサービスに対するパフォーマンスの期待値と影響を定義します
 solution: Customer Journey Analytics, Journey Orchestration, Real-time Customer Data Platform
 thumbnail: null
-source-git-commit: e75f8b39b52794b61c4efd33df1f658a6615a7b8
+source-git-commit: e22c01fb768eed22d71748fd1e5bd8d3bc25068c
 workflow-type: tm+mt
 source-wordcount: '297'
 ht-degree: 30%
@@ -13,7 +13,7 @@ ht-degree: 30%
 
 # ガードレール
 
-Guardrail は、データとシステムの使用状況、パフォーマンスの最適化、Adobe Experience Platformおよびアプリケーションでのエラーや予期しない結果の回避に関するガイダンスを提供する、推奨されるしきい値です。 Guardrail は、顧客のアーキテクチャと使用例のパフォーマンス最適化を促進するために、システムの制約とパフォーマンスの期待を反映することを目的としています。 Guardrail は、サービスレベル契約にはなりません。製品固有のサービスレベル契約について詳しくは、以下にリンクされている製品の説明ドキュメントを参照してください。
+Guardrail は、データとシステムの使用状況、パフォーマンスの最適化、Adobe Experience Platformおよびアプリケーションでのエラーや予期しない結果の回避に関するガイダンスを提供する、推奨されるしきい値です。 Guardrail は、顧客のアーキテクチャと使用例のパフォーマンス最適化を促進するために、システムの制約とパフォーマンスに対する期待を反映することを目的としています。 Guardrail は、サービスレベル契約にはなりません。製品固有のサービスレベル契約について詳しくは、以下にリンクされている製品の説明ドキュメントを参照してください。
 
 
 ## Adobe Experience Platformおよびアプリケーションの Guardrail
