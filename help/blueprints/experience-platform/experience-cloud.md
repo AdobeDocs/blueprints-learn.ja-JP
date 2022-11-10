@@ -5,10 +5,10 @@ solution: Experience Cloud, Campaign, Analytics, Target, Audience Manager, Comme
 kt: 7200
 thumbnail: null
 exl-id: 67f7e236-4fa2-434d-af22-953e94a079c1
-source-git-commit: 654ec6c8176a446a2a5fb7ffb0aa8a854a31c46b
-workflow-type: ht
-source-wordcount: '150'
-ht-degree: 100%
+source-git-commit: d952442d066ea99f5b089f85798129dd0e40daec
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
