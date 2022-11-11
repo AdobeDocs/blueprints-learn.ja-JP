@@ -5,10 +5,10 @@ solution: Customer Journey Analytics
 kt: null
 thumbnail: null
 exl-id: 9e1ba723-63f2-4622-ba67-f2a315c3ba0c
-source-git-commit: d47efe9bb7d19a745e0d75d21a09cb87912bd60b
+source-git-commit: 985f7320db7c77b8541ec4ef76b1eb7ad0caae56
 workflow-type: tm+mt
-source-wordcount: '189'
-ht-degree: 92%
+source-wordcount: '392'
+ht-degree: 44%
 
 ---
 
@@ -29,6 +29,18 @@ Customer Journey Analytics から Real-time Customer Data Platform へのオー�
 * 詳細なガードレールおよび終了から終了までの待ち時間については、 [デプロイメントガードレールドキュメント](../experience-platform/deployment/guardrails.md)
 
 ![ガードレール図](../experience-platform/assets/CJA_guardrails.svg)
+
+## よくある質問
+
+* CJA が送信した RTCDP に対応するプロファイルが存在しない場合、新しいプロファイルが作成されますか。それとも、CJA からオーディエンスのみが記録され、既に存在するプロファイルがあるか。 はい、新しいプロファイルが作成されます。 その結果、RTCDP 実装が既知のお客様のみを対象とする場合は、既知の ID を持つプロファイルのみをフィルタリングするように CJA オーディエンスルールを記述する必要があります。 これにより、必要に応じて、匿名プロファイルから RTCDP プロファイル数が増加しなくなります。
+
+* CJA は、オーディエンスデータをパイプラインイベントとして送信しますか、それともデータレイクにも送信されるフラットファイルですか。 CJA オーディエンスは、パイプラインを介して RTCDP プロファイルサービスにストリーミングされますが、データもデータセットとしてデータレイクに保存されます。
+
+* CJA はどの ID を送信しますか。 CJA は、CJA の設定時に「ユーザー ID」として設定された ID を介して送信します。
+
+* プライマリ ID として設定されるもの CJA をプライマリ「人」ID として設定した際にユーザーが選択した ID。
+
+* ID サービスは CJA メッセージも処理しますか。 例えば、CJA は、オーディエンス共有を通じてプロファイル ID グラフに ID を追加できますか。 いいえ。ID サービスは CJA メッセージを処理しません。
 
 ## 関連するブログ投稿
 

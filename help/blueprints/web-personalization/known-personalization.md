@@ -5,10 +5,10 @@ landing-page-description: Web パーソナライズ機能を電子メールお�
 solution: Real-time Customer Data Platform, Target, Audience Manager, Analytics, Experience Cloud Services, Data Collection, Experience Platform
 kt: 7194thumb-web-personalization-scenario2.jpg
 exl-id: 29667c0e-bb79-432e-af3a-45bd0b3b43bb
-source-git-commit: a76295eeb8bb83ebaf5254c790514735b4eeec9f
+source-git-commit: 87679928d2bfcfe74c85bb054341c662999e52a5
 workflow-type: tm+mt
-source-wordcount: '1389'
-ht-degree: 95%
+source-wordcount: '1625'
+ht-degree: 79%
 
 ---
 
@@ -82,13 +82,17 @@ ht-degree: 95%
 
 [Web およびモバイルパーソナライズ機能ブループリントの概要ページのガードレールを参照してください。](overview.md)
 
+* エッジプロファイルは、ユーザーが Edge 上でアクティブな場合にのみ作成されます。つまり、プロファイルのストリーミングイベントが Web/Mobile SDK または Edge Server API を介して Edge に送信されます。 これは、通常、Web サイトまたはモバイルアプリでアクティブになるユーザーに相当します。
+* エッジプロファイルには、14 日間のデフォルトの有効期間があります。 ユーザーがアクティブなエッジイベントを収集していない場合、無操作状態が 14 日間続くと、プロファイルはエッジで期限切れになります。 プロファイルはハブで有効なままとなり、エッジでユーザーが再度アクティブになると、エッジと同期されます。
+* エッジで新しいプロファイルを作成すると、同期呼び出しがハブと非同期で実行され、宛先を介したエッジ投影用に設定されたオーディエンスおよび属性が取得されます。 非同期プロセスなので、ハブプロファイルがエッジに同期されるまでに、1 秒から数分かかる場合があります。 したがって、最初のページエクスペリエンスで、新しいプロファイルがハブのプロファイルコンテキストを持つことを保証できません。 これは、新しく収集したデータをハブに送信する場合にも当てはまります。 このデータは非同期的にエッジに投影されるので、データが適切なエッジに到達するタイミングは、エッジアクティビティとは別に、エッジに送信されます。 エッジでアクティブなプロファイルのみが、ハブから投影された属性とオーディエンスを保持します。
+
 ## 実装に関する考慮事項
 
 ID の前提条件
 
 * Edge ネットワークおよび WebSDK で概説した統合パターン 1 を利用する場合は、任意のプライマリ ID を利用できます。最初のログインパーソナライゼーションでは、パーソナライゼーションリクエストセットのプライマリ ID が、Real-time Customer Data Platform からのプロファイルのプライマリ ID と一致している必要があります。匿名デバイスと既知の顧客との間の ID ステッチは、ハブで処理され、その後エッジに投影されます。
 * 消費者が web サイトを訪問またはログインする前にハブにアップロードされたデータは、パーソナライゼーションにすぐに使用できないことに注意してください。ハブデータを同期するには、最初にアクティブな Edge プロファイルが存在する必要があります。Edge プロファイルが作成されると、ハブプロファイルと非同期で同期されるので、次ページのパーソナライゼーションが実行されます。
-* Adobe Experience Platform から Adobe Target にオーディエンスを共有するには、上記の統合パターン 2 および 3 で概要を説明したように、オーディエンス共有サービスを使用する際に、ID として ECID を使用する必要があります。
+* Adobe Experience PlatformからAdobe Targetにオーディエンスを共有するには、前述の統合パターン 2 および 3 で概要を説明したように、オーディエンス共有サービスを使用する際に、ECID を ID として使用する必要があります。
 * 代替 ID を使用して、Audience Manager を介して Experience Platform のオーディエンスを Adobe Target と共有することもできます。Experience Platform は、次のサポートされている名前空間を使用して、Audience Manager に対するオーディエンスをアクティブ化します。IDFA、GAID、AdCloud、Google、ECID、EMAIL_LC_SHA256。Audience Manager と Target は、ECID ID を介してオーディエンスのメンバーシップを解決するので、Adobe Target に消費者の最終的なオーディエンス共有を行うには、ECID が引き続き ID グラフ内にある必要があります。
 
 ## 関連ドキュメント
