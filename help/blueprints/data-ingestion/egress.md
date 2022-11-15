@@ -3,10 +3,11 @@ title: データアクセスと書き出しブループリント
 description: このブループリントは、Adobe Experience Platformおよびアプリケーションからデータにアクセスし、書き出す方法の概要と概要を提供します。
 product: adobe experience platform
 solution: Experience Platform, Journey Optimizer, Real-time Customer Data Platform, Tags
-source-git-commit: 67e66068bb8a2106dd8aa9784b5a39377225c045
+exl-id: 2ca51a29-2db2-468f-8688-fc8bc061b47b
+source-git-commit: c0fe0e94e30351f593e32ea0e6809dd832f976ad
 workflow-type: tm+mt
-source-wordcount: '1490'
-ht-degree: 4%
+source-wordcount: '1513'
+ht-degree: 5%
 
 ---
 
@@ -50,7 +51,7 @@ ht-degree: 4%
 
 * リアルタイム顧客プロファイル [guardrail](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=en) 適用されます。
 * 一度に 1 つのプロファイル参照用に設計されています。 分析やデータサイエンスを使用するために、プロファイル母集団全体の一括プロファイルアクセスやダウンロードには使用されません。
-* プロファイル参照の応答時間は、プロファイルガードレールに従います。 待ち時間が短い要件 — 同じページのパーソナライゼーション要件の場合は、Edge プロファイルや顧客のパーソナライゼーションの宛先を利用して、待ち時間が短いプロファイルにアクセスする必要があります。 [ドキュメント](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/custom-personalization.html?lang=en).
+* プロファイル参照の応答時間は、プロファイルガードレールに従います。 リアルタイムの低遅延要件（同じページのパーソナライゼーション要件の場合など）は、からへの Edge プロファイルを利用する必要があります [Adobe Target Connection](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection.html?lang=ja) または [カスタムパーソナライゼーション接続](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/custom-personalization.html?lang=en) ブラウザー内およびアプリのパーソナライゼーション内でのリアルタイムプロファイルアクセス用。
 
 ### データアクセス API {#data-access-api}
 
@@ -129,7 +130,7 @@ Experience Platform クエリサービスを使用すると、顧客はExperienc
 
 #### ユースケース
 
-* プロファイル属性情報（社内データストア、分析ツール、電子メールシステム、サポートシステムへのオーディエンスメンバーシップを含む）をアクティブ化します。
+* オーディエンスのメンバーシップを含むプロファイル属性情報を、社内のエンタープライズデータストア、分析ツール、電子メールシステム、サポートシステムに対してアクティブ化します。
 * 外部の広告ベンダーに対してプロファイルオーディエンスのメンバーシップをアクティブ化し、プロファイルに対するコンテンツのターゲティングとパーソナライズをおこないます。
 
 #### 注意点
@@ -150,17 +151,7 @@ Journey Optimizerのお客様は、ジャーニーキャンバスからカスタ
 
 #### 注意点
 
-* でサポートされるスループットのガードレール [Journey Optimizer](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/guardrails.html?lang=en) そして、 [リアルタイム顧客プロファイル](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=en) 適用されます。
+* でサポートされるスループットのガードレール [Journey Optimizer](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/guardrails.html?lang=ja) そして、 [リアルタイム顧客プロファイル](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=en) 適用されます。
 * カスタムアクションは、ジャーニーのイベントまたはプロファイルごとに 1 つずつストリーミングで実行できます。 カスタマージャーニーをまたいだファイルの形式での一括操作または一括データ出力は実行できません。
 * アクティベーションペイロードに含めることができる、リアルタイム顧客プロファイル属性とエクスペリエンスイベントへのストリーミングアクセス。
 * イベントを外部の宛先に送信する前に、イベントデータをフィルタリングし、単純なマッピング変換を適用することができます。
-
-
-
-
-
-
-
-
-
-
