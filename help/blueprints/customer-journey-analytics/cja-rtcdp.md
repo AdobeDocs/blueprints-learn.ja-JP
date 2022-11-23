@@ -8,7 +8,7 @@ exl-id: 9e1ba723-63f2-4622-ba67-f2a315c3ba0c
 source-git-commit: 985f7320db7c77b8541ec4ef76b1eb7ad0caae56
 workflow-type: tm+mt
 source-wordcount: '392'
-ht-degree: 44%
+ht-degree: 48%
 
 ---
 
@@ -26,7 +26,7 @@ Customer Journey Analytics から Real-time Customer Data Platform へのオー�
 
 ## Customer Journey Analytics ブループリントのガードレール図
 
-* 詳細なガードレールおよび終了から終了までの待ち時間については、 [デプロイメントガードレールドキュメント](../experience-platform/deployment/guardrails.md)
+* ガードレールの詳細とエンドツーエンドの遅延については、[デプロイメントガードレールドキュメント](../experience-platform/deployment/guardrails.md)を参照してください
 
 ![ガードレール図](../experience-platform/assets/CJA_guardrails.svg)
 
