@@ -5,9 +5,9 @@ solution: Data Collection
 kt: 7203
 exl-id: e5ec6886-4fa4-4c9b-a2d8-e843d7758669,f0efaf3c-6c4f-47c3-ab8a-e8e146dd071c
 source-git-commit: 6f10178e2d8d8877ec254e6ca83d1711fa4a82b0
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '500'
+ht-degree: 100%
 
 ---
 
@@ -27,11 +27,11 @@ ht-degree: 0%
 
 ## ガードレール
 
-* データサイエンスの結果をExperience Platformに取り込む際の詳細なガードレールとエンドツーエンドの待ち時間について、リアルタイム顧客プロファイルは、 [デプロイメントガードレールドキュメント](../experience-platform/deployment/guardrails.md).
+* ガードレールの詳細と、データ サイエンスの結果を Experience Platform およびリアルタイム顧客プロファイルに取り込む際のエンドツーエンドのの遅延については、[デプロイメントガードレールドキュメント](../experience-platform/deployment/guardrails.md)を参照してください。
 
 ## 実装手順
 
-1. データを取り込むために[スキーマを作成](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2021.1.xdm)します。
+1. データを取り込むために[スキーマを作成](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2021.1.xdm&amp;lang=ja)します。
 1. データを取り込むために[データセットを作成](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/create-datasets-and-ingest-data.html?lang=ja)します。
 1. Experience Platform に[データを取り込みます](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2020.1.dataingestion&amp;lang=ja)。
 
