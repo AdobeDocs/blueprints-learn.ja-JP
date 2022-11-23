@@ -2,14 +2,15 @@
 title: Journey Optimizer と Adobe Campaign v7 ブループリント
 description: Adobe Journey Optimizer を Adobe Campaign と併用し、Campaign のリアルタイムメッセージングサーバーを利用してネイティブでメッセージを送信する方法を示します
 solution: Journey Optimizer, Campaign, Campaign v8, Campaign Classic v7, Campaign Standard
-source-git-commit: a74ef566bf468c5508263f4070beaf6d0cd73a0e
-workflow-type: tm+mt
+exl-id: 6d9bc65c-cca0-453f-8106-d2895d005ada
+source-git-commit: 779b55ab12a27796a00db4b1adb6add7d3ccd0a8
+workflow-type: ht
 source-wordcount: '975'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
-# Journey Optimizer と Adobe Campaignv7
+# Journey Optimizer と Adobe Campaign v7
 
 Adobe Journey Optimizer を Adobe Campaign と併用し、Campaign のリアルタイムメッセージングサーバーを利用してネイティブでメッセージを送信する方法を示します。
 
@@ -28,14 +29,14 @@ Adobe Journey Optimizer を Adobe Campaign と併用し、Campaign のリアル�
 
 ### Adobe Experience Platform
 
-* Journey Optimizer のデータソースを設定する前に、スキーマとデータセットをシステムに設定する必要があります。
-* エクスペリエンスイベントクラスベースのスキーマの場合、ルールベースのイベントではないイベントをトリガーする場合に、「オーケストレーション eventID」フィールドグループを追加します。
+* Journey Optimizer のデータソースを設定する前に、スキーマとデータセットをシステムに設定する必要があります
+* エクスペリエンスイベントクラスベースのスキーマの場合、ルールベースのイベントではないイベントをトリガーする場合に、「オーケストレーション eventID」フィールドグループを追加します
 * 個別のプロファイルクラスベースのスキーマの場合、「Profile test details」フィールドグループを追加して、Journey Optimizer で使用するテストプロファイルを読み込めるようにします
-* Journey Optimizer と Campaign が同じ IMS 組織内でプロビジョニングされています。
+* Journey Optimizer と Campaign が同じ IMS 組織内でプロビジョニングされています
 
 ### Campaign v7
 
-* リアルタイムメッセージングサービス（Message Center）の実行インスタンスは、アドビが管理する Cloud Services がホストする必要があります。
+* リアルタイムメッセージングサービス（Message Center）の実行インスタンスは、アドビが管理する Cloud Services がホストする必要があります
 * すべてのメッセージの作成は、Campaign インスタンス自体内で行われます。
 
 <br>
@@ -60,7 +61,7 @@ Adobe Journey Optimizer を Adobe Campaign と併用し、Campaign のリアル�
 * サードパーティシステムへのアウトバウンド統合
    * インフラはマルチテナントであるため、単一の静的 IP をサポートしていません（すべてのデータセンター IP を許可リストに含める必要があります）
    * カスタムアクションは POST メソッドと PUT メソッドのみ対応
-   * 認証のサポート：トークン｜パスワード｜OAuth2
+   * 認証のサポート：トークン | パスワード | OAuth2
 * Adobe Experience Platform や Journey Optimizer の個々のコンポーネントをパッケージ化して、様々なサンドボックス間で移動させることはできません。新しい環境に再実装する必要があります
 
 <br>
@@ -68,13 +69,13 @@ Adobe Journey Optimizer を Adobe Campaign と併用し、Campaign のリアル�
 ### Campaign（v7）
 
 * Message Center の実行インスタンスは、アドビが管理する Cloud Services がホストする必要があります
-* v7 build > 21.1 のいずれかにある必要があります
+* v7 build >21.1 のいずれかが必要です。
 * メッセージングスループット
    * AC（v7）1 時間あたり 50k
 * AC（v7）は、イベントが開始したジャーニーのみ、サポートします。
    * 開始されたセグメントまたはセグメントメンバーシップが開始したジャーニーがありません
    * Audience の読み込みとビジネスイベントベースのジャーニーは、実行インスタンスに送信できる量が多いため、サポートされていません
-* AC(v7) は、メッセージでの決定管理をサポートしていません
+* AC (v7) は、メッセージでの意思決定管理をサポートしていません
 * Campaign へのアウトバウンド API コールのスロットリングはありません
 
 <br>
@@ -85,7 +86,7 @@ Adobe Journey Optimizer を Adobe Campaign と併用し、Campaign のリアル�
 
 #### スキーマ／データセット
 
-1. 顧客提供データに基づき、Experience Platform で[個人プロファイル、エクスペリエンスイベントおよびマルチエンティティスキーマを設定します](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2021.1.xdm)。
+1. 顧客提供データに基づき、Experience Platform で[個人プロファイル、エクスペリエンスイベントおよびマルチエンティティスキーマを設定します](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2021.1.xdm&amp;lang=ja)。
 1. Adobe Campaign broadLog、trackingLog および配信不能アドレステーブル（オプション）用の Experience Event クラスベースのスキーマを作成します。
 1. Experience Platform で取り込む[データセットを作成します。](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/create-datasets-and-ingest-data.html?lang=ja)
 1. ガバナンス用のデータセットに、Experience Platform で[データ使用ラベルを追加します。](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-governance/classify-data-using-governance-labels.html?lang=ja)
@@ -94,9 +95,9 @@ Adobe Journey Optimizer を Adobe Campaign と併用し、Campaign のリアル�
 #### プロファイル／ID
 
 1. [任意の顧客専用の名前空間を作成します。](https://experienceleague.adobe.com/docs/platform-learn/tutorials/identities/label-ingest-and-verify-identity-data.html?lang=ja)
-1. [スキーマに ID を追加します](https://experienceleague.adobe.com/docs/platform-learn/tutorials/identities/label-ingest-and-verify-identity-data.html)。
+1. [スキーマに ID を追加します](https://experienceleague.adobe.com/docs/platform-learn/tutorials/identities/label-ingest-and-verify-identity-data.html?lang=ja)。
 1. [プロファイル用のスキーマおよびデータセットを有効にします](https://experienceleague.adobe.com/docs/platform-learn/tutorials/profiles/bring-data-into-the-real-time-customer-profile.html?lang=ja)。
-1. [!UICONTROL リアルタイム顧客プロファイル]の様々な表示用に[結合ポリシーを設定](https://experienceleague.adobe.com/docs/platform-learn/tutorials/profiles/create-merge-policies.html?lang=ja)します（オプション）。
+1. [!UICONTROL リアルタイム顧客プロファイル] の様々な表示用に[結合ポリシーを設定](https://experienceleague.adobe.com/docs/platform-learn/tutorials/profiles/create-merge-policies.html?lang=ja)します（オプション）。
 1. ジャーニー使用状況用のセグメントを作成します。
 
 #### ソース／宛先
@@ -112,7 +113,7 @@ Adobe Journey Optimizer を Adobe Campaign と併用し、Campaign のリアル�
 ### Campaign v7
 
 * メッセージテンプレートは、適切なパーソナライズ機能コンテキストを使用して設定する必要があります
-* Campaign v7 — エクスポートワークフローの場合、トランザクションメッセージログをExperience Platformにエクスポートするように設定する必要があります。 最大でも 4 時間ごとに実行することをお勧めします。
+* Campaign v7 - トランザクションメッセージログを Experience Platform に書き戻すには、書き出しワークフローを設定する必要があります。最大でも 4 時間ごとに実行することをお勧めします。
 
 ### モバイルプッシュ設定（オプション）
 
@@ -120,7 +121,7 @@ Adobe Journey Optimizer を Adobe Campaign と併用し、Campaign のリアル�
 1. Adobe タグを活用し、次の拡張子を持つモバイルプロパティを作成します。
    * Adobe Journey Optimizer | Adobe Campaign Classic | Adobe Campaign Standard
    * Adobe Experience Platform Edge Network
-   * IDEdge ネットワーク用
+   * ID Edge ネットワーク用
    * モバイルコア
 1. モバイルアプリデプロイメント用と web デプロイメント用の専用のデータストリームがあることを確認
 1. 詳しくは、[Adobe Journey Optimizer Mobile ガイド](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-journey-optimizer)を参照
