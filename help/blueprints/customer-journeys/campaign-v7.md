@@ -4,9 +4,9 @@ description: Adobe Campaign v7 は、電子メールやダイレクトメール�
 solution: Campaign,Campaign Classic v7
 exl-id: 71c808f5-59e6-4f49-a6ba-581ed508bc04
 source-git-commit: a74ef566bf468c5508263f4070beaf6d0cd73a0e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1195'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -35,8 +35,8 @@ Adobe Campaign v7 は、電子メールやダイレクトメールなどの従�
 
 | シナリオ | 説明 | 機能 |
 | :-- | :--- | :--- |
-| [Real-Time CDP と Adobe Campaign](rtcdp-and-campaign.md) | Adobe Experience Platform の Real-Time CDP とその一元化されたセグメント化ツールを Adobe Campaign と併用して、パーソナライズされた会話を提供する方法を紹介します | <ul><li>クラウドストレージのファイル交換ワークフローとAdobe Campaign取り込みワークフローを使用した、Real-Time CDPからAdobe Campaignへのプロファイルとオーディエンスの共有 </li><li>顧客との会話から得られた配信データとインタラクションデータを Adobe Campaign から リアルタイムReal-Time CDP に戻し、Real-Time Customer Profile とメッセージングキャンペーンのクロスチャネルレポートの両方を簡単に共有できる</li></ul> |
-| [Journey Optimizer と Adobe Campaign](ajo-and-campaign.md) | Adobe Journey Optimizer を使用し、Real-Time Customer Profile を利用して 1:1 エクスペリエンスの調整を行い、ネイティブの Adobe Campaign トランザクションメッセージングシステムを活用してメッセージを送信する方法を示します | Real-Time Customer Profile と Journey Optimizer の機能を活用し、瞬時のエクスペリエンスで調整しながら、Adobe Campaign のネイティブリアルタイムメッセージング機能を利用して、ラストマイルのコミュニケーションを実現します。<br><br>注意点：<br><ul><li>リアルタイムメッセージサーバーを介して 1 時間に最大 50,000 件のメッセージを送信可能<li>Journey Optimizer からのスロットリングは行われませんので、プリセールスのエンタープライズアーキテクトによる技術的な検証を必ず行います</li><li>Campaign v7 リアルタイムメッセージングサーバーへのペイロードでは、意思決定管理 はサポートされていません。</li></ul> |
+| [Real-Time CDP と Adobe Campaign](rtcdp-and-campaign.md) | Adobe Experience Platform の Real-Time CDP とその一元化されたセグメント化ツールを Adobe Campaign と併用して、パーソナライズされた会話を提供する方法を紹介します | <ul><li>クラウドストレージのファイル交換と Adobe Campaign の取り込みワークフローを使用した、Real-Time CDP から Adobe Campaign へのプロファイルとオーディエンスの共有 </li><li>顧客との会話から得られた配信データとインタラクションデータを Adobe Campaign から リアルタイムReal-Time CDP に戻し、リアルタイム顧客プロファイルとメッセージングキャンペーンのクロスチャネルレポートの両方を簡単に共有できる</li></ul> |
+| [Journey Optimizer と Adobe Campaign](ajo-and-campaign.md) | Adobe Journey Optimizer を使用し、リアルタイム顧客プロファイルを利用して 1:1 エクスペリエンスの調整を行い、ネイティブの Adobe Campaign トランザクションメッセージングシステムを活用してメッセージを送信する方法を示します | リアルタイム顧客プロファイルと Journey Optimizer の機能を活用し、瞬時のエクスペリエンスで調整しながら、Adobe Campaign のネイティブリアルタイムメッセージング機能を利用して、ラストマイルのコミュニケーションを実現します。<br><br>注意点：<br><ul><li>リアルタイムメッセージサーバーを介して 1 時間に最大 50,000 件のメッセージを送信可能<li>Journey Optimizer からのスロットリングは行われませんので、プリセールスのエンタープライズアーキテクトによる技術的な検証を必ず行います</li><li>Campaign v7 リアルタイムメッセージングサーバーへのペイロードでは、意思決定管理 はサポートされていません。</li></ul> |
 
 <br>
 
@@ -48,7 +48,7 @@ Adobe Campaign v7 は、電子メールやダイレクトメールなどの従�
 
 * IP アドレス許可リストへの登録
    * クライアントコンソールへのアクセス時にすべてのユーザーが利用する IP 範囲を指定します
-   * リアルタイムメッセージングサーバーとの通信を許可するエンタープライズシステムの ID。また、許可リスト登録可能な IP または範囲が静的に割り当てられていることを確認します。
+   * リアルタイムメッセージングサーバーとの通信を許可するエンタープライズシステムの ID。また、許可リスト登録可能な IP または範囲が静的に割り当てられていることを確認します
    * これは、Campaign コントロールパネルで設定および制御可能
 * sFTP キー管理
    * SSH パブリックキーを Campaign で提供された sFTP で使用できるようにします。これは、Campaign コントロールパネルで設定および制御できます。
@@ -77,7 +77,7 @@ Adobe Campaign v7 は、電子メールやダイレクトメールなどの従�
 
 * ストレージは最大 1 億件のプロファイルに拡張可能
 * Adobe Admin Console（推奨）を介した、またはアプリケーション自体でのローカルなユーザーアクセスの設定と制御
-* Campaign へのデータの読み込みは、バッチファイルを使用しておこなう必要があります
+* Campaign へのデータの読み込みは、バッチファイルを使用して行う必要があります
    * API データの読み込みのサポートは、主にデータベース内のプロファイルや単純なオブジェクトの管理（作成と更新）に使用します。大量のデータの読み込みや、バッチ操作などの操作に向けたものではありません。
    * API を使用したカスタムアプリケーション目的でのデータ読み取りはサポートされていません
 * API 呼び出しは、1 秒あたり 15 件または 1 日あたり 150,000 件に制限されます
@@ -111,7 +111,7 @@ Adobe Campaign v7 は、電子メールやダイレクトメールなどの従�
    * SDK のデプロイ、FCM（Android）および APNS（iOS）との統合によるプッシュトークンの取得、プッシュ通知を受け取るためのアプリの設定、プッシュインタラクションの処理など、Android および iOS でのプッシュ通知に関するモバイル開発経験が必要です。
 * Campaign モバイル SDK
    * アドビカスタマーケアに連絡
-   * SDK のインストールと設定の方法については、[Campaign SDK ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-push-notifications/integrating-campaign-sdk-into-the-mobile-application.html?lang=ja) を参照してください。
+   * SDK のインストールと設定の方法については、[Campaign SDK ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-push-notifications/integrating-campaign-sdk-into-the-mobile-application.html?lang=ja)を参照してください。
 
    >[!IMPORTANT]
    >Campaign SDK をデプロイし、他の Experience Cloud アプリケーションと連携する場合は、データ収集に Experience Platform Mobile SDK を使用する必要があります。これは別の SDK なので、Campaign SDK と共にインストールする必要があります
