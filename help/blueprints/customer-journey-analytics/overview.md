@@ -6,9 +6,9 @@ kt: null
 thumbnail: null
 exl-id: 3bb2dada-f4cd-43f7-a0d0-f276510ad224
 source-git-commit: 6059edc6a6b65e87ed1c06a072feea45703e9103
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '413'
+ht-degree: 100%
 
 ---
 
@@ -34,7 +34,8 @@ Customer Journey Analytics の使用例の完全なリストについては、�
 
 ![アーキテクチャ図](assets/CJA.svg)
 
-主なユースケースを次に示します。| ブループリント | 説明 |  Experience Cloud アプリケーション |
+主なユースケースを次に示します。
+| ブループリント | 説明 |  Experience Cloud アプリケーション |
 |---|---|---|
 | **[クロスチャネルジャーニー分析](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/cross-channel.html?lang=ja)**  | <ul><li>Web、モバイルおよびオフラインの様々なプロパティからのデータを統合することで、複数のチャネルをまたいだ顧客行動を単一の統合されたビューに表示します。</li></ul> | <ul><li>Adobe Experience Platform</li><li>Customer Journey Analytics</li><li>Adobe Analytics（オプション）</li></ul>|
 | **[オーディエンスを Real-time Customer Data Platform に公開](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/audiences/publish.html?lang=ja)** | <ul><li>Customer Journey Analytics（CJA）で識別されたオーディエンスを作成し、Adobe Experience Platform のリアルタイム顧客プロファイルに公開して、顧客のターゲティングとパーソナライゼーションを実現します。Customer Journey Analytics の詳細なフィルターおよび計算済みフィールドから、履歴データの使用や、より絞り込まれたオーディエンスを使用てのオーディエンスの作成に最適です。</li></ul> | <ul><li>Real-time Customer Data Platform</li><li>Customer Journey Analytics</li> |
@@ -42,7 +43,7 @@ Customer Journey Analytics の使用例の完全なリストについては、�
 
 ## Customer Journey Analytics ブループリントのガードレール図
 
-* 詳細なガードレールおよび終了から終了までの待ち時間については、 [デプロイメントガードレールドキュメント](../experience-platform/deployment/guardrails.md)
+* ガードレールの詳細とエンドツーエンドの遅延については、[デプロイメントガードレールドキュメント](../experience-platform/deployment/guardrails.md)を参照してください
 
 ![ガードレール図](../experience-platform/assets/CJA_guardrails.svg)
 
