@@ -6,9 +6,9 @@ kt: 7199
 thumbnail: null
 exl-id: 9b12cd7a-5e5f-443a-91a1-44273cdabc2d
 source-git-commit: 122e317b34c7704dc80da11d08b9a8ff955dfa8c
-workflow-type: tm+mt
-source-wordcount: '987'
-ht-degree: 88%
+workflow-type: ht
+source-wordcount: '0'
+ht-degree: 100%
 
 ---
 
@@ -66,12 +66,12 @@ ht-degree: 88%
 <td>Analytics</td>
 <td>
 <ul>
-<li>Web/モバイル SDK で収集されたデータは、Adobe Analyticsに転送できます。</li>
+<li>Web／モバイル SDK で収集されたデータは、Adobe Analytics に転送することができます。</li>
 </ul>
 </td>
 <td>
 <ul>
-<li>Analytics によって収集されたデータは、Experience Platform データレイクおよびプロファイルストアに送信できます。 <a href="https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html?lang=ja">Analytics データコネクタ</a></li>
+<li>Analytics によって収集されたデータは、Experience Platform データレイクおよびプロファイル格納に送信することができます。 <a href="https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html?lang=ja">Analytics データコネクタ</a></li>
 </ul>
 </td>
 <td>
@@ -89,13 +89,13 @@ ht-degree: 88%
 </td>
 <td>
 <ul>
-<li>収集され、Audience Managerのオーディエンスメンバーシップと共に評価されるデータは、Experience Platformデータレイクおよびプロファイルストアに共有できます。 <a href="https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/audience-manager.html?lang=ja">Audience Manager ソースコネクタ</a></li>
+<li>Audience Manager からオーディエンスメンバーシップとともに収集および評価されたデータは、Experience Platform データレイクおよびプロファイル格納に共有することができます。 <a href="https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/audience-manager.html?lang=ja">Audience Manager ソースコネクタ</a></li>
 </ul>
 </td>
 <td>
 <ul>
-<li><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/anonymous.html?lang=en">匿名オーディエンスアクティベーション</a></li>
-<li><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/known-customer-audience-activation/known.html">既知の顧客のアクティベーション</a></li>
+<li><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/anonymous.html?lang=ja">匿名オーディエンスアクティベーション</a></li>
+<li><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/known-customer-audience-activation/known.html?lang=ja">既知の顧客のアクティベーション</a></li>
 <li><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/platform-and-applications.html?lang=ja">Experience Platform およびアプリケーションを使用したアクティベーション</a></li>
 </ul>
 </td>
@@ -141,7 +141,7 @@ ht-degree: 88%
 <td colspan="1">
 <ul>
 <li>Experience Platform データレイクに収集され、取り込まれたデータは、Customer Journey Analytics で処理できるようになります。 </li>
-<li>Real-time Customer Data Platformのプロファイルとオーディエンスのデータを CJA に取り込むことができます。 <a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/ingest-aep-segments.html?lang=en">RTCDP と CJA の統合</a>.
+<li>Real-time Customer Data Platform からのプロファイルおよびオーディエンスデータは、CJA に取り込むことができます。<a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/ingest-aep-segments.html?lang=ja">RTCDP から CJA への統合</a>.
 </li>
 </ul>
 </ul>
@@ -197,12 +197,12 @@ ht-degree: 88%
 <td colspan="1">Adobe Commerce</td>
 <td colspan="1">
 <ul>
-<li>Real-time Customer Data Platformに組み込まれているプロファイルとオーディエンスを、Adobe Commerceでパーソナライズ機能で利用できます。 </li>
+<li>Real-time Customer Data Platform で作成されたプロファイルとオーディエンスは、Adobe Commerce のパーソナライズ機能で利用することができます。 </li>
 </ul>
 </td>
 <td colspan="1">
 <ul>
-<li>Adobe Commerceにネイティブなデータは、Adobe Commerceソースコネクタを介してExperience Platformに送信できます。 </li>
+<li>Adobe Commerce に対してネイティブなデータは、Adobe Commerce ソースコネクタを介して Experience Platform に送信することができます。 </li>
 </ul>
 </td>
 <td colspan="1">現在の統合はありません</td>
@@ -221,7 +221,7 @@ ht-degree: 88%
 </td>
 <td colspan="1">
 <ul>
-<li><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/b2b-activation/b2bactivation.html?lang=en">B2B アクティベーションブループリント</a></li>
+<li><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/b2b-activation/b2bactivation.html?lang=ja">B2B アクティベーションブループリント</a></li>
 </ul>
 </td>
 </tr>
@@ -240,8 +240,8 @@ ht-degree: 88%
 </td>
 <td colspan="1">
 <ul>
-<li><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/known-customer-audience-activation/known.html?lang=en">既知の顧客のアクティベーション</a></li>
-<li><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/platform-and-applications.html?lang=en">Experience Platform およびアプリケーションを使用したアクティベーション</a></li>
+<li><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/known-customer-audience-activation/known.html?lang=ja">既知の顧客のアクティベーション</a></li>
+<li><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/platform-and-applications.html?lang=ja">Experience Platform およびアプリケーションを使用したアクティベーション</a></li>
 </ul>
 </td>
 </tr>
@@ -259,8 +259,8 @@ ht-degree: 88%
 </td>
 <td colspan="1">
 <ul>
-<li><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/known-customer-audience-activation/known.html?lang=en">既知の顧客のアクティベーション</a></li>
-<li><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/platform-and-applications.html?lang=en">Experience Platform およびアプリケーションを使用したアクティベーション</a></li>
+<li><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/known-customer-audience-activation/known.html?lang=ja">既知の顧客のアクティベーション</a></li>
+<li><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/platform-and-applications.html?lang=ja">Experience Platform およびアプリケーションを使用したアクティベーション</a></li>
 </ul>
 </td>
 </tr>
