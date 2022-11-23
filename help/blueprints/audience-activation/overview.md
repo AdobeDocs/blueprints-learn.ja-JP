@@ -6,9 +6,9 @@ kt: null
 thumbnail: null
 exl-id: eeeb4325-d0e8-4fd8-86ab-0b8afdd0b69f
 source-git-commit: 6059edc6a6b65e87ed1c06a072feea45703e9103
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '869'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 97%
 |---|---|---|
 | **[匿名オーディエンスアクティベーション](anonymous.md)** | <ul><li>匿名および行動顧客データについて、Web および広告チャネルをまたいでオーディエンスをターゲットできます。</li><li>サードパーティオーディエンスデータと統合して、パーソナライズ機能を強化します。</li></ul> | <ul><li>Adobe Audience Manager</li></ul> |
 | **[既知の顧客のアクティベーション](known.md)** | <ul><li>既知のプロファイルベースの宛先（電子メールプロバイダー、ソーシャルネットワーク、広告など）に対してアクティブ化します。 </li><li>オンライン行動と共に、オフライン属性およびイベント（オフラインの注文、トランザクション、CRM、ロイヤリティデータなど）を、オンラインターゲティングとパーソナライズ機能に使用します。</li></ul> | <ul><li>Adobe Experience Platform</li><li> [!UICONTROL Real-time Customer Data Platform]</li><li>Adobe Audience Manager（オプション）</li></ul> |
-| **[Experience Cloud アプリケーションを使用したオーディエンスとプロファイルのアクティベーション](platform-and-applications.md)** | <ul><li>Experience Platform でプロファイルおよびオーディエンスを管理し、Experience Cloud アプリケーションを使用して共有します。</li><li>Experience Platform でリッチな顧客セグメントおよびインサイトを構築および共有し、Experience Cloud アプリケーションを使用して共有します。</li></ul> | <ul><li>Adobe Experience Platform</li><li>[!UICONTROL Real-time Customer Data Platform]</li><li>Experience Platform Activation</li><li>Experience Cloud アプリケーション</li></ul> |
+| **[Experience Cloud アプリケーションを使用したオーディエンスとプロファイルのアクティベーション](platform-and-applications.md)** | <ul><li>Experience Platform でプロファイルおよびオーディエンスを管理し、Experience Cloud アプリケーションを使用して共有します</li><li>Experience Platform でリッチな顧客セグメントおよびインサイトを構築および共有し、Experience Cloud アプリケーションを使用して共有します</li></ul> | <ul><li>Adobe Experience Platform</li><li>[!UICONTROL Real-time Customer Data Platform]</li><li>Experience Platform Activation</li><li>Experience Cloud アプリケーション</li></ul> |
 | **[セグメントの一致](segment-match.md)** | <ul><li>改善されたガバナンス、権限、環境設定の管理システムを使用すれば、マーケターは、主要パートナーと共にファーストパーティ認証済みオーディエンスをさらに強化することができます。</li></ul> | <ul><li>Adobe Experience Platform </li></ul> |
 
 ## リアルタイム顧客プロファイルアーキテクチャ
@@ -46,7 +46,7 @@ ID グラフは、関連付けられた様々なソースプロファイルフ�
 
 ## オーディエンスとプロファイルのアクティベーションブループリントのガードレール
 
-* 詳細なガードレールおよび終了から終了までの待ち時間については、 [デプロイメントガードレールドキュメント](../experience-platform/deployment/guardrails.md) そして [プロファイルとセグメント化ガードレール](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=ja)
+* ガードレールの詳細とエンドツーエンドの遅延については、[デプロイメントガードレールドキュメント](../experience-platform/deployment/guardrails.md)および[プロファイルとセグメント化ガードレール](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=ja)を参照してください。
 
 ### 属性と ID のアクティブ化
 
