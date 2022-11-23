@@ -5,9 +5,9 @@ solution: Real-time Customer Data Platform, Target, Audience Manager, Analytics,
 kt: 7722
 exl-id: f36014e8-170d-47e1-b4ec-10c0ea70612d
 source-git-commit: 6f10178e2d8d8877ec254e6ca83d1711fa4a82b0
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '896'
+ht-degree: 100%
 
 ---
 
@@ -15,13 +15,13 @@ ht-degree: 0%
 
 Experience Platform でプロファイルおよびオーディエンスを管理し、Experience Cloud アプリケーションを使用して共有します。Experience Platform でリッチな顧客セグメントおよびインサイトを構築および共有し、Experience Cloud アプリケーションを使用して共有します。
 
-Experience Cloudアプリケーションを使用したアクティベーションは、 [既知の顧客アクティベーションブループリント](known.md).
+Experience Cloud アプリケーションを使用したアクティベーションは、[既知の顧客アクティベーションブループリント](known.md)と連携しています。
 
 ## ユースケース
 
 * Experience Cloud による顧客インタラクションチャネルをまたいでパーソナライズおよびターゲット設定します。
 * Experience Platform と Experience Cloud アプリケーションの間でオーディエンスおよびプロファイルデータを共有します。
-* オンライン行動データやデータサイエンスモデルなどのマルチチャネルデータから豊富なインサイトを構築し、リアルタイムの顧客プロファイルをExperience Platformで強化して、Experience Cloudアプリケーションと共有できます。
+* オンラインの行動データやデータサイエンスモデルなどのマルチチャネルデータから豊富な洞察を構築して、Experience Cloud アプリケーションと共有できる Experience Platform のリアルタイム顧客プロファイルを充実させます。
 
 ## アプリケーション
 
@@ -48,7 +48,7 @@ Experience Platform と Experience Cloud アプリケーションの統合に関
 
 ## ガードレール
 
-[オーディエンスとプロファイルのアクティベーションの概要ページのガードレール](overview.md)を参照してください そして [デプロイメントガードレール](../experience-platform/deployment/guardrails.md) ページ。
+[オーディエンスとプロファイルのアクティベーションの概要ページのガードレール](overview.md)および[デプロイメントガードレール](../experience-platform/deployment/guardrails.md)のページを参照してください。
 
 ## 実装に関する考慮事項
 
@@ -59,9 +59,9 @@ Experience Platform と Experience Cloud アプリケーションの統合に関
 * 詳しくは、次のドキュメントを参照してください。[Audience Manager およびその他の Experience Cloud ソリューションを使用した Experience Platform セグメント共有](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-experience-platform/aam-aep-audience-sharing.html?lang=ja).
 
 * RT-CDP のオーディエンスメンバーシップは、セグメント評価が完了し、セグメント評価がバッチで行われたかストリーミングで行われたかに関わらず、リアルタイム顧客プロファイルに書き込まれるとすぐに、ストリーミング方式で Audience Manager に共有されます。
-* 選定されたプロファイルに、関連するプロファイルデバイスの地域ルーティング情報が含まれる場合、RTCDP からのオーディエンスメンバーシップは、関連する Audience Manager エッジ上でストリーミング方式で選定されます。地域ルーティング情報が過去 14 日間のタイムスタンプを持つプロファイルに適用された場合、その情報はストリーミング時にAudience Managerエッジで評価されます。 RTCDP からのプロファイルに地域ルーティング情報が含まれていない場合、または地域ルーティング情報が 14 日を超える場合、RTCDP オーディエンスメンバーシップはAudience Managerハブの場所に送信され、バッチベースの評価とアクティブ化がおこなわれます。
-* 地域ルーティング情報を使用すると、これらのプロファイルはエッジのアクティベーションの対象となり、RTCDP からのセグメント認定から数分以内にアクティブ化され、エッジのアクティベーションの対象とならないプロファイルはAudience Managerハブで認定され、12～24 時間の期間が適用されます。
-* Audience Manager プロファイルが保存されている Edge の地域ルーティング情報は、Audience Manager、Visitor ID サービス、Analytics、Launch、または web SDK から直接、XDM フィールドグループ「データキャプチャ地域情報」を使用して、個別のプロファイルレコードクラスのデータセットとして Experience Platform に収集することが可能です。詳しくは、地域情報の取得に関するドキュメントを参照してください [リンク](https://experienceleague.adobe.com/docs/id-service/using/reference/regions.html?lang=en).
+* 選定されたプロファイルに、関連するプロファイルデバイスの地域ルーティング情報が含まれる場合、RTCDP からのオーディエンスメンバーシップは、関連する Audience Manager エッジ上でストリーミング方式で選定されます。地域ルーティング情報が過去 14 日間のタイムスタンプを持つプロファイルに適用された場合、ストリーミングの Audience Manager Edge エッジで評価されます。RTCDP からのプロファイルに地域ルーティング情報が含まれていない場合、または地域ルーティング情報が 14 日以上前のものである場合、RTCDP オーディエンスメンバーシップは、バッチベースの評価とアクティブ化のために Audience Manager ハブロケーションに送信されます。
+* 地域ルーティング情報により、これらのプロファイルはエッジのアクティベーションの対象となり、RTCDP からのセグメント認定の数分以内にアクティベートされます。エッジのアクティベーションの対象とならないプロファイルは Audience Manager ハブで選定され、処理に12～24 時間かかる場合があります。
+* Audience Manager プロファイルが保存されている Edge の地域ルーティング情報は、Audience Manager、Visitor ID サービス、Analytics、Launch、または web SDK から直接、XDM フィールドグループ「データキャプチャ地域情報」を使用して、個別のプロファイルレコードクラスのデータセットとして Experience Platform に収集することが可能です。詳しくは、地域情報の取得に関するドキュメントを、こちらの[リンク](https://experienceleague.adobe.com/docs/id-service/using/reference/regions.html?lang=ja)から参照してください。
 * Experience Platform から Audience Manager にオーディエンスが共有されるアクティベーションシナリオでは、次の ID が自動的に共有されます。ECID、IDFA、GAID、ハッシュ化されたメールアドレス（EMAIL_LC_SHA256）、AdCloud ID。現在、カスタムの名前空間は共有されません。
 * 必須の宛先 ID が[!UICONTROL リアルタイム顧客プロファイル]に含まれている場合、または[!UICONTROL リアルタイム顧客プロファイル]内の ID が Audience Manager でリンクされる必須の宛先 ID と関連付けられる場合、Experience Platform からのオーディエンスは、Audience Manager 宛先を使用して共有できます。
 
@@ -71,15 +71,15 @@ Experience Platform と Experience Cloud アプリケーションの統合に関
 
 ### Real-time Customer Data Platform から Campaign および Journey Optimizer へのオーディエンスの共有
 
-* Real-time Customer Data Platform から Campaign および Journey Optimizer へのプロファイルとオーディエンスの共有に関する詳細は、[カスタマージャーニーのブループリント](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/b2b-activation/b2bactivation.html?lang=en)を参照してください。
+* Real-time Customer Data Platform から Campaign および Journey Optimizer へのプロファイルとオーディエンスの共有に関する詳細は、[カスタマージャーニーのブループリント](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/b2b-activation/b2bactivation.html?lang=ja)を参照してください。
 
-### Real-time Customer Data PlatformからMarketo Engageへのオーディエンスの共有
+### Real-time Customer Data Platform から Marketo Engage へのオーディエンス共有
 
-* 詳しくは、 [B2B アクティベーションブループリント](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/b2b-activation/b2bactivation.html?lang=en) Real-time Customer Data PlatformからMarketo Engageへのプロファイルとオーディエンスの共有に関する詳細
+* Real-time Customer Data Platform から Marketo Engage へのプロファイルとオーディエンスの共有の詳細については、[B2B アクティベーションブループリント](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/b2b-activation/b2bactivation.html?lang=ja)を参照してください。
 
-### Real-time Customer Data PlatformからCustomer Journey Analyticsへのオーディエンスの共有
+### Real-time Customer Data Platform から Customer Journey Analytics へのオーディエンス共有
 
-* 詳しくは、 [RTCDP オーディエンスがCustomer Journey Analyticsと共有](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/ingest-aep-segments.html?lang=en) Real-time Customer Data PlatformオーディエンスのCustomer Journey Analyticsへの共有に関する追加情報
+* Real-time Customer Data Platform オーディエンスを Customer Journey Analytics と共有する方法の詳細については、[Customer Journey Analyticsと共有される RTCDP オーディエンス](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/ingest-aep-segments.html?lang=ja)を参照してください。
 
 ## 関連ドキュメント
 
