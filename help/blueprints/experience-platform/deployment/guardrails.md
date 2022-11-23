@@ -5,15 +5,15 @@ solution: Customer Journey Analytics, Journey Orchestration, Real-time Customer 
 thumbnail: null
 exl-id: b64cf3e4-cc5d-4984-8a0f-4736d432b8e1
 source-git-commit: 779b55ab12a27796a00db4b1adb6add7d3ccd0a8
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '300'
+ht-degree: 100%
 
 ---
 
 # ガードレール
 
-ガードレールは、データとシステムの使用状況、パフォーマンスの最適化、Adobe Experience Platform およびアプリケーションでのエラーや予期しない結果の回避に関するガイダンスを提供する、推奨されるしきい値です。Guardrail は、顧客のアーキテクチャと使用例のパフォーマンス最適化を促進するために、システムの制約とパフォーマンスに対する期待を反映することを目的としています。 ガードレールは、サービスレベル契約にはなりません。製品固有のサービスレベル契約について詳しくは、以下にリンクされている製品の説明ドキュメントを参照してください。
+ガードレールは、データとシステムの使用状況、パフォーマンスの最適化、Adobe Experience Platform およびアプリケーションでのエラーや予期しない結果の回避に関するガイダンスを提供する、推奨されるしきい値です。ガードレールは、顧客のアーキテクチャと使用例のパフォーマンス最適化を促進するために、システムの制約とパフォーマンスの期待を反映させることを目的としています。ガードレールは、サービスレベル契約にはなりません。製品固有のサービスレベル契約について詳しくは、以下にリンクされている製品の説明ドキュメントを参照してください。
 
 
 ## Adobe Experience Platform およびアプリケーション用のガードレール
@@ -28,13 +28,13 @@ ht-degree: 0%
 
 [クエリサービスガードレール](https://experienceleague.adobe.com/docs/experience-platform/query/guardrails.html?lang=ja)
 
-[宛先のアクティベーションガードレール](https://experienceleague.adobe.com/docs/experience-platform/destinations/guardrails.html)
+[宛先のアクティベーションガードレール](https://experienceleague.adobe.com/docs/experience-platform/destinations/guardrails.html?lang=ja)
 
 [Journey Optimizer ガードレール](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/guardrails.html?lang=ja)
 
 <br>
 
-## エンドツーエンドの遅延 図
+## エンドツーエンドの遅延図
 
 ### データ取り込み
 
@@ -44,11 +44,11 @@ ht-degree: 0%
 
 ### セグメント化
 
-<img src="../assets/segmentation_guardrails.svg" alt="Experience Platformセグメント化ガードレール" style="border:1px solid #4a4a4a" width="85%" />
+<img src="../assets/segmentation_guardrails.svg" alt="Experience Platform セグメント化ガードレール" style="border:1px solid #4a4a4a" width="85%" />
 
 <br>
 
-### Real-time Customer Data Platform&amp;Adobe Target
+### Real-time Customer Data Platform および Adobe Target
 
 <img src="../assets/RTCDP_Target_guardrails.svg" alt="RTCDP および Target ガードレール" style="border:1px solid #4a4a4a" width="85%" />
 
@@ -56,7 +56,7 @@ ht-degree: 0%
 
 ### Customer Journey Analytics
 
-<img src="../assets/CJA_guardrails.svg" alt="CJA Guardrails" style="border:1px solid #4a4a4a" width="85%" />
+<img src="../assets/CJA_guardrails.svg" alt="CJA ガードレール" style="border:1px solid #4a4a4a" width="85%" />
 
 <br>
 
