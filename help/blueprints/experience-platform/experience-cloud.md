@@ -6,15 +6,15 @@ kt: 7200
 thumbnail: null
 exl-id: 67f7e236-4fa2-434d-af22-953e94a079c1
 source-git-commit: d952442d066ea99f5b089f85798129dd0e40daec
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '150'
+ht-degree: 100%
 
 ---
 
 # Adobe Experience Cloud アーキテクチャ図
 
-## Adobe Experience Cloud Marketecture
+## Adobe Experience クラウドマーケテクチャ
 
 以下の図に、Adobe Experience Platform の基盤上に構築および統合された、データインサイトとオーディエンス、コンテンツとコマース、カスタマージャーニー、およびマーケティングワークフローにわたる Adobe Experience Cloud のさまざまなコンポーネントを示します。
 
