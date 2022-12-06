@@ -6,8 +6,8 @@ solution: Experience Platform, Journey Optimizer, Real-time Customer Data Platfo
 exl-id: 2ca51a29-2db2-468f-8688-fc8bc061b47b
 source-git-commit: c0fe0e94e30351f593e32ea0e6809dd832f976ad
 workflow-type: tm+mt
-source-wordcount: '1513'
-ht-degree: 96%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -51,7 +51,7 @@ ht-degree: 96%
 
 * リアルタイム顧客プロファイル[ガードレール](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=ja)が適用されます。
 * 一度に 1 つのプロファイル参照用に設計されています。一括プロファイルアクセスや、分析やデータ サイエンスに使用するプロファイル母集団全体のダウンロードには使用されません。
-* プロファイル参照の応答時間は、プロファイルガードレールに従います。リアルタイムの低遅延要件（同じページのパーソナライゼーション要件の場合など）は、からへの Edge プロファイルを利用する必要があります [Adobe Target Connection](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection.html?lang=ja) または [カスタムパーソナライゼーション接続](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/custom-personalization.html?lang=ja) ブラウザー内およびアプリのパーソナライゼーション内でのリアルタイムプロファイルアクセス用。
+* プロファイル参照の応答時間は、プロファイルガードレールに従います。リアルタイムの低遅延要件（同じページのパーソナライゼーション要件の場合など）は、[Adobe Target 接続](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection.html?lang=ja) または [カスタムパーソナライゼーション接続](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/custom-personalization.html?lang=ja)から Edge プロファイルを利用して、ブラウザー内およびアプリ内パーソナライゼーションのリアルタイムプロファイルアクセスを行う必要があります。
 
 ### データアクセス API {#data-access-api}
 
@@ -130,7 +130,7 @@ Experience Platform クエリサービスを使用すると、顧客は Experien
 
 #### ユースケース
 
-* オーディエンスのメンバーシップを含むプロファイル属性情報を、社内のエンタープライズデータストア、分析ツール、電子メールシステム、サポートシステムに対してアクティブ化します。
+* 内部エンタープライズデータ格納、分析ツール、電子メールシステムやサポートシステムへのオーディエンスメンバーシップを含む、プロファイル属性情報をアクティブ化します。
 * 外部の広告ベンダーに対してプロファイルオーディエンスのメンバーシップをアクティブ化し、プロファイルに対するコンテンツのターゲティングとパーソナライズを行います。
 
 #### 注意点
