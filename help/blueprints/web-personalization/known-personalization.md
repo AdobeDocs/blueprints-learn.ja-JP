@@ -1,14 +1,14 @@
 ---
-title: Web／Mobile パーソナライズ機能の概要 - Adobe Target と RTCDP
+title: Web／Mobile パーソナライズ機能の概要- Adobe Target と RTCDP
 description: Web パーソナライズ機能を電子メールおよびその他の既知および匿名のチャネルパーソナライズ機能と同期します。
 landing-page-description: Web パーソナライズ機能を電子メールおよびその他の既知および匿名のチャネルパーソナライズ機能と同期します。
 solution: Real-time Customer Data Platform, Target, Audience Manager, Analytics, Experience Cloud Services, Data Collection, Experience Platform
 kt: 7194thumb-web-personalization-scenario2.jpg
 exl-id: 29667c0e-bb79-432e-af3a-45bd0b3b43bb
 source-git-commit: 87679928d2bfcfe74c85bb054341c662999e52a5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1625'
-ht-degree: 83%
+ht-degree: 100%
 
 ---
 
@@ -82,31 +82,31 @@ ht-degree: 83%
 
 [Web およびモバイルパーソナライズ機能ブループリントの概要ページのガードレールを参照してください。](overview.md)
 
-* エッジプロファイルは、ユーザーが Edge 上でアクティブな場合にのみ作成されます。つまり、プロファイルのストリーミングイベントが Web/Mobile SDK または Edge Server API を介して Edge に送信されます。 これは、通常、Web サイトまたはモバイルアプリでアクティブになるユーザーに相当します。
-* エッジプロファイルには、14 日間のデフォルトの有効期間があります。 ユーザーがアクティブなエッジイベントを収集していない場合、無操作状態が 14 日間続くと、プロファイルはエッジで期限切れになります。 プロファイルはハブで有効なままとなり、エッジでユーザーが再度アクティブになると、エッジと同期されます。
-* エッジで新しいプロファイルを作成すると、同期呼び出しがハブと非同期で実行され、宛先を介したエッジ投影用に設定されたオーディエンスおよび属性が取得されます。 非同期プロセスなので、ハブプロファイルがエッジに同期されるまでに、1 秒から数分かかる場合があります。 したがって、最初のページエクスペリエンスで、新しいプロファイルがハブのプロファイルコンテキストを持つことを保証できません。 これは、新しく収集したデータをハブに送信する場合にも当てはまります。 このデータは非同期的にエッジに投影されるので、データが適切なエッジに到達するタイミングは、エッジアクティビティとは別に、エッジに送信されます。 エッジでアクティブなプロファイルのみが、ハブから投影された属性とオーディエンスを保持します。
+* Edge プロファイルは、ユーザーが Edge 上でアクティブな場合にのみ作成されます。つまり、ユーザーのプロファイルには、Web/Mobile SDK または Edge Server API を介して Edge に送信されるストリーミングイベントがあります。これは通常、ユーザーが Web サイトまたはモバイルアプリでアクティブになっていることに対応します。
+* エッジプロファイルには、14 日間のデフォルトの有効期間があります。ユーザーがアクティブな Edge イベントを収集していない場合、14 日間非アクティブ状態が続くと、プロファイルは Edge で期限切れになります。プロファイルはハブで有効なままであり、ユーザーが再びエッジでアクティブになると、エッジと同期されます。
+* エッジで新しいプロファイルが作成されると、同期呼び出しがハブに対して非同期で行われ、宛先を介してエッジ投影用に設定されたオーディエンスと属性が取得されます。これは非同期プロセスであるため、ハブプロファイルがエッジに同期されるまでに 1 秒から数分かかる場合があります。したがって、最初のページエクスペリエンスで、新しいプロファイルがハブのプロファイルコンテキストを持つことを保証できません。これは、ハブに新しく収集されたデータにも適用されます。このデータはエッジに非同期で投影されるため、データが適切なエッジに到着するタイミングは、エッジアクティビティとは別になります。エッジでアクティブなプロファイルのみが、ハブから投影された属性とオーディエンスを保持します。
 
 ## 実装に関する考慮事項
 
 ID の前提条件
 
 * Edge ネットワークおよび WebSDK で概説した統合パターン 1 を利用する場合は、任意のプライマリ ID を利用できます。最初のログインパーソナライゼーションでは、パーソナライゼーションリクエストセットのプライマリ ID が、Real-time Customer Data Platform からのプロファイルのプライマリ ID と一致している必要があります。匿名デバイスと既知の顧客との間の ID ステッチは、ハブで処理され、その後エッジに投影されます。
-* 消費者が web サイトを訪問またはログインする前にハブにアップロードされたデータは、パーソナライゼーションにすぐに使用できないことに注意してください。ハブデータを同期するには、最初にアクティブな Edge プロファイルが存在する必要があります。Edge プロファイルが作成されると、ハブプロファイルと非同期で同期されるので、次ページのパーソナライゼーションが実行されます。
-* Adobe Experience PlatformからAdobe Targetにオーディエンスを共有するには、前述の統合パターン 2 および 3 で概要を説明したように、オーディエンス共有サービスを使用する際に、ECID を ID として使用する必要があります。
+* 消費者が Web サイトを訪問またはログインする前にハブにアップロードされたデータは、パーソナライゼーションにすぐに使用できないことに注意してください。ハブデータを同期するには、最初にアクティブな Edge プロファイルが存在する必要があります。Edge プロファイルが作成されると、ハブプロファイルと非同期で同期されるので、次ページのパーソナライゼーションが実行されます。
+* Adobe Experience Platform から Adobe Target にオーディエンスを共有するには、上記の統合パターン 2 および 3 で概要を説明したように、オーディエンス共有サービスを使用する際に、ID として ECID を使用する必要があります。
 * 代替 ID を使用して、Audience Manager を介して Experience Platform のオーディエンスを Adobe Target と共有することもできます。Experience Platform は、次のサポートされている名前空間を使用して、Audience Manager に対するオーディエンスをアクティブ化します。IDFA、GAID、AdCloud、Google、ECID、EMAIL_LC_SHA256。Audience Manager と Target は、ECID ID を介してオーディエンスのメンバーシップを解決するので、Adobe Target に消費者の最終的なオーディエンス共有を行うには、ECID が引き続き ID グラフ内にある必要があります。
 
 ## 関連ドキュメント
 
 ### SDK ドキュメント
 
-* [Experience Platform Web SDK ドキュメント](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html)
+* [Experience Platform Web SDK ドキュメント](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=ja)
 * [Experience Platform タグドキュメント](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=ja)
 * [Experience Cloud ID サービスドキュメント](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=ja)
 
 ### 接続のドキュメント
 
-* [Real-time Customer Data Platform 向け Adobe Target 接続](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection.html?lang=en)
-* [Edge データストリームを設定](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/datastreams.html)
+* [Real-time Customer Data Platform 向け Adobe Target 接続](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection.html?lang=ja)
+* [Edge データストリームを設定](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/datastreams.html?lang=ja)
 * [Audience Manager およびその他の Experience Cloud ソリューションを使用した Experience Platform セグメント共有](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-experience-platform/aam-aep-audience-sharing.html?lang=ja)
 
 ### セグメント化ドキュメント
@@ -115,7 +115,7 @@ ID の前提条件
 * [リアルタイムセグメント化](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/edge-segmentation.html?lang=ja)
 * [ストリーミングセグメント化](https://experienceleague.adobe.com/docs/experience-platform/segmentation/api/streaming-segmentation.html?lang=ja)
 * [Adobe Audience Manager を使用した Adobe Analytics セグメント共有](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-publish.html?lang=ja)
-* [結合ポリシー設定](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html?lang=en#create-a-merge-policy)
+* [結合ポリシー設定](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html?lang=ja#create-a-merge-policy)
 
 ### チュートリアル
 
