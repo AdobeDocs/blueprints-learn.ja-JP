@@ -5,10 +5,10 @@ user-guide-description: ブループリントは、既存のビジネス上の�
 product: adobe experience platform
 mini-toc-levels: 3
 role: Architect, Developer, User
-source-git-commit: d952442d066ea99f5b089f85798129dd0e40daec
+source-git-commit: fd8dd3caee5cbf450c5f00266c74ccdef7cd1de9
 workflow-type: tm+mt
-source-wordcount: '247'
-ht-degree: 100%
+source-wordcount: '262'
+ht-degree: 94%
 
 ---
 
@@ -79,6 +79,10 @@ ht-degree: 100%
    + [概要](/help/blueprints/data-insights/overview.md)
    + [データ分析とインテリジェンス](/help/blueprints/data-insights/analysis.md)
    + [プロファイルエンリッチメントのためのカスタムデータサイエンス](/help/blueprints/data-insights/data-science.md)
++ MarketoとWorkfrontを使用した Campaign サプライチェーンの最適化{#optimize-campaign-supply-chain-with-marketo-and-workfront}
+   + [概要](/help/blueprints/optimize-campaign-supply-chain-with-marketo-and-workfront/overview.md)
+   + [顧客の成功事例](/help/blueprints/optimize-campaign-supply-chain-with-marketo-and-workfront/customer-success-stories.md)
+   + [取り込みと作成](/help/blueprints/optimize-campaign-supply-chain-with-marketo-and-workfront/intake-and-create.md)
 + Web およびモバイルパーソナライズ機能 {#web-personalization}
    + [概要](/help/blueprints/web-personalization/overview.md)
    + [行動によるパーソナライズ機能 - Target](/help/blueprints/web-personalization/behavioral.md)
