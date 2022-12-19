@@ -5,8 +5,8 @@ landing-page-description: Web パーソナライズ機能を電子メールお�
 solution: Real-time Customer Data Platform, Target, Audience Manager, Analytics, Experience Cloud Services, Data Collection, Experience Platform
 kt: 7194thumb-web-personalization-scenario2.jpg
 exl-id: 29667c0e-bb79-432e-af3a-45bd0b3b43bb
-source-git-commit: 87679928d2bfcfe74c85bb054341c662999e52a5
-workflow-type: ht
+source-git-commit: 52d71533a6d33cc35b5158007d9851dc880bc937
+workflow-type: tm+mt
 source-wordcount: '1625'
 ht-degree: 100%
 
@@ -58,7 +58,7 @@ ht-degree: 100%
 ### 実装パターン 1 - Web／Mobile SDK または Edge Network API を使用した Edge ネットワーク（推奨されるアプローチ）
 
 * Web／Mobile SDK での Edge Network の使用。リアルタイムのエッジセグメント化には、Web／Mobile SDK または Edge API 実装アプローチが必要です。
-* [Experience Platform Web および Mobile SDK のブループリントを参照してください](../data-ingestion/websdk.md)（SDK ベースの実装用）。
+* [Experience Platform Web および Mobile SDK のブループリントを参照してください](../experience-platform/deployment/websdk.md)（SDK ベースの実装用）。
 * Mobile SDK で使用する場合、[Adobe Journey Optimizer - Decisioning 拡張機能](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-journey-optimizer-decisioning)が Mobile SDK にインストールされている必要があります。
 * Edge プロファイルを使用した Adobe Target の API ベース実装の場合、[Edge Network Server API を参照してください](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/overview.html?lang=ja)。
 
@@ -66,7 +66,7 @@ ht-degree: 100%
 
 従来のアプリケーション固有の SDK（AT.js や AppMeasurement.js など）を使用。リアルタイムエッジセグメント評価は、この実装方法ではサポートされていません。ただし、この実装アプローチでは、Experience Platform ハブからのストリーミングおよびバッチオーディエンス共有がサポートされます。
 
-[アプリケーション固有の SDK ブループリントを参照してください。](../data-ingestion/appsdk.md)
+[アプリケーション固有の SDK ブループリントを参照してください。](../experience-platform/deployment/appsdk.md)
 
 ### 実装手順
 

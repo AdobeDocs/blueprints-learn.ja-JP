@@ -2,9 +2,9 @@
 description: 概要 — MarketoとWorkfrontを使用した Campaign サプライチェーンの最適化
 title: 概要
 exl-id: c1da95d0-0649-4e69-aade-3ddcb89d2d31
-source-git-commit: 2baa77bfe61abc1e4cf2aa9dbfe344f1b1e280ce
+source-git-commit: 52d71533a6d33cc35b5158007d9851dc880bc937
 workflow-type: tm+mt
-source-wordcount: '1738'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -147,7 +147,7 @@ WorkfrontとMarketo Engageがキャンペーン開発サプライチェーンの
 
 ### Workfront Fusion、Workfront、Marketo Engage統合の概要 {#getting-started-with-workfront-fusion}
 
-* [取り込みと作成](/help/blueprints/optimize-campaign-supply-chain-with-marketo-and-workfront/intake-and-create.md){target=&quot;_blank&quot;} -Marketo EngageとWorkfrontを使用したキャンペーン開発の自動化
+* [取り込みと作成](/help/blueprints/b2b/campaign-supply-chain/intake-and-create.md){target=&quot;_blank&quot;} -Marketo EngageとWorkfrontを使用したキャンペーン開発の自動化
 
 * 配達確認と承認（近日公開）
 
