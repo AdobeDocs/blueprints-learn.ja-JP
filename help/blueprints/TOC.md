@@ -5,7 +5,7 @@ user-guide-description: ブループリントは、既存のビジネス上の�
 product: adobe experience platform
 mini-toc-levels: 3
 role: Architect, Developer, User
-source-git-commit: fd8dd3caee5cbf450c5f00266c74ccdef7cd1de9
+source-git-commit: e07ff74f901932c42ddaf6cb36b557535b9a2c43
 workflow-type: tm+mt
 source-wordcount: '262'
 ht-degree: 94%
@@ -27,8 +27,8 @@ ht-degree: 94%
    + [Experience Platform およびアプリケーション](/help/blueprints/experience-platform/platform-applications.md)
    + [Experience Platform データフロー](/help/blueprints/experience-platform/platform-data-flow.md)
    + デプロイメント {#deployment}
-      + [Experience Platform Web SDK および Edge ネットワーク](/help/blueprints/data-ingestion/websdk.md)
-      + [アプリケーション SDK](/help/blueprints/data-ingestion/appsdk.md)
+      + [Experience Platform Web SDK および Edge ネットワーク](/help/blueprints/experience-platform/deployment/websdk.md)
+      + [アプリケーション SDK](/help/blueprints/experience-platform/deployment/appsdk.md)
       + [ガードレール](/help/blueprints/experience-platform/deployment/guardrails.md)
 + オーディエンスとプロファイルのアクティベーション {#audience-activation}
    + [概要](/help/blueprints/audience-activation/overview.md)
