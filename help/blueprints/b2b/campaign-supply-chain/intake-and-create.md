@@ -2,7 +2,7 @@
 description: 取り込みと作成 — MarketoとWorkfrontを使用した Campaign サプライチェーンの最適化
 title: 取り込みと作成
 exl-id: 09679521-727c-4676-8e91-23d0b7fd54a2
-source-git-commit: 2baa77bfe61abc1e4cf2aa9dbfe344f1b1e280ce
+source-git-commit: c33790d001c98628fcaa57f0ef8ebf449adb8af2
 workflow-type: tm+mt
 source-wordcount: '1325'
 ht-degree: 0%
@@ -25,7 +25,7 @@ WorkfrontとMarketo Engageを使用すると、システム間接続で [Workfro
 
 >[!TIP]
 >
->マーケティングキャンペーンの作業の整理に使用されるWorkfrontの様々なタイプのオブジェクトと、Marketo Engageプログラムへのマッピング方法について詳しくは、 [MarketoとWorkfrontの概要](/help/blueprints/optimize-campaign-supply-chain-with-marketo-and-workfront/overview.md){target=&quot;_blank&quot;}。
+>マーケティングキャンペーンの作業の整理に使用されるWorkfrontの様々なタイプのオブジェクトと、Marketo Engageプログラムへのマッピング方法について詳しくは、 [MarketoとWorkfrontの概要](/help/blueprints/b2b/campaign-supply-chain/overview.md){target=&quot;_blank&quot;}。
 
 ## 自動化のためのキャンペーン開発プロセスの準備 {#prepare-your-campaign-development-process-for-automation}
 
@@ -157,4 +157,4 @@ Workfrontリクエストから新しいMarketo Engageプログラムの作成を
 
 * [Adobe Workfrontモジュール](https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-fusion/fusion-apps-and-modules/workfront-modules.html){target=&quot;_blank&quot;}
 
-* [MarketoとWorkfrontの概要](/help/blueprints/optimize-campaign-supply-chain-with-marketo-and-workfront/overview.md){target=&quot;_blank&quot;}
+* [MarketoとWorkfrontの概要](/help/blueprints/b2b/campaign-supply-chain/overview.md){target=&quot;_blank&quot;}
