@@ -5,10 +5,10 @@ user-guide-description: ブループリントは、既存のビジネス上の�
 product: adobe experience platform
 mini-toc-levels: 3
 role: Architect, Developer, User
-source-git-commit: e07ff74f901932c42ddaf6cb36b557535b9a2c43
+source-git-commit: 2baa77bfe61abc1e4cf2aa9dbfe344f1b1e280ce
 workflow-type: tm+mt
-source-wordcount: '262'
-ht-degree: 94%
+source-wordcount: '261'
+ht-degree: 95%
 
 ---
 
@@ -45,6 +45,10 @@ ht-degree: 94%
 + B2B アクティベーションとマーケティング {#b2b-activation}
    + [概要](/help/blueprints/b2b/overview.md)
    + [B2B アクティベーション](/help/blueprints/b2b/b2bactivation.md)
+   + MarketoとWorkfrontを使用した Campaign サプライチェーン{#optimize-campaign-supply-chain-with-marketo-and-workfront}
+      + [概要](/help/blueprints/b2b/campaign-supply-chain/overview.md)
+      + [顧客の成功事例](/help/blueprints/b2b/campaign-supply-chain/customer-success-stories.md)
+      + [取り込みと作成](/help/blueprints/b2b/campaign-supply-chain/intake-and-create.md)
 + Customer Journey Analytics {#customer-journey-analytics}
    + [概要](/help/blueprints/customer-journey-analytics/overview.md)
    + [CJA オーディエンスを RTCDP に共有する](/help/blueprints/customer-journey-analytics/cja-rtcdp.md)
@@ -79,10 +83,6 @@ ht-degree: 94%
    + [概要](/help/blueprints/data-insights/overview.md)
    + [データ分析とインテリジェンス](/help/blueprints/data-insights/analysis.md)
    + [プロファイルエンリッチメントのためのカスタムデータサイエンス](/help/blueprints/data-insights/data-science.md)
-+ MarketoとWorkfrontを使用した Campaign サプライチェーンの最適化{#optimize-campaign-supply-chain-with-marketo-and-workfront}
-   + [概要](/help/blueprints/optimize-campaign-supply-chain-with-marketo-and-workfront/overview.md)
-   + [顧客の成功事例](/help/blueprints/optimize-campaign-supply-chain-with-marketo-and-workfront/customer-success-stories.md)
-   + [取り込みと作成](/help/blueprints/optimize-campaign-supply-chain-with-marketo-and-workfront/intake-and-create.md)
 + Web およびモバイルパーソナライズ機能 {#web-personalization}
    + [概要](/help/blueprints/web-personalization/overview.md)
    + [行動によるパーソナライズ機能 - Target](/help/blueprints/web-personalization/behavioral.md)
