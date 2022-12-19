@@ -5,7 +5,7 @@ user-guide-description: ブループリントは、既存のビジネス上の�
 product: adobe experience platform
 mini-toc-levels: 3
 role: Architect, Developer, User
-source-git-commit: 2baa77bfe61abc1e4cf2aa9dbfe344f1b1e280ce
+source-git-commit: af390011dc068c4289f98d7fc0108ce48a5375c7
 workflow-type: tm+mt
 source-wordcount: '261'
 ht-degree: 95%
@@ -47,8 +47,8 @@ ht-degree: 95%
    + [B2B アクティベーション](/help/blueprints/b2b/b2bactivation.md)
    + MarketoとWorkfrontを使用した Campaign サプライチェーン{#optimize-campaign-supply-chain-with-marketo-and-workfront}
       + [概要](/help/blueprints/b2b/campaign-supply-chain/overview.md)
-      + [顧客の成功事例](/help/blueprints/b2b/campaign-supply-chain/customer-success-stories.md)
       + [取り込みと作成](/help/blueprints/b2b/campaign-supply-chain/intake-and-create.md)
+      + [顧客の成功事例](/help/blueprints/b2b/campaign-supply-chain/customer-success-stories.md)
 + Customer Journey Analytics {#customer-journey-analytics}
    + [概要](/help/blueprints/customer-journey-analytics/overview.md)
    + [CJA オーディエンスを RTCDP に共有する](/help/blueprints/customer-journey-analytics/cja-rtcdp.md)
