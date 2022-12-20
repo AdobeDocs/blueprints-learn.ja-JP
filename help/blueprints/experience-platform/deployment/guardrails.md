@@ -5,9 +5,9 @@ solution: Customer Journey Analytics, Journey Orchestration, Real-time Customer 
 thumbnail: null
 exl-id: b64cf3e4-cc5d-4984-8a0f-4736d432b8e1
 source-git-commit: f208fcd938bfc12882421f213192a6888f546a79
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '307'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -80,12 +80,12 @@ ht-degree: 97%
 
 [インテリジェントサービス](https://helpx.adobe.com/jp/legal/product-descriptions/intelligent-services.html)
 
-[データDistiller](https://helpx.adobe.com/legal/product-descriptions/data-distiller.html)
+[Data Distiller](https://helpx.adobe.com/jp/legal/product-descriptions/data-distiller.html)
 
-[Customer Journey Analytics](https://helpx.adobe.com/legal/product-descriptions/customer-journey-analytics.html)
+[Customer Journey Analytics](https://helpx.adobe.com/jp/legal/product-descriptions/customer-journey-analytics.html)
 
-[Journey Optimizer](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer.html)
+[Journey Optimizer](https://helpx.adobe.com/jp/legal/product-descriptions/adobe-journey-optimizer.html)
 
-[Journey Orchestration](https://helpx.adobe.com/legal/product-descriptions/journey-orchestration.html)
+[Journey Orchestration](https://helpx.adobe.com/jp/legal/product-descriptions/journey-orchestration.html)
 
-[Offer Decisioning](https://helpx.adobe.com/legal/product-descriptions/offer-decisioning-app-service.html)
+[Offer Decisioning](https://helpx.adobe.com/jp/legal/product-descriptions/offer-decisioning-app-service.html)
