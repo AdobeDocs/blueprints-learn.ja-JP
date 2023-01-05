@@ -6,9 +6,9 @@ kt: null
 thumbnail: null
 exl-id: 3cc9e849-a75d-40ad-a604-6acf4c2c9f89
 source-git-commit: 0b0f77eaf903f592993ed8f4abe29827b733c769
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '242'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 98%
 Web SDK、Mobile SDK、および Edge Network Server API の概要と詳細については、以下を参照してください。
 * [WebSDK の概要](https://experienceleague.adobe.com/docs/web-sdk.html?lang=ja)
 * [MobileSDK の概要](https://developer.adobe.com/client-sdks/documentation/)
-* [Edge Network Server API ](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/overview.html?lang=ja)
+* [Edge Network Server API](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/overview.html?lang=ja)
 
 WebSDK でサポートされるアプリケーション機能の詳細な概要については、次のドキュメントを参照してください。
 * [WebSDK アプリケーション機能のサポート](https://github.com/orgs/adobe/projects/18/views/1)
