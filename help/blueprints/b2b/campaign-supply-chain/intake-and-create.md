@@ -1,47 +1,48 @@
 ---
-description: 取り込みと作成 — MarketoとWorkfrontを使用した Campaign サプライチェーンの最適化
+description: 取り込みと作成 - Marketo と Workfront を使用してキャンペーンサプライチェーンを最適化
 title: 取り込みと作成
 exl-id: 09679521-727c-4676-8e91-23d0b7fd54a2
 source-git-commit: c33790d001c98628fcaa57f0ef8ebf449adb8af2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1325'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
 # 取り込みと作成 {#intake-and-create}
 
-マーケティングオペレーションチームに新しいキャンペーンを立ち上げるマーケティングリクエストの数は、高機能なチームを繰り返しタスクの根本的な扉に変え、燃え尽き、イノベーションを停滞させることができます。
+新しいキャンペーンを立ち上げるためにマーケティングオペレーションチームに寄せられる多数のマーケティングリクエストは、機能の高いチームに反復的なタスクの繰返しを強い、燃え尽き症候群やイノベーションの停滞を引き起こしてしまう可能性があります。
 
-キャンペーンリクエストを送信するプロセスを確立し、一般にリクエストされるマーケティングキャンペーンの作成を自動化することで、次のことが可能になります。キャンペーンの速度を上げ、エラーを減らし、リクエストをマーケティング操作の適切なメンバーにルーティングし、リソース使用率を調整して改善し、マーケティング操作のより多くをより戦略的なタスクに集中させます。
+キャンペーンリクエストを送信するプロセスを確立し、よくリクエストされるマーケティングキャンペーンの作成を自動化することにより、キャンペーンの速度を上げ、エラーを減らし、リクエストをマーケティング業務の適切なメンバーにルーティングし、リソースの使用率を調整して改善し、マーケティング業務をより戦略的なタスクに集中させることができます。
 
-WorkfrontとMarketo Engageを使用すると、システム間接続で [Workfrontリクエストフォーム](https://experienceleague.adobe.com/docs/workfront/using/administration-and-setup/customize/custom-forms/create-or-edit-a-custom-form.html){target=&quot;_blank&quot;}:Marketo Engageプログラムを作成し、次のようなキー変数を入力します。件名、E メールコピー、画像、日付、時間、イベント情報など。
+Workfront と Marketo Engage を使用すると、システム間接続により、[Workfront リクエストフォーム ](https://experienceleague.adobe.com/docs/workfront/using/administration-and-setup/customize/custom-forms/create-or-edit-a-custom-form.html?lang=ja){target=&quot;_blank&quot;}から詳細を入力して Marketo Engage プログラムを作成し、件名、メールのコピー、画像、日付、時刻、イベント情報などの主要な変数を入力することができます。
 
-この統合を実現するには、Workfront Fusion を使用します。これは、Workfrontと他のシステムとの間のワークフローを自動化できる作業自動化レイヤーです。
+この統合を実現するには、Workfront Fusion を使用します。これは Workfront と他のシステム間のワークフローを自動化できる作業自動化レイヤーです。
 
-以下のワークフローは、キャンペーンマネージャーがWorkfrontリクエストフォームを使用して行う、ウェビナーに対するリクエストを示しています。 リクエストで送信された詳細は、その後、ウェビナーのMarketo Engageで作成されるプログラムと電子メールをトリガーします。 さらに、電子メールのコンテンツを入力するための詳細がリクエストフォームから取得されます。
+以下のワークフローは、キャンペーンマネージャーが Workfront リクエストフォームを使用して行うウェビナーのリクエストを示しています。続いて、リクエストで送信された詳細により、Marketo Engage でウェビナー用に作成されるプログラムとメールがトリガーされます。さらに、メールのコンテンツを入力するための詳細がリクエストフォームから取得されます。
+さらに、リクエストフォームから詳細が取得され、メールのコンテンツが入力されます。
 
 ![](assets/intake-and-create-1.png)
 
 >[!TIP]
 >
->マーケティングキャンペーンの作業の整理に使用されるWorkfrontの様々なタイプのオブジェクトと、Marketo Engageプログラムへのマッピング方法について詳しくは、 [MarketoとWorkfrontの概要](/help/blueprints/b2b/campaign-supply-chain/overview.md){target=&quot;_blank&quot;}。
+>マーケティングキャンペーンの作業の整理に使用される Workfront のさまざまなタイプのオブジェクトと、Marketo Engage プログラムへのマッピング方法について詳しくは、[MarketoとWorkfrontの概要](/help/blueprints/b2b/campaign-supply-chain/overview.md){target=&quot;_blank&quot;}をご覧ください。
 
-## 自動化のためのキャンペーン開発プロセスの準備 {#prepare-your-campaign-development-process-for-automation}
+## 自動化のためのキャンペーン開発プロセスを準備 {#prepare-your-campaign-development-process-for-automation}
 
-すべての優れたワークフロー自動化の背後には、チームや関係者が自動化から最大限の価値を引き出していることを保証する、定義済みのプロセスがあります。
+すべての優れたワークフロー自動化の背後には、チームや関係者が自動化から最大限の価値を得られるようにする定義済みのプロセスがあります。
 
-**受け取るマーケティングリクエストのタイプは何ですか？**
+**受け取るマーケティングリクエストのタイプについて**
 
-E メール、育成、ファーストパーティのウェビナー、イベントなど、実行するマーケティング戦術のタイプについて考えてみましょう。 また、サードパーティのウェビナーやディスプレイ広告も実行していますか。 これらのリクエストは、リクエストフォームに特定の入力フィールドが必要な場合があるので、各リクエストを考慮する必要があります。また、複製されるMarketo Engage内の異なるプログラムテンプレートにマッピングされます。
+メール、育成、ファーストパーティのウェビナー、イベントなど、どのような種類のマーケティング戦術を実行するかを考えてみましょう。サードパーティのウェビナーやディスプレイ広告も実施していますか。これらのリクエストのそれぞれは、リクエストフォームで特定の入力フィールドを必要とする場合があり、複製される Marketo Engage のさまざまなプログラムテンプレートにマッピングされるため、考慮する必要があります。
 
-また、複数の地域でキャンペーンを実行している場合も把握したいと思います。 その場合は、Workfrontで 1 つのプロジェクトを使用し、Marketo Engageで複数のプログラムを作成し、各プログラムが異なる言語サポートを表すようにします。
+複数の地域でキャンペーンを実施しているかどうかも理解しておく必要があります。該当する場合、Workfront の 1 つのプロジェクトを考慮して、Marketo Engage で複数のプログラムを作成し、各プログラムが異なる言語サポートを表すようにします。
 
-リクエストを自動化して容易におこなうために、どのようなマーケティングリクエストを受け取るのかを事前に知っておくことが重要です。
+自動化された方法でリクエストを処理できるようにするには、受け取ることが予想されるマーケティングリクエストの種類を事前に把握しておくことが重要です。
 
-**キャンペーンリクエストで取り込む必要がある情報は何ですか？**
+**キャンペーンリクエストで取り込む必要がある情報について**
 
-実行する様々な戦術ごとに、リクエストフォームに取り込む必要がある主要な情報について考えてみましょう。 以下に、Workfrontフォームに取り込んで、キャンペーンの開発を自動化する方法を示します。
+実行するさまざまな戦術ごとに、リクエストフォームで取得する必要がある重要な情報について考えてみましょう。以下に、Workfront フォームに取り込んで、キャンペーン開発の自動化に役立つ方法を示します。
 
 <table> 
   <tr> 
@@ -49,25 +50,25 @@ E メール、育成、ファーストパーティのウェビナー、イベン
    <td><b>取得する情報</b></td>
   </tr>
   <tr> 
-   <td>メール一斉送信</td>
+   <td>メールブラスト</td>
    <td>・メールの件名<br />
 ・予定日<br />
 ・メールコピー<br />
 ・コールトゥアクション<br />
-・画像 — AEM Assetsの URL を直接参照してMarketoで使用<br />
+・画像 - AEM Assets の URL を直接参照して Marketo で使用<br />
 ・オーディエンス認定条件</td>
   </tr>
   <tr>
-   <td>ウェビナー/イベント</td>
+   <td>ウェビナー／イベント</td>
    <td>・イベント名<br />
-・イベント日<br />
-・イベント時刻<br />
+・イベントの日付<br />
+・イベントの時刻<br />
 ・イベントの都市<br />
 ・イベントの説明<br />
-・ウェビナー録画ページ — PageURL OnDemand<br />
-・スピーカー名<br />
-・スピーカータイトル<br />
-・スピーカー画像<br />
+・ウェビナー録画ページ - PageURL OnDemand<br />
+・講演者名<br />
+・講演者の肩書<br />
+・講演者の画像<br />
 ・必要なメール（招待、確認、リマインダー、フォローアップ）<br />
 ・メールヘッダーの画像<br />
 ・オーディエンス認定条件</td>
@@ -85,39 +86,39 @@ E メール、育成、ファーストパーティのウェビナー、イベン
 
 >[!NOTE]
 >
->現在、トークンはスマートリストではサポートされていないので、自動化によるプログラムによるオーディエンスの構築はMarketo Engageに制限があります。 つまり、オーディエンスは、ユーザーがMarketo Engageして作成する必要があります。また、継続的に通信する事前に定義されたオーディエンスがある場合は、自動化プロセス中に複製されたプログラムテンプレートの一部に設定済みのスマートリストを含めます。
+>現在、Marketo Engage では、スマートリストでトークンがサポートされていないため、プログラムによるオーディエンスの構築の自動化は制限されています。すなわち、ユーザーがMarketo Engageでオーディエンスを作成する必要があること、または、継続的に通信する事前定義されたオーディエンスがある場合は、自動化プロセス中に複製されるプログラムテンプレートの一部として構成済みのスマートリストを含めることがでるということです。
 
-### 優れたセンターを確立 {#establish-your-center-of-excellence}
+### センターオブエクセレンスを確立する {#establish-your-center-of-excellence}
 
-プログラムの作成を自動化する場合は、優れたMarketo Engageの中心が必要です。 卓越性の中心には、テンプレート化されたプログラムとアセットが含まれ、キャンペーン開発プロセスを迅速に、標準化します。 例えば、様々なキャンペーンニーズに対応したプログラムテンプレートを用意できます。メール、育成、対面イベント、ウェビナー。 さらに、異なる地域や異なる種類のメールのお知らせに使用する複数のメールプログラムテンプレートが存在する場合もあります。
+プログラムの作成を自動化したい場合は、Marketo Engage にセンターオブエクセレンスが必要です。センターオブエクセレンスには、キャンペーン開発プロセスの迅速化と標準化に役立つテンプレート化されたプログラムとアセットが含まれています。たとえば、メール、育成、対面イベント、ウェビナーなど、さまざまなキャンペーンのニーズに合わせたプログラムテンプレートがあるとします。さらに、さまざまな地域や異なる種類のメール通知に使用する複数のメールプログラムテンプレートが存在する場合があります。
 
-Marketo Engageのプログラムテンプレートを使用して優れたセンターを構築することは、キャンペーンの実行に対してよりプログラム的なアプローチを取る最初のステップの 1 つで、キャンペーンリクエストを自動化する基盤の役割を果たします。
+Marketo Engage のプログラムテンプレートを使用してセンターオブエクセレンスを構築することは、キャンペーンの実行によりプログラム的なアプローチを採用するための最初のステップの 1 つであり、キャンペーンリクエストを自動化する基盤の役割を果たします。
 
-再利用可能なプログラムテンプレートのセットを用意したら、このブループリントで概要を説明する自動化を使用して、キャンペーン開発の速度を向上させ、作業をさらに拡大できます。
+再利用可能なプログラムテンプレートのセットを用意したら、このブループリントで概説されている自動化を使用して、取り組みをさらに拡大し、キャンペーン開発をより迅速に進めることができます。
 
-独自の優れた中心を作成する方法について詳しくは、 [Marketo Community](https://nation.marketo.com/t5/product-blogs/marketo-master-class-center-of-excellence-with-chelsea-kiko/ba-p/243221){target=&quot;_blank&quot;} のベストプラクティスを参照してください。
+独自のセンターオブエクセレンスの作成について詳しくは、 [Marketo Community](https://nation.marketo.com/t5/product-blogs/marketo-master-class-center-of-excellence-with-chelsea-kiko/ba-p/243221){target=&quot;_blank&quot;} のベストプラクティスを参照してください。
 
-### トークンを使用したコンテンツの入力 {#use-tokens-to-populate-content}
+### トークンを使用してコンテンツを入力する {#use-tokens-to-populate-content}
 
-Marketo Engageでは、トークンを使用してキャンペーンアセットにコンテンツを入力できます。 例えば、優れたセンターから電子メールテンプレートを複製した後、Workfront Fusion はWorkfrontのキャンペーンリクエストから詳細を取得し、Marketo Engageプログラムのマイトークンに渡すことができます。 その後、トークンの値を電子メールに直接継承して、電子メールを構築できます。
+Marketo Engage では、トークンを使用してコンテンツをキャンペーンアセットに入力することができます。たとえば、センターオブエクセレンスからメールテンプレートを複製した後、Workfront Fusion は Workfront のキャンペーンリクエストから詳細を取得し、Marketo Engage プログラムのマイ トークンに渡すことができます。その後、トークンの値をメールに直接継承して、メールを構築することができます。
 
 ![](assets/intake-and-create-2.png)
 
-### AEM Assetsからの画像の入力 {#populate-images-from-aem-assets}
+### AEM Assets から画像を入力 {#populate-images-from-aem-assets}
 
-Marketo EngageトークンとAEM Assets内のアセットへのリンクを組み合わせて使用することで、電子メールとランディングページの開発をさらに自動化できます。 キャンペーンリクエスト担当者は、リクエストプロセスの一環として、AEM Assetsから公開済みの画像リンクを送信できます。 その後、Workfront Fusion は、これらのリンクを取得し、Marketo Engageトークンを使用して電子メールのHTMLに埋め込むことができます。
+Marketo Engage トークンを AEM Assets のアセットへのリンクと組み合わせて利用することにより、メールとランディングページの開発をさらに自動化することができます。キャンペーンリクエスト担当者は、リクエストプロセスの一環として、AEM Assets から公開済みの画像リンクを送信することができます。その後、Workfront Fusion は、これらのリンクを取得し、Marketo Engage トークンを使用してメールの HTML に埋め込むことができます。
 
-Fusion がWorkfrontで送信した情報でトークンの値を更新できるように、マイトークンを利用するには、プログラムとプログラムテンプレートをMarketo Engageに構築する必要があります。
+Workfront で送信された情報で Fusion がトークン値を更新できるように、Marketo Engage で、自身のプログラムとプログラムテンプレートを構築してマイ トークンを利用する必要があることにご留意ください。
 
 >[!NOTE]
 >
->AEM Assetsは、このワークフローをサポートする必要はありませんが、campaign 開発サプライチェーン全体で campaign アセットを管理するための、より効率的なプロセスを可能にします。
+>AEM Assets は、このワークフローをサポートする必要はありませんが、キャンペーン開発サプライチェーン全体でキャンペーンアセットを管理するための、より効率的なプロセスを可能にすることができます。
 
-### すべてのプログラムリクエストタイプのルックアップライブラリのアセンブリ {#assemble-a-lookup-library-for-all-program-request-types}
+### すべてのプログラムリクエストタイプのルックアップライブラリを組み立てる {#assemble-a-lookup-library-for-all-program-request-types}
 
-Workfrontリクエストから新しいMarketo Engageプログラムの作成を自動化する場合は、Workfrontリクエストから情報を取得し、Marketo Engageでクローンする必要のある適切なプログラムテンプレートを参照できる手順をWorkfront Fusion 自動化に含めることが重要です。
+Workfront リクエストから新しい Marketo Engage プログラムの作成を自動化する場合、Workfront リクエストから情報を取得し、Marketo Engage で複製する必要がある正しいプログラムテンプレートを検索できるステップを Workfront Fusion の自動化に含めることが重要です。
 
-これをおこなうには、優れたMarketo Engageセンターにあるすべての様々なプログラムテンプレートのリストを含むデータセットをWorkfront Fusion にインポートします。
+これを行うには、Marketo Engage センターオブエクセレンスのさまざまなプログラムテンプレートすべてのリストを含むデーセットを Workfront Fusion にインポートします。
 
 プログラムテンプレート参照ライブラリに含める基本情報は、次のとおりです。
 
@@ -128,33 +129,33 @@ Workfrontリクエストから新しいMarketo Engageプログラムの作成を
   </tr>
   <tr> 
    <td>キャンペーンタイプ</td>
-   <td>電子メール、ウェビナー、育成、イベント、サードパーティのウェビナー、リストのインポートなどが該当します。キャンペーンのタイプは、リクエストされる内容を読み取り可能に説明します。</td>
+   <td>これには、メール、ウェビナー、育成、イベント、サードパーティのウェビナー、リストのインポートなどが該当します。キャンペーンタイプは、要求されている内容の読み取り可能な説明として機能します。</td>
   </tr>
   <tr> 
-   <td>Workfront Request Type</td>
-   <td>これは、Workfrontフォームで選択されるリクエストタイプです。これは、E メール、ウェビナー、育成、イベントなど、キャンペーンのタイプと同じである可能性があります。 これは、Workfrontフォームで選択した入力を、Marketoのプログラムテンプレートにマッピングするために使用します。</td>
+   <td>Workfront リクエストタイプ</td>
+   <td>これは Workfront フォームで選択されたリクエストタイプであり、メール、ウェビナー、育成、またはイベントなどのキャンペーンタイプと同じである可能性があります。これは、Workfront フォームで選択した入力を、Marketo のプログラムテンプレートにマッピングするために使用します。</td>
   </tr>
   <tr> 
-   <td>Workfront Form ID</td>
-   <td>書き込み要求がMarketo Engageプログラムテンプレートにマッピングされていることを検証するために使用される、Workfront要求フォームの一意の ID です。</td>
+   <td>Workfront フォーム ID</td>
+   <td>書き込みリクエストが Marketo Engage プログラムテンプレートにマッピングされていることを検証するために使用される Workfront リクエストフォームの一意の ID。</td>
   </tr>
   <tr> 
-   <td>Marketo Program ID</td>
-   <td>これは、実行中のリクエストにマッピングされるMarketo Engage内のプログラムテンプレートの ID です。 この情報をWorkfront Fusion ですぐに入手できるので、Fusion はMarketo Engageにリクエストを送信し、どのプログラムを複製するかを正確に把握できます。</td>
+   <td>Marketo プログラム ID</td>
+   <td>これは、実行中のリクエストにマッピングされる Marketo Engage 内のプログラムテンプレートの ID です。この情報を Workfront Fusion ですぐに利用できるようにすると、Fusion は Marketo Engage にリクエストを送信し、複製するプログラムを正確に知ることができます。</td>
   </tr>
   </tbody>
 </table>
 
-## インテークと自動化フローの作成 {#intake-and-create-automation-flow}
+## 自動化フローを取り込みおよび作成 {#intake-and-create-automation-flow}
 
-次に、事前ビルドを使用して Fusion でワークフローロジックを組み立てる方法の例を示します [Workfront](https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-fusion/fusion-apps-and-modules/workfront-modules.html){target=&quot;_blank&quot;} および [Marketo Engage](https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-fusion/fusion-apps-and-modules/marketo-modules.html)自動処理を迅速に実行できる {target=&quot;_blank&quot;} モジュール。
+自動化をより迅速に実現できる事前構築済みの[ Workfront](https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-fusion/fusion-apps-and-modules/workfront-modules.html?lang=ja){target=&quot;_blank&quot;} および [Marketo Engage](https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-fusion/fusion-apps-and-modules/marketo-modules.html?lang=ja){target=&quot;_blank&quot;} モジュールを使用して、Fusion でワークフロー ロジックを組み立てる方法の例を次に示します。
 
 ![](assets/intake-and-create-3.png)
 
 ## リソース {#resources}
 
-* [Adobe Marketo Engageモジュール](https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-fusion/fusion-apps-and-modules/marketo-modules.html){target=&quot;_blank&quot;}
+* [Adobe Marketo Engage モジュール](https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-fusion/fusion-apps-and-modules/marketo-modules.html?lang=ja){target=&quot;_blank&quot;}
 
-* [Adobe Workfrontモジュール](https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-fusion/fusion-apps-and-modules/workfront-modules.html){target=&quot;_blank&quot;}
+* [Adobe Workfront モジュール](https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-fusion/fusion-apps-and-modules/workfront-modules.html?lang=ja){target=&quot;_blank&quot;}
 
-* [MarketoとWorkfrontの概要](/help/blueprints/b2b/campaign-supply-chain/overview.md){target=&quot;_blank&quot;}
+* [Marketo と Workfront の概要](/help/blueprints/b2b/campaign-supply-chain/overview.md){target=&quot;_blank&quot;}
