@@ -31,7 +31,7 @@ ht-degree: 100%
 <tr>
   <td>
     <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer.html?lang=ja"><img alt="トリガーされるメッセージおよび Experience Platform ブループリントのサムネイル画像" src="customer-journeys/assets/ajo-architecture.svg" /></a>
-    <div><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer.html"><strong>クロスチャネルオーケストレーション</strong></a></div>
+    <div><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer.html?lang=ja"><strong>クロスチャネルオーケストレーション</strong></a></div>
     <p><em>[!UICONTROL Platform] を中心としたハブとして使用して、リアルタイムでメッセージを送信し、顧客体験に影響を与えます。</em></p>
   </td>
   <td>
@@ -41,7 +41,7 @@ ht-degree: 100%
   </td>
   <td>
     <a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/cross-channel.html?lang=ja"><img alt="デジタル行動データ統合ブループリントのサムネイル画像" src="customer-journey-analytics/assets/CJA.svg" /></a>
-    <div><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/cross-channel.html?lang=en"><strong>クロスチャネルジャーニー分析</strong></a></div>
+    <div><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/cross-channel.html?lang=ja"><strong>クロスチャネルジャーニー分析</strong></a></div>
     <p><em>様々なチャネルにわたる顧客行動を 1 つの統合表示で把握。</em></p>
   </td>
 </tr>
