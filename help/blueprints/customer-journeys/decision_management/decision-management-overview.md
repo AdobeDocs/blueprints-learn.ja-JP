@@ -1,18 +1,18 @@
 ---
-title: 意思決定管理の概要
+title: 決定管理ブループリント
 description: カスタマージャーニーをまたいでパーソナライズされたオファーを配信します。
 solution: Experience Platform, Journey Optimizer
 exl-id: 1bc9335c-5321-4d0c-939e-4f402e2e8f51
-source-git-commit: b3d4e89c7e4170ffee2cc1776ffa26d2e0ce79e6
-workflow-type: ht
-source-wordcount: '759'
-ht-degree: 100%
+source-git-commit: b18d491fdefc57762932d1570401b5437bf97c76
+workflow-type: tm+mt
+source-wordcount: '757'
+ht-degree: 93%
 
 ---
 
-# Journey Optimizer — 意思決定管理の概要
+# Journey Optimizer - Decision Management ブループリント
 
-意思決定管理について詳しくは、製品ドキュメントを参照してください。 [ここをクリック](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started-decision/starting-offer-decisioning.html?lang=ja)
+決定管理について詳しくは、 [製品ドキュメント](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started-decision/starting-offer-decisioning.html?lang=ja)
 
 アドビの意思決定管理は、Adobe Journey Optimizer の一部として提供されるサービスです。このブループリントは、アプリケーションのユースケースと技術的機能の概要を示し、意思決定管理を構成する様々なアーキテクチャコンポーネントと考慮事項について詳しく説明します。
 
@@ -25,7 +25,7 @@ Journey Optimizer は、あらゆるタッチポイントにわたり、適切�
 
 <img src="../assets/offers_overview.png" alt="意思決定管理" style="width:100%; border:1px solid #4a4a4a" />
 
-意思決定管理は、エッジ上またはハブを介して、2 つの方法のいずれかでデプロイできます。これらのメソッドのそれぞれには、以下に示す各ブループリントで概要を説明するように、サービスを動作させるための特定のインターフェイスとプロトコルのセットがあります。追加の詳細は、意思決定管理ドキュメント[ここ](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/api-reference/offer-delivery-api/decisioning-vs-edge-apis.html?lang=ja)でも入手することができます。
+意思決定管理は、エッジ上またはハブを介して、2 つの方法のいずれかでデプロイできます。これらのメソッドのそれぞれには、以下に示す各ブループリントで概要を説明するように、サービスを動作させるための特定のインターフェイスとプロトコルのセットがあります。追加の詳細は、 [決定管理ドキュメント](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/api-reference/offer-delivery-api/decisioning-vs-edge-apis.html?lang=ja).
 
 ## ハブでの意思決定管理
 
@@ -33,7 +33,7 @@ Journey Optimizer は、あらゆるタッチポイントにわたり、適切�
 
 * オファーの適格性は、すべての属性とエクスペリエンスイベントを含む、完全な Real-time Customer Profile に対して機能します。
 
-### ハブでの意思決定管理のユースケース
+### ハブでの意思決定管理の使用例
 
 * キオスクおよびストアエクスペリエンスに関してパーソナライズされたオファー。
 * コールセンターやセールスインタラクションなど、エージェントの支援によってパーソナライズされたオファー。
@@ -50,7 +50,7 @@ Journey Optimizer は、あらゆるタッチポイントにわたり、適切�
 
 2 つ目のアプローチは、Experience Edge ネットワークを介したものです。Experience Edge ネットワークは、地理的にグローバルに分散されたインフラストラクチャで、1 秒未満および 1 ミリ秒の高速なエクスペリエンスを提供します。レイテンシを最小限に抑えるために、消費者の地理的位置に最も近いエッジインフラストラクチャによって実行される最終消費者エクスペリエンス。Edge 上の意思決定管理は、web やモバイルのインバウンドパーソナライズ機能リクエストなどのリアルタイムの顧客体験を提供するように設計されています。ハブの意思決定管理について詳しくは、[ハブの意思決定管理](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer/decision-management/decision-management-edge.html?lang=ja)ブループリントを参照してください。
 
-### エッジでの意思決定管理のユースケース
+### エッジでの決定管理の使用例
 
 * Web またはモバイルインバウンドエクスペリエンスを使用したオンラインパーソナライズ機能。
 * クロスチャネルのジャーニーの実行 - Adobe Journey Optimizer を通じて、web、モバイル、電子メールおよびその他のインタラクションチャネル間の一貫性を提供します。

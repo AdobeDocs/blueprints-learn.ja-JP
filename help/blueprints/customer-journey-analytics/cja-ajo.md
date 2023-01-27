@@ -1,18 +1,18 @@
 ---
-title: Journey Optimizer を使用した Customer Journey Analytics
+title: Journey Optimizer を使用した Customer Journey Analytics ブループリント
 description: Journey Optimizer からの配信データやインタラクションデータを含め、Customer Journey Analytics で、カスタマージャーニー全体のデータや顧客行動を統合し、分析します。
 solution: Customer Journey Analytics
 kt: null
 thumbnail: null
 exl-id: 5ae084bf-a98d-418a-8038-e6f849ff7c1d
-source-git-commit: a3e55b9dc61c87393c12b3d0a4793256a64b6c54
-workflow-type: ht
-source-wordcount: '140'
-ht-degree: 100%
+source-git-commit: b18d491fdefc57762932d1570401b5437bf97c76
+workflow-type: tm+mt
+source-wordcount: '142'
+ht-degree: 97%
 
 ---
 
-# Journey Optimizer を使用した Customer Journey Analytics
+# Journey Optimizer を使用した Customer Journey Analytics ブループリント
 
 Journey Optimizer のデータは Experience Platform のデータレイクに共有され、Customer Journey Analytics 内で取り込み、分析およびレポート作成に使用することができます。ジャーニーの配信、インタラクション、および有効性を Customer Journey Analytics 内で分析およびレポートすることができます。
 

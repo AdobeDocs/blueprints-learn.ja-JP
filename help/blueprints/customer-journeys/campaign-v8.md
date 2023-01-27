@@ -1,12 +1,12 @@
 ---
-title: Campaign v8 ブループリント、Campaign と AEP
+title: Campaign v8 ブループリント、Campaign および Platform
 description: Adobe Campaign v8 は、電子メールやダイレクトメールなどの従来のマーケティングチャネル用に構築された次世代キャンペーンツールです。堅牢な ETL およびデータ管理機能を提供し、最適なキャンペーンの作成とキュレーションを支援します。そのオーケストレーションエンジンは、バッチベースのジャーニーに重点を置いた、豊富なマルチタッチマーケティングプログラムを提供します。また、拡張性の高いリアルタイムメッセージングサーバーと組み合わせることで、マーケティングチームは、パスワードのリセット、注文確認、電子領収書など、あらゆる IT システムから包括的なペイロードに基づいて事前に定義したメッセージを送信することが可能になります。
 solution: Campaign,Campaign v8
 exl-id: 89b3a761-9cb3-4e01-8da0-043e634fa61f
-source-git-commit: c79422931cb4305347a4034ae1cb6bac2be1e229
-workflow-type: ht
+source-git-commit: b18d491fdefc57762932d1570401b5437bf97c76
+workflow-type: tm+mt
 source-wordcount: '1147'
-ht-degree: 100%
+ht-degree: 96%
 
 ---
 
@@ -16,7 +16,7 @@ Adobe Campaign v8 は、電子メールやダイレクトメールなどの従�
 
 <br>
 
-## ユースケース
+## 使用例
 
 * 非常に複雑なバッチベースのメッセージングプログラム
 * オンボーディングおよびリマーケティングキャンペーン
@@ -45,7 +45,7 @@ Adobe Campaign v8 は、電子メールやダイレクトメールなどの従�
 ## 前提条件
 
 
-### アプリケーションサーバーおよびリアルタイムメッセージングサーバー
+### アプリケーションサーバーとリアルタイムメッセージングサーバー
 
 * Adobe Campaign Client Console は、Campaign v8 ソフトウェアとやり取りして使用するために必要です。これは Windows ベースのクライアントで、標準のインターネットプロトコル（SOAP、HTTP など）を使用します。ソフトウェアの配布、インストール、実行に必要な権限が組織で有効になっていることを確認します。
 
@@ -114,7 +114,7 @@ Adobe Campaign v8 は、電子メールやダイレクトメールなどの従�
 
 <br>
 
-## 実装手順
+## 実装の手順
 
 [Adobe Campaign v8 の実装](https://experienceleague.adobe.com/docs/campaign/campaign-v8/implement/implement.html?lang=ja)の入門ガイドを参照してください。
 

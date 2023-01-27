@@ -1,17 +1,17 @@
 ---
-title: B2B 分析およびアクティベーション
+title: B2B 分析およびアクティベーション ブループリント
 description: Real-time Customer Data Platformを使用して、アカウントベースのオーディエンスとプロファイル中心のカスタマーエクスペリエンスを提供します。
 solution: Real-time Customer Data Platform
 kt: 9311
 exl-id: b89f77f7-96a4-4f3f-8123-c62989b64c2b
-source-git-commit: bd0a93ef2efa702b4d4f3eb20d126ee22fb113af
+source-git-commit: b18d491fdefc57762932d1570401b5437bf97c76
 workflow-type: tm+mt
-source-wordcount: '229'
-ht-degree: 63%
+source-wordcount: '231'
+ht-degree: 61%
 
 ---
 
-# B2B 分析およびアクティベーション
+# B2B Analytics &amp; Activation ブループリント
 
 B2B データドリブン型マーケティングでは、オーディエンスとプロファイルのアクティベーションが成功のカギです。ただし、多くのブランドでは、依然としてチャネルファーストのアクティベーションに注力し、多くの場合、リーチやパーソナライズ機能に一貫性がありません。
 

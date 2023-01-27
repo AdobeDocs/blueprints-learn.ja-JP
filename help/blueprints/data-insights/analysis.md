@@ -1,18 +1,18 @@
 ---
-title: データ分析とインテリジェンスブループリント
+title: データ分析とインテリジェンスのブループリント
 description: このブループリントは、データレイクに存在するデータの探索的クエリおよび分析を実行する Adobe Experience Platform 内の機能を示します。
 solution: Experience Platform
 kt: 7207
 thumbnail: null
 exl-id: a972ea56-d1c8-45da-9044-ed31222a2441
-source-git-commit: 6d44401fba8cc75402d4303825e32e7948753449
-workflow-type: ht
+source-git-commit: b18d491fdefc57762932d1570401b5437bf97c76
+workflow-type: tm+mt
 source-wordcount: '293'
-ht-degree: 100%
+ht-degree: 94%
 
 ---
 
-# データ分析とインテリジェンスブループリント
+# データ分析とインテリジェンスのブループリント
 
 データ分析とインテリジェンスは、Adobe Experience Platform 内の機能で構成され、データレイクに存在するデータの調査クエリおよび分析を実行します。
 
@@ -20,7 +20,7 @@ Experience Platform の[!UICONTROL クエリサービス]を使用すると、�
 
 Experience Platform を使用すると、サードパーティ SQL クライアント、インターフェイスおよびビジネスインテリジェンス（BI）ツールとの接続が可能になり、[!DNL PostgreSQL] プロトコルを使用して、Experience Platform 内で直接データへの接続やアクセス、クエリを実行することができます。
 
-## ユースケース
+## 使用例
 
 * インタラクティブクエリとデータの集計
 * 調査および検証用に取り込まれたデータに対する行および列アクセス
@@ -40,7 +40,7 @@ Experience Platform を使用すると、サードパーティ SQL クライア�
 
 ベストプラクティスとガードレールについての詳細は、クエリサービス製品ドキュメントを参照してください。[クエリサービスガイダンス](https://experienceleague.adobe.com/docs/experience-platform/query/guardrails.html?lang=ja)
 
-## 実装手順
+## 実装の手順
 
 1. データを取り込むために[スキーマを作成](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2021.1.xdm)します。
 1. データを取り込むために[データセットを作成](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/create-datasets-and-ingest-data.html?lang=ja)します。

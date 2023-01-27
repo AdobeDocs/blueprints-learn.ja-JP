@@ -4,10 +4,10 @@ description: Google Customer Match へのアクティベーション。
 solution: Real-time Customer Data Platform, Data Collection
 kt: 7086
 exl-id: 32bdc04d-b101-4b17-af27-329e5c71d888
-source-git-commit: 6fa38772f77ffd565580db55f8f2889b0e703949
-workflow-type: ht
+source-git-commit: b18d491fdefc57762932d1570401b5437bf97c76
+workflow-type: tm+mt
 source-wordcount: '1010'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 100%
 
 複数のソースから顧客データを取り込んで顧客の単一のプロファイル表示を作成し、これらのプロファイルをセグメント化し、マーケティングやパーソナライズ機能用に、オーディエンスを構築し、これを Google Customer Match などの Social Ad Networks で共有し、オーディエンスをターゲット化し、パーソナライズ機能キャンペーンを実施します。Google Customer Match を使用すると、オンラインとオフラインのデータを使用して、Googleが所有および運用するプロパティ（検索、ショッピング、Gmail、YouTube など）をまたいで、顧客にリーチし、再び関与させることができます。
 
-## ユースケース
+## 使用例
 
 * ソーシャルおよび広告の宛先の既知のオーディエンスに対するオーディエンスターゲティング。
 * オンラインおよびオフライン属性を使用したオンラインパーソナライズ機能。
@@ -29,7 +29,7 @@ ht-degree: 100%
 
 <img src="../assets/gcm.svg" alt="Google Customer Match アクティベーションの参照アーキテクチャ" style="width:90%; border:1px solid #4a4a4a" />
 
-## 実装手順
+## 実装の手順
 
 1. プロファイルデータソースで使用する ID 名前空間を設定します。
    * 標準の名前空間（電子メール、Email SHA256 Hash など）を使用します（使用可能な場合）。

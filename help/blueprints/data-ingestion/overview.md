@@ -5,14 +5,14 @@ solution: Data Collection
 kt: 7204
 thumbnail: null
 exl-id: 5c3c94b6-c928-4d93-8b38-f8bd2aad2e68
-source-git-commit: 1d286f4dabe71f359c14a88c91f306ea443646a6
-workflow-type: ht
-source-wordcount: '213'
-ht-degree: 100%
+source-git-commit: b18d491fdefc57762932d1570401b5437bf97c76
+workflow-type: tm+mt
+source-wordcount: '214'
+ht-degree: 99%
 
 ---
 
-# データ収集と準備
+# データ収集と準備 ブループリント
 
 データ収集と準備は、データを準備して Adobe Experience Platform に取り込むためのすべての方法を網羅しています。また、Adobe Experience Platform のエッジネットワークにデータを収集する機能、およびサイド転送を介したエンタープライズ宛先へのデータ転送機能も含まれます。
 

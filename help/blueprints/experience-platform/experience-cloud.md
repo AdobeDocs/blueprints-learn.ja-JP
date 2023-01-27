@@ -5,30 +5,30 @@ solution: Experience Cloud, Campaign, Analytics, Target, Audience Manager, Comme
 kt: 7200
 thumbnail: null
 exl-id: 67f7e236-4fa2-434d-af22-953e94a079c1
-source-git-commit: d952442d066ea99f5b089f85798129dd0e40daec
-workflow-type: ht
+source-git-commit: b18d491fdefc57762932d1570401b5437bf97c76
+workflow-type: tm+mt
 source-wordcount: '150'
-ht-degree: 100%
+ht-degree: 86%
 
 ---
 
 # Adobe Experience Cloud アーキテクチャ図
 
-## Adobe Experience クラウドマーケテクチャ
+## Adobe Experience Cloud marketecture
 
 以下の図に、Adobe Experience Platform の基盤上に構築および統合された、データインサイトとオーディエンス、コンテンツとコマース、カスタマージャーニー、およびマーケティングワークフローにわたる Adobe Experience Cloud のさまざまなコンポーネントを示します。
 
 <img src="assets/AEC.jpg" alt="Experience Cloud の概要" style="width:95%; border:1px solid #4a4a4a" />
 <br>
 
-## データインサイトとオーディエンス、コンテンツとコマース、およびエクスペリエンス配信の統合アーキテクチャ
+## Data &amp; Insights、Content &amp; Commerce、およびエクスペリエンス配信の統合アーキテクチャ
 
 以下のアーキテクチャ図に、Adobe Experience Cloud の様々なコンポーネントがどのように接続および統合され、データ、コンテンツ、およびエクスペリエンス配信にわたる大規模なパーソナライズ機能を実現するかを示します。
 
 <img src="assets/pers_at_scale.svg" alt="Experience Cloud" style="width:95%; border:1px solid #4a4a4a" />
 <br>
 
-## 企業の展望に見る Adobe Experience Cloud
+## Adobe Experience Cloudは企業の状況にある
 
 以下のアーキテクチャ図に、Adobe Experience Cloud アプリケーションと Adobe Experience Platform が、データ、インサイト、オーケストレーション、およびエンゲージメントの 4 つのカテゴリにわたる企業顧客のエクスペリエンスアーキテクチャにどのように適合するかを示します。
 

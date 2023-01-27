@@ -1,15 +1,15 @@
 ---
-description: 概要 - Marketo と Workfront を使用してキャンペーンサプライチェーンを最適化
-title: 概要
+title: MarketoとWorkfrontの設計図を含む Campaign サプライチェーン
+description: 概要 — MarketoおよびWorkfrontのブループリントを使用した Campaign サプライチェーンの最適化
 exl-id: c1da95d0-0649-4e69-aade-3ddcb89d2d31
-source-git-commit: 52d71533a6d33cc35b5158007d9851dc880bc937
-workflow-type: ht
-source-wordcount: '1738'
-ht-degree: 100%
+source-git-commit: b18d491fdefc57762932d1570401b5437bf97c76
+workflow-type: tm+mt
+source-wordcount: '1743'
+ht-degree: 95%
 
 ---
 
-# 概要 {#overview}
+# MarketoとWorkfrontの設計図を含む Campaign サプライチェーン {#overview}
 
 ## 最適化されたキャンペーンサプライチェーンにより、市場投入までの時間を短縮 {#achieving-faster-time-to-market-with-optimized-campaign-supply-chain}
 
@@ -30,7 +30,7 @@ ht-degree: 100%
 
 マルチチャネルマーケティングアクティベーションシステム（Marketo Engage）をマーケティング計画および記録システム（Workfront）と統合することにより、キャンペーンの速度を上げ、関係者への可視性を高めることができます。
 
-Workfront Fusion を使用すると、マーケティングオペレーションチームは、マーケティング概要をキャンペーンに変換する際に、手動で誤りが生じやすい手順を大幅に排除することができます。Workfront Fusion は、Workfront と Marketo Engage の間にすぐに使用できる統合レイヤーを提供し、システム間のワークフローを柔軟かつ効率的に開発できるようにします。統合を設定する方法と、ワークフローを自動化するために実行できるアクションについて詳しく学ぶことができます。詳細は[ここから](https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-fusion/fusion-apps-and-modules/marketo-modules.html?lang=ja){target=&quot;_blank&quot;}。
+Workfront Fusion を使用すると、マーケティングオペレーションチームは、マーケティング概要をキャンペーンに変換する際に、手動で誤りが生じやすい手順を大幅に排除することができます。Workfront Fusion は、Workfront と Marketo Engage の間にすぐに使用できる統合レイヤーを提供し、システム間のワークフローを柔軟かつ効率的に開発できるようにします。統合を設定する方法と、ワークフローを自動化するために実行できるアクションについて詳しく学ぶことができます。詳細は[ここから](https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-fusion/fusion-apps-and-modules/marketo-modules.html?lang=ja){target="_blank"}.
 
 ## キャンペーンの計画から実施まで - 自動化のユースケース {#campaign-planning-to-execution-automation-use-cases}
 
@@ -147,7 +147,7 @@ Workfront と Marketo Engage がキャンペーン開発サプライチェーン
 
 ### Workfront Fusion、Workfront および Marketo Engage 統合の概要 {#getting-started-with-workfront-fusion}
 
-* [取り込みと作成](/help/blueprints/b2b/campaign-supply-chain/intake-and-create.md){target=&quot;_blank&quot;} - Marketo Engage と Workfront を使用したキャンペーン開発の自動化
+* [取り込みと作成](/help/blueprints/b2b/campaign-supply-chain/intake-and-create.md){target="_blank"} -Marketo EngageとWorkfrontを使用したキャンペーン開発の自動化
 
 * 確認と承認（近日公開）
 
@@ -155,10 +155,10 @@ Workfront と Marketo Engage がキャンペーン開発サプライチェーン
 
 ### Marketo Engage キャンペーン名と関連 URL の管理 {#managing-marketo-engage-campaign-names}
 
-キャンペーンと URL の命名規則の標準化は、Marketo Engage で正確なプログラム管理を行うための重要な基盤であり、キャンペーンサプライ チェーン全体でより一貫したプロセスを促進するのに役立ちます。これを支援するツールをお探しの場合は、[アドビサクセスサービス](https://main--marketo-campaign-tools--dr-adobe.hlx.live/){target=&quot;_blank&quot;}が提供する無料のオープンソースツールをお試しください。このツールでは、Marketo Engage キャンペーンとその関連 URL を作成および管理するための一貫したアプローチを作成することが可能です。
+キャンペーンと URL の命名規則の標準化は、Marketo Engage で正確なプログラム管理を行うための重要な基盤であり、キャンペーンサプライ チェーン全体でより一貫したプロセスを促進するのに役立ちます。これを支援するツールをお探しの場合は、以下の無料のオープンソースツールをご利用ください。 [Adobe成功サービス](https://main--marketo-campaign-tools--dr-adobe.hlx.live/){target="_blank"} を使用すると、Marketo Engageキャンペーンとそれに関連する URL を一貫した方法で作成および管理できます。
 
 ### リソース {#resources}
 
-* [Marketo Engage 用 Workfront Fusion](https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-fusion/fusion-apps-and-modules/marketo-modules.html?lang=ja){target=&quot;_blank&quot;}
+* [Workfront Fusion forMarketo Engage](https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-fusion/fusion-apps-and-modules/marketo-modules.html?lang=ja){target="_blank"}
 
-* [Workfront 用 Workfront Fusion](https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-fusion/fusion-apps-and-modules/workfront-modules.html?lang=ja){target=&quot;_blank&quot;}
+* [Workfront Fusion for Workfront](https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-fusion/fusion-apps-and-modules/workfront-modules.html?lang=ja){target="_blank"}

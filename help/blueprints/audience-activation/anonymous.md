@@ -1,23 +1,23 @@
 ---
-title: 匿名オーディエンスアクティベーションブループリント
+title: 匿名Audience Activationのブループリント
 description: 匿名および行動顧客データに基づいて、web および広告チャネルをまたいでオーディエンスをターゲットする方法を説明します。この機能を使用すると、デバイスをまたいでパーソナライズされた一貫性のあるリアルタイムカスタマーエクスペリエンスを実現します。
 landing-page-description: 匿名および行動顧客データに基づいて、web および広告チャネルをまたいでオーディエンスをターゲットする方法を説明します。
 solution: Audience Manager
 kt: 7211
 thumbnail: null
 exl-id: f17599f1-2e75-4cbe-841a-9fd1dae71ada
-source-git-commit: 16c05fcb36fb3f11b0d86ad30710e399cecc05c0
+source-git-commit: b18d491fdefc57762932d1570401b5437bf97c76
 workflow-type: tm+mt
 source-wordcount: '380'
-ht-degree: 100%
+ht-degree: 85%
 
 ---
 
-# 匿名オーディエンスアクティベーションブループリント
+# 匿名Audience Activationのブループリント
 
 匿名オーディエンスのアクティベーションは、匿名デバイスおよび行動データに基づいて、web、モバイル、広告の各チャネルをまたいでオーディエンスをターゲティングしてパーソナライズする機能です。
 
-## ユースケース
+## 使用例
 
 * Web サイト、モバイルアプリ、またはサポートされる広告チャネルで、匿名デジタルオーディエンスのターゲティングとパーソナライゼーションを実行します。
 * 既知のデバイスや行動特性に基づいて、ランディングページと事前認証エクスペリエンスを最適化します。
@@ -31,7 +31,7 @@ ht-degree: 100%
 
 Audience Manager と Real-time Customer Data Platform の両方を活用して、匿名オーディエンスアクティベーションをオンサイトと広告の宛先に使用できます。Real-time Customer Data Platform は、[宛先ドキュメント](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/overview.html?lang=ja)に記載されている匿名デバイス識別子を持つ広告の宛先のサブセットのみをサポートしていることに留意してください。
 
-Microsoft Bing、Google DV360、TradeDesk は、匿名デバイスベースのターゲティングでサポートされる、主な Real-time Customer Data Platform の広告の宛先です。この他にも、Real-time Customer Data Platform は多数の既知の顧客ベースの宛先をサポートします。それらは[宛先ドキュメント](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/overview.html?lang=ja)に記載され、また[既知の顧客アクティベーションブループリント](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/known-customer-audience-activation/known.html?lang=ja)で説明されています。
+Microsoft Bing、Google DV360、TradeDesk は、匿名デバイスベースのターゲティングでサポートされる、主な Real-time Customer Data Platform の広告の宛先です。これら以外にも、Real-time Customer Data Platformは、 [宛先ドキュメント](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/overview.html?lang=ja) そして、 [既知の顧客アクティベーションブループリント](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/known-customer-audience-activation/known.html?lang=ja).
 
 ## アーキテクチャ
 
@@ -39,11 +39,11 @@ Microsoft Bing、Google DV360、TradeDesk は、匿名デバイスベースの�
 
 <br>
 
-## Audience Manager の実装手順
+## Audience Managerの実装手順
 
 * Audience Manager の実装について詳しくは、次の[ドキュメント](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/implement-audience-manager.html?lang=ja)を参照してください.
 
-## Real-time Customer Data Platform の実装手順
+## Real-time Customer Data Platformの実装手順
 
 * Real-time Customer Data Platform の実装手順については、次の[ドキュメント](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/known-customer-audience-activation/known.html?lang=ja)を参照してください。
 

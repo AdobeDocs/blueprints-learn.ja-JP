@@ -1,15 +1,16 @@
 ---
-title: Real-Time CDP と Adobe Campaign v8 の統合パターン
+title: Real-Time CDPとAdobe Campaign v8 の統合パターン
 description: Adobe Experience Platform とそのリアルタイム顧客プロファイル、および一元化されたセグメント化ツールを Adobe Campaign v8 と併用して、パーソナライズされた会話を提供する方法を紹介します。
 solution: Real-time Customer Data Platform, Campaign
-source-git-commit: f8116387105cf1fe0adfc148562529d62ca90cfc
-workflow-type: ht
+exl-id: d0291088-02ed-4e7e-b538-018ea40e38c6
+source-git-commit: b18d491fdefc57762932d1570401b5437bf97c76
+workflow-type: tm+mt
 source-wordcount: '385'
-ht-degree: 100%
+ht-degree: 84%
 
 ---
 
-# Real-Time CDP と Adobe Campaign v8 の統合パターン
+# Real-Time CDPとAdobe Campaign v8 の統合パターン
 
 Adobe Experience Platform とそのリアルタイム顧客プロファイル、および一元化されたセグメント化ツールを Adobe Campaign と併用して、パーソナライズされた会話を提供する方法を紹介します。
 
@@ -24,7 +25,7 @@ Adobe Experience Platform とそのリアルタイム顧客プロファイル、
 
 ## アーキテクチャ
 
-<img src="assets/rtcdp-campaignv8-architecture.svg" alt="バッチメッセージおよび Adobe Experience Platform 統合パターンの参照アーキテクチャ" style="width:100%; border:1px solid #4a4a4a" />
+<img src="assets/rtcdp-campaignv8-architecture.svg" alt="バッチメッセージおよびAdobe Experience Platform統合パターンの参照アーキテクチャ" style="width:100%; border:1px solid #4a4a4a" />
 
 <br>
 
@@ -38,7 +39,7 @@ Adobe Experience Platform とそのリアルタイム顧客プロファイル、
 
 <br>
 
-## 実装手順
+## 実装の手順
 
 Campaign v8 ソースコネクタを Adobe Experience Platform に設定し、Real-time Customer Data Platform 宛先コネクタを Campaign v8 に設定する方法については、次のドキュメントを参照してください。
 [Campaign と AEP コネクタ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep.html?lang=ja)
@@ -60,7 +61,7 @@ Campaign v8 ソースコネクタを Adobe Experience Platform に設定し、Re
 * アクティベーションの待ち時間は 3 時間以上です
 * アクティベーションには、結合スキーマ属性のみを使用できます（配列／マップ／エクスペリエンスイベントはサポートされません）
 * セグメントあたり 20 個以下の属性にすることを推奨します
-* セグメントメンバーシップが「実現」された全プロファイルの、セグメントごとに 1 つのファイル、またはセグメントメンバーシップがファイルの属性として追加されている場合、「実現」したプロファイルと「終了」したプロファイルの両方
+* 「適合」セグメントメンバーシップを持つすべてのプロファイルのセグメントごとに 1 ファイル。または、セグメントメンバーシップがファイルに属性として追加され、「適合」と「出口」の両方のプロファイル
 * 増分およびフルセグメント書き出しがサポートされます
 * ファイルの暗号化はサポートされません
 * AEP のプロファイルとデータ取り込みガードレール ‐ [リンク](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=ja)を参照してください。

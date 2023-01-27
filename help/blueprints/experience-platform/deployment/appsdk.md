@@ -1,18 +1,18 @@
 ---
-title: アプリケーション固有の SDK デプロイメント
+title: アプリケーション固有の SDK デプロイメントアーキテクチャの図
 description: このブループリントは、アプリケーション固有の SDK を使用したアーキテクチャと取り込みを示します
 solution: Experience Platform,Data Collection
 kt: null
 thumbnail: null
 exl-id: 05bf0a34-e5c7-498c-8d5d-1d549c00e070
-source-git-commit: e07ff74f901932c42ddaf6cb36b557535b9a2c43
-workflow-type: ht
-source-wordcount: '89'
-ht-degree: 100%
+source-git-commit: b18d491fdefc57762932d1570401b5437bf97c76
+workflow-type: tm+mt
+source-wordcount: '91'
+ht-degree: 86%
 
 ---
 
-# アプリケーション固有の SDK デプロイメント
+# アプリケーション固有の SDK デプロイメントアーキテクチャの図
 
 以下のアーキテクチャ図は、実装にアプリケーション固有の SDK を使用した統合パスとデータ収集を示しています。
 

@@ -1,16 +1,16 @@
 ---
-title: Real-Time CDP と Adobe Campaign v7 および Campaign Standard の統合パターン
+title: Real-Time CDPとAdobe Campaign v7 およびCampaign Standardの統合パターン
 description: Adobe Experience Platform とそのリアルタイム顧客プロファイル、および一元化されたセグメント化ツールを Adobe Campaign と併用して、パーソナライズされた会話を提供する方法を紹介します。
 solution: Real-time Customer Data Platform, Campaign
 exl-id: a15e8304-2763-42fc-9978-11f2482ea8b8
-source-git-commit: 163dd644b690c1f5554a3929e1f83c121e132df5
+source-git-commit: b18d491fdefc57762932d1570401b5437bf97c76
 workflow-type: tm+mt
 source-wordcount: '804'
-ht-degree: 100%
+ht-degree: 91%
 
 ---
 
-# Real-Time CDP と Adobe Campaign の統合パターン
+# Real-Time CDPとAdobe Campaignの統合パターン
 
 Adobe Experience Platform とそのリアルタイム顧客プロファイル、および一元化されたセグメント化ツールを Adobe Campaign と併用して、パーソナライズされた会話を提供する方法を紹介します。
 
@@ -25,7 +25,7 @@ Adobe Experience Platform とそのリアルタイム顧客プロファイル、
 
 ## アーキテクチャ
 
-<img src="assets/rtcdp-campaign-architecture.svg" alt="バッチメッセージおよび Adobe Experience Platform 統合パターンの参照アーキテクチャ" style="width:100%; border:1px solid #4a4a4a" />
+<img src="assets/rtcdp-campaign-architecture.svg" alt="バッチメッセージおよびAdobe Experience Platform統合パターンの参照アーキテクチャ" style="width:100%; border:1px solid #4a4a4a" />
 
 <br>
 
@@ -51,17 +51,17 @@ Adobe Experience Platform とそのリアルタイム顧客プロファイル、
 * アクティベーションは、24 時間ごとに制限されます
 * アクティベーションには、結合スキーマ属性のみを使用できます（配列／マップ／エクスペリエンスイベントはサポートされません）
 * セグメントあたり 20 個以下の属性にすることを推奨します
-* セグメントメンバーシップが「実現」された全プロファイルの、セグメントごとに 1 つのファイル、またはセグメントメンバーシップがファイルの属性として追加されている場合、「実現」したプロファイルと「終了」したプロファイルの両方
+* 「適合」セグメントメンバーシップを持つすべてのプロファイルのセグメントごとに 1 ファイル。または、セグメントメンバーシップがファイルに属性として追加され、「適合」と「出口」の両方のプロファイル
 * 増分およびフルセグメント書き出しがサポートされます
 * ファイルの暗号化はサポートされません
 
 <br>
 
-## 実装手順
+## 実装の手順
 
 ### Adobe Experience Platform
 
-#### スキーマ／データセット
+#### スキーマ/データセット
 
 1. 顧客提供データに基づき、Experience Platform で[個人プロファイル、エクスペリエンスイベントおよびマルチエンティティスキーマを設定します。](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2021.1.xdm&amp;lang=ja)
 1. broadLog、trackingLog、配信不能アドレスおよびプロファイル環境設定用に Adobe Campaign スキーマを作成します（オプション）。
@@ -69,7 +69,7 @@ Adobe Experience Platform とそのリアルタイム顧客プロファイル、
 1. ガバナンス用のデータセットに、Experience Platform で[データ使用ラベルを追加します。](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-governance/classify-data-using-governance-labels.html?lang=ja)
 1. 宛先のガバナンスを実施する[ポリシーを作成します。](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-governance/create-data-usage-policies.html?lang=ja)
 
-#### プロファイル／ID
+#### プロファイル/ID
 
 1. [任意の顧客専用の名前空間を作成します。](https://experienceleague.adobe.com/docs/platform-learn/tutorials/identities/label-ingest-and-verify-identity-data.html?lang=ja)
 1. [スキーマに ID を追加します](https://experienceleague.adobe.com/docs/platform-learn/tutorials/identities/label-ingest-and-verify-identity-data.html?lang=ja)。
@@ -77,7 +77,7 @@ Adobe Experience Platform とそのリアルタイム顧客プロファイル、
 1. [!UICONTROL リアルタイム顧客プロファイル]の様々な表示用に[結合ポリシーを設定](https://experienceleague.adobe.com/docs/platform-learn/tutorials/profiles/create-merge-policies.html?lang=ja)します（オプション）。
 1. Adobe Campaign 使用状況用のセグメントを作成します。
 
-#### ソース／宛先
+#### ソース/宛先
 
 1. [Experience Platform と Campaign Standard のソースと宛先](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/adobe-experience-platform/aep-sources-destinations/get-started-sources-destinations.html?lang=ja)
 1. [Experience Platform と Campaign v7 のソースと宛先](https://experienceleague.adobe.com/docs/campaign-classic/using/integrating-with-adobe-experience-cloud/aep-sources-destinations/get-started-sources-destinations.html?lang=ja)

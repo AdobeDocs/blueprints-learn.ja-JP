@@ -4,16 +4,16 @@ description: 「[!UICONTROL リアルタイム顧客プロファイル]を検索
 solution: Data Collection
 kt: 7195
 exl-id: 3616cbf1-2e59-4e68-a1ff-1d2e3b344a1c
-source-git-commit: 3425495df36ff8da0f2fd737b35d294ccafe31bd
-workflow-type: ht
+source-git-commit: b18d491fdefc57762932d1570401b5437bf97c76
+workflow-type: tm+mt
 source-wordcount: '382'
-ht-degree: 100%
+ht-degree: 92%
 
 ---
 
 # 顧客アクティビティハブブループリント
 
-顧客アクティビティハブブループリントは、外部アプリケーションが Adobe Experience Platform の[!UICONTROL リアルタイム顧客プロファイル]にアクセスする方法を示します。
+Customer Activity Hub ブループリントでは、外部アプリケーションがAdobe Experience Platformにアクセスする方法を示します [!UICONTROL リアルタイム顧客プロファイル].
 
 外部アプリケーションは、API GET リクエストを使用して、プロファイルにアクセスできます。これにより、プロファイルに格納された属性、イベント、セグメントメンバーシップおよびモデル主導の機能を、外部のアドビ以外のアプリケーションで使用できます。
 
@@ -23,7 +23,7 @@ ht-degree: 100%
 >
 >Profile Lookup API でサポートされている現在の待ち時間は約 500 ミリ秒なので、このアプローチは、リアルタイムディシジョンエンジン（同じページの web やモバイルのパーソナライズ機能など）とプロファイルの統合には適していません。
 
-## ユースケース
+## 使用例
 
 * 担当者がサポートするインタラクションに、詳細な消費者コンテキスト（サポートおよび販売エクスペリエンスなど）を提供します。Experience Platform のプロファイルルックアップを使用して、担当者は、最近の購入、キャンペーンインタラクション、傾向、オーディエンスメンバーシップ、リアルタイム顧客プロファイルに格納されたその他の属性およびインサイトなど、消費者に対するより詳細なコンテキストを受け取ることができます。
 
@@ -35,7 +35,7 @@ ht-degree: 100%
 
 * [[!UICONTROL リアルタイム顧客プロファイル]データのガードレール](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=ja)
 
-## 実装手順
+## 実装の手順
 
 1. データを取り込むために[スキーマを作成](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2021.1.xdm)します。
 1. データを取り込むために[データセットを作成](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/create-datasets-and-ingest-data.html?lang=ja)します。
