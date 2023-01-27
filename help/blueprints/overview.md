@@ -1,27 +1,35 @@
 ---
-title: デジタルエクスペリエンスブループリント
-description: デジタルエクスペリエンスブループリントは、戦略に取り組み、確立されたビジネス上の問題を解決するための反復可能な実装です。価値実現までの時間を短縮し、成功への近道となります。
+title: デジタルエクスペリエンスのブループリント
+description: デジタルエクスペリエンスのブループリントは、戦略に対処し、確立されたビジネス上の問題を解決するための繰り返し可能な実装です。 価値実現までの時間を短縮し、成功への近道となります。
+doc-type: overview-page
 exl-id: 52898310-9723-4ec2-ba10-f45fefe29e93
-source-git-commit: 5f35c36d3ef426396aadf0292e291d7738520032
+source-git-commit: f60a787630d68388fc4887f3df1756528fca446d
 workflow-type: tm+mt
 source-wordcount: '254'
-ht-degree: 100%
+ht-degree: 73%
 
 ---
 
-# デジタルエクスペリエンスブループリント
+# デジタルエクスペリエンスのブループリント
 
-デジタルエクスペリエンスブループリントは、戦略に取り組み、確立されたビジネス上の問題を迅速に解決するための反復可能な実装です。各ブループリントでは、価値の高いビジネス上の問題、アーキテクチャ、実装手順、技術上の考慮事項および関連ドキュメントへのリンクを説明する一連の成果物を提供します。
+デジタルエクスペリエンスのブループリントは、戦略に対処し、確立されたビジネス上の問題を迅速に解決できる、繰り返し可能な実装です。 各ブループリントでは、価値の高いビジネス上の問題、アーキテクチャ、実装手順、技術上の考慮事項および関連ドキュメントへのリンクを説明する一連の成果物を提供します。
 
-## 新着情報
+<div id="recs-overview-body-1"></div>
+<div id="recs-overview-body-2"></div>
+<div id="recs-overview-body-3"></div>
+<div id="recs-overview-body-4"></div>
+<div id="recs-overview-body-5"></div>
+<div id="recs-overview-body-6"></div>
 
-* **[エンタープライズ宛先へのオーディエンスとプロファイルアクティベーションブループリント](/help/blueprints/audience-activation/enterprise-destinations.md)**
+## 新機能
+
+* **[Enterprise Destinations のブループリントに対するオーディエンスとプロファイルのアクティベーション](/help/blueprints/audience-activation/enterprise-destinations.md)**
 
    *顧客プロファイルをあらゆるシステムをまたいで最新の状態に維持し、セールスチームやサポートチームを強化します。*
 * **[顧客アクティビティハブブループリント](/help/blueprints/audience-activation/customer-activity.md)**
 
    *担当者がサポートおよび販売を支援する際のコンテキストを提供します。*
-* **[データ分析とインテリジェンスブループリント](/help/blueprints/data-insights/analysis.md)**
+* **[データ分析とインテリジェンスのブループリント](/help/blueprints/data-insights/analysis.md)**
 
    *データレイクのデータの調査クエリおよび分析を実行します。*
 
@@ -49,7 +57,7 @@ ht-degree: 100%
 
 ## ブログ投稿
 
-* [[!DNL Introducing Adobe Experience Platform’s New Digital Experience Blueprints]](https://medium.com/adobetech/introducing-adobe-experience-platforms-new-digital-experience-blueprints-93a6b5f5da7c)
+* [[!DNL Introducing Adobe Experience Platform's New Digital Experience Blueprints]](https://medium.com/adobetech/introducing-adobe-experience-platforms-new-digital-experience-blueprints-93a6b5f5da7c)
 * [[!DNL Blueprint for Audience Activation in Adobe Experience Platform]](https://medium.com/adobetech/a-blueprint-for-audience-activation-in-adobe-experience-platform-b2b30fae90fd)
 * [[!DNL Blueprint for Web/Mobile Personalization using Adobe Experience Platform Real-Time Customer Profile]](https://medium.com/adobetech/blueprint-for-web-personalization-using-adobe-experience-platform-real-time-customer-profile-fef2ce7a4b2f)
 * [[!DNL Blueprint for Cross-Channel Orchestration in Adobe Experience Platform]](https://medium.com/adobetech/blueprint-for-multi-channel-orchestration-in-adobe-experience-platform-c68317e94184)
