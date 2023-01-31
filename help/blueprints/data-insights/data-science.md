@@ -4,16 +4,16 @@ description: このブループリントは、データサイエンスに基づ�
 solution: Data Collection
 kt: 7203
 exl-id: e5ec6886-4fa4-4c9b-a2d8-e843d7758669,f0efaf3c-6c4f-47c3-ab8a-e8e146dd071c
-source-git-commit: b18d491fdefc57762932d1570401b5437bf97c76
+source-git-commit: 8355a36a235d847a6faf2398f3fadbed28ccac37
 workflow-type: tm+mt
-source-wordcount: '500'
-ht-degree: 95%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 # プロファイルエンリッチメントブループリント用のカスタムデータサイエンス
 
-プロファイルエンリッチメントのためのカスタムデータサイエンスブループリントは、データを使用して、モデルをトレーニング、デプロイ、スコアリングし、Experience Platform と Real-time Customer Data Platform に関する機械学習のインサイトを、データサイエンスおよび機械学習ツールから提供する方法を示します。モデル化されたインサイトを Experience Platform に取り込んで、リアルタイム顧客プロファイルをエンリッチメントすることができます。機械学習インサイトの例には、ライフタイム値、スコアリング、製品およびカテゴリの親和性、コンバージョン傾向、チャーン傾向が含まれます。
+Custom Data Science for Profile Enrichment ブループリントは、データを使用して、モデルをトレーニング、デプロイ、スコアリングし、Experience PlatformとReal-time Customer Data Platformに関する機械学習の洞察をデータサイエンスおよび機械学習ツールから提供する方法を示します。 モデル化されたインサイトを Experience Platform に取り込んで、リアルタイム顧客プロファイルをエンリッチメントすることができます。機械学習インサイトの例には、ライフタイム値、スコアリング、製品およびカテゴリの親和性、コンバージョン傾向、チャーン傾向が含まれます。
 
 ## 使用例
 

@@ -5,10 +5,10 @@ solution: Customer Journey Analytics
 kt: null
 thumbnail: null
 exl-id: 3bb2dada-f4cd-43f7-a0d0-f276510ad224
-source-git-commit: b18d491fdefc57762932d1570401b5437bf97c76
+source-git-commit: 8355a36a235d847a6faf2398f3fadbed28ccac37
 workflow-type: tm+mt
 source-wordcount: '402'
-ht-degree: 95%
+ht-degree: 90%
 
 ---
 
@@ -22,7 +22,7 @@ Customer Journey Analytics の使用例の完全なリストについては、�
 
 [一般的なユースケースを次に示します。](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/cja-usecases.html?lang=ja)
 
-* オーディエンスの作成と Real-time Customer Data Platform への公開
+* オーディエンスの作成とReal-time Customer Data Platformへの公開
 * トップ／ボトムコンバージョンパス
 * チャネルのエンゲージメントとコンバージョン
 * 閲覧数上位のコンテンツ
@@ -37,8 +37,7 @@ Customer Journey Analytics の使用例の完全なリストについては、�
 主なユースケースを次に示します。
 | ブループリント | 説明 |  Experience Cloud アプリケーション |
 |---|---|---|
-| **[クロスチャネルジャーニー分析](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/cross-channel.html?lang=ja)**  | <ul><li>Web、モバイルおよびオフラインの様々なプロパティからのデータを統合することで、複数のチャネルをまたいだ顧客行動を単一の統合されたビューに表示します。</li></ul> | <ul><li>Adobe Experience Platform</li><li>Customer Journey Analytics</li><li>Adobe Analytics（オプション）</li></ul>|
-| **[オーディエンスを Real-time Customer Data Platform に公開](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/audiences/publish.html?lang=ja)** | <ul><li>Customer Journey Analytics（CJA）で識別されたオーディエンスを作成し、Adobe Experience Platform のリアルタイム顧客プロファイルに公開して、顧客のターゲティングとパーソナライゼーションを実現します。Customer Journey Analytics の詳細なフィルターおよび計算済みフィールドから、履歴データの使用や、より絞り込まれたオーディエンスを使用てのオーディエンスの作成に最適です。</li></ul> | <ul><li>Real-time Customer Data Platform</li><li>Customer Journey Analytics</li> |
+| **[クロスチャネルジャーニー分析](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/cross-channel.html?lang=ja)**  | <ul><li>Web、モバイルおよびオフラインの様々なプロパティからのデータを統合することで、複数のチャネルをまたいだ顧客行動を単一の統合されたビューに表示します。</li></ul> | <ul><li>Adobe Experience Platform</li><li>Customer Journey Analytics</li><li>Adobe Analytics（オプション）</li></ul>| | **[オーディエンスをReal-time Customer Data Platformに公開](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/audiences/publish.html?lang=ja)** | <ul><li>Customer Journey Analytics（CJA）で識別されたオーディエンスを作成し、Adobe Experience Platform のリアルタイム顧客プロファイルに公開して、顧客のターゲティングとパーソナライゼーションを実現します。Customer Journey Analytics の詳細なフィルターおよび計算済みフィールドから、履歴データの使用や、より絞り込まれたオーディエンスを使用てのオーディエンスの作成に最適です。</li></ul> | <ul><li>Real-time Customer Data Platform</li><li>Customer Journey Analytics</li> |
 | **[コールディフレクションジャーニー分析](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/call-center.html?lang=ja)** | <ul><li>コールセンターデータを Web、モバイルおよびその他のインタラクションデータと組み合わせることで、どのような行動が担当者による通話に最も影響を与えるかを判別する。</li><li>最適化されたセルフサービスコンテンツおよびツールを使用することで、これらのインサイトは、カスタマーエクスペリエンスの最適化や、担当者のサポートを受けるまでの道のりを短縮するために使用できます。  </li></ul> | <ul><li>Adobe Experience Platform</li><li>Customer Journey Analytics</li> |
 
 ## Customer Journey Analyticsブループリントのガードレール図

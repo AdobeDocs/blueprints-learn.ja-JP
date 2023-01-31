@@ -1,13 +1,13 @@
 ---
 title: Experience Platform およびアプリケーションガードレール
 description: ガードレールは、Adobe Experience Platform およびアプリケーション内のコンポーネントとサービスに対するパフォーマンスの期待値と影響を定義します
-solution: Customer Journey Analytics, Journey Orchestration, Real-time Customer Data Platform
+solution: Customer Journey Analytics, Journey Orchestration, Real-Time Customer Data Platform
 thumbnail: null
 exl-id: b64cf3e4-cc5d-4984-8a0f-4736d432b8e1
-source-git-commit: b18d491fdefc57762932d1570401b5437bf97c76
+source-git-commit: 8355a36a235d847a6faf2398f3fadbed28ccac37
 workflow-type: tm+mt
 source-wordcount: '305'
-ht-degree: 94%
+ht-degree: 93%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 94%
 ガードレールは、データとシステムの使用状況、パフォーマンスの最適化、Adobe Experience Platform およびアプリケーションでのエラーや予期しない結果の回避に関するガイダンスを提供する、推奨されるしきい値です。ガードレールは、顧客のアーキテクチャと使用例のパフォーマンス最適化を促進するために、システムの制約とパフォーマンスの期待を反映させることを目的としています。ガードレールは、サービスレベル契約にはなりません。製品固有のサービスレベル契約について詳しくは、以下にリンクされている製品の説明ドキュメントを参照してください。
 
 
-## Adobe Experience Platformおよびアプリケーション用の Guardrail
+## Adobe Experience Platform およびアプリケーション用のガードレール
 
 [データ取り込みガードレール](https://experienceleague.adobe.com/docs/experience-platform/ingestion/guardrails.html?lang=ja)
 
@@ -48,7 +48,7 @@ ht-degree: 94%
 
 <br>
 
-### Real-time Customer Data Platform および Adobe Target
+### Real-time Customer Data Platform&amp;Adobe Target
 
 <img src="../assets/RTCDP_Target_guardrails.svg" alt="RTCDP および Target ガードレール" style="border:1px solid #4a4a4a" width="85%" />
 

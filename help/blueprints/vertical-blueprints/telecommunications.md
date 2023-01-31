@@ -4,7 +4,7 @@ description: 顧客の長期ロイヤリティに対する効率的なオンボ�
 solution: Journey Optimizer
 kt: 9486
 exl-id: fa4a6569-3972-4b97-91f1-7ca8ffd3c5b3
-source-git-commit: b18d491fdefc57762932d1570401b5437bf97c76
+source-git-commit: 8355a36a235d847a6faf2398f3fadbed28ccac37
 workflow-type: tm+mt
 source-wordcount: '334'
 ht-degree: 84%

@@ -1,13 +1,13 @@
 ---
 title: Facebook Custom Audiences へのアクティベーション
 description: Facebook Custom Audiences へのアクティベーション。
-solution: Real-time Customer Data Platform, Data Collection
+solution: Real-Time Customer Data Platform, Data Collection
 kt: 7086
 exl-id: b75a7a01-04ba-4617-960d-f73f7a9cc6c7
-source-git-commit: b18d491fdefc57762932d1570401b5437bf97c76
+source-git-commit: 8355a36a235d847a6faf2398f3fadbed28ccac37
 workflow-type: tm+mt
 source-wordcount: '957'
-ht-degree: 99%
+ht-degree: 94%
 
 ---
 
@@ -82,7 +82,7 @@ ht-degree: 99%
    * プロファイルの ID が欠落していたり、必須であった属性が欠落していたりして、プロファイルがスキップされていないかどうかを確認します。
    * 解決が必要なその他のエラーがないかを確認します。
 1. オーディエンスが、期待された数のオーディエンスメンバーシップで、終了先に対してアクティブ化されたことを確認します。
-   * Facebook Custom Audience ポータルにログインして、Real-time Customer Data Platform からのオーディエンスが配信されたことと、Facebook 内のオーディエンスのプロファイルの一致率が Real-time Customer Data Platform からのオーディエンスのプロファイル数と当然一致していることを確認します。
+   * facebook Custom Audience ポータルにログインして、Real-time Customer Data Platformからのオーディエンスが配信されたことと、Facebook内のオーディエンスのプロファイルの一致率がReal-time Customer Data Platformからのオーディエンスのプロファイル数と合理的に一致していることを確認します。
 
 ## ガードレール
 

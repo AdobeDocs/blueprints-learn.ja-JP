@@ -1,13 +1,13 @@
 ---
 title: アパレル業界 - Experience Cloud アプリケーションを使用したアクティベーション
 description: 複数のブループリントを使用して、リアルタイムマーケティング、クロスチャネルアクティベーション、およびクロスチャネル分析を有効にしました。
-solution: Real-time Customer Data Platform, Customer Journey Analytics, Journey Orchestration
+solution: Real-Time Customer Data Platform, Customer Journey Analytics, Journey Orchestration
 kt: 9487
 exl-id: f1a3e785-c804-43bd-90de-da4359bdd810
-source-git-commit: b18d491fdefc57762932d1570401b5437bf97c76
+source-git-commit: 8355a36a235d847a6faf2398f3fadbed28ccac37
 workflow-type: tm+mt
 source-wordcount: '336'
-ht-degree: 93%
+ht-degree: 89%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 93%
 
 | 目標 | 戦術 | 解放されたバリュー |
 |---|---|---|
-| **接続されたクロスチャネルエクスペリエンス&#x200B;**<br></br>**エンゲージメントとリテンションの促進&#x200B;**<br></br>**データの民主化と Insights**</ul> | <ul><li>数千万ものプロファイルと数百のセグメント、複数の宛先、レポートダッシュボードを作成するために、複数のエンタープライズデータセットをオンボーディング</li><li>Real-time Customer Data Platform を使用した複数の宛先でのアクティベーション</li><li>カスタマージャーニー分析で解放された顧客レベルの分析機能</li><li>Adobe Journey Optimizer を通じて実装された顧客インタラクション用の自動イベントトリガー</li></ul> | <ul><li><strong>顧客プロファイル：</strong>セグメント化のための顧客の 360 度の表示</li><li><strong>宛先のアクティベーション：</strong>有料メディア、電子メールおよびソーシャルプラットフォームでのアクティベーション</li><li><strong>顧客の分析とアトリビューション：</strong>アドホックで容易に利用できるクロスチャネルアトリビューション分析<li><strong>Journey Orchestration：</strong> リアルタイムのコンテキストを使用して、トリガーキャンペーンとスケジュール済みキャンペーンを作成し、運用します</li></ul> |
+| **接続されたクロスチャネルエクスペリエンス&#x200B;**<br></br>**エンゲージメントとリテンションの促進&#x200B;**<br></br>**データの民主化と Insights**</ul> | <ul><li>数千万ものプロファイルと数百のセグメント、複数の宛先、レポートダッシュボードを作成するために、複数のエンタープライズデータセットをオンボーディング</li><li>Real-time Customer Data Platformを使用した複数の宛先でのアクティブ化</li><li>カスタマージャーニー分析で解放された顧客レベルの分析機能</li><li>Adobe Journey Optimizer を通じて実装された顧客インタラクション用の自動イベントトリガー</li></ul> | <ul><li><strong>顧客プロファイル：</strong>セグメント化のための顧客の 360 度の表示</li><li><strong>宛先のアクティベーション：</strong>有料メディア、電子メールおよびソーシャルプラットフォームでのアクティベーション</li><li><strong>顧客の分析とアトリビューション：</strong>アドホックで容易に利用できるクロスチャネルアトリビューション分析<li><strong>Journey Orchestration：</strong> リアルタイムのコンテキストを使用して、トリガーキャンペーンとスケジュール済みキャンペーンを作成し、運用します</li></ul> |
 
 ## プライマリブループリント：オーディエンスとアクティベーション (Experience Cloudアプリ )
 

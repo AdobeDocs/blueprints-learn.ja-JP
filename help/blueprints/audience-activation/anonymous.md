@@ -6,10 +6,10 @@ solution: Audience Manager
 kt: 7211
 thumbnail: null
 exl-id: f17599f1-2e75-4cbe-841a-9fd1dae71ada
-source-git-commit: b18d491fdefc57762932d1570401b5437bf97c76
+source-git-commit: 8355a36a235d847a6faf2398f3fadbed28ccac37
 workflow-type: tm+mt
-source-wordcount: '380'
-ht-degree: 85%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -29,9 +29,9 @@ ht-degree: 85%
 * Audience Manager
 * Real-time Customer Data Platform
 
-Audience Manager と Real-time Customer Data Platform の両方を活用して、匿名オーディエンスアクティベーションをオンサイトと広告の宛先に使用できます。Real-time Customer Data Platform は、[宛先ドキュメント](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/overview.html?lang=ja)に記載されている匿名デバイス識別子を持つ広告の宛先のサブセットのみをサポートしていることに留意してください。
+Audience ManagerとReal-time Customer Data Platformの両方を、AnonymousAudience Activationをオンサイトと広告の宛先に活用できます。 Real-time Customer Data Platformは、匿名デバイス識別子が ( [宛先ドキュメント](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/overview.html?lang=ja).
 
-Microsoft Bing、Google DV360、TradeDesk は、匿名デバイスベースのターゲティングでサポートされる、主な Real-time Customer Data Platform の広告の宛先です。これら以外にも、Real-time Customer Data Platformは、 [宛先ドキュメント](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/overview.html?lang=ja) そして、 [既知の顧客アクティベーションブループリント](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/known-customer-audience-activation/known.html?lang=ja).
+Microsoft Bing、Google DV360、TradeDesk は、匿名デバイスベースのターゲティングでサポートされる主なReal-time Customer Data Platform広告先です。 これら以外にも、Real-time Customer Data Platformは、 [宛先ドキュメント](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/overview.html?lang=ja) そして、 [既知の顧客アクティベーションブループリント](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/known-customer-audience-activation/known.html?lang=ja).
 
 ## アーキテクチャ
 
@@ -45,7 +45,7 @@ Microsoft Bing、Google DV360、TradeDesk は、匿名デバイスベースの�
 
 ## Real-time Customer Data Platformの実装手順
 
-* Real-time Customer Data Platform の実装手順については、次の[ドキュメント](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/known-customer-audience-activation/known.html?lang=ja)を参照してください。
+* Real-time Customer Data Platformの実装手順については、以下を参照してください [ドキュメント](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/known-customer-audience-activation/known.html?lang=ja).
 
 ## 関連ドキュメント
 

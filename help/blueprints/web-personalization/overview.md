@@ -1,14 +1,14 @@
 ---
 title: Web およびモバイルパーソナライズ機能 ブループリント
 description: '[!UICONTROL リアルタイム顧客プロファイル]でパーソナライズされた Web およびモバイルコンテンツを配信します。'
-solution: Real-time Customer Data Platform, Target, Audience Manager, Analytics, Experience Cloud Services
+solution: Real-Time Customer Data Platform, Target, Audience Manager, Analytics, Experience Cloud Services
 kt: null
 thumbnail: null
 exl-id: 8ad028fd-3190-42da-9f46-7e927e8878f8
-source-git-commit: b18d491fdefc57762932d1570401b5437bf97c76
+source-git-commit: 8355a36a235d847a6faf2398f3fadbed28ccac37
 workflow-type: tm+mt
-source-wordcount: '227'
-ht-degree: 97%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -31,9 +31,9 @@ Web およびモバイルパーソナライズ機能は、複数のアプリケ�
 
 <br>
 
-### 既知の顧客のパーソナライズ機能ガードレールの図
+### 既知の顧客パーソナライゼーションガードレールの図
 
-<img src="assets/personalization_guardrails.svg" alt="オンライン／オフライン Web パーソナライズ機能ブループリントの参照アーキテクチャ" style="width:90%; border:1px solid #4a4a4a" />
+<img src="assets/personalization_guardrails.svg" alt="オンライン／オフライン Web パーソナライズ機能ブループリントの参照アーキテクチャ" style="width:90%; border:1px solid #4a4a4a; margin-bottom: 15px;" />
 
 ## 関連するブログ投稿
 

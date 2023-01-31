@@ -3,10 +3,10 @@ title: デジタルエクスペリエンスのブループリント
 description: デジタルエクスペリエンスのブループリントは、戦略に対処し、確立されたビジネス上の問題を解決するための繰り返し可能な実装です。 価値実現までの時間を短縮し、成功への近道となります。
 doc-type: overview-page
 exl-id: 52898310-9723-4ec2-ba10-f45fefe29e93
-source-git-commit: f60a787630d68388fc4887f3df1756528fca446d
+source-git-commit: 8355a36a235d847a6faf2398f3fadbed28ccac37
 workflow-type: tm+mt
-source-wordcount: '254'
-ht-degree: 73%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
