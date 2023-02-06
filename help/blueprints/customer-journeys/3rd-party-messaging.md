@@ -3,7 +3,7 @@ title: Journey Optimizer — サードパーティのメッセージングブル
 description: Adobe Journey Optimizer をサードパーティのメッセージングシステムと併用して、パーソナライズされた通信を調整および送信する方法を示します。
 solution: Journey Optimizer
 exl-id: 3a14fc06-6d9c-4cd8-bc5c-f38e253d53ce
-source-git-commit: b18d491fdefc57762932d1570401b5437bf97c76
+source-git-commit: 5110ee2a7a079945475055cbcfdabf7cdcaa0ab5
 workflow-type: tm+mt
 source-wordcount: '823'
 ht-degree: 91%
@@ -18,7 +18,7 @@ Adobe Journey Optimizer をサードパーティのメッセージングシス�
 
 ## アーキテクチャ
 
-<img src="assets/3rd-party-messaging-architecture.svg" alt="参照アーキテクチャ Journey Optimizer ブループリント" style="width:100%; border:1px solid #4a4a4a" />
+<img src="assets/3rd-party-messaging-architecture.svg" alt="参照アーキテクチャ Journey Optimizer ブループリント" style="width:100%; border:1px solid #4a4a4a" class="modal-image" />
 
 <br>
 

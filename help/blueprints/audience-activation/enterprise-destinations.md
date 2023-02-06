@@ -4,7 +4,7 @@ description: エンタープライズ宛先へのオーディエンスとプロ�
 solution: Real-time Customer Data Platform
 kt: 7475
 exl-id: 32133174-eb28-44ce-ab2a-63fcb5b51cb5
-source-git-commit: 05666e35eebe81fa5a061250528b1c2f4a7376a6
+source-git-commit: 5110ee2a7a079945475055cbcfdabf7cdcaa0ab5
 workflow-type: tm+mt
 source-wordcount: '415'
 ht-degree: 65%
@@ -25,7 +25,7 @@ ht-degree: 65%
 
 ## アーキテクチャ
 
-<img src="assets/enterprise_destination_activation.svg" alt="エンタープライズアクティベーションシナリオの参照アーキテクチャ" style="width:90%; border:1px solid #4a4a4a" zoomable="yes" />
+<img src="assets/enterprise_destination_activation.svg" alt="エンタープライズアクティベーションシナリオの参照アーキテクチャ" style="width:90%; border:1px solid #4a4a4a"  class="modal-image" />
 
 
 ## ガードレール

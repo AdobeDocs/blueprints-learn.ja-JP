@@ -2,9 +2,9 @@
 title: 取り込みとブループリントの作成
 description: 取り込みと作成 - Marketo と Workfront を使用してキャンペーンサプライチェーンを最適化
 exl-id: 09679521-727c-4676-8e91-23d0b7fd54a2
-source-git-commit: b18d491fdefc57762932d1570401b5437bf97c76
+source-git-commit: 5110ee2a7a079945475055cbcfdabf7cdcaa0ab5
 workflow-type: tm+mt
-source-wordcount: '1307'
+source-wordcount: '1313'
 ht-degree: 86%
 
 ---
@@ -22,7 +22,7 @@ WorkfrontとMarketo Engageを使用すると、システム間接続で [Workfro
 以下のワークフローは、キャンペーンマネージャーが Workfront リクエストフォームを使用して行うウェビナーのリクエストを示しています。続いて、リクエストで送信された詳細により、Marketo Engage でウェビナー用に作成されるプログラムとメールがトリガーされます。さらに、メールのコンテンツを入力するための詳細がリクエストフォームから取得されます。
 さらに、リクエストフォームから詳細が取得され、メールのコンテンツが入力されます。
 
-![](assets/intake-and-create-1.png)
+![取り込みとブループリントの作成](assets/intake-and-create-1.png){zoomable=&quot;yes&quot;}
 
 >[!TIP]
 >

@@ -3,7 +3,7 @@ title: Campaign v8 ブループリント、Campaign および Platform
 description: Adobe Campaign v8 は、電子メールやダイレクトメールなどの従来のマーケティングチャネル用に構築された次世代キャンペーンツールです。堅牢な ETL およびデータ管理機能を提供し、最適なキャンペーンの作成とキュレーションを支援します。そのオーケストレーションエンジンは、バッチベースのジャーニーに重点を置いた、豊富なマルチタッチマーケティングプログラムを提供します。また、拡張性の高いリアルタイムメッセージングサーバーと組み合わせることで、マーケティングチームは、パスワードのリセット、注文確認、電子領収書など、あらゆる IT システムから包括的なペイロードに基づいて事前に定義したメッセージを送信することが可能になります。
 solution: Campaign,Campaign v8
 exl-id: 89b3a761-9cb3-4e01-8da0-043e634fa61f
-source-git-commit: 8355a36a235d847a6faf2398f3fadbed28ccac37
+source-git-commit: 5110ee2a7a079945475055cbcfdabf7cdcaa0ab5
 workflow-type: tm+mt
 source-wordcount: '1147'
 ht-degree: 93%
@@ -29,7 +29,7 @@ Adobe Campaign v8 は、電子メールやダイレクトメールなどの従�
 
 ## アーキテクチャ
 
-<img src="assets/campaign-v8-architecture.svg" alt="Campaign v8 ブループリントの参照アーキテクチャ" style="width:100%; border:1px solid #4a4a4a" />
+<img src="assets/campaign-v8-architecture.svg" alt="Campaign v8 ブループリントの参照アーキテクチャ" style="width:100%; border:1px solid #4a4a4a" class="modal-image" />
 
 <br>
 

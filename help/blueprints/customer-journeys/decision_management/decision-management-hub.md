@@ -3,7 +3,7 @@ title: ハブブループリントの決定管理
 description: キオスク、エージェント支援エクスペリエンス、電子メールやその他のアウトバウンド配信など、様々なチャネルで消費者にパーソナライズされたオファーを配信します。
 solution: Experience Platform, Journey Optimizer
 exl-id: 5a386e18-bbac-4216-a35f-0a5016785e4a
-source-git-commit: b18d491fdefc57762932d1570401b5437bf97c76
+source-git-commit: 5110ee2a7a079945475055cbcfdabf7cdcaa0ab5
 workflow-type: tm+mt
 source-wordcount: '906'
 ht-degree: 95%
@@ -38,7 +38,7 @@ Journey Optimizer は、あらゆるタッチポイントにわたり、適切�
 
 ## アーキテクチャ
 
-<img src="../assets/offers_hub.svg" alt="エッジブループリントの参照アーキテクチャ意思決定管理" style="width:100%; border:1px solid #4a4a4a" />
+<img src="../assets/offers_hub.svg" alt="エッジブループリントの参照アーキテクチャ意思決定管理" style="width:100%; border:1px solid #4a4a4a" class="modal-image" />
 
 <br>
 
@@ -63,13 +63,13 @@ Adobe Experience Platform
 
 ### データ取り込みガードレール
 
-<img src="../../experience-platform/assets/aep_data_flow_guardrails.svg" alt="Experience Platform データフロー" style="border:1px solid #4a4a4a" width="85%" />
+<img src="../../experience-platform/assets/aep_data_flow_guardrails.svg" alt="Experience Platform データフロー" style="border:1px solid #4a4a4a" width="85%" class="modal-image" />
 
 <br>
 
 ### 有効化ガードレール
 
-<img src="../../experience-platform/assets/AJO_guardrails.svg" alt="参照アーキテクチャ Journey Optimizer ブループリント" style="width:85%; border:1px solid #4a4a4a" />
+<img src="../../experience-platform/assets/AJO_guardrails.svg" alt="参照アーキテクチャ Journey Optimizer ブループリント" style="width:85%; border:1px solid #4a4a4a" class="modal-image" />
 
 <br>
 

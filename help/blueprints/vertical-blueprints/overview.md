@@ -2,7 +2,7 @@
 title: デジタルエクスペリエンスブループリント業界の成功事例
 description: Digital Experience Blueprints の成功事例では、Adobe Experience Platform を活用した Adobe Experience Cloud Applications を使用して、様々な業界がビジネス価値を実現している様子を紹介しています。
 exl-id: 9e73bae3-ba34-4819-a54e-710965fe74d9
-source-git-commit: b18d491fdefc57762932d1570401b5437bf97c76
+source-git-commit: 5110ee2a7a079945475055cbcfdabf7cdcaa0ab5
 workflow-type: tm+mt
 source-wordcount: '255'
 ht-degree: 95%
@@ -18,17 +18,17 @@ ht-degree: 95%
 <table style="table-layout:fixed">
 <tr>
   <td>
-    <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/vertical-blueprints/apparel.html?lang=ja"><img alt="Audience アクティベーション、Customer Journey Analytics、カスタマージャーニーブループリントを使用したアパレル産業用のサムネール画像" src="../experience-platform/assets/aep+apps_vertical.svg"/></a>
+    <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/vertical-blueprints/apparel.html?lang=ja"><img alt="Audience アクティベーション、Customer Journey Analytics、カスタマージャーニーブループリントを使用したアパレル産業用のサムネール画像" src="../experience-platform/assets/aep+apps_vertical.svg" class="modal-image" /></a>
     </td>
   <td>
-    <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/vertical-blueprints/retail.html?lang=ja"><img alt="オンラインとオフラインのデータおよび Journey Optimizer ブループリントを使用した、アクティベーションによる小売業界向けのサムネール画像" src="../experience-platform/assets/aep+apps_vertical.svg"/></a>
+    <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/vertical-blueprints/retail.html?lang=ja"><img alt="オンラインとオフラインのデータおよび Journey Optimizer ブループリントを使用した、アクティベーションによる小売業界向けのサムネール画像" src="../experience-platform/assets/aep+apps_vertical.svg" class="modal-image" /></a>
 
 </td>
   <td>
-    <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/vertical-blueprints/telecommunications.html?lang=ja"><img alt="Journey Optimizer ブループリントのサムネール画像" src="../customer-journeys/assets/ajo-architecture.svg" /></a>
+    <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/vertical-blueprints/telecommunications.html?lang=ja"><img alt="Journey Optimizer ブループリントのサムネール画像" src="../customer-journeys/assets/ajo-architecture.svg" class="modal-image" /></a>
   </td>
   <td>
-    <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/vertical-blueprints/travel-hospitality.html?lang=ja"><img alt="オンラインとオフラインのデータブループリントのアクティベーション用のサムネール画像" src="../audience-activation/assets/known_activation.svg" /></a>
+    <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/vertical-blueprints/travel-hospitality.html?lang=ja"><img alt="オンラインとオフラインのデータブループリントのアクティベーション用のサムネール画像" src="../audience-activation/assets/known_activation.svg" class="modal-image" /></a>
   </td>
 </tr>
 <tr>

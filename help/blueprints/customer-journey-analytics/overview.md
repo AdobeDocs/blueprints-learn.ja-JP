@@ -5,10 +5,10 @@ solution: Customer Journey Analytics
 kt: null
 thumbnail: null
 exl-id: 3bb2dada-f4cd-43f7-a0d0-f276510ad224
-source-git-commit: 8355a36a235d847a6faf2398f3fadbed28ccac37
+source-git-commit: 5110ee2a7a079945475055cbcfdabf7cdcaa0ab5
 workflow-type: tm+mt
-source-wordcount: '402'
-ht-degree: 90%
+source-wordcount: '406'
+ht-degree: 89%
 
 ---
 
@@ -32,7 +32,7 @@ Customer Journey Analytics の使用例の完全なリストについては、�
 
 ## Customer Journey Analytics のアーキテクチャ
 
-![アーキテクチャ図](assets/CJA.svg)
+![アーキテクチャ図](assets/CJA.svg){zoomable=&quot;yes&quot;}
 
 主なユースケースを次に示します。
 | ブループリント | 説明 |  Experience Cloud アプリケーション |
@@ -44,7 +44,7 @@ Customer Journey Analytics の使用例の完全なリストについては、�
 
 * ガードレールの詳細とエンドツーエンドの遅延については、[デプロイメントガードレールドキュメント](../experience-platform/deployment/guardrails.md)を参照してください
 
-![ガードレール図](../experience-platform/assets/CJA_guardrails.svg)
+![ガードレール図](../experience-platform/assets/CJA_guardrails.svg){zoomable=&quot;yes&quot;}
 
 ## 関連するブログ投稿
 

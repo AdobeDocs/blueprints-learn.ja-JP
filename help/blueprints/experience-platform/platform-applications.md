@@ -5,7 +5,7 @@ solution: Experience Platform, Campaign, Analytics, Target, Customer Journey Ana
 kt: 7199
 thumbnail: null
 exl-id: 9b12cd7a-5e5f-443a-91a1-44273cdabc2d
-source-git-commit: 96f0e4793884b4f77b22fe42a2671d1eda830e15
+source-git-commit: 5110ee2a7a079945475055cbcfdabf7cdcaa0ab5
 workflow-type: tm+mt
 source-wordcount: '989'
 ht-degree: 64%
@@ -18,11 +18,11 @@ ht-degree: 64%
 
 このアーキテクチャ図に、Adobe Experience Platform が Adobe Experience Cloud アプリケーションおよびアプリケーションサービスとどのように関わっているかを示します。
 
-<img src="assets/aep+apps_vertical.svg" alt="Experience Platform およびアプリケーション" style="border:1px solid #4a4a4a; width:90%; margin-bottom: 15px;" />
+<img src="assets/aep+apps_vertical.svg" alt="Experience Platform およびアプリケーション" style="border:1px solid #4a4a4a; width:90%; margin-bottom: 15px;" class="modal-image" />
 
 ## Adobe Experience Platform およびアプリケーションの詳細アーキテクチャ図
 
-<img src="assets/aep-app-architecture.svg" alt="Experience Platform およびアプリケーション" style="border:1px solid #4a4a4a; width:90%; margin-bottom: 15px;" />
+<img src="assets/aep-app-architecture.svg" alt="Experience Platform およびアプリケーション" style="border:1px solid #4a4a4a; width:90%; margin-bottom: 15px;" class="modal-image" />
 
 >[!VIDEO](https://video.tv.adobe.com/v/32456/?quality=12&learn=on)
 
@@ -249,7 +249,7 @@ ht-degree: 64%
 <td colspan="1">Target</td>
 <td colspan="1">
 <ul>
-<li>Real-time Customer Data Platformで定義されたオーディエンスとプロファイル属性は、Target と共有したり、Target が提供するパーソナライゼーションおよびターゲティングエクスペリエンスで使用したりできます。</li>
+<li>Real-time Customer Data Platformで定義されたオーディエンスとプロファイル属性は、Target と共有し、Target が提供するパーソナライゼーションおよびターゲティングエクスペリエンスで使用できます。</li>
 </ul>
 </td>
 <td colspan="1">

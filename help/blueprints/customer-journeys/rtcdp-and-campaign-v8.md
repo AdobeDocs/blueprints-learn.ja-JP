@@ -3,7 +3,7 @@ title: Real-Time CDPとAdobe Campaign v8 の統合パターン
 description: Adobe Experience Platform とそのリアルタイム顧客プロファイル、および一元化されたセグメント化ツールを Adobe Campaign v8 と併用して、パーソナライズされた会話を提供する方法を紹介します。
 solution: Real-time Customer Data Platform, Campaign
 exl-id: d0291088-02ed-4e7e-b538-018ea40e38c6
-source-git-commit: 05666e35eebe81fa5a061250528b1c2f4a7376a6
+source-git-commit: 5110ee2a7a079945475055cbcfdabf7cdcaa0ab5
 workflow-type: tm+mt
 source-wordcount: '385'
 ht-degree: 75%
@@ -25,7 +25,7 @@ Adobe Experience Platform とそのリアルタイム顧客プロファイル、
 
 ## アーキテクチャ
 
-<img src="assets/rtcdp-campaignv8-architecture.svg" alt="バッチメッセージおよびAdobe Experience Platform統合パターンの参照アーキテクチャ" style="width:100%; border:1px solid #4a4a4a" />
+<img src="assets/rtcdp-campaignv8-architecture.svg" alt="バッチメッセージおよびAdobe Experience Platform統合パターンの参照アーキテクチャ" style="width:100%; border:1px solid #4a4a4a" class="modal-image" />
 
 <br>
 

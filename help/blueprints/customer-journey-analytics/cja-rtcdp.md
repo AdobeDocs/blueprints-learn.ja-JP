@@ -5,10 +5,10 @@ solution: Customer Journey Analytics
 kt: null
 thumbnail: null
 exl-id: 9e1ba723-63f2-4622-ba67-f2a315c3ba0c
-source-git-commit: 8355a36a235d847a6faf2398f3fadbed28ccac37
+source-git-commit: 5110ee2a7a079945475055cbcfdabf7cdcaa0ab5
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '398'
+ht-degree: 82%
 
 ---
 
@@ -22,13 +22,13 @@ Customer Journey AnalyticsからReal-time Customer Data Platformへのオーデ�
 
 ## Customer Journey Analyticsブループリントのアーキテクチャ
 
-![アーキテクチャ図](assets/CJA_RTCDP.svg)
+![アーキテクチャ図](assets/CJA_RTCDP.svg){zoomable=&quot;yes&quot;}
 
 ## Customer Journey Analyticsブループリントのガードレール図
 
 * ガードレールの詳細とエンドツーエンドの遅延については、[デプロイメントガードレールドキュメント](../experience-platform/deployment/guardrails.md)を参照してください
 
-![ガードレール図](../experience-platform/assets/CJA_guardrails.svg)
+![ガードレール図](../experience-platform/assets/CJA_guardrails.svg){zoomable=&quot;yes&quot;}
 
 ## よくある質問
 

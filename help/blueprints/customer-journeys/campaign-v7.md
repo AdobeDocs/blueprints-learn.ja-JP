@@ -3,7 +3,7 @@ title: Campaign v7 ブループリント
 description: Adobe Campaign v7 は、電子メールやダイレクトメールなどの従来のマーケティングチャネル用に構築されたキャンペーンツールです。堅牢な ETL およびデータ管理機能を提供し、最適なキャンペーンの作成とキュレーションを支援します。そのオーケストレーションエンジンは、バッチベースのジャーニーに重点を置いた、豊富なマルチタッチマーケティングプログラムを提供します。また、リアルタイムメッセージングサーバーと組み合わせることで、マーケティングチームは、パスワードのリセット、注文確認、電子領収書など、あらゆる IT システムから包括的なペイロードに基づいて事前に定義したメッセージを送信することが可能になります。
 solution: Campaign,Campaign Classic v7
 exl-id: 71c808f5-59e6-4f49-a6ba-581ed508bc04
-source-git-commit: 8355a36a235d847a6faf2398f3fadbed28ccac37
+source-git-commit: 5110ee2a7a079945475055cbcfdabf7cdcaa0ab5
 workflow-type: tm+mt
 source-wordcount: '1195'
 ht-degree: 91%
@@ -27,7 +27,7 @@ Adobe Campaign v7 は、電子メールやダイレクトメールなどの従�
 
 ## アーキテクチャ
 
-<img src="assets/campaign-v7-architecture.svg" alt="Campaign v7 ブループリントの参照アーキテクチャ" style="width:100%; border:1px solid #4a4a4a" />
+<img src="assets/campaign-v7-architecture.svg" alt="Campaign v7 ブループリントの参照アーキテクチャ" style="width:100%; border:1px solid #4a4a4a" class="modal-image" />
 
 <br>
 

@@ -3,7 +3,7 @@ title: Journey Optimizer - トリガーされるメッセージおよび Adobe E
 description: ストリーミングデータ、顧客プロファイル、セグメント化の中央ハブとして Adobe Experience Platform を使用して、トリガーされるメッセージとエクスペリエンスを実行します。
 solution: Journey Optimizer
 exl-id: 97831309-f235-4418-bd52-28af815e1878
-source-git-commit: b18d491fdefc57762932d1570401b5437bf97c76
+source-git-commit: 5110ee2a7a079945475055cbcfdabf7cdcaa0ab5
 workflow-type: tm+mt
 source-wordcount: '1044'
 ht-degree: 96%
@@ -29,7 +29,7 @@ Adobe Journey Optimizer は、マーケティングチームが顧客行動に�
 
 ## アーキテクチャ
 
-<img src="assets/ajo-architecture.svg" alt="参照アーキテクチャ Journey Optimizer ブループリント" style="width:100%; border:1px solid #4a4a4a" />
+<img src="assets/ajo-architecture.svg" alt="参照アーキテクチャ Journey Optimizer ブループリント" style="width:100%; border:1px solid #4a4a4a" class="modal-image" />
 
 <br>
 
@@ -91,13 +91,13 @@ Adobe Experience Platform
 
 ### データ取り込みガードレール
 
-<img src="../experience-platform/assets/aep_data_flow_guardrails.svg" alt="Experience Platform データフロー" style="border:1px solid #4a4a4a" width="85%" />
+<img src="../experience-platform/assets/aep_data_flow_guardrails.svg" alt="Experience Platform データフロー" style="border:1px solid #4a4a4a" width="85%" class="modal-image" />
 
 <br>
 
 ### 有効化ガードレール
 
-<img src="../experience-platform/assets/AJO_guardrails.svg" alt="参照アーキテクチャ Journey Optimizer ブループリント" style="width:85%; border:1px solid #4a4a4a" />
+<img src="../experience-platform/assets/AJO_guardrails.svg" alt="参照アーキテクチャ Journey Optimizer ブループリント" style="width:85%; border:1px solid #4a4a4a" class="modal-image" />
 
 <br>
 

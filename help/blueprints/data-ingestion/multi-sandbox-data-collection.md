@@ -4,7 +4,7 @@ description: イベント転送を使用して、Experience Platform SDK によ�
 solution: Data Collection
 kt: 7202
 exl-id: c24a47fe-b3da-4170-9416-74d2b6a18f32
-source-git-commit: b18d491fdefc57762932d1570401b5437bf97c76
+source-git-commit: 5110ee2a7a079945475055cbcfdabf7cdcaa0ab5
 workflow-type: tm+mt
 source-wordcount: '609'
 ht-degree: 73%
@@ -34,7 +34,7 @@ ht-degree: 73%
 
 ## アーキテクチャ
 
-<img src="assets/multi-Sandbox-Data-Collection.svg" alt="マルチサンドボックスイベント転送のリファレンスアーキテクチャ" style="width:90%; border:1px solid #4a4a4a" />
+<img src="assets/multi-Sandbox-Data-Collection.svg" alt="マルチサンドボックスイベント転送のリファレンスアーキテクチャ" style="width:90%; border:1px solid #4a4a4a" class="modal-image" />
 
 1. タグ作成者は、タグプロパティとイベント転送プロパティの両方を定義します。 ここでは、作成者がデータ収集を管理するデータ要素、ルール、アクションを定義します。 タグプロパティコードはクライアント上で実行され、CDN ホストによって配布されることに注意してください。 イベント転送のプロパティコードは、Adobe Edge Server で実行されます。
 
