@@ -6,10 +6,10 @@ solution: Audience Manager
 kt: 7211
 thumbnail: null
 exl-id: f17599f1-2e75-4cbe-841a-9fd1dae71ada
-source-git-commit: 8355a36a235d847a6faf2398f3fadbed28ccac37
+source-git-commit: 4b09d5e43dba53df2f066917f95eae0f74191de8
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '380'
+ht-degree: 63%
 
 ---
 
@@ -35,7 +35,7 @@ Microsoft Bing、Google DV360、TradeDesk は、匿名デバイスベースの�
 
 ## アーキテクチャ
 
-<img src="assets/anonymous_activation.svg" alt="匿名オーディエンスアクティベーションブループリントの参照アーキテクチャ" style="width:90%; border:1px solid #4a4a4a" />
+<img src="assets/anonymous_activation.svg" alt="匿名オーディエンスアクティベーションブループリントの参照アーキテクチャ" style="width:90%; border:1px solid #4a4a4a" zoomable="yes" />
 
 <br>
 

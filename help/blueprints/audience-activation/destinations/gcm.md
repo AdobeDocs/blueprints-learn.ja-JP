@@ -1,20 +1,20 @@
 ---
 title: Google Customer Match へのアクティベーション
 description: Google Customer Match へのアクティベーション。
-solution: Real-Time Customer Data Platform, Data Collection
+solution: Real-time Customer Data Platform, Data Collection
 kt: 7086
 exl-id: 32bdc04d-b101-4b17-af27-329e5c71d888
-source-git-commit: 8355a36a235d847a6faf2398f3fadbed28ccac37
+source-git-commit: 05666e35eebe81fa5a061250528b1c2f4a7376a6
 workflow-type: tm+mt
 source-wordcount: '1010'
-ht-degree: 99%
+ht-degree: 95%
 
 ---
 
 
 # Google Customer Match へのアクティベーション
 
-複数のソースから顧客データを取り込んで顧客の単一のプロファイル表示を作成し、これらのプロファイルをセグメント化し、マーケティングやパーソナライズ機能用に、オーディエンスを構築し、これを Google Customer Match などの Social Ad Networks で共有し、オーディエンスをターゲット化し、パーソナライズ機能キャンペーンを実施します。Google Customer Match を使用すると、オンラインとオフラインのデータを使用して、Googleが所有および運用するプロパティ（検索、ショッピング、Gmail、YouTube など）をまたいで、顧客にリーチし、再び関与させることができます。
+複数のソースから顧客データを取り込んで顧客の単一のプロファイル表示を作成し、これらのプロファイルをセグメント化し、マーケティングやパーソナライズ機能用に、オーディエンスを構築し、これを Google Customer Match などの Social Ad Networks で共有し、オーディエンスをターゲット化し、パーソナライズ機能キャンペーンを実施します。Google Customer Match を使用すると、オンラインとオフラインのデータを使用して、次のようなGoogleの所有および運用するプロパティをまたいで、顧客にリーチし、再び関与させることができます。検索、ショッピング、Gmail、YouTube。
 
 ## 使用例
 
@@ -27,7 +27,7 @@ ht-degree: 99%
 
 ## アーキテクチャ
 
-<img src="../assets/gcm.svg" alt="Google Customer Match アクティベーションの参照アーキテクチャ" style="width:90%; border:1px solid #4a4a4a" />
+<img src="../assets/gcm.svg" alt="Google Customer Match アクティベーションの参照アーキテクチャ" style="width:90%; border:1px solid #4a4a4a" class="modal-image" />
 
 ## 実装の手順
 

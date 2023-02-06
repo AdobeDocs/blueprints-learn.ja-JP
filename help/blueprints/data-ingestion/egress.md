@@ -2,9 +2,9 @@
 title: データアクセスと書き出しブループリント
 description: このブループリントは、Adobe Experience Platform およびアプリケーションからデータにアクセスしてエクスポートするためのすべての方法の概要を提供します。
 product: adobe experience platform
-solution: Experience Platform, Journey Optimizer, Real-Time Customer Data Platform, Tags
+solution: Experience Platform, Journey Optimizer, Real-time Customer Data Platform, Tags
 exl-id: 2ca51a29-2db2-468f-8688-fc8bc061b47b
-source-git-commit: 8355a36a235d847a6faf2398f3fadbed28ccac37
+source-git-commit: 96f0e4793884b4f77b22fe42a2671d1eda830e15
 workflow-type: tm+mt
 source-wordcount: '1513'
 ht-degree: 94%

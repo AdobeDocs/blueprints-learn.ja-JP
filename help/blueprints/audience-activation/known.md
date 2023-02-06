@@ -1,13 +1,13 @@
 ---
 title: 既知の顧客のアクティベーション ブループリント
 description: オンライン／オフラインオーディエンスアクティベーション。
-solution: Real-Time Customer Data Platform, Target, Audience Manager, Analytics, Experience Cloud Services, Data Collection
+solution: Real-time Customer Data Platform, Target, Audience Manager, Analytics, Experience Cloud Services, Data Collection
 kt: 7086
 exl-id: 011f4909-b208-46db-ac1c-55b3671ee48c
-source-git-commit: 8355a36a235d847a6faf2398f3fadbed28ccac37
+source-git-commit: 05666e35eebe81fa5a061250528b1c2f4a7376a6
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '567'
+ht-degree: 71%
 
 ---
 
@@ -34,12 +34,12 @@ ht-degree: 0%
 
 ### Real-time Customer Data Platformを使用した既知のお客様のアクティベーション
 
-<img src="assets/known_activation.svg" alt="既知の顧客アクティベーションブループリントの参照アーキテクチャ" style="width:90%; border:1px solid #4a4a4a" />
+<img src="assets/known_activation.svg" alt="既知の顧客アクティベーションブループリントの参照アーキテクチャ" style="width:90%; border:1px solid #4a4a4a" zoomable="yes" />
 <br>
 
 ### Audience Managerユーザーベースの宛先を使用した既知の顧客のアクティベーション
 
-<img src="assets/AAM_PBD.svg" alt="既知の顧客アクティベーションブループリントの参照アーキテクチャ" style="width:90%; border:1px solid #4a4a4a" />
+<img src="assets/AAM_PBD.svg" alt="既知の顧客アクティベーションブループリントの参照アーキテクチャ" style="width:90%; border:1px solid #4a4a4a" zoomable="yes" />
 <br>
 
 ## ガードレール

@@ -1,11 +1,11 @@
 ---
 title: オーディエンスとプロファイルアクティベーションのブループリント
 description: Real-time Customer Data Platformを使用して、アクティブ化されたオーディエンスおよびプロファイル中心のカスタマーエクスペリエンスを提供し​ます。
-solution: Real-Time Customer Data Platform
+solution: Real-time Customer Data Platform
 kt: null
 thumbnail: null
 exl-id: eeeb4325-d0e8-4fd8-86ab-0b8afdd0b69f
-source-git-commit: 8355a36a235d847a6faf2398f3fadbed28ccac37
+source-git-commit: 05666e35eebe81fa5a061250528b1c2f4a7376a6
 workflow-type: tm+mt
 source-wordcount: '872'
 ht-degree: 88%
@@ -30,7 +30,7 @@ ht-degree: 88%
 
 以下の図に、Experience Platform のリアルタイム顧客プロファイルのコアコンポーネントの概要を示します。
 
-<img src="assets/profile_architecture.jpg" alt="リアルタイム顧客プロファイルの参照アーキテクチャ" style="border:1px solid #4a4a4a" width="90%"/>
+<img src="assets/profile_architecture.jpg" alt="リアルタイム顧客プロファイルの参照アーキテクチャ" style="border:1px solid #4a4a4a" width="90%" zoomable="yes"/>
 
 最初のデータソースが Experience Platform に取り込まれます。データソースがプロファイル処理用に設定されている場合、リアルタイム顧客プロファイルにフィードされます。各データソース用に設定される各データソースおよび各プライマリ ID レコード用に、単一のプロファイルフラグメントまたはドキュメントが作成されます。さらに、データがプロファイルに取り込まれるので、ID サービスでも処理されます。スキーマで複数の ID がマークされ、対応する値がレコードに入力されているデータソースからのレコードは、ID サービス内の ID 関係として処理されます。
 
@@ -42,7 +42,7 @@ ID グラフは、関連付けられた様々なソースプロファイルフ�
 
 次の図に、様々なセグメント化メソッドと、様々なプロファイルおよびオーディエンスのアクティベーションパターンの概要を示します。
 
-<img src="assets/segmentation_destination_overview.png" alt="リアルタイム顧客プロファイルの参照アーキテクチャ" style="border:1px solid #4a4a4a" width="90%"/>
+<img src="assets/segmentation_destination_overview.png" alt="リアルタイム顧客プロファイルの参照アーキテクチャ" style="border:1px solid #4a4a4a" width="90%" zoomable="yes"/>
 
 ## オーディエンスおよびプロファイルアクティベーションブループリントのガードレール
 

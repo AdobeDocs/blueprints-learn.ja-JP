@@ -1,10 +1,10 @@
 ---
 title: Experience Cloudアプリケーションのブループリントを使用したオーディエンスとプロファイルのアクティベーション
 description: Experience Platform でプロファイルおよびオーディエンスを管理し、Experience Cloud アプリケーションを使用して共有します。
-solution: Real-Time Customer Data Platform, Target, Audience Manager, Analytics, Experience Cloud Services
+solution: Real-time Customer Data Platform, Target, Audience Manager, Analytics, Experience Cloud Services
 kt: 7722
 exl-id: f36014e8-170d-47e1-b4ec-10c0ea70612d
-source-git-commit: 8355a36a235d847a6faf2398f3fadbed28ccac37
+source-git-commit: 05666e35eebe81fa5a061250528b1c2f4a7376a6
 workflow-type: tm+mt
 source-wordcount: '896'
 ht-degree: 75%
@@ -43,7 +43,7 @@ Experience Platform と Experience Cloud アプリケーションの統合に関
 
 ### Experience Cloudアプリを使用したオーディエンスとプロファイルのアクティベーション
 
-<img src="../experience-platform/assets/aep+apps_horizontal.svg" alt="Experience Cloudアプリケーションを使用したオーディエンスとプロファイルのアクティベーションのリファレンスアーキテクチャ" style="width:90%; border:1px solid #4a4a4a" />
+<img src="../experience-platform/assets/aep+apps_horizontal.svg" alt="Experience Cloudアプリケーションを使用したオーディエンスとプロファイルのアクティベーションのリファレンスアーキテクチャ" style="width:90%; border:1px solid #4a4a4a" zoomable="yes" />
 <br>
 
 ## ガードレール
