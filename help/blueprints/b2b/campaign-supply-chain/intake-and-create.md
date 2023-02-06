@@ -2,10 +2,10 @@
 title: 取り込みとブループリントの作成
 description: 取り込みと作成 - Marketo と Workfront を使用してキャンペーンサプライチェーンを最適化
 exl-id: 09679521-727c-4676-8e91-23d0b7fd54a2
-source-git-commit: 5110ee2a7a079945475055cbcfdabf7cdcaa0ab5
+source-git-commit: bf99ef23bb07c845a396767a65114874f3a18180
 workflow-type: tm+mt
-source-wordcount: '1313'
-ht-degree: 86%
+source-wordcount: '1331'
+ht-degree: 85%
 
 ---
 
@@ -102,7 +102,7 @@ Marketo Engage のプログラムテンプレートを使用してセンター�
 
 Marketo Engage では、トークンを使用してコンテンツをキャンペーンアセットに入力することができます。たとえば、センターオブエクセレンスからメールテンプレートを複製した後、Workfront Fusion は Workfront のキャンペーンリクエストから詳細を取得し、Marketo Engage プログラムのマイ トークンに渡すことができます。その後、トークンの値をメールに直接継承して、メールを構築することができます。
 
-![](assets/intake-and-create-2.png)
+![トークンを使用したコンテンツダイアグラムの設定](assets/intake-and-create-2.png){zoomable=&quot;yes&quot;}
 
 ### AEM Assetsからの画像の入力 {#populate-images-from-aem-assets}
 
@@ -150,7 +150,7 @@ Workfront リクエストから新しい Marketo Engage プログラムの作成
 
 次に、事前ビルドを使用して Fusion でワークフローロジックを組み立てる方法の例を示します [Workfront](https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-fusion/fusion-apps-and-modules/workfront-modules.html?lang=ja){target="_blank"} and [Marketo Engage](https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-fusion/fusion-apps-and-modules/marketo-modules.html?lang=ja){target="_blank"} 自動化を迅速に実現するモジュール。
 
-![](assets/intake-and-create-3.png)
+![インテークと自動化フローの作成](assets/intake-and-create-3.png)トークンを使用したコンテンツの入力
 
 ## リソース {#resources}
 

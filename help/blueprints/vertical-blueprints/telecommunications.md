@@ -4,10 +4,10 @@ description: 顧客の長期ロイヤリティに対する効率的なオンボ�
 solution: Journey Optimizer
 kt: 9486
 exl-id: fa4a6569-3972-4b97-91f1-7ca8ffd3c5b3
-source-git-commit: 8355a36a235d847a6faf2398f3fadbed28ccac37
+source-git-commit: bf99ef23bb07c845a396767a65114874f3a18180
 workflow-type: tm+mt
-source-wordcount: '334'
-ht-degree: 84%
+source-wordcount: '333'
+ht-degree: 78%
 
 ---
 
@@ -41,4 +41,4 @@ ht-degree: 84%
 
 ### ブループリントアーキテクチャ
 
-<a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer.html?lang=ja"><img alt="通信業向けのサムネイル画像は、顧客の長期ロイヤリティに対する効率的なオンボーディングを提供しながら、顧客に合わせてリアルタイムの契約を提供します。" src="https://experienceleague.adobe.com/docs/blueprints-learn/assets/journey-optimizer.png?lang=en"/></a>
+<a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer.html?lang=ja"><img alt="通信ビジネス向けの画像は、顧客が長期的なロイヤリティを実現する効率的なオンボーディングを行い、リアルタイムで顧客に合わせた契約を提供します。" src="https://experienceleague.adobe.com/docs/blueprints-learn/assets/journey-optimizer.png?lang=en"/></a>
