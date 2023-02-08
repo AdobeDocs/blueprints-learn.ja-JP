@@ -4,10 +4,10 @@ description: デジタルメディア、電子メール、プッシュおよび 
 solution: Real-time Customer Data Platform, Customer Journey Analytics, Journey Orchestration, Campaign, Analytics, Target
 kt: 9474
 exl-id: a675bc81-e76c-491a-8718-359867d63351
-source-git-commit: bf99ef23bb07c845a396767a65114874f3a18180
+source-git-commit: dabb5ae0bf2fc186f67d4aa93a2e9e8c5bb04498
 workflow-type: tm+mt
-source-wordcount: '349'
-ht-degree: 87%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 87%
 
 | 目標 | 戦術 | 解放されたバリュー |
 |---|---|---|
-| **リアルタイムカスタマージャーニーのオーケストレート&#x200B;**<br></br>**新規顧客からのリピート購入の促進&#x200B;**<br></br>**マーケティング効率の向上とメディアコストの削減**</ul> | <ul><li>包括的なリアルタイムプロファイルを実現する堅牢なデータと ID 戦略。</li><li>顧客およびトランザクションデータをリアルタイムでストリーミング（過去 90 日間の履歴を含む）</li><li>Google と Adobe Target に対してストリーミングセグメント化を行い、メディアコストとパーソナライゼーションに対する取り組みを強化します。</li><li>パフォーマンスを測定する戦略を含む、Adobe Campaign 全体にわたるリアルタイムのカスタマージャーニー</li></ul> | <ul><li><strong>Real-time Customer Data Platform：</strong> メディア、電子メール、プッシュ、Web にわたって、リアルタイムでカスタマーエクスペリエンスを提供</li><li><strong>データソース：</strong> この小売業者のプロファイルストア、注文システム、製品カタログ、小売店の各アウトレットをカバーするストリーミングデータ。</li><li><strong>リアルタイムメディアアクティベーション：</strong>アトリビューションおよび広告抑制のための Google メディアへに対してセグメントをストリーミング</li><li><strong>リアルタイム Web パーソナライゼーション：</strong>小売業者の Web エクスペリエンスでアクティブ化するために、Adobe Target に対してセグメントをストリーミング。</li><li><strong>大規模な Journey Orchestration：</strong>電子メールおよびプッシュチャネルで利用可能なすべての顧客データを使用して、リアルタイムにトリガーされるメッセージを強化し、リアルタイムでアクティブ化</li></ul> |
+| **リアルタイムカスタマージャーニーのオーケストレート&#x200B;**<br></br>**新規顧客からのリピート購入の促進&#x200B;**<br></br>**マーケティング効率の向上とメディアコストの削減**</ul> | <ul><li>包括的なリアルタイムプロファイルを実現する堅牢なデータと ID 戦略。</li><li>顧客およびトランザクションデータをリアルタイムでストリーミング（過去 90 日間の履歴を含む）</li><li>Google と Adobe Target に対してストリーミングセグメント化を行い、メディアコストとパーソナライゼーションに対する取り組みを強化します。</li><li>パフォーマンスを測定する戦略を含む、Adobe Campaign 全体にわたるリアルタイムのカスタマージャーニー</li></ul> | <ul><li><strong>Real-time Customer Data Platform:</strong> メディア、E メール、プッシュ、Web にわたって、リアルタイムで顧客体験を提供</li><li><strong>データソース：</strong> この小売業者のプロファイルストア、注文システム、製品カタログ、小売店の各アウトレットをカバーするストリーミングデータ。</li><li><strong>リアルタイムメディアアクティベーション：</strong>アトリビューションおよび広告抑制のための Google メディアへに対してセグメントをストリーミング</li><li><strong>リアルタイム Web パーソナライゼーション：</strong>小売業者の Web エクスペリエンスでアクティブ化するために、Adobe Target に対してセグメントをストリーミング。</li><li><strong>大規模な Journey Orchestration：</strong>電子メールおよびプッシュチャネルで利用可能なすべての顧客データを使用して、リアルタイムにトリガーされるメッセージを強化し、リアルタイムでアクティブ化</li></ul> |
 
 ## プライマリブループリント：オーディエンスとアクティベーション (Experience Cloudアプリ )
 

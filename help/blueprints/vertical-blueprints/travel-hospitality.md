@@ -4,10 +4,10 @@ description: 様々なチャネルにわたる顧客行動を 1 つの統合表�
 solution: Real-time Customer Data Platform, Customer Journey Analytics, Analytics, Audience Manager, Experience Manager, Target
 kt: 9485
 exl-id: 8b96cc5f-bcdd-4bd3-81e4-084f697ac1d3
-source-git-commit: 5110ee2a7a079945475055cbcfdabf7cdcaa0ab5
+source-git-commit: dabb5ae0bf2fc186f67d4aa93a2e9e8c5bb04498
 workflow-type: tm+mt
-source-wordcount: '407'
-ht-degree: 89%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 89%
 ## Adobe法
 
 * Adobe Experience Platform を既存のテクノロジースタックに統合し、クロスソリューションの顧客インタラクションを提供します。
-* Real-time Customer Data PlatformとCustomer Journey Analyticsをアクティブ化し、継続的な分析とパーソナライズされた顧客プロファイルを提供します。
+* Real-time Customer Data Platform と Customer Journey Analytics をアクティブ化し、継続的な分析とパーソナライズされた顧客プロファイルを提供します。
 * 効果的なマーケティングアトリビューションとリソース割り当てをサポートするため、カスタマージャーニーの全体像を開発しました。
 * 顧客との関わりを持ち続けながら、ビジネスを準備した戦略で、COVID-19 に対応しました。
 

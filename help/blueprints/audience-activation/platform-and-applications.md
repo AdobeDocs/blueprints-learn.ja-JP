@@ -4,10 +4,10 @@ description: Experience Platform でプロファイルおよびオーディエ�
 solution: Real-time Customer Data Platform, Target, Audience Manager, Analytics, Experience Cloud Services
 kt: 7722
 exl-id: f36014e8-170d-47e1-b4ec-10c0ea70612d
-source-git-commit: 5110ee2a7a079945475055cbcfdabf7cdcaa0ab5
+source-git-commit: dabb5ae0bf2fc186f67d4aa93a2e9e8c5bb04498
 workflow-type: tm+mt
-source-wordcount: '896'
-ht-degree: 75%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -54,7 +54,7 @@ Experience Platform と Experience Cloud アプリケーションの統合に関
 
 * プロファイルデータを宛先に共有するには、宛先ペイロードの宛先で使用される特定の ID 値を含める必要があります。ターゲットの宛先に必要な ID は、Platform に取り込まれ、[!UICONTROL リアルタイム顧客プロファイル]の ID として設定される必要があります。
 
-### Real-time Customer Data PlatformからAudience Managerへのオーディエンスの共有
+### Real-time Customer Data Platform から Audience Manager へのオーディエンスの共有
 
 * 詳しくは、次のドキュメントを参照してください。[Audience Manager およびその他の Experience Cloud ソリューションを使用した Experience Platform セグメント共有](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-experience-platform/aam-aep-audience-sharing.html?lang=ja).
 
@@ -65,31 +65,31 @@ Experience Platform と Experience Cloud アプリケーションの統合に関
 * Experience Platform から Audience Manager にオーディエンスが共有されるアクティベーションシナリオでは、次の ID が自動的に共有されます。ECID、IDFA、GAID、ハッシュ化されたメールアドレス（EMAIL_LC_SHA256）、AdCloud ID。現在、カスタムの名前空間は共有されません。
 * 必須の宛先 ID が[!UICONTROL リアルタイム顧客プロファイル]に含まれている場合、または[!UICONTROL リアルタイム顧客プロファイル]内の ID が Audience Manager でリンクされる必須の宛先 ID と関連付けられる場合、Experience Platform からのオーディエンスは、Audience Manager 宛先を使用して共有できます。
 
-### Real-time Customer Data Platformから Target へのオーディエンスの共有
+### Real-time Customer Data Platform から Target へのオーディエンスの共有
 
-* 詳しくは、 [既知の顧客のパーソナライゼーション — Target および RTCDP ブループリント](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/web-personalization/known-personalization.html?lang=ja) を参照してください。
+* Real-time Customer Data Platform から Target へのプロファイルとオーディエンスの共有に関する詳細は、[既知の顧客のパーソナライズ機能 - Target と RTCDP ブループリント](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/web-personalization/known-personalization.html?lang=ja)を参照してください。
 
-### Real-time Customer Data Platformから Campaign およびJourney Optimizerへのオーディエンスの共有
+### Real-time Customer Data Platform から Campaign および Journey Optimizer へのオーディエンスの共有
 
-* 詳しくは、 [顧客ジャーニーのブループリント](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/b2b-activation/b2bactivation.html?lang=ja) を参照してください。
+* Real-time Customer Data Platform から Campaign および Journey Optimizer へのプロファイルとオーディエンスの共有に関する詳細は、[カスタマージャーニーのブループリント](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/b2b-activation/b2bactivation.html?lang=ja)を参照してください。
 
-### Real-time Customer Data PlatformからMarketo Engageへのオーディエンスの共有
+### Real-time Customer Data Platform から Marketo Engage へのオーディエンス共有
 
-* 詳しくは、 [B2B アクティベーションブループリント](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/b2b-activation/b2bactivation.html?lang=ja) Real-time Customer Data PlatformからMarketo Engageへのプロファイルとオーディエンスの共有に関する詳細
+* Real-time Customer Data Platform から Marketo Engage へのプロファイルとオーディエンスの共有の詳細については、[B2B アクティベーションブループリント](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/b2b-activation/b2bactivation.html?lang=ja)を参照してください。
 
-### Real-time Customer Data PlatformからCustomer Journey Analyticsへのオーディエンスの共有
+### Real-time Customer Data Platform から Customer Journey Analytics へのオーディエンス共有
 
-* 詳しくは、 [RTCDP オーディエンスがCustomer Journey Analyticsと共有](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/ingest-aep-segments.html?lang=ja) Real-time Customer Data PlatformオーディエンスのCustomer Journey Analyticsへの共有に関する追加情報
+* Real-time Customer Data Platform オーディエンスを Customer Journey Analytics と共有する方法の詳細については、[Customer Journey Analyticsと共有される RTCDP オーディエンス](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/ingest-aep-segments.html?lang=ja)を参照してください。
 
 ## 関連ドキュメント
 
-* [[!UICONTROL Real-time Customer Data Platform] 製品の説明](https://helpx.adobe.com/jp/legal/product-descriptions/real-time-customer-data-platform.html)
+* [[!UICONTROL Real-time Customer Data Platform] 製品説明](https://helpx.adobe.com/jp/legal/product-descriptions/real-time-customer-data-platform.html)
 * [プロファイルおよびセグメント化ガイドライン](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=ja)
 * [セグメント化ドキュメント](https://experienceleague.adobe.com/docs/experience-platform/segmentation/api/streaming-segmentation.html?lang=ja)
 * [宛先ドキュメント](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/overview.html?lang=ja)
 
 ## 関連するビデオとチュートリアル
 
-* [[!UICONTROL Real-time Customer Data Platform] 概要](https://experienceleague.adobe.com/docs/platform-learn/tutorials/application-services/rtcdp/understanding-the-real-time-customer-data-platform.html?lang=ja)
-* [のデモ [!UICONTROL Real-time Customer Data Platform]](https://experienceleague.adobe.com/docs/platform-learn/tutorials/application-services/rtcdp/demo.html?lang=ja)
+* [[!UICONTROL Real-time Customer Data Platform] の概要](https://experienceleague.adobe.com/docs/platform-learn/tutorials/application-services/rtcdp/understanding-the-real-time-customer-data-platform.html?lang=ja)
+* [[!UICONTROL Real-time Customer Data Platform] のデモ](https://experienceleague.adobe.com/docs/platform-learn/tutorials/application-services/rtcdp/demo.html?lang=ja)
 * [セグメントの作成](https://experienceleague.adobe.com/docs/platform-learn/tutorials/segments/create-segments.html?lang=ja)

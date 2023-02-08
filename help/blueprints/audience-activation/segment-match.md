@@ -3,10 +3,10 @@ title: セグメントの一致 ブループリント
 description: Adobe Experience Platform（AEP）用[!UICONTROL セグメントの一致]を学びます。[!UICONTROL セグメントの一致]は、共通の業界識別子に基づいて、セキュアで、管理され、プライバシーに優しい方法でセグメントデータを交換することができるデータコラボレーションサービスです。
 solution: Experience Platform
 exl-id: d7e6d555-56aa-4818-8218-b87f6286a75e
-source-git-commit: bf99ef23bb07c845a396767a65114874f3a18180
+source-git-commit: dabb5ae0bf2fc186f67d4aa93a2e9e8c5bb04498
 workflow-type: tm+mt
-source-wordcount: '1774'
-ht-degree: 98%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 98%
 
 このサービスを使用すると、顧客はデータベース全体を開示する必要がなく、一致する ID を安全で中立的な方法でセキュアに識別することができます。パートナーは、重複する ID に対して指定された属性（セグメント名）のみを受け取るので、制御可能で同意に基づく方法で迅速かつ容易に共有することができます。
 
-[!UICONTROL セグメントの一致]は、AEP データガバナンスと同意フレームワークをバックボーンとして使用します。B2C および B2P Real-time Customer Data Platform のすべての顧客が利用することができます。[!UICONTROL [!UICONTROL セグメントの一致]]は、主な機能として以下のものを含みます：
+[!UICONTROL セグメントの一致]は、AEP データガバナンスと同意フレームワークをバックボーンとして使用します。B2C および B2P Real-time Customer Data Platformのすべてのお客様が利用できます。 [!UICONTROL [!UICONTROL セグメントの一致]]は、主な機能として以下のものを含みます：
 
 * 重複する同意顧客のセグメント共有
 * 推定一致量に関するインサイトの重複レポートを事前共有

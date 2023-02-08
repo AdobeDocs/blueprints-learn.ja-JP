@@ -5,10 +5,10 @@ solution: Experience Platform, Campaign, Analytics, Target, Customer Journey Ana
 kt: 7199
 thumbnail: null
 exl-id: 9b12cd7a-5e5f-443a-91a1-44273cdabc2d
-source-git-commit: 5110ee2a7a079945475055cbcfdabf7cdcaa0ab5
+source-git-commit: dabb5ae0bf2fc186f67d4aa93a2e9e8c5bb04498
 workflow-type: tm+mt
-source-wordcount: '989'
-ht-degree: 64%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -46,7 +46,7 @@ ht-degree: 64%
 <td colspan="1">Ad Cloud</td>
 <td colspan="1">
 <ul>
-<li>Real-time Customer Data Platformで定義されたオーディエンスは、Audience Managerを介してターゲティングのためにAd Cloudと共有できます。</li>
+<li>Real-time Customer Data Platform で定義されたオーディエンスは、Audience Manager を使用したターゲティング用に、Ad Cloud と共有できます。</li>
 </ul>
 </td>
 <td colspan="1">
@@ -84,7 +84,7 @@ ht-degree: 64%
 <td>Audience Manager</td>
 <td>
 <ul>
-<li>Real-time Customer Data Platformで定義されたオーディエンスは、サードパーティ Cookie の宛先に対してアクティブ化するために、Audience Managerに共有できます。</li>
+<li>Real-time Customer Data Platform で定義されたオーディエンスは、サードパーティ cookie の宛先に対するアクティベーション用に、Audience Manager と共有できます。</li>
 </ul>
 </td>
 <td>
@@ -104,12 +104,12 @@ ht-degree: 64%
 <td colspan="1">Campaign Classic</td>
 <td colspan="1">
 <ul>
-<li>Real-time Customer Data Platformで定義されたオーディエンスは、キャンペーンを開始するオーディエンスとしてCampaign Classicに共有できます。</li>
+<li>Real-time Customer Data Platform で定義されたオーディエンスは、キャンペーンを開始するために、オーディエンスとして Campaign Classic と共有できます。</li>
 </ul>
 </td>
 <td colspan="1">
 <ul>
-<li>Campaign で収集されたインタラクションおよびキャンペーンデータは、Experience Platformにデータソースとして取り込み、Real-time Customer Data Platformを介したオーディエンスの構築や、Customer Journey AnalyticsおよびExperience Platformクエリサービスを介した分析でさらに使用できます。</li>
+<li>Campaign によって収集されたインタラクションおよびキャンペーンデータは、Real-time Customer Data Platform で作成されるオーディエンスおよび Customer Journey Analytics および Experience Platform Query Service での分析でさらに使用するために、データソースとして Experience Platform に取り込むことができます。</li>
 </ul>
 </td>
 <td colspan="1">
@@ -122,12 +122,12 @@ ht-degree: 64%
 <td colspan="1">Campaign Standard</td>
 <td colspan="1">
 <ul>
-<li>Real-time Customer Data Platformで定義されたオーディエンスは、キャンペーンを開始するオーディエンスとしてCampaign Standardに共有できます。</li>
+<li>Real-time Customer Data Platform で定義されたオーディエンスは、キャンペーンを開始するために、オーディエンスとして Campaign Standard と共有できます。</li>
 </ul>
 </td>
 <td colspan="1">
 <ul>
-<li>Campaign で収集されたインタラクションおよびキャンペーンデータは、Experience Platformにデータソースとして取り込み、Real-time Customer Data Platformを介したオーディエンスの構築や、Customer Journey AnalyticsおよびExperience Platformクエリサービスを介した分析でさらに使用できます。</li>
+<li>Campaign によって収集されたインタラクションおよびキャンペーンデータは、Real-time Customer Data Platform で作成されるオーディエンスおよび Customer Journey Analytics および Experience Platform Query Service での分析でさらに使用するために、データソースとして Experience Platform に取り込むことができます。</li>
 </ul>
 </td>
 <td colspan="1">
@@ -141,14 +141,14 @@ ht-degree: 64%
 <td colspan="1">
 <ul>
 <li>Experience Platform データレイクに収集され、取り込まれたデータは、Customer Journey Analytics で処理できるようになります。 </li>
-<li>Real-time Customer Data Platformのプロファイルとオーディエンスのデータを CJA に取り込むことができます。 <a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/ingest-aep-segments.html?lang=ja">RTCDP から CJA への統合</a>.
+<li>Real-time Customer Data Platform からのプロファイルおよびオーディエンスデータは、CJA に取り込むことができます。<a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/ingest-aep-segments.html?lang=ja">RTCDP から CJA への統合</a>.
 </li>
 </ul>
 </ul>
 </td>
 <td colspan="1">
 <ul>
-<li>顧客ジャーニー分析でオーディエンスを構築し、オーディエンスの結果をReal-time Customer Data Platformと共有します。 <a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/audiences/publish.html?lang=ja">CJA オーディエンスの公開</a></li>
+<li>Customer Journey Analtyics でオーディエンスを構築し、オーディエンスの結果を Real-time Customer Data Platform と共有します。<a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/audiences/publish.html?lang=ja">CJA オーディエンスの公開</a></li>
 </ul>
 </td>
 <td colspan="1">
@@ -184,7 +184,7 @@ ht-degree: 64%
 </td>
 <td colspan="1">
 <ul>
-<li>Journey Optimizerで生成されたインタラクションとキャンペーンのデータは、Real-time Customer Data Platformを介したオーディエンスの構築や、Customer Journey AnalyticsおよびExperience Platformクエリサービスを介した分析でさらに使用できるように、Experience Platformに収集されます。</li>
+<li>Journey Optimizer によって生成されたインタラクションおよびキャンペーンデータは、Real-time Customer Data Platform で作成されるオーディエンスおよび Customer Journey Analytics ならびに Experience Platform Query Service での分析でさらに使用するために、Experience Platform に取り込むことができます。</li>
 </ul>
 </td>
 <td colspan="1">
@@ -197,7 +197,7 @@ ht-degree: 64%
 <td colspan="1">Adobe Commerce</td>
 <td colspan="1">
 <ul>
-<li>Real-time Customer Data Platformに組み込まれているプロファイルとオーディエンスを、Adobe Commerceでパーソナライズ機能で利用できます。 </li>
+<li>Real-time Customer Data Platform で作成されたプロファイルとオーディエンスは、Adobe Commerce のパーソナライズ機能で利用することができます。 </li>
 </ul>
 </td>
 <td colspan="1">
@@ -211,7 +211,7 @@ ht-degree: 64%
 <td colspan="1">Marketo</td>
 <td colspan="1">
 <ul>
-<li>Real-time Customer Data Platformで定義されたオーディエンスをオーディエンスとしてMarketoに共有して、Marketoキャンペーンを開始したり、Marketoオブジェクトを更新したりできます。</li>
+<li>Real-time Customer Data Platform で定義されたオーディエンスは、Marketo キャンペーンを開始したり、Marketo オブジェクトを更新したりするために、オーディエンスとして Marketo と共有できます。</li>
 </ul>
 </td>
 <td colspan="1">
@@ -229,7 +229,7 @@ ht-degree: 64%
 <td colspan="1">Real-Time CDP</td>
 <td colspan="1">
 <ul>
-<li>Experience Platformに取り込まれ、収集されたデータは、Real-time Customer Data Platformを強化するリアルタイム顧客プロファイルを組み立てるためのデータソースです。</li>
+<li>Experience Platform に取り込まれ、収集されたデータは、Real-time Customer Data Platform を強化するリアルタイム顧客プロファイルを構築するためのデータソースです。</li>
 </ul>
 </td>
 <td colspan="1">
@@ -249,12 +249,12 @@ ht-degree: 64%
 <td colspan="1">Target</td>
 <td colspan="1">
 <ul>
-<li>Real-time Customer Data Platformで定義されたオーディエンスとプロファイル属性は、Target と共有し、Target が提供するパーソナライゼーションおよびターゲティングエクスペリエンスで使用できます。</li>
+<li>Real-time Customer Data Platform で定義されたオーディエンスおよびプロファイルの属性は、Target と共有して、パーソナライズ機能や Target で配信されたエクスペリエンスのターゲティングで使用することができます。</li>
 </ul>
 </td>
 <td colspan="1">
 <ul>
-<li>Target エクスペリエンスおよびインタラクション用に収集されたデータは、Experience Platform Web／Mobile SDK を使用して Experience Platform に収集することができます。このデータは、Real-time Customer Data Platformを介したオーディエンス構築で、また、Customer Journey AnalyticsおよびExperience Platformクエリサービスを介した分析に使用できます。</li>
+<li>Target エクスペリエンスおよびインタラクション用に収集されたデータは、Experience Platform Web／Mobile SDK を使用して Experience Platform に収集することができます。このデータは、Real-time Customer Data Platform で作成されるオーディエンスおよび Customer Journey Analytics ならびに Experience Platform Query Service での分析に使用することができます。</li>
 </ul>
 </td>
 <td colspan="1">

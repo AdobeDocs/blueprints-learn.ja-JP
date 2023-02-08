@@ -1,17 +1,17 @@
 ---
 title: B2B オーディエンスおよびプロファイルアクティベーションブループリント
-description: Real-time Customer Data Platformを使用して、アカウントベースのオーディエンスとプロファイル中心の顧客エクスペリエンスを提供し​ます。
+description: Real-time Customer Data Platform を使用して、アカウントベースのオーディエンスと、プロファイル中心のカスタマーエクスペリエンスを提供します。
 solution: Real-time Customer Data Platform
 kt: 9311
 exl-id: 5215d077-b0a9-4417-ae9b-f4961d4a73fa
-source-git-commit: 5110ee2a7a079945475055cbcfdabf7cdcaa0ab5
+source-git-commit: dabb5ae0bf2fc186f67d4aa93a2e9e8c5bb04498
 workflow-type: tm+mt
-source-wordcount: '842'
-ht-degree: 77%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
-# B2B オーディエンスおよびプロファイルアクティベーションブループリント
+# B2B Audience および Profile アクティベーション ブループリント
 
 個々の顧客に関連付けられたアカウント、オポチュニティおよびリード情報を使用して、アクションにつながる B2B プロファイルを作成し、チャネルをまたいだパーソナライゼーションとターゲティングを改善します。
 
@@ -26,7 +26,8 @@ ht-degree: 77%
 
 ## 統合パターン
 
-* B2B データソース (Marketo、Salesforce など)-> Real-time Customer Data Platform B2B Edition -> Destinations 様々な B2B データソースを使用して、アカウント、リード、オポチュニティおよび人のデータをReal-time Customer Data Platformの B2B Edition にマッピングできます。
+* B2B データソース (Marketo、Salesforce など)-> Real-time Customer Data Platform B2B エディション -> 宛先の
+様々な B2B データソースを使用して、アカウント、リード、オポチュニティおよび人々のデータを Real-time Customer Data Platform B2B エディションにマッピングできます。
 
 ## アーキテクチャ
 
@@ -68,12 +69,12 @@ ht-degree: 77%
 
 #### Experience Platform - Marketo 宛先コネクタ：
 
-* Real-time Customer Data PlatformからMarketo Engageへのストリーミングセグメントの共有には、最大 5 分かかる場合があります。
+* Real-time Customer Data Platform から Marketo Engage へのストリーミングセグメントの共有には、最大 5 分かかる場合があります。
 * バッチのセグメント化は、Experience Platform のセグメント化スケジュールに基づいて、1 日に 1 回共有されます。アカウント、リード、商談を含む B2B セグメントでは、複数エンティティの関係を使用するので、セグメントがバッチになります。
 
 #### Marketo Engage ガードレール：
 
-* Real-time Customer Data PlatformオーディエンスがMarketo Engageの連絡先およびリードと一致するには、連絡先とリードがMarketo Engageで直接取り込まれ、定義されている必要があります。
+* Real-time Customer Data Platform オーディエンスが Marketo Engage の連絡先およびリードと一致するには、連絡先とリードが Marketo Engage に直接取り込まれ、定義されている必要があります。
 
 #### 宛先ガードレール
 
@@ -82,7 +83,7 @@ ht-degree: 77%
 
 ## 実装の手順
 
-Real-time Customer Data Platformの B2B エディションの実装と設定の方法に関するガイダンスについては、Real-time Customer Data Platformドキュメントの B2B エディションを参照してください。 [B2B エディションオブReal-time Customer Data Platform](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/b2b-overview.html?lang=ja)
+Real-time Customer Data Platform B2B エディションの実装と設定の方法に関するガイダンスについては、Real-time Customer Data Platform キュメントの B2B エディションを参照してください。[Real-time Customer Data Platform B2B エディション](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/b2b-overview.html?lang=ja)
 
 実装には、2 つのパターンが存在する可能性があります。Marketo Engage から B2B データとプロファイルを取り込む機能と、他の CRM データソースから B2B データを取り込む機能の両方です。
 
@@ -92,12 +93,12 @@ Real-time Customer Data Platformの B2B エディションの実装と設定の�
 
 * CRM 統合（Marketo 有/無）：
 実装で Marketo Engage をソースとして使用し、Marketo Engage が CRM に接続される場合は、Experience Platform で Marketo ソースコネクタを使用して CRM データを Experience Platform に取り込みます。追加のテーブルを取り込む必要がある場合は、Experience Platform ソースコネクタを使用します。実装で Marketo Engage をソースとして使用しない場合は、CRM ソース Experience Platform コネクタを使用して CRM ソースを AEP に直接接続します。
-* Real-time Customer Data Platformの B2B エディションのみからのリードの開始と育成は、お勧めしません。 このユースケースでは、リード育成ツール (Marketo Engage など ) の使用をお勧めします。
+* Real-time Customer Data Platform B2B エディションのみからのリードの開始と育成は、お勧めしません。このユースケースでは、リード育成ツール (Marketo Engage など ) の使用をお勧めします。
 * アクティブ化のためにオーディエンスを Marketo Engage にプッシュする AEP 用の Marketo Engage 宛先コネクタは、電子メールアドレスと ECID のみをプッシュします。連絡先がまだ存在しない場合、新規リードは作成されません。そのため、プロファイルとリードのデータを Marketo Engage に取り込む必要があります。
 
 ## 関連ドキュメント
 
-* [B2B エディションオブReal-time Customer Data Platform](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/b2b-overview.html?lang=ja)
+* [Real-time Customer Data Platform B2B エディション](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/b2b-overview.html?lang=ja)
 * [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform.html?lang=ja)
 * [Marketo Engage](https://experienceleague.adobe.com/docs/marketo/using/home.html?lang=ja)
 * [Adobe Experience Platform - Marketo ソースコネクタ](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/marketo/marketo.html?lang=ja)

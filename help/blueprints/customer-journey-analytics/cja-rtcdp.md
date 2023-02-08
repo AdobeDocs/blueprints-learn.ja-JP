@@ -1,24 +1,24 @@
 ---
-title: Customer Journey Analytics Real-time Customer Data Platformブループリント
+title: Customer Journey Analytics（Real-time Customer Data Platform 付き） ブループリント
 description: Customer Journey Analytics のカスタマージャーニー全体からデータと顧客行動を統合および分析し、CJA から RTCDP にオーディエンスを公開します。
 solution: Customer Journey Analytics
 kt: null
 thumbnail: null
 exl-id: 9e1ba723-63f2-4622-ba67-f2a315c3ba0c
-source-git-commit: 5110ee2a7a079945475055cbcfdabf7cdcaa0ab5
+source-git-commit: dabb5ae0bf2fc186f67d4aa93a2e9e8c5bb04498
 workflow-type: tm+mt
-source-wordcount: '398'
-ht-degree: 82%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
-# Real-time Customer Data PlatformブループリントとのCustomer Journey Analytics
+# Real-time Customer Data Platform を使用した Customer Journey Analytics ブループリント
 
 Customer Journey Analytics（CJA）で識別されたオーディエンスを作成し、Adobe Experience Platform のリアルタイム顧客プロファイルに公開して、顧客のターゲティングとパーソナライゼーションを実現します。Customer Journey Analytics の詳細なフィルターおよび計算済みフィールドから、履歴データの使用や、より絞り込まれたオーディエンスを使用てのオーディエンスの作成に最適です。
 
 ## Customer Journey Analyticsオーディエンス公開ガイド
 
-Customer Journey AnalyticsからReal-time Customer Data Platformへのオーディエンスの公開に関する実装と設定に関するガイダンスについては、次のドキュメントを参照してください。 [ドキュメント](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/audiences/publish.html?lang=ja)
+Customer Journey Analytics から Real-time Customer Data Platform へのオーディエンスの公開に関する実装と設定ガイダンスについては、次のドキュメントを参照してください。[ドキュメント](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/audiences/publish.html?lang=ja)
 
 ## Customer Journey Analyticsブループリントのアーキテクチャ
 

@@ -4,10 +4,10 @@ description: このブループリントは、Adobe Experience Platform およ�
 product: adobe experience platform
 solution: Experience Platform, Journey Optimizer, Real-time Customer Data Platform, Tags
 exl-id: 2ca51a29-2db2-468f-8688-fc8bc061b47b
-source-git-commit: 5110ee2a7a079945475055cbcfdabf7cdcaa0ab5
+source-git-commit: dabb5ae0bf2fc186f67d4aa93a2e9e8c5bb04498
 workflow-type: tm+mt
-source-wordcount: '1513'
-ht-degree: 94%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 94%
 
 * [クライアント側タグ](#client-side-tags-extensions)
 * [イベント転送](#event-forwarding)
-* [Real-time Customer Data Platform Destinations](#RTCDP-destinations)
+* [Real-time Customer Data Platform の出力先](#RTCDP-destinations)
 * [Journey Optimizer カスタムアクション](#jo-custom-actions)
 
 ## データのアクセスと書き出しの概要アーキテクチャ
@@ -126,7 +126,7 @@ Experience Platform クエリサービスを使用すると、顧客は Experien
 
 プロファイル属性データとオーディエンスメンバーシップデータを、企業や広告の宛先に対してアクティブ化することができます。これは、送信されたデータを Experience Platform のリアルタイム顧客プロファイルに取り込む必要があることを意味します。
 
-詳しくは、 [Real-time Customer Data Platform Destinations](https://experienceleague.adobe.com/docs/experience-platform/destinations/home.html?lang=ja) ドキュメントを参照してください。
+詳しくは、 [Real-time Customer Data Platform の出力先](https://experienceleague.adobe.com/docs/experience-platform/destinations/home.html?lang=ja)ドキュメントを参照してください。
 
 #### 使用例
 
