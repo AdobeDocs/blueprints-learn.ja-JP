@@ -5,9 +5,9 @@ user-guide-description: ブループリントは、既存のビジネス上の�
 product: adobe experience platform
 mini-toc-levels: 3
 role: Architect, Developer, User
-source-git-commit: 8355a36a235d847a6faf2398f3fadbed28ccac37
+source-git-commit: 374f3afa12611b21121e9bfe2fd906342ba1ea4f
 workflow-type: tm+mt
-source-wordcount: '260'
+source-wordcount: '250'
 ht-degree: 99%
 
 ---
@@ -35,9 +35,7 @@ ht-degree: 99%
    + [匿名オーディエンスアクティベーション(AAM)](/help/blueprints/audience-activation/anonymous.md)
    + 既知の顧客のアクティベーション（RTCDP） {#known-customer-audience-activation}
       + [概要](/help/blueprints/audience-activation/known.md)
-      + ソーシャルおよび広告チャネルに対するアクティベーション {#audience-activation}
-         + [Facebook Custom Audiences へのアクティベーション](/help/blueprints/audience-activation/destinations/facebook.md)
-         + [Google Customer Match へのアクティベーション](/help/blueprints/audience-activation/destinations/gcm.md)
+      + [ソーシャルおよび広告チャネルに対するアクティベーション ](/help/blueprints/audience-activation/advertising-activation.md)
       + [ファイルとエンタープライズストリーミング宛先に対するアクティベーション](/help/blueprints/audience-activation/enterprise-destinations.md)
       + [顧客アクティビティハブ](/help/blueprints/audience-activation/customer-activity.md)
       + [セグメントの一致](/help/blueprints/audience-activation/segment-match.md)
