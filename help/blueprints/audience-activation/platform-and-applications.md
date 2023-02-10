@@ -4,10 +4,10 @@ description: Experience Platform でプロファイルおよびオーディエ�
 solution: Real-time Customer Data Platform, Target, Audience Manager, Analytics, Experience Cloud Services
 kt: 7722
 exl-id: f36014e8-170d-47e1-b4ec-10c0ea70612d
-source-git-commit: dabb5ae0bf2fc186f67d4aa93a2e9e8c5bb04498
+source-git-commit: 16ca42fdb944e658bfc1fb3e960e81cd67be049c
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '896'
+ht-degree: 93%
 
 ---
 
@@ -43,7 +43,7 @@ Experience Platform と Experience Cloud アプリケーションの統合に関
 
 ### Experience Cloudアプリを使用したオーディエンスとプロファイルのアクティベーション
 
-<img src="../experience-platform/assets/aep+apps_horizontal.svg" alt="Experience Cloudアプリケーションを使用したオーディエンスとプロファイルのアクティベーションのリファレンスアーキテクチャ" style="width:90%; border:1px solid #4a4a4a"  class="modal-image" />
+<img src="../experience-platform/assets/aep+apps.svg" alt="Experience Cloudアプリケーションを使用したオーディエンスとプロファイルのアクティベーションのリファレンスアーキテクチャ" style="width:90%; border:1px solid #4a4a4a"  class="modal-image" />
 <br>
 
 ## ガードレール
