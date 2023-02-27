@@ -2,7 +2,7 @@
 title: デジタルエクスペリエンスブループリント業界の成功事例
 description: Digital Experience Blueprints の成功事例では、Adobe Experience Platform を活用した Adobe Experience Cloud Applications を使用して、様々な業界がビジネス価値を実現している様子を紹介しています。
 exl-id: 9e73bae3-ba34-4819-a54e-710965fe74d9
-source-git-commit: bf99ef23bb07c845a396767a65114874f3a18180
+source-git-commit: 5bf1f0c01e1c7d2ebb2ae7228cc04c149a789664
 workflow-type: tm+mt
 source-wordcount: '255'
 ht-degree: 95%
@@ -18,10 +18,10 @@ ht-degree: 95%
 <table style="table-layout:fixed">
 <tr>
   <td>
-    <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/vertical-blueprints/apparel.html?lang=ja"><img alt="Audience アクティベーション、Customer Journey Analytics、カスタマージャーニーブループリントを使用したアパレル産業用のサムネール画像" src="../experience-platform/assets/aep+apps_vertical.svg" /></a>
+    <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/vertical-blueprints/apparel.html?lang=ja"><img alt="Audience アクティベーション、Customer Journey Analytics、カスタマージャーニーブループリントを使用したアパレル産業用のサムネール画像" src="../experience-platform/assets/aep+apps.svg" /></a>
     </td>
   <td>
-    <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/vertical-blueprints/retail.html?lang=ja"><img alt="オンラインとオフラインのデータおよび Journey Optimizer ブループリントを使用した、アクティベーションによる小売業界向けのサムネール画像" src="../experience-platform/assets/aep+apps_vertical.svg" /></a>
+    <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/vertical-blueprints/retail.html?lang=ja"><img alt="オンラインとオフラインのデータおよび Journey Optimizer ブループリントを使用した、アクティベーションによる小売業界向けのサムネール画像" src="../experience-platform/assets/aep+apps.svg" /></a>
 
 </td>
   <td>

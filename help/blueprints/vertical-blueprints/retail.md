@@ -4,10 +4,10 @@ description: デジタルメディア、電子メール、プッシュおよび 
 solution: Real-time Customer Data Platform, Customer Journey Analytics, Journey Orchestration, Campaign, Analytics, Target
 kt: 9474
 exl-id: a675bc81-e76c-491a-8718-359867d63351
-source-git-commit: dabb5ae0bf2fc186f67d4aa93a2e9e8c5bb04498
+source-git-commit: 5bf1f0c01e1c7d2ebb2ae7228cc04c149a789664
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '349'
+ht-degree: 84%
 
 ---
 
@@ -38,4 +38,4 @@ ht-degree: 0%
 
 ### ブループリントアーキテクチャ
 
-<a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/platform-and-applications.html?lang=ja"><img alt="デジタルメディア、E メール、プッシュ、Web チャネルをまたいで、リアルタイムの顧客体験を提供する小売ビジネス向けの画像" src="https://experienceleague.adobe.com/docs/blueprints-learn/assets/aep+apps_vertical.svg?lang=en" class="modal-image" /></a>
+<a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/platform-and-applications.html?lang=ja"><img alt="デジタルメディア、E メール、プッシュ、Web チャネルをまたいで、リアルタイムの顧客体験を提供する小売ビジネス向けの画像" src="https://experienceleague.adobe.com/docs/blueprints-learn/assets/aep+apps.svg?lang=en" class="modal-image" /></a>

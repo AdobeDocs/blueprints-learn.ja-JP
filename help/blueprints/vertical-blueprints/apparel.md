@@ -4,10 +4,10 @@ description: 複数のブループリントを使用して、リアルタイム�
 solution: Real-time Customer Data Platform, Customer Journey Analytics, Journey Orchestration
 kt: 9487
 exl-id: f1a3e785-c804-43bd-90de-da4359bdd810
-source-git-commit: dabb5ae0bf2fc186f67d4aa93a2e9e8c5bb04498
+source-git-commit: 5bf1f0c01e1c7d2ebb2ae7228cc04c149a789664
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '335'
+ht-degree: 88%
 
 ---
 
@@ -46,4 +46,4 @@ ht-degree: 0%
 
 ### ブループリントアーキテクチャ
 
-<a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/platform-and-applications.html?lang=ja"><img alt="オーディエンスのアクティベーション、customer journey analytics、カスタマージャーニーを使用するアパレルビジネスの画像ブループリント" src="https://experienceleague.adobe.com/docs/blueprints-learn/assets/aep+apps_vertical.svg?lang=en" class="modal-image"/></a>
+<a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/platform-and-applications.html?lang=ja"><img alt="オーディエンスのアクティベーション、customer journey analytics、カスタマージャーニーを使用するアパレルビジネスの画像ブループリント" src="https://experienceleague.adobe.com/docs/blueprints-learn/assets/aep+apps.svg?lang=en" class="modal-image"/></a>
