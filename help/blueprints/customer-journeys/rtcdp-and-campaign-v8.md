@@ -3,10 +3,10 @@ title: Real-Time CDPとAdobe Campaign v8 の統合パターン
 description: Adobe Experience Platform とそのリアルタイム顧客プロファイル、および一元化されたセグメント化ツールを Adobe Campaign v8 と併用して、パーソナライズされた会話を提供する方法を紹介します。
 solution: Real-time Customer Data Platform, Campaign
 exl-id: d0291088-02ed-4e7e-b538-018ea40e38c6
-source-git-commit: dabb5ae0bf2fc186f67d4aa93a2e9e8c5bb04498
+source-git-commit: 711d781e4b0cf967786808233badbc5eac8a5815
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '356'
+ht-degree: 83%
 
 ---
 
@@ -50,7 +50,6 @@ Campaign v8 ソースコネクタを Adobe Experience Platform に設定し、Re
 
 * Campaign ソースコネクタのドキュメント、[Campaign ソースコネクタ](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/campaign.html?lang=ja)を参照してください。
 * Adobe Campaign の単一の組織単位デプロイメントのみをサポートします
-* Adobe Campaign は、すべてのアクティブなプロファイルに関する信頼できるソースです。つまり、プロファイルは Adobe Campaign に存在する必要があるため、Experience Platform セグメントに基づいた新しいプロファイルを作成しないでください。
 
 
 ### Experience Platform Real-time Customer Data Platform セグメント共有
