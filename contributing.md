@@ -1,8 +1,8 @@
 ---
-source-git-commit: b8709e01d7771ac9002fbc286c2d9709ef3d0ca2
+source-git-commit: 139702439c38e3bafe1aa74a129934504aa95352
 workflow-type: tm+mt
 source-wordcount: '294'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 # コントリビューション
@@ -17,7 +17,7 @@ ht-degree: 97%
 
 ## 貢献者ガイドドキュメント
 
-[コントリビューターガイド](https://experienceleague.adobe.com/docs/contributor/contributor-guide/introduction.html)を参照してください。
+[コントリビューターガイド](https://experienceleague.adobe.com/docs/contributor/contributor-guide/introduction.html?lang=ja)を参照してください。
 
 ## 質問がある場合
 
@@ -29,7 +29,7 @@ ht-degree: 97%
 
 ## コードレビュー
 
-すべての送信は、プルリクエストの形式で行われ、プロジェクトコミッターによるレビューを受ける必要があります。プルリクエストの送信について詳しくは、[GitHub のプルリクエストに関するドキュメント](https://help.github.com/articles/about-pull-requests/)を参照してください。
+すべての送信は、プルリクエストの形式で行われ、プロジェクトコミッターによるレビューを受ける必要があります。プルリクエストの送信について詳しくは、[GitHub のプルリクエストに関するドキュメント](https://docs.github.com/ja/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests)を参照してください。
 
 <!--
 Lastly, please follow the [pull request template](PULL_REQUEST_TEMPLATE.md) when
@@ -43,3 +43,4 @@ submitting a pull request!
 ## セキュリティに関する問題
 
 セキュリティに関する問題は、この課題トラッカーでは報告しないでください。代わりに、[アドビのセキュリティの専門家](https://helpx.adobe.com/jp/security/alertus.html)に問題を提起してください。
+
