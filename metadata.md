@@ -8,7 +8,7 @@ mini-toc-levels: 2
 git-repo: https://github.com/AdobeDocs/blueprints-learn.ja-JP
 index: true
 source-git-commit: f673054b9e0c459daed08157b4e05d2bda100470
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '65'
 ht-degree: 100%
 
