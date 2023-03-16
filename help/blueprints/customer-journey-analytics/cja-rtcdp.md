@@ -1,30 +1,30 @@
 ---
-title: Customer Journey Analytics（Real-time Customer Data Platform 付き） ブループリント
+title: Customer Journey Analytics（Real-time Customer Data Platform 付き）ブループリント
 description: Customer Journey Analytics のカスタマージャーニー全体からデータと顧客行動を統合および分析し、CJA から RTCDP にオーディエンスを公開します。
 solution: Customer Journey Analytics
 kt: null
 thumbnail: null
 exl-id: 9e1ba723-63f2-4622-ba67-f2a315c3ba0c
 source-git-commit: 2d7d2fff6c430b66e4a2935d4c68b5a8b9ecfae2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '398'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
-# Real-time Customer Data Platform を使用した Customer Journey Analytics ブループリント
+# Real-time Customer Data Platform を使用した Customer Journey Analyticsブループリント
 
 Customer Journey Analytics（CJA）で識別されたオーディエンスを作成し、Adobe Experience Platform のリアルタイム顧客プロファイルに公開して、顧客のターゲティングとパーソナライゼーションを実現します。Customer Journey Analytics の詳細なフィルターおよび計算済みフィールドから、履歴データの使用や、より絞り込まれたオーディエンスを使用てのオーディエンスの作成に最適です。
 
-## Customer Journey Analyticsオーディエンス公開ガイド
+## Customer Journey Analytics オーディエンス公開ガイド
 
 Customer Journey Analytics から Real-time Customer Data Platform へのオーディエンスの公開に関する実装と設定ガイダンスについては、次のドキュメントを参照してください。[ドキュメント](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/audiences/publish.html?lang=ja)
 
-## Customer Journey Analyticsブループリントのアーキテクチャ
+## Customer Journey Analytics ブループリントのアーキテクチャ
 
 ![アーキテクチャ図](assets/CJA.svg){zoomable=&quot;yes&quot;}
 
-## Customer Journey Analyticsブループリントのガードレール図
+## Customer Journey Analytics ブループリントのガードレール図
 
 * ガードレールの詳細とエンドツーエンドの遅延については、[デプロイメントガードレールドキュメント](../experience-platform/deployment/guardrails.md)を参照してください
 
