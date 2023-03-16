@@ -1,18 +1,18 @@
 ---
 title: デジタルエクスペリエンスのブループリント
-description: デジタルエクスペリエンスのブループリントは、戦略に対処し、確立されたビジネス上の問題を解決するための繰り返し可能な実装です。 価値実現までの時間を短縮し、成功への近道となります。
+description: デジタルエクスペリエンスのブループリントは、戦略に取り組み、確立されたビジネス上の問題を解決するための反復可能な実装です。価値実現までの時間を短縮し、成功への近道となります。
 doc-type: overview-page
 exl-id: 52898310-9723-4ec2-ba10-f45fefe29e93
 source-git-commit: bf99ef23bb07c845a396767a65114874f3a18180
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '254'
-ht-degree: 73%
+ht-degree: 100%
 
 ---
 
 # デジタルエクスペリエンスのブループリント
 
-デジタルエクスペリエンスのブループリントは、戦略に対処し、確立されたビジネス上の問題を迅速に解決できる、繰り返し可能な実装です。 各ブループリントでは、価値の高いビジネス上の問題、アーキテクチャ、実装手順、技術上の考慮事項および関連ドキュメントへのリンクを説明する一連の成果物を提供します。
+デジタルエクスペリエンスのブループリントは、戦略に取り組み、確立されたビジネス上の問題を迅速に解決するための反復可能な実装です。各ブループリントでは、価値の高いビジネス上の問題、アーキテクチャ、実装手順、技術上の考慮事項および関連ドキュメントへのリンクを説明する一連の成果物を提供します。
 
 <div id="recs-overview-body-1"></div>
 <div id="recs-overview-body-2"></div>
@@ -21,12 +21,12 @@ ht-degree: 73%
 <div id="recs-overview-body-5"></div>
 <div id="recs-overview-body-6"></div>
 
-## 新機能
+## 新着情報
 
-* **[Enterprise Destinations のブループリントに対するオーディエンスとプロファイルのアクティベーション](/help/blueprints/audience-activation/enterprise-destinations.md)**
+* **[エンタープライズ宛先へのオーディエンスとプロファイルアクティベーションのブループリント](/help/blueprints/audience-activation/enterprise-destinations.md)**
 
    *顧客プロファイルをあらゆるシステムをまたいで最新の状態に維持し、セールスチームやサポートチームを強化します。*
-* **[顧客アクティビティハブブループリント](/help/blueprints/audience-activation/customer-activity.md)**
+* **[顧客アクティビティハブのブループリント](/help/blueprints/audience-activation/customer-activity.md)**
 
    *担当者がサポートおよび販売を支援する際のコンテキストを提供します。*
 * **[データ分析とインテリジェンスのブループリント](/help/blueprints/data-insights/analysis.md)**
