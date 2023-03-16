@@ -1,19 +1,19 @@
 ---
-user-guide-title: デジタルエクスペリエンスブループリント
+user-guide-title: デジタルエクスペリエンスのブループリント
 breadcrumb-title: ブループリント
 user-guide-description: ブループリントは、既存のビジネス上の問題に対処するための反復可能な実装で、アーキテクチャ図、技術上の考慮事項および関連ドキュメントリンクが含まれます。
 product: adobe experience platform
 mini-toc-levels: 3
 role: Architect, Developer, User
 source-git-commit: 374f3afa12611b21121e9bfe2fd906342ba1ea4f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '250'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
 
-# デジタルエクスペリエンスブループリント {#architecture}
+# デジタルエクスペリエンスのブループリント {#architecture}
 
 + [概要](/help/blueprints/overview.md)
 + 垂直な業界のブループリント {#vertical-blueprints}
@@ -47,28 +47,28 @@ ht-degree: 99%
       + [概要](/help/blueprints/b2b/campaign-supply-chain/overview.md)
       + [取り込みと作成](/help/blueprints/b2b/campaign-supply-chain/intake-and-create.md)
       + [顧客の成功事例](/help/blueprints/b2b/campaign-supply-chain/customer-success-stories.md)
-+ Customer Journey Analytics {#customer-journey-analytics}
++ Customer Journey Analytics{#customer-journey-analytics}
    + [概要](/help/blueprints/customer-journey-analytics/overview.md)
    + [CJA オーディエンスを RTCDP に共有する](/help/blueprints/customer-journey-analytics/cja-rtcdp.md)
    + [CJA と Journey Optimizer](/help/blueprints/customer-journey-analytics/cja-ajo.md)
-+ カスタマージャーニー {#customer-journeys}
++ カスタマージャーニー{#customer-journeys}
    + [概要](/help/blueprints/customer-journeys/overview.md)
-   + Journey Optimizer {#journey-optimizer}
+   + Journey Optimizer{#journey-optimizer}
       + [Journey Optimizer](/help/blueprints/customer-journeys/journey-optimizer.md)
-      + 意思決定管理 {#decision-management}
+      + 意思決定管理{#decision-management}
          + [概要](/help/blueprints/customer-journeys/decision_management/decision-management-overview.md)
          + [エッジでの意思決定管理](/help/blueprints/customer-journeys/decision_management/decision-management-edge.md)
          + [ハブでの意思決定管理](/help/blueprints/customer-journeys/decision_management/decision-management-hub.md)
       + [Journey Optimizer と Adobe Campaign](/help/blueprints/customer-journeys/ajo-and-campaign.md)
-      + [サードパーティのメッセージ](/help/blueprints/customer-journeys/3rd-party-messaging.md)
-   + Campaign Standard {#campaign-standard}
+      + [サードパーティメッセージング](/help/blueprints/customer-journeys/3rd-party-messaging.md)
+   + Campaign Standard{#campaign-standard}
       + [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard.html?lang=ja){target="_blank"}
       + [Real-Time CDP と Adobe Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/adobe-experience-platform/aep-sources-destinations/get-started-sources-destinations.html?lang=ja){target="_blank"}
-   + Campaign v8 {#campaign-v8}
+   + Campaign v8{#campaign-v8}
       + [Campaign v8](/help/blueprints/customer-journeys/campaign-v8.md)
       + [Real-Time CDP と Adobe Campaign v8](/help/blueprints/customer-journeys/rtcdp-and-campaign-v8.md)
       + [Journey Optimizer と Adobe Campaign v8](/help/blueprints/customer-journeys/ajo-and-campaign-v8.md)
-   + Campaign v7 {#campaign-v7}
+   + Campaign v7{#campaign-v7}
       + [Campaign v7](/help/blueprints/customer-journeys/campaign-v7.md)
       + [Real-Time CDP と Adobe Campaignv7](/help/blueprints/customer-journeys/rtcdp-and-campaign.md)
       + [Journey Optimizer と Adobe Campaign v7](/help/blueprints/customer-journeys/ajo-and-campaign-v7.md)
@@ -81,7 +81,7 @@ ht-degree: 99%
    + [概要](/help/blueprints/data-insights/overview.md)
    + [データ分析とインテリジェンス](/help/blueprints/data-insights/analysis.md)
    + [プロファイルエンリッチメントのためのカスタムデータサイエンス](/help/blueprints/data-insights/data-science.md)
-+ Web およびモバイルパーソナライズ機能 {#web-personalization}
++ Web およびモバイルパーソナライズ機能{#web-personalization}
    + [概要](/help/blueprints/web-personalization/overview.md)
    + [行動によるパーソナライズ機能- Target](/help/blueprints/web-personalization/behavioral.md)
    + [既知の顧客のパーソナライズ機能 — Target と RTCDP](/help/blueprints/web-personalization/known-personalization.md)
