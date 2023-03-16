@@ -1,23 +1,23 @@
 ---
-title: Experience Cloudアプリケーションのブループリントを使用したオーディエンスとプロファイルのアクティベーション
+title: Experience Cloud アプリケーションを使用したオーディエンスとプロファイルのアクティベーションブループリント
 description: Experience Platform でプロファイルおよびオーディエンスを管理し、Experience Cloud アプリケーションを使用して共有します。
 solution: Real-time Customer Data Platform, Target, Audience Manager, Analytics, Experience Cloud Services
 kt: 7722
 exl-id: f36014e8-170d-47e1-b4ec-10c0ea70612d
 source-git-commit: 16ca42fdb944e658bfc1fb3e960e81cd67be049c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '896'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
-# Experience Cloudアプリケーションのブループリントを使用したオーディエンスとプロファイルのアクティベーション
+# Experience Cloud アプリケーションを使用したオーディエンスとプロファイルのアクティベーションブループリント
 
 Experience Platform でプロファイルおよびオーディエンスを管理し、Experience Cloud アプリケーションを使用して共有します。Experience Platform でリッチな顧客セグメントおよびインサイトを構築および共有し、Experience Cloud アプリケーションを使用して共有します。
 
-Experience Cloudアプリケーションを使用したアクティベーションは、 [既知の顧客アクティベーションブループリント](known.md).
+Experience Cloud アプリケーションを使用したアクティベーションは、[既知の顧客アクティベーションブループリント](known.md)と連携しています。
 
-## 使用例
+## ユースケース
 
 * Experience Cloud による顧客インタラクションチャネルをまたいでパーソナライズおよびターゲット設定します。
 * Experience Platform と Experience Cloud アプリケーションの間でオーディエンスおよびプロファイルデータを共有します。
@@ -41,9 +41,9 @@ Experience Cloudアプリケーションを使用したアクティベーショ�
 
 Experience Platform と Experience Cloud アプリケーションの統合に関する追加のアーキテクチャ図については、[Experience Platform およびアプリケーションアーキテクチャの節](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/architecture-overview/platform-applications.html?lang=ja)を参照してください。
 
-### Experience Cloudアプリを使用したオーディエンスとプロファイルのアクティベーション
+### Experience Cloud アプリケーションを使用したオーディエンスとプロファイルのアクティベーション
 
-<img src="../experience-platform/assets/aep+apps.svg" alt="Experience Cloudアプリケーションを使用したオーディエンスとプロファイルのアクティベーションのリファレンスアーキテクチャ" style="width:90%; border:1px solid #4a4a4a"  class="modal-image" />
+<img src="../experience-platform/assets/aep+apps.svg" alt="Experience Cloud アプリケーションを使用したオーディエンスとプロファイルのアクティベーションの参照アーキテクチャ" style="width:90%; border:1px solid #4a4a4a"  class="modal-image" />
 <br>
 
 ## ガードレール
@@ -88,7 +88,7 @@ Experience Platform と Experience Cloud アプリケーションの統合に関
 * [セグメント化ドキュメント](https://experienceleague.adobe.com/docs/experience-platform/segmentation/api/streaming-segmentation.html?lang=ja)
 * [宛先ドキュメント](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/overview.html?lang=ja)
 
-## 関連するビデオとチュートリアル
+## 関連ビデオおよびチュートリアル
 
 * [[!UICONTROL Real-time Customer Data Platform] の概要](https://experienceleague.adobe.com/docs/platform-learn/tutorials/application-services/rtcdp/understanding-the-real-time-customer-data-platform.html?lang=ja)
 * [[!UICONTROL Real-time Customer Data Platform] のデモ](https://experienceleague.adobe.com/docs/platform-learn/tutorials/application-services/rtcdp/demo.html?lang=ja)
