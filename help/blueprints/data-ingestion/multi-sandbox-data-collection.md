@@ -5,9 +5,9 @@ solution: Data Collection
 kt: 7202
 exl-id: c24a47fe-b3da-4170-9416-74d2b6a18f32
 source-git-commit: 5110ee2a7a079945475055cbcfdabf7cdcaa0ab5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '609'
-ht-degree: 73%
+ht-degree: 100%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 73%
 
 
 
-## 使用例
+## ユースケース
 
 * グローバルデータレポート — 複数のサンドボックスを使用して操作環境を分離し、クロスサンドボックスレポート用にデータ収集を 1 つのサンドボックスに統合する必要がある場合。イベントをレポートサンドボックスに転送すると、各サンドボックス操作環境は、リアルタイムで収集されたデータをレポートサンドボックスに送信できます
 * サンドボックスの操作環境ごとに異なるデータルールに基づいて、サンドボックス全体のデータ収集を管理します。ヘルスケアや金融サービスなどの機密データをフィルタリングする必要があるこのようなオペレーティング環境
@@ -36,15 +36,15 @@ ht-degree: 73%
 
 <img src="assets/multi-Sandbox-Data-Collection.svg" alt="マルチサンドボックスイベント転送のリファレンスアーキテクチャ" style="width:90%; border:1px solid #4a4a4a" class="modal-image" />
 
-1. タグ作成者は、タグプロパティとイベント転送プロパティの両方を定義します。 ここでは、作成者がデータ収集を管理するデータ要素、ルール、アクションを定義します。 タグプロパティコードはクライアント上で実行され、CDN ホストによって配布されることに注意してください。 イベント転送のプロパティコードは、Adobe Edge Server で実行されます。
+1. タグ作成者は、タグプロパティとイベント転送プロパティの両方を定義します。ここでは、作成者がデータ収集を管理するデータ要素、ルール、アクションを定義します。タグプロパティコードはクライアント上で実行され、CDN ホストによって配信されることに注意してください。イベント転送のプロパティコードは、Adobe Edge Server で実行されます。
 
-1. クライアントで収集されたデータは Edge ネットワークに送信されます。 また顧客は、サーバー側の収集方法として最初に独自のサーバーにデータを送信することもできます。Web SDK は、サーバー間収集機能を提供します。 ただし、この実装には別のプログラミングモデルが必要です。下の **Edge Network Server API の概要**&#x200B;ドキュメントを参照してください
+1. クライアントで収集されたデータは Edge ネットワークに送信されます。また顧客は、サーバー側の収集方法として最初に独自のサーバーにデータを送信することもできます。Web SDK は、サーバー間収集機能を提供します。ただし、この実装には別のプログラミングモデルが必要です。下の **Edge Network Server API の概要**&#x200B;ドキュメントを参照してください
 
-1. Platform Edge Network は、データ収集ペイロードを受信し、Target や Analytics などの必要なシステムへのデータのフローを調整します。
+1. Platform Edge ネットワークは、データ収集ペイロードを受信し、Target や Analytics などの必要なシステムに対するデータのフローを調整します。
 
-1. イベント転送プロパティのデータ要素は、ペイロードで到着したイベントデータにアクセスするために使用されます。 また、転送の前に、必要に応じてイベントデータを操作する場合にも、ルールを使用することができます。ストリーミングデータ取り込みに必要な XDM へのデータの形式設定など
+1. イベント転送プロパティデータ要素は、ペイロードに到着したイベントデータにアクセスするために使用されます。また、転送の前に、必要に応じてイベントデータを操作する場合にも、ルールを使用することができます。ストリーミングデータ取り込みに必要な XDM へのデータの形式設定など
 
-1. イベント転送は、HTTPS 拡張機能を提供し、イベントデータを HTTPS エンドポイントに転送する機能を提供します。
+1. イベント転送は、イベントデータを HTTPS エンドポイントに転送する機能を提供する HTTPS 拡張機能を提供します。
 
 1. サンドボックス 2 は、転送されたイベントを受信するストリーミングエンドポイントを使用して設定されます。
 
@@ -53,7 +53,7 @@ ht-degree: 73%
 * [イベント転送のドキュメント](https://experienceleague.adobe.com/docs/experience-platform/tags/event-forwarding/overview.html?lang=ja)
 * [イベント転送のビデオ](https://experienceleague.adobe.com/docs/launch-learn/tutorials/server-side/overview.html?lang=ja)
 * Web SDK チュートリアルの[イベント転送のレッスン](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/event-forwarding/setup-event-forwarding.html?lang=ja)
-* [Experience PlatformWeb SDK の概要](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=ja)
+* [Experience Platform Web SDK の概要](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=ja)
 * [Edge Network Server API の概要](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/overview.html?lang=ja)
 
 ## 関連するブログ投稿
