@@ -1,18 +1,18 @@
 ---
-title: Web およびモバイルパーソナライズ機能 ブループリント
+title: Web およびモバイルパーソナライズ機能ブループリント
 description: '[!UICONTROL リアルタイム顧客プロファイル]でパーソナライズされた Web およびモバイルコンテンツを配信します。'
 solution: Real-time Customer Data Platform, Target, Audience Manager, Analytics, Experience Cloud Services
 kt: null
 thumbnail: null
 exl-id: 8ad028fd-3190-42da-9f46-7e927e8878f8
 source-git-commit: dabb5ae0bf2fc186f67d4aa93a2e9e8c5bb04498
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '227'
+ht-degree: 100%
 
 ---
 
-# Web およびモバイルパーソナライズ機能 ブループリント
+# Web およびモバイルパーソナライズ機能ブループリント
 
 Web およびモバイルパーソナライズ機能は、複数のアプリケーションでプロファイルおよびオーディエンスのセグメント化を使用する機能を処理して、カスタマーエクスペリエンスをパーソナライズおよび最適化します。顧客の行動、人口統計、ロイヤリティレベル、以前のトランザクションを活用して、レイアウト、コールトゥアクション、コンテンツをパーソナライズすることが可能です。
 
@@ -21,7 +21,7 @@ Web およびモバイルパーソナライズ機能は、複数のアプリケ�
 | ブループリント | 説明 | Experience Cloud アプリケーション |
 |---|---|---|
 | **[行動による Web／モバイルパーソナライズ機能](behavioral.md)** | <ul><li>オンライン行動およびオーディエンスデータに基づいてパーソナライズします。</li></ul> | <ul><li>Adobe Target</li><li>Adobe Real-time Customer Data Platform *（オプション）*</li><li>Adobe Analytics *（オプション）*</li><li>Adobe Audience Manager *（オプション）*</li></ul> |
-| **[既知の顧客データ付き Web/モバイルパーソナライズ機能](known-personalization.md)** | <ul><li>完全な顧客プロファイルとセグメンテーションの強化により、パーソナライズされたエクスペリエンス実現します。</li><li>オフライン属性およびイベント（トランザクション、予約、CRM およびロイヤリティデータ）を使用してパーソナライズします。</li><li>Web、電子メール、その他の既知のチャネルをまたいでパーソナライズ機能を同期します。</li></ul> | <ul><li>Adobe Target</li><li>[!UICONTROL Real-time Customer Data Platform]</li><li>Adobe Analytics または Customer Journey Analytics *（オプション）*</li><li>Adobe Audience Manager *（オプション）*</li></ul> |
+| **[既知の顧客データの Web／Mobile パーソナライズ機能](known-personalization.md)** | <ul><li>完全な顧客プロファイルとセグメンテーションの強化により、パーソナライズされたエクスペリエンス実現します。</li><li>オフライン属性およびイベント（トランザクション、予約、CRM およびロイヤリティデータ）を使用してパーソナライズします。</li><li>Web、電子メール、その他の既知のチャネルをまたいでパーソナライズ機能を同期します。</li></ul> | <ul><li>Adobe Target</li><li>[!UICONTROL Real-time Customer Data Platform]</li><li>Adobe Analytics または Customer Journey Analytics *（オプション）*</li><li>Adobe Audience Manager *（オプション）*</li></ul> |
 
 <br>
 
@@ -31,9 +31,9 @@ Web およびモバイルパーソナライズ機能は、複数のアプリケ�
 
 <br>
 
-### 既知の顧客パーソナライゼーションガードレールの図
+### 既知の顧客のパーソナライズ機能ガードレールの図
 
-<img src="assets/personalization_guardrails.svg" alt="オンライン／オフライン Web パーソナライズ機能ブループリントの参照アーキテクチャ" style="width:90%; border:1px solid #4a4a4a; margin-bottom: 15px;" class="modal-image" />
+<img src="assets/personalization_guardrails.svg" alt="オンライン／オフライン web パーソナライズ機能ブループリントの参照アーキテクチャ" style="width:90%; border:1px solid #4a4a4a; margin-bottom: 15px;" class="modal-image" />
 
 ## 関連するブログ投稿
 
