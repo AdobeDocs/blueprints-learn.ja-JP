@@ -1,27 +1,27 @@
 ---
-title: ファイルおよびエンタープライズストリーミングの宛先のブループリントに対するオーディエンスとプロファイルのアクティベーション
+title: ファイルとエンタープライズストリーミング宛先に対するオーディエンスとプロファイルのアクティベーションブループリント
 description: エンタープライズ宛先へのオーディエンスとプロファイルのアクティベーション
 solution: Real-time Customer Data Platform
 kt: 7475
 exl-id: 32133174-eb28-44ce-ab2a-63fcb5b51cb5
 source-git-commit: 0d1bb41eb6b70be7c3c8a3196c9974a0d7807404
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '415'
+ht-degree: 100%
 
 ---
 
-# ファイルおよびエンタープライズストリーミングの宛先のブループリントに対するオーディエンスとプロファイルのアクティベーション
+# ファイルとエンタープライズストリーミング宛先に対するオーディエンスとプロファイルのアクティベーションブループリント
 
 プロファイルとオーディエンスの変更とイベントを、[!UICONTROL Real-time Customer Data Platform] からエンタープライズデータストアやアプリケーションにストリーミングまたはバッチで共有します。これらのプロファイルおよびオーディエンスイベントは、破棄された申し込みプロセスやウェビナー登録のフォローアップ、[!UICONTROL Real-time Customer Data Platform] の最新の顧客属性とインテリジェンスを使用したエンタープライズアプリケーションのアップデートなど、顧客に対する販売またはサポート活動を開始するために使用できます。
 
-## 使用例
+## ユースケース
 
 * エンタープライズトラッキング、ストレージ、分析、顧客データおよびインサイトのアクティベーションに向けた、クラウドストレージ宛先またはストリーミング宛先へのプロファイルおよびオーディエンスのアクティベーション。
 
 ## アプリケーション
 
-* Adobe Experience Platform  Activation
+* Adobe Experience PlatformActivation
 
 ## アーキテクチャ
 
@@ -32,7 +32,7 @@ ht-degree: 0%
 
 [オーディエンスとプロファイルのアクティベーションの概要ページに説明されているガードレールを参照してください。](overview.md)
 
-## 実装の手順
+## 実装手順
 
 1. データを取り込むために[スキーマを作成](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2021.1.xdm&amp;lang=ja)します。
 1. データを取り込むために[データセットを作成](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/create-datasets-and-ingest-data.html?lang=ja)します。
@@ -52,7 +52,7 @@ ht-degree: 0%
 * [プロファイルおよびセグメント化ガイドライン](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=ja)
 * [セグメント化ドキュメント](https://experienceleague.adobe.com/docs/experience-platform/segmentation/api/streaming-segmentation.html?lang=ja)
 
-## 関連するビデオとチュートリアル
+## 関連ビデオおよびチュートリアル
 
 * [[!UICONTROL Real-time Customer Data Platform] の概要](https://experienceleague.adobe.com/docs/platform-learn/tutorials/application-services/rtcdp/understanding-the-real-time-customer-data-platform.html?lang=ja)
 * [[!UICONTROL Real-time Customer Data Platform] のデモ](https://experienceleague.adobe.com/docs/platform-learn/tutorials/application-services/rtcdp/demo.html?lang=ja)
