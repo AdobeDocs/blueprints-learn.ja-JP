@@ -1,19 +1,19 @@
 ---
-title: Web/Mobile SDK、Edge Network Deployment アーキテクチャの図
+title: Web／Mobile SDK、Edge ネットワークデプロイメントのアーキテクチャ図
 description: このブループリントは、Experience Platform Web、Mobile SDK および Edge Network を使用したアーキテクチャと取り込みを示しています。
 solution: Experience Platform,Data Collection
 kt: null
 thumbnail: null
 exl-id: 3cc9e849-a75d-40ad-a604-6acf4c2c9f89
 source-git-commit: b18d491fdefc57762932d1570401b5437bf97c76
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '254'
-ht-degree: 77%
+ht-degree: 100%
 
 ---
 
 
-# Experience PlatformWeb SDK と Edge ネットワークのアーキテクチャ図
+# Experience Platform Web SDK および Edge ネットワークアーキテクチャ図
 
 Web SDK、Mobile SDK、および Edge Network Server API の概要と詳細については、以下を参照してください。
 
@@ -32,7 +32,7 @@ Web SDK でサポートされるアプリケーション機能の詳細な概要
 * [Target](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/adobe-target/target-overview.html?lang=ja)
 * [Analytics for Target](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/adobe-target/a4t/overview.html?lang=ja)
 
-## Experience PlatformWeb/Mobile SDK または Edge Network Server API のデプロイメント
+## Experience Platform Web／Mobile SDK または Edge Network Server API のデプロイメント
 
 次のアーキテクチャ図は、Experience Platform Web SDK を使用したデプロイメントパスとデータ収集を示しています。
 
@@ -40,7 +40,7 @@ Web SDK でサポートされるアプリケーション機能の詳細な概要
 
 Experience Edge、Experience Platform サービス、アプリケーションのシーケンス図
 
-<img src="assets/web_sdk_sequence.svg" alt="オンライン／オフライン Web パーソナライズ機能ブループリントの参照アーキテクチャ" style="width:90%; border:1px solid #4a4a4a" />
+<img src="assets/web_sdk_sequence.svg" alt="オンライン／オフライン web パーソナライズ機能ブループリントの参照アーキテクチャ" style="width:90%; border:1px solid #4a4a4a" />
 
 ## リファレンスドキュメント
 
