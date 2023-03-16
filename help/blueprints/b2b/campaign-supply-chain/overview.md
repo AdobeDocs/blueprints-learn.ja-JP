@@ -1,15 +1,15 @@
 ---
-title: MarketoとWorkfrontの設計図を含む Campaign サプライチェーン
-description: 概要 — MarketoおよびWorkfrontのブループリントを使用した Campaign サプライチェーンの最適化
+title: Marketo と Workfront を使用したキャンペーンサプライチェーンのブループリント
+description: 概要 - Marketo と Workfront を使用したキャンペーンサプライチェーンの最適化ブループリント
 exl-id: c1da95d0-0649-4e69-aade-3ddcb89d2d31
 source-git-commit: bf99ef23bb07c845a396767a65114874f3a18180
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1778'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
-# MarketoとWorkfrontの設計図を含む Campaign サプライチェーン {#overview}
+# Marketo と Workfront を使用したキャンペーンサプライチェーンのブループリント {#overview}
 
 ## 最適化されたキャンペーンサプライチェーンにより、市場投入までの時間を短縮 {#achieving-faster-time-to-market-with-optimized-campaign-supply-chain}
 
@@ -32,7 +32,7 @@ ht-degree: 89%
 
 Workfront Fusion を使用すると、マーケティングオペレーションチームは、マーケティング概要をキャンペーンに変換する際に、手動で誤りが生じやすい手順を大幅に排除することができます。Workfront Fusion は、Workfront と Marketo Engage の間にすぐに使用できる統合レイヤーを提供し、システム間のワークフローを柔軟かつ効率的に開発できるようにします。統合を設定する方法と、ワークフローを自動化するために実行できるアクションについて詳しく学ぶことができます。詳細は[ここから](https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-fusion/fusion-apps-and-modules/marketo-modules.html?lang=ja){target="_blank"}.
 
-## キャンペーンの実行計画 — 自動化の使用例 {#campaign-planning-to-execution-automation-use-cases}
+## キャンペーンの計画から実施まで - 自動化のユースケース {#campaign-planning-to-execution-automation-use-cases}
 
 * Workfront の取り込みリクエストを通じて Marketo Engage でのキャンペーン作成を自動化し、マーケティングオペレーションチームをサポート
 * Marketo Engageで作成されたメールとランディングページのドラフトを Workfront に共有して、部門をまたぐ関係者から最終確認と承認を得る
@@ -40,7 +40,7 @@ Workfront Fusion を使用すると、マーケティングオペレーション
 
 以下に、メールブラストリクエストの場合の、キャンペーン開発プロセスのワークフロー図を示します。さらに、Workfront Fusion が Workfront と Marketo Engage の間で役割を果たし、キャンペーン開発サイクル全体でワークフローとプロセスの自動化を促進する方法を確認することができます。
 
-![キャンペーンの実行計画 — 自動化の使用例](assets/overview-1.png){zoomable=&quot;yes&quot;}
+![キャンペーンの計画から実施まで - 自動化のユースケース](assets/overview-1.png){zoomable=&quot;yes&quot;}
 
 キャンペーン開発プロセスのさまざまなフェーズにご注意ください。
 
@@ -54,15 +54,15 @@ Workfront Fusion を使用すると、マーケティングオペレーション
 >
 >上記の例では、Workfront が Marketo Engage プログラムのライフサイクル全体で、作業を管理および計画しています。とはいえ、Workfront の柔軟性は、マーケティングチームのすべての取り組みの管理にまで及ぶ可能性があります。これには、アカウントベースのマーケティング、マーケティングコンテンツのサプライチェーン、代理店の管理、デジタルおよびソーシャルキャンペーンの管理、セールスイネーブルメントプログラムが含まれます。
 
-## Workfrontでのマーケティングイニシアチブの表れ方について {#understanding-how-marketing-initiatives-are-represented-in-workfront}
+## Workfront でのマーケティング施策がどのように表現されるかを理解する {#understanding-how-marketing-initiatives-are-represented-in-workfront}
 
 Adobe Workfront を使用すると、組織は作業を管理して、より効率的な実行を促進することができます。Workfront 内には、計画、リソース管理、およびさまざまなチーム間のコラボレーションのためのフレームワークを提供するオブジェクトの階層があります。
 
 Workfront と Marketo Engage の関係を理解するには、ビジネスプロセスをこれらのオブジェクトにマッピングする方法を理解することが重要です。
 
-![Workfrontでのマーケティングイニシアチブの表れ方について](assets/overview-2.png){zoomable=&quot;yes&quot;}
+![Workfront でのマーケティング施策がどのように表現されるかを理解する](assets/overview-2.png){zoomable=&quot;yes&quot;}
 
-### Portfolio階層の定義 {#portfolio-hierarchy-defined}
+### 定義されたポートフォリオ階層 {#portfolio-hierarchy-defined}
 
 <table> 
   <tr> 
@@ -107,15 +107,15 @@ Workfront と Marketo Engage の関係を理解するには、ビジネスプロ
   </tbody>
 </table>
 
-## マーケティングイニシアチブの作業管理の例 {#marketing-initiative-work-management-example}
+## マーケティング施策の作業管理の例 {#marketing-initiative-work-management-example}
 
 Workfront のポートフォリオ階層が実際の例でどのように機能しているかを見てみましょう。
 
-Zeplin Company は、Z11 と呼ばれるコンパクトなユーティリティトラクターの付属品のアップデートバージョンをリリースしています。これは、耐久性とカスタマイズ性が向上しており、以前の Z10 モデルよりも優れています。これを使用して、マーケティング戦略を計画、開発、実行して、需要を促進し、ビジネスのトラクター部門からの新しいリリースの認知度を高める必要があります。このマーケティング戦略には、新しい顧客の認知度と既存の Z10 顧客の認知度の両方を高めるために、さまざまなマーケティング戦術を含める必要があります。
+Zeplin Company は、Z11 と呼ばれるコンパクトなユーティリティトラクターの付属品のアップデートバージョンをリリースしています。これは、耐久性とカスタマイズ性が向上しており、以前の Z10 モデルよりも優れています。これを使用して、マーケティング戦略を計画、開発、実行して、需要を促進し、ビジネスのトラクター部門からの新しいリリースの認知度を高める必要があります。このマーケティング戦略には、新しい顧客の認知度と既存の Z10 顧客の認知度の両方を高めるために、様々なマーケティング戦術を含める必要があります。
 
 以下の階層は、このマーケティングキャンペーンの戦略、戦術、タスク、およびアセットが Workfront にどのようにマッピングされるかを示しています。
 
-![マーケティングイニシアチブの作業管理の例](assets/overview-3.png){zoomable=&quot;yes&quot;}
+![マーケティング施策の作業管理の例](assets/overview-3.png){zoomable=&quot;yes&quot;}
 
 ## Workfront を Marketo にマッピング {#mapping-workfront-to-marketo}
 
@@ -123,17 +123,17 @@ Workfront をマーケティングプランニングとプロジェクト編成�
 
 新しいマーケティングイニシアチブの開発に合わせてこれらのシステムを連動させるには、Workfront のさまざまなレコードタイプが Marketo Engage のレコードタイプにどのようにマッピングされるかを理解することが重要です。
 
-### WorkfrontプロジェクトのMarketo Engageプログラムへのマッピング {#mapping-workfront-projects-to-marketo-engage-programs}
+### Workfront プロジェクトを Marketo Engage プログラムにマッピング {#mapping-workfront-projects-to-marketo-engage-programs}
 
 Workfront Fusion を統合レイヤーとして使用すると、Workfront のプロジェクトを Marketo Engage のプログラムにマッピングすることができます。たとえば上記の場合、Zeplin は新しい Zeplin モデルの認知度を高めたいと考えています。これにより、Workfront で新しいプログラムを作成し、プロジェクトとして表される複数のマーケティング戦術を格納します。戦術の 1 つは、Z10 モデルの既存の顧客に新しい Z11 モデルについて知らせる必要がある認識メールです。Workfront には、メール戦術を表すために作成されたプロジェクトがあり、この戦術にはオーディエンスの作成、メール画像のクリエイティブ化、Marketo Engage でのメールの組み立てに関連付けられた一連のタスクが含まれます。Workfront のプロジェクトは、システム間で情報を同期できるように、Marketo Engage のメールプログラムにマッピングすることができます。
 
 以下に、プログラムに複数のプロジェクトを含める方法と、それらの Workfront プロジェクトを Marketo Engage のプログラムにマッピングする方法の例を示します。
 
-![WorkfrontプロジェクトのMarketo Engageプログラムへのマッピング](assets/overview-4.png){zoomable=&quot;yes&quot;}
+![Workfront プロジェクトを Marketo Engage プログラムにマッピング](assets/overview-4.png){zoomable=&quot;yes&quot;}
 
 Workfront プログラムに複数の Workfront プロジェクトを含める必要がある大規模なマーケティングイニシアチブを開始したい場合や、単一の Workfront プロジェクトを作成するだけでよいウェビナーまたはメールの 1 回限りのリクエストがある場合があります。ニーズが何であれ、Workfront、Workfront Fusion、Marketo Engage を使用すると、チームは柔軟にキャンペーン開発プロセスを計画から実行までシームレスに統合することができます。
 
-### WorkfrontタスクのMarketo Engageアセットへのマッピング {#mapping-workfront-tasks-to-marketo-engage-assets}
+### Workfront のタスクを Marketo Engage のアセットにマッピング {#mapping-workfront-tasks-to-marketo-engage-assets}
 
 Workfront でキャンペーン開発プロセスをマッピングし始めると、どのタスクが Marketo Engage で行うべき作業に対応し、Workfront でどのように情報を取得するかを考えることもでき、キャンペーン開発のサプライチェーンにおける一貫性、効率、正確性をより高めることに役立ちます。
 
@@ -145,20 +145,20 @@ Workfront プロジェクトはテンプレート化できるため、特定の�
 
 Workfront と Marketo Engage がキャンペーン開発サプライチェーンの新たな効率性を引き出す方法について、基本的にご理解いただけたと思います。次に Workfront Fusion を使用して Marketo Engage と Workfront 間のワークフローとプロセスを自動化する方法について、以下のドキュメントとリソースを確認してください。
 
-### Workfront Fusion、Workfront、Marketo Engage統合の概要 {#getting-started-with-workfront-fusion}
+### Workfront Fusion、Workfront および Marketo Engage 統合の概要 {#getting-started-with-workfront-fusion}
 
-* [取り込みと作成](/help/blueprints/b2b/campaign-supply-chain/intake-and-create.md){target="_blank"} -Marketo EngageとWorkfrontを使用したキャンペーン開発の自動化
+* [取り込みと作成](/help/blueprints/b2b/campaign-supply-chain/intake-and-create.md){target="_blank"} - Marketo Engage と Workfront を使用したキャンペーン開発の自動化
 
 * 確認と承認（近日公開）
 
 * レポートと監査（近日公開）
 
-### Marketo Engageキャンペーン名と関連 URL の管理 {#managing-marketo-engage-campaign-names}
+### Marketo Engage キャンペーン名と関連 URL の管理 {#managing-marketo-engage-campaign-names}
 
-キャンペーンと URL の命名規則の標準化は、Marketo Engage で正確なプログラム管理を行うための重要な基盤であり、キャンペーンサプライ チェーン全体でより一貫したプロセスを促進するのに役立ちます。これを支援するツールをお探しの場合は、以下の無料のオープンソースツールをご利用ください。 [Adobe成功サービス](https://main--marketo-campaign-tools--dr-adobe.hlx.live/){target="_blank"} を使用すると、Marketo Engageキャンペーンとそれに関連する URL を一貫した方法で作成および管理できます。
+キャンペーンと URL の命名規則の標準化は、Marketo Engage で正確なプログラム管理を行うための重要な基盤であり、キャンペーンサプライ チェーン全体でより一貫したプロセスを促進するのに役立ちます。これを支援するツールをお探しの場合は、[アドビサクセスサービス](https://main--marketo-campaign-tools--dr-adobe.hlx.live/){target="_blank"}が提供する無料のオープンソースツールをお試しください。このツールでは、Marketo Engage キャンペーンとその関連 URL を作成および管理するための一貫したアプローチを作成することが可能です。
 
 ### リソース {#resources}
 
-* [Workfront Fusion forMarketo Engage](https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-fusion/fusion-apps-and-modules/marketo-modules.html?lang=ja){target="_blank"}
+* [Marketo Engage 用 Workfront Fusion](https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-fusion/fusion-apps-and-modules/marketo-modules.html?lang=ja){target="_blank"}
 
-* [Workfront Fusion for Workfront](https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-fusion/fusion-apps-and-modules/workfront-modules.html?lang=ja){target="_blank"}
+* [Workfront 用 Workfront Fusion](https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-fusion/fusion-apps-and-modules/workfront-modules.html?lang=ja){target="_blank"}
