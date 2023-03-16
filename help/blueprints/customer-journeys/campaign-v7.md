@@ -4,9 +4,9 @@ description: Adobe Campaign v7 は、電子メールやダイレクトメール�
 solution: Campaign,Campaign Classic v7
 exl-id: 71c808f5-59e6-4f49-a6ba-581ed508bc04
 source-git-commit: 5110ee2a7a079945475055cbcfdabf7cdcaa0ab5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1195'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -16,7 +16,7 @@ Adobe Campaign v7 は、電子メールやダイレクトメールなどの従�
 
 <br>
 
-## 使用例
+## ユースケース
 
 * バッチベースのメッセージングプログラム
 * オンボーディングおよびリマーケティングキャンペーン
@@ -35,20 +35,20 @@ Adobe Campaign v7 は、電子メールやダイレクトメールなどの従�
 
 | シナリオ | 説明 | 機能 |
 | :-- | :--- | :--- |
-| [Real-Time CDP と Adobe Campaign](rtcdp-and-campaign.md) | Adobe Experience Platform の Real-Time CDP とその一元化されたセグメント化ツールを Adobe Campaign と併用して、パーソナライズされた会話を提供する方法を紹介します | <ul><li>クラウドストレージのファイル交換と Adobe Campaign の取り込みワークフローを使用した、Real-Time CDP から Adobe Campaign へのプロファイルとオーディエンスの共有 </li><li>顧客との会話からAdobe CampaignからReal-Time CDPに戻る配信およびインタラクションデータを簡単に共有して、リアルタイム顧客プロファイルを強化し、メッセージングキャンペーンに関するクロスチャネルレポートを提供します。</li></ul> |
+| [Real-Time CDP と Adobe Campaign](rtcdp-and-campaign.md) | Adobe Experience Platform の Real-Time CDP とその一元化されたセグメント化ツールを Adobe Campaign と併用して、パーソナライズされた会話を提供する方法を紹介します | <ul><li>クラウドストレージのファイル交換と Adobe Campaign の取り込みワークフローを使用した、Real-Time CDP から Adobe Campaign へのプロファイルとオーディエンスの共有 </li><li>顧客との会話から得られた配信データとインタラクションデータを Adobe Campaign から Real-Time CDP に戻し、リアルタイム顧客プロファイルとメッセージングキャンペーンのクロスチャネルレポートの両方を簡単に共有できる</li></ul> |
 | [Journey Optimizer と Adobe Campaign](ajo-and-campaign.md) | Adobe Journey Optimizer を使用し、リアルタイム顧客プロファイルを利用して 1:1 エクスペリエンスの調整を行い、ネイティブの Adobe Campaign トランザクションメッセージングシステムを活用してメッセージを送信する方法を示します | リアルタイム顧客プロファイルと Journey Optimizer の機能を活用し、瞬時のエクスペリエンスで調整しながら、Adobe Campaign のネイティブリアルタイムメッセージング機能を利用して、ラストマイルのコミュニケーションを実現します。<br><br>注意点：<br><ul><li>リアルタイムメッセージサーバーを介して 1 時間に最大 50,000 件のメッセージを送信可能<li>Journey Optimizer からのスロットリングは行われませんので、プリセールスのエンタープライズアーキテクトによる技術的な検証を必ず行います</li><li>Campaign v7 リアルタイムメッセージングサーバーへのペイロードでは、意思決定管理 はサポートされていません。</li></ul> |
 
 <br>
 
 ## 前提条件
 
-### アプリケーションサーバーとリアルタイムメッセージングサーバー
+### アプリケーションサーバーおよびリアルタイムメッセージングサーバー
 
 * Adobe Campaign Client Console は、Campaign v8 ソフトウェアとやり取りして使用するために必要です。これは Windows ベースのクライアントで、標準のインターネットプロトコル（SOAP、HTTP など）を使用します。ソフトウェアの配布、インストール、実行に必要な権限が組織で有効になっていることを確認します。
 
 * IP アドレス許可リストへの登録
    * クライアントコンソールへのアクセス時にすべてのユーザーが利用する IP 範囲を指定します
-   * リアルタイム・メッセージング・サーバとの通信を許可するエンタープライズ・システムの ID。また、許可リスト可能な IP または範囲が静的に割り当てられていることを確認します。
+   * リアルタイムメッセージングサーバーとの通信を許可するエンタープライズシステムの ID。また、許可リスト登録可能な IP または範囲が静的に割り当てられていることを確認します
    * これは、Campaign コントロールパネルで設定および制御可能
 * sFTP キー管理
    * SSH パブリックキーを Campaign で提供された sFTP で使用できるようにします。これは、Campaign コントロールパネルで設定および制御できます。
@@ -104,12 +104,12 @@ Adobe Campaign v7 は、電子メールやダイレクトメールなどの従�
 
 * プッシュ通知用にモバイルデバイスとの統合に関してサポートされる 2 つの方法を示します。
    * Experience Platform Mobile SDK（推奨）
-   * Campaign モバイル SDK
+   * Campaign Mobile SDK
 * Experience Platform Mobile SDK ルート：
    * アドビタグと Campaign Classic 拡張機能を活用して、Experience Platform Mobile SDK との統合を設定します。
    * アドビタグとデータ収集に関する実務知識が必要です
    * SDK のデプロイ、FCM（Android）および APNS（iOS）との統合によるプッシュトークンの取得、プッシュ通知を受け取るためのアプリの設定、プッシュインタラクションの処理など、Android および iOS でのプッシュ通知に関するモバイル開発経験が必要です。
-* Campaign モバイル SDK
+* Campaign Mobile SDK
    * アドビカスタマーケアに連絡
    * SDK のインストールと設定の方法については、[Campaign SDK ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-push-notifications/integrating-campaign-sdk-into-the-mobile-application.html?lang=ja)を参照してください。
 
@@ -118,7 +118,7 @@ Adobe Campaign v7 は、電子メールやダイレクトメールなどの従�
 
 <br>
 
-## 実装の手順
+## 実装手順
 
 Adobe Campaign v7 の実装に関しては、[はじめる前に](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/about-adobe-campaign-classic.html?lang=ja)を参照してください。
 
