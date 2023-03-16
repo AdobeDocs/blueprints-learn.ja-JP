@@ -1,18 +1,18 @@
 ---
-title: データ分析、インテリジェンス、AI/ML ブループリント
+title: データ分析、インテリジェンス、AI／ML のブループリント
 description: このブループリントは、データレイクに存在するデータの探索的クエリおよび分析を実行する Adobe Experience Platform 内の機能を示します。
 solution: Experience Platform
 kt: 7207
 thumbnail: null
 exl-id: 3b22dfdd-3fbe-40b3-b798-1ee983723039
 source-git-commit: 802507291f54dc3f253d469e7a64d78e34b75c6a
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '175'
+ht-degree: 100%
 
 ---
 
-# データ分析、インテリジェンス、AI/ML ブループリント
+# データ分析、インテリジェンス、AI／ML のブループリント
 
 データ分析、インテリジェンス、AI／ML は、データレイクに存在するデータの探索的クエリおよび分析を実行する Adobe Experience Platform 内の機能を構成します。
 
