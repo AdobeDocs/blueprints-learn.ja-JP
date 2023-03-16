@@ -1,21 +1,21 @@
 ---
-title: プロファイルエンリッチメントブループリント用のカスタムデータサイエンス
+title: プロファイルエンリッチメントのためのカスタムデータサイエンスのブループリント
 description: このブループリントは、データサイエンスに基づくインサイトを Experience Platform に取り込んで、リアルタイム顧客プロファイルをエンリッチメントする方法を示します。
 solution: Data Collection
 kt: 7203
 exl-id: e5ec6886-4fa4-4c9b-a2d8-e843d7758669,f0efaf3c-6c4f-47c3-ab8a-e8e146dd071c
 source-git-commit: 802507291f54dc3f253d469e7a64d78e34b75c6a
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '500'
+ht-degree: 100%
 
 ---
 
-# プロファイルエンリッチメントブループリント用のカスタムデータサイエンス
+# プロファイルエンリッチメントのためのカスタムデータサイエンスのブループリント
 
 プロファイルエンリッチメントのためのカスタムデータサイエンスブループリントは、データを使用して、モデルをトレーニング、デプロイ、スコアリングし、Experience Platform と Real-time Customer Data Platform に関する機械学習のインサイトを、データサイエンスおよび機械学習ツールから提供する方法を示します。モデル化されたインサイトを Experience Platform に取り込んで、リアルタイム顧客プロファイルをエンリッチメントすることができます。機械学習インサイトの例には、ライフタイム値、スコアリング、製品およびカテゴリの親和性、コンバージョン傾向、チャーン傾向が含まれます。
 
-## 使用例
+## ユースケース
 
 * 顧客データからインサイトを抽出し、パターンを発見し、このデータからモデルをトレーニングしてスコアを付けます。
 * より詳細なパーソナライズ機能と最適化されたジャーニーのために、[!UICONTROL リアルタイム顧客プロファイル]をモデル主導のインサイトおよび属性でエンリッチメントします。
@@ -27,9 +27,9 @@ ht-degree: 0%
 
 ## ガードレール
 
-* ガードレールの詳細と、データ サイエンスの結果を Experience Platform およびリアルタイム顧客プロファイルに取り込む際のエンドツーエンドのの遅延については、[デプロイメントガードレールドキュメント](../experience-platform/deployment/guardrails.md)を参照してください。
+* ガードレールの詳細と、データ サイエンスの結果を Experience Platform およびリアルタイム顧客プロファイルに取り込む際のエンドツーエンドの遅延については、[デプロイメントガードレールドキュメント](../experience-platform/deployment/guardrails.md)を参照してください。
 
-## 実装の手順
+## 実装手順
 
 1. データを取り込むために[スキーマを作成](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2021.1.xdm&amp;lang=ja)します。
 1. データを取り込むために[データセットを作成](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/create-datasets-and-ingest-data.html?lang=ja)します。
