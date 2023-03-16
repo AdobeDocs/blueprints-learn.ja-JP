@@ -1,16 +1,16 @@
 ---
-title: Journey OptimizerとAdobe Campaignブループリント
+title: Journey Optimizer と Adobe Campaign ブループリント
 description: Adobe Journey Optimizer を Adobe Campaign と併用し、Campaign のリアルタイムメッセージングサーバーを利用してネイティブでメッセージを送信する方法を示します
 solution: Journey Optimizer, Campaign, Campaign v8, Campaign Classic v7, Campaign Standard
 exl-id: 076446a9-dfb9-464c-a04f-6864b8cb7b48
 source-git-commit: b18d491fdefc57762932d1570401b5437bf97c76
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '93'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
-# Journey Optimizer と Adobe Campaign ブループリント
+# Journey Optimizer と Adobe Campaignブループリント
 
 Adobe Journey Optimizer を Adobe Campaign と併用し、Campaign のリアルタイムメッセージングサーバーを利用してネイティブでメッセージを送信する方法を示します。
 
