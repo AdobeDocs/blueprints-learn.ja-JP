@@ -1,17 +1,17 @@
 ---
-title: デジタルエクスペリエンスブループリント業界の成功事例
+title: デジタルエクスペリエンスのブループリント業界の成功事例
 description: Digital Experience Blueprints の成功事例では、Adobe Experience Platform を活用した Adobe Experience Cloud Applications を使用して、様々な業界がビジネス価値を実現している様子を紹介しています。
 exl-id: 9e73bae3-ba34-4819-a54e-710965fe74d9
 source-git-commit: 5bf1f0c01e1c7d2ebb2ae7228cc04c149a789664
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '255'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
-# デジタルエクスペリエンスのブループリントによる業界の成功
+# デジタルエクスペリエンスのブループリントを使用した業界の成功
 
-顧客が優れたエクスペリエンスを構築し、デジタルエクスペリエンスブループリントを使用して成功を収める方法について学びます。これらの実証済みの繰り返し可能な実装により、戦略に対処し、確立されたビジネス上の問題を迅速に解決できます。
+顧客が優れたエクスペリエンスを構築し、デジタルエクスペリエンスのブループリントを使用して成功を収める方法について学びます。これらの実証済みの繰り返し可能な実装により、戦略に対処し、確立されたビジネス上の問題を迅速に解決できます。
 
 ## 主な成功事例
 
@@ -34,7 +34,7 @@ ht-degree: 95%
 <tr>
   <td>
     <div><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/vertical-blueprints/apparel.html?lang=ja"><strong>アパレル業界</strong></a></div>
-    <p><em>リアルタイムマーケティング、クロスチャネルアクティベーション、および Cross-Channel Analytics。</em></p>
+    <p><em>リアルタイムマーケティング、クロスチャネルアクティベーション、クロスチャネル分析。</em></p>
   </td>
   <td>
     <div><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/vertical-blueprints/retail.html?lang=ja"><strong>小売業界</strong></a></div>
