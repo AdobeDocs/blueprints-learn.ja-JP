@@ -4,9 +4,9 @@ description: Adobe Campaign v8 は、電子メールやダイレクトメール�
 solution: Campaign,Campaign v8
 exl-id: 89b3a761-9cb3-4e01-8da0-043e634fa61f
 source-git-commit: dabb5ae0bf2fc186f67d4aa93a2e9e8c5bb04498
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '1147'
+ht-degree: 100%
 
 ---
 
@@ -16,7 +16,7 @@ Adobe Campaign v8 は、電子メールやダイレクトメールなどの従�
 
 <br>
 
-## 使用例
+## ユースケース
 
 * 非常に複雑なバッチベースのメッセージングプログラム
 * オンボーディングおよびリマーケティングキャンペーン
@@ -37,7 +37,7 @@ Adobe Campaign v8 は、電子メールやダイレクトメールなどの従�
 
 | シナリオ | 説明 | 機能 |
 | :-- | :--- | :--- |
-| [Adobe Campaign を使用した Real-time Customer Data Platform](rtcdp-and-campaign-v8.md) | Adobe Experience Platform とそのリアルタイム顧客プロファイル、および一元化されたセグメント化ツールを Adobe Campaign と併用して、パーソナライズされた会話を提供する方法を紹介します | <ul><li>クラウドストレージのファイル交換と Adobe Campaign の取り込みワークフローを使用した、Real-Time CDP から Adobe Campaign へのプロファイルとオーディエンスの共有 </li><li>顧客との会話からAdobe CampaignからReal-Time CDPに戻る配信およびインタラクションデータを簡単に共有して、リアルタイム顧客プロファイルを強化し、メッセージングキャンペーンに関するクロスチャネルレポートを提供します。</li></ul> |
+| [Adobe Campaign を使用した Real-time Customer Data Platform](rtcdp-and-campaign-v8.md) | Adobe Experience Platform とそのリアルタイム顧客プロファイル、および一元化されたセグメント化ツールを Adobe Campaign と併用して、パーソナライズされた会話を提供する方法を紹介します | <ul><li>クラウドストレージのファイル交換と Adobe Campaign の取り込みワークフローを使用した、Real-Time CDP から Adobe Campaign へのプロファイルとオーディエンスの共有 </li><li>顧客との会話から得られた配信データとインタラクションデータを Adobe Campaign から Real-Time CDP に戻し、リアルタイム顧客プロファイルとメッセージングキャンペーンのクロスチャネルレポートの両方を簡単に共有できる</li></ul> |
 | [Journey Optimizer と Adobe Campaign](ajo-and-campaign.md) | Adobe Journey Optimizer を使用し、リアルタイム顧客プロファイルを利用して 1:1 エクスペリエンスの調整を行い、ネイティブの Adobe Campaign トランザクションメッセージングシステムを活用してメッセージを送信する方法を示します | リアルタイム顧客プロファイルと Journey Optimizer の機能を活用し、瞬時のエクスペリエンスで調整しながら、Adobe Campaign のネイティブリアルタイムメッセージング機能を利用して、ラストマイルのコミュニケーションを実現します。<br><br>注意点：<br><ul><li>リアルタイムメッセージサーバーを介して 1 時間に最大 100 万件のメッセージを送信可能<li>Journey Optimizer からのスロットリングは行われませんので、プリセールスのエンタープライズアーキテクトによる技術的な検証を必ず行います</li><li>意思決定管理は、Campaign v8 へのペイロードではサポートされていません</li></ul> |
 
 <br>
@@ -45,7 +45,7 @@ Adobe Campaign v8 は、電子メールやダイレクトメールなどの従�
 ## 前提条件
 
 
-### アプリケーションサーバーとリアルタイムメッセージングサーバー
+### アプリケーションサーバーおよびリアルタイムメッセージングサーバー
 
 * Adobe Campaign Client Console は、Campaign v8 ソフトウェアとやり取りして使用するために必要です。これは Windows ベースのクライアントで、標準のインターネットプロトコル（SOAP、HTTP など）を使用します。ソフトウェアの配布、インストール、実行に必要な権限が組織で有効になっていることを確認します。
 
@@ -114,7 +114,7 @@ Adobe Campaign v8 は、電子メールやダイレクトメールなどの従�
 
 <br>
 
-## 実装の手順
+## 実装手順
 
 [Adobe Campaign v8 の実装](https://experienceleague.adobe.com/docs/campaign/campaign-v8/implement/implement.html?lang=ja)の入門ガイドを参照してください。
 
