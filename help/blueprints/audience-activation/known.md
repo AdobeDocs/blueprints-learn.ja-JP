@@ -1,13 +1,13 @@
 ---
-title: 既知の顧客のアクティベーション ブループリント
+title: 既知の顧客のアクティベーションブループリント
 description: オンライン／オフラインオーディエンスアクティベーション。
 solution: Real-time Customer Data Platform, Target, Audience Manager, Analytics, Experience Cloud Services, Data Collection
 kt: 7086
 exl-id: 011f4909-b208-46db-ac1c-55b3671ee48c
 source-git-commit: dabb5ae0bf2fc186f67d4aa93a2e9e8c5bb04498
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '567'
+ht-degree: 100%
 
 ---
 
@@ -17,9 +17,9 @@ ht-degree: 0%
 
 ガバナンスコントロールが組み込まれた拡大された識別子は、既知の顧客とコミュニケーションをとる機会を増やします。既知のプロファイルベースの宛先（電子メールプロバイダー、ソーシャルネットワーク、広告など）に対して、オーディエンスをアクティブ化します。
 
-追加の詳細は、 [オーディエンスとプロファイルのアクティベーション (Experience Cloudアプリケーション ) ブループリント](platform-and-applications.md) Experience PlatformとExperience Cloud・アプリケーション間の統合に固有
+追加の詳細は、Experience Platform と Experience Cloud アプリケーションの間の統合に特有な、[Experience Cloud アプリケーションを使用したオーディエンスとプロファイルのアクティベーションブループリント](platform-and-applications.md)で提供されます。
 
-## 使用例
+## ユースケース
 
 * ソーシャルおよび広告の宛先の既知のオーディエンスに対するオーディエンスターゲティング。
 * オンラインおよびオフライン属性を使用したオンラインパーソナライズ機能。
@@ -32,21 +32,21 @@ ht-degree: 0%
 
 ## アーキテクチャ
 
-### Real-time Customer Data Platformを使用した既知のお客様のアクティベーション
+### Real-time Customer Data Platform を使用した既知の顧客のアクティベーション
 
-<img src="assets/known_activation.svg" alt="既知の顧客アクティベーションブループリントの参照アーキテクチャ" style="width:90%; border:1px solid #4a4a4a"  class="modal-image" />
+<img src="assets/known_activation.svg" alt="既知の顧客のアクティベーションブループリントの参照アーキテクチャ" style="width:90%; border:1px solid #4a4a4a"  class="modal-image" />
 <br>
 
-### Audience Managerユーザーベースの宛先を使用した既知の顧客のアクティベーション
+### Audience Manager のピープルベースの宛先を使用した既知の顧客のアクティベーション
 
-<img src="assets/AAM_PBD.svg" alt="既知の顧客アクティベーションブループリントの参照アーキテクチャ" style="width:90%; border:1px solid #4a4a4a" class="modal-image" />
+<img src="assets/AAM_PBD.svg" alt="既知の顧客のアクティベーションブループリントの参照アーキテクチャ" style="width:90%; border:1px solid #4a4a4a" class="modal-image" />
 <br>
 
 ## ガードレール
 
 [オーディエンスとプロファイルのアクティベーションの概要ページに説明されているガードレールを参照してください。](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/overview.html?lang=ja#guardrails-for-audience-and-profile-activation-blueprints)
 
-## Real-time Customer Data Platformの実装手順
+## Real-time Customer Data Platform の実装手順
 
 1. データを取り込むために[スキーマを作成](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2021.1.xdm&amp;lang=ja)します。
 1. データを取り込むために[データセットを作成](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/create-datasets-and-ingest-data.html?lang=ja)します。
@@ -61,13 +61,13 @@ ht-degree: 0%
 
 * プロファイルデータを宛先に共有するには、宛先ペイロードの宛先で使用される特定の ID 値を含める必要があります。ターゲットの宛先に必要な ID は、Platform に取り込まれ、[!UICONTROL リアルタイム顧客プロファイル]の ID として設定される必要があります。
 
-* 詳しくは、 [オーディエンスとプロファイルのアクティベーション (Experience Cloudアプリケーション ) ブループリント](platform-and-applications.md) Real-time Customer Data PlatformからAudience Manager、Analytics、Target、Campaign、Journey Optimizerへのオーディエンスの共有について詳しくは、こちらを参照してください。
+* Real-time Customer Data Platform から Audience Manager、Analytics、Target、Campaign、Journey Optimizer へのオーディエンスの共有に関する詳細は、[オーディエンスとプロファイルのアクティベーション（Experience Cloud アプリケーションのブループリント）](platform-and-applications.md)を参照してください。
 
-## Audience Managerの People-Based Destinations の実装手順
+## Audience Manager のピープルベースの宛先の実装手順
 
 * Audience Manager の実装について詳しくは、次の[ドキュメント](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/implement-audience-manager.html?lang=ja)を参照してください.
 
-* Audience Manager で People-Based Destinations を実装する方法について詳しくは、次の[ドキュメント](https://experienceleague.adobe.com/docs/audience-manager/user-guide/faqs/faq-people-based-destinations.html?lang=ja)を参照してください。
+* Audience Manager のピープルベースの宛先を実装する方法について詳しくは、次の[ドキュメント](https://experienceleague.adobe.com/docs/audience-manager/user-guide/faqs/faq-people-based-destinations.html?lang=ja)を参照してください。
 
 ## 関連ドキュメント
 
@@ -76,7 +76,7 @@ ht-degree: 0%
 * [セグメント化ドキュメント](https://experienceleague.adobe.com/docs/experience-platform/segmentation/api/streaming-segmentation.html?lang=ja)
 * [宛先ドキュメント](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/overview.html?lang=ja)
 
-## 関連するビデオとチュートリアル
+## 関連ビデオおよびチュートリアル
 
 * [[!UICONTROL Real-time Customer Data Platform] の概要](https://experienceleague.adobe.com/docs/platform-learn/tutorials/application-services/rtcdp/understanding-the-real-time-customer-data-platform.html?lang=ja)
 * [[!UICONTROL Real-time Customer Data Platform] のデモ](https://experienceleague.adobe.com/docs/platform-learn/tutorials/application-services/rtcdp/demo.html?lang=ja)
