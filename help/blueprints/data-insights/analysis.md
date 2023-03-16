@@ -6,9 +6,9 @@ kt: 7207
 thumbnail: null
 exl-id: a972ea56-d1c8-45da-9044-ed31222a2441
 source-git-commit: b18d491fdefc57762932d1570401b5437bf97c76
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '293'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ Experience Platform の[!UICONTROL クエリサービス]を使用すると、�
 
 Experience Platform を使用すると、サードパーティ SQL クライアント、インターフェイスおよびビジネスインテリジェンス（BI）ツールとの接続が可能になり、[!DNL PostgreSQL] プロトコルを使用して、Experience Platform 内で直接データへの接続やアクセス、クエリを実行することができます。
 
-## 使用例
+## ユースケース
 
 * インタラクティブクエリとデータの集計
 * 調査および検証用に取り込まれたデータに対する行および列アクセス
@@ -40,9 +40,9 @@ Experience Platform を使用すると、サードパーティ SQL クライア�
 
 ベストプラクティスとガードレールについての詳細は、クエリサービス製品ドキュメントを参照してください。[クエリサービスガイダンス](https://experienceleague.adobe.com/docs/experience-platform/query/guardrails.html?lang=ja)
 
-## 実装の手順
+## 実装手順
 
-1. データを取り込むために[スキーマを作成](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2021.1.xdm)します。
+1. データを取り込むために[スキーマを作成](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2021.1.xdm&amp;lang=ja)します。
 1. データを取り込むために[データセットを作成](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/create-datasets-and-ingest-data.html?lang=ja)します。
 1. Experience Platform に[データを取り込みます](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2020.1.dataingestion&amp;lang=ja)。
 1. データが[[!UICONTROL クエリサービス]](https://experienceleague.adobe.com/docs/platform-learn/tutorials/queries/explore-data.html?lang=ja)で使用可能であることを確認します。
