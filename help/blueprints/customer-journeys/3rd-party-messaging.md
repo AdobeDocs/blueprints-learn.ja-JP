@@ -1,12 +1,12 @@
 ---
-title: Journey Optimizer — サードパーティのメッセージングブループリント
+title: Journey Optimizer - サードパーティメッセージングのブループリント
 description: Adobe Journey Optimizer をサードパーティのメッセージングシステムと併用して、パーソナライズされた通信を調整および送信する方法を示します。
 solution: Journey Optimizer
 exl-id: 3a14fc06-6d9c-4cd8-bc5c-f38e253d53ce
 source-git-commit: 5110ee2a7a079945475055cbcfdabf7cdcaa0ab5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '823'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -30,7 +30,7 @@ Adobe Experience Platform
 * エクスペリエンスイベントクラスベースのスキーマの場合、ルールベースのイベントではないイベントをトリガーする場合に、「オーケストレーション eventID」フィールドグループを追加します
 * 個別のプロファイルクラスベースのスキーマの場合、「Profile test details」フィールドグループを追加して、Journey Optimizer で使用するテストプロファイルを読み込めるようにします
 
-サードパーティのメッセージングアプリケーション
+サードパーティメッセージングのアプリケーション
 
 * トランザクションペイロードを送信するには REST API 呼び出しをサポートする必要があります
 
@@ -60,9 +60,9 @@ Adobe Experience Platform
 
 <br>
 
-サードパーティのメッセージングシステム
+サードパーティメッセージングのシステム
 
-* トランザクション API 呼び出しでシステムがサポートでき負荷を理解する必要があります
+* トランザクション API 呼び出しでシステムがサポートできる負荷を理解する必要があります
    * 1 秒間に可能な呼び出し回数
    * 接続数
 * API 呼び出しをおこなうために必要な認証を理解する必要があります
@@ -70,22 +70,22 @@ Adobe Experience Platform
    * 認証キャッシュの期間：トークンの有効期間はどれくらいですか？
 * バッチ取り込みのみがサポートされている場合は、Amazon Kinesis や Azure Event Grid 1st などのクラウドストレージエンジンにストリーミングする必要があります
    * データは、これらのクラウドストレージエンジンのバッチ処理を行い、サードパーティに送り込むことができます
-   * 必要なミドルウェアは、お客様またはサードパーティが提供する責任を負います
+   * すべての必要なミドルウェアは、顧客またはサードパーティが提供する責任を負います
 
 <br>
 
-## 実装の手順
+## 実装手順
 
 ### Adobe Experience Platform
 
-#### スキーマ/データセット
+#### スキーマ／データセット
 
 1. 顧客提供データに基づき、Experience Platform で[個人プロファイル、エクスペリエンスイベントおよびマルチエンティティスキーマを設定します](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2021.1.xdm&amp;lang=ja)。
 1. Experience Platform で取り込む[データセットを作成します。](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/create-datasets-and-ingest-data.html?lang=ja)
 1. ガバナンス用のデータセットに、Experience Platform で[データ使用ラベルを追加します。](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-governance/classify-data-using-governance-labels.html?lang=ja)
 1. 宛先のガバナンスを実施する[ポリシーを作成します。](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-governance/create-data-usage-policies.html?lang=ja)
 
-#### プロファイル/ID
+#### プロファイル／ID
 
 1. [任意の顧客専用の名前空間を作成します。](https://experienceleague.adobe.com/docs/platform-learn/tutorials/identities/label-ingest-and-verify-identity-data.html?lang=ja)
 1. [スキーマに ID を追加します](https://experienceleague.adobe.com/docs/platform-learn/tutorials/identities/label-ingest-and-verify-identity-data.html?lang=ja)。
@@ -93,7 +93,7 @@ Adobe Experience Platform
 1. [!UICONTROL リアルタイム顧客プロファイル]の様々な表示用に[結合ポリシーを設定](https://experienceleague.adobe.com/docs/platform-learn/tutorials/profiles/create-merge-policies.html?lang=ja)します（オプション）。
 1. ジャーニー使用状況用のセグメントを作成します。
 
-#### ソース/宛先
+#### ソース／宛先
 
 1. ストリーミング API およびソースコネクタを使用して、[Experience Platform にデータを取り込みます。](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2020.1.dataingestion&amp;lang=ja)
 
@@ -103,13 +103,13 @@ Adobe Experience Platform
 1. 外部データソースを設定
 1. サードパーティアプリケーションのカスタムアクションを設定
 
-### モバイルプッシュの設定（サードパーティがトークンを収集する場合があるため、オプション）
+### モバイルプッシュ設定（オプションでサードパーティがトークンを収集する場合があります）
 
 1. Experience Platform Mobile SDK を実装して、プッシュトークンとログイン情報を収集し、既知の顧客プロファイルに結び付けます
 1. Adobe タグを活用し、次の拡張子を持つモバイルプロパティを作成します。
    * Adobe Journey Optimizer
    * Adobe Experience Platform Edge Network
-   * ID Edge ネットワーク用
+   * IDEdge ネットワーク用
    * モバイルコア
 1. モバイルアプリデプロイメント用と web デプロイメント用の専用のデータストリームがあることを確認
 1. 詳しくは、[Adobe Journey Optimizer Mobile ガイド](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-journey-optimizer)を参照
