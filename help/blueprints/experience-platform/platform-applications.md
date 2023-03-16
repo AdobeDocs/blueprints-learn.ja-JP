@@ -1,20 +1,20 @@
 ---
-title: Adobe Experience Platform & Applications のアーキテクチャ図
+title: Adobe Experience Platform およびアプリケーションのアーキテクチャ図
 description: このアーキテクチャ図に、Adobe Experience Platform が他の Adobe Experience Cloud アプリケーションおよびアプリケーションサービスとどのように関わっているかを示します。
 solution: Experience Platform, Campaign, Analytics, Target, Customer Journey Analytics, Journey Orchestration, Real-time Customer Data Platform
 kt: 7199
 thumbnail: null
 exl-id: 9b12cd7a-5e5f-443a-91a1-44273cdabc2d
 source-git-commit: 545cfee625e4baff679f6ccc9ae49e3c35fcc559
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '989'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
-# Adobe Experience Platform およびアプリケーション アーキテクチャ図
+# Adobe Experience Platform およびアプリケーションアーキテクチャ図
 
-## Adobe Experience Platform およびアプリケーションアーキテクチャ図
+## Adobe Experience Platform およびアプリケーションのアーキテクチャ図
 
 このアーキテクチャ図に、Adobe Experience Platform が Adobe Experience Cloud アプリケーションおよびアプリケーションサービスとどのように関わっているかを示します。
 
@@ -26,7 +26,7 @@ ht-degree: 98%
 
 >[!VIDEO](https://video.tv.adobe.com/v/32456/?quality=12&learn=on)
 
-## Adobe Experience PlatformとExperience Cloudのアプリケーションの統合
+## Adobe Experience Platform および Experience Cloud アプリケーションの統合
 
 <table class="relative-table wrapped" style="width: 100%;">
 <colgroup>
