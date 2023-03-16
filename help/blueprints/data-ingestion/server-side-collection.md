@@ -1,21 +1,21 @@
 ---
-title: イベント転送のブループリント
+title: イベント転送ブループリント
 description: Experience Platform SDK で収集したデータを宛先にストリーミング
 solution: Data Collection
 kt: 7202
 exl-id: 8d6f0705-628b-44e4-a3fc-da6c5e308a5b
 source-git-commit: 5110ee2a7a079945475055cbcfdabf7cdcaa0ab5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '228'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
-# イベント転送のブループリント
+# イベント転送ブループリント
 
 イベント転送ブループリントは、Adobe Experience Platform Web SDK および Mobile SDK を使用して収集されたデータを Experience Platform Edge Network から目的の宛先に転送する方法を示します。SDK から収集された生のデータをすべて転送することも、タグプロパティ（旧称 Launch）で設定されたイベントおよびルールに基づいて特定のデータを転送することもできます。
 
-## 使用例
+## ユースケース
 
 * 単一の収集タグを使用して Web またはモバイルからデータを収集し、クライアントブラウザーおよびアプリのコードを軽量化します。データ収集の単一のソースとするため、収集したデータを様々なエンドポイントに伝達します。
 * 収集されたデータをパートナーアプリケーションやデータ保存場所に転送して、収集されたデータに対するインサイトおよびアプリケーションを構築します。
