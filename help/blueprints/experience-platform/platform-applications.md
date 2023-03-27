@@ -71,7 +71,7 @@ ht-degree: 100%
 </td>
 <td>
 <ul>
-<li>Analytics によって収集されたデータは、Experience Platform データレイクおよびプロファイル格納に送信することができます。 <a href="https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html?lang=ja">Analytics データコネクタ</a></li>
+<li>Analytics によって収集されたデータは、Experience Platform データレイクおよびプロファイル格納に送信することができます。<a href="https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html?lang=ja">Analytics データコネクタ</a></li>
 </ul>
 </td>
 <td>
@@ -89,7 +89,7 @@ ht-degree: 100%
 </td>
 <td>
 <ul>
-<li>Audience Manager からオーディエンスメンバーシップとともに収集および評価されたデータは、Experience Platform データレイクおよびプロファイル格納に共有することができます。 <a href="https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/audience-manager.html?lang=ja">Audience Manager ソースコネクタ</a></li>
+<li>Audience Manager からオーディエンスメンバーシップとともに収集および評価されたデータは、Experience Platform データレイクおよびプロファイル格納に共有することができます。<a href="https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/audience-manager.html?lang=ja">Audience Manager ソースコネクタ</a></li>
 </ul>
 </td>
 <td>
@@ -216,7 +216,7 @@ ht-degree: 100%
 </td>
 <td colspan="1">
 <ul>
-<li>Marketo アカウント、連絡先および商談データは、Marketo で生成されたインタラクションおよびキャンペーンデータと共に、B2B-CDP を介したオーディエンス構築および Customer Journey Analytics を介した分析、ならびに Experience Platform Query Service でさらに使用するために、Experience Platform に取り込まれます。 <a href="https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/marketo/marketo.html?lang=ja">Marketo Engage コネクタ</a></li>
+<li>Marketo アカウント、連絡先および商談データは、Marketo で生成されたインタラクションおよびキャンペーンデータと共に、B2B-CDP を介したオーディエンス構築および Customer Journey Analytics を介した分析、ならびに Experience Platform Query Service でさらに使用するために、Experience Platform に取り込まれます。<a href="https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/marketo/marketo.html?lang=ja">Marketo Engage コネクタ</a></li>
 </ul>
 </td>
 <td colspan="1">
