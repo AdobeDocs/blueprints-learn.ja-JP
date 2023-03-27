@@ -1,5 +1,5 @@
 ---
-title: 既知の顧客のアクティベーションブループリント
+title: 既知の顧客アクティベーションブループリント
 description: オンライン／オフラインオーディエンスアクティベーション。
 solution: Real-time Customer Data Platform, Target, Audience Manager, Analytics, Experience Cloud Services, Data Collection
 kt: 7086
