@@ -21,7 +21,7 @@ ht-degree: 100%
 
 ## アプリケーション
 
-* Adobe Experience PlatformActivation
+* Adobe Experience Platform Activation
 
 ## アーキテクチャ
 
