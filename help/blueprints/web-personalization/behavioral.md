@@ -1,5 +1,5 @@
 ---
-title: 行動 Web パーソナライゼーションブループリント
+title: 行動による web パーソナライズ機能ブループリント
 description: オンライン行動とオーディエンスデータに基づいてコンテンツをパーソナライズする方法を見つけます。
 landing-page-description: オンライン行動およびオーディエンスデータに基づいてパーソナライズする方法を説明します。
 short-description: Learn to personalize based on online behavior and audience data.
@@ -8,17 +8,17 @@ kt: 7085
 thumbnail: thumb-web-personalization-scenario1.jpg
 exl-id: b9882c2c-cb45-4efa-a85c-8fe48f641a12
 source-git-commit: 3a6a98eded28baee2cbb44de2262bbd580fa0c94
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '609'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
-# 行動 Web/モバイルパーソナライゼーションブループリント
+# 行動による web／モバイルパーソナライズ機能ブループリント
 
 オンライン行動およびオーディエンスデータに基づいてパーソナライズします。
 
-## 使用例
+## ユースケース
 
 * ランディングページの最適化
 * 行動ターゲティング
@@ -40,14 +40,14 @@ ht-degree: 94%
 
 Web／モバイルパーソナライズ機能ブループリントは、以下に説明する方法で実装できます。
 
-1. [!UICONTROL Platform Web SDK] または [!UICONTROL Platform Mobile SDK] と[!UICONTROL エッジネットワーク]を使用。[Experience Platform Web および Mobile SDK のブループリントを参照してください。](../experience-platform/deployment/websdk.md)
-1. 従来のアプリケーション固有 SDK（AppMeasurement.js など）を使用.[アプリケーション固有の SDK ブループリントを参照](../experience-platform/deployment/appsdk.md)
+1. [!UICONTROL Platform Web SDK] または [!UICONTROL Platform Mobile SDK] と[!UICONTROL エッジネットワーク]を使用。[Experience Platform Web および Mobile SDK のブループリントを参照](../experience-platform/deployment/websdk.md)
+1. 従来のアプリケーション固有 SDK（AppMeasurement.js など）を使用. [アプリケーション固有の SDK ブループリントを参照](../experience-platform/deployment/appsdk.md)
 
-## 実装の手順
+## 実装手順
 
 1. Web またはモバイルアプリケーション用に [Adobe Target を実装](https://experienceleague.adobe.com/docs/target/using/implement-target/implementing-target.html?lang=ja)します。
 
-### 実装の手順 —Audience ManagerまたはAdobe Analytics
+### 実装手順 - Audience Manager または Adobe Analytics
 
 1. [Adobe Audience Manager を実装](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/implement-audience-manager.html?lang=ja)します
 1. [Adobe Analytics を実装](https://experienceleague.adobe.com/docs/analytics/implementation/home.html?lang=ja)します
@@ -61,9 +61,9 @@ Web／モバイルパーソナライズ機能ブループリントは、以下�
 1. [Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-build.html?lang=ja) または [Adobe Audience Manager](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/segments/segment-builder.html?lang=ja) でセグメントを作成し、[これらのオーディエンスを Experience Cloud に共有するように設定](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-publish.html?lang=ja)します（Audience Manager または Adobe Analytics を使用している場合）
 1. オーディエンスが Adobe Target で使用できるようになったら、[Adobe Target によるターゲティングエクスペリエンス](https://experienceleague.adobe.com/docs/target/using/audiences/target.html?lang=ja)で使用できます
 
-### 実装手順 — Real-time Customer Data Platform
+### 実装手順 - Real-time Customer Data Platform
 
-1. データを取り込むために[スキーマを作成](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2021.1.xdm)します。
+1. データを取り込むために[スキーマを作成](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2021.1.xdm&amp;lang=ja)します。
 1. データを取り込むために[データセットを作成](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/create-datasets-and-ingest-data.html?lang=ja)します。
 1. 取り込まれたデータが統合プロファイルに確実にステッチできるようにするために、スキーマに[正しい ID および ID 名前空間を設定します](https://experienceleague.adobe.com/docs/platform-learn/tutorials/identities/label-ingest-and-verify-identity-data.html?lang=ja)。
 1. [プロファイル用のスキーマおよびデータセットを有効にします](https://experienceleague.adobe.com/docs/platform-learn/tutorials/profiles/bring-data-into-the-real-time-customer-profile.html?lang=ja)。
