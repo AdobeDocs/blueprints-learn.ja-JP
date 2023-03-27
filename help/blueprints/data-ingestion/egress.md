@@ -5,9 +5,9 @@ product: adobe experience platform
 solution: Experience Platform, Journey Optimizer, Real-time Customer Data Platform, Data Collection
 exl-id: 2ca51a29-2db2-468f-8688-fc8bc061b47b
 source-git-commit: f22ff4ac15b21592226f6645ab28f30473996776
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2052'
-ht-degree: 76%
+ht-degree: 100%
 
 ---
 
@@ -34,21 +34,21 @@ ht-degree: 76%
 
 <img src="../experience-platform/assets/aep_data_flow.svg" alt="データ準備と取り込みブループリントの参照アーキテクチャ" style="width:90%; border:1px solid #4a4a4a; margin-bottom: 15px;" class="modal-image" />
 
-## データのアクセスおよび書き出しの方法
+## データのアクセスと書き出しの方法
 
 <table cellspacing="0" class="Table" style="border-collapse:collapse; width:1133px">
 <tbody>
 <tr>
 <td colspan="4" style="background-color:#308fff; border-bottom:4px solid white; border-left:1px solid white; border-right:1px solid white; border-top:1px solid white; height:39px; vertical-align:top; width:1133px">
-<p><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><strong><span style="color:black">ストリーミング先</span></strong></span></span></p>
+<p><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><strong><span style="color:black">ストリーミング宛先</span></strong></span></span></p>
 </td>
 </tr>
 <tr>
 <td style="background-color:#969696; border-bottom:1px solid white; border-left:1px solid white; border-right:1px solid white; border-top:none; height:39px; vertical-align:top; width:240px">
-<p><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">メソッド</span></span></span></p>
+<p><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">方法</span></span></span></p>
 </td>
 <td style="background-color:#969696; border-bottom:1px solid white; border-left:none; border-right:1px solid white; border-top:none; height:39px; vertical-align:top; width:467px">
-<p><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">一般的な使用例</span></span></span></p>
+<p><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">一般的なユースケース</span></span></span></p>
 </td>
 <td style="background-color:#969696; border-bottom:1px solid white; border-left:none; border-right:1px solid white; border-top:none; height:39px; vertical-align:top; width:144px">
 <p><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">プロトコル</span></span></span></p>
@@ -63,8 +63,8 @@ ht-degree: 76%
 </td>
 <td style="background-color:#e8eeff; border-bottom:1px solid white; border-left:none; border-right:1px solid white; border-top:none; height:39px; vertical-align:top; width:467px">
 <ul style="list-style-type:square">
-<li><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">分析および収集のためにAdobeSDK から収集された生データのエンタープライズシステムへの転送</span></span></span></li>
-<li><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">3 の軽量タグ付け<sup>rd</sup> 拡張機能を使用したパーティデータ収集</span></span></span></li>
+<li><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">分析および収集のために Adobe SDK から収集された未処理データのエンタープライズシステムへの転送</span></span></span></li>
+<li><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">拡張機能を使用したサードパーティデータ収集の軽量タグ付け<sup></sup></span></span></span></li>
 </ul>
 </td>
 <td style="background-color:#e8eeff; border-bottom:1px solid white; border-left:none; border-right:1px solid white; border-top:none; height:39px; vertical-align:top; width:144px">
@@ -76,18 +76,18 @@ ht-degree: 76%
 </td>
 <td style="background-color:#e8eeff; border-bottom:1px solid white; border-left:none; border-right:1px solid white; border-top:none; height:39px; vertical-align:top; width:282px">
 <ul style="list-style-type:square">
-<li><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">低レベルの生イベント</span></span></span></li>
-<li><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">集計または前のレコードコンテキストが追加されていません</span></span></span></li>
+<li><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">低レベルの未処理イベント</span></span></span></li>
+<li><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">集計または前のレコードコンテキストが追加されていない</span></span></span></li>
 </ul>
 </td>
 </tr>
 <tr>
 <td style="background-color:#cddbff; border-bottom:1px solid white; border-left:1px solid white; border-right:1px solid white; border-top:none; height:39px; vertical-align:top; width:240px">
-<p><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black"><a href="https://experienceleague.adobe.com/docs/experience-platform/destinations/destination-types.html?lang=en#:~:text=containing%20profile%20exports.-，ストリーミング%20segment%20export%20destinations,-Segment%20export%20destinations" style="color:#0563c1; text-decoration:underline">RTCDP — ストリーミングセグメントエクスポート</a></span></span></span></p>
+<p><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black"><a href="https://experienceleague.adobe.com/docs/experience-platform/destinations/destination-types.html?lang=ja#:~:text=containing%20profile%20exports.-,Streaming%20segment%20export%20destinations,-Segment%20export%20destinations" style="color:#0563c1; text-decoration:underline">RTCDP - ストリーミングセグメントの書き出し</a></span></span></span></p>
 </td>
 <td style="background-color:#cddbff; border-bottom:1px solid white; border-left:none; border-right:1px solid white; border-top:none; height:39px; vertical-align:top; width:467px">
 <ul style="list-style-type:square">
-<li><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">RTCDP からマーケティングおよび広告、システムに対してオーディエンスをアクティブ化します。</span></span></span></li>
+<li><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">RTCDP からマーケティングおよび広告、システムに対してオーディエンスをアクティブ化</span></span></span></li>
 </ul>
 </td>
 <td style="background-color:#cddbff; border-bottom:1px solid white; border-left:none; border-right:1px solid white; border-top:none; height:39px; vertical-align:top; width:144px">
@@ -99,20 +99,20 @@ ht-degree: 76%
 </td>
 <td style="background-color:#cddbff; border-bottom:1px solid white; border-left:none; border-right:1px solid white; border-top:none; height:39px; vertical-align:top; width:282px">
 <ul style="list-style-type:square">
-<li><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">オーディエンスのメンバーシップを表す集計データ</span></span></span></li>
-<li><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">生のエクスペリエンスイベントデータをアクティベートしていません</span></span></span></li>
+<li><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">オーディエンスメンバーシップを表す集計データ</span></span></span></li>
+<li><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">未処理のエクスペリエンスイベントデータのアクティベーションがない</span></span></span></li>
 </ul>
 </td>
 </tr>
 <tr>
 <td style="background-color:#e8eeff; border-bottom:1px solid white; border-left:1px solid white; border-right:1px solid white; border-top:none; height:39px; vertical-align:top; width:240px">
-<p><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black"><a href="https://experienceleague.adobe.com/docs/experience-platform/destinations/destination-types.html?lang=en#:~:text=file%2Dbased)%20destinations-,Streaming%20profile%20export%20destinations%20(enterprise%20destinations),-IMPORTANT" style="color:#0563c1; text-decoration:underline">RTCDP — プロファイル書き出し先</a></span></span></span></p>
+<p><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black"><a href="https://experienceleague.adobe.com/docs/experience-platform/destinations/destination-types.html?lang=ja#:~:text=file%2Dbased)%20destinations-,Streaming%20profile%20export%20destinations%20(enterprise%20destinations),-IMPORTANT" style="color:#0563c1; text-decoration:underline">RTCDP - プロファイル書き出しの宛先</a></span></span></span></p>
 </td>
 <td style="background-color:#e8eeff; border-bottom:1px solid white; border-left:none; border-right:1px solid white; border-top:none; height:39px; vertical-align:top; width:467px">
 <ul style="list-style-type:square">
-<li><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">RTCDP の豊富な行動プロファイルとオーディエンスを活用して、消費者エクスペリエンスとマーケティングを強化します。</span></span></span></li>
-<li><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">RTCDP からマーケティングおよび広告、オーディエンスおよびプロファイル属性を操作するシステムに対して、オーディエンスおよびプロファイル属性をアクティブ化します。 </span></span></span></li>
-<li><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">AEP プロファイルを電子メールサービスプロバイダー、リード育成、CRM システムに対してアクティブ化します。</span></span></span></li>
+<li><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">RTCDP の豊富な行動プロファイルとオーディエンスを活用して、消費者エクスペリエンスとマーケティングを強化。</span></span></span></li>
+<li><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">RTCDP からマーケティングおよび広告、オーディエンスおよびプロファイル属性を操作するシステムに対して、オーディエンスおよびプロファイル属性をアクティブ化。 </span></span></span></li>
+<li><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">AEP プロファイルをメールサービスプロバイダー、リード育成、CRM システムに対してアクティブ化。</span></span></span></li>
 </ul>
 </td>
 <td style="background-color:#e8eeff; border-bottom:1px solid white; border-left:none; border-right:1px solid white; border-top:none; height:39px; vertical-align:top; width:144px">
@@ -124,18 +124,18 @@ ht-degree: 76%
 </td>
 <td style="background-color:#e8eeff; border-bottom:1px solid white; border-left:none; border-right:1px solid white; border-top:none; height:39px; vertical-align:top; width:282px">
 <ul style="list-style-type:square">
-<li><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">オーディエンスのメンバーシップとプロファイルレコードの属性を表す集計データ</span></span></span></li>
-<li><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">生のエクスペリエンスイベントデータをアクティベートしていません</span></span></span></li>
+<li><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">オーディエンスメンバーシップとプロファイルレコード属性を表す集計データ</span></span></span></li>
+<li><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">未処理のエクスペリエンスイベントデータのアクティベーションがない</span></span></span></li>
 </ul>
 </td>
 </tr>
 <tr>
 <td style="background-color:#cddbff; border-bottom:1px solid white; border-left:1px solid white; border-right:1px solid white; border-top:none; height:39px; vertical-align:top; width:240px">
-<p><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black"><a href="https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/custom-personalization.html?lang=ja" style="color:#0563c1; text-decoration:underline">RTCDP — パーソナライゼーションの宛先</a></span></span></span></p>
+<p><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black"><a href="https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/custom-personalization.html?lang=ja" style="color:#0563c1; text-decoration:underline">RTCDP - 宛先のパーソナライゼーション</a></span></span></span></p>
 </td>
 <td style="background-color:#cddbff; border-bottom:1px solid white; border-left:none; border-right:1px solid white; border-top:none; height:39px; vertical-align:top; width:467px">
 <ul style="list-style-type:square">
-<li><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">ブラウザーおよびクライアント側のエクスペリエンスでリアルタイム顧客プロファイルにアクセスし、クライアント側のパーソナライゼーションを強化します。 </span></span></span></li>
+<li><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">ブラウザーおよびクライアントサイドのエクスペリエンスでリアルタイム顧客プロファイルにアクセスし、クライアントサイドのパーソナライゼーションを強化。 </span></span></span></li>
 </ul>
 </td>
 <td style="background-color:#cddbff; border-bottom:1px solid white; border-left:none; border-right:1px solid white; border-top:none; height:39px; vertical-align:top; width:144px">
@@ -151,11 +151,11 @@ ht-degree: 76%
 </tr>
 <tr>
 <td style="background-color:#e8eeff; border-bottom:1px solid white; border-left:1px solid white; border-right:1px solid white; border-top:none; height:39px; vertical-align:top; width:240px">
-<p><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black"><a href="https://experienceleague.adobe.com/docs/experience-platform/destinations/destination-sdk/overview.html?lang=en" style="color:#0563c1; text-decoration:underline">RTCDP -Destination SDK</a></span></span></span></p>
+<p><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black"><a href="https://experienceleague.adobe.com/docs/experience-platform/destinations/destination-sdk/overview.html?lang=ja" style="color:#0563c1; text-decoration:underline">RTCDP - Destination SDK</a></span></span></span></p>
 </td>
 <td style="background-color:#e8eeff; border-bottom:1px solid white; border-left:none; border-right:1px solid white; border-top:none; height:39px; vertical-align:top; width:467px">
 <ul style="list-style-type:square">
-<li><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">RTCDP の宛先で、カスタマイズした宛先カードを設定します。</span></span></span></li>
+<li><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">RTCDP の宛先で、カスタマイズした宛先カードを設定。</span></span></span></li>
 <li><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">ファイルおよびストリーミングタイプの宛先をサポート</span></span></span></li>
 </ul>
 </td>
@@ -173,11 +173,11 @@ ht-degree: 76%
 </tr>
 <tr>
 <td style="background-color:#cddbff; border-bottom:1px solid white; border-left:1px solid white; border-right:1px solid white; border-top:none; height:39px; vertical-align:top; width:240px">
-<p><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black"><a href="https://experienceleague.adobe.com/docs/experience-platform/profile/api/entities.html?lang=ja" style="color:#0563c1; text-decoration:underline">RTCDP — プロファイルルックアップハブ API</a></span></span></span></p>
+<p><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black"><a href="https://experienceleague.adobe.com/docs/experience-platform/profile/api/entities.html?lang=ja" style="color:#0563c1; text-decoration:underline">RTCDP - Profile Lookup Hub API</a></span></span></span></p>
 </td>
 <td style="background-color:#cddbff; border-bottom:1px solid white; border-left:none; border-right:1px solid white; border-top:none; height:39px; vertical-align:top; width:467px">
 <ul style="list-style-type:square">
-<li><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">プロファイルにアクセスして、サポートやセールスエージェントのインタラクションなど、エージェントが支援するエクスペリエンスのための消費者エクスペリエンスを強化します。</span></span></span></li>
+<li><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">プロファイルにアクセスして、サポートやセールス担当者のインタラクションなど、担当者が支援するエクスペリエンスの消費者エクスペリエンスを強化。</span></span></span></li>
 </ul>
 </td>
 <td style="background-color:#cddbff; border-bottom:1px solid white; border-left:none; border-right:1px solid white; border-top:none; height:39px; vertical-align:top; width:144px">
@@ -189,17 +189,17 @@ ht-degree: 76%
 </td>
 <td style="background-color:#cddbff; border-bottom:1px solid white; border-left:none; border-right:1px solid white; border-top:none; height:39px; vertical-align:top; width:282px">
 <ul style="list-style-type:square">
-<li><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">ハブ参照は、500 ミリ秒以上の使用例にのみ最適です。</span></span></span></li>
+<li><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">ハブ参照は 500 ms 以上のユースケースにのみ最適</span></span></span></li>
 </ul>
 </td>
 </tr>
 <tr>
 <td style="background-color:#e8eeff; border-bottom:1px solid white; border-left:1px solid white; border-right:1px solid white; border-top:none; height:27px; vertical-align:top; width:240px">
-<p><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">RTCDP — プロファイルルックアップエッジ API*ベータ版</span></span></span></p>
+<p><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">RTCDP - Profile Lookup Edge API* ベータ版</span></span></span></p>
 </td>
 <td style="background-color:#e8eeff; border-bottom:1px solid white; border-left:none; border-right:1px solid white; border-top:none; height:27px; vertical-align:top; width:467px">
 <ul style="list-style-type:square">
-<li><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">エッジ上のプロファイルにアクセスして、パーソナライゼーションや、Web およびモバイルに関するオファーの決定など、200 ミリ秒以内のリアルタイムのエクスペリエンスに対して消費者エクスペリエンスを強化します。</span></span></span></li>
+<li><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">エッジ上のプロファイルにアクセスして、パーソナライゼーションや web およびモバイルに関するオファーの決定など、200 ms 以内のリアルタイムのエクスペリエンスに対して消費者エクスペリエンスを強化。</span></span></span></li>
 </ul>
 </td>
 <td style="background-color:#e8eeff; border-bottom:1px solid white; border-left:none; border-right:1px solid white; border-top:none; height:27px; vertical-align:top; width:144px">
@@ -211,7 +211,7 @@ ht-degree: 76%
 </td>
 <td style="background-color:#e8eeff; border-bottom:1px solid white; border-left:none; border-right:1px solid white; border-top:none; height:27px; vertical-align:top; width:282px">
 <ul style="list-style-type:square">
-<li><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">リアルタイムエクスペリエンスおよびサーバー間統合の場合</span></span></span></li>
+<li><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">リアルタイムのエクスペリエンスおよびサーバー間統合の場合</span></span></span></li>
 </ul>
 </td>
 </tr>
@@ -221,7 +221,7 @@ ht-degree: 76%
 </td>
 <td style="background-color:#cddbff; border-bottom:1px solid white; border-left:none; border-right:1px solid white; border-top:none; height:39px; vertical-align:top; width:467px">
 <ul style="list-style-type:square">
-<li><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">外部システムに通知する 1:1 ジャーニーイベントとトリガーのアクティブ化。 買い物かごの放棄、アプリケーションの放棄、登録。</span></span></span></li>
+<li><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">外部システムに通知する 1 対 1 のジャーニーイベントとトリガーのアクティベーション。買い物かごの放棄、アプリケーションの放棄、登録。</span></span></span></li>
 </ul>
 </td>
 <td style="background-color:#cddbff; border-bottom:1px solid white; border-left:none; border-right:1px solid white; border-top:none; height:39px; vertical-align:top; width:144px">
@@ -233,7 +233,7 @@ ht-degree: 76%
 </td>
 <td style="background-color:#cddbff; border-bottom:1px solid white; border-left:none; border-right:1px solid white; border-top:none; height:39px; vertical-align:top; width:282px">
 <ul style="list-style-type:square">
-<li><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">特定のプロファイルに対する単一イベントのアクティブ化。 集計または一括操作用ではありません</span></span></span></li>
+<li><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">特定のプロファイルに対する単一イベントのアクティベーション。集計または一括操作向きではない</span></span></span></li>
 </ul>
 </td>
 </tr>
@@ -246,15 +246,15 @@ ht-degree: 76%
 <tbody>
 <tr>
 <td colspan="4" style="background-color:#308fff; border-bottom:4px solid white; border-left:1px solid white; border-right:1px solid white; border-top:1px solid white; height:39px; vertical-align:top; width:1132px">
-<p><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><strong><span style="color:black">バッチ保存先</span></strong></span></span></p>
+<p><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><strong><span style="color:black">バッチの宛先</span></strong></span></span></p>
 </td>
 </tr>
 <tr>
 <td style="background-color:#969696; border-bottom:1px solid white; border-left:1px solid white; border-right:1px solid white; border-top:none; height:39px; vertical-align:top; width:245px">
-<p><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">メソッド</span></span></span></p>
+<p><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">方法</span></span></span></p>
 </td>
 <td style="background-color:#969696; border-bottom:1px solid white; border-left:none; border-right:1px solid white; border-top:none; height:39px; vertical-align:top; width:462px">
-<p><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">一般的な使用例</span></span></span></p>
+<p><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">一般的なユースケース</span></span></span></p>
 </td>
 <td style="background-color:#969696; border-bottom:1px solid white; border-left:none; border-right:1px solid white; border-top:none; height:39px; vertical-align:top; width:144px">
 <p><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">プロトコル</span></span></span></p>
@@ -265,11 +265,11 @@ ht-degree: 76%
 </tr>
 <tr>
 <td style="background-color:#e8eeff; border-bottom:1px solid white; border-left:1px solid white; border-right:1px solid white; border-top:none; height:39px; vertical-align:top; width:245px">
-<p><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black"><a href="https://experienceleague.adobe.com/docs/experience-platform/data-access/api.html?lang=en" style="color:#0563c1; text-decoration:underline">データアクセス API</a></span></span></span></p>
+<p><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black"><a href="https://experienceleague.adobe.com/docs/experience-platform/data-access/api.html?lang=ja" style="color:#0563c1; text-decoration:underline">データアクセス API</a></span></span></span></p>
 </td>
 <td style="background-color:#e8eeff; border-bottom:1px solid white; border-left:none; border-right:1px solid white; border-top:none; height:39px; vertical-align:top; width:462px">
 <ul style="list-style-type:square">
-<li><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">データサイエンスの生データへのアクセスと、ワークフロー外での MLExperience Platform。</span></span></span></li>
+<li><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">Experience Platform 外のデータサイエンスおよび ML ワークフローの未処理データへのアクセス。</span></span></span></li>
 </ul>
 </td>
 <td style="background-color:#e8eeff; border-bottom:1px solid white; border-left:none; border-right:1px solid white; border-top:none; height:39px; vertical-align:top; width:144px">
@@ -281,7 +281,7 @@ ht-degree: 76%
 </td>
 <td style="background-color:#e8eeff; border-bottom:1px solid white; border-left:none; border-right:1px solid white; border-top:none; height:39px; vertical-align:top; width:281px">
 <ul style="list-style-type:square">
-<li><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">使用可能なデータセットにパケットファイルにアクセスして処理するには、開発プロセスが必要</span></span></span></li>
+<li><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">使用可能なデータセットに parquet ファイルにアクセスして処理するには、開発プロセスが必要</span></span></span></li>
 </ul>
 </td>
 </tr>
@@ -291,7 +291,7 @@ ht-degree: 76%
 </td>
 <td style="background-color:#cddbff; border-bottom:1px solid white; border-left:none; border-right:1px solid white; border-top:none; height:39px; vertical-align:top; width:462px">
 <ul style="list-style-type:square">
-<li><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">集計されたインサイトとレポートに対して、データセットのクエリ結果を保持します。 </span></span></span></li>
+<li><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">集計されたインサイトとレポートに対して、データセットのクエリ結果を保持。 </span></span></span></li>
 </ul>
 </td>
 <td style="background-color:#cddbff; border-bottom:1px solid white; border-left:none; border-right:1px solid white; border-top:none; height:39px; vertical-align:top; width:144px">
@@ -303,18 +303,18 @@ ht-degree: 76%
 </td>
 <td style="background-color:#cddbff; border-bottom:1px solid white; border-left:none; border-right:1px solid white; border-top:none; height:39px; vertical-align:top; width:281px">
 <ul style="list-style-type:square">
-<li><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">集計データのみ。 10 分のクエリ制限。</span></span></span></li>
+<li><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">集計データのみ。10 分のクエリ制限。</span></span></span></li>
 </ul>
 </td>
 </tr>
 <tr>
 <td style="background-color:#e8eeff; border-bottom:1px solid white; border-left:1px solid white; border-right:1px solid white; border-top:none; height:39px; vertical-align:top; width:245px">
-<p><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black"><a href="https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html?lang=en" style="color:#0563c1; text-decoration:underline">データセットエクスポート*ベータ版</a></span></span></span></p>
+<p><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black"><a href="https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html?lang=ja" style="color:#0563c1; text-decoration:underline">データセット書き出し* ベータ版</a></span></span></span></p>
 </td>
 <td style="background-color:#e8eeff; border-bottom:1px solid white; border-left:none; border-right:1px solid white; border-top:none; height:39px; vertical-align:top; width:462px">
 <ul style="list-style-type:square">
-<li><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">外部のレポート、分析、データサイエンスツールで使用するExperience Platformイベントデータを書き出します。 </span></span></span></li>
-<li><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">外部レポート、分析、データサイエンスツール用に、集計されたプロファイルインサイトとオーディエンスメンバーシップのエクスポート。 </span></span></span></li>
+<li><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">外部のレポート、分析、データサイエンスツールで使用する Experience Platform イベントデータを書き出し。 </span></span></span></li>
+<li><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">外部のレポート、分析、データサイエンスツール用に、集計されたプロファイルインサイトとオーディエンスメンバーシップの書き出し。 </span></span></span></li>
 </ul>
 </td>
 <td style="background-color:#e8eeff; border-bottom:1px solid white; border-left:none; border-right:1px solid white; border-top:none; height:39px; vertical-align:top; width:144px">
@@ -326,7 +326,7 @@ ht-degree: 76%
 </td>
 <td style="background-color:#e8eeff; border-bottom:1px solid white; border-left:none; border-right:1px solid white; border-top:none; height:39px; vertical-align:top; width:281px">
 <ul style="list-style-type:square">
-<li><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">現在ベータ版で、データセットタイプのサブセットから始まります。</span></span></span></li>
+<li><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">現在ベータ版で、データセットタイプのサブセットから開始。</span></span></span></li>
 </ul>
 </td>
 </tr>
