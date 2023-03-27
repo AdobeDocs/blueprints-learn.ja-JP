@@ -16,7 +16,7 @@ ht-degree: 100%
 
 ## Adobe Experience Cloud マーケテクチャ
 
-以下の図に、Adobe Experience Platform の基盤上に構築および統合された、データインサイトとオーディエンス、コンテンツとコマース、カスタマージャーニー、およびマーケティングワークフローにわたる Adobe Experience Cloud のさまざまなコンポーネントを示します。
+以下の図に、Adobe Experience Platform の基盤上に構築および統合された、データインサイトとオーディエンス、コンテンツとコマース、カスタマージャーニー、およびマーケティングワークフローにわたる Adobe Experience Cloud の様々なコンポーネントを示します。
 
 <img src="assets/AEC.jpg" alt="Experience Cloud の概要" style="width:95%; border:1px solid #4a4a4a; margin-bottom: 15px;" class="modal-image" />
 
