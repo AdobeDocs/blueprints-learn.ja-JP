@@ -2,14 +2,14 @@
 title: Web／Mobile パーソナライズ機能の概要- Adobe Target と RTCDP
 description: Web パーソナライズ機能を電子メールおよびその他の既知および匿名のチャネルパーソナライズ機能と同期します。
 landing-page-description: Web パーソナライズ機能を電子メールおよびその他の既知および匿名のチャネルパーソナライズ機能と同期します。
-short-description: Synchronize web personalization with email and other known and anonymous channel personalization.
+short-description: Web パーソナライズ機能を電子メールおよびその他の既知および匿名のチャネルパーソナライズ機能と同期します。
 solution: Real-time Customer Data Platform, Target, Audience Manager, Analytics, Experience Cloud Services, Data Collection, Experience Platform
 kt: 7194
 thumbnail: thumb-web-personalization-scenario2.jpg
 exl-id: 29667c0e-bb79-432e-af3a-45bd0b3b43bb
 source-git-commit: 3a6a98eded28baee2cbb44de2262bbd580fa0c94
-workflow-type: ht
-source-wordcount: '1630'
+workflow-type: tm+mt
+source-wordcount: '1642'
 ht-degree: 100%
 
 ---
