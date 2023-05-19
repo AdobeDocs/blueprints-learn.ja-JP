@@ -5,10 +5,10 @@ solution: Experience Platform, Campaign, Analytics, Target, Customer Journey Ana
 kt: 7199
 thumbnail: null
 exl-id: 9b12cd7a-5e5f-443a-91a1-44273cdabc2d
-source-git-commit: 545cfee625e4baff679f6ccc9ae49e3c35fcc559
-workflow-type: ht
-source-wordcount: '989'
-ht-degree: 100%
+source-git-commit: 478a9bf0449e7953d527b5a54580f8eec7a7c30f
+workflow-type: tm+mt
+source-wordcount: '998'
+ht-degree: 99%
 
 ---
 
@@ -19,6 +19,10 @@ ht-degree: 100%
 このアーキテクチャ図に、Adobe Experience Platform が Adobe Experience Cloud アプリケーションおよびアプリケーションサービスとどのように関わっているかを示します。
 
 <img src="assets/aep+apps.svg" alt="Experience Platform およびアプリケーション" style="border:1px solid #4a4a4a; width:90%; margin-bottom: 15px;" class="modal-image" />
+
+## Adobe Experience Platform &amp; Applications の概要図
+
+<img src="assets/aep+apps_overview.svg" alt="Experience Platform およびアプリケーション" style="border:1px solid #4a4a4a; width:90%; margin-bottom: 15px;" class="modal-image" />
 
 ## Adobe Experience Platform およびアプリケーションの詳細アーキテクチャ図
 
