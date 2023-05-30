@@ -3,10 +3,10 @@ title: Journey Optimizer - サードパーティメッセージングのブル�
 description: Adobe Journey Optimizer をサードパーティのメッセージングシステムと併用して、パーソナライズされた通信を調整および送信する方法を示します。
 solution: Journey Optimizer
 exl-id: 3a14fc06-6d9c-4cd8-bc5c-f38e253d53ce
-source-git-commit: 5110ee2a7a079945475055cbcfdabf7cdcaa0ab5
-workflow-type: ht
+source-git-commit: 342b039e62ff3a8fc8a42cf292f4fc28781c21de
+workflow-type: tm+mt
 source-wordcount: '823'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -112,7 +112,12 @@ Adobe Experience Platform
    * IDEdge ネットワーク用
    * モバイルコア
 1. モバイルアプリデプロイメント用と web デプロイメント用の専用のデータストリームがあることを確認
-1. 詳しくは、[Adobe Journey Optimizer Mobile ガイド](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-journey-optimizer)を参照
+1. 詳しくは、[Adobe Journey Optimizer Mobile ガイド](https://developer.adobe.com/client-sdks/documentation/mobile-foundation-extensions/)を参照
+
+<!--
+This step with a broken link was replaced by above step.
+1. For more information follow the [Adobe Journey Optimizer Mobile Guide](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-journey-optimizer)
+-->
 
 <br>
 
