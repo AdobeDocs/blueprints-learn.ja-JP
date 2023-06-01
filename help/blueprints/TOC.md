@@ -5,10 +5,10 @@ user-guide-description: ブループリントは、既存のビジネス上の�
 product: adobe experience platform
 mini-toc-levels: 3
 role: Architect, Developer, User
-source-git-commit: 374f3afa12611b21121e9bfe2fd906342ba1ea4f
-workflow-type: ht
-source-wordcount: '250'
-ht-degree: 100%
+source-git-commit: 079c2e6deeeea0ede0f71a8bdda7e9b9f4d9084c
+workflow-type: tm+mt
+source-wordcount: '256'
+ht-degree: 97%
 
 ---
 
@@ -74,6 +74,7 @@ ht-degree: 100%
       + [Journey Optimizer と Adobe Campaign v7](/help/blueprints/customer-journeys/ajo-and-campaign-v7.md)
 + データ収集、アクセスおよび書き出し {#data-ingestion}
    + [概要](/help/blueprints/data-ingestion/overview.md)
+   + [マルチサンドボックスイベント転送のデータ収集](/help/blueprints/data-ingestion/multi-sandbox-event-forwarding.md)
    + [データの準備と取り込み](/help/blueprints/data-ingestion/ingestion.md)
    + [データのアクセスおよび書き出し](/help/blueprints/data-ingestion/egress.md)
    + [イベント転送](/help/blueprints/data-ingestion/server-side-collection.md)
