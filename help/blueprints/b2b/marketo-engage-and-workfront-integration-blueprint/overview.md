@@ -2,9 +2,9 @@
 title: Marketo EngageとWorkfront統合のブループリントの概要
 description: 概要 —Marketo EngageとWorkfront統合のブループリントの概要
 exl-id: c1da95d0-0649-4e69-aade-3ddcb89d2d31
-source-git-commit: 85e3c9060ebbffcab73ee9621f610df1c8ff5bcb
+source-git-commit: d5220e5550aa8c7e3b13996dd3d4279ba8403435
 workflow-type: tm+mt
-source-wordcount: '1774'
+source-wordcount: '1769'
 ht-degree: 96%
 
 ---
@@ -147,11 +147,9 @@ Workfront と Marketo Engage がキャンペーン開発サプライチェーン
 
 ### Workfront Fusion、Workfront および Marketo Engage 統合の概要 {#getting-started-with-workfront-fusion}
 
-* [取り込みと作成](/help/blueprints/b2b/campaign-supply-chain/intake-and-create.md){target="_blank"} - Marketo Engage と Workfront を使用したキャンペーン開発の自動化
+* [取り込みと作成](/help/blueprints/b2b/marketo-engage-and-workfront-integration-blueprint/intake-and-create.md){target="_blank"} - Marketo Engage と Workfront を使用したキャンペーン開発の自動化
 
 * 確認と承認（近日公開）
-
-* レポートと監査（近日公開）
 
 ### Marketo Engage キャンペーン名と関連 URL の管理 {#managing-marketo-engage-campaign-names}
 
