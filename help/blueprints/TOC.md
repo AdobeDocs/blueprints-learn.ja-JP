@@ -5,10 +5,10 @@ user-guide-description: ブループリントは、既存のビジネス上の�
 product: adobe experience platform
 mini-toc-levels: 3
 role: Architect, Developer, User
-source-git-commit: 079c2e6deeeea0ede0f71a8bdda7e9b9f4d9084c
+source-git-commit: 85e3c9060ebbffcab73ee9621f610df1c8ff5bcb
 workflow-type: tm+mt
-source-wordcount: '256'
-ht-degree: 97%
+source-wordcount: '255'
+ht-degree: 95%
 
 ---
 
@@ -43,10 +43,10 @@ ht-degree: 97%
 + B2B アクティベーションとマーケティング {#b2b-activation}
    + [概要](/help/blueprints/b2b/overview.md)
    + [B2B アクティベーション](/help/blueprints/b2b/b2bactivation.md)
-   + Marketo と Workfront を使用したキャンペーンサプライチェーン {#optimize-campaign-supply-chain-with-marketo-and-workfront}
-      + [概要](/help/blueprints/b2b/campaign-supply-chain/overview.md)
-      + [取り込みと作成](/help/blueprints/b2b/campaign-supply-chain/intake-and-create.md)
-      + [顧客の成功事例](/help/blueprints/b2b/campaign-supply-chain/customer-success-stories.md)
+   + Marketo EngageとWorkfront統合ブループリント{#marketo-engage-and-workfront-integration-blueprint}
+      + [概要](/help/blueprints/b2b/marketo-engage-and-workfront-integration-blueprint/overview.md)
+      + [取り込みと作成](/help/blueprints/b2b/marketo-engage-and-workfront-integration-blueprint/intake-and-create.md)
+      + [顧客の成功事例](/help/blueprints/b2b/marketo-engage-and-workfront-integration-blueprint/customer-success-stories.md)
 + Customer Journey Analytics{#customer-journey-analytics}
    + [概要](/help/blueprints/customer-journey-analytics/overview.md)
    + [CJA オーディエンスを RTCDP に共有する](/help/blueprints/customer-journey-analytics/cja-rtcdp.md)
