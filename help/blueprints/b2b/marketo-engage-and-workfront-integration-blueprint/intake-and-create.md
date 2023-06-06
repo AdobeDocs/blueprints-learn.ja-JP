@@ -2,7 +2,7 @@
 title: 取り込みと作成のブループリント
 description: 取り込みと作成 —Marketo EngageとWorkfront統合のブループリント
 exl-id: 09679521-727c-4676-8e91-23d0b7fd54a2
-source-git-commit: 85e3c9060ebbffcab73ee9621f610df1c8ff5bcb
+source-git-commit: c4ab702cafa0dcacc4b3919bf70af0c50fa6bea8
 workflow-type: tm+mt
 source-wordcount: '1329'
 ht-degree: 99%
@@ -26,7 +26,7 @@ Workfront と Marketo Engage を使用すると、システム間接続により
 
 >[!TIP]
 >
->マーケティングキャンペーンの作業の整理に使用される Workfront の様々なタイプのオブジェクトと、Marketo Engage プログラムへのマッピング方法について詳しくは、[Marketo と Workfront の概要](/help/blueprints/b2b/campaign-supply-chain/overview.md){target="_blank"}をご覧ください。
+>マーケティングキャンペーンの作業の整理に使用される Workfront の様々なタイプのオブジェクトと、Marketo Engage プログラムへのマッピング方法について詳しくは、[Marketo と Workfront の概要](/help/blueprints/b2b/marketo-engage-and-workfront-integration-blueprint/overview.md){target="_blank"}をご覧ください。
 
 ## 自動化のためのキャンペーン開発プロセスを準備 {#prepare-your-campaign-development-process-for-automation}
 
@@ -158,4 +158,4 @@ Workfront リクエストから新しい Marketo Engage プログラムの作成
 
 * [Adobe Workfront モジュール](https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-fusion/fusion-apps-and-modules/workfront-modules.html?lang=ja){target="_blank"}
 
-* [Marketo と Workfront の概要](/help/blueprints/b2b/campaign-supply-chain/overview.md){target="_blank"}
+* [Marketo と Workfront の概要](/help/blueprints/b2b/marketo-engage-and-workfront-integration-blueprint/overview.md){target="_blank"}
