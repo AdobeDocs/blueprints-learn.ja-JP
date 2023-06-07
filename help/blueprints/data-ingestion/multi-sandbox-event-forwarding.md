@@ -1,64 +1,65 @@
 ---
-title: マルチサンドボックスイベント転送のデータコレクションブループリント
-description: Experience PlatformWeb および Mobile SDK で収集されたデータを、単一のイベントを収集し、複数の AEP サンドボックスに転送するように設定する方法について説明します。
+title: マルチサンドボックスイベント転送のデータ収集
+description: Experience PlatformWeb および Mobile SDK で収集されたデータを、単一のイベントを収集し、複数のExperience Platformサンドボックスに転送するように設定する方法について説明します。
 solution: Data Collection
 kt: 7202
-source-git-commit: 3410adfd978de2458d257de96a7e484997f268db
+source-git-commit: e9a9abeaa722bb2f9a232f4e861b1b5eae86edd1
 workflow-type: tm+mt
-source-wordcount: '835'
-ht-degree: 10%
+source-wordcount: '819'
+ht-degree: 4%
 
 ---
 
 
-# マルチサンドボックスイベント転送のデータコレクションブループリント
+# マルチサンドボックスイベント転送のデータ収集
 
-このブループリントは、Experience Platformの Web および Mobile SDK で収集されたデータを、単一のイベントを収集し、複数の AEP サンドボックスに転送するように設定する方法を示します。 このブループリントは、イベント転送を使用してこの目標を達成するマルチサンドボックスデータ収集の具体的な使用例です。
+このブループリントは、Experience Platformの Web および Mobile SDK で収集されたデータを、単一のイベントを収集し、複数の AEP サンドボックスに転送するように設定する方法を示します。 このブループリントは、を使用するマルチサンドボックスデータコレクションに固有です。 [!UICONTROL イベント転送] この目標を達成するために
 
-イベント転送機能を使用したイベントのレプリケーションに加えて、他のサンドボックスの要件を満たす、収集された元のデータの追加、フィルタリングまたは操作をおこなうことができます。
+イベントを [!UICONTROL イベント転送] 機能を使用すると、他のサンドボックスの要件を満たす、収集された元のデータに対して、追加、フィルタリングまたは操作をおこなうことができます。
 
-イベント転送は、データ要件に必要なデータ要素、ルール、拡張機能を含む個別のプロパティを使用します。 受信イベントを使用すると、イベント転送プロパティでデータを収集し、転送の前に必要に応じて管理できます。
+[!UICONTROL イベント転送] は、 [!UICONTROL データ要素], [!UICONTROL ルール]、および [!UICONTROL 拡張機能] データ要件に応じて必要です。 受信イベントの場合、 [!UICONTROL イベント転送] プロパティは、転送の前に、必要に応じてデータを収集し、管理できます。
 
-宛先サンドボックスには、Cloud Connector 拡張機能で使用される HTTP ストリーミングエンドポイントが設定されている必要があります。Adobe
+宛先サンドボックスには、Adobeが使用する HTTP ストリーミングエンドポイントが設定されている必要があります [!UICONTROL クラウドコネクタ] 拡張子。
 
 ## ユースケース
 
-* グローバルデータレポート — 複数のサンドボックスを使用して操作環境を分離し、クロスサンドボックスレポート用にデータ収集を 1 つのサンドボックスに統合する必要がある場合。イベント転送を通じてレポートサンドボックスに Experience Edge イベントをルーティングすると、各サンドボックス操作環境は、リアルタイムで収集されたデータをレポートサンドボックスに送信できます
+* グローバルデータレポート — 複数のサンドボックスを使用して操作環境を分離し、クロスサンドボックスレポートのためにデータ収集を 1 つのサンドボックスに統合する必要がある場合。 経由での Experience Edge イベントのルーティング [!UICONTROL イベント転送] レポートサンドボックスに追加すると、各サンドボックス操作環境は、リアルタイムで収集されたデータをレポートサンドボックスに送信できます。
+
 * サンドボックスの操作環境ごとに異なるデータルールに基づいて、サンドボックス全体のデータ収集を管理します。
 
 ## アプリケーション
 
-* Adobe Experience Platform のデータ収集
-* イベント転送
-* AEP 拡張機能
-* Cloud Connector 拡張機能
+* [!DNL Experience Platform] データ収集
+* [!UICONTROL イベント転送]
+* AEP [!UICONTROL 拡張]
+* [!UICONTROL Cloud Connector 拡張機能]
 
 ## 注意点
 
-イベント転送を複数のサンドボックスにデータを送信するアプローチとして使用すると、ソリューションアーキテクチャで考慮する必要がある考慮事項があります。
+を使用 [!UICONTROL イベント転送] データを複数のサンドボックスに送信するアプローチとして、ソリューションアーキテクチャで考慮する必要がある考慮事項があります。
 
 ### HIPAA データがありません
 
-イベント転送は、HIPAA 対応とは見なされません。HIPAA データが収集される HIPAA の使用例では、この設定を使用しないでください。 ただし、イベント転送に使用されるインフラストラクチャは HIPAA 対応と見なされ、お客様の裁量によるものとします。 イベント転送タグのプロパティはイベント転送システムに存在しますが、収集されたデータペイロード全体がイベント転送システムに送信されて処理されます。 HIPAA の使用例に関してイベント転送をおこなうのは、このプロセスです。 ペイロード全体がイベント転送システムに出荷された場合、これには HIPAA 値が含まれます。 イベント転送のルールによって、宛先に送信する前にそのデータがフィルタリングされますが、HIPAA 対応のインフラストラクチャ以外に HIPAA データが送信されます。 ただし、ペイロードデータは保存されず、単にパススルーになります。
+[!UICONTROL イベント転送] は HIPAA Ready とは見なされず、HIPAA データが収集される HIPAA の使用例では使用しないでください。 ただし、 [!UICONTROL イベント転送] は HIPAA 対応と見なされ、お客様の裁量にのみ従います。 その間、 [!UICONTROL イベント転送] タグプロパティは、 [!UICONTROL イベント転送] システムでは、収集されたデータペイロード全体が [!UICONTROL イベント転送] 処理するシステム。 このプロセスが [!UICONTROL イベント転送] HIPAA の使用例に関する情報を含む ) ペイロード全体が [!UICONTROL イベント転送] システムの場合は、HIPAA 値も含まれます。 ただし、 [!UICONTROL イベント転送] ルールは、宛先に送信する前に、HIPAA 対応のインフラストラクチャ以外に HIPAA 対応のインフラストラクチャに送信されるデータをフィルタリングします。 ただし、ペイロードデータは保存されず、単にパススルーになります。
 
 ### 異なるデータストリームとストリーミングエンドポイント
 
-データが Platform Edge ネットワークからデータストリームを流れるので、イベント転送を別の AEP サンドボックスに使用する場合、元のコレクションを作成するデータストリームと同じデータストリームまたはストリーミングエンドポイントを使用しないでください。 これは、AEP インスタンスに悪影響を与え、DoS の状況が発生する可能性があります。
+データが [!UICONTROL Platform Edge Network]を使用する場合 [!UICONTROL イベント転送] 別の AEP サンドボックスに対しては、元のコレクションを作成するデータストリームと同じデータストリームまたはストリーミングエンドポイントを使用しないでください。 これは、AEP インスタンスに悪影響を与え、DoS の状況が発生する可能性があります。
 
 ### 推定トラフィック量
 
-トラフィック量は、各使用例での確認に必要です。 ボリュームが多いとスロットルが発生する可能性があるので、この処理は重要です。この場合は、お客様に通知されます。
+トラフィック量は、各使用例での確認に必要です。 ボリュームが多いとスロットル状況が発生し、これが発生すると顧客に通知されるので、これは重要です。
 
 ## アーキテクチャ
 
-![マルチサンドボックスイベント転送](assets/multi-sandbox-data-collection.png)
+![マルチサンドボックス [!UICONTROL イベント転送]](assets/multi-sandbox-data-collection.png)
 
-1. イベント転送を使用するには、イベントデータを収集して Platform Edge ネットワークに送信する必要があります。 お客様は、クライアント側のAdobeタグや、サーバー間データ収集用の Platform Edge Network Server API を使用できます。 Platform Edge Network API は、サーバー間収集機能を提供できます。 ただし、この実装には別のプログラミングモデルが必要です。参照： [Edge Network Server API の概要](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/overview.html?lang=en)
+1. イベントデータを収集し、 [!UICONTROL Platform Edge Network] は、 [!UICONTROL イベント転送]. お客様は、Adobeタグをクライアント側または [!UICONTROL Platform Edge Network Server API] （サーバー間データ収集用） この [!UICONTROL Platform Edge Network API] は、サーバー間収集機能を提供します。 ただし、実装には別のプログラミングモデルが必要です。 参照： [Edge Network Server API の概要](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/overview.html?lang=en).
 
-1. 収集されたペイロードは、タグ実装から Platform Edge ネットワークにイベント転送サービスに送信され、独自のデータ要素、ルール、アクションで処理されます。 の違いについて詳しくは、 [タグとイベントの転送](https://experienceleague.adobe.com/docs/experience-platform/tags/event-forwarding/overview.html?lang=en#differences-from-tags).
+1. 収集されたペイロードは、タグ実装から [!UICONTROL Platform Edge Network] から [!UICONTROL イベント転送] 独自に処理された [!UICONTROL データ要素], [!UICONTROL ルール] および [!UICONTROL アクション]. の違いについて詳しくは、 [タグと [!UICONTROL イベント転送]](https://experienceleague.adobe.com/docs/experience-platform/tags/event-forwarding/overview.html?lang=en#differences-from-tags).
 
-1. 収集されたイベントデータを Platform Edge ネットワークから受け取るには、イベント転送プロパティも必要です。 デプロイ済みのタグ実装またはサーバー間コレクションによって、イベントデータが Platform Edge ネットワークに送信されたかどうか。 作成者は、2 番目のサンドボックスに転送する前にイベントデータをエンリッチメントするために使用するデータ要素、ルール、アクションを定義します。 カスタムコードの JavaScript データ要素を使用して、サンドボックス取り込み用のデータを構造化するのに役立つことを検討してください。 AEP Data Prep 機能と組み合わせて、データ構造を管理するためのいくつかのオプションがあります。
+1. An [!UICONTROL イベント転送] プロパティが [!UICONTROL Platform Edge Network]. デプロイ済みのタグ実装またはサーバー間コレクションによって、イベントデータが Platform Edge ネットワークに送信されたかどうか。 作成者は、2 番目のサンドボックスに転送する前にイベントデータをエンリッチメントするために使用するデータ要素、ルール、アクションを定義します。 カスタムコードの使用を検討する [!DNL JavaScript] データ要素を使用して、サンドボックス取り込み用のデータを構造化するのに役立てます。 Platform のデータ準備機能と組み合わせて、データ構造を管理するためのいくつかのオプションがあります。
 
-1. 現在、イベント転送プロパティ内で、Adobeクラウドコネクタ拡張機能を使用する必要があります。 ルールがイベントデータを処理またはエンリッチメントすると、Cloud Connector は、2 番目のサンドボックスにペイロードを送信するPOST用に設定された Fetch Call 内で使用されます
+1. 現在、Adobe [!UICONTROL Cloud Connector 拡張機能] は、 [!UICONTROL イベント転送] プロパティ。 ルールがイベントデータを処理またはエンリッチメントすると、Cloud Connector は、2 番目のサンドボックスにペイロードを送信するPOST用に設定されたフェッチ呼び出し内で使用されます
 
-1. 2 番目のサンドボックスには、データ取り込みのストリーミングエンドポイントが必要です。 また、AEP で Data Prep 機能を検討して、イベント転送ペイロードの XDM への取り込みとマッピングに役立てることもできます。 AEP ドキュメントの作成を参照してください。 [UI を使用した HTTP API ストリーミング接続](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/streaming/http.html?lang=ja)
+1. 2 番目のサンドボックスには、データ取り込みのストリーミングエンドポイントが必要です。 また、AEP でのデータ準備機能を検討して、の取り込みとマッピングに役立てることもできます。 [!UICONTROL イベント転送] XDM へのペイロード。 AEP ドキュメントの作成を参照してください。 [UI を使用した HTTP API ストリーミング接続](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/streaming/http.html?lang=ja)
