@@ -32,29 +32,29 @@ ht-degree: 40%
 | カテゴリ | 目標 | 使用例 | 説明 |
 |:----|:----|:----|:----|
 | カスタマージャーニー | 獲得 | ようこそシリーズ | 新規の購読者に、ビジネス、製品およびサービスの紹介を歓迎します |
-|  |  | 第 1 回購入プログラム |  |
-|  | セールス向上 | 放棄された買い物かご/参照 | 見込み購入者の回復と売上の促進 |
-|  |  | 製品レビュー/クロス販売 | 製品レビューを含む、より多くの品目をクロス販売します。 |
-|  |  | 製品のプロモーション |  |
-|  |  | 並べ替え時間 | 定期的な製品/サービスの定期的なリマインダー |
-|  | ブランドの忠誠度 | 戻る | 非アクティブになった顧客を回復します。 |
-|  |  | 誕生日のリマインダー | 誕生日祝いの一環として、お客様とのより個人的な関係を育ててください。 |
+| | | 第 1 回購入プログラム | |
+| | セールス向上 | 放棄された買い物かご/参照 | 見込み購入者の回復と売上の促進 |
+| | | 製品レビュー/クロス販売 | 製品レビューを含む、より多くの品目をクロス販売します。 |
+| | | 製品のプロモーション |  |
+| | | 並べ替え時間 | 定期的な製品/サービスの定期的なリマインダー |
+| | ブランドの忠誠度 | 戻る | 非アクティブになった顧客を回復します。 |
+| | | 誕生日のリマインダー | 誕生日祝いの一環として、お客様とのより個人的な関係を育ててください。 |
 | マーチャンダイジング | 在庫の管理 | 在庫に戻る | 希望する製品が在庫に戻ったことを顧客に示し、在庫を改善する |
-|  |  | 次に最適なカテゴリ | ユーザーに最適なカテゴリ/販売を特定する |
-|  |  | ベストセラー |  |
-|  |  | 価格下落リマインダー | 気に入った品目の価格が下がったことをユーザーに示す |
-|  |  | 類似製品 |  |
+| | | 次に最適なカテゴリ | ユーザーに最適なカテゴリ/販売を特定する |
+| | | ベストセラー | |
+| | | 価格下落リマインダー | 気に入った品目の価格が下がったことをユーザーに示す |
+| | | 類似製品 |  |
 | パーソナライズ | コンバージョンを増やす | クーポン/オファー | 顧客に対する最高のオファー/クーポンを表示 |
-|  |  | パーソナライズされた製品検索 | 検索エクスペリエンスの向上 |
-|  |  | 製品Recommendations | 製品の閲覧操作の向上 |
-|  |  | オムニチャネルエクスペリエンス | すべてのチャネルをまたいで顧客にリーチ |
+| | | パーソナライズされた製品検索 | 検索エクスペリエンスの向上 |
+| | | 製品Recommendations | 製品の閲覧操作の向上 |
+| | | オムニチャネルエクスペリエンス | すべてのチャネルをまたいで顧客にリーチ |
 | 測定 | 顧客ジャーニー | クロスチャネルキャンペーン | クロスチャネルキャンペーンの測定 |
-|  |  | セグメントの効果 | セグメントのパフォーマンスと貢献度の理解 |
-|  |  | フォールアウトレポート | 各段階でのコンバージョンの視覚化 |
-|  |  | コホート分析 | セグメントグループ間のエンゲージメントを測定 |
-|  |  | クリックトゥブリックレポート | 顧客コンバージョンが店舗内エクスペリエンスにどのように結び付くかを確認する |
-|  |  | 帰属 | どのタッチポイント/エクスペリエンスが購入コンバージョンに最も影響を与えているかを表示 |
-|  |  | 予測インサイト | 顧客傾向の詳細を知る |
+| | | セグメントの効果 | セグメントのパフォーマンスと貢献度の理解 |
+| | | フォールアウトレポート | 各段階でのコンバージョンの視覚化 |
+| | | コホート分析 | セグメントグループ間のエンゲージメントを測定 |
+| | | クリックトゥブリックレポート | 顧客コンバージョンが店舗内エクスペリエンスにどのように結び付くかを確認する |
+| | | 帰属 | どのタッチポイント/エクスペリエンスが購入コンバージョンに最も影響を与えているかを表示 |
+| | | 予測インサイト | 顧客傾向の詳細を知る |
 
 ## アーキテクチャ
 
@@ -67,10 +67,10 @@ ht-degree: 40%
 | ユースケース/統合  | リンク |
 |:----|:----|
 | CJA + AEP | [Customer Journey Analyticsブループリントの概要](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journey-analytics/overview.html?lang=ja) |
-|  | [Customer Journey Analytics — 使用例](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/cja-usecases.html?lang=ja) |
+| | [Customer Journey Analytics — 使用例](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/cja-usecases.html?lang=ja) |
 | AJO + AEP | [Adobe Journey Optimizer — 使用例](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer/journey-optimizer.html?lang=en) |
-|  | [意思決定管理](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer/decision-management/decision-management-overview.html?lang=ja) |
+| | [意思決定管理 ](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer/decision-management/decision-management-overview.html?lang=ja) |
 | RTCDP + AEP | [オンライン／オフラインオーディエンスアクティベーション](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/known-customer-audience-activation/known.html?lang=ja) |
-|  | [Experience Platformとアプリケーションのアクティベーション](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/platform-and-applications.html?lang=ja) |
-| Marketo + AEP | [B2B アクティベーションとマーケティング ](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/b2b-activation/overview.html?lang=en) |  |
-| Target + AEP | [Adobe Targetの使用例 — 行動に関する Web/モバイルのパーソナライゼーション](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/web-personalization/behavioral.html?lang=ja) | [既知の顧客データの Web／Mobile パーソナライズ機能](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/web-personalization/known-personalization.html?lang=en) |  |
+| | [Experience Platformとアプリケーションのアクティベーション](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/platform-and-applications.html?lang=ja) |
+| Marketo + AEP | [B2B アクティベーションとマーケティング ](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/b2b-activation/overview.html?lang=en) | |
+| Target + AEP | [Adobe Targetの使用例 — 行動に関する Web/モバイルのパーソナライゼーション](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/web-personalization/behavioral.html?lang=ja) | [既知の顧客データの Web／Mobile パーソナライズ機能](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/web-personalization/known-personalization.html?lang=en) | |
