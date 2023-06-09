@@ -8,7 +8,7 @@ role: Architect, Developer, User
 source-git-commit: 85e3c9060ebbffcab73ee9621f610df1c8ff5bcb
 workflow-type: tm+mt
 source-wordcount: '255'
-ht-degree: 95%
+ht-degree: 97%
 
 ---
 
@@ -47,34 +47,34 @@ ht-degree: 95%
       + [概要](/help/blueprints/b2b/marketo-engage-and-workfront-integration-blueprint/overview.md)
       + [取り込みと作成](/help/blueprints/b2b/marketo-engage-and-workfront-integration-blueprint/intake-and-create.md)
       + [顧客の成功事例](/help/blueprints/b2b/marketo-engage-and-workfront-integration-blueprint/customer-success-stories.md)
-+ Customer Journey Analytics{#customer-journey-analytics}
++ Customer Journey Analytics {#customer-journey-analytics}
    + [概要](/help/blueprints/customer-journey-analytics/overview.md)
    + [CJA オーディエンスを RTCDP に共有する](/help/blueprints/customer-journey-analytics/cja-rtcdp.md)
    + [CJA と Journey Optimizer](/help/blueprints/customer-journey-analytics/cja-ajo.md)
-+ カスタマージャーニー{#customer-journeys}
++ カスタマージャーニー {#customer-journeys}
    + [概要](/help/blueprints/customer-journeys/overview.md)
-   + Journey Optimizer{#journey-optimizer}
+   + Journey Optimizer {#journey-optimizer}
       + [Journey Optimizer](/help/blueprints/customer-journeys/journey-optimizer.md)
-      + 意思決定管理{#decision-management}
+      + 意思決定管理 {#decision-management}
          + [概要](/help/blueprints/customer-journeys/decision_management/decision-management-overview.md)
          + [エッジでの意思決定管理](/help/blueprints/customer-journeys/decision_management/decision-management-edge.md)
          + [ハブでの意思決定管理](/help/blueprints/customer-journeys/decision_management/decision-management-hub.md)
       + [Journey Optimizer と Adobe Campaign](/help/blueprints/customer-journeys/ajo-and-campaign.md)
       + [サードパーティメッセージング](/help/blueprints/customer-journeys/3rd-party-messaging.md)
-   + Campaign Standard{#campaign-standard}
+   + Campaign Standard {#campaign-standard}
       + [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard.html?lang=ja){target="_blank"}
       + [Real-Time CDP と Adobe Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/adobe-experience-platform/aep-sources-destinations/get-started-sources-destinations.html?lang=ja){target="_blank"}
-   + Campaign v8{#campaign-v8}
+   + Campaign v8 {#campaign-v8}
       + [Campaign v8](/help/blueprints/customer-journeys/campaign-v8.md)
       + [Real-Time CDP と Adobe Campaign v8](/help/blueprints/customer-journeys/rtcdp-and-campaign-v8.md)
       + [Journey Optimizer と Adobe Campaign v8](/help/blueprints/customer-journeys/ajo-and-campaign-v8.md)
-   + Campaign v7{#campaign-v7}
+   + Campaign v7 {#campaign-v7}
       + [Campaign v7](/help/blueprints/customer-journeys/campaign-v7.md)
       + [Real-Time CDP と Adobe Campaignv7](/help/blueprints/customer-journeys/rtcdp-and-campaign.md)
       + [Journey Optimizer と Adobe Campaign v7](/help/blueprints/customer-journeys/ajo-and-campaign-v7.md)
 + データ収集、アクセスおよび書き出し {#data-ingestion}
    + [概要](/help/blueprints/data-ingestion/overview.md)
-   + [マルチサンドボックスイベント転送のデータ収集](/help/blueprints/data-ingestion/multi-sandbox-event-forwarding.md)
+   + [複数サンドボックスイベント転送のデータ収集](/help/blueprints/data-ingestion/multi-sandbox-event-forwarding.md)
    + [データの準備と取り込み](/help/blueprints/data-ingestion/ingestion.md)
    + [データのアクセスおよび書き出し](/help/blueprints/data-ingestion/egress.md)
    + [イベント転送](/help/blueprints/data-ingestion/server-side-collection.md)
@@ -82,8 +82,8 @@ ht-degree: 95%
    + [概要](/help/blueprints/data-insights/overview.md)
    + [データ分析とインテリジェンス](/help/blueprints/data-insights/analysis.md)
    + [プロファイルエンリッチメントのためのカスタムデータサイエンス](/help/blueprints/data-insights/data-science.md)
-+ Web およびモバイルパーソナライズ機能{#web-personalization}
++ Web およびモバイルパーソナライズ機能 {#web-personalization}
    + [概要](/help/blueprints/web-personalization/overview.md)
    + [行動によるパーソナライズ機能- Target](/help/blueprints/web-personalization/behavioral.md)
-   + [既知の顧客のパーソナライズ機能 — Target と RTCDP](/help/blueprints/web-personalization/known-personalization.md)
+   + [既知の顧客のパーソナライズ機能 - Target と RTCDP](/help/blueprints/web-personalization/known-personalization.md)
    + [意思決定管理](/help/blueprints/web-personalization/decision-management-edge.md)
