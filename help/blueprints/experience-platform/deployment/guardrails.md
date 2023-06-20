@@ -5,9 +5,9 @@ solution: Customer Journey Analytics, Journey Orchestration, Real-time Customer 
 thumbnail: null
 exl-id: b64cf3e4-cc5d-4984-8a0f-4736d432b8e1
 source-git-commit: b3eddbfe943f45e1acbbb108652824df45c6c0e8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '340'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -26,9 +26,9 @@ ht-degree: 89%
 
 [ID ガードレール](https://experienceleague.adobe.com/docs/experience-platform/identity/guardrails.html?lang=ja)
 
-[Customer Journey Analyticsオーディエンス共有ガードレール](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/audiences/publish.html?lang=en#latency)
+[Customer Journey Analyticsオーディエンス共有ガードレール](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/audiences/publish.html?lang=ja-JP#latency)
 
-[Customer Journey Analyticsデータ取り込みガードレール](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html?lang=en#what-is-the-expected-latency-for-analytics-data-on-platform%3F)
+[Customer Journey Analyticsデータ取り込みガードレール](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html?lang=ja-JP#what-is-the-expected-latency-for-analytics-data-on-platform%3F)
 
 [クエリサービスガードレール](https://experienceleague.adobe.com/docs/experience-platform/query/guardrails.html?lang=ja)
 
