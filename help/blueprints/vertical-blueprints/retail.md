@@ -7,7 +7,7 @@ exl-id: a675bc81-e76c-491a-8718-359867d63351
 source-git-commit: f03981dd3fe6ed9e60d2e60ca4eb91e129052a73
 workflow-type: tm+mt
 source-wordcount: '630'
-ht-degree: 40%
+ht-degree: 100%
 
 ---
 
@@ -18,43 +18,43 @@ ht-degree: 40%
 ## アドビのアプローチ
 
 * リアルタイムでアクティブ化できる、関連するすべてのオンラインおよびオフラインのデータを含む統合顧客プロファイルを生成する
-* 初回または 2 回目の購入行動を促進するために、Web、メディア、プッシュチャネルにわたって顧客インタラクションをオーケストレートします。
+* 初回または 2 回目の購入行動を促進するために、web、メディア、プッシュチャネルにわたって顧客インタラクションをオーケストレートします。
 
 ## 提供されるビジネスバリュー
 
 | 目標 | 戦術 | 解放されたバリュー |
 |---|---|---|
-| **リアルタイムカスタマージャーニーのオーケストレート&#x200B;**<br></br>**新規顧客からのリピート購入の促進&#x200B;**<br></br>**マーケティング効率の向上とメディアコストの削減**</ul> | <ul><li>包括的なリアルタイムプロファイルを実現する堅牢なデータと ID 戦略。</li><li>90 日間の履歴読み込みを含む、リアルタイムの顧客およびトランザクションデータストリーミング</li><li>広告ネットワークとAdobe Targetに対するストリーミングセグメント化により、メディアの支出とパーソナライゼーションに対する取り組みを強化します。</li><li>パフォーマンスを測定する戦略を含む、Adobe Campaignをリアルタイムでジャーニーする顧客</li></ul> | <ul><li><strong>Real-time Customer Data Platform：</strong>メディア、メール、プッシュ、web をまたいでリアルタイムのカスタマーエクスペリエンスを提供</li><li><strong>データソース：</strong>この小売業者のプロファイルストア、注文システム、製品カタログ、小売店の各アウトレットをカバーするストリーミングデータ。</li><li><strong>リアルタイムメディアアクティベーション：</strong>Advertising Networks へのセグメントのストリーミング（アトリビューションおよび広告抑制用）</li><li><strong>リアルタイム Web パーソナライゼーション：</strong>Adobe Targetに対してアクティブ化されたストリーミングセグメント（小売業者の Web エクスペリエンスでアクティブ化されるため）。</li><li><strong>Journey Orchestrationのスケール：</strong>利用可能な顧客データを使用してリアルタイムでトリガーされるメッセージがリアルタイムで強化され、リアルタイムでアクティブ化されて、チャネルのメールおよびプッシュが可能になります。</li></ul> |
+| **リアルタイムカスタマージャーニーのオーケストレート&#x200B;**<br></br>**新規顧客からのリピート購入の促進&#x200B;**<br></br>**マーケティング効率の向上とメディアコストの削減**</ul> | <ul><li>包括的なリアルタイムプロファイルを実現する堅牢なデータと ID 戦略。</li><li>顧客およびトランザクションデータをリアルタイムでストリーミング（過去 90 日間の履歴を含む）</li><li>広告ネットワークと Adobe Target に対してストリーミングセグメント化を行い、メディアコストとパーソナライゼーションに対する取り組みを強化します。</li><li>パフォーマンスを測定する戦略を含む、Adobe Campaign 全体にわたるリアルタイムのカスタマージャーニー</li></ul> | <ul><li><strong>Real-time Customer Data Platform：</strong>メディア、メール、プッシュ、web をまたいでリアルタイムのカスタマーエクスペリエンスを提供</li><li><strong>データソース：</strong>この小売業者のプロファイルストア、注文システム、製品カタログ、小売店の各アウトレットをカバーするストリーミングデータ。</li><li><strong>リアルタイムメディアアクティベーション：</strong>アトリビューションおよび広告抑制のために広告ネットワークに対してセグメントをストリーミング</li><li><strong>リアルタイム web パーソナライゼーション：</strong>小売業者の web エクスペリエンスでアクティブ化するために Adobe Target に対してセグメントをストリーミング。</li><li><strong>大規模な Journey Orchestration：</strong>利用可能な顧客データで強化されたリアルタイムのトリガーメッセージ、メールやプッシュチャネルへのリアルタイムのアクティブ化</li></ul> |
 
 
-## 使用事例
+## ユースケース
 
-| カテゴリ | 目標 | 使用例 | 説明 |
+| カテゴリ | 目標 | ユースケース | 説明 |
 |:----|:----|:----|:----|
-| カスタマージャーニー | 獲得 | ようこそシリーズ | 新規の購読者に、ビジネス、製品およびサービスの紹介を歓迎します |
+| カスタマージャーニー | 獲得 | ウェルカムシリーズ | ビジネス、製品およびサービスを紹介して、新規の購読者を歓迎します。 |
 | | | 第 1 回購入プログラム | |
-| | セールス向上 | 放棄された買い物かご/参照 | 見込み購入者の回復と売上の促進 |
-| | | 製品レビュー/クロス販売 | 製品レビューを含む、より多くの品目をクロス販売します。 |
-| | | 製品のプロモーション |  |
-| | | 並べ替え時間 | 定期的な製品/サービスの定期的なリマインダー |
-| | ブランドの忠誠度 | 戻る | 非アクティブになった顧客を回復します。 |
-| | | 誕生日のリマインダー | 誕生日祝いの一環として、お客様とのより個人的な関係を育ててください。 |
-| マーチャンダイジング | 在庫の管理 | 在庫に戻る | 希望する製品が在庫に戻ったことを顧客に示し、在庫を改善する |
-| | | 次に最適なカテゴリ | ユーザーに最適なカテゴリ/販売を特定する |
+| | 売り上げ向上 | 放棄された買い物かご／閲覧 | 見込み購入者の引き戻しと売り上げの促進 |
+| | | 製品レビュー／クロスセル | 製品レビューを使用して、より多くの商品をクロスセルします。 |
+| | | 製品プロモーション |  |
+| | | 再注文の時期 | 周期的な製品／サービスの定期的なリマインダー |
+| | ブランドロイヤルティ | ウィンバック | 非アクティブになった顧客を引き戻します。 |
+| | | 誕生日リマインダー | 誕生日を祝うことで、顧客とのよりパーソナルな関係を育成します。 |
+| マーチャンダイジング | 在庫管理 | 再入荷 | 希望する製品が再入荷したことを顧客に示し、在庫を向上させます。 |
+| | | 次善のカテゴリ | ユーザーに最適なカテゴリ／販売を特定します。 |
 | | | ベストセラー | |
-| | | 価格下落リマインダー | 気に入った品目の価格が下がったことをユーザーに示す |
+| | | 価格下落リマインダー | 気に入った商品の価格が下がったことをユーザーに示します。 |
 | | | 類似製品 |  |
-| パーソナライズ | コンバージョンを増やす | クーポン/オファー | 顧客に対する最高のオファー/クーポンを表示 |
-| | | パーソナライズされた製品検索 | 検索エクスペリエンスの向上 |
-| | | 製品Recommendations | 製品の閲覧操作の向上 |
-| | | オムニチャネルエクスペリエンス | すべてのチャネルをまたいで顧客にリーチ |
-| 測定 | 顧客ジャーニー | クロスチャネルキャンペーン | クロスチャネルキャンペーンの測定 |
-| | | セグメントの効果 | セグメントのパフォーマンスと貢献度の理解 |
-| | | フォールアウトレポート | 各段階でのコンバージョンの視覚化 |
-| | | コホート分析 | セグメントグループ間のエンゲージメントを測定 |
-| | | クリックトゥブリックレポート | 顧客コンバージョンが店舗内エクスペリエンスにどのように結び付くかを確認する |
-| | | 帰属 | どのタッチポイント/エクスペリエンスが購入コンバージョンに最も影響を与えているかを表示 |
-| | | 予測インサイト | 顧客傾向の詳細を知る |
+| パーソナライズ | コンバージョン増加 | クーポン／オファー | 顧客に対して最適なオファー／クーポンを表示します。 |
+| | | パーソナライズされた製品検索 | 検索エクスペリエンスを向上させます。 |
+| | | 製品のレコメンデーション | 製品のブラウジングエクスペリエンスを向上させます。 |
+| | | オムニチャネルエクスペリエンス | すべてのチャネルをまたいで顧客にリーチします。 |
+| 測定 | カスタマージャーニーを理解 | クロスチャネルキャンペーン | クロスチャネルキャンペーンを測定します。 |
+| | | セグメントの効果 | セグメントの効果と貢献度を理解します。 |
+| | | フォールアウトレポート | 各段階でのコンバージョンを視覚化します。 |
+| | | コホート分析 | セグメントグループ間のエンゲージメントを測定します。 |
+| | | クリックトゥブリックレポート | 顧客コンバージョンが店舗内エクスペリエンスにどのように結び付くかを確認します。 |
+| | | アトリビューション | 購入コンバージョンに最も影響を与えているタッチポイント／エクスペリエンスを表示します。 |
+| | | 予測インサイト | 顧客傾向を詳しく理解します。 |
 
 ## アーキテクチャ
 
@@ -64,13 +64,13 @@ ht-degree: 40%
 ## 関連するブループリント
 
 
-| ユースケース/統合  | リンク |
+| ユースケース／統合 | リンク |
 |:----|:----|
-| CJA + AEP | [Customer Journey Analyticsブループリントの概要](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journey-analytics/overview.html?lang=ja) |
-| | [Customer Journey Analytics — 使用例](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/cja-usecases.html?lang=ja) |
-| AJO + AEP | [Adobe Journey Optimizer — 使用例](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer/journey-optimizer.html?lang=en) |
-| | [意思決定管理 ](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer/decision-management/decision-management-overview.html?lang=ja) |
+| CJA + AEP | [Customer Journey Analytics ブループリントの概要](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journey-analytics/overview.html?lang=ja) |
+| | [Customer Journey Analytics - ユースケース](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/cja-usecases.html?lang=ja) |
+| AJO + AEP | [Adobe Journey Optimizer - ユースケース](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer/journey-optimizer.html?lang=ja) |
+| | [意思決定管理](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer/decision-management/decision-management-overview.html?lang=ja) |
 | RTCDP + AEP | [オンライン／オフラインオーディエンスアクティベーション](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/known-customer-audience-activation/known.html?lang=ja) |
-| | [Experience Platformとアプリケーションのアクティベーション](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/platform-and-applications.html?lang=ja) |
-| Marketo + AEP | [B2B アクティベーションとマーケティング ](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/b2b-activation/overview.html?lang=en) | |
-| Target + AEP | [Adobe Targetの使用例 — 行動に関する Web/モバイルのパーソナライゼーション](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/web-personalization/behavioral.html?lang=ja) | [既知の顧客データの Web／Mobile パーソナライズ機能](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/web-personalization/known-personalization.html?lang=en) | |
+| | [Experience Platform + アプリケーションアクティベーション](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/platform-and-applications.html?lang=ja) |
+| Marketo + AEP | [B2B アクティベーションとマーケティング](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/b2b-activation/overview.html?lang=ja) | |
+| Target + AEP | [Adobe Target のユースケース - 行動による web およびモバイルのパーソナライゼーション](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/web-personalization/behavioral.html?lang=ja) | [既知の顧客データを使用した web およびモバイルのパーソナライゼーション](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/web-personalization/known-personalization.html?lang=ja) | |

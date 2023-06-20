@@ -1,11 +1,11 @@
 ---
 title: 顧客の成功事例
-description: 顧客の成功事例 -Marketo EngageとWorkfront統合のブループリント
+description: 顧客の成功事例 - Marketo Engage と Workfront 統合ブループリント
 exl-id: fabe67b4-8ad6-49fc-a38f-cd4b5319d09a
 source-git-commit: 85e3c9060ebbffcab73ee9621f610df1c8ff5bcb
 workflow-type: tm+mt
 source-wordcount: '170'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 

@@ -1,17 +1,17 @@
 ---
-title: Marketo EngageとWorkfront統合のブループリントの概要
-description: 概要 —Marketo EngageとWorkfront統合のブループリントの概要
+title: Marketo Engage と Workfront 統合ブループリントの概要
+description: 概要 - Marketo Engage と Workfront 統合ブループリントの概要
 exl-id: c1da95d0-0649-4e69-aade-3ddcb89d2d31
 source-git-commit: d5220e5550aa8c7e3b13996dd3d4279ba8403435
 workflow-type: tm+mt
 source-wordcount: '1769'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
-# Marketo EngageとWorkfront統合のブループリントの概要 {#overview}
+# Marketo Engage と Workfront 統合ブループリントの概要 {#overview}
 
-## Marketo EngageとWorkfrontを使用して、市場投入までの時間を短縮 {#achieve-faster-time-to-market-with-marketo-engage-and-workfront}
+## Marketo Engage と Workfront を使用して、市場投入までの時間を短縮 {#achieve-faster-time-to-market-with-marketo-engage-and-workfront}
 
 マーケティングの仕事は、新しいチャネルと、コミュニケーションを毎日パーソナライズする方法の増加とともに成長し続けています。マーケティングチームは、世界中で変化するマーケティングの需要をサポートするために、自動化と進化を続ける方法を必要としています。
 
@@ -21,7 +21,7 @@ ht-degree: 96%
 
 組織が以下に説明する同様の目標を達成しようとしている場合、このドキュメントが役に立ちます。
 
-* 機能横断的なマーケティング チームをサポートするためにキャンペーン オペレーションを拡張する
+* 機能横断的なマーケティングチームをサポートするためにキャンペーンオペレーションを拡張する
 * 合理化されたキャンペーンリクエストプロセスにより、市場投入までの時間を短縮
 * 記録システムを確立して、キャンペーン関係者全体の可視性を高める
 * キャンペーンアセット（画像、メールコピー）の確認と承認
@@ -35,7 +35,7 @@ Workfront Fusion を使用すると、マーケティングオペレーション
 ## キャンペーンの計画から実施まで - 自動化のユースケース {#campaign-planning-to-execution-automation-use-cases}
 
 * Workfront の取り込みリクエストを通じて Marketo Engage でのキャンペーン作成を自動化し、マーケティングオペレーションチームをサポート
-* Marketo Engageで作成されたメールとランディングページのドラフトを Workfront に共有して、部門をまたぐ関係者から最終確認と承認を得る
+* Marketo Engage で作成されたメールとランディングページのドラフトを Workfront に共有して、部門をまたぐ関係者から最終確認と承認を得る
 * キャンペーンの結果を Marketo Engage から Workfront に共有して、キャンペーン指標へのアクセスを民主化
 
 以下に、メールブラストリクエストの場合の、キャンペーン開発プロセスのワークフロー図を示します。さらに、Workfront Fusion が Workfront と Marketo Engage の間で役割を果たし、キャンペーン開発サイクル全体でワークフローとプロセスの自動化を促進する方法を確認することができます。
@@ -72,7 +72,7 @@ Workfront と Marketo Engage の関係を理解するには、ビジネスプロ
   <tr> 
    <td>ポートフォリオ</td>
    <td>Workfront のポートフォリオとプログラムを使用して、プロジェクトを整理することができます。プロジェクトの整理を通じて、類似したプロジェクトを比較し、リソースをどこに最も効果的に費やすかを判断することができます。<br /><br />
-   （例：ポートフォリオは、サービスや製品の販売に重点を置いた企業内のビジネス ユニット用に作成されます。）</td>
+   （例：ポートフォリオは、サービスや製品の販売に重点を置いた企業内のビジネスユニット用に作成されます。）</td>
   </tr>
   <tr>
    <td>プログラム</td>
@@ -149,11 +149,11 @@ Workfront と Marketo Engage がキャンペーン開発サプライチェーン
 
 * [取り込みと作成](/help/blueprints/b2b/marketo-engage-and-workfront-integration-blueprint/intake-and-create.md){target="_blank"} - Marketo Engage と Workfront を使用したキャンペーン開発の自動化
 
-* 確認と承認（近日公開）
+* プルーフと承認（近日公開）
 
 ### Marketo Engage キャンペーン名と関連 URL の管理 {#managing-marketo-engage-campaign-names}
 
-キャンペーンと URL の命名規則を標準化することは、Marketo Engageでの正確なプログラム管理の重要な基礎となり、キャンペーン開発ライフサイクル全体でより一貫したプロセスを推進するのに役立ちます。 これを支援するツールをお探しの場合は、[アドビサクセスサービス](https://main--marketo-campaign-tools--dr-adobe.hlx.live/){target="_blank"}が提供する無料のオープンソースツールをお試しください。このツールでは、Marketo Engage キャンペーンとその関連 URL を作成および管理するための一貫したアプローチを作成することが可能です。
+キャンペーンと URL の命名規則の標準化は、Marketo Engage で正確なプログラム管理を行うための重要な基盤であり、キャンペーン開発ライフサイクル全体でプロセスの一貫性を高めるのに役立ちます。これを支援するツールをお探しの場合は、[アドビサクセスサービス](https://main--marketo-campaign-tools--dr-adobe.hlx.live/){target="_blank"}が提供する無料のオープンソースツールをお試しください。このツールでは、Marketo Engage キャンペーンとその関連 URL を作成および管理するための一貫したアプローチを作成することが可能です。
 
 ### リソース {#resources}
 
