@@ -3,7 +3,7 @@ title: Journey Optimizer - トリガーされるメッセージおよび Adobe E
 description: ストリーミングデータ、顧客プロファイル、セグメント化の中央ハブとして Adobe Experience Platform を使用して、トリガーされるメッセージとエクスペリエンスを実行します。
 solution: Journey Optimizer
 exl-id: 97831309-f235-4418-bd52-28af815e1878
-source-git-commit: 5110ee2a7a079945475055cbcfdabf7cdcaa0ab5
+source-git-commit: d7901280f1bc23e6d37bcb285f20343c5ed8b46e
 workflow-type: tm+mt
 source-wordcount: '1044'
 ht-degree: 100%
@@ -91,13 +91,13 @@ Adobe Experience Platform
 
 ### データ取り込みガードレール
 
-<img src="../experience-platform/assets/aep_data_flow_guardrails.svg" alt="Experience Platform データフロー" style="border:1px solid #4a4a4a" width="85%" class="modal-image" />
+<img src="../experience-platform/deployment/assets/aep_data_flow_guardrails.svg" alt="Experience Platform データフロー" style="border:1px solid #4a4a4a" width="85%" class="modal-image" />
 
 <br>
 
 ### アクティベーションガードレール
 
-<img src="../experience-platform/assets/AJO_guardrails.svg" alt="参照アーキテクチャ Journey Optimizer ブループリント" style="width:85%; border:1px solid #4a4a4a" class="modal-image" />
+<img src="../experience-platform/deployment/assets/AJO_guardrails.svg" alt="参照アーキテクチャ Journey Optimizer ブループリント" style="width:85%; border:1px solid #4a4a4a" class="modal-image" />
 
 <br>
 

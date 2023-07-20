@@ -3,8 +3,8 @@ title: エッジでの意思決定管理のブループリント
 description: 複数のチャネルをまたいで、リアルタイムの web エクスペリエンスやモバイルエクスペリエンスを含むパーソナライズされたオファーを顧客に提供します。
 solution: Experience Platform, Journey Optimizer
 exl-id: 31e5f624-5578-49e1-ab92-5cabd596a632
-source-git-commit: 5110ee2a7a079945475055cbcfdabf7cdcaa0ab5
-workflow-type: ht
+source-git-commit: d7901280f1bc23e6d37bcb285f20343c5ed8b46e
+workflow-type: tm+mt
 source-wordcount: '856'
 ht-degree: 100%
 
@@ -64,13 +64,13 @@ Adobe Experience Platform
 
 ### データ取り込みガードレール
 
-<img src="../../experience-platform/assets/aep_data_flow_guardrails.svg" alt="Experience Platform データフロー" style="border:1px solid #4a4a4a" width="85%" class="modal-image" />
+<img src="../../experience-platform/deployment/assets/aep_data_flow_guardrails.svg" alt="Experience Platform データフロー" style="border:1px solid #4a4a4a" width="85%" class="modal-image" />
 
 <br>
 
 ### アクティベーションガードレール
 
-<img src="../../experience-platform/assets/AJO_guardrails.svg" alt="参照アーキテクチャ Journey Optimizer ブループリント" style="width:85%; border:1px solid #4a4a4a" class="modal-image" />
+<img src="../../experience-platform/deployment/assets/AJO_guardrails.svg" alt="参照アーキテクチャ Journey Optimizer ブループリント" style="width:85%; border:1px solid #4a4a4a" class="modal-image" />
 
 <br>
 
