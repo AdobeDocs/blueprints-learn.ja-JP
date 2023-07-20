@@ -1,9 +1,9 @@
 ---
 title: Real-Time CDP と Adobe Campaign v7 および Campaign Standard の統合パターン
 description: Adobe Experience Platform とそのリアルタイム顧客プロファイル、および一元化されたセグメント化ツールを Adobe Campaign と併用して、パーソナライズされた会話を提供する方法を紹介します。
-solution: Real-time Customer Data Platform, Campaign
+solution: Real-Time Customer Data Platform, Campaign
 exl-id: a15e8304-2763-42fc-9978-11f2482ea8b8
-source-git-commit: 5110ee2a7a079945475055cbcfdabf7cdcaa0ab5
+source-git-commit: ae7347be5095ca4a7f99f9371dd94d87097112b0
 workflow-type: tm+mt
 source-wordcount: '804'
 ht-degree: 100%
@@ -116,8 +116,8 @@ Adobe Experience Platform とそのリアルタイム顧客プロファイル、
 * Campaign Mobile SDK
    * 詳しくは、[Campaign SDK ドキュメント]を参照（Campaign モバイル SDK。ここで説明するデプロイメントドキュメントに従ってください）。
 
-   >[!IMPORTANT]
-   >Campaign SDK をデプロイし、他の Experience Cloud アプリケーションと連携する場合は、データ収集に Experience Platform Mobile SDK を使用する必要があります。これにより、デバイス上でクライアント側の呼び出しが重複します。
+  >[!IMPORTANT]
+  >Campaign SDK をデプロイし、他の Experience Cloud アプリケーションと連携する場合は、データ収集に Experience Platform Mobile SDK を使用する必要があります。これにより、デバイス上でクライアント側の呼び出しが重複します。
 
 ## 関連ドキュメント
 
