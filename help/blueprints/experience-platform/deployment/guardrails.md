@@ -5,9 +5,9 @@ solution: Customer Journey Analytics, Journey Orchestration, Real-Time Customer 
 thumbnail: null
 exl-id: b64cf3e4-cc5d-4984-8a0f-4736d432b8e1
 source-git-commit: 89dcbc4d71a9edff3095a6707cecc823281a9385
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '342'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 97%
 ガードレールは、データとシステムの使用状況、パフォーマンスの最適化、Adobe Experience Platform およびアプリケーションでのエラーや予期しない結果の回避に関するガイダンスを提供する、推奨されるしきい値です。ガードレールは、顧客のアーキテクチャと使用例のパフォーマンス最適化を促進するために、システムの制約とパフォーマンスの期待を反映させることを目的としています。ガードレールは、サービスレベル契約にはなりません。製品固有のサービスレベル契約について詳しくは、以下にリンクされている製品の説明ドキュメントを参照してください。
 
 
-## Adobe Experience Platformおよびアプリケーションの Guardrail リファレンスドキュメント
+## Adobe Experience Platform およびアプリケーションのガードレール参照ドキュメント
 
 [データ取り込みガードレール](https://experienceleague.adobe.com/docs/experience-platform/ingestion/guardrails.html?lang=ja)
 
