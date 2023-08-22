@@ -2,9 +2,9 @@
 title: 取り込みと作成のブループリント
 description: 取り込みと作成 - Marketo Engage と Workfront 統合ブループリント
 exl-id: 09679521-727c-4676-8e91-23d0b7fd54a2
-source-git-commit: c4ab702cafa0dcacc4b3919bf70af0c50fa6bea8
+source-git-commit: 8b077428fb8bb183545bd1d63fc300ff2c28f9da
 workflow-type: tm+mt
-source-wordcount: '1329'
+source-wordcount: '1324'
 ht-degree: 100%
 
 ---
@@ -150,7 +150,7 @@ Workfront リクエストから新しい Marketo Engage プログラムの作成
 
 自動化をより迅速に実現できる事前構築済みの [Workfront](https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-fusion/fusion-apps-and-modules/workfront-modules.html?lang=ja){target="_blank"} and [Marketo Engage](https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-fusion/fusion-apps-and-modules/marketo-modules.html?lang=ja){target="_blank"} モジュールを使用して、Fusion でワークフローロジックを組み立てる方法の例を次に示します。
 
-![取り込みおよび作成の自動化フロー](assets/intake-and-create-3.png)トークンを使用したコンテンツの入力
+![取り込みおよび作成の自動化フロー](assets/intake-and-create-3.png)
 
 ## リソース {#resources}
 

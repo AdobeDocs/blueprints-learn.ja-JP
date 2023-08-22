@@ -2,10 +2,10 @@
 title: Marketo Engage と Workfront 統合ブループリントの概要
 description: 概要 - Marketo Engage と Workfront 統合ブループリントの概要
 exl-id: c1da95d0-0649-4e69-aade-3ddcb89d2d31
-source-git-commit: d5220e5550aa8c7e3b13996dd3d4279ba8403435
+source-git-commit: 8b077428fb8bb183545bd1d63fc300ff2c28f9da
 workflow-type: tm+mt
-source-wordcount: '1769'
-ht-degree: 100%
+source-wordcount: '1767'
+ht-degree: 98%
 
 ---
 
@@ -46,7 +46,7 @@ Workfront Fusion を使用すると、マーケティングオペレーション
 
 1. 取り込みと作成：キャンペーンのリクエストが作成され、キャンペーンアセットがプログラムによって組み立てられます。
 
-1. 証明と承認：キャンペーンが組み立てられたら、関係者はメールやランディングページなどのキャンペーンアセットを確認して承認します。
+1. レビューと承認：キャンペーンが組み立てられると、関係者は E メールやランディングページなどのキャンペーンアセットをレビューし、サインオフする時間になります。
 
 1. レポートと監査：キャンペーンの結果を Workfront に共有して、部門をまたぐ関係者への可視性を高めます。
 
@@ -149,7 +149,7 @@ Workfront と Marketo Engage がキャンペーン開発サプライチェーン
 
 * [取り込みと作成](/help/blueprints/b2b/marketo-engage-and-workfront-integration-blueprint/intake-and-create.md){target="_blank"} - Marketo Engage と Workfront を使用したキャンペーン開発の自動化
 
-* プルーフと承認（近日公開）
+* [レビューと承認](/help/blueprints/b2b/marketo-engage-and-workfront-integration-blueprint/review-and-approve-blueprint.md){target="_blank"}
 
 ### Marketo Engage キャンペーン名と関連 URL の管理 {#managing-marketo-engage-campaign-names}
 
