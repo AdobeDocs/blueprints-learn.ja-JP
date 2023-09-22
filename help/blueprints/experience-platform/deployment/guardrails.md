@@ -4,19 +4,23 @@ description: ガードレールは、Adobe Experience Platform およびアプ�
 solution: Customer Journey Analytics, Journey Orchestration, Real-Time Customer Data Platform
 thumbnail: null
 exl-id: b64cf3e4-cc5d-4984-8a0f-4736d432b8e1
-source-git-commit: 89dcbc4d71a9edff3095a6707cecc823281a9385
+source-git-commit: df10f49b618804982dd5b72ab4061de619beb72f
 workflow-type: tm+mt
-source-wordcount: '342'
-ht-degree: 100%
+source-wordcount: '373'
+ht-degree: 72%
 
 ---
 
 # ガードレール
 
-ガードレールは、データとシステムの使用状況、パフォーマンスの最適化、Adobe Experience Platform およびアプリケーションでのエラーや予期しない結果の回避に関するガイダンスを提供する、推奨されるしきい値です。ガードレールは、顧客のアーキテクチャと使用例のパフォーマンス最適化を促進するために、システムの制約とパフォーマンスの期待を反映させることを目的としています。ガードレールは、サービスレベル契約にはなりません。製品固有のサービスレベル契約について詳しくは、以下にリンクされている製品の説明ドキュメントを参照してください。
+Guardrails は、Adobe Experience Platformおよびアプリケーションでのデータとシステムの使用状況に関するガイダンスを提供するしきい値です。 Guardrail は、顧客のアーキテクチャと使用例のパフォーマンスを最適化するために、システムの制約とパフォーマンスに対する期待を反映し、エラーや予期しない結果を回避するのに役立ちます。 ガードレールは、サービスレベル契約ではありません。
+
+アプリケーションおよび機能に関する特定の SLA(Service Level Agreement) の詳細は、このページの下部にある「アプリケーションと機能の説明」を参照してください。
 
 
 ## Adobe Experience Platform およびアプリケーションのガードレール参照ドキュメント
+
+以下のページでは、Adobe Experience Platformの機能、サービスおよびアプリケーションのガードレールについて説明します。
 
 [データ取り込みガードレール](https://experienceleague.adobe.com/docs/experience-platform/ingestion/guardrails.html?lang=ja)
 
@@ -70,7 +74,9 @@ ht-degree: 100%
 
 <br>
 
-## 製品の説明
+## アプリケーションと機能の説明
+
+機能固有の SLA(Service Level Agreement) の詳細については、以下の説明を参照してください。
 
 [Experience Platform Collection Enterprise](https://helpx.adobe.com/jp/legal/product-descriptions/adobe-experience-platform-collection-enterprise.html)
 
