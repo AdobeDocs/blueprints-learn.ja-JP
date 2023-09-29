@@ -8,7 +8,7 @@ role: Architect, Developer, User
 source-git-commit: 8b077428fb8bb183545bd1d63fc300ff2c28f9da
 workflow-type: tm+mt
 source-wordcount: '258'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 98%
       + [ガードレール](/help/blueprints/experience-platform/deployment/guardrails.md)
 + オーディエンスとプロファイルのアクティベーション {#audience-activation}
    + [概要](/help/blueprints/audience-activation/overview.md)
-   + [匿名オーディエンスアクティベーション (AAM)](/help/blueprints/audience-activation/anonymous.md)
+   + [匿名オーディエンスアクティベーション(AAM)](/help/blueprints/audience-activation/anonymous.md)
    + 既知の顧客のアクティベーション（RTCDP） {#known-customer-audience-activation}
       + [概要](/help/blueprints/audience-activation/known.md)
       + [ソーシャルおよび広告チャネルに対するアクティベーション](/help/blueprints/audience-activation/advertising-activation.md)
@@ -71,7 +71,7 @@ ht-degree: 98%
       + [Journey Optimizer と Adobe Campaign v8](/help/blueprints/customer-journeys/ajo-and-campaign-v8.md)
    + Campaign v7{#campaign-v7}
       + [Campaign v7](/help/blueprints/customer-journeys/campaign-v7.md)
-      + [Real-Time CDP と Adobe Campaign v7](/help/blueprints/customer-journeys/rtcdp-and-campaign.md)
+      + [Real-Time CDP と Adobe Campaignv7](/help/blueprints/customer-journeys/rtcdp-and-campaign.md)
       + [Journey Optimizer と Adobe Campaign v7](/help/blueprints/customer-journeys/ajo-and-campaign-v7.md)
 + データ収集、アクセスおよび書き出し {#data-ingestion}
    + [概要](/help/blueprints/data-ingestion/overview.md)
@@ -85,6 +85,6 @@ ht-degree: 98%
    + [プロファイルエンリッチメントのためのカスタムデータサイエンス](/help/blueprints/data-insights/data-science.md)
 + Web およびモバイルのパーソナライゼーション{#web-personalization}
    + [概要](/help/blueprints/web-personalization/overview.md)
-   + [行動によるパーソナライゼーション - Target](/help/blueprints/web-personalization/behavioral.md)
+   + [行動によるパーソナライゼーション- Target](/help/blueprints/web-personalization/behavioral.md)
    + [既知の顧客のパーソナライゼーション - Target と RTCDP](/help/blueprints/web-personalization/known-personalization.md)
    + [意思決定管理](/help/blueprints/web-personalization/decision-management-edge.md)
