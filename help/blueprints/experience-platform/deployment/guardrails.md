@@ -4,10 +4,10 @@ description: ガードレールは、Adobe Experience Platform およびアプ�
 solution: Customer Journey Analytics, Journey Orchestration, Real-Time Customer Data Platform
 thumbnail: null
 exl-id: b64cf3e4-cc5d-4984-8a0f-4736d432b8e1
-source-git-commit: df10f49b618804982dd5b72ab4061de619beb72f
+source-git-commit: 4379f372241248ea6c70c766f13a182783fcac0c
 workflow-type: tm+mt
-source-wordcount: '373'
-ht-degree: 72%
+source-wordcount: '393'
+ht-degree: 64%
 
 ---
 
@@ -15,32 +15,30 @@ ht-degree: 72%
 
 Guardrails は、Adobe Experience Platformおよびアプリケーションでのデータとシステムの使用状況に関するガイダンスを提供するしきい値です。 Guardrail は、顧客のアーキテクチャと使用例のパフォーマンスを最適化するために、システムの制約とパフォーマンスに対する期待を反映し、エラーや予期しない結果を回避するのに役立ちます。 ガードレールは、サービスレベル契約ではありません。
 
-アプリケーションおよび機能に関する特定の SLA(Service Level Agreement) の詳細は、このページの下部にある「アプリケーションと機能の説明」を参照してください。
+アプリケーションおよび機能に関する特定の SLA(Service Level Agreement) の詳細については、 [アプリケーションと機能の説明](#application-feature-descriptions) 」セクションをクリックします。
 
 
 ## Adobe Experience Platform およびアプリケーションのガードレール参照ドキュメント
 
 以下のページでは、Adobe Experience Platformの機能、サービスおよびアプリケーションのガードレールについて説明します。
 
-[データ取り込みガードレール](https://experienceleague.adobe.com/docs/experience-platform/ingestion/guardrails.html?lang=ja)
+**Experience Platform**
 
-[Edge Network API ガードレール](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/guardrails.html?lang=ja)
+* [Real-Time CDP Guardrails の概要](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/guardrails/overview.html)
+* [Customer Journey Analyticsオーディエンス共有ガードレール](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/audiences/publish.html?lang=ja-JP#latency)
+* [Customer Journey Analyticsデータ取り込みガードレール](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html?lang=ja-JP#what-is-the-expected-latency-for-analytics-data-on-platform%3F)
+* [Journey Optimizer Guardrails](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/guardrails.html?lang=ja)
 
-[リアルタイム顧客プロファイルガードレール](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=ja)
+**Experience Platformサービス**
 
-[ID ガードレール](https://experienceleague.adobe.com/docs/experience-platform/identity/guardrails.html?lang=ja)
+* [データ取り込みガードレール](https://experienceleague.adobe.com/docs/experience-platform/ingestion/guardrails.html?lang=ja)
+* [Edge Network API ガードレール](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/guardrails.html?lang=ja)
+* [リアルタイム顧客プロファイルガードレール](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=ja)
+* [ID ガードレール](https://experienceleague.adobe.com/docs/experience-platform/identity/guardrails.html?lang=ja)
+* [クエリサービスガードレール](https://experienceleague.adobe.com/docs/experience-platform/query/guardrails.html?lang=ja)
+* [宛先のアクティベーションガードレール](https://experienceleague.adobe.com/docs/experience-platform/destinations/guardrails.html?lang=ja)
 
-[Customer Journey Analyticsオーディエンス共有ガードレール](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/audiences/publish.html?lang=ja-JP#latency)
 
-[Customer Journey Analyticsデータ取り込みガードレール](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html?lang=ja-JP#what-is-the-expected-latency-for-analytics-data-on-platform%3F)
-
-[クエリサービスガードレール](https://experienceleague.adobe.com/docs/experience-platform/query/guardrails.html?lang=ja)
-
-[宛先のアクティベーションガードレール](https://experienceleague.adobe.com/docs/experience-platform/destinations/guardrails.html?lang=ja)
-
-[Journey Optimizer ガードレール](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/guardrails.html?lang=ja)
-
-<br>
 
 ## エンドツーエンドの待ち時間図
 
@@ -74,28 +72,18 @@ Guardrails は、Adobe Experience Platformおよびアプリケーションで�
 
 <br>
 
-## アプリケーションと機能の説明
+## アプリケーションと機能の説明 {#application-feature-descriptions}
 
-機能固有の SLA(Service Level Agreement) の詳細については、以下の説明を参照してください。
+機能固有の SLA(Service Level Agreement) の詳細については、以下の製品説明を参照してください。
 
-[Experience Platform Collection Enterprise](https://helpx.adobe.com/jp/legal/product-descriptions/adobe-experience-platform-collection-enterprise.html)
-
-[Real-time Customer Data Platform](https://helpx.adobe.com/jp/legal/product-descriptions/real-time-customer-data-platform.html)
-
-[B2B 顧客データ Platform](https://helpx.adobe.com/jp/legal/product-descriptions/adobe-experience-platform-b2b.html)
-
-[Experience Platform Activation](https://helpx.adobe.com/jp/legal/product-descriptions/adobe-experience-platform0.html)
-
-[Experience Platform インテリジェンス](https://helpx.adobe.com/jp/legal/product-descriptions/adobe-experience-platform-intelligence---product-description.html)
-
-[インテリジェントサービス](https://helpx.adobe.com/jp/legal/product-descriptions/intelligent-services.html)
-
-[Data Distiller](https://helpx.adobe.com/jp/legal/product-descriptions/data-distiller.html)
-
-[Customer Journey Analytics](https://helpx.adobe.com/jp/legal/product-descriptions/customer-journey-analytics.html)
-
-[Journey Optimizer](https://helpx.adobe.com/jp/legal/product-descriptions/adobe-journey-optimizer.html)
-
-[Journey Orchestration](https://helpx.adobe.com/jp/legal/product-descriptions/journey-orchestration.html)
-
-[Offer Decisioning](https://helpx.adobe.com/jp/legal/product-descriptions/offer-decisioning-app-service.html)
+* [Experience Platform Collection Enterprise](https://helpx.adobe.com/jp/legal/product-descriptions/adobe-experience-platform-collection-enterprise.html)
+* [Real-time Customer Data Platform](https://helpx.adobe.com/jp/legal/product-descriptions/real-time-customer-data-platform.html)
+* [B2B 顧客データ Platform](https://helpx.adobe.com/jp/legal/product-descriptions/adobe-experience-platform-b2b.html)
+* [Experience Platform Activation](https://helpx.adobe.com/jp/legal/product-descriptions/adobe-experience-platform0.html)
+* [Experience Platform インテリジェンス](https://helpx.adobe.com/jp/legal/product-descriptions/adobe-experience-platform-intelligence---product-description.html)
+* [インテリジェントサービス](https://helpx.adobe.com/jp/legal/product-descriptions/intelligent-services.html)
+* [Data Distiller](https://helpx.adobe.com/jp/legal/product-descriptions/data-distiller.html)
+* [Customer Journey Analytics](https://helpx.adobe.com/jp/legal/product-descriptions/customer-journey-analytics.html)
+* [Journey Optimizer](https://helpx.adobe.com/jp/legal/product-descriptions/adobe-journey-optimizer.html)
+* [Journey Orchestration](https://helpx.adobe.com/jp/legal/product-descriptions/journey-orchestration.html)
+* [Offer Decisioning](https://helpx.adobe.com/jp/legal/product-descriptions/offer-decisioning-app-service.html)
