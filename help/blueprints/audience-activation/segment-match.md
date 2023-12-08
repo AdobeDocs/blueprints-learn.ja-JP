@@ -1,16 +1,16 @@
 ---
-title: セグメントの一致ブループリント
+title: セグメント一致のブループリント
 description: Adobe Experience Platform（AEP）用[!UICONTROL セグメントの一致]を学びます。[!UICONTROL セグメントの一致]は、共通の業界識別子に基づいて、セキュアで、管理され、プライバシーに優しい方法でセグメントデータを交換することができるデータコラボレーションサービスです。
 solution: Experience Platform
 exl-id: d7e6d555-56aa-4818-8218-b87f6286a75e
 source-git-commit: 9648235f5b626a8cbf2d8c9a619cf0f3ef1641ca
 workflow-type: tm+mt
-source-wordcount: '2180'
-ht-degree: 81%
+source-wordcount: '2126'
+ht-degree: 79%
 
 ---
 
-# セグメントの一致ブループリント
+# セグメント一致のブループリント
 
 セグメントの一致を使用すると、パートナーのブランドは Experience Platform の各環境をまたいでオーディエンスを共有できます。ブランドの鍵は、顧客との直接の関係から収集したデータに基づいて顧客とつながりを持つことです。改善されたガバナンス、権限、環境設定の管理システムを使用すれば、マーケターは、主要パートナーと共にファーストパーティ認証済みオーディエンスをさらに強化することができます。
 
@@ -44,7 +44,7 @@ ht-degree: 81%
 
 ## アーキテクチャ
 
-![セグメントの一致アーキテクチャ](assets/architecture-segment-match.png){zoomable=&quot;yes&quot;}
+![セグメントマッチのアーキテクチャ](assets/architecture-segment-match.png){zoomable=&quot;yes&quot;}
 
 [!UICONTROL セグメントの一致]は、データを購入することができるデータマーケットプレイスではありません。マーケットプレイスではない代わりに、特定のパートナーとファーストパーティのデータを連携し、プライバシーと同意制御を使用して共同作業を行う AEP 機能です。[!UICONTROL セグメントの一致]は、顧客との関係の改善とブランドの成長に取り組むうえで役立ちます。既存のブランドやパートナー関係が存在する場合に便利です。[!UICONTROL セグメントの一致]エクスペリエンスは管理が容易で拡張性が高く、管理者がオプトインで制御可能な方法でセグメントを共有することができます。
 
@@ -77,7 +77,7 @@ ht-degree: 81%
 
 パートナー管理をするこの[!UICONTROL セグメントの一致]フローは、RBAC で保証されます。適切な権限を持つ個人のみが、パートナーを開始、承認、管理することができます。これは「製品プロファイル」の「データ取得」セクションで行うことができます。以下の権限が必要です：
 
-![オーディエンス共有接続](assets/data-ingestion.png){zoomable=&quot;yes&quot;}
+![Audience Share Connection](assets/data-ingestion.png){zoomable=&quot;yes&quot;}
 
 | 権限 | 説明 |
 |---|---|

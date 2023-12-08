@@ -1,13 +1,13 @@
 ---
-title: Experience Platform およびアプリケーションガードレール
+title: Experience Platformおよびアプリケーションガードレールと終了待ち時間
 description: ガードレールは、Adobe Experience Platform およびアプリケーション内のコンポーネントとサービスに対するパフォーマンスの期待値と影響を定義します
 solution: Customer Journey Analytics, Journey Orchestration, Real-Time Customer Data Platform
 thumbnail: null
 exl-id: b64cf3e4-cc5d-4984-8a0f-4736d432b8e1
-source-git-commit: 76ad3dceda37c5f991a43df5828a926f6dfc42a5
+source-git-commit: 94197d1b450694f96eb1ef17245c0353494859b1
 workflow-type: tm+mt
-source-wordcount: '625'
-ht-degree: 41%
+source-wordcount: '464'
+ht-degree: 25%
 
 ---
 

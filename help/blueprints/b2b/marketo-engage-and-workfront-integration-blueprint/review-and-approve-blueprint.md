@@ -1,85 +1,86 @@
 ---
-title: ブループリントを確認して承認
-description: ブループリントを確認して承認 —Marketo EngageとWorkfront統合のブループリント
-source-git-commit: 4c63a1e552c893a2b2ae753bd3eaccab5c673448
+title: レビューと承認のブループリント
+description: レビューと承認のブループリント - Marketo Engage と Workfront 統合のブループリント
+exl-id: a446faab-7db4-42a2-b4b9-395725c49c9f
+source-git-commit: 3d6a2416cdb9956e59be4b2918ba19f88cd2150b
 workflow-type: tm+mt
-source-wordcount: '1262'
-ht-degree: 0%
+source-wordcount: '1238'
+ht-degree: 89%
 
 ---
 
-# ブループリントを確認して承認 {#review-and-approve-blueprint}
+# レビューと承認のブループリント {#review-and-approve-blueprint}
 
-マーケティングアセットやキャンペーンがビジネスの期待や基準を満たすようにすることは、適切なコンテンツやメッセージを適切なオーディエンスに提供するだけでなく、広範囲にわたって提供できます。 また、組織は、新しいマーケティング活動に着手する際に、内部政策、業界規制、法的前提条件を遵守する責任も負います。 マーケティングチームは、レビューと承認の手順をキャンペーンの開発プロセスに組み込むことで、特に金融、医療、医薬品などの業界標準に従って、コンテンツとメッセージが正確かつコンプライアンスできるようにします。
+マーケティングアセットやキャンペーンがビジネスの期待や基準を満たすようにすることは、適切なコンテンツやメッセージを的確なオーディエンスに提供するだけにとどまりません。組織は、新しいマーケティング施策に着手する際に、内部ポリシー、業界の規制、さらには法律要件を遵守する責任も負います。マーケティングチームは、レビューと承認のステップをキャンペーンの開発プロセスに組み込むことで、コンテンツとメッセージが正確であり、特に金融、ヘルスケア、医薬品といった業界標準を順守するようにします。
 
-WorkfrontとMarketo Engageを利用すれば、マーケティングチームは、正確でコンプライアンスに優れたメッセージを提供し、マーケティングのための緊密に連携したシステムを構築する機会が得られます。
+Workfront と Marketo Engage を利用すれば、マーケティングチームは、正確でコンプライアンスに優れたメッセージを提供し、マーケティングのための緊密に連携したシステムを構築する機会が得られます。
 
-## WorkfrontでのMarketo Engageに対する校正と高度な承認のロックを解除 {#unlock-proofing-and-advanced-approvals}
+## Workfront を使用して Marketo Engage に対するプルーフと高度な承認を開放する {#unlock-proofing-and-advanced-approvals}
 
-マーケティングキャンペーンの構築について考える際には、計画、構築、レビュー、フィードバック、承認、実行など、複数のシステムが関連する様々な手順をサポートしていることを考慮する必要があります。 WorkfrontとMarketo Engageを使用すると、チームは、新しいマーケティングキャンペーンの計画と開始のエンドツーエンドのプロセスを通じて、チームを引き継ぐのに必要なすべてのツールを使用できます。 さらに、チームはレビューと承認プロセスをさらに合理化し、正確性とコンプライアンスを最高水準に維持しながら、キャンペーンの開発速度を向上させることができます。
+マーケティングキャンペーンの構築について考える際には、計画、構築、レビュー、フィードバック、承認、実行など、複数のシステムが関連する様々な手順をサポートすることを考慮する必要があります。Workfront と Marketo Engage を使用すると、チームは、新しいマーケティングキャンペーンの計画からローンチまでのエンドツーエンドのプロセスを遂行するのに必要なツールをすべて使用できます。さらに、レビューと承認プロセスの合理化を促進し、正確さとコンプライアンスを最高水準に維持しながら、キャンペーンの開発速度を向上させることができます。
 
 ### Marketo EngageとWorkfrontでロックが解除されたユースケースの確認と承認 {#review-and-approve-use-cases-unlocked-with-marketo-engage-and-workfront}
 
-* Workfrontの注釈機能とMarketo Engage資産に対するコメント機能を利用することで、個別のフィードバックを排除し、一元化された場所でのコラボレーションを促進します。
+* Marketo Engage のアセットに対する Workfront の注釈機能とコメント機能を利用することで、散在するフィードバックを排除し、一元化された場所での共同作業を促進します。
 
-* Workfrontの承認ワークフローからMarketo Engageでトリガーして、承認を一元化します。
+* Workfront の承認ワークフローから Marketo Engage で承認をトリガーして一元化します。
 
-* Workfrontの高度な承認機能とMarketo Engageアセットを利用して、マーケティングアセットの複雑な承認ワークフローをサポートし、合理化します。
+* Workfront の高度な承認機能と Marketo Engage のアセットを利用して、マーケティングアセットの複雑な承認ワークフローをサポートし、合理化します。
 
-* 複数の関係者がレビューするために、プログラムによってMarketoのアセットをWorkfrontに取り込むことで、マーケティングドラフトのアクセスを民主化します。
+* 複数の関係者がレビューできるように、プログラムによって Marketo のアセットを Workfront に取り込み、マーケティングのドラフトへのアクセスを民主化します。
 
-* WorkfrontでのMarketo Engageアセットのすべてのレビューと校正作業を一元化して、変更を追跡し、ペーパートレイルを作成します。
+* Workfront での Marketo Engage のアセットのすべてのレビューとプルーフワークを一元化して、変更をトラックし、書面による記録を作成します。
 
-## 配達確認および承認ワークフローの計画 {#planning-your-proof-and-approval-workflow}
+## プルーフおよび承認ワークフローの計画 {#planning-your-proof-and-approval-workflow}
 
-Marketo EngageとWorkfrontの間で配達確認と承認の統合を設定する前に、次の点を考慮してください。
+Marketo Engage と Workfront の間でプルーフと承認の統合を設定する前に、次の点を考慮します。
 
-* レビューおよび承認が必要なアセットは何ですか？
+* レビューと承認が必要なアセットは何ですか？
 * 承認者になる必要があるのは誰ですか？
-* マーケティングアセットを有効にする前に、複数の承認者が必要ですか？
+* マーケティングアセットを公開する前に、複数の承認者が必要ですか？
 * キャンペーンの開発プロセスのどの時点で、マーケティングアセットが組み立てられ、レビューの準備が整いますか？
 
-これらの質問に回答すると、承認フローの外観と、Workfrontインスタンスの設定に関する考え方のベースラインを取得するのに役立ちます。
+これらの質問に回答すると、承認フローの大枠と、Workfront インスタンスの設定に関する考え方のベースラインを理解するのに役立ちます。
 
-## Marketo EngageとWorkfrontの間での配達確認および承認ワークフローの作成 {#building-a-proof-and-approval-workflow}
+## Marketo Engage と Workfront 間のプルーフと承認ワークフローの作成 {#building-a-proof-and-approval-workflow}
 
-WorkfrontとMarketo Engageの間で配達確認と承認のプロセスを合理化するには、Workfront Fusion を使用してこの 2 つのソリューションを統合します。 Workfront Fusion には、アクションをトリガーし、WorkfrontインスタンスとMarketo Engageインスタンスの間で情報を渡すためのワークフローインターフェイスが用意されています。
+Workfront と Marketo Engage 間でプルーフと承認プロセスを合理化するには、Workfront Fusion を使用してこの 2 つのソリューションを統合します。Workfront Fusion には、アクションをトリガーし、Workfront インスタンスと Marketo Engage インスタンス間で情報を受け渡すためのワークフローインターフェイスが用意されています。
 
-これをおこなうには、以下の手順を、統合されたレビューおよび承認エクスペリエンスのプロセスの一部として考えます。
+これを行うには、統合されたレビューと承認エクスペリエンスのプロセスの一部として、以下の手順を検討します。
 
-1. 「レビュー準備完了」タスクを使用してWorkfrontプロジェクトを設定します。
-1. Marketo Engageのステータスが変更されたWorkfrontと同期するようにタスクの電子メールをトリガーします。
-1. Marketo Engageの E メールファイルを、Workfrontで再表示可能な配達確認に変換します。
+1. レビュー準備タスクを使用して Workfront プロジェクトを設定します。
+1. Marketo Engage メールをトリガーして、タスクステータスの変更とともに Workfront と同期します。
+1. Marketo Engage のメールファイルを Workfront でレビュー可能なプルーフに変換します。
 1. Workfrontでの校正を使用して、コメントや注釈を使用して共同作業をおこないます。
-1. 「Marketo Engage」でWorkfrontのトリガー配達確認アセットの承認を承認し、タスクを完了としてマークします。
+1. Workfront のプルーフを承認して Marketo Engage でのアセット承認をトリガーし、タスクを完了としてマークします。
 
-### 「レビュー準備完了」タスクを使用したWorkfrontプロジェクトの設定 {#configure-a-workfront-project-with-a-ready-for-review-task}
+### レビュー準備タスクを使用した Workfront プロジェクトを設定する {#configure-a-workfront-project-with-a-ready-for-review-task}
 
-用途 [プロジェクトテンプレート](https://experienceleague.adobe.com/docs/workfront/using/manage-work/projects/create-and-manage-project-templates/project-template-overview.html){target="_blank"} を使用して、組織内のプロジェクトに関連する繰り返し可能なプロセス、情報、設定のほとんどを取り込みます。 タスクの定義、トピックのキュー、カスタムフォームの作成、およびテンプレートへのドキュメントの添付を行うことができます。
+[プロジェクトテンプレート](https://experienceleague.adobe.com/docs/workfront/using/manage-work/projects/create-and-manage-project-templates/project-template-overview.html?lang=ja){target="_blank"}を使用して、組織内のプロジェクトに関連する繰り返し可能なプロセス、情報、設定のほとんどを取り込みます。タスクの定義、トピックのキュー、カスタムフォームの作成およびドキュメントの添付をテンプレートで行うことができます。
 
-Workfrontのプロジェクトテンプレートに、マーケティングキャンペーンの一部であるアセットを確認するためのタスクを含めます。 さらに、単一の承認または複数レベルの複雑な承認を処理する承認プロセスを追加できます。
+Workfront のプロジェクトテンプレートに、マーケティングキャンペーンの一部であるアセットのレビューを行うめのタスクを含めます。さらに、単一の承認または複数レベルの複雑な承認を処理する承認プロセスを追加できます。
 
-新しい電子メールキャンペーンを開始する場合は、電子メールをレビューするタスクと、電子メールを送信する前に適切な関係者が電子メールを承認するための承認プロセスを含むプロジェクトテンプレートが必要です。
+新しいメールキャンペーンを開始する場合は、メールをレビューするタスクと、メールを送信する前に適切な関係者がメールを承認するための承認プロセスを含むプロジェクトテンプレートが必要です。
 
 ![タスク画面](assets/review-and-approve-blueprint-1.png){zoomable=&quot;yes&quot;}
 
-### Marketo Engageのメールをトリガーして、タスクのステータスを変更してWorkfrontに同期します {#trigger-your-marketo-engage-email-to-sync-to-workfront}
+### Marketo Engage メールをトリガーして、タスクステータスの変更とともに Workfront と同期する {#trigger-your-marketo-engage-email-to-sync-to-workfront}
 
-レビュープロセスの一環として、マーケティングチームによるレビューの準備が整ったら、Workfrontプロジェクトにメールを同期できるようにします。 そのためには、「レビュー準備完了」タスクを [タスクのステータス](https://experienceleague.adobe.com/docs/workfront/using/manage-work/projects/update-work-on-a-project/update-task-status.html){target="_blank"} これは、E メールがレビューの準備ができたことを示します。 この例では、「レビューMarketo電子メール」ステータスをタスクに追加しました。このステータスは、電子メールのドラフトを関係者がレビューする準備が整ったときに選択できます。
+レビュープロセスの一環として、マーケティングチームによるレビューの準備が整ったら、Workfront プロジェクトにメールを同期するようにします。そのためには、メールがレビューできるようになったことを示す[タスクステータス](https://experienceleague.adobe.com/docs/workfront/using/manage-work/projects/update-work-on-a-project/update-task-status.html?lang=ja){target="_blank"}とともに、レビュー準備タスクを設定することをお勧めします。この例では、「Marketo メールをレビュー」ステータスをタスクに追加しました。このステータスは、メールのドラフトを関係者がレビューする準備が整ったときに選択します。
 
-このステータスをWorkfrontプロジェクトに適用したら、Workfront Fusion シナリオを設定して、「レビュー準備完了」タスクをリッスンし、「Marketoメールのレビュー」に更新できます。 更新が完了すると、シナリオでは、Marketo EngageE メールをHTMLファイルとして取得し、zip 形式で圧縮して、そのコピーをWorkfrontプロジェクトドキュメントに保存してレビューすることができます。
+このステータスを Workfront プロジェクトに適用したら、Workfront Fusion シナリオを設定して、レビュー準備タスクをリッスンし、「Marketo メールをレビュー」に更新します。更新が完了すると、シナリオが実行されて、Marketo Engage メールを HTML ファイルとして取得し、zip 形式で圧縮して、そのコピーをレビュー用に Workfront プロジェクトドキュメントに保存します。
 
-![レビュー画面の準備ができました](assets/review-and-approve-blueprint-2.png){zoomable=&quot;yes&quot;}
+![レビュー準備画面](assets/review-and-approve-blueprint-2.png){zoomable=&quot;yes&quot;}
 
-### Marketo Engageの E メールをWorkfrontで再表示可能な配達確認に変換する {#convert-your-marketo-engage-email-to-reviewable-proof-in-workfront}
+### Marketo Engage のメールを Workfront でレビュー可能なプルーフに変換する {#convert-your-marketo-engage-email-to-reviewable-proof-in-workfront}
 
-レビューの準備が完了し、「Marketo E メールのレビュー」ステータスに移動してMarketo EngageE メールをWorkfrontに保存したら、E メールをWorkfront Proof に変換するWorkfront Fusion シナリオを設定できます。
+レビュー準備タスクが「Marketo メールをレビュー」ステータスに移動し、Marketo Engage メールが Workfront に保存されたら、メールを Workfront プルーフに変換する Workfront Fusion シナリオを設定できます。
 
 ### Workfrontでの校正を使用して、コメントや注釈を使用した共同作業を行う {#use-workfront-proofing-to-collaborate}
 
 [Workfront校正](https://experienceleague.adobe.com/docs/workfront/using/review-and-approve-work/proofing/proofing-overview/proofing-basics.html){target="_blank"} の機能を使用すると、マーケティングチームは画像や電子メールなどの新しいアセットを取得し、コメントや注釈を使用して共同作業できます。 配達確認を有効にする準備が整ったら、意思決定者は、校正ツールからアセットを承認できます。
 
-![メール画面を変換](assets/review-and-approve-blueprint-3.png){zoomable=&quot;yes&quot;}
+![メールを変換画面](assets/review-and-approve-blueprint-3.png){zoomable=&quot;yes&quot;}
 
 ### Workfrontの配達確認およびトリガーアセットの承認をMarketo Engageで承認し、タスクを完了としてマーク {#approve-workfront-proof-and-trigger-asset-approval-in-marketo-engage}
 
@@ -87,20 +88,20 @@ Workfront Fusion は、関係者によって電子メールが承認されたか
 
 適切なチームメンバーが確認/承認した E メールを使用して、E メールをMarketo Engageで運用する準備が整いました。
 
-## 統合シナリオテンプレート {#fusion-scenario-templates}
+## Fusion シナリオのテンプレート {#fusion-scenario-templates}
 
-独自のWorkfrontおよびMarketo Engageインスタンスでレビューおよび承認ワークフローの開発を合理化するため、統合の開始に役立つ Fusion テンプレートを構築しました。 これらのテンプレートを利用するには、Fusion のパブリックテンプレートセクションで「Marketo」を検索し、それらをインスタンスにダウンロードします。
+独自の Workfront および Marketo Engage インスタンスでレビューと承認ワークフローの開発を合理化するため、統合を開始するのに役立つ Fusion テンプレートを用意しました。テンプレートを使用するには、Fusion の「公開テンプレート」セクションで「Marketo」を検索し、お使いのインスタンスにダウンロードします。
 
-### WorkfrontでMarketo Engageメールの下書きの配達確認を確認する {#review-an-email-proof-of-your-marketo-engage-email-draft-in-workfront}
+### Marketo Engage メールのドラフトのメールプルーフを Workfront で確認する {#review-an-email-proof-of-your-marketo-engage-email-draft-in-workfront}
 
-以下の統合シナリオでは、レビューおよび承認フローの前半を順に説明します。このシナリオでは、E メールの下書きをMarketo Engageから取り出し、配達確認としてWorkfrontに保存できます。 Workfrontプロジェクトドキュメントに配達確認として保存すると、マーケティング関係者によるレビュー、コメント、レビュープロセスの一部としての注釈付けをおこなうことができます。
+以下の Fusion シナリオは、レビューと承認フローの前半の流れを示したものです。このシナリオでは、メールのドラフトを Marketo Engage から取得し、Workfront にプルーフとして保存します。Workfront プロジェクトドキュメントにプルーフとして保存すると、レビュー、コメント、レビュープロセスの一環として、マーケティング関係者が注釈を付けることができます。
 
-![融合シナリオのレビューとフローの承認](assets/review-and-approve-blueprint-4.png){zoomable=&quot;yes&quot;}
+![Fusion シナリオのレビューと承認フロー](assets/review-and-approve-blueprint-4.png){zoomable=&quot;yes&quot;}
 
-### Marketo Engage内のアセットの承認をトリガーにした、Workfrontでの電子メールの承認 {#approve-an-email-in-workfront-that-triggers-approval}
+### Workfront でメールを承認し、Marketo Engage にアセットの承認をトリガーする {#approve-an-email-in-workfront-that-triggers-approval}
 
-以下の統合シナリオを使用すると、Workfrontの配達確認が承認されたかどうかを検出し、その承認をMarketo Engageにルーティングして E メールの下書きを更新し、E メールがライブになり、Marketo Engageプログラムで使用できる状態にすることができます。
+以下の Fusion シナリオは、Workfront のプルーフが承認されたことを検出するのに使用できます。承認を Marketo Engage にルーティングするとメールのドラフトが更新され、メールが Marketo Engage プログラムで使用できるようになります。
 
-![融合シナリオの配達確認の承認](assets/review-and-approve-blueprint-5.png){zoomable=&quot;yes&quot;}
+![Fusion シナリオのプルーフ承認](assets/review-and-approve-blueprint-5.png){zoomable=&quot;yes&quot;}
 
-これら 2 つのシナリオを組み合わせて、Marketo EngageからWorkfrontの堅牢なレビューおよび承認ワークフローにマーケティングアセットを取り込み、承認をWorkfrontからMarketo Engageに戻す双方向のパスを作成できます。
+この 2 つのシナリオを組み合わせることで、Marketo Engage からマーケティングアセットを Workfront の堅牢なレビューと承認ワークフローに取り込み、Workfront から承認を Marketo Engage に戻す双方向のパスを作成できます。
