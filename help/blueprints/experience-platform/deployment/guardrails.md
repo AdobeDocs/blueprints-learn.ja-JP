@@ -4,16 +4,16 @@ description: ガードレールは、Adobe Experience Platform およびアプ�
 solution: Customer Journey Analytics, Journey Orchestration, Real-Time Customer Data Platform
 thumbnail: null
 exl-id: b64cf3e4-cc5d-4984-8a0f-4736d432b8e1
-source-git-commit: 94197d1b450694f96eb1ef17245c0353494859b1
+source-git-commit: a16d7e925b7f5e9a379214d01280e4fef56344af
 workflow-type: tm+mt
-source-wordcount: '464'
-ht-degree: 25%
+source-wordcount: '473'
+ht-degree: 22%
 
 ---
 
-# ガードレール
+# ガードレールと終了間の待ち時間
 
-Guardrails は、Adobe Experience Platformおよびアプリケーションでのデータとシステムの使用状況に関するガイダンスを提供するしきい値です。 Guardrail は、顧客のアーキテクチャと使用例のパフォーマンスを最適化するために、システムの制約とパフォーマンスに対する期待を反映し、エラーや予期しない結果を回避するのに役立ちます。 ガードレールは、サービスレベル契約ではありません。
+Guardrails は、Adobe Experience Platformおよびアプリケーションでのデータ、監視された待ち時間、システム使用量に関するガイダンスを提供する推奨しきい値です。 Guardrail は、顧客のアーキテクチャと使用例のパフォーマンスを最適化するために、システムの制約とパフォーマンスに対する期待を反映し、エラーや予期しない結果を回避するのに役立ちます。 ガードレールは、サービスレベル契約ではありません。
 
 アプリケーションおよび機能に関する特定の SLA(Service Level Agreement) の詳細については、 [アプリケーションと機能の説明](#application-feature-descriptions) 」セクションをクリックします。
 
@@ -25,15 +25,15 @@ Guardrails は、Adobe Experience Platformおよびアプリケーションで�
 **Experience Platform**
 
 * [Real-Time CDP Guardrails の概要](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/guardrails/overview.html)
-* [Customer Journey Analyticsオーディエンス共有ガードレール](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/audiences/publish.html?lang=ja-JP#latency)
-* [Customer Journey Analyticsデータ取り込みガードレール](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html?lang=ja-JP#what-is-the-expected-latency-for-analytics-data-on-platform%3F)
-* [Journey Optimizer Guardrails](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/guardrails.html?lang=ja)
+* [Customer Journey Analyticsオーディエンス共有ガードレール](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/audiences/publish.html#latency)
+* [Customer Journey Analyticsデータ取り込みガードレール](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html#what-is-the-expected-latency-for-analytics-data-on-platform%3F)
+* [Journey Optimizer Guardrails](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/guardrails.html)
 
 **Experience Platformサービス**
 
-* [データ取り込みガードレール](https://experienceleague.adobe.com/docs/experience-platform/ingestion/guardrails.html?lang=ja)
-* [Edge Network API ガードレール](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/guardrails.html?lang=ja)
-* [リアルタイム顧客プロファイルガードレール](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=ja)
+* [データ取り込みガードレール](https://experienceleague.adobe.com/docs/experience-platform/ingestion/guardrails.html)
+* [Edge Network API ガードレール](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/guardrails.html)
+* [リアルタイム顧客プロファイルとセグメント化ガードレール](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=ja)
 * [ID ガードレール](https://experienceleague.adobe.com/docs/experience-platform/identity/guardrails.html?lang=ja)
 * [クエリサービスガードレール](https://experienceleague.adobe.com/docs/experience-platform/query/guardrails.html?lang=ja)
 * [宛先のアクティベーションガードレール](https://experienceleague.adobe.com/docs/experience-platform/destinations/guardrails.html?lang=ja)
