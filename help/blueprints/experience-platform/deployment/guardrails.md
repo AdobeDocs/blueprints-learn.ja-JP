@@ -1,17 +1,17 @@
 ---
-title: Experience Platformおよびアプリケーションガードレールと終了待ち時間
+title: Experience Platform およびアプリケーションガードレール
 description: ガードレールは、Adobe Experience Platform およびアプリケーション内のコンポーネントとサービスに対するパフォーマンスの期待値と影響を定義します
 solution: Customer Journey Analytics, Journey Orchestration, Real-Time Customer Data Platform
 thumbnail: null
 exl-id: b64cf3e4-cc5d-4984-8a0f-4736d432b8e1
-source-git-commit: a16d7e925b7f5e9a379214d01280e4fef56344af
+source-git-commit: 4cc0eafda6e2670ac5b72b0a0ca59b84e1c0dba1
 workflow-type: tm+mt
-source-wordcount: '473'
-ht-degree: 22%
+source-wordcount: '463'
+ht-degree: 24%
 
 ---
 
-# ガードレールと終了間の待ち時間
+# ガードレール
 
 Guardrails は、Adobe Experience Platformおよびアプリケーションでのデータ、監視された待ち時間、システム使用量に関するガイダンスを提供する推奨しきい値です。 Guardrail は、顧客のアーキテクチャと使用例のパフォーマンスを最適化するために、システムの制約とパフォーマンスに対する期待を反映し、エラーや予期しない結果を回避するのに役立ちます。 ガードレールは、サービスレベル契約ではありません。
 
