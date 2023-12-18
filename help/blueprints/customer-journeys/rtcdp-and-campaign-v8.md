@@ -3,10 +3,10 @@ title: Real-Time CDP と Adobe Campaign v8 の統合パターン
 description: Adobe Experience Platform とそのリアルタイム顧客プロファイル、および一元化されたセグメント化ツールを Adobe Campaign v8 と併用して、パーソナライズされた会話を提供する方法を紹介します。
 solution: Real-Time Customer Data Platform, Campaign
 exl-id: d0291088-02ed-4e7e-b538-018ea40e38c6
-source-git-commit: ae7347be5095ca4a7f99f9371dd94d87097112b0
+source-git-commit: 5f9384abe7f29ec764428af33c6dd1f0a43f5a89
 workflow-type: tm+mt
-source-wordcount: '356'
-ht-degree: 100%
+source-wordcount: '231'
+ht-degree: 97%
 
 ---
 
@@ -18,7 +18,7 @@ Adobe Experience Platform とそのリアルタイム顧客プロファイル、
 
 ## アプリケーション
 
-* Adobe Experience PlatformReal-Time CDP
+* Adobe Experience Platform Real-Time CDP
 * Adobe Campaign v8
 
 <br>
@@ -54,12 +54,5 @@ Campaign v8 ソースコネクタを Adobe Experience Platform に設定し、Re
 ### Experience Platform Real-time Customer Data Platform セグメント共有
 
 * RTCDP Campaign の宛先コネクタ - [RTCDP Campaign 接続](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/email-marketing/adobe-campaign-managed-services.html?lang=ja)を参照してください。
-* 50 セグメントに制限することをお勧めします
-* AEP からのセグメントメンバーシップの取得は、セグメント評価スケジュールに基づいて、バッチ（1 日に 1 回）とストリーミング（5 分程度）の両方で待ち時間が発生します。
-* アクティベーションの待ち時間は 3 時間以上です
-* アクティベーションには、結合スキーマ属性のみを使用できます（配列／マップ／エクスペリエンスイベントはサポートされません）
-* セグメントあたり 20 個以下の属性にすることを推奨します
-* セグメントメンバーシップが「実現」された全プロファイルの、セグメントごとに 1 つのファイル、またはセグメントメンバーシップがファイルの属性として追加されている場合、「実現」したプロファイルと「終了」したプロファイルの両方
-* 増分およびフルセグメント書き出しがサポートされます
-* ファイルの暗号化はサポートされません
+
 * AEP のプロファイルとデータ取り込みガードレール ‐ [リンク](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=ja)を参照してください。

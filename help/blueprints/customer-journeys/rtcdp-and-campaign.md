@@ -3,10 +3,10 @@ title: Real-Time CDP と Adobe Campaign v7 および Campaign Standard の統合
 description: Adobe Experience Platform とそのリアルタイム顧客プロファイル、および一元化されたセグメント化ツールを Adobe Campaign と併用して、パーソナライズされた会話を提供する方法を紹介します。
 solution: Real-Time Customer Data Platform, Campaign
 exl-id: a15e8304-2763-42fc-9978-11f2482ea8b8
-source-git-commit: ae7347be5095ca4a7f99f9371dd94d87097112b0
+source-git-commit: 5f9384abe7f29ec764428af33c6dd1f0a43f5a89
 workflow-type: tm+mt
-source-wordcount: '804'
-ht-degree: 100%
+source-wordcount: '663'
+ht-degree: 99%
 
 ---
 
@@ -18,7 +18,7 @@ Adobe Experience Platform とそのリアルタイム顧客プロファイル、
 
 ## アプリケーション
 
-* Adobe Experience PlatformReal-Time CDP
+* Adobe Experience Platform Real-Time CDP
 * Adobe Campaign v7 または Campaign Standard
 
 <br>
@@ -47,15 +47,9 @@ Adobe Experience Platform とそのリアルタイム顧客プロファイル、
 
 ### Experience Platform CDP セグメント共有
 
-* 20 セグメントに制限することをお勧めします
-* アクティベーションは、24 時間ごとに制限されます
-* アクティベーションには、結合スキーマ属性のみを使用できます（配列／マップ／エクスペリエンスイベントはサポートされません）
-* セグメントあたり 20 個以下の属性にすることを推奨します
-* セグメントメンバーシップが「実現」された全プロファイルの、セグメントごとに 1 つのファイル、またはセグメントメンバーシップがファイルの属性として追加されている場合、「実現」したプロファイルと「終了」したプロファイルの両方
-* 増分およびフルセグメント書き出しがサポートされます
-* ファイルの暗号化はサポートされません
+* RTCDP Campaign の宛先コネクタ - [RTCDP Campaign 接続](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/email-marketing/adobe-campaign-managed-services.html?lang=ja)を参照してください。
 
-<br>
+* AEP のプロファイルとデータ取り込みガードレール ‐ [リンク](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=ja)を参照してください。
 
 ## 実装手順
 

@@ -3,10 +3,10 @@ title: Journey Optimizer - サードパーティメッセージングのブル�
 description: Adobe Journey Optimizer をサードパーティのメッセージングシステムと併用して、パーソナライズされた通信を調整および送信する方法を示します。
 solution: Journey Optimizer
 exl-id: 3a14fc06-6d9c-4cd8-bc5c-f38e253d53ce
-source-git-commit: a1421a47da2c84635ef904096a6036cfe488d763
+source-git-commit: 5f9384abe7f29ec764428af33c6dd1f0a43f5a89
 workflow-type: tm+mt
-source-wordcount: '823'
-ht-degree: 100%
+source-wordcount: '421'
+ht-degree: 97%
 
 ---
 
@@ -40,39 +40,8 @@ Adobe Experience Platform
 
 [Journey Optimizer ガードレール製品リンク](https://experienceleague.adobe.com/docs/journeys/using/starting-with-journeys/limitations.html?lang=ja)
 
-その他の Journey Optimizer ガードレール：
+[ガードレールとエンドツーエンドの待ち時間のガイダンス](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/architecture-overview/deployment/guardrails.html)
 
-* キャッピングは、宛先システムが障害点で飽和しないようにするために、今日では API を通じて利用できます。これは、キャップを超過したメッセージが完全にドロップされ、まったく送信されないことを意味します。スロットリングは、サポートされていません。
-   * 最大接続数：宛先が処理できる http/s 接続の最大数
-   * 最大呼び出し数：periodInMs パラメーターで行われる呼び出しの最大数
-   * periodInMs：ミリ秒単位の時間
-* セグメントメンバーシップで開始されるジャーニーは、2 つのモードで操作できます。
-   * バッチセグメント（24 時間ごとに更新）
-   * ストリーミングセグメント（5 分未満での認定）
-* バッチセグメント - 認定ユーザーの毎日のボリュームを確実に把握し、宛先システムがジャーニーごと、およびすべてのジャーニーのバーストスループットを処理するために必要です
-* ストリーミングセグメント - ジャーニーごと、およびすべてのジャーニーの毎日のストリーミング認定ボリュームと共に、プロファイル認定の最初のバーストを処理するために必要です
-* 意思決定管理はサポートされていません
-* サードパーティシステムへのアウトバウンド統合
-   * インフラはマルチテナントであるため、単一の静的 IP をサポートしていません（すべてのデータセンター IP を許可リストに含める必要があります）
-   * カスタムアクションは POST メソッドと PUT メソッドのみ対応
-   * 認証のサポート：トークン | パスワード | OAuth2
-* Adobe Experience Platform や Journey Optimizer の個々のコンポーネントをパッケージ化して、様々なサンドボックス間で移動させることはできません。新しい環境に再実装する必要があります
-
-<br>
-
-サードパーティメッセージングのシステム
-
-* トランザクション API 呼び出しでシステムがサポートできる負荷を理解する必要があります
-   * 1 秒間に可能な呼び出し回数
-   * 接続数
-* API 呼び出しをおこなうために必要な認証を理解する必要があります
-   * 認証タイプ：  トークン |パスワード | OAuth2 はJourney Optimizer 経由でサポートされます
-   * 認証キャッシュの期間：トークンの有効期間はどれくらいですか？
-* バッチ取り込みのみがサポートされている場合は、Amazon Kinesis や Azure Event Grid 1st などのクラウドストレージエンジンにストリーミングする必要があります
-   * データは、これらのクラウドストレージエンジンのバッチ処理を行い、サードパーティに送り込むことができます
-   * すべての必要なミドルウェアは、顧客またはサードパーティが提供する責任を負います
-
-<br>
 
 ## 実装手順
 
@@ -109,7 +78,7 @@ Adobe Experience Platform
 1. Adobe タグを活用し、次の拡張子を持つモバイルプロパティを作成します。
    * Adobe Journey Optimizer
    * Adobe Experience Platform Edge Network
-   * IDEdge ネットワーク用
+   * Edge ネットワークの ID
    * モバイルコア
 1. モバイルアプリデプロイメント用と web デプロイメント用の専用のデータストリームがあることを確認
 1. 詳しくは、[Adobe Journey Optimizer Mobile ガイド](https://developer.adobe.com/client-sdks/documentation/adobe-journey-optimizer/)を参照

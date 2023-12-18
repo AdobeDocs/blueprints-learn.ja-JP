@@ -3,14 +3,14 @@ title: Journey Optimizer と Adobe Campaign v8 ブループリント
 description: Adobe Journey Optimizer を Adobe Campaign と併用し、Campaign のリアルタイムメッセージングサーバーを利用してネイティブでメッセージを送信する方法を示します
 solution: Journey Optimizer, Campaign, Campaign v8, Campaign Classic v7, Campaign Standard
 exl-id: 447a1b60-f217-4295-a0df-32292c4742b0
-source-git-commit: 5110ee2a7a079945475055cbcfdabf7cdcaa0ab5
-workflow-type: ht
-source-wordcount: '1028'
-ht-degree: 100%
+source-git-commit: 5f9384abe7f29ec764428af33c6dd1f0a43f5a89
+workflow-type: tm+mt
+source-wordcount: '645'
+ht-degree: 98%
 
 ---
 
-# Journey Optimizer と Adobe Campaignv8ブループリント
+# Journey Optimizer と Adobe Campaign v8 ブループリント
 
 Adobe Journey Optimizer を Adobe Campaign と併用し、Campaign のリアルタイムメッセージングサーバーを利用してネイティブでメッセージを送信する方法を示します。
 
@@ -45,37 +45,7 @@ Adobe Journey Optimizer を Adobe Campaign と併用し、Campaign のリアル�
 
 [Journey Optimizer ガードレール製品リンク](https://experienceleague.adobe.com/docs/journeys/using/starting-with-journeys/limitations.html?lang=ja)
 
-### その他の Journey Optimizer ガードレール
-
-* キャッピングは、宛先システムが障害点で飽和しないようにするために、今日では API を通じて利用できます。これは、キャップを超過したメッセージが完全にドロップされ、まったく送信されないことを意味します。スロットリングは、サポートされていません。
-   * 最大接続数：宛先が処理できる http/s 接続の最大数
-   * 最大呼び出し数：periodInMs パラメーターで行われる呼び出しの最大数
-   * periodInMs：ミリ秒単位の時間
-* セグメントメンバーシップで開始されるジャーニーは、2 つのモードで操作できます。
-   * バッチセグメント（24 時間ごとに更新）
-   * ストリーミングセグメント（5 分未満での認定）
-* バッチセグメント - 認定ユーザーの毎日のボリュームを確実に把握し、宛先システムがジャーニーごと、およびすべてのジャーニーのバーストスループットを処理するために必要です
-* ストリーミングセグメント - ジャーニーごと、およびすべてのジャーニーの毎日のストリーミング認定ボリュームと共に、プロファイル認定の最初のバーストを処理するために必要です
-* 意思決定管理はサポートされていません
-* ビジネスイベントはサポートされていません
-* サードパーティシステムへのアウトバウンド統合
-   * インフラはマルチテナントであるため、単一の静的 IP をサポートしていません（すべてのデータセンター IP を許可リストに含める必要があります）
-   * カスタムアクションは POST メソッドと PUT メソッドのみ対応
-   * 認証のサポート：トークン | パスワード | OAuth2
-* Adobe Experience Platform や Journey Optimizer の個々のコンポーネントをパッケージ化して、様々なサンドボックス間で移動させることはできません。新しい環境に再実装する必要があります
-
-<br>
-
-### Campaign（v8）
-
-* Message Center の実行インスタンスは、アドビが管理する Cloud Services がホストする必要があります
-* メッセージングスループット
-   * AC（v8）1 時間あたり最大 1M（パッケージに基づく）
-* AC (v8) は、メッセージでの意思決定管理をサポートしていません
-* Campaign へのアウトバウンド API コールのスロットリングはありません
-* Campaign v8.4 では、Experience Platform で Adobe Campaign Managed Services ソースコネクタを利用して、Campaign の配信およびトラッキングイベントを Experience Platform に同期することができます。詳しくは、ソースコネクタのドキュメントを参照してください。[リンク](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=ja)
-
-<br>
+[ガードレールとエンドツーエンドの待ち時間のガイダンス](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/architecture-overview/deployment/guardrails.html)
 
 ## 実装手順
 
@@ -119,7 +89,7 @@ Adobe Journey Optimizer を Adobe Campaign と併用し、Campaign のリアル�
 1. Adobe タグを活用し、次の拡張子を持つモバイルプロパティを作成します。
    * Adobe Journey Optimizer | Adobe Campaign Classic | Adobe Campaign Standard
    * Adobe Experience Platform Edge Network
-   * IDEdge ネットワーク用
+   * Edge ネットワークの ID
    * モバイルコア
 1. モバイルアプリデプロイメント用と web デプロイメント用の専用のデータストリームがあることを確認
 1. 詳しくは、[Adobe Journey Optimizer Mobile ガイド](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-journey-optimizer)を参照

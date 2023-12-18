@@ -3,9 +3,9 @@ title: Journey Optimizer - トリガーされるメッセージおよび Adobe E
 description: ストリーミングデータ、顧客プロファイル、セグメント化の中央ハブとして Adobe Experience Platform を使用して、トリガーされるメッセージとエクスペリエンスを実行します。
 solution: Journey Optimizer
 exl-id: 97831309-f235-4418-bd52-28af815e1878
-source-git-commit: 3102ab35e48fe51010185ea5a0352c77f068d0d4
+source-git-commit: 5f9384abe7f29ec764428af33c6dd1f0a43f5a89
 workflow-type: tm+mt
-source-wordcount: '710'
+source-wordcount: '563'
 ht-degree: 97%
 
 ---
@@ -74,22 +74,7 @@ Adobe Experience Platform
 
 [Journey Optimizer ガードレール製品リンク](https://experienceleague.adobe.com/docs/journeys/using/starting-with-journeys/limitations.html)
 
-[エンドツーエンドの待ち時間ガイダンス](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/architecture-overview/deployment/guardrails.html)
-
-その他の考慮事項は次のとおりです。
-
-* バッチセグメント - 認定ユーザーの毎日のボリュームを確実に把握し、宛先システムがジャーニーごと、およびすべてのジャーニーのバーストスループットを処理するために必要です
-* ストリーミングセグメント - ジャーニーごと、およびすべてのジャーニーの毎日のストリーミング認定ボリュームと共に、プロファイル認定の最初のバーストを処理するために必要です
-* メッセージでのみの意思決定管理をネイティブでサポート（カスタムアクションなし）
-* サポートされるメッセージタイプ：
-   * 電子メール
-   * プッシュ（FCM／APNS）
-   * カスタムアクション（Rest API を経由する）
-* サードパーティシステムへのアウトバウンド統合
-   * インフラはマルチテナントであるため、単一の静的 IP をサポートしていません（すべてのデータセンター IP を許可リストに含める必要があります）
-   * カスタムアクションは POST メソッドと PUT メソッドのみ対応
-   * ユーザー/パスまたは認証トークンを使用した認証
-* Adobe Experience Platform や Journey Optimizer の個々のコンポーネントをパッケージ化して、様々なサンドボックス間で移動させることはできません。新しい環境に再実装する必要があります
+[ガードレールとエンドツーエンドの待ち時間のガイダンス](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/architecture-overview/deployment/guardrails.html)
 
 ## 関連ドキュメント
 
