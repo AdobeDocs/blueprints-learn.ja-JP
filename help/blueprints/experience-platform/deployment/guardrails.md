@@ -4,18 +4,20 @@ description: ガードレールは、Adobe Experience Platform およびアプ�
 solution: Customer Journey Analytics, Journey Orchestration, Real-Time Customer Data Platform
 thumbnail: null
 exl-id: b64cf3e4-cc5d-4984-8a0f-4736d432b8e1
-source-git-commit: 4cc0eafda6e2670ac5b72b0a0ca59b84e1c0dba1
+source-git-commit: 5a4827244b7d8414b1f1a0bf9b3cd8308bde8c60
 workflow-type: tm+mt
-source-wordcount: '463'
-ht-degree: 24%
+source-wordcount: '630'
+ht-degree: 18%
 
 ---
 
 # ガードレール
 
-Guardrails は、Adobe Experience Platformおよびアプリケーションでのデータ、監視された待ち時間、システム使用量に関するガイダンスを提供する推奨しきい値です。 Guardrail は、顧客のアーキテクチャと使用例のパフォーマンスを最適化するために、システムの制約とパフォーマンスに対する期待を反映し、エラーや予期しない結果を回避するのに役立ちます。 ガードレールは、サービスレベル契約ではありません。
+Guardrails は、Adobe Experience Platformおよびアプリケーションでのデータ、監視された待ち時間、システム使用量に関するガイダンスを提供する推奨しきい値です。 Guardrail は、顧客のアーキテクチャと使用例のパフォーマンスを最適化するために、システムの制約とパフォーマンスに対する期待を反映し、エラーや予期しない結果を回避するのに役立ちます。 Guardrail は、サービスレベル契約に含まれるものではありません。サービスレベル契約は、以下のリンクにある製品の説明と、顧客ライセンス契約に記載されています。 Guardrail は、安定性と実行を確保するために、特定のお客様の使用例に合わせてソリューションを構築する際のガイダンスを提供することを目的としています。
 
 アプリケーションおよび機能に関する特定の SLA(Service Level Agreement) の詳細については、 [アプリケーションと機能の説明](#application-feature-descriptions) 」セクションをクリックします。
+
+厳密な遅延またはボリューム要件を持つお客様の使用例の場合は、Adobeのアカウントチームおよび実装パートナーに使用例の詳細を確認することをお勧めします。 実稼動環境でのデータ取り込みの性質や範囲など、様々な要因が存在するので、使用事例の実装の前に特定の使用例の実装をテストして確認し、期待される動作を観察および理解することをお勧めします。 したがって、使用例の待ち時間とパフォーマンスの要件に従って適切なアーキテクチャと実装を確保するために、期待されるパフォーマンスを事前に確立してテストすることをお勧めします。
 
 
 ## Adobe Experience Platform およびアプリケーションのガードレール参照ドキュメント
