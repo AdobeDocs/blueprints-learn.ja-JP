@@ -3,10 +3,10 @@ title: エッジでの意思決定管理のブループリント
 description: 複数のチャネルをまたいで、リアルタイムの web エクスペリエンスやモバイルエクスペリエンスを含むパーソナライズされたオファーを顧客に提供します。
 solution: Experience Platform, Journey Optimizer
 exl-id: 31e5f624-5578-49e1-ab92-5cabd596a632
-source-git-commit: 5f9384abe7f29ec764428af33c6dd1f0a43f5a89
+source-git-commit: 2960cc95b9b83a3efea7fa247e1adabf310f3ee1
 workflow-type: tm+mt
-source-wordcount: '634'
-ht-degree: 98%
+source-wordcount: '653'
+ht-degree: 95%
 
 ---
 
@@ -26,6 +26,7 @@ ht-degree: 98%
 
 ## エッジでの意思決定管理のユースケース
 
+* プロファイルコンテキストの遅延が 15 分未満で、判定管理の実行が 1 秒未満の場合、ストリーミングの使用例です。
 * Web またはモバイルインバウンドエクスペリエンスを使用したオンラインパーソナライズ機能。
 * クロスチャネルのジャーニーの実行 - Adobe Journey Optimizer を通じて、web、モバイル、電子メールおよびその他のインタラクションチャネル間の一貫性を提供します。
 
