@@ -4,10 +4,10 @@ description: ガードレールは、Adobe Experience Platform およびアプ�
 solution: Customer Journey Analytics, Journey Orchestration, Real-Time Customer Data Platform
 thumbnail: null
 exl-id: b64cf3e4-cc5d-4984-8a0f-4736d432b8e1
-source-git-commit: 5a4827244b7d8414b1f1a0bf9b3cd8308bde8c60
+source-git-commit: 2ff576ccb4ac3f9e2bdb690b6e9242d674214c33
 workflow-type: tm+mt
-source-wordcount: '630'
-ht-degree: 18%
+source-wordcount: '688'
+ht-degree: 15%
 
 ---
 
@@ -17,7 +17,7 @@ Guardrails は、Adobe Experience Platformおよびアプリケーションで�
 
 アプリケーションおよび機能に関する特定の SLA(Service Level Agreement) の詳細については、 [アプリケーションと機能の説明](#application-feature-descriptions) 」セクションをクリックします。
 
-厳密な遅延またはボリューム要件を持つお客様の使用例の場合は、Adobeのアカウントチームおよび実装パートナーに使用例の詳細を確認することをお勧めします。 実稼動環境でのデータ取り込みの性質や範囲など、様々な要因が存在するので、使用事例の実装の前に特定の使用例の実装をテストして確認し、期待される動作を観察および理解することをお勧めします。 したがって、使用例の待ち時間とパフォーマンスの要件に従って適切なアーキテクチャと実装を確保するために、期待されるパフォーマンスを事前に確立してテストすることをお勧めします。
+厳密な遅延またはボリューム要件を持つお客様の使用例の場合は、Adobeのアカウントチームおよび実装パートナーに使用例の詳細を確認することをお勧めします。 実稼動環境でのデータ取り込みの性質や範囲など、様々な要因が存在するので、各ユースケースの実装ではパフォーマンスが異なるので、実際の動作を確認して理解するには、使用例の実装をテストして確認することをお勧めします。 したがって、使用例の待ち時間とパフォーマンスの要件に従って適切なアーキテクチャと実装を確保するために、期待されるパフォーマンスを事前に確立してテストすることをお勧めします。
 
 
 ## Adobe Experience Platform およびアプリケーションのガードレール参照ドキュメント
@@ -42,6 +42,12 @@ Guardrails は、Adobe Experience Platformおよびアプリケーションで�
 
 ## エンドツーエンドの待ち時間図 {#end-to-end-latency}
 
+### Experience Platformエッジネットワークとハブプライマリの観測待ち時間 {#edge-hub-latencies}
+
+以下の図は、Experience Platformとアプリケーションでユースケースを構築する際に認識する必要がある、プライマリエッジとハブの監視待ち時間を示しています。
+
+![Experience PlatformEdge Network とハブの主要な監視待ち時間。](/help/blueprints/experience-platform/deployment/assets/aep_edge_hub_latency.svg "Experience PlatformEdge Network とハブの主要な監視待ち時間"){width="1000" zoomable="yes"}
+
 ### データ取り込み {#data-ingestion}
 
 次の図に、 [ストリーミング取得](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/overview.html) および [バッチ取得](https://experienceleague.adobe.com/docs/experience-platform/ingestion/batch/getting-started.html?lang=ja) Real-Time CDPにデータを取り込むとき。 画像をクリックして高解像度バージョンを表示します。
@@ -54,11 +60,11 @@ Guardrails は、Adobe Experience Platformおよびアプリケーションで�
 
 ![セグメントの概要レベルの視覚的な概要。](/help/blueprints/experience-platform/deployment/assets/segmentation_guardrails.svg "セグメントの概要レベルの視覚的概要と待ち時間の値"){width="1000" zoomable="yes"}
 
-### Real-time Customer Data Platform および Adobe Target {#adobe-target-latency}
+### Real-time Customer Data Platform &amp; Edge Network {#adobe-edge-latency}
 
-以下の図に、Real-Time CDPからにオーディエンスを書き出す際に予想される遅延値を示します [Adobe Target](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection.html?lang=ja). 画像をクリックして高解像度バージョンを表示します。
+次の図は、Edge ネットワークを活用する際に予想される遅延値を示しています。例えば、 [Adobe Target](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection.html?lang=ja). 画像をクリックして高解像度バージョンを表示します。
 
-![Adobe Targetへの高レベルの視覚的概要の書き出し。](/help/blueprints/experience-platform/deployment/assets/RTCDP_Target_guardrails.svg "オーディエンスのAdobe Targetの概要レベルのビジュアル概要と待ち時間の値へのエクスポート"){width="1000" zoomable="yes"}
+![Adobe EdgeのネットワークとExperience Platformの概要を視覚的に示します。](/help/blueprints/experience-platform/deployment/assets/RTCDP_Edge_guardrails.svg "オーディエンスのAdobe Targetへの高レベルの視覚的概要と遅延のエクスポート"){width="1000" zoomable="yes"}
 
 ### Customer Journey Analytics {#customer-journey-analytics}
 
