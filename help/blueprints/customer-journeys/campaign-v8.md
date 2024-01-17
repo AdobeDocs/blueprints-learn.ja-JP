@@ -3,10 +3,10 @@ title: Campaign v8 ブループリント、Campaign および Platform
 description: Adobe Campaign v8 は、電子メールやダイレクトメールなどの従来のマーケティングチャネル用に構築された次世代キャンペーンツールです。堅牢な ETL およびデータ管理機能を提供し、最適なキャンペーンの作成とキュレーションを支援します。そのオーケストレーションエンジンは、バッチベースのジャーニーに重点を置いた、豊富なマルチタッチマーケティングプログラムを提供します。また、拡張性の高いリアルタイムメッセージングサーバーと組み合わせることで、マーケティングチームは、パスワードのリセット、注文確認、電子領収書など、あらゆる IT システムから包括的なペイロードに基づいて事前に定義したメッセージを送信することが可能になります。
 solution: Campaign,Campaign v8
 exl-id: 89b3a761-9cb3-4e01-8da0-043e634fa61f
-source-git-commit: dabb5ae0bf2fc186f67d4aa93a2e9e8c5bb04498
-workflow-type: ht
-source-wordcount: '1147'
-ht-degree: 100%
+source-git-commit: ac6e27e88854f5a05a7ff7428cd4375b3532f632
+workflow-type: tm+mt
+source-wordcount: '1074'
+ht-degree: 95%
 
 ---
 
@@ -27,9 +27,18 @@ Adobe Campaign v8 は、電子メールやダイレクトメールなどの従�
 
 <br>
 
-## アーキテクチャ
+## アーキテクチャ図
 
-<img src="assets/campaign-v8-architecture.svg" alt="Campaign v8 ブループリントの参照アーキテクチャ" style="width:100%; border:1px solid #4a4a4a" class="modal-image" />
+Campaign v8 デプロイメントモデルの詳細については、 [このページ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/architecture/architecture.html#ac-deployment){target="_blank"}.
+
+### Campaign エンタープライズ (FFDA) デプロイメント
+
+<img src="assets/P4-architecture.png" alt="Campaign v8 ブループリント (P4) のリファレンスアーキテクチャ" style="width:100%; border:1px solid #4a4a4a" class="modal-image" />
+
+
+### Campaign v8 FDA のデプロイメント
+
+<img src="assets/P1-P3-architecture.png" alt="Campaign v8 ブループリントのリファレンスアーキテクチャ (P1-P3)" style="width:100%; border:1px solid #4a4a4a" class="modal-image" />
 
 <br>
 
@@ -84,7 +93,7 @@ Adobe Campaign v8 は、電子メールやダイレクトメールなどの従�
    * API データの読み込みのサポートは、主にデータベース内のプロファイルや単純なオブジェクトの管理（作成と更新）に使用します。大量のデータの読み込みや、バッチ操作などの操作に向けたものではありません。
    * API を使用したカスタムアプリケーション目的でのデータ読み取りはサポートされていません
    * API を介して読み込まれたデータは、アプリケーションデータベースでステージングされ、1 時間ごとにクラウドデータベースにレプリケートされます
-* API 呼び出しは、1 秒あたり 15 件または 1 日あたり 150,000 件に制限されます
+* API 呼び出しに制限が適用されます。 詳しくは、 [Adobe Campaign Product Description](https://helpx.adobe.com/jp/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target="_blank"}.
 
 ### バッチメッセージングサーバーのサイズ設定
 
@@ -104,16 +113,6 @@ Adobe Campaign v8 は、電子メールやダイレクトメールなどの従�
    * SMS MO（モバイル発信）：携帯電話から SMPP プロバイダー経由で Adobe Campaign に送信される SMS。
    * SMS SR（ステータスレポート）、DR または DLR（配信受信）：SMS が正常に受信されたことを示す返信確認メッセージが、SMPP プロバイダーを通じて Adobe Campaign に送信されました。Adobe Campaign は、メッセージが配信できなかったことを示す SR を受け取る場合もあり、多くの場合、エラーの説明が記載されています。
 
-### モバイルプッシュ設定
-
-* Campaign SDK のみが、Campaign v8 ではサポートされています。アドビカスタマーケアに連絡
-* SDK のインストールと設定の方法については、[Campaign SDK ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-push-notifications/integrating-campaign-sdk-into-the-mobile-application.html?lang=ja)を参照してください。
-
-   >[!IMPORTANT]
-   >その他の Experience Cloud アプリケーションでは、データ収集に Experience Platform Mobile SDK を使用する必要があります。これは別の SDK なので、Campaign SDK と共にインストールする必要があります
-
-<br>
-
 ## 実装手順
 
 [Adobe Campaign v8 の実装](https://experienceleague.adobe.com/docs/campaign/campaign-v8/implement/implement.html?lang=ja)の入門ガイドを参照してください。
@@ -121,7 +120,7 @@ Adobe Campaign v8 は、電子メールやダイレクトメールなどの従�
 
 ## 関連ドキュメント
 
-* [Campaign v8 ドキュメント](https://experienceleague.adobe.com/docs/campaign-v8.html?lang=ja)
+* [Campaign v8 ドキュメント](https://experienceleague.adobe.com/docs/campaign-v8.html)
 * [Campaign v8 製品説明](https://helpx.adobe.com/jp/legal/product-descriptions/adobe-campaign-managed-cloud-services.html)
-* [Experience Platform タグドキュメント](https://experienceleague.adobe.com/docs/launch.html?lang=ja)
-* [Experience Platform Mobile SDK ドキュメント](https://experienceleague.adobe.com/docs/mobile.html?lang=ja)
+* [Experience Platform タグドキュメント](https://experienceleague.adobe.com/docs/launch.html)
+* [Experience Platform Mobile SDK ドキュメント](https://experienceleague.adobe.com/docs/mobile.html)
