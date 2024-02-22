@@ -7,7 +7,7 @@ solution: Target, Audience Manager, Analytics, Experience Cloud Services, Data C
 kt: 7085
 thumbnail: thumb-web-personalization-scenario1.jpg
 exl-id: b9882c2c-cb45-4efa-a85c-8fe48f641a12
-source-git-commit: 1ee81e6e2e9847f53f51bc96e55ea434a0a1cbda
+source-git-commit: b0f106c4dce59137086c8806def34e98b554bb61
 workflow-type: tm+mt
 source-wordcount: '442'
 ht-degree: 98%
@@ -40,8 +40,8 @@ ht-degree: 98%
 
 Web／モバイルパーソナライズ機能ブループリントは、以下に説明する方法で実装できます。
 
-1. [!UICONTROL Platform Web SDK] または [!UICONTROL Platform Mobile SDK] と[!UICONTROL エッジネットワーク]を使用。[Experience Platform Web および Mobile SDK のブループリントを参照](//experience-platform/deployment/websdk.md)
-1. 従来のアプリケーション固有の SDK( 例：AppMeasurement.js) を使用する。 [アプリケーション固有の SDK ブループリントを参照](//experience-platform/deployment/appsdk.md)
+1. [!UICONTROL Platform Web SDK] または [!UICONTROL Platform Mobile SDK] と[!UICONTROL エッジネットワーク]を使用。[Experience Platform Web および Mobile SDK のブループリントを参照](..//experience-platform/deployment/websdk.md)
+1. 従来のアプリケーション固有の SDK( 例：AppMeasurement.js) を使用する。 [アプリケーション固有の SDK ブループリントを参照](..//experience-platform/deployment/appsdk.md)
 
 ## 実装手順
 
