@@ -5,7 +5,7 @@ user-guide-description: ブループリントは、既存のビジネス上の�
 product: adobe experience platform
 mini-toc-levels: 3
 role: Architect, Developer, User
-source-git-commit: f98f1b6ca56ed1249e9c18ea04935808f4498ed5
+source-git-commit: 404c0d42fd29cb13f933bf74ad375476868a59ad
 workflow-type: tm+mt
 source-wordcount: '250'
 ht-degree: 92%
@@ -40,6 +40,11 @@ ht-degree: 92%
       + [顧客アクティビティハブ](/help/blueprints/audience-activation/customer-activity.md)
       + [セグメントの一致](/help/blueprints/audience-activation/segment-match.md)
    + [Experience Cloud アプリケーションを使用したアクティベーション](/help/blueprints/audience-activation/platform-and-applications.md)
+   + Web およびモバイルのパーソナライゼーション{#web-personalization}
+      + [概要](/help/blueprints/audience-activation/web-personalization/overview.md)
+      + [行動パーソナライゼーション — Target](/help/blueprints//audience-activation/web-personalization/behavioral.md)
+      + [既知の顧客のパーソナライゼーション - Target と RTCDP](/help/blueprints/audience-activation/web-personalization/known-personalization.md)
+      + [意思決定管理](/help/blueprints/audience-activation/web-personalization/decision-management-edge.md)
 + B2B アクティベーションとマーケティング{#b2b-activation}
    + [概要](/help/blueprints/b2b/overview.md)
    + [B2B アクティベーション](/help/blueprints/b2b/b2bactivation.md)
@@ -85,8 +90,3 @@ ht-degree: 92%
    + [概要](/help/blueprints/data-insights/overview.md)
    + [データ分析とインテリジェンス](/help/blueprints/data-insights/analysis.md)
    + [プロファイルエンリッチメントのためのカスタムデータサイエンス](/help/blueprints/data-insights/data-science.md)
-+ Web およびモバイルのパーソナライゼーション{#web-personalization}
-   + [概要](/help/blueprints/web-personalization/overview.md)
-   + [行動パーソナライゼーション — Target](/help/blueprints/web-personalization/behavioral.md)
-   + [既知の顧客のパーソナライゼーション - Target と RTCDP](/help/blueprints/web-personalization/known-personalization.md)
-   + [意思決定管理](/help/blueprints/web-personalization/decision-management-edge.md)
