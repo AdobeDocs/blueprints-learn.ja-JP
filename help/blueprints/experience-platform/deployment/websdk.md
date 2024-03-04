@@ -5,9 +5,9 @@ solution: Experience Platform,Data Collection
 kt: null
 thumbnail: null
 exl-id: 3cc9e849-a75d-40ad-a604-6acf4c2c9f89
-source-git-commit: b18d491fdefc57762932d1570401b5437bf97c76
-workflow-type: ht
-source-wordcount: '254'
+source-git-commit: 3bd7a73786fee42ec14d98fc4362e7a9609f12a3
+workflow-type: tm+mt
+source-wordcount: '199'
 ht-degree: 100%
 
 ---
@@ -36,11 +36,11 @@ Web SDK でサポートされるアプリケーション機能の詳細な概要
 
 次のアーキテクチャ図は、Experience Platform Web SDK を使用したデプロイメントパスとデータ収集を示しています。
 
-<img src="assets/web_sdk_flow.svg" alt="Experience Platform Web および Mobile SDK を使用した実装の参照アーキテクチャ" style="width:90%; border:1px solid #4a4a4a" />
+<img src="assets/web_sdk_flow.svg" alt="Experience Platform Web および Mobile SDK を使用した実装の参照アーキテクチャ" style="width:90%; border:1px solid #4a4a4a" class="modal-image" />
 
 Experience Edge、Experience Platform サービス、アプリケーションのシーケンス図
 
-<img src="assets/web_sdk_sequence.svg" alt="オンライン／オフライン web パーソナライズ機能ブループリントの参照アーキテクチャ" style="width:90%; border:1px solid #4a4a4a" />
+<img src="assets/web_sdk_sequence.svg" alt="オンライン／オフライン web パーソナライズ機能ブループリントの参照アーキテクチャ" style="width:90%; border:1px solid #4a4a4a" class="modal-image" />
 
 ## リファレンスドキュメント
 
