@@ -5,17 +5,17 @@ user-guide-description: ブループリントは、既存のビジネス上の�
 product: adobe experience platform
 mini-toc-levels: 3
 role: Architect, Developer, User
-source-git-commit: 404c0d42fd29cb13f933bf74ad375476868a59ad
+source-git-commit: 3cb8d1566e0ce1356c864e360f660a739d0a472a
 workflow-type: tm+mt
-source-wordcount: '250'
-ht-degree: 92%
+source-wordcount: '252'
+ht-degree: 90%
 
 ---
 
 
 # デジタルエクスペリエンスのブループリント {#architecture}
 
-+ [概要](/help/blueprints/overview.md)
++ [デジタルエクスペリエンスブループリント](/help/blueprints/overview.md)
 + 垂直な業界のブループリント {#vertical-blueprints}
    + [概要](/help/blueprints/vertical-blueprints/overview.md)
    + [アパレル](/help/blueprints/vertical-blueprints/apparel.md)
