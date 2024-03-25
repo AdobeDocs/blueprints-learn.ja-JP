@@ -5,7 +5,7 @@ solution: Experience Cloud, Campaign, Analytics, Target, Audience Manager, Comme
 kt: 7200
 thumbnail: null
 exl-id: 67f7e236-4fa2-434d-af22-953e94a079c1
-source-git-commit: acbf600dbfb711c99eda2029bd48549e673f0361
+source-git-commit: 20ec9197752bbafea6e601d7a36406b5786f372b
 workflow-type: tm+mt
 source-wordcount: '163'
 ht-degree: 79%
@@ -20,7 +20,7 @@ ht-degree: 79%
 
 以下の図に、Adobe Experience Platform の基盤上に構築および統合された、データインサイトとオーディエンス、コンテンツとコマース、カスタマージャーニー、およびマーケティングワークフローにわたる Adobe Experience Cloud の様々なコンポーネントを示します。
 
-<img src="assets/AEC.png" alt="Experience Cloud の概要" style="width:95%; border:1px solid #4a4a4a; margin-bottom: 15px;" class="modal-image" />
+<img src="assets/AEC.jpg" alt="Experience Cloud の概要" style="width:95%; border:1px solid #4a4a4a; margin-bottom: 15px;" class="modal-image" />
 
 
 ## データインサイトとオーディエンス、コンテンツとコマース、およびエクスペリエンス配信の統合アーキテクチャ
