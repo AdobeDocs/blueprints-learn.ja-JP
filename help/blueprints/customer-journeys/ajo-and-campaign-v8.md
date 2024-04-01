@@ -3,18 +3,16 @@ title: Journey Optimizer と Adobe Campaign v8 ブループリント
 description: Adobe Journey Optimizer を Adobe Campaign と併用し、Campaign のリアルタイムメッセージングサーバーを利用してネイティブでメッセージを送信する方法を示します
 solution: Journey Optimizer, Campaign, Campaign v8 Client Console
 exl-id: 447a1b60-f217-4295-a0df-32292c4742b0
-source-git-commit: 5c0f5c5cfd7c3258c6b41fb579fe6c24d1e9a56e
+source-git-commit: 60a7785ea0ec4ee83fd9a1e843f0b84fc4cb1150
 workflow-type: tm+mt
-source-wordcount: '645'
-ht-degree: 98%
+source-wordcount: '632'
+ht-degree: 64%
 
 ---
 
 # Journey Optimizer と Adobe Campaign v8 ブループリント
 
-Adobe Journey Optimizer を Adobe Campaign と併用し、Campaign のリアルタイムメッセージングサーバーを利用してネイティブでメッセージを送信する方法を示します。
-
-<br>
+Adobe [!DNL Journey Optimizer] Adobe [!DNL Campaign] リアルタイムメッセージングサーバーを使用して、メッセージをネイティブに送信するには、 [!DNL Campaign].
 
 ## アーキテクチャ
 
@@ -23,9 +21,9 @@ Adobe Journey Optimizer を Adobe Campaign と併用し、Campaign のリアル�
 >[!IMPORTANT]
 >Journey Optimizer と Campaign の両方を使用して、互いに独立してメッセージを送信することは可能ですが、技術的な考慮事項を熟慮する必要があります。このルートを進める場合は、Pre-Sales Enterprise Architect と協力し、実装をサポートするために必要な事項を理解する必要があります。
 
-<br>
-
 ## 前提条件
+
+各アプリケーションに関する次の前提条件を確認します。
 
 ### Adobe Experience Platform
 
@@ -39,22 +37,22 @@ Adobe Journey Optimizer を Adobe Campaign と併用し、Campaign のリアル�
 * リアルタイムメッセージングサービス（Message Center）の実行インスタンスは、アドビが管理する Cloud Services がホストする必要があります
 * すべてのメッセージの作成は、Campaign インスタンス自体内で行われます。
 
-<br>
-
 ## ガードレール
 
-[Journey Optimizer ガードレール製品リンク](https://experienceleague.adobe.com/docs/journeys/using/starting-with-journeys/limitations.html?lang=ja)
+* [Journey Optimizer Guardrails の製品制限](https://experienceleague.adobe.com/docs/journeys/using/starting-with-journeys/limitations.html?lang=ja)
 
-[ガードレールとエンドツーエンドの待ち時間のガイダンス](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/architecture-overview/deployment/guardrails.html)
+* [Guardrail とエンドツーエンドの待ち時間のガイダンス](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/architecture-overview/deployment/guardrails.html)
 
 ## 実装手順
+
+以下で説明する各アプリケーションの実装に従います。
 
 ### Adobe Experience Platform
 
 #### スキーマ／データセット
 
 1. 顧客提供データに基づき、Experience Platform で[個人プロファイル、エクスペリエンスイベントおよびマルチエンティティスキーマを設定します](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2021.1.xdm&amp;lang=ja)。
-1. Adobe Campaign broadLog、trackingLog および配信不能アドレステーブル（オプション）用の Experience Event クラスベースのスキーマを作成します。
+1. （オプション） Adobe Campaign broadLog、trackingLog および配信不能アドレステーブル用に、Experience Event クラスベースのスキーマを作成します。
 1. Experience Platform で取り込む[データセットを作成します。](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/create-datasets-and-ingest-data.html?lang=ja)
 1. ガバナンス用のデータセットに、Experience Platform で[データ使用ラベルを追加します。](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-governance/classify-data-using-governance-labels.html?lang=ja)
 1. 宛先のガバナンスを実施する[ポリシーを作成します。](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-governance/create-data-usage-policies.html?lang=ja)
@@ -69,35 +67,33 @@ Adobe Journey Optimizer を Adobe Campaign と併用し、Campaign のリアル�
 
 #### ソース／宛先
 
-1. ストリーミング API およびソースコネクタを使用して、[Experience Platform にデータを取り込みます。](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2020.1.dataingestion&amp;lang=ja)
+1. [データの取り込み先 [!DNL Experience Platform]](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2020.1.dataingestion&amp;lang=ja) ストリーミング API とソースコネクタの使用
 
 ### Journey Optimizer
 
-1. Experience Platform データソースを設定し、カスタマージャーニーの開始に使用する profileStreaming データの一部としてキャッシュするフィールドを決定します。このデータは、まず Journey Optimizer 内で設定され、オーケストレーション ID を取得する必要があります。このオーケストレーション ID は、取り込みに使用するためにデベロッパーに供給されます
-1. 外部データソースを設定
-1. Campaign インスタンス用のカスタムアクションを設定
+1. を設定します。 [!DNL Experience Platform] データソースを作成し、カスタマージャーニーの開始に使用する profileStreaming データの一部としてキャッシュする必要があるフィールドを決定します。まず、オーケストレーション ID を取得するために、Journey Optimizer内で設定する必要があります。 このオーケストレーション ID は、取り込みに使用するためにデベロッパーに供給されます。
+1. 外部データソースを設定します。
+1. Campaign インスタンスのカスタムアクションを設定します。
 
 ### Campaign v8
 
-* メッセージテンプレートは、適切なパーソナライズ機能コンテキストを使用して設定する必要があります
-* Campaign Standard - トランザクションメッセージログを Experience Platform に書き戻すには、書き出しワークフローを設定する必要があります。最大でも 4 時間ごとに実行することをお勧めします。
-* Campaign v8.4 では、Experience Platform で Adobe Campaign Managed Services ソースコネクタを利用して、Campaign の配信およびトラッキングイベントを Experience Platform に同期することができます。詳しくは、ソースコネクタのドキュメントを参照してください。[リンク](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=ja)
+* メッセージテンプレートは、適切なパーソナライゼーションコンテキストを使用して設定する必要があります。
+* の場合 [!DNL Campaign] 標準：書き出しワークフローは、トランザクションメッセージログをExperience Platformに書き出すように設定する必要があります。 最大で 4 時間おきに実行することをお勧めします。
+* の場合 [!DNL Campaign] v8.4ADOBE [!DNL Campaign] Managed Services Source Connector をExperience Platformして、Campaign の配信およびトラッキングイベントをExperience Platformに同期します。 詳しくは、 [ソースコネクタ](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=ja) ドキュメントを参照してください。
 
 ### モバイルプッシュ設定（オプション）
 
-1. Experience Platform Mobile SDK を実装して、プッシュトークンとログイン情報を収集し、既知の顧客プロファイルに結び付けます
+1. 実装方法 [!DNL Experience Platform] プッシュトークンおよびログイン情報を収集し、既知の顧客プロファイルに結び付ける Mobile SDK。
 1. Adobe タグを活用し、次の拡張子を持つモバイルプロパティを作成します。
-   * Adobe Journey Optimizer | Adobe Campaign Classic | Adobe Campaign Standard
-   * Adobe Experience Platform Edge Network
-   * Edge ネットワークの ID
+   * Adobe [!DNL Journey Optimizer] | Adobe [!DNL Campaign Classic] | Adobe [!DNL Campaign Standard]
+   * Adobe [!DNL Experience Platform] [!DNL Edge Network]
+   * の ID [!DNL Edge Network]
    * モバイルコア
-1. モバイルアプリデプロイメント用と web デプロイメント用の専用のデータストリームがあることを確認
-1. 詳しくは、[Adobe Journey Optimizer Mobile ガイド](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-journey-optimizer)を参照
+1. モバイルアプリデプロイメントと Web デプロイメント用の専用のデータストリームがあることを確認します。
+1. 詳しくは、 [Adobe Journey Optimizer Mobile ガイド](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-journey-optimizer).
 
    >[!IMPORTANT]
    >Journey Optimizer 経由でリアルタイムの通信を送信し、Campaign 経由でバッチプッシュ通知を送信する場合、Journey Optimizer と Campaign の両方でモバイルトークンを収集する必要が生じる場合があります。Campaign v8 では、プッシュトークンをキャプチャするために Campaign SDK を排他的に使用する必要があります。
-
-<br>
 
 ## 関連ドキュメント
 

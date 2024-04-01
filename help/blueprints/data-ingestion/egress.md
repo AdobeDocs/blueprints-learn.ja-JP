@@ -1,23 +1,27 @@
 ---
 title: データのアクセスと書き出しのブループリント
-description: このブループリントは、Adobe Experience Platform およびアプリケーションからデータにアクセスして書き出すすべての方法の概要を提供します。
+description: Adobe Experience Platformおよびアプリケーションからデータにアクセスし、書き出す方法について説明します。
 product: adobe experience platform
 solution: Experience Platform, Journey Optimizer, Real-Time Customer Data Platform, Data Collection
 exl-id: 2ca51a29-2db2-468f-8688-fc8bc061b47b
-source-git-commit: 89dcbc4d71a9edff3095a6707cecc823281a9385
+source-git-commit: 2b555728ddf570e236c0c54a8c17f85a6942618f
 workflow-type: tm+mt
-source-wordcount: '2052'
-ht-degree: 100%
+source-wordcount: '1838'
+ht-degree: 91%
 
 ---
 
 # データのアクセスと書き出しのブループリント
 
-データのアクセスと書き出しのブループリントは、Adobe Experience Platform およびアプリケーションからデータにアクセスまたは書き出すすべての方法の概要を示しています。
+データアクセスおよび書き出しブループリントでは、データのアクセスまたは書き出しに使用できるすべての方法の概要が説明されています。 [!DNL Experience Platform] およびアプリケーション。
 
-ブループリントは、Experience Platform とアプリケーションからのデータアクセス用に、2 つのカテゴリに分類されます。第 1 に、Experience Platform やアプリケーションからデータを送り出すためのアプローチ。これは、プッシュ型のデータ送り出し方法と見なされます。第 2 に、Experience Platform とアプリケーションからデータにアクセスするためのアプローチ。これは、プル型のデータアクセス方法と見なされます。
+ブループリントは、次のデータアクセス用に 2 つのカテゴリに分類されます： [!DNL Experience Platform] およびアプリケーション。
 
-データアクセスのアプローチ：
+1 つ目は、Experience Platformやアプリケーションからデータを取り出す方法を含む。 これは、 _プッシュ_ データ出力のタイプメソッド。
+
+2 つ目は、Experience Platformやアプリケーションからのデータへのアクセス方法を含む。 これは、 _取る_ データアクセスのタイプメソッド。
+
+データアクセス方法：
 
 * [リアルタイム顧客プロファイルアクセス API](#rtcp-profile-access-api)
 * [データアクセス API](#data-access-api)
@@ -30,11 +34,11 @@ ht-degree: 100%
 * [Real-time Customer Data Platform の宛先](#RTCDP-destinations)
 * [Journey Optimizer カスタムアクション](#jo-custom-actions)
 
-## データのアクセスと書き出しの概要アーキテクチャ
+## データのアクセスとエクスポートの概要アーキテクチャ
 
 <img src="../experience-platform/assets/aep_data_flow.svg" alt="データ準備と取り込みブループリントの参照アーキテクチャ" style="width:90%; border:1px solid #4a4a4a; margin-bottom: 15px;" class="modal-image" />
 
-## データのアクセスと書き出しの方法
+## データのアクセスおよび書き出し方法
 
 <table cellspacing="0" class="Table" style="border-collapse:collapse; width:1133px">
 <tbody>
@@ -408,7 +412,7 @@ Experience Platform クエリサービスを使用すると、顧客は Experien
 
 ### イベント転送 {#event-forwarding}
 
-データ収集リクエストは、アドビの Edge ネットワークに直接収集されます。Edge ネットワークリクエストから外部 RESTful エンドポイントに対して、これらのリクエストを外部の宛先に転送するように設定することができます。
+データ収集リクエストは、Adobeの [!DNL Edge Network]. 次から： [!DNL Edge Network] 外部 RESTful エンドポイントへのリクエストは、これらのリクエストを外部の宛先に転送するように設定できます。
 
 詳しくは、以下の[イベント転送](https://experienceleague.adobe.com/docs/experience-platform/tags/event-forwarding/overview.html?lang=ja)ドキュメントを参照してください。
 
@@ -418,7 +422,7 @@ Experience Platform クエリサービスを使用すると、顧客は Experien
 
 #### 注意点
 
-* イベント転送を使用するには、Web SDK または MobileSDK を使用してデータを Edge ネットワークに送信する必要があります。
+* イベント転送を使用するには、データを [!DNL Edge Network] Web SDK または MobileSDK を使用して、
 * イベント転送のアプローチでは、ページにタグが追加されるので、ページの読み込み時間と重み付けが軽減されます。
 * エッジプロファイルまたは他のデータソースからのエンリッチメントは、現在サポートされていません。
 * 限定的なデータフィルタリングと単純なマッピング変換がサポートされています。

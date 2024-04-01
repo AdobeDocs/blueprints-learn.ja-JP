@@ -1,13 +1,13 @@
 ---
-title: 観光および接客業 - オンラインおよびオフラインのデータを使用したアクティベーション
-description: 様々なチャネルにわたる顧客行動を 1 つの統合表示に基づいて、リアルタイムで決定します。
+title: 旅行と接客 — オンラインとオフラインのデータを活用したアクティベーション
+description: 様々なチャネルをまたいだ顧客の行動を 1 つの統合ビューでリアルタイムに意思決定する方法を学びます。
 solution: Real-Time Customer Data Platform, Customer Journey Analytics, Analytics, Audience Manager, Experience Manager, Target
 kt: 9485
 exl-id: 8b96cc5f-bcdd-4bd3-81e4-084f697ac1d3
-source-git-commit: ae7347be5095ca4a7f99f9371dd94d87097112b0
+source-git-commit: cf7721ea01579182fdb200aad448be6fc94b34cf
 workflow-type: tm+mt
-source-wordcount: '407'
-ht-degree: 100%
+source-wordcount: '406'
+ht-degree: 92%
 
 ---
 

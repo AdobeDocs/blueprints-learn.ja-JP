@@ -1,13 +1,13 @@
 ---
-title: 小売業界 - Experience Cloud アプリケーションを使用したアクティベーション
-description: デジタルメディア、メール、プッシュおよび web チャネルにわたるリアルタイムのカスタマーエクスペリエンスを提供します。
+title: 小売業界 —Experience Cloudアプリケーションを使用したアクティベーション
+description: デジタルメディア、E メール、プッシュ、Web チャネルをまたいでリアルタイムの顧客体験を提供する方法について説明します。
 solution: Real-Time Customer Data Platform, Customer Journey Analytics, Journey Orchestration, Campaign, Analytics, Target
 kt: 9474
 exl-id: a675bc81-e76c-491a-8718-359867d63351
-source-git-commit: 2dab717d638bdbc0a903861ec743a81f2aed986d
+source-git-commit: cf7721ea01579182fdb200aad448be6fc94b34cf
 workflow-type: tm+mt
-source-wordcount: '553'
-ht-degree: 99%
+source-wordcount: '556'
+ht-degree: 95%
 
 ---
 
@@ -62,7 +62,6 @@ ht-degree: 99%
 
 
 ## 関連するブループリント
-
 
 | ユースケース／統合 | リンク |
 |:----|:----|

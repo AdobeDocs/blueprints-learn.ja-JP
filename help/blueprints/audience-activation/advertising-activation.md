@@ -1,19 +1,19 @@
 ---
-title: Real-time Customer Data Platform Real-time Customer Data Platform からソーシャルおよび広告の宛先へのアクティベーション
-description: Real-time Customer Data Platform Real-time Customer Data Platform からソーシャルおよび広告の宛先へのアクティベーション
+title: RTCDP からのソーシャルおよび広告の宛先へのアクティベーション
+description: 複数のソースから顧客データを取り込んで、顧客の単一のプロファイルビューを作成する方法を説明します。
 solution: Real-Time Customer Data Platform, Data Collection
 kt: 7086
 exl-id: b75a7a01-04ba-4617-960d-f73f7a9cc6c7
-source-git-commit: ae7347be5095ca4a7f99f9371dd94d87097112b0
+source-git-commit: cf7721ea01579182fdb200aad448be6fc94b34cf
 workflow-type: tm+mt
-source-wordcount: '1184'
-ht-degree: 100%
+source-wordcount: '1130'
+ht-degree: 92%
 
 ---
 
-# Real-time Customer Data Platform Real-time Customer Data Platform からソーシャルおよび広告の宛先へのアクティベーション
+# RTCDP からのソーシャルおよび広告の宛先へのアクティベーション
 
-複数のソースから顧客データを取り込んで顧客の単一プロファイルビューを作成し、プロファイルをセグメント化して、マーケティングやパーソナライズ機能用にオーディエンスを構築します。構築したオーディエンスを Facebook や Google などのアドネットワークで共有し、オーディエンスをターゲティングしてパーソナライズ機能キャンペーンを実施します。
+複数のソースから顧客データを取り込み、顧客の単一のプロファイルビューを作成します。 これらのプロファイルをマーケティングやパーソナライゼーションのために構築されたオーディエンスにセグメント化し、FacebookやGoogleなどの広告ネットワークと共有して、それらのオーディエンスに対してキャンペーンのターゲット化やパーソナライズをおこなえます。
 
 ## ユースケース
 

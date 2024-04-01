@@ -3,25 +3,21 @@ title: Real-Time CDP と Adobe Campaign v8 の統合パターン
 description: Adobe Experience Platform とそのリアルタイム顧客プロファイル、および一元化されたセグメント化ツールを Adobe Campaign v8 と併用して、パーソナライズされた会話を提供する方法を紹介します。
 solution: Real-Time Customer Data Platform, Campaign
 exl-id: d0291088-02ed-4e7e-b538-018ea40e38c6
-source-git-commit: 5f9384abe7f29ec764428af33c6dd1f0a43f5a89
+source-git-commit: a1f3aef5b508575019bd651b9706efc7d6db5306
 workflow-type: tm+mt
-source-wordcount: '231'
-ht-degree: 97%
+source-wordcount: '218'
+ht-degree: 72%
 
 ---
 
-# Real-Time CDP と Adobe Campaign v8 の統合パターン
+# [!DNL Real-Time CDP] Adobe [!DNL Campaign] v8 統合パターン
 
-Adobe Experience Platform とそのリアルタイム顧客プロファイル、および一元化されたセグメント化ツールを Adobe Campaign と併用して、パーソナライズされた会話を提供する方法を紹介します。
-
-<br>
+Adobe [!DNL Experience Platform] およびそのリアルタイム顧客プロファイルと一元化されたセグメント化ツールをAdobe Campaignと共に使用して、パーソナライズされた会話を提供できます。
 
 ## アプリケーション
 
-* Adobe Experience Platform Real-Time CDP
-* Adobe Campaign v8
-
-<br>
+* アドビ [!DNL Experience Platform Real-Time CDP]
+* Adobe [!DNL Campaign] v8
 
 ## アーキテクチャ
 
@@ -32,10 +28,10 @@ Adobe Experience Platform とそのリアルタイム顧客プロファイル、
 ## 前提条件
 
 * 顧客は、有効な IMS 組織を持つ Experience Cloud のプロビジョニングが必要です
-* Adobe Experience Platform と Campaign を同じ IMS Org で 1 回のログイン URL 用にプロビジョニングすることをお勧めします
-* 顧客は Campaign の V8 インスタンスをプロビジョニングする必要があります
+* Adobe Experience Platformと [!DNL Campaign] は、単一のログイン URL 用に同じ IMS Org でプロビジョニングすることをお勧めします
+* 顧客は、の V8 インスタンスをプロビジョニングする必要があります。 [!DNL Campaign]
 * 顧客は、RTCDP、ソース、宛先に対する資格があり、アクセス権を持っている必要があります。
-* Adobe Campaign 製品コンテキストが存在する必要があります
+* Adobe [!DNL Campaign] 製品コンテキストが存在する必要があります
 <br>
 
 ## 実装手順

@@ -4,9 +4,9 @@ description: ガードレールは、Adobe Experience Platform およびアプ�
 solution: Customer Journey Analytics, Journey Orchestration, Real-Time Customer Data Platform
 thumbnail: null
 exl-id: b64cf3e4-cc5d-4984-8a0f-4736d432b8e1
-source-git-commit: 2ff576ccb4ac3f9e2bdb690b6e9242d674214c33
+source-git-commit: 60a7785ea0ec4ee83fd9a1e843f0b84fc4cb1150
 workflow-type: tm+mt
-source-wordcount: '688'
+source-wordcount: '680'
 ht-degree: 15%
 
 ---
@@ -34,7 +34,7 @@ Guardrails は、Adobe Experience Platformおよびアプリケーションで�
 **Experience Platformサービス**
 
 * [データ取り込みガードレール](https://experienceleague.adobe.com/docs/experience-platform/ingestion/guardrails.html)
-* [Edge Network API ガードレール](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/guardrails.html)
+* [[!DNL Edge Network] API ガードレール](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/guardrails.html)
 * [リアルタイム顧客プロファイルとセグメント化ガードレール](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=ja)
 * [ID ガードレール](https://experienceleague.adobe.com/docs/experience-platform/identity/guardrails.html?lang=ja)
 * [クエリサービスガードレール](https://experienceleague.adobe.com/docs/experience-platform/query/guardrails.html?lang=ja)
@@ -46,7 +46,7 @@ Guardrails は、Adobe Experience Platformおよびアプリケーションで�
 
 以下の図は、Experience Platformとアプリケーションでユースケースを構築する際に認識する必要がある、プライマリエッジとハブの監視待ち時間を示しています。
 
-![Experience PlatformEdge Network とハブの主要な監視待ち時間。](/help/blueprints/experience-platform/deployment/assets/aep_edge_hub_latency.svg "Experience PlatformEdge Network とハブの主要な監視待ち時間"){width="1000" zoomable="yes"}
+![Experience Platform [!DNL Edge Network] およびハブの主要な監視待ち時間。](/help/blueprints/experience-platform/deployment/assets/aep_edge_hub_latency.svg "Experience PlatformEdge Network とハブの主要な監視待ち時間"){width="1000" zoomable="yes"}
 
 ### データ取り込み {#data-ingestion}
 
@@ -60,9 +60,9 @@ Guardrails は、Adobe Experience Platformおよびアプリケーションで�
 
 ![セグメントの概要レベルの視覚的な概要。](/help/blueprints/experience-platform/deployment/assets/segmentation_guardrails.svg "セグメントの概要レベルの視覚的概要と待ち時間の値"){width="1000" zoomable="yes"}
 
-### Real-time Customer Data Platform &amp; Edge Network {#adobe-edge-latency}
+### REAL-TIME CUSTOMER DATA PLATFORM&amp; [!DNL Edge Network] {#adobe-edge-latency}
 
-次の図は、Edge ネットワークを活用する際に予想される遅延値を示しています。例えば、 [Adobe Target](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection.html?lang=ja). 画像をクリックして高解像度バージョンを表示します。
+次の図は、 [!DNL Edge Network]  — 例えば、 [Adobe Target](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection.html?lang=ja). 画像をクリックして高解像度バージョンを表示します。
 
 ![Adobe EdgeのネットワークとExperience Platformの概要を視覚的に示します。](/help/blueprints/experience-platform/deployment/assets/RTCDP_Edge_guardrails.svg "オーディエンスのAdobe Targetへの高レベルの視覚的概要と遅延のエクスポート"){width="1000" zoomable="yes"}
 

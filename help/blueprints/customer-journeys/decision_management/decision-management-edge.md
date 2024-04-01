@@ -3,22 +3,24 @@ title: エッジでの意思決定管理のブループリント
 description: 複数のチャネルをまたいで、リアルタイムの web エクスペリエンスやモバイルエクスペリエンスを含むパーソナライズされたオファーを顧客に提供します。
 solution: Experience Platform, Journey Optimizer
 exl-id: 31e5f624-5578-49e1-ab92-5cabd596a632
-source-git-commit: 2960cc95b9b83a3efea7fa247e1adabf310f3ee1
+source-git-commit: 60a7785ea0ec4ee83fd9a1e843f0b84fc4cb1150
 workflow-type: tm+mt
-source-wordcount: '653'
-ht-degree: 95%
+source-wordcount: '632'
+ht-degree: 80%
 
 ---
 
-# Journey Optimizer - エッジでの意思決定管理のブループリント
+# Journey Optimizer - [!DNL Decision Management] Edge ブループリント上
 
-意思決定管理について詳しくは、製品ドキュメントの[こちら](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started-decision/starting-offer-decisioning.html?lang=ja)と、意思決定管理の概要の[こちら](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer/decision-management/decision-management-overview.html?lang=ja)を参照してください。
+[!DNL Decision Management] は、 [!DNL Journey Optimizer]. このブループリントは、アプリケーションのユースケースと技術的機能の概要を示し、意思決定管理を構成する様々なアーキテクチャコンポーネントと考慮事項について詳しく説明します。
 
-アドビの意思決定管理は、Adobe Journey Optimizer の一部として提供されるサービスです。このブループリントは、アプリケーションのユースケースと技術的機能の概要を示し、意思決定管理を構成する様々なアーキテクチャコンポーネントと考慮事項について詳しく説明します。
+>[!MORELIKETHIS]
+>
+>詳しくは、以下を参照してください。 [!DNL Decision Management]を参照し、 [ブループリントの概要](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer/decision-management/decision-management-overview.html?lang=ja) または [製品ドキュメント](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started-decision/starting-offer-decisioning.html?lang=ja).
 
-意思決定管理は、2 つの方法のいずれかでデプロイすることができます。1 つは、単一のデータセンターアーキテクチャである Adobe Experience Platform Hub を通じて行う方法です。「ハブ」アプローチでは、オファーは 2 回目の待ち時間で実行、パーソナライズ、配信されます。したがって、ハブアーキテクチャは、1 秒未満の待ち時間を必要としない顧客体験に最適です。例えば、コールセンターや対面でのやり取りなど、キオスクやエージェント支援エクスペリエンスに提供されるオファー判定が含まれます。
+[!DNL Decision Management] は、2 つの方法のいずれかでデプロイできます。 1 つ目は、 [!DNL Experience Platform] ハブ：単一のデータセンターアーキテクチャです。 「ハブ」アプローチでは、オファーは 2 回目の待ち時間で実行、パーソナライズ、配信されます。したがって、ハブアーキテクチャは、1 秒未満の待ち時間を必要としない顧客体験に最適です。例えば、コールセンターや対面でのやり取りなど、キオスクやエージェント支援エクスペリエンスに提供されるオファー判定が含まれます。
 
-2 つ目のアプローチは、Experience Edge ネットワークを介したものです。Experience Edge ネットワークは、地理的にグローバルに分散されたインフラストラクチャで、1 秒未満および 1 ミリ秒の高速なエクスペリエンスを提供します。レイテンシを最小限に抑えるために、消費者の地理的位置に最も近いエッジインフラストラクチャによって実行される最終消費者エクスペリエンス。Edge 上の意思決定管理は、リアルタイムの顧客体験を提供するように設計されています。これには、Web やモバイルのインバウンドパーソナライズ機能リクエストなどのエクスペリエンスが含まれます。
+2 つ目のアプローチは、Experience Platform [!DNL Edge Network]：サブ秒およびミリ秒の高速なエクスペリエンスを提供する、地理的にグローバルに分散されたインフラストラクチャです。 待ち時間を最小限に抑えるために、消費者の地域に最も近い Edge インフラストラクチャによって実行されるエンドコンシューマーエクスペリエンス。 [!DNL Decision Management] Edge 上では、リアルタイムのコンシューマーエクスペリエンスを提供するように設計されています。 これには、Web やモバイルのインバウンドパーソナライズ機能リクエストなどのエクスペリエンスが含まれます。
 
 このブループリントでは、Edge 上での意思決定管理の詳細を説明します。
 

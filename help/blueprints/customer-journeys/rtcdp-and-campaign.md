@@ -1,64 +1,60 @@
 ---
-title: Real-Time CDP と Adobe Campaign v7 および Campaign Standard の統合パターン
-description: Adobe Experience Platform とそのリアルタイム顧客プロファイル、および一元化されたセグメント化ツールを Adobe Campaign と併用して、パーソナライズされた会話を提供する方法を紹介します。
-solution: Real-Time Customer Data Platform, Campaign
+title: Real-Time CDP [!DNL Campaign] v7 とCampaign Standardの統合パターン
+description: Adobe Experience Platformとそのリアルタイム顧客プロファイルおよび一元化されたセグメント化ツールをAdobeと共に使用する方法を紹介します [!DNL Campaign] パーソナライズされた会話を配信する。
+solution: Real-Time Customer Data Platform, [!DNL Campaign]
 exl-id: a15e8304-2763-42fc-9978-11f2482ea8b8
-source-git-commit: 5f9384abe7f29ec764428af33c6dd1f0a43f5a89
+source-git-commit: 258aea64f6ff2f620b1adaa0c9ba4b02b47acce9
 workflow-type: tm+mt
-source-wordcount: '663'
-ht-degree: 99%
+source-wordcount: '620'
+ht-degree: 42%
 
 ---
 
-# Real-Time CDP と Adobe Campaign の統合パターン
+# [!DNL Real-Time Customer Data Platform] 次を使用 [!DNL Campaign] 統合パターン
 
-Adobe Experience Platform とそのリアルタイム顧客プロファイル、および一元化されたセグメント化ツールを Adobe Campaign と併用して、パーソナライズされた会話を提供する方法を紹介します。
-
-<br>
+Adobe [!DNL Experience Platform] とそのリアルタイム顧客プロファイルと一元化されたセグメント化ツールをAdobe [!DNL Campaign] パーソナライズされた会話を配信する。
 
 ## アプリケーション
 
-* Adobe Experience Platform Real-Time CDP
-* Adobe Campaign v7 または Campaign Standard
-
-<br>
+* アドビ [!DNL Experience Platform Real-Time Customer Data Platform]
+* Adobe [!DNL Campaign] v7 または [!DNL Campaign Standard]
 
 ## アーキテクチャ
 
 <img src="assets/rtcdp-campaign-architecture.svg" alt="バッチメッセージおよび Adobe Experience Platform 統合パターンの参照アーキテクチャ" style="width:100%; border:1px solid #4a4a4a" class="modal-image" />
 
-<br>
-
 ## 前提条件
 
-* Experience Platform と Campaign は、同じ IMS Org でプロビジョニングし、ユーザーアクセスに Adobe Admin Console を使用することを推奨します。また、マーケティング UI 内からソリューション切り替えボタンを使用しても、
+* Experience Platformと [!DNL Campaign] は、同じ IMS Org でプロビジョニングし、ユーザーアクセスにAdobe Admin Consoleを使用することをお勧めします。 また、マーケティング UI 内からソリューション切り替えボタンを使用しても、
 これにより、顧客がマーケティング UI 内からソリューションスイッチャーを利用することも可能になります
-
-<br>
 
 ## ガードレール
 
-### Adobe Campaign
+次の節では、この統合のガードレールについて説明します。
 
-* Adobe Campaign の単一の組織単位デプロイメントのみをサポートします
-* Adobe Campaign は、すべてのアクティブなプロファイルに関する信頼できるソースです。つまり、プロファイルは Adobe Campaign に存在する必要があるため、Experience Platform セグメントに基づいた新しいプロファイルを作成しないでください。
-* Campaign エクスポートワークフローは最大でも 4 時間ごとに実行します
-* Adobe Campaign broadLog、trackingLogs および配信不能アドレスの XDM スキーマとデータセットは、初期設定では使用できず、設計および構築する必要があります
+### アドビ [!DNL Campaign]
 
-### Experience Platform CDP セグメント共有
+* Adobeのみサポート [!DNL Campaign] 単一の組織単位の導入
+* Adobe [!DNL Campaign] は、すべてのアクティブなプロファイルの真のソースです。つまり、プロファイルはAdobeに存在する必要があります。 [!DNL Campaign] および新しいプロファイルは、Experience Platformセグメントに基づいて作成しないでください。
+* [!DNL Campaign] 最大 4 時間ごとに実行されるワークフローをエクスポート
+* Adobe用の XDM スキーマとデータセット [!DNL Campaign] broadLog、trackingLogs および配信不能アドレスは標準では用意されていないので、設計および構築する必要があります。
 
-* RTCDP Campaign の宛先コネクタ - [RTCDP Campaign 接続](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/email-marketing/adobe-campaign-managed-services.html?lang=ja)を参照してください。
+### Real-time Customer Data Platformセグメント共有
 
-* AEP のプロファイルとデータ取り込みガードレール ‐ [リンク](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=ja)を参照してください。
+* RTCDP を参照してください。 [!DNL Campaign] 宛先コネクタ — [RTCDP キャンペーン接続](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/email-marketing/adobe-campaign-managed-services.html?lang=ja)
+
+* 詳しくは、 [のデフォルトのガードレール [!DNL Real-Time Customer Profile Data] およびセグメント化](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=ja)
 
 ## 実装手順
+
+次の節では、各アプリケーションの実装手順を説明します。
 
 ### Adobe Experience Platform
 
 #### スキーマ／データセット
 
-1. 顧客提供データに基づき、Experience Platform で[個人プロファイル、エクスペリエンスイベントおよびマルチエンティティスキーマを設定します。](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2021.1.xdm&amp;lang=ja)
-1. broadLog、trackingLog、配信不能アドレスおよびプロファイル環境設定用に Adobe Campaign スキーマを作成します（オプション）。
+1. 顧客提供データに基づき、Experience Platform で[個人プロファイル、エクスペリエンスイベントおよびマルチエンティティスキーマを設定します](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2021.1.xdm&amp;lang=ja)。
+1. 「作成」Adobe [!DNL Campaign] broadLog、trackingLog、配信不能アドレスおよびプロファイル環境設定のスキーマ（オプション）。
 1. Experience Platform で取り込む[データセットを作成します。](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/create-datasets-and-ingest-data.html?lang=ja)
 1. ガバナンス用のデータセットに、Experience Platform で[データ使用ラベルを追加します。](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-governance/classify-data-using-governance-labels.html?lang=ja)
 1. 宛先のガバナンスを実施する[ポリシーを作成します。](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-governance/create-data-usage-policies.html?lang=ja)
@@ -69,54 +65,54 @@ Adobe Experience Platform とそのリアルタイム顧客プロファイル、
 1. [スキーマに ID を追加します](https://experienceleague.adobe.com/docs/platform-learn/tutorials/identities/label-ingest-and-verify-identity-data.html?lang=ja)。
 1. [プロファイル用のスキーマおよびデータセットを有効にします](https://experienceleague.adobe.com/docs/platform-learn/tutorials/profiles/bring-data-into-the-real-time-customer-profile.html?lang=ja)。
 1. [!UICONTROL リアルタイム顧客プロファイル]の様々な表示用に[結合ポリシーを設定](https://experienceleague.adobe.com/docs/platform-learn/tutorials/profiles/create-merge-policies.html?lang=ja)します（オプション）。
-1. Adobe Campaign 使用状況用のセグメントを作成します。
+1. Adobe用のセグメントの作成 [!DNL Campaign] 使用方法。
 
 #### ソース／宛先
 
-1. [Experience Platform と Campaign Standard のソースと宛先](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/adobe-experience-platform/aep-sources-destinations/get-started-sources-destinations.html?lang=ja)
-1. [Experience Platform と Campaign v7 のソースと宛先](https://experienceleague.adobe.com/docs/campaign-classic/using/integrating-with-adobe-experience-cloud/aep-sources-destinations/get-started-sources-destinations.html?lang=ja)
+1. [Experience Platformと [!DNL Campaign] 標準のソースと宛先](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/adobe-experience-platform/aep-sources-destinations/get-started-sources-destinations.html?lang=ja)
+1. [Experience Platformと [!DNL Campaign] v7 のソースと宛先](https://experienceleague.adobe.com/docs/campaign-classic/using/integrating-with-adobe-experience-cloud/aep-sources-destinations/get-started-sources-destinations.html?lang=ja)
 1. ストリーミング API およびソースコネクタを使用して、[Experience Platform にデータを取り込みます。](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2020.1.dataingestion&amp;lang=ja)
-1. Adobe Campaign で使用する [!DNL Azure] Blob ストレージ宛先を設定します。
+1. 設定 [!DNL Azure] Adobeで使用する blob ストレージの宛先 [!DNL Campaign].
 
-#### Adobe Campaign
+#### アドビ [!DNL Campaign]
 
 1. プロファイル、ルックアップデータおよび関連する配信パーソナライズ機能データ用にスキーマを設定します。
 
 >[!IMPORTANT]
 >
->この時点で、Experience Platform 内にあるプロファイルおよびイベントデータ用のデータモデルを把握し、Adobe Campaign で必要になるデータを知っておくことが重要です。
+>この時点で、プロファイルおよびイベントデータのExperience Platform内にあるデータモデルを理解し、Adobeに必要なデータを把握することが重要です [!DNL Campaign].
 
 #### インポートワークフロー
 
-1. シンプル化されたプロファイルデータを Adobe Campaign sFTP に読み込んで取り込みます。
-1. オーケストレーションおよびメッセージングパーソナライズ機能データを Adobe Campaign sFTP に読み込んで取り込みます。
+1. シンプル化されたプロファイルデータのAdobeへの読み込みと取り込み [!DNL Campaign] sFTP.
+1. オーケストレーションとメッセージングのパーソナライゼーションデータをAdobeに読み込み、取り込む [!DNL Campaign] sFTP.
 1. ワークフローを使用して [!DNL Azure] Blob から Experience Platform セグメントを取り込みます。
 
 #### エクスポートワークフロー
 
-1. ワークフローを使用して、4 時間ごとに Experience Platform に Adobe Campaign ログを返します（broadLog、trackingLog、配信不能アドレス）。
+1. 送信Adobe [!DNL Campaign] 4 時間ごとにExperience Platform（broadLog、trackingLog、配信不能アドレス）を介してワークフロー経由でログに記録します。
 1. コンサルティングが作成したワークフローを使用して、4 時間ごとに Experience Platform にプロファイル環境設定を返します（オプション）。
-
 
 ### モバイルプッシュ設定
 
 * プッシュ通知用にモバイルデバイスとの統合に関してサポートされる 2 つの方法を示します。
    * Experience Platform Mobile SDK
-   * Campaign Mobile SDK
+   * [!DNL Campaign] モバイル SDK
 * Experience Platform Mobile SDK ルート：
-   * アドビタグと Campaign Classic 拡張機能を活用して、Experience Platform Mobile SDK との統合を設定します。
+   * Adobeタグと [!DNL Campaign Classic] Experience PlatformMobile SDK との統合を設定するための拡張機能
    * アドビタグとデータ収集に関する実務知識が必要です
    * SDK のデプロイ、FCM（Android）および APNS（iOS）との統合によるプッシュトークンの取得、プッシュ通知を受け取るためのアプリの設定、プッシュインタラクションの処理など、Android および iOS でのプッシュ通知に関するモバイル開発経験が必要です。
-* Campaign Mobile SDK
-   * 詳しくは、[Campaign SDK ドキュメント]を参照（Campaign モバイル SDK。ここで説明するデプロイメントドキュメントに従ってください）。
+* [!DNL Campaign] モバイル SDK
+   * 詳しくは、 [Campaign ClassicSDK のドキュメント](https://developer.adobe.com/client-sdks/solution/adobe-campaign-classic/)
 
-  >[!IMPORTANT]
-  >Campaign SDK をデプロイし、他の Experience Cloud アプリケーションと連携する場合は、データ収集に Experience Platform Mobile SDK を使用する必要があります。これにより、デバイス上でクライアント側の呼び出しが重複します。
+>[!IMPORTANT]
+>
+>次をデプロイする場合、 [!DNL Campaign] SDK と他のExperience Cloudアプリケーションを連携させる際には、データ収集にExperience PlatformMobile SDK を使用する必要があります。 これにより、デバイス上でクライアント側の呼び出しが重複します。
 
 ## 関連ドキュメント
 
-* [Adobe Experience Platform ドキュメント](https://experienceleague.adobe.com/docs/experience-platform.html?lang=ja)
-* [Campaign Classic ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic.html?lang=ja)
-* [Campaign Standard ドキュメント](https://experienceleague.adobe.com/docs/campaign-standard.html?lang=ja)
-* [Experience Platform Launch ドキュメント](https://experienceleague.adobe.com/docs/launch.html?lang=ja)
-* [Experience Platform Mobile SDK ドキュメント](https://experienceleague.adobe.com/docs/mobile.html?lang=ja)
+* [Adobe [!DNL Experience Platform] ドキュメント](https://experienceleague.adobe.com/docs/experience-platform.html?lang=ja)
+* [[!DNL Campaign Classic] ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic.html?lang=ja)
+* [[!DNL Campaign Standard] ドキュメント](https://experienceleague.adobe.com/docs/campaign-standard.html?lang=ja)
+* [[!DNL Experience Platform] Launch ドキュメント](https://experienceleague.adobe.com/docs/launch.html?lang=ja)
+* [[!DNL Experience Platform] Mobile SDK ドキュメント](https://experienceleague.adobe.com/docs/mobile.html?lang=ja)

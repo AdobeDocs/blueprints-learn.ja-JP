@@ -1,17 +1,17 @@
 ---
-title: デジタルエクスペリエンスのブループリント業界の成功事例
-description: Digital Experience Blueprints の成功事例では、Adobe Experience Platform を活用した Adobe Experience Cloud Applications を使用して、様々な業界がビジネス価値を実現している様子を紹介しています。
+title: デジタルエクスペリエンスブループリント — 業界の成功事例
+description: 様々な業界が、Adobe Experience Platformを活用したExperience Cloudアプリケーションを使用してビジネス価値を実現している様子を紹介します。
 exl-id: 9e73bae3-ba34-4819-a54e-710965fe74d9
-source-git-commit: 5bf1f0c01e1c7d2ebb2ae7228cc04c149a789664
-workflow-type: ht
-source-wordcount: '255'
-ht-degree: 100%
+source-git-commit: cf7721ea01579182fdb200aad448be6fc94b34cf
+workflow-type: tm+mt
+source-wordcount: '184'
+ht-degree: 78%
 
 ---
 
 # デジタルエクスペリエンスのブループリントを使用した業界の成功
 
-顧客が優れたエクスペリエンスを構築し、デジタルエクスペリエンスのブループリントを使用して成功を収める方法について学びます。これらの実証済みの繰り返し可能な実装により、戦略に対処し、確立されたビジネス上の問題を迅速に解決できます。
+お客様が優れたエクスペリエンスを作成し、デジタルエクスペリエンスブループリントで成功する方法を学びます。 これらの実証済みの繰り返し可能な実装により、戦略に対処し、確立されたビジネス上の問題を迅速に解決できます。
 
 ## 主な成功事例
 

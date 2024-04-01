@@ -1,36 +1,43 @@
 ---
-title: Adobe Experience Platform およびアプリケーションのアーキテクチャ図
-description: このアーキテクチャ図に、Adobe Experience Platform が他の Adobe Experience Cloud アプリケーションおよびアプリケーションサービスとどのように関わっているかを示します。
+title: Experience Platform(AEP) とアプリケーションのアーキテクチャ図
+description: Adobe Experience Platform(AEP) と他のアプリケーションアプリケーションおよびExperience Cloudサービスとの関連を示すアーキテクチャ図を表示します。
 solution: Experience Platform, Campaign, Analytics, Target, Customer Journey Analytics, Journey Orchestration, Real-Time Customer Data Platform
 kt: 7199
 thumbnail: null
 exl-id: 9b12cd7a-5e5f-443a-91a1-44273cdabc2d
-source-git-commit: 89dcbc4d71a9edff3095a6707cecc823281a9385
+source-git-commit: cf7721ea01579182fdb200aad448be6fc94b34cf
 workflow-type: tm+mt
-source-wordcount: '998'
-ht-degree: 100%
+source-wordcount: '831'
+ht-degree: 91%
 
 ---
 
-# Adobe Experience Platform およびアプリケーションアーキテクチャ図
+# Adobe Experience Platformとアプリケーションのアーキテクチャ図
 
-## Adobe Experience Platform およびアプリケーションのアーキテクチャ図
+次のアーキテクチャ図は、Experience Platform(AEP) が他のアプリケーションアプリケーションおよびExperience Cloudサービスとどのように関連しているかを示しています。
+
+>[!MORELIKETHIS]
+>
+>[Experience Cloudアプリケーション統合の統合設定](https://experienceleague.adobe.com/docs/integrations-learn/experience-cloud/overview.html?lang=en).
+
+
+## アーキテクチャ図
 
 このアーキテクチャ図に、Adobe Experience Platform が Adobe Experience Cloud アプリケーションおよびアプリケーションサービスとどのように関わっているかを示します。
 
 <img src="assets/aep+apps.svg" alt="Experience Platform およびアプリケーション" style="border:1px solid #4a4a4a; width:90%; margin-bottom: 15px;" class="modal-image" />
 
-## Adobe Experience Platform およびアプリケーションの概要図
+## 概要図
 
 <img src="assets/aep+apps_overview.svg" alt="Experience Platform およびアプリケーション" style="border:1px solid #4a4a4a; width:90%; margin-bottom: 15px;" class="modal-image" />
 
-## Adobe Experience Platform およびアプリケーションの詳細アーキテクチャ図
+## アーキテクチャの詳細図
 
 <img src="assets/aep+apps_detailed.svg" alt="Experience Platform およびアプリケーション" style="border:1px solid #4a4a4a; width:90%; margin-bottom: 15px;" class="modal-image" />
 
 >[!VIDEO](https://video.tv.adobe.com/v/32456/?quality=12&learn=on)
 
-## Adobe Experience Platform および Experience Cloud アプリケーションの統合
+## AEP とExperience Cloudアプリケーションの統合
 
 <table class="relative-table wrapped" style="width: 100%;">
 <colgroup>

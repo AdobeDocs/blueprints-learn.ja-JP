@@ -5,10 +5,10 @@ solution: Experience Cloud, Campaign, Analytics, Target, Audience Manager, Comme
 kt: 7200
 thumbnail: null
 exl-id: 67f7e236-4fa2-434d-af22-953e94a079c1
-source-git-commit: 20ec9197752bbafea6e601d7a36406b5786f372b
+source-git-commit: 48b34b05b83f693395b71bcabb16dffa548a1b00
 workflow-type: tm+mt
 source-wordcount: '163'
-ht-degree: 79%
+ht-degree: 73%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 79%
 <img src="assets/AEC.jpg" alt="Experience Cloud の概要" style="width:95%; border:1px solid #4a4a4a; margin-bottom: 15px;" class="modal-image" />
 
 
-## データインサイトとオーディエンス、コンテンツとコマース、およびエクスペリエンス配信の統合アーキテクチャ
+## データとインサイト、コンテンツとコマース、エクスペリエンス配信の統合アーキテクチャ
 
 以下のアーキテクチャ図に、Adobe Experience Cloud の様々なコンポーネントがどのように接続および統合され、データ、コンテンツ、およびエクスペリエンス配信にわたる大規模なパーソナライズ機能を実現するかを示します。
 
