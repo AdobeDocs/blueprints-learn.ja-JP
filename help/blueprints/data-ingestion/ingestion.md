@@ -1,20 +1,20 @@
 ---
 title: データ準備と取り込みのブループリント
-description: このブループリントは、Adobe Experience Platform でデータを取り込んで準備するためのすべての方法を示しています。
+description: このブループリントは、データを取り込み、準備する方法をすべてAdobe [!DNL Experience Platform].
 solution: Data Collection
 kt: 7204
 thumbnail: null
 exl-id: 21f8a73e-6be7-448e-8cd3-ebee9fc848e1
-source-git-commit: 60a7785ea0ec4ee83fd9a1e843f0b84fc4cb1150
+source-git-commit: 72eb4e2ff276279a2fc88ead0b17d77cc8e99b97
 workflow-type: tm+mt
-source-wordcount: '838'
-ht-degree: 91%
+source-wordcount: '882'
+ht-degree: 73%
 
 ---
 
-# データ準備と取り込みのブループリント
+# データの準備と取り込みのブループリント
 
-データ準備と取り込みブループリントは、データを準備して Adobe Experience Platform に取り込むためのすべての方法を網羅しています。
+データの準備と取り込みブループリントには、データの準備とAdobeへの取り込みが可能なすべての方法が含まれます [!DNL Experience Platform].
 
 データ準備には、エクスペリエンスデータモデル（XDM）スキーマへのソースデータのマッピングが含まれます。また、データ変換（日付形式、フィールドの分割／連結／コンバージョン、レコードの結合／キー更新など）の実行も含まれます。データ準備は、顧客データを統合して、集計／フィルタリングされた分析を提供するのに役立ちます。これには、レポート作成や顧客プロファイルの組み立て／データサイエンス／アクティベーションのためのデータ準備が含まれます。
 
@@ -24,9 +24,9 @@ ht-degree: 91%
 
 ## データ取り込みガードレール
 
-以下の図に、Adobe Experience Platform にデータを取り込む際の平均パフォーマンスのガードレールと待ち時間を示します。
+次の図に、Adobeへのデータ取り込みの平均パフォーマンスガードレールと待ち時間を示します [!DNL Experience Platform].
 
-<img src="../experience-platform/deployment/assets/aep_data_flow_guardrails.svg" alt="Experience Platform データフロー" style="border:1px solid #4a4a4a; margin-bottom: 15px;" width="90%" class="modal-image" />
+<img src="../experience-platform/deployment/assets/aep_data_flow_guardrails.svg" alt="[!DNL Experience Platform] データフロー" style="border:1px solid #4a4a4a; margin-bottom: 15px;" width="90%" class="modal-image" />
 
 ## データ取り込み方法
 
@@ -271,7 +271,7 @@ ht-degree: 91%
 | Web／Mobile SDK | レイテンシ：<ul><li>リアルタイム — 同じページコレクションを [!DNL Edge Network]</li><li>第 95 百分位でプロファイルへのストリーミング取り込みは 15 分未満</li><li>データレイクへのストリーミングの取り込み（マイクロバッチ 最大 15 分）</ul>ドキュメント： <ul><li>[Web SDK](https://experienceleague.adobe.com/docs/web-sdk.html?lang=ja)</li><li>[Web SDK を使用した Adobe Experience Cloud の実装チュートリアル](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=ja)</li><li>[Mobile SDK](https://experienceleague.adobe.com/docs/mobile.html?lang=ja)</li><li>[モバイルアプリでの Adobe Experience Cloud の実装のチュートリアル](https://experienceleague.adobe.com/docs/platform-learn/implement-mobile-sdk/overview.html?lang=ja)</li></ul> |
 | ストリーミングソース | [ストリーミングソース](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=ja#connectors)<br>レイテンシ：<ul><li>リアルタイム — 同じページコレクションを [!DNL Edge Network]</li><li>プロファイルへのストリーミングの取り込み 最大 1 分</li><li>データレイクへのストリーミングの取り込み（マイクロバッチ 最大 15 分）</li></ul> |
 | ストリーミング API | [[!DNL Edge Network] サーバー API（推奨）](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/interactive-data-collection.html?lang=ja) :Edge セグメント化や <br>[データ収集コアサービス API](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/streaming/http.html?lang=ja)  — は Edge Services をサポートしておらず、ハブに直接ルートします。<br>レイテンシ：<ul><li>リアルタイム — 同じページコレクションを [!DNL Edge Network]</li><li>プロファイルへのストリーミングの取り込み 最大 1 分</li><li>データレイクへのストリーミングの取り込み（マイクロバッチ 最大 15 分）</li><li>7 GB/時間</li></ul>[ドキュメント](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/overview.html?lang=ja#what-can-you-do-with-streaming-ingestion%3F) |
-| ETL ツール | Experience Platform に取り込む前に、ETL ツールを使用してエンタープライズデータを変更および変換します。<br><br>レイテンシ：<ul><li>タイミングは外部 ETL ツールのスケジュールに依存し、その後、取り込みに使用される方法に基づいて、標準的な取り込みガードレールが適用されます。</li></ul> |
+| ETL ツール | ETL ツールを使用した、への取り込み前の企業データの変更と変換 [!DNL Experience Platform].<br><br>レイテンシ：<ul><li>タイミングは外部 ETL ツールのスケジュールに依存し、その後、取り込みに使用される方法に基づいて、標準的な取り込みガードレールが適用されます。</li></ul> |
 | バッチソース | ソースからのスケジュールされた取得<br>レイテンシ：最大 200 GB/時間<br><br>[ドキュメント](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=ja#connectors)<br>[ビデオチュートリアル](https://experienceleague.adobe.com/docs/platform-learn/tutorials/sources/overview.html?lang=ja) |
 | バッチ API | レイテンシ：<ul><li>プロファイルへのバッチ取り込みはサイズおよびトラフィックの負荷に依存 最大 45 分</li><li>データレイクへのバッチ取り込みはサイズおよびトラフィックの負荷に依存</li></ul>[ドキュメント](https://experienceleague.adobe.com/docs/experience-platform/ingestion/batch/overview.html?lang=ja#batch) |
 | アドビアプリケーションコネクタ | Adobe Experience Cloud アプリケーションから供給されるデータを自動的に取り込みます<ul><li>Adobe Analytics：[ドキュメント](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html?lang=ja#connectors)および[ビデオチュートリアル](https://experienceleague.adobe.com/docs/platform-learn/tutorials/sources/ingest-data-from-adobe-analytics.html?lang=ja)</li><li>Audience Manager：[ドキュメント](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/audience-manager.html?lang=ja#connectors)および[ビデオチュートリアル](https://experienceleague.adobe.com/docs/platform-learn/tutorials/sources/ingest-data-from-aam.html?lang=ja)</li></ul> |
@@ -281,15 +281,15 @@ ht-degree: 91%
 
 | データ準備の方法 | 説明 |
 |------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 外部 ETL ツール ([!DNL Snaplogic]、[!DNL Mulesoft]、[!DNL Informatica]など ) | ETL ツールで複雑な変換を実行し、標準 Experience Platform [!UICONTROL フローサービス] API またはソースコネクタを使用して、結果のデータを取り込みます。 |
+| 外部 ETL ツール ([!DNL Snaplogic]、[!DNL Mulesoft]、[!DNL Informatica]など ) | ETL ツールで複雑な変換を実行し、標準を使用します。 [!DNL Experience Platform] [!UICONTROL フローサービス] 結果のデータを取り込むための API またはソースコネクタ。 |
 | [!UICONTROL クエリサービス] - データ準備 | 結合、分割、結合、変換、クエリ、フィルターの各データを新しいデータセットにまとめます。Create Table as Select（CTAS）<br>[ドキュメント](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=ja#sql)の使用 |
-| XDM マッパーとデータ準備機能（ストリーミングとバッチ） | Experience Platform の取り込み時に、CSV 形式または JSON 形式のソース属性を XDM 属性にマップします。<br>取り込まれたデータに対して、関数を計算します（データの形式、分割、連結など）。<br>[ドキュメント](https://experienceleague.adobe.com/docs/experience-platform/data-prep/home.html?lang=ja) |
+| XDM マッパーとデータ準備機能（ストリーミングとバッチ） | CSV 形式または JSON 形式のソース属性を XDM 属性にマッピングする ( [!DNL Experience Platform] 取り込み。<br>取り込まれたデータに対して、関数を計算します（データの形式、分割、連結など）。<br>[ドキュメント](https://experienceleague.adobe.com/docs/experience-platform/data-prep/home.html?lang=ja) |
 
 ## 関連するブログ投稿
 
-* [[!DNL Leveraging External Data Platforms in Adobe Experience Platform Journey Orchestration]](https://medium.com/adobetech/leveraging-external-data-platforms-in-adobe-experience-platform-journey-orchestration-54fc6134fe17?source=your_stories_page-------------------------------------)
-* [[!DNL High Throughput Ingestion with Iceberg]](https://medium.com/adobetech/high-throughput-ingestion-with-iceberg-ccf7877a413f?source=your_stories_page-------------------------------------)
-* [[!DNL Query Service Tricks in Adobe Experience Platform (Writing Queries and Storing Derived Datasets)]](https://medium.com/adobetech/query-service-tricks-in-adobe-experience-platform-writing-queries-and-storing-derived-datasets-eaee0d6d683e?source=your_stories_page-------------------------------------)
-* [[!DNL Digging into Adobe Experience Platform's Experience Data Model to More Fully Understand the Power of Real-time Customer Profile]](https://medium.com/adobetech/digging-into-adobe-experience-platforms-experience-data-model-to-more-fully-understand-the-power-3e109271e04f?source=your_stories_page-------------------------------------)
-* [[!DNL An Introductory Look at Exploratory Data Analysis on Adobe Experience Platform]](https://medium.com/adobetech/an-introductory-look-at-exploratory-data-analysis-on-adobe-experience-platform-1bfce7501d9a?source=your_stories_page-------------------------------------)
-* [[!DNL Modeling XDM Data for Data Science at Scale on Adobe Experience Platform]](https://medium.com/adobetech/modeling-xdm-data-for-data-science-at-scale-on-adobe-experience-platform-222bb2a6dbf7?source=your_stories_page-------------------------------------)
+* [Adobeでの外部データプラットフォームの活用 [!DNL Experience Platform] [!DNL Journey Orchestration]](https://medium.com/adobetech/leveraging-external-data-platforms-in-adobe-experience-platform-journey-orchestration-54fc6134fe17?source=your_stories_page)
+* [Iceberg による高スループット取り込み](https://medium.com/adobetech/high-throughput-ingestion-with-iceberg-ccf7877a413f?source=your_stories_page)
+* [クエリサービスのテクニックのAdobe [!DNL Experience Platform] （クエリの記述と派生データセットの保存）](https://medium.com/adobetech/query-service-tricks-in-adobe-experience-platform-writing-queries-and-storing-derived-datasets-eaee0d6d683e?source=your_stories_page)
+* [Adobe [!DNL Experience Platform]のエクスペリエンスデータモデルを使用して、リアルタイム顧客プロファイルの能力をより完全に理解する](https://medium.com/adobetech/digging-into-adobe-experience-platforms-experience-data-model-to-more-fully-understand-the-power-3e109271e04f?source=your_stories_page)
+* [Adobeに関する探索的データ分析の紹介 [!DNL Experience Platform]](https://medium.com/adobetech/an-introductory-look-at-exploratory-data-analysis-on-adobe-experience-platform-1bfce7501d9a?source=your_stories_page)
+* [大規模なデータサイエンスの XDM データのモデリング (Adobe上 ) [!DNL Experience Platform]](https://medium.com/adobetech/modeling-xdm-data-for-data-science-at-scale-on-adobe-experience-platform-222bb2a6dbf7?source=your_stories_page)

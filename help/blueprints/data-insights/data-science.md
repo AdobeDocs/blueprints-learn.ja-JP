@@ -1,19 +1,21 @@
 ---
-title: プロファイルエンリッチメントのためのカスタムデータサイエンスのブループリント
-description: このブループリントは、データサイエンスに基づくインサイトを Experience Platform に取り込んで、リアルタイム顧客プロファイルをエンリッチメントする方法を示します。
+title: プロファイルエンリッチメントのためのカスタムデータサイエンスブループリント
+description: データサイエンスに基づくインサイトをに取り込む方法を説明します。 [!DNL Experience Platform] を使用して、リアルタイム顧客プロファイルを強化します。
 solution: Data Collection
 kt: 7203
 exl-id: e5ec6886-4fa4-4c9b-a2d8-e843d7758669,f0efaf3c-6c4f-47c3-ab8a-e8e146dd071c
-source-git-commit: 802507291f54dc3f253d469e7a64d78e34b75c6a
-workflow-type: ht
-source-wordcount: '500'
-ht-degree: 100%
+source-git-commit: 7f3bc307f74aa88a7a73f3e50cc48bd16f58b37f
+workflow-type: tm+mt
+source-wordcount: '455'
+ht-degree: 69%
 
 ---
 
-# プロファイルエンリッチメントのためのカスタムデータサイエンスのブループリント
+# プロファイルエンリッチメントブループリント用のカスタムデータサイエンス
 
-プロファイルエンリッチメントのためのカスタムデータサイエンスブループリントは、データを使用して、モデルをトレーニング、デプロイ、スコアリングし、Experience Platform と Real-time Customer Data Platform に関する機械学習のインサイトを、データサイエンスおよび機械学習ツールから提供する方法を示します。モデル化されたインサイトを Experience Platform に取り込んで、リアルタイム顧客プロファイルをエンリッチメントすることができます。機械学習インサイトの例には、ライフタイム値、スコアリング、製品およびカテゴリの親和性、コンバージョン傾向、チャーン傾向が含まれます。
+プロファイルエンリッチメントブループリントのカスタムデータサイエンスは、データを使用してモデルをトレーニング、デプロイ、スコアリングし、機械学習の洞察を提供する方法を示します。 [!DNL Experience Platform] そして [!DNL Real-Time Customer Data Platform] データサイエンスおよび機械学習ツールから
+
+モデル化されたインサイトは、 [!DNL Experience Platform] を使用して、リアルタイム顧客プロファイルを強化します。 機械学習インサイトの例には、ライフタイム値、スコアリング、製品およびカテゴリの親和性、コンバージョン傾向、チャーン傾向が含まれます。
 
 ## ユースケース
 
@@ -27,13 +29,13 @@ ht-degree: 100%
 
 ## ガードレール
 
-* ガードレールの詳細と、データ サイエンスの結果を Experience Platform およびリアルタイム顧客プロファイルに取り込む際のエンドツーエンドの遅延については、[デプロイメントガードレールドキュメント](../experience-platform/deployment/guardrails.md)を参照してください。
+* 詳細なガードレールと、データサイエンスの結果をに取り込む際の終了から終了までの待ち時間について [!DNL Experience Platform] リアルタイム顧客プロファイルとは、 [デプロイメントガードレールドキュメント](../experience-platform/deployment/guardrails.md).
 
 ## 実装手順
 
 1. データを取り込むために[スキーマを作成](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2021.1.xdm&amp;lang=ja)します。
 1. データを取り込むために[データセットを作成](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/create-datasets-and-ingest-data.html?lang=ja)します。
-1. Experience Platform に[データを取り込みます](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2020.1.dataingestion&amp;lang=ja)。
+1. [データの取り込み](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2020.1.dataingestion&amp;lang=ja) into [!DNL Experience Platform].
 
 モデル結果をリアルタイム顧客プロファイルに取り込む場合は、データを取り込む前に、必ず次の操作をおこなってください。
 
@@ -44,7 +46,7 @@ ht-degree: 100%
 
 * ほとんどの場合、モデルの結果はエクスペリエンスイベントではなく、プロファイル属性として取り込む必要があります。モデルの結果は、単純な属性文字列にすることができます。取り込むモデル結果が複数ある場合は、配列またはマップタイプのフィールドを使用することをお勧めします。
 * 統合プロファイル属性データの毎日の書き出しである日別プロファイルスナップショットデータセットを利用して、プロファイル属性データに関するモデルのトレーニングをおこなうことができます。プロファイルスナップショットデータセットのドキュメントに[ここから](https://experienceleague.adobe.com/docs/experience-platform/dashboards/query.html?lang=ja#profile-attribute-datasets)アクセスすることができます。
-* データからデータを抽出するには、次の Experience Platform を使用することができます
+* からデータを抽出する場合 [!DNL Experience Platform] 次のメソッドを使用できます。
    * データアクセス SDK
       * データは生のファイル形式です
       * プロファイルエクスペリエンスのイベントデータは、未統合の未統合の未処理の状態のままです。
@@ -53,12 +55,12 @@ ht-degree: 100%
 
 ## 関連ドキュメント
 
-* [Adobe Experience Platform インテリジェンス製品説明](https://helpx.adobe.com/jp/legal/product-descriptions/adobe-experience-platform-intelligence---product-description.html)
-* [Adobe Experience Platform クエリサービス](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=ja)
+* [Adobe [!DNL Experience Platform] インテリジェンス製品の説明](https://helpx.adobe.com/jp/legal/product-descriptions/adobe-experience-platform-intelligence---product-description.html)
+* [Adobe [!DNL Experience Platform] クエリサービス](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=ja)
 
 ## 関連するブログ投稿
 
-* [[!DNL Content and Commerce AI: Personalizing Your Interactions with Customers Through Content Intelligence]](https://medium.com/adobetech/content-and-commerce-ai-personalizing-your-interactions-with-customers-through-content-intelligence-dc182601deab)
-* [[!DNL An Introductory Look at Exploratory Data Analysis on Adobe Experience Platform]](https://medium.com/adobetech/an-introductory-look-at-exploratory-data-analysis-on-adobe-experience-platform-1bfce7501d9a)
-* [[!DNL Cutting Across Adobe Experience Products with Machine Learning to Elevated User Experience]](https://medium.com/adobetech/cutting-across-adobe-experience-products-with-machine-learning-to-elevated-user-experience-7c85000510d1)
-* [[!DNL Segmentation.AI: Automated Audience-Clustering-as-a-Service in Adobe Experience Platform]](https://medium.com/adobetech/segmentation-ai-automated-audience-clustering-as-a-service-in-adobe-experience-platform-261f4099462c)
+* [コンテンツ AI とコマース AI：コンテンツインテリジェンスを使用した顧客とのインタラクションのパーソナライズ](https://medium.com/adobetech/content-and-commerce-ai-personalizing-your-interactions-with-customers-through-content-intelligence-dc182601deab)
+* [Adobeに関する探索的データ分析の紹介 [!DNL Experience Platform]](https://medium.com/adobetech/an-introductory-look-at-exploratory-data-analysis-on-adobe-experience-platform-1bfce7501d9a)
+* [アドビのエクスペリエンス製品をまたいだ機械学習によるユーザーエクスペリエンスの向上](https://medium.com/adobetech/cutting-across-adobe-experience-products-with-machine-learning-to-elevated-user-experience-7c85000510d1)
+* [Segmentation.AI:Adobeの自動オーディエンスクラスタリング [!DNL Experience Platform]](https://medium.com/adobetech/segmentation-ai-automated-audience-clustering-as-a-service-in-adobe-experience-platform-261f4099462c)

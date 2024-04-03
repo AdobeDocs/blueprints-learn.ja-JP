@@ -1,24 +1,24 @@
 ---
-title: データ分析とインテリジェンスのブループリント
-description: このブループリントは、データレイクに存在するデータの探索的クエリおよび分析を実行する Adobe Experience Platform 内の機能を示します。
+title: データ分析とインテリジェンスブループリント
+description: 使用Adobe [!DNL Experience Platform] (AEM) を使用して、データレイクに存在するデータの調査クエリと分析を実行します。
 solution: Experience Platform
 kt: 7207
 thumbnail: null
 exl-id: a972ea56-d1c8-45da-9044-ed31222a2441
-source-git-commit: b18d491fdefc57762932d1570401b5437bf97c76
-workflow-type: ht
-source-wordcount: '293'
-ht-degree: 100%
+source-git-commit: 7f3bc307f74aa88a7a73f3e50cc48bd16f58b37f
+workflow-type: tm+mt
+source-wordcount: '223'
+ht-degree: 59%
 
 ---
 
-# データ分析とインテリジェンスのブループリント
+# データ分析とインテリジェンスブループリント
 
-データ分析とインテリジェンスは、Adobe Experience Platform 内の機能で構成され、データレイクに存在するデータの調査クエリおよび分析を実行します。
+データ分析とインテリジェンスは、 [!DNL Experience Platform] データレイクに存在するデータの調査クエリと分析を実行する。
 
-Experience Platform の[!UICONTROL クエリサービス]を使用すると、データに対して SQL クエリを実行できます。
+[!DNL Experience Platform]&#39;s [!UICONTROL クエリサービス] では、データに対して SQL クエリを実行できます。
 
-Experience Platform を使用すると、サードパーティ SQL クライアント、インターフェイスおよびビジネスインテリジェンス（BI）ツールとの接続が可能になり、[!DNL PostgreSQL] プロトコルを使用して、Experience Platform 内で直接データへの接続やアクセス、クエリを実行することができます。
+[!DNL Experience Platform] では、サードパーティの SQL クライアント、インターフェイス、およびBusiness Intelligence(BI) ツールとの接続を許可し、内のデータに直接接続、アクセス、クエリを実行します [!DNL Experience Platform]、 [!DNL PostgreSQL] プロトコルを使用します。
 
 ## ユースケース
 
@@ -30,7 +30,7 @@ Experience Platform を使用すると、サードパーティ SQL クライア�
 
 ## アプリケーション
 
-* Adobe Experience Platform
+* アドビ [!DNL Experience Platform]
 
 ## アーキテクチャ
 
@@ -44,11 +44,11 @@ Experience Platform を使用すると、サードパーティ SQL クライア�
 
 1. データを取り込むために[スキーマを作成](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2021.1.xdm&amp;lang=ja)します。
 1. データを取り込むために[データセットを作成](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/create-datasets-and-ingest-data.html?lang=ja)します。
-1. Experience Platform に[データを取り込みます](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2020.1.dataingestion&amp;lang=ja)。
+1. [データの取り込み](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2020.1.dataingestion&amp;lang=ja) into [!DNL Experience Platform].
 1. データが[[!UICONTROL クエリサービス]](https://experienceleague.adobe.com/docs/platform-learn/tutorials/queries/explore-data.html?lang=ja)で使用可能であることを確認します。
 1. [ビジュアライゼーション、データクエリおよび調査用に、ビジネスインテリジェンスツールおよび SQL クライアントを[!UICONTROL クエリサービス]](https://experienceleague.adobe.com/docs/experience-platform/query/clients/overview.html?lang=ja)に接続します。
 
 ## 関連ドキュメント
 
-* [Adobe Experience Platform インテリジェンス製品説明](https://helpx.adobe.com/jp/legal/product-descriptions/adobe-experience-platform-intelligence---product-description.html)
+* [Adobe [!DNL Experience Platform] インテリジェンス製品の説明](https://helpx.adobe.com/jp/legal/product-descriptions/adobe-experience-platform-intelligence---product-description.html)
 * [[!UICONTROL クエリサービス]ドキュメント](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=ja)

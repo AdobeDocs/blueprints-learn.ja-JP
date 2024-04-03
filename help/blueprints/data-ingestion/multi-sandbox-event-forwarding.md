@@ -4,16 +4,16 @@ description: Experience Platform Web SDK および Mobile SDK で収集された
 solution: Data Collection
 kt: 7202
 exl-id: ecc94fc8-9fad-4b88-a153-3d0fc00d8d58
-source-git-commit: 60a7785ea0ec4ee83fd9a1e843f0b84fc4cb1150
+source-git-commit: 72eb4e2ff276279a2fc88ead0b17d77cc8e99b97
 workflow-type: tm+mt
-source-wordcount: '769'
-ht-degree: 83%
+source-wordcount: '755'
+ht-degree: 55%
 
 ---
 
 # 複数サンドボックスイベント転送のデータ収集
 
-このブループリントは、Experience Platform Web SDK および Mobile SDK で収集されたデータを、単一のイベントを収集して複数の AEP サンドボックスに転送するように設定する方法を示します。このブループリントは、[!UICONTROL イベント転送]を使用してこの目標を達成する複数サンドボックスデータ収集に特化しています。
+このブループリントは、 [!DNL Experience Platform] Web および Mobile SDK は、単一のイベントを収集し、複数の AEP サンドボックスに転送するように設定できます。 このブループリントは、[!UICONTROL イベント転送]を使用してこの目標を達成する複数サンドボックスデータ収集に特化しています。
 
 イベントのレプリケーションに加え、[!UICONTROL イベント転送]機能を使用して、オリジナルの収集データからその他のサンドボックスの要件を満たすものを追加したり、フィルタリングしたり、操作したりできます。
 
@@ -40,7 +40,9 @@ ht-degree: 83%
 
 ### HIPAA データなし
 
-[!UICONTROL イベント転送は HIPAA 対応と見なされません。HIPAA データが収集される HIPAA のユースケースでは使用しないでください。]ただし、[!UICONTROL イベント転送]に使用される基盤は HIPAA 対応と見なされ、あくまでお客様の裁量に任されています。[!UICONTROL イベント転送]タグのプロパティは[!UICONTROL イベント転送]システムに存在しますが、収集されたデータペイロード全体が[!UICONTROL イベント転送]システムに送信されて処理されます。HIPAA のユースケースに関して[!UICONTROL イベント転送]が懸念されるのは、このプロセスです。ペイロード全体が[!UICONTROL イベント転送]システムに送信された場合、これに HIPAA 値が含まれます。[!UICONTROL イベント転送]のルールにより、該当データは宛先に送信する前にフィルタリングされますが、それでも HIPAA データは HIPAA 非対応の基盤に送信されます。ただし、ペイロードデータは保存されず、単に通過します。
+[!UICONTROL イベント転送] は HIPAA Ready とは見なされず、HIPAA データが収集される HIPAA の使用例では使用しないでください。
+
+ただし、 [!UICONTROL イベント転送] は HIPAA 対応と見なされ、お客様の裁量にのみ従います。 [!UICONTROL イベント転送]タグのプロパティは[!UICONTROL イベント転送]システムに存在しますが、収集されたデータペイロード全体が[!UICONTROL イベント転送]システムに送信されて処理されます。このプロセスは [!UICONTROL イベント転送] HIPAA の使用例に関する情報を含む ) ペイロード全体が [!UICONTROL イベント転送] システムの場合、このプロセスには HIPAA 値が含まれます。 たとえ [!UICONTROL イベント転送] ルールは、宛先に送信する前に、HIPAA データが HIPAA 対応でないインフラストラクチャに送信されることをフィルタリングします。 ただし、ペイロードデータは保存されず、単にパススルーになります。
 
 ### 異なるデータストリームとストリーミングエンドポイント
 
@@ -54,12 +56,16 @@ ht-degree: 83%
 
 ![複数サンドボックス[!UICONTROL イベント転送]](assets/multi-sandbox-data-collection.png)
 
-1. イベントデータを収集し、 [!DNL Platform Edge Network] を使用するにはが必要です [!UICONTROL イベント転送]. お客様は、Adobeタグをクライアント側または [!DNL Platform Edge Network Server API] サーバー間データ収集用 The [!DNL Platform Edge Network API] は、サーバー間収集機能を提供します。 ただし、この実装には別のプログラミングモデルが必要です。[Edge Network Server API の概要](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/overview.html?lang=ja)を参照してください。
+1. イベントデータを収集し、 [!DNL Platform Edge Network] は、使用する必要があります [!UICONTROL イベント転送]. Adobeタグは、クライアント側または [!DNL Platform Edge Network Server API] サーバー間データ収集用
 
-1. 収集されたペイロードは、タグ実装から [!DNL Platform Edge Network] から [!UICONTROL イベント転送] 独自に処理された [!UICONTROL データ要素], [!UICONTROL ルール] および [!UICONTROL アクション]. タグとイベント転送の違いについて詳しくは、[タグと[!UICONTROL イベント転送]](https://experienceleague.adobe.com/docs/experience-platform/tags/event-forwarding/overview.html?lang=ja#differences-from-tags)を参照してください。
+   The [!DNL Platform Edge Network API] は、サーバー間収集機能を提供します。 ただし、実装するには別のプログラミングモデルが必要です。 [Edge Network Server API の概要](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/overview.html?lang=ja)を参照してください。
 
-1. An [!UICONTROL イベント転送] プロパティは、 [!DNL Platform Edge Network]. そのイベントデータが [!DNL Platform Edge Network] デプロイ済みのタグ実装またはサーバー間コレクションによって 作成者は、2 番目のサンドボックスに転送する前にイベントデータのエンリッチメントに使用する、データ要素、ルール、アクションを定義します。カスタムコードの [!DNL JavaScript] データ要素を使用して、サンドボックス取り込み用のデータを構造化するのに役立てることを検討してください。Platform のデータ準備機能と組み合わせて、データ構造を管理するオプションがいくつかあります。
+1. 収集されたペイロードは、タグ実装から [!DNL Platform Edge Network] から [!UICONTROL イベント転送] 独自に処理された [!UICONTROL データ要素], [!UICONTROL ルール]、および [!UICONTROL アクション]. 違いについて詳しくは、 [タグと [!UICONTROL イベント転送]](https://experienceleague.adobe.com/docs/experience-platform/tags/event-forwarding/overview.html?lang=ja#differences-from-tags).
 
-1. 現状、[!UICONTROL イベント転送]プロパティ内で Adobe [!UICONTROL Cloud Connector 拡張機能]を使用する必要があります。ルールがイベントデータを処理またはエンリッチメントすると、Cloud Connector は、2 番目のサンドボックスにペイロードを送信する POST 用に設定された、取得呼び出し内で使用されます
+1. An [!UICONTROL イベント転送] プロパティは、収集されたイベントデータを [!DNL Platform Edge Network]( そのイベントデータが [!DNL Platform Edge Network] デプロイ済みのタグ実装またはサーバー間コレクションによって
 
-1. 2 番目のサンドボックスには、データ取り込みのストリーミングエンドポイントが必要です。また、AEP のデータ準備機能を使用して、[!UICONTROL イベント転送]ペイロードの XDM への取り込みとマッピングに役立てることも検討できます。AEP ドキュメント [UI を使用した HTTP API ストリーミング接続の作成](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/streaming/http.html?lang=ja)を参照してください。
+   作成者は、2 番目のサンドボックスに転送する前にイベントデータのエンリッチメントに使用する、データ要素、ルール、アクションを定義します。カスタムコードの [!DNL JavaScript] データ要素を使用して、サンドボックス取り込み用のデータを構造化するのに役立てることを検討してください。Platform のデータ準備機能と組み合わせて、データ構造を管理するオプションがいくつかあります。
+
+1. 現状、[!UICONTROL イベント転送]プロパティ内で Adobe [!UICONTROL Cloud Connector 拡張機能]を使用する必要があります。ルールがイベントデータを処理またはエンリッチメントした後、 [!UICONTROL クラウドコネクタ] は、POSTに対して設定されたフェッチ呼び出し内で使用され、ペイロードを 2 番目のサンドボックスに送信します。
+
+1. 2 番目のサンドボックスには、データ取り込み用のストリーミングエンドポイントが必要です。 また、 [!UICONTROL データ準備] AEP の機能 ( [!UICONTROL イベント転送] XDM へのペイロード。 AEP ドキュメント [UI を使用した HTTP API ストリーミング接続の作成](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/streaming/http.html?lang=ja)を参照してください。

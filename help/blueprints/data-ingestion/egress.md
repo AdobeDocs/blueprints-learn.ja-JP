@@ -4,22 +4,22 @@ description: Adobe Experience Platformおよびアプリケーションからデ
 product: adobe experience platform
 solution: Experience Platform, Journey Optimizer, Real-Time Customer Data Platform, Data Collection
 exl-id: 2ca51a29-2db2-468f-8688-fc8bc061b47b
-source-git-commit: 2b555728ddf570e236c0c54a8c17f85a6942618f
+source-git-commit: 72eb4e2ff276279a2fc88ead0b17d77cc8e99b97
 workflow-type: tm+mt
-source-wordcount: '1838'
+source-wordcount: '1834'
 ht-degree: 91%
 
 ---
 
-# データのアクセスと書き出しのブループリント
+# データアクセスと書き出しブループリント
 
-データアクセスおよび書き出しブループリントでは、データのアクセスまたは書き出しに使用できるすべての方法の概要が説明されています。 [!DNL Experience Platform] およびアプリケーション。
+データアクセスおよび書き出しブループリントは、データへのアクセスまたは書き出しをおこなうためのすべての方法の概要を示します。 [!DNL Experience Platform] およびアプリケーション。
 
 ブループリントは、次のデータアクセス用に 2 つのカテゴリに分類されます： [!DNL Experience Platform] およびアプリケーション。
 
-1 つ目は、Experience Platformやアプリケーションからデータを取り出す方法を含む。 これは、 _プッシュ_ データ出力のタイプメソッド。
+1 つ目は、からデータを取得する方法を含む [!DNL Experience Platform] およびアプリケーション。 これは、 _プッシュ_ データ出力のタイプメソッド。
 
-2 つ目は、Experience Platformやアプリケーションからのデータへのアクセス方法を含む。 これは、 _取る_ データアクセスのタイプメソッド。
+2 つ目は、からのデータへのアクセスに関するアプローチです。 [!DNL Experience Platform] およびアプリケーション。 これは、 _取る_ データアクセスのタイプメソッド。
 
 データアクセス方法：
 
