@@ -5,10 +5,10 @@ user-guide-description: ブループリントは、既存のビジネス上の�
 product: adobe experience platform
 mini-toc-levels: 3
 role: Architect, Developer, User
-source-git-commit: 60a7785ea0ec4ee83fd9a1e843f0b84fc4cb1150
+source-git-commit: 62dc3dff69bbf88b025373b4fdc893cc77b73594
 workflow-type: tm+mt
-source-wordcount: '241'
-ht-degree: 55%
+source-wordcount: '240'
+ht-degree: 56%
 
 ---
 
@@ -16,48 +16,48 @@ ht-degree: 55%
 # デジタルエクスペリエンスのブループリント {#architecture}
 
 + [デジタルエクスペリエンスブループリント](/help/blueprints/overview.md)
-+ 業界の垂直ブループリント{#vertical-blueprints}
++ 業界の垂直的なブループリント{#vertical-blueprints}
    + [概要](/help/blueprints/vertical-blueprints/overview.md)
    + [アパレル](/help/blueprints/vertical-blueprints/apparel.md)
    + [小売](/help/blueprints/vertical-blueprints/retail.md)
    + [通信業](/help/blueprints/vertical-blueprints/telecommunications.md)
-   + [旅行と接客](/help/blueprints/vertical-blueprints/travel-hospitality.md)
+   + [旅行およびホスピタリティ](/help/blueprints/vertical-blueprints/travel-hospitality.md)
 + アーキテクチャの概要 {#architecture-overview}
    + [Experience Cloud](/help/blueprints/experience-platform/experience-cloud.md)
    + [Experience Platformとアプリケーション](/help/blueprints/experience-platform/platform-applications.md)
    + [Experience Platformデータフロー](/help/blueprints/experience-platform/platform-data-flow.md)
    + デプロイメント {#deployment}
-      + [Experience PlatformWeb SDK &amp; [!DNL Edge Network]](/help/blueprints/experience-platform/deployment/websdk.md)
+      + [Experience PlatformWeb SDK および [!DNL Edge Network]](/help/blueprints/experience-platform/deployment/websdk.md)
       + [アプリケーション SDK](/help/blueprints/experience-platform/deployment/appsdk.md)
       + [ガードレール](/help/blueprints/experience-platform/deployment/guardrails.md)
 + オーディエンスとプロファイルのアクティベーション {#audience-activation}
    + [概要](/help/blueprints/audience-activation/overview.md)
-   + [匿名Audience Activation(AAM)](/help/blueprints/audience-activation/anonymous.md)
+   + [匿名オーディエンスアクティベーション](/help/blueprints/audience-activation/anonymous.md)
    + 既知の顧客のアクティベーション（RTCDP） {#known-customer-audience-activation}
       + [概要](/help/blueprints/audience-activation/known.md)
       + [ソーシャルおよび広告チャネルに対するアクティベーション](/help/blueprints/audience-activation/advertising-activation.md)
-      + [ファイルおよびエンタープライズストリーミングの宛先へのアクティベーション](/help/blueprints/audience-activation/enterprise-destinations.md)
+      + [ファイルおよびエンタープライズストリーミング宛先に対するアクティベーション](/help/blueprints/audience-activation/enterprise-destinations.md)
       + [顧客アクティビティハブ](/help/blueprints/audience-activation/customer-activity.md)
       + [セグメントの一致](/help/blueprints/audience-activation/segment-match.md)
-   + [Experience Cloud・アプリケーションでの有効化](/help/blueprints/audience-activation/platform-and-applications.md)
+   + [Experience Cloudアプリケーションを使用したアクティベーション](/help/blueprints/audience-activation/platform-and-applications.md)
    + Web およびモバイルのパーソナライゼーション{#web-personalization}
       + [概要](/help/blueprints/audience-activation/web-personalization/overview.md)
-      + [行動パーソナライゼーション — Target](/help/blueprints//audience-activation/web-personalization/behavioral.md)
-      + [既知のお客様のパーソナライゼーション — Target と RTCDP](/help/blueprints/audience-activation/web-personalization/known-personalization.md)
-      + [決定管理](/help/blueprints/audience-activation/web-personalization/decision-management-edge.md)
+      + [行動パーソナライゼーション - Target](/help/blueprints//audience-activation/web-personalization/behavioral.md)
+      + [既知の顧客パーソナライゼーション - Target と RTCDP](/help/blueprints/audience-activation/web-personalization/known-personalization.md)
+      + [意思決定管理](/help/blueprints/audience-activation/web-personalization/decision-management-edge.md)
 + B2B アクティベーションとマーケティング{#b2b-activation}
    + [概要](/help/blueprints/b2b/overview.md)
-   + [B2B アクティベーション](/help/blueprints/b2b/b2bactivation.md)
+   + [B2B 活性化](/help/blueprints/b2b/b2bactivation.md)
    + Marketo Engage と Workfront 統合ブループリント{#marketo-engage-and-workfront-integration-blueprint}
       + [概要](/help/blueprints/b2b/marketo-engage-and-workfront-integration-blueprint/overview.md)
       + [取り込みと作成](/help/blueprints/b2b/marketo-engage-and-workfront-integration-blueprint/intake-and-create.md)
-      + [レビューと承認](/help/blueprints/b2b/marketo-engage-and-workfront-integration-blueprint/review-and-approve-blueprint.md)
+      + [レビューして承認](/help/blueprints/b2b/marketo-engage-and-workfront-integration-blueprint/review-and-approve-blueprint.md)
       + [顧客の成功事例](/help/blueprints/b2b/marketo-engage-and-workfront-integration-blueprint/customer-success-stories.md)
-+ コンテンツとコマース{#content-commerce}
++ コンテンツとCommerce{#content-commerce}
    + [Adobe Commerceと RTCDP](/help/blueprints/content-commerce/commerce/commerce-rtcdp.md)
 + Customer Journey Analytics {#customer-journey-analytics}
    + [概要](/help/blueprints/customer-journey-analytics/overview.md)
-   + [CJA オーディエンスを RTCDP に共有する](/help/blueprints/customer-journey-analytics/cja-rtcdp.md)
+   + [CJA オーディエンスと RTCDP の共有](/help/blueprints/customer-journey-analytics/cja-rtcdp.md)
    + [CJA と Journey Optimizer](/help/blueprints/customer-journey-analytics/cja-ajo.md)
 + カスタマージャーニー{#customer-journeys}
    + [概要](/help/blueprints/customer-journeys/overview.md)
@@ -71,22 +71,22 @@ ht-degree: 55%
       + [サードパーティメッセージ](/help/blueprints/customer-journeys/3rd-party-messaging.md)
    + Campaign Standard{#campaign-standard}
       + [[!DNL Campaign Standard]](https://experienceleague.adobe.com/docs/campaign-standard.html?lang=ja){target="_blank"}
-      + [Real-Time CDP withAdobe [!DNL Campaign Standard]](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/adobe-experience-platform/aep-sources-destinations/get-started-sources-destinations.html?lang=ja){target="_blank"}
+      + [AdobeのReal-Time CDP [!DNL Campaign Standard]](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/adobe-experience-platform/aep-sources-destinations/get-started-sources-destinations.html?lang=ja){target="_blank"}
    + Campaign v8{#campaign-v8}
       + [Campaign v8](/help/blueprints/customer-journeys/campaign-v8.md)
-      + [Real-Time CDP withAdobe [!DNL Campaign] v8](/help/blueprints/customer-journeys/rtcdp-and-campaign-v8.md)
+      + [AdobeのReal-Time CDP [!DNL Campaign] v8](/help/blueprints/customer-journeys/rtcdp-and-campaign-v8.md)
       + [Journey Optimizer と Adobe Campaign v8](/help/blueprints/customer-journeys/ajo-and-campaign-v8.md)
    + Campaign v7{#campaign-v7}
       + [Campaign v7](/help/blueprints/customer-journeys/campaign-v7.md)
-      + [Real-Time CDP withAdobe [!DNL Campaign] v7](/help/blueprints/customer-journeys/rtcdp-and-campaign.md)
-      + [Journey Optimizer withAdobe [!DNL Campaign] v7](/help/blueprints/customer-journeys/ajo-and-campaign-v7.md)
+      + [AdobeのReal-Time CDP [!DNL Campaign] v7](/help/blueprints/customer-journeys/rtcdp-and-campaign.md)
+      + [AdobeのJourney Optimizer [!DNL Campaign] v7](/help/blueprints/customer-journeys/ajo-and-campaign-v7.md)
 + データ収集、アクセスおよび書き出し {#data-ingestion}
    + [概要](/help/blueprints/data-ingestion/overview.md)
    + [複数サンドボックスイベント転送のデータ収集](/help/blueprints/data-ingestion/multi-sandbox-event-forwarding.md)
    + [データの準備と取り込み](/help/blueprints/data-ingestion/ingestion.md)
-   + [データのアクセスとエクスポート](/help/blueprints/data-ingestion/egress.md)
+   + [データアクセスと書き出し](/help/blueprints/data-ingestion/egress.md)
    + [イベント転送](/help/blueprints/data-ingestion/server-side-collection.md)
 + データ分析、インテリジェンス、AI／ML {#data-exploration}
    + [概要](/help/blueprints/data-insights/overview.md)
    + [データ分析とインテリジェンス](/help/blueprints/data-insights/analysis.md)
-   + [プロファイルエンリッチメントのカスタムデータサイエンス](/help/blueprints/data-insights/data-science.md)
+   + [プロファイルエンリッチメントのためのカスタムデータサイエンス](/help/blueprints/data-insights/data-science.md)
