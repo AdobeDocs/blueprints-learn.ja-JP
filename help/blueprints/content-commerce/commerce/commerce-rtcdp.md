@@ -3,7 +3,7 @@ title: Adobe Commerce - RTCDP ブループリント
 description: Adobe Experience PlatformとAdobe Commerceの統合により、顧客の単一のビューを作成し、デジタルストアフロントや複数のチャネルにわたってエクスペリエンスをインテリジェントにパーソナライズします。
 solution: Real-Time Customer Data Platform, Commerce
 exl-id: e2fc5e1c-c865-4c24-9b82-861a34aba487
-source-git-commit: 993836cda90ce169602cc6a4eec9a7477fc67172
+source-git-commit: 80a4716a7ed64ec30b9c60b3444affc5bd8984e4
 workflow-type: tm+mt
 source-wordcount: '380'
 ht-degree: 0%
@@ -69,4 +69,4 @@ Adobe Commerceの宛先に接続する手順は次のとおりです。
 |:----|:----|
 | Platform コネクタ | [Adobe CommerceExperience Platformコネクタの概要](https://experienceleague.adobe.com/docs/commerce-merchant-services/data-connection/overview.html) |
 | Commerce先 | [RTCDP でのAdobe Commerce接続](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-commerce.html) |
-| エッジのパーソナライズ機能 | [エッジパーソナライゼーションの宛先に対するオーディエンスのアクティブ化](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/activate-edge-personalization-destinations.html) | |
+| エッジのパーソナライズ機能 | [エッジパーソナライゼーションの宛先に対するオーディエンスのアクティブ化](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/activate-edge-personalization-destinations.html) |
