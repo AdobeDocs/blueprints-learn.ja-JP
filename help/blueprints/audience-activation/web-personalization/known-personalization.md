@@ -1,5 +1,5 @@
 ---
-title: Web/モバイルパーソナライゼーションの概要 – Adobe Targetと RTCDP
+title: Web/モバイルPersonalizationの概要 – Adobe Targetと RTCDP
 description: Web パーソナライズ機能を電子メールおよびその他の既知および匿名のチャネルパーソナライズ機能と同期します。
 landing-page-description: Web パーソナライズ機能を電子メールおよびその他の既知および匿名のチャネルパーソナライズ機能と同期します。
 short-description: Web パーソナライズ機能を電子メールおよびその他の既知および匿名のチャネルパーソナライズ機能と同期します。
@@ -15,7 +15,7 @@ ht-degree: 79%
 ---
 
 
-# 既知の顧客データブループリントを使用した web/モバイルパーソナライゼーション
+# 既知の顧客データブループリントを使用した web/モバイルPersonalization
 
 ## ユースケース
 
