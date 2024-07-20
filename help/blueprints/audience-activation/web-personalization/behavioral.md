@@ -14,7 +14,7 @@ ht-degree: 96%
 
 ---
 
-# 行動 Web およびモバイルパーソナライゼーションブループリント
+# 行動 Web およびモバイルパーソナライゼーションのブループリント
 
 オンライン行動およびオーディエンスデータに基づいてパーソナライズします。
 
@@ -41,7 +41,7 @@ ht-degree: 96%
 Web／モバイルパーソナライズ機能ブループリントは、以下に説明する方法で実装できます。
 
 1. [!UICONTROL Platform Web SDK] または [!UICONTROL Platform Mobile SDK] と[!UICONTROL エッジネットワーク]を使用。[Experience Platform Web および Mobile SDK のブループリントを参照](../../experience-platform/deployment/websdk.md)
-1. 従来のアプリケーション固有の SDK( 例：AppMeasurement.js) を使用する。 [アプリケーション固有の SDK ブループリントを参照](../../experience-platform/deployment/appsdk.md)
+1. 従来のアプリケーション固有の SDK （例：AppMeasurement.js）を使用する。 [アプリケーション固有の SDK ブループリントを参照](../../experience-platform/deployment/appsdk.md)
 
 ## 実装手順
 

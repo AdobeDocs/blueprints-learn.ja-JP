@@ -1,6 +1,6 @@
 ---
 title: データ分析、インテリジェンス、AI/ML ブループリント
-description: データレイクに存在するデータの探索的クエリと分析を実行する方法を説明します。
+description: データレイクに存在するデータの探索的クエリと分析を実行する方法について説明します。
 solution: Experience Platform
 kt: 7207
 thumbnail: null
@@ -12,13 +12,13 @@ ht-degree: 22%
 
 ---
 
-# データ分析、インテリジェンス、AI/ML ブループリント
+# データ分析、インテリジェンス、AI/ML のブループリント
 
-データ分析、インテリジェンス、AI/ML は、Adobe内の機能を備えています [!DNL Experience Platform] データレイクに存在するデータの調査クエリと分析を実行する。
+データ分析、インテリジェンスおよび AI/ML には、データレイク内に存在するデータの探索的クエリおよびAdobeを実行する分析 [!DNL Experience Platform] 能が含まれています。
 
-[!DNL Experience Platform]&#39;s [!UICONTROL クエリサービス] では、データに対して SQL クエリを実行できます。 さらに、 [!DNL Experience Platform] では、サードパーティの SQL クライアント、インターフェイス、およびBusiness Intelligence(BI) ツールとの接続を許可し、内のデータに直接接続、アクセス、クエリを実行します [!DNL Experience Platform]、 [!DNL PostgreSQL] プロトコルを使用します。
+[!DNL Experience Platform] の [!UICONTROL  クエリサービス ] を使用すると、データに対して SQL クエリを実行できます。 さらに、[!DNL Experience Platform] を使用すると、サードパーティの SQL クライアント、インターフェイス、およびBusiness Intelligence（BI）ツールとの接続が、[!DNL PostgreSQL] プロトコルを使用して、[!DNL Experience Platform] 内のデータに直接接続し、アクセスし、クエリを実行できます。
 
 | ブループリント | 説明 | Experience Cloud アプリケーション |
 |---|---|---|
-| **[データ分析とインテリジェンス](analysis.md)** | <ul><li>データ分析とインテリジェンスブループリントは、データを照会し分析して、内でより深いインサイトを得る方法を含みます。 [!DNL Experience Platform]</ul></li> | <ul><li> [!DNL Experience Platform] インテリジェンス</ul></li> |
-| **[プロファイルエンリッチメントのためのカスタムデータサイエンス](data-science.md)** | <ul><li>モデルのトレーニング、スコア、操作を行って、顧客プロファイルと行動モデルに基づく顧客インサイトをさらに強化</li></ul> | <ul><li>[!DNL Experience Platform] インテリジェンス</li><li> [!UICONTROL Real-time Customer Data Platform]</li></ul> |
+| **[データ分析とインテリジェンス](analysis.md)** | <ul><li>データ分析とインテリジェンスブループリントには、[!DNL Experience Platform] 内のより深いインサイトを得るためにデータをクエリおよび分析する方法が含まれています</ul></li> | <ul><li> [!DNL Experience Platform] Intelligence</ul></li> |
+| **[プロファイルエンリッチメントのためのカスタムデータサイエンス](data-science.md)** | <ul><li>モデルのトレーニング、スコア、操作を行って、顧客プロファイルと行動モデルに基づく顧客インサイトをさらに強化</li></ul> | <ul><li>[!DNL Experience Platform] Intelligence</li><li> [!UICONTROL Real-time Customer Data Platform]</li></ul> |

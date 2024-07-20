@@ -4,8 +4,8 @@ description: 取り込みと作成 - Marketo Engage と Workfront 統合ブル�
 exl-id: 09679521-727c-4676-8e91-23d0b7fd54a2
 source-git-commit: 8b077428fb8bb183545bd1d63fc300ff2c28f9da
 workflow-type: tm+mt
-source-wordcount: '1324'
-ht-degree: 100%
+source-wordcount: '1282'
+ht-degree: 97%
 
 ---
 
@@ -22,7 +22,7 @@ Workfront と Marketo Engage を使用すると、システム間接続により
 以下のワークフローは、キャンペーンマネージャーが Workfront リクエストフォームを使用して行うウェビナーのリクエストを示しています。続いて、リクエストで送信された詳細により、Marketo Engage でウェビナー用に作成されるプログラムとメールがトリガーされます。さらに、メールのコンテンツを入力するための詳細がリクエストフォームから取得されます。
 さらに、リクエストフォームから詳細が取得され、メールのコンテンツが入力されます。
 
-![取り込みと作成のブループリント](assets/intake-and-create-1.png){zoomable=&quot;yes&quot;}
+![ 取り込みとブループリントの作成 ](assets/intake-and-create-1.png){zoomable="yes"}
 
 >[!TIP]
 >
@@ -102,7 +102,7 @@ Marketo Engage のプログラムテンプレートを使用してセンター�
 
 Marketo Engage では、トークンを使用してコンテンツをキャンペーンアセットに入力することができます。例えば、センターオブエクセレンスからメールテンプレートを複製した後、Workfront Fusion は Workfront のキャンペーンリクエストから詳細を取得し、Marketo Engage プログラムのマイトークンに渡すことができます。その後、トークンの値をメールに直接継承して、メールを構築することができます。
 
-![トークンを使用したコンテンツ入力のダイアグラム](assets/intake-and-create-2.png){zoomable=&quot;yes&quot;}
+![ トークンを使用したコンテンツ図の入力 ](assets/intake-and-create-2.png){zoomable="yes"}
 
 ### AEM Assets から画像を入力 {#populate-images-from-aem-assets}
 
@@ -148,7 +148,7 @@ Workfront リクエストから新しい Marketo Engage プログラムの作成
 
 ## 取り込みおよび作成の自動化フロー {#intake-and-create-automation-flow}
 
-自動化をより迅速に実現できる事前構築済みの [Workfront](https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-fusion/fusion-apps-and-modules/workfront-modules.html?lang=ja){target="_blank"} and [Marketo Engage](https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-fusion/fusion-apps-and-modules/marketo-modules.html?lang=ja){target="_blank"} モジュールを使用して、Fusion でワークフローロジックを組み立てる方法の例を次に示します。
+以下の例は、事前定義済みの [Workfront](https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-fusion/fusion-apps-and-modules/workfront-modules.html?lang=ja){target="_blank"} モジュールと [Marketo Engage](https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-fusion/fusion-apps-and-modules/marketo-modules.html?lang=ja){target="_blank"} モジュールを使用して Fusion でワークフローロジックを組み立て、自動化を高速化する方法を示しています。
 
 ![取り込みおよび作成の自動化フロー](assets/intake-and-create-3.png)
 

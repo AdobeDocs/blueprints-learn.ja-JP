@@ -1,6 +1,6 @@
 ---
-title: 小売業界 —Experience Cloudアプリケーションを使用したアクティベーション
-description: デジタルメディア、E メール、プッシュ、Web チャネルをまたいでリアルタイムの顧客体験を提供する方法について説明します。
+title: 小売業界 – Experience Cloudアプリケーションによるアクティベーション
+description: デジタルメディア、メール、プッシュおよび web チャネル全体でリアルタイムの顧客エクスペリエンスを提供する方法について説明します。
 solution: Real-Time Customer Data Platform, Customer Journey Analytics, Journey Orchestration, Campaign, Analytics, Target
 kt: 9474
 exl-id: a675bc81-e76c-491a-8718-359867d63351

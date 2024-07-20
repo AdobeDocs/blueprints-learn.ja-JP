@@ -10,17 +10,17 @@ ht-degree: 80%
 
 ---
 
-# Journey Optimizer - [!DNL Decision Management] Edge ブループリント上
+# Journey Optimizer - Edge ブループリントの [!DNL Decision Management]
 
-[!DNL Decision Management] は、 [!DNL Journey Optimizer]. このブループリントは、アプリケーションのユースケースと技術的機能の概要を示し、意思決定管理を構成する様々なアーキテクチャコンポーネントと考慮事項について詳しく説明します。
+[!DNL Decision Management] は、[!DNL Journey Optimizer] の一部として提供されるサービスです。 このブループリントは、アプリケーションのユースケースと技術的機能の概要を示し、意思決定管理を構成する様々なアーキテクチャコンポーネントと考慮事項について詳しく説明します。
 
 >[!MORELIKETHIS]
 >
->詳しくは、以下を参照してください。 [!DNL Decision Management]を参照し、 [ブループリントの概要](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer/decision-management/decision-management-overview.html?lang=ja) または [製品ドキュメント](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started-decision/starting-offer-decisioning.html?lang=ja).
+>[!DNL Decision Management] について詳しくは、[ ブループリントの概要 ](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer/decision-management/decision-management-overview.html?lang=ja) または [ 製品ドキュメント ](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started-decision/starting-offer-decisioning.html?lang=ja) を参照してください。
 
-[!DNL Decision Management] は、2 つの方法のいずれかでデプロイできます。 1 つ目は、 [!DNL Experience Platform] ハブ：単一のデータセンターアーキテクチャです。 「ハブ」アプローチでは、オファーは 2 回目の待ち時間で実行、パーソナライズ、配信されます。したがって、ハブアーキテクチャは、1 秒未満の待ち時間を必要としない顧客体験に最適です。例えば、コールセンターや対面でのやり取りなど、キオスクやエージェント支援エクスペリエンスに提供されるオファー判定が含まれます。
+[!DNL Decision Management] は、2 つの方法のいずれかでデプロイできます。 1 つ目は、単一のデータセンターアーキテクチャである [!DNL Experience Platform] Hub を介する方法です。 「ハブ」アプローチでは、オファーは 2 回目の待ち時間で実行、パーソナライズ、配信されます。したがって、ハブアーキテクチャは、1 秒未満の待ち時間を必要としない顧客体験に最適です。例えば、コールセンターや対面でのやり取りなど、キオスクやエージェント支援エクスペリエンスに提供されるオファー判定が含まれます。
 
-2 つ目のアプローチは、Experience Platform [!DNL Edge Network]：サブ秒およびミリ秒の高速なエクスペリエンスを提供する、地理的にグローバルに分散されたインフラストラクチャです。 待ち時間を最小限に抑えるために、消費者の地域に最も近い Edge インフラストラクチャによって実行されるエンドコンシューマーエクスペリエンス。 [!DNL Decision Management] Edge 上では、リアルタイムのコンシューマーエクスペリエンスを提供するように設計されています。 これには、Web やモバイルのインバウンドパーソナライズ機能リクエストなどのエクスペリエンスが含まれます。
+2 つ目のアプローチは、Experience Platform[!DNL Edge Network] を介して行われます。これは、世界中に分散された地理的に配置されたインフラストラクチャであり、高速な秒未満およびミリ秒のエクスペリエンスを提供します。 エンドユーザーのエクスペリエンスは、待ち時間を最小限に抑えるために、消費者の位置情報に最も近いEdge インフラストラクチャによって実行されています。 Edgeの [!DNL Decision Management] は、リアルタイムのカスタマーエクスペリエンスを提供するように設計されています。 これには、Web やモバイルのインバウンドパーソナライズ機能リクエストなどのエクスペリエンスが含まれます。
 
 このブループリントでは、Edge 上での意思決定管理の詳細を説明します。
 
@@ -28,7 +28,7 @@ ht-degree: 80%
 
 ## エッジでの意思決定管理のユースケース
 
-* プロファイルコンテキストの遅延が 15 分未満で、判定管理の実行が 1 秒未満の場合、ストリーミングの使用例です。
+* プロファイルコンテキストの待ち時間が 15 分の待ち時間より厳密に低く、意思決定管理の実行が 1 秒未満のストリーミングのユースケース。
 * Web またはモバイルインバウンドエクスペリエンスを使用したオンラインパーソナライズ機能。
 * クロスチャネルのジャーニーの実行 - Adobe Journey Optimizer を通じて、web、モバイル、電子メールおよびその他のインタラクションチャネル間の一貫性を提供します。
 
@@ -62,7 +62,7 @@ Adobe Experience Platform
 
 * 意思決定管理ガードレールについては、次の[意思決定管理製品の説明](https://helpx.adobe.com/jp/legal/product-descriptions/offer-decisioning-app-service.html)を参照してください。
 
-[ガードレールとエンドツーエンドの待ち時間のガイダンス](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/architecture-overview/deployment/guardrails.html)
+[ ガードレールとエンドツーエンドの待ち時間のガイダンス ](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/architecture-overview/deployment/guardrails.html)
 
 
 ## 実装パターン

@@ -48,7 +48,7 @@ Journey Optimizer は、あらゆるタッチポイントにわたり、適切�
 
 ## エッジでの意思決定管理
 
-2 つ目のアプローチは、エクスペリエンスを使用することです [!DNL Edge Network]：サブ秒およびミリ秒の高速なエクスペリエンスを提供する、地理的にグローバルに分散されたインフラストラクチャです。 レイテンシを最小限に抑えるために、消費者の地理的位置に最も近いエッジインフラストラクチャによって実行される最終消費者エクスペリエンス。Edge 上の意思決定管理は、web やモバイルのインバウンドパーソナライズ機能リクエストなどのリアルタイムの顧客体験を提供するように設計されています。ハブの意思決定管理について詳しくは、[ハブの意思決定管理](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer/decision-management/decision-management-edge.html?lang=ja)ブループリントを参照してください。
+2 番目のアプローチは、Experience [!DNL Edge Network] を介した方法です。これは、秒未満とミリ秒の高速なエクスペリエンスを提供するために世界中に分散した地理的に配置されたインフラストラクチャです。 レイテンシを最小限に抑えるために、消費者の地理的位置に最も近いエッジインフラストラクチャによって実行される最終消費者エクスペリエンス。Edge 上の意思決定管理は、web やモバイルのインバウンドパーソナライズ機能リクエストなどのリアルタイムの顧客体験を提供するように設計されています。ハブの意思決定管理について詳しくは、[ハブの意思決定管理](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer/decision-management/decision-management-edge.html?lang=ja)ブループリントを参照してください。
 
 ### エッジでの意思決定管理のユースケース
 

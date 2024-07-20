@@ -6,13 +6,13 @@ exl-id: e2fc5e1c-c865-4c24-9b82-861a34aba487
 source-git-commit: 80a4716a7ed64ec30b9c60b3444affc5bd8984e4
 workflow-type: tm+mt
 source-wordcount: '380'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
 # Adobe Commerceと RTCDP
 
-この [!DNL Data Connection] extension は、Adobe Commerceのお客様がAdobe Experience Platformとシームレスに統合して顧客プロファイルを強化し、デジタルストアフロントやその他のチャネルでエクスペリエンスをパーソナライズするのに役立ちます。
+[!DNL Data Connection] 拡張機能は、Adobe Commerceのお客様がAdobe Experience Platformとシームレスに統合して顧客プロファイルを強化し、デジタルストアフロントやその他のチャネルでエクスペリエンスをパーソナライズするのに役立ちます。
 
 ## 有効な技術的機能
 
@@ -23,33 +23,33 @@ ht-degree: 0%
 
 ## 前提条件
 
-を使用するには [!DNL Data Connection] 拡張機能では、次が必要です。
+[!DNL Data Connection] 拡張機能を使用するには、次の要件を満たす必要があります。
 
 * Adobe Commerce 2.4.4 以降
 * Adobe IDと組織 ID
 * Adobe Experience Platform/RTCDP
-* [Adobeクライアントデータレイヤー（ACDL）](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/client/client-data-layer/overview.html). ACDL は、ストアフロントのイベントデータを収集するために必要です。
+* [Adobe クライアント データ レイヤー（ACDL） ](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/client/client-data-layer/overview.html)。 ACDL は、ストアフロントのイベントデータを収集するために必要です。
 
 ## オンボーディング手順
 
 ### Adobe CommerceからAdobe Experience Platformへのデータ収集
 
-* [インストール](https://experienceleague.adobe.com/docs/commerce-merchant-services/data-connection/fundamentals/install.html) この [!DNL Data Connection] 拡張機能。
-* [ログイン](https://helpx.adobe.com/manage-account/using/access-adobe-id-account.html) をAdobeアカウントに追加し、を表示して組織 ID を確認します。 組織 ID は、プロビジョニングされているExperience Cloud会社に関連付けられた ID です。 この ID は 24 文字の英数字から成る文字列の後に@AdobeOrg （必須）を付けたものです。
-* [作成または更新](https://experienceleague.adobe.com/docs/commerce-merchant-services/data-connection/fundamentals/update-xdm.html) Commerce固有のフィールドグループを持つ XDM スキーマ。
-* [データセットの作成](https://experienceleague.adobe.com/docs/platform-learn/implement-mobile-sdk/experience-cloud/platform.html#create-a-dataset) 作成または更新したスキーマに基づいています。 このデータセットには、送信するCommerce データが含まれます。
-* [データストリームの作成](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/overview.html) を選択し、Commerce固有のフィールドグループを含む XDM スキーマを選択します。
-* [Commerce Services への接続](https://experienceleague.adobe.com/docs/commerce-merchant-services/user-guides/integration-services/saas.html).
-* [Adobe Experience Platformへの接続](https://experienceleague.adobe.com/docs/commerce-merchant-services/data-connection/fundamentals/connect-data.html).
+* [!DNL Data Connection] 拡張機能 ](https://experienceleague.adobe.com/docs/commerce-merchant-services/data-connection/fundamentals/install.html)[ インストールします。
+* Adobeアカウントに [ ログイン ](https://helpx.adobe.com/manage-account/using/access-adobe-id-account.html) し、を表示して組織 ID を確認します。 組織 ID は、プロビジョニングされているExperience Cloud会社に関連付けられた ID です。 この ID は 24 文字の英数字から成る文字列の後に@AdobeOrg （必須）を付けたものです。
+* Commerce固有のフィールドグループを使用した XDM スキーマの [ 作成または更新 ](https://experienceleague.adobe.com/docs/commerce-merchant-services/data-connection/fundamentals/update-xdm.html)。
+* 作成または更新したスキーマに基づいて [ データセットを作成 ](https://experienceleague.adobe.com/docs/platform-learn/implement-mobile-sdk/experience-cloud/platform.html#create-a-dataset) します。 このデータセットには、送信するCommerce データが含まれます。
+* [ データストリームを作成 ](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/overview.html) し、Commerce固有のフィールドグループを含む XDM スキーマを選択します。
+* [Commerce サービスに接続します ](https://experienceleague.adobe.com/docs/commerce-merchant-services/user-guides/integration-services/saas.html)。
+* [Adobe Experience Platformに接続します ](https://experienceleague.adobe.com/docs/commerce-merchant-services/data-connection/fundamentals/connect-data.html)。
 
 ### オーディエンス共有のために、Adobe Experience PlatformからCommerceの宛先に接続します
 
 Adobe Commerceの宛先に接続する手順は次のとおりです。
 
-* が含まれる [Adobe Experience Platform インターフェイス](https://experience.adobe.com/platform/)に移動し、宛先/ カタログに移動します。
-* Personalization を選択します。
+* [Adobe Experience Platform インターフェイス ](https://experience.adobe.com/platform/) で、宛先/ カタログに移動します。
+* Personalizationを選択します。
 * ハイライトするAdobe Commerceの宛先を選択し、「設定」を選択します。
-* に記載されている手順に従います [宛先設定のチュートリアル](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/connect-destination.html).
+* [ 宛先設定チュートリアル ](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/connect-destination.html) に示されている手順に従います。
 
 ## 標準データ
 
@@ -57,7 +57,7 @@ Adobe Commerceの宛先に接続する手順は次のとおりです。
 * バックオフィスイベント
 * 注文履歴データ
 
-サポートされているイベントの完全なリストについては、を参照してください。 [Commerce イベント](https://experienceleague.adobe.com/docs/commerce-merchant-services/data-connection/event-forwarding/events.html)
+サポートされているイベントの完全なリストについては、[Commerce Events を参照してください ](https://experienceleague.adobe.com/docs/commerce-merchant-services/data-connection/event-forwarding/events.html)
 
 ## アーキテクチャ
 
@@ -67,6 +67,6 @@ Adobe Commerceの宛先に接続する手順は次のとおりです。
 
 | ガイド | リンク |
 |:----|:----|
-| Platform コネクタ | [Adobe CommerceExperience Platformコネクタの概要](https://experienceleague.adobe.com/docs/commerce-merchant-services/data-connection/overview.html) |
-| Commerce先 | [RTCDP でのAdobe Commerce接続](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-commerce.html) |
-| エッジのパーソナライズ機能 | [エッジパーソナライゼーションの宛先に対するオーディエンスのアクティブ化](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/activate-edge-personalization-destinations.html) |
+| Platform コネクタ | [Adobe CommerceExperience Platformコネクタの概要 ](https://experienceleague.adobe.com/docs/commerce-merchant-services/data-connection/overview.html) |
+| Commerce先 | [RTCDP でのAdobe Commerce接続 ](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-commerce.html) |
+| EdgePersonalization | [ エッジパーソナライゼーションの宛先に対するオーディエンスのアクティブ化 ](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/activate-edge-personalization-destinations.html) |

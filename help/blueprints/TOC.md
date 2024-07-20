@@ -16,7 +16,7 @@ ht-degree: 56%
 # デジタルエクスペリエンスのブループリント {#architecture}
 
 + [デジタルエクスペリエンスブループリント](/help/blueprints/overview.md)
-+ 業界の垂直的なブループリント{#vertical-blueprints}
++ 業界の垂直的なブループリント {#vertical-blueprints}
    + [概要](/help/blueprints/vertical-blueprints/overview.md)
    + [アパレル](/help/blueprints/vertical-blueprints/apparel.md)
    + [小売](/help/blueprints/vertical-blueprints/retail.md)
@@ -27,7 +27,7 @@ ht-degree: 56%
    + [Experience Platformとアプリケーション](/help/blueprints/experience-platform/platform-applications.md)
    + [Experience Platformデータフロー](/help/blueprints/experience-platform/platform-data-flow.md)
    + デプロイメント {#deployment}
-      + [Experience PlatformWeb SDK および [!DNL Edge Network]](/help/blueprints/experience-platform/deployment/websdk.md)
+      + [Experience PlatformWeb SDK （&amp; [!DNL Edge Network]）](/help/blueprints/experience-platform/deployment/websdk.md)
       + [アプリケーション SDK](/help/blueprints/experience-platform/deployment/appsdk.md)
       + [ガードレール](/help/blueprints/experience-platform/deployment/guardrails.md)
 + オーディエンスとプロファイルのアクティベーション {#audience-activation}
@@ -74,12 +74,12 @@ ht-degree: 56%
       + [AdobeのReal-Time CDP [!DNL Campaign Standard]](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/adobe-experience-platform/aep-sources-destinations/get-started-sources-destinations.html?lang=ja){target="_blank"}
    + Campaign v8{#campaign-v8}
       + [Campaign v8](/help/blueprints/customer-journeys/campaign-v8.md)
-      + [AdobeのReal-Time CDP [!DNL Campaign] v8](/help/blueprints/customer-journeys/rtcdp-and-campaign-v8.md)
+      + [Real-Time CDPとAdobe [!DNL Campaign] v8](/help/blueprints/customer-journeys/rtcdp-and-campaign-v8.md)
       + [Journey Optimizer と Adobe Campaign v8](/help/blueprints/customer-journeys/ajo-and-campaign-v8.md)
    + Campaign v7{#campaign-v7}
       + [Campaign v7](/help/blueprints/customer-journeys/campaign-v7.md)
-      + [AdobeのReal-Time CDP [!DNL Campaign] v7](/help/blueprints/customer-journeys/rtcdp-and-campaign.md)
-      + [AdobeのJourney Optimizer [!DNL Campaign] v7](/help/blueprints/customer-journeys/ajo-and-campaign-v7.md)
+      + [Real-Time CDPとAdobe [!DNL Campaign] v7](/help/blueprints/customer-journeys/rtcdp-and-campaign.md)
+      + [Journey OptimizerとAdobe [!DNL Campaign] v7](/help/blueprints/customer-journeys/ajo-and-campaign-v7.md)
 + データ収集、アクセスおよび書き出し {#data-ingestion}
    + [概要](/help/blueprints/data-ingestion/overview.md)
    + [複数サンドボックスイベント転送のデータ収集](/help/blueprints/data-ingestion/multi-sandbox-event-forwarding.md)

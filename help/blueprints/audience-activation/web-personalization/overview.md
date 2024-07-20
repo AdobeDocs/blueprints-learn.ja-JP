@@ -1,5 +1,5 @@
 ---
-title: Web およびモバイルパーソナライゼーションブループリント
+title: Web およびモバイル Personalizationのブループリント
 description: '[!UICONTROL リアルタイム顧客プロファイル]でパーソナライズされた Web およびモバイルコンテンツを配信します。'
 solution: Real-Time Customer Data Platform, Target, Audience Manager, Analytics, Experience Cloud Services
 kt: null
@@ -12,7 +12,7 @@ ht-degree: 95%
 
 ---
 
-# Web およびモバイルパーソナライゼーションのブループリント
+# Web および Mobile Personalizationのブループリント
 
 Web およびモバイルパーソナライズ機能は、複数のアプリケーションでプロファイルおよびオーディエンスのセグメント化を使用する機能を処理して、カスタマーエクスペリエンスをパーソナライズおよび最適化します。顧客の行動、人口統計、ロイヤリティレベル、以前のトランザクションを活用して、レイアウト、コールトゥアクション、コンテンツをパーソナライズすることが可能です。
 

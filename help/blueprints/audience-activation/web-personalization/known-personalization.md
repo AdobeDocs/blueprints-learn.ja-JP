@@ -42,8 +42,8 @@ ht-degree: 79%
 
 | 統合パターン | 機能 | 前提条件 |
 |---|---|---|
-| Real-time Customer Data Platform から Target に共有される Edge に関するリアルタイムのセグメント評価 | <ul><li>Edge 上で同じまたは次のページのパーソナライズ機能に対して、リアルタイムでオーディエンスを評価します。</li><li>また、ストリーミングまたはバッチ方式で評価されるセグメントもすべて [!DNL Edge Network] エッジセグメントの評価とパーソナライゼーションに含める必要があります。</li></ul> | <ul><li>Web/Mobile SDK を実装する必要があります。または [!DNL Edge Network] サーバー API</li><li>Datastream は、Target と Experience Platform 拡張を有効にして Experience Edge で設定する必要があります。</li><li>Target の宛先は、Real-time Customer Data Platform で設定する必要があります。</li><li>Target との統合には、Experience Platform インスタンスと同じ IMS Org が必要です。</li></ul> |
-| Edge アプローチを通じて、Real-time Customer Data Platform から Target へのストリーミングおよびバッチオーディエンスを共有 | <ul><li>を使用して、Real-time Customer Data Platformから Target にストリーミングオーディエンスとバッチオーディエンスを共有する [!DNL Edge Network]. リアルタイムで評価されるオーディエンスには、Web SDK および [!DNL Edge Network] 実装。</li></ul> | <ul><li>ストリーミングおよびバッチ RTCDP オーディエンスを Target に共有するためには、Target の Web／Mobile SDK または Edge API 実装は必要ありませんが、上記で概説したリアルタイムのエッジセグメント評価を有効にする必要があります。</li><li>AT.js を使用する場合、ECID ID 名前空間に対するプロファイル統合のみがサポートされます。</li><li>Edge 上でカスタム ID 名前空間を検索する場合は、Web SDK／API デプロイメントが必要です。また、各 ID を ID マップで ID として設定する必要があります。</li><li>Target の宛先は、Real-time Customer Data Platform の宛先で設定する必要があります。RTCDP のデフォルトの実稼働用サンドボックスのみがサポートされます。</li><li>Target との統合には、Experience Platform インスタンスと同じ IMS Org が必要です。</li></ul> |
+| Real-time Customer Data Platform から Target に共有される Edge に関するリアルタイムのセグメント評価 | <ul><li>Edge 上で同じまたは次のページのパーソナライズ機能に対して、リアルタイムでオーディエンスを評価します。</li><li>また、ストリーミングまたはバッチ方式で評価されたセグメントも [!DNL Edge Network] に投影され、エッジセグメントの評価とパーソナライゼーションに含められます。</li></ul> | <ul><li>Web/Mobile SDK または [!DNL Edge Network] Server API を実装する必要があります</li><li>Datastream は、Target と Experience Platform 拡張を有効にして Experience Edge で設定する必要があります。</li><li>Target の宛先は、Real-time Customer Data Platform で設定する必要があります。</li><li>Target との統合には、Experience Platform インスタンスと同じ IMS Org が必要です。</li></ul> |
+| Edge アプローチを通じて、Real-time Customer Data Platform から Target へのストリーミングおよびバッチオーディエンスを共有 | <ul><li>[!DNL Edge Network] を使用して、Real-time Customer Data Platformから Target にストリーミングオーディエンスとバッチオーディエンスを共有します。 リアルタイムで評価されるオーディエンスには、Web SDK と [!DNL Edge Network] 実装が必要です。</li></ul> | <ul><li>ストリーミングおよびバッチ RTCDP オーディエンスを Target に共有するためには、Target の Web／Mobile SDK または Edge API 実装は必要ありませんが、上記で概説したリアルタイムのエッジセグメント評価を有効にする必要があります。</li><li>AT.js を使用する場合、ECID ID 名前空間に対するプロファイル統合のみがサポートされます。</li><li>Edge 上でカスタム ID 名前空間を検索する場合は、Web SDK／API デプロイメントが必要です。また、各 ID を ID マップで ID として設定する必要があります。</li><li>Target の宛先は、Real-time Customer Data Platform の宛先で設定する必要があります。RTCDP のデフォルトの実稼働用サンドボックスのみがサポートされます。</li><li>Target との統合には、Experience Platform インスタンスと同じ IMS Org が必要です。</li></ul> |
 | オーディエンス共有サービスを介して、Real-time Customer Data Platform から Target および Audience Manager にストリーミングおよびバッチオーディエンスを共有 | <ul><li>この統合パターンは、サードパーティのデータやオーディエンスからの追加のエンリッチメントを Audience Manager で必要とする場合に利用できます。</li></ul> | <ul><li>Web／Mobile SDK は、Target へのストリーミングおよびバッチオーディエンスの共有には必要ありませんが、リアルタイムでのエッジセグメント評価を可能にするために必要です。</li><li>AT.js を使用する場合、ECID ID 名前空間に対するプロファイル統合のみがサポートされます。</li><li>Edge 上でカスタム ID 名前空間を検索する場合は、Web SDK／API デプロイメントが必要です。また、各 ID を ID マップで ID として設定する必要があります。</li><li>オーディエンス共有サービスを介したオーディエンス投影は、プロビジョニングする必要があります。</li><li>Target との統合には、Experience Platform インスタンスと同じ IMS Org が必要です。</li><li>デフォルトの実稼働用サンドボックスのオーディエンスのみが、オーディエンス共有コアサービスをサポートします。</li></ul> |
 
 ## リアルタイム、ストリーミングおよびバッチオーディエンスの Adobe Target への共有
@@ -64,25 +64,25 @@ ht-degree: 79%
 
 既知のお客様のパーソナライズ機能は、いくつかの実装方法でサポートされます。
 
-### 実装パターン 1 - [!DNL Edge Network] Web/Mobile SDK または [!DNL Edge Network] API （推奨アプローチ）
+### 実装パターン 1 - Web/Mobile SDK または [!DNL Edge Network] API の [!DNL Edge Network] 用（推奨アプローチ）
 
-* 使用， [!DNL Edge Network] Web/Mobile SDK を使用します。 リアルタイムのエッジセグメント化には、Web／Mobile SDK または Edge API 実装アプローチが必要です。
-* [Experience Platformの Web および Mobile SDK ブループリントを参照してください。](../../experience-platform/deployment/websdk.md) SDK ベースの実装の場合。
+* Web/Mobile SDK での [!DNL Edge Network] の使用。 リアルタイムのエッジセグメント化には、Web／Mobile SDK または Edge API 実装アプローチが必要です。
+* SDK ベースの実装については、[Experience Platformの web および Mobile SDK ブループリントを参照 ](../../experience-platform/deployment/websdk.md) してください。
 * Mobile SDK で使用する場合、[Adobe Journey Optimizer - Decisioning 拡張機能](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-journey-optimizer-decisioning)が Mobile SDK にインストールされている必要があります。
-* [を参照してください。 [!DNL Edge Network] サーバー API](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/overview.html?lang=ja) （Edge プロファイルを使用したAdobe Targetの API ベース実装の場合）。
+* [Edge プロファイルを使用したAdobe Targetの API ベースの実装については、 [!DNL Edge Network] Server API](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/overview.html?lang=ja) を参照してください。
 
 ### 実装パターン 2 - アプリケーション固有の SDK
 
 従来のアプリケーション固有の SDK（AT.js や AppMeasurement.js など）を使用。リアルタイムエッジセグメント評価は、この実装方法ではサポートされていません。ただし、この実装アプローチでは、Experience Platform ハブからのストリーミングおよびバッチオーディエンス共有がサポートされます。
 
-[Adobe Target Connector ドキュメントを参照してください。](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection)
-[アプリケーション固有の SDK ブループリントを参照してください](../../experience-platform/deployment/appsdk.md)
+[Adobe Target Connector ドキュメントを参照してください ](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection)
+[ アプリケーション固有の SDK ブループリントを参照 ](../../experience-platform/deployment/appsdk.md)
 
 ## 実装に関する考慮事項
 
 ID の前提条件
 
-* 前述ので概要を説明した実装パターン 1 を使用すると、任意のプライマリ ID を利用できます [!DNL Edge Network] と Web SDK。 最初のログインのパーソナライゼーションでは、パーソナライゼーションリクエストセットのプライマリ ID がReal-time Customer Data Platformからのプロファイルのプライマリ ID と一致する必要があります。
+* [!DNL Edge Network] および Web SDK で前述の実装パターン 1 を利用する場合は、任意のプライマリ ID を利用できます。 最初のログインのパーソナライゼーションでは、パーソナライゼーションリクエストセットのプライマリ ID がReal-time Customer Data Platformからのプロファイルのプライマリ ID と一致する必要があります。
 
 ## 関連ドキュメント
 

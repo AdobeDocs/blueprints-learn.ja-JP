@@ -1,6 +1,6 @@
 ---
 title: Adobe Experience Cloud アーキテクチャ図
-description: エンタープライズマーケティングアーキテクチャにExperience Cloudアプリケーション、アプリケーションサービス、Experience Platformがどのように適合するかを説明します。
+description: Experience Cloudアプリケーション、アプリケーションサービスおよびExperience Platformがエンタープライズマーケティングアーキテクチャにどのように適合するかについて説明します。
 solution: Experience Cloud, Campaign, Analytics, Target, Audience Manager, Commerce, Marketo Engage, Advertising, Experience Manager, Data Collection, Customer Journey Analytics, Journey Orchestration, Real-Time Customer Data Platform
 kt: 7200
 thumbnail: null
@@ -14,7 +14,7 @@ ht-degree: 73%
 
 # Adobe Experience Cloud アーキテクチャ図
 
-次の図は、Experience Cloudアプリケーション、アプリケーションサービス、Experience Platformが企業のマーケティングアーキテクチャにどのように適合するかを示しています。
+次の図は、Experience Cloudアプリケーション、アプリケーションサービスおよびExperience Platformがエンタープライズマーケティングアーキテクチャにどのように適合するかを示しています。
 
 ## Adobe Experience Cloud マーケテクチャ
 
@@ -23,7 +23,7 @@ ht-degree: 73%
 <img src="assets/AEC.jpg" alt="Experience Cloud の概要" style="width:95%; border:1px solid #4a4a4a; margin-bottom: 15px;" class="modal-image" />
 
 
-## データとインサイト、コンテンツとコマース、エクスペリエンス配信の統合アーキテクチャ
+## データとインサイト、コンテンツとコマースおよびエクスペリエンス配信の統合アーキテクチャ
 
 以下のアーキテクチャ図に、Adobe Experience Cloud の様々なコンポーネントがどのように接続および統合され、データ、コンテンツ、およびエクスペリエンス配信にわたる大規模なパーソナライズ機能を実現するかを示します。
 

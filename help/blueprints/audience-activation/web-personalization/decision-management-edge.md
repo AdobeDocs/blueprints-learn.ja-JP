@@ -12,6 +12,6 @@ ht-degree: 64%
 
 # Journey Optimizer - エッジでの意思決定管理のブループリント
 
-Adobe Journey Optimizer [!UICONTROL 決定管理] を使用して、web サイト、モバイルアプリ、キオスク、他の顧客タッチポイントをまたいだインバウンドチャネルでのオファーをパーソナライズおよび配信できます。
+Adobe Journey Optimizer[!UICONTROL  意思決定管理 ] を使用すると、web サイト、モバイルアプリ、キオスクなどのインバウンドチャネルのほか、お客様のその他のタッチポイントにまたがってオファーをパーソナライズして配信できます。
 
 意思決定管理を使用した web およびモバイルパーソナライズ機能のブループリントは、Customer Journey 意思決定管理ブループリントの節にあります。[ここをクリック](../../customer-journeys/decision_management/decision-management-edge.md)

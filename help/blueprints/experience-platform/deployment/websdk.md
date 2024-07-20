@@ -1,6 +1,6 @@
 ---
-title: Web/モバイル SDK, [!DNL Edge Network] デプロイメントアーキテクチャの図
-description: このブループリントは、Experience PlatformWeb および Mobile SDK を使用したアーキテクチャと取り込みを示します。 [!DNL Edge Network]
+title: Web/Mobile SDK、デプロイメ  [!DNL Edge Network]  トのアーキテクチャ図
+description: このブループリントは、Experience PlatformWeb および Mobile SDK と  [!DNL Edge Network] を通じたアーキテクチャと取り込みを示しています。
 solution: Experience Platform,Data Collection
 kt: null
 thumbnail: null
@@ -13,13 +13,13 @@ ht-degree: 69%
 ---
 
 
-# Experience PlatformWeb SDK &amp; [!DNL Edge Network] アーキテクチャ図
+# Experience Platform Web SDK および [!DNL Edge Network] アーキテクチャの図
 
-Web およびモバイル SDK の概要と詳細、および [!DNL Edge Network] Server API については、以下を参照してください。
+Web、Mobile SDK、[!DNL Edge Network] Server API の概要と詳細については、次を参照してください。
 
 * [Web SDK の概要](https://experienceleague.adobe.com/docs/web-sdk.html?lang=ja)
 * [Mobile SDK の概要](https://developer.adobe.com/client-sdks/documentation/)
-* [[!DNL Edge Network] サーバー API](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/overview.html?lang=ja)
+* [[!DNL Edge Network]  サーバー API](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/overview.html?lang=ja)
 
 Web SDK でサポートされるアプリケーション機能の詳細な概要については、次のドキュメントを参照してください。
 
@@ -32,7 +32,7 @@ Web SDK でサポートされるアプリケーション機能の詳細な概要
 * [Target](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/adobe-target/target-overview.html?lang=ja)
 * [Analytics for Target](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/adobe-target/a4t/overview.html?lang=ja)
 
-## Experience PlatformWeb/Mobile SDK または [!DNL Edge Network] サーバー API のデプロイメント
+## Experience Platform Web/Mobile SDK または [!DNL Edge Network] Server API のデプロイメント
 
 次のアーキテクチャ図は、Experience Platform Web SDK を使用したデプロイメントパスとデータ収集を示しています。
 

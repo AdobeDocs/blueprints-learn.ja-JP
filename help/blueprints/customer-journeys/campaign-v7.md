@@ -1,6 +1,6 @@
 ---
 title: Campaign v7 ブループリント
-description: バッチベースのメッセージングプログラム、オンボーディングおよびリマーケティングキャンペーン、ダイレクトメール広告、シンプルなトランザクションメッセージの Campaign v7 ブループリントについて説明します。
+description: バッチベースのメッセージプログラム、オンボーディングおよびリマーケティングキャンペーン、ダイレクトメール広告、シンプルトランザクションメッセージのための Campaign v7 ブループリントについて説明します。
 solution: Campaign,Campaign Classic v7
 exl-id: 71c808f5-59e6-4f49-a6ba-581ed508bc04
 source-git-commit: 60a7785ea0ec4ee83fd9a1e843f0b84fc4cb1150
@@ -36,7 +36,7 @@ Adobe Campaign v7 は、電子メールやダイレクトメールなどの従�
 
 ## 前提条件
 
-以下の前提条件を確認します。
+以下の前提条件を確認してください。
 
 ### アプリケーションサーバーおよびリアルタイムメッセージングサーバー
 
@@ -116,7 +116,7 @@ Adobe Campaign v7 は、電子メールやダイレクトメールなどの従�
 
 ## 実装手順
 
-詳しくは、 [はじめに](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/about-adobe-campaign-classic.html?lang=ja) (Adobe Campaign v7 の実装用 )
+Adobe Campaign v7 の実装については、[ はじめる前に ](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/about-adobe-campaign-classic.html?lang=ja) を参照してください。
 
 
 ## 関連ドキュメント

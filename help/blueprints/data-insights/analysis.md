@@ -1,6 +1,6 @@
 ---
 title: データ分析とインテリジェンスブループリント
-description: 使用Adobe [!DNL Experience Platform] (AEM) を使用して、データレイクに存在するデータの調査クエリと分析を実行します。
+description: Adobe [!DNL Experience Platform]  （AEM）を使用して、データレイク内のデータに関する探索的クエリと分析を実行します。
 solution: Experience Platform
 kt: 7207
 thumbnail: null
@@ -12,13 +12,13 @@ ht-degree: 59%
 
 ---
 
-# データ分析とインテリジェンスブループリント
+# データ分析とインテリジェンスのブループリント
 
-データ分析とインテリジェンスは、 [!DNL Experience Platform] データレイクに存在するデータの調査クエリと分析を実行する。
+データ分析とインテリジェンスには、データレイク内に存在するデータの探索的クエリと分析を実行する [!DNL Experience Platform] ークフロー内の機能が含まれます。
 
-[!DNL Experience Platform]&#39;s [!UICONTROL クエリサービス] では、データに対して SQL クエリを実行できます。
+[!DNL Experience Platform] の [!UICONTROL  クエリサービス ] を使用すると、データに対して SQL クエリを実行できます。
 
-[!DNL Experience Platform] では、サードパーティの SQL クライアント、インターフェイス、およびBusiness Intelligence(BI) ツールとの接続を許可し、内のデータに直接接続、アクセス、クエリを実行します [!DNL Experience Platform]、 [!DNL PostgreSQL] プロトコルを使用します。
+[!DNL Experience Platform] を使用すると、サードパーティの SQL クライアント、インターフェイス、およびBusiness Intelligence（BI）ツールとの接続が、[!DNL PostgreSQL] プロトコルを使用して、[!DNL Experience Platform] 内のデータに直接接続し、アクセスし、クエリを実行できます。
 
 ## ユースケース
 
@@ -44,11 +44,11 @@ ht-degree: 59%
 
 1. データを取り込むために[スキーマを作成](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2021.1.xdm&amp;lang=ja)します。
 1. データを取り込むために[データセットを作成](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/create-datasets-and-ingest-data.html?lang=ja)します。
-1. [データの取り込み](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2020.1.dataingestion&amp;lang=ja) into [!DNL Experience Platform].
+1. [ データの [!DNL Experience Platform] への取り込み ](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2020.1.dataingestion&amp;lang=ja)。
 1. データが[[!UICONTROL クエリサービス]](https://experienceleague.adobe.com/docs/platform-learn/tutorials/queries/explore-data.html?lang=ja)で使用可能であることを確認します。
 1. [ビジュアライゼーション、データクエリおよび調査用に、ビジネスインテリジェンスツールおよび SQL クライアントを[!UICONTROL クエリサービス]](https://experienceleague.adobe.com/docs/experience-platform/query/clients/overview.html?lang=ja)に接続します。
 
 ## 関連ドキュメント
 
-* [Adobe [!DNL Experience Platform] インテリジェンス製品の説明](https://helpx.adobe.com/jp/legal/product-descriptions/adobe-experience-platform-intelligence---product-description.html)
+* [Adobe [!DNL Experience Platform]  インテリジェンス製品の説明 ](https://helpx.adobe.com/jp/legal/product-descriptions/adobe-experience-platform-intelligence---product-description.html)
 * [[!UICONTROL クエリサービス]ドキュメント](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=ja)

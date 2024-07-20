@@ -35,7 +35,7 @@ ht-degree: 76%
 
 以下の図に、Experience Platform のリアルタイム顧客プロファイルのコアコンポーネントの概要を示します。
 
-プロファイル、セグメント化、アクティベーションに関連するその他のドキュメントについては、 [RTCDP 概要ドキュメント](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/home) および [リアルタイム顧客プロファイルの概要](https://experienceleague.adobe.com/en/docs/experience-platform/profile/home) ページ。
+プロファイル、セグメント化、アクティベーションに関する追加ドキュメントについては、[RTCDP 概要ドキュメント ](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/home) および [ リアルタイム顧客プロファイルの概要 ](https://experienceleague.adobe.com/en/docs/experience-platform/profile/home) ページを参照してください。
 
 <img src="assets/profile_architecture.jpg" alt="リアルタイム顧客プロファイルの参照アーキテクチャ" style="border:1px solid #4a4a4a" width="90%"  class="modal-image"/>
 

@@ -1,6 +1,6 @@
 ---
-title: Experience Platform(AEP) とアプリケーションのアーキテクチャ図
-description: Adobe Experience Platform(AEP) と他のアプリケーションアプリケーションおよびExperience Cloudサービスとの関連を示すアーキテクチャ図を表示します。
+title: Experience Platform（AEP）とアプリケーションのアーキテクチャ図
+description: Adobe Experience Platform（AEP）と他のExperience Cloudアプリケーションおよびアプリケーションサービスとの関係を示すアーキテクチャ図の表示
 solution: Experience Platform, Campaign, Analytics, Target, Customer Journey Analytics, Journey Orchestration, Real-Time Customer Data Platform
 kt: 7199
 thumbnail: null
@@ -14,11 +14,11 @@ ht-degree: 91%
 
 # Adobe Experience Platformとアプリケーションのアーキテクチャ図
 
-次のアーキテクチャ図は、Experience Platform(AEP) が他のアプリケーションアプリケーションおよびExperience Cloudサービスとどのように関連しているかを示しています。
+これらのアーキテクチャ図は、Experience Platform（AEP）と他のExperience Cloudアプリケーションおよびアプリケーションサービスとの関係を示しています。
 
 >[!MORELIKETHIS]
 >
->[Experience Cloudアプリケーション統合の統合設定](https://experienceleague.adobe.com/docs/integrations-learn/experience-cloud/overview.html?lang=en).
+>[Experience Cloudアプリケーション統合のための統合設定 ](https://experienceleague.adobe.com/docs/integrations-learn/experience-cloud/overview.html?lang=en).
 
 
 ## アーキテクチャ図
@@ -31,7 +31,7 @@ ht-degree: 91%
 
 <img src="assets/aep+apps_overview.svg" alt="Experience Platform およびアプリケーション" style="border:1px solid #4a4a4a; width:90%; margin-bottom: 15px;" class="modal-image" />
 
-## アーキテクチャの詳細図
+## 詳細なアーキテクチャ図
 
 <img src="assets/aep+apps_detailed.svg" alt="Experience Platform およびアプリケーション" style="border:1px solid #4a4a4a; width:90%; margin-bottom: 15px;" class="modal-image" />
 

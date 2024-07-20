@@ -48,7 +48,7 @@ Experience Platform と Experience Cloud アプリケーションの統合に関
 
 ## ガードレール
 
-詳しくは、 [「オーディエンスとプロファイルのアクティベーションの概要」ページのガードレール](overview.md) そして [デプロイメントガードレール](../experience-platform/deployment/guardrails.md) ページに貼り付けます。
+[ オーディエンスとプロファイルのアクティベーションの概要ページのガードレール ](overview.md) および [ デプロイメントガードレール ](../experience-platform/deployment/guardrails.md) ページを参照してください。
 
 ## 実装に関する考慮事項
 

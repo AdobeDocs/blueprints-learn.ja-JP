@@ -10,14 +10,14 @@ ht-degree: 72%
 
 ---
 
-# [!DNL Real-Time CDP] Adobe [!DNL Campaign] v8 統合パターン
+# Adobe[!DNL Campaign] v8 統合パターンを使用した [!DNL Real-Time CDP] ール
 
-Adobe [!DNL Experience Platform] およびそのリアルタイム顧客プロファイルと一元化されたセグメント化ツールをAdobe Campaignと共に使用して、パーソナライズされた会話を提供できます。
+では、Adobe[!DNL Experience Platform] ールとそのリアルタイム顧客プロファイルおよび一元化されたセグメンテーションツールをAdobe Campaignとともに利用して、パーソナライズされた会話を提供する方法を紹介します。
 
 ## アプリケーション
 
 * アドビ [!DNL Experience Platform Real-Time CDP]
-* Adobe [!DNL Campaign] v8
+* Adobe[!DNL Campaign] v8
 
 ## アーキテクチャ
 
@@ -28,10 +28,10 @@ Adobe [!DNL Experience Platform] およびそのリアルタイム顧客プロ�
 ## 前提条件
 
 * 顧客は、有効な IMS 組織を持つ Experience Cloud のプロビジョニングが必要です
-* Adobe Experience Platformと [!DNL Campaign] は、単一のログイン URL 用に同じ IMS Org でプロビジョニングすることをお勧めします
-* 顧客は、の V8 インスタンスをプロビジョニングする必要があります。 [!DNL Campaign]
+* Adobe Experience Platformと [!DNL Campaign] は、1 つのログイン URL 用に同じ IMS 組織でプロビジョニングすることをお勧めします
+* 顧客は [!DNL Campaign] の V8 インスタンスをプロビジョニングする必要があります
 * 顧客は、RTCDP、ソース、宛先に対する資格があり、アクセス権を持っている必要があります。
-* Adobe [!DNL Campaign] 製品コンテキストが存在する必要があります
+* 製品コンテキスト [!DNL Campaign]Adobeが存在する必要があります
 <br>
 
 ## 実装手順

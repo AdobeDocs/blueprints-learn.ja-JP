@@ -40,7 +40,7 @@ Adobe Experience Platform
 
 [Journey Optimizer ガードレール製品リンク](https://experienceleague.adobe.com/docs/journeys/using/starting-with-journeys/limitations.html?lang=ja)
 
-[ガードレールとエンドツーエンドの待ち時間のガイダンス](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/architecture-overview/deployment/guardrails.html)
+[ ガードレールとエンドツーエンドの待ち時間のガイダンス ](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/architecture-overview/deployment/guardrails.html)
 
 
 ## 実装手順
@@ -78,7 +78,7 @@ Adobe Experience Platform
 1. Adobe タグを活用し、次の拡張子を持つモバイルプロパティを作成します。
    * Adobe Journey Optimizer
    * Adobe Experience Platform Edge Network
-   * の ID [!DNL Edge Network]
+   * [!DNL Edge Network] の ID
    * モバイルコア
 1. モバイルアプリデプロイメント用と web デプロイメント用の専用のデータストリームがあることを確認
 1. 詳しくは、[Adobe Journey Optimizer Mobile ガイド](https://developer.adobe.com/client-sdks/documentation/adobe-journey-optimizer/)を参照

@@ -1,5 +1,5 @@
 ---
-title: Experience Platformデータフローのアーキテクチャ図
+title: Experience Platformデータフローアーキテクチャ図
 description: このアーキテクチャ図に、データがどのように Adobe Experience Platform に入り、出て行くのかを示します。
 solution: Data Collection
 kt: 7198
@@ -20,7 +20,7 @@ ht-degree: 90%
 
 <img src="assets/aep_data_flow.svg" alt="Experience Platform データフロー" style="border:1px solid #4a4a4a; width:90%; margin-bottom: 15px;" class="modal-image" />
 
-## データの入出力パターン
+## データの入力パターンと出力パターン
 
 すべてのデータ取り込み、収集、取り込みの各パターンの詳細なリストについては、[データ準備と取り込みのブループリント](../data-ingestion/ingestion.md)を参照してください。
 

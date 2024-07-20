@@ -1,6 +1,6 @@
 ---
-title: アパレル業界 —Experience Cloudアプリケーションを使用したアクティベーション
-description: 複数のブループリントを使用して、リアルタイムマーケティング、クロスチャネルアクティベーション、クロスチャネル分析を有効にしました。
+title: アパレル業界 – Experience Cloudアプリケーションによるアクティベーション
+description: 複数のブループリントを使用して、リアルタイムマーケティング、クロスチャネルアクティベーションおよびクロスチャネル分析を有効にしました。
 solution: Real-Time Customer Data Platform, Customer Journey Analytics, Journey Orchestration
 kt: 9487
 exl-id: f1a3e785-c804-43bd-90de-da4359bdd810
