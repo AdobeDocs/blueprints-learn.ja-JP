@@ -4,7 +4,7 @@ description: ガードレールは、Adobe Experience Platform およびアプ�
 solution: Customer Journey Analytics, Journey Orchestration, Real-Time Customer Data Platform
 thumbnail: null
 exl-id: b64cf3e4-cc5d-4984-8a0f-4736d432b8e1
-source-git-commit: 60a7785ea0ec4ee83fd9a1e843f0b84fc4cb1150
+source-git-commit: 164793e15315d64cf38cb14928eac10cf6ae5c35
 workflow-type: tm+mt
 source-wordcount: '680'
 ht-degree: 15%
@@ -46,7 +46,7 @@ ht-degree: 15%
 
 次の図は、Experience Platformとアプリケーションでユースケースを構築する際に注意する必要がある、主要なエッジとハブで観測された待ち時間を示しています。
 
-![Experience Platform [!DNL Edge Network] とハブ プライマリで観察された待ち時間。](/help/blueprints/experience-platform/deployment/assets/aep_edge_hub_latency.svg "Experience PlatformEdge Networkとハブのプライマリ監視待ち時間 "){width="1000" zoomable="yes"}
+![Experience Platform [!DNL Edge Network] とハブ プライマリで観察された待ち時間。](/help/blueprints/experience-platform/deployment/assets/aep_edge_hub_latency_v1.svg "Experience PlatformEdge Networkとハブのプライマリ監視待ち時間 "){width="1000" zoomable="yes"}
 
 ### データ取り込み {#data-ingestion}
 
