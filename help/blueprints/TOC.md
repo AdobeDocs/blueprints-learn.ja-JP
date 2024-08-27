@@ -5,10 +5,10 @@ user-guide-description: ブループリントは、既存のビジネス上の�
 product: adobe experience platform
 mini-toc-levels: 3
 role: Architect, Developer, User
-source-git-commit: 62dc3dff69bbf88b025373b4fdc893cc77b73594
+source-git-commit: 5095a3aed75c727f0e28aaa07587994a23020448
 workflow-type: tm+mt
-source-wordcount: '240'
-ht-degree: 56%
+source-wordcount: '243'
+ht-degree: 55%
 
 ---
 
@@ -48,6 +48,7 @@ ht-degree: 56%
 + B2B アクティベーションとマーケティング{#b2b-activation}
    + [概要](/help/blueprints/b2b/overview.md)
    + [B2B 活性化](/help/blueprints/b2b/b2bactivation.md)
+   + [B2B アカウントの有効化](/help/blueprints/b2b/b2b-account-activation.md)
    + Marketo Engage と Workfront 統合ブループリント{#marketo-engage-and-workfront-integration-blueprint}
       + [概要](/help/blueprints/b2b/marketo-engage-and-workfront-integration-blueprint/overview.md)
       + [取り込みと作成](/help/blueprints/b2b/marketo-engage-and-workfront-integration-blueprint/intake-and-create.md)
