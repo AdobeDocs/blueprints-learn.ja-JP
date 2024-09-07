@@ -4,9 +4,9 @@ description: ガードレールは、Adobe Experience Platform およびアプ�
 solution: Customer Journey Analytics, Journey Orchestration, Real-Time Customer Data Platform
 thumbnail: null
 exl-id: b64cf3e4-cc5d-4984-8a0f-4736d432b8e1
-source-git-commit: 7e37677280c27302e650a96786035169573d9709
+source-git-commit: 8ab82995ad7762f8ed6f706aa4c4fe59d47abb20
 workflow-type: tm+mt
-source-wordcount: '603'
+source-wordcount: '612'
 ht-degree: 10%
 
 ---
@@ -29,7 +29,7 @@ ht-degree: 10%
 
 >[!NOTE]
 >
-> 待ち時間が厳密なユースケースやパフォーマンスニーズがある場合は、Adobeは詳細についてAdobeアカウントチームや実装パートナーと話し合うことをお勧めします。 顧客の設定は、データ取り込みパターン、セグメントルール、アクティベーションチャネルによって異なる場合があります。 起動する前にユースケースをテストおよびレビューし、動作を理解することが重要です。
+> 待ち時間が厳密なユースケースやパフォーマンスニーズがある場合は、Adobeは詳細についてAdobeアカウントチームや実装パートナーと話し合うことをお勧めします。 各顧客の設定は、データ取り込みパターン、プロファイル数とリッチネス、セグメントルール、アクティベーションチャネルによって異なる場合があります。 したがって、ユースケースを構築およびテストして、そのパフォーマンスを最適化し、期待されるパフォーマンス特性を完全に理解することが重要です。
 
 ## Adobe Experience Platform およびアプリケーションのガードレール参照ドキュメント
 
