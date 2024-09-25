@@ -5,9 +5,9 @@ solution: Customer Journey Analytics
 kt: null
 thumbnail: null
 exl-id: 9e1ba723-63f2-4622-ba67-f2a315c3ba0c
-source-git-commit: 70e7bfb3a6d7bad858bd72b6329602bdfb822505
+source-git-commit: 9fe44d93dcc05711c77ce1325b6549bb6c27a860
 workflow-type: tm+mt
-source-wordcount: '358'
+source-wordcount: '305'
 ht-degree: 94%
 
 ---
@@ -34,19 +34,8 @@ Customer Journey Analytics から Real-time Customer Data Platform へのオー�
 
 * CJA が送信した RTCDP に対応するプロファイルが存在しない場合、新しいプロファイルが作成されますか、それとも既に存在するプロファイルの CJA からのみ視聴者が記録されますか。はい、新しいプロファイルが作成されます。その結果、RTCDP 実装が既知の顧客のみを対象としている場合、既知の ID を持つプロファイルのみをフィルタリングするように CJA オーディエンスルールを作成する必要があります。これにより、RTCDP プロファイルカウントが、望まれていない場合には、匿名プロファイルから増加しないことが保証されます。
 
-* CJA は、オーディエンスデータをパイプラインイベントとして送信しますか、それともデータレイクにも送信されるフラットファイルですか。CJA オーディエンスは、パイプラインを介して RTCDP プロファイルサービスにストリーミングされますが、データもデータセットとしてデータレイクに保存されます。
-
 * CJA はどの ID を送信しますか。CJA は、CJA の設定時に「ユーザー ID」として設定された ID を介して送信します。
 
 * 何がプライマリ ID として設定されますか。CJA をプライマリ「人」ID として設定した際にユーザーが選択した ID です。
 
 * ID サービスは CJA メッセージも処理しますか。すなわち、CJA は、オーディエンス共有を通じてプロファイル ID グラフに ID を追加することができますか。いいえ。ID サービスは CJA メッセージを処理しません。
-
-## 関連するブログ投稿
-
-* [[!DNL Blueprint for Multi-Channel Orchestration in Adobe Experience Platform]](https://medium.com/adobetech/blueprint-for-multi-channel-orchestration-in-adobe-experience-platform-c68317e94184)
-* [[!DNL Leveraging External Data Platforms in Adobe Experience Platform Journey Orchestration]](https://medium.com/adobetech/leveraging-external-data-platforms-in-adobe-experience-platform-journey-orchestration-54fc6134fe17)
-* [[!DNL Event-Based Triggering on Adobe Experience Platform Orchestration Service using Apache Airflow]](https://medium.com/adobetech/event-based-triggering-on-adobe-experience-platform-orchestration-service-using-apache-airflow-8607b28251f1)
-* [[!DNL Adobe Campaign Classic Integration with Journey Orchestration]](https://medium.com/adobetech/adobe-campaign-classic-integration-with-journey-orchestration-ae577653281)
-* [[!DNL Demonstrating the Power of Adobe's New Journey Orchestration Service to Build Personalized Omnichannel Experiences in Real-Time]](https://medium.com/adobetech/demonstrating-the-power-of-adobes-new-journey-orchestration-service-to-build-personalized-aa60d88cd34)
-* [[!DNL Journey Orchestration in an Omnichannel World]](https://medium.com/adobetech/journey-orchestration-in-an-omnichannel-world-3a2d32d556d9)
