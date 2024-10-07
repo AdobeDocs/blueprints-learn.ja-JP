@@ -2,9 +2,9 @@
 title: 購買グループベースのマーケティングおよびジャーニー管理のブループリント
 description: Adobe Journey Optimizer B2B editionで、リードを購入グループに選定するジャーニーを作成、デザイン、構築する方法を説明します。
 solution: Journey Optimizer B2B Edition
-source-git-commit: 5035c869aa5181fff66cbc20b03922f82832f126
+source-git-commit: b514d7a639d4d624875552c892ae266fdfe089f3
 workflow-type: tm+mt
-source-wordcount: '2129'
+source-wordcount: '2118'
 ht-degree: 0%
 
 ---
@@ -39,11 +39,11 @@ Journey Optimizer B2B editionが提供する強化された B2B 機能により�
 
 ## アカウントベースドマーケティング
 
-一般的なユースケースであり、このブループリントで重点的に取り組んでいるのは、アカウントベースのマーケティングイニシアチブです。作成した購入グループが役割とソリューションの関心に関連付けられている場合に、そのグループにリードが割り当てられるポイントを調査します。
+一般的なユースケースと、このブループリントでの重点事項は、アカウントベースのマーケティングイニシアチブです。 このユースケースでは、作成した購入グループが役割とソリューションの関心に関連付けられている場合に、その購入グループにリードが入力されるポイントを調査します。
 
 個人をジャーニーに導くと、フォーム、CRM 同期、LinkedInのアクティベーションを通じて、リード（購入グループワークフロー）に関する詳細が収集されます。
 
-リードがソリューションの関心を明確に示す場合は、ビジネスレンズによって定義されたビジネスイベントを示します。 この時点で、このリードは商品に本当に興味を持っており、Journey Optimizer B2B editionでは、ロールテンプレート内のそのソリューションの購入グループ（インフルエンサー、意思決定者、チャンピオン、スポンサーなど）に関連付けられているとビジネスは確信しています。
+リードがソリューションの関心を明確に示す場合は、ビジネスレンズによって定義されたビジネスイベントを示します。 この時点で、ビジネスはこのリードが製品に本当に興味を持っていると確信しています。 Journey Optimizer B2B editionでは、リードは、ロールテンプレート（インフルエンサー、意思決定者、チャンピオン、スポンサーなど）のそのソリューションの購入グループに関連付けられています。
 
 次の図に示すように、フォームまたはLinkedInのアクティベーションを通じて詳細を収集し、チャットボットとのインタラクションが発生した場合のソリューションインテントを確認できます。
 
@@ -85,7 +85,7 @@ _このソリューションを導入するには、「アカウント_ およ�
 
 プロファイルの豊富な関係をサポートし、イベントとプロファイルをアカウントスキーマに結び付ける `sourceKey` ールを通じてアカウントの観点を含むために、スキーマには B2B データ要素が具体的に使用されます。 スキーマは、組織の要件、および収集されプロファイルされたデータを表すものです。 これらのニーズを満たすために、B2B スキーマは柔軟で、必要な B2B 要素の拡張機能です。
 
-組織のデータスキーマを設計する際には、[RTCDP B2B スキーマのドキュメント ](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/tutorials/relationship-b2b) の最初の図で、ERD のメインエンティティを表し、高レベルのエンティティにラベルを付けるのがベストプラクティスです。 このプロセスは、各スキーマで定義する必要がある必須のデータ要素を理解するのに非常に役立ちます。
+組織のデータスキーマを設計する際には、ERD のメインエンティティを表現し、高レベルのエンティティにラベルを付けることがベストプラクティスです。 （[RTCDP B2B スキーマのドキュメントの最初の図を参照してください ](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/tutorials/relationship-b2b)）。 このプロセスは、各スキーマで定義する必要がある必須のデータ要素を理解するのに非常に役立ちます。
 
 この段階では、エクスペリエンスイベントはまだジャーニーに影響を与えることができません。 エクスペリエンスイベントスキーマに加えて、ユーザーアクティビティに基づく主要な決定を表すプロパティをアカウントに追加することをお勧めします。 これらのプロパティは、ジャーニーデザイナーの分割パス要素に使用されます。
 
@@ -97,7 +97,7 @@ _このソリューションを導入するには、「アカウント_ およ�
 
 アカウントデータ要素を強化するには、Marketo Engageとその B2B データを使用して、RTCDP とJourney Optimizer B2B editionのアカウントビューを強化します。 Marketo Engage Source コネクタを設定し、Marketo Engageデータを RTCDP スキーマ属性にマッピングすると、データがMarketo Engageから RTCDP に送られ、指定されている場合はプロファイルに送られます。
 
-コネクタ設定および前の手順で定義したスキーマへの必須フィールド マッピングについて詳しくは ](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/adobe-applications/marketo/marketo)[Marketo Engageコネクタのドキュメント } を参照してください。
+コネクタ設定およびスキーマへの必須フィールドマッピングについて詳しくは、[Marketo Engageコネクタのドキュメント ](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/adobe-applications/marketo/marketo) を参照してください。
 
 ### ガードレール
 
@@ -118,7 +118,7 @@ RTCDP ガードレールについて詳しくは ](https://experienceleague.adob
 
 ## 実装
 
-次の手順では、Journey Optimizer B2B edition インスタンスで購入グループ機能を有効にする際のガイダンスを示します。また、ロールテンプレートがない購入グループに重点を置き、アカウントベースの拡張をサポートするためにアクティベーションを追加します。
+次の手順では、Journey Optimizer B2B edition インスタンスで購入グループを有効にする方法について説明します。これには、不足している購入グループロールテンプレートを中心にアカウントベースの拡張をサポートするための Audience Activation が含まれます。
 
 ### 前提条件となる手順
 
@@ -131,7 +131,7 @@ RTCDP ガードレールについて詳しくは ](https://experienceleague.adob
    * [RTCDP B2B スキーマ作成スクリプト ](https://github.com/adobe/experience-platform-postman-samples/tree/master/Postman%20Collections/CDP%20Namespaces%20and%20Schemas%20Utility) を使用して、初期スキーマを生成します
    * 組織のニーズに合わせてスキーマを完成させるために生成されたスキーマに、ユースケース固有のフィールドを追加します。
 
-   この段階では、Marketo Engageと RTCDP 間の接続が設定され、アカウントセグメントのデータセットに入力するアカウントおよび人物データを受け入れるスキーマ構造が定義されています。 次の手順では、RTCDP をMarketo EngageおよびJourney Optimizer B2B editionと接続します。
+   この段階では、Marketo Engageと RTCDP の間のつながりがあります。そして、アカウントセグメントのデータセットに入力するアカウントおよび人物データを受け入れるスキーマ構造が定義されています。 次の手順では、RTCDP をMarketo EngageおよびJourney Optimizer B2B editionと接続します。
 
 1. Marketo Engageの XDM 構造へのマッピングを含む、Marketo Engageコネクタを設定します。
 
@@ -141,7 +141,7 @@ RTCDP ガードレールについて詳しくは ](https://experienceleague.adob
 
 1. Journey Optimizer B2B editionまたは RTCDP でアカウントオーディエンスを作成します。
 
-   Customer → Audiences →の参照ページで「すべてのオーディエンスをスケジュールする」オプションを有効にして、アカウントオーディエンスを有効にします。 （これが機能しない場合は、アカウントオーディエンスを作成できるように、顧客プロファイルセグメントを作成する必要があります）
+   Customer → Audiences →の参照ページで「すべてのオーディエンスをスケジュールする」オプションを有効にして、アカウントオーディエンスを有効にします。 （これが機能しない場合は、アカウントオーディエンスを作成できるように、顧客プロファイルセグメントを作成する必要があります）。
 
    セグメントを作成するには、[ アカウントオーディエンスドキュメント ](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/account-audiences/account-audience-overview) の手順に従います。 アカウントオーディエンスのキーとして特定したデータフィールドでのセグメントビルダーの使用は、オーディエンスを定義する際の主要なアクティビティになります。
 
