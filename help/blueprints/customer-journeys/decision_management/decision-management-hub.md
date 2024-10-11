@@ -3,10 +3,10 @@ title: ハブでの意思決定管理のブループリント
 description: キオスク、エージェント支援エクスペリエンス、電子メールやその他のアウトバウンド配信など、様々なチャネルで消費者にパーソナライズされたオファーを配信します。
 solution: Experience Platform, Journey Optimizer
 exl-id: 5a386e18-bbac-4216-a35f-0a5016785e4a
-source-git-commit: 60a7785ea0ec4ee83fd9a1e843f0b84fc4cb1150
+source-git-commit: f6c4a0f39acdc177ac23c4314d2f50f793cbf270
 workflow-type: tm+mt
-source-wordcount: '831'
-ht-degree: 84%
+source-wordcount: '656'
+ht-degree: 80%
 
 ---
 
@@ -39,23 +39,9 @@ Journey Optimizer は、あらゆるタッチポイントにわたり、適切�
 >
 >追加情報およびコンテキストのためにプロファイルへのアクセスを必要とするオファーおよびジャーニーのユースケース用。 決定時に使用できるように、ハブ上のプロファイルにデータを取り込む際の関連する待ち時間を考慮することが重要です。 コンテキストがストリーミングまたはプロファイルに取り込まれ、オファーまたはジャーニーがオファーの決定から数秒または数分以内にそのコンテキストを使用可能にする必要がある場合、これらのシナリオはEdgeの意思決定管理で提供するのが最適です。
 
-<br>
-
 ## アーキテクチャ
 
 <img src="../assets/offers_hub.svg" alt="エッジでの意思決定管理のブループリント参照アーキテクチャ" style="width:100%; border:1px solid #4a4a4a" class="modal-image" />
-
-<br>
-
-## 前提条件
-
-Adobe Experience Platform
-
-* Journey Optimizer のデータソースを設定する前に、スキーマとデータセットをシステムに設定する必要があります
-* エクスペリエンスイベントクラスベースのスキーマの場合、ルールベースのイベントではないイベントをトリガーする場合に、「オーケストレーション eventID」フィールドグループを追加します
-* 個別のプロファイルクラスベースのスキーマの場合、「Profile test details」フィールドグループを追加して、Journey Optimizer で使用するテストプロファイルを読み込めるようにします
-
-<br>
 
 ## ガードレール
 
@@ -70,30 +56,6 @@ Adobe Experience Platform
 * サーバー API ベースの意思決定管理の実装の場合、[判定 API](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/api-reference/offer-delivery/decisioning-vs-edge-apis.html?lang=ja) を使用します。
 * メッセージ配信アプリケーションにオファーを一括で配信するバッチベースの判定を実装するには、 [バッチ判定 API](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/api-reference/offer-delivery/batch-decisioning-api.html?lang=ja) を使用します。
 * エッジベースのリアルタイムエクスペリエンスの場合は、[エッジブループリントの意思決定管理](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer/decision-management/decision-management-edge.html?lang=ja)で概説されているように、Web／Mobile SDK またはエッジ判定 API を使用します。
-<br>
-
-## 実装手順
-
-### Adobe Experience Platform
-
-#### スキーマ／データセット
-
-1. 顧客提供データに基づき、Experience Platform で[個人プロファイル、エクスペリエンスイベントおよびマルチエンティティスキーマを設定します](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2021.1.xdm&amp;lang=ja)。
-1. Experience Platform で取り込む[データセットを作成します。](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/create-datasets-and-ingest-data.html?lang=ja)
-1. ガバナンス用のデータセットに、Experience Platform で[データ使用ラベルを追加します。](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-governance/classify-data-using-governance-labels.html?lang=ja)
-1. 宛先のガバナンスを実施する[ポリシーを作成します。](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-governance/create-data-usage-policies.html?lang=ja)
-
-#### プロファイル／ID
-
-1. [任意の顧客専用の名前空間を作成します。](https://experienceleague.adobe.com/docs/platform-learn/tutorials/identities/label-ingest-and-verify-identity-data.html?lang=ja)
-1. [スキーマに ID を追加します](https://experienceleague.adobe.com/docs/platform-learn/tutorials/identities/label-ingest-and-verify-identity-data.html?lang=ja)。
-1. [プロファイル用のスキーマおよびデータセットを有効にします](https://experienceleague.adobe.com/docs/platform-learn/tutorials/profiles/bring-data-into-the-real-time-customer-profile.html?lang=ja)。
-1. [!UICONTROL リアルタイム顧客プロファイル]の様々な表示用に[結合ポリシーを設定](https://experienceleague.adobe.com/docs/platform-learn/tutorials/profiles/create-merge-policies.html?lang=ja)します（オプション）。
-1. ジャーニー使用状況用のセグメントを作成します。
-
-#### ソース／宛先
-
-1. ストリーミング API およびソースコネクタを使用して、[Experience Platform にデータを取り込みます。](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2020.1.dataingestion&amp;lang=ja)
 
 ## 関連ドキュメント
 

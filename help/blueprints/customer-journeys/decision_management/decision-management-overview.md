@@ -3,16 +3,18 @@ title: 意思決定管理のブループリント
 description: カスタマージャーニーをまたいでパーソナライズされたオファーを配信します。
 solution: Experience Platform, Journey Optimizer
 exl-id: 1bc9335c-5321-4d0c-939e-4f402e2e8f51
-source-git-commit: 60a7785ea0ec4ee83fd9a1e843f0b84fc4cb1150
+source-git-commit: f6c4a0f39acdc177ac23c4314d2f50f793cbf270
 workflow-type: tm+mt
-source-wordcount: '701'
-ht-degree: 96%
+source-wordcount: '651'
+ht-degree: 94%
 
 ---
 
 # Journey Optimizer - 意思決定管理のブループリント
 
 意思決定管理について詳しくは、[製品ドキュメント](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started-decision/starting-offer-decisioning.html?lang=ja)を参照してください。
+
+意思決定管理に関連するガードレールについては、次のドキュメントを参照してください。 [ 意思決定管理ガードレール ](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/get-started/guardrails#decision-management)
 
 アドビの意思決定管理は、Adobe Journey Optimizer の一部として提供されるサービスです。このブループリントは、アプリケーションのユースケースと技術的機能の概要を示し、意思決定管理を構成する様々なアーキテクチャコンポーネントと考慮事項について詳しく説明します。
 
@@ -42,8 +44,6 @@ Journey Optimizer は、あらゆるタッチポイントにわたり、適切�
 
 ### ハブでの意思決定管理に関する技術上の考慮事項
 
-* 1 秒あたりのリクエスト数= 2000。
-* 応答の待ち時間（500 ミリ秒未満）。
 * オーディエンスメンバーシップ、属性、エクスペリエンスイベントを含む、完全なリアルタイム顧客プロファイルへのアクセス。
 
 ## エッジでの意思決定管理
@@ -57,10 +57,7 @@ Journey Optimizer は、あらゆるタッチポイントにわたり、適切�
 
 ### エッジに関する技術上の考慮事項に関する意思決定管理
 
-* 1 秒あたりのリクエスト数= 5000。
-* 応答の待ち時間（250 ミリ秒未満）。
 * エッジの Real-time Profile にアクセスします。プロファイルで使用できるのは、エッジから推定されたオーディエンスとプロファイル属性のみです。
-* 初めてのエクスペリエンスでパーソナライズ機能が必要な場合は、フルプロファイルを利用できるので、ハブが最適です。初めてのエッジエクスペリエンスでは、エッジプロファイルがハブから同期する必要があります。したがって、エッジからの最初のエクスペリエンスには、以前にハブにアップロードされたプロファイルデータは含まれません。
 
 ## 関連ドキュメント
 
