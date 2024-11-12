@@ -2,7 +2,8 @@
 title: 購買グループベースのマーケティングおよびジャーニー管理のブループリント
 description: Adobe Journey Optimizer B2B editionで、リードを購入グループに選定するジャーニーを作成、デザイン、構築する方法を説明します。
 solution: Journey Optimizer B2B Edition
-source-git-commit: b514d7a639d4d624875552c892ae266fdfe089f3
+exl-id: 0a9da49c-f13a-4f2a-8407-277def2db591
+source-git-commit: b777ea5c301fb1fac39bc243b09a02a2f411f40e
 workflow-type: tm+mt
 source-wordcount: '2118'
 ht-degree: 0%
