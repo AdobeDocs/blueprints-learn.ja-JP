@@ -3,10 +3,10 @@ title: 意思決定管理のブループリント
 description: カスタマージャーニーをまたいでパーソナライズされたオファーを配信します。
 solution: Experience Platform, Journey Optimizer
 exl-id: 1bc9335c-5321-4d0c-939e-4f402e2e8f51
-source-git-commit: f6c4a0f39acdc177ac23c4314d2f50f793cbf270
+source-git-commit: e6ac3607ea3909acf921125cc5f8fd44c0b3e0f6
 workflow-type: tm+mt
-source-wordcount: '651'
-ht-degree: 94%
+source-wordcount: '650'
+ht-degree: 86%
 
 ---
 
@@ -31,7 +31,7 @@ Journey Optimizer は、あらゆるタッチポイントにわたり、適切�
 
 ## ハブでの意思決定管理
 
-1 つは、単一のデータセンターアーキテクチャである Adobe Experience Platform Hub を通じて行う方法です。「ハブ」アプローチでは、オファーは、500 ミリ秒を超える待ち時間で実行、パーソナライズ、配信されます。したがって、ハブアーキテクチャは、1 秒未満の待ち時間を必要としない顧客体験に最適です。例えば、コールセンターや対面でのやり取りなど、キオスクやエージェント支援エクスペリエンスに提供されるオファー判定が含まれます。電子メール、SMS メッセージ、プッシュ通知やアウトバウンドキャンペーンに挿入されるオファーも、ハブアプローチを利用します。ハブでの意思決定管理について詳しくは、[ハブでの意思決定管理](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer/decision-management/decision-management-hub.html?lang=ja)ブループリントを参照してください。
+1 つは、単一のデータセンターアーキテクチャである Adobe Experience Platform Hub を通じて行う方法です。ハブアーキテクチャは、低遅延や高スループットは要求しないが、顧客プロファイルを完全に把握する必要がある顧客体験に最適です。例えば、キオスクに対して提供されるオファー決定や、コールセンターや担当者とのやり取りなどのエージェント支援エクスペリエンスが挙げられます。 電子メール、SMS メッセージ、プッシュ通知やアウトバウンドキャンペーンに挿入されるオファーも、ハブアプローチを利用します。ハブでの意思決定管理について詳しくは、[ハブでの意思決定管理](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer/decision-management/decision-management-hub.html?lang=ja)ブループリントを参照してください。
 
 * オファーの適格性は、すべての属性とエクスペリエンスイベントを含む、完全なリアルタイム顧客プロファイルに対して機能します。
 
