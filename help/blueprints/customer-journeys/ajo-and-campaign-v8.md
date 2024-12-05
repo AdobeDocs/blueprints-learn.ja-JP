@@ -3,7 +3,7 @@ title: Journey Optimizer と Adobe Campaign v8 ブループリント
 description: Adobe Journey Optimizer を Adobe Campaign と併用し、Campaign のリアルタイムメッセージングサーバーを利用してネイティブでメッセージを送信する方法を示します
 solution: Journey Optimizer, Campaign, Campaign v8 Client Console
 exl-id: 447a1b60-f217-4295-a0df-32292c4742b0
-source-git-commit: 60a7785ea0ec4ee83fd9a1e843f0b84fc4cb1150
+source-git-commit: f8b9cc115739b53bba71d06b228dcce57df9dd7b
 workflow-type: tm+mt
 source-wordcount: '632'
 ht-degree: 64%
@@ -39,7 +39,7 @@ ht-degree: 64%
 
 ## ガードレール
 
-* [Journey Optimizer ガードレール製品の制限 ](https://experienceleague.adobe.com/docs/journeys/using/starting-with-journeys/limitations.html?lang=ja)
+* [Journey Optimizer ガードレール製品の制限 ](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/get-started/guardrails)
 
 * [ ガードレールとエンドツーエンドの待ち時間ガイダンス ](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/architecture-overview/deployment/guardrails.html)
 

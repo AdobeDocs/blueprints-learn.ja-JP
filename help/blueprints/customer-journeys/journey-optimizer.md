@@ -1,9 +1,9 @@
 ---
-title: 「[!DNL Journey Optimizer] - トリガーメッセージとAdobe Experience Platformのブループリント」
+title: '[!DNL Journey Optimizer] - トリガーメッセージングとAdobe Experience Platformのブループリント'
 description: ストリーミングデータ、顧客プロファイル、セグメント化の中央ハブとして Adobe Experience Platform を使用して、トリガーされるメッセージとエクスペリエンスを実行します。
 solution: Journey Optimizer
 exl-id: 97831309-f235-4418-bd52-28af815e1878
-source-git-commit: a1f3aef5b508575019bd651b9706efc7d6db5306
+source-git-commit: f8b9cc115739b53bba71d06b228dcce57df9dd7b
 workflow-type: tm+mt
 source-wordcount: '522'
 ht-degree: 53%
@@ -66,7 +66,7 @@ Adobe[!DNL Experience Platform]:
 
 ## ガードレール
 
-[[!DNL Journey Optimizer]  ガードレール製品リンク ](https://experienceleague.adobe.com/docs/journeys/using/starting-with-journeys/limitations.html)
+[[!DNL Journey Optimizer]  ガードレール製品リンク ](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/get-started/guardrails)
 
 [ ガードレールとエンドツーエンドの待ち時間のガイダンス ](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/architecture-overview/deployment/guardrails.html)
 
