@@ -5,10 +5,10 @@ solution: Data Collection
 kt: 7204
 thumbnail: null
 exl-id: 21f8a73e-6be7-448e-8cd3-ebee9fc848e1
-source-git-commit: 72eb4e2ff276279a2fc88ead0b17d77cc8e99b97
+source-git-commit: 1b35f6955a7bb10d07c6ce796e80a18b92f25d18
 workflow-type: tm+mt
-source-wordcount: '882'
-ht-degree: 73%
+source-wordcount: '452'
+ht-degree: 83%
 
 ---
 
@@ -219,7 +219,6 @@ ht-degree: 73%
 <td style="background-color:#cddbff; border-bottom:1px solid white; border-left:none; border-right:1px solid white; border-top:none; height:62px; vertical-align:top; width:277px">
 <ul>
 <li><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">常にオンではなく、即時取り込み。 </span></span></span></li>
-<li><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">デルタファイルの取り込みは、最低 15 分ごとに繰り返しチェックを実施。</span></span></span></li>
 </ul>
 </td>
 </tr>
@@ -236,7 +235,6 @@ ht-degree: 73%
 <p><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">プッシュ、CSV、JSON、Parquet</span></span></span></p>
 </td>
 <td style="background-color:#e8eeff; border-bottom:1px solid white; border-left:none; border-right:1px solid white; border-top:none; height:62px; vertical-align:top; width:277px">
-<p><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black"> - ファイルには 7 日間の TTL が提供される</span></span></span></p>
 </td>
 </tr>
 <tr>
@@ -254,7 +252,6 @@ ht-degree: 73%
 </td>
 <td style="background-color:#cddbff; border-bottom:1px solid white; border-left:none; border-right:1px solid white; border-top:none; height:62px; vertical-align:top; width:277px">
 <ul>
-<li><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">15 分の最小頻度</span></span></span></li>
 <li><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">例：MailChimp、One Trust、Zendesk</span></span></span></li>
 </ul>
 
@@ -263,33 +260,3 @@ ht-degree: 73%
 </tr>
 </tbody>
 </table>
-
-
-
-| 取り込みの方法 | 説明 |
-|------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Web／Mobile SDK | レイテンシ：<ul><li>リアルタイム – 同じページコレクションを [!DNL Edge Network] に</li><li>プロファイルへのストリーミング取得は、95 パーセンタイルで 15 分未満</li><li>データレイクへのストリーミングの取り込み（マイクロバッチ 最大 15 分）</ul>ドキュメント： <ul><li>[Web SDK](https://experienceleague.adobe.com/docs/web-sdk.html?lang=ja)</li><li>[Web SDK を使用した Adobe Experience Cloud の実装チュートリアル](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=ja)</li><li>[Mobile SDK](https://experienceleague.adobe.com/docs/mobile.html?lang=ja)</li><li>[モバイルアプリでの Adobe Experience Cloud の実装のチュートリアル](https://experienceleague.adobe.com/docs/platform-learn/implement-mobile-sdk/overview.html?lang=ja)</li></ul> |
-| ストリーミングソース | [ストリーミングソース](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=ja#connectors)<br>レイテンシ：<ul><li>リアルタイム – 同じページコレクションを [!DNL Edge Network] に</li><li>プロファイルへのストリーミングの取り込み 最大 1 分</li><li>データレイクへのストリーミングの取り込み（マイクロバッチ 最大 15 分）</li></ul> |
-| ストリーミング API | [[!DNL Edge Network] Server API （推奨） ](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/interactive-data-collection.html?lang=ja) - Edge Segmentation や <br>[Data Collection Core Service API など、Edge サービスをサポート ](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/streaming/http.html?lang=ja) - Edge サービスをサポートしておらず、ハブに直接ルーティングされます。<br>レイテンシ：<ul><li>リアルタイム – 同じページコレクションを [!DNL Edge Network] に</li><li>プロファイルへのストリーミングの取り込み 最大 1 分</li><li>データレイクへのストリーミングの取り込み（マイクロバッチ 最大 15 分）</li><li>7 GB/時間</li></ul>[ドキュメント](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/overview.html?lang=ja#what-can-you-do-with-streaming-ingestion%3F) |
-| ETL ツール | ETL ツールを使用して、[!DNL Experience Platform] に取り込む前にエンタープライズデータを変更および変換します。<br><br>レイテンシ：<ul><li>タイミングは外部 ETL ツールのスケジュールに依存し、その後、取り込みに使用される方法に基づいて、標準的な取り込みガードレールが適用されます。</li></ul> |
-| バッチソース | ソースからのスケジュールされた取得<br>レイテンシ：最大 200 GB/時間<br><br>[ドキュメント](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=ja#connectors)<br>[ビデオチュートリアル](https://experienceleague.adobe.com/docs/platform-learn/tutorials/sources/overview.html?lang=ja) |
-| バッチ API | レイテンシ：<ul><li>プロファイルへのバッチ取り込みはサイズおよびトラフィックの負荷に依存 最大 45 分</li><li>データレイクへのバッチ取り込みはサイズおよびトラフィックの負荷に依存</li></ul>[ドキュメント](https://experienceleague.adobe.com/docs/experience-platform/ingestion/batch/overview.html?lang=ja#batch) |
-| アドビアプリケーションコネクタ | Adobe Experience Cloud アプリケーションから供給されるデータを自動的に取り込みます<ul><li>Adobe Analytics：[ドキュメント](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html?lang=ja#connectors)および[ビデオチュートリアル](https://experienceleague.adobe.com/docs/platform-learn/tutorials/sources/ingest-data-from-adobe-analytics.html?lang=ja)</li><li>Audience Manager：[ドキュメント](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/audience-manager.html?lang=ja#connectors)および[ビデオチュートリアル](https://experienceleague.adobe.com/docs/platform-learn/tutorials/sources/ingest-data-from-aam.html?lang=ja)</li></ul> |
-
-
-## データ準備方法
-
-| データ準備の方法 | 説明 |
-|------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 外部 ETL ツール ([!DNL Snaplogic]、[!DNL Mulesoft]、[!DNL Informatica]など ) | ETL ツールで複雑な変換を実行し、標準の [!DNL Experience Platform] [!UICONTROL  フローサービス ] API またはソースコネクタを使用して、結果のデータを取り込みます。 |
-| [!UICONTROL クエリサービス] - データ準備 | 結合、分割、結合、変換、クエリ、フィルターの各データを新しいデータセットにまとめます。Create Table as Select（CTAS）<br>[ドキュメント](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=ja#sql)の使用 |
-| XDM マッパーとデータ準備機能（ストリーミングとバッチ） | [!DNL Experience Platform] ータの取り込み中に、ソース属性を CSV 形式または JSON 形式で XDM 属性にマッピングします。<br>取り込まれたデータに対して、関数を計算します（データの形式、分割、連結など）。<br>[ドキュメント](https://experienceleague.adobe.com/docs/experience-platform/data-prep/home.html?lang=ja) |
-
-## 関連するブログ投稿
-
-* [Adobeでの外部データプラットフォームの活用  [!DNL Experience Platform] [!DNL Journey Orchestration]](https://medium.com/adobetech/leveraging-external-data-platforms-in-adobe-experience-platform-journey-orchestration-54fc6134fe17?source=your_stories_page)
-* [Iceberg による高スループット取り込み](https://medium.com/adobetech/high-throughput-ingestion-with-iceberg-ccf7877a413f?source=your_stories_page)
-* [Adobeでのクエリサービスのテクニック  [!DNL Experience Platform]  （クエリの記述と派生データセットの保存） ](https://medium.com/adobetech/query-service-tricks-in-adobe-experience-platform-writing-queries-and-storing-derived-datasets-eaee0d6d683e?source=your_stories_page)
-* [Adobeのエクスペリエンスデータモデルを詳しく調べて  [!DNL Experience Platform] リアルタイム顧客プロファイルの機能をより深く理解する ](https://medium.com/adobetech/digging-into-adobe-experience-platforms-experience-data-model-to-more-fully-understand-the-power-3e109271e04f?source=your_stories_page)
-* [Adobeに関する探索的データ分析の紹介  [!DNL Experience Platform]](https://medium.com/adobetech/an-introductory-look-at-exploratory-data-analysis-on-adobe-experience-platform-1bfce7501d9a?source=your_stories_page)
-* [Adobeでのデータサイエンス向け XDM データの大規模なモデリング  [!DNL Experience Platform]](https://medium.com/adobetech/modeling-xdm-data-for-data-science-at-scale-on-adobe-experience-platform-222bb2a6dbf7?source=your_stories_page)
