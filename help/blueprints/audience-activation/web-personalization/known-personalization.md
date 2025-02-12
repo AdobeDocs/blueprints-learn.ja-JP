@@ -7,10 +7,10 @@ solution: Real-Time Customer Data Platform, Target, Audience Manager, Analytics,
 kt: 7194
 thumbnail: thumb-web-personalization-scenario2.jpg
 exl-id: 29667c0e-bb79-432e-af3a-45bd0b3b43bb
-source-git-commit: 845655a275cdb6d4a9cd397ec7c3515cbf02d321
+source-git-commit: 0d65ac8bcc8647683b6361a293d8c941869cd6b5
 workflow-type: tm+mt
-source-wordcount: '891'
-ht-degree: 79%
+source-wordcount: '1130'
+ht-degree: 33%
 
 ---
 
@@ -22,29 +22,38 @@ ht-degree: 79%
 * 既知の顧客データを使用したオンラインパーソナライズ機能
 * ランディングページの最適化
 * トランザクション、ロイヤリティ、CRM データ、およびモデル化されたインサイトなどのオフラインデータに加えて、以前の製品／コンテンツ表示、製品／コンテンツの親和性、環境属性、および人口統計に基づいたパーソナライズ機能
-* Adobe Target を使用して、Real-time Customer Data Platform で定義されたオーディエンスを web サイトやモバイルアプリで共有、およびターゲット設定します。
+* Adobe TargetまたはAdobe Journey Optimizer Decisioning を使用して、Web サイトおよびモバイルアプリ上の Real-time Customer Data Platform で定義されたオーディエンスを共有およびターゲット化します。
 
 ## アプリケーション
 
 * [!UICONTROL Real-time Customer Data Platform]
 * Adobe Target
+* Adobe Journey Optimizerの決定
 * Adobe Audience Manager（オプション）：サードパーティオーディエンスデータを追加
 * Adobe Analytics または Customer Journey Analytics（オプション）：詳細なセグメント化を使用して、顧客の履歴データと行動データに基づいてセグメントを作成する機能を追加します。
 
 ### リファレンスドキュメント
 
 * [Real-time Customer Data Platform 向け Adobe Target 接続](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection.html)
+* [Adobe Journey Optimizer決定 ](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/decisioning/gs-decision)
 * [Edge データストリームを設定](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/datastreams.html?lang=ja)
 * [Audience Manager およびその他の Experience Cloud ソリューションを使用した Experience Platform セグメント共有](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-experience-platform/aam-aep-audience-sharing.html?lang=ja)
 
+## アプローチ
+
+Web/モバイルでの既知の顧客パーソナライゼーションのアプローチの 1 つは、Real-time Customer Data Platform をAdobe Targetと統合することです。 以下のガイドでは、Real-time Customer Data Platform を統合して、既知の顧客パーソナライゼーションをAdobe Targetで強化する方法について詳しく説明します。
+
+既知のお客様の web/モバイルパーソナライゼーションは、Experience Platform リアルタイム顧客プロファイルとセグメント化をネイティブに活用するAdobe Journey Optimizer Decisioning を使用して実装することもできます。 [Adobe Journey Optimizer ガイド ](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/ajo-home) を参照してください。このガイドでは、[ コードベースのエクスペリエンス ](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/code-based-experience/get-started-code-based) または [web チャネルエクスペリエンス ](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/web/get-started-web) のいずれかを使用できます。
+
+アーキテクチャブループリントは、および [Journey Optimizer ブループリント ](https://experienceleague.adobe.com/en/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer/journey-optimizer) と [Journey Optimizer Decisioning ブループリント ](https://experienceleague.adobe.com/en/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer/decision-management/decision-management-overview) でも使用できます。
 
 ## 統合パターン
 
 | 統合パターン | 機能 | 前提条件 |
-|---|---|---|
-| Real-time Customer Data Platform から Target に共有される Edge に関するリアルタイムのセグメント評価 | <ul><li>Edge 上で同じまたは次のページのパーソナライズ機能に対して、リアルタイムでオーディエンスを評価します。</li><li>また、ストリーミングまたはバッチ方式で評価されたセグメントも [!DNL Edge Network] に投影され、エッジセグメントの評価とパーソナライゼーションに含められます。</li></ul> | <ul><li>Web/Mobile SDK または [!DNL Edge Network] Server API を実装する必要があります</li><li>Datastream は、Target と Experience Platform 拡張を有効にして Experience Edge で設定する必要があります。</li><li>Target の宛先は、Real-time Customer Data Platform で設定する必要があります。</li><li>Target との統合には、Experience Platform インスタンスと同じ IMS Org が必要です。</li></ul> |
-| Edge アプローチを通じて、Real-time Customer Data Platform から Target へのストリーミングおよびバッチオーディエンスを共有 | <ul><li>[!DNL Edge Network] を使用して、Real-time Customer Data Platformから Target にストリーミングオーディエンスとバッチオーディエンスを共有します。 リアルタイムで評価されるオーディエンスには、Web SDK と [!DNL Edge Network] 実装が必要です。</li></ul> | <ul><li>ストリーミングおよびバッチ RTCDP オーディエンスを Target に共有するためには、Target の Web／Mobile SDK または Edge API 実装は必要ありませんが、上記で概説したリアルタイムのエッジセグメント評価を有効にする必要があります。</li><li>AT.js を使用する場合、ECID ID 名前空間に対するプロファイル統合のみがサポートされます。</li><li>Edge 上でカスタム ID 名前空間を検索する場合は、Web SDK／API デプロイメントが必要です。また、各 ID を ID マップで ID として設定する必要があります。</li><li>Target の宛先は、Real-time Customer Data Platform の宛先で設定する必要があります。RTCDP のデフォルトの実稼働用サンドボックスのみがサポートされます。</li><li>Target との統合には、Experience Platform インスタンスと同じ IMS Org が必要です。</li></ul> |
-| オーディエンス共有サービスを介して、Real-time Customer Data Platform から Target および Audience Manager にストリーミングおよびバッチオーディエンスを共有 | <ul><li>この統合パターンは、サードパーティのデータやオーディエンスからの追加のエンリッチメントを Audience Manager で必要とする場合に利用できます。</li></ul> | <ul><li>Web／Mobile SDK は、Target へのストリーミングおよびバッチオーディエンスの共有には必要ありませんが、リアルタイムでのエッジセグメント評価を可能にするために必要です。</li><li>AT.js を使用する場合、ECID ID 名前空間に対するプロファイル統合のみがサポートされます。</li><li>Edge 上でカスタム ID 名前空間を検索する場合は、Web SDK／API デプロイメントが必要です。また、各 ID を ID マップで ID として設定する必要があります。</li><li>オーディエンス共有サービスを介したオーディエンス投影は、プロビジョニングする必要があります。</li><li>Target との統合には、Experience Platform インスタンスと同じ IMS Org が必要です。</li><li>デフォルトの実稼働用サンドボックスのオーディエンスのみが、オーディエンス共有コアサービスをサポートします。</li></ul> |
+|--------------------|------------|---------------|
+| **Real-time Customer Data Platform から Target に共有される、Edgeのリアルタイムセグメント評価** | - オーディエンスをリアルタイムで評価し、Edgeで同じページや次のページのパーソナライゼーションを行います。 <br> - ストリーミングまたはバッチ方式で評価されたセグメントもEdge Networkに投影され、エッジセグメントの評価とパーソナライゼーションに含められます。 | - Web/モバイル SDKを実装するか、Edge Network Server API を実装する必要があります。 <br> - Experience Edgeで Target とExperience Platform拡張機能を有効にして、データストリームを設定する必要があります。 <br>- Target の宛先は、Real-time Customer Data Platform の宛先で設定する必要があります。 <br>- Target との統合には、Experience Platform インスタンスと同じ IMS Org が必要です。 |
+| **Edge アプローチを使用した、Real-time Customer Data Platform から Target へのストリーミングとバッチオーディエンス共有** | - Edge ネットワークを通じて、Real-time Customer Data Platform から Target へのストリーミングおよびバッチオーディエンスを共有します。<br> - リアルタイムで評価されるオーディエンスには、Web SDKおよびEdge Networkの実装が必要です。 | - ストリーミングおよびバッチ RTCDP オーディエンスを Target に共有する場合は、Target の web/Mobile SDKまたはEdge API の実装は必要ありませんが、リアルタイムエッジセグメント評価を有効にする場合は必要です。 <br>- AT.js を使用する場合、ECID ID 名前空間に対するプロファイル統合のみがサポートされます。<br>- Edgeでのカスタム ID 名前空間検索の場合、Web SDK/Edge API デプロイメントが必要で、各 ID は ID マップで ID として設定される必要があります。 <br> - Target 宛先は、Real-time Customer Data Platform Destinations で設定する必要があります。RTCDP のデフォルトの実稼動サンドボックスのみがサポートされます。 <br>- Target との統合には、Experience Platform インスタンスと同じ IMS Org が必要です。 |
+| **オーディエンス共有サービスアプローチを使用した、Real-time Customer Data Platform から Target およびAudience Managerへのストリーミングおよびバッチオーディエンス共有** |  – この統合パターンは、Audience Managerでサードパーティのデータやオーディエンスを強化したい場合に利用できます。 | - Target へのストリーミングオーディエンスとバッチオーディエンスの共有には web/モバイル SDKは必要ありませんが、リアルタイムエッジセグメント評価を有効にするには必要です。 <br>- AT.js を使用する場合、ECID ID 名前空間に対するプロファイル統合のみがサポートされます。<br>- Edgeでのカスタム ID 名前空間検索の場合、Web SDK/Edge API デプロイメントが必要で、各 ID は ID マップで ID として設定される必要があります。 <br> - オーディエンス共有サービスを介したオーディエンスプロジェクションをプロビジョニングする必要があります。 <br> - Target との統合には、Experience Platform インスタンスと同じ IMS 組織が必要です。 <br> - デフォルトの実稼動サンドボックスのオーディエンスのみが、オーディエンス共有コアサービスをサポートします。 |
 
 ## リアルタイム、ストリーミングおよびバッチオーディエンスの Adobe Target への共有
 
@@ -64,11 +73,11 @@ ht-degree: 79%
 
 既知のお客様のパーソナライズ機能は、いくつかの実装方法でサポートされます。
 
-### 実装パターン 1 - Web/Mobile SDK または [!DNL Edge Network] API の [!DNL Edge Network] 用（推奨アプローチ）
+### 実装パターン 1 - Web/モバイルSDKまたは [!DNL Edge Network] API を使用した [!DNL Edge Network] ール（推奨アプローチ）
 
-* Web/Mobile SDK での [!DNL Edge Network] の使用。 リアルタイムのエッジセグメント化には、Web／Mobile SDK または Edge API 実装アプローチが必要です。
-* SDK ベースの実装については、[Experience Platformの web および Mobile SDK ブループリントを参照 ](../../experience-platform/deployment/websdk.md) してください。
-* Mobile SDK で使用する場合、[Adobe Journey Optimizer - Decisioning 拡張機能](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-journey-optimizer-decisioning)が Mobile SDK にインストールされている必要があります。
+* Web/モバイルSDKでの [!DNL Edge Network] の使用。 リアルタイムのエッジセグメント化には、Web／Mobile SDK または Edge API 実装アプローチが必要です。
+* SDK ベースの実装については、[Experience Platform Web およびモバイル SDK ブループリントを参照 ](../../experience-platform/deployment/websdk.md) してください。
+* Mobile SDKで使用するには、[Adobe Journey Optimizer - Decisioning 拡張機能 ](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer-decisioning/) をインストールする必要があります。
 * [Edge プロファイルを使用したAdobe Targetの API ベースの実装については、 [!DNL Edge Network] Server API](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/overview.html?lang=ja) を参照してください。
 
 ### 実装パターン 2 - アプリケーション固有の SDK
@@ -76,13 +85,13 @@ ht-degree: 79%
 従来のアプリケーション固有の SDK（AT.js や AppMeasurement.js など）を使用。リアルタイムエッジセグメント評価は、この実装方法ではサポートされていません。ただし、この実装アプローチでは、Experience Platform ハブからのストリーミングおよびバッチオーディエンス共有がサポートされます。
 
 [Adobe Target Connector ドキュメントを参照してください ](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection)
-[ アプリケーション固有の SDK ブループリントを参照 ](../../experience-platform/deployment/appsdk.md)
+[ アプリケーション固有のSDK ブループリントを参照 ](../../experience-platform/deployment/appsdk.md)
 
 ## 実装に関する考慮事項
 
-ID の前提条件
-
-* [!DNL Edge Network] および Web SDK で前述の実装パターン 1 を利用する場合は、任意のプライマリ ID を利用できます。 最初のログインのパーソナライゼーションでは、パーソナライゼーションリクエストセットのプライマリ ID がReal-time Customer Data Platformからのプロファイルのプライマリ ID と一致する必要があります。
+* 前述の [!DNL Edge Network] および Web SDKで説明された実装パターン 1 を利用する場合は、任意のプライマリ ID を利用できます。
+* 以前に RTCDP に取り込まれた既知の顧客データを使用して最初にログインするパーソナライゼーションでは、Real-time Customer Data Platform の既知の顧客 ID グラフに一致するプライマリ ID がパーソナライゼーションリクエストに含まれている必要があります。 プライマリ ID が ECID に設定されている場合や、既知の顧客プロファイルでまだステッチされていない ID に設定されている場合、ID ステッチがエッジで実現され、エッジのパーソナライゼーションに以前に取り込まれた既知の顧客データが含まれるまで数分かかります。
+* Edge プロファイルには現在、14 日の TTL があります。 したがって、ユーザーがエッジにログインしていない場合や、エッジで 14 日間アクティブであった場合、エッジ上のプロファイルの有効期限が切れる可能性があります。そのため、エッジは、履歴プロファイルビューをハブから取得して、以前に取り込んだプロファイル属性とセグメントを含むパーソナライゼーションを強化する必要があります。これにより、後続のページビューと最初のログインで発生したプロファイルの履歴ビューをパーソナライゼーションになります。
 
 ## 関連ドキュメント
 
@@ -103,12 +112,3 @@ ID の前提条件
 ### チュートリアル
 
 * [Real-Time CDP と Adobe Target を使用した、次のヒットのパーソナライズ機能](https://experienceleague.adobe.com/docs/platform-learn/tutorials/experience-cloud/next-hit-personalization.html?lang=ja)
-
-### 関連するブログ投稿
-
-* [アドビが、Adobe Target と Real-time Customer Data Platform を使用した同一ページ強化パーソナライズ機能を発表](https://blog.adobe.com/en/publish/2021/10/05/adobe-announces-same-page-enhanced-personalization-with-adobe-target-real-time-customer-data-platform)
-* [[!DNL Blueprint for Web Personalization using Adobe Experience Platform Real-Time Customer Profile]](https://medium.com/adobetech/blueprint-for-web-personalization-using-adobe-experience-platform-real-time-customer-profile-fef2ce7a4b2f)
-* [[!DNL Adobe Experience Platform's Identity Service — How to Solve the Customer Identity Conundrum]](https://medium.com/adobetech/adobe-experience-platforms-identity-service-how-to-solve-the-customer-identity-conundrum-f95e22d16ea9)
-* [[!DNL Adobe Experience Platform Web SDK for Audience Management]](https://medium.com/adobetech/adobe-experience-platform-web-sdk-for-audience-management-751fa6d063bc)
-* [[!DNL Implementing Adobe Experience Platform Real-Time Customer Profile through our "Customer Zero" Program]](https://medium.com/adobetech/implementing-adobe-experience-platform-real-time-customer-profile-through-our-customer-zero-32e7cd952896)
-* [[!DNL Segmentation in Seconds: How Adobe Experience Platform Made Real-time Customer Profiles a Reality]](https://medium.com/adobetech/segmentation-in-seconds-how-adobe-experience-platform-made-real-time-customer-profiles-a-reality-a7a8552b0847)
