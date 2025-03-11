@@ -5,7 +5,7 @@ user-guide-description: ブループリントは、既存のビジネス上の�
 product: adobe experience platform
 mini-toc-levels: 3
 role: Architect, Developer, User
-source-git-commit: ec6778d0b3cd37442be2731cafba26388e4355ea
+source-git-commit: bb3d3ec11809dceb9ecf46561b608e22bff855b9
 workflow-type: tm+mt
 source-wordcount: '203'
 ht-degree: 53%
@@ -25,13 +25,13 @@ ht-degree: 53%
       + [アプリケーション SDK](/help/blueprints/experience-platform/deployment/appsdk.md)
       + [ガードレール](/help/blueprints/experience-platform/deployment/guardrails.md)
 + オーディエンスとプロファイルのアクティベーション {#audience-activation}
-   + [Audience Manager](/help/blueprints/audience-activation/audience_manager.md)
+   + [Audience Manager](/help/blueprints/audience-activation/audience-manager.md)
    + Real-time Customer Data Platform （RTCDP）の {#known-customer-audience-activation}
       + [ソーシャルおよび広告チャネルに対するアクティベーション](/help/blueprints/audience-activation/advertising-activation.md)
       + [ファイルおよびエンタープライズストリーミング宛先に対するアクティベーション](/help/blueprints/audience-activation/enterprise-destinations.md)
       + [顧客アクティビティハブ](/help/blueprints/audience-activation/customer-activity.md)
-      + [Target とRTCDP](/help/blueprints/audience-activation/rtcdp-target.md)
       + [セグメントの一致](/help/blueprints/audience-activation/segment-match.md)
+      + [Target とRTCDP](/help/blueprints/audience-activation/rtcdp-target.md)
 + B2B アクティベーションとマーケティング{#b2b-activation}
    + [概要](/help/blueprints/b2b/overview.md)
    + [B2B 活性化](/help/blueprints/b2b/b2bactivation.md)
