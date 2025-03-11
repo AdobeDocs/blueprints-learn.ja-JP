@@ -7,7 +7,7 @@ solution: Real-Time Customer Data Platform, Target, Experience Platform
 kt: 7194
 thumbnail: thumb-web-personalization-scenario2.jpg
 exl-id: 29667c0e-bb79-432e-af3a-45bd0b3b43bb
-source-git-commit: 613c22fd6882144515bd91da64bb305be98dccf3
+source-git-commit: de447727048098ecc0bf8598fe3bca386779f543
 workflow-type: tm+mt
 source-wordcount: '947'
 ht-degree: 32%
@@ -63,7 +63,7 @@ ht-degree: 32%
 ### 実装パターン 1 - Web/モバイルSDKまたは [!DNL Edge Network] API を使用した [!DNL Edge Network] ール（推奨アプローチ）
 
 * Web/モバイルSDKでの [!DNL Edge Network] の使用。 リアルタイムのエッジセグメント化には、Web／Mobile SDK または Edge API 実装アプローチが必要です。
-* SDK ベースの実装については、[Experience Platform Web およびモバイル SDK ブループリントを参照 ](../../experience-platform/deployment/websdk.md) してください。
+* SDK ベースの実装については、[Experience Platform Web およびモバイル SDK ブループリントを参照 ](../experience-platform/deployment/websdk.md) してください。
 * Mobile SDKで使用するには、[Adobe Journey Optimizer - Decisioning 拡張機能 ](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer-decisioning/) をインストールする必要があります。
 * [Edge プロファイルを使用したAdobe Targetの API ベースの実装については、 [!DNL Edge Network] Server API](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/overview.html?lang=ja) を参照してください。
 
@@ -72,7 +72,7 @@ ht-degree: 32%
 従来のアプリケーション固有の SDK（AT.js や AppMeasurement.js など）を使用。リアルタイムエッジセグメント評価は、この実装方法ではサポートされていません。ただし、この実装アプローチでは、Experience Platform ハブからのストリーミングおよびバッチオーディエンス共有がサポートされます。
 
 [Adobe Target Connector ドキュメントを参照してください ](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection)
-[ アプリケーション固有のSDK ブループリントを参照 ](../../experience-platform/deployment/appsdk.md)
+[ アプリケーション固有のSDK ブループリントを参照 ](../experience-platform/deployment/appsdk.md)
 
 ## 実装に関する考慮事項
 

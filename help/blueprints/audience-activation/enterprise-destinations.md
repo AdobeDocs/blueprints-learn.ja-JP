@@ -4,10 +4,10 @@ description: エンタープライズ宛先へのオーディエンスとプロ�
 solution: Real-Time Customer Data Platform
 kt: 7475
 exl-id: 32133174-eb28-44ce-ab2a-63fcb5b51cb5
-source-git-commit: ae7347be5095ca4a7f99f9371dd94d87097112b0
+source-git-commit: de447727048098ecc0bf8598fe3bca386779f543
 workflow-type: tm+mt
-source-wordcount: '312'
-ht-degree: 98%
+source-wordcount: '308'
+ht-degree: 95%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 98%
 
 ## ガードレール
 
-[オーディエンスとプロファイルのアクティベーションの概要ページに説明されているガードレールを参照してください。](overview.md)
+[ ガードレールのページに記載されているガードレールを参照してください。](../experience-platform/deployment/guardrails.md)
 
 ## 実装手順
 

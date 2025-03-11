@@ -1,14 +1,14 @@
 ---
-title: Experience Platformデータフローアーキテクチャ図
+title: Experience Platformのデータフローアーキテクチャ図
 description: このアーキテクチャ図に、データがどのように Adobe Experience Platform に入り、出て行くのかを示します。
 solution: Data Collection
 kt: 7198
 thumbnail: null
 exl-id: 5016f657-dd55-4ab7-859d-c97bc5edff76
-source-git-commit: cf7721ea01579182fdb200aad448be6fc94b34cf
+source-git-commit: de447727048098ecc0bf8598fe3bca386779f543
 workflow-type: tm+mt
-source-wordcount: '117'
-ht-degree: 90%
+source-wordcount: '75'
+ht-degree: 60%
 
 ---
 
@@ -22,12 +22,4 @@ ht-degree: 90%
 
 ## データの入力パターンと出力パターン
 
-すべてのデータ取り込み、収集、取り込みの各パターンの詳細なリストについては、[データ準備と取り込みのブループリント](../data-ingestion/ingestion.md)を参照してください。
-
-データの送り出しとアクセスパターンのすべての詳細なリストについては、[データアクセスと書き出しのブループリント](../data-ingestion/egress.md)を参照してください。
-
-## データ取り込みガードレール
-
-以下の図に、Adobe Experience Platform にデータを取り込む際の平均パフォーマンスのガードレールと待ち時間を示します。
-
-<img src="deployment/assets/aep_data_flow_guardrails.svg" alt="Experience Platform データフロー" style="border:1px solid #4a4a4a; width:90%; margin-bottom: 15px;" class="modal-image" class="modal-image" />
+すべてのデータ取り込み、収集、入力および出力パターンの詳細なリストについては、[ データ取り込みのドキュメント ](https://experienceleague.adobe.com/en/docs/experience-platform/collection/home) を参照してください。
