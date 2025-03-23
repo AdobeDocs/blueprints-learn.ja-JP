@@ -1,9 +1,10 @@
 ---
 title: Journey Optimizer と Adobe Campaign v8 ブループリント
 description: Adobe Journey Optimizer を Adobe Campaign と併用し、Campaign のリアルタイムメッセージングサーバーを利用してネイティブでメッセージを送信する方法を示します
-solution: Journey Optimizer, Campaign, Campaign v8 Client Console
+solution: Journey Optimizer, Campaign, Campaign v8, Campaign v8 Client Console
+version: Campaign v8, Campaign v8 Client Console
 exl-id: 447a1b60-f217-4295-a0df-32292c4742b0
-source-git-commit: f8b9cc115739b53bba71d06b228dcce57df9dd7b
+source-git-commit: 1d10727899aaae6b8cd339ce10d2a520c73bdaa2
 workflow-type: tm+mt
 source-wordcount: '632'
 ht-degree: 64%
@@ -12,7 +13,7 @@ ht-degree: 64%
 
 # Journey Optimizer と Adobe Campaign v8 ブループリント
 
-[!DNL Campaign] のリアルタイムメッセージサーバーを利用して、Adobe[!DNL Campaign] ールでAdobe [!DNL Journey Optimizer] を使用し、メッセージをネイティブに送信する方法を示します。
+Adobe [!DNL Journey Optimizer] をAdobe [!DNL Campaign] と共に使用し、[!DNL Campaign] のリアルタイムメッセージサーバーを利用して、メッセージをネイティブに送信する方法を示します。
 
 ## アーキテクチャ
 
@@ -79,14 +80,14 @@ ht-degree: 64%
 
 * メッセージテンプレートは、適切なパーソナライゼーションコンテキストで設定する必要があります。
 * 標準 [!DNL Campaign] 場合：トランザクションメッセージログをExperience Platformにエクスポートするようにエクスポートワークフローを設定する必要があります。 最大 4 時間ごとに実行することをお勧めします。
-* [!DNL Campaign] v8.4 では、Managed Services Source コネクタ [!DNL Campaign] のAdobeをExperience Platformして、Campaign からの配信イベントとトラッキングイベントをExperience Platformに同期することが可能です。 詳しくは、[Source コネクタ ](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=ja) ドキュメントを参照してください。
+* [!DNL Campaign] v8.4 では、Experience PlatformのAdobe [!DNL Campaign] Managed Services Source コネクタを利用して、Campaign からの配信イベントとトラッキングイベントをExperience Platformに同期することができます。 詳しくは、[Source コネクタ ](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=ja) ドキュメントを参照してください。
 
 ### モバイルプッシュ設定（オプション）
 
-1. Mobile SDK[!DNL Experience Platform] 実装して、プッシュトークンとログイン情報を収集し、既知の顧客プロファイルにタイバックします。
+1. [!DNL Experience Platform] Mobile SDKを実装してプッシュトークンとログイン情報を収集し、既知の顧客プロファイルに結び付けます。
 1. Adobe タグを活用し、次の拡張子を持つモバイルプロパティを作成します。
-   * Adobe[!DNL Journey Optimizer] |Adobe[!DNL Campaign Classic] |Adobe[!DNL Campaign Standard]
-   * Adobe[!DNL Experience Platform] [!DNL Edge Network]
+   * Adobe [!DNL Journey Optimizer] |Adobe[!DNL Campaign Classic] |Adobe[!DNL Campaign Standard]
+   * Adobe [!DNL Experience Platform] [!DNL Edge Network]
    * [!DNL Edge Network] の ID
    * モバイルコア
 1. Web デプロイメントではなく、モバイルアプリのデプロイメントに専用のデータストリームがあることを確認します。

@@ -2,8 +2,9 @@
 title: Campaign v8 ブループリント、Campaign および Platform
 description: Campaign v8 のブループリントについて説明します。
 solution: Campaign,Campaign v8
+version: Campaign v8
 exl-id: 89b3a761-9cb3-4e01-8da0-043e634fa61f
-source-git-commit: 16b233c7ea9077566ebf12238f0a87beec1c61ce
+source-git-commit: 1d10727899aaae6b8cd339ce10d2a520c73bdaa2
 workflow-type: tm+mt
 source-wordcount: '966'
 ht-degree: 41%
@@ -41,8 +42,8 @@ Adobe Campaign v8 は、電子メールやダイレクトメールなどの従�
 
 | シナリオ | 説明 | 機能 |
 | :-- | :--- | :--- |
-| [[!DNL Real-time Customer Data Platform] Adobeあり  [!DNL Campaign]](rtcdp-and-campaign-v8.md) | Adobe Experience Platformとそのリアルタイム顧客プロファイルおよび一元化されたセグメンテーションツールをAdobe[!DNL Campaign] ールと共に利用して、パーソナライズされた会話を提供する方法を紹介します | <ul><li>クラウドストレージのファイル交換およびAdobeと取り込みワークフローを使用して、[!DNL Real-Time CDP] ーザーからAdobe[!DNL Campaign] ースへのプロファイルおよびオーディエンス [!DNL Campaign] 共有 </li><li>リアルタイムAdobeプロファイルを強化し、メッセージキャンペーンに関するクロスチャネルレポートを提供するために、顧客の [!DNL Campaign] 話から [!DNL Real-Time CDP] ージに送り返される配信データとインタラクションデータを、カスタマーエクスペリエンスで簡単に共有できます</li></ul> |
-| [[!DNL Journey Optimizer] Adobeあり  [!DNL Campaign]](ajo-and-campaign.md) | Adobe Journey Optimizerを使用して、リアルタイム顧客プロファイルを利用して 1 対 1 のエクスペリエンスを調整し、ネイティブAdobe[!DNL Campaign] トランザクションメッセージシステムを活用してメッセージを送信する方法を示します | リアルタイムの顧客プロファイルと [!DNL Journey Optimizer] の機能を活用して、即座にエクスペリエンスを調整しながら、Adobe[!DNL Campaign] のネイティブなリアルタイムメッセージング機能を活用して、最後の 1 マイルの通信を行います <br><br> 考慮事項：<br><ul><li>リアルタイムメッセージサーバーを介して 1 時間に最大 100 万件のメッセージを送信可能<li>[!DNL Journey Optimizer] からスロットリングが実行されないので、事前にセールスエンタープライズアーキテクトが技術的な検証を行います。</li><li>意思決定管理は、Campaign v8 へのペイロードではサポートされていません</li></ul> |
+| [[!DNL Real-time Customer Data Platform] Adobeを使用  [!DNL Campaign]](rtcdp-and-campaign-v8.md) | Adobe Experience Platformとそのリアルタイム顧客プロファイルおよび一元化されたセグメンテーションツールをAdobe [!DNL Campaign] と共に利用して、パーソナライズされた会話を提供する方法を紹介します | <ul><li>クラウドストレージのファイル交換ワークフローおよびAdobe [!DNL Campaign] ータ取り込みワークフローを使用した、[!DNL Real-Time CDP] からAdobe [!DNL Campaign] へのプロファイルとオーディエンスの共有 </li><li>Adobe [!DNL Campaign] から [!DNL Real-Time CDP] ージに送り返される、お客様の会話からの配信およびインタラクションデータを簡単に共有して、リアルタイム顧客プロファイルを強化し、メッセージキャンペーンに関するクロスチャネルレポートを提供します</li></ul> |
+| [[!DNL Journey Optimizer] Adobeを使用  [!DNL Campaign]](ajo-and-campaign.md) | Adobe Journey Optimizerを使用して、リアルタイム顧客プロファイルを利用して 1 対 1 のエクスペリエンスを調整し、ネイティブのAdobe [!DNL Campaign] トランザクションメッセージシステムを活用してメッセージを送信する方法を示します | リアルタイム顧客プロファイルと [!DNL Journey Optimizer] の機能を活用して、即座にエクスペリエンスを調整すると同時に、Adobe [!DNL Campaign] のネイティブなリアルタイムメッセージ機能を活用してラストマイルでのコミュニケーションを実現します <br><br> 考慮事項：<br><ul><li>リアルタイムメッセージサーバーを介して 1 時間に最大 100 万件のメッセージを送信可能<li>[!DNL Journey Optimizer] からスロットリングが実行されないので、事前にセールスエンタープライズアーキテクトが技術的な検証を行います。</li><li>意思決定管理は、Campaign v8 へのペイロードではサポートされていません</li></ul> |
 
 ## 前提条件
 
@@ -50,7 +51,7 @@ Adobe Campaign v8 は、電子メールやダイレクトメールなどの従�
 
 ### アプリケーションサーバーおよびリアルタイムメッセージングサーバー
 
-* [!DNL Campaign] v8 ソフトウェア [!DNL Campaign] 操作して使用するには、Adobeのクライアントコンソールが必要です。 これは Windows ベースのクライアントで、標準のインターネットプロトコル（SOAP、HTTP など）を使用します。ソフトウェアの配布、インストール、実行に必要な権限が組織で有効になっていることを確認します。
+* Adobe [!DNL Campaign] クライアントコンソールは、[!DNL Campaign] v8 ソフトウェアとやり取りして使用するために必要です。 これは Windows ベースのクライアントで、標準のインターネットプロトコル（SOAP、HTTP など）を使用します。ソフトウェアの配布、インストール、実行に必要な権限が組織で有効になっていることを確認します。
 
 * IP アドレスの許可リストへの登録：
    * クライアントコンソールへのアクセス時にすべてのユーザーが利用する IP 範囲を識別します。
@@ -82,7 +83,7 @@ Adobe Campaign v8 は、電子メールやダイレクトメールなどの従�
 ### アプリケーションサーバーのサイズ設定
 
 * ストレージは最大 2000 万プロファイルまで拡張でき、最大 1 B のプロファイルまで拡張できる可能性があります。
-* Adobe[!DNL Admin Console] を介してユーザーアクセスを設定および制御します。
+* Adobe [!DNL Admin Console] を介してユーザーアクセスを設定および制御します。
 * [!DNL Campaign] へのデータ読み込みは、バッチファイルを使用して行うことが想定されています。
    * API データの読み込みのサポートは、主にデータベース内のプロファイルや単純なオブジェクトの管理（作成と更新）に使用します。大量のデータの読み込みや、バッチ操作などの操作に向けたものではありません。
    * API を使用したカスタムアプリケーション目的でのデータ読み取りはサポートされていません
@@ -103,9 +104,9 @@ Adobe Campaign v8 は、電子メールやダイレクトメールなどの従�
 * Campaign には、SMS プロバイダーと統合される機能が用意されています。プロバイダーは、顧客によって調達され、SMS ベースのメッセージを送信するためのキャンペーンと統合されます。
 * SMPP プロトコルによるサポート。
 * 次の 3 種類の SMS があり、アドビがサポートします。
-   * SMS MT （Mobile Terminated）: Adobe[!DNL Campaign] から SMPP プロバイダーを通じて携帯電話に送信される SMS です。
-   * SMS MO （Mobile Originated）: モバイルから SMPP プロバイダーを通じてAdobe[!DNL Campaign] に送信される SMS です。
-   * SMS SR （ステータスレポート）または DR または DLR （配信確認）:SMS が正常に受信されたことを示す、SMPP プロバイダーを通じてAdobe[!DNL Campaign] にモバイルから送信される再来訪の確認。 Adobe[!DNL Campaign] は、メッセージを配信できなかったことを示す SR を（多くの場合エラーの説明と共に）受け取ることもあります。
+   * SMS MT （Mobile Terminated）: Adobe [!DNL Campaign] から SMPP プロバイダーを通じて携帯電話に送信される SMS です。
+   * SMS MO （Mobile Originated）: モバイルから SMPP プロバイダーを通じてAdobe [!DNL Campaign] に送信される SMS です。
+   * SMS SR （ステータスレポート）または DR または DLR （配信確認）: SMS が正常に受信されたことを示す、SMPP プロバイダーを通じてAdobe [!DNL Campaign] にモバイルから送信された再来訪の確認メッセージ。 Adobe [!DNL Campaign] は、メッセージを配信できなかったことを示す SR を（多くの場合エラーの説明と共に）受け取る場合もあります。
 
 ## 実装手順
 
