@@ -1,8 +1,8 @@
 ---
 title: Real-time Customer Data Platform および Adobe Target
-description: RTCDPのプロファイルとオーディエンスをAdobe Targetと統合します。
-landing-page-description: RTCDPのプロファイルとオーディエンスをAdobe Targetと統合します。
-short-description: RTCDPのプロファイルとオーディエンスをAdobe Targetと統合します。
+description: RTCDP のプロファイルとオーディエンスを Adobe Target と統合します。
+landing-page-description: RTCDP のプロファイルとオーディエンスを Adobe Target と統合します。
+short-description: RTCDP のプロファイルとオーディエンスを Adobe Target と統合します。
 solution: Real-Time Customer Data Platform, Target, Experience Platform
 kt: 7194
 thumbnail: thumb-web-personalization-scenario2.jpg
@@ -10,7 +10,7 @@ exl-id: 29667c0e-bb79-432e-af3a-45bd0b3b43bb
 source-git-commit: b634e14af3ea60e0f4cc9e84a0ef896df293a8c7
 workflow-type: tm+mt
 source-wordcount: '947'
-ht-degree: 29%
+ht-degree: 32%
 
 ---
 
