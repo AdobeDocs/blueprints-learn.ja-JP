@@ -7,10 +7,10 @@ solution: Audience Manager
 kt: 7211
 thumbnail: null
 exl-id: f17599f1-2e75-4cbe-841a-9fd1dae71ada
-source-git-commit: 7cdafaa39e5f46a2d777219be519efca31d3830b
+source-git-commit: 495a2480828e2c6b4caa41226f4fe67437b081c1
 workflow-type: tm+mt
-source-wordcount: '319'
-ht-degree: 95%
+source-wordcount: '236'
+ht-degree: 93%
 
 ---
 
@@ -32,8 +32,6 @@ ht-degree: 95%
 
 Audience Manager と Real-time Customer Data Platform の両方を活用して、匿名オーディエンスアクティベーションをオンサイトと広告の宛先に使用できます。Real-time Customer Data Platform は、[宛先ドキュメント](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/overview.html?lang=ja)に記載されている匿名デバイス識別子を持つ広告の宛先のサブセットのみをサポートしていることに留意してください。
 
-Microsoft Bing、Google DV360、TradeDesk は、匿名デバイスベースのターゲティングでサポートされる、主な Real-time Customer Data Platform の広告の宛先です。この他にも、Real-time Customer Data Platform は多数の既知の顧客ベースの宛先をサポートします。それらは[宛先ドキュメント](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/overview.html?lang=ja)に記載され、また[既知の顧客のアクティベーションブループリント](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/known-customer-audience-activation/known.html?lang=ja)で説明されています。
-
 ## アーキテクチャ
 
 ![ 匿名Audience Activation ブループリントのリファレンスアーキテクチャ ](assets/anonymous_activation.svg)
@@ -46,13 +44,4 @@ Microsoft Bing、Google DV360、TradeDesk は、匿名デバイスベースの�
 
 ## Real-time Customer Data Platform の実装手順
 
-* Real-time Customer Data Platform の実装手順については、次の[ドキュメント](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/known-customer-audience-activation/known.html?lang=ja)を参照してください。
-
-## 関連ドキュメント
-
-* [Audience Manager](https://experienceleague.adobe.com/docs/audience-manager.html?lang=ja)
-* [Experience Cloud [!UICONTROL Audiences]](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html?lang=ja)
-* [Audience Manager と Target の統合](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/aam-target-integration.html?lang=ja)
-* [Audience Manager を使用した Adobe Analytics セグメント共有](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-publish.html?lang=ja)
-* [既知の顧客のアクティベーションブループリント](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/known-customer-audience-activation/known.html?lang=ja)。
-* [Real-time Customer Data Platform](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/overview.html?lang=ja)
+* Real-time Customer Data Platform の実装手順については、次の[ドキュメント](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/home)を参照してください。
