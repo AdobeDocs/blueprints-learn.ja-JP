@@ -4,10 +4,10 @@ description: Adobe Journey Optimizer を Adobe Campaign と併用し、Campaign 
 solution: Journey Optimizer, Campaign, Campaign v8, Campaign v8 Client Console
 version: Campaign v8, Campaign v8 Client Console
 exl-id: 447a1b60-f217-4295-a0df-32292c4742b0
-source-git-commit: 1d10727899aaae6b8cd339ce10d2a520c73bdaa2
+source-git-commit: 7547cdc57e50d63f4a7949c00a77b82c86da831e
 workflow-type: tm+mt
 source-wordcount: '632'
-ht-degree: 64%
+ht-degree: 63%
 
 ---
 
@@ -91,7 +91,7 @@ Adobe [!DNL Journey Optimizer] をAdobe [!DNL Campaign] と共に使用し、[!D
    * [!DNL Edge Network] の ID
    * モバイルコア
 1. Web デプロイメントではなく、モバイルアプリのデプロイメントに専用のデータストリームがあることを確認します。
-1. 詳しくは、[Adobe Journey Optimizer モバイルガイド ](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-journey-optimizer) を参照してください。
+1. 詳しくは、[Adobe Journey Optimizer モバイルガイド ](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/push-notification/) を参照してください。
 
    >[!IMPORTANT]
    >Journey Optimizer 経由でリアルタイムの通信を送信し、Campaign 経由でバッチプッシュ通知を送信する場合、Journey Optimizer と Campaign の両方でモバイルトークンを収集する必要が生じる場合があります。Campaign v8 では、プッシュトークンをキャプチャするために Campaign SDK を排他的に使用する必要があります。
