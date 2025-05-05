@@ -16,7 +16,7 @@ ht-degree: 59%
 
 データ分析とインテリジェンスには、データレイク内に存在するデータの探索的クエリと分析を実行する [!DNL Experience Platform] ークフロー内の機能が含まれます。
 
-[!DNL Experience Platform] の [!UICONTROL  クエリサービス ] を使用すると、データに対して SQL クエリを実行できます。
+[!DNL Experience Platform] の [!UICONTROL &#x200B; クエリサービス &#x200B;] を使用すると、データに対して SQL クエリを実行できます。
 
 [!DNL Experience Platform] を使用すると、サードパーティの SQL クライアント、インターフェイス、およびBusiness Intelligence（BI）ツールとの接続が、[!DNL PostgreSQL] プロトコルを使用して、[!DNL Experience Platform] 内のデータに直接接続し、アクセスし、クエリを実行できます。
 

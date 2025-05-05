@@ -34,7 +34,7 @@ ht-degree: 1%
 
 ### Adobe CommerceからAdobe Experience Platformへのデータ収集
 
-* [!DNL Data Connection] 拡張機能 ](https://experienceleague.adobe.com/docs/commerce-merchant-services/data-connection/fundamentals/install.html)[ インストールします。
+* [!DNL Data Connection] 拡張機能 [&#128279;](https://experienceleague.adobe.com/docs/commerce-merchant-services/data-connection/fundamentals/install.html) インストールします。
 * Adobeアカウントに [ ログイン ](https://helpx.adobe.com/manage-account/using/access-adobe-id-account.html) し、を表示して組織 ID を確認します。 組織 ID は、プロビジョニングされているExperience Cloud会社に関連付けられた ID です。 この ID は 24 文字の英数字から成る文字列の後に@AdobeOrg （必須）を付けたものです。
 * Commerce固有のフィールドグループを使用した XDM スキーマの [ 作成または更新 ](https://experienceleague.adobe.com/docs/commerce-merchant-services/data-connection/fundamentals/update-xdm.html)。
 * 作成または更新したスキーマに基づいて [ データセットを作成 ](https://experienceleague.adobe.com/docs/platform-learn/implement-mobile-sdk/experience-cloud/platform.html#create-a-dataset) します。 このデータセットには、送信するCommerce データが含まれます。
