@@ -28,7 +28,7 @@ Adobe Campaign v8 は、電子メールやダイレクトメールなどの従�
 
 ## アーキテクチャ図
 
-[Campaign v8 デプロイメントモデル ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/architecture/architecture.html#ac-deployment){target="_blank"} の詳細情報。
+[Campaign v8 デプロイメントモデル ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/architecture/architecture.html?lang=ja#ac-deployment){target="_blank"} の詳細情報。
 
 ### Campaign Enterprise （FFDA）デプロイメント
 
@@ -114,7 +114,7 @@ Adobe Campaign v8 は、電子メールやダイレクトメールなどの従�
 
 ## 関連ドキュメント
 
-* [Campaign v8 ドキュメント](https://experienceleague.adobe.com/docs/campaign-v8.html)
+* [Campaign v8 ドキュメント](https://experienceleague.adobe.com/docs/campaign-v8.html?lang=ja)
 * [Campaign v8 製品説明](https://helpx.adobe.com/jp/legal/product-descriptions/adobe-campaign-managed-cloud-services.html)
-* [Experience Platform タグドキュメント](https://experienceleague.adobe.com/docs/launch.html)
-* [Experience Platform Mobile SDK ドキュメント](https://experienceleague.adobe.com/docs/mobile.html)
+* [Experience Platform タグドキュメント](https://experienceleague.adobe.com/docs/launch.html?lang=ja)
+* [Experience Platform Mobile SDK ドキュメント](https://experienceleague.adobe.com/docs/mobile.html?lang=ja)

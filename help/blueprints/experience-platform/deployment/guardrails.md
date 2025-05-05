@@ -21,7 +21,7 @@ ht-degree: 10%
 | ガードレール タイプ | 説明 |
 |---|---|
 | パフォーマンスガードレール（ソフトリミット） | パフォーマンスガードレールは、ユースケースのスコープに関連する使用制限で、通常の条件下で期待されるパフォーマンスの概要を示します。 この値を超えると、パフォーマンスの低下や待ち時間が発生する場合があります。 パフォーマンスガードレールは、以下に概説されているように、各ソリューションのガードレールのセクションの下にあるExperience Leagueドキュメントに記載されています。 |
-| 静的制限（ハードリミット） | これらは、超過できないシステムによって適用される制限です。 静的制限は、通常、顧客の契約および [ 製品の説明 ](https://helpx.adobe.com/legal/product-descriptions.html) で契約的に結ばれ、概要が説明されています。 |
+| 静的制限（ハードリミット） | これらは、超過できないシステムによって適用される制限です。 静的制限は、通常、顧客の契約および [ 製品の説明 ](https://helpx.adobe.com/jp/legal/product-descriptions.html) で契約的に結ばれ、概要が説明されています。 |
 
 >[!NOTE]
 >
@@ -37,15 +37,15 @@ ht-degree: 10%
 
 **Experience Platformアプリケーション**
 
-* [Real-Time CDP ガードレールの概要 ](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/guardrails/overview.html)
-* [Customer Journey Analyticsオーディエンス共有ガードレール ](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/audiences/publish.html#latency)
-* [Customer Journey Analyticsデータ取り込みガードレール ](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html#what-is-the-expected-latency-for-analytics-data-on-platform%3F)
-* [Journey Optimizerガードレール ](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/guardrails.html)
+* [Real-Time CDP ガードレールの概要 ](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/guardrails/overview.html?lang=ja)
+* [Customer Journey Analyticsオーディエンス共有ガードレール ](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/audiences/publish.html?lang=ja#latency)
+* [Customer Journey Analyticsデータ取り込みガードレール ](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html?lang=ja#what-is-the-expected-latency-for-analytics-data-on-platform%3F)
+* [Journey Optimizerガードレール ](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/guardrails.html?lang=ja)
 
 **Experience Platformサービス**
 
-* [データ取り込みガードレール](https://experienceleague.adobe.com/docs/experience-platform/ingestion/guardrails.html)
-* [[!DNL Edge Network] API ガードレール ](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/guardrails.html)
+* [データ取り込みガードレール](https://experienceleague.adobe.com/docs/experience-platform/ingestion/guardrails.html?lang=ja)
+* [[!DNL Edge Network] API ガードレール ](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/guardrails.html?lang=ja)
 * [ リアルタイム顧客プロファイルとセグメント化ガードレール ](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=ja)
 * [ID ガードレール](https://experienceleague.adobe.com/docs/experience-platform/identity/guardrails.html?lang=ja)
 * [クエリサービスガードレール](https://experienceleague.adobe.com/docs/experience-platform/query/guardrails.html?lang=ja)
@@ -61,7 +61,7 @@ ht-degree: 10%
 
 ### データ取り込み {#data-ingestion}
 
-次の図は、データをReal-Time CDPに取り込む際に、[ ストリーミング取り込み ](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/overview.html) および [ バッチ取り込み ](https://experienceleague.adobe.com/docs/experience-platform/ingestion/batch/getting-started.html?lang=ja) を通じて予測されるデータ取り込み待ち時間の値を示しています。 画像をクリックすると、高解像度バージョンが表示されます。
+次の図は、データをReal-Time CDPに取り込む際に、[ ストリーミング取り込み ](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/overview.html?lang=ja) および [ バッチ取り込み ](https://experienceleague.adobe.com/docs/experience-platform/ingestion/batch/getting-started.html?lang=ja) を通じて予測されるデータ取り込み待ち時間の値を示しています。 画像をクリックすると、高解像度バージョンが表示されます。
 
 ![ データ取り込みの全体的なビジュアル概要。](/help/blueprints/experience-platform/deployment/assets/aep_data_flow_guardrails.svg " データ取り込みの大まかな視覚的な概要と待ち時間の値 "){width="1000" zoomable="yes"}
 
@@ -79,12 +79,12 @@ ht-degree: 10%
 
 ### Customer Journey Analytics {#customer-journey-analytics}
 
-次の図は、[Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=en) を使用する場合に期待される待ち時間の値を示しています。 画像をクリックすると、高解像度バージョンが表示されます。
+次の図は、[Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=ja) を使用する場合に期待される待ち時間の値を示しています。 画像をクリックすると、高解像度バージョンが表示されます。
 
 ![Customer Journey Analyticsの操作の全体的なビジュアル概要。](/help/blueprints/experience-platform/deployment/assets/CJA_guardrails.svg "Customer Journey Analyticsの大まかなビジュアル概要と待ち時間の値の操作 "){width="1000" zoomable="yes"}
 
 ### Journey Optimizer {#journey-optimizer}
 
-次の図は、[Adobe Journey Optimizer](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/get-started.html?lang=en) を使用する場合に予想される待ち時間の値を示しています。 画像をクリックすると、高解像度バージョンが表示されます。
+次の図は、[Adobe Journey Optimizer](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/get-started.html?lang=ja) を使用する場合に予想される待ち時間の値を示しています。 画像をクリックすると、高解像度バージョンが表示されます。
 
 ![Adobe Journey Optimizerの操作の全体的なビジュアルの概要。](/help/blueprints/experience-platform/deployment/assets/AJO_guardrails.svg "Adobe Journey Optimizerの大まかなビジュアル概要と待ち時間の値の操作 "){width="1000" zoomable="yes"}

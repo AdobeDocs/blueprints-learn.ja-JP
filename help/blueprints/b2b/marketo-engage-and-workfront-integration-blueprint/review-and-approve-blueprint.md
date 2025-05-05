@@ -78,7 +78,7 @@ Workfront のプロジェクトテンプレートに、マーケティングキ�
 
 ### Workfrontのプルーフを使用すると、コメントや注釈を介して共同作業ができます {#use-workfront-proofing-to-collaborate}
 
-[Workfrontのプルーフ ](https://experienceleague.adobe.com/docs/workfront/using/review-and-approve-work/proofing/proofing-overview/proofing-basics.html){target="_blank"} 機能を使用すると、マーケティングチームは画像やメールなどの新しいアセットを取得し、コメントや注釈を使用して共同作業できます。 プルーフの運用を開始する準備が整ったら、意思決定者はプルーフツールからアセットを承認できます。
+[Workfrontのプルーフ ](https://experienceleague.adobe.com/docs/workfront/using/review-and-approve-work/proofing/proofing-overview/proofing-basics.html?lang=ja){target="_blank"} 機能を使用すると、マーケティングチームは画像やメールなどの新しいアセットを取得し、コメントや注釈を使用して共同作業できます。 プルーフの運用を開始する準備が整ったら、意思決定者はプルーフツールからアセットを承認できます。
 
 ![ メール変換画面 ](assets/review-and-approve-blueprint-3.png){zoomable="yes"}
 

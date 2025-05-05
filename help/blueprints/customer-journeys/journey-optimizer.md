@@ -66,9 +66,9 @@ Adobe[!DNL Experience Platform]:
 
 ## ガードレール
 
-[[!DNL Journey Optimizer]  ガードレール製品リンク ](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/get-started/guardrails)
+[[!DNL Journey Optimizer]  ガードレール製品リンク ](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/get-started/guardrails)
 
-[ ガードレールとエンドツーエンドの待ち時間のガイダンス ](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/architecture-overview/deployment/guardrails.html)
+[ ガードレールとエンドツーエンドの待ち時間のガイダンス ](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/architecture-overview/deployment/guardrails.html?lang=ja)
 
 ## 関連ドキュメント
 

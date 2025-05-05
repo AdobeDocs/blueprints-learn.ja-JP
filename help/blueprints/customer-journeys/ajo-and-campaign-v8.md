@@ -40,9 +40,9 @@ Adobe [!DNL Journey Optimizer] をAdobe [!DNL Campaign] と共に使用し、[!D
 
 ## ガードレール
 
-* [Journey Optimizer ガードレール製品の制限 ](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/get-started/guardrails)
+* [Journey Optimizer ガードレール製品の制限 ](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/get-started/guardrails)
 
-* [ ガードレールとエンドツーエンドの待ち時間ガイダンス ](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/architecture-overview/deployment/guardrails.html)
+* [ ガードレールとエンドツーエンドの待ち時間ガイダンス ](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/architecture-overview/deployment/guardrails.html?lang=ja)
 
 ## 実装手順
 
@@ -52,7 +52,7 @@ Adobe [!DNL Journey Optimizer] をAdobe [!DNL Campaign] と共に使用し、[!D
 
 #### スキーマ／データセット
 
-1. 顧客提供データに基づき、Experience Platform で[個人プロファイル、エクスペリエンスイベントおよびマルチエンティティスキーマを設定します](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2021.1.xdm&amp;lang=ja)。
+1. 顧客提供データに基づき、Experience Platform で[個人プロファイル、エクスペリエンスイベントおよびマルチエンティティスキーマを設定します](https://experienceleague.adobe.com/?lang=ja&recommended=ExperiencePlatform-D-1-2021.1.xdm&amp;lang=ja)。
 1. （任意）Adobe Campaign broadLog、trackingLog および配信不能アドレステーブル用に、エクスペリエンスイベントクラスベースのスキーマを作成します。
 1. Experience Platform で取り込む[データセットを作成します。](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/create-datasets-and-ingest-data.html?lang=ja)
 1. ガバナンス用のデータセットに、Experience Platform で[データ使用ラベルを追加します。](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-governance/classify-data-using-governance-labels.html?lang=ja)
@@ -68,7 +68,7 @@ Adobe [!DNL Journey Optimizer] をAdobe [!DNL Campaign] と共に使用し、[!D
 
 #### ソース／宛先
 
-1. ストリーミング API とソースコネクタを使用した [ データの取り込み  [!DNL Experience Platform]](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2020.1.dataingestion&amp;lang=ja)。
+1. ストリーミング API とソースコネクタを使用した [ データの取り込み  [!DNL Experience Platform]](https://experienceleague.adobe.com/?lang=ja&recommended=ExperiencePlatform-D-1-2020.1.dataingestion&amp;lang=ja)。
 
 ### Journey Optimizer
 
