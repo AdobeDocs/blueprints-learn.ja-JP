@@ -99,8 +99,8 @@ Marketo Engageをソースとして使用し、Marketo Engageが CRM に接続�
 ## 関連ドキュメント
 
 * [Real-time Customer Data Platform B2B エディション](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/b2b-overview.html?lang=ja)
-* [Real-time Customer Data Platform B2B editionの概要 ](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/intro/rtcdpb2b-intro/b2b-tutorial)
-* [Real-time Customer Data Platform B2B editionのガードレール ](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/intro/rtcdpb2b-intro/b2b-guardrails)
+* [Real-time Customer Data Platform B2B editionの概要 ](https://experienceleague.adobe.com/ja/docs/experience-platform/rtcdp/intro/rtcdpb2b-intro/b2b-tutorial)
+* [Real-time Customer Data Platform B2B editionのガードレール ](https://experienceleague.adobe.com/ja/docs/experience-platform/rtcdp/intro/rtcdpb2b-intro/b2b-guardrails)
 * [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform.html?lang=ja)
 * [Marketo Engage](https://experienceleague.adobe.com/docs/marketo/using/home.html?lang=ja)
 * [Adobe Experience Platform - Marketo ソースコネクタ](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/marketo/marketo.html?lang=ja)
