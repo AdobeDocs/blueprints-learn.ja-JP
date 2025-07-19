@@ -121,7 +121,7 @@ from
 >[!NOTE]
 >
 >データセットテーブル marketo_person_ajo_b2b を使用して、Marketo ユーザーデータセットの操作方法の完全な例を示します。
->>サンドボックスのデータセットは、[ データセット ](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/user-guide) ワークスペースにあります。
+>&#x200B;>サンドボックスのデータセットは、[ データセット ](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/user-guide) ワークスペースにあります。
 
 ```sql
 select
