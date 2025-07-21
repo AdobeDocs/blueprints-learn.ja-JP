@@ -5,7 +5,7 @@ solution: Experience Platform,Data Collection
 kt: null
 thumbnail: null
 exl-id: 3cc9e849-a75d-40ad-a604-6acf4c2c9f89
-source-git-commit: adddd4105afc68379116d8d7208160689ee52c1d
+source-git-commit: 2a8027acb8cbac89aaf920c5143fd36e62d1eceb
 workflow-type: tm+mt
 source-wordcount: '187'
 ht-degree: 68%
@@ -17,7 +17,7 @@ ht-degree: 68%
 
 Web、Mobile SDK、[!DNL Edge Network] Server API の概要と詳細については、次を参照してください。
 
-* [Web SDK の概要](https://experienceleague.adobe.com/ja/docs/blueprints-learn/architecture/architecture-overview/deployment/websdk)
+* [Web SDK の概要](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/home)
 * [Mobile SDK の概要](https://developer.adobe.com/client-sdks/documentation/)
 * [[!DNL Edge Network]  サーバー API](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/overview.html?lang=ja)
 
