@@ -21,7 +21,7 @@ ht-degree: 13%
 | ガードレール タイプ | 説明 |
 |---|---|
 | パフォーマンスガードレール（ソフトリミット） | パフォーマンスガードレールは、ユースケースのスコープに関連する使用制限で、通常の条件下で期待されるパフォーマンスの概要を示します。 この値を超えると、パフォーマンスの低下や待ち時間が発生する場合があります。 パフォーマンスガードレールは、以下に示すように、各ソリューションのガードレールの節の下にあるExperience League ドキュメントに記載されています。 |
-| 静的制限（ハードリミット） | これらは、超過できないシステムによって適用される制限です。 静的制限は、通常、顧客の契約および [ 製品の説明 ](https://helpx.adobe.com/legal/product-descriptions.html) で契約的に結ばれ、概要が説明されています。 |
+| 静的制限（ハードリミット） | これらは、超過できないシステムによって適用される制限です。 静的制限は、通常、顧客の契約および [ 製品の説明 ](https://helpx.adobe.com/jp/legal/product-descriptions.html) で契約的に結ばれ、概要が説明されています。 |
 
 >[!NOTE]
 >
@@ -37,15 +37,15 @@ ht-degree: 13%
 
 **Experience Platform アプリケーション**
 
-* [Real-Time CDP ガードレールの概要 ](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/guardrails/overview.html)
-* [Customer Journey Analytics オーディエンス共有ガードレール ](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/audiences/publish.html#latency)
-* [Customer Journey Analytics データ取り込みガードレール ](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html#what-is-the-expected-latency-for-analytics-data-on-platform%3F)
-* [Journey Optimizerガードレール ](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/guardrails.html)
+* [Real-Time CDP ガードレールの概要 ](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/guardrails/overview.html?lang=ja)
+* [Customer Journey Analytics オーディエンス共有ガードレール ](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/audiences/publish.html?lang=ja#latency)
+* [Customer Journey Analytics データ取り込みガードレール ](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html?lang=ja#what-is-the-expected-latency-for-analytics-data-on-platform%3F)
+* [Journey Optimizerガードレール ](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/guardrails.html?lang=ja)
 
 **Experience Platform サービス**
 
-* [データ取り込みガードレール](https://experienceleague.adobe.com/docs/experience-platform/ingestion/guardrails.html)
-* [[!DNL Edge Network] API ガードレール ](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/guardrails.html)
+* [データ取り込みガードレール](https://experienceleague.adobe.com/docs/experience-platform/ingestion/guardrails.html?lang=ja)
+* [[!DNL Edge Network] API ガードレール ](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/guardrails.html?lang=ja)
 * [ リアルタイム顧客プロファイルとセグメント化ガードレール ](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=ja)
 * [ID ガードレール](https://experienceleague.adobe.com/docs/experience-platform/identity/guardrails.html?lang=ja)
 * [クエリサービスガードレール](https://experienceleague.adobe.com/docs/experience-platform/query/guardrails.html?lang=ja)

@@ -40,7 +40,7 @@ Adobe [!DNL Journey Optimizer] をAdobe [!DNL Campaign] と共に使用し、[!D
 
 ## ガードレール
 
-* [Journey Optimizer ガードレール製品の制限 ](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/get-started/guardrails)
+* [Journey Optimizer ガードレール製品の制限 ](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/get-started/guardrails)
 
 * [ ガードレールとエンドツーエンドの待ち時間ガイダンス ](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/architecture-overview/guardrails.html)
 
