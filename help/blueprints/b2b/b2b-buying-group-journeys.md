@@ -68,11 +68,11 @@ B2B のリード管理の焦点は、アカウントとそのリードにあり�
 >
 >Journey Optimizer B2B editionのライセンスには、次の項目を含める必要があります。
 ><ul><li>Experience Platform B2B に接続されたJourney Optimizer B2B edition インスタンス</li><li>RTCDPに同期されたMarketo Engage インスタンス</li></ul>
-&gt;<br/>
-&gt; 既存のMarketo Engageのお客様には、既存のインスタンスへの接続を使用するアプローチをお勧めします。
-&gt;<br/><br/>
-&gt; プロファイルの豊富さを強化するために、ソリューションで使用できる追加の拡張機能があります。
-&gt;<ul><li>プロファイルをエンリッチメントするためのRTCDPへの追加ソース</li><li>Marketo EngageへのRTCDPの宛先</li></ul>
+>&gt;<br/>
+>&gt; 既存のMarketo Engageのお客様には、既存のインスタンスへの接続を使用するアプローチをお勧めします。
+>&gt;<br/><br/>
+>&gt; プロファイルの豊富さを強化するために、ソリューションで使用できる追加の拡張機能があります。
+>&gt;<ul><li>プロファイルをエンリッチメントするためのRTCDPへの追加ソース</li><li>Marketo EngageへのRTCDPの宛先</li></ul>
 
 _このソリューションを導入するには、「アカウント_ および _購入グループ_ の概念を明確に理解し、それらがセールス・リードの認定をどのように強化および促進するかについての理解も必要です。 この理解により、必要な購入グループの完全性スコアも特定する必要があります。
 
@@ -107,9 +107,9 @@ Journey Optimizer B2B editionのガードレールについて詳しくは、[ �
 実装に関連するガードレール
 
 * すべての B2B オーディエンスガードレールは、[B2B オーディエンスとプロファイルアクティベーションのブループリントに記載されており ](https://experienceleague.adobe.com/en/docs/blueprints-learn/architecture/b2b-activation/b2bactivation)Journey Optimizer B2B editionの成功に直接転置されます。
-* アカウントジャーニーのMarketo Engage チャネルを通じてアクティベーションが必要な場合、または CRM 同期を使用してアカウントをエンリッチメントする場合 [0}Marketo Engage関連のガードレール } が関連します。](https://helpx.adobe.com/legal/product-descriptions/adobe-marketo-engage---product-description.html#performance-guardrails)
+* アカウントジャーニーのMarketo Engage チャネルを通じてアクティベーションが必要な場合、または CRM 同期を使用してアカウントをエンリッチメントする場合 [0&rbrace;Marketo Engage関連のガードレール &rbrace; が関連します。](https://helpx.adobe.com/legal/product-descriptions/adobe-marketo-engage---product-description.html#performance-guardrails)
 
-RTCDP ガードレールについて詳しくは [](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/guardrails/overview)Real-Time CDP ガードレールのドキュメント } を参照してください。
+RTCDP ガードレールについて詳しくは [&#128279;](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/guardrails/overview)Real-Time CDP ガードレールのドキュメント &rbrace; を参照してください。
 
 ### プロビジョニング
 
