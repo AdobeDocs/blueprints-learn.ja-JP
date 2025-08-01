@@ -4,7 +4,7 @@ description: Adobe Journey Optimizer を Adobe Campaign と併用し、Campaign 
 solution: Journey Optimizer, Campaign, Campaign v8, Campaign v8 Client Console
 version: Campaign v8, Campaign v8 Client Console
 exl-id: 447a1b60-f217-4295-a0df-32292c4742b0
-source-git-commit: 7547cdc57e50d63f4a7949c00a77b82c86da831e
+source-git-commit: 75a0f2a77f39a4320dc4c4b0db918879be099dd3
 workflow-type: tm+mt
 source-wordcount: '632'
 ht-degree: 63%
@@ -40,9 +40,9 @@ Adobe [!DNL Journey Optimizer] をAdobe [!DNL Campaign] と共に使用し、[!D
 
 ## ガードレール
 
-* [Journey Optimizer ガードレール製品の制限 ](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/get-started/guardrails)
+* [Journey Optimizer ガードレール製品の制限 ](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/get-started/guardrails)
 
-* [ ガードレールとエンドツーエンドの待ち時間ガイダンス ](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/architecture-overview/deployment/guardrails.html?lang=ja)
+* [ ガードレールとエンドツーエンドの待ち時間ガイダンス ](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/architecture-overview/guardrails.html)
 
 ## 実装手順
 
@@ -52,7 +52,7 @@ Adobe [!DNL Journey Optimizer] をAdobe [!DNL Campaign] と共に使用し、[!D
 
 #### スキーマ／データセット
 
-1. 顧客提供データに基づき、Experience Platform で[個人プロファイル、エクスペリエンスイベントおよびマルチエンティティスキーマを設定します](https://experienceleague.adobe.com/?lang=ja&recommended=ExperiencePlatform-D-1-2021.1.xdm&amp;lang=ja)。
+1. 顧客提供データに基づき、Experience Platform で[個人プロファイル、エクスペリエンスイベントおよびマルチエンティティスキーマを設定します](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2021.1.xdm&lang=ja)。
 1. （任意）Adobe Campaign broadLog、trackingLog および配信不能アドレステーブル用に、エクスペリエンスイベントクラスベースのスキーマを作成します。
 1. Experience Platform で取り込む[データセットを作成します。](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/create-datasets-and-ingest-data.html?lang=ja)
 1. ガバナンス用のデータセットに、Experience Platform で[データ使用ラベルを追加します。](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-governance/classify-data-using-governance-labels.html?lang=ja)
@@ -68,7 +68,7 @@ Adobe [!DNL Journey Optimizer] をAdobe [!DNL Campaign] と共に使用し、[!D
 
 #### ソース／宛先
 
-1. ストリーミング API とソースコネクタを使用した [ データの取り込み  [!DNL Experience Platform]](https://experienceleague.adobe.com/?lang=ja&recommended=ExperiencePlatform-D-1-2020.1.dataingestion&amp;lang=ja)。
+1. ストリーミング API とソースコネクタを使用した [ データの取り込み  [!DNL Experience Platform]](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2020.1.dataingestion&lang=ja)。
 
 ### Journey Optimizer
 

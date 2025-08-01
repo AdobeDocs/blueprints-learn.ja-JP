@@ -4,7 +4,7 @@ description: Real-time Customer Data Platform を使用して、アカウント�
 solution: Real-Time Customer Data Platform
 kt: 9311
 exl-id: 5215d077-b0a9-4417-ae9b-f4961d4a73fa
-source-git-commit: 70816df06ec2dff5c3a4a94a8be701cb25e6f783
+source-git-commit: 0509c5a8ce92c25040262130a5f583cdd7f08e59
 workflow-type: tm+mt
 source-wordcount: '898'
 ht-degree: 52%
@@ -38,7 +38,7 @@ ht-degree: 52%
 
 * Marketo Engage 関連のガードレールおよび実装手順は、Marketo Engage がソースまたは宛先として使用されている場合にのみ該当します。
 
-* データモデル、サイズ、セグメント化のその他の詳細とガードレールについては、[ デプロイメントガードレールのドキュメント ](../experience-platform/deployment/guardrails.md) を参照してください。
+* データモデル、サイズ、セグメント化のその他の詳細とガードレールについては、[ デプロイメントガードレールのドキュメント ](../experience-platform/guardrails.md) を参照してください。
 
 
 ### 複数のインスタンスと IMS 組織のサポート：
@@ -99,8 +99,8 @@ Marketo Engageをソースとして使用し、Marketo Engageが CRM に接続�
 ## 関連ドキュメント
 
 * [Real-time Customer Data Platform B2B エディション](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/b2b-overview.html?lang=ja)
-* [Real-time Customer Data Platform B2B editionの概要 ](https://experienceleague.adobe.com/ja/docs/experience-platform/rtcdp/intro/rtcdpb2b-intro/b2b-tutorial)
-* [Real-time Customer Data Platform B2B editionのガードレール ](https://experienceleague.adobe.com/ja/docs/experience-platform/rtcdp/intro/rtcdpb2b-intro/b2b-guardrails)
+* [Real-time Customer Data Platform B2B editionの概要 ](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/intro/rtcdpb2b-intro/b2b-tutorial)
+* [Real-time Customer Data Platform B2B editionのガードレール ](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/intro/rtcdpb2b-intro/b2b-guardrails)
 * [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform.html?lang=ja)
 * [Marketo Engage](https://experienceleague.adobe.com/docs/marketo/using/home.html?lang=ja)
 * [Adobe Experience Platform - Marketo ソースコネクタ](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/marketo/marketo.html?lang=ja)

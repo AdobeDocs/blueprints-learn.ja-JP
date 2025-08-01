@@ -3,16 +3,16 @@ title: '[!DNL Journey Optimizer] - トリガーメッセージングとAdobe Exp
 description: ストリーミングデータ、顧客プロファイル、セグメント化の中央ハブとして Adobe Experience Platform を使用して、トリガーされるメッセージとエクスペリエンスを実行します。
 solution: Journey Optimizer
 exl-id: 97831309-f235-4418-bd52-28af815e1878
-source-git-commit: f8b9cc115739b53bba71d06b228dcce57df9dd7b
+source-git-commit: 75a0f2a77f39a4320dc4c4b0db918879be099dd3
 workflow-type: tm+mt
-source-wordcount: '522'
-ht-degree: 53%
+source-wordcount: '521'
+ht-degree: 50%
 
 ---
 
 # [!DNL Journey Optimizer] ブループリント
 
-Adobe[!DNL Journey Optimizer] は、マーケティングチームがお客様の行動にリアルタイムで反応し、どこにいても対応するための目的構築されたシステムです。 マーケティングチームは、データ管理機能がAdobeに移行 [!DNL Experience Platform]、最も効果が高いカスタマージャーニーやパーソナライズされた会話を生み出しているカスタマージャーニーに集中できるようになりました。
+Adobe [!DNL Journey Optimizer] は、マーケティングチームがお客様の行動にリアルタイムで反応し、現在の場所で対応するための専用のシステムです。 データ管理機能がAdobe [!DNL Experience Platform] に移行され、マーケティングチームは最も効果的なマーケティング方法、つまりワールドクラスのカスタマージャーニーとパーソナライズされた会話に集中できるようになりました。
 
 このブループリントでは、アプリケーションの技術的機能の概要を説明し、ア [!DNL Journey Optimizer] ットを構成する様々なアーキテクチャコンポーネントについて詳しく説明します。
 
@@ -33,7 +33,7 @@ Adobe[!DNL Journey Optimizer] は、マーケティングチームがお客様�
 
 | シナリオ | 説明 | 機能 |
 | :-- | :--- | :--- |
-| [サードパーティメッセージング](3rd-party-messaging.md) | Adobe[!DNL Journey Optimizer] をサードパーティのメッセージングシステムと共に利用して、パーソナライズされたコミュニケーションを編成および送信する方法を示します | 顧客のブランドや企業とのインタラクションに応じて、1：1 のパーソナライズされたコミュニケーションを提供します<br><br>注意点：<br><ul><li>サードパーティシステムは、認証のためにベアラートークンをサポートする必要があります。</li><li>マルチテナントアーキテクチャが原因で静的 IP がサポートされません</li><li>1 秒あたりの API 呼び出しに関しては、サードパーティシステムのアーキテクチャの制約にご注意ください。お客様は、[!DNL Journey Optimizer] からのボリュームをサポートするために、サードパーティベンダーから追加ボリュームを購入する必要がある場合があります</li><li>メッセージまたはペイロードの意思決定管理をサポートしていません</li></ul> |
+| [サードパーティメッセージング](3rd-party-messaging.md) | Adobe [!DNL Journey Optimizer] をサードパーティのメッセージングシステムと共に利用して、パーソナライズされたコミュニケーションを編成し、送信する方法を示します | 顧客がブランドや会社とやり取りする際に、パーソナライズされたコミュニケーションを即時に 1:1 で提供する <br><br> 考慮事項：<br><ul><li>サードパーティシステムは、認証のためにベアラートークンをサポートする必要があります。</li><li>マルチテナントアーキテクチャが原因で静的 IP がサポートされません</li><li>1 秒あたりの API 呼び出しに関しては、サードパーティシステムのアーキテクチャの制約にご注意ください。お客様は、[!DNL Journey Optimizer] からのボリュームをサポートするために、サードパーティベンダーから追加ボリュームを購入する必要がある場合があります</li><li>メッセージまたはペイロードの意思決定管理をサポートしていません</li></ul> |
 
 <br>
 
@@ -41,7 +41,7 @@ Adobe[!DNL Journey Optimizer] は、マーケティングチームがお客様�
 
 | 統合 | 説明 | 機能 |
 | :-- | :--- | :--- |
-| [[!DNL Journey Optimizer] Adobe Campaignを使用 ](ajo-and-campaign.md) | Adobe[!DNL Journey Optimizer] を使用して、リアルタイム顧客プロファイルを利用して 1 対 1 のエクスペリエンスを調整し、ネイティブのAdobe Campaign トランザクションメッセージシステムを活用してメッセージを送信する方法を示します | リアルタイム顧客プロファイルと [!DNL Journey Optimizer] の機能を活用して、即座にエクスペリエンスを調整すると同時に、Adobe Campaignのネイティブなリアルタイムメッセージ機能を活用してラストマイルでのコミュニケーション <br><br> 考慮事項：<br> を行います<ul><li>Campaign アプリケーションは、v7 ビルドが 21.1 より上か v8 のどちらかである必要があります</li><li>メッセージングスループット</li><ul><li>Campaign v7 - 1 時間あたり最大 50,000</li><li>Campaign v8 - 1 時間あたり最大 100,000</li><li>Campaign Standard - 1 時間あたり最大 50,000</li></ul><li>スロットルは実行されないので、ユースケースではエンタープライズアーキテクトによる技術的な検証が必要です</li><li>Campaign から送信されたメッセージの 意思決定管理 を利用するサポートはありません</li></ul> |
+| [[!DNL Journey Optimizer] Adobe Campaignを使用 ](ajo-and-campaign.md) | Adobe [!DNL Journey Optimizer] を使用して、リアルタイム顧客プロファイルを利用して 1:1 エクスペリエンスを調整し、ネイティブのAdobe Campaign トランザクションメッセージシステムを活用してメッセージを送信する方法を示します | リアルタイム顧客プロファイルと [!DNL Journey Optimizer] の機能を活用して、即座にエクスペリエンスを調整すると同時に、Adobe Campaignのネイティブなリアルタイムメッセージ機能を活用してラストマイルでのコミュニケーション <br><br> 考慮事項：<br> を行います<ul><li>Campaign アプリケーションは、v7 ビルドが 21.1 より上か v8 のどちらかである必要があります</li><li>メッセージングスループット</li><ul><li>Campaign v7 - 1 時間あたり最大 50,000</li><li>Campaign v8 - 1 時間あたり最大 100,000</li><li>Campaign Standard - 1 時間あたり最大 50,000</li></ul><li>スロットルは実行されないので、ユースケースではエンタープライズアーキテクトによる技術的な検証が必要です</li><li>Campaign から送信されたメッセージの 意思決定管理 を利用するサポートはありません</li></ul> |
 
 <br>
 
@@ -66,9 +66,9 @@ Adobe[!DNL Experience Platform]:
 
 ## ガードレール
 
-[[!DNL Journey Optimizer]  ガードレール製品リンク ](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/get-started/guardrails)
+[[!DNL Journey Optimizer]  ガードレール製品リンク ](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/get-started/guardrails)
 
-[ ガードレールとエンドツーエンドの待ち時間のガイダンス ](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/architecture-overview/deployment/guardrails.html?lang=ja)
+[ ガードレールとエンドツーエンドの待ち時間のガイダンス ](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/architecture-overview/guardrails.html)
 
 ## 関連ドキュメント
 
