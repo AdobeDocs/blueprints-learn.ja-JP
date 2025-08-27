@@ -3,9 +3,9 @@ title: '[!DNL Journey Optimizer] - ジャーニーブループリント'
 description: ストリーミングデータ、顧客プロファイル、セグメント化の中央ハブとして Adobe Experience Platform を使用して、トリガーされるメッセージとエクスペリエンスを実行します。
 solution: Journey Optimizer
 exl-id: 97831309-f235-4418-bd52-28af815e1878
-source-git-commit: 0a3ebcbc6029df46bd988cb8f15ecf838f80c3c9
+source-git-commit: e96b48e55c0fe2f48dc83f48ad41f5b686ec8dc1
 workflow-type: tm+mt
-source-wordcount: '644'
+source-wordcount: '640'
 ht-degree: 15%
 
 ---
@@ -21,7 +21,7 @@ Adobe [!DNL Journey Optimizer] は、Adobe Experience Platform上に構築され
 ## ユースケース
 
 >[!BEGINTABS]
->[!TAB ジャーニーの使用例（イベント駆動型、リアルタイム） ]
+>[!TAB ジャーニー（イベント駆動型、リアルタイム） ]
 
 - **放棄の復元：** メール、プッシュまたはアプリ内で、ユーザーが買い物かご、フォーム、またはセッションを放棄した際に、パーソナライズされたメッセージをトリガーにします。
 - **新規ユーザーのサインアップ：** 新規ユーザーは、新しいアカウント設定、関連するプロモーションまたは特典に登録後、すぐにエンゲージできます
@@ -29,7 +29,7 @@ Adobe [!DNL Journey Optimizer] は、Adobe Experience Platform上に構築され
 - **コンテキストのターゲット設定：** ユーザーのシグナルと場所に基づいて、その時点のユーザーとコミュニケーションを取り、エクスペリエンスのガイドと指示を行います
 - **コンテキストアップセル/クロスセル：** リアルタイムのプロファイル属性と最近のインタラクションに基づいてパーソナライズされたオファーを配信します。
 
->[!TAB Campaign オーケストレーションのユースケース（スケジュールに従い、ブランドで開始） ]
+>[!TAB  キャンペーンオーケストレーション （スケジュール済み、ブランド開始） ]
 
 - **プロモーションキャンペーン**：製品ローンチ、季節的なオファーまたはセールスイベント用の複数手順のマルチチャネルキャンペーンを開始します。
 - **ライフサイクルマーケティング**：誕生日メッセージ、更新リマインダー、ロイヤルティマイルストーンなど、繰り返しキャンペーンを自動化します。
@@ -94,12 +94,12 @@ Adobe[!DNL Experience Platform]:
 
 [[!DNL Journey Optimizer]  ガードレール製品リンク ](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/get-started/guardrails.html)
 
-[ ガードレールとエンドツーエンドの待ち時間のガイダンス ](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/architecture-overview/deployment/guardrails.html?lang=ja)
+[ ガードレールとエンドツーエンドの待ち時間のガイダンス ](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/architecture-overview/deployment/guardrails.html)
 
 ## 関連ドキュメント
 
 - [[!DNL Experience Platform]  ドキュメント ](https://experienceleague.adobe.com/docs/experience-platform.html?lang=ja)
 - [[!DNL Experience Platform]  タグのドキュメント ](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=ja)
-- [[!DNL Experience Platform Mobile SDK]  ドキュメント ](https://experienceleague.adobe.com/docs/mobile.html?lang=ja)
-- [[!DNL Journey Optimizer]  ドキュメント ](https://experienceleague.adobe.com/docs/journey-optimizer/using/ajo-home.html?lang=ja)
+- [[!DNL Experience Platform Mobile SDK]  ドキュメント ](https://experienceleague.adobe.com/docs/mobile.html)
+- [[!DNL Journey Optimizer]  ドキュメント ](https://experienceleague.adobe.com/docs/journey-optimizer/using/ajo-home.html)
 - [[!DNL Journey Optimizer]  製品の説明 ](https://helpx.adobe.com/jp/legal/product-descriptions/adobe-journey-optimizer.html)
