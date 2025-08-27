@@ -14,7 +14,7 @@ ht-degree: 77%
 
 [ 意思決定管理 ](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started-decision/starting-offer-decisioning.html?lang=ja) については、次のドキュメントを参照してください。
 
-意思決定管理に関連するガードレールについては、次のドキュメントを参照してください。 [ 意思決定管理ガードレール ](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/get-started/guardrails#decision-management.html)
+意思決定管理に関連するガードレールについては、次のドキュメントを参照してください。 [ 意思決定管理ガードレール ](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/get-started/guardrails#decision-management.html)
 
 アドビの意思決定管理は、Adobe Journey Optimizer の一部として提供されるサービスです。このブループリントは、アプリケーションのユースケースと技術的機能の概要を示し、意思決定管理を構成する様々なアーキテクチャコンポーネントと考慮事項について詳しく説明します。
 
