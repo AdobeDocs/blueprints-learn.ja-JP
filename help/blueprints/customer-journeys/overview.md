@@ -1,27 +1,39 @@
 ---
 title: 顧客ジャーニーのブループリント
-description: あらゆるスクリーンをまたいで個別の顧客体験をジャストインタイムで提供します。
+description: スクリーンをまたいで、ジャストインタイムで調整された個別のカスタマーエクスペリエンスを提供します。
 solution: Journey Optimizer, Campaign, Experience Platform
 exl-id: 273d024f-a220-4336-89f2-e3bffafcdc37
-source-git-commit: 1d10727899aaae6b8cd339ce10d2a520c73bdaa2
+source-git-commit: 8ee7fe8d38343a669f5ad57e69367fbe6a3e1024
 workflow-type: tm+mt
-source-wordcount: '255'
-ht-degree: 67%
+source-wordcount: '221'
+ht-degree: 13%
 
 ---
 
-# 顧客ジャーニーのブループリント
+# 顧客ジャーニーブループリント
 
-カスタマージャーニーは、電子メール、SMS、モバイルアラートなどのチャネルを通じて、ブランドが積極的に顧客と関わり、コミュニケーションをとるための機能を提供します。
+最新のマーケティングチームには、個々の顧客行動への対応という事後的なエンゲージメントと、積極的なアウトリーチの両方をサポートし、オーディエンスをコンバージョンファネルに導くキャンペーンを開始できるプラットフォームが必要です。 これらのユースケースは、メール、SMS、プッシュなど、様々なチャネルや、web およびアプリ内エクスペリエンスにわたっています。
 
-オーケストレーションツールは、オーディエンスの状態を他のチャネル特有のディシジョンエンジンと共有することにより、web／モバイルのパーソナライズ機能のためのインバウンドチャネルなどのその他のインタラクションチャネルとも統合できます。カスタマージャーニーに使用するべきアプリケーションとデプロイメントオプションには様々な要因が含まれますが、顧客がエンゲージするときに顧客に反応する（トリガーされる）方法、または顧客がエンゲージするときに顧客グループに反応する（スケジュール設定）方法の 2 つに大別できます。
+Adobe Journey OptimizerとAdobe Campaign v8 はどちらも、カスタマーエンゲージメントのために、次の 2 つの基本モデルをサポートしています。
 
-現在、Adobeには、お客様がカスタマージャーニーソリューションを求める際に選択できる 2 つの選択肢があります。
+- 顧客トリガージャーニー：個々の行動とシグナルに基づいて、イベント駆動型のリアルタイムのオーケストレーションを行います。
+- ブランド主導のキャンペーン：セグメント化やビジネスロジックに基づいてオーディエンスをエンゲージメントファネルに導入する、戦略的なタイムドプッシュ。
 
-<ul><li>Adobe [!DNL Campaign] Managed Cloud Services</li><li>Adobe Journey Optimizer</li></ul>
+どちらのソリューションも、従来のチャネルとデジタルチャネルの間でのアウトバウンド通信を可能にします。 AJOは、オーディエンス状態の共有および意思決定サービスを通じて、インバウンドチャネル（web やモバイルアプリなど）との統合もサポートしており、統合されたクロスチャネルパーソナライゼーションが可能になります。
+
+これらのツールの選択は、待ち時間の許容値、チャネル要件、データ統合戦略、スケーラビリティなどのアーキテクチャに関する考慮事項によって異なります。
+
+<br>
 
 | ブループリント | 説明 | アーキテクチャ |
-|---|---|---|
-| **[Journey Optimizer](journey-optimizer.md)** | [!DNL Experience Platforms] リアルタイム顧客プロファイルの上にネイティブに構築されているため、マーケティングチームは、顧客の行動を変更するためにリアルタイムで反応し、いつでも任意のチャネルのどこにいても対応できます | <img src="assets/ajo-architecture.svg" alt="Journey Optimizer ブループリントの参照アーキテクチャ" style="width:75%; border:1px solid #4a4a4a" class="modal-image" /> |
-| **[Adobe [!DNL Campaign] v8](campaign-v8.md)** | 非常に複雑なデータ管理とキャンペーンプロセスに最適化された、次世代キャンペーンツール。Discover と組み合わせ、顧客が豊富なマーケティングキャンペーンコミュニケーションを作成できます | <img src="assets/campaign-v8-architecture.svg" alt="Campaign v8 ブループリントの参照アーキテクチャ" style="width:75%; border:1px solid #4a4a4a" class="modal-image" /> |
-| **[Adobe [!DNL Campaign] v7](campaign-v7.md)** | 電子メール、SMS、ダイレクトメールなど、複数のチャネルをまたいだバッチベースのマーケティングキャンペーン用に構築された、従来のキャンペーンツールです。顧客は 1 か所で様々な顧客コミュニケーションを調整および管理できます。 | <img src="assets/campaign-v7-architecture.svg" alt="Campaign v7 ブループリントの参照アーキテクチャ" style="width:75%; border:1px solid #4a4a4a" class="modal-image" /> |
+|---|---|:---:|
+| **[Adobe Journey Optimizer](journey-optimizer/journey-optimizer-overview.md)** | イベントドリブン型の 1:1 プロファイルオーケストレーションと、メール、SMS、web、プッシュ、アプリ内メッセージ、デスクトップなど、複数のチャネルをまたいだオーディエンスベースのブランドコミュニケーションを組み合わせます。 | <img src="journey-optimizer/images/ajo-architecture.svg" alt="Journey Optimizer ブループリントの参照アーキテクチャ" style="width:75%; border:1px solid #4a4a4a" class="modal-image" /> |
+| **[Adobe [!DNL Campaign] v8](campaign-v8/campaign-v8-overview.md)** | バッチベースのマルチチャネルキャンペーン管理に重点を置いており、メール、SMS、ダイレクトメールなどの従来のマーケティングチャネルに最適です。 | <img src="campaign-v8/images/campaign-v8-architecture.svg" alt="Campaign v8 ブループリントの参照アーキテクチャ" style="width:75%; border:1px solid #4a4a4a" class="modal-image" /> |
+
+<br>
+
+## 非推奨のブループリント
+
+| ブループリント | アーキテクチャ |
+|---|:---:|
+| **[Adobe [!DNL Campaign] v7](campaign-v7/campaign-v7-overview.md)** | <img src="campaign-v7/images/campaign-v7-architecture.svg" alt="Campaign v7 ブループリントの参照アーキテクチャ" style="width:50%; border:1px solid #4a4a4a" class="modal-image" /> |
