@@ -41,9 +41,9 @@ Adobe [!DNL Experience Platform] とそのリアルタイム顧客プロファ�
 
 ### Real-Time Customer Data Platform セグメントの共有
 
-* 詳しくは、RTCDP [!DNL Campaign] 宛先コネクタ - [RTCDP Campaign 接続 ](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/email-marketing/adobe-campaign-managed-services.html?lang=ja) を参照してください。
+* 詳しくは、RTCDP [!DNL Campaign] 宛先コネクタ - [RTCDP Campaign 接続 &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/email-marketing/adobe-campaign-managed-services.html?lang=ja) を参照してください。
 
-* [ およびセグメント化のデフォルトガードレール  [!DNL Real-Time Customer Profile Data]  を参照してください ](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=ja)
+* [&#x200B; およびセグメント化のデフォルトガードレール  [!DNL Real-Time Customer Profile Data]  を参照してください &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=ja)
 
 ## 実装手順
 
@@ -69,8 +69,8 @@ Adobe [!DNL Experience Platform] とそのリアルタイム顧客プロファ�
 
 #### ソース／宛先
 
-1. [Experience Platformおよび  [!DNL Campaign]  標準のソースと宛先 ](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/adobe-experience-platform/aep-sources-destinations/get-started-sources-destinations.html?lang=ja)
-1. [Experience Platformおよび  [!DNL Campaign] v7 のソースと宛先 ](https://experienceleague.adobe.com/docs/campaign-classic/using/integrating-with-adobe-experience-cloud/aep-sources-destinations/get-started-sources-destinations.html?lang=ja)
+1. [Experience Platformおよび  [!DNL Campaign]  標準のソースと宛先 &#x200B;](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/adobe-experience-platform/aep-sources-destinations/get-started-sources-destinations.html?lang=ja)
+1. [Experience Platformおよび  [!DNL Campaign] v7 のソースと宛先 &#x200B;](https://experienceleague.adobe.com/docs/campaign-classic/using/integrating-with-adobe-experience-cloud/aep-sources-destinations/get-started-sources-destinations.html?lang=ja)
 1. ストリーミング API およびソースコネクタを使用して、[Experience Platform にデータを取り込みます。](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2020.1.dataingestion&lang=ja)
 1. Adobe [!DNL Azure][!DNL Campaign] 使用する BLOB ストレージの宛先を設定します。
 
@@ -103,7 +103,7 @@ Adobe [!DNL Experience Platform] とそのリアルタイム顧客プロファ�
    * アドビタグとデータ収集に関する実務知識が必要です
    * SDK のデプロイ、FCM（Android）および APNS（iOS）との統合によるプッシュトークンの取得、プッシュ通知を受け取るためのアプリの設定、プッシュインタラクションの処理など、Android および iOS でのプッシュ通知に関するモバイル開発経験が必要です。
 * [!DNL Campaign] Mobile SDK
-   * [Campaign Classic SDK ドキュメントを参照してください ](https://developer.adobe.com/client-sdks/solution/adobe-campaign-classic/)
+   * [Campaign Classic SDK ドキュメントを参照してください &#x200B;](https://developer.adobe.com/client-sdks/solution/adobe-campaign-classic/)
 
 >[!IMPORTANT]
 >
@@ -111,8 +111,8 @@ Adobe [!DNL Experience Platform] とそのリアルタイム顧客プロファ�
 
 ## 関連ドキュメント
 
-* [Adobe [!DNL Experience Platform]  ドキュメント ](https://experienceleague.adobe.com/docs/experience-platform.html?lang=ja)
-* [[!DNL Campaign Classic]  ドキュメント ](https://experienceleague.adobe.com/docs/campaign-classic.html?lang=ja)
-* [[!DNL Campaign Standard]  ドキュメント ](https://experienceleague.adobe.com/docs/campaign-standard.html?lang=ja)
-* [[!DNL Experience Platform] Launch ドキュメント ](https://experienceleague.adobe.com/docs/launch.html?lang=ja)
-* [[!DNL Experience Platform] Mobile SDKのドキュメント ](https://experienceleague.adobe.com/docs/mobile.html?lang=ja)
+* [Adobe [!DNL Experience Platform]  ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/experience-platform.html?lang=ja)
+* [[!DNL Campaign Classic]  ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/campaign-classic.html?lang=ja)
+* [[!DNL Campaign Standard]  ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/campaign-standard.html?lang=ja)
+* [[!DNL Experience Platform] Launch ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/launch.html?lang=ja)
+* [[!DNL Experience Platform] Mobile SDKのドキュメント &#x200B;](https://experienceleague.adobe.com/docs/mobile.html?lang=ja)

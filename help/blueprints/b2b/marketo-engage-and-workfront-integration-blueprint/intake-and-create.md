@@ -22,7 +22,7 @@ Workfront と Marketo Engage を使用すると、システム間接続により
 以下のワークフローは、キャンペーンマネージャーが Workfront リクエストフォームを使用して行うウェビナーのリクエストを示しています。続いて、リクエストで送信された詳細により、Marketo Engage でウェビナー用に作成されるプログラムとメールがトリガーされます。さらに、メールのコンテンツを入力するための詳細がリクエストフォームから取得されます。
 さらに、リクエストフォームから詳細が取得され、メールのコンテンツが入力されます。
 
-![ 取り込みとブループリントの作成 ](assets/intake-and-create-1.png){zoomable="yes"}
+![&#x200B; 取り込みとブループリントの作成 &#x200B;](assets/intake-and-create-1.png){zoomable="yes"}
 
 >[!TIP]
 >
@@ -102,7 +102,7 @@ Marketo Engage のプログラムテンプレートを使用してセンター�
 
 Marketo Engage では、トークンを使用してコンテンツをキャンペーンアセットに入力することができます。例えば、センターオブエクセレンスからメールテンプレートを複製した後、Workfront Fusion は Workfront のキャンペーンリクエストから詳細を取得し、Marketo Engage プログラムのマイトークンに渡すことができます。その後、トークンの値をメールに直接継承して、メールを構築することができます。
 
-![ トークンを使用したコンテンツ図の入力 ](assets/intake-and-create-2.png){zoomable="yes"}
+![&#x200B; トークンを使用したコンテンツ図の入力 &#x200B;](assets/intake-and-create-2.png){zoomable="yes"}
 
 ### AEM Assets から画像を入力 {#populate-images-from-aem-assets}
 

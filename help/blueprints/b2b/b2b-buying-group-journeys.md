@@ -48,7 +48,7 @@ Journey Optimizer B2B editionが提供する強化された B2B 機能により�
 
 次の図に示すように、フォームまたは LinkedIn アクティベーションを通じて詳細を収集し、チャットボットとのインタラクションが発生した場合のソリューションインテントを確認できます。
 
-![ 購入グループジャーニー ](./assets/buying-group-journey-diagram.svg){zoomable="yes"}
+![&#x200B; 購入グループジャーニー &#x200B;](./assets/buying-group-journey-diagram.svg){zoomable="yes"}
 
 購入グループの完了率が十分に高い場合は、SQL または SOL を使用してグループを営業チームに共有し、アカウント内のリードを完了済みの販売に変換します。
 
@@ -78,15 +78,15 @@ _このソリューションを導入するには、「アカウント_ およ�
 
 ### アーキテクチャ
 
-![ 購入グループベースのマーケティングおよびジャーニー管理のためのソリューションアーキテクチャ ](./assets/ajo-b2b-architecture.png){zoomable="yes"}
+![&#x200B; 購入グループベースのマーケティングおよびジャーニー管理のためのソリューションアーキテクチャ &#x200B;](./assets/ajo-b2b-architecture.png){zoomable="yes"}
 
 ### データスキーマ
 
-データ駆動型マーケティング自動化の実装では、スキーマの設計は実装を成功させるために重要です。 スキーマを設計する前に、[B2B 名前空間とスキーマを確認し ](https://experienceleague.adobe.com/ja/docs/experience-platform/sources/connectors/adobe-applications/marketo/marketo-namespaces) 新しい実装シナリオで新しいスキーマを生成するために使用できる自動生成ユーティリティについて理解していることを確認してください。
+データ駆動型マーケティング自動化の実装では、スキーマの設計は実装を成功させるために重要です。 スキーマを設計する前に、[B2B 名前空間とスキーマを確認し &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/sources/connectors/adobe-applications/marketo/marketo-namespaces) 新しい実装シナリオで新しいスキーマを生成するために使用できる自動生成ユーティリティについて理解していることを確認してください。
 
 プロファイルの豊富な関係をサポートし、イベントとプロファイルをアカウントスキーマに結び付ける `sourceKey` ールを通じてアカウントの観点を含むために、スキーマには B2B データ要素が具体的に使用されます。 スキーマは、組織の要件、および収集されプロファイルされたデータを表すものです。 これらのニーズを満たすために、B2B スキーマは柔軟で、必要な B2B 要素の拡張機能です。
 
-組織のデータスキーマを設計する際には、ERD のメインエンティティを表現し、高レベルのエンティティにラベルを付けることがベストプラクティスです。 （[RTCDP B2B スキーマのドキュメントの最初の図を参照してください ](https://experienceleague.adobe.com/ja/docs/experience-platform/xdm/tutorials/relationship-b2b)）。 このプロセスは、各スキーマで定義する必要がある必須のデータ要素を理解するのに非常に役立ちます。
+組織のデータスキーマを設計する際には、ERD のメインエンティティを表現し、高レベルのエンティティにラベルを付けることがベストプラクティスです。 （[RTCDP B2B スキーマのドキュメントの最初の図を参照してください &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/xdm/tutorials/relationship-b2b)）。 このプロセスは、各スキーマで定義する必要がある必須のデータ要素を理解するのに非常に役立ちます。
 
 この段階では、エクスペリエンスイベントはまだジャーニーに影響を与えることができません。 エクスペリエンスイベントスキーマに加えて、ユーザーアクティビティに基づく主要な決定を表すプロパティをアカウントに追加することをお勧めします。 これらのプロパティは、ジャーニーデザイナーの分割パス要素に使用されます。
 
@@ -98,15 +98,15 @@ _このソリューションを導入するには、「アカウント_ およ�
 
 アカウントデータ要素を強化するには、Marketo Engageとその B2B データを使用して、RTCDPおよびJourney Optimizer B2B editionのアカウントビューを強化します。 Marketo Engage Source Connector を設定し、Marketo Engage データをRTCDP スキーマ属性にマッピングすると、Marketo EngageからRTCDPに、また指定されている場合はプロファイルにデータを送ることができます。
 
-コネクタ設定およびスキーマへの必須フィールドマッピングについて詳しくは、[Marketo Engage コネクタのドキュメント ](https://experienceleague.adobe.com/ja/docs/experience-platform/sources/connectors/adobe-applications/marketo/marketo) を参照してください。
+コネクタ設定およびスキーマへの必須フィールドマッピングについて詳しくは、[Marketo Engage コネクタのドキュメント &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/sources/connectors/adobe-applications/marketo/marketo) を参照してください。
 
 ### ガードレール
 
-Journey Optimizer B2B editionのガードレールについて詳しくは、[ 製品説明ページ ](https://helpx.adobe.com/jp/legal/product-descriptions/adobe-journey-optimizer-b2b.html) を参照してください。
+Journey Optimizer B2B editionのガードレールについて詳しくは、[&#x200B; 製品説明ページ &#x200B;](https://helpx.adobe.com/jp/legal/product-descriptions/adobe-journey-optimizer-b2b.html) を参照してください。
 
 実装に関連するガードレール
 
-* すべての B2B オーディエンスガードレールは、[B2B オーディエンスとプロファイルアクティベーションのブループリントに記載されており ](https://experienceleague.adobe.com/ja/docs/blueprints-learn/architecture/b2b-activation/b2bactivation)Journey Optimizer B2B editionの成功に直接転置されます。
+* すべての B2B オーディエンスガードレールは、[B2B オーディエンスとプロファイルアクティベーションのブループリントに記載されており &#x200B;](https://experienceleague.adobe.com/ja/docs/blueprints-learn/architecture/b2b-activation/b2bactivation)Journey Optimizer B2B editionの成功に直接転置されます。
 * アカウントジャーニーのMarketo Engage チャネルを通じてアクティベーションが必要な場合、または CRM 同期を使用してアカウントをエンリッチメントする場合 [0&rbrace;Marketo Engage関連のガードレール &rbrace; が関連します。](https://helpx.adobe.com/jp/legal/product-descriptions/adobe-marketo-engage---product-description.html#performance-guardrails)
 
 RTCDP ガードレールについて詳しくは [&#128279;](https://experienceleague.adobe.com/ja/docs/experience-platform/rtcdp/guardrails/overview)Real-Time CDP ガードレールのドキュメント &rbrace; を参照してください。
@@ -125,18 +125,18 @@ RTCDP ガードレールについて詳しくは [&#128279;](https://experiencel
 
 1. アカウントとリードのビジネスビューを表す XDM スキーマを定義します。
 
-   最初の手順として、B2B のユースケースのニーズに合わせて設計され、データソースをバッチおよびリアルタイムの両方でカバーするエクスペリエンススキーマを定義し作成します。 このデザインは、アカウントや人物のエンティティに関するビジネスの考え方や、サポートするユースケースを表している必要があります。 スキーマを B2B スキーマにするには、[RTCDP B2B スキーマのドキュメント ](https://experienceleague.adobe.com/ja/docs/experience-platform/xdm/tutorials/relationship-b2b) に記載されている構造に従う必要があります。
+   最初の手順として、B2B のユースケースのニーズに合わせて設計され、データソースをバッチおよびリアルタイムの両方でカバーするエクスペリエンススキーマを定義し作成します。 このデザインは、アカウントや人物のエンティティに関するビジネスの考え方や、サポートするユースケースを表している必要があります。 スキーマを B2B スキーマにするには、[RTCDP B2B スキーマのドキュメント &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/xdm/tutorials/relationship-b2b) に記載されている構造に従う必要があります。
 
    便利な方法は、図からエンティティ名を取得し、同じ方法でラベルを付けてスキーマ内のそれらのエンティティを識別することです。 一部のスキーマでは、RTCDP B2B で機能するために `sourceKey` などの特定のキーが必要です。 短期的に言えば、Journey Optimizer B2B では、アカウント人物関係を通じたアカウントと人物の間の _多対多_ 関係はサポートされていません。 最適な出発点として、アクセラレータスクリプトを使用します。
 
-   * [RTCDP B2B スキーマ作成スクリプト ](https://github.com/adobe/experience-platform-postman-samples/tree/master/Postman%20Collections/CDP%20Namespaces%20and%20Schemas%20Utility) を使用して、初期スキーマを生成します
+   * [RTCDP B2B スキーマ作成スクリプト &#x200B;](https://github.com/adobe/experience-platform-postman-samples/tree/master/Postman%20Collections/CDP%20Namespaces%20and%20Schemas%20Utility) を使用して、初期スキーマを生成します
    * 組織のニーズに合わせてスキーマを完成させるために生成されたスキーマに、ユースケース固有のフィールドを追加します。
 
    この段階では、Marketo EngageとRTCDP間の接続があり、アカウントセグメントのデータセットに入力するアカウントおよび人物データを受け入れるスキーマ構造が定義されています。 次の手順では、RTCDPをMarketo EngageおよびJourney Optimizer B2B editionと接続します。
 
 1. Marketo Engageから XDM 構造へのマッピングを含め、Marketo Engage コネクタを設定します。
 
-   XDM 構造とフィールドを設定したら、コネクタを使用してMarketo EngageをRTCDPに接続します。これにより、Marketo EngageとJourney Optimizer B2B のデータでデータセットがフィードされます。 まず、Marketo EngageからRTCDP クラスへのフィールドのマッピングを構成します。 [ コネクタドキュメント ](https://experienceleague.adobe.com/ja/docs/experience-platform/sources/connectors/adobe-applications/marketo/marketo#field-mapping-from-marketo-engage-to-xdm) の情報を使用して、Marketo Engage実装から含めるフィールドを特定します。
+   XDM 構造とフィールドを設定したら、コネクタを使用してMarketo EngageをRTCDPに接続します。これにより、Marketo EngageとJourney Optimizer B2B のデータでデータセットがフィードされます。 まず、Marketo EngageからRTCDP クラスへのフィールドのマッピングを構成します。 [&#x200B; コネクタドキュメント &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/sources/connectors/adobe-applications/marketo/marketo#field-mapping-from-marketo-engage-to-xdm) の情報を使用して、Marketo Engage実装から含めるフィールドを特定します。
 
 ### 購買グループ構成
 
@@ -144,7 +144,7 @@ RTCDP ガードレールについて詳しくは [&#128279;](https://experiencel
 
    Customer → Audiences →の参照ページで「すべてのオーディエンスをスケジュールする」オプションを有効にして、アカウントオーディエンスを有効にします。 （これが機能しない場合は、アカウントオーディエンスを作成できるように、顧客プロファイルセグメントを作成する必要があります）。
 
-   セグメントを作成するには、[ アカウントオーディエンスドキュメント ](https://experienceleague.adobe.com/ja/docs/journey-optimizer-b2b/user/account-audiences/account-audience-overview) の手順に従います。 アカウントオーディエンスのキーとして特定したデータフィールドでのセグメントビルダーの使用は、オーディエンスを定義する際の主要なアクティビティになります。
+   セグメントを作成するには、[&#x200B; アカウントオーディエンスドキュメント &#x200B;](https://experienceleague.adobe.com/ja/docs/journey-optimizer-b2b/user/account-audiences/account-audience-overview) の手順に従います。 アカウントオーディエンスのキーとして特定したデータフィールドでのセグメントビルダーの使用は、オーディエンスを定義する際の主要なアクティビティになります。
 
    この段階では、アカウントがRTCDPを通じてに焦点を当て、購入グループの構成要素にを使用することを知っています。
 
@@ -152,21 +152,21 @@ RTCDP ガードレールについて詳しくは [&#128279;](https://experiencel
 
    各購入グループで、対処するグループにおける個人の役割を表す役割を特定します。 例えば、_decision maker_、_influencer_、および _champion_ を使用できます。 また、この役割の重み付けと条件を購入グループで定義します。
 
-   このプロセスと特別な条件の定義方法については、[ 役割テンプレートのドキュメント ](https://experienceleague.adobe.com/ja/docs/journey-optimizer-b2b/user/buying-groups/buying-groups-role-templates) を参照してください。
+   このプロセスと特別な条件の定義方法については、[&#x200B; 役割テンプレートのドキュメント &#x200B;](https://experienceleague.adobe.com/ja/docs/journey-optimizer-b2b/user/buying-groups/buying-groups-role-templates) を参照してください。
 
 1. ソリューションの関心を定義します。
 
    ソリューションへの関心は、マーケティング活動や戦略に対する購買グループのフォーカスを示す方法です。
 
-   ソリューションの関心を定義するには、[ ソリューションの関心に関するドキュメント ](https://experienceleague.adobe.com/ja/docs/journey-optimizer-b2b/user/buying-groups/solution-interests) の手順に従ってください。 購買グループを組織内の営業構想に照合するために使用します。
+   ソリューションの関心を定義するには、[&#x200B; ソリューションの関心に関するドキュメント &#x200B;](https://experienceleague.adobe.com/ja/docs/journey-optimizer-b2b/user/buying-groups/solution-interests) の手順に従ってください。 購買グループを組織内の営業構想に照合するために使用します。
 
 1. 購入グループを設定します。
 
    購入グループの構成要素の準備が整ったら、ソリューションの興味とアカウントオーディエンスの購入グループをターゲットで設定し、アカウントの適切なメンバーで役割テンプレートを完了させます。 この設定では、特定した役割テンプレートにソリューションの関心を割り当て、その特定の製品のセールス成功に各役割に重みを付けます。
 
-   購入グループを作成するには、[ 購入グループのドキュメント ](https://experienceleague.adobe.com/ja/docs/journey-optimizer-b2b/user/buying-groups/buying-groups-create) の手順に従います。
+   購入グループを作成するには、[&#x200B; 購入グループのドキュメント &#x200B;](https://experienceleague.adobe.com/ja/docs/journey-optimizer-b2b/user/buying-groups/buying-groups-create) の手順に従います。
 
-   この段階では、[ ジャーニーを作成 ](https://experienceleague.adobe.com/ja/docs/journey-optimizer-b2b/user/account-journeys/journey-overview#get-started-with-a-journey) して、アカウントオーディエンスとの連携を開始し、購入グループを構築してソリューションの利益に適合させる準備が整います。
+   この段階では、[&#x200B; ジャーニーを作成 &#x200B;](https://experienceleague.adobe.com/ja/docs/journey-optimizer-b2b/user/account-journeys/journey-overview#get-started-with-a-journey) して、アカウントオーディエンスとの連携を開始し、購入グループを構築してソリューションの利益に適合させる準備が整います。
 
 ### Audience Activation
 
@@ -176,7 +176,7 @@ RTCDP ガードレールについて詳しくは [&#128279;](https://experiencel
 
    Journey Optimizer B2B editionは、メールやフォームの入力アクティビティに加えて、LinkedIn Ad 機能を提供してアカウントの幅を広げ、アカウントリードの幅を広げてマーケティングアクティビティのリーチを上げることで、購入グループの達成に向けた取り組みをサポートします。
 
-   購入グループの完了や関与が十分でないアカウントとのコミュニケーションに LinkedIn 有料メディアを使用するには、アカウントオーディエンスを拡張または関与させ、[LinkedIn Account Matched Audiences 機能 ](https://experienceleague.adobe.com/ja/docs/journey-optimizer-b2b/user/account-audiences/linkedin-account-matched-audiences) を使用して、Account Matched Audiences を通じて LinkedIn 広告オーディエンスを生成します。
+   購入グループの完了や関与が十分でないアカウントとのコミュニケーションに LinkedIn 有料メディアを使用するには、アカウントオーディエンスを拡張または関与させ、[LinkedIn Account Matched Audiences 機能 &#x200B;](https://experienceleague.adobe.com/ja/docs/journey-optimizer-b2b/user/account-audiences/linkedin-account-matched-audiences) を使用して、Account Matched Audiences を通じて LinkedIn 広告オーディエンスを生成します。
 
 1. 購入グループのオーディエンスを有効化します。
 

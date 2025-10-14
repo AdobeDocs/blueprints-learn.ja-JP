@@ -29,7 +29,7 @@ ht-degree: 63%
 
 ## ガードレール
 
-* データサイエンスの結果を [!DNL Experience Platform] およびリアルタイム顧客プロファイルに取り込む際のガードレールとエンドツーエンドの待ち時間について詳しくは、[ デプロイメントガードレールのドキュメント ](../experience-platform/guardrails.md) で参照されているデータ取り込みガードレールと待ち時間の図を参照してください。
+* データサイエンスの結果を [!DNL Experience Platform] およびリアルタイム顧客プロファイルに取り込む際のガードレールとエンドツーエンドの待ち時間について詳しくは、[&#x200B; デプロイメントガードレールのドキュメント &#x200B;](../experience-platform/guardrails.md) で参照されているデータ取り込みガードレールと待ち時間の図を参照してください。
 
 ## 実装に関する考慮事項
 
@@ -38,8 +38,8 @@ ht-degree: 63%
 
 ## 関連ドキュメント
 
-* [Adobe [!DNL Experience Platform] Intelligence 製品の説明 ](https://helpx.adobe.com/jp/legal/product-descriptions/adobe-experience-platform-intelligence---product-description.html)
-* [Adobe [!DNL Experience Platform]  クエリサービス ](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=ja)
+* [Adobe [!DNL Experience Platform] Intelligence 製品の説明 &#x200B;](https://helpx.adobe.com/jp/legal/product-descriptions/adobe-experience-platform-intelligence---product-description.html)
+* [Adobe [!DNL Experience Platform]  クエリサービス &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=ja)
 
 ## 関連するブログ投稿
 

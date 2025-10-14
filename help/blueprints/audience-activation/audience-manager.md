@@ -34,7 +34,7 @@ Audience Manager と Real-time Customer Data Platform の両方を活用して�
 
 ## アーキテクチャ
 
-![ 匿名Audience Activation ブループリントのリファレンスアーキテクチャ ](assets/anonymous_activation.svg)
+![&#x200B; 匿名Audience Activation ブループリントのリファレンスアーキテクチャ &#x200B;](assets/anonymous_activation.svg)
 
 <br>
 

@@ -32,7 +32,7 @@ ht-degree: 5%
 
 ## アーキテクチャ
 
-![B2B アカウントAudience Activationブループリントのリファレンスアーキテクチャ ](assets/b2b-blueprint-account-audience-activation.png)
+![B2B アカウントAudience Activationブループリントのリファレンスアーキテクチャ &#x200B;](assets/b2b-blueprint-account-audience-activation.png)
 
 ## アカウントオーディエンスの宛先
 
@@ -55,14 +55,14 @@ ht-degree: 5%
    * 最大 30 日間のイベントルックバック。イベントの述語の順序は指定されません。
    * AND/OR がサポートされています（つまり、「A と B が発生する必要があります」）。  しかし、「A は B の 3 日前に起こらなければならない」とは言えません）。
 * クラウドストレージの宛先の場合、書き出しスケジュールでは、「セグメントの評価後」オプションがサポートされます。
-* [B2B プロファイルおよびセグメント化ガードレール ](https://experienceleague.adobe.com/ja/docs/experience-platform/rtcdp/intro/rtcdpb2b-intro/b2b-guardrails).
+* [B2B プロファイルおよびセグメント化ガードレール &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/rtcdp/intro/rtcdpb2b-intro/b2b-guardrails).
 
 ## Real-time Customer Data Platform B2B Edition、アカウントオーディエンスの作成およびアクティベーションの実装手順
 
-* Real-time Customer Data Platform B2B Edition の実装手順については、[Real-time Customer Data Platform B2B Edition の概要 ](https://experienceleague.adobe.com/ja/docs/experience-platform/rtcdp/intro/rtcdpb2b-intro/b2b-tutorial) ドキュメントを参照してください。
-* アカウントオーディエンスの作成手順については、[ アカウントオーディエンス ](https://experienceleague.adobe.com/ja/docs/experience-platform/segmentation/ui/account-audiences) のドキュメントを参照してください。
-* アカウントAudience Activationの手順については、[ アカウントオーディエンスのアクティブ化 ](https://experienceleague.adobe.com/ja/docs/experience-platform/destinations/ui/activate/activate-account-audiences) ドキュメントを参照してください。
-   * [ （会社）LinkedInでマッチしたオーディエンスの宛先 ](https://experienceleague.adobe.com/ja/docs/experience-platform/destinations/ui/activate/activate-account-audiences#required-mappings) に必須のマッピング。
+* Real-time Customer Data Platform B2B Edition の実装手順については、[Real-time Customer Data Platform B2B Edition の概要 &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/rtcdp/intro/rtcdpb2b-intro/b2b-tutorial) ドキュメントを参照してください。
+* アカウントオーディエンスの作成手順については、[&#x200B; アカウントオーディエンス &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/segmentation/ui/account-audiences) のドキュメントを参照してください。
+* アカウントAudience Activationの手順については、[&#x200B; アカウントオーディエンスのアクティブ化 &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/destinations/ui/activate/activate-account-audiences) ドキュメントを参照してください。
+   * [&#x200B; （会社）LinkedInでマッチしたオーディエンスの宛先 &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/destinations/ui/activate/activate-account-audiences#required-mappings) に必須のマッピング。
 
 ## 実装に関する考慮事項
 
@@ -71,7 +71,7 @@ LinkedInでマッチしたオーディエンスには、マッチしたメンバ
 ## 関連ドキュメント
 
 * [Real-time Customer Data Platform B2B エディション](https://experienceleague.adobe.com/ja/docs/experience-platform/rtcdp/intro/rtcdpb2b-intro/b2b-overview)
-* [ アカウントオーディエンスの作成と有効化チュートリアルビデオ ](https://experienceleague.adobe.com/ja/docs/platform-learn/tutorials/audiences/create-audiences-with-b2b-data)
-* [ アカウントオーディエンスの作成 ](https://experienceleague.adobe.com/ja/docs/experience-platform/segmentation/ui/account-audiences)
-* [ アカウントオーディエンスの有効化 ](https://experienceleague.adobe.com/ja/docs/experience-platform/destinations/ui/activate/activate-account-audiences)
-* [Adobe Experience Platform - LinkedIn宛先コネクタ ](https://experienceleague.adobe.com/ja/docs/experience-platform/destinations/catalog/social/linkedin)
+* [&#x200B; アカウントオーディエンスの作成と有効化チュートリアルビデオ &#x200B;](https://experienceleague.adobe.com/ja/docs/platform-learn/tutorials/audiences/create-audiences-with-b2b-data)
+* [&#x200B; アカウントオーディエンスの作成 &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/segmentation/ui/account-audiences)
+* [&#x200B; アカウントオーディエンスの有効化 &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/destinations/ui/activate/activate-account-audiences)
+* [Adobe Experience Platform - LinkedIn宛先コネクタ &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/destinations/catalog/social/linkedin)

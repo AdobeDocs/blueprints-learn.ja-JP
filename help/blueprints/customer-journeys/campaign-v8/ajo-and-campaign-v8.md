@@ -42,9 +42,9 @@ Adobe [!DNL Journey Optimizer] をAdobe [!DNL Campaign] と共にネイティブ
 
 ## ガードレール
 
-* [Journey Optimizer ガードレール製品の制限 ](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/get-started/guardrails)
+* [Journey Optimizer ガードレール製品の制限 &#x200B;](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/get-started/guardrails)
 
-* [ ガードレールとエンドツーエンドの待ち時間ガイダンス ](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/architecture-overview/guardrails.html?lang=ja)
+* [&#x200B; ガードレールとエンドツーエンドの待ち時間ガイダンス &#x200B;](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/architecture-overview/guardrails.html?lang=ja)
 
 ## 実装手順
 
@@ -70,7 +70,7 @@ Adobe [!DNL Journey Optimizer] をAdobe [!DNL Campaign] と共にネイティブ
 
 #### ソース／宛先
 
-1. ストリーミング API とソースコネクタを使用した [ データの取り込み  [!DNL Experience Platform]](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2020.1.dataingestion&lang=ja)。
+1. ストリーミング API とソースコネクタを使用した [&#x200B; データの取り込み  [!DNL Experience Platform]](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2020.1.dataingestion&lang=ja)。
 
 ### Journey Optimizer
 
@@ -83,7 +83,7 @@ Adobe [!DNL Journey Optimizer] をAdobe [!DNL Campaign] と共にネイティブ
 
 * メッセージテンプレートは、適切なパーソナライゼーションコンテキストで設定する必要があります。
 * 標準 [!DNL Campaign] 場合：トランザクションメッセージログをExperience Platformにエクスポートするようにエクスポートワークフローを設定する必要があります。 最大 4 時間ごとに実行することをお勧めします。
-* [!DNL Campaign] v8.4 では、Experience PlatformのAdobe [!DNL Campaign] Managed Services Source コネクタを利用して、Campaign からの配信イベントとトラッキングイベントをExperience Platformに同期することができます。 詳しくは、[Source コネクタ ](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=ja) ドキュメントを参照してください。
+* [!DNL Campaign] v8.4 では、Experience PlatformのAdobe [!DNL Campaign] Managed Services Source コネクタを利用して、Campaign からの配信イベントとトラッキングイベントをExperience Platformに同期することができます。 詳しくは、[Source コネクタ &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=ja) ドキュメントを参照してください。
 
 ### モバイルプッシュ設定（オプション）
 
@@ -94,7 +94,7 @@ Adobe [!DNL Journey Optimizer] をAdobe [!DNL Campaign] と共にネイティブ
    * [!DNL Edge Network] の ID
    * モバイルコア
 1. Web デプロイメントではなく、モバイルアプリのデプロイメントに専用のデータストリームがあることを確認します。
-1. 詳しくは、[Adobe Journey Optimizer モバイルガイド ](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/push-notification/) を参照してください。
+1. 詳しくは、[Adobe Journey Optimizer モバイルガイド &#x200B;](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/push-notification/) を参照してください。
 
    >[!IMPORTANT]
    >Journey Optimizer 経由でリアルタイムの通信を送信し、Campaign 経由でバッチプッシュ通知を送信する場合、Journey Optimizer と Campaign の両方でモバイルトークンを収集する必要が生じる場合があります。Campaign v8 では、プッシュトークンをキャプチャするために Campaign SDK を排他的に使用する必要があります。

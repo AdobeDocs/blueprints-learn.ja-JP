@@ -45,7 +45,7 @@ Adobe Journey Optimizer を Adobe Campaign と併用し、Campaign のリアル�
 
 [Journey Optimizer ガードレール製品リンク](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/get-started/guardrails)
 
-[ ガードレールとエンドツーエンドの待ち時間のガイダンス ](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/architecture-overview/guardrails.html?lang=ja)
+[&#x200B; ガードレールとエンドツーエンドの待ち時間のガイダンス &#x200B;](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/architecture-overview/guardrails.html?lang=ja)
 
 ## 実装手順
 

@@ -46,15 +46,15 @@ ht-degree: 32%
 
 アーキテクチャ
 
-![ オンライン/オフラインの Web Personalization ブループリントのリファレンスアーキテクチャ ](assets/RTCDP+Target.svg)
+![&#x200B; オンライン/オフラインの Web Personalization ブループリントのリファレンスアーキテクチャ &#x200B;](assets/RTCDP+Target.svg)
 
 シーケンスの詳細
 
-![ オンライン/オフラインの Web Personalization ブループリントのリファレンスアーキテクチャ ](assets/RTCDP+Target_flow.svg)
+![&#x200B; オンライン/オフラインの Web Personalization ブループリントのリファレンスアーキテクチャ &#x200B;](assets/RTCDP+Target_flow.svg)
 
 概要アーキテクチャ
 
-![ オンライン/オフラインの Web Personalization ブループリントのリファレンスアーキテクチャ ](assets/personalization_with_apps.svg)
+![&#x200B; オンライン/オフラインの Web Personalization ブループリントのリファレンスアーキテクチャ &#x200B;](assets/personalization_with_apps.svg)
 
 ## 実装パターン
 
@@ -63,16 +63,16 @@ ht-degree: 32%
 ### 実装パターン 1 - Web/モバイルSDKまたは [!DNL Edge Network] API を使用した [!DNL Edge Network] ール（推奨アプローチ）
 
 * Web/モバイルSDKでの [!DNL Edge Network] の使用。 リアルタイムのエッジセグメント化には、Web／Mobile SDK または Edge API 実装アプローチが必要です。
-* SDK ベースの実装については、[Experience Platform Web およびモバイル SDK ブループリントを参照 ](../experience-platform/deployment/websdk.md) してください。
-* Mobile SDKで使用するには、[Adobe Journey Optimizer - Decisioning 拡張機能 ](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer-decisioning/) をインストールする必要があります。
+* SDK ベースの実装については、[Experience Platform Web およびモバイル SDK ブループリントを参照 &#x200B;](../experience-platform/deployment/websdk.md) してください。
+* Mobile SDKで使用するには、[Adobe Journey Optimizer - Decisioning 拡張機能 &#x200B;](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer-decisioning/) をインストールする必要があります。
 * [Edge プロファイルを使用したAdobe Targetの API ベースの実装については、 [!DNL Edge Network] Server API](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/overview.html?lang=ja) を参照してください。
 
 ### 実装パターン 2 - アプリケーション固有の SDK
 
 従来のアプリケーション固有の SDK（AT.js や AppMeasurement.js など）を使用。リアルタイムエッジセグメント評価は、この実装方法ではサポートされていません。ただし、この実装アプローチでは、Experience Platform ハブからのストリーミングおよびバッチオーディエンス共有がサポートされます。
 
-[Adobe Target Connector ドキュメントを参照してください ](https://experienceleague.adobe.com/ja/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection)
-[ アプリケーション固有のSDK ブループリントを参照 ](../experience-platform/deployment/appsdk.md)
+[Adobe Target Connector ドキュメントを参照してください &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection)
+[&#x200B; アプリケーション固有のSDK ブループリントを参照 &#x200B;](../experience-platform/deployment/appsdk.md)
 
 ## 実装に関する考慮事項
 

@@ -35,16 +35,16 @@ Adobe Journey Optimizer ジャーニーは、個々の顧客の行動に基づ�
 
 ## ガードレール
 
-[[!DNL Journey Optimizer]  ガードレール製品リンク ](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/get-started/guardrails.html)
+[[!DNL Journey Optimizer]  ガードレール製品リンク &#x200B;](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/get-started/guardrails.html)
 
-[ ガードレールとエンドツーエンドの待ち時間のガイダンス ](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/architecture-overview/deployment/guardrails.html?lang=ja)
+[&#x200B; ガードレールとエンドツーエンドの待ち時間のガイダンス &#x200B;](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/architecture-overview/deployment/guardrails.html?lang=ja)
 
 <br>
 
 ## 関連ドキュメント
 
-- [[!DNL Experience Platform]  ドキュメント ](https://experienceleague.adobe.com/docs/experience-platform.html?lang=ja)
-- [[!DNL Experience Platform]  タグのドキュメント ](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=ja)
-- [[!DNL Experience Platform Mobile SDK]  ドキュメント ](https://experienceleague.adobe.com/docs/mobile.html?lang=ja)
-- [[!DNL Journey Optimizer]  ドキュメント ](https://experienceleague.adobe.com/docs/journey-optimizer/using/ajo-home.html?lang=ja)
-- [[!DNL Journey Optimizer]  製品の説明 ](https://helpx.adobe.com/jp/legal/product-descriptions/adobe-journey-optimizer.html)
+- [[!DNL Experience Platform]  ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/experience-platform.html?lang=ja)
+- [[!DNL Experience Platform]  タグのドキュメント &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=ja)
+- [[!DNL Experience Platform Mobile SDK]  ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/mobile.html?lang=ja)
+- [[!DNL Journey Optimizer]  ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/journey-optimizer/using/ajo-home.html?lang=ja)
+- [[!DNL Journey Optimizer]  製品の説明 &#x200B;](https://helpx.adobe.com/jp/legal/product-descriptions/adobe-journey-optimizer.html)

@@ -46,17 +46,17 @@ AJO キャンペーンオーケストレーションを使用すると、マー�
 
 ## ガードレール
 
-[ 調整されたキャンペーンの製品リンク ](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/campaigns/orchestrated-campaigns/guardrails)
+[&#x200B; 調整されたキャンペーンの製品リンク &#x200B;](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/campaigns/orchestrated-campaigns/guardrails)
 
-[ ガードレールとエンドツーエンドの待ち時間のガイダンス ](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/architecture-overview/deployment/guardrails)
+[&#x200B; ガードレールとエンドツーエンドの待ち時間のガイダンス &#x200B;](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/architecture-overview/deployment/guardrails)
 
 <br>
 
 ## 関連ドキュメント
 
-- [[!DNL Journey Optimizer]  調整されたキャンペーン ](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/campaigns/orchestrated-campaigns/orchestrated-campaigns-landing-page.html)
-- [[!DNL Experience Platform]  ドキュメント ](https://experienceleague.adobe.com/docs/experience-platform.html?lang=ja)
-- [[!DNL Experience Platform]  タグのドキュメント ](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=ja)
-- [[!DNL Experience Platform Mobile SDK]  ドキュメント ](https://experienceleague.adobe.com/docs/mobile.html?lang=ja)
-- [[!DNL Journey Optimizer]  ドキュメント ](https://experienceleague.adobe.com/docs/journey-optimizer/using/ajo-home.html?lang=ja)
-- [[!DNL Journey Optimizer]  製品の説明 ](https://helpx.adobe.com/jp/legal/product-descriptions/adobe-journey-optimizer.html)
+- [[!DNL Journey Optimizer]  調整されたキャンペーン &#x200B;](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/campaigns/orchestrated-campaigns/orchestrated-campaigns-landing-page.html)
+- [[!DNL Experience Platform]  ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/experience-platform.html?lang=ja)
+- [[!DNL Experience Platform]  タグのドキュメント &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=ja)
+- [[!DNL Experience Platform Mobile SDK]  ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/mobile.html?lang=ja)
+- [[!DNL Journey Optimizer]  ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/journey-optimizer/using/ajo-home.html?lang=ja)
+- [[!DNL Journey Optimizer]  製品の説明 &#x200B;](https://helpx.adobe.com/jp/legal/product-descriptions/adobe-journey-optimizer.html)

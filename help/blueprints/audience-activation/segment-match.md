@@ -194,7 +194,7 @@ Adobe Experience Platform Segment Match は、プライバシーを中心とし�
 
 >[!ENDSHADEBOX]
 
-![ ブランドとパブリッシャー間のワークフローを示す図。](./assets/segment-match-blueprints.png)
+![&#x200B; ブランドとパブリッシャー間のワークフローを示す図。](./assets/segment-match-blueprints.png)
 
 >[!IMPORTANT]
 >

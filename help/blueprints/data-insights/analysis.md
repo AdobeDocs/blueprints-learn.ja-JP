@@ -42,5 +42,5 @@ ht-degree: 50%
 
 ## 関連ドキュメント
 
-* [Adobe [!DNL Experience Platform] Intelligence 製品の説明 ](https://helpx.adobe.com/jp/legal/product-descriptions/adobe-experience-platform-intelligence---product-description.html)
+* [Adobe [!DNL Experience Platform] Intelligence 製品の説明 &#x200B;](https://helpx.adobe.com/jp/legal/product-descriptions/adobe-experience-platform-intelligence---product-description.html)
 * [[!UICONTROL クエリサービス]ドキュメント](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=ja)

@@ -47,7 +47,7 @@ Adobe Campaign v8 は、メールやダイレクトメールなどの従来の�
 
 ## アーキテクチャ図
 
-[Campaign v8 デプロイメントモデル ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/architecture/architecture.html?lang=ja#ac-deployment){target="_blank"} の詳細情報。
+[Campaign v8 デプロイメントモデル &#x200B;](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/architecture/architecture.html?lang=ja#ac-deployment){target="_blank"} の詳細情報。
 
 ### Campaign Enterprise （FFDA）デプロイメント
 
@@ -113,7 +113,7 @@ Adobe Campaign v8 は、メールやダイレクトメールなどの従来の�
    - API データの読み込みのサポートは、主にデータベース内のプロファイルや単純なオブジェクトの管理（作成と更新）に使用します。大量のデータの読み込みや、バッチ操作などの操作に向けたものではありません。
    - API を使用したカスタムアプリケーション目的でのデータ読み取りはサポートされていません
    - API を介して読み込まれたデータは、アプリケーションデータベースでステージングされ、1 時間ごとにクラウドデータベースにレプリケートされます
-- API 呼び出しの制限が適用されます。 詳しくは、[Adobe Campaignの製品説明 ](https://helpx.adobe.com/jp/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target="_blank"} を参照してください。
+- API 呼び出しの制限が適用されます。 詳しくは、[Adobe Campaignの製品説明 &#x200B;](https://helpx.adobe.com/jp/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target="_blank"} を参照してください。
 
 ### バッチメッセージングサーバーのサイズ設定
 

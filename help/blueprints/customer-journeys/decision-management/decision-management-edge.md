@@ -16,7 +16,7 @@ ht-degree: 68%
 
 >[!MORELIKETHIS]
 >
->[!DNL Decision Management] について詳しくは、[ ブループリントの概要 ](decision-management-overview.md) または [ 製品ドキュメント ](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started-decision/starting-offer-decisioning.html?lang=ja) を参照してください。
+>[!DNL Decision Management] について詳しくは、[&#x200B; ブループリントの概要 &#x200B;](decision-management-overview.md) または [&#x200B; 製品ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started-decision/starting-offer-decisioning.html?lang=ja) を参照してください。
 
 [!DNL Decision Management] は、2 つの方法のいずれかでデプロイできます。 1 つ目は、単一のデータセンターアーキテクチャである [!DNL Experience Platform] Hub を介する方法です。 「ハブ」アプローチでは、オファーは 2 回目の待ち時間で実行、パーソナライズ、配信されます。したがって、ハブアーキテクチャは、1 秒未満の待ち時間を必要としない顧客体験に最適です。例えば、コールセンターや対面でのやり取りなど、キオスクやエージェント支援エクスペリエンスに提供されるオファー判定が含まれます。
 
@@ -48,7 +48,7 @@ ht-degree: 68%
 
 * 意思決定管理ガードレールについては、次の[意思決定管理製品の説明](https://helpx.adobe.com/jp/legal/product-descriptions/offer-decisioning-app-service.html)を参照してください。
 
-[ ガードレールとエンドツーエンドの待ち時間のガイダンス ](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/architecture-overview/guardrails.html?lang=ja)
+[&#x200B; ガードレールとエンドツーエンドの待ち時間のガイダンス &#x200B;](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/architecture-overview/guardrails.html?lang=ja)
 
 ## 関連ドキュメント
 
