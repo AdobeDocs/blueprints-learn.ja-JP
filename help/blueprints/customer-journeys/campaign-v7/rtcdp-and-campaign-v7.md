@@ -72,7 +72,7 @@ Adobe [!DNL Experience Platform] とそのリアルタイム顧客プロファ�
 1. [Experience Platformおよび  [!DNL Campaign]  標準のソースと宛先 &#x200B;](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/adobe-experience-platform/aep-sources-destinations/get-started-sources-destinations.html?lang=ja)
 1. [Experience Platformおよび  [!DNL Campaign] v7 のソースと宛先 &#x200B;](https://experienceleague.adobe.com/docs/campaign-classic/using/integrating-with-adobe-experience-cloud/aep-sources-destinations/get-started-sources-destinations.html?lang=ja)
 1. ストリーミング API およびソースコネクタを使用して、[Experience Platform にデータを取り込みます。](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2020.1.dataingestion&lang=ja)
-1. Adobe [!DNL Azure][!DNL Campaign] 使用する BLOB ストレージの宛先を設定します。
+1. Adobe [!DNL Azure]&#x200B;[!DNL Campaign] 使用する BLOB ストレージの宛先を設定します。
 
 #### アドビ [!DNL Campaign]
 
