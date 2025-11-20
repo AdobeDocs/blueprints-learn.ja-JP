@@ -22,4 +22,4 @@ ht-degree: 60%
 
 ## データの入力パターンと出力パターン
 
-すべてのデータ取り込み、収集、入力および出力パターンの詳細なリストについては、[&#x200B; データ取り込みのドキュメント &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/collection/home) を参照してください。
+すべてのデータ取り込み、収集、入力および出力パターンの詳細なリストについては、[&#x200B; データ取り込みのドキュメント &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/collection/home) を参照してください。
