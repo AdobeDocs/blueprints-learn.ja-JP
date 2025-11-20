@@ -28,7 +28,7 @@ Customer Journey Analytics は、ブランドが様々なインタラクショ�
 * コンバージョンおよびエンゲージメント向上につながったキャンペーン
 * セルフサービスエクスペリエンスを最適化するためのツール使用状況分析
 
-ユースケースの完全なリストとドキュメントは、[&#x200B; こちら &#x200B;](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/cja-usecases.html?lang=ja) を参照してください。
+ユースケースの完全なリストとドキュメントは、[ こちら ](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/cja-usecases.html?lang=ja) を参照してください。
 
 ## Customer Journey Analytics のアーキテクチャ
 

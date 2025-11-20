@@ -34,7 +34,7 @@ Audience Manager と Real-time Customer Data Platform の両方を活用して�
 
 ## アーキテクチャ
 
-![&#x200B; 匿名Audience Activation ブループリントのリファレンスアーキテクチャ &#x200B;](assets/anonymous_activation.svg)
+![ 匿名Audience Activation ブループリントのリファレンスアーキテクチャ ](assets/anonymous_activation.svg)
 
 <br>
 
@@ -44,4 +44,4 @@ Audience Manager と Real-time Customer Data Platform の両方を活用して�
 
 ## Real-time Customer Data Platform の実装手順
 
-* Real-time Customer Data Platform の実装手順については、次の[ドキュメント](https://experienceleague.adobe.com/ja/docs/experience-platform/rtcdp/home)を参照してください。
+* Real-time Customer Data Platform の実装手順については、次の[ドキュメント](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/home)を参照してください。
