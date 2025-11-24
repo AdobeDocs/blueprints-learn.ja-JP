@@ -3,7 +3,7 @@ title: '[!DNL Journey Optimizer] - ジャーニーブループリント'
 description: ストリーミングデータ、顧客プロファイル、セグメント化の中央ハブとして Adobe Experience Platform を使用して、トリガーされるメッセージとエクスペリエンスを実行します。
 solution: Journey Optimizer
 exl-id: 97831309-f235-4418-bd52-28af815e1878
-source-git-commit: e96b48e55c0fe2f48dc83f48ad41f5b686ec8dc1
+source-git-commit: 3a3988e93dd9e92f4f564bfedfa314e8e2b5d9ba
 workflow-type: tm+mt
 source-wordcount: '640'
 ht-degree: 15%
@@ -52,7 +52,7 @@ Adobe [!DNL Journey Optimizer] は、Adobe Experience Platform上に構築され
 | シナリオ | 説明 |
 | :-- | :-- |
 | [ジャーニー](journey-optimizer-journeys.md) | Adobe Journey OptimizerのAJOジャーニーは、リアルタイムイベントまたはオーディエンスセグメントによってトリガーされるパーソナライズされた自動カスタマーエクスペリエンスであり、マーケターは、メール、SMS、プッシュ通知などのチャネルをまたいで、関連性の高いメッセージを配信できます。 |
-| [&#x200B; キャンペーンオーケストレーション &#x200B;](journey-optimizer-campaigns.md) | AJO キャンペーンオーケストレーションを使用すると、マーケターは、リアルタイムデータとオーディエンスインサイトを使用して、パーソナライズされたクロスチャネルキャンペーンを設計および実行できます。 動的ターゲティング、メッセージ配信、ジャーニーロジックをサポートし、メール、SMS、プッシュおよびカスタムチャネルをまたいで顧客エンゲージメントを最適化します。 | |
+| [ キャンペーンオーケストレーション ](journey-optimizer-campaigns.md) | AJO キャンペーンオーケストレーションを使用すると、マーケターは、リアルタイムデータとオーディエンスインサイトを使用して、パーソナライズされたクロスチャネルキャンペーンを設計および実行できます。 動的ターゲティング、メッセージ配信、ジャーニーロジックをサポートし、メール、SMS、プッシュおよびカスタムチャネルをまたいで顧客エンゲージメントを最適化します。 |
 
 <br>
 
@@ -61,7 +61,7 @@ Adobe [!DNL Journey Optimizer] は、Adobe Experience Platform上に構築され
 | 統合 | 説明 | 技術上の考慮事項 |
 | :-- | :-- | :-- |
 | [サードパーティメッセージング](3rd-party-messaging.md) | Adobe [!DNL Journey Optimizer] をサードパーティのメッセージングプラットフォームと統合して、パーソナライズされたカスタマーコミュニケーションを編成し、提供する方法を示します。 | <ul><li>サードパーティシステムは、**ベアラートークン認証** をサポートしている必要があります。</li><li>**マルチテナントアーキテクチャが原因で、静的 IP はサポートされていません**。</li><li>サードパーティシステムでは **API レート制限** に注意してください。お客様は、**Adobe Journey Optimizer** から発生するトラフィックを処理するために、追加容量を購入する必要が生じる場合があります。</li><li>**意思決定管理** は、メッセージペイロードまたは配信ロジック内ではサポートされていません。</li></ul> |
-| [[!DNL Journey Optimizer] Adobe Campaign v8 を使用する場合 &#x200B;](../campaign-v8/ajo-and-campaign-v8.md) | Adobe [!DNL Journey Optimizer] をAdobe Campaign v8 のトランザクションメッセージ機能と統合して最終的なメッセージ配信を実行する方法を示します。 | <ul><li>メッセージのスロットルはありません。 上限は 5 分あたり 4,000 メッセージ。</li><li>イベントで開始されたジャーニーのみをサポート</li><li>Campaign から送信されるメッセージでは、意思決定管理はサポートされていません</li></ul> |
+| [[!DNL Journey Optimizer] Adobe Campaign v8 を使用する場合 ](../campaign-v8/ajo-and-campaign-v8.md) | Adobe [!DNL Journey Optimizer] をAdobe Campaign v8 のトランザクションメッセージ機能と統合して最終的なメッセージ配信を実行する方法を示します。 | <ul><li>メッセージのスロットルはありません。 上限は 5 分あたり 4,000 メッセージ。</li><li>イベントで開始されたジャーニーのみをサポート</li><li>Campaign から送信されるメッセージでは、意思決定管理はサポートされていません</li></ul> |
 
 <br>
 
@@ -92,14 +92,14 @@ Adobe[!DNL Experience Platform]:
 
 ## ガードレール
 
-[[!DNL Journey Optimizer]  ガードレール製品リンク &#x200B;](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/get-started/guardrails.html)
+[[!DNL Journey Optimizer]  ガードレール製品リンク ](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/get-started/guardrails.html)
 
-[&#x200B; ガードレールとエンドツーエンドの待ち時間のガイダンス &#x200B;](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/architecture-overview/deployment/guardrails.html?lang=ja)
+[ ガードレールとエンドツーエンドの待ち時間のガイダンス ](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/architecture-overview/deployment/guardrails.html)
 
 ## 関連ドキュメント
 
-- [[!DNL Experience Platform]  ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/experience-platform.html?lang=ja)
-- [[!DNL Experience Platform]  タグのドキュメント &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=ja)
-- [[!DNL Experience Platform Mobile SDK]  ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/mobile.html?lang=ja)
-- [[!DNL Journey Optimizer]  ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/journey-optimizer/using/ajo-home.html?lang=ja)
-- [[!DNL Journey Optimizer]  製品の説明 &#x200B;](https://helpx.adobe.com/jp/legal/product-descriptions/adobe-journey-optimizer.html)
+- [[!DNL Experience Platform]  ドキュメント ](https://experienceleague.adobe.com/docs/experience-platform.html?lang=ja)
+- [[!DNL Experience Platform]  タグのドキュメント ](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=ja)
+- [[!DNL Experience Platform Mobile SDK]  ドキュメント ](https://experienceleague.adobe.com/docs/mobile.html)
+- [[!DNL Journey Optimizer]  ドキュメント ](https://experienceleague.adobe.com/docs/journey-optimizer/using/ajo-home.html)
+- [[!DNL Journey Optimizer]  製品の説明 ](https://helpx.adobe.com/jp/legal/product-descriptions/adobe-journey-optimizer.html)
