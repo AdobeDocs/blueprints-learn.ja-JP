@@ -3,9 +3,9 @@ title: Marketo データブループリントを使用した B2Bジャーニー
 description: Marketo Engage Data を使用したJourney Optimizer B2B editionの迅速なデプロイメントのブループリント。
 solution: Journey Optimizer B2B Edition
 exl-id: d7bd0bd3-0f61-4e59-855f-27afc147c9aa
-source-git-commit: a0cbce2b4ed06517234b18020cef7acbda7de736
+source-git-commit: c8ea7b87270a25420ad43dae4384d70603f00dcd
 workflow-type: tm+mt
-source-wordcount: '1574'
+source-wordcount: '1706'
 ht-degree: 2%
 
 ---
@@ -35,38 +35,47 @@ ht-degree: 2%
 
 | 統合 | 説明 |
 | :-- | :--- |
-| [Marketo Engage コネクタ &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/sources/connectors/adobe-applications/marketo/marketo) | Adobe Experience Platformは、Marketoからのデータの取り込みを容易にし、そのサービスを使用してデータの構造化、ラベル付け、拡張を行う機能を提供します。 |
-| [Journey Optimizer B2B edition - Marketo Engageのアクション &#x200B;](https://experienceleague.adobe.com/ja/docs/journey-optimizer-b2b/user/account-journeys/journey-nodes/action-nodes#marketo-engage-actions) | 人物ベースのアクションを使用してリストのメンバーシップ、人物のパーティション、リクエストキャンペーンを管理することで、Journey Optimizer B2B editionのAccount-Based MarketingをMarketo Engageのリードベースの取り組みと同期させます。 |
-| [Journey Optimizer B2B edition - Marketo Engage assets](https://experienceleague.adobe.com/ja/docs/journey-optimizer-b2b/user/content-management/assets/marketo-engage-dam/marketo-engage-design-studio) | Marketo Engage Design Studio は、Journey Optimizer B2B editionのデフォルトのアセットソースで、アカウントジャーニーのアセット管理を容易にします。 |
+| [Marketo Engage コネクタ ](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/adobe-applications/marketo/marketo) | Adobe Experience Platformは、Marketoからのデータの取り込みを容易にし、そのサービスを使用してデータの構造化、ラベル付け、拡張を行う機能を提供します。 |
+| [Journey Optimizer B2B edition - Marketo Engageのアクション ](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/account-journeys/journey-nodes/action-nodes#marketo-engage-actions) | 人物ベースのアクションを使用してリストメンバーシップを管理し、キャンペーンをリクエストすることで、Journey Optimizer B2B editionのAccount-Based MarketingをMarketo Engageのリードベースの取り組みと同期させます。 |
 
 ## アーキテクチャ
 
-![Marketoのみのデータを含むAJO B2B のソリューションアーキテクチャ &#x200B;](./assets/ajo-b2b-marketo-only.png){zoomable="yes"}
+![Marketo data を使用したJourney Optimizer B2B editionのソリューションアーキテクチャ ](./assets/ajo-b2b-architecture-simplified.png){zoomable="yes"}
 
 ## 実装手順
 
-* 以下のいずれかのオプションを使用して、B2B スキーマと名前空間をインストールします
-   * [Postman コレクション &#x200B;](https://github.com/adobe/experience-platform-postman-samples/tree/master/Postman%20Collections/CDP%20Namespaces%20and%20Schemas%20Utility) の使用
-   * Platform UI での [&#x200B; テンプレート &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/sources/ui-tutorials/templates) の使用
-* Marketo フィールドとExperience Platform XDM スキーマ間のマッピングを定義するデータディクショナリを作成します
-   * [Marketo オブジェクトメタデータ &#x200B;](https://experienceleague.adobe.com/ja/docs/marketo/using/product-docs/administration/field-management/export-all-object-metadata) を開始点として使用
-   * [XDM スキーマをカスタマイズ &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/xdm/ui/fields/overview) して、カスタムフィールドを含める
-   * Journey Optimizer B2B editionでサポートされている標準 [XDM フィールド &#x200B;](https://experienceleague.adobe.com/ja/docs/journey-optimizer-b2b/user/accounts/field-mapping) を確認します。 追加のフィールドが必要な場合は、サポートチケットを開いて設定してください
-      * **workEmail.address** は人物データセットに必須です
-      * **accountName** はアカウント データ セットに必要です
-   * 書き出されたMarketo メタデータのスプレッドシートに新しい XDM フィールド列を追加し、目的のマッピングを記録します
-* [Marketo Engage ソースコネクタを設定 &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/sources/connectors/adobe-applications/marketo/marketo)
-   * 上記で定義したデータディクショナリを使用して、ソースコネクタの [&#x200B; マッピングをインポート &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/data-prep/ui/mapping#import-mapping) を定義します
-   * [&#x200B; 実装に関する考慮事項 &#x200B;](#implementation-considerations) を考慮に入れる前に、プロファイルを有効にしないことをお勧めします
-   * アカウントオーディエンスを作成する際には、これらのオブジェクトが最も役に立つので、少なくとも人物、会社、機会およびアクティビティを取り込むことをお勧めします
-* 人物に対して [ID グラフリンクルール &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/identity/features/identity-graph-linking-rules/overview) を実装します。
+1. 次のいずれかのオプションを使用して、B2B スキーマと名前空間をインストールします。
+   * [Postman コレクション ](https://github.com/adobe/experience-platform-postman-samples/tree/master/Postman%20Collections/CDP%20Namespaces%20and%20Schemas%20Utility){target="_blank"} を使用
+   * Platform UI での [templates](https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/templates) の使用
+1. ジャーニー決定とメールのパーソナライゼーションのための購入、ライセンス、イベント登録など、ビジネスエンティティを表すために必要に応じて、リレーショナルスキーマを作成します。
+1. [XDM 設定 ](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/admin/xdm-field-management/xdm-field-management){target="_blank"} を完了します。
+   * Journey Optimizer B2B editionでデフォルトで選択される一連の標準 XDM フィールド（「管理フィールド _も呼ばれます_ を確認します。 **[!UICONTROL 管理]**/**[!UICONTROL 設定]** の XDM 設定に移動して、管理フィールドセットを確認します。
+      * **[!UICONTROL 標準]** タブを選択し、XDM 個人プロファイルと XDM ビジネスアカウントの両方で **[!UICONTROL 管理フィールドを編集]** をクリックします。
+      * 「**[!UICONTROL 選択したフィールドのみを表示]**」オプションを選択して、選択したフィールドの現在のリストを表示します。
+      * 必要に応じてフィールドを追加または削除します。
+         * 人物データセットには `workEmail.address` が必要です。
+         * アカウントデータセットには `accountName` が必要です。
+   * ジャーニーの _人物プロファイルを更新_ および _アカウントプロファイルを更新_ アクションに使用する XDM フィールドのセットを設定します。 これらのフィールドは、_更新可能フィールド_ とも呼ばれます。
+      * 「_[!UICONTROL 標準]_」タブで、XDM 個人プロファイルと XDM ビジネスアカウントの両方に対して「**[!UICONTROL 更新可能なフィールドを編集]**」をクリックします。
+      * 更新するスキーマ、データセット、フィールドを選択します。
+   * ジャーニーで使用するリレーショナルスキーマとフィールドを設定します。
+      * 「**[!UICONTROL リレーショナル]**」タブを選択し、「**[!UICONTROL リレーショナル XDM スキーマを選択]**」をクリックします。
+      * 使用するスキーマ、名前空間およびフィールドを選択します。
+   * ジャーニーで使用するエクスペリエンスイベントを設定します。
+      * 「**[!UICONTROL イベント]**」タブを選択し、「**[!UICONTROL エクスペリエンスイベントを選択]** をクリックします。
+      * 使用するエクスペリエンスイベントとフィールドを選択します。
+1. [Marketo Engage ソースコネクタ ](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/adobe-applications/marketo/marketo) を設定します。
+   * データディクショナリを使用して、ソースコネクタの [ マッピングをインポート ](https://experienceleague.adobe.com/en/docs/experience-platform/data-prep/ui/mapping#import-mapping) を定義します。
+   * [ 実装に関する考慮事項 ](#implementation-considerations) を考慮する前に、プロファイルを有効にしないことをお勧めします。
+   * また、人物、会社、機会およびアクティビティは、アカウントオーディエンスを作成する際に最も役立つので、少なくとも取り込むことをお勧めします。
+1. 人物に対して [ID グラフリンクルール ](https://experienceleague.adobe.com/en/docs/experience-platform/identity/features/identity-graph-linking-rules/overview) を実装します。
    * ID 名前空間を使用して、人物レコードのリンク方法を定義します。
-   * AEPで ID 名前空間と ID ステッチルールを設定します。
+   * Experience Platformで ID 名前空間と ID ステッチルールを設定します。
    * サンプルの人物データとプレビューツールを使用してリンクを検証します。
-* [&#x200B; プロファイル &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/catalog/datasets/user-guide#enable-profile) の個人、会社、機会、および活動データセットを有効にします
-* 最初の [&#x200B; アカウントオーディエンス &#x200B;](https://experienceleague.adobe.com/ja/docs/journey-optimizer-b2b/user/accounts/account-audience-overview) を定義
-* [&#x200B; 購入グループ &#x200B;](https://experienceleague.adobe.com/ja/docs/journey-optimizer-b2b/user/accounts/buying-groups/buying-groups-overview) または [&#x200B; アカウントジャーニー &#x200B;](https://experienceleague.adobe.com/ja/docs/journey-optimizer-b2b/user/account-journeys/journey-overview) は、アカウントオーディエンスを使用して定義できます
-   * アカウントがアカウントオーディエンスの対象になると、購入グループジョブが毎日実行され、オーディエンスが更新されるとすぐに、購入グループが作成され、関連するユーザーに役割が割り当てられます。
+1. [ プロファイル ](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/user-guide#enable-profile) のユーザー、会社、機会、およびアクティビティ データセットを有効にします
+1. 最初の [ アカウントオーディエンス ](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/audiences/account-audience-overview) を定義
+1. アカウントオーディエンスを使用して、[ 購入グループ ](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/accounts/buying-groups/buying-groups-overview) または [ アカウントジャーニー ](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/account-journeys/journey-overview) を定義します。
+   * アカウントがアカウントオーディエンスの資格を得ると、購入グループジョブが毎日実行され、オーディエンスが更新されるとすぐに、購入グループが作成され、関連するユーザーに役割が割り当てられます。
    * さらに、購買グループのメンテナンスは毎週金曜日の午前 0 時（CT）に実行されます。 この毎週のプロセスでは、資格を喪失したメンバーの削除や、最初のオーディエンスの更新時にキャプチャされなかった新しく資格を取得したメンバーの追加などの更新を処理します。
 
 ## 推奨設定
@@ -78,11 +87,11 @@ ht-degree: 2%
 * **Marketo Source Connector のデフォルトのマッピングを使用する：**
    * Adobeが提供する標準のフィールドマッピングを活用して、データ取り込みを簡素化し、設定のオーバーヘッドを削減します。
 * **AJO B2B にデフォルトのマッピングを使用：**
-   * Journey Optimizer B2B editionの [&#x200B; 標準フィールドマッピング &#x200B;](https://experienceleague.adobe.com/ja/docs/journey-optimizer-b2b/user/accounts/field-mapping) を採用して、購買グループロジックおよび journey orchestration との互換性を確保します。
+   * Journey Optimizer B2B editionの [ 標準フィールドマッピング ](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/admin/xdm-field-management/field-mapping) を採用して、購買グループロジックおよび journey orchestration との互換性を確保します。
 * **メールを除くすべてのフィールドでフィールドの更新をブロック：**
-   * Marketo Engageで、「電子メール [&#x200B; を除くすべてのフィールドについて、Adobe Experience Platformからの &#x200B;](https://experienceleague.adobe.com/ja/docs/marketo/using/product-docs/administration/field-management/block-updates-to-a-field) 更新をブロック _するようにフィールド管理を設定し_ す。 これにより、ID 解決を可能にしながら、データの整合性を維持できます。
+   * Marketo Engageで、「電子メール [ を除くすべてのフィールドについて、Adobe Experience Platformからの ](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/administration/field-management/block-updates-to-a-field) 更新をブロック _するようにフィールド管理を設定し_ す。 これにより、ID 解決を可能にしながら、データの整合性を維持できます。
 * **メールを一意の ID 名前空間として使用して ID リンクルールを実装する**
-   * [&#x200B; メール &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/identity/features/identity-graph-linking-rules/overview) を一意の ID 名前空間として明示的に使用するように、Adobe Experience Platformで _ID グラフリンクルール_ を設定します。 これらのルールにより、_メール_ が存在するデータソース間でプロファイルが正確に結び付けられ、堅牢な ID 解決が可能になります。 Adobeのベストプラクティスに従って、一貫性がありプライバシーに準拠した ID グラフを維持するために、メールを安定したグローバルに一意の ID として優先付けするリンクルールを定義します。
+   * [ メール ](https://experienceleague.adobe.com/en/docs/experience-platform/identity/features/identity-graph-linking-rules/overview) を一意の ID 名前空間として明示的に使用するように、Adobe Experience Platformで _ID グラフリンクルール_ を設定します。 これらのルールにより、_メール_ が存在するデータソース間でプロファイルが正確に結び付けられ、堅牢な ID 解決が可能になります。 Adobeのベストプラクティスに従って、一貫性がありプライバシーに準拠した ID グラフを維持するために、メールを安定したグローバルに一意の ID として優先付けするリンクルールを定義します。
 この設定により、デプロイメントの容易さとデータガバナンスのバランスが取れるので、B2B ジャーニーを調整するための信頼性の高い基盤が確保されます。
 
 ## 実装に関する考慮事項
@@ -116,12 +125,12 @@ from
 
 #### メールを複製
 
-このクエリは、プラットフォームの ID ステッチの一部として結合される人物レコードの数を返します
+このクエリは、プラットフォームの ID ステッチの一部として結合される人物レコードの数を返します。
 
 >[!NOTE]
 >
 >データセットテーブル marketo_person_ajo_b2b を使用して、Marketo ユーザーデータセットの操作方法の完全な例を示します。
->&#x200B;>サンドボックスのデータセットは、[&#x200B; データセット &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/catalog/datasets/user-guide) ワークスペースにあります。
+>サンドボックスのデータセットは、[ データセット ](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/user-guide) ワークスペースにあります。
 
 ```sql
 select
@@ -151,7 +160,7 @@ from
 
 #### レコードが重複しているメールアドレス
 
-このクエリを実行すると、データセット内の重複レコードが最も多いメールが返されます。  このリストを使用すると、これらのレコードの一部をチェックして、ID のリンクがMarketoと CRM に与える影響をより深く理解できます。  ID リンクの仕組みについて詳しくは、[ID サービスの概要 &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/identity/home) を参照してください。
+このクエリを実行すると、データセット内の重複レコードが最も多いメールが返されます。  このリストを使用すると、これらのレコードの一部をチェックして、ID のリンクがMarketoと CRM に与える影響をより深く理解できます。  ID リンクの仕組みについて詳しくは、[ID サービスの概要 ](https://experienceleague.adobe.com/en/docs/experience-platform/identity/home) を参照してください。
 
 ```sql
 select
@@ -188,32 +197,33 @@ order by
 
 #### Id としての電子メールの削除
 
-分析後、メールが ID フィールドとして使用できる有効なフィールドではないと判断した場合、人物スキーマを変更して [ID フィールドとしてメールを削除 &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/xdm/ui/fields/identity) することができます。
+分析後、メールが ID フィールドとして使用できる有効なフィールドではないと判断した場合、人物スキーマを変更して [ID フィールドとしてメールを削除 ](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/ui/fields/identity) することができます。
 
 #### Adobe Experience Platformからの更新をブロック
 
-メールを ID フィールドとして保持することがユースケースに最適な場合は、AJO B2B からの [&#x200B; フィールドの更新をブロック &#x200B;](https://experienceleague.adobe.com/ja/docs/marketo/using/product-docs/administration/field-management/block-updates-to-a-field) するオプションがあり、AJO B2B を主にMarketo データに対して実行できます。
+メールを ID フィールドとして保持することがユースケースに最適な場合は、AJO B2B からの [ フィールドの更新をブロック ](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/administration/field-management/block-updates-to-a-field) するオプションがあり、AJO B2B を主にMarketo データに対して実行できます。
 
 ## ガードレール
 
 Marketo Engageとの B2B ジャーニーに適用されるガードレールの包括的な理解については、次の公式ドキュメントを参照してください。
 
-* [Adobe Journey Optimizer B2B edition – 製品説明 &#x200B;](https://helpx.adobe.com/jp/legal/product-descriptions/adobe-journey-optimizer-b2b.html)
+* [Adobe Journey Optimizer B2B edition – 製品説明 ](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer-b2b.html)
 Journey Optimizer B2B edition固有のガードレールと使用パラメーターが含まれます。
-* [Adobe Experience Platform デプロイメントガードレール &#x200B;](https://experienceleague.adobe.com/ja/docs/blueprints-learn/architecture/architecture-overview/deployment/guardrails?lang=en)
+* [Adobe Experience Platform デプロイメントガードレール ](https://experienceleague.adobe.com/en/docs/blueprints-learn/architecture/architecture-overview/guardrails?lang=en)
 Adobe Experience Platform ソリューション全体の一般的なアーキテクチャおよびデプロイメントガードレールについて説明します。
-* [Adobe Marketo Engage – 製品の説明 &#x200B;](https://helpx.adobe.com/jp/legal/product-descriptions/adobe-marketo-engage---product-description.html#performance-guardrails)
+* [Adobe Marketo Engage – 製品の説明 ](https://helpx.adobe.com/legal/product-descriptions/adobe-marketo-engage---product-description.html#performance-guardrails)
 アクティベーションや CRM 同期に関する考慮事項など、Marketo Engageのパフォーマンスと使用に関するガードレールについて詳しく説明します。
-* [Real-Time CDPガードレール &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/rtcdp/guardrails/overview?lang=en)
+* [Real-Time CDPガードレール ](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/guardrails/overview?lang=en)
 Real-Time Customer Data Platform内でのデータ取得、セグメント化、アクティブ化の制限に関するガイダンスを提供します。
 
 ## 関連ドキュメント
 
-* [Real-time Customer Data Platform B2B エディション](https://experienceleague.adobe.com/ja/docs/experience-platform/rtcdp/intro/rtcdpb2b-intro/b2b-overview)
-* [Real-time Customer Data Platform B2B editionの概要 &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/rtcdp/intro/rtcdpb2b-intro/b2b-tutorial)
-* [Real-time Customer Data Platform B2B editionのガードレール &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/rtcdp/intro/rtcdpb2b-intro/b2b-guardrails)
-* [Adobe Experience Platform](https://experienceleague.adobe.com/ja/docs/experience-platform)
-* [Adobe Experience Platform ID サービス &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/identity/home)
-* [Marketo Engage](https://experienceleague.adobe.com/ja/docs/marketo/using/home)
-* [Adobe Experience Platform - Marketo ソースコネクタ](https://experienceleague.adobe.com/ja/docs/experience-platform/sources/connectors/adobe-applications/marketo/marketo)
-* [Adobe Journey Optimizer B2B edition ドキュメント &#x200B;](https://experienceleague.adobe.com/ja/docs/journey-optimizer-b2b/user/guide-overview)
+* [Real-time Customer Data Platform B2B エディション](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/intro/rtcdpb2b-intro/b2b-overview)
+* [Real-time Customer Data Platform B2B editionの概要 ](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/intro/rtcdpb2b-intro/b2b-tutorial)
+* [Real-time Customer Data Platform B2B editionのガードレール ](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/intro/rtcdpb2b-intro/b2b-guardrails)
+* [Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform)
+* [Adobe Experience Platform ID サービス ](https://experienceleague.adobe.com/en/docs/experience-platform/identity/home)
+* [Marketo Engage](https://experienceleague.adobe.com/en/docs/marketo/using/home)
+* [Adobe Experience Platform - Marketo ソースコネクタ](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/adobe-applications/marketo/marketo)
+* [Adobe Journey Optimizer B2B edition ドキュメント ](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/guide-overview)
+* [XDM フィールド管理（Journey Optimizer B2B edition） ](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/admin/xdm-field-management/xdm-field-management)
