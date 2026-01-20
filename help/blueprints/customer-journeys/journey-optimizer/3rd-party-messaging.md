@@ -3,10 +3,10 @@ title: Journey Optimizer - サードパーティメッセージングのブル�
 description: Adobe Journey Optimizerをサードパーティのメッセージングシステムと共に利用して、パーソナライズされたコミュニケーションを送信する方法を示します。
 solution: Journey Optimizer
 exl-id: 3a14fc06-6d9c-4cd8-bc5c-f38e253d53ce
-source-git-commit: 0a3ebcbc6029df46bd988cb8f15ecf838f80c3c9
+source-git-commit: 8fcc71abcc29f5dc7d2e2b3a5afcc60d9e844fcc
 workflow-type: tm+mt
 source-wordcount: '407'
-ht-degree: 61%
+ht-degree: 62%
 
 ---
 
@@ -38,9 +38,9 @@ Adobe Journey Optimizerをサードパーティのメッセージングシステ
 
 ## ガードレール
 
-[Journey Optimizer ガードレール製品リンク](https://experienceleague.adobe.com/docs/journeys/using/starting-with-journeys/limitations.html?lang=ja)
+[Journey Optimizer ガードレール製品リンク](https://experienceleague.adobe.com/docs/journeys/using/starting-with-journeys/limitations.html)
 
-[&#x200B; ガードレールとエンドツーエンドの待ち時間のガイダンス &#x200B;](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/architecture-overview/guardrails.html?lang=ja)
+[ ガードレールとエンドツーエンドの待ち時間のガイダンス ](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/architecture-overview/guardrails.html)
 
 <br>
 
@@ -50,7 +50,7 @@ Adobe Journey Optimizerをサードパーティのメッセージングシステ
 
 #### スキーマ／データセット
 
-1. お客様から提供されたデータに基づいて、Experience Platformで [&#x200B; スキーマを設定 &#x200B;](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2021.1.xdm&lang=ja) します。
+1. お客様から提供されたデータに基づいて、Experience Platformで [ スキーマを設定 ](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2021.1.xdm&lang=ja) します。
 1. Experience Platform で取り込む[データセットを作成します。](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/create-datasets-and-ingest-data.html?lang=ja)
 1. ガバナンス用のデータセットに、Experience Platform で[データ使用ラベルを追加します。](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-governance/classify-data-using-governance-labels.html?lang=ja)
 1. 宛先のガバナンスを実施する[ポリシーを作成します。](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-governance/create-data-usage-policies.html?lang=ja)
@@ -59,7 +59,7 @@ Adobe Journey Optimizerをサードパーティのメッセージングシステ
 
 1. [任意の顧客専用の名前空間を作成します。](https://experienceleague.adobe.com/docs/platform-learn/tutorials/identities/label-ingest-and-verify-identity-data.html?lang=ja)
 1. [スキーマに ID を追加します](https://experienceleague.adobe.com/docs/platform-learn/tutorials/identities/label-ingest-and-verify-identity-data.html?lang=ja)。
-1. [プロファイル用のスキーマおよびデータセットを有効にします](https://experienceleague.adobe.com/docs/platform-learn/tutorials/profiles/bring-data-into-the-real-time-customer-profile)。
+1. [プロファイル用のスキーマおよびデータセットを有効にします](https://experienceleague.adobe.com/ja/docs/platform-learn/tutorials/profiles/bring-data-into-the-real-time-customer-profile)。
 1. [!UICONTROL リアルタイム顧客プロファイル]の様々な表示用に[結合ポリシーを設定](https://experienceleague.adobe.com/docs/platform-learn/tutorials/profiles/create-merge-policies.html?lang=ja)します（オプション）。
 1. ジャーニー使用状況用のセグメントを作成します。
 
@@ -91,6 +91,6 @@ Adobe Journey Optimizerをサードパーティのメッセージングシステ
 
 * [Experience Platform ドキュメント](https://experienceleague.adobe.com/docs/experience-platform.html?lang=ja)
 * [Experience Platform タグドキュメント](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=ja)
-* [Experience Platform Mobile SDK ドキュメント](https://experienceleague.adobe.com/docs/mobile.html?lang=ja)
-* [Journey Optimizer ドキュメント](https://experienceleague.adobe.com/docs/journey-optimizer/using/ajo-home.html?lang=ja)
+* [Experience Platform Mobile SDK ドキュメント](https://experienceleague.adobe.com/docs/mobile.html)
+* [Journey Optimizer ドキュメント](https://experienceleague.adobe.com/docs/journey-optimizer/using/ajo-home.html)
 * [Journey Optimizer 製品説明](https://helpx.adobe.com/jp/legal/product-descriptions/adobe-journey-optimizer.html)
