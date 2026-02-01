@@ -13,7 +13,7 @@ ht-degree: 65%
 
 # サポートおよびセールスシナリオに関するリアルタイムプロファイルへのアクセス
 
-サポートおよびセールスシナリオのリアルタイムプロファイルアクセスのブループリントは、外部アプリケーションがAdobe Experience Platformにアクセスする方法を示します [!UICONTROL  リアルタイム顧客プロファイル ]。
+サポートおよびセールスシナリオのリアルタイムプロファイルアクセスのブループリントは、外部アプリケーションがAdobe Experience Platformにアクセスする方法を示します [!UICONTROL &#x200B; リアルタイム顧客プロファイル &#x200B;]。
 
 外部アプリケーションは、API GET リクエストを使用して、プロファイルにアクセスできます。これにより、プロファイルに格納された属性、イベント、セグメントメンバーシップおよびモデル主導の機能を、外部のアドビ以外のアプリケーションで使用できます。
 
@@ -21,7 +21,7 @@ ht-degree: 65%
 
 >[!NOTE]
 >
->ハブのプロファイル参照は、web/モバイルインバウンドパーソナライゼーションなど、スループットが高く待ち時間の少ないユースケース向けではありません。 ハブのプロファイル参照は、エージェント支援サポートや営業とのやり取りなど、待ち時間の短いシナリオを対象としています。 web/モバイルパーソナライゼーションやリアルタイム Offer Decisioning など、低遅延、高スループットのシナリオの場合は、Edge プロファイルを活用する必要があります。 Edge プロファイルを使用すると、Real-time Customer Data Platform の [ カスタム Personalization接続 ](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/personalization/custom-personalization) を通じてリアルタイムにアクセスできます。
+>ハブのプロファイル参照は、web/モバイルインバウンドパーソナライゼーションなど、スループットが高く待ち時間の少ないユースケース向けではありません。 ハブのプロファイル参照は、エージェント支援サポートや営業とのやり取りなど、待ち時間の短いシナリオを対象としています。 web/モバイルパーソナライゼーションやリアルタイム Offer Decisioning など、低遅延、高スループットのシナリオの場合は、Edge プロファイルを活用する必要があります。 Edge プロファイルを使用すると、Real-time Customer Data Platform の [&#x200B; カスタム Personalization接続 &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/personalization/custom-personalization) を通じてリアルタイムにアクセスできます。
 
 ## ユースケース
 
@@ -43,7 +43,7 @@ ht-degree: 65%
 1. [プロファイル用のスキーマおよびデータセットを有効にします](https://experienceleague.adobe.com/docs/platform-learn/tutorials/profiles/bring-data-into-the-real-time-customer-profile.html?lang=ja)。
 1. Experience Platform に[データを取り込みます](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2020.1.dataingestion&lang=ja)。
 1. [結合ポリシーを設定](https://experienceleague.adobe.com/docs/platform-learn/tutorials/profiles/create-merge-policies.html?lang=ja)します。
-1. [Entities API を使用して、プロファイル属性を検索します ](https://experienceleague.adobe.com/docs/experience-platform/profile/api/entities.html?lang=ja)。
+1. [Entities API を使用して、プロファイル属性を検索します &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/profile/api/entities.html?lang=ja)。
 
 ## 関連ドキュメント
 
