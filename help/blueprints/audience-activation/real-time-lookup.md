@@ -41,13 +41,13 @@ Web およびモバイルEdgeのリアルタイム Personalization プロファ�
 
 プロファイルをストリーミングデータでリアルタイムに更新する場合、このブループリントでは次のいずれかのデータ収集方法を使用する必要があります。 Edge プロファイルに直接データを収集しなくても、Edge プロファイルにリアルタイムでアクセスできます。データをハブに収集して、Edge プロファイルにも投影できます。 ハブに収集されたデータがEdgeに投影されると、待ち時間が追加されます。
 
-* Web サイトからデータを収集する場合は [&#128279;](https://experienceleague.adobe.com/docs/experience-platform/web-sdk/home.html)Adobe Experience Platform Web SDK&rbrace; を使用します。
+* Web サイトからデータを収集する場合は [&#128279;](https://experienceleague.adobe.com/docs/experience-platform/web-sdk/home.html?lang=ja)Adobe Experience Platform Web SDK&rbrace; を使用します。
 * モバイルアプリケーションからデータを収集する場合は [&#128279;](https://developer.adobe.com/client-sdks/home/)Adobe Experience Platform Mobile SDK&rbrace; を使用します。
 * Web SDKや Mobile SDKを使用していない場合 [&#x200B; またはサーバーからサーバーへの直接接続を実装している場合は、](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/overview.html?lang=ja)Edge Network Server API を使用します。
 
 >[!IMPORTANT]
 >
->エッジパーソナライゼーションを実装する前に、[&#x200B; エッジパーソナライゼーションの宛先に対してオーディエンスデータをアクティブ化する &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/activate-edge-personalization-destinations) 方法についてのガイドをお読みください。 このガイドでは、複数のExperience Platform コンポーネントをまたいで、同じページおよび次のページのパーソナライゼーションのユースケースに必要な設定手順を説明します。
+>エッジパーソナライゼーションを実装する前に、[&#x200B; エッジパーソナライゼーションの宛先に対してオーディエンスデータをアクティブ化する &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/destinations/ui/activate/activate-edge-personalization-destinations) 方法についてのガイドをお読みください。 このガイドでは、複数のExperience Platform コンポーネントをまたいで、同じページおよび次のページのパーソナライゼーションのユースケースに必要な設定手順を説明します。
 
 ## アーキテクチャ図
 
@@ -62,7 +62,7 @@ Web およびモバイルEdgeのリアルタイム Personalization プロファ�
 
 ## 実装パターン
 
-Edgeのパーソナライゼーションは、Real-time Customer Data Platform の [&#x200B; カスタム Personalization接続 &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/personalization/custom-personalization) 宛先を使用して実装できます。 この宛先では、使用例に応じて複数のデータ収集方法をサポートしています。
+Edgeのパーソナライゼーションは、Real-time Customer Data Platform の [&#x200B; カスタム Personalization接続 &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/destinations/catalog/personalization/custom-personalization) 宛先を使用して実装できます。 この宛先では、使用例に応じて複数のデータ収集方法をサポートしています。
 
 ### パターン 1:Web SDK/モバイル SDKを使用したオーディエンスメンバーシップベースのパーソナライゼーション
 
@@ -95,14 +95,14 @@ Edgeのパーソナライゼーションは、Real-time Customer Data Platform �
 1. Experience Platform に[データを取り込みます](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2020.1.dataingestion&lang=ja)。
 1. [&#x200B; 結合ポリシーを設定 &#x200B;](https://experienceleague.adobe.com/docs/platform-learn/tutorials/profiles/create-merge-policies.html?lang=ja) して、ID ステッチとプロファイル結合が正しいことを確認します。
 1. 宛先設定を有効にして、Experience Platform Data Collection で [&#x200B; データストリームを設定 &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html?lang=ja) します。 データストリームは、ページへの応答にオーディエンスを含めるデータ収集データストリームを決定します。
-1. データ収集用の web およびモバイルプロパティに [0&rbrace;Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/web-sdk/home.html) または [&#x200B; モバイル SDK&rbrace; を実装します。](https://developer.adobe.com/client-sdks/home/)
+1. データ収集用の web およびモバイルプロパティに [0&rbrace;Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/web-sdk/home.html?lang=ja) または [&#x200B; モバイル SDK&rbrace; を実装します。](https://developer.adobe.com/client-sdks/home/)
 1. リアルタイム評価が必要なオーディエンスには、エッジのセグメント化を設定します。 [Edgeのセグメント化に関するドキュメント &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/edge-segmentation.html?lang=ja)。
-1. 宛先カタログで、[&#x200B; カスタム Personalization接続 &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/personalization/custom-personalization) 宛先を設定します。
-1. [&#x200B; エッジパーソナライゼーションの宛先に対するオーディエンスのアクティブ化 &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/activate-edge-personalization-destinations). 宛先に対してアクティブ化するオーディエンスを選択します。
+1. 宛先カタログで、[&#x200B; カスタム Personalization接続 &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/destinations/catalog/personalization/custom-personalization) 宛先を設定します。
+1. [&#x200B; エッジパーソナライゼーションの宛先に対するオーディエンスのアクティブ化 &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/destinations/ui/activate/activate-edge-personalization-destinations). 宛先に対してアクティブ化するオーディエンスを選択します。
 1. （属性ベースのパーソナライゼーションではオプション）オーディエンスメンバーシップに加えて、プロファイル属性に基づいてパーソナライズする必要がある場合は、同じデータストリームを使用して認証済みのサーバーサイド統合で [0&rbrace;Edge Network Server API&rbrace; を実装します。 &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/overview.html?lang=ja)これは、プロファイル属性へのアクセスに **必須** です。
 1. 書き出されたオーディエンスデータとプロファイル属性を使用するように web/モバイルアプリケーションにパーソナライゼーションロジックを実装します。
    * Adobe Experience Platformのタグを使用している場合は、[event complete の送信機能 &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/tags/event-forwarding/overview.html?lang=ja) を使用して、書き出したデータ `event.destinations` 変数にアクセスします。
-   * タグを使用しない場合は、[&#x200B; コマンド応答 &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/web-sdk/commands/command-responses.html) を使用して、Adobe Experience Platformからの JSON 応答を解析し、オーディエンス ID とプロファイル属性を取得します。
+   * タグを使用しない場合は、[&#x200B; コマンド応答 &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/web-sdk/commands/command-responses.html?lang=ja) を使用して、Adobe Experience Platformからの JSON 応答を解析し、オーディエンス ID とプロファイル属性を取得します。
 
 ## 実装に関する考慮事項
 
@@ -134,25 +134,25 @@ Edgeのパーソナライゼーションは、Real-time Customer Data Platform �
 
 ### 宛先設定
 
-* [&#x200B; カスタム Personalization接続 &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/personalization/custom-personalization) - プライマリ実装ガイド
-* [Personalizationの宛先の概要 &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/personalization/overview)
-* [&#x200B; エッジパーソナライゼーションの宛先に対するオーディエンスのアクティブ化 &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/activate-edge-personalization-destinations)
-* [&#x200B; エッジ上のプロファイル属性のリアルタイム検索 &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/activate-edge-profile-lookup)
+* [&#x200B; カスタム Personalization接続 &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/destinations/catalog/personalization/custom-personalization) - プライマリ実装ガイド
+* [Personalizationの宛先の概要 &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/destinations/catalog/personalization/overview)
+* [&#x200B; エッジパーソナライゼーションの宛先に対するオーディエンスのアクティブ化 &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/destinations/ui/activate/activate-edge-personalization-destinations)
+* [&#x200B; エッジ上のプロファイル属性のリアルタイム検索 &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/destinations/ui/activate/activate-edge-profile-lookup)
 
 ### SDK ドキュメント
 
-* [Experience Platform Web SDK ドキュメント](https://experienceleague.adobe.com/docs/experience-platform/web-sdk/home.html)
+* [Experience Platform Web SDK ドキュメント](https://experienceleague.adobe.com/docs/experience-platform/web-sdk/home.html?lang=ja)
 * [Experience Platform Mobile SDK ドキュメント](https://developer.adobe.com/client-sdks/home/)
 * [Edge Network Server API ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/overview.html?lang=ja)
 * [Experience Platform タグドキュメント](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=ja)
-* [Web SDKのコマンドの応答 &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/web-sdk/commands/command-responses.html)
+* [Web SDKのコマンドの応答 &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/web-sdk/commands/command-responses.html?lang=ja)
 
 ### プロファイルとセグメント化に関するドキュメント
 
-* [[!UICONTROL リアルタイム顧客プロファイル]ドキュメント](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html)
+* [[!UICONTROL リアルタイム顧客プロファイル]ドキュメント](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=ja)
 * [プロファイルのガードレール](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=ja)
 
 ### チュートリアル
 
-* [Real-Time CDP と Adobe Target を使用した、次のヒットのパーソナライズ機能](https://experienceleague.adobe.com/docs/platform-learn/tutorials/experience-cloud/next-hit-personalization.html)
+* [Real-Time CDP と Adobe Target を使用した、次のヒットのパーソナライズ機能](https://experienceleague.adobe.com/docs/platform-learn/tutorials/experience-cloud/next-hit-personalization.html?lang=ja)
 * [&#x200B; データストリーム設定 &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html?lang=ja)

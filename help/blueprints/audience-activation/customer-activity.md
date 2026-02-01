@@ -21,7 +21,7 @@ ht-degree: 65%
 
 >[!NOTE]
 >
->ハブのプロファイル参照は、web/モバイルインバウンドパーソナライゼーションなど、スループットが高く待ち時間の少ないユースケース向けではありません。 ハブのプロファイル参照は、エージェント支援サポートや営業とのやり取りなど、待ち時間の短いシナリオを対象としています。 web/モバイルパーソナライゼーションやリアルタイム Offer Decisioning など、低遅延、高スループットのシナリオの場合は、Edge プロファイルを活用する必要があります。 Edge プロファイルを使用すると、Real-time Customer Data Platform の [&#x200B; カスタム Personalization接続 &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/personalization/custom-personalization) を通じてリアルタイムにアクセスできます。
+>ハブのプロファイル参照は、web/モバイルインバウンドパーソナライゼーションなど、スループットが高く待ち時間の少ないユースケース向けではありません。 ハブのプロファイル参照は、エージェント支援サポートや営業とのやり取りなど、待ち時間の短いシナリオを対象としています。 web/モバイルパーソナライゼーションやリアルタイム Offer Decisioning など、低遅延、高スループットのシナリオの場合は、Edge プロファイルを活用する必要があります。 Edge プロファイルを使用すると、Real-time Customer Data Platform の [&#x200B; カスタム Personalization接続 &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/destinations/catalog/personalization/custom-personalization) を通じてリアルタイムにアクセスできます。
 
 ## ユースケース
 
