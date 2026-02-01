@@ -1,17 +1,17 @@
 ---
-title: ファイルとエンタープライズストリーミング宛先に対するオーディエンスとプロファイルのアクティベーションブループリント
+title: エンタープライズ宛先のブループリントに対するオーディエンスとプロファイルのアクティベーション
 description: エンタープライズ宛先へのオーディエンスとプロファイルのアクティベーション
 solution: Real-Time Customer Data Platform
 kt: 7475
 exl-id: 32133174-eb28-44ce-ab2a-63fcb5b51cb5
-source-git-commit: 75a0f2a77f39a4320dc4c4b0db918879be099dd3
+source-git-commit: 88a15765c0a998d49c19d9853ad0c44d6e3bfaa1
 workflow-type: tm+mt
-source-wordcount: '167'
-ht-degree: 80%
+source-wordcount: '161'
+ht-degree: 72%
 
 ---
 
-# ファイルとエンタープライズストリーミング宛先に対するオーディエンスとプロファイルのアクティベーションブループリント
+# エンタープライズ宛先のブループリントに対するオーディエンスとプロファイルのアクティベーション
 
 プロファイルとオーディエンスの変更とイベントを、[!UICONTROL Real-time Customer Data Platform] からエンタープライズデータストアやアプリケーションにストリーミングまたはバッチで共有します。これらのプロファイルおよびオーディエンスイベントは、破棄された申し込みプロセスやウェビナー登録のフォローアップ、[!UICONTROL Real-time Customer Data Platform] の最新の顧客属性とインテリジェンスを使用したエンタープライズアプリケーションのアップデートなど、顧客に対する販売またはサポート活動を開始するために使用できます。
 
@@ -21,7 +21,7 @@ ht-degree: 80%
 
 ## アプリケーション
 
-* Adobe Experience Platform Activation
+* Real-time Customer Data Platform
 
 ## アーキテクチャ
 
@@ -29,7 +29,7 @@ ht-degree: 80%
 
 ## 関連ドキュメント
 
-クラウドストレージとエンタープライズの宛先の設定に関するその他の詳細については、[&#x200B; 宛先のドキュメント &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/destinations/catalog/cloud-storage/overview) を参照してください。
+クラウドストレージとエンタープライズの宛先の設定に関するその他の詳細については、[ 宛先のドキュメント ](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/cloud-storage/overview) を参照してください。
 
 ## ガードレール
 

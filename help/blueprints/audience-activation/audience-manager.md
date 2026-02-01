@@ -1,5 +1,5 @@
 ---
-title: Audience Managerのブループリント
+title: デバイスベース -Audience Managerを使用した匿名のオーディエンスターゲティング
 description: 匿名および行動顧客データに基づいて、web および広告チャネルをまたいでオーディエンスをターゲットする方法を説明します。この機能を使用すると、デバイスをまたいでパーソナライズされた一貫性のあるリアルタイムカスタマーエクスペリエンスを実現します。
 landing-page-description: 匿名および行動顧客データに基づいて、web および広告チャネルをまたいでオーディエンスをターゲットする方法を説明します。
 short-description: 匿名および行動顧客データに基づいて、web および広告チャネルをまたいでオーディエンスをターゲットする方法を説明します。
@@ -7,14 +7,14 @@ solution: Audience Manager
 kt: 7211
 thumbnail: null
 exl-id: f17599f1-2e75-4cbe-841a-9fd1dae71ada
-source-git-commit: 495a2480828e2c6b4caa41226f4fe67437b081c1
+source-git-commit: 88a15765c0a998d49c19d9853ad0c44d6e3bfaa1
 workflow-type: tm+mt
-source-wordcount: '236'
-ht-degree: 93%
+source-wordcount: '246'
+ht-degree: 89%
 
 ---
 
-# Audience Managerのブループリント
+# デバイスベース -Audience Managerを使用した匿名のオーディエンスターゲティング
 
 匿名オーディエンスのアクティベーションは、匿名デバイスおよび行動データに基づいて、web、モバイル、広告の各チャネルをまたいでオーディエンスをターゲティングしてパーソナライズする機能です。
 
@@ -34,7 +34,7 @@ Audience Manager と Real-time Customer Data Platform の両方を活用して�
 
 ## アーキテクチャ
 
-![&#x200B; 匿名Audience Activation ブループリントのリファレンスアーキテクチャ &#x200B;](assets/anonymous_activation.svg)
+![ 匿名Audience Activation ブループリントのリファレンスアーキテクチャ ](assets/anonymous_activation.svg)
 
 <br>
 
@@ -44,4 +44,4 @@ Audience Manager と Real-time Customer Data Platform の両方を活用して�
 
 ## Real-time Customer Data Platform の実装手順
 
-* Real-time Customer Data Platform の実装手順については、次の[ドキュメント](https://experienceleague.adobe.com/ja/docs/experience-platform/rtcdp/home)を参照してください。
+* Real-time Customer Data Platform の実装手順については、次の[ドキュメント](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/home)を参照してください。

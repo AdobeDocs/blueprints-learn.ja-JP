@@ -1,5 +1,5 @@
 ---
-title: Real-time Customer Data Platform および Adobe Target
+title: Target を使用する既知のお客様のPersonalization
 description: RTCDP のプロファイルとオーディエンスを Adobe Target と統合します。
 landing-page-description: RTCDP のプロファイルとオーディエンスを Adobe Target と統合します。
 short-description: RTCDP のプロファイルとオーディエンスを Adobe Target と統合します。
@@ -7,15 +7,15 @@ solution: Real-Time Customer Data Platform, Target, Experience Platform
 kt: 7194
 thumbnail: thumb-web-personalization-scenario2.jpg
 exl-id: 29667c0e-bb79-432e-af3a-45bd0b3b43bb
-source-git-commit: b634e14af3ea60e0f4cc9e84a0ef896df293a8c7
+source-git-commit: 88a15765c0a998d49c19d9853ad0c44d6e3bfaa1
 workflow-type: tm+mt
-source-wordcount: '947'
-ht-degree: 32%
+source-wordcount: '943'
+ht-degree: 31%
 
 ---
 
 
-# Real-time Customer Data Platform とAdobe Targetの統合
+# Target を使用する既知のお客様のPersonalization
 
 ## ユースケース
 
@@ -31,7 +31,7 @@ ht-degree: 32%
 
 ### リファレンスドキュメント
 
-* [Real-time Customer Data Platform 向け Adobe Target 接続](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection.html?lang=ja)
+* [Real-time Customer Data Platform 向け Adobe Target 接続](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection.html)
 * [Edge データストリームを設定](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/datastreams.html?lang=ja)
 
 ## 統合パターン
@@ -46,15 +46,15 @@ ht-degree: 32%
 
 アーキテクチャ
 
-![&#x200B; オンライン/オフラインの Web Personalization ブループリントのリファレンスアーキテクチャ &#x200B;](assets/RTCDP+Target.svg)
+![ オンライン/オフラインの Web Personalization ブループリントのリファレンスアーキテクチャ ](assets/RTCDP+Target.svg)
 
 シーケンスの詳細
 
-![&#x200B; オンライン/オフラインの Web Personalization ブループリントのリファレンスアーキテクチャ &#x200B;](assets/RTCDP+Target_flow.svg)
+![ オンライン/オフラインの Web Personalization ブループリントのリファレンスアーキテクチャ ](assets/RTCDP+Target_flow.svg)
 
 概要アーキテクチャ
 
-![&#x200B; オンライン/オフラインの Web Personalization ブループリントのリファレンスアーキテクチャ &#x200B;](assets/personalization_with_apps.svg)
+![ オンライン/オフラインの Web Personalization ブループリントのリファレンスアーキテクチャ ](assets/personalization_with_apps.svg)
 
 ## 実装パターン
 
@@ -63,16 +63,16 @@ ht-degree: 32%
 ### 実装パターン 1 - Web/モバイルSDKまたは [!DNL Edge Network] API を使用した [!DNL Edge Network] ール（推奨アプローチ）
 
 * Web/モバイルSDKでの [!DNL Edge Network] の使用。 リアルタイムのエッジセグメント化には、Web／Mobile SDK または Edge API 実装アプローチが必要です。
-* SDK ベースの実装については、[Experience Platform Web およびモバイル SDK ブループリントを参照 &#x200B;](../experience-platform/deployment/websdk.md) してください。
-* Mobile SDKで使用するには、[Adobe Journey Optimizer - Decisioning 拡張機能 &#x200B;](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer-decisioning/) をインストールする必要があります。
+* SDK ベースの実装については、[Experience Platform Web およびモバイル SDK ブループリントを参照 ](../experience-platform/deployment/websdk.md) してください。
+* Mobile SDKで使用するには、[Adobe Journey Optimizer - Decisioning 拡張機能 ](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer-decisioning/) をインストールする必要があります。
 * [Edge プロファイルを使用したAdobe Targetの API ベースの実装については、 [!DNL Edge Network] Server API](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/overview.html?lang=ja) を参照してください。
 
 ### 実装パターン 2 - アプリケーション固有の SDK
 
 従来のアプリケーション固有の SDK（AT.js や AppMeasurement.js など）を使用。リアルタイムエッジセグメント評価は、この実装方法ではサポートされていません。ただし、この実装アプローチでは、Experience Platform ハブからのストリーミングおよびバッチオーディエンス共有がサポートされます。
 
-[Adobe Target Connector ドキュメントを参照してください &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection)
-[&#x200B; アプリケーション固有のSDK ブループリントを参照 &#x200B;](../experience-platform/deployment/appsdk.md)
+[Adobe Target Connector ドキュメントを参照してください ](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection)
+[ アプリケーション固有のSDK ブループリントを参照 ](../experience-platform/deployment/appsdk.md)
 
 ## 実装に関する考慮事項
 

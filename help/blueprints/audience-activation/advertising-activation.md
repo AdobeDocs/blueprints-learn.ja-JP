@@ -1,19 +1,19 @@
 ---
-title: RTCDP からのソーシャル宛先と広告宛先に対するアクティベーション
+title: Audience ActivationからソーシャルおよびAdvertisingへの宛先
 description: 複数のソースから顧客データを取り込んで、顧客の単一のプロファイルビューを作成する方法を説明します。
 solution: Real-Time Customer Data Platform, Data Collection
 kt: 7086
 exl-id: b75a7a01-04ba-4617-960d-f73f7a9cc6c7
-source-git-commit: cf7721ea01579182fdb200aad448be6fc94b34cf
+source-git-commit: 88a15765c0a998d49c19d9853ad0c44d6e3bfaa1
 workflow-type: tm+mt
-source-wordcount: '1130'
-ht-degree: 92%
+source-wordcount: '1128'
+ht-degree: 93%
 
 ---
 
-# RTCDP からのソーシャル宛先と広告宛先に対するアクティベーション
+# Audience ActivationからソーシャルおよびAdvertisingへの宛先
 
-複数のソースから顧客データを取り込み、顧客の単一のプロファイルビューを作成します。 これらのプロファイルをセグメント化して、マーケティングやパーソナライゼーションのために構築されたオーディエンスを表示し、これらのオーディエンスをFacebookやGoogleなどのアドネットワークと共有して、これらのオーディエンスに対するターゲティングやパーソナライゼーションキャンペーンを行うことができます。
+複数のソースから顧客データを取り込み、顧客の単一のプロファイルビューを作成します。 これらのプロファイルを、マーケティングおよびパーソナライゼーション用に構築されたオーディエンスにセグメント化し、これらのオーディエンスを Facebook やGoogleなどのアドネットワークと共有して、これらのオーディエンスに対するターゲティングおよびパーソナライゼーションキャンペーンを行うことができます。
 
 ## ユースケース
 
