@@ -5,10 +5,10 @@ user-guide-description: ブループリントは、既存のビジネス上の�
 product: adobe experience platform
 mini-toc-levels: 3
 role: Developer, User
-source-git-commit: 0add2a504e6ab8b6bafac78a72fc47a805440869
+source-git-commit: d5f3618fd811131e9d9c1fae16d7aab16aecc9e9
 workflow-type: tm+mt
-source-wordcount: '231'
-ht-degree: 35%
+source-wordcount: '230'
+ht-degree: 38%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 35%
    + [デバイスベース -Audience Managerを使用した匿名のオーディエンスターゲティング](/help/blueprints/audience-activation/audience-manager.md)
    + Real-time Customer Data Platform （RTCDP） {#known-customer-audience-activation}
       + [Audience ActivationからソーシャルおよびAdvertisingへの宛先](/help/blueprints/audience-activation/advertising-activation.md)
-      + [エンタープライズ宛先のブループリントに対するオーディエンスとプロファイルのアクティベーション](/help/blueprints/audience-activation/enterprise-destinations.md)
+      + [エンタープライズ宛先へのオーディエンスとプロファイルのアクティベーション](/help/blueprints/audience-activation/enterprise-destinations.md)
       + [サポートおよびセールスシナリオに関するリアルタイムプロファイルへのアクセス](/help/blueprints/audience-activation/customer-activity.md)
       + [Web およびモバイルPersonalization用のリアルタイム Edge プロファイルアクセス](/help/blueprints/audience-activation/real-time-lookup.md)
       + [Segment Match を使用した Audience Collaboration](/help/blueprints/audience-activation/segment-match.md)
@@ -67,8 +67,8 @@ ht-degree: 35%
       + [Journey Optimizer と Adobe Campaign v8](/help/blueprints/customer-journeys/campaign-v8/ajo-and-campaign-v8.md)
    + 非推奨のブループリント{#deprecated-blueprints}
       + Campaign Standard{#campaign-standard}
-         + [[!DNL Campaign Standard]](https://experienceleague.adobe.com/ja/docs/campaign-standard){target="_blank"}
-         + [AdobeのReal-Time CDP [!DNL Campaign Standard]](https://experienceleague.adobe.com/ja/docs/campaign-standard/using/integrating-with-adobe-cloud/adobe-experience-platform/get-started-sources-destinations)
+         + [[!DNL Campaign Standard]](https://experienceleague.adobe.com/en/docs/campaign-standard){target="_blank"}
+         + [AdobeのReal-Time CDP [!DNL Campaign Standard]](https://experienceleague.adobe.com/en/docs/campaign-standard/using/integrating-with-adobe-cloud/adobe-experience-platform/get-started-sources-destinations)
       + Campaign v7{#campaign-v7}
          + [Campaign v7](/help/blueprints/customer-journeys/campaign-v7/campaign-v7-overview.md)
 + データ分析、インテリジェンス、AI／ML{#data-exploration}

@@ -1,17 +1,17 @@
 ---
-title: エンタープライズ宛先のブループリントに対するオーディエンスとプロファイルのアクティベーション
+title: エンタープライズ宛先へのオーディエンスとプロファイルのアクティベーション
 description: エンタープライズ宛先へのオーディエンスとプロファイルのアクティベーション
 solution: Real-Time Customer Data Platform
 kt: 7475
 exl-id: 32133174-eb28-44ce-ab2a-63fcb5b51cb5
-source-git-commit: 88a15765c0a998d49c19d9853ad0c44d6e3bfaa1
+source-git-commit: d5f3618fd811131e9d9c1fae16d7aab16aecc9e9
 workflow-type: tm+mt
-source-wordcount: '161'
-ht-degree: 72%
+source-wordcount: '159'
+ht-degree: 82%
 
 ---
 
-# エンタープライズ宛先のブループリントに対するオーディエンスとプロファイルのアクティベーション
+# エンタープライズ宛先へのオーディエンスとプロファイルのアクティベーション
 
 プロファイルとオーディエンスの変更とイベントを、[!UICONTROL Real-time Customer Data Platform] からエンタープライズデータストアやアプリケーションにストリーミングまたはバッチで共有します。これらのプロファイルおよびオーディエンスイベントは、破棄された申し込みプロセスやウェビナー登録のフォローアップ、[!UICONTROL Real-time Customer Data Platform] の最新の顧客属性とインテリジェンスを使用したエンタープライズアプリケーションのアップデートなど、顧客に対する販売またはサポート活動を開始するために使用できます。
 
@@ -29,7 +29,7 @@ ht-degree: 72%
 
 ## 関連ドキュメント
 
-クラウドストレージとエンタープライズの宛先の設定に関するその他の詳細については、[&#x200B; 宛先のドキュメント &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/destinations/catalog/cloud-storage/overview) を参照してください。
+クラウドストレージとエンタープライズの宛先の設定に関するその他の詳細については、[ 宛先のドキュメント ](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/cloud-storage/overview) を参照してください。
 
 ## ガードレール
 
