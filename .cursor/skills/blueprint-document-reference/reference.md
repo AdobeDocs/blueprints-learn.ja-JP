@@ -15,7 +15,7 @@ ht-degree: 2%
 | **シナリオのブループリント** | 単一のユースケース：アーキテクチャ、手順、ガードレール | 例：`real-time-lookup.md`、`journey-optimizer-journeys.md` |
 | **TOC** | ナビゲーション：コンテンツテンプレートとして使用しない | `help/blueprints/TOC.md` |
 
----
+&#x200B;---
 
 ## セクション全体のリファレンス
 
@@ -46,7 +46,7 @@ ht-degree: 2%
 - **ブループリントシナリオ** または **統合パターン**：シナリオ名、短い説明およびシナリオのブループリントへのリンクを含むテーブル。
 - **前提条件**、**ガードレール**、**関連ドキュメント**：上記と同じ、簡潔にしてください。
 
----
+&#x200B;---
 
 ## Adobe Experience League - エージェントの指示
 
@@ -110,7 +110,7 @@ Experience Leagueの長いプロシージャをブループリントに貼り付
 * [Profile Guardrails](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html)
 ```
 
----
+&#x200B;---
 
 ## リポジトリと目次
 
@@ -118,7 +118,7 @@ Experience Leagueの長いプロシージャをブループリントに貼り付
 - **Assets**：ブループリントと共同配置します（例：`assets/`、`images/`）。または共有フォルダーに配置します（例：`experience-platform/assets/`）。
 - **TOC**：ブループリントページの追加、名前変更、移動の際に `help/blueprints/TOC.md` を編集します。 フロントマター（`user-guide-title`、`breadcrumb-title`、`user-guide-description`、`product`、`mini-toc-levels`、`role`）と `+` 階層を保持します。
 
----
+&#x200B;---
 
 ## このリポジトリ内の参照の例
 
