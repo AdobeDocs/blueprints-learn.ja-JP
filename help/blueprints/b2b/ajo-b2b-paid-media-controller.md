@@ -67,8 +67,8 @@ B2B 有料メディアを大規模に実行しているマーケティングチ�
 
 ### ガードレール
 
-- **Journey Optimizer B2B edition** - ジャーニーの制限、ノードの制限、宛先のサポートについては、[&#x200B; 製品の説明 &#x200B;](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer-b2b.html) を参照してください。
-- **Real-Time CDP** - セグメント化とアクティベーションの制限については [2&rbrace;RTCDP ガードレール &rbrace; を参照してください。](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/guardrails/overview)
+- **Journey Optimizer B2B edition** - ジャーニーの制限、ノードの制限、宛先のサポートについては、[&#x200B; 製品の説明 &#x200B;](https://helpx.adobe.com/jp/legal/product-descriptions/adobe-journey-optimizer-b2b.html) を参照してください。
+- **Real-Time CDP** - セグメント化とアクティベーションの制限については [2&rbrace;RTCDP ガードレール &rbrace; を参照してください。](https://experienceleague.adobe.com/ja/docs/experience-platform/rtcdp/guardrails/overview)
 
 ## 実装
 
@@ -121,6 +121,6 @@ B2B 有料メディアを大規模に実行しているマーケティングチ�
 
 ## 関連ドキュメント
 
-- [&#x200B; グループベースのマーケティングおよびジャーニー管理のブループリントの購入 &#x200B;](https://experienceleague.adobe.com/en/docs/blueprints-learn/architecture/b2b-activation/b2b-buying-group-journeys) - AJO B2B のアカウントジャーニーと購入グループジャーニー。
-- [Adobe Journey Optimizer B2B edition](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b) – 製品ドキュメント。
+- [&#x200B; グループベースのマーケティングおよびジャーニー管理のブループリントの購入 &#x200B;](https://experienceleague.adobe.com/ja/docs/blueprints-learn/architecture/b2b-activation/b2b-buying-group-journeys) - AJO B2B のアカウントジャーニーと購入グループジャーニー。
+- [Adobe Journey Optimizer B2B edition](https://experienceleague.adobe.com/ja/docs/journey-optimizer-b2b) – 製品ドキュメント。
 - [Real-time Customer Data Platform B2B edition](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/b2b-overview) - アカウントオーディエンスとアクティベーション。
