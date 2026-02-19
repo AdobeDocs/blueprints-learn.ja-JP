@@ -5,10 +5,10 @@ user-guide-description: ブループリントは、既存のビジネス上の�
 product: adobe experience platform
 mini-toc-levels: 3
 role: Developer, User
-source-git-commit: d5f3618fd811131e9d9c1fae16d7aab16aecc9e9
+source-git-commit: 747e685bb897dd15774748c20940e49e9c234b31
 workflow-type: tm+mt
-source-wordcount: '230'
-ht-degree: 38%
+source-wordcount: '234'
+ht-degree: 37%
 
 ---
 
@@ -37,6 +37,7 @@ ht-degree: 38%
    + [概要](/help/blueprints/b2b/overview.md)
    + [B2B 活性化](/help/blueprints/b2b/b2bactivation.md)
    + [B2B アカウントの有効化](/help/blueprints/b2b/b2b-account-activation.md)
+   + [B2B ペイド メディア コントローラー](/help/blueprints/b2b/ajo-b2b-paid-media-controller.md)
    + [購入グループベースのマーケティングとジャーニー管理](/help/blueprints/b2b/b2b-buying-group-journeys.md)
    + [Marketo Data を使用した B2Bジャーニー](/help/blueprints/b2b/b2b-journeys-with-marketo.md)
    + Marketo EngageとWorkfrontの統合ブループリント{#marketo-engage-and-workfront-integration-blueprint}
@@ -67,8 +68,8 @@ ht-degree: 38%
       + [Journey Optimizer と Adobe Campaign v8](/help/blueprints/customer-journeys/campaign-v8/ajo-and-campaign-v8.md)
    + 非推奨のブループリント{#deprecated-blueprints}
       + Campaign Standard{#campaign-standard}
-         + [[!DNL Campaign Standard]](https://experienceleague.adobe.com/ja/docs/campaign-standard){target="_blank"}
-         + [AdobeのReal-Time CDP [!DNL Campaign Standard]](https://experienceleague.adobe.com/ja/docs/campaign-standard/using/integrating-with-adobe-cloud/adobe-experience-platform/get-started-sources-destinations)
+         + [[!DNL Campaign Standard]](https://experienceleague.adobe.com/en/docs/campaign-standard){target="_blank"}
+         + [AdobeのReal-Time CDP [!DNL Campaign Standard]](https://experienceleague.adobe.com/en/docs/campaign-standard/using/integrating-with-adobe-cloud/adobe-experience-platform/get-started-sources-destinations)
       + Campaign v7{#campaign-v7}
          + [Campaign v7](/help/blueprints/customer-journeys/campaign-v7/campaign-v7-overview.md)
 + データ分析、インテリジェンス、AI／ML{#data-exploration}
