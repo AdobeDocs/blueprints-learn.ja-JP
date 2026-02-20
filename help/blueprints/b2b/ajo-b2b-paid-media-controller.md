@@ -68,14 +68,14 @@ B2B 有料メディアを大規模に実行しているマーケティングチ�
 
 ## B2B AEPでのデータモデリング
 
-あらゆるデータ駆動型オーケストレーションでは、スキーマの設計が重要です。 AEP/RTCDPのアカウントおよび人物プロファイルには、**分割パス条件** で使用される属性が含まれている必要があります（例：案件フラグ、ソリューションの関心、ペルソナ、インテントカテゴリ、エンゲージメントスコア）。 B2B スキーマ（XDM ビジネスアカウント、XDM 個人プロファイル、リレーショナル）は、階層とデータソースを表す必要があります。 詳しくは、[RTCDP B2B スキーマ ](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/b2b-overview) および [AJO B2B ドキュメント ](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/home) を参照してください。
+あらゆるデータ駆動型オーケストレーションでは、スキーマの設計が重要です。 AEP/RTCDPのアカウントおよび人物プロファイルには、**分割パス条件** で使用される属性が含まれている必要があります（例：案件フラグ、ソリューションの関心、ペルソナ、インテントカテゴリ、エンゲージメントスコア）。 B2B スキーマ（XDM ビジネスアカウント、XDM 個人プロファイル、リレーショナル）は、階層とデータソースを表す必要があります。 詳しくは、[RTCDP B2B スキーマ &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/b2b-overview) および [AJO B2B ドキュメント &#x200B;](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/home) を参照してください。
 
 **メモ：ジャーニーの分割パスロジック**、プロファイルと（サポートされている場合は）リレーショナルデータを使用します。ウォーターフォール論理に必要なフィールドがジャーニーで利用できることを確認してください。
 
 ### ガードレール
 
-- **Journey Optimizer B2B edition** - ジャーニーの制限、ノードの制限、宛先のサポートについては、[ 製品の説明 ](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer-b2b.html) を参照してください。
-- **Real-Time CDP** - セグメント化とアクティベーションの制限については [2}RTCDP ガードレール } を参照してください。](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/guardrails/overview)
+- **Journey Optimizer B2B edition** - ジャーニーの制限、ノードの制限、宛先のサポートについては、[&#x200B; 製品の説明 &#x200B;](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer-b2b.html) を参照してください。
+- **Real-Time CDP** - セグメント化とアクティベーションの制限については [2&rbrace;RTCDP ガードレール &rbrace; を参照してください。](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/guardrails/overview)
 
 ## 実装
 
@@ -128,6 +128,6 @@ B2B 有料メディアを大規模に実行しているマーケティングチ�
 
 ## 関連ドキュメント
 
-- [ グループベースのマーケティングおよびジャーニー管理のブループリントの購入 ](https://experienceleague.adobe.com/en/docs/blueprints-learn/architecture/b2b-activation/b2b-buying-group-journeys) - AJO B2B のアカウントジャーニーと購入グループジャーニー。
+- [&#x200B; グループベースのマーケティングおよびジャーニー管理のブループリントの購入 &#x200B;](https://experienceleague.adobe.com/en/docs/blueprints-learn/architecture/b2b-activation/b2b-buying-group-journeys) - AJO B2B のアカウントジャーニーと購入グループジャーニー。
 - [Adobe Journey Optimizer B2B edition](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b) – 製品ドキュメント。
 - [Real-time Customer Data Platform B2B edition](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/b2b-overview) - アカウントオーディエンスとアクティベーション。
