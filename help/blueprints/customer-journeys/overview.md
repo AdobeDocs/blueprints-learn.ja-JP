@@ -3,14 +3,14 @@ title: 顧客ジャーニーのブループリント
 description: スクリーンをまたいで、ジャストインタイムで調整された個別のカスタマーエクスペリエンスを提供します。
 solution: Journey Optimizer, Campaign, Experience Platform
 exl-id: 273d024f-a220-4336-89f2-e3bffafcdc37
-source-git-commit: 8ee7fe8d38343a669f5ad57e69367fbe6a3e1024
+source-git-commit: 49251caac58cd8f62dff977f94ea6a716aa94250
 workflow-type: tm+mt
 source-wordcount: '221'
-ht-degree: 13%
+ht-degree: 14%
 
 ---
 
-# 顧客ジャーニーブループリント
+# 顧客ジャーニーのブループリント
 
 最新のマーケティングチームには、個々の顧客行動への対応という事後的なエンゲージメントと、積極的なアウトリーチの両方をサポートし、オーディエンスをコンバージョンファネルに導くキャンペーンを開始できるプラットフォームが必要です。 これらのユースケースは、メール、SMS、プッシュなど、様々なチャネルや、web およびアプリ内エクスペリエンスにわたっています。
 

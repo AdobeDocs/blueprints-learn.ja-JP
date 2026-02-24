@@ -3,18 +3,18 @@ title: 意思決定管理のブループリント
 description: カスタマージャーニーをまたいでパーソナライズされたオファーを配信します。
 solution: Experience Platform, Journey Optimizer
 exl-id: 1bc9335c-5321-4d0c-939e-4f402e2e8f51
-source-git-commit: 0a3ebcbc6029df46bd988cb8f15ecf838f80c3c9
+source-git-commit: 49251caac58cd8f62dff977f94ea6a716aa94250
 workflow-type: tm+mt
 source-wordcount: '647'
-ht-degree: 77%
+ht-degree: 78%
 
 ---
 
-# Journey Optimizer – 意思決定管理ブループリント
+# Journey Optimizer - 意思決定管理のブループリント
 
-[&#x200B; 意思決定管理 &#x200B;](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started-decision/starting-offer-decisioning.html?lang=ja) については、次のドキュメントを参照してください。
+[ 意思決定管理 ](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started-decision/starting-offer-decisioning.html?lang=ja) については、次のドキュメントを参照してください。
 
-意思決定管理に関連するガードレールについては、次のドキュメントを参照してください。 [&#x200B; 意思決定管理ガードレール &#x200B;](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/get-started/guardrails#decision-management.html)
+意思決定管理に関連するガードレールについては、次のドキュメントを参照してください。 [ 意思決定管理ガードレール ](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/get-started/guardrails#decision-management.html)
 
 アドビの意思決定管理は、Adobe Journey Optimizer の一部として提供されるサービスです。このブループリントは、アプリケーションのユースケースと技術的機能の概要を示し、意思決定管理を構成する様々なアーキテクチャコンポーネントと考慮事項について詳しく説明します。
 

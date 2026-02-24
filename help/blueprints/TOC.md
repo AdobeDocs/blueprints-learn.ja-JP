@@ -1,21 +1,21 @@
 ---
-user-guide-title: デジタルエクスペリエンスのブループリント
-breadcrumb-title: ブループリント
+user-guide-title: Customer Experience Orchestration ブループリント
+breadcrumb-title: 設計図
 user-guide-description: ブループリントは、既存のビジネス上の問題に対処するための反復可能な実装で、アーキテクチャ図、技術上の考慮事項および関連ドキュメントリンクが含まれます。
 product: adobe experience platform
 mini-toc-levels: 3
 role: Developer, User
-source-git-commit: 747e685bb897dd15774748c20940e49e9c234b31
+source-git-commit: 4fece5535efcbcdc37a87aedc188c5a8d27269cc
 workflow-type: tm+mt
-source-wordcount: '234'
-ht-degree: 37%
+source-wordcount: '235'
+ht-degree: 31%
 
 ---
 
 
-# デジタルエクスペリエンスのブループリント {#architecture}
+# Customer Experience Orchestration ブループリント {#architecture}
 
-+ [デジタルエクスペリエンスブループリント](/help/blueprints/overview.md)
++ [カスタマーエクスペリエンスオーケストレーションのブループリント](/help/blueprints/overview.md)
 + アーキテクチャの概要{#architecture-overview}
    + [Experience Cloud](/help/blueprints/experience-platform/experience-cloud.md)
    + [Experience Platformとアプリケーション](/help/blueprints/experience-platform/platform-applications.md)
@@ -25,28 +25,27 @@ ht-degree: 37%
       + [Experience Platform Web SDK（&amp; [!DNL Edge Network]）](/help/blueprints/experience-platform/deployment/websdk.md)
       + [アプリケーション SDK](/help/blueprints/experience-platform/deployment/appsdk.md)
 + オーディエンスとプロファイルのアクティベーション{#audience-activation}
-   + [デバイスベース -Audience Managerを使用した匿名のオーディエンスターゲティング](/help/blueprints/audience-activation/audience-manager.md)
-   + Real-time Customer Data Platform （RTCDP） {#known-customer-audience-activation}
-      + [Audience ActivationからソーシャルおよびAdvertisingへの宛先](/help/blueprints/audience-activation/advertising-activation.md)
-      + [エンタープライズ宛先へのオーディエンスとプロファイルのアクティベーション](/help/blueprints/audience-activation/enterprise-destinations.md)
-      + [サポートおよびセールスシナリオに関するリアルタイムプロファイルへのアクセス](/help/blueprints/audience-activation/customer-activity.md)
-      + [Web およびモバイルPersonalization用のリアルタイム Edge プロファイルアクセス](/help/blueprints/audience-activation/real-time-lookup.md)
-      + [Segment Match を使用した Audience Collaboration](/help/blueprints/audience-activation/segment-match.md)
-      + [Target を使用する既知のお客様のPersonalization](/help/blueprints/audience-activation/rtcdp-target.md)
-+ B2B アクティベーションとマーケティング{#b2b-activation}
+   + [デバイスベース - Audience Managerを使用した匿名のオーディエンスターゲティング](/help/blueprints/audience-activation/audience-manager.md)
+   + Real-Time Customer Data Platform（RTCDP） {#known-customer-audience-activation}
+      + [ソーシャル宛先と広告宛先への Audience Activation](/help/blueprints/audience-activation/advertising-activation.md)
+      + [エンタープライズ宛先のブループリントに対するオーディエンスとプロファイルのアクティベーション](/help/blueprints/audience-activation/enterprise-destinations.md)
+      + [サポートおよびセールスシナリオに対するリアルタイムのプロファイルアクセス](/help/blueprints/audience-activation/customer-activity.md)
+      + [Web およびモバイルパーソナライゼーションのためのリアルタイムエッジプロファイルアクセス](/help/blueprints/audience-activation/real-time-lookup.md)
+      + [Segment Match によるオーディエンスの共同作業](/help/blueprints/audience-activation/segment-match.md)
+      + [Target を使用した既知の顧客パーソナライゼーション](/help/blueprints/audience-activation/rtcdp-target.md)
++ B2B アクティベーションおよびマーケティング{#b2b-activation}
    + [概要](/help/blueprints/b2b/overview.md)
    + [B2B 活性化](/help/blueprints/b2b/b2bactivation.md)
    + [B2B アカウントの有効化](/help/blueprints/b2b/b2b-account-activation.md)
-   + [B2B ペイド メディア コントローラー](/help/blueprints/b2b/ajo-b2b-paid-media-controller.md)
    + [購入グループベースのマーケティングとジャーニー管理](/help/blueprints/b2b/b2b-buying-group-journeys.md)
-   + [Marketo Data を使用した B2Bジャーニー](/help/blueprints/b2b/b2b-journeys-with-marketo.md)
+   + [Marketo データを使用した B2B ジャーニー](/help/blueprints/b2b/b2b-journeys-with-marketo.md)
    + Marketo EngageとWorkfrontの統合ブループリント{#marketo-engage-and-workfront-integration-blueprint}
       + [概要](/help/blueprints/b2b/marketo-engage-and-workfront-integration-blueprint/overview.md)
       + [取り込みと作成](/help/blueprints/b2b/marketo-engage-and-workfront-integration-blueprint/intake-and-create.md)
       + [レビューして承認](/help/blueprints/b2b/marketo-engage-and-workfront-integration-blueprint/review-and-approve-blueprint.md)
       + [顧客の成功事例](/help/blueprints/b2b/marketo-engage-and-workfront-integration-blueprint/customer-success-stories.md)
-+ コンテンツとCommerce{#content-commerce}
-   + [Adobe CommerceとRTCDP](/help/blueprints/content-commerce/commerce/commerce-rtcdp.md)
++ Content &amp; commerce{#content-commerce}
+   + [Adobe CommerceとReal-Time CDP](/help/blueprints/content-commerce/commerce/commerce-rtcdp.md)
 + Customer Journey Analytics{#customer-journey-analytics}
    + [概要](/help/blueprints/customer-journey-analytics/overview.md)
    + [RTCDPへのCJA オーディエンスの共有](/help/blueprints/customer-journey-analytics/cja-rtcdp.md)
@@ -55,7 +54,7 @@ ht-degree: 37%
    + [概要](/help/blueprints/customer-journeys/overview.md)
    + Journey Optimizer{#journey-optimizer}
       + [Journey Optimizer](/help/blueprints/customer-journeys/journey-optimizer/journey-optimizer-overview.md)
-      + [AJOジャーニー](/help/blueprints/customer-journeys/journey-optimizer/journey-optimizer-journeys.md)
+      + [AJO ジャーニー](/help/blueprints/customer-journeys/journey-optimizer/journey-optimizer-journeys.md)
       + [AJO キャンペーン](/help/blueprints/customer-journeys/journey-optimizer/journey-optimizer-campaigns.md)
       + [サードパーティメッセージ](/help/blueprints/customer-journeys/journey-optimizer/3rd-party-messaging.md)
    + 意思決定管理{#decision-management}
@@ -68,8 +67,8 @@ ht-degree: 37%
       + [Journey Optimizer と Adobe Campaign v8](/help/blueprints/customer-journeys/campaign-v8/ajo-and-campaign-v8.md)
    + 非推奨のブループリント{#deprecated-blueprints}
       + Campaign Standard{#campaign-standard}
-         + [[!DNL Campaign Standard]](https://experienceleague.adobe.com/ja/docs/campaign-standard){target="_blank"}
-         + [AdobeのReal-Time CDP [!DNL Campaign Standard]](https://experienceleague.adobe.com/ja/docs/campaign-standard/using/integrating-with-adobe-cloud/adobe-experience-platform/get-started-sources-destinations)
+         + [[!DNL Campaign Standard]](https://experienceleague.adobe.com/en/docs/campaign-standard){target="_blank"}
+         + [AdobeのReal-Time CDP [!DNL Campaign Standard]](https://experienceleague.adobe.com/en/docs/campaign-standard/using/integrating-with-adobe-cloud/adobe-experience-platform/get-started-sources-destinations)
       + Campaign v7{#campaign-v7}
          + [Campaign v7](/help/blueprints/customer-journeys/campaign-v7/campaign-v7-overview.md)
 + データ分析、インテリジェンス、AI／ML{#data-exploration}
