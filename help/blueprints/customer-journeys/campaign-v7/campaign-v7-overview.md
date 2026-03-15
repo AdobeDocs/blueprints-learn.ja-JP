@@ -3,10 +3,10 @@ title: Campaign v7 ブループリント
 description: バッチベースのメッセージプログラム、オンボーディングおよびリマーケティングキャンペーン、ダイレクトメール広告、シンプルトランザクションメッセージのための Campaign v7 ブループリントについて説明します。
 solution: Campaign,Campaign Classic v7
 exl-id: 71c808f5-59e6-4f49-a6ba-581ed508bc04
-source-git-commit: 10d49e3b712fc9d4ecdf41defe6e62dde2a86b72
+source-git-commit: a632042b3a7434dd88f52804e15e30fa06057e3b
 workflow-type: tm+mt
-source-wordcount: '93'
-ht-degree: 37%
+source-wordcount: '119'
+ht-degree: 36%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 37%
 >
 > Adobe Campaign v7 のこのブループリントは廃止され、サポートされなくなりました。 最新のガイダンス、アーキテクチャおよびベストプラクティスについては、Adobe Campaign v8 のブループリントを参照してください。
 > 
-> 👉 [Adobe [!DNL Campaign] v8 ブループリント &#x200B;](../campaign-v8/campaign-v8-overview.md)）を表示する
+> 👉 [Adobe [!DNL Campaign] v8 ブループリント ](../campaign-v8/campaign-v8-overview.md)）を表示する
 
 <br>
 
@@ -30,5 +30,5 @@ ht-degree: 37%
 
 * [Campaign v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic.html?lang=ja)
 * [Campaign v7 製品説明](https://helpx.adobe.com/jp/legal/product-descriptions/adobe-campaign-managed-cloud-services.html)
-* [Experience Platform タグドキュメント](https://experienceleague.adobe.com/docs/launch.html?lang=ja)
+* [Experience Platform タグのドキュメント](https://experienceleague.adobe.com/docs/launch.html?lang=ja)
 * [Experience Platform Mobile SDK ドキュメント](https://experienceleague.adobe.com/docs/mobile.html?lang=ja)

@@ -4,10 +4,10 @@ description: Adobe Journey Optimizer を Adobe Campaign と併用し、Campaign 
 solution: Journey Optimizer, Campaign, Campaign v8, Campaign v8 Client Console
 version: Campaign v8, Campaign v8 Client Console
 exl-id: 447a1b60-f217-4295-a0df-32292c4742b0
-source-git-commit: 6ec61ae7e1cfe3bad7beff127dc2e80873424d53
+source-git-commit: a632042b3a7434dd88f52804e15e30fa06057e3b
 workflow-type: tm+mt
-source-wordcount: '628'
-ht-degree: 52%
+source-wordcount: '795'
+ht-degree: 56%
 
 ---
 
@@ -20,7 +20,7 @@ Adobe [!DNL Journey Optimizer] をAdobe [!DNL Campaign] と共にネイティブ
 <img src="images/ajo-campaign-v8-architecture.svg" alt="参照アーキテクチャ Journey Optimizer ブループリント" style="width:100%; border:1px solid #4a4a4a" class="modal-image" />
 
 >[!IMPORTANT]
->Journey Optimizer と Campaign の両方を使用して、互いに独立してメッセージを送信することは可能ですが、技術的な考慮事項を熟慮する必要があります。このルートを追求する場合は、プリセールスのエンタープライズアーキテクトと協力して、実装をサポートするために必要な事項を確実に理解するようにしてください
+>Journey Optimizer と Campaign の両方を使用して、互いに独立してメッセージを送信することは可能ですが、技術的な考慮事項を熟慮する必要があります。 このルートを追求する場合は、プリセールスのエンタープライズアーキテクトと協力して、実装をサポートするために必要な事項を確実に理解するようにしてください
 
 <br>
 
@@ -42,9 +42,9 @@ Adobe [!DNL Journey Optimizer] をAdobe [!DNL Campaign] と共にネイティブ
 
 ## ガードレール
 
-* [Journey Optimizer ガードレール製品の制限 &#x200B;](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/get-started/guardrails)
+* [Journey Optimizer ガードレール製品の制限](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/get-started/guardrails)
 
-* [&#x200B; ガードレールとエンドツーエンドの待ち時間ガイダンス &#x200B;](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/architecture-overview/guardrails.html?lang=ja)
+* [ガードレールとエンドツーエンドの待ち時間ガイダンス](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/architecture-overview/guardrails.html)
 
 ## 実装手順
 
@@ -70,12 +70,12 @@ Adobe [!DNL Journey Optimizer] をAdobe [!DNL Campaign] と共にネイティブ
 
 #### ソース／宛先
 
-1. ストリーミング API とソースコネクタを使用した [&#x200B; データの取り込み  [!DNL Experience Platform]](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2020.1.dataingestion&lang=ja)。
+1. ストリーミング API とソースコネクタを使用した [ データの取り込み  [!DNL Experience Platform]](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2020.1.dataingestion&lang=ja)。
 
 ### Journey Optimizer
 
 1. [!DNL Experience Platform] データソースを設定し、キャッシュするフィールドを決定します
-1. カスタマージャーニーを開始するために使用されるストリーミングデータは、最初に Journey Optimizer 内で設定して、オーケストレーション ID を取得する必要があります。このオーケストレーション ID は、取り込みに使用するためにデベロッパーに供給されます。
+1. カスタマージャーニーを開始するために使用されるストリーミングデータは、最初に Journey Optimizer 内で設定して、オーケストレーション ID を取得する必要があります。 このオーケストレーション ID は、取り込みに使用するためにデベロッパーに供給されます。
 1. 外部データソースを設定します。
 1. Campaign インスタンスのカスタムアクションを設定します。
 
@@ -83,7 +83,7 @@ Adobe [!DNL Journey Optimizer] をAdobe [!DNL Campaign] と共にネイティブ
 
 * メッセージテンプレートは、適切なパーソナライゼーションコンテキストで設定する必要があります。
 * 標準 [!DNL Campaign] 場合：トランザクションメッセージログをExperience Platformにエクスポートするようにエクスポートワークフローを設定する必要があります。 最大 4 時間ごとに実行することをお勧めします。
-* [!DNL Campaign] v8.4 では、Experience PlatformのAdobe [!DNL Campaign] Managed Services Source コネクタを利用して、Campaign からの配信イベントとトラッキングイベントをExperience Platformに同期することができます。 詳しくは、[Source コネクタ &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=ja) ドキュメントを参照してください。
+* [!DNL Campaign] v8.4 では、Experience PlatformのAdobe [!DNL Campaign] Managed Services Source コネクタを利用して、Campaign からの配信イベントとトラッキングイベントをExperience Platformに同期することができます。 詳しくは、[Source コネクタ ](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=ja) ドキュメントを参照してください。
 
 ### モバイルプッシュ設定（オプション）
 
@@ -94,13 +94,13 @@ Adobe [!DNL Journey Optimizer] をAdobe [!DNL Campaign] と共にネイティブ
    * [!DNL Edge Network] の ID
    * モバイルコア
 1. Web デプロイメントではなく、モバイルアプリのデプロイメントに専用のデータストリームがあることを確認します。
-1. 詳しくは、[Adobe Journey Optimizer モバイルガイド &#x200B;](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/push-notification/) を参照してください。
+1. 詳しくは、[Adobe Journey Optimizer モバイルガイド ](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/push-notification/) を参照してください。
 
    >[!IMPORTANT]
-   >Journey Optimizer 経由でリアルタイムの通信を送信し、Campaign 経由でバッチプッシュ通知を送信する場合、Journey Optimizer と Campaign の両方でモバイルトークンを収集する必要が生じる場合があります。Campaign v8 では、プッシュトークンをキャプチャするために Campaign SDK を排他的に使用する必要があります。
+   >Journey Optimizer 経由でリアルタイムの通信を送信し、Campaign 経由でバッチプッシュ通知を送信する場合、Journey Optimizer と Campaign の両方でモバイルトークンを収集する必要が生じる場合があります。 Campaign v8 では、プッシュトークンをキャプチャするために Campaign SDK を排他的に使用する必要があります。
 
 ## 関連ドキュメント
 
 * [Journey Optimizer ドキュメント](https://experienceleague.adobe.com/docs/journey-optimizer/using/ajo-home.html?lang=ja)
-* [Journey Optimizer 製品説明](https://helpx.adobe.com/jp/legal/product-descriptions/adobe-journey-optimizer.html)
+* [Journey Optimizer製品の説明](https://helpx.adobe.com/jp/legal/product-descriptions/adobe-journey-optimizer.html)
 * [Campaign v8 ドキュメント](https://experienceleague.adobe.com/docs/campaign-v8.html?lang=ja)
