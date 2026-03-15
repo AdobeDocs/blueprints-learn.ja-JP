@@ -55,7 +55,7 @@ Journey Optimizer は、あらゆるタッチポイントにわたり、適切�
 * [Adobe Journey Optimizer](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started-decision/offers-e2e.html?lang=ja) との直接統合により、電子メール、SMS、アウトバウンドチャネルで実装。
 * サーバー API ベースの意思決定管理の実装の場合、[判定 API](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/api-reference/offer-delivery/decisioning-vs-edge-apis.html?lang=ja) を使用します。
 * メッセージ配信アプリケーションにオファーを一括で配信するバッチベースの判定を実装するには、 [バッチ判定 API](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/api-reference/offer-delivery/batch-decisioning-api.html?lang=ja) を使用します。
-* Edge ベースのリアルタイムエクスペリエンスの場合は、[Edge ブループリントの意思決定管理 ](decision-management-edge.md) で説明されているように、Web/Mobile SDKまたはEdge Decisioning API を使用します
+* Edge ベースのリアルタイムエクスペリエンスの場合は、[Edge ブループリントの意思決定管理 &#x200B;](decision-management-edge.md) で説明されているように、Web/Mobile SDKまたはEdge Decisioning API を使用します
 
 ## 関連ドキュメント
 

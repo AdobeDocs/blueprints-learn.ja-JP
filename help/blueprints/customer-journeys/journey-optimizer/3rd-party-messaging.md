@@ -50,7 +50,7 @@ Adobe Journey Optimizerをサードパーティのメッセージングシステ
 
 #### スキーマ／データセット
 
-1. お客様から提供されたデータに基づいて、Experience Platformで [ スキーマを設定 ](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2021.1.xdm&lang=ja) します。
+1. お客様から提供されたデータに基づいて、Experience Platformで [&#x200B; スキーマを設定 &#x200B;](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2021.1.xdm&lang=ja) します。
 1. Experience Platform で取り込む[データセットを作成します。](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/create-datasets-and-ingest-data.html?lang=ja)
 1. ガバナンス用のデータセットに、Experience Platform で[データ使用ラベルを追加します。](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-governance/classify-data-using-governance-labels.html?lang=ja)
 1. 宛先のガバナンスを実施する[ポリシーを作成します。](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-governance/create-data-usage-policies.html?lang=ja)

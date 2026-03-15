@@ -16,7 +16,7 @@ ht-degree: 36%
 >
 > Adobe Campaign v7 のこのブループリントは廃止され、サポートされなくなりました。 最新のガイダンス、アーキテクチャおよびベストプラクティスについては、Adobe Campaign v8 のブループリントを参照してください。
 > 
-> 👉 [Adobe [!DNL Campaign] v8 ブループリント ](../campaign-v8/campaign-v8-overview.md)）を表示する
+> 👉 [Adobe [!DNL Campaign] v8 ブループリント &#x200B;](../campaign-v8/campaign-v8-overview.md)）を表示する
 
 <br>
 

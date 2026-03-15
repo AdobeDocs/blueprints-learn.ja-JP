@@ -37,228 +37,23 @@ ht-degree: 0%
 
 エージェント・メモリにはクロールされるすべてのガイドラインが含まれますが、次の基本カテゴリーを常に確認する必要があります。
 
-### &#x200B;1. メタデータと最重要事項
-- ファイルには、必須フィールド（タイトル、説明、ソリューション、役割、レベルなど）を持つ適切な YAML フロントマターを含める必要があります。
-- タイトルは簡潔かつ説明的で、SEO のベストプラクティスに従う必要があります
-- 説明は 60 ～ 160 文字にする必要があります
+### &#x200B;1. メタデータと最重要事項- ファイルには、必須フィールド（タイトル、説明、ソリューション、役割、レベルなど）を持つ適切な YAML フロントマターを含める必要があります。- タイトルは簡潔かつ説明的で、SEO のベストプラクティスに従う必要があります- 説明は 60 ～ 160 文字にする必要があります
 
-### &#x200B;2. Markdown 構文（Adobe固有）
-- Adobe固有の Markdown 拡張機能（`>[!NOTE]`、`>[!TIP]`、`>[!WARNING]`、`>[!CAUTION]`、`>[!IMPORTANT]` など）を使用する
-- DNL （Do Not Localize）タグ：翻訳しない製品名の `[!DNL ProductName]`
-- UICONTROL タグ：UI 要素参照の `[!UICONTROL Button Label]`
-- コンテンツステータスをマークするためのバッジ構文
-- 適切な見出し階層（H1 は 1 回のみ、連続したネスト）
+### &#x200B;2. Markdown 構文（Adobe固有）- Adobe固有の Markdown 拡張機能（`>[!NOTE]`、`>[!TIP]`、`>[!WARNING]`、`>[!CAUTION]`、`>[!IMPORTANT]` など）を使用する- DNL （Do Not Localize）タグ：翻訳しない製品名の `[!DNL ProductName]`- UICONTROL タグ：UI 要素参照の `[!UICONTROL Button Label]`- コンテンツステータスをマークするためのバッジ構文- 適切な見出し階層（H1 は 1 回のみ、連続したネスト）
 
-### &#x200B;3. 標準の書式設定
-- ATX スタイルの見出しを使用する（アンダーライン構文ではなく構文を `#` 用）
-- ドキュメントごとに 1 つの H1 （通常はタイトルメタデータから自動生成）
-- 順序付きリストおよび順序なしのリストの書式設定
-- テーブルの整列と書式設定
-- 言語識別子を含むコードブロック
-- 特殊文字の適切なエスケープ
+### &#x200B;3. 標準の書式設定- ATX スタイルの見出しを使用する（アンダーライン構文ではなく構文を `#` 用）- ドキュメントごとに 1 つの H1 （通常はタイトルメタデータから自動生成）- 順序付きリストおよび順序なしのリストの書式設定- テーブルの整列と書式設定- 言語識別子を含むコードブロック- 特殊文字の適切なエスケープ
 
-### &#x200B;4. リンクと参照
-- 内部ドキュメントの相対リンク
-- 適切な相互参照構文
-- 外部リンクは、必要に応じて新しいタブで開きます
-- 壊れたリンクや壊れたリンクの回避
-- 定義済みのリンクパターンの使用
+### &#x200B;4. リンクと参照- 内部ドキュメントの相対リンク- 適切な相互参照構文- 外部リンクは、必要に応じて新しいタブで開きます- 壊れたリンクや壊れたリンクの回避- 定義済みのリンクパターンの使用
 
-### &#x200B;5. 画像とメディア
-- すべての画像に代替テキストが必要です
-- 適切な画像パスの規則
-- 画像ファイルの命名規則（小文字、ハイフン）
-- 適切な画像のサイズと形式
+### &#x200B;5. 画像とメディア- すべての画像に代替テキストが必要です- 適切な画像パスの規則- 画像ファイルの命名規則（小文字、ハイフン）- 適切な画像のサイズと形式
 
-### &#x200B;6. コンテンツ品質
-- アクティブな音声が優先されました
-- 教育用コンテンツの場合は「あなた」
-- 一貫した用語
-- 適切な製品名の大文字
-- 説明なしで専門用語を避ける
-- 手順には番号を付け、アクションを起こせる必要があります
+### &#x200B;6. コンテンツ品質- アクティブな音声が優先されました- 教育用コンテンツの場合は「あなた」- 一貫した用語- 適切な製品名の大文字- 説明なしで専門用語を避ける- 手順には番号を付け、アクションを起こせる必要があります
 
-### &#x200B;7. ファイルとフォルダーの規則
-- 小文字のファイル名にハイフンを使用（スペースやアンダースコアは使用しない）
-- 論理フォルダー階層
-- 目次ファイル構造のコンプライアンス
+### &#x200B;7. ファイルとフォルダーの規則- 小文字のファイル名にハイフンを使用（スペースやアンダースコアは使用しない）- 論理フォルダー階層- 目次ファイル構造のコンプライアンス
 
-### &#x200B;8. 有効な製品値
-「product」:
-- &quot;adobe analytics&quot;
-- 「Adobe Analytics」
-- &quot;analytics&quot;
-- &quot;Analytics&quot;
-- &quot;aa&quot;
-- &quot;adobe audience manager&quot;
-- 「Adobe Audience Manager」
-- &quot;audience manager&quot;
-- 「Audience Manager」
-- &quot;adobe campaign&quot;
-- 「Adobe Campaign」
-- &quot;campaign&quot;
-- &quot;キャンペーン&quot;
-- &quot;ac&quot;
-- &quot;adobe experience manager&quot;
-- 「Adobe Experience Manager」
-- &quot;experience manager&quot;
-- 「Experience Manager」
-- &quot;aem&quot;
-- &quot;adobe experience manager cloud manager&quot;
-- 「Adobe Experience ManagerCloud Manager」
-- &quot;experience manager cloud manager&quot;
-- 「Experience ManagerCloud Manager」
-- 「cm」
-- &quot;adobe livefyre&quot;
-- 「AdobeLivefyre」
-- &quot;livefyre&quot;
-- 「Livefyre」
-- &quot;alf&quot;
-- &quot;adobe marketing cloud&quot;
-- &quot;marketing cloud&quot;
-- &quot;experience-cloud&quot;
-- &quot;experience cloud&quot;
-- 「Experience Cloud」
-- 「コアサービス」
-- &quot;amc&quot;
-- &quot;adobe advertising cloud&quot;
-- &quot;Adobe Advertising cloud&quot;
-- &quot;advertising cloud&quot;
-- &quot;Advertising Cloud&quot;
-- &quot;adc&quot;
-- &quot;adobe media optimizer&quot;
-- &quot;Adobe Media Optimizer&quot;
-- &quot;media optimizer&quot;
-- &quot;Media Optimizer&quot;
-- &quot;amo&quot;
-- &quot;adobe target&quot;
-- 「Adobe Target」
-- &quot;target&quot;
-- &quot;Target&quot;
-- &quot;at&quot;
-- &quot;adobe dynamic tag management&quot;
-- &quot;dynamic tag management&quot;
-- 「dtm」
-- &quot;adobe experience platform&quot;
-- 「Adobe Experience Platform」
-- &quot;experience platform&quot;
-- 「Experience Platform」
-- &quot;platform&quot;
-- &quot;Platform&quot;
-- &quot;adobe customer journey analytics&quot;
-- 「Adobe Customer Journey Analytics」
-- &quot;customer journey analytics&quot;
-- 「Customer Journey Analytics」
-- &quot;cja&quot;
-- &quot;adobe インテリジェントサービス&quot;
-- &quot;Adobe インテリジェントサービス&quot;
-- 「インテリジェントサービス」
-- 「インテリジェントサービス」
-- &quot;ある&quot;
-- &quot;adobe real time customer data platform&quot;
-- 「Adobe Real-Time Customer Data Platform」
-- &quot;real time cdp&quot;
-- &quot;Real Time CDP&quot;
-- &quot;rtcdp&quot;
-- &quot;adobe marketo&quot;
-- 「AdobeMarketo」
-- &quot;marketo&quot;
-- 「Marketo」
-- &quot;amk&quot;
-- &quot;adobe bizible&quot;
-- 「Adobe Bizible」
-- &quot;bizible&quot;
-- &quot;Bizible&quot;
-- 「biz」
-- &quot;adobe magento&quot;
-- 「AdobeMagento」
-- 「magento」
-- 「Magento」
-- 「マグ」
-- &quot;adobe acrobat&quot;
-- 「Adobe Acrobat」
-- &quot;acrobat&quot;
-- 「Acrobat」
-- &quot;acr&quot;
-- &quot;adobe sign&quot;
-- &quot;Adobe Sign&quot;
-- &quot;sign&quot;
-- 「サイン」
-- &quot;asi&quot;
-- &quot;adobe document cloud&quot;
-- 「Adobe Document Cloud」
-- &quot;document cloud&quot;
-- 「Document Cloud」
-- &quot;dcl&quot;
-- &quot;adobe search and promote&quot;
-- &quot;Adobe Search and Promote&quot;
-- &quot;search and promote&quot;
-- &quot;Search and Promote&quot;
-- &quot;asp&quot;
-- &quot;adobe dynamic media classic&quot;
-- 「Adobe Dynamic Media Classic」
-- &quot;dynamic media classic&quot;
-- 「Dynamic Media Classic」
-- &quot;dmc&quot;
-- &quot;adobe launch&quot;
-- &quot;Adobe Launch&quot;
-- &quot;launch&quot;
-- &quot;ローンチ&quot;
-- &quot;adobe primetime&quot;
-- &quot;Adobe Primetime&quot;
-- &quot;primetime&quot;
-- &quot;Primetime&quot;
-- &quot;adobe social&quot;
-- 「ソーシャル」
-- &quot;auditor&quot;
-- &quot;Auditor&quot;
-- &quot;adobe journey orchestration&quot;
-- 「AdobeJourney Orchestration」
-- &quot;journey orchestration&quot;
-- 「Journey Orchestration」
-- &quot;jo&quot;
-- &quot;adobe device co-op&quot;
-- &quot;Adobe Device Co-op&quot;
-- &quot;device co-op&quot;
-- &quot;Device Co-op&quot;
-- &quot;dcp&quot;
-- &quot;adobe debugger&quot;
-- 「Adobe Debugger」
-- &quot;debugger&quot;
-- &quot;デバッガー&quot;
-- &quot;dbg&quot;
-- &quot;adobe web sdk&quot;
-- &quot;Adobe Web SDK&quot;
-- &quot;web sdk&quot;
-- &quot;WebSDK&quot;
-- &quot;sdk&quot;
-- &quot;adobe places service&quot;
-- 「プドベ・プレイス・サービス」
-- &quot;places service&quot;
-- &quot;Places Service&quot;
-- &quot;aps&quot;
-- &quot;adobe id サービス&quot;
-- &quot;Adobe ID サービス&quot;
-- &quot;id サービス&quot;
-- &quot;ID サービス&quot;
-- &quot;ids&quot;
-- &quot;adobe mobile sdk&quot;
-- &quot;Adobe Mobile SDK&quot;
-- &quot;mobile sdk&quot;
-- &quot;モバイルSDK&quot;
-- 「mdk」
-- 「Journey Optimizer」
-- &quot;journey optimizer&quot;
+### &#x200B;8. 有効な製品値「product」:- &quot;adobe analytics&quot;- 「Adobe Analytics」- &quot;analytics&quot;- &quot;Analytics&quot;- &quot;aa&quot;- &quot;adobe audience manager&quot;- 「Adobe Audience Manager」- &quot;audience manager&quot;- 「Audience Manager」- &quot;adobe campaign&quot;- 「Adobe Campaign」- &quot;campaign&quot;- &quot;キャンペーン&quot;- &quot;ac&quot;- &quot;adobe experience manager&quot;- 「Adobe Experience Manager」- &quot;experience manager&quot;- 「Experience Manager」- &quot;aem&quot;- &quot;adobe experience manager cloud manager&quot;- 「Adobe Experience ManagerCloud Manager」- &quot;experience manager cloud manager&quot;- 「Experience ManagerCloud Manager」- 「cm」- &quot;adobe livefyre&quot;- 「AdobeLivefyre」- &quot;livefyre&quot;- 「Livefyre」- &quot;alf&quot;- &quot;adobe marketing cloud&quot;- &quot;marketing cloud&quot;- &quot;experience-cloud&quot;- &quot;experience cloud&quot;- 「Experience Cloud」- 「コアサービス」- &quot;amc&quot;- &quot;adobe advertising cloud&quot;- &quot;Adobe Advertising cloud&quot;- &quot;advertising cloud&quot;- &quot;Advertising Cloud&quot;- &quot;adc&quot;- &quot;adobe media optimizer&quot;- &quot;Adobe Media Optimizer&quot;- &quot;media optimizer&quot;- &quot;Media Optimizer&quot;- &quot;amo&quot;- &quot;adobe target&quot;- 「Adobe Target」- &quot;target&quot;- &quot;Target&quot;- &quot;at&quot;- &quot;adobe dynamic tag management&quot;- &quot;dynamic tag management&quot;- 「dtm」- &quot;adobe experience platform&quot;- 「Adobe Experience Platform」- &quot;experience platform&quot;- 「Experience Platform」- &quot;platform&quot;- &quot;Platform&quot;- &quot;adobe customer journey analytics&quot;- 「Adobe Customer Journey Analytics」- &quot;customer journey analytics&quot;- 「Customer Journey Analytics」- &quot;cja&quot;- &quot;adobe インテリジェントサービス&quot;- &quot;Adobe インテリジェントサービス&quot;- 「インテリジェントサービス」- 「インテリジェントサービス」- &quot;ある&quot;- &quot;adobe real time customer data platform&quot;- 「Adobe Real-Time Customer Data Platform」- &quot;real time cdp&quot;- &quot;Real Time CDP&quot;- &quot;rtcdp&quot;- &quot;adobe marketo&quot;- 「AdobeMarketo」- &quot;marketo&quot;- 「Marketo」- &quot;amk&quot;- &quot;adobe bizible&quot;- 「Adobe Bizible」- &quot;bizible&quot;- &quot;Bizible&quot;- 「biz」- &quot;adobe magento&quot;- 「AdobeMagento」- 「magento」- 「Magento」- 「マグ」- &quot;adobe acrobat&quot;- 「Adobe Acrobat」- &quot;acrobat&quot;- 「Acrobat」- &quot;acr&quot;- &quot;adobe sign&quot;- &quot;Adobe Sign&quot;- &quot;sign&quot;- 「サイン」- &quot;asi&quot;- &quot;adobe document cloud&quot;- 「Adobe Document Cloud」- &quot;document cloud&quot;- 「Document Cloud」- &quot;dcl&quot;- &quot;adobe search and promote&quot;- &quot;Adobe Search and Promote&quot;- &quot;search and promote&quot;- &quot;Search and Promote&quot;- &quot;asp&quot;- &quot;adobe dynamic media classic&quot;- 「Adobe Dynamic Media Classic」- &quot;dynamic media classic&quot;- 「Dynamic Media Classic」- &quot;dmc&quot;- &quot;adobe launch&quot;- &quot;Adobe Launch&quot;- &quot;launch&quot;- &quot;ローンチ&quot;- &quot;adobe primetime&quot;- &quot;Adobe Primetime&quot;- &quot;primetime&quot;- &quot;Primetime&quot;- &quot;adobe social&quot;- 「ソーシャル」- &quot;auditor&quot;- &quot;Auditor&quot;- &quot;adobe journey orchestration&quot;- 「AdobeJourney Orchestration」- &quot;journey orchestration&quot;- 「Journey Orchestration」- &quot;jo&quot;- &quot;adobe device co-op&quot;- &quot;Adobe Device Co-op&quot;- &quot;device co-op&quot;- &quot;Device Co-op&quot;- &quot;dcp&quot;- &quot;adobe debugger&quot;- 「Adobe Debugger」- &quot;debugger&quot;- &quot;デバッガー&quot;- &quot;dbg&quot;- &quot;adobe web sdk&quot;- &quot;Adobe Web SDK&quot;- &quot;web sdk&quot;- &quot;WebSDK&quot;- &quot;sdk&quot;- &quot;adobe places service&quot;- 「プドベ・プレイス・サービス」- &quot;places service&quot;- &quot;Places Service&quot;- &quot;aps&quot;- &quot;adobe id サービス&quot;- &quot;Adobe ID サービス&quot;- &quot;id サービス&quot;- &quot;ID サービス&quot;- &quot;ids&quot;- &quot;adobe mobile sdk&quot;- &quot;Adobe Mobile SDK&quot;- &quot;mobile sdk&quot;- &quot;モバイルSDK&quot;- 「mdk」- 「Journey Optimizer」- &quot;journey optimizer&quot;
 
-### &#x200B;9. 有効な役割の値
-&quot;role&quot;:
-- &quot;管理者&quot;
-- &quot;アーキテクト&quot;
-- &quot;データアーキテクト&quot;
-- 「データエンジニア」
-- &quot;開発者&quot;
-- &quot;リーダー&quot;
-- &quot;ユーザー&quot;
+### &#x200B;9. 有効な役割の値&quot;role&quot;:- &quot;管理者&quot;- &quot;アーキテクト&quot;- &quot;データアーキテクト&quot;- 「データエンジニア」- &quot;開発者&quot;- &quot;リーダー&quot;- &quot;ユーザー&quot;
 
 ## プロセスを確認
 
@@ -279,20 +74,11 @@ ht-degree: 0%
 
 レビューごとに、以下を指定します。
 
-### 概要
-全体的な簡単な評価（合格/ニーズの変更/主な問題）
+### 概要全体的な簡単な評価（合格/ニーズの変更/主な問題）
 
-### 問題が見つかりました
-各問題に対して、次の手順を実行します。
-- **重大度**:🔴 エラー（修正が必要） | 🟡 警告（修正が必要） |🔵 提案（お勧め）
-- **行/セクション**：問題が発生する場所
-- **ルール**：違反するガイドライン
-- **現在**：ファイルの現在の状態
-- **期待**：のあるべき姿
-- **修正**：適用する特定の修正
+### 問題が見つかりました各問題に対して、次の手順を実行します。- **重大度**:🔴 エラー（修正が必要） | 🟡 警告（修正が必要） |🔵 提案（お勧め）- **行/セクション**：問題が発生する場所- **ルール**：違反するガイドライン- **現在**：ファイルの現在の状態- **期待**：のあるべき姿- **修正**：適用する特定の修正
 
-### Checklist
-主要なカテゴリごとの合格/不合格を示すクイックコンプライアンスチェックリスト。
+### Checklist主要なカテゴリごとの合格/不合格を示すクイックコンプライアンスチェックリスト。
 
 ## 重要な動作
 

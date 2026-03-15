@@ -9,7 +9,7 @@ ht-degree: 1%
 
 *Adobe ExL オーサリングガイド（2026 年 2 月クロール）および blueprints-learn.en のリポジトリ分析をソース*
 
----
+&#x200B;---
 
 ## メタデータ階層
 
@@ -18,7 +18,7 @@ ht-degree: 1%
 2. ユーザーガイドの目次
 3. リポジトリルートの metadata.md （最優先度）
 
----
+&#x200B;---
 
 ## 記事レベルのフィールド
 
@@ -69,7 +69,7 @@ ht-degree: 1%
 | `source-git-url` | Source リポジトリ URL。 | 完全な GitHub URL |
 | `cloud` | 記事レベルでのクラウドカテゴリの上書き。 | タイトルケース。cloud.yml と一致する必要があります。 |
 
----
+&#x200B;---
 
 ## TOC.md フィールド
 
@@ -83,7 +83,7 @@ ht-degree: 1%
 | `role` | ガイドのデフォルトオーディエンスの役割。 | Article `role` と同じ値。コンマ区切り |
 | `index` | ガイドにインデックスを付けるかどうかを指定します。 | `yes`/`no` |
 
----
+&#x200B;---
 
 ## リポジトリレベルの metadata.md フィールド
 
@@ -98,7 +98,7 @@ ht-degree: 1%
 | `git-repo` | GitHub リポジトリ URL。「このページを編集」および「問題をログに記録」ボタンを有効にします |
 | `index` | デフォルトのインデックス設定 |
 
----
+&#x200B;---
 
 ## 有効なソリューションの値（大文字と小文字を区別）
 
@@ -123,7 +123,7 @@ ht-degree: 1%
 
 複数の値：コンマ区切り（例：`Real-Time Customer Data Platform, Campaign`）
 
----
+&#x200B;---
 
 ## 有効な製品値（`product` のフィールドの場合：Analytics トラッキング）
 
@@ -137,7 +137,7 @@ ht-degree: 1%
 - `adobe campaign` / `campaign` / `ac`
 - `adobe target` / `target` / `at`
 
----
+&#x200B;---
 
 ## 有効な役割の値
 
@@ -149,7 +149,7 @@ ht-degree: 1%
 - `Leader`
 - `User`
 
----
+&#x200B;---
 
 ## キー検証ルール
 
