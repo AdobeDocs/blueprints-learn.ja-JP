@@ -1,7 +1,7 @@
 ---
 name: blueprint-document-reference
 description: Adobe デジタルエクスペリエンスブループリントドキュメントの作成および編集のリファレンスです。 新しいブループリントを作成したり、ブループリントページを追加したりする場合や、ユーザーがブループリントの構造、セクション、テンプレートまたは Adobe Experience League の参照について質問する場合に使用します。
-source-git-commit: a632042b3a7434dd88f52804e15e30fa06057e3b
+source-git-commit: 61c2666b4546222423e85e52270b436c59d846a3
 workflow-type: tm+mt
 source-wordcount: '445'
 ht-degree: 1%
@@ -36,7 +36,7 @@ ht-degree: 1%
 title: [Short descriptive title]
 description: "[One sentence: what this blueprint shows and why it matters.]"
 solution: [Product name, e.g. Real-Time Customer Data Platform, Journey Optimizer]
-exl-id: [UUID - leave blank if new, this will be auto-generated as part of the Experience League publishing flow]
+exl-id: [UUID - if this is already popultated keep it as is. Disregard and remove this field if it is a new blueprint as blank values will be rejected by the publishing flow. If the field and value are not present, it will be auto-generated as part of the Experience League publishing flow]
 ---
 # [H1 - same as title or expanded]
 
@@ -98,8 +98,8 @@ exl-id: [UUID - leave blank if new, this will be auto-generated as part of the E
 ## Adobe Experience League の参照
 
 - **リンクする場合**：製品ドキュメント、API リファレンス、ガードレール、チュートリアル、設定手順については、Experience Leagueにリンクしてください。 長い手順を複製しないでください。要約してリンクします。
-- **URL 形式**：完全な URL を使用します。 `https://experienceleague.adobe.com/docs/?lang=ja...` または `https://experienceleague.adobe.com/ja/docs/...` を選択します。 開発者向けドキュメントの場合、`https://developer.adobe.com/...` も有効です。
-- **リンクテキスト**：説明テキストを使用します（「ここをクリック」ではなく「[ スキーマを作成 ] (url)」など）。 リンクテキスト内の製品名には、必要に応じて `[!DNL Product Name]` を使用します。
+- **URL 形式**：完全な URL を使用します。 `https://experienceleague.adobe.com/docs/...` または `https://experienceleague.adobe.com/en/docs/...` を選択します。 開発者向けドキュメントの場合、`https://developer.adobe.com/...` も有効です。
+- **リンクテキスト**：説明テキストを使用します（「ここをクリック」ではなく「[ スキーマを作成 ](url)」など）。 リンクテキスト内の製品名には、必要に応じて `[!DNL Product Name]` を使用します。
 - **関連ドキュメントセクション**：カテゴリ別にリンクをグループ化する「関連ドキュメント」セクションを持つエンドブループリント（宛先設定、SDK ドキュメント、プロファイルとセグメント化、チュートリアルなど）。
 
 URL パターン、リンクのグループ化、例について詳しくは、[reference.md](reference.md) を参照してください。
