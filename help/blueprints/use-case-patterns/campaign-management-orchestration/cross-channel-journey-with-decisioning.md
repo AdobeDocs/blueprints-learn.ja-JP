@@ -106,7 +106,7 @@ ht-degree: 2%
 | データモデリングと準備 | 必須 | プロファイルスキーマには、意思決定に使用する属性（ロイヤルティ層、購入履歴、チャネル環境設定、エンゲージメントスコアなど）を含める必要があります。 オファーカタログおよび決定項目スキーマを設定する必要があります。 ExperienceEvent スキーマは、実施要件ルールおよびランキング式で使用される行動シグナルをキャプチャする必要があります。 | [XDM システムの概要 &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/home)、[&#x200B; スキーマ構成の基本 &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/composition) |
 | データソースとコレクション | 所定の位置に想定 | 意思決定で使用されるプロファイル属性と行動シグナルは、最新のものである必要があります。 ジャーニーでイベントトリガーのエントリまたは終了条件を使用する場合は、リアルタイムイベントのストリーミングが必要です。 意思決定コンテキストを提供するチャネルの場合は、web SDK、Mobile SDKまたはサーバーサイド収集をアクティブにする必要があります。 | [Web SDKの概要 &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/home)、[&#x200B; ソースの概要 &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/sources/home) |
 | ID とプロファイル設定 | 必須 | クロスチャネル ID 解決が重要です。ジャーニーは、メール、プッシュ、SMS および web をまたいでプロファイルを解決する必要があります。 結合ポリシーでは、決定のための統合プロファイルを生成する必要があります。 すべての顧客識別子（CRM ID、メール、ECID、電話）の ID 名前空間を設定する必要があります。 | [ID サービスの概要 &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/identity/home)、[&#x200B; 結合ポリシーの概要 &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/profile/merge-policies/overview) |
-| オーディエンスの定義とセグメント化 | 必須 | ジャーニーのエントリオーディエンス定義。 オファーの実施要件ルールおよびジャーニー内での条件の分岐に使用される追加セグメント。 評価方法は、待ち時間の要件（リアルタイムエントリの場合はストリーミング、スケジュールされた場合はバッチ）に一致する必要があります。 | [&#x200B; セグメント化サービスの概要 &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/home)、[&#x200B; セグメントビルダー UI ガイド &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/segment-builder) |
+| オーディエンスの定義とセグメント化 | 必須 | ジャーニーのエントリオーディエンス定義。 オファーの実施要件ルールおよびジャーニー内での条件の分岐に使用される追加セグメント。 評価方法は、待ち時間の要件（リアルタイムエントリの場合はストリーミング、スケジュールされた場合はバッチ）に一致する必要があります。 | [&#x200B; セグメント化サービスの概要 &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/segmentation/home)、[&#x200B; セグメントビルダー UI ガイド &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/segmentation/ui/segment-builder) |
 
 ## サポート関数
 
@@ -116,7 +116,7 @@ ht-degree: 2%
 | --- | --- | --- | --- |
 | 計算/派生属性の作成 | 推奨 | 顧客 AI の傾向スコア、エンゲージメントスコア、チャネル環境設定スコア、ライフタイム値の計算などの計算属性により、意思決定の品質が大幅に向上します。 これらの拡張されたプロファイル属性により、より高度な実施要件ルールとランキング式を使用できます。 | [&#x200B; 計算済み属性の概要 &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/profile/computed-attributes/overview)、[&#x200B; 顧客 AI の概要 &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/intelligent-services/customer-ai/overview) |
 | データ・ライフサイクル管理 | 推奨 | オファー履歴と決定イベントのデータは時間の経過と共に蓄積されるため、保存ポリシーを設定する必要があります。 複数のチャネルにわたる同意の適用が重要です。チャネルの有効な同意を持たないプロファイルは、そのチャネルの配信パスから除外する必要があります。 | [Advanced Data Lifecycle Management の概要 &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/data-lifecycle/home)、[Journey Optimizerでの同意 &#x200B;](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/privacy/consent/consent-restricted) |
-| データ使用のラベル付けと適用 | 推奨 | 意思決定が、異なるデータ使用制限を持つ異なるチャネルにプロファイルをルーティングする可能性がある場合、複数のチャネルとオファータイプにわたるガバナンスの適用が重要です。 すべてのチャネルで、準拠したオファー配信を保証します。 | [&#x200B; データガバナンスの概要 &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/home)、[&#x200B; ポリシーの適用 &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/enforcement/overview) |
+| データ使用のラベル付けと適用 | 推奨 | 意思決定が、異なるデータ使用制限を持つ異なるチャネルにプロファイルをルーティングする可能性がある場合、複数のチャネルとオファータイプにわたるガバナンスの適用が重要です。 すべてのチャネルで、準拠したオファー配信を保証します。 | [&#x200B; データガバナンスの概要 &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/data-governance/home)、[&#x200B; ポリシーの適用 &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/enforcement/overview) |
 | 監視と監視 | Included | ジャーニーと意思決定の監視は、実稼動業務に不可欠です。 ジャーニーエントリの失敗、フォールバックスパイクの決定、配信エラーに関するアラートを使用すると、問題を迅速に解決できます。 | [&#x200B; アラートの概要 &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/observability/alerts/overview)、[Observability Insights の概要 &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/observability/home) |
 | レポートと分析 | Included | ジャーニーレポートと決定レポートについては、レポートフェーズで説明します。 意思決定効果、チャネルミックスの最適化、オファーのパフォーマンスおよびジャーニーの ROI を分析するCJAは、ランキング戦略を調整し、ジャーニーを経時的に最適化するために必要なインサイトを提供します。 | [CJAの概要 &#x200B;](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-overview)、[AJO + CJA統合ガイド &#x200B;](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/reporting/channel-report/cja-ajo) |
 
@@ -351,7 +351,7 @@ ht-degree: 2%
 
 #### Experience League ドキュメント
 
-- [セグメントビルダー UI ガイド](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/segment-builder)
+- [セグメントビルダー UI ガイド](https://experienceleague.adobe.com/ja/docs/experience-platform/segmentation/ui/segment-builder)
 - [ストリーミングセグメント化](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/methods/streaming-segmentation)
 - [エッジセグメント化](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/methods/edge-segmentation)
 - [Profile Query Language リファレンス](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/pql/overview)
@@ -463,7 +463,7 @@ ht-degree: 2%
 #### Experience League ドキュメント
 
 - [意思決定管理の概要](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/decisioning/offer-decisioning/get-started-decision/starting-offer-decisioning)
-- [プレースメントの作成](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/decisioning/offer-decisioning/create-components/creating-placements)
+- [プレースメントの作成](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/decisioning/offer-decisioning/create-components/creating-placements)
 - [決定ルールの作成](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/decisioning/offer-decisioning/create-components/creating-decision-rules)
 - [パーソナライズされたオファーを作成](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/decisioning/offer-decisioning/create-components/creating-personalized-offers)
 - [フォールバックオファーを作成](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/decisioning/offer-decisioning/create-components/creating-fallback-offers)
@@ -658,7 +658,7 @@ ht-degree: 2%
 
 ### ガードレールと制限
 
-- サンドボックスあたり最大 500 個のライブジャーニー – [Journey Optimizer ガードレール &#x200B;](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/get-started/guardrails)
+- サンドボックスあたり最大 500 個のライブジャーニー – [Journey Optimizer ガードレール &#x200B;](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/get-started/guardrails)
 - ジャーニーの最大期間は 91 日です（グローバルタイムアウト）
 - 1 つのジャーニーキャンバスにつき最大 50 個のアクティビティ
 - オーディエンスを読み取りジャーニーでは、1 秒あたり最大 20,000 件のプロファイルを処理できます
@@ -765,7 +765,7 @@ ht-degree: 2%
 ### 意思決定管理
 
 - [意思決定管理の概要](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/decisioning/offer-decisioning/get-started-decision/starting-offer-decisioning)
-- [プレースメントの作成](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/decisioning/offer-decisioning/create-components/creating-placements)
+- [プレースメントの作成](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/decisioning/offer-decisioning/create-components/creating-placements)
 - [決定ルールの作成](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/decisioning/offer-decisioning/create-components/creating-decision-rules)
 - [パーソナライズされたオファーを作成](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/decisioning/offer-decisioning/create-components/creating-personalized-offers)
 - [フォールバックオファーを作成](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/decisioning/offer-decisioning/create-components/creating-fallback-offers)
@@ -806,8 +806,8 @@ ht-degree: 2%
 
 ### オーディエンスとセグメント化
 
-- [セグメント化サービスの概要](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/home)
-- [セグメントビルダー UI ガイド](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/segment-builder)
+- [セグメント化サービスの概要](https://experienceleague.adobe.com/ja/docs/experience-platform/segmentation/home)
+- [セグメントビルダー UI ガイド](https://experienceleague.adobe.com/ja/docs/experience-platform/segmentation/ui/segment-builder)
 - [ストリーミングセグメント化](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/methods/streaming-segmentation)
 - [エッジセグメント化](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/methods/edge-segmentation)
 - [オーディエンス構成](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/audience-composition)
@@ -832,12 +832,12 @@ ht-degree: 2%
 
 ### データガバナンスと同意
 
-- [データガバナンスの概要](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/home)
+- [データガバナンスの概要](https://experienceleague.adobe.com/ja/docs/experience-platform/data-governance/home)
 - [Journey Optimizerの同意](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/privacy/consent/consent-restricted)
 - [抑制リストの管理](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/configuration/monitor-reputation/manage-suppression-list)
 
 ### ガードレール
 
-- [Journey Optimizer ガードレール](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/get-started/guardrails)
+- [Journey Optimizer ガードレール](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/get-started/guardrails)
 - [リアルタイム顧客プロファイルガードレール](https://experienceleague.adobe.com/en/docs/experience-platform/profile/guardrails)
 - [ID サービスガードレール](https://experienceleague.adobe.com/en/docs/experience-platform/identity/guardrails)

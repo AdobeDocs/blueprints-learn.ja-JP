@@ -98,10 +98,10 @@ ht-degree: 1%
 | 基本関数 | ステータス | 設定する必要があること | Experience League リファレンス |
 | --- | --- | --- | --- |
 | 管理とガバナンス | 必須 | 送信者組織と受信者組織の両方に、適切な役割と権限をプロビジョニングされたサンドボックスが必要です。 [!DNL Segment Match] を管理するユーザーには、セグメントの表示と共有、接続の設定、パートナーフィードの管理を行う権限が必要です。 ABAC ポリシーは、どのユーザーがセグメント共有を開始および受け入れることができるかを制御するように設定する必要があります。 | [&#x200B; アクセス制御の概要 &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/home) |
-| データモデリングと準備 | 所定の位置に想定 | プロファイルとイベントの XDM スキーマが、必須のフィールドグループと共に存在する必要があります。 プロファイルおよびイベントデータセットは、[!DNL Real-Time Customer Profile] 用に作成して有効にする必要があります。 データモデルは、セグメントマッチングに使用される ID 名前空間をサポートする必要があります（通常、ハッシュ化されたメールまたはハッシュ化された電話）。 | [XDM システムの概要 &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/home) |
+| データモデリングと準備 | 所定の位置に想定 | プロファイルとイベントの XDM スキーマが、必須のフィールドグループと共に存在する必要があります。 プロファイルおよびイベントデータセットは、[!DNL Real-Time Customer Profile] 用に作成して有効にする必要があります。 データモデルは、セグメントマッチングに使用される ID 名前空間をサポートする必要があります（通常、ハッシュ化されたメールまたはハッシュ化された電話）。 | [XDM システムの概要 &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/xdm/home) |
 | データソースとコレクション | 所定の位置に想定 | 顧客データは、設定済みのデータソース（SDK、ソースコネクタ、バッチ取り込み）を通じて [!DNL Experience Platform] に積極的に取り込む必要があります。 プロファイルには、ア [!DNL Segment Match] ットに使用する ID タイプ（ハッシュ化されたメールなど）を入力する必要があります。 | [&#x200B; ソースの概要 &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/sources/home) |
-| ID とプロファイル設定 | 必須 | ID 名前空間は、セグメントマッチングで使用される識別子用に設定する必要があります。 送信者と受信者の両方が、互換性のある ID 名前空間を使用する必要があります。 プロファイルを正しく統合するには、結合ポリシーを設定する必要があります。 正確なプロファイル解決を確実に行うために、ID リンクのルールを確立する必要があります。 | [ID サービスの概要 &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/identity/home) |
-| オーディエンスの定義とセグメント化 | 必須 | Source オーディエンスは、[!DNL Segment Match] で共有する前に定義および評価する必要があります。 オーディエンスは、[!DNL Segment Builder] または [!DNL Audience Composition] を使用して作成し、バッチ評価を完了しておく必要があります。 [!DNL Segment Match] ータ共有の対象となるのは、バッチ評価されたオーディエンスのみです。 | [&#x200B; セグメント化サービスの概要 &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/home) |
+| ID とプロファイル設定 | 必須 | ID 名前空間は、セグメントマッチングで使用される識別子用に設定する必要があります。 送信者と受信者の両方が、互換性のある ID 名前空間を使用する必要があります。 プロファイルを正しく統合するには、結合ポリシーを設定する必要があります。 正確なプロファイル解決を確実に行うために、ID リンクのルールを確立する必要があります。 | [ID サービスの概要 &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/identity/home) |
+| オーディエンスの定義とセグメント化 | 必須 | Source オーディエンスは、[!DNL Segment Match] で共有する前に定義および評価する必要があります。 オーディエンスは、[!DNL Segment Builder] または [!DNL Audience Composition] を使用して作成し、バッチ評価を完了しておく必要があります。 [!DNL Segment Match] ータ共有の対象となるのは、バッチ評価されたオーディエンスのみです。 | [&#x200B; セグメント化サービスの概要 &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/segmentation/home) |
 
 ## サポート関数
 
@@ -109,11 +109,11 @@ ht-degree: 1%
 
 | サポート機能 | ステータス | これが重要な理由 | Experience League リファレンス |
 | --- | --- | --- | --- |
-| 計算/派生属性の作成 | 推奨 | ライフタイム購入値、エンゲージメントスコア、製品の親和性などの計算済み属性を使用すると、より正確なセグメントを作成して共有できます。 より質の高い入力セグメントは、より価値のあるオーディエンスの共同作業につながります。 | [&#x200B; 計算済み属性の概要 &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/profile/computed-attributes/overview) |
+| 計算/派生属性の作成 | 推奨 | ライフタイム購入値、エンゲージメントスコア、製品の親和性などの計算済み属性を使用すると、より正確なセグメントを作成して共有できます。 より質の高い入力セグメントは、より価値のあるオーディエンスの共同作業につながります。 | [&#x200B; 計算済み属性の概要 &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/profile/computed-attributes/overview) |
 | データ・ライフサイクル管理 | 推奨 | 同意ポリシーおよびデータ保持ポリシーにより、共有セグメントがプライバシー規制に確実に準拠するようになります。 データセット有効期限ポリシーは、受信したオーディエンスデータのライフサイクルの管理に役立ちます。 同意の強制により、オプトアウトしたプロファイルの共有が妨げられます。 | [Advanced Data Lifecycle Management の概要 &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/data-lifecycle/home) |
-| データ使用のラベル付けと適用 | Included | データガバナンスポリシーは、セグメントを共有する前に評価して、コンプライアンスを確保する必要があります。 ID フィールドとプロファイル属性のラベルによって、共有可能な項目が決まります。 ガバナンスの強化により、権限のないデータがセグメント共有に含まれるのを防ぎます。 | [&#x200B; データガバナンスの概要 &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/home) |
+| データ使用のラベル付けと適用 | Included | データガバナンスポリシーは、セグメントを共有する前に評価して、コンプライアンスを確保する必要があります。 ID フィールドとプロファイル属性のラベルによって、共有可能な項目が決まります。 ガバナンスの強化により、権限のないデータがセグメント共有に含まれるのを防ぎます。 | [&#x200B; データガバナンスの概要 &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/data-governance/home) |
 | 監視と監視 | 推奨 | [!DNL Segment Match] 共有プロセス、重複推定ジョブおよびアクティベーションデータフローを監視すると、エラーを早期に検出するのに役立ちます。 共有エラーまたは予期せずマッチ率が低い場合は、アラートを設定できます。 | [Observability Insights の概要 &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/observability/home) |
-| レポートと分析 | 推奨 | 一致したオーディエンスを使用するキャンペーンのパフォーマンスを測定することで、コラボレーションの価値が検証されます。[!DNL Customer Journey Analytics] 分析では、一致したオーディエンスキャンペーンのパフォーマンスをコントロール母集団と比較できます。 | [CJAの概要 &#x200B;](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-overview) |
+| レポートと分析 | 推奨 | 一致したオーディエンスを使用するキャンペーンのパフォーマンスを測定することで、コラボレーションの価値が検証されます。[!DNL Customer Journey Analytics] 分析では、一致したオーディエンスキャンペーンのパフォーマンスをコントロール母集団と比較できます。 | [CJAの概要 &#x200B;](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/cja-overview/cja-overview) |
 
 ## アプリケーション関数
 
@@ -179,8 +179,8 @@ ht-degree: 1%
 
 **Experience League:**
 
-- [Segment Match の概要](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/segment-match/overview)
-- [Segment Match のトラブルシューティング](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/segment-match/troubleshooting)
+- [Segment Match の概要](https://experienceleague.adobe.com/ja/docs/experience-platform/segmentation/ui/segment-match/overview)
+- [Segment Match のトラブルシューティング](https://experienceleague.adobe.com/ja/docs/experience-platform/segmentation/ui/segment-match/troubleshooting)
 
 ### オプション B：複数のパートナーによるセグメント配分（1 対多）
 
@@ -217,7 +217,7 @@ ht-degree: 1%
 
 **Experience League:**
 
-- [Segment Match の概要](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/segment-match/overview)
+- [Segment Match の概要](https://experienceleague.adobe.com/ja/docs/experience-platform/segmentation/ui/segment-match/overview)
 
 ### オプション C：クロスサンドボックスオーディエンスのフェデレーション
 
@@ -254,7 +254,7 @@ ht-degree: 1%
 
 **Experience League:**
 
-- [Segment Match の概要](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/segment-match/overview)
+- [Segment Match の概要](https://experienceleague.adobe.com/ja/docs/experience-platform/segmentation/ui/segment-match/overview)
 - [サンドボックスの概要](https://experienceleague.adobe.com/ja/docs/experience-platform/sandbox/home)
 
 ### オプションの比較
@@ -345,9 +345,9 @@ ht-degree: 1%
 **Experience League ドキュメント：**
 
 - [セグメントビルダー UI ガイド](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/segment-builder)
-- [オーディエンス構成の概要](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/audience-composition)
-- [評価方法](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/home#evaluation-methods)
-- [Profile Query Language リファレンス](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/pql/overview)
+- [オーディエンス構成の概要](https://experienceleague.adobe.com/ja/docs/experience-platform/segmentation/ui/audience-composition)
+- [評価方法](https://experienceleague.adobe.com/ja/docs/experience-platform/segmentation/home#evaluation-methods)
+- [Profile Query Language リファレンス](https://experienceleague.adobe.com/ja/docs/experience-platform/segmentation/pql/overview)
 
 ### フェーズ 2：マッチングとガバナンスの設定
 
@@ -405,8 +405,8 @@ ht-degree: 1%
 
 **Experience League ドキュメント：**
 
-- [Segment Match の概要](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/segment-match/overview)
-- [データガバナンスの概要](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/home)
+- [Segment Match の概要](https://experienceleague.adobe.com/ja/docs/experience-platform/segmentation/ui/segment-match/overview)
+- [データガバナンスの概要](https://experienceleague.adobe.com/ja/docs/experience-platform/data-governance/home)
 - [ポリシーの適用](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/enforcement/overview)
 - [同意および環境設定](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/consent/adobe/overview)
 
@@ -443,7 +443,7 @@ ht-degree: 1%
 
 **Experience League ドキュメント：**
 
-- [Segment Match の概要](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/segment-match/overview)
+- [Segment Match の概要](https://experienceleague.adobe.com/ja/docs/experience-platform/segmentation/ui/segment-match/overview)
 
 ### フェーズ 4：オーディエンスの共有
 
@@ -498,8 +498,8 @@ ht-degree: 1%
 
 **Experience League ドキュメント：**
 
-- [Segment Match の概要](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/segment-match/overview)
-- [Segment Match のトラブルシューティング](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/segment-match/troubleshooting)
+- [Segment Match の概要](https://experienceleague.adobe.com/ja/docs/experience-platform/segmentation/ui/segment-match/overview)
+- [Segment Match のトラブルシューティング](https://experienceleague.adobe.com/ja/docs/experience-platform/segmentation/ui/segment-match/troubleshooting)
 
 ### フェーズ 5：マッチしたオーディエンスのアクティブ化
 
@@ -557,8 +557,8 @@ ht-degree: 1%
 
 **Experience League ドキュメント：**
 
-- [宛先の概要](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/home)
-- [宛先カタログ](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/overview)
+- [宛先の概要](https://experienceleague.adobe.com/ja/docs/experience-platform/destinations/home)
+- [宛先カタログ](https://experienceleague.adobe.com/ja/docs/experience-platform/destinations/catalog/overview)
 - [宛先のデータフローの監視](https://experienceleague.adobe.com/en/docs/experience-platform/dataflows/ui/monitor-destinations)
 - [アクティベーションガードレール](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/guardrails)
 
@@ -568,7 +568,7 @@ ht-degree: 1%
 
 ### ガードレールと制限
 
-- [!DNL Segment Match] は、照合にハッシュ化された識別子を使用します。組織の境界を越える PII はありません。 [Segment Match の概要 &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/segment-match/overview) を参照してください。
+- [!DNL Segment Match] は、照合にハッシュ化された識別子を使用します。組織の境界を越える PII はありません。 [Segment Match の概要 &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/segmentation/ui/segment-match/overview) を参照してください。
 - [!DNL Segment Match] では、バッチ評価されたオーディエンスのみを共有できます。 ストリーミングセグメントとエッジ評価されたセグメントは、共有する前にバッチ評価に変換する必要があります。
 - サンドボックスあたり最大 4,000 個のセグメント定義が、ソースと受信した両方のセグメントに適用されます。 [&#x200B; セグメント化ガードレール &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/profile/guardrails) を参照してください。
 - 重複の推定精度は、一致した識別子の量によって異なります。 オーディエンスが小さい場合、正確な見積もりが表示されない場合があります。
@@ -630,28 +630,28 @@ ht-degree: 1%
 
 ### [!DNL Segment Match]
 
-- [Segment Match の概要](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/segment-match/overview)
-- [Segment Match のトラブルシューティング](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/segment-match/troubleshooting)
+- [Segment Match の概要](https://experienceleague.adobe.com/ja/docs/experience-platform/segmentation/ui/segment-match/overview)
+- [Segment Match のトラブルシューティング](https://experienceleague.adobe.com/ja/docs/experience-platform/segmentation/ui/segment-match/troubleshooting)
 
 ### セグメント化とオーディエンス
 
-- [セグメント化サービスの概要](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/home)
+- [セグメント化サービスの概要](https://experienceleague.adobe.com/ja/docs/experience-platform/segmentation/home)
 - [セグメントビルダー UI ガイド](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/segment-builder)
-- [オーディエンス構成の概要](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/audience-composition)
-- [Profile Query Language リファレンス](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/pql/overview)
-- [ストリーミングセグメント化](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/methods/streaming-segmentation)
+- [オーディエンス構成の概要](https://experienceleague.adobe.com/ja/docs/experience-platform/segmentation/ui/audience-composition)
+- [Profile Query Language リファレンス](https://experienceleague.adobe.com/ja/docs/experience-platform/segmentation/pql/overview)
+- [ストリーミングセグメント化](https://experienceleague.adobe.com/ja/docs/experience-platform/segmentation/methods/streaming-segmentation)
 - [エッジセグメント化](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/methods/edge-segmentation)
 
 ### ID とプロファイル
 
-- [ID サービスの概要](https://experienceleague.adobe.com/en/docs/experience-platform/identity/home)
+- [ID サービスの概要](https://experienceleague.adobe.com/ja/docs/experience-platform/identity/home)
 - [ID 名前空間の概要](https://experienceleague.adobe.com/ja/docs/experience-platform/identity/features/namespaces)
 - [結合ポリシーの概要](https://experienceleague.adobe.com/en/docs/experience-platform/profile/merge-policies/overview)
-- [リアルタイム顧客プロファイルの概要](https://experienceleague.adobe.com/en/docs/experience-platform/profile/home)
+- [リアルタイム顧客プロファイルの概要](https://experienceleague.adobe.com/ja/docs/experience-platform/profile/home)
 
 ### データガバナンスと同意
 
-- [データガバナンスの概要](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/home)
+- [データガバナンスの概要](https://experienceleague.adobe.com/ja/docs/experience-platform/data-governance/home)
 - [データ使用状況ラベルの概要](https://experienceleague.adobe.com/ja/docs/experience-platform/data-governance/labels/overview)
 - [ポリシーの適用](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/enforcement/overview)
 - [同意および環境設定](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/consent/adobe/overview)
@@ -659,13 +659,13 @@ ht-degree: 1%
 
 ### 宛先とアクティブ化
 
-- [宛先の概要](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/home)
-- [宛先カタログ](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/overview)
+- [宛先の概要](https://experienceleague.adobe.com/ja/docs/experience-platform/destinations/home)
+- [宛先カタログ](https://experienceleague.adobe.com/ja/docs/experience-platform/destinations/catalog/overview)
 - [宛先のデータフローの監視](https://experienceleague.adobe.com/en/docs/experience-platform/dataflows/ui/monitor-destinations)
 
 ### データモデリングとスキーマ
 
-- [XDM システムの概要](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/home)
+- [XDM システムの概要](https://experienceleague.adobe.com/ja/docs/experience-platform/xdm/home)
 - [スキーマ構成の基本](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/composition)
 
 ### 管理とアクセス制御
@@ -687,4 +687,4 @@ ht-degree: 1%
 ### チュートリアル
 
 - [スキーマを作成](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/tutorials/union-schema)
-- [プロファイルのデータセットを有効にする](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/enable-for-profile)
+- [プロファイルのデータセットを有効にする](https://experienceleague.adobe.com/ja/docs/experience-platform/catalog/datasets/enable-for-profile)

@@ -113,7 +113,7 @@ Web、メール、広告の各チャネルでアカウントベースの B2B オ
 | データモデリングと準備 | 必須 | XDM Business Account、XDM Business Opportunity、XDM Business Campaign および XDM Individual Profile の各クラスを使用して設定された B2B XDM スキーマ。 アカウント属性、ユーザーとアカウントの関係、機会データに適用される B2B フィールドグループ。 各 B2B エンティティに対して作成され、プロファイル対応のデータセット。 アカウント、ユーザー、オポチュニティ、キャンペーンエンティティの間に定義されたスキーマ関係。 | [XDM システムの概要 &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/home)、Real-Time CDPの [B2B スキーマ &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/schemas/b2b) |
 | データソースとコレクション | 必須 | CRM （[!DNL Salesforce]、[!DNL Microsoft Dynamics]）およびマーケティング自動化（[!DNL Marketo Engage]）用に設定されたSource コネクタであり、アカウント、ユーザー、オポチュニティおよびキャンペーンデータを取り込みます。 バッチまたはストリーミング取得パイプラインがアクティブです。 ソースデータを B2B XDM スキーマに変換するように設定されたデータ準備マッピング。 | [&#x200B; ソースの概要 &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/sources/home)、[Marketo Engage コネクタ &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/adobe-applications/marketo/marketo) |
 | ID とプロファイル設定 | 必須 | アカウント識別子（アカウント ID、CRM アカウント ID）および人物識別子（メール、CRM 連絡先 ID、Marketo リード ID）用に設定された B2B ID 名前空間。 B2B ID 解決を通じて解決された、ユーザーとアカウントの関係。 アカウントプロファイルの統合用に設定された結合ポリシー。 | [ID サービスの概要 &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/identity/home)、[Real-Time CDPのB2B edition](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/overview#rtcdp-b2b) |
-| オーディエンスの定義とセグメント化 | 必須 | アカウント属性、ユーザー属性およびアクティビティデータを使用して作成された、アカウントレベルのオーディエンス定義。 アカウントオーディエンス用に設定された評価スケジュール。 不適格なアカウントを除外するために定義された抑制オーディエンス。 | [&#x200B; セグメント化サービスの概要 &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/home)、[&#x200B; アカウントオーディエンス &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/types/account-audiences) |
+| オーディエンスの定義とセグメント化 | 必須 | アカウント属性、ユーザー属性およびアクティビティデータを使用して作成された、アカウントレベルのオーディエンス定義。 アカウントオーディエンス用に設定された評価スケジュール。 不適格なアカウントを除外するために定義された抑制オーディエンス。 | [&#x200B; セグメント化サービスの概要 &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/home)、[&#x200B; アカウントオーディエンス &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/segmentation/types/account-audiences) |
 
 ## サポート関数
 
@@ -454,7 +454,7 @@ Web、メール、広告の各チャネルでアカウントベースの B2B オ
 
 **Experience League ドキュメント：**
 
-- [アカウントオーディエンス](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/types/account-audiences)
+- [アカウントオーディエンス](https://experienceleague.adobe.com/ja/docs/experience-platform/segmentation/types/account-audiences)
 - [セグメントビルダー UI ガイド](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/segment-builder)
 - [オーディエンス構成](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/audience-composition)
 - [セグメント化サービスの概要](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/home)
@@ -736,7 +736,7 @@ B2B edition **[!DNL RT-CDP]す**。
 
 - [Real-Time CDP B2B editionの概要](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/overview#rtcdp-b2b)
 - [Real-Time CDPの B2B スキーマ](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/schemas/b2b)
-- [アカウントオーディエンス](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/types/account-audiences)
+- [アカウントオーディエンス](https://experienceleague.adobe.com/ja/docs/experience-platform/segmentation/types/account-audiences)
 - [RT-CDP B2B editionの製品説明](https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-b2b-edition-prime-and-ultimate-packages.html)
 
 **オーディエンスの評価とセグメント化**
