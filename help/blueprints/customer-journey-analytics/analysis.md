@@ -16,7 +16,7 @@ ht-degree: 48%
 
 データ分析とインテリジェンスには、データレイク内に存在するデータの探索的クエリと分析を実行する [!DNL Experience Platform] ークフロー内の機能が含まれます。
 
-[!DNL Experience Platform] の [!UICONTROL  クエリサービス ] を使用すると、データに対して SQL クエリを実行できます。
+[!DNL Experience Platform] の [!UICONTROL &#x200B; クエリサービス &#x200B;] を使用すると、データに対して SQL クエリを実行できます。
 
 [!DNL Experience Platform] を使用すると、サードパーティの SQL クライアント、インターフェイス、Business Intelligence（BI）ツールとの接続が、[!DNL PostgreSQL] プロトコルを使用して、[!DNL Experience Platform] 内のデータに直接接続し、アクセスし、クエリを実行できます。
 
@@ -39,9 +39,9 @@ ht-degree: 48%
 ## ガードレール
 
 ベストプラクティスとガードレールについて詳しくは、クエリサービス製品ドキュメントを参照してください。
-[クエリサービスガイダンス ](https://experienceleague.adobe.com/docs/experience-platform/query/guardrails.html?lang=ja)
+[クエリサービスガイダンス &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/query/guardrails.html?lang=ja)
 
 ## 関連ドキュメント
 
 * [Adobe [!DNL Experience Platform] Intelligence 製品の説明](https://helpx.adobe.com/jp/legal/product-descriptions/adobe-experience-platform-intelligence---product-description.html)
-* [[!UICONTROL  クエリサービス ] ドキュメント](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=ja)
+* [[!UICONTROL &#x200B; クエリサービス &#x200B;] ドキュメント](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=ja)
