@@ -44,7 +44,7 @@ ht-degree: 1%
 
 ### 実装方法
 
-[ 複数手順のオーケストレーションされたジャーニー](/help/blueprints/use-case-patterns/campaign-management-orchestration/multi-step-orchestrated-journey.md) パターンを使用して、ユーザーからプランへの不一致を特定し、より良いオプションについてサブスクライバーに説明し、タイムリーなフォローアップでプラン変更プロセスをガイドするマルチタッチキャンペーンを作成します。
+[&#x200B; 複数手順のオーケストレーションされたジャーニー](/help/blueprints/use-case-patterns/campaign-management-orchestration/multi-step-orchestrated-journey.md) パターンを使用して、ユーザーからプランへの不一致を特定し、より良いオプションについてサブスクライバーに説明し、タイムリーなフォローアップでプラン変更プロセスをガイドするマルチタッチキャンペーンを作成します。
 
 ### 技術上の考慮事項
 
@@ -64,7 +64,7 @@ ht-degree: 1%
 
 ### 実装方法
 
-[ 意思決定とクロスチャネルジャーニー](/help/blueprints/use-case-patterns/campaign-management-orchestration/cross-channel-journey-with-decisioning.md) パターンを使用して、チャーンリスクシグナルをリアルタイムにモニタリングし、各購読者に最適なリテンションオファーを決定し、デジタルチャネルとコールセンターをまたいでパーソナライズされたアウトリーチを調整します。
+[&#x200B; 意思決定とクロスチャネルジャーニー](/help/blueprints/use-case-patterns/campaign-management-orchestration/cross-channel-journey-with-decisioning.md) パターンを使用して、チャーンリスクシグナルをリアルタイムにモニタリングし、各購読者に最適なリテンションオファーを決定し、デジタルチャネルとコールセンターをまたいでパーソナライズされたアウトリーチを調整します。
 
 ### 技術上の考慮事項
 
@@ -84,7 +84,7 @@ ht-degree: 1%
 
 ### 実装方法
 
-[ マルチステップオーケストレーションされたジャーニー](/help/blueprints/use-case-patterns/campaign-management-orchestration/multi-step-orchestrated-journey.md) パターンを使用して、各購読者のプランタイプ、デバイス、以前のオンボーディングステップとのエンゲージメントに基づいて適応する、順序どおりのオンボーディングエクスペリエンスを作成します。
+[&#x200B; マルチステップオーケストレーションされたジャーニー](/help/blueprints/use-case-patterns/campaign-management-orchestration/multi-step-orchestrated-journey.md) パターンを使用して、各購読者のプランタイプ、デバイス、以前のオンボーディングステップとのエンゲージメントに基づいて適応する、順序どおりのオンボーディングエクスペリエンスを作成します。
 
 ### 技術上の考慮事項
 
@@ -104,7 +104,7 @@ ht-degree: 1%
 
 ### 実装方法
 
-[ イベントトリガーメッセージ ](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md) パターンを使用すると、使用しきい値を超えた場合に、リアルタイムのアラートと、購読者の過去の消費パターンおよびプランの詳細に基づいてパーソナライズされたレコメンデーションを送信できます。
+[&#x200B; イベントトリガーメッセージ &#x200B;](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md) パターンを使用すると、使用しきい値を超えた場合に、リアルタイムのアラートと、購読者の過去の消費パターンおよびプランの詳細に基づいてパーソナライズされたレコメンデーションを送信できます。
 
 ### 技術上の考慮事項
 
@@ -124,7 +124,7 @@ ht-degree: 1%
 
 ### 実装方法
 
-[ イベントトリガーメッセージ ](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md) パターンを使用すると、ネットワークイベントを検出し、関連する詳細、予測解決時間、適切な報酬情報を含む優先チャネルを通じて、影響を受けるサブスクライバーに直ちに通知できます。
+[&#x200B; イベントトリガーメッセージ &#x200B;](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md) パターンを使用すると、ネットワークイベントを検出し、関連する詳細、予測解決時間、適切な報酬情報を含む優先チャネルを通じて、影響を受けるサブスクライバーに直ちに通知できます。
 
 ### 技術上の考慮事項
 
@@ -144,7 +144,7 @@ ht-degree: 1%
 
 ### 実装方法
 
-[ 意思決定とクロスチャネルジャーニー](/help/blueprints/use-case-patterns/campaign-management-orchestration/cross-channel-journey-with-decisioning.md) パターンを使用すると、家族全員の使用状況を分析し、ラインの追加や個々の制限の調整などのオポチュニティを特定し、カスタマイズされたレコメンデーションをプラン管理者に提供できます。
+[&#x200B; 意思決定とクロスチャネルジャーニー](/help/blueprints/use-case-patterns/campaign-management-orchestration/cross-channel-journey-with-decisioning.md) パターンを使用すると、家族全員の使用状況を分析し、ラインの追加や個々の制限の調整などのオポチュニティを特定し、カスタマイズされたレコメンデーションをプラン管理者に提供できます。
 
 ### 技術上の考慮事項
 
@@ -164,7 +164,7 @@ ht-degree: 1%
 
 ### 実装方法
 
-[ バッチアウトバウンドメッセージアクティベーション ](/help/blueprints/use-case-patterns/campaign-management-orchestration/batch-outbound-message-activation.md) パターンを使用して、5G カバレッジの可用性、デバイスの互換性、プランの実施要件に基づいてサブスクライバーをセグメント化し、パーソナライズされたアップグレードキャンペーンを配信して、各サブスクライバーの使用プロファイルに最も関連するメリットをハイライトします。
+[&#x200B; バッチアウトバウンドメッセージアクティベーション &#x200B;](/help/blueprints/use-case-patterns/campaign-management-orchestration/batch-outbound-message-activation.md) パターンを使用して、5G カバレッジの可用性、デバイスの互換性、プランの実施要件に基づいてサブスクライバーをセグメント化し、パーソナライズされたアップグレードキャンペーンを配信して、各サブスクライバーの使用プロファイルに最も関連するメリットをハイライトします。
 
 ### 技術上の考慮事項
 
@@ -184,7 +184,7 @@ ht-degree: 1%
 
 ### 実装方法
 
-[ イベントトリガーメッセージ ](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md) パターンを使用して、期限の前に最適な時間にリマインダーを送信し、購読者の残高、希望する支払い方法、支払いを完了するための直接リンクでパーソナライズします。
+[&#x200B; イベントトリガーメッセージ &#x200B;](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md) パターンを使用して、期限の前に最適な時間にリマインダーを送信し、購読者の残高、希望する支払い方法、支払いを完了するための直接リンクでパーソナライズします。
 
 ### 技術上の考慮事項
 
@@ -224,7 +224,7 @@ ht-degree: 1%
 
 ### 実装方法
 
-[ 既知の訪問者 web / アプリPersonalization](/help/blueprints/use-case-patterns/personalization/known-visitor-web-app-personalization.md) パターンを使用して、パーソナライズされたネットワークパフォーマンスダッシュボード、カバレッジ情報、最適化の推奨事項を購読者のアプリと web アカウントのエクスペリエンス内に提供します。
+[&#x200B; 既知の訪問者 web / アプリPersonalization](/help/blueprints/use-case-patterns/personalization/known-visitor-web-app-personalization.md) パターンを使用して、パーソナライズされたネットワークパフォーマンスダッシュボード、カバレッジ情報、最適化の推奨事項を購読者のアプリと web アカウントのエクスペリエンス内に提供します。
 
 ### 技術上の考慮事項
 
@@ -244,7 +244,7 @@ ht-degree: 1%
 
 ### 実装方法
 
-[ 意思決定とクロスチャネルジャーニー](/help/blueprints/use-case-patterns/campaign-management-orchestration/cross-channel-journey-with-decisioning.md) パターンを使用して、パーソナライズされたロイヤルティコミュニケーションを調整し、関連する報酬を強調し、購読者に層の進捗を通知し、購読者の好みや行動に合わせて引き換えの機会を提示します。
+[&#x200B; 意思決定とクロスチャネルジャーニー](/help/blueprints/use-case-patterns/campaign-management-orchestration/cross-channel-journey-with-decisioning.md) パターンを使用して、パーソナライズされたロイヤルティコミュニケーションを調整し、関連する報酬を強調し、購読者に層の進捗を通知し、購読者の好みや行動に合わせて引き換えの機会を提示します。
 
 ### 技術上の考慮事項
 

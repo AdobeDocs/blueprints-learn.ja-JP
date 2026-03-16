@@ -24,7 +24,7 @@ ht-degree: 0%
 
 ### 実装方法
 
-[ 行動レコメンデーション ](/help/blueprints/use-case-patterns/personalization/behavioral-recommendation.md) パターンを使用します。 このアプローチでは、オーディエンスのインタラクションから継続的に学び、各個人に最も関連性の高いコンテンツを表示する、AI 駆動のレコメンデーションモデルを使用します。
+[&#x200B; 行動レコメンデーション &#x200B;](/help/blueprints/use-case-patterns/personalization/behavioral-recommendation.md) パターンを使用します。 このアプローチでは、オーディエンスのインタラクションから継続的に学び、各個人に最も関連性の高いコンテンツを表示する、AI 駆動のレコメンデーションモデルを使用します。
 
 ### 技術上の考慮事項
 
@@ -64,7 +64,7 @@ ht-degree: 0%
 
 ### 実装方法
 
-[ イベントトリガーメッセージ ](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md) パターンを使用します。 このアプローチは、コンテンツリリースイベントに対応し、新しいタイトルを購読者の環境設定プロファイルと照合して、タイムリーで関連性の高い通知を配信します。
+[&#x200B; イベントトリガーメッセージ &#x200B;](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md) パターンを使用します。 このアプローチは、コンテンツリリースイベントに対応し、新しいタイトルを購読者の環境設定プロファイルと照合して、タイムリーで関連性の高い通知を配信します。
 
 ### 技術上の考慮事項
 
@@ -84,7 +84,7 @@ ht-degree: 0%
 
 ### 実装方法
 
-[ 行動レコメンデーション ](/help/blueprints/use-case-patterns/personalization/behavioral-recommendation.md) パターンを使用します。 このアプローチでは、選択戦略とランキングモデルを使用して、各訪問者のプロファイルとリアルタイムの行動に基づいて、ホームページのコンテンツ行と特集タイトルを並べ替えます。
+[&#x200B; 行動レコメンデーション &#x200B;](/help/blueprints/use-case-patterns/personalization/behavioral-recommendation.md) パターンを使用します。 このアプローチでは、選択戦略とランキングモデルを使用して、各訪問者のプロファイルとリアルタイムの行動に基づいて、ホームページのコンテンツ行と特集タイトルを並べ替えます。
 
 ### 技術上の考慮事項
 
@@ -104,7 +104,7 @@ ht-degree: 0%
 
 ### 実装方法
 
-[ イベントトリガーメッセージ ](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md) パターンを使用します。 このアプローチでは、ウォッチリストのアクティビティと非アクティブのシグナルに基づいてリマインダーをトリガーし、コンテンツが保存されてまだ開始されていない場合にタイムリーなナッジを送信します。
+[&#x200B; イベントトリガーメッセージ &#x200B;](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md) パターンを使用します。 このアプローチでは、ウォッチリストのアクティビティと非アクティブのシグナルに基づいてリマインダーをトリガーし、コンテンツが保存されてまだ開始されていない場合にタイムリーなナッジを送信します。
 
 ### 技術上の考慮事項
 
@@ -124,7 +124,7 @@ ht-degree: 0%
 
 ### 実装方法
 
-[ マルチステップオーケストレーションされたジャーニー](/help/blueprints/use-case-patterns/campaign-management-orchestration/multi-step-orchestrated-journey.md) パターンを使用します。 このマルチタッチ育成ジャーニーは、コンテンツの検出、価値のデモ、コンバージョンメッセージのシーケンスを、体験版ユーザーが体験版を通じてエンゲージメントに基づいて適応させるようガイドします。
+[&#x200B; マルチステップオーケストレーションされたジャーニー](/help/blueprints/use-case-patterns/campaign-management-orchestration/multi-step-orchestrated-journey.md) パターンを使用します。 このマルチタッチ育成ジャーニーは、コンテンツの検出、価値のデモ、コンバージョンメッセージのシーケンスを、体験版ユーザーが体験版を通じてエンゲージメントに基づいて適応させるようガイドします。
 
 ### 技術上の考慮事項
 
@@ -144,7 +144,7 @@ ht-degree: 0%
 
 ### 実装方法
 
-[ イベントトリガーメッセージ ](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md) パターンを使用します。 このアプローチでは、イベントスケジュールデータに基づいて通知のトリガーを設定し、予定されているイベントを購読者の興味プロファイルと照合して、タイムリーなリマインダーを提供します。
+[&#x200B; イベントトリガーメッセージ &#x200B;](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md) パターンを使用します。 このアプローチでは、イベントスケジュールデータに基づいて通知のトリガーを設定し、予定されているイベントを購読者の興味プロファイルと照合して、タイムリーなリマインダーを提供します。
 
 ### 技術上の考慮事項
 
@@ -164,7 +164,7 @@ ht-degree: 0%
 
 ### 実装方法
 
-[ 行動レコメンデーション ](/help/blueprints/use-case-patterns/personalization/behavioral-recommendation.md) パターンを使用します。 このアプローチでは、リスニングパターン、スキップ動作、コンテキストシグナルを分析する AI 駆動モデルを使用して、各ユーザーに合わせたプレイリストを生成および更新します。
+[&#x200B; 行動レコメンデーション &#x200B;](/help/blueprints/use-case-patterns/personalization/behavioral-recommendation.md) パターンを使用します。 このアプローチでは、リスニングパターン、スキップ動作、コンテキストシグナルを分析する AI 駆動モデルを使用して、各ユーザーに合わせたプレイリストを生成および更新します。
 
 ### 技術上の考慮事項
 
@@ -184,7 +184,7 @@ ht-degree: 0%
 
 ### 実装方法
 
-[ 既知の訪問者 web / アプリPersonalization](/help/blueprints/use-case-patterns/personalization/known-visitor-web-app-personalization.md) パターンを使用します。 このアプローチは、web およびアプリプラットフォームをまたいで特定されたユーザーのエクスペリエンスをパーソナライズし、デバイスに関係なく一貫したコンテンツの状態と推奨事項を確保します。
+[&#x200B; 既知の訪問者 web / アプリPersonalization](/help/blueprints/use-case-patterns/personalization/known-visitor-web-app-personalization.md) パターンを使用します。 このアプローチは、web およびアプリプラットフォームをまたいで特定されたユーザーのエクスペリエンスをパーソナライズし、デバイスに関係なく一貫したコンテンツの状態と推奨事項を確保します。
 
 ### 技術上の考慮事項
 
@@ -204,7 +204,7 @@ ht-degree: 0%
 
 ### 実装方法
 
-[ 既知の訪問者 web / アプリPersonalization](/help/blueprints/use-case-patterns/personalization/known-visitor-web-app-personalization.md) パターンを使用します。 このアプローチは、特定されたユーザーのアプリ内共有エクスペリエンスをパーソナライズし、ユーザーの好みやエンゲージメントパターンに基づいて、文脈的に関連性の高い共有プロンプトを表示します。
+[&#x200B; 既知の訪問者 web / アプリPersonalization](/help/blueprints/use-case-patterns/personalization/known-visitor-web-app-personalization.md) パターンを使用します。 このアプローチは、特定されたユーザーのアプリ内共有エクスペリエンスをパーソナライズし、ユーザーの好みやエンゲージメントパターンに基づいて、文脈的に関連性の高い共有プロンプトを表示します。
 
 ### 技術上の考慮事項
 
@@ -244,7 +244,7 @@ ht-degree: 0%
 
 ### 実装方法
 
-[ イベントトリガーメッセージ ](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md) パターンを使用します。 このアプローチは、コンテンツ放棄イベントに基づいてリマインダーをトリガーし、タイトルの途中で一時停止して定義されたウィンドウ内に戻らなかった場合に、タイムリーなメッセージを送信します。
+[&#x200B; イベントトリガーメッセージ &#x200B;](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md) パターンを使用します。 このアプローチは、コンテンツ放棄イベントに基づいてリマインダーをトリガーし、タイトルの途中で一時停止して定義されたウィンドウ内に戻らなかった場合に、タイムリーなメッセージを送信します。
 
 ### 技術上の考慮事項
 

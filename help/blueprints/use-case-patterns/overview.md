@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # ユースケースパターン
 
-ユースケースパターンは、Adobe Experience Platformとアプリケーションに対して繰り返し可能な実装アプローチを定義します。 各パターンでは、特定の機能、その機能を提供する機能チェーン、関連するアプリケーション、およびサポートする [ 主要なビジネス目標 ](/help/blueprints/business-objectives/overview.md) が記述されています。
+ユースケースパターンは、Adobe Experience Platformとアプリケーションに対して繰り返し可能な実装アプローチを定義します。 各パターンでは、特定の機能、その機能を提供する機能チェーン、関連するアプリケーション、およびサポートする [&#x200B; 主要なビジネス目標 &#x200B;](/help/blueprints/business-objectives/overview.md) が記述されています。
 
 以下の表を使用して実装ニーズに合ったパターンを見つけたら、オプション、フェーズ、決定ガイダンス、Experience Leagueのドキュメントなど、実装に関する完全なリファレンスへのリンクに従います。
 
@@ -23,9 +23,9 @@ ht-degree: 0%
 
 | パターン | プライマリ機能 | コアソリューション |
 | --- | --- | --- |
-| [ 宛先へのAudience Activation](audience-building-activation/audience-activation-to-destinations.md) | ターゲティングまたは抑制のために、オーディエンスセグメントを評価して外部の宛先に公開します。 | [!DNL Real-Time CDP] |
+| [&#x200B; 宛先へのAudience Activation](audience-building-activation/audience-activation-to-destinations.md) | ターゲティングまたは抑制のために、オーディエンスセグメントを評価して外部の宛先に公開します。 | [!DNL Real-Time CDP] |
 | [Segment Match を使用した Audience Collaboration](audience-building-activation/audience-collaboration-segment-match.md) | Segment Match を使用した、サンドボックスまたは組織間でのオーディエンスセグメントの共有と一致 | [!DNL Real-Time CDP], [!DNL Experience Platform] |
-| [ イベントの転送 ](audience-building-activation/event-forwarding.md) | Edge Networkを介して収集されたリアルタイムイベントデータをAdobe以外の宛先に転送する | [!DNL Experience Platform] （Edge Network、イベント転送） |
+| [&#x200B; イベントの転送 &#x200B;](audience-building-activation/event-forwarding.md) | Edge Networkを介して収集されたリアルタイムイベントデータをAdobe以外の宛先に転送する | [!DNL Experience Platform] （Edge Network、イベント転送） |
 | [B2B Audience アクティベーション](audience-building-activation/b2b-audience-activation.md) | Web、メール、広告の各チャネルでアカウントベースの B2B オーディエンスをアクティブ化 | [!DNL Real-Time CDP] B2B edition |
 
 ## パーソナライズ機能
@@ -34,10 +34,10 @@ ht-degree: 0%
 
 | パターン | プライマリ機能 | コアソリューション |
 | --- | --- | --- |
-| [ 匿名訪問者の Web Personalization](personalization/anonymous-visitor-web-personalization.md) | 未識別の訪問者に対して、セッション内の行動シグナルに基づいてパーソナライズされたコンテンツを配信する | [!DNL Journey Optimizer] （web チャネル）、[!DNL Real-Time CDP] |
-| [ 既知の訪問者の Web/アプリPersonalization](personalization/known-visitor-web-app-personalization.md) | リアルタイムのプロファイルとセグメントメンバーシップに基づいて、識別された訪問者にパーソナライズされたコンテンツ、オファーまたはプロモーションを配信する | [!DNL Journey Optimizer], [!DNL Real-Time CDP] |
+| [&#x200B; 匿名訪問者の Web Personalization](personalization/anonymous-visitor-web-personalization.md) | 未識別の訪問者に対して、セッション内の行動シグナルに基づいてパーソナライズされたコンテンツを配信する | [!DNL Journey Optimizer] （web チャネル）、[!DNL Real-Time CDP] |
+| [&#x200B; 既知の訪問者の Web/アプリPersonalization](personalization/known-visitor-web-app-personalization.md) | リアルタイムのプロファイルとセグメントメンバーシップに基づいて、識別された訪問者にパーソナライズされたコンテンツ、オファーまたはプロモーションを配信する | [!DNL Journey Optimizer], [!DNL Real-Time CDP] |
 | [Offer Decisioning](personalization/offer-decisioning.md) | 一元的な決定ロジックを使用して、チャネルをまたいでプロファイルに最適なオファーやコンテンツを選択します | [!DNL Journey Optimizer] （決定）、[!DNL Real-Time CDP] |
-| [ 行動に関する推奨事項 ](personalization/behavioral-recommendation.md) | 選択戦略とランキングモデルを使用して、項目およびコンテンツのレコメンデーションを生成します。 | [!DNL Journey Optimizer] （決定）、[!DNL Real-Time CDP] |
+| [&#x200B; 行動に関する推奨事項 &#x200B;](personalization/behavioral-recommendation.md) | 選択戦略とランキングモデルを使用して、項目およびコンテンツのレコメンデーションを生成します。 | [!DNL Journey Optimizer] （決定）、[!DNL Real-Time CDP] |
 
 ## キャンペーンの管理とオーケストレーション
 
@@ -45,11 +45,11 @@ ht-degree: 0%
 
 | パターン | プライマリ機能 | コアソリューション |
 | --- | --- | --- |
-| [ バッチ送信メッセージの有効化 ](campaign-management-orchestration/batch-outbound-message-activation.md) | オーディエンスを評価し、1 回のバッチ実行でスケジュールされたアウトバウンドメッセージを配信する | [!DNL Journey Optimizer], [!DNL Real-Time CDP] |
-| [ イベントトリガーメッセージ ](campaign-management-orchestration/event-triggered-messaging.md) | リアルタイムの行動またはシステムイベントをリッスンし、トリガープロファイルにコンテキストメッセージを配信します。 | [!DNL Journey Optimizer], [!DNL Real-Time CDP] |
-| [ 複数ステップの調整されたジャーニー](campaign-management-orchestration/multi-step-orchestrated-journey.md) | 待機、条件、複数のメッセージアクションを含む、ブランチ型のマルチタッチジャーニーを通じてプロファイルをガイドします | [!DNL Journey Optimizer], [!DNL Real-Time CDP] |
+| [&#x200B; バッチ送信メッセージの有効化 &#x200B;](campaign-management-orchestration/batch-outbound-message-activation.md) | オーディエンスを評価し、1 回のバッチ実行でスケジュールされたアウトバウンドメッセージを配信する | [!DNL Journey Optimizer], [!DNL Real-Time CDP] |
+| [&#x200B; イベントトリガーメッセージ &#x200B;](campaign-management-orchestration/event-triggered-messaging.md) | リアルタイムの行動またはシステムイベントをリッスンし、トリガープロファイルにコンテキストメッセージを配信します。 | [!DNL Journey Optimizer], [!DNL Real-Time CDP] |
+| [&#x200B; 複数ステップの調整されたジャーニー](campaign-management-orchestration/multi-step-orchestrated-journey.md) | 待機、条件、複数のメッセージアクションを含む、ブランチ型のマルチタッチジャーニーを通じてプロファイルをガイドします | [!DNL Journey Optimizer], [!DNL Real-Time CDP] |
 | [Decisioning を使用したクロスチャネルジャーニー](campaign-management-orchestration/cross-channel-journey-with-decisioning.md) | リアルタイムの意思決定を組み込んだマルチステップジャーニーを調整して、最適なチャネル、コンテンツまたはオファーを選択します | [!DNL Journey Optimizer], [!DNL Real-Time CDP] |
-| [ 購買グループベース・マーケティング&amp;ジャーニーマネジメント ](campaign-management-orchestration/buying-group-based-marketing.md) | リードを購入グループに選定するアカウントレベルのジャーニーを開発し、B2B マーケティングの有効性を向上させます。 | B2B edition[!DNL Real-Time CDP]B2B edition[!DNL Journey Optimizer] |
+| [&#x200B; 購買グループベース・マーケティング&amp;ジャーニーマネジメント &#x200B;](campaign-management-orchestration/buying-group-based-marketing.md) | リードを購入グループに選定するアカウントレベルのジャーニーを開発し、B2B マーケティングの有効性を向上させます。 | B2B edition[!DNL Real-Time CDP]B2B edition[!DNL Journey Optimizer] |
 
 ## 分析
 
@@ -57,7 +57,7 @@ ht-degree: 0%
 
 | パターン | プライマリ機能 | コアソリューション |
 | --- | --- | --- |
-| [Customer Analytics &amp; Insightのジェネレーション ](analysis/customer-analytics-insight-generation.md) | 行動およびパフォーマンス分析のためのクロスチャネル分析ワークスペース、計算指標、ダッシュボードを作成 | [!DNL Customer Journey Analytics], [!DNL Experience Platform] |
+| [Customer Analytics &amp; Insightのジェネレーション &#x200B;](analysis/customer-analytics-insight-generation.md) | 行動およびパフォーマンス分析のためのクロスチャネル分析ワークスペース、計算指標、ダッシュボードを作成 | [!DNL Customer Journey Analytics], [!DNL Experience Platform] |
 | [B2B Analytics](analysis/b2b-analytics.md) | クロスチャネルカスタマージャーニー分析に B2B アカウントレベルの情報を含める | B2B edition[!DNL Real-Time CDP]B2B edition[!DNL Customer Journey Analytics] |
 
 ## 会話経験
@@ -66,4 +66,4 @@ ht-degree: 0%
 
 | パターン | プライマリ機能 | コアソリューション |
 | --- | --- | --- |
-| [Brand Conciergeの会話体験 ](conversational-experience/brand-concierge-conversational-experience.md) | デジタルプロパティを AI を活用した、ブランドに安全な対話型エクスペリエンスに変換し、顧客発見の指針を示します | [!DNL Brand Concierge], [!DNL Experience Platform], [!DNL Real-Time CDP] |
+| [Brand Conciergeの会話体験 &#x200B;](conversational-experience/brand-concierge-conversational-experience.md) | デジタルプロパティを AI を活用した、ブランドに安全な対話型エクスペリエンスに変換し、顧客発見の指針を示します | [!DNL Brand Concierge], [!DNL Experience Platform], [!DNL Real-Time CDP] |

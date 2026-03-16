@@ -24,7 +24,7 @@ ht-degree: 0%
 
 ### 実装方法
 
-[ イベントトリガーメッセージ ](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md) パターンを使用します。 契約更新日は、契約更新に関する意思決定を保険契約者が行う時点で、タイムリーにパーソナライズされたアウトリーチを開始する自然イベントトリガーです。
+[&#x200B; イベントトリガーメッセージ &#x200B;](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md) パターンを使用します。 契約更新日は、契約更新に関する意思決定を保険契約者が行う時点で、タイムリーにパーソナライズされたアウトリーチを開始する自然イベントトリガーです。
 
 ### 技術上の考慮事項
 
@@ -64,7 +64,7 @@ ht-degree: 0%
 
 ### 実装方法
 
-[ マルチステップオーケストレーションされたジャーニー](/help/blueprints/use-case-patterns/campaign-management-orchestration/multi-step-orchestrated-journey.md) パターンを使用します。 請求プロセスは、ファイリング、調査、調整、決済といった個別の段階を持つマルチステージのエクスペリエンスであり、それぞれにカスタマイズされたコミュニケーションと適応タイミングが必要となります。
+[&#x200B; マルチステップオーケストレーションされたジャーニー](/help/blueprints/use-case-patterns/campaign-management-orchestration/multi-step-orchestrated-journey.md) パターンを使用します。 請求プロセスは、ファイリング、調査、調整、決済といった個別の段階を持つマルチステージのエクスペリエンスであり、それぞれにカスタマイズされたコミュニケーションと適応タイミングが必要となります。
 
 ### 技術上の考慮事項
 
@@ -84,7 +84,7 @@ ht-degree: 0%
 
 ### 実装方法
 
-[ マルチステップオーケストレーションされたジャーニー](/help/blueprints/use-case-patterns/campaign-management-orchestration/multi-step-orchestrated-journey.md) パターンを使用します。 リスク防止教育は、長期的に関連性の高いガイダンスを提供し、顧客エンゲージメントと季節的なリスク要因に基づいて適応する、継続的かつマルチタッチのジャーニーとして最も効果的です。
+[&#x200B; マルチステップオーケストレーションされたジャーニー](/help/blueprints/use-case-patterns/campaign-management-orchestration/multi-step-orchestrated-journey.md) パターンを使用します。 リスク防止教育は、長期的に関連性の高いガイダンスを提供し、顧客エンゲージメントと季節的なリスク要因に基づいて適応する、継続的かつマルチタッチのジャーニーとして最も効果的です。
 
 ### 技術上の考慮事項
 
@@ -104,7 +104,7 @@ ht-degree: 0%
 
 ### 実装方法
 
-[ イベントトリガーメッセージ ](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md) パターンを使用します。 管理システムからのポリシー変更イベントは、各お客様が好むチャネルを通じて即座に関連する通知を送信するための自然なトリガーとして機能します。
+[&#x200B; イベントトリガーメッセージ &#x200B;](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md) パターンを使用します。 管理システムからのポリシー変更イベントは、各お客様が好むチャネルを通じて即座に関連する通知を送信するための自然なトリガーとして機能します。
 
 ### 技術上の考慮事項
 
@@ -124,7 +124,7 @@ ht-degree: 0%
 
 ### 実装方法
 
-[ イベントトリガーメッセージ ](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md) パターンを使用します。 見積もり放棄は、見込み客の関心と意図がまだ新鮮である間、トリガーがタイムリーにフォローアップする行動イベントです。
+[&#x200B; イベントトリガーメッセージ &#x200B;](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md) パターンを使用します。 見積もり放棄は、見込み客の関心と意図がまだ新鮮である間、トリガーがタイムリーにフォローアップする行動イベントです。
 
 ### 技術上の考慮事項
 
@@ -184,7 +184,7 @@ ht-degree: 0%
 
 ### 実装方法
 
-[ イベントトリガーメッセージ ](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md) パターンを使用します。 不正リスクのスコアリング・イベントにより、適切な調査通信とプロセスの調整をリアルタイムでトリガーし、フラグが設定された請求にすぐに対応できます。
+[&#x200B; イベントトリガーメッセージ &#x200B;](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md) パターンを使用します。 不正リスクのスコアリング・イベントにより、適切な調査通信とプロセスの調整をリアルタイムでトリガーし、フラグが設定された請求にすぐに対応できます。
 
 ### 技術上の考慮事項
 
@@ -204,7 +204,7 @@ ht-degree: 0%
 
 ### 実装方法
 
-[ マルチステップオーケストレーションされたジャーニー](/help/blueprints/use-case-patterns/campaign-management-orchestration/multi-step-orchestrated-journey.md) パターンを使用します。 ウェルネスプログラムは、各参加者のアクティビティと進捗に基づいて適応オーケストレーションが必要なマイルストーン、課題、報酬を伴う持続的なエンゲージメントエクスペリエンスです。
+[&#x200B; マルチステップオーケストレーションされたジャーニー](/help/blueprints/use-case-patterns/campaign-management-orchestration/multi-step-orchestrated-journey.md) パターンを使用します。 ウェルネスプログラムは、各参加者のアクティビティと進捗に基づいて適応オーケストレーションが必要なマイルストーン、課題、報酬を伴う持続的なエンゲージメントエクスペリエンスです。
 
 ### 技術上の考慮事項
 
@@ -224,7 +224,7 @@ ht-degree: 0%
 
 ### 実装方法
 
-[ バッチ送信メッセージの有効化 ](/help/blueprints/use-case-patterns/campaign-management-orchestration/batch-outbound-message-activation.md) パターンを使用します。 エージェントの調整は、優先的な顧客アウトリーチリスト、会話ポイント、推奨アクションをエージェントに定期的に提供するスケジュールされたバッチアクティベーションを通じて最適に提供されます。
+[&#x200B; バッチ送信メッセージの有効化 &#x200B;](/help/blueprints/use-case-patterns/campaign-management-orchestration/batch-outbound-message-activation.md) パターンを使用します。 エージェントの調整は、優先的な顧客アウトリーチリスト、会話ポイント、推奨アクションをエージェントに定期的に提供するスケジュールされたバッチアクティベーションを通じて最適に提供されます。
 
 ### 技術上の考慮事項
 
@@ -244,7 +244,7 @@ ht-degree: 0%
 
 ### 実装方法
 
-[ イベントトリガーメッセージ ](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md) パターンを使用します。 壊滅的なイベントの宣言は、影響を受けた地域のすべての保険契約者に対して、パーソナライズされたアウトリーチを直ちに行うための優先度の高いトリガーとして機能します。
+[&#x200B; イベントトリガーメッセージ &#x200B;](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md) パターンを使用します。 壊滅的なイベントの宣言は、影響を受けた地域のすべての保険契約者に対して、パーソナライズされたアウトリーチを直ちに行うための優先度の高いトリガーとして機能します。
 
 ### 技術上の考慮事項
 

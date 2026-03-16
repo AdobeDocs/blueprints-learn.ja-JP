@@ -15,7 +15,7 @@ ht-degree: 0%
 Source:https://experienceleague.adobe.com/en/docs/authoring-guide/using/home
 クロール:2026-03-15
 
----
+&#x200B;---
 
 ## &#x200B;1. メタデータ/前面
 
@@ -54,7 +54,7 @@ Source:https://experienceleague.adobe.com/en/docs/authoring-guide/using/home
 ### 非推奨フィールド
 seo-title、seo-description、audience、difference、uuid （移行時代から）
 
----
+&#x200B;---
 
 ## &#x200B;2. MARKDOWN 構文（ADOBE固有）
 
@@ -120,10 +120,13 @@ seo-title、seo-description、audience、difference、uuid （移行時代から
 
   ```
   ```javascript
+
   code here
+
   ```
 
   ```
+
   
   
 - オプション：`{line-numbers="true"}`、`{start-line="7"}`、`{highlight="11-13, 16"}`
@@ -140,7 +143,7 @@ seo-title、seo-description、audience、difference、uuid （移行時代から
 - マークダウン表のレイアウトオプション：空白行を含む表の後に `{style="table-layout:auto"}` を追加
 - 水平スクロールバーの表示の問題により、非常に広いテーブルや高いテーブルを使用しない
 
----
+&#x200B;---
 
 ## &#x200B;3. 特別なADOBE構文拡張
 
@@ -174,7 +177,8 @@ seo-title、seo-description、audience、difference、uuid （移行時代から
 >[!ERROR]
 >[!SUCCESS]
 ```
-- 重大：`>` と `[!` の間にスペースがありません – `>[!NOTE]` NOT `> [!NOTE]` を使用してください
+
+- 重大：`>` と `[ !` の間にスペースがありません – `>[!NOTE]` NOT `> [!NOTE]` を使用してください
 - `>[!NOTE]` と本文テキスト行の間に空白行を追加
 
 ### タブ
@@ -198,6 +202,7 @@ Content here
 Content inside
 +++
 ```
+
 メモ：ネストされた折りたたみ可能なセクションはサポートされていません。
 
 ### シェードボックス
@@ -213,6 +218,7 @@ Content here
 ```
 >[!VIDEO](https://video.tv.adobe.com/v/ID/?quality=12&learn=on)
 ```
+
 トランスクリプトの `{transcript=true}` を追加します。
 
 ### その他の関連リソース
@@ -238,6 +244,7 @@ Content here
 ```
 [!BADGE Label]{type=Informative url="https://example.com" tooltip="text"}
 ```
+
 タイプ：`Informative` （青）、`Positive` （緑）、`Negative` （赤）、`Neutral` （グレー）、`Caution` （黄）
 
 ### テキストのハイライト表示（プレビュー）
@@ -271,7 +278,7 @@ Content here
 - 罫線（横）
 - ネストされた折りたたみ可能なセクション
 
----
+&#x200B;---
 
 ## &#x200B;4. ファイル名とフォルダー構造
 
@@ -301,7 +308,7 @@ Content here
 - 目次メタデータ：`user-guide-description` （オプションで `breadcrumb-title`）
 - `mini-toc-levels`：右ナビゲーションの見出しの表示を制御します（1～6、デフォルトは 2）。
 
----
+&#x200B;---
 
 ## &#x200B;5. コンテンツ品質および編集基準
 
@@ -347,7 +354,7 @@ Content here
 - メタデータフィールドのタイトルケ `title` スのみ
 - 固有名詞は常に大文字
 
----
+&#x200B;---
 
 ## &#x200B;6. SEO のベストプラクティス
 
@@ -364,7 +371,7 @@ Content here
 - AnswerThePublic やGoogle Trends などのツールを使用して、キーワードを調査します
 - コンテンツには、E-E-A-T （経験、専門知識、権威、信頼性）を示す必要がある
 
----
+&#x200B;---
 
 ## &#x200B;7. 場所
 
@@ -384,7 +391,7 @@ Content here
 - `[!DNL ProductName]` – 製品/ブランド名が翻訳されないようにします。
 - 「do-not-localize」フォルダー内の画像は、ローカライゼーションから除外されます
 
----
+&#x200B;---
 
 ## &#x200B;8. コンテンツタイプ
 
@@ -395,13 +402,13 @@ Content here
 - **ナレッジベース記事**：一時的に関連する簡単なトラブルシューティングコンテンツ
 - **ランディングページ/ホームページ**：別管理（SCCM）
 
----
+&#x200B;---
 
 ## &#x200B;9. 回避すべき一般的な検証エラー
 
 - `title` または `description` のメタデータが見つからない、または空白である
 - 「詳細情報」で始まら `description` い または「方法を学ぶ」を参照してください。
-- コールアウト構文の `>` と `[!` の間のスペース （`>[!NOTE]` ではなく `> [!NOTE]`）
+- コールアウト構文の `>` と `[ !` の間のスペース （`>[!NOTE]` ではなく `> [!NOTE]`）
 - 太字のスペース マーカー：`**text **` （末尾のスペースは太字で区切ります）
 - HTML テーブル内の Markdown 構文（例：コールアウトが機能しない）
 - ドキュメント内の見出しアンカー ID の複製

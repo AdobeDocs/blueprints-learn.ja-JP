@@ -30,6 +30,6 @@ ht-degree: 2%
 
 | パターン | カテゴリ | この目的をサポートする方法 |
 | --- | --- | --- |
-| [ 宛先へのAudience Activation](/help/blueprints/use-case-patterns/audience-building-activation/audience-activation-to-destinations.md) | オーディエンスの構築とアクティベーション | 精度の高いターゲティングと既存顧客の抑制を可能にして、メディア支出の効率を最大化 |
+| [&#x200B; 宛先へのAudience Activation](/help/blueprints/use-case-patterns/audience-building-activation/audience-activation-to-destinations.md) | オーディエンスの構築とアクティベーション | 精度の高いターゲティングと既存顧客の抑制を可能にして、メディア支出の効率を最大化 |
 | [Segment Match を使用した Audience Collaboration](/help/blueprints/use-case-patterns/audience-building-activation/audience-collaboration-segment-match.md) | オーディエンスの構築とアクティベーション | 組織間でのオーディエンスの共有と重複分析により、ターゲティングの効率を向上 |
-| [Customer Analytics &amp; Insightのジェネレーション ](/help/blueprints/use-case-patterns/analysis/customer-analytics-insight-generation.md) | 分析 | クロスチャネルパフォーマンス分析を提供して、予算の配分と最適化の決定を通知します。 |
+| [Customer Analytics &amp; Insightのジェネレーション &#x200B;](/help/blueprints/use-case-patterns/analysis/customer-analytics-insight-generation.md) | 分析 | クロスチャネルパフォーマンス分析を提供して、予算の配分と最適化の決定を通知します。 |

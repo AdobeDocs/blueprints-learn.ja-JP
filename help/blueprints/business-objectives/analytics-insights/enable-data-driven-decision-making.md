@@ -29,5 +29,5 @@ ht-degree: 2%
 
 | パターン | カテゴリ | この目的をサポートする方法 |
 | --- | --- | --- |
-| [Customer Analytics &amp; Insightのジェネレーション ](/help/blueprints/use-case-patterns/analysis/customer-analytics-insight-generation.md) | 分析 | セルフサービスの分析ワークスペースと、データ駆動型インサイトのガイド付き分析ワークフローを提供します |
+| [Customer Analytics &amp; Insightのジェネレーション &#x200B;](/help/blueprints/use-case-patterns/analysis/customer-analytics-insight-generation.md) | 分析 | セルフサービスの分析ワークスペースと、データ駆動型インサイトのガイド付き分析ワークフローを提供します |
 | [B2B Analytics](/help/blueprints/use-case-patterns/analysis/b2b-analytics.md) | 分析 | アカウントレベルの分析と購入グループインサイトにより、データ駆動型の B2B 意思決定を可能にします |

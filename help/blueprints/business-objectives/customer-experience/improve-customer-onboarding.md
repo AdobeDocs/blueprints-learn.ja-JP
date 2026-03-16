@@ -30,5 +30,5 @@ ht-degree: 3%
 
 | パターン | カテゴリ | この目的をサポートする方法 |
 | --- | --- | --- |
-| [ イベントトリガーメッセージ ](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md) | キャンペーンの管理とオーケストレーション | サインアップイベントとアクティベーションマイルストーンに基づく、トリガーのコンテキストオンボーディングメッセージ |
-| [ 複数ステップの調整されたジャーニー](/help/blueprints/use-case-patterns/campaign-management-orchestration/multi-step-orchestrated-journey.md) | キャンペーンの管理とオーケストレーション | 時間指定タッチポイントを使用した、構造化された複数ステップのオンボーディングジャーニーを通じて、新規顧客をガイドします |
+| [&#x200B; イベントトリガーメッセージ &#x200B;](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md) | キャンペーンの管理とオーケストレーション | サインアップイベントとアクティベーションマイルストーンに基づく、トリガーのコンテキストオンボーディングメッセージ |
+| [&#x200B; 複数ステップの調整されたジャーニー](/help/blueprints/use-case-patterns/campaign-management-orchestration/multi-step-orchestrated-journey.md) | キャンペーンの管理とオーケストレーション | 時間指定タッチポイントを使用した、構造化された複数ステップのオンボーディングジャーニーを通じて、新規顧客をガイドします |

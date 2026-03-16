@@ -30,7 +30,7 @@ ht-degree: 3%
 
 | パターン | カテゴリ | この目的をサポートする方法 |
 | --- | --- | --- |
-| [ 既知の訪問者の Web/アプリPersonalization](/help/blueprints/use-case-patterns/personalization/known-visitor-web-app-personalization.md) | パーソナライズ機能 | 認証済み訪問者のエンゲージメントの深さを増すパーソナライズされた web およびアプリエクスペリエンスを提供します |
-| [ バッチ送信メッセージの有効化 ](/help/blueprints/use-case-patterns/campaign-management-orchestration/batch-outbound-message-activation.md) | キャンペーンの管理とオーケストレーション | メール、SMS、プッシュチャネルをまたいでターゲットバッチキャンペーンを通じてエンゲージメントを促進します |
-| [ 複数ステップの調整されたジャーニー](/help/blueprints/use-case-patterns/campaign-management-orchestration/multi-step-orchestrated-journey.md) | キャンペーンの管理とオーケストレーション | パーソナライズされたコンテンツとタイミングを使用したマルチタッチエンゲージメントジャーニーを通じて顧客をガイドします |
-| [Brand Conciergeの会話体験 ](/help/blueprints/use-case-patterns/conversational-experience/brand-concierge-conversational-experience.md) | 会話経験 | AI を活用した対話型インタラクションにより、エンゲージメントの深度を増やす |
+| [&#x200B; 既知の訪問者の Web/アプリPersonalization](/help/blueprints/use-case-patterns/personalization/known-visitor-web-app-personalization.md) | パーソナライズ機能 | 認証済み訪問者のエンゲージメントの深さを増すパーソナライズされた web およびアプリエクスペリエンスを提供します |
+| [&#x200B; バッチ送信メッセージの有効化 &#x200B;](/help/blueprints/use-case-patterns/campaign-management-orchestration/batch-outbound-message-activation.md) | キャンペーンの管理とオーケストレーション | メール、SMS、プッシュチャネルをまたいでターゲットバッチキャンペーンを通じてエンゲージメントを促進します |
+| [&#x200B; 複数ステップの調整されたジャーニー](/help/blueprints/use-case-patterns/campaign-management-orchestration/multi-step-orchestrated-journey.md) | キャンペーンの管理とオーケストレーション | パーソナライズされたコンテンツとタイミングを使用したマルチタッチエンゲージメントジャーニーを通じて顧客をガイドします |
+| [Brand Conciergeの会話体験 &#x200B;](/help/blueprints/use-case-patterns/conversational-experience/brand-concierge-conversational-experience.md) | 会話経験 | AI を活用した対話型インタラクションにより、エンゲージメントの深度を増やす |

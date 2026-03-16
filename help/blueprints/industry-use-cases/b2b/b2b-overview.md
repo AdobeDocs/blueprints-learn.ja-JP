@@ -16,7 +16,7 @@ B2B 企業は、Adobe Experience Platformを使用してアカウントおよび
 
 >[!NOTE]
 >
->アカウントベースのアクティベーションおよび購入グループ管理を含む、B2B 固有のアーキテクチャブループリントについては、[B2B アクティベーションおよびマーケティングブループリント ](/help/blueprints/b2b/overview.md) を参照してください。
+>アカウントベースのアクティベーションおよび購入グループ管理を含む、B2B 固有のアーキテクチャブループリントについては、[B2B アクティベーションおよびマーケティングブループリント &#x200B;](/help/blueprints/b2b/overview.md) を参照してください。
 
 ## Account-Based MarketingPersonalization
 
@@ -48,7 +48,7 @@ B2B 企業は、Adobe Experience Platformを使用してアカウントおよび
 
 ### 実装方法
 
-[ マルチステップオーケストレーションされたジャーニー](/help/blueprints/use-case-patterns/campaign-management-orchestration/multi-step-orchestrated-journey.md) パターンを使用して、リードスコアの変化と行動のトリガーに対応するブランチ育成ジャーニーを設計します。 このパターンは、育成トラックと販売ハンドオフワークフローの間でリードをルーティングするために必要な条件付きロジックをサポートしています。
+[&#x200B; マルチステップオーケストレーションされたジャーニー](/help/blueprints/use-case-patterns/campaign-management-orchestration/multi-step-orchestrated-journey.md) パターンを使用して、リードスコアの変化と行動のトリガーに対応するブランチ育成ジャーニーを設計します。 このパターンは、育成トラックと販売ハンドオフワークフローの間でリードをルーティングするために必要な条件付きロジックをサポートしています。
 
 ### 技術上の考慮事項
 
@@ -68,7 +68,7 @@ B2B 企業は、Adobe Experience Platformを使用してアカウントおよび
 
 ### 実装方法
 
-[ 既知の訪問者 web / アプリPersonalization](/help/blueprints/use-case-patterns/personalization/known-visitor-web-app-personalization.md) パターンを使用して、統合された見込み客プロファイルに基づいてカスタマイズされたコンテンツエクスペリエンスを提供します。 このパターンでは、リアルタイムプロファイルデータを活用して、各訪問者に最も関連性の高いリソース、導入事例およびアクションの呼び出しを提供します。
+[&#x200B; 既知の訪問者 web / アプリPersonalization](/help/blueprints/use-case-patterns/personalization/known-visitor-web-app-personalization.md) パターンを使用して、統合された見込み客プロファイルに基づいてカスタマイズされたコンテンツエクスペリエンスを提供します。 このパターンでは、リアルタイムプロファイルデータを活用して、各訪問者に最も関連性の高いリソース、導入事例およびアクションの呼び出しを提供します。
 
 ### 技術上の考慮事項
 
@@ -88,7 +88,7 @@ B2B 企業は、Adobe Experience Platformを使用してアカウントおよび
 
 ### 実装方法
 
-[ マルチステップオーケストレーションジャーニー](/help/blueprints/use-case-patterns/campaign-management-orchestration/multi-step-orchestrated-journey.md) パターンを使用すると、登録からポストイベント育成まで、イベントライフサイクル全体をオーケストレーションできます。 このパターンは、時間ベースのトリガー、イベントタイプ別の条件付きブランチ、複数チャネルのフォローアップシーケンスをサポートします。
+[&#x200B; マルチステップオーケストレーションジャーニー](/help/blueprints/use-case-patterns/campaign-management-orchestration/multi-step-orchestrated-journey.md) パターンを使用すると、登録からポストイベント育成まで、イベントライフサイクル全体をオーケストレーションできます。 このパターンは、時間ベースのトリガー、イベントタイプ別の条件付きブランチ、複数チャネルのフォローアップシーケンスをサポートします。
 
 ### 技術上の考慮事項
 
@@ -108,7 +108,7 @@ B2B 企業は、Adobe Experience Platformを使用してアカウントおよび
 
 ### 実装方法
 
-[ マルチステップのオーケストレーションされたジャーニー](/help/blueprints/use-case-patterns/campaign-management-orchestration/multi-step-orchestrated-journey.md) パターンを使用して、体験版ユーザー向けの時間ベースおよび行動ベースのコンバージョンジャーニーを構築します。 このパターンは、製品の使用マイルストーンに基づく条件付きパスをサポートし、適切なタイミングでターゲットを絞った微調整を可能にします。
+[&#x200B; マルチステップのオーケストレーションされたジャーニー](/help/blueprints/use-case-patterns/campaign-management-orchestration/multi-step-orchestrated-journey.md) パターンを使用して、体験版ユーザー向けの時間ベースおよび行動ベースのコンバージョンジャーニーを構築します。 このパターンは、製品の使用マイルストーンに基づく条件付きパスをサポートし、適切なタイミングでターゲットを絞った微調整を可能にします。
 
 ### 技術上の考慮事項
 
@@ -128,7 +128,7 @@ B2B 企業は、Adobe Experience Platformを使用してアカウントおよび
 
 ### 実装方法
 
-[ マルチステップオーケストレーションされたジャーニー](/help/blueprints/use-case-patterns/campaign-management-orchestration/multi-step-orchestrated-journey.md) パターンを使用して、製品、プラン層および顧客セグメントに合わせてカスタマイズされたオンボーディングシーケンスを調整します。 このパターンは、マイルストーンベースの進行をサポートし、オンボーディングの各段階で顧客が適切なガイダンスを受けられるようにします。
+[&#x200B; マルチステップオーケストレーションされたジャーニー](/help/blueprints/use-case-patterns/campaign-management-orchestration/multi-step-orchestrated-journey.md) パターンを使用して、製品、プラン層および顧客セグメントに合わせてカスタマイズされたオンボーディングシーケンスを調整します。 このパターンは、マイルストーンベースの進行をサポートし、オンボーディングの各段階で顧客が適切なガイダンスを受けられるようにします。
 
 ### 技術上の考慮事項
 
@@ -188,7 +188,7 @@ B2B 企業は、Adobe Experience Platformを使用してアカウントおよび
 
 ### 実装方法
 
-[ マルチステップオーケストレーションされたジャーニー](/help/blueprints/use-case-patterns/campaign-management-orchestration/multi-step-orchestrated-journey.md) パターンを使用して、特定の競合他社や見込み客のプロファイルに合わせて調整された、マルチタッチの競合キャンペーンを調整します。 このパターンは、特定された競合企業に基づく条件付き分岐をサポートし、各競合シナリオの固有の問題点に対処するメッセージを提供します。
+[&#x200B; マルチステップオーケストレーションされたジャーニー](/help/blueprints/use-case-patterns/campaign-management-orchestration/multi-step-orchestrated-journey.md) パターンを使用して、特定の競合他社や見込み客のプロファイルに合わせて調整された、マルチタッチの競合キャンペーンを調整します。 このパターンは、特定された競合企業に基づく条件付き分岐をサポートし、各競合シナリオの固有の問題点に対処するメッセージを提供します。
 
 ### 技術上の考慮事項
 
@@ -208,7 +208,7 @@ B2B 企業は、Adobe Experience Platformを使用してアカウントおよび
 
 ### 実装方法
 
-[ イベントトリガーメッセージ ](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md) パターンを使用すると、今後のウェビナーやデモトピックに沿った興味シグナルが見込み客に示された場合に、パーソナライズされた招待状を送信できます。 このパターンは、行動のトリガーにリアルタイムで対応し、興味が最も高いときに招待状が届くようにします。
+[&#x200B; イベントトリガーメッセージ &#x200B;](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md) パターンを使用すると、今後のウェビナーやデモトピックに沿った興味シグナルが見込み客に示された場合に、パーソナライズされた招待状を送信できます。 このパターンは、行動のトリガーにリアルタイムで対応し、興味が最も高いときに招待状が届くようにします。
 
 ### 技術上の考慮事項
 
@@ -228,7 +228,7 @@ B2B 企業は、Adobe Experience Platformを使用してアカウントおよび
 
 ### 実装方法
 
-[ 既知の訪問者 Web / アプリPersonalization](/help/blueprints/use-case-patterns/personalization/known-visitor-web-app-personalization.md) パターンを使用して、最も関連性の高いケーススタディや ROI 証拠を各見込み客のプロファイルに基づいて動的に提示します。 このパターンでは、訪問者属性がコンテンツライブラリと照合され、すべての見込み客が業界やピアグループからのプルーフポイントを確実に見られるようになります。
+[&#x200B; 既知の訪問者 Web / アプリPersonalization](/help/blueprints/use-case-patterns/personalization/known-visitor-web-app-personalization.md) パターンを使用して、最も関連性の高いケーススタディや ROI 証拠を各見込み客のプロファイルに基づいて動的に提示します。 このパターンでは、訪問者属性がコンテンツライブラリと照合され、すべての見込み客が業界やピアグループからのプルーフポイントを確実に見られるようになります。
 
 ### 技術上の考慮事項
 
@@ -248,7 +248,7 @@ B2B 企業は、Adobe Experience Platformを使用してアカウントおよび
 
 ### 実装方法
 
-[ マルチステップオーケストレーションジャーニー](/help/blueprints/use-case-patterns/campaign-management-orchestration/multi-step-orchestrated-journey.md) パターンを使用して、満足度と使用状況のシグナルに応えるアドボカシーの特定とエンゲージメントワークフローを構築します。 このパターンは、軽い参加（レビューなど）から始まり、より深いコミットメント（例えば、リファレンスコールやケーススタディ）に進むというプログレッシブアドボカシーの質問をサポートします。
+[&#x200B; マルチステップオーケストレーションジャーニー](/help/blueprints/use-case-patterns/campaign-management-orchestration/multi-step-orchestrated-journey.md) パターンを使用して、満足度と使用状況のシグナルに応えるアドボカシーの特定とエンゲージメントワークフローを構築します。 このパターンは、軽い参加（レビューなど）から始まり、より深いコミットメント（例えば、リファレンスコールやケーススタディ）に進むというプログレッシブアドボカシーの質問をサポートします。
 
 ### 技術上の考慮事項
 

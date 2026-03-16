@@ -30,4 +30,4 @@ ht-degree: 2%
 
 | パターン | カテゴリ | この目的をサポートする方法 |
 | --- | --- | --- |
-| [ イベントの転送 ](/help/blueprints/use-case-patterns/audience-building-activation/event-forwarding.md) | オーディエンスの構築とアクティベーション | ポイントツーポイント統合を、統合されたサーバーサイドイベント配信レイヤーに置き換えます。 |
+| [&#x200B; イベントの転送 &#x200B;](/help/blueprints/use-case-patterns/audience-building-activation/event-forwarding.md) | オーディエンスの構築とアクティベーション | ポイントツーポイント統合を、統合されたサーバーサイドイベント配信レイヤーに置き換えます。 |

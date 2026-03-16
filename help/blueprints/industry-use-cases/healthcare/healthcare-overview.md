@@ -24,7 +24,7 @@ ht-degree: 1%
 
 ### 実装方法
 
-[ イベントトリガーメッセージ ](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md) パターンを使用します。 スケジュール設定システムからのアポイントメントの作成および更新イベントは、タイムリーで関連性の高いリマインダーメッセージの自然トリガーとして機能します。
+[&#x200B; イベントトリガーメッセージ &#x200B;](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md) パターンを使用します。 スケジュール設定システムからのアポイントメントの作成および更新イベントは、タイムリーで関連性の高いリマインダーメッセージの自然トリガーとして機能します。
 
 ### 技術上の考慮事項
 
@@ -44,7 +44,7 @@ ht-degree: 1%
 
 ### 実装方法
 
-[ マルチステップオーケストレーションされたジャーニー](/help/blueprints/use-case-patterns/campaign-management-orchestration/multi-step-orchestrated-journey.md) パターンを使用します。 服薬アドヒアランスには、治療計画の過程でリマインダーのエスカレーション、教育タッチポイント、フォローアップチェックインを備えた持続的かつマルチタッチアプローチが必要である。
+[&#x200B; マルチステップオーケストレーションされたジャーニー](/help/blueprints/use-case-patterns/campaign-management-orchestration/multi-step-orchestrated-journey.md) パターンを使用します。 服薬アドヒアランスには、治療計画の過程でリマインダーのエスカレーション、教育タッチポイント、フォローアップチェックインを備えた持続的かつマルチタッチアプローチが必要である。
 
 ### 技術上の考慮事項
 
@@ -64,7 +64,7 @@ ht-degree: 1%
 
 ### 実装方法
 
-[ バッチ送信メッセージの有効化 ](/help/blueprints/use-case-patterns/campaign-management-orchestration/batch-outbound-message-activation.md) パターンを使用します。 予防ケアのリマインダーは、定期的に臨床ガイドラインに照らして患者の適格性を評価するスケジュール済みバッチキャンペーンを通じて提供されるのが最適です。
+[&#x200B; バッチ送信メッセージの有効化 &#x200B;](/help/blueprints/use-case-patterns/campaign-management-orchestration/batch-outbound-message-activation.md) パターンを使用します。 予防ケアのリマインダーは、定期的に臨床ガイドラインに照らして患者の適格性を評価するスケジュール済みバッチキャンペーンを通じて提供されるのが最適です。
 
 ### 技術上の考慮事項
 
@@ -84,7 +84,7 @@ ht-degree: 1%
 
 ### 実装方法
 
-[ イベントトリガーメッセージ ](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md) パターンを使用します。 Electronic Health Records System の訪問完了イベントは、出会いのタイプに合わせた自然でタイムリーなフォローアップコミュニケーションのトリガーとなります。
+[&#x200B; イベントトリガーメッセージ &#x200B;](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md) パターンを使用します。 Electronic Health Records System の訪問完了イベントは、出会いのタイプに合わせた自然でタイムリーなフォローアップコミュニケーションのトリガーとなります。
 
 ### 技術上の考慮事項
 
@@ -104,7 +104,7 @@ ht-degree: 1%
 
 ### 実装方法
 
-[ マルチステップオーケストレーションされたジャーニー](/help/blueprints/use-case-patterns/campaign-management-orchestration/multi-step-orchestrated-journey.md) パターンを使用します。 慢性疾患の管理は、本質的に長時間実行される複数のタッチポイントのエクスペリエンスであり、患者のエンゲージメントと健康のマイルストーンに基づいてアダプティブメッセージを必要とします。
+[&#x200B; マルチステップオーケストレーションされたジャーニー](/help/blueprints/use-case-patterns/campaign-management-orchestration/multi-step-orchestrated-journey.md) パターンを使用します。 慢性疾患の管理は、本質的に長時間実行される複数のタッチポイントのエクスペリエンスであり、患者のエンゲージメントと健康のマイルストーンに基づいてアダプティブメッセージを必要とします。
 
 ### 技術上の考慮事項
 
@@ -124,7 +124,7 @@ ht-degree: 1%
 
 ### 実装方法
 
-[ マルチステップオーケストレーションされたジャーニー](/help/blueprints/use-case-patterns/campaign-management-orchestration/multi-step-orchestrated-journey.md) パターンを使用します。 患者のオンボーディングは、自然に順次的な複数ステップのプロセスであり、各コミュニケーションが前のコミュニケーションに基づいて構築され、患者が主要なアクションを完了したかどうかに基づいて適応します。
+[&#x200B; マルチステップオーケストレーションされたジャーニー](/help/blueprints/use-case-patterns/campaign-management-orchestration/multi-step-orchestrated-journey.md) パターンを使用します。 患者のオンボーディングは、自然に順次的な複数ステップのプロセスであり、各コミュニケーションが前のコミュニケーションに基づいて構築され、患者が主要なアクションを完了したかどうかに基づいて適応します。
 
 ### 技術上の考慮事項
 
@@ -164,7 +164,7 @@ ht-degree: 1%
 
 ### 実装方法
 
-[ イベントトリガーメッセージ ](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md) パターンを使用します。 検査結果の可用性は、患者が希望するチャネルを通じて即時に 1 回の通知を要求する、個別のイベントである。
+[&#x200B; イベントトリガーメッセージ &#x200B;](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md) パターンを使用します。 検査結果の可用性は、患者が希望するチャネルを通じて即時に 1 回の通知を要求する、個別のイベントである。
 
 ### 技術上の考慮事項
 
@@ -184,7 +184,7 @@ ht-degree: 1%
 
 ### 実装方法
 
-[ イベントトリガーメッセージ ](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md) パターンを使用します。 アポイントメントスケジュールの設定イベントは、来院前にカバレッジの確認を開始し、結果を患者に伝えるトリガーとして機能する。
+[&#x200B; イベントトリガーメッセージ &#x200B;](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md) パターンを使用します。 アポイントメントスケジュールの設定イベントは、来院前にカバレッジの確認を開始し、結果を患者に伝えるトリガーとして機能する。
 
 ### 技術上の考慮事項
 
@@ -204,7 +204,7 @@ ht-degree: 1%
 
 ### 実装方法
 
-[ イベントトリガーメッセージ ](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md) パターンを使用します。 テレヘルスの予定スケジュールイベントは、接続の詳細や準備のガイダンスを含むタイムリーなリマインダーに自然なトリガーを提供します。
+[&#x200B; イベントトリガーメッセージ &#x200B;](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md) パターンを使用します。 テレヘルスの予定スケジュールイベントは、接続の詳細や準備のガイダンスを含むタイムリーなリマインダーに自然なトリガーを提供します。
 
 ### 技術上の考慮事項
 
@@ -224,7 +224,7 @@ ht-degree: 1%
 
 ### 実装方法
 
-[ マルチステップオーケストレーションされたジャーニー](/help/blueprints/use-case-patterns/campaign-management-orchestration/multi-step-orchestrated-journey.md) パターンを使用します。 ウェルネスプログラムは、複数のマイルストーン、課題、報酬タッチポイントを伴う持続的なエンゲージメントエクスペリエンスで、患者の参加と進歩に基づいてアダプティブオーケストレーションが必要です。
+[&#x200B; マルチステップオーケストレーションされたジャーニー](/help/blueprints/use-case-patterns/campaign-management-orchestration/multi-step-orchestrated-journey.md) パターンを使用します。 ウェルネスプログラムは、複数のマイルストーン、課題、報酬タッチポイントを伴う持続的なエンゲージメントエクスペリエンスで、患者の参加と進歩に基づいてアダプティブオーケストレーションが必要です。
 
 ### 技術上の考慮事項
 
@@ -244,7 +244,7 @@ ht-degree: 1%
 
 ### 実装方法
 
-[ マルチステップオーケストレーションされたジャーニー](/help/blueprints/use-case-patterns/campaign-management-orchestration/multi-step-orchestrated-journey.md) パターンを使用します。 ケアチームの連携には複数の関係者が関与し、ケアプランのマイルストーン、患者の状態の変化、および提供者の行動に基づいて適応しなければならない継続的なコミュニケーションフローが含まれる。
+[&#x200B; マルチステップオーケストレーションされたジャーニー](/help/blueprints/use-case-patterns/campaign-management-orchestration/multi-step-orchestrated-journey.md) パターンを使用します。 ケアチームの連携には複数の関係者が関与し、ケアプランのマイルストーン、患者の状態の変化、および提供者の行動に基づいて適応しなければならない継続的なコミュニケーションフローが含まれる。
 
 ### 技術上の考慮事項
 

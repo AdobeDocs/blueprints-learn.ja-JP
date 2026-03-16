@@ -116,11 +116,11 @@ ht-degree: 1%
 
 | 基本関数 | ステータス | 所定の位置に配置する必要があること | Experience League リファレンス |
 | --- | --- | --- | --- |
-| 管理とガバナンス | 所定の位置に想定 | アクティブなチャネル設定でプロビジョニングされたAJO サンドボックス。 実装チームに割り当てられたジャーニーの作成および公開権限。 ジャーニー管理、コンテンツオーサリングおよびチャネル管理用に設定されたユーザーの役割。 | [ サンドボックスの概要 ](https://experienceleague.adobe.com/ja/docs/experience-platform/sandbox/home)、[ アクセス制御の概要 ](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/home) |
-| データモデリングと準備 | 必須 | XDM ExperienceEvent スキーマは、条件評価とメッセージのパーソナライゼーションに必要なすべてのコンテキストフィールド（買い物かごイベント、製品の詳細、買い物かごの値の `commerce.productListAdds` など）を使用して、トリガーイベントをキャプチャする必要があります。 リアルタイム顧客プロファイルに対してスキーマを有効にする必要があります。 対応するデータセットを作成し、プロファイルを有効にする必要があります。 | [XDM システムの概要 ](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/home)、[ スキーマ構成の基本 ](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/composition) |
-| データソースとコレクション | 必須 | リアルタイムイベントストリーミング（Web イベント用の Web SDK、アプリイベント用の Mobile SDK、システムイベント用のEdge Network Server API）を設定する必要があります。 データストリームは、AEPおよびAJO サービスを有効にして、イベントを正しいデータセットにルーティングするように設定する必要があります。 パターンはリアルタイムイベント取り込みに依存するので、これは重要な依存関係です。 | [Web SDKの概要 ](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/home)、[ データストリームの設定 ](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/configure) |
-| ID とプロファイル設定 | 必須 | ジャーニーがプロファイルを解決してメッセージを配信できるように、トリガーイベントは既知の ID （メール、CRM ID、認証済みセッション）に関連付けられている必要があります。 ID 名前空間は、トリガーイベントが使用する識別子用に存在する必要があります。 匿名イベントでは、メッセージを配信する前に、ID グラフを介した ID ステッチが必要です。 結合ポリシーを設定する必要があります。 | [ID サービスの概要 ](https://experienceleague.adobe.com/en/docs/experience-platform/identity/home)、[ 結合ポリシーの概要 ](https://experienceleague.adobe.com/en/docs/experience-platform/profile/merge-policies/overview) |
-| オーディエンスの定義とセグメント化 | 推奨 | イベントトリガージャーニーでは厳密には必須ではありませんが（エントリはオーディエンスベースではなくイベントベースです）、オーディエンスセグメントをジャーニー内の条件評価に使用できます（例えば、プロファイルが「価値の高い顧客」セグメントの場合にのみ送信し、プロファイルが「最近コンタクトした」セグメントの場合は抑制します）。 ジャーニー内のリアルタイムのセグメントメンバーシップチェックには、ストリーミング評価をお勧めします。 | [ セグメント化サービスの概要 ](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/home)、[ ストリーミングセグメント化 ](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/methods/streaming-segmentation) |
+| 管理とガバナンス | 所定の位置に想定 | アクティブなチャネル設定でプロビジョニングされたAJO サンドボックス。 実装チームに割り当てられたジャーニーの作成および公開権限。 ジャーニー管理、コンテンツオーサリングおよびチャネル管理用に設定されたユーザーの役割。 | [&#x200B; サンドボックスの概要 &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/sandbox/home)、[&#x200B; アクセス制御の概要 &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/home) |
+| データモデリングと準備 | 必須 | XDM ExperienceEvent スキーマは、条件評価とメッセージのパーソナライゼーションに必要なすべてのコンテキストフィールド（買い物かごイベント、製品の詳細、買い物かごの値の `commerce.productListAdds` など）を使用して、トリガーイベントをキャプチャする必要があります。 リアルタイム顧客プロファイルに対してスキーマを有効にする必要があります。 対応するデータセットを作成し、プロファイルを有効にする必要があります。 | [XDM システムの概要 &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/home)、[&#x200B; スキーマ構成の基本 &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/composition) |
+| データソースとコレクション | 必須 | リアルタイムイベントストリーミング（Web イベント用の Web SDK、アプリイベント用の Mobile SDK、システムイベント用のEdge Network Server API）を設定する必要があります。 データストリームは、AEPおよびAJO サービスを有効にして、イベントを正しいデータセットにルーティングするように設定する必要があります。 パターンはリアルタイムイベント取り込みに依存するので、これは重要な依存関係です。 | [Web SDKの概要 &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/home)、[&#x200B; データストリームの設定 &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/configure) |
+| ID とプロファイル設定 | 必須 | ジャーニーがプロファイルを解決してメッセージを配信できるように、トリガーイベントは既知の ID （メール、CRM ID、認証済みセッション）に関連付けられている必要があります。 ID 名前空間は、トリガーイベントが使用する識別子用に存在する必要があります。 匿名イベントでは、メッセージを配信する前に、ID グラフを介した ID ステッチが必要です。 結合ポリシーを設定する必要があります。 | [ID サービスの概要 &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/identity/home)、[&#x200B; 結合ポリシーの概要 &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/profile/merge-policies/overview) |
+| オーディエンスの定義とセグメント化 | 推奨 | イベントトリガージャーニーでは厳密には必須ではありませんが（エントリはオーディエンスベースではなくイベントベースです）、オーディエンスセグメントをジャーニー内の条件評価に使用できます（例えば、プロファイルが「価値の高い顧客」セグメントの場合にのみ送信し、プロファイルが「最近コンタクトした」セグメントの場合は抑制します）。 ジャーニー内のリアルタイムのセグメントメンバーシップチェックには、ストリーミング評価をお勧めします。 | [&#x200B; セグメント化サービスの概要 &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/home)、[&#x200B; ストリーミングセグメント化 &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/methods/streaming-segmentation) |
 
 ## サポート関数
 
@@ -128,11 +128,11 @@ ht-degree: 1%
 
 | サポート機能 | ステータス | これが重要な理由 | Experience League リファレンス |
 | --- | --- | --- | --- |
-| 計算/派生属性の作成 | 推奨 | 買い物かごの放棄カウント、前回購入からの日数、平均注文額、ライフタイム購入合計などの計算属性によって、トリガーされたジャーニー内での条件評価とパーソナライゼーションが向上します。 これらの行動集計により、より正確なターゲティング決定が可能になります（例えば、初回の離脱とリピート離脱の区別）。 | [ 計算済み属性の概要 ](https://experienceleague.adobe.com/en/docs/experience-platform/profile/computed-attributes/overview) |
-| データ・ライフサイクル管理 | 推奨 | イベントデータの有効期限は、ストレージコストとコンプライアンスを管理するために、一時的な行動イベント（ページビュー数、検索、クリック数）に対して設定する必要があります。 メッセージ配信中にチャネル固有のオプトイン/オプトアウトを強制するには、同意スキーマフィールドが存在する必要があります。 | [ 高度なデータライフサイクル管理の概要 ](https://experienceleague.adobe.com/en/docs/experience-platform/data-lifecycle/home)、[ データセット有効期限 ](https://experienceleague.adobe.com/en/docs/experience-platform/data-lifecycle/ui/dataset-expiration) |
-| データ使用のラベル付けと適用 | 推奨 | イベントフィールドとプロファイルフィールドのガバナンスラベルにより、準拠したパーソナライゼーションが保証されます。 トリガーメッセージに、PII や行動データを使用したパーソナライズされたコンテンツが含まれている場合は、メッセージコンテンツで不正なデータ使用を防ぐために、データ使用ラベルとガバナンスポリシーを確認する必要があります。 | [ データガバナンスの概要 ](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/home)、[ データ使用ラベルの概要 ](https://experienceleague.adobe.com/ja/docs/experience-platform/data-governance/labels/overview) |
-| 監視と監視 | Included | ジャーニー実行の監視は、レポートフェーズの一部です。 さらに、イベント取り込みエラーまたはジャーニー処理の遅延に関するアラートを設定して、トリガーメッセージが送信されないパイプラインの問題を検出します。 | [ アラートの概要 ](https://experienceleague.adobe.com/en/docs/experience-platform/observability/alerts/overview)、[Observability Insights の概要 ](https://experienceleague.adobe.com/en/docs/experience-platform/observability/home) |
-| レポートと分析 | Included | ジャーニーパフォーマンスレポートについては、レポートフェーズで説明します。 複数のチャネルと時間の経過に伴うトリガーメッセージの効果を詳細に分析するには、CJA Connections and Workspaces を設定して、コンバージョンアトリビューション、コンバージョンまでの時間、チャネルパフォーマンスを分析します。 | [CJAの概要 ](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-overview)、[AJO + CJA統合ガイド ](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/reporting/channel-report/cja-ajo) |
+| 計算/派生属性の作成 | 推奨 | 買い物かごの放棄カウント、前回購入からの日数、平均注文額、ライフタイム購入合計などの計算属性によって、トリガーされたジャーニー内での条件評価とパーソナライゼーションが向上します。 これらの行動集計により、より正確なターゲティング決定が可能になります（例えば、初回の離脱とリピート離脱の区別）。 | [&#x200B; 計算済み属性の概要 &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/profile/computed-attributes/overview) |
+| データ・ライフサイクル管理 | 推奨 | イベントデータの有効期限は、ストレージコストとコンプライアンスを管理するために、一時的な行動イベント（ページビュー数、検索、クリック数）に対して設定する必要があります。 メッセージ配信中にチャネル固有のオプトイン/オプトアウトを強制するには、同意スキーマフィールドが存在する必要があります。 | [&#x200B; 高度なデータライフサイクル管理の概要 &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/data-lifecycle/home)、[&#x200B; データセット有効期限 &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/data-lifecycle/ui/dataset-expiration) |
+| データ使用のラベル付けと適用 | 推奨 | イベントフィールドとプロファイルフィールドのガバナンスラベルにより、準拠したパーソナライゼーションが保証されます。 トリガーメッセージに、PII や行動データを使用したパーソナライズされたコンテンツが含まれている場合は、メッセージコンテンツで不正なデータ使用を防ぐために、データ使用ラベルとガバナンスポリシーを確認する必要があります。 | [&#x200B; データガバナンスの概要 &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/home)、[&#x200B; データ使用ラベルの概要 &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/data-governance/labels/overview) |
+| 監視と監視 | Included | ジャーニー実行の監視は、レポートフェーズの一部です。 さらに、イベント取り込みエラーまたはジャーニー処理の遅延に関するアラートを設定して、トリガーメッセージが送信されないパイプラインの問題を検出します。 | [&#x200B; アラートの概要 &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/observability/alerts/overview)、[Observability Insights の概要 &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/observability/home) |
+| レポートと分析 | Included | ジャーニーパフォーマンスレポートについては、レポートフェーズで説明します。 複数のチャネルと時間の経過に伴うトリガーメッセージの効果を詳細に分析するには、CJA Connections and Workspaces を設定して、コンバージョンアトリビューション、コンバージョンまでの時間、チャネルパフォーマンスを分析します。 | [CJAの概要 &#x200B;](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-overview)、[AJO + CJA統合ガイド &#x200B;](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/reporting/channel-report/cja-ajo) |
 
 ## アプリケーション関数
 
@@ -672,15 +672,15 @@ ht-degree: 1%
 
 イベントトリガーメッセージの実装には、次のプラットフォームガードレールと制限が適用されます。
 
-- **単一イベントのスループット：** 単一イベントジャーニーのサンドボックスごとに最大 5,000 イベント/秒 – [Journey Optimizer ガードレール ](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/get-started/guardrails)
-- **ライブジャーニーの制限：** サンドボックスあたり最大 500 個のライブジャーニー – [Journey Optimizerガードレール ](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/get-started/guardrails)
+- **単一イベントのスループット：** 単一イベントジャーニーのサンドボックスごとに最大 5,000 イベント/秒 – [Journey Optimizer ガードレール &#x200B;](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/get-started/guardrails)
+- **ライブジャーニーの制限：** サンドボックスあたり最大 500 個のライブジャーニー – [Journey Optimizerガードレール &#x200B;](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/get-started/guardrails)
 - **ジャーニーキャンバスの制限：** ジャーニーキャンバスあたり最大 50 個のアクティビティ
 - **ジャーニータイムアウト：** ジャーニーの最大期間は 91 日です（グローバルタイムアウト）
 - **再入場クールダウン：** 再入場クールダウンの最短は 5 分
 - **フリークエンシーキャップ設定：** サンドボックスあたり最大 10 個のキャッピング設定
 - **チャネルサーフェス：** サンドボックスあたりのチャネルタイプあたり最大 10 個のチャネルサーフェス
-- **ストリーミング取り込み：** HTTP 接続あたり最大 20,000 レコード/秒 – [ 取り込みガードレール ](https://experienceleague.adobe.com/en/docs/experience-platform/ingestion/guardrails)
-- **計算属性：** サンドボックスあたり最大 25 計算属性 – [ 計算属性ガードレール ](https://experienceleague.adobe.com/en/docs/experience-platform/profile/computed-attributes/overview#guardrails)
+- **ストリーミング取り込み：** HTTP 接続あたり最大 20,000 レコード/秒 – [&#x200B; 取り込みガードレール &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/ingestion/guardrails)
+- **計算属性：** サンドボックスあたり最大 25 計算属性 – [&#x200B; 計算属性ガードレール &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/profile/computed-attributes/overview#guardrails)
 - **コンテンツフラグメント：** メッセージあたり最大 30 個のコンテンツフラグメント
 - **ライブレポートの更新：** ライブレポートは 60 秒ごとに更新され、過去 24 時間のデータが表示されます
 - **履歴レポートの待ち時間：** 履歴（常に）レポートは、実行が終了した後に完全に入力されるまでに最大 2 時間かかる場合があります

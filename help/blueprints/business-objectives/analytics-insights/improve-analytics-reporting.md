@@ -29,5 +29,5 @@ ht-degree: 2%
 
 | パターン | カテゴリ | この目的をサポートする方法 |
 | --- | --- | --- |
-| [Customer Analytics &amp; Insightのジェネレーション ](/help/blueprints/use-case-patterns/analysis/customer-analytics-insight-generation.md) | 分析 | クロスチャネル分析ワークスペース、計算指標およびダッシュボードを構築して、包括的な動作およびパフォーマンスレポートを実現 |
+| [Customer Analytics &amp; Insightのジェネレーション &#x200B;](/help/blueprints/use-case-patterns/analysis/customer-analytics-insight-generation.md) | 分析 | クロスチャネル分析ワークスペース、計算指標およびダッシュボードを構築して、包括的な動作およびパフォーマンスレポートを実現 |
 | [B2B Analytics](/help/blueprints/use-case-patterns/analysis/b2b-analytics.md) | 分析 | アカウントレベルのレポート機能とクロスチャネル B2B ジャーニー分析機能を提供 |

@@ -31,4 +31,4 @@ ht-degree: 4%
 | パターン | カテゴリ | この目的をサポートする方法 |
 | --- | --- | --- |
 | [B2B Audience アクティベーション](/help/blueprints/use-case-patterns/audience-building-activation/b2b-audience-activation.md) | オーディエンスの構築とアクティベーション | ターゲットリードの選定キャンペーン用にアカウントベースのオーディエンスをアクティブ化 |
-| [ 購買グループベース・マーケティング&amp;ジャーニーマネジメント ](/help/blueprints/use-case-patterns/campaign-management-orchestration/buying-group-based-marketing.md) | キャンペーンの管理とオーケストレーション | リードを購入グループに選定し、複数の関係者が育成するパイプラインを加速するための調整を行います |
+| [&#x200B; 購買グループベース・マーケティング&amp;ジャーニーマネジメント &#x200B;](/help/blueprints/use-case-patterns/campaign-management-orchestration/buying-group-based-marketing.md) | キャンペーンの管理とオーケストレーション | リードを購入グループに選定し、複数の関係者が育成するパイプラインを加速するための調整を行います |

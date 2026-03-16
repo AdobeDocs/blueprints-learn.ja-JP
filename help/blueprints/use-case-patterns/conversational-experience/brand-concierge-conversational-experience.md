@@ -116,11 +116,11 @@ ht-degree: 0%
 
 | 基本関数 | ステータス | 設定する必要があること | Experience League リファレンス |
 | --- | --- | --- | --- |
-| 管理とガバナンス | 必須 | [!DNL Brand Concierge] の使用権限が有効な状態でプロビジョニングされたサンドボックス。対話型エクスペリエンス管理者、コンテンツマネージャーおよび分析ユーザー用に設定された役割。PII または機密性の高い顧客シグナルを含む対話型データ用に設定された ABAC ポリシー | [ アクセス制御の概要 ](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/home) |
-| データモデリングと準備 | 必須 | 対話型イベント用の XDM スキーマ（インテント、センチメント、商品インタラクション、ハンドオフイベントをキャプチャする会話固有のフィールドグループを含む ExperienceEvent クラス）、対話型の環境設定とインテント属性で拡張されたプロファイルスキーマ、推奨事項を考慮した商品カタログ検索スキーマ | [XDM システムの概要 ](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/home) |
+| 管理とガバナンス | 必須 | [!DNL Brand Concierge] の使用権限が有効な状態でプロビジョニングされたサンドボックス。対話型エクスペリエンス管理者、コンテンツマネージャーおよび分析ユーザー用に設定された役割。PII または機密性の高い顧客シグナルを含む対話型データ用に設定された ABAC ポリシー | [&#x200B; アクセス制御の概要 &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/home) |
+| データモデリングと準備 | 必須 | 対話型イベント用の XDM スキーマ（インテント、センチメント、商品インタラクション、ハンドオフイベントをキャプチャする会話固有のフィールドグループを含む ExperienceEvent クラス）、対話型の環境設定とインテント属性で拡張されたプロファイルスキーマ、推奨事項を考慮した商品カタログ検索スキーマ | [XDM システムの概要 &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/home) |
 | データソースとコレクション | 必須 | データストリームで設定された [!DNL Web SDK] または [!DNL Mobile SDK] は、AEP データセットへの会話型イベントデータのルーティング、会話中のリアルタイムのイベント取得のための [!DNL Edge Network] 統合、ソースコネクタまたはバッチ取り込みを介して取り込まれた商品カタログデータのルーティング | [Web SDK の概要](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/home) |
-| ID とプロファイル設定 | 必須 | 訪問者の識別用に設定された ID 名前空間（匿名の場合は ECID、認証済みの場合は CRM ID またはメール）、会話中にリアルタイムにプロファイルを参照するためのエッジアクティベーションで設定された結合ポリシー、クロスデバイスでの会話継続性のための ID リンクルール | [ID サービスの概要 ](https://experienceleague.adobe.com/en/docs/experience-platform/identity/home) |
-| オーディエンスの定義とセグメント化 | 所定の位置に想定 | コアな会話のデプロイメントには必要ないが、パーソナライズされた会話戦略には必要なオーディエンス （例：価値の高い顧客セグメントは様々な会話フローを受け取る）、リアルタイムの会話のパーソナライゼーションにはストリーミングやエッジの評価を推奨 | [ セグメント化サービスの概要 ](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/home) |
+| ID とプロファイル設定 | 必須 | 訪問者の識別用に設定された ID 名前空間（匿名の場合は ECID、認証済みの場合は CRM ID またはメール）、会話中にリアルタイムにプロファイルを参照するためのエッジアクティベーションで設定された結合ポリシー、クロスデバイスでの会話継続性のための ID リンクルール | [ID サービスの概要 &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/identity/home) |
+| オーディエンスの定義とセグメント化 | 所定の位置に想定 | コアな会話のデプロイメントには必要ないが、パーソナライズされた会話戦略には必要なオーディエンス （例：価値の高い顧客セグメントは様々な会話フローを受け取る）、リアルタイムの会話のパーソナライゼーションにはストリーミングやエッジの評価を推奨 | [&#x200B; セグメント化サービスの概要 &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/home) |
 
 ## サポート関数
 
@@ -128,11 +128,11 @@ ht-degree: 0%
 
 | サポート機能 | ステータス | これが重要な理由 | Experience League リファレンス |
 | --- | --- | --- | --- |
-| 計算/派生属性の作成 | 推奨 | ダウンストリームのセグメント化とパーソナライゼーションに使用するために、会話信号をプロファイルレベルの属性（会話数の合計、主要な商品の興味、平均センチメントスコアなど）に集計する | [ 計算済み属性の概要 ](https://experienceleague.adobe.com/en/docs/experience-platform/profile/computed-attributes/overview) |
-| データ・ライフサイクル管理 | 推奨 | 会話型イベントデータの保持ポリシーを設定し、会話記録およびプロファイルに対する同意を管理し、会話記録のプライバシー削除要求をサポートします | [Advanced Data Lifecycle Management の概要 ](https://experienceleague.adobe.com/en/docs/experience-platform/data-lifecycle/home) |
-| データ使用のラベル付けと適用 | 推奨 | PII、センチメント、またはインテントシグナルを含む対話型データフィールドにラベルを付けます。ガバナンスポリシーを適用して、機密性の高い対話型データが許可されていない宛先に到達するのを防ぎます。 | [ データガバナンスの概要 ](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/home) |
-| 監視と監視 | 推奨 | 会話型イベント取得パイプラインを監視し、プロファイルエンリッチメントの成功率を追跡し、会話のパーソナライゼーションの品質に影響を与える可能性のあるデータフローの失敗に関するアラートを生成します | [Observability Insights の概要 ](https://experienceleague.adobe.com/en/docs/experience-platform/observability/home) |
-| レポートと分析 | Included | クロスチャネルでの会話の影響分析に対する組み込みの分析と [!DNL CJA] を使用して、会話のパフォーマンス、顧客のフィードバック、コンバージョンアトリビューション、エージェントの有効性 [!DNL Brand Concierge] 分析します | [CJAの概要 ](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-overview) |
+| 計算/派生属性の作成 | 推奨 | ダウンストリームのセグメント化とパーソナライゼーションに使用するために、会話信号をプロファイルレベルの属性（会話数の合計、主要な商品の興味、平均センチメントスコアなど）に集計する | [&#x200B; 計算済み属性の概要 &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/profile/computed-attributes/overview) |
+| データ・ライフサイクル管理 | 推奨 | 会話型イベントデータの保持ポリシーを設定し、会話記録およびプロファイルに対する同意を管理し、会話記録のプライバシー削除要求をサポートします | [Advanced Data Lifecycle Management の概要 &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/data-lifecycle/home) |
+| データ使用のラベル付けと適用 | 推奨 | PII、センチメント、またはインテントシグナルを含む対話型データフィールドにラベルを付けます。ガバナンスポリシーを適用して、機密性の高い対話型データが許可されていない宛先に到達するのを防ぎます。 | [&#x200B; データガバナンスの概要 &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/home) |
+| 監視と監視 | 推奨 | 会話型イベント取得パイプラインを監視し、プロファイルエンリッチメントの成功率を追跡し、会話のパーソナライゼーションの品質に影響を与える可能性のあるデータフローの失敗に関するアラートを生成します | [Observability Insights の概要 &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/observability/home) |
+| レポートと分析 | Included | クロスチャネルでの会話の影響分析に対する組み込みの分析と [!DNL CJA] を使用して、会話のパフォーマンス、顧客のフィードバック、コンバージョンアトリビューション、エージェントの有効性 [!DNL Brand Concierge] 分析します | [CJAの概要 &#x200B;](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-overview) |
 
 ## アプリケーション関数
 
@@ -612,11 +612,11 @@ Site Advisory の専門化を有効にして、サイトコンテンツインデ
 ### ガードレールと制限
 
 - [!DNL Brand Concierge] の会話型エクスペリエンスには、AI 応答生成レートの制限が適用されます。同時会話処理能力は、使用権限層に応じて異なります
-- 会話中のリアルタイムのプロファイルルックアップは、サンドボックスごとのプロファイル API レート制限 [ リアルタイム顧客プロファイルガードレール ](https://experienceleague.adobe.com/en/docs/experience-platform/profile/guardrails) の対象となります
-- 会話イベントデータの取り込みは、標準のAEP ストリーミング取り込み制限 [ 取り込みガードレール ](https://experienceleague.adobe.com/en/docs/experience-platform/ingestion/guardrails) に従います
+- 会話中のリアルタイムのプロファイルルックアップは、サンドボックスごとのプロファイル API レート制限 [&#x200B; リアルタイム顧客プロファイルガードレール &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/profile/guardrails) の対象となります
+- 会話イベントデータの取り込みは、標準のAEP ストリーミング取り込み制限 [&#x200B; 取り込みガードレール &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/ingestion/guardrails) に従います
 - 製品カタログのサイズとコンテンツインデックスの量は、[!DNL Brand Concierge] のコンテンツ統合制限の対象です
-- サンドボックスあたり最大 25 個の計算済み属性が、会話型シグナルの集計 [ 計算済み属性ガードレール ](https://experienceleague.adobe.com/en/docs/experience-platform/profile/computed-attributes/overview) に適用されます。
-- 会話オーディエンス（[ セグメント化ガードレール ](https://experienceleague.adobe.com/en/docs/experience-platform/profile/guardrails) には、サンドボックスあたり最大 4,000 個のセグメント定義が適用されます
+- サンドボックスあたり最大 25 個の計算済み属性が、会話型シグナルの集計 [&#x200B; 計算済み属性ガードレール &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/profile/computed-attributes/overview) に適用されます。
+- 会話オーディエンス（[&#x200B; セグメント化ガードレール &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/profile/guardrails) には、サンドボックスあたり最大 4,000 個のセグメント定義が適用されます
 
 ### よくある落とし穴
 

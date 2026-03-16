@@ -30,8 +30,8 @@ ht-degree: 3%
 
 | パターン | カテゴリ | この目的をサポートする方法 |
 | --- | --- | --- |
-| [ 宛先へのAudience Activation](/help/blueprints/use-case-patterns/audience-building-activation/audience-activation-to-destinations.md) | オーディエンスの構築とアクティベーション | 類似の拡張およびターゲット設定された獲得キャンペーン向けに、価値の高いシードオーディエンスを広告プラットフォームに公開します |
+| [&#x200B; 宛先へのAudience Activation](/help/blueprints/use-case-patterns/audience-building-activation/audience-activation-to-destinations.md) | オーディエンスの構築とアクティベーション | 類似の拡張およびターゲット設定された獲得キャンペーン向けに、価値の高いシードオーディエンスを広告プラットフォームに公開します |
 | [Segment Match を使用した Audience Collaboration](/help/blueprints/use-case-patterns/audience-building-activation/audience-collaboration-segment-match.md) | オーディエンスの構築とアクティベーション | 組織間でのオーディエンス共有を可能にし、獲得プログラムのリーチを拡大 |
 | [B2B Audience アクティベーション](/help/blueprints/use-case-patterns/audience-building-activation/b2b-audience-activation.md) | オーディエンスの構築とアクティベーション | B2B 顧客獲得の広告およびアウトリーチチャネルに対するアカウントベースのオーディエンスをアクティブ化します |
-| [ 匿名訪問者の Web Personalization](/help/blueprints/use-case-patterns/personalization/anonymous-visitor-web-personalization.md) | パーソナライズ機能 | 不明な訪問者の web エクスペリエンスをパーソナライズして、新しい見込み客のコンバージョンを高めます |
-| [Brand Conciergeの会話体験 ](/help/blueprints/use-case-patterns/conversational-experience/brand-concierge-conversational-experience.md) | 会話経験 | AI を活用した会話型ディスカバリーで新規訪問者をガイドし、初回購入を迅速化 |
+| [&#x200B; 匿名訪問者の Web Personalization](/help/blueprints/use-case-patterns/personalization/anonymous-visitor-web-personalization.md) | パーソナライズ機能 | 不明な訪問者の web エクスペリエンスをパーソナライズして、新しい見込み客のコンバージョンを高めます |
+| [Brand Conciergeの会話体験 &#x200B;](/help/blueprints/use-case-patterns/conversational-experience/brand-concierge-conversational-experience.md) | 会話経験 | AI を活用した会話型ディスカバリーで新規訪問者をガイドし、初回購入を迅速化 |

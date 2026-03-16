@@ -29,4 +29,4 @@ ht-degree: 3%
 
 | パターン | カテゴリ | この目的をサポートする方法 |
 | --- | --- | --- |
-| [Customer Analytics &amp; Insightのジェネレーション ](/help/blueprints/use-case-patterns/analysis/customer-analytics-insight-generation.md) | 分析 | キャンペーンの影響を測定するためのクロスチャネルタッチポイントデータを使用してアトリビューション分析ワークスペースを構築 |
+| [Customer Analytics &amp; Insightのジェネレーション &#x200B;](/help/blueprints/use-case-patterns/analysis/customer-analytics-insight-generation.md) | 分析 | キャンペーンの影響を測定するためのクロスチャネルタッチポイントデータを使用してアトリビューション分析ワークスペースを構築 |

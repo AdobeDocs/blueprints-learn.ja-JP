@@ -30,5 +30,5 @@ ht-degree: 2%
 
 | パターン | カテゴリ | この目的をサポートする方法 |
 | --- | --- | --- |
-| [ 宛先へのAudience Activation](/help/blueprints/use-case-patterns/audience-building-activation/audience-activation-to-destinations.md) | オーディエンスの構築とアクティベーション | 獲得キャンペーンから既存の顧客を抑制し、精度の高いターゲットオーディエンスを公開して、無駄な広告費用を削減します |
+| [&#x200B; 宛先へのAudience Activation](/help/blueprints/use-case-patterns/audience-building-activation/audience-activation-to-destinations.md) | オーディエンスの構築とアクティベーション | 獲得キャンペーンから既存の顧客を抑制し、精度の高いターゲットオーディエンスを公開して、無駄な広告費用を削減します |
 | [Segment Match を使用した Audience Collaboration](/help/blueprints/use-case-patterns/audience-building-activation/audience-collaboration-segment-match.md) | オーディエンスの構築とアクティベーション | オーディエンスの重複分析と共有を有効にして、組織全体でのターゲティング効率を向上 |

@@ -34,7 +34,7 @@ ht-degree: 1%
 
 - **KPI:** 効率、生産性
 
-このビジネス目標について詳しくは、[ 分析とレポートの改善 ](/help/blueprints/business-objectives/analytics-insights/improve-analytics-reporting.md) を参照してください。
+このビジネス目標について詳しくは、[&#x200B; 分析とレポートの改善 &#x200B;](/help/blueprints/business-objectives/analytics-insights/improve-analytics-reporting.md) を参照してください。
 
 **データに基づく意思決定の有効化**
 
@@ -42,7 +42,7 @@ ht-degree: 1%
 
 - **KPI:** 効率、生産性
 
-このビジネス目標について詳しくは、[ データ駆動型意思決定の有効化 ](/help/blueprints/business-objectives/analytics-insights/enable-data-driven-decision-making.md) を参照してください。
+このビジネス目標について詳しくは、[&#x200B; データ駆動型意思決定の有効化 &#x200B;](/help/blueprints/business-objectives/analytics-insights/enable-data-driven-decision-making.md) を参照してください。
 
 **マーケティングアトリビューションの改善**
 
@@ -50,7 +50,7 @@ ht-degree: 1%
 
 - **KPI:** 効率、増分収益
 
-このビジネス目標について詳しくは、[ マーケティングアトリビューションの改善 ](/help/blueprints/business-objectives/analytics-insights/improve-marketing-attribution.md) を参照してください。
+このビジネス目標について詳しくは、[&#x200B; マーケティングアトリビューションの改善 &#x200B;](/help/blueprints/business-objectives/analytics-insights/improve-marketing-attribution.md) を参照してください。
 
 **マーケティング費用と ROI の最適化**
 
@@ -58,7 +58,7 @@ ht-degree: 1%
 
 - **KPI:** 効率、増分収益
 
-このビジネス目標について詳しくは、[ マーケティング費用と ROI の最適化 ](/help/blueprints/business-objectives/cost-efficiency/optimize-marketing-spend-roi.md) を参照してください。
+このビジネス目標について詳しくは、[&#x200B; マーケティング費用と ROI の最適化 &#x200B;](/help/blueprints/business-objectives/cost-efficiency/optimize-marketing-spend-roi.md) を参照してください。
 
 ## 戦術的な使用例
 
@@ -95,7 +95,7 @@ ht-degree: 1%
 
 **関数チェーン：** データ接続/ データビューの設定/ Workspace分析/計算指標の作成/ ダッシュボードの公開
 
-構成ガイダンスについては、[ 実装オプション ](#implementation-options) の節を参照してください。
+構成ガイダンスについては、[&#x200B; 実装オプション &#x200B;](#implementation-options) の節を参照してください。
 
 ## アプリケーション
 
@@ -110,11 +110,11 @@ ht-degree: 1%
 
 | 基本関数 | ステータス | 設定する必要があること | Experience League リファレンス |
 | --- | --- | --- | --- |
-| 管理とガバナンス | 所定の位置に想定 | workspace の作成およびデータビューへのアクセス権限をプロビジョニングされたCJA製品プロファイル。 CJA接続にアクセスできるAEP データセット。 ユーザーは適切なCJAの役割に割り当てられています。 | [ アクセス制御の概要 ](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/home) |
-| データモデリングと準備 | 必須 | CJAに接続される XDM スキーマおよびデータセットがAEPに存在する必要があります。 スキーマ設計は、CJAのデータビューで使用できるディメンションと指標に直接影響します。 イベントスキーマにはタイムスタンプフィールドが必要で、ルックアップスキーマにはキーフィールドが必要です。 | [XDM システムの概要 ](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/home) |
-| データソースとコレクション | 必須 | データはAEP データセット（Web SDKを使用した web イベント、モバイル SDKを使用したアプリイベント、AJO キャンペーンイベント、ソースコネクタを使用した CRM データ）に送られる必要があります。 分析の充実度は、収集されたデータの幅によって異なります。 | [ ソースの概要 ](https://experienceleague.adobe.com/en/docs/experience-platform/sources/home) |
-| ID とプロファイル設定 | 必須 | CJA接続の人物 ID 設定によって、データセット間でイベントを結び付ける方法が決まります。 AEPでのクロスデバイス ID の組み合わせにより、CJAの機能が向上し、完全なカスタマージャーニーを構築できます。 ID 名前空間は人物 ID フィールドに設定する必要があります。 | [ID サービスの概要 ](https://experienceleague.adobe.com/en/docs/experience-platform/identity/home) |
-| オーディエンスの定義とセグメント化 | 該当なし | CJAは、analysis context 内に独自のフィルターとオーディエンスを構築します。 RT-CDP オーディエンスは前提条件ではありませんが、CJAでは、オーディエンスの公開（オプション C）を通じてオーディエンスをAEPに公開することができます。 | [ セグメント化サービスの概要 ](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/home) |
+| 管理とガバナンス | 所定の位置に想定 | workspace の作成およびデータビューへのアクセス権限をプロビジョニングされたCJA製品プロファイル。 CJA接続にアクセスできるAEP データセット。 ユーザーは適切なCJAの役割に割り当てられています。 | [&#x200B; アクセス制御の概要 &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/home) |
+| データモデリングと準備 | 必須 | CJAに接続される XDM スキーマおよびデータセットがAEPに存在する必要があります。 スキーマ設計は、CJAのデータビューで使用できるディメンションと指標に直接影響します。 イベントスキーマにはタイムスタンプフィールドが必要で、ルックアップスキーマにはキーフィールドが必要です。 | [XDM システムの概要 &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/home) |
+| データソースとコレクション | 必須 | データはAEP データセット（Web SDKを使用した web イベント、モバイル SDKを使用したアプリイベント、AJO キャンペーンイベント、ソースコネクタを使用した CRM データ）に送られる必要があります。 分析の充実度は、収集されたデータの幅によって異なります。 | [&#x200B; ソースの概要 &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/sources/home) |
+| ID とプロファイル設定 | 必須 | CJA接続の人物 ID 設定によって、データセット間でイベントを結び付ける方法が決まります。 AEPでのクロスデバイス ID の組み合わせにより、CJAの機能が向上し、完全なカスタマージャーニーを構築できます。 ID 名前空間は人物 ID フィールドに設定する必要があります。 | [ID サービスの概要 &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/identity/home) |
+| オーディエンスの定義とセグメント化 | 該当なし | CJAは、analysis context 内に独自のフィルターとオーディエンスを構築します。 RT-CDP オーディエンスは前提条件ではありませんが、CJAでは、オーディエンスの公開（オプション C）を通じてオーディエンスをAEPに公開することができます。 | [&#x200B; セグメント化サービスの概要 &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/home) |
 
 ## サポート関数
 
@@ -122,11 +122,11 @@ ht-degree: 1%
 
 | サポート機能 | ステータス | これが重要な理由 | Experience League リファレンス |
 | --- | --- | --- | --- |
-| 計算/派生属性の作成 | 推奨 | AEPの計算済み属性を使用すると、CJAに接続されたデータセットを強化し、分析に使用する追加のディメンションと指標（ライフタイム購入数、前回のアクティビティからの日数など）を提供できます。 これらのプロファイルレベルの集計は、CJA データビューでディメンションとして使用できるようになります。 | [ 計算済み属性の概要 ](https://experienceleague.adobe.com/en/docs/experience-platform/profile/computed-attributes/overview) |
-| データ・ライフサイクル管理 | 推奨 | データセット保持ポリシーは、CJAで使用できる履歴データに影響します。 通常、分析では、前年比の比較や長期的なトレンド分析を可能にするために、長期保存が望まれます。 データセット TTL を設定して、十分な履歴深度を確保します。 | [Advanced Data Lifecycle Management の概要 ](https://experienceleague.adobe.com/en/docs/experience-platform/data-lifecycle/home) |
-| データ使用のラベル付けと適用 | 推奨 | 機密フィールドのガバナンスラベルによって、CJA データビューで表示される内容が制限される場合があります。 PII または機密データがCJA接続に含まれている場合、データガバナンスラベルは準拠したアクセスを保証し、共有ダッシュボードでの不正な漏洩を防ぎます。 | [ データガバナンスの概要 ](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/home) |
-| 監視と監視 | 推奨 | CJA接続の正常性とデータの鮮度は監視する必要があります。 ソースデータフローのエラーと取り込みの問題に関するアラートを設定して、データフィードのCJAが信頼性が高く最新であることを確認します。 | [Observability Insights の概要 ](https://experienceleague.adobe.com/en/docs/experience-platform/observability/home) |
-| レポートと分析 | Included | これは、Reporting and Analysis の実装です。 別のパターンの参照計画に S5 が含まれる場合、analytics 実装には、この customer analytics とinsight生成計画を使用します。 | [CJAの概要 ](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-overview) |
+| 計算/派生属性の作成 | 推奨 | AEPの計算済み属性を使用すると、CJAに接続されたデータセットを強化し、分析に使用する追加のディメンションと指標（ライフタイム購入数、前回のアクティビティからの日数など）を提供できます。 これらのプロファイルレベルの集計は、CJA データビューでディメンションとして使用できるようになります。 | [&#x200B; 計算済み属性の概要 &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/profile/computed-attributes/overview) |
+| データ・ライフサイクル管理 | 推奨 | データセット保持ポリシーは、CJAで使用できる履歴データに影響します。 通常、分析では、前年比の比較や長期的なトレンド分析を可能にするために、長期保存が望まれます。 データセット TTL を設定して、十分な履歴深度を確保します。 | [Advanced Data Lifecycle Management の概要 &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/data-lifecycle/home) |
+| データ使用のラベル付けと適用 | 推奨 | 機密フィールドのガバナンスラベルによって、CJA データビューで表示される内容が制限される場合があります。 PII または機密データがCJA接続に含まれている場合、データガバナンスラベルは準拠したアクセスを保証し、共有ダッシュボードでの不正な漏洩を防ぎます。 | [&#x200B; データガバナンスの概要 &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/home) |
+| 監視と監視 | 推奨 | CJA接続の正常性とデータの鮮度は監視する必要があります。 ソースデータフローのエラーと取り込みの問題に関するアラートを設定して、データフィードのCJAが信頼性が高く最新であることを確認します。 | [Observability Insights の概要 &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/observability/home) |
+| レポートと分析 | Included | これは、Reporting and Analysis の実装です。 別のパターンの参照計画に S5 が含まれる場合、analytics 実装には、この customer analytics とinsight生成計画を使用します。 | [CJAの概要 &#x200B;](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-overview) |
 
 ## アプリケーション関数
 
@@ -784,7 +784,7 @@ ht-degree: 1%
 
 この実装には、次のガードレールと制限が適用されます。
 
-- **接続の制限：** 組織あたりの最大接続数は、CJA SKU の使用権限によって制限されます。 1 つの接続には、1 つのAEP サンドボックスからのデータセットのみを含めることができます。 — [CJA ガードレール ](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-admin/guardrails)
+- **接続の制限：** 組織あたりの最大接続数は、CJA SKU の使用権限によって制限されます。 1 つの接続には、1 つのAEP サンドボックスからのデータセットのみを含めることができます。 — [CJA ガードレール &#x200B;](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-admin/guardrails)
 - **データビューの制限：** データビューあたり最大 5,000 個のディメンションと 5,000 個の指標。 最大 5 レベルのネストされた関数を含む、データビューあたり最大 100 個の派生フィールド。
 - **Workspaceの制限：** プロジェクトあたり最大 40 個のパネル。 フリーフォームテーブルでは、最大 10 個のディメンション分類をサポートしています。 レポートリクエストあたり最大 50,000 行。
 - **スコアカードの制限：** モバイルスコアカード 1 つにつき最大 16 個のタイル。
