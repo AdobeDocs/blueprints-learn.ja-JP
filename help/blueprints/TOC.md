@@ -1,14 +1,14 @@
 ---
-user-guide-title: Customer Experience Orchestration ブループリント
-breadcrumb-title: 設計図
-user-guide-description: ブループリントは、既存のビジネス上の問題に対処するための反復可能な実装で、アーキテクチャ図、技術上の考慮事項および関連ドキュメントリンクが含まれます。
+user-guide-title: Customer Experience Orchestration のビジネス目標、ユースケース、アーキテクチャ図およびブループリント
+breadcrumb-title: ユースケースとブループリント
+user-guide-description: Adobe Experience Platformとアプリケーションの主なビジネス目標、ユースケースパターン、業界のユースケースについて説明します。 ビジュアルアーキテクチャの図とブループリントは、システム統合、データフロー、ソリューション設計のテクニカルリファレンスを提供し、ビジネス価値を実装に結び付けます。
 product: adobe experience platform
 mini-toc-levels: 3
 role: Developer, User
-source-git-commit: 021e6b48e09ce2d3da80ffe7ca1b7f4ce4a4a3a4
+source-git-commit: 6bf36e8e5d797eef5b2dfe86e4e75d36b0c026d4
 workflow-type: tm+mt
-source-wordcount: '447'
-ht-degree: 17%
+source-wordcount: '474'
+ht-degree: 12%
 
 ---
 
@@ -132,7 +132,7 @@ ht-degree: 17%
          + [Journey Optimizer と Adobe Campaign v8](/help/blueprints/customer-journeys/campaign-v8/ajo-and-campaign-v8.md)
       + 非推奨のブループリント{#deprecated-blueprints}
          + Campaign Standard{#campaign-standard}
-            + [[!DNL Campaign Standard]](https://experienceleague.adobe.com/ja/docs/campaign-standard){target="_blank"}
-            + [AdobeのReal-Time CDP [!DNL Campaign Standard]](https://experienceleague.adobe.com/ja/docs/campaign-standard/using/integrating-with-adobe-cloud/adobe-experience-platform/get-started-sources-destinations)
+            + [[!DNL Campaign Standard]](https://experienceleague.adobe.com/en/docs/campaign-standard){target="_blank"}
+            + [AdobeのReal-Time CDP [!DNL Campaign Standard]](https://experienceleague.adobe.com/en/docs/campaign-standard/using/integrating-with-adobe-cloud/adobe-experience-platform/get-started-sources-destinations)
          + Campaign v7{#campaign-v7}
             + [Campaign v7](/help/blueprints/customer-journeys/campaign-v7/campaign-v7-overview.md)

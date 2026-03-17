@@ -1,20 +1,84 @@
 ---
-title: Customer Experience Orchestration ブループリント
-description: カスタマーエクスペリエンスオーケストレーションブループリントは、戦略に取り組み、確立されたビジネス上の問題を解決するための反復可能な実装です。 価値実現までの時間を短縮し、成功への近道となります。
+title: Customer Experience Orchestration のユースケース、アーキテクチャ図、ブループリント
+description: Adobe Experience Platformとアプリケーションの主なビジネス目標、ユースケースのパターン、業界のユースケースを確認します。 ビジュアルアーキテクチャの図とブループリントは、システム統合、データフロー、ソリューション設計のテクニカルリファレンスを提供し、ビジネス価値を実装に結び付けます。
 doc-type: overview-page
 exl-id: 52898310-9723-4ec2-ba10-f45fefe29e93
-source-git-commit: cf76bfcb0a6d3f2a23f42494f3944934954cac89
+source-git-commit: cb112d3fe3c6a95437de69815efb50492c9bf13b
 workflow-type: tm+mt
-source-wordcount: '168'
-ht-degree: 9%
+source-wordcount: '322'
+ht-degree: 2%
 
 ---
 
 # Customer Experience Orchestration ブループリント
 
-カスタマーエクスペリエンスオーケストレーション（以前の _デジタルエクスペリエンス_）ブループリントでは、システムとデータフローアーキテクチャ図を提供して、Adobe Experience Platformとアプリケーションがどのように統合および実装されているかをより深く理解できるようにします。 ブループリントは、システム間およびコンポーネントのデータとコンテンツのフロー、操作のシーケンス、依存関係を視覚的に表現し、Adobe Experience Platformとアプリケーションのユースケースの設計とアーキテクチャに役立ちます。
+このサイトには **主要なビジネス目標** が含まれています。この目標は、Adobe Experience Platformおよびアプリケーションで実現できる主要なビジネス価値および目標の例を示しています。**ユースケースパターン** 繰り返し可能な実装アプローチを使用した、プラットフォームとアプリケーションの一般的な機能の説明。**業界の使用例** 垂直固有のビジネスシナリオにパターンを適用します。**アーキテクチャ図とブループリントは** システム統合ポイント、データとコンテンツのフロー、操作のシーケンスを示す視覚的なアーキテクチャ図とデータフロー参照図で、ソリューション設計の技術的なリファレンスを提供します。 これらのレイヤーを組み合わせることで、ビジネス価値が実装の依存関係やアーキテクチャに結び付けられます。
 
-## 人気のブループリント
+## 主なビジネス目標
+
+組織がデジタルエクスペリエンスイニシアチブを通じて達成しようとする戦略的成果。 各目標は、Adobe Experience Platformとアプリケーションの実装方法を説明するユースケースパターンにマッピングされます。
+
+<table>
+<tr>
+  <td><a href="business-objectives/overview.md#acquisition--growth"><strong>獲得と成長</strong></a></td>
+  <td><a href="business-objectives/overview.md#revenue--monetization"><strong>収益と収益化</strong></a></td>
+  <td><a href="business-objectives/overview.md#cost--efficiency"><strong>コストと効率</strong></a></td>
+</tr>
+<tr>
+  <td><a href="business-objectives/overview.md#customer-experience"><strong>顧客体験</strong></a></td>
+  <td><a href="business-objectives/overview.md#analytics--insights"><strong>分析とインサイト</strong></a></td>
+  <td><a href="business-objectives/overview.md#qualification--sales-b2b"><strong>選定およびセールス（B2B）</strong></a></td>
+</tr>
+</table>
+
+[すべてのビジネス目標を表示](business-objectives/overview.md)
+
+## ユースケースパターン
+
+特定の機能、その機能を実現するファンクションチェーン、関連するアプリケーションを説明する、繰り返し可能な実装アプローチ。
+
+<table>
+<tr>
+  <td><a href="use-case-patterns/overview.md#audience-building--activation"><strong>オーディエンスの構築とアクティベーション</strong></a></td>
+  <td><a href="use-case-patterns/overview.md#personalization"><strong>パーソナライズ機能</strong></a></td>
+  <td><a href="use-case-patterns/overview.md#campaign-management--orchestration"><strong>キャンペーンの管理とオーケストレーション</strong></a></td>
+</tr>
+<tr>
+  <td><a href="use-case-patterns/overview.md#analysis"><strong>分析</strong></a></td>
+  <td><a href="use-case-patterns/overview.md#conversational-experience"><strong>会話経験</strong></a></td>
+  <td></td>
+</tr>
+</table>
+
+[すべてのユースケースパターンの表示](use-case-patterns/overview.md)
+
+## 業界別に調査
+
+特定の業界に合わせてカスタマイズされたユースケースで、実装パターンやビジネス目標にマッピングするもの。
+
+<table>
+<tr>
+  <td><a href="industry-use-cases/retail/retail-overview.md"><strong>小売</strong></a></td>
+  <td><a href="industry-use-cases/financial-services/financial-services-overview.md"><strong>金融サービス</strong></a></td>
+  <td><a href="industry-use-cases/healthcare/healthcare-overview.md"><strong>ヘルスケア</strong></a></td>
+</tr>
+<tr>
+  <td><a href="industry-use-cases/automotive/automotive-overview.md"><strong>自動車用</strong></a></td>
+  <td><a href="industry-use-cases/travel-hospitality/travel-hospitality-overview.md"><strong>旅行およびホスピタリティ</strong></a></td>
+  <td><a href="industry-use-cases/telecommunications/telecommunications-overview.md"><strong>通信</strong></a></td>
+</tr>
+<tr>
+  <td><a href="industry-use-cases/media-entertainment/media-entertainment-overview.md"><strong>メディアとエンターテイメント</strong></a></td>
+  <td><a href="industry-use-cases/insurance/insurance-overview.md"><strong>保険</strong></a></td>
+  <td><a href="industry-use-cases/b2b/b2b-overview.md"><strong>B2B</strong></a></td>
+</tr>
+</table>
+
+[業界のすべてのユースケースを表示](industry-use-cases/overview.md)
+
+## アーキテクチャ図とブループリント
+
+Adobe Experience Platformとアプリケーションのシステム統合ポイント、データとコンテンツのフロー、および操作のシーケンスを示したビジュアルアーキテクチャとデータフローのリファレンス図です。
 
 <table>
 <tr>
@@ -50,27 +114,3 @@ ht-degree: 9%
   </td>
 </tr>
 </table>
-
-## 業界別に調査
-
-それぞれの実装パターンやビジネス目標に合わせて、業界に合わせたユースケースを見つけることができます。
-
-<table>
-<tr>
-  <td><a href="industry-use-cases/retail/retail-overview.md"><strong>小売</strong></a></td>
-  <td><a href="industry-use-cases/financial-services/financial-services-overview.md"><strong>金融サービス</strong></a></td>
-  <td><a href="industry-use-cases/healthcare/healthcare-overview.md"><strong>ヘルスケア</strong></a></td>
-</tr>
-<tr>
-  <td><a href="industry-use-cases/automotive/automotive-overview.md"><strong>自動車用</strong></a></td>
-  <td><a href="industry-use-cases/travel-hospitality/travel-hospitality-overview.md"><strong>旅行およびホスピタリティ</strong></a></td>
-  <td><a href="industry-use-cases/telecommunications/telecommunications-overview.md"><strong>通信</strong></a></td>
-</tr>
-<tr>
-  <td><a href="industry-use-cases/media-entertainment/media-entertainment-overview.md"><strong>メディアとエンターテイメント</strong></a></td>
-  <td><a href="industry-use-cases/insurance/insurance-overview.md"><strong>保険</strong></a></td>
-  <td><a href="industry-use-cases/b2b/b2b-overview.md"><strong>B2B</strong></a></td>
-</tr>
-</table>
-
-[業界のすべてのユースケースを表示](industry-use-cases/overview.md)
