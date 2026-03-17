@@ -5,9 +5,9 @@ user-guide-description: Adobe Experience Platformとアプリケーションの�
 product: adobe experience platform
 mini-toc-levels: 3
 role: Developer, User
-source-git-commit: 6bf36e8e5d797eef5b2dfe86e4e75d36b0c026d4
+source-git-commit: 8ad59ff130dae13553f10049eb685cf557a73ead
 workflow-type: tm+mt
-source-wordcount: '474'
+source-wordcount: '477'
 ht-degree: 12%
 
 ---
@@ -69,6 +69,7 @@ ht-degree: 12%
       + [Brand Concierge会話体験](/help/blueprints/use-case-patterns/conversational-experience/brand-concierge-conversational-experience.md)
 + 業界の使用例{#industry-use-cases}
    + [概要](/help/blueprints/industry-use-cases/overview.md)
+   + [ユースケースカタログ](/help/blueprints/industry-use-cases/use-case-catalog.md)
    + [自動車用](/help/blueprints/industry-use-cases/automotive/automotive-overview.md)
    + [B2B](/help/blueprints/industry-use-cases/b2b/b2b-overview.md)
    + [金融サービス](/help/blueprints/industry-use-cases/financial-services/financial-services-overview.md)
@@ -132,7 +133,7 @@ ht-degree: 12%
          + [Journey Optimizer と Adobe Campaign v8](/help/blueprints/customer-journeys/campaign-v8/ajo-and-campaign-v8.md)
       + 非推奨のブループリント{#deprecated-blueprints}
          + Campaign Standard{#campaign-standard}
-            + [[!DNL Campaign Standard]](https://experienceleague.adobe.com/ja/docs/campaign-standard){target="_blank"}
-            + [AdobeのReal-Time CDP [!DNL Campaign Standard]](https://experienceleague.adobe.com/ja/docs/campaign-standard/using/integrating-with-adobe-cloud/adobe-experience-platform/get-started-sources-destinations)
+            + [[!DNL Campaign Standard]](https://experienceleague.adobe.com/en/docs/campaign-standard){target="_blank"}
+            + [AdobeのReal-Time CDP [!DNL Campaign Standard]](https://experienceleague.adobe.com/en/docs/campaign-standard/using/integrating-with-adobe-cloud/adobe-experience-platform/get-started-sources-destinations)
          + Campaign v7{#campaign-v7}
             + [Campaign v7](/help/blueprints/customer-journeys/campaign-v7/campaign-v7-overview.md)
