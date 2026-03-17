@@ -3,7 +3,7 @@ title: Customer Experience Orchestration のユースケース、アーキテク
 description: Adobe Experience Platformとアプリケーションの主なビジネス目標、ユースケースのパターン、業界のユースケースを確認します。 ビジュアルアーキテクチャの図とブループリントは、システム統合、データフロー、ソリューション設計のテクニカルリファレンスを提供し、ビジネス価値を実装に結び付けます。
 doc-type: overview-page
 exl-id: 52898310-9723-4ec2-ba10-f45fefe29e93
-source-git-commit: 62c69ab5ba773172b5b3b55a6c3766c58331135c
+source-git-commit: 63154ca158b773287f0d1a7f88a81ac3181c43a0
 workflow-type: tm+mt
 source-wordcount: '328'
 ht-degree: 2%
@@ -74,7 +74,7 @@ ht-degree: 2%
 </tr>
 </table>
 
-[業界のすべてのユースケースを表示](industry-use-cases/overview.md)
+[業界のすべてのユースケースを表示](industry-use-cases/use-case-catalog.md)
 
 ## アーキテクチャ図とブループリント
 
