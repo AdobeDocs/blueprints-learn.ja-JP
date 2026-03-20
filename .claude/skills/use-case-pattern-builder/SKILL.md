@@ -157,7 +157,7 @@ ht-degree: 0%
 
 5. **Frontmatter の完全性** - パターンファイルには、タイトル、説明、ソリューションおよび exl-id が YAML frontmatter に含まれています。
 
-6. **Experience League リンク** – 任意のExperience League URL が妥当かどうかをスポットチェックします（`https://experienceleague.adobe.com/` から開始）。
+6. **Experience League リンク** – 任意のExperience League URL が妥当かどうかをスポットチェックします（`https://experienceleague.adobe.com/ja` から開始）。
 
 検証エラーをユーザーに報告し、タスクの完了を検討する前に修正します。
 
