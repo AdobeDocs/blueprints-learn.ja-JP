@@ -9,7 +9,7 @@ ht-degree: 0%
 
 このファイルには、ユースケースパターンページの完全なマークダウンテンプレートが含まれています。 新しいパタ `{{placeholder}}` ンを生成する際に、すべての値を実際のコンテンツに置き換えます。
 
----
+&#x200B;---
 
 ## Template
 
@@ -227,7 +227,7 @@ Complete the following before beginning the implementation.
 | Scalability | {{description}} | {{description}} | {{description}} |
 ````
 
----
+&#x200B;---
 
 ## このテンプレートの使用に関する注意事項
 
