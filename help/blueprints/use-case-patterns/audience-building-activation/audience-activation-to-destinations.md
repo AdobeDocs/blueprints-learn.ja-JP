@@ -674,7 +674,7 @@ ht-degree: 1%
 - [ID サービスの概要](https://experienceleague.adobe.com/ja/docs/experience-platform/identity/home)
 - [ID 名前空間の概要](https://experienceleague.adobe.com/ja/docs/experience-platform/identity/features/namespaces)
 - [ID グラフのリンクルール](https://experienceleague.adobe.com/ja/docs/experience-platform/identity/features/identity-linking-logic)
-- [プロファイルの概要](https://experienceleague.adobe.com/en/docs/experience-platform/profile/home)
+- [プロファイルの概要](https://experienceleague.adobe.com/ja/docs/experience-platform/profile/home)
 - [結合ポリシーの概要](https://experienceleague.adobe.com/ja/docs/experience-platform/profile/merge-policies/overview)
 
 **データモデリングとスキーマ**
@@ -700,19 +700,19 @@ ht-degree: 1%
 **計算属性**
 
 - [計算済み属性の概要](https://experienceleague.adobe.com/ja/docs/experience-platform/profile/computed-attributes/overview)
-- [計算属性 UI ガイド](https://experienceleague.adobe.com/en/docs/experience-platform/profile/computed-attributes/ui)
+- [計算属性 UI ガイド](https://experienceleague.adobe.com/ja/docs/experience-platform/profile/computed-attributes/ui)
 
 **データ収集とソース**
 
 - [ソースの概要](https://experienceleague.adobe.com/ja/docs/experience-platform/sources/home)
 - [Web SDKの概要](https://experienceleague.adobe.com/ja/docs/experience-platform/web-sdk/home)
-- [データストリームを設定](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/configure)
+- [データストリームを設定](https://experienceleague.adobe.com/ja/docs/experience-platform/datastreams/configure)
 
 **管理**
 
 - [サンドボックスの概要](https://experienceleague.adobe.com/ja/docs/experience-platform/sandbox/home)
 - [アクセス制御の概要](https://experienceleague.adobe.com/ja/docs/experience-platform/access-control/home)
-- [属性ベースのアクセス制御](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/overview)
+- [属性ベースのアクセス制御](https://experienceleague.adobe.com/ja/docs/experience-platform/access-control/abac/overview)
 
 **ガードレール**
 
