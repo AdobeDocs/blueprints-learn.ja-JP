@@ -78,7 +78,7 @@ Offer Decisioningは、すべてのオファー選択ロジックをAJOの意思
 
 **機能チェーン：** オーディエンス評価> オファーの適格性> ランキング戦略>決定実行>配信> レポート
 
-各コンポジションがどのように表示されるかについては、[実装オプション ](#implementation-options)の節を参照してください。
+各コンポジションがどのように表示されるかについては、[実装オプション &#x200B;](#implementation-options)の節を参照してください。
 
 ## アプリケーション
 
@@ -94,11 +94,11 @@ Offer Decisioningは、すべてのオファー選択ロジックをAJOの意思
 
 | 基本関数 | ステータス | 整えておく必要があるもの | Experience League リファレンス |
 | --- | --- | --- | --- |
-| 管理とガバナンス | 同じ位置に仮定 | 決定権限が有効になっているAJO サンドボックス。 実装チームに割り当てられたオファー管理の役割（Decision Manager、Offer Approver）。 | [ サンドボックスの概要](https://experienceleague.adobe.com/ja/docs/experience-platform/sandbox/home)、[ アクセス制御の概要](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/home) |
-| データモデリングと準備 | 必須 | プロファイルスキーマには、オファーの適格性ルールに使用される属性（ロイヤルティ層、購入履歴、サブスクリプションタイプなど）を含める必要があります。 オファーのインプレッション、クリック、コンバージョンを追跡するためのオファー応答/インタラクションスキーマを導入する必要があります。 | [XDM システムの概要](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/home)、[ スキーマ構成の基本](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/composition) |
-| データソースと収集 | 同じ位置に仮定 | 実施要件ルールで使用されるプロファイル属性は、最新である必要があります。 Web配信（オプション B）の場合、Web SDKは、データストリームでAJO サービスを有効にして実装する必要があります。 メール配信の場合、プロファイル属性は送信時に解決可能である必要があります。 | [Web SDKの概要](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/home)、[ データストリームの設定](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/configure) |
+| 管理とガバナンス | 同じ位置に仮定 | 決定権限が有効になっているAJO サンドボックス。 実装チームに割り当てられたオファー管理の役割（Decision Manager、Offer Approver）。 | [&#x200B; サンドボックスの概要](https://experienceleague.adobe.com/ja/docs/experience-platform/sandbox/home)、[&#x200B; アクセス制御の概要](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/home) |
+| データモデリングと準備 | 必須 | プロファイルスキーマには、オファーの適格性ルールに使用される属性（ロイヤルティ層、購入履歴、サブスクリプションタイプなど）を含める必要があります。 オファーのインプレッション、クリック、コンバージョンを追跡するためのオファー応答/インタラクションスキーマを導入する必要があります。 | [XDM システムの概要](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/home)、[&#x200B; スキーマ構成の基本](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/composition) |
+| データソースと収集 | 同じ位置に仮定 | 実施要件ルールで使用されるプロファイル属性は、最新である必要があります。 Web配信（オプション B）の場合、Web SDKは、データストリームでAJO サービスを有効にして実装する必要があります。 メール配信の場合、プロファイル属性は送信時に解決可能である必要があります。 | [Web SDKの概要](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/home)、[&#x200B; データストリームの設定](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/configure) |
 | IDとプロファイル設定 | 同じ位置に仮定 | プロファイルは、オファーが配信されるあらゆるチャネルをまたいで解決できる必要があります。 クロスチャネルのオファーの一貫性を保つためには、統合IDが不可欠です。電子メール、web、モバイルの各コンテキストで、同じプロファイルを認識する必要があります。 リアルタイム web/アプリ配信には、エッジアクティブな結合ポリシーが必要です。 | [ID サービスの概要](https://experienceleague.adobe.com/en/docs/experience-platform/identity/home)、[結合ポリシーの概要](https://experienceleague.adobe.com/en/docs/experience-platform/profile/merge-policies/overview) |
-| オーディエンスの定義とセグメント化 | 必須 | オファーの適格性の基準として使用されるオーディエンスを定義および評価する必要があります（例：「価値の高い顧客」、「トライアルユーザー」、「ロイヤルティゴールドレベル」）。 評価方法は、配信待ち時間と一致する必要があります。メールキャンペーンのリアルタイム web/アプリ、バッチ、ストリーミングのエッジ評価です。 | [ セグメント化サービスの概要](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/home)、[ セグメント ビルダーUI ガイド ](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/segment-builder) |
+| オーディエンスの定義とセグメント化 | 必須 | オファーの適格性の基準として使用されるオーディエンスを定義および評価する必要があります（例：「価値の高い顧客」、「トライアルユーザー」、「ロイヤルティゴールドレベル」）。 評価方法は、配信待ち時間と一致する必要があります。メールキャンペーンのリアルタイム web/アプリ、バッチ、ストリーミングのエッジ評価です。 | [&#x200B; セグメント化サービスの概要](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/home)、[&#x200B; セグメント ビルダーUI ガイド &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/segment-builder) |
 
 ## サポート機能
 
@@ -107,9 +107,9 @@ Offer Decisioningは、すべてのオファー選択ロジックをAJOの意思
 | 補助機能 | ステータス | なぜそれが重要なのか | Experience League リファレンス |
 | --- | --- | --- | --- |
 | 計算属性/派生属性作成 | 推奨 | Customer AIの傾向スコア、生涯価値の計算、エンゲージメント指標は、ランキング戦略の効果を大幅に向上させます。 「最後に購入してからの日数」や「90日間の総支出」などの計算属性を使用すると、より正確な適格性ルールと数式ベースのランキングが可能になります。 | [計算属性の概要](https://experienceleague.adobe.com/en/docs/experience-platform/profile/computed-attributes/overview)、[顧客AIの概要](https://experienceleague.adobe.com/en/docs/experience-platform/intelligent-services/customer-ai/overview) |
-| データライフサイクル管理 | 推奨 | オファーの履歴と決定イベントデータは、時間の経過とともに蓄積されます。 オファーインタラクションイベントデータセットがストレージを管理し、データ保持要件に準拠するように、保持ポリシー（有効期限）を設定する必要があります。 | [高度なデータライフサイクル管理の概要](https://experienceleague.adobe.com/en/docs/experience-platform/data-lifecycle/home)、[ データセットの有効期限](https://experienceleague.adobe.com/en/docs/experience-platform/data-lifecycle/ui/dataset-expiration) |
-| データ使用のラベル付けと適用 | 推奨 | ガバナンスラベルは、機密性の高いターゲティング基準（財務状況、健康状態など）を含むオファーが、データ利用ポリシーに準拠していることを確認します。 実施要件ルールで使用されるフィールドにラベルを付けると、準拠していないオファーのターゲティングが防止されます。 | [ データガバナンスの概要](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/home)、[ データ使用ラベルの概要](https://experienceleague.adobe.com/ja/docs/experience-platform/data-governance/labels/overview) |
-| 監視と可観測性 | 推奨 | 意思決定エンジンのパフォーマンス、フォールバック率、オファーの配信の健全性を監視する必要があります。 フォールバック率が高い場合のアラートは、実施要件ルールの設定ミスやデータの鮮度の問題を示している可能性があります。 | [ アラートの概要](https://experienceleague.adobe.com/en/docs/experience-platform/observability/alerts/overview)、[Observability Insightsの概要](https://experienceleague.adobe.com/en/docs/experience-platform/observability/home) |
+| データライフサイクル管理 | 推奨 | オファーの履歴と決定イベントデータは、時間の経過とともに蓄積されます。 オファーインタラクションイベントデータセットがストレージを管理し、データ保持要件に準拠するように、保持ポリシー（有効期限）を設定する必要があります。 | [高度なデータライフサイクル管理の概要](https://experienceleague.adobe.com/en/docs/experience-platform/data-lifecycle/home)、[&#x200B; データセットの有効期限](https://experienceleague.adobe.com/en/docs/experience-platform/data-lifecycle/ui/dataset-expiration) |
+| データ使用のラベル付けと適用 | 推奨 | ガバナンスラベルは、機密性の高いターゲティング基準（財務状況、健康状態など）を含むオファーが、データ利用ポリシーに準拠していることを確認します。 実施要件ルールで使用されるフィールドにラベルを付けると、準拠していないオファーのターゲティングが防止されます。 | [&#x200B; データガバナンスの概要](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/home)、[&#x200B; データ使用ラベルの概要](https://experienceleague.adobe.com/ja/docs/experience-platform/data-governance/labels/overview) |
+| 監視と可観測性 | 推奨 | 意思決定エンジンのパフォーマンス、フォールバック率、オファーの配信の健全性を監視する必要があります。 フォールバック率が高い場合のアラートは、実施要件ルールの設定ミスやデータの鮮度の問題を示している可能性があります。 | [&#x200B; アラートの概要](https://experienceleague.adobe.com/en/docs/experience-platform/observability/alerts/overview)、[Observability Insightsの概要](https://experienceleague.adobe.com/en/docs/experience-platform/observability/home) |
 | レポートと分析 | 含まれる | オファーのパフォーマンスレポートは、ファンクションチェーンの一部です（フェーズ 7）。 CJAを利用すれば、クロスチャネルのオファー有効性の測定、売上への影響のアトリビューション、最適化の機会特定を実現できます。 | [CJAの概要](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-overview)、[Analysis Workspaceの概要](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/home) |
 
 ## アプリケーション関数
@@ -231,7 +231,7 @@ Offer Decisioningは、すべてのオファー選択ロジックをAJOの意思
 
 **これが既知の訪問者のweb/アプリのパーソナライゼーション オプション B:**&#x200B;とどのように異なるか
 
-インフラストラクチャは同じですが、どちらもWeb SDKのエッジでAJO Decisioningを使用し、エッジでアクティブな結合ポリシーを使用します。 違いは、カタログガバナンスモデルです。 このオプションは、適格性ルール、キャッピングカウンター、有効期限を含むバウンドオファーカタログを管理します。このカタログは、表示できるオファーと頻度をビジネスまたは規制の制約によって決定する場合に使用します。[既知の訪問者のweb/アプリのパーソナライゼーション ](known-visitor-web-app-personalization.md) オプション Bは、オファーのライフサイクル管理なしで、セグメントメンバーシップまたはランキング戦略を使用してコンテンツ項目から選択します。 アイテムセットが大きく、継続的に変化しており、キャッピングや適格性のガバナンスを必要としない場合は、代わりに既知の訪問者オプション Bを使用してください。
+インフラストラクチャは同じですが、どちらもWeb SDKのエッジでAJO Decisioningを使用し、エッジでアクティブな結合ポリシーを使用します。 違いは、カタログガバナンスモデルです。 このオプションは、適格性ルール、キャッピングカウンター、有効期限を含むバウンドオファーカタログを管理します。このカタログは、表示できるオファーと頻度をビジネスまたは規制の制約によって決定する場合に使用します。[既知の訪問者のweb/アプリのパーソナライゼーション &#x200B;](known-visitor-web-app-personalization.md) オプション Bは、オファーのライフサイクル管理なしで、セグメントメンバーシップまたはランキング戦略を使用してコンテンツ項目から選択します。 アイテムセットが大きく、継続的に変化しており、キャッピングや適格性のガバナンスを必要としない場合は、代わりに既知の訪問者オプション Bを使用してください。
 
 ### オプション C:ジャーニーの意思決定ノード
 
@@ -639,13 +639,13 @@ Edgeの評価が必要です。 オーディエンスは、シンプルな属性
 
 実装を計画する際には、次のプラットフォームのガードレールと制限に注意してください。
 
-- サンドボックスごとに最大10,000件の承認済みパーソナライズされたオファー – [意思決定管理ガードレール ](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/get-started/guardrails)
+- サンドボックスごとに最大10,000件の承認済みパーソナライズされたオファー – [意思決定管理ガードレール &#x200B;](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/get-started/guardrails)
 - 1決定あたり最大30件のプレースメント
 - 決定リクエストごとに最大30個のコレクションスコープ
 - AI ランキングモデルのトレーニングには最低1,000回のコンバージョンイベントが必要です
 - オファーキャッピングカウンターは、高スループットのシナリオで最大で数秒の遅延が発生する場合があります
 - Edgeの決定は、edge profile storeで使用可能なプロファイル属性に制限されます
-- サンドボックスあたり最大4,000個のセグメント定義 – [ プラットフォームガードレール ](https://experienceleague.adobe.com/en/docs/experience-platform/profile/guardrails)
+- サンドボックスあたり最大4,000個のセグメント定義 – [&#x200B; プラットフォームガードレール &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/profile/guardrails)
 - サンドボックスごとにEdgeでアクティブにできる結合ポリシーは1つだけです
 - サンドボックスごとに最大500個のアクティブなライブキャンペーン
 - ジャーニーエントリ率の制限：毎秒5,000 プロファイル

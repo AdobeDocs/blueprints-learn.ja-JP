@@ -34,7 +34,7 @@ ht-degree: 2%
 ターゲットオーディエンスには、ライフサイクルプログラム、ロイヤルティジャーニー、ウィンバック（顧客の取り戻し）シーケンス、オンボーディングフローなどを管理するマーケターが含まれます。これらのフローでは、大規模なパーソナライゼーションを実現するには、各顧客接点での意思決定の自動化が必要になります。
 
 >[!NOTE]
->ジャーニーで個々のノードでの動的な意思決定（固定系列のナーチャリングやオンボーディングプログラムなど）が必要ない場合は、[ マルチステップのオーケストレーションされたジャーニー](multi-step-orchestrated-journey.md)を参照してください。 このパターンは設定が簡単で、AJO Decisioningは必要ありません。
+>ジャーニーで個々のノードでの動的な意思決定（固定系列のナーチャリングやオンボーディングプログラムなど）が必要ない場合は、[&#x200B; マルチステップのオーケストレーションされたジャーニー](multi-step-orchestrated-journey.md)を参照してください。 このパターンは設定が簡単で、AJO Decisioningは必要ありません。
 
 ## 主なビジネス目標
 
@@ -105,11 +105,11 @@ ht-degree: 2%
 
 | 基本関数 | ステータス | 整えておく必要があるもの | Experience League リファレンス |
 | --- | --- | --- | --- |
-| 管理とガバナンス | 同じ位置に仮定 | ジャーニー、キャンペーン、決定権限が設定された[!DNL AJO] サンドボックス。 考えられるすべての配信チャネルのチャネルサーフェス。 ジャーニー設計者、意思決定担当者、コンテンツ作成者のユーザー役割。 | [ サンドボックスの概要](https://experienceleague.adobe.com/ja/docs/experience-platform/sandbox/home)、[ アクセス制御の概要](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/home) |
-| データモデリングと準備 | 必須 | プロファイルスキーマには、決定に使用される属性（ロイヤルティ層、購入履歴、チャネル設定、エンゲージメントスコアなど）を含める必要があります。 オファーカタログと決定項目のスキーマを設定する必要があります。 ExperienceEvent スキーマは、適格性ルールとランキング式で使用される行動シグナルを取得する必要があります。 | [XDM システムの概要](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/home)、[ スキーマ構成の基本](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/composition) |
-| データソースと収集 | 同じ位置に仮定 | 決定で使用されるプロファイル属性と行動シグナルは、最新である必要があります。 ジャーニーでイベントがトリガーされるエントリまたは終了条件を使用する場合は、リアルタイムのイベントストリーミングが必要です。 Web SDK、モバイル SDK、サーバーサイドコレクションは、意思決定コンテキストをフィードするチャネルに対してアクティブである必要があります。 | [Web SDKの概要](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/home)、[ ソースの概要](https://experienceleague.adobe.com/en/docs/experience-platform/sources/home) |
+| 管理とガバナンス | 同じ位置に仮定 | ジャーニー、キャンペーン、決定権限が設定された[!DNL AJO] サンドボックス。 考えられるすべての配信チャネルのチャネルサーフェス。 ジャーニー設計者、意思決定担当者、コンテンツ作成者のユーザー役割。 | [&#x200B; サンドボックスの概要](https://experienceleague.adobe.com/ja/docs/experience-platform/sandbox/home)、[&#x200B; アクセス制御の概要](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/home) |
+| データモデリングと準備 | 必須 | プロファイルスキーマには、決定に使用される属性（ロイヤルティ層、購入履歴、チャネル設定、エンゲージメントスコアなど）を含める必要があります。 オファーカタログと決定項目のスキーマを設定する必要があります。 ExperienceEvent スキーマは、適格性ルールとランキング式で使用される行動シグナルを取得する必要があります。 | [XDM システムの概要](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/home)、[&#x200B; スキーマ構成の基本](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/composition) |
+| データソースと収集 | 同じ位置に仮定 | 決定で使用されるプロファイル属性と行動シグナルは、最新である必要があります。 ジャーニーでイベントがトリガーされるエントリまたは終了条件を使用する場合は、リアルタイムのイベントストリーミングが必要です。 Web SDK、モバイル SDK、サーバーサイドコレクションは、意思決定コンテキストをフィードするチャネルに対してアクティブである必要があります。 | [Web SDKの概要](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/home)、[&#x200B; ソースの概要](https://experienceleague.adobe.com/en/docs/experience-platform/sources/home) |
 | IDとプロファイル設定 | 必須 | クロスチャネル IDの解決は非常に重要です。カスタマージャーニーでは、電子メール、プッシュ通知、SMS、webをまたいでプロファイルを解決する必要があります。 結合ポリシーでは、決定のための統合プロファイルを作成する必要があります。 すべての顧客識別子（CRM ID、電子メール、ECID、電話）のID名前空間を設定する必要があります。 | [ID サービスの概要](https://experienceleague.adobe.com/en/docs/experience-platform/identity/home)、[結合ポリシーの概要](https://experienceleague.adobe.com/en/docs/experience-platform/profile/merge-policies/overview) |
-| オーディエンスの定義とセグメント化 | 必須 | ジャーニーのエントリオーディエンスの定義。 オファーの適格性ルールとジャーニー内での条件分岐に使用される追加セグメント。 評価方法は、待ち時間の要件（リアルタイム入力のストリーミング、スケジュール済みのバッチ）に一致する必要があります。 | [ セグメント化サービスの概要](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/home)、[ セグメント ビルダーUI ガイド ](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/segment-builder) |
+| オーディエンスの定義とセグメント化 | 必須 | ジャーニーのエントリオーディエンスの定義。 オファーの適格性ルールとジャーニー内での条件分岐に使用される追加セグメント。 評価方法は、待ち時間の要件（リアルタイム入力のストリーミング、スケジュール済みのバッチ）に一致する必要があります。 | [&#x200B; セグメント化サービスの概要](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/home)、[&#x200B; セグメント ビルダーUI ガイド &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/segment-builder) |
 
 ## サポート機能
 
@@ -119,9 +119,9 @@ ht-degree: 2%
 | --- | --- | --- | --- |
 | 計算属性/派生属性作成 | 推奨 | Customer AIの傾向スコア、エンゲージメントスコア、チャネル嗜好スコア、生涯価値の計算などの計算属性により、意思決定の質が大幅に向上します。 これらの強化されたプロファイル属性により、より高度な適格性ルールとランキング式が可能になります。 | [計算属性の概要](https://experienceleague.adobe.com/en/docs/experience-platform/profile/computed-attributes/overview)、[顧客AIの概要](https://experienceleague.adobe.com/en/docs/experience-platform/intelligent-services/customer-ai/overview) |
 | データライフサイクル管理 | 推奨 | オファーの履歴と決定イベントデータは、時間の経過とともに蓄積されます。保持ポリシーを設定する必要があります。 複数のチャネルをまたいだ同意の適用は非常に重要です。チャネルに対して有効な同意がないプロファイルは、そのチャネルの配信パスから除外する必要があります。 | [高度なデータライフサイクル管理の概要](https://experienceleague.adobe.com/en/docs/experience-platform/data-lifecycle/home)、[Journey Optimizerでの同意](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/privacy/consent/consent-restricted) |
-| データ使用のラベル付けと適用 | 推奨 | 複数のチャネルやオファータイプをまたいだガバナンスの強化は、意思決定において、データの使用方法に制限がある場合に、プロファイルをさまざまなチャネルに振り分ける上で重要です。 あらゆるチャネルをまたいでコンプライアンスを遵守したオファー提供を実現。 | [ データガバナンスの概要](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/home)、[ ポリシーの適用](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/enforcement/overview) |
-| 監視と可観測性 | 含まれる | ジャーニーと意思決定のモニタリングは、本番業務に不可欠です。 ジャーニー入力の失敗、フォールバックスパイクの決定、配信エラーに関するアラートにより、迅速な問題解決が可能になります。 | [ アラートの概要](https://experienceleague.adobe.com/en/docs/experience-platform/observability/alerts/overview)、[Observability Insightsの概要](https://experienceleague.adobe.com/en/docs/experience-platform/observability/home) |
-| レポートと分析 | 含まれる | ジャーニーと決定のレポートについては、レポートフェーズで説明します。 CJAによる意思決定の効果、チャネルミックスの最適化、オファーのパフォーマンス、ジャーニーのROIに関する分析は、ランキング戦略を改善し、長期的なジャーニーの最適化に必要なインサイトを提供します。 | [CJAの概要](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-overview)、[AJOとCJAの連携ガイド ](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/reporting/channel-report/cja-ajo) |
+| データ使用のラベル付けと適用 | 推奨 | 複数のチャネルやオファータイプをまたいだガバナンスの強化は、意思決定において、データの使用方法に制限がある場合に、プロファイルをさまざまなチャネルに振り分ける上で重要です。 あらゆるチャネルをまたいでコンプライアンスを遵守したオファー提供を実現。 | [&#x200B; データガバナンスの概要](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/home)、[&#x200B; ポリシーの適用](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/enforcement/overview) |
+| 監視と可観測性 | 含まれる | ジャーニーと意思決定のモニタリングは、本番業務に不可欠です。 ジャーニー入力の失敗、フォールバックスパイクの決定、配信エラーに関するアラートにより、迅速な問題解決が可能になります。 | [&#x200B; アラートの概要](https://experienceleague.adobe.com/en/docs/experience-platform/observability/alerts/overview)、[Observability Insightsの概要](https://experienceleague.adobe.com/en/docs/experience-platform/observability/home) |
+| レポートと分析 | 含まれる | ジャーニーと決定のレポートについては、レポートフェーズで説明します。 CJAによる意思決定の効果、チャネルミックスの最適化、オファーのパフォーマンス、ジャーニーのROIに関する分析は、ランキング戦略を改善し、長期的なジャーニーの最適化に必要なインサイトを提供します。 | [CJAの概要](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-overview)、[AJOとCJAの連携ガイド &#x200B;](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/reporting/channel-report/cja-ajo) |
 
 ## アプリケーション関数
 
@@ -661,7 +661,7 @@ ht-degree: 2%
 
 ### ガードレールと制限
 
-- サンドボックスあたり最大500 ライブジャーニー – [Journey Optimizer ガードレール ](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/get-started/guardrails)
+- サンドボックスあたり最大500 ライブジャーニー – [Journey Optimizer ガードレール &#x200B;](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/get-started/guardrails)
 - ジャーニーの最大期間は91日です（グローバル タイムアウト）
 - ジャーニーキャンバスあたり最大50 アクティビティ
 - オーディエンスジャーニーは、1秒あたり最大20,000件のプロファイルを処理できます
@@ -673,7 +673,7 @@ ht-degree: 2%
 - サンドボックスごとに1つのチャネルタイプにつき最大10個のチャネルサーフェス
 - オーディエンス読み取りジャーニーの待機ステップの所要時間は最低1時間です
 - ジャーニー再エントリ クールダウンの最小値は5分です
-- サンドボックスあたり最大4,000個のセグメント定義 – [ プラットフォームガードレール ](https://experienceleague.adobe.com/en/docs/experience-platform/profile/guardrails)
+- サンドボックスあたり最大4,000個のセグメント定義 – [&#x200B; プラットフォームガードレール &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/profile/guardrails)
 
 ### よくある落とし穴
 

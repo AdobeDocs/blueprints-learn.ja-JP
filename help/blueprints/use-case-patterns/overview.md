@@ -23,9 +23,9 @@ ht-degree: 0%
 
 | パターン | プライマリ能力 | コアソリューション |
 | --- | --- | --- |
-| [宛先へのオーディエンスアクティベーション ](audience-building-activation/audience-activation-to-destinations.md) | ターゲティングまたは抑制のために、オーディエンスセグメントを評価して外部宛先に公開します | [!DNL Real-Time CDP] |
+| [宛先へのオーディエンスアクティベーション &#x200B;](audience-building-activation/audience-activation-to-destinations.md) | ターゲティングまたは抑制のために、オーディエンスセグメントを評価して外部宛先に公開します | [!DNL Real-Time CDP] |
 | [Audience Collaboration](audience-building-activation/audience-collaboration-segment-match.md) | Segment Matchを使用すると、サンドボックスや組織間でオーディエンスセグメントを共有して一致させることができます | [!DNL Real-Time CDP], [!DNL Experience Platform] |
-| [ イベント転送](audience-building-activation/event-forwarding.md) | Edge Networkを通じて収集したリアルタイムのイベントデータを、Adobe以外の宛先に転送します | [!DNL Experience Platform] （Edge Network、イベント転送） |
+| [&#x200B; イベント転送](audience-building-activation/event-forwarding.md) | Edge Networkを通じて収集したリアルタイムのイベントデータを、Adobe以外の宛先に転送します | [!DNL Experience Platform] （Edge Network、イベント転送） |
 | [B2B オーディエンスのアクティブ化](audience-building-activation/b2b-audience-activation.md) | web、電子メール、広告のチャネルをまたいで、アカウントベースのB2B オーディエンスを活用できます | [!DNL Real-Time CDP] B2B edition |
 
 ## パーソナライズ機能
@@ -34,10 +34,10 @@ ht-degree: 0%
 
 | パターン | プライマリ能力 | コアソリューション |
 | --- | --- | --- |
-| [匿名の訪問者のweb パーソナライゼーション ](personalization/anonymous-visitor-web-personalization.md) | セッション中の行動シグナルにもとづいて、パーソナライズされたコンテンツを配信し、未特定の訪問者に提供します | [!DNL Journey Optimizer] （web チャネル）、[!DNL Real-Time CDP] |
-| [既知の訪問者のweb/アプリのパーソナライゼーション ](personalization/known-visitor-web-app-personalization.md) | リアルタイムのプロファイルとセグメントメンバーシップにもとづいて、特定された訪問者にパーソナライズされたコンテンツ、オファー、プロモーションを配信します | [!DNL Journey Optimizer], [!DNL Real-Time CDP] |
-| [ オファー決定](personalization/offer-decisioning.md) | 一元化された意思決定ロジックを使用して、チャネルをまたいでプロファイルに最適なオファーやコンテンツを選択します | [!DNL Journey Optimizer] （決定）、[!DNL Real-Time CDP] |
-| [行動レコメンデーション ](personalization/behavioral-recommendation.md) | 選択戦略とランキングモデルを使用して、アイテムとコンテンツのレコメンデーションを生成します | [!DNL Journey Optimizer] （決定）、[!DNL Real-Time CDP] |
+| [匿名の訪問者のweb パーソナライゼーション &#x200B;](personalization/anonymous-visitor-web-personalization.md) | セッション中の行動シグナルにもとづいて、パーソナライズされたコンテンツを配信し、未特定の訪問者に提供します | [!DNL Journey Optimizer] （web チャネル）、[!DNL Real-Time CDP] |
+| [既知の訪問者のweb/アプリのパーソナライゼーション &#x200B;](personalization/known-visitor-web-app-personalization.md) | リアルタイムのプロファイルとセグメントメンバーシップにもとづいて、特定された訪問者にパーソナライズされたコンテンツ、オファー、プロモーションを配信します | [!DNL Journey Optimizer], [!DNL Real-Time CDP] |
+| [&#x200B; オファー決定](personalization/offer-decisioning.md) | 一元化された意思決定ロジックを使用して、チャネルをまたいでプロファイルに最適なオファーやコンテンツを選択します | [!DNL Journey Optimizer] （決定）、[!DNL Real-Time CDP] |
+| [行動レコメンデーション &#x200B;](personalization/behavioral-recommendation.md) | 選択戦略とランキングモデルを使用して、アイテムとコンテンツのレコメンデーションを生成します | [!DNL Journey Optimizer] （決定）、[!DNL Real-Time CDP] |
 
 ## キャンペーン管理とオーケストレーション
 
@@ -45,9 +45,9 @@ ht-degree: 0%
 
 | パターン | プライマリ能力 | コアソリューション |
 | --- | --- | --- |
-| [ バッチアウトバウンドメッセージのアクティベーション ](campaign-management-orchestration/batch-outbound-message-activation.md) | オーディエンスを評価し、スケジュールされたアウトバウンドメッセージを1回のバッチで配信します | [!DNL Journey Optimizer], [!DNL Real-Time CDP] |
-| [ イベントトリガーのメッセージ ](campaign-management-orchestration/event-triggered-messaging.md) | リアルタイムの行動イベントやシステムイベントをリッスンし、トリガープロファイルにコンテキストメッセージを配信します | [!DNL Journey Optimizer], [!DNL Real-Time CDP] |
-| [ マルチステップ オーケストレーション ジャーニー](campaign-management-orchestration/multi-step-orchestrated-journey.md) | 待機、条件、複数のメッセージアクションを含む分岐マルチタッチジャーニーを通じてプロファイルを導きます | [!DNL Journey Optimizer], [!DNL Real-Time CDP] |
+| [&#x200B; バッチアウトバウンドメッセージのアクティベーション &#x200B;](campaign-management-orchestration/batch-outbound-message-activation.md) | オーディエンスを評価し、スケジュールされたアウトバウンドメッセージを1回のバッチで配信します | [!DNL Journey Optimizer], [!DNL Real-Time CDP] |
+| [&#x200B; イベントトリガーのメッセージ &#x200B;](campaign-management-orchestration/event-triggered-messaging.md) | リアルタイムの行動イベントやシステムイベントをリッスンし、トリガープロファイルにコンテキストメッセージを配信します | [!DNL Journey Optimizer], [!DNL Real-Time CDP] |
+| [&#x200B; マルチステップ オーケストレーション ジャーニー](campaign-management-orchestration/multi-step-orchestrated-journey.md) | 待機、条件、複数のメッセージアクションを含む分岐マルチタッチジャーニーを通じてプロファイルを導きます | [!DNL Journey Optimizer], [!DNL Real-Time CDP] |
 | [決定を伴うクロスチャネルジャーニー](campaign-management-orchestration/cross-channel-journey-with-decisioning.md) | リアルタイムの意思決定を組み込んだマルチステップのジャーニーを編成し、最適なチャネル、コンテンツ、オファーを選択できます | [!DNL Journey Optimizer], [!DNL Real-Time CDP] |
 | [購買グループベースのマーケティングとジャーニー管理](campaign-management-orchestration/buying-group-based-marketing.md) | リードを購買グループに選別するアカウントレベルのジャーニーを作成して、B2B マーケティングの効果を向上できます | [!DNL Journey Optimizer] B2B edition、[!DNL Real-Time CDP] B2B edition |
 
@@ -77,28 +77,28 @@ ht-degree: 0%
 *解約したお客様は、90日以内に購入していません。 ターゲットを絞ったオファーでリエンゲージメントする必要があります。*
 
 - **オファーの選択は動的ですか（異なる顧客は、適格性またはランキングに基づいて異なるオファーを受け取ります）?**
-   - はい[ オファー決定](personalization/offer-decisioning.md)をオファーレイヤーとして→用し、再エンゲージメント シーケンス用に[ マルチステップのオーケストレーションされたジャーニー](campaign-management-orchestration/multi-step-orchestrated-journey.md)に折り返します
-   - [ マルチステップのオーケストレーションされたジャーニー](campaign-management-orchestration/multi-step-orchestrated-journey.md)のみ→は、（対象となるすべての解約した顧客に対して同じオファー）はありません
+   - はい[&#x200B; オファー決定](personalization/offer-decisioning.md)をオファーレイヤーとして→用し、再エンゲージメント シーケンス用に[&#x200B; マルチステップのオーケストレーションされたジャーニー](campaign-management-orchestration/multi-step-orchestrated-journey.md)に折り返します
+   - [&#x200B; マルチステップのオーケストレーションされたジャーニー](campaign-management-orchestration/multi-step-orchestrated-journey.md)のみ→は、（対象となるすべての解約した顧客に対して同じオファー）はありません
 
 ### 購入後のフォローアップ
 
 *お客様は購入を完了しました。 確認、クロスセルのレコメンデーション、およびロイヤルティ報酬の通知を送信する場合。*
 
 - **シーケンスでは、リアルタイムのイベント（例：要求された報酬、レビューされた製品）に基づいてアダプティブ分岐が必要ですか？**
-   - はい→ [ マルチステップ オーケストレーション ジャーニー](campaign-management-orchestration/multi-step-orchestrated-journey.md)
-   - いいえ（固定シーケンス、分岐なし） → [ バッチアウトバウンドメッセージのアクティベーション ](campaign-management-orchestration/batch-outbound-message-activation.md)
+   - はい→ [&#x200B; マルチステップ オーケストレーション ジャーニー](campaign-management-orchestration/multi-step-orchestrated-journey.md)
+   - いいえ（固定シーケンス、分岐なし） → [&#x200B; バッチアウトバウンドメッセージのアクティベーション &#x200B;](campaign-management-orchestration/batch-outbound-message-activation.md)
 - **パーソナライズされた商品レコメンデーションが含まれていますか？**
-   - はい→ コンテンツ レイヤーで[行動レコメンデーション ](personalization/behavioral-recommendation.md)を使用して拡張できます
+   - はい→ コンテンツ レイヤーで[行動レコメンデーション &#x200B;](personalization/behavioral-recommendation.md)を使用して拡張できます
 
 ### ロイヤルティマイルストーンパーソナライゼーション
 
 *顧客が新しいロイヤルティ階層に到達しました。 パーソナライズされたweb コンテンツを表示し、お祝いのメッセージを送信する必要があります。*
 
 - **Web コンテンツはパーソナライズされていますか（層またはセグメントごとに異なるコンテンツ）?**
-   - はい→Web サーフェスの[既知の訪問者のweb/アプリのパーソナライゼーション ](personalization/known-visitor-web-app-personalization.md)
+   - はい→Web サーフェスの[既知の訪問者のweb/アプリのパーソナライゼーション &#x200B;](personalization/known-visitor-web-app-personalization.md)
 - **送信メッセージは、1回の送信またはナーチャリング シーケンスですか？**
-   - 1回→送信[ イベントトリガーメッセージ ](campaign-management-orchestration/event-triggered-messaging.md)
-   - シーケンス → [ マルチステップのオーケストレーションされたジャーニー](campaign-management-orchestration/multi-step-orchestrated-journey.md)
+   - 1回→送信[&#x200B; イベントトリガーメッセージ &#x200B;](campaign-management-orchestration/event-triggered-messaging.md)
+   - シーケンス → [&#x200B; マルチステップのオーケストレーションされたジャーニー](campaign-management-orchestration/multi-step-orchestrated-journey.md)
 
 ### リエンゲージメントキャンペーン
 
@@ -106,4 +106,4 @@ ht-degree: 0%
 
 - **個々のメッセージは、リアルタイムで複数のオファーのバリエーションから選択する必要がありますか？**
    - はい→ [意思決定を行うクロスチャネルジャーニー](campaign-management-orchestration/cross-channel-journey-with-decisioning.md)
-   - → [ マルチステップ オーケストレーション ジャーニー](campaign-management-orchestration/multi-step-orchestrated-journey.md)がありません
+   - → [&#x200B; マルチステップ オーケストレーション ジャーニー](campaign-management-orchestration/multi-step-orchestrated-journey.md)がありません

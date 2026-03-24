@@ -42,7 +42,7 @@ ht-degree: 1%
 
 - **KPI:**&#x200B;効率、生産性
 
-このビジネス目標について詳しくは、[ データ主導の意思決定を有効にする](/help/blueprints/business-objectives/analytics-insights/enable-data-driven-decision-making.md)を参照してください。
+このビジネス目標について詳しくは、[&#x200B; データ主導の意思決定を有効にする](/help/blueprints/business-objectives/analytics-insights/enable-data-driven-decision-making.md)を参照してください。
 
 **マーケティングアトリビューションの改善**
 
@@ -50,7 +50,7 @@ ht-degree: 1%
 
 - **KPI:**&#x200B;効率、増分収益
 
-このビジネス目標について詳しくは、[ マーケティングアトリビューションの改善](/help/blueprints/business-objectives/analytics-insights/improve-marketing-attribution.md)を参照してください。
+このビジネス目標について詳しくは、[&#x200B; マーケティングアトリビューションの改善](/help/blueprints/business-objectives/analytics-insights/improve-marketing-attribution.md)を参照してください。
 
 **マーケティング費用とROIの最適化**
 
@@ -58,7 +58,7 @@ ht-degree: 1%
 
 - **KPI:**&#x200B;効率、増分収益
 
-このビジネス目標について詳しくは、[ マーケティング費用とROIの最適化](/help/blueprints/business-objectives/cost-efficiency/optimize-marketing-spend-roi.md)を参照してください。
+このビジネス目標について詳しくは、[&#x200B; マーケティング費用とROIの最適化](/help/blueprints/business-objectives/cost-efficiency/optimize-marketing-spend-roi.md)を参照してください。
 
 ## 戦術的なユースケース
 
@@ -95,7 +95,7 @@ ht-degree: 1%
 
 **関数チェーン：** Data Connection > Data View Configuration > Workspace Analysis > Computed Metric Creation > Dashboard Publishing
 
-コンポジションのガイダンスについては、[実装オプション ](#implementation-options)の節を参照してください。
+コンポジションのガイダンスについては、[実装オプション &#x200B;](#implementation-options)の節を参照してください。
 
 ## アプリケーション
 
@@ -110,11 +110,11 @@ ht-degree: 1%
 
 | 基本関数 | ステータス | 整えておく必要があるもの | Experience League リファレンス |
 | --- | --- | --- | --- |
-| 管理とガバナンス | 同じ位置に仮定 | ワークスペースの作成とデータビューのアクセス権限でプロビジョニングされたCJA製品プロファイル。 CJA Connectionからアクセス可能なAEP データセット。 適切なCJA ロールに割り当てられたユーザー。 | [ アクセス制御の概要](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/home) |
+| 管理とガバナンス | 同じ位置に仮定 | ワークスペースの作成とデータビューのアクセス権限でプロビジョニングされたCJA製品プロファイル。 CJA Connectionからアクセス可能なAEP データセット。 適切なCJA ロールに割り当てられたユーザー。 | [&#x200B; アクセス制御の概要](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/home) |
 | データモデリングと準備 | 必須 | CJAに接続されるXDM スキーマとデータセットは、AEPに存在する必要があります。 CJAのデータビューで利用可能なディメンションや指標は、スキーマデザインによって直接影響を受けます。 イベントスキーマにはタイムスタンプフィールドが必要です。ルックアップスキーマにはキーフィールドが必要です。 | [XDM システムの概要](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/home) |
-| データソースと収集 | 必須 | データは、AEPデータセット（webSDK経由のweb イベント、モバイルSDK経由のアプリイベント、AJOキャンペーンイベント、ソースコネクタ経由のCRM データ）に流れ込む必要があります。 優れた分析は、収集されるデータの幅広さによって異なります。 | [ ソースの概要](https://experienceleague.adobe.com/en/docs/experience-platform/sources/home) |
+| データソースと収集 | 必須 | データは、AEPデータセット（webSDK経由のweb イベント、モバイルSDK経由のアプリイベント、AJOキャンペーンイベント、ソースコネクタ経由のCRM データ）に流れ込む必要があります。 優れた分析は、収集されるデータの幅広さによって異なります。 | [&#x200B; ソースの概要](https://experienceleague.adobe.com/en/docs/experience-platform/sources/home) |
 | IDとプロファイル設定 | 必須 | CJA接続のユーザーID設定により、データセット間でイベントをステッチする方法が決まります。 Adobe AEPでデバイスをまたいでIDをつなぎ合わせることで、包括的なカスタマージャーニーを構築するAdobe CJAの能力が向上します。 ID名前空間は、「人物ID」フィールドに設定する必要があります。 | [ID サービスの概要](https://experienceleague.adobe.com/en/docs/experience-platform/identity/home) |
-| オーディエンスの定義とセグメント化 | 影響しない | CJAは、分析コンテキスト内で独自のフィルターとオーディエンスを構築します。 RT-CDP オーディエンスは前提条件ではありませんが、CJAはオーディエンスのパブリッシュ（オプション C）を介してAEPにオーディエンスをパブリッシュできます。 | [ セグメント化サービスの概要](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/home) |
+| オーディエンスの定義とセグメント化 | 影響しない | CJAは、分析コンテキスト内で独自のフィルターとオーディエンスを構築します。 RT-CDP オーディエンスは前提条件ではありませんが、CJAはオーディエンスのパブリッシュ（オプション C）を介してAEPにオーディエンスをパブリッシュできます。 | [&#x200B; セグメント化サービスの概要](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/home) |
 
 ## サポート機能
 
@@ -124,8 +124,8 @@ ht-degree: 1%
 | --- | --- | --- | --- |
 | 計算属性/派生属性作成 | 推奨 | AEPの計算属性は、CJAに接続されたデータセットを強化し、分析用のディメンションや指標（生涯購入数、最後のアクティビティからの日数など）を追加で提供します。 これらのプロファイルレベルの集計は、CJA データビューでディメンションとして使用できるようになります。 | [計算属性の概要](https://experienceleague.adobe.com/en/docs/experience-platform/profile/computed-attributes/overview) |
 | データライフサイクル管理 | 推奨 | データセットの保持ポリシーは、CJAで利用可能な履歴データに影響します。 分析ツールを活用して前年比での比較と長期的なトレンド分析を実現するには、通常、長期的なリテンションが必要となります。 適切な履歴の深さを確保するために、データセット TTLを設定します。 | [高度なデータライフサイクル管理の概要](https://experienceleague.adobe.com/en/docs/experience-platform/data-lifecycle/home) |
-| データ使用のラベル付けと適用 | 推奨 | 機密フィールドのガバナンスラベルによって、CJAのデータビューに表示される内容を制限することができます。 PIIや機密データがCJAに含まれている場合、データガバナンスラベルによってコンプライアンスを遵守し、共有ダッシュボードでの不正アクセスを防ぐことができます。 | [ データガバナンスの概要](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/home) |
-| 監視と可観測性 | 推奨 | CJA接続の正常性とデータの鮮度を監視する必要があります。 ソースデータフローのエラーと取り込みの問題に対してアラートを設定し、CJAのデータフィードが信頼性が高く、最新であることを確認します。 | [ オブザーバビリティ インサイトの概要](https://experienceleague.adobe.com/en/docs/experience-platform/observability/home) |
+| データ使用のラベル付けと適用 | 推奨 | 機密フィールドのガバナンスラベルによって、CJAのデータビューに表示される内容を制限することができます。 PIIや機密データがCJAに含まれている場合、データガバナンスラベルによってコンプライアンスを遵守し、共有ダッシュボードでの不正アクセスを防ぐことができます。 | [&#x200B; データガバナンスの概要](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/home) |
+| 監視と可観測性 | 推奨 | CJA接続の正常性とデータの鮮度を監視する必要があります。 ソースデータフローのエラーと取り込みの問題に対してアラートを設定し、CJAのデータフィードが信頼性が高く、最新であることを確認します。 | [&#x200B; オブザーバビリティ インサイトの概要](https://experienceleague.adobe.com/en/docs/experience-platform/observability/home) |
 | レポートと分析 | 含まれる | これはレポートと分析の実装です。 別のパターンの参照計画にS5が含まれている場合は、このCustomer Analyticsとinsight generation planをAnalyticsの実装に使用します。 | [CJAの概要](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-overview) |
 
 ## アプリケーション関数
@@ -784,7 +784,7 @@ ht-degree: 1%
 
 この実装には、次のガードレールと制限が適用されます。
 
-- **接続数の制限：**&#x200B;組織あたりの最大接続数は、CJA SKUの使用権限によって制限されます。 1つの接続には、1つのAEP サンドボックスのデータセットのみを含めることができます。 — [CJA ガードレール ](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-admin/guardrails)
+- **接続数の制限：**&#x200B;組織あたりの最大接続数は、CJA SKUの使用権限によって制限されます。 1つの接続には、1つのAEP サンドボックスのデータセットのみを含めることができます。 — [CJA ガードレール &#x200B;](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-admin/guardrails)
 - **データビューの制限：** データビューごとに5,000 ディメンションと5,000 メトリクスの最大値。 最大5つのレベルのネストされた関数を持つ、データビューごとに最大100個の派生フィールド。
 - **Workspace制限：** プロジェクトごとに最大40 パネルを使用できます。 フリーフォームテーブルは、最大10個のディメンション分類を深くサポートします。 レポートリクエストごとに最大50,000行。
 - **スコアカード制限：** モバイルスコアカードごとに最大16個のタイル。

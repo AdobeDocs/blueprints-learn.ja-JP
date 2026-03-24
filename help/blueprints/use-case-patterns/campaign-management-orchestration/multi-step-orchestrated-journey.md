@@ -111,11 +111,11 @@ ht-degree: 1%
 
 | 基本関数 | ステータス | 整えておく必要があるもの | Experience League リファレンス |
 | --- | --- | --- | --- |
-| 管理とガバナンス | 同じ位置に仮定 | ジャーニーの作成と公開の権限を持つAJOサンドボックス。 ジャーニーで使用されるすべてのチャネルのチャネルサーフェスを設定する必要があります。 ユーザーは、ジャーニーとキャンペーンの権限を持つ適切な役割（マーケター、ジャーニーマネージャー）を持っている必要があります。 | [ サンドボックスの概要](https://experienceleague.adobe.com/ja/docs/experience-platform/sandbox/home)、[ アクセス制御の概要](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/home) |
-| データモデリングと準備 | 必須 | 複数のメッセージ（ロイヤルティ層、製品への興味、エンゲージメントスコアなど）をまたいだ条件分岐とパーソナライゼーションに使用される属性を持つXDM プロファイルスキーマ。 離脱基準や条件評価を促進するコンバージョンイベントのエクスペリエンスイベントスキーマ（購入イベント、フォーム送信など）。 | [XDM システムの概要](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/home)、[ スキーマ構成の基本](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/composition) |
-| データソースと収集 | 同じ位置に仮定 | 離脱条件または条件がリアルタイムイベント（ジャーニーを離脱する購入イベントなど）に依存する場合、イベントストリーミングはアクティブである必要があります。 分岐で使用されるプロファイル属性のバッチ取り込み。 Web SDKまたは行動イベント収集用のサーバーサイド API。 | [ ストリーミング取り込みの概要](https://experienceleague.adobe.com/en/docs/experience-platform/ingestion/streaming/overview)、[ ソースの概要](https://experienceleague.adobe.com/en/docs/experience-platform/sources/home) |
+| 管理とガバナンス | 同じ位置に仮定 | ジャーニーの作成と公開の権限を持つAJOサンドボックス。 ジャーニーで使用されるすべてのチャネルのチャネルサーフェスを設定する必要があります。 ユーザーは、ジャーニーとキャンペーンの権限を持つ適切な役割（マーケター、ジャーニーマネージャー）を持っている必要があります。 | [&#x200B; サンドボックスの概要](https://experienceleague.adobe.com/ja/docs/experience-platform/sandbox/home)、[&#x200B; アクセス制御の概要](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/home) |
+| データモデリングと準備 | 必須 | 複数のメッセージ（ロイヤルティ層、製品への興味、エンゲージメントスコアなど）をまたいだ条件分岐とパーソナライゼーションに使用される属性を持つXDM プロファイルスキーマ。 離脱基準や条件評価を促進するコンバージョンイベントのエクスペリエンスイベントスキーマ（購入イベント、フォーム送信など）。 | [XDM システムの概要](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/home)、[&#x200B; スキーマ構成の基本](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/composition) |
+| データソースと収集 | 同じ位置に仮定 | 離脱条件または条件がリアルタイムイベント（ジャーニーを離脱する購入イベントなど）に依存する場合、イベントストリーミングはアクティブである必要があります。 分岐で使用されるプロファイル属性のバッチ取り込み。 Web SDKまたは行動イベント収集用のサーバーサイド API。 | [&#x200B; ストリーミング取り込みの概要](https://experienceleague.adobe.com/en/docs/experience-platform/ingestion/streaming/overview)、[&#x200B; ソースの概要](https://experienceleague.adobe.com/en/docs/experience-platform/sources/home) |
 | IDとプロファイル設定 | 同じ位置に仮定 | プロファイルは、ジャーニーで使用されるすべてのチャネル（電子メール、SMS、プッシュ通知）で解決できる必要があります。 ジャーニーがwebとモバイルのタッチポイントにまたがる場合は、クロスデバイス IDを設定する必要があります。 結合ポリシーは、サンドボックス用に設定する必要があります。 | [ID サービスの概要](https://experienceleague.adobe.com/en/docs/experience-platform/identity/home)、[結合ポリシーの概要](https://experienceleague.adobe.com/en/docs/experience-platform/profile/merge-policies/overview) |
-| オーディエンスの定義とセグメント化 | 必須 | オーディエンス読み取りジャーニーには、エントリオーディエンスを定義する必要があります。 セグメントは、分岐の条件ノードでも使用できます。 評価方法（バッチまたはストリーミング）は、ジャーニー入力要件と一致する必要があります。 | [ セグメント化サービスの概要](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/home)、[ セグメント ビルダーUI ガイド ](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/segment-builder) |
+| オーディエンスの定義とセグメント化 | 必須 | オーディエンス読み取りジャーニーには、エントリオーディエンスを定義する必要があります。 セグメントは、分岐の条件ノードでも使用できます。 評価方法（バッチまたはストリーミング）は、ジャーニー入力要件と一致する必要があります。 | [&#x200B; セグメント化サービスの概要](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/home)、[&#x200B; セグメント ビルダーUI ガイド &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/segment-builder) |
 
 ## サポート機能
 
@@ -124,9 +124,9 @@ ht-degree: 1%
 | 補助機能 | ステータス | なぜそれが重要なのか | Experience League リファレンス |
 | --- | --- | --- | --- |
 | 計算属性/派生属性作成 | 推奨 | エンゲージメントスコア、最後のアクティビティからの日数、生涯購入価値などの計算属性は、条件の分岐ロジックを向上させ、よりインテリジェントなジャーニーパスの決定を可能にします。 | [計算属性の概要](https://experienceleague.adobe.com/en/docs/experience-platform/profile/computed-attributes/overview) |
-| データライフサイクル管理 | 推奨 | ジャーニーイベントデータの保持は、保存を管理し、データ保持規制に準拠するために、データセットの有効期限ポリシーを使用して設定する必要があります。 同意の履行により、オプトインしたプロファイルのみが、各チャネルのタッチポイントでメッセージを受け取ることができます。 | [高度なデータライフサイクル管理の概要](https://experienceleague.adobe.com/en/docs/experience-platform/data-lifecycle/home)、[ データセットの有効期限](https://experienceleague.adobe.com/en/docs/experience-platform/data-lifecycle/ui/dataset-expiration) |
-| データ使用のラベル付けと適用 | 推奨 | ガバナンスラベルは、複数のメッセージ接点をまたいでコンプライアンスに準拠したパーソナライゼーションを保証します。特に、ジャーニーでPIIや機密データを使用してチャネルをまたいでパーソナライゼーションを行う場合は、特に重要です。 | [ データガバナンスの概要](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/home)、[ データ使用ラベルの概要](https://experienceleague.adobe.com/ja/docs/experience-platform/data-governance/labels/overview) |
-| 監視と可観測性 | 含まれる | ジャーニー実行モニタリングは、処理の失敗、プロファイル入力のボトルネック、配信の問題に関するアラートを提供します。 遅延や失敗が顧客体験に影響を与えるカスタマージャーニーに不可欠です。 | [ アラートの概要](https://experienceleague.adobe.com/en/docs/experience-platform/observability/alerts/overview)、[Observability Insightsの概要](https://experienceleague.adobe.com/en/docs/experience-platform/observability/home) |
+| データライフサイクル管理 | 推奨 | ジャーニーイベントデータの保持は、保存を管理し、データ保持規制に準拠するために、データセットの有効期限ポリシーを使用して設定する必要があります。 同意の履行により、オプトインしたプロファイルのみが、各チャネルのタッチポイントでメッセージを受け取ることができます。 | [高度なデータライフサイクル管理の概要](https://experienceleague.adobe.com/en/docs/experience-platform/data-lifecycle/home)、[&#x200B; データセットの有効期限](https://experienceleague.adobe.com/en/docs/experience-platform/data-lifecycle/ui/dataset-expiration) |
+| データ使用のラベル付けと適用 | 推奨 | ガバナンスラベルは、複数のメッセージ接点をまたいでコンプライアンスに準拠したパーソナライゼーションを保証します。特に、ジャーニーでPIIや機密データを使用してチャネルをまたいでパーソナライゼーションを行う場合は、特に重要です。 | [&#x200B; データガバナンスの概要](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/home)、[&#x200B; データ使用ラベルの概要](https://experienceleague.adobe.com/ja/docs/experience-platform/data-governance/labels/overview) |
+| 監視と可観測性 | 含まれる | ジャーニー実行モニタリングは、処理の失敗、プロファイル入力のボトルネック、配信の問題に関するアラートを提供します。 遅延や失敗が顧客体験に影響を与えるカスタマージャーニーに不可欠です。 | [&#x200B; アラートの概要](https://experienceleague.adobe.com/en/docs/experience-platform/observability/alerts/overview)、[Observability Insightsの概要](https://experienceleague.adobe.com/en/docs/experience-platform/observability/home) |
 | レポートと分析 | 含まれる | CJA funnelとジャーニー全体のフォールアウト分析により、AJOのネイティブレポートよりも詳細なinsightを実現します。 ステップバイステップのコンバージョン分析、コホート比較、ジャーニーの最適化が可能です。 | [CJAの概要](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-overview)、[Analysis Workspaceの概要](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/home) |
 
 ## アプリケーション関数
@@ -695,7 +695,7 @@ ht-degree: 1%
 
 ### ガードレールと制限
 
-- サンドボックスあたりの最大&#x200B;**500 ライブジャーニー** — [Journey Optimizer ガードレール ](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/get-started/guardrails)
+- サンドボックスあたりの最大&#x200B;**500 ライブジャーニー** — [Journey Optimizer ガードレール &#x200B;](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/get-started/guardrails)
 - 最大&#x200B;**ジャーニー期間は91日** （グローバルタイムアウト）です。タイムアウト時にまだジャーニー内にあるプロファイルは自動的に終了されます
 - ジャーニーキャンバスごとに最大&#x200B;**50 アクティビティ**&#x200B;個
 - 1秒あたり最大&#x200B;**20,000件のプロファイルを読み取るオーディエンスジャーニー処理** （デフォルトのスロットル）

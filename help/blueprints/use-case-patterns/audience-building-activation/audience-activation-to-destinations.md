@@ -96,11 +96,11 @@ ht-degree: 1%
 
 | 基本関数 | ステータス | 整えておく必要があるもの | Experience League リファレンス |
 | --- | --- | --- | --- |
-| 管理とガバナンス | 同じ位置に仮定 | プロビジョニングされたアクティブなRT-CDP サンドボックス。 実装役割に割り当てられた宛先管理とアクティベーション権限。 ターゲットプラットフォームで使用できる宛先アカウント資格情報。 | [ サンドボックスの概要](https://experienceleague.adobe.com/ja/docs/experience-platform/sandbox/home)、[ アクセス制御の概要](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/home) |
-| データモデリングと準備 | 必須 | プロファイルスキーマには、宛先フィールド（電子メール、電話、ハッシュ化されたID、デモグラフィック属性など）にマッピングされる属性を含める必要があります。 スキーマは、データセットが積極的にデータを受信するプロファイル対応である必要があります。 | [XDM システムの概要](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/home)、[ スキーマ構成の基本](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/composition) |
-| データソースと収集 | 同じ位置に仮定 | オーディエンスの評価を強化するプロファイルデータは、取り込んで最新の状態にする必要があります。 バッチまたはストリーミングの取り込みパイプラインが運用中。 Web SDK、ソースコネクタ、バッチ取り込みなどにより、プロファイル対応のデータセットにデータを配信します。 | [ ソースの概要](https://experienceleague.adobe.com/en/docs/experience-platform/sources/home)、[Web SDKの概要](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/home) |
+| 管理とガバナンス | 同じ位置に仮定 | プロビジョニングされたアクティブなRT-CDP サンドボックス。 実装役割に割り当てられた宛先管理とアクティベーション権限。 ターゲットプラットフォームで使用できる宛先アカウント資格情報。 | [&#x200B; サンドボックスの概要](https://experienceleague.adobe.com/ja/docs/experience-platform/sandbox/home)、[&#x200B; アクセス制御の概要](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/home) |
+| データモデリングと準備 | 必須 | プロファイルスキーマには、宛先フィールド（電子メール、電話、ハッシュ化されたID、デモグラフィック属性など）にマッピングされる属性を含める必要があります。 スキーマは、データセットが積極的にデータを受信するプロファイル対応である必要があります。 | [XDM システムの概要](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/home)、[&#x200B; スキーマ構成の基本](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/composition) |
+| データソースと収集 | 同じ位置に仮定 | オーディエンスの評価を強化するプロファイルデータは、取り込んで最新の状態にする必要があります。 バッチまたはストリーミングの取り込みパイプラインが運用中。 Web SDK、ソースコネクタ、バッチ取り込みなどにより、プロファイル対応のデータセットにデータを配信します。 | [&#x200B; ソースの概要](https://experienceleague.adobe.com/en/docs/experience-platform/sources/home)、[Web SDKの概要](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/home) |
 | IDとプロファイル設定 | 必須 | 宛先の照合用のID名前空間を設定する必要があります（例：Facebook Custom Audiencesのハッシュ化されたメール、Google Ads Customer Match）。 結合ポリシーでは、アクティブ化に必要なすべての属性を含む統合プロファイルを作成する必要があります。 | [ID サービスの概要](https://experienceleague.adobe.com/en/docs/experience-platform/identity/home)、[結合ポリシーの概要](https://experienceleague.adobe.com/en/docs/experience-platform/profile/merge-policies/overview) |
-| オーディエンスの定義とセグメント化 | 必須 | セグメントビルダー、オーディエンス構成、連合オーディエンス構成を使用して定義されたターゲットオーディエンス。 アクティベーションの遅延ニーズにもとづいて選択された評価方法（バッチ、ストリーミング、エッジ）。 この機能は、この計画のフェーズ 1で実行されます。 | [ セグメント化サービスの概要](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/home)、[ セグメント ビルダーUI ガイド ](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/segment-builder) |
+| オーディエンスの定義とセグメント化 | 必須 | セグメントビルダー、オーディエンス構成、連合オーディエンス構成を使用して定義されたターゲットオーディエンス。 アクティベーションの遅延ニーズにもとづいて選択された評価方法（バッチ、ストリーミング、エッジ）。 この機能は、この計画のフェーズ 1で実行されます。 | [&#x200B; セグメント化サービスの概要](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/home)、[&#x200B; セグメント ビルダーUI ガイド &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/segment-builder) |
 
 ## サポート機能
 
@@ -110,8 +110,8 @@ ht-degree: 1%
 | --- | --- | --- | --- |
 | 計算属性/派生属性作成 | 推奨 | 生涯価値、エンゲージメントスコア、傾向スコアなどの計算属性により、オーディエンスの精度が向上し、配信先にマッピングするエンリッチメント属性を提供します。 特に、価値ベースまたはスコアベースのオーディエンスセグメンテーションが配信先にとって有益な場合は、価値があります。 | [計算属性の概要](https://experienceleague.adobe.com/en/docs/experience-platform/profile/computed-attributes/overview) |
 | データライフサイクル管理 | 推奨 | データセットとプロファイルの有効期限ポリシーにより、データの鮮度とコンプライアンスを確保できます。 同意スキーマ設定では、同意したプロファイルのみがアクティブ化されます。 データを外部システムに書き出す際に、規制コンプライアンスのために不可欠です。 | [高度なデータライフサイクル管理の概要](https://experienceleague.adobe.com/en/docs/experience-platform/data-lifecycle/home) |
-| データ使用のラベル付けと適用 | 推奨 | ガバナンスラベルとポリシーは、権限のない宛先（例：広告プラットフォームへのPII、データパートナーへの機密性の高いセグメント）に対する制限されたデータのアクティブ化を防ぎます。 外部のサードパーティシステムへのオーディエンスのアクティブ化にとって特に重要です。 | [ データガバナンスの概要](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/home)、[ データ使用ラベルの概要](https://experienceleague.adobe.com/ja/docs/experience-platform/data-governance/labels/overview) |
-| 監視と可観測性 | 含まれる | アクティベーションの監視は、機能チェーンの一部です（フェーズ 5）。 データフロー実行の監視、配信ステータスのアラート、オーディエンス母集団の追跡、ライセンス使用状況の可視化について説明します。 | [宛先データフローの監視](https://experienceleague.adobe.com/en/docs/experience-platform/dataflows/ui/monitor-destinations)、[ アラートの概要](https://experienceleague.adobe.com/en/docs/experience-platform/observability/alerts/overview) |
+| データ使用のラベル付けと適用 | 推奨 | ガバナンスラベルとポリシーは、権限のない宛先（例：広告プラットフォームへのPII、データパートナーへの機密性の高いセグメント）に対する制限されたデータのアクティブ化を防ぎます。 外部のサードパーティシステムへのオーディエンスのアクティブ化にとって特に重要です。 | [&#x200B; データガバナンスの概要](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/home)、[&#x200B; データ使用ラベルの概要](https://experienceleague.adobe.com/ja/docs/experience-platform/data-governance/labels/overview) |
+| 監視と可観測性 | 含まれる | アクティベーションの監視は、機能チェーンの一部です（フェーズ 5）。 データフロー実行の監視、配信ステータスのアラート、オーディエンス母集団の追跡、ライセンス使用状況の可視化について説明します。 | [宛先データフローの監視](https://experienceleague.adobe.com/en/docs/experience-platform/dataflows/ui/monitor-destinations)、[&#x200B; アラートの概要](https://experienceleague.adobe.com/en/docs/experience-platform/observability/alerts/overview) |
 | レポートと分析 | 推奨 | CJAによるオーディエンスのアクティベーション効果の分析により、アクティベートされたオーディエンスのパフォーマンス（抑制によるコンバージョン率の向上、類似オーディエンスのROASなど）を測定できます。 | [CJAの概要](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-overview) |
 
 ## アプリケーション関数
@@ -576,15 +576,15 @@ ht-degree: 1%
 
 ### ガードレールと制限
 
-- **セグメント定義の制限：** サンドボックスあたりの最大4,000個のセグメント定義 – [ セグメント化ガードレール ](https://experienceleague.adobe.com/en/docs/experience-platform/profile/guardrails)
-- 宛先ごとの&#x200B;**データフロー：**&#x200B;宛先接続ごとに最大100個のデータフロー – [宛先ガードレール ](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/guardrails)
+- **セグメント定義の制限：** サンドボックスあたりの最大4,000個のセグメント定義 – [&#x200B; セグメント化ガードレール &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/profile/guardrails)
+- 宛先ごとの&#x200B;**データフロー：**&#x200B;宛先接続ごとに最大100個のデータフロー – [宛先ガードレール &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/guardrails)
 - **バッチ書き出しファイル サイズ：** ファイルベースの宛先には、書き出しファイル サイズの上限があります。大きなオーディエンスは、複数のファイルに自動的に分割されます
 - **ストリーミング宛先のスループット：** 1秒あたりのスループット制限は、各宛先パートナーによって設定されます。大量のオーディエンスの変更は調整される場合があります
 - **バッチ評価容量：** セグメント評価ジョブごとに、デフォルトで最大2,400万プロファイル
 - **オーディエンス構成：** キャンバスごとに最大10個の構成ブロック。構成されたオーディエンスは一括評価のみです
-- **ID グラフ：** 1つのグラフにつき最大50個のID — [ID サービス ガードレール ](https://experienceleague.adobe.com/en/docs/experience-platform/identity/guardrails)
-- **計算属性：** サンドボックスごとに最大25個の計算属性 – [計算属性のガードレール ](https://experienceleague.adobe.com/en/docs/experience-platform/profile/computed-attributes/overview#guardrails)
-- **アクティベーションガードレールの概要：** [ アクティベーションガードレール ](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/guardrails)
+- **ID グラフ：** 1つのグラフにつき最大50個のID — [ID サービス ガードレール &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/identity/guardrails)
+- **計算属性：** サンドボックスごとに最大25個の計算属性 – [計算属性のガードレール &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/profile/computed-attributes/overview#guardrails)
+- **アクティベーションガードレールの概要：** [&#x200B; アクティベーションガードレール &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/guardrails)
 
 ### よくある落とし穴
 
