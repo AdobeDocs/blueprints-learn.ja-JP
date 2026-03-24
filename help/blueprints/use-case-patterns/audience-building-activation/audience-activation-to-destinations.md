@@ -96,11 +96,11 @@ ht-degree: 1%
 
 | 基本関数 | ステータス | 整えておく必要があるもの | Experience League リファレンス |
 | --- | --- | --- | --- |
-| 管理とガバナンス | 同じ位置に仮定 | プロビジョニングされたアクティブなRT-CDP サンドボックス。 実装役割に割り当てられた宛先管理とアクティベーション権限。 ターゲットプラットフォームで使用できる宛先アカウント資格情報。 | [&#x200B; サンドボックスの概要](https://experienceleague.adobe.com/ja/docs/experience-platform/sandbox/home)、[&#x200B; アクセス制御の概要](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/home) |
-| データモデリングと準備 | 必須 | プロファイルスキーマには、宛先フィールド（電子メール、電話、ハッシュ化されたID、デモグラフィック属性など）にマッピングされる属性を含める必要があります。 スキーマは、データセットが積極的にデータを受信するプロファイル対応である必要があります。 | [XDM システムの概要](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/home)、[&#x200B; スキーマ構成の基本](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/composition) |
-| データソースと収集 | 同じ位置に仮定 | オーディエンスの評価を強化するプロファイルデータは、取り込んで最新の状態にする必要があります。 バッチまたはストリーミングの取り込みパイプラインが運用中。 Web SDK、ソースコネクタ、バッチ取り込みなどにより、プロファイル対応のデータセットにデータを配信します。 | [&#x200B; ソースの概要](https://experienceleague.adobe.com/en/docs/experience-platform/sources/home)、[Web SDKの概要](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/home) |
-| IDとプロファイル設定 | 必須 | 宛先の照合用のID名前空間を設定する必要があります（例：Facebook Custom Audiencesのハッシュ化されたメール、Google Ads Customer Match）。 結合ポリシーでは、アクティブ化に必要なすべての属性を含む統合プロファイルを作成する必要があります。 | [ID サービスの概要](https://experienceleague.adobe.com/en/docs/experience-platform/identity/home)、[結合ポリシーの概要](https://experienceleague.adobe.com/en/docs/experience-platform/profile/merge-policies/overview) |
-| オーディエンスの定義とセグメント化 | 必須 | セグメントビルダー、オーディエンス構成、連合オーディエンス構成を使用して定義されたターゲットオーディエンス。 アクティベーションの遅延ニーズにもとづいて選択された評価方法（バッチ、ストリーミング、エッジ）。 この機能は、この計画のフェーズ 1で実行されます。 | [&#x200B; セグメント化サービスの概要](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/home)、[&#x200B; セグメント ビルダーUI ガイド &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/segment-builder) |
+| 管理とガバナンス | 同じ位置に仮定 | プロビジョニングされたアクティブなRT-CDP サンドボックス。 実装役割に割り当てられた宛先管理とアクティベーション権限。 ターゲットプラットフォームで使用できる宛先アカウント資格情報。 | [&#x200B; サンドボックスの概要](https://experienceleague.adobe.com/ja/docs/experience-platform/sandbox/home)、[&#x200B; アクセス制御の概要](https://experienceleague.adobe.com/ja/docs/experience-platform/access-control/home) |
+| データモデリングと準備 | 必須 | プロファイルスキーマには、宛先フィールド（電子メール、電話、ハッシュ化されたID、デモグラフィック属性など）にマッピングされる属性を含める必要があります。 スキーマは、データセットが積極的にデータを受信するプロファイル対応である必要があります。 | [XDM システムの概要](https://experienceleague.adobe.com/ja/docs/experience-platform/xdm/home)、[&#x200B; スキーマ構成の基本](https://experienceleague.adobe.com/ja/docs/experience-platform/xdm/schema/composition) |
+| データソースと収集 | 同じ位置に仮定 | オーディエンスの評価を強化するプロファイルデータは、取り込んで最新の状態にする必要があります。 バッチまたはストリーミングの取り込みパイプラインが運用中。 Web SDK、ソースコネクタ、バッチ取り込みなどにより、プロファイル対応のデータセットにデータを配信します。 | [&#x200B; ソースの概要](https://experienceleague.adobe.com/ja/docs/experience-platform/sources/home)、[Web SDKの概要](https://experienceleague.adobe.com/ja/docs/experience-platform/web-sdk/home) |
+| IDとプロファイル設定 | 必須 | 宛先の照合用のID名前空間を設定する必要があります（例：Facebook Custom Audiencesのハッシュ化されたメール、Google Ads Customer Match）。 結合ポリシーでは、アクティブ化に必要なすべての属性を含む統合プロファイルを作成する必要があります。 | [ID サービスの概要](https://experienceleague.adobe.com/ja/docs/experience-platform/identity/home)、[結合ポリシーの概要](https://experienceleague.adobe.com/ja/docs/experience-platform/profile/merge-policies/overview) |
+| オーディエンスの定義とセグメント化 | 必須 | セグメントビルダー、オーディエンス構成、連合オーディエンス構成を使用して定義されたターゲットオーディエンス。 アクティベーションの遅延ニーズにもとづいて選択された評価方法（バッチ、ストリーミング、エッジ）。 この機能は、この計画のフェーズ 1で実行されます。 | [&#x200B; セグメント化サービスの概要](https://experienceleague.adobe.com/ja/docs/experience-platform/segmentation/home)、[&#x200B; セグメント ビルダーUI ガイド &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/segmentation/ui/segment-builder) |
 
 ## サポート機能
 
@@ -108,11 +108,11 @@ ht-degree: 1%
 
 | 補助機能 | ステータス | なぜそれが重要なのか | Experience League リファレンス |
 | --- | --- | --- | --- |
-| 計算属性/派生属性作成 | 推奨 | 生涯価値、エンゲージメントスコア、傾向スコアなどの計算属性により、オーディエンスの精度が向上し、配信先にマッピングするエンリッチメント属性を提供します。 特に、価値ベースまたはスコアベースのオーディエンスセグメンテーションが配信先にとって有益な場合は、価値があります。 | [計算属性の概要](https://experienceleague.adobe.com/en/docs/experience-platform/profile/computed-attributes/overview) |
-| データライフサイクル管理 | 推奨 | データセットとプロファイルの有効期限ポリシーにより、データの鮮度とコンプライアンスを確保できます。 同意スキーマ設定では、同意したプロファイルのみがアクティブ化されます。 データを外部システムに書き出す際に、規制コンプライアンスのために不可欠です。 | [高度なデータライフサイクル管理の概要](https://experienceleague.adobe.com/en/docs/experience-platform/data-lifecycle/home) |
-| データ使用のラベル付けと適用 | 推奨 | ガバナンスラベルとポリシーは、権限のない宛先（例：広告プラットフォームへのPII、データパートナーへの機密性の高いセグメント）に対する制限されたデータのアクティブ化を防ぎます。 外部のサードパーティシステムへのオーディエンスのアクティブ化にとって特に重要です。 | [&#x200B; データガバナンスの概要](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/home)、[&#x200B; データ使用ラベルの概要](https://experienceleague.adobe.com/ja/docs/experience-platform/data-governance/labels/overview) |
-| 監視と可観測性 | 含まれる | アクティベーションの監視は、機能チェーンの一部です（フェーズ 5）。 データフロー実行の監視、配信ステータスのアラート、オーディエンス母集団の追跡、ライセンス使用状況の可視化について説明します。 | [宛先データフローの監視](https://experienceleague.adobe.com/en/docs/experience-platform/dataflows/ui/monitor-destinations)、[&#x200B; アラートの概要](https://experienceleague.adobe.com/en/docs/experience-platform/observability/alerts/overview) |
-| レポートと分析 | 推奨 | CJAによるオーディエンスのアクティベーション効果の分析により、アクティベートされたオーディエンスのパフォーマンス（抑制によるコンバージョン率の向上、類似オーディエンスのROASなど）を測定できます。 | [CJAの概要](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-overview) |
+| 計算属性/派生属性作成 | 推奨 | 生涯価値、エンゲージメントスコア、傾向スコアなどの計算属性により、オーディエンスの精度が向上し、配信先にマッピングするエンリッチメント属性を提供します。 特に、価値ベースまたはスコアベースのオーディエンスセグメンテーションが配信先にとって有益な場合は、価値があります。 | [計算属性の概要](https://experienceleague.adobe.com/ja/docs/experience-platform/profile/computed-attributes/overview) |
+| データライフサイクル管理 | 推奨 | データセットとプロファイルの有効期限ポリシーにより、データの鮮度とコンプライアンスを確保できます。 同意スキーマ設定では、同意したプロファイルのみがアクティブ化されます。 データを外部システムに書き出す際に、規制コンプライアンスのために不可欠です。 | [高度なデータライフサイクル管理の概要](https://experienceleague.adobe.com/ja/docs/experience-platform/data-lifecycle/home) |
+| データ使用のラベル付けと適用 | 推奨 | ガバナンスラベルとポリシーは、権限のない宛先（例：広告プラットフォームへのPII、データパートナーへの機密性の高いセグメント）に対する制限されたデータのアクティブ化を防ぎます。 外部のサードパーティシステムへのオーディエンスのアクティブ化にとって特に重要です。 | [&#x200B; データガバナンスの概要](https://experienceleague.adobe.com/ja/docs/experience-platform/data-governance/home)、[&#x200B; データ使用ラベルの概要](https://experienceleague.adobe.com/ja/docs/experience-platform/data-governance/labels/overview) |
+| 監視と可観測性 | 含まれる | アクティベーションの監視は、機能チェーンの一部です（フェーズ 5）。 データフロー実行の監視、配信ステータスのアラート、オーディエンス母集団の追跡、ライセンス使用状況の可視化について説明します。 | [宛先データフローの監視](https://experienceleague.adobe.com/ja/docs/experience-platform/dataflows/ui/monitor-destinations)、[&#x200B; アラートの概要](https://experienceleague.adobe.com/ja/docs/experience-platform/observability/alerts/overview) |
+| レポートと分析 | 推奨 | CJAによるオーディエンスのアクティベーション効果の分析により、アクティベートされたオーディエンスのパフォーマンス（抑制によるコンバージョン率の向上、類似オーディエンスのROASなど）を測定できます。 | [CJAの概要](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/cja-overview/cja-overview) |
 
 ## アプリケーション関数
 
@@ -179,8 +179,8 @@ ht-degree: 1%
 
 **Experience League:**
 
-- [ストリーミング配信先でオーディエンスを活用](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/activate-segment-streaming-destinations)
-- [ストリーミング宛先カタログ](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/overview)
+- [ストリーミング配信先でオーディエンスを活用](https://experienceleague.adobe.com/ja/docs/experience-platform/destinations/ui/activate/activate-segment-streaming-destinations)
+- [ストリーミング宛先カタログ](https://experienceleague.adobe.com/ja/docs/experience-platform/destinations/catalog/overview)
 
 ### オプション B：バッチ宛先のアクティブ化（ファイルの書き出し）
 
@@ -218,7 +218,7 @@ ht-degree: 1%
 
 **Experience League:**
 
-- [バッチプロファイル書き出し宛先へのオーディエンスのアクティベート](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/activate-batch-profile-destinations)
+- [バッチプロファイル書き出し宛先へのオーディエンスのアクティベート](https://experienceleague.adobe.com/ja/docs/experience-platform/destinations/ui/activate/activate-batch-profile-destinations)
 - [ファイルベースの宛先カタログ](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/cloud-storage)
 
 ### オプション C：複数の宛先でのアクティベーション
@@ -256,8 +256,8 @@ ht-degree: 1%
 
 **Experience League:**
 
-- [宛先の概要](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/home)
-- [宛先カタログ](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/overview)
+- [宛先の概要](https://experienceleague.adobe.com/ja/docs/experience-platform/destinations/home)
+- [宛先カタログ](https://experienceleague.adobe.com/ja/docs/experience-platform/destinations/catalog/overview)
 
 ### オプションの比較
 
@@ -352,13 +352,13 @@ ht-degree: 1%
 
 **Experience League ドキュメント：**
 
-- [セグメント サービスの概要](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/home)
-- [セグメントビルダーUI ガイド](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/segment-builder)
-- [Profile Query Language リファレンス](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/pql/overview)
-- [ストリーミングセグメンテーション](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/methods/streaming-segmentation)
-- [エッジセグメント化](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/methods/edge-segmentation)
-- [オーディエンス構成の概要](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/audience-composition)
-- [評価方法](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/home#evaluation-methods)
+- [セグメント サービスの概要](https://experienceleague.adobe.com/ja/docs/experience-platform/segmentation/home)
+- [セグメントビルダーUI ガイド](https://experienceleague.adobe.com/ja/docs/experience-platform/segmentation/ui/segment-builder)
+- [Profile Query Language リファレンス](https://experienceleague.adobe.com/ja/docs/experience-platform/segmentation/pql/overview)
+- [ストリーミングセグメンテーション](https://experienceleague.adobe.com/ja/docs/experience-platform/segmentation/methods/streaming-segmentation)
+- [エッジセグメント化](https://experienceleague.adobe.com/ja/docs/experience-platform/segmentation/methods/edge-segmentation)
+- [オーディエンス構成の概要](https://experienceleague.adobe.com/ja/docs/experience-platform/segmentation/ui/audience-composition)
+- [評価方法](https://experienceleague.adobe.com/ja/docs/experience-platform/segmentation/home#evaluation-methods)
 
 
 ### フェーズ 2：宛先設定
@@ -430,12 +430,12 @@ ht-degree: 1%
 
 **Experience League ドキュメント：**
 
-- [宛先カタログ](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/overview)
-- [宛先の概要](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/home)
-- [バッチプロファイル書き出し宛先へのオーディエンスのアクティベート](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/activate-batch-profile-destinations)
-- [ストリーミング配信先でオーディエンスを活用](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/activate-segment-streaming-destinations)
-- [Destination SDKの概要](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/destination-sdk/overview)
-- [Destination SDKの設定オプション](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/destination-sdk/functionality/configuration-options)
+- [宛先カタログ](https://experienceleague.adobe.com/ja/docs/experience-platform/destinations/catalog/overview)
+- [宛先の概要](https://experienceleague.adobe.com/ja/docs/experience-platform/destinations/home)
+- [バッチプロファイル書き出し宛先へのオーディエンスのアクティベート](https://experienceleague.adobe.com/ja/docs/experience-platform/destinations/ui/activate/activate-batch-profile-destinations)
+- [ストリーミング配信先でオーディエンスを活用](https://experienceleague.adobe.com/ja/docs/experience-platform/destinations/ui/activate/activate-segment-streaming-destinations)
+- [Destination SDKの概要](https://experienceleague.adobe.com/ja/docs/experience-platform/destinations/destination-sdk/overview)
+- [Destination SDKの設定オプション](https://experienceleague.adobe.com/ja/docs/experience-platform/destinations/destination-sdk/functionality/configuration-options)
 
 
 ### フェーズ 3：オーディエンスのアクティベーション
@@ -493,10 +493,10 @@ ht-degree: 1%
 
 **Experience League ドキュメント：**
 
-- [ストリーミング配信先でオーディエンスを活用](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/activate-segment-streaming-destinations)
-- [バッチプロファイル書き出し宛先へのオーディエンスのアクティベート](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/activate-batch-profile-destinations)
-- [バッチ配信先でオンデマンドでオーディエンスを活用](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/api/ad-hoc-activation-api)
-- [宛先のデータフローの監視](https://experienceleague.adobe.com/en/docs/experience-platform/dataflows/ui/monitor-destinations)
+- [ストリーミング配信先でオーディエンスを活用](https://experienceleague.adobe.com/ja/docs/experience-platform/destinations/ui/activate/activate-segment-streaming-destinations)
+- [バッチプロファイル書き出し宛先へのオーディエンスのアクティベート](https://experienceleague.adobe.com/ja/docs/experience-platform/destinations/ui/activate/activate-batch-profile-destinations)
+- [バッチ配信先でオンデマンドでオーディエンスを活用](https://experienceleague.adobe.com/ja/docs/experience-platform/destinations/api/ad-hoc-activation-api)
+- [宛先のデータフローの監視](https://experienceleague.adobe.com/ja/docs/experience-platform/dataflows/ui/monitor-destinations)
 
 
 ### フェーズ 4：ガバナンスの検証
@@ -540,11 +540,11 @@ ht-degree: 1%
 
 **Experience League ドキュメント：**
 
-- [データガバナンスの概要](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/home)
-- [ポリシーの適用](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/enforcement/overview)
+- [データガバナンスの概要](https://experienceleague.adobe.com/ja/docs/experience-platform/data-governance/home)
+- [ポリシーの適用](https://experienceleague.adobe.com/ja/docs/experience-platform/data-governance/enforcement/overview)
 - [データ使用状況ラベルの概要](https://experienceleague.adobe.com/ja/docs/experience-platform/data-governance/labels/overview)
 - [同意と環境設定](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/consent/adobe/overview)
-- [同意ポリシーの適用](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/policies/user-guide)
+- [同意ポリシーの適用](https://experienceleague.adobe.com/ja/docs/experience-platform/data-governance/policies/user-guide)
 
 
 ### フェーズ 5：監視と検証
@@ -565,9 +565,9 @@ ht-degree: 1%
 
 **Experience League ドキュメント：**
 
-- [宛先のデータフローの監視](https://experienceleague.adobe.com/en/docs/experience-platform/dataflows/ui/monitor-destinations)
-- [アラートの概要](https://experienceleague.adobe.com/en/docs/experience-platform/observability/alerts/overview)
-- [Observability Insightsの概要](https://experienceleague.adobe.com/en/docs/experience-platform/observability/home)
+- [宛先のデータフローの監視](https://experienceleague.adobe.com/ja/docs/experience-platform/dataflows/ui/monitor-destinations)
+- [アラートの概要](https://experienceleague.adobe.com/ja/docs/experience-platform/observability/alerts/overview)
+- [Observability Insightsの概要](https://experienceleague.adobe.com/ja/docs/experience-platform/observability/home)
 - [ライセンス使用状況ダッシュボード](https://experienceleague.adobe.com/en/docs/experience-platform/landing/license-usage-and-guardrails/license-usage-dashboard)
 
 ## 実装に関する考慮事項
@@ -576,15 +576,15 @@ ht-degree: 1%
 
 ### ガードレールと制限
 
-- **セグメント定義の制限：** サンドボックスあたりの最大4,000個のセグメント定義 – [&#x200B; セグメント化ガードレール &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/profile/guardrails)
-- 宛先ごとの&#x200B;**データフロー：**&#x200B;宛先接続ごとに最大100個のデータフロー – [宛先ガードレール &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/guardrails)
+- **セグメント定義の制限：** サンドボックスあたりの最大4,000個のセグメント定義 – [&#x200B; セグメント化ガードレール &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/profile/guardrails)
+- 宛先ごとの&#x200B;**データフロー：**&#x200B;宛先接続ごとに最大100個のデータフロー – [宛先ガードレール &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/destinations/guardrails)
 - **バッチ書き出しファイル サイズ：** ファイルベースの宛先には、書き出しファイル サイズの上限があります。大きなオーディエンスは、複数のファイルに自動的に分割されます
 - **ストリーミング宛先のスループット：** 1秒あたりのスループット制限は、各宛先パートナーによって設定されます。大量のオーディエンスの変更は調整される場合があります
 - **バッチ評価容量：** セグメント評価ジョブごとに、デフォルトで最大2,400万プロファイル
 - **オーディエンス構成：** キャンバスごとに最大10個の構成ブロック。構成されたオーディエンスは一括評価のみです
-- **ID グラフ：** 1つのグラフにつき最大50個のID — [ID サービス ガードレール &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/identity/guardrails)
-- **計算属性：** サンドボックスごとに最大25個の計算属性 – [計算属性のガードレール &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/profile/computed-attributes/overview#guardrails)
-- **アクティベーションガードレールの概要：** [&#x200B; アクティベーションガードレール &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/guardrails)
+- **ID グラフ：** 1つのグラフにつき最大50個のID — [ID サービス ガードレール &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/identity/guardrails)
+- **計算属性：** サンドボックスごとに最大25個の計算属性 – [計算属性のガードレール &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/profile/computed-attributes/overview#guardrails)
+- **アクティベーションガードレールの概要：** [&#x200B; アクティベーションガードレール &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/destinations/guardrails)
 
 ### よくある落とし穴
 
@@ -654,72 +654,72 @@ ht-degree: 1%
 
 **宛先**
 
-- [宛先の概要](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/home)
-- [宛先カタログ](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/overview)
-- [ストリーミング配信先でオーディエンスを活用](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/activate-segment-streaming-destinations)
-- [バッチプロファイル書き出し宛先へのオーディエンスのアクティベート](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/activate-batch-profile-destinations)
-- [バッチ配信先でオンデマンドでオーディエンスを活用](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/api/ad-hoc-activation-api)
-- [宛先のガードレール](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/guardrails)
-- [Destination SDKの概要](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/destination-sdk/overview)
+- [宛先の概要](https://experienceleague.adobe.com/ja/docs/experience-platform/destinations/home)
+- [宛先カタログ](https://experienceleague.adobe.com/ja/docs/experience-platform/destinations/catalog/overview)
+- [ストリーミング配信先でオーディエンスを活用](https://experienceleague.adobe.com/ja/docs/experience-platform/destinations/ui/activate/activate-segment-streaming-destinations)
+- [バッチプロファイル書き出し宛先へのオーディエンスのアクティベート](https://experienceleague.adobe.com/ja/docs/experience-platform/destinations/ui/activate/activate-batch-profile-destinations)
+- [バッチ配信先でオンデマンドでオーディエンスを活用](https://experienceleague.adobe.com/ja/docs/experience-platform/destinations/api/ad-hoc-activation-api)
+- [宛先のガードレール](https://experienceleague.adobe.com/ja/docs/experience-platform/destinations/guardrails)
+- [Destination SDKの概要](https://experienceleague.adobe.com/ja/docs/experience-platform/destinations/destination-sdk/overview)
 
 **オーディエンスとセグメント化**
 
-- [セグメント サービスの概要](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/home)
-- [セグメントビルダーUI ガイド](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/segment-builder)
-- [Profile Query Language リファレンス](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/pql/overview)
-- [ストリーミングセグメンテーション](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/methods/streaming-segmentation)
-- [エッジセグメント化](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/methods/edge-segmentation)
-- [オーディエンス構成の概要](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/audience-composition)
-- [セグメント化のガードレール](https://experienceleague.adobe.com/en/docs/experience-platform/profile/guardrails)
+- [セグメント サービスの概要](https://experienceleague.adobe.com/ja/docs/experience-platform/segmentation/home)
+- [セグメントビルダーUI ガイド](https://experienceleague.adobe.com/ja/docs/experience-platform/segmentation/ui/segment-builder)
+- [Profile Query Language リファレンス](https://experienceleague.adobe.com/ja/docs/experience-platform/segmentation/pql/overview)
+- [ストリーミングセグメンテーション](https://experienceleague.adobe.com/ja/docs/experience-platform/segmentation/methods/streaming-segmentation)
+- [エッジセグメント化](https://experienceleague.adobe.com/ja/docs/experience-platform/segmentation/methods/edge-segmentation)
+- [オーディエンス構成の概要](https://experienceleague.adobe.com/ja/docs/experience-platform/segmentation/ui/audience-composition)
+- [セグメント化のガードレール](https://experienceleague.adobe.com/ja/docs/experience-platform/profile/guardrails)
 
 **IDとプロファイル**
 
-- [ID サービスの概要](https://experienceleague.adobe.com/en/docs/experience-platform/identity/home)
+- [ID サービスの概要](https://experienceleague.adobe.com/ja/docs/experience-platform/identity/home)
 - [ID名前空間の概要](https://experienceleague.adobe.com/ja/docs/experience-platform/identity/features/namespaces)
-- [ID グラフのリンクルール](https://experienceleague.adobe.com/en/docs/experience-platform/identity/features/identity-linking-logic)
-- [プロファイルの概要](https://experienceleague.adobe.com/en/docs/experience-platform/profile/home)
-- [結合ポリシーの概要](https://experienceleague.adobe.com/en/docs/experience-platform/profile/merge-policies/overview)
+- [ID グラフのリンクルール](https://experienceleague.adobe.com/ja/docs/experience-platform/identity/features/identity-linking-logic)
+- [プロファイルの概要](https://experienceleague.adobe.com/ja/docs/experience-platform/profile/home)
+- [結合ポリシーの概要](https://experienceleague.adobe.com/ja/docs/experience-platform/profile/merge-policies/overview)
 
 **データモデリングとスキーマ**
 
-- [XDM システムの概要](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/home)
-- [スキーマ構成の基本](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/composition)
+- [XDM システムの概要](https://experienceleague.adobe.com/ja/docs/experience-platform/xdm/home)
+- [スキーマ構成の基本](https://experienceleague.adobe.com/ja/docs/experience-platform/xdm/schema/composition)
 
 **データガバナンス**
 
-- [データガバナンスの概要](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/home)
+- [データガバナンスの概要](https://experienceleague.adobe.com/ja/docs/experience-platform/data-governance/home)
 - [データ使用状況ラベルの概要](https://experienceleague.adobe.com/ja/docs/experience-platform/data-governance/labels/overview)
-- [データガバナンスポリシー](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/policies/overview)
-- [ポリシーの適用](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/enforcement/overview)
+- [データガバナンスポリシー](https://experienceleague.adobe.com/ja/docs/experience-platform/data-governance/policies/overview)
+- [ポリシーの適用](https://experienceleague.adobe.com/ja/docs/experience-platform/data-governance/enforcement/overview)
 - [同意と環境設定](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/consent/adobe/overview)
 
 **監視と監視**
 
-- [宛先のデータフローの監視](https://experienceleague.adobe.com/en/docs/experience-platform/dataflows/ui/monitor-destinations)
-- [アラートの概要](https://experienceleague.adobe.com/en/docs/experience-platform/observability/alerts/overview)
-- [Observability Insightsの概要](https://experienceleague.adobe.com/en/docs/experience-platform/observability/home)
+- [宛先のデータフローの監視](https://experienceleague.adobe.com/ja/docs/experience-platform/dataflows/ui/monitor-destinations)
+- [アラートの概要](https://experienceleague.adobe.com/ja/docs/experience-platform/observability/alerts/overview)
+- [Observability Insightsの概要](https://experienceleague.adobe.com/ja/docs/experience-platform/observability/home)
 - [ライセンス使用状況ダッシュボード](https://experienceleague.adobe.com/en/docs/experience-platform/landing/license-usage-and-guardrails/license-usage-dashboard)
 
 **計算属性**
 
-- [計算属性の概要](https://experienceleague.adobe.com/en/docs/experience-platform/profile/computed-attributes/overview)
-- [計算属性UI ガイド](https://experienceleague.adobe.com/en/docs/experience-platform/profile/computed-attributes/ui)
+- [計算属性の概要](https://experienceleague.adobe.com/ja/docs/experience-platform/profile/computed-attributes/overview)
+- [計算属性UI ガイド](https://experienceleague.adobe.com/ja/docs/experience-platform/profile/computed-attributes/ui)
 
 **データの収集とソース**
 
-- [ソースの概要](https://experienceleague.adobe.com/en/docs/experience-platform/sources/home)
-- [Web SDKの概要](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/home)
-- [データストリームの設定](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/configure)
+- [ソースの概要](https://experienceleague.adobe.com/ja/docs/experience-platform/sources/home)
+- [Web SDKの概要](https://experienceleague.adobe.com/ja/docs/experience-platform/web-sdk/home)
+- [データストリームの設定](https://experienceleague.adobe.com/ja/docs/experience-platform/datastreams/configure)
 
 **管理**
 
 - [サンドボックスの概要](https://experienceleague.adobe.com/ja/docs/experience-platform/sandbox/home)
-- [アクセス制御の概要](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/home)
-- [属性ベースのアクセス制御](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/overview)
+- [アクセス制御の概要](https://experienceleague.adobe.com/ja/docs/experience-platform/access-control/home)
+- [属性ベースのアクセス制御](https://experienceleague.adobe.com/ja/docs/experience-platform/access-control/abac/overview)
 
 **ガードレール**
 
-- [リアルタイムの顧客プロファイルのガードレール](https://experienceleague.adobe.com/en/docs/experience-platform/profile/guardrails)
-- [ID サービスのガードレール](https://experienceleague.adobe.com/en/docs/experience-platform/identity/guardrails)
-- [アクティベーションガードレール](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/guardrails)
-- [取り込みのガードレール](https://experienceleague.adobe.com/en/docs/experience-platform/ingestion/guardrails)
+- [リアルタイムの顧客プロファイルのガードレール](https://experienceleague.adobe.com/ja/docs/experience-platform/profile/guardrails)
+- [ID サービスのガードレール](https://experienceleague.adobe.com/ja/docs/experience-platform/identity/guardrails)
+- [アクティベーションガードレール](https://experienceleague.adobe.com/ja/docs/experience-platform/destinations/guardrails)
+- [取り込みのガードレール](https://experienceleague.adobe.com/ja/docs/experience-platform/ingestion/guardrails)
