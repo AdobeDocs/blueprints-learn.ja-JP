@@ -116,11 +116,11 @@ ht-degree: 1%
 
 | 基本関数 | ステータス | 整えておくべきもの | Experience League リファレンス |
 | --- | --- | --- | --- |
-| 管理とガバナンス | 同じ位置に仮定 | アクティブなチャネル設定でプロビジョニングされたAJO サンドボックス。 ジャーニーの制作と公開の権限を実装チームに割り当て。 ジャーニー管理、コンテンツオーサリング、チャネル管理用に設定されたユーザー役割。 | [&#x200B; サンドボックスの概要](https://experienceleague.adobe.com/ja/docs/experience-platform/sandbox/home)、[&#x200B; アクセス制御の概要](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/home) |
-| データモデリングと準備 | 必須 | XDM ExperienceEvent スキーマは、条件の評価とメッセージのパーソナライゼーションに必要なすべてのコンテキストフィールド（例：カートイベント、製品の詳細、カート値の`commerce.productListAdds`）を含むトリガーイベントを取得する必要があります。 リアルタイム顧客プロファイルのスキーマを有効にする必要があります。 対応するデータセットを作成し、プロファイルを有効にする必要があります。 | [XDM システムの概要](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/home)、[&#x200B; スキーマ構成の基本](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/composition) |
-| データソースと収集 | 必須 | リアルタイムイベントストリーミングは、web イベント用のWeb SDK、アプリイベント用のMobile SDK、システムイベント用のEdge Network Server APIなど、設定する必要があります。 データストリームは、AEPおよびAJO サービスを有効にして設定し、イベントを正しいデータセットにルーティングする必要があります。 パターンはリアルタイムのイベント取り込みに依存するため、これは重要な依存関係です。 | [Web SDKの概要](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/home)、[&#x200B; データストリームの設定](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/configure) |
-| IDとプロファイル設定 | 必須 | ジャーニーがプロファイルを解決してメッセージを配信できるように、トリガーイベントを既知のID （電子メール、CRM ID、または認証されたセッション）に関連付ける必要があります。 ID名前空間は、トリガーイベントで使用される識別子に対して存在する必要があります。 匿名イベントでは、メッセージを配信する前に、ID グラフを介してIDをつなぎ合わせる必要があります。 結合ポリシーを設定する必要があります。 | [ID サービスの概要](https://experienceleague.adobe.com/en/docs/experience-platform/identity/home)、[結合ポリシーの概要](https://experienceleague.adobe.com/en/docs/experience-platform/profile/merge-policies/overview) |
-| オーディエンスの定義とセグメント化 | 推奨 | イベントをトリガーとするジャーニーには厳密に必要ではありませんが（入力はイベントベースで、オーディエンスベースではありません）、オーディエンスセグメントは、ジャーニー内の条件評価に使用できます（例えば、プロファイルが「価値の高い顧客」セグメントにある場合にのみ送信するか、プロファイルが「最近連絡を取った」セグメントにある場合は抑制します）。 ジャーニー内のリアルタイムのセグメントメンバーシップチェックには、ストリーミング評価をお勧めします。 | [&#x200B; セグメント化サービスの概要](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/home)、[&#x200B; ストリーミングセグメント化](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/methods/streaming-segmentation) |
+| 管理とガバナンス | 同じ位置に仮定 | アクティブなチャネル設定でプロビジョニングされたAJO サンドボックス。 ジャーニーの制作と公開の権限を実装チームに割り当て。 ジャーニー管理、コンテンツオーサリング、チャネル管理用に設定されたユーザー役割。 | [&#x200B; サンドボックスの概要](https://experienceleague.adobe.com/ja/docs/experience-platform/sandbox/home)、[&#x200B; アクセス制御の概要](https://experienceleague.adobe.com/ja/docs/experience-platform/access-control/home) |
+| データモデリングと準備 | 必須 | XDM ExperienceEvent スキーマは、条件の評価とメッセージのパーソナライゼーションに必要なすべてのコンテキストフィールド（例：カートイベント、製品の詳細、カート値の`commerce.productListAdds`）を含むトリガーイベントを取得する必要があります。 リアルタイム顧客プロファイルのスキーマを有効にする必要があります。 対応するデータセットを作成し、プロファイルを有効にする必要があります。 | [XDM システムの概要](https://experienceleague.adobe.com/ja/docs/experience-platform/xdm/home)、[&#x200B; スキーマ構成の基本](https://experienceleague.adobe.com/ja/docs/experience-platform/xdm/schema/composition) |
+| データソースと収集 | 必須 | リアルタイムイベントストリーミングは、web イベント用のWeb SDK、アプリイベント用のMobile SDK、システムイベント用のEdge Network Server APIなど、設定する必要があります。 データストリームは、AEPおよびAJO サービスを有効にして設定し、イベントを正しいデータセットにルーティングする必要があります。 パターンはリアルタイムのイベント取り込みに依存するため、これは重要な依存関係です。 | [Web SDKの概要](https://experienceleague.adobe.com/ja/docs/experience-platform/web-sdk/home)、[&#x200B; データストリームの設定](https://experienceleague.adobe.com/ja/docs/experience-platform/datastreams/configure) |
+| IDとプロファイル設定 | 必須 | ジャーニーがプロファイルを解決してメッセージを配信できるように、トリガーイベントを既知のID （電子メール、CRM ID、または認証されたセッション）に関連付ける必要があります。 ID名前空間は、トリガーイベントで使用される識別子に対して存在する必要があります。 匿名イベントでは、メッセージを配信する前に、ID グラフを介してIDをつなぎ合わせる必要があります。 結合ポリシーを設定する必要があります。 | [ID サービスの概要](https://experienceleague.adobe.com/ja/docs/experience-platform/identity/home)、[結合ポリシーの概要](https://experienceleague.adobe.com/ja/docs/experience-platform/profile/merge-policies/overview) |
+| オーディエンスの定義とセグメント化 | 推奨 | イベントをトリガーとするジャーニーには厳密に必要ではありませんが（入力はイベントベースで、オーディエンスベースではありません）、オーディエンスセグメントは、ジャーニー内の条件評価に使用できます（例えば、プロファイルが「価値の高い顧客」セグメントにある場合にのみ送信するか、プロファイルが「最近連絡を取った」セグメントにある場合は抑制します）。 ジャーニー内のリアルタイムのセグメントメンバーシップチェックには、ストリーミング評価をお勧めします。 | [&#x200B; セグメント化サービスの概要](https://experienceleague.adobe.com/ja/docs/experience-platform/segmentation/home)、[&#x200B; ストリーミングセグメント化](https://experienceleague.adobe.com/ja/docs/experience-platform/segmentation/methods/streaming-segmentation) |
 
 ## サポート機能
 
@@ -128,11 +128,11 @@ ht-degree: 1%
 
 | サポート機能 | ステータス | アドビが重要である理由 | Experience League リファレンス |
 | --- | --- | --- | --- |
-| 計算属性/派生属性作成 | 推奨 | カート放棄率、最後の購入からの日数、平均注文額、生涯購入額などの計算属性により、トリガーされたジャーニー内での条件の評価とパーソナライゼーションが向上します。 これらの行動集計は、より正確なターゲティング上の意思決定を可能にします（例えば、初めての放棄した顧客と再放棄した顧客を区別します）。 | [計算属性の概要](https://experienceleague.adobe.com/en/docs/experience-platform/profile/computed-attributes/overview) |
-| データライフサイクル管理 | 推奨 | イベントデータの有効期限は、一時的な行動イベント（ページビュー、検索、クリック）に対して設定し、ストレージコストとコンプライアンスを管理する必要があります。 メッセージの配信中に、チャネル固有のオプトイン/オプトアウトの適用のために、同意スキーマフィールドが存在する必要があります。 | [高度なデータライフサイクル管理の概要](https://experienceleague.adobe.com/en/docs/experience-platform/data-lifecycle/home)、[&#x200B; データセットの有効期限](https://experienceleague.adobe.com/en/docs/experience-platform/data-lifecycle/ui/dataset-expiration) |
-| データ使用のラベル付けと適用 | 推奨 | イベントフィールドとプロファイルフィールドにガバナンスラベルを配置することで、コンプライアンスを遵守したパーソナライゼーションを実現。 トリガーされたメッセージに、PIIや行動データを使用したパーソナライズされたコンテンツが含まれる場合は、メッセージのコンテンツでデータが不正に使用されるのを防ぐために、データ使用ラベルとガバナンスポリシーを見直す必要があります。 | [&#x200B; データガバナンスの概要](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/home)、[&#x200B; データ使用ラベルの概要](https://experienceleague.adobe.com/ja/docs/experience-platform/data-governance/labels/overview) |
-| 監視と可観測性 | 含まれる | ジャーニー実行のモニタリングは、レポートフェーズの一部です。 さらに、イベント取り込みエラーまたはジャーニー処理の遅延に対してアラートを設定し、トリガーメッセージの送信を妨げるパイプラインの問題を検出します。 | [&#x200B; アラートの概要](https://experienceleague.adobe.com/en/docs/experience-platform/observability/alerts/overview)、[Observability Insightsの概要](https://experienceleague.adobe.com/en/docs/experience-platform/observability/home) |
-| レポートと分析 | 含まれる | ジャーニーパフォーマンスレポートについては、レポートフェーズで説明します。 トリガーされたメッセージの有効性を、チャネル全体および経時的により詳細に分析するには、CJAの接続とワークスペースを設定して、コンバージョンアトリビューション、コンバージョンまでの時間、チャネルのパフォーマンスを分析します。 | [CJAの概要](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-overview)、[AJOとCJAの連携ガイド &#x200B;](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/reporting/channel-report/cja-ajo) |
+| 計算属性/派生属性作成 | 推奨 | カート放棄率、最後の購入からの日数、平均注文額、生涯購入額などの計算属性により、トリガーされたジャーニー内での条件の評価とパーソナライゼーションが向上します。 これらの行動集計は、より正確なターゲティング上の意思決定を可能にします（例えば、初めての放棄した顧客と再放棄した顧客を区別します）。 | [計算属性の概要](https://experienceleague.adobe.com/ja/docs/experience-platform/profile/computed-attributes/overview) |
+| データライフサイクル管理 | 推奨 | イベントデータの有効期限は、一時的な行動イベント（ページビュー、検索、クリック）に対して設定し、ストレージコストとコンプライアンスを管理する必要があります。 メッセージの配信中に、チャネル固有のオプトイン/オプトアウトの適用のために、同意スキーマフィールドが存在する必要があります。 | [高度なデータライフサイクル管理の概要](https://experienceleague.adobe.com/ja/docs/experience-platform/data-lifecycle/home)、[&#x200B; データセットの有効期限](https://experienceleague.adobe.com/ja/docs/experience-platform/data-lifecycle/ui/dataset-expiration) |
+| データ使用のラベル付けと適用 | 推奨 | イベントフィールドとプロファイルフィールドにガバナンスラベルを配置することで、コンプライアンスを遵守したパーソナライゼーションを実現。 トリガーされたメッセージに、PIIや行動データを使用したパーソナライズされたコンテンツが含まれる場合は、メッセージのコンテンツでデータが不正に使用されるのを防ぐために、データ使用ラベルとガバナンスポリシーを見直す必要があります。 | [&#x200B; データガバナンスの概要](https://experienceleague.adobe.com/ja/docs/experience-platform/data-governance/home)、[&#x200B; データ使用ラベルの概要](https://experienceleague.adobe.com/ja/docs/experience-platform/data-governance/labels/overview) |
+| 監視と可観測性 | 含まれる | ジャーニー実行のモニタリングは、レポートフェーズの一部です。 さらに、イベント取り込みエラーまたはジャーニー処理の遅延に対してアラートを設定し、トリガーメッセージの送信を妨げるパイプラインの問題を検出します。 | [&#x200B; アラートの概要](https://experienceleague.adobe.com/ja/docs/experience-platform/observability/alerts/overview)、[Observability Insightsの概要](https://experienceleague.adobe.com/ja/docs/experience-platform/observability/home) |
+| レポートと分析 | 含まれる | ジャーニーパフォーマンスレポートについては、レポートフェーズで説明します。 トリガーされたメッセージの有効性を、チャネル全体および経時的により詳細に分析するには、CJAの接続とワークスペースを設定して、コンバージョンアトリビューション、コンバージョンまでの時間、チャネルのパフォーマンスを分析します。 | [CJAの概要](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/cja-overview/cja-overview)、[AJOとCJAの連携ガイド &#x200B;](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/reporting/channel-report/cja-ajo) |
 
 ## アプリケーション関数
 
@@ -206,8 +206,8 @@ ht-degree: 1%
 
 **Experience League:**
 
-- [ジャーニーの作成](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-gs)
-- [一般イベント](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/general-events)
+- [ジャーニーの作成](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-gs)
+- [一般イベント](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/general-events)
 
 ### オプション B：待機付き条件付きイベントトリガーメッセージ
 
@@ -244,8 +244,8 @@ ht-degree: 1%
 
 **Experience League:**
 
-- [「待機」アクティビティ](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/wait-activity)
-- [条件アクティビティ](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/condition-activity)
+- [「待機」アクティビティ](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/wait-activity)
+- [条件アクティビティ](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/condition-activity)
 - [終了条件](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/create-journey/exit-criteria)
 
 ### オプション C：頻度ガバナンスによるイベントトリガー
@@ -285,7 +285,7 @@ ht-degree: 1%
 
 - [頻度ルール](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/configuration/business-rules/frequency-rules)
 - [ビジネスルールの概要](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/configuration/business-rules/business-rules)
-- [優先スコア](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/conflict-prioritization/priority-scores)
+- [優先スコア](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/conflict-prioritization/priority-scores)
 - [ジャーニー入力管理](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/entry-management)
 
 ### オプションの比較
@@ -366,11 +366,11 @@ ht-degree: 1%
 
 **Experience League ドキュメント：**
 
-- [XDM システムの概要](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/home)
-- [データストリームの設定](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/configure)
-- [Web SDKの概要](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/home)
-- [Edge Network Server APIの概要](https://experienceleague.adobe.com/en/docs/experience-platform/edge-network-server-api/overview)
-- [ストリーミング取り込みの概要](https://experienceleague.adobe.com/en/docs/experience-platform/ingestion/streaming/overview)
+- [XDM システムの概要](https://experienceleague.adobe.com/ja/docs/experience-platform/xdm/home)
+- [データストリームの設定](https://experienceleague.adobe.com/ja/docs/experience-platform/datastreams/configure)
+- [Web SDKの概要](https://experienceleague.adobe.com/ja/docs/experience-platform/web-sdk/home)
+- [Edge Network Server APIの概要](https://experienceleague.adobe.com/ja/docs/experience-platform/edge-network-server-api/overview)
+- [ストリーミング取り込みの概要](https://experienceleague.adobe.com/ja/docs/experience-platform/ingestion/streaming/overview)
 
 ### フェーズ 2:IDとプロファイルの設定
 
@@ -404,8 +404,8 @@ ht-degree: 1%
 **Experience League ドキュメント：**
 
 - [ID名前空間の概要](https://experienceleague.adobe.com/ja/docs/experience-platform/identity/features/namespaces)
-- [ID グラフのリンクルール](https://experienceleague.adobe.com/en/docs/experience-platform/identity/features/identity-linking-logic)
-- [結合ポリシーの概要](https://experienceleague.adobe.com/en/docs/experience-platform/profile/merge-policies/overview)
+- [ID グラフのリンクルール](https://experienceleague.adobe.com/ja/docs/experience-platform/identity/features/identity-linking-logic)
+- [結合ポリシーの概要](https://experienceleague.adobe.com/ja/docs/experience-platform/profile/merge-policies/overview)
 
 ### フェーズ 3: チャネルサーフェスの設定
 
@@ -451,11 +451,11 @@ ht-degree: 1%
 
 **Experience League ドキュメント：**
 
-- [メール設定の基本を学ぶ](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/email/configure-email/get-started-email-config)
+- [メール設定の基本を学ぶ](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/channels/email/configure-email/get-started-email-config)
 - [サブドメインをデリゲート](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/email/configure-email/delegate-subdomain)
 - [IP プールの作成](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/email/configure-email/ip-pools)
-- [チャネルサーフェスの設定](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/email/configure-email/email-settings)
-- [SMS チャネルの設定](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/sms/configure-sms/sms-configuration)
+- [チャネルサーフェスの設定](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/channels/email/configure-email/email-settings)
+- [SMS チャネルの設定](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/channels/sms/configure-sms/sms-configuration)
 - [プッシュ通知チャネルの設定](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/push/configure-push/push-configuration)
 
 ### フェーズ 4：メッセージコンテンツの制作
@@ -507,9 +507,9 @@ ht-degree: 1%
 - [パーソナライゼーションの追加](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/personalization/personalize)
 - [Personalizationの構文](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/personalization/personalization-syntax)
 - [動的コンテンツ](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/personalization/dynamic-content)
-- [コンテンツテンプレートの操作](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/content-templates/content-templates)
+- [コンテンツテンプレートの操作](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/content-management/content-templates/content-templates)
 - [コンテンツフラグメントの操作](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/fragments/content-fragments)
-- [コンテンツのプレビューとテスト](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/preview-test/preview-test)
+- [コンテンツのプレビューとテスト](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/content-management/preview-test/preview-test)
 
 ### フェーズ 5: ジャーニーの作成と設定
 
@@ -593,17 +593,17 @@ ht-degree: 1%
 
 **Experience League ドキュメント：**
 
-- [ジャーニーの作成](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-gs)
-- [ジャーニーのプロパティ](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-properties)
-- [一般イベント](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/general-events)
-- [条件アクティビティ](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/condition-activity)
-- [「待機」アクティビティ](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/wait-activity)
-- [ジャーニーへのメッセージの追加](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/journeys-message)
+- [ジャーニーの作成](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-gs)
+- [ジャーニーのプロパティ](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-properties)
+- [一般イベント](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/general-events)
+- [条件アクティビティ](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/condition-activity)
+- [「待機」アクティビティ](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/wait-activity)
+- [ジャーニーへのメッセージの追加](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/journeys-message)
 - [終了条件](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/create-journey/exit-criteria)
 - [ジャーニー入力管理](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/entry-management)
 - [頻度ルール](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/configuration/business-rules/frequency-rules)
-- [優先スコア](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/conflict-prioritization/priority-scores)
-- [潜在的な競合の特定](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/conflict-prioritization/conflicts)
+- [優先スコア](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/conflict-prioritization/priority-scores)
+- [潜在的な競合の特定](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/conflict-prioritization/conflicts)
 
 ### フェーズ 6：ジャーニーのテストとデプロイ
 
@@ -625,7 +625,7 @@ ht-degree: 1%
 
 **Experience League ドキュメント：**
 
-- [ジャーニーをテスト](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/create-journey/testing-the-journey)
+- [ジャーニーをテスト](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/orchestrate-journeys/create-journey/testing-the-journey)
 - [ジャーニーを公開](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/create-journey/publishing-the-journey)
 
 ### フェーズ 7：パフォーマンスの監視と報告
@@ -661,8 +661,8 @@ ht-degree: 1%
 - [ジャーニーライブレポート](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/reports/journey-live-report)
 - [ジャーニーグローバルレポート](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/reports/journey-global-report-cja)
 - [Customer Journey Analyticsの操作](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/reports/report-cja-manage)
-- [アラートの概要](https://experienceleague.adobe.com/en/docs/experience-platform/observability/alerts/overview)
-- [AJO + CJA統合ガイド](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/reporting/channel-report/cja-ajo)
+- [アラートの概要](https://experienceleague.adobe.com/ja/docs/experience-platform/observability/alerts/overview)
+- [AJO + CJA統合ガイド](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/reporting/channel-report/cja-ajo)
 
 ## 実装に関する考慮事項
 
@@ -672,15 +672,15 @@ ht-degree: 1%
 
 イベントをトリガーにしたメッセージ実装には、次のプラットフォームのガードレールと制限が適用されます。
 
-- **単一イベントスループット：**&#x200B;単一イベントジャーニーのサンドボックスあたり1秒あたり最大5,000件のイベント — [Journey Optimizer ガードレール &#x200B;](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/get-started/guardrails)
-- **ライブジャーニーの制限：** サンドボックスあたり最大500 ライブジャーニー – [Journey Optimizer ガードレール &#x200B;](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/get-started/guardrails)
+- **単一イベントスループット：**&#x200B;単一イベントジャーニーのサンドボックスあたり1秒あたり最大5,000件のイベント — [Journey Optimizer ガードレール &#x200B;](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/get-started/guardrails)
+- **ライブジャーニーの制限：** サンドボックスあたり最大500 ライブジャーニー – [Journey Optimizer ガードレール &#x200B;](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/get-started/guardrails)
 - **ジャーニーキャンバスの制限：** ジャーニーキャンバスあたり最大50 アクティビティ
 - **ジャーニータイムアウト：**&#x200B;最大ジャーニー期間は91日（グローバル タイムアウト）です
 - **再入場クールダウン：**&#x200B;再入場クールダウンの最小値は5分です
 - **頻度キャップ設定：** サンドボックスごとに最大10個のキャッピング設定
 - **チャネルサーフェス：** サンドボックスごとに、チャネルタイプごとに最大10個のチャネルサーフェス
-- **ストリーミング取り込み：** HTTP接続あたり1秒あたり最大20,000 レコード — [取り込みガードレール &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/ingestion/guardrails)
-- **計算属性：** サンドボックスごとに最大25個の計算属性 – [計算属性のガードレール &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/profile/computed-attributes/overview#guardrails)
+- **ストリーミング取り込み：** HTTP接続あたり1秒あたり最大20,000 レコード — [取り込みガードレール &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/ingestion/guardrails)
+- **計算属性：** サンドボックスごとに最大25個の計算属性 – [計算属性のガードレール &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/profile/computed-attributes/overview#guardrails)
 - **コンテンツフラグメント：** メッセージごとに最大30個のコンテンツフラグメント
 - **ライブレポートの更新：** ライブレポートは、60秒ごとに更新され、過去24時間のデータが表示されます
 - **履歴レポートの待ち時間：**&#x200B;履歴（すべての時間）レポートは、実行終了後に完全に入力するのに最大2時間かかる場合があります
@@ -759,43 +759,43 @@ ht-degree: 1%
 
 ### ジャーニー連携
 
-- [ジャーニーを始める](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/journey)
-- [ジャーニーの作成](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-gs)
-- [ジャーニーのプロパティ](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-properties)
-- [一般イベント](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/general-events)
-- [オーディエンスの選定イベント](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/audience-qualification-events)
-- [条件アクティビティ](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/condition-activity)
-- [「待機」アクティビティ](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/wait-activity)
-- [ジャーニーへのメッセージの追加](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/journeys-message)
+- [ジャーニーを始める](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/orchestrate-journeys/journey)
+- [ジャーニーの作成](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-gs)
+- [ジャーニーのプロパティ](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-properties)
+- [一般イベント](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/general-events)
+- [オーディエンスの選定イベント](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/audience-qualification-events)
+- [条件アクティビティ](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/condition-activity)
+- [「待機」アクティビティ](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/wait-activity)
+- [ジャーニーへのメッセージの追加](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/journeys-message)
 - [終了条件](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/create-journey/exit-criteria)
 - [ジャーニー入力管理](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/entry-management)
-- [ジャーニーをテスト](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/create-journey/testing-the-journey)
+- [ジャーニーをテスト](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/orchestrate-journeys/create-journey/testing-the-journey)
 - [ジャーニーを公開](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/create-journey/publishing-the-journey)
 
 ### チャネル設定
 
-- [メール設定の基本を学ぶ](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/email/configure-email/get-started-email-config)
+- [メール設定の基本を学ぶ](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/channels/email/configure-email/get-started-email-config)
 - [サブドメインをデリゲート](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/email/configure-email/delegate-subdomain)
 - [IP プールの作成](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/email/configure-email/ip-pools)
 - [IP ウォームアッププラン](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/email/configure-email/ip-warmup/ip-warmup-gs)
-- [メールサーフェス設定](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/email/configure-email/email-settings)
-- [SMS チャネルの設定](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/sms/configure-sms/sms-configuration)
+- [メールサーフェス設定](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/channels/email/configure-email/email-settings)
+- [SMS チャネルの設定](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/channels/sms/configure-sms/sms-configuration)
 - [プッシュ通知チャネルの設定](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/push/configure-push/push-configuration)
-- [抑制リストの管理](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/configuration/monitor-reputation/manage-suppression-list)
+- [抑制リストの管理](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/configuration/monitor-reputation/manage-suppression-list)
 
 ### メッセージのオーサリングとパーソナライゼーション
 
-- [メールの作成](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/email/create-email)
+- [メールの作成](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/channels/email/create-email)
 - [メールコンテンツのデザイン](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/email/design-email/design-emails)
 - [パーソナライゼーションの追加](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/personalization/personalize)
 - [Personalizationの構文](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/personalization/personalization-syntax)
 - [ヘルパー関数](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/personalization/functions/functions)
 - [動的コンテンツ](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/personalization/dynamic-content)
-- [コンテンツテンプレートの操作](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/content-templates/content-templates)
+- [コンテンツテンプレートの操作](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/content-management/content-templates/content-templates)
 - [コンテンツフラグメントの操作](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/fragments/content-fragments)
-- [コンテンツのプレビューとテスト](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/preview-test/preview-test)
-- [SMS メッセージの作成](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/sms/create-sms)
-- [プッシュ通知のデザイン](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/push/design-push)
+- [コンテンツのプレビューとテスト](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/content-management/preview-test/preview-test)
+- [SMS メッセージの作成](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/channels/sms/create-sms)
+- [プッシュ通知のデザイン](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/channels/push/design-push)
 
 ### 頻度とビジネスルール
 
@@ -805,68 +805,68 @@ ht-degree: 1%
 
 ### 対立と優先順位管理
 
-- [競合と優先順位管理を開始する](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/conflict-prioritization/gs-conflict-prioritization)
-- [潜在的な競合の特定](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/conflict-prioritization/conflicts)
-- [優先スコア](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/conflict-prioritization/priority-scores)
-- [ジャーニーの上限と調停](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/conflict-prioritization/journey-capping)
+- [競合と優先順位管理を開始する](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/conflict-prioritization/gs-conflict-prioritization)
+- [潜在的な競合の特定](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/conflict-prioritization/conflicts)
+- [優先スコア](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/conflict-prioritization/priority-scores)
+- [ジャーニーの上限と調停](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/conflict-prioritization/journey-capping)
 
 ### レポートとパフォーマンス
 
 - [ジャーニーライブレポート](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/reports/journey-live-report)
 - [ジャーニーグローバルレポート](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/reports/journey-global-report-cja)
-- [AJO + CJA統合ガイド](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/reporting/channel-report/cja-ajo)
+- [AJO + CJA統合ガイド](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/reporting/channel-report/cja-ajo)
 
 ### データの収集と取り込み
 
-- [Web SDKの概要](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/home)
+- [Web SDKの概要](https://experienceleague.adobe.com/ja/docs/experience-platform/web-sdk/home)
 - [モバイル SDKの概要](https://experienceleague.adobe.com/en/docs/experience-platform/edge-network/mobile-sdk/overview)
-- [Edge Network Server APIの概要](https://experienceleague.adobe.com/en/docs/experience-platform/edge-network-server-api/overview)
-- [データストリームの設定](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/configure)
-- [ストリーミング取り込みの概要](https://experienceleague.adobe.com/en/docs/experience-platform/ingestion/streaming/overview)
+- [Edge Network Server APIの概要](https://experienceleague.adobe.com/ja/docs/experience-platform/edge-network-server-api/overview)
+- [データストリームの設定](https://experienceleague.adobe.com/ja/docs/experience-platform/datastreams/configure)
+- [ストリーミング取り込みの概要](https://experienceleague.adobe.com/ja/docs/experience-platform/ingestion/streaming/overview)
 
 ### データモデリングとスキーマ
 
-- [XDM システムの概要](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/home)
-- [スキーマ構成の基本](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/composition)
+- [XDM システムの概要](https://experienceleague.adobe.com/ja/docs/experience-platform/xdm/home)
+- [スキーマ構成の基本](https://experienceleague.adobe.com/ja/docs/experience-platform/xdm/schema/composition)
 
 ### IDとプロファイル
 
-- [ID サービスの概要](https://experienceleague.adobe.com/en/docs/experience-platform/identity/home)
+- [ID サービスの概要](https://experienceleague.adobe.com/ja/docs/experience-platform/identity/home)
 - [ID名前空間の概要](https://experienceleague.adobe.com/ja/docs/experience-platform/identity/features/namespaces)
-- [ID グラフのリンクルール](https://experienceleague.adobe.com/en/docs/experience-platform/identity/features/identity-linking-logic)
-- [プロファイルの概要](https://experienceleague.adobe.com/en/docs/experience-platform/profile/home)
-- [結合ポリシーの概要](https://experienceleague.adobe.com/en/docs/experience-platform/profile/merge-policies/overview)
+- [ID グラフのリンクルール](https://experienceleague.adobe.com/ja/docs/experience-platform/identity/features/identity-linking-logic)
+- [プロファイルの概要](https://experienceleague.adobe.com/ja/docs/experience-platform/profile/home)
+- [結合ポリシーの概要](https://experienceleague.adobe.com/ja/docs/experience-platform/profile/merge-policies/overview)
 
 ### セグメンテーションとオーディエンス
 
-- [セグメント サービスの概要](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/home)
-- [セグメントビルダーUI ガイド](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/segment-builder)
-- [ストリーミングセグメンテーション](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/methods/streaming-segmentation)
+- [セグメント サービスの概要](https://experienceleague.adobe.com/ja/docs/experience-platform/segmentation/home)
+- [セグメントビルダーUI ガイド](https://experienceleague.adobe.com/ja/docs/experience-platform/segmentation/ui/segment-builder)
+- [ストリーミングセグメンテーション](https://experienceleague.adobe.com/ja/docs/experience-platform/segmentation/methods/streaming-segmentation)
 
 ### データガバナンスと同意
 
-- [データガバナンスの概要](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/home)
+- [データガバナンスの概要](https://experienceleague.adobe.com/ja/docs/experience-platform/data-governance/home)
 - [データ使用状況ラベルの概要](https://experienceleague.adobe.com/ja/docs/experience-platform/data-governance/labels/overview)
-- [同意と環境設定のフィールドグループ](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/field-groups/profile/consents)
+- [同意と環境設定のフィールドグループ](https://experienceleague.adobe.com/ja/docs/experience-platform/xdm/field-groups/profile/consents)
 - [Journey Optimizerでの同意](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/privacy/consent/consent-restricted)
 
 ### 計算属性
 
-- [計算属性の概要](https://experienceleague.adobe.com/en/docs/experience-platform/profile/computed-attributes/overview)
-- [計算属性UI ガイド](https://experienceleague.adobe.com/en/docs/experience-platform/profile/computed-attributes/ui)
+- [計算属性の概要](https://experienceleague.adobe.com/ja/docs/experience-platform/profile/computed-attributes/overview)
+- [計算属性UI ガイド](https://experienceleague.adobe.com/ja/docs/experience-platform/profile/computed-attributes/ui)
 
 ### 監視と監視
 
-- [アラートの概要](https://experienceleague.adobe.com/en/docs/experience-platform/observability/alerts/overview)
-- [Observability Insightsの概要](https://experienceleague.adobe.com/en/docs/experience-platform/observability/home)
+- [アラートの概要](https://experienceleague.adobe.com/ja/docs/experience-platform/observability/alerts/overview)
+- [Observability Insightsの概要](https://experienceleague.adobe.com/ja/docs/experience-platform/observability/home)
 
 ### ガードレール
 
-- [Journey Optimizerのガードレール](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/get-started/guardrails)
-- [リアルタイムの顧客プロファイルのガードレール](https://experienceleague.adobe.com/en/docs/experience-platform/profile/guardrails)
-- [取り込みのガードレール](https://experienceleague.adobe.com/en/docs/experience-platform/ingestion/guardrails)
+- [Journey Optimizerのガードレール](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/get-started/guardrails)
+- [リアルタイムの顧客プロファイルのガードレール](https://experienceleague.adobe.com/ja/docs/experience-platform/profile/guardrails)
+- [取り込みのガードレール](https://experienceleague.adobe.com/ja/docs/experience-platform/ingestion/guardrails)
 
 ### チュートリアルとガイド
 
-- [ジャーニーのチュートリアルの作成](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-gs)
-- [Web SDKのインストール](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/install/overview)
+- [ジャーニーのチュートリアルの作成](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-gs)
+- [Web SDKのインストール](https://experienceleague.adobe.com/ja/docs/experience-platform/web-sdk/install/overview)
