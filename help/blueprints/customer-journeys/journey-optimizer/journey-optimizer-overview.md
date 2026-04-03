@@ -1,20 +1,20 @@
 ---
-title: '[!DNL Journey Optimizer] - ジャーニーブループリント'
+title: '[!DNL Journey Optimizer] - ジャーニーのブループリント'
 description: ストリーミングデータ、顧客プロファイル、セグメント化の中央ハブとして Adobe Experience Platform を使用して、トリガーされるメッセージとエクスペリエンスを実行します。
 solution: Journey Optimizer
 exl-id: 97831309-f235-4418-bd52-28af815e1878
-source-git-commit: 1e1c30954a7f4b3eac0e63736ad804329d58f76b
+source-git-commit: 8ad1be5524ffd98f3728e4e65bc1b9d69efab2c2
 workflow-type: tm+mt
 source-wordcount: '718'
 ht-degree: 16%
 
 ---
 
-# [!DNL Journey Optimizer] ブループリント
+# [!DNL Journey Optimizer]個のブループリント
 
-Adobe [!DNL Journey Optimizer] は、Adobe Experience Platform上に構築されたクラウドネイティブなアプリケーションであり、複数のチャネルをまたいで、カスタマージャーニーをリアルタイムかつスケジュールに沿って編成できます。 メール、SMS、プッシュ、web およびアプリ内メッセージを通じてパーソナライズされたエクスペリエンスを提供するために、イベント駆動型のトリガー、オーディエンスのセグメント化および意思決定のサービスをサポートします。 インバウンドシステムとアウトバウンドシステムを統合し、カスタマーライフサイクル全体で統一されたオーディエンス状態管理とコンテキストエンゲージメントを可能にします。
+Adobe [!DNL Journey Optimizer]は、Adobe Experience Platform上に構築されたクラウドネイティブなアプリケーションで、複数のチャネルにまたがるカスタマージャーニーのリアルタイムかつスケジュールされたオーケストレーションを可能にします。 イベント駆動型トリガー、オーディエンスセグメンテーション、意思決定サービスをサポートし、電子メール、SMS、プッシュ通知、web、アプリ内メッセージなどを通じてパーソナライズされたエクスペリエンスを提供できます。 インバウンドおよびアウトバウンドシステムと統合することで、顧客ライフサイクル全体でオーディエンスの状態管理と文脈的エンゲージメントを統合できます。
 
-このブループリントでは、アプリケーションの技術的機能の概要を説明し、ア [!DNL Journey Optimizer] ットを構成する様々なアーキテクチャコンポーネントについて詳しく説明します。
+この設計図では、アプリケーションの技術的な機能の概要を説明し、[!DNL Journey Optimizer]を構成するさまざまなアーキテクチャ コンポーネントについて詳しく説明します。
 
 <br>
 
@@ -23,19 +23,19 @@ Adobe [!DNL Journey Optimizer] は、Adobe Experience Platform上に構築され
 >[!BEGINTABS]
 >[!TAB ジャーニー（イベント駆動型、リアルタイム） ]
 
-- **放棄の復元：** メール、プッシュまたはアプリ内で、ユーザーが買い物かご、フォーム、またはセッションを放棄した際に、パーソナライズされたメッセージをトリガーにします。
-- **新規ユーザーのサインアップ：** 新規ユーザーは、新しいアカウント設定、関連するプロモーションまたは特典に登録後、すぐにエンゲージできます
-- **トランザクションメッセージ：** イベントトリガーを使用して、リアルタイムに確認、アラートまたは更新（注文の発送、パスワードのリセットなど）を送信します。
-- **コンテキストのターゲット設定：** ユーザーのシグナルと場所に基づいて、その時点のユーザーとコミュニケーションを取り、エクスペリエンスのガイドと指示を行います
-- **コンテキストアップセル/クロスセル：** リアルタイムのプロファイル属性と最近のインタラクションに基づいてパーソナライズされたオファーを配信します。
+- **放棄のトリガー:**&#x200B;利用者がカート、フォーム、またはセッションを放棄した際に、電子メール、プッシュ通知、またはアプリ内でパーソナライズされたメッセージを回復します。
+- **新規ユーザー登録：**&#x200B;新規ユーザーが新規アカウントの環境設定、関連するプロモーションまたは特典に登録した直後にエンゲージします
+- **トランザクションメッセージ：** イベントトリガーを使用して、リアルタイムの確認、アラート、または更新（注文品の発送、パスワードリセットなど）を送信します。
+- **コンテキストのターゲット設定：** シグナルと場所に基づいて瞬時にユーザーとコミュニケーションを取り、ユーザーのエクスペリエンスを導き、指示します
+- **コンテクスト型アップセル/クロスセル：** リアルタイムのプロファイル属性と最近のやり取りにもとづいて、パーソナライズされたオファーを提供します。
 
->[!TAB  キャンペーンオーケストレーション （スケジュール済み、ブランド開始） ]
+>[!TAB  キャンペーンオーケストレーション （スケジュール済み、ブランド主導） ]
 
-- **プロモーションキャンペーン**：製品ローンチ、季節的なオファーまたはセールスイベント用の複数手順のマルチチャネルキャンペーンを開始します。
-- **ライフサイクルマーケティング**：誕生日メッセージ、更新リマインダー、ロイヤルティマイルストーンなど、繰り返しキャンペーンを自動化します。
-- **オーディエンスベースのFunnel プッシュ**：ビジネスロジックまたは CRM 属性に基づいて、オーディエンスをセグメント化し、構造化されたキャンペーンにプッシュします。
-- **ニュースレターおよびコンテンツ配信**: メールやモバイルを問わず、ターゲットオーディエンスに対してパーソナライズされたコンテンツをスケジュールして配信します。
-- **再エンゲージメントキャンペーン**：休眠状態のユーザーを特定し、無操作状態のしきい値に基づいてエンゲージメントフローに再導入します。
+- **プロモーションキャンペーン**：製品の発売、季節オファー、販売イベント用のマルチステップ、マルチチャネルキャンペーンを開始します。
+- **ライフサイクルマーケティング**：誕生日メッセージ、更新リマインダー、ロイヤルティマイルストーンなどの定期的なキャンペーンを自動化します。
+- **オーディエンスベースのFunnel プッシュ**：ビジネスロジックまたはCRM属性に基づいて、オーディエンスをセグメント化し、構造化キャンペーンにプッシュします。
+- **ニュースレターとコンテンツ配信**：電子メールとモバイルをまたいで、ターゲットとするオーディエンスにパーソナライズされたコンテンツをスケジュールして配信します。
+- **リエンゲージメント施策**：休眠ユーザーを特定し、非アクティブのしきい値に基づいてエンゲージメントフローに再導入します。
 
 >[!ENDTABS]
 
@@ -43,7 +43,7 @@ Adobe [!DNL Journey Optimizer] は、Adobe Experience Platform上に構築され
 
 ## アーキテクチャ
 
-<img src="images/ajo-architecture.svg" alt="リファレンスアーキテクチャのAdobe Journey Optimizerブループリント" style="width:100%; border:1px solid #4a4a4a" class="modal-image" />
+<img src="images/ajo-architecture.svg" alt="リファレンスアーキテクチャ Adobe Journey Optimizer Blueprint" style="width:100%; border:1px solid #4a4a4a" class="modal-image" />
 
 <br>
 
@@ -51,31 +51,31 @@ Adobe [!DNL Journey Optimizer] は、Adobe Experience Platform上に構築され
 
 | シナリオ | 説明 |
 | :-- | :-- |
-| [ジャーニー](journey-optimizer-journeys.md) | Adobe Journey OptimizerのAJOジャーニーは、リアルタイムイベントまたはオーディエンスセグメントによってトリガーされるパーソナライズされた自動カスタマーエクスペリエンスであり、マーケターは、メール、SMS、プッシュ通知などのチャネルをまたいで、関連性の高いメッセージを配信できます。 |
-| [&#x200B; キャンペーンオーケストレーション &#x200B;](journey-optimizer-campaigns.md) | AJO キャンペーンオーケストレーションを使用すると、マーケターは、リアルタイムデータとオーディエンスインサイトを使用して、パーソナライズされたクロスチャネルキャンペーンを設計および実行できます。 動的ターゲティング、メッセージ配信、ジャーニーロジックをサポートし、メール、SMS、プッシュおよびカスタムチャネルをまたいで顧客エンゲージメントを最適化します。 |
+| [ジャーニー](journey-optimizer-journeys.md) | Adobe Adobe Journey OptimizerのAJOジャーニーは、リアルタイムのイベントやオーディエンスセグメントをトリガーにして、自動的にパーソナライズされた顧客体験を提供できます。これにより、マーケターは、電子メール、SMS、プッシュ通知などのチャネルをまたいで、適切なメッセージを配信できます。 |
+| [&#x200B; キャンペーンオーケストレーション &#x200B;](journey-optimizer-campaigns.md) | AJO Campaign Orchestrationを活用すると、マーケターはリアルタイムのデータとオーディエンスインサイトを活用して、パーソナライズされたクロスチャネルキャンペーンを設計して実行できます。 動的なターゲティング、メッセージ配信、ジャーニーロジックをサポートし、メール、SMS、プッシュ通知、カスタムチャネルをまたいで顧客エンゲージメントを最適化できます。 |
 
 <br>
 
 ## 統合パターン
 
-| 統合 | 説明 | 技術上の考慮事項 |
+| 統合 | 説明 | 技術的な考慮事項 |
 | :-- | :-- | :-- |
-| [サードパーティメッセージング](3rd-party-messaging.md) | Adobe [!DNL Journey Optimizer] をサードパーティのメッセージングプラットフォームと統合して、パーソナライズされたカスタマーコミュニケーションを編成し、提供する方法を示します。 | <ul><li>サードパーティシステムは、**ベアラートークン認証** をサポートしている必要があります。</li><li>**マルチテナントアーキテクチャが原因で、静的 IP はサポートされていません**。</li><li>サードパーティシステムでは **API レート制限** に注意してください。お客様は、**Adobe Journey Optimizer** から発生するトラフィックを処理するために、追加容量を購入する必要が生じる場合があります。</li><li>**意思決定管理** は、メッセージペイロードまたは配信ロジック内ではサポートされていません。</li></ul> |
-| [[!DNL Journey Optimizer] Adobe Campaign v8 を使用する場合 &#x200B;](../campaign-v8/ajo-and-campaign-v8.md) | Adobe [!DNL Journey Optimizer] をAdobe Campaign v8 のトランザクションメッセージ機能と統合して最終的なメッセージ配信を実行する方法を示します。 | <ul><li>メッセージのスロットルはありません。 上限は 5 分あたり 4,000 メッセージ。</li><li>イベントで開始されたジャーニーのみをサポート</li><li>Campaign から送信されるメッセージでは、意思決定管理はサポートされていません</li></ul> |
+| [サードパーティメッセージング](3rd-party-messaging.md) | Adobe [!DNL Journey Optimizer]をサードパーティのメッセージングプラットフォームと統合して、パーソナライズされた顧客コミュニケーションを調整および配信する方法を示します。 | <ul><li>サードパーティシステムは&#x200B;**ベアラートークン認証**&#x200B;をサポートする必要があります</li><li>マルチテナントアーキテクチャのため、**静的IPはサポートされていません**。</li><li>サードパーティシステムの&#x200B;**API レート制限**&#x200B;に注意してください。お客様は、**Adobe Journey Optimizer**&#x200B;からのトラフィックを処理するために、追加のキャパシティを購入する必要がある場合があります。</li><li>**意思決定管理**&#x200B;は、メッセージペイロードまたは配信ロジックではサポートされていません。</li></ul> |
+| [[!DNL Journey Optimizer] とAdobe Campaign v8](../campaign-v8/ajo-and-campaign-v8.md) | Adobe [!DNL Journey Optimizer]が、Adobe Campaign v8のトランザクションメッセージ機能と連携して、最終的なメッセージ配信を実行する方法を示します。 | <ul><li>メッセージのスロットリングはありません。 5分あたり4,000件のメッセージの上限。</li><li>イベント開始ジャーニーのみをサポート</li><li>意思決定管理は、Campaignで送信されるメッセージではサポートされていません</li></ul> |
 
 <br>
 
 ## 前提条件
 
-Adobe[!DNL Experience Platform]:
+Adobe [!DNL Experience Platform]:
 
 - [!DNL Journey Optimizer] データソースを設定する前に、システムでスキーマとデータセットを設定する必要があります
-- XDM Experience Event クラスベースのスキーマで、ルールベースのイベントではないイベントをトリガーする場合は、「Orchestration eventID フィールドグループ」を追加します
-- XDM 個人プロファイルクラスベースのスキーマの場合は、「プロファイルテストの詳細」フィールドグループを追加して、[!DNL Journey Optimizer] で使用するテストプロファイルを読み込むことができます
+- XDM Experience Event クラスベースのスキーマの場合、ルールベースのイベントではないイベントをトリガーする場合は、「Orchestration eventID フィールドグループ」を追加します
+- XDM Individual Profile クラスベースのスキーマの場合、「プロファイルテストの詳細」フィールドグループを追加して、[!DNL Journey Optimizer]で使用するテストプロファイルを読み込むことができます
 
 <br>
 
-メール：
+電子メール：
 
 - メッセージ送信に使用するサブドメインの準備が整っている必要があります
 - サブドメインは、アドビに完全にデリゲートすることも（推奨）、CNAME を使用してアドビ固有の DNS サーバー（カスタム）を指すこともできます
@@ -94,12 +94,12 @@ Adobe[!DNL Experience Platform]:
 
 [[!DNL Journey Optimizer] ガードレール製品リンク](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/get-started/guardrails.html)
 
-[ガードレールとエンドツーエンドの待ち時間のガイダンス](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/architecture-overview/deployment/guardrails.html?lang=ja)
+[ガードレールとエンドツーエンドのレイテンシーガイダンス](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/architecture-overview/deployment/guardrails.html?lang=ja)
 
 ## 関連ドキュメント
 
-- [[!DNL Experience Platform] ドキュメント](https://experienceleague.adobe.com/docs/experience-platform.html?lang=ja)
+- [[!DNL Experience Platform]件のドキュメント](https://experienceleague.adobe.com/docs/experience-platform.html?lang=ja)
 - [[!DNL Experience Platform] タグのドキュメント](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=ja)
-- [[!DNL Experience Platform Mobile SDK] ドキュメント](https://experienceleague.adobe.com/docs/mobile.html?lang=ja)
-- [[!DNL Journey Optimizer] ドキュメント](https://experienceleague.adobe.com/docs/journey-optimizer/using/ajo-home.html?lang=ja)
-- [[!DNL Journey Optimizer] 製品の説明](https://helpx.adobe.com/jp/legal/product-descriptions/adobe-journey-optimizer.html)
+- [[!DNL Experience Platform Mobile SDK]件のドキュメント](https://experienceleague.adobe.com/docs/mobile.html?lang=ja)
+- [[!DNL Journey Optimizer]件のドキュメント](https://experienceleague.adobe.com/docs/journey-optimizer/using/ajo-home.html?lang=ja)
+- [[!DNL Journey Optimizer]製品の説明](https://helpx.adobe.com/jp/legal/product-descriptions/adobe-journey-optimizer.html)
