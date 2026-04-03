@@ -21,7 +21,7 @@ ht-degree: 0%
 
 ### 軽微な変更
 
-あなたが心の良さからマイナーアップデートを提供している場合は、記事にアクセスし、記事のGitHub ソースに移動する記事の&#x200B;**Edit** リンクをクリックしてください。 次に、GitHub UIを使用して更新します。 詳しくは、[Adobe Docs コントリビューターガイド ](https://experienceleague.adobe.com/docs/contributor/contributor-guide/introduction.html)を参照してください。
+あなたが心の良さからマイナーアップデートを提供している場合は、記事にアクセスし、記事のGitHub ソースに移動する記事の&#x200B;**Edit** リンクをクリックしてください。 次に、GitHub UIを使用して更新します。 詳しくは、[Adobe Docs コントリビューターガイド &#x200B;](https://experienceleague.adobe.com/docs/contributor/contributor-guide/introduction.html)を参照してください。
 
 このリポジトリのドキュメントやコード例に対して提出する軽微な修正や明確化は、Adobe利用条件の対象となります。
 
