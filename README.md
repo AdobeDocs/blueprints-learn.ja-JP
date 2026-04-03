@@ -15,13 +15,13 @@ ht-degree: 0%
 
 ## Adobe コンテンツへのコントリビューションについて
 
-[Adobe Docs Contributor Guide](https://experienceleague.adobe.com/docs/contributor/contributor-guide/introduction.html)を参照してください。
+[Adobe Docs Contributor Guide](https://experienceleague.adobe.com/docs/contributor/contributor-guide/introduction.html?lang=ja)を参照してください。
 
 貢献の方法は、自身が誰であるか、また貢献したい変更の種類によって異なります。
 
 ### 軽微な変更
 
-あなたが心の良さからマイナーアップデートを提供している場合は、記事にアクセスし、記事のGitHub ソースに移動する記事の&#x200B;**Edit** リンクをクリックしてください。 次に、GitHub UIを使用して更新します。 詳しくは、[Adobe Docs コントリビューターガイド &#x200B;](https://experienceleague.adobe.com/docs/contributor/contributor-guide/introduction.html)を参照してください。
+あなたが心の良さからマイナーアップデートを提供している場合は、記事にアクセスし、記事のGitHub ソースに移動する記事の&#x200B;**Edit** リンクをクリックしてください。 次に、GitHub UIを使用して更新します。 詳しくは、[Adobe Docs コントリビューターガイド &#x200B;](https://experienceleague.adobe.com/docs/contributor/contributor-guide/introduction.html?lang=ja)を参照してください。
 
 このリポジトリのドキュメントやコード例に対して提出する軽微な修正や明確化は、Adobe利用条件の対象となります。
 
@@ -43,7 +43,7 @@ If you submit a pull request with significant changes to documentation and code 
 
 コミュニティのコントリビューターは、GitHub UIを使用して基本的な編集をおこなったり、リポジトリをフォークして主要なコントリビューションを作成したりできます。
 
-詳しくは、[Adobe Docs Contributor Guide](https://experienceleague.adobe.com/docs/contributor/contributor-guide/introduction.html)を参照してください。
+詳しくは、[Adobe Docs Contributor Guide](https://experienceleague.adobe.com/docs/contributor/contributor-guide/introduction.html?lang=ja)を参照してください。
 
 ## Markdownを使用してトピックを書式設定する方法
 
