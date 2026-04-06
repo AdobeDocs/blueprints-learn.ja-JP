@@ -3,9 +3,9 @@ title: 自動車のユースケース
 description: 自動車メーカーが、どのようにAdobe Experience Platformを活用して、自動車の購入ジャーニーをパーソナライズし、サービス維持率を向上させ、オーナーのロイヤルティを築いているのかを解説します。
 solution: Experience Platform, Real-Time Customer Data Platform, Journey Optimizer
 exl-id: ee83c739-0907-481d-ba3f-358af4e03c67
-source-git-commit: e8185f348f926acab2ca2e0c3cd55c08c663cf41
+source-git-commit: e5c88f240fe86bbc494402842a3d974f803aab03
 workflow-type: tm+mt
-source-wordcount: '1941'
+source-wordcount: '1802'
 ht-degree: 4%
 
 ---
@@ -24,7 +24,6 @@ ht-degree: 4%
 | [&#x200B; パーツおよびアクセサリの推奨事項 &#x200B;](#parts-and-accessories-recommendations) | 車両モデル、所有期間、顧客の好みにもとづいて、関連部品、アクセサリー、アップグレードをレコメンドします。 アフターマーケット向けにパーソナライズされたレコメンデーションにより、売上を増加させながら、自動車の売上を増加させることができます。 | 部品やアクセサリーの購入率の向上とアフターマーケットでの売上の増加 | [&#x200B; 行動に関する推奨事項 &#x200B;](/help/blueprints/use-case-patterns/personalization/behavioral-recommendation.md) |
 | [&#x200B; 車両のリコール通知 &#x200B;](#vehicle-recall-notifications) | サービスのスケジュール設定オプションと安全性情報を利用して、パーソナライズされたリコール通知を送信できます。 タイムリーで明確なリコールのコミュニケーションは、顧客の安全性を保護し、責任あるオーナーシップのサポートに対するブランドのコミットメントを示します。 | リコール応答率の向上と安全コンプライアンスの強化 | [&#x200B; イベントトリガーメッセージ &#x200B;](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md) |
 | [&#x200B; 新モデルのローンチキャンペーン &#x200B;](#new-model-launch-campaigns) | 現在の車両、好み、購入履歴などにもとづいて、新しいモデルの発売に興味を持つ可能性のある顧客をターゲットにします。 焦点を絞ったオーディエンスターゲティングにより、発売の効果を最大化し、早期の受注を促します。 | ローンチキャンペーンのエンゲージメントと新モデルへの関心の向上 | [&#x200B; バッチ送信メッセージの有効化 &#x200B;](/help/blueprints/use-case-patterns/campaign-management-orchestration/batch-outbound-message-activation.md) |
-| [&#x200B; 資金及び保険の申込み &#x200B;](#financing-and-insurance-offers) | クレジットカードのプロファイル、自動車の選択肢、購入タイムラインなどに基づいて、パーソナライズされた融資と保険オファーを提示します。 パーソナライズされた金融商品は、購入の障壁を取り除き、顧客が自信を持って条件を満たすのに役立ちます。 | 資金調達受入率の向上と販売単価の増加 | [Offer Decisioning](/help/blueprints/use-case-patterns/personalization/offer-decisioning.md) |
 | [&#x200B; テストドライブのスケジュール設定 &#x200B;](#test-drive-scheduling) | ディーラーからのレコメンデーションと車両の在庫状況に応じて、パーソナライズされた試乗のスケジュールを実現できます。 興味を持ったバイヤーが容易に後れを取らないようにすることで、購入までの道のりを加速できます。 | 試行錯誤の完了率とコンバージョン率の向上 | [&#x200B; イベントトリガーメッセージ &#x200B;](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md) |
 | [&#x200B; 所有者ロイヤルティプログラム &#x200B;](#owner-loyalty-programs) | ディーラー、OEM デジタル、コネクテッドカーのチャネルをまたいでロイヤルティコミュニケーションを調整し、階層ベースの適格性ルールを適用して、どのオーナーが限定オファー、早期アクセス、パートナー特典を受け取るかを管理します。 オファーの仲裁は、ディーラーとOEM チャネルが同じ所有者に同時に到達する競合プロモーションを防ぎます。 | ロイヤルティプログラムのエンゲージメントとリピート購入の増加 | [Decisioning を使用したクロスチャネルジャーニー](/help/blueprints/use-case-patterns/campaign-management-orchestration/cross-channel-journey-with-decisioning.md) |
 | [&#x200B; 保証および延長サービスプラン &#x200B;](#warranty-and-extended-service-plans) | 車両の年齢、走行距離、購入パターンなどに基づいて、最適なタイミングで保証プランや延長サービスプランをレコメンドします。 工場での保証が期限切れになる前に、適切なアウトリーチによって売上を確保。 | 保証期間延長による導入率の向上とサービス売上の増加 | [&#x200B; 複数ステップの調整されたジャーニー](/help/blueprints/use-case-patterns/campaign-management-orchestration/multi-step-orchestrated-journey.md) |
@@ -75,13 +74,6 @@ ht-degree: 4%
 - 顧客が市場にとって適切なタイミングで情報を受け取れるように、キャンペーンのタイミングを禁輸日や各地域の発売スケジュールと調整する必要があります。
 - [!DNL Real-Time Customer Data Platform]人のオーディエンスのアクティベーションは、広告プラットフォームにローンチセグメントを同期し、オウンドチャネルのアウトリーチと並行して有料メディアのサポートを調整する必要があります。
 
-### 金融と保険オファー
-
-- 金融オファーの適格性ルールは、融資規制に準拠するように慎重に設定され、顧客に提示されるオファーが、実際に適格なものであることを確認する必要があります。
-- クレジットカード情報の統合には、プライバシーと規制要件の高まりに応じて、安全な取り扱いと厳格なアクセス制御が必要です。
-- オファーの提示では、適用される各市場の消費者金融規制に準拠した条件、金利、条件を明確に開示する必要があります。
-- [!DNL Journey Optimizer]決定ルールでは、車両価格、頭金、ローン条件の条件の設定を考慮して、単にレートではなく関連性でオファーをランク付けする必要があります。
-
 ### 試乗のスケジュール
 
 - ディーラーの在庫システムを統合して、顧客が興味を持つ特定の車両モデルとトリミングが、推奨されるディーラーで試乗できることを確認する必要があります。
@@ -119,3 +111,4 @@ ht-degree: 4%
 - 顧客とディーラーの割り当てロジックでは、近接性、ディーラーの専門性、言語の好み、既存のディーラーとの関係を考慮する必要があります。
 - リードルーティングルールでは、顧客がオンラインで購買に関心を示した場合、顧客の調査活動に関する包括的な情報を提供し、適切なディーラーに迅速に問い合わせできるようにする必要があります。
 - [!DNL Experience Platform]のID解決は、顧客が複数のディーラーとインタラクションするシナリオを処理し、各ディーラーの顧客関係に関する見解を尊重しながら、統一されたプロファイルを維持する必要があります。
+
