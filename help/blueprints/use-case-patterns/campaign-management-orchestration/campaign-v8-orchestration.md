@@ -3,24 +3,14 @@ title: Campaign v8 Blueprint, Campaign & Platform
 description: Campaign v8の設計図について説明します。
 solution: Campaign,Campaign v8
 version: Campaign v8
-exl-id: 89b3a761-9cb3-4e01-8da0-043e634fa61f
-TQID: https://experienceleague.adobe.com/1FmOmeJcV9zxUt6bXHYVV9z6qcQSIBkTHOcu5tJ8yJ0
-product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616aid: a658c786-869b-4194-a780-2594d663addaid: afa4204e-6d08-4e29-bc35-26aafb656d48id: b12f6872-9271-4369-85e5-86969a0b99a2
-subfeature_v2: id: b5f0aaf4-1e48-400d-95ac-6eb3078cf22fid: d6330382-c886-4f7a-a4f7-74e3f36c0d9cid: f529d0bd-1401-4c88-9833-43228cc1d40fid: fcb46c0f-76e1-48bc-9dd0-fcf9d97526cf
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: 95ba7aa681e67efb136adac15dc7894cb413a4f0
+source-git-commit: 8284380fb9202991f3da7d755225da2e38a50cac
 workflow-type: tm+mt
-source-wordcount: 1059
+source-wordcount: '1045'
 ht-degree: 29%
 
 ---
 
 # Campaign v8 ブループリント
-
->[!TIP]
->このブループリントは、[ ユースケースパターン ](/help/blueprints/use-case-patterns/campaign-management-orchestration/campaign-v8-orchestration.md)として、「キャンペーン管理とオーケストレーション」でも利用できます。
 
 Adobe Campaign v8は、電子メールやダイレクトメールなどの従来のマーケティングチャネル向けに設計された、次世代のキャンペーン管理プラットフォームです。 複雑なセグメンテーションやオーディエンスのターゲティングをサポートする強力なETL機能とデータ管理機能に加えて、マルチタッチでバッチ主導型のマーケティングプログラムを構築するための強力なオーケストレーションエンジンを提供します。
 
@@ -60,13 +50,13 @@ Adobe Campaign v8は、電子メールやダイレクトメールなどの従来
 
 ### Campaign Enterprise （FFDA）のデプロイメント
 
-<img src="images/campaign-v8-ffda.svg" alt="Campaign v8 （FFDA）デプロイメントブループリントのリファレンスアーキテクチャ" style="width:100%; border:1px solid #4a4a4a" class="modal-image" />
+<img src="/help/blueprints/customer-journeys/campaign-v8/images/campaign-v8-ffda.svg" alt="Campaign v8 （FFDA）デプロイメントブループリントのリファレンスアーキテクチャ" style="width:100%; border:1px solid #4a4a4a" class="modal-image" />
 
 <br>
 
 ### Campaign v8 FDA デプロイメント
 
-<img src="images/campaign-v8-fda.svg" alt="Campaign v8 （FDA）ブループリントのリファレンスアーキテクチャ" style="width:100%; border:1px solid #4a4a4a" class="modal-image" />
+<img src="/help/blueprints/customer-journeys/campaign-v8/images/campaign-v8-fda.svg" alt="Campaign v8 （FDA）ブループリントのリファレンスアーキテクチャ" style="width:100%; border:1px solid #4a4a4a" class="modal-image" />
 
 <br>
 
@@ -74,8 +64,8 @@ Adobe Campaign v8は、電子メールやダイレクトメールなどの従来
 
 | シナリオ | 説明 | 技術的な考慮事項 |
 | :-- | :--- | :--- |
-| [[!DNL Real-time Customer Data Platform] とAdobe [!DNL Campaign]](rtcdp-and-campaign-v8.md) | Adobe Experience Platformとそのリアルタイム顧客プロファイルおよび一元化されたセグメンテーションツールをAdobe [!DNL Campaign]で利用して、パーソナライズされた会話を提供する方法を紹介します | <ul><li>クラウドストレージファイル交換とAdobe [!DNL Campaign]取り込みワークフローを使用して、[!DNL Real-Time CDP]からAdobe [!DNL Campaign]へのプロファイルとオーディエンスの共有 </li><li>お客様の会話からAdobe [!DNL Campaign]の[!DNL Real-Time CDP]に配信およびインタラクションデータを簡単に共有して、リアルタイムのお客様プロファイルを強化し、メッセージングキャンペーンに関するクロスチャネルのレポートを提供します</li></ul> |
-| [[!DNL Journey Optimizer] とAdobe [!DNL Campaign]](ajo-and-campaign-v8.md) | Adobe Journey Optimizerを使用して、Real-Time Customer Profileを利用して1:1 エクスペリエンスを調整し、ネイティブのAdobe [!DNL Campaign] トランザクションメッセージシステムを活用してメッセージを送信する方法を示します | <ul><li>リアルタイムメッセージサーバーを介して 1 時間に最大 100 万件のメッセージを送信可能<li>[!DNL Journey Optimizer]からスロットリングは実行されないので、セールス前のエンタープライズアーキテクトによる技術的な検証を確実に行ってください</li><li>意思決定管理は、Campaign v8 へのペイロードではサポートされていません</li></ul> |
+| [[!DNL Real-time Customer Data Platform] とAdobe [!DNL Campaign]](/help/blueprints/customer-journeys/campaign-v8/rtcdp-and-campaign-v8.md) | Adobe Experience Platformとそのリアルタイム顧客プロファイルおよび一元化されたセグメンテーションツールをAdobe [!DNL Campaign]で利用して、パーソナライズされた会話を提供する方法を紹介します | <ul><li>クラウドストレージファイル交換とAdobe [!DNL Campaign]取り込みワークフローを使用して、[!DNL Real-Time CDP]からAdobe [!DNL Campaign]へのプロファイルとオーディエンスの共有 </li><li>お客様の会話からAdobe [!DNL Campaign]の[!DNL Real-Time CDP]に配信およびインタラクションデータを簡単に共有して、リアルタイムのお客様プロファイルを強化し、メッセージングキャンペーンに関するクロスチャネルのレポートを提供します</li></ul> |
+| [[!DNL Journey Optimizer] とAdobe [!DNL Campaign]](/help/blueprints/customer-journeys/campaign-v8/ajo-and-campaign-v8.md) | Adobe Journey Optimizerを使用して、Real-Time Customer Profileを利用して1:1 エクスペリエンスを調整し、ネイティブのAdobe [!DNL Campaign] トランザクションメッセージシステムを活用してメッセージを送信する方法を示します | <ul><li>リアルタイムメッセージサーバーを介して 1 時間に最大 100 万件のメッセージを送信可能<li>[!DNL Journey Optimizer]からスロットリングは実行されないので、セールス前のエンタープライズアーキテクトによる技術的な検証を確実に行ってください</li><li>意思決定管理は、Campaign v8 へのペイロードではサポートされていません</li></ul> |
 
 <br>
 

@@ -1,33 +1,33 @@
 ---
 title: 分析とレポートの改善
-description: 統合ダッシュボードとセルフサービスツールを通じて、より迅速で実用的なマーケティングインサイトのレポート機能を強化する方法を説明します。
+description: 統合ダッシュボードとセルフサービスツールを通じてレポート機能を強化し、より迅速で実用的なマーケティングインサイトを獲得する方法を解説します。
 solution: Experience Platform, Customer Journey Analytics
-source-git-commit: 61c2666b4546222423e85e52270b436c59d846a3
+exl-id: 9a663191-c89a-41f6-9a10-f99101880ac9
+source-git-commit: 8284380fb9202991f3da7d755225da2e38a50cac
 workflow-type: tm+mt
 source-wordcount: '151'
-ht-degree: 2%
+ht-degree: 3%
 
 ---
 
-
 # 分析とレポートの改善
 
-統合ダッシュボードとセルフサービスツールを通じて、レポート機能を強化し、より迅速で実用的なマーケティングインサイトを得ます。 この目的は、トレンド、機会、問題をすばやく特定できる、包括的なクロスチャネル分析をチームに提供することに焦点を当てています。
+統合ダッシュボードとセルフサービスツールを通じてレポート機能を強化し、より迅速で実用的なマーケティングインサイトを獲得できます。 この目標は、トレンド、機会、問題をより迅速に特定できる、包括的なクロスチャネル分析を提供することに重点を置いています。
 
 ## 主要業績評価指標
 
-次の KPI は、この目標に対する進捗状況を測定します。
+次のKPIは、この目標に対する進捗状況を測定します。
 
 | KPI | 説明 |
 | --- | --- |
-| 効率 | マーケティングレポートの生成と配信に要する時間の短縮 |
-| 生産性 | チーム全体でのセルフサービス分析の使用とレポートの生成の増加 |
+| 効率性 | マーケティングレポートの作成と配信にかかる時間を短縮 |
+| 生産性 | チームをまたいだセルフサービス分析の利用状況とレポートの生成の増加 |
 
-## 関連するユースケースパターン
+## 関連するユースケースのパターン
 
-このビジネス目標をサポートするユースケースのパターンを次に示します。
+このビジネス目標をサポートするユースケースパターンは、次のとおりです。
 
-| パターン | カテゴリ | この目的をサポートする方法 |
+| パターン | カテゴリ | この目標をどのようにサポートしているか |
 | --- | --- | --- |
-| [Customer Analytics &amp; Insightのジェネレーション &#x200B;](/help/blueprints/use-case-patterns/analysis/customer-analytics-insight-generation.md) | 分析 | クロスチャネル分析ワークスペース、計算指標およびダッシュボードを構築して、包括的な動作およびパフォーマンスレポートを実現 |
-| [B2B Analytics](/help/blueprints/use-case-patterns/analysis/b2b-analytics.md) | 分析 | アカウントレベルのレポート機能とクロスチャネル B2B ジャーニー分析機能を提供 |
+| [Customer Analytics &amp; Insight Generation](/help/blueprints/use-case-patterns/analysis/customer-analytics-insight-generation.md) | 分析 | クロスチャネルの分析ワークスペース、計算指標、ダッシュボードを構築し、包括的な行動およびパフォーマンスレポートを作成 |
+| [B2B Analytics](/help/blueprints/use-case-patterns/b2b/account-analytics.md) | 分析 | アカウントレベルのレポートとクロスチャネルのB2B ジャーニー分析機能を提供 |
