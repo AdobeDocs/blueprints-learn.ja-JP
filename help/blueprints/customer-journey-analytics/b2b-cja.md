@@ -1,73 +1,76 @@
 ---
-title: B2B Customer Journey Analytics ブループリント
-description: アカウントベースのレポートとジャーニー分析のために、B2B アカウント、オポチュニティ、購入グループのデータをCustomer Journey Analyticsに含めます。
+title: B2B Customer Journey Analyticsの設計図
+description: アカウントベースのレポートとジャーニー分析のために、Customer Journey AnalyticsにB2B アカウント、商談、購買グループのデータを含めます。
 solution: Customer Journey Analytics
-source-git-commit: 10e54d97082143b61e43bae56250a524d1759d45
+exl-id: d55ed43d-aabf-4722-9ae9-a2aef99f19e0
+source-git-commit: 8284380fb9202991f3da7d755225da2e38a50cac
 workflow-type: tm+mt
-source-wordcount: '729'
+source-wordcount: '743'
 ht-degree: 7%
 
 ---
 
+# B2B Customer Journey Analyticsの設計図
 
-# B2B Customer Journey Analytics ブループリント
+>[!TIP]
+>このブループリントは、[&#x200B; ユースケースパターン &#x200B;](/help/blueprints/use-case-patterns/b2b/account-analytics.md)としてB2B Activation &amp; Marketingで利用することもできます。
 
-Customer Journey Analytics B2B editionを使用すると、B2B 組織に関するアカウントベースのレポートと分析が可能になります。 ユーザー中心の B2C Analytics とは異なり、このブループリントではデータモデルの中心に **アカウント** を配置するので、複数の関係者、購入グループ、販売サイクルにわたる複雑な B2B 購入ジャーニーを分析できます。 [!DNL Customer Journey Analytics] を使用して、ジャーニーベースのインサイトとオーディエンス作成のために、行動データを B2B ディメンション（アカウント、機会、キャンペーン、マーケティングリスト）に統合します。
+Customer Journey Analytics B2B editionなら、B2B企業のアカウントベースのレポートと分析が可能になります。 人を中心としたB2C分析とは異なり、この設計図では&#x200B;**アカウント**&#x200B;をデータモデルの中心に置き、複数の関係者、購買グループ、セールスサイクルをまたいで複雑なB2B購入ジャーニーを分析できるようにします。 [!DNL Customer Journey Analytics]を使用して、行動データをB2B ディメンション（アカウント、機会、キャンペーン、マーケティングリスト）と統合し、ジャーニーベースのインサイトとオーディエンスの作成を実現します。
 
 ## アプリケーション
 
-* Adobe[!DNL Customer Journey Analytics] （B2B edition）
-* Adobe Experience Platform（B2B およびイベントデータ用）
+* Adobe [!DNL Customer Journey Analytics] （B2B edition）
+* Adobe Experience Platform（B2Bおよびイベントデータ向け）
 
 ## ユースケース
 
-* **アカウントマーケティングの最適化** - アカウント内の購入グループ、パイプラインの進行、アップセル/クロスセルの機会に対するキャンペーン、チャネル、コンテンツ全体のマーケティング影響を分析します。
-* **主要アカウントの成長** – 主要アカウント内の購入グループ全体にわたって価値の高いタッチポイントを特定して、マーケティングおよび販売行動を通知し、アカウントレベルで顧客の生涯価値を計算します。
-* **製品価値の構築** – 製品リリースおよび使用状況が顧客満足度に与える影響をアカウントおよびユーザーレベルで測定して、機能を最適化し、開発に関する情報を提供します。
-* **ユーザーベースの B2B 分析** - リードのスコアリング、エンゲージメント、ジャーニー分析のために、アカウントと商談のコンテキストを個々のユーザー行動と組み合わせます。
+* **アカウントマーケティングの最適化** — アカウント内の購買グループ、パイプラインの進行、アップセル/クロスセルの機会について、キャンペーン、チャネル、コンテンツをまたいでマーケティング効果を分析します。
+* **主要アカウントを拡大** – 主要アカウント内の購買グループ全体で価値の高い顧客接点を特定し、マーケティングおよびセールスのアクションを伝え、アカウントレベルで顧客生涯価値を計算します。
+* **製品価値を構築** – 製品リリースと使用がアカウントレベルとユーザーレベルで顧客満足度に与える影響を測定し、機能を最適化して開発に役立てることができます。
+* **個人ベースのB2B分析** — アカウントと商談のコンテキストを、個々のユーザーの行動と組み合わせて、リードスコアリング、エンゲージメント、ジャーニー分析を行います。
 
 ## 前提条件
 
-* B2B edition[!DNL Customer Journey Analytics] 使用権限。
-* Adobe Experience Platformの B2B および行動データ：B2B データセット（アカウント、オポチュニティ、人物、キャンペーン、マーケティングリスト、B2B アクティビティ）およびイベントデータ（web、モバイルまたはその他のチャネル）は、[CJA接続で使用でき &#x200B;](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/create-connection.html?lang=ja) す。
-* [CJAの B2B 命名 &#x200B;](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/b2b.html)：接続用に設定された B2B 固有のデータビュー設定（アカウント ID、オポチュニティ ID、関連ディメンション）。
+* [!DNL Customer Journey Analytics] B2B edition使用権限。
+* Adobe Experience PlatformのB2B データと行動データ：[CJA接続](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/create-connection.html?lang=ja)で利用可能なB2B データセット（アカウント、商談、人物、キャンペーン、マーケティングリスト、B2B アクティビティ）とイベントデータ（web、モバイル、その他のチャネル）。
+* CJA[&#128279;](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/b2b.html)のB2B名前付け：B2B固有のデータビュー設定（アカウント ID、商談ID、および関連ディメンション）が接続に設定されています。
 
 ## アーキテクチャ
 
-![&#x200B; ジャーニー分析の B2B アカウントと商談のデータを統合したCustomer Journey Analytics アーキテクチャ &#x200B;](assets/CJA.svg){zoomable="yes"}
+![B2B アカウントと商談データをジャーニー分析に統合したCustomer Journey Analytics アーキテクチャ &#x200B;](assets/CJA.svg){zoomable="yes"}
 
-Experience Platform（B2B およびイベントデータセット）からCJA接続を介して [!DNL Customer Journey Analytics] にデータが送られます。 B2B ディメンションはデータビューで公開されるので、分析とオーディエンスをアカウント、機会、人物のレベルで構築できます。
+Experience Platform（B2Bおよびイベントデータセット）からCJA接続を介して[!DNL Customer Journey Analytics]にデータフローが実行されます。 B2Bのディメンションはデータビューで公開されるため、アカウント、商談、人物のレベルで分析とオーディエンスを構築できます。
 
 ## ガードレール
 
-* B2B editionの製品の制限および使用権限については、[Customer Journey Analytics B2B 製品の説明 &#x200B;](https://helpx.adobe.com/jp/legal/product-descriptions/customer-journey-analytics-b2b.html) を参照してください。
-* Analytics Platform およびCJAの技術的制限については、[Analytics Platform ガードレール &#x200B;](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/technotes/guardrails) を参照してください。
-* CJAのデータ取り込みと接続の制限については、[Customer Journey Analyticsのデータ取り込みガードレール &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html?lang=ja#what-is-the-expected-latency-for-analytics-data-on-platform%3F) を参照してください。
-* CJA オーディエンスを Real-time Customer Data Platform に公開する場合は、[Customer Journey Analytics オーディエンス共有ガードレール &#x200B;](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/audiences/publish.html?lang=ja#latency) を参照してください。
-* エンドツーエンドの待ち時間とプラットフォームガードレールについては、[&#x200B; デプロイメントガードレールのドキュメント &#x200B;](../experience-platform/guardrails.md) を参照してください。
+* B2B edition製品の制限と使用権限については、[Customer Journey Analytics B2B製品の説明](https://helpx.adobe.com/jp/legal/product-descriptions/customer-journey-analytics-b2b.html)を参照してください。
+* Analytics PlatformとCJAの技術的な制限については、[Analytics Platformのガードレール &#x200B;](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/technotes/guardrails)を参照してください。
+* CJA データの取り込みと接続の制限については、[Customer Journey Analytics データ取り込みのガードレール &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html?lang=ja#what-is-the-expected-latency-for-analytics-data-on-platform%3F)を参照してください。
+* CJA オーディエンスをReal-time Customer Data Platformに公開する場合は、[Customer Journey Analytics オーディエンス共有ガードレール &#x200B;](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/audiences/publish.html?lang=ja#latency)を参照してください。
+* エンドツーエンドの遅延とプラットフォームのガードレールについては、[&#x200B; デプロイメントガードレール ドキュメント &#x200B;](../experience-platform/guardrails.md)を参照してください。
 
 ## 実装手順
 
-1. **B2B とイベントデータのExperience Platformへの取り込み** - [&#x200B; ソース &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=ja) （[!DNL Marketo Engage]、CRM、その他の B2B コネクタなど）を使用して、アカウント、オポチュニティ、人物、キャンペーン、アクティビティのデータに加え、行動イベントを取り込みます。
-2. **CJA接続の作成** — [&#x200B; 関連するExperience Platform データセットを追加 &#x200B;](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/create-connection.html?lang=ja) （B2B とイベント）をCustomer Journey Analytics接続に追加します。
-3. **データビューでの B2B の設定** - [B2B の命名とキーディメンション &#x200B;](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/b2b.html) （アカウント ID、商談 ID など）を有効にします。 接続のデータビューで確認できます。
-4. **アカウントベースの分析とオーディエンスの作成** - [CJA B2B のユースケースとレポートを使用 &#x200B;](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/b2b.html?lang=ja) して、アカウントおよび商談レベルでレポート、分類、オーディエンスを作成します。オプションで、アクティベーション用に [Real-time CDP へのオーディエンスの公開 &#x200B;](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/audiences/publish.html?lang=ja) を行います。
+1. **B2B データとイベントデータをExperience Platform**&#x200B;に取り込む – [&#x200B; ソース &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=ja)を使用して、アカウント、商談、人物、キャンペーン、アクティビティのデータに加えて、行動イベントを取り込みます（例：[!DNL Marketo Engage]、CRM、その他のB2B コネクタ）。
+2. **CJA接続を作成** — [関連するExperience Platform データセット &#x200B;](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/create-connection.html?lang=ja) （B2Bおよびイベント）をCustomer Journey Analytics接続に追加します。
+3. **データビューでB2Bを設定** — [B2Bの命名と主要ディメンション &#x200B;](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/b2b.html) （アカウント ID、商談IDなど）を有効にします。 接続のデータビューに表示されます。
+4. **アカウントベースの分析とオーディエンスの構築** — [CJA B2B ユースケースとレポート &#x200B;](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/b2b.html?lang=ja)を使用して、アカウントレベルおよび商談レベルでレポート、内訳、オーディエンスを作成します。オプションで[Real-time CDPにオーディエンスを公開してアクティベーションします。](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/audiences/publish.html?lang=ja)
 
 ## 関連ドキュメント
 
-### Customer Journey AnalyticsB2B edition
+### Customer Journey Analytics B2B edition
 
-* [Customer Journey AnalyticsB2B edition](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition.html?lang=ja)
-* [B2B のユースケース](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/b2b.html?lang=ja)
-* [B2B edition ユースケースの概要](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/b2b/b2b-edition/use-cases-overview.html?lang=ja)
-* [ユーザーベースの B2B プロジェクトの例](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/b2b/example.html?lang=ja)
+* [Customer Journey Analytics B2B edition](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition.html?lang=ja)
+* [B2B ユースケース](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/b2b.html?lang=ja)
+* [B2B editionのユースケースの概要](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/b2b/b2b-edition/use-cases-overview.html?lang=ja)
+* [個人ベースのB2B プロジェクトの例](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/b2b/example.html?lang=ja)
 
 ### 接続とデータビュー
 
 * [接続の作成](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/create-connection.html?lang=ja)
-* [B2B データ表示設定](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/b2b.html)
+* [B2B データビューの設定](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/b2b.html)
 
 ### オーディエンスとガードレール
 
-* [CJA オーディエンスを Real-time CDP に公開](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/audiences/publish.html?lang=ja)
+* [CJA オーディエンスをReal-Time CDPに公開する](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/audiences/publish.html?lang=ja)
 * [Experience Platformとアプリケーションガードレール](../experience-platform/guardrails.md)

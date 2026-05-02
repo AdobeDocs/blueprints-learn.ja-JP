@@ -4,9 +4,9 @@ description: Adobe Adobe Experience Platformを実装するためのユースケ
 solution: Experience Platform, Real-Time Customer Data Platform, Journey Optimizer
 doc-type: overview-page
 exl-id: 58caa6ad-0d1c-4290-9614-c68c9c9028bb
-source-git-commit: 27f7e230982807ec70ca96af7f737944a6588f27
+source-git-commit: 8284380fb9202991f3da7d755225da2e38a50cac
 workflow-type: tm+mt
-source-wordcount: '760'
+source-wordcount: '1007'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,8 @@ ht-degree: 0%
 | [宛先へのオーディエンスアクティベーション &#x200B;](audience-building-activation/audience-activation-to-destinations.md) | ターゲティングまたは抑制のために、オーディエンスセグメントを評価して外部宛先に公開します | [!DNL Real-Time CDP] |
 | [Audience Collaboration](audience-building-activation/audience-collaboration-segment-match.md) | Segment Matchを使用すると、サンドボックスや組織間でオーディエンスセグメントを共有して一致させることができます | [!DNL Real-Time CDP], [!DNL Experience Platform] |
 | [&#x200B; イベント転送](audience-building-activation/event-forwarding.md) | Edge Networkを通じて収集したリアルタイムのイベントデータを、Adobe以外の宛先に転送します | [!DNL Experience Platform] （Edge Network、イベント転送） |
-| [B2B オーディエンスのアクティブ化](audience-building-activation/b2b-audience-activation.md) | web、電子メール、広告のチャネルをまたいで、アカウントベースのB2B オーディエンスを活用できます | [!DNL Real-Time CDP] B2B edition |
+| [&#x200B; サポートとセールスのためのリアルタイム プロファイル検索](audience-building-activation/real-time-profile-lookup.md) | エージェントが支援するサポートと販売シナリオのコンテキストを提供するリアルタイムの顧客プロファイル検索 | [!DNL Real-Time CDP], [!DNL Experience Platform] |
+| [&#x200B; プロファイル強化のためのカスタムデータサイエンス &#x200B;](audience-building-activation/data-science-profile-enrichment.md) | データサイエンスにもとづいたインサイトをExperience Platformに取り込み、リアルタイムの顧客プロファイルを強化します | [!DNL Experience Platform] |
 
 ## パーソナライズ機能
 
@@ -38,6 +39,8 @@ ht-degree: 0%
 | [既知の訪問者のweb/アプリのパーソナライゼーション &#x200B;](personalization/known-visitor-web-app-personalization.md) | リアルタイムのプロファイルとセグメントメンバーシップにもとづいて、特定された訪問者にパーソナライズされたコンテンツ、オファー、プロモーションを配信します | [!DNL Journey Optimizer], [!DNL Real-Time CDP] |
 | [&#x200B; オファー決定](personalization/offer-decisioning.md) | 一元化された意思決定ロジックを使用して、チャネルをまたいでプロファイルに最適なオファーやコンテンツを選択します | [!DNL Journey Optimizer] （決定）、[!DNL Real-Time CDP] |
 | [行動レコメンデーション &#x200B;](personalization/behavioral-recommendation.md) | 選択戦略とランキングモデルを使用して、アイテムとコンテンツのレコメンデーションを生成します | [!DNL Journey Optimizer] （決定）、[!DNL Real-Time CDP] |
+| [Web/Mobile PersonalizationのEdge プロファイルへのアクセス &#x200B;](personalization/edge-profile-access.md) | リアルタイムエッジプロファイルアクセスにより、高スループット、低遅延のwebおよびモバイルのパーソナライゼーションを実現 | [!DNL Real-Time CDP]、[!DNL Experience Platform] （Edge Network） |
+| [Adobe Targetでのオーディエンスの共有](personalization/audience-sharing-with-target.md) | Adobe Real-Time CDPのプロファイルとオーディエンスをAdobe Targetと共有することで、既知の顧客に対するwebとモバイルのパーソナライゼーションを実現します | [!DNL Real-Time CDP], [!DNL Target], [!DNL Experience Platform] |
 
 ## キャンペーン管理とオーケストレーション
 
@@ -49,7 +52,8 @@ ht-degree: 0%
 | [&#x200B; イベントトリガーのメッセージ &#x200B;](campaign-management-orchestration/event-triggered-messaging.md) | リアルタイムの行動イベントやシステムイベントをリッスンし、トリガープロファイルにコンテキストメッセージを配信します | [!DNL Journey Optimizer], [!DNL Real-Time CDP] |
 | [&#x200B; マルチステップ オーケストレーション ジャーニー](campaign-management-orchestration/multi-step-orchestrated-journey.md) | 待機、条件、複数のメッセージアクションを含む分岐マルチタッチジャーニーを通じてプロファイルを導きます | [!DNL Journey Optimizer], [!DNL Real-Time CDP] |
 | [決定を伴うクロスチャネルジャーニー](campaign-management-orchestration/cross-channel-journey-with-decisioning.md) | リアルタイムの意思決定を組み込んだマルチステップのジャーニーを編成し、最適なチャネル、コンテンツ、オファーを選択できます | [!DNL Journey Optimizer], [!DNL Real-Time CDP] |
-| [購買グループベースのマーケティングとジャーニー管理](campaign-management-orchestration/buying-group-based-marketing.md) | リードを購買グループに選別するアカウントレベルのジャーニーを作成して、B2B マーケティングの効果を向上できます | [!DNL Journey Optimizer] B2B edition、[!DNL Real-Time CDP] B2B edition |
+| [Campaign v8 バッチオーケストレーションとトランザクションメッセージ &#x200B;](campaign-management-orchestration/campaign-v8-orchestration.md) | Campaign v8では、バッチキャンペーンの実行、マルチタッチオーケストレーション、ETLを活用したデータ管理、トランザクションメッセージを利用できます | [!DNL Campaign] v8 |
+| [&#x200B; サードパーティのメッセージとJourney Optimizerの統合](campaign-management-orchestration/third-party-messaging.md) | Journey Optimizerをサードパーティのメッセージングシステムと統合し、REST APIを介してパーソナライズされたコミュニケーションを行います | [!DNL Journey Optimizer] |
 
 ## 分析
 
@@ -58,7 +62,20 @@ ht-degree: 0%
 | パターン | プライマリ能力 | コアソリューション |
 | --- | --- | --- |
 | [顧客分析とinsightの生成](analysis/customer-analytics-insight-generation.md) | 行動とパフォーマンスの分析のために、クロスチャネルの分析ワークスペース、計算指標、ダッシュボードを構築します | [!DNL Customer Journey Analytics], [!DNL Experience Platform] |
-| [B2B分析](analysis/b2b-analytics.md) | クロスチャネルのカスタマージャーニー分析にB2B アカウントレベルの情報を含める | [!DNL Customer Journey Analytics] B2B edition、[!DNL Real-Time CDP] B2B edition |
+
+## B2B アクティベーション/マーケティング
+
+次のパターンは、B2Bに特化したマーケティングシナリオ（アカウントベースのオーディエンス、購買グループのオーケストレーション、B2B分析）に対応しています。
+
+| パターン | プライマリ能力 | コアソリューション |
+| --- | --- | --- |
+| [B2B オーディエンスのアクティブ化](b2b/account-audience-activation.md) | web、電子メール、広告のチャネルをまたいで、アカウントベースのB2B オーディエンスを活用できます | [!DNL Real-Time CDP] B2B edition |
+| [購買グループベースのマーケティングとジャーニー管理](b2b/buying-group-marketing.md) | リードを購買グループに選別するアカウントレベルのジャーニーを作成して、B2B マーケティングの効果を向上できます | [!DNL Journey Optimizer] B2B edition、[!DNL Real-Time CDP] B2B edition |
+| [B2B分析](b2b/account-analytics.md) | クロスチャネルのカスタマージャーニー分析にB2B アカウントレベルの情報を含める | [!DNL Customer Journey Analytics] B2B edition、[!DNL Real-Time CDP] B2B edition |
+| Marketo Data[&#128279;](b2b/marketo-data-journeys.md)を使用するB2B ジャーニー | 購買グループのジャーニーとアカウントエンゲージメントを調整するために、MarketoデータをJourney Optimizer B2B editionに導入します | [!DNL Journey Optimizer] B2B edition、[!DNL Marketo Engage]、[!DNL Real-Time CDP] B2B edition |
+| [AJO B2B Paid Media Controller](b2b/paid-media-orchestration.md) | ウォーターフォールロジックを使用してB2B有料メディアキャンペーンを調整し、アカウントをキャンペーンに割り当て、配信先にアクティベートします | [!DNL Journey Optimizer] B2B edition、[!DNL Real-Time CDP] B2B edition |
+| [MarketoとWorkfrontの取り込みと作成](b2b/campaign-intake-and-creation.md) | Workfront formsとFusionを使用して、マーケティングキャンペーンのリクエスト受付とMarketo Engageプログラムの作成を自動化 | [!DNL Marketo Engage], [!DNL Workfront], [!DNL Workfront Fusion] |
+| [MarketoとWorkfrontのレビューと承認](b2b/campaign-review-and-approval.md) | Fusionの自動化機能を使用して、Workfrontの校正および承認ワークフローとMarketo Engageのメールアセットを統合できます | [!DNL Marketo Engage], [!DNL Workfront], [!DNL Workfront Fusion] |
 
 ## 会話体験
 
