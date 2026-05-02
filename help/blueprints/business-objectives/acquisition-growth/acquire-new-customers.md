@@ -31,7 +31,7 @@ ht-degree: 6%
 | パターン | カテゴリ | この目標をどのようにサポートしているか |
 | --- | --- | --- |
 | [宛先へのAudience Activation](/help/blueprints/use-case-patterns/audience-building-activation/audience-activation-to-destinations.md) | オーディエンスの構築と活用 | 価値の高いシードオーディエンスを広告プラットフォームに公開し、類似の拡大とターゲットを絞った獲得キャンペーンを実施 |
-| [ セグメント一致を持つAudience Collaboration](/help/blueprints/use-case-patterns/audience-building-activation/audience-collaboration-segment-match.md) | オーディエンスの構築と活用 | 組織全体でオーディエンスを共有し、獲得プログラムのリーチを拡大できる |
+| [&#x200B; セグメント一致を持つAudience Collaboration](/help/blueprints/use-case-patterns/audience-building-activation/audience-collaboration-segment-match.md) | オーディエンスの構築と活用 | 組織全体でオーディエンスを共有し、獲得プログラムのリーチを拡大できる |
 | [B2B Audience アクティベーション](/help/blueprints/use-case-patterns/b2b/account-audience-activation.md) | オーディエンスの構築と活用 | B2B顧客獲得のために、アカウントベースのオーディエンスを広告チャネルやアウトリーチチャネルに活性化 |
-| [ 匿名訪問者の Web Personalization](/help/blueprints/use-case-patterns/personalization/anonymous-visitor-web-personalization.md) | パーソナライズ機能 | 未知の訪問者に対してweb体験をパーソナライズし、新しい見込み客のコンバージョンを促進したい |
+| [&#x200B; 匿名訪問者の Web Personalization](/help/blueprints/use-case-patterns/personalization/anonymous-visitor-web-personalization.md) | パーソナライズ機能 | 未知の訪問者に対してweb体験をパーソナライズし、新しい見込み客のコンバージョンを促進したい |
 | [Brand Conciergeの会話体験](/help/blueprints/use-case-patterns/conversational-experience/brand-concierge-conversational-experience.md) | 会話体験 | AIを活用した会話型検索を通じて新規訪問者を導き、初回購入を高速化 |

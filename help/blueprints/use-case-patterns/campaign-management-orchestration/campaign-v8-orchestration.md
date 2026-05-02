@@ -46,7 +46,7 @@ Adobe Campaign v8は、電子メールやダイレクトメールなどの従来
 
 ## アーキテクチャ図
 
-[Campaign v8 デプロイメントモデル ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/architecture/architecture.html#ac-deployment){target="_blank"}の詳細をご覧ください。
+[Campaign v8 デプロイメントモデル &#x200B;](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/architecture/architecture.html#ac-deployment){target="_blank"}の詳細をご覧ください。
 
 ### Campaign Enterprise （FFDA）のデプロイメント
 

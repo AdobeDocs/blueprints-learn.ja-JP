@@ -28,7 +28,7 @@ ht-degree: 64%
 
 ## ガードレール
 
-* データサイエンスの結果を[!DNL Experience Platform]に取り込む際のガードレールとエンドツーエンドの遅延について詳しくは、[ デプロイメントガードレール ドキュメント ](/help/blueprints/experience-platform/guardrails.md)で参照されているデータ取り込みガードレールとレイテンシ図を参照してください。
+* データサイエンスの結果を[!DNL Experience Platform]に取り込む際のガードレールとエンドツーエンドの遅延について詳しくは、[&#x200B; デプロイメントガードレール ドキュメント &#x200B;](/help/blueprints/experience-platform/guardrails.md)で参照されているデータ取り込みガードレールとレイテンシ図を参照してください。
 
 ## 実装に関する考慮事項
 

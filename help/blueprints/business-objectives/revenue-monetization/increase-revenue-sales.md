@@ -30,6 +30,6 @@ ht-degree: 7%
 
 | パターン | カテゴリ | この目標をどのようにサポートしているか |
 | --- | --- | --- |
-| [ バッチ送信メッセージの有効化 ](/help/blueprints/use-case-patterns/campaign-management-orchestration/batch-outbound-message-activation.md) | キャンペーン管理とオーケストレーション | 電子メール、SMS、プッシュチャネルを通じて、販売を促進するターゲットを絞ったバッチキャンペーンを提供する |
-| [ イベントトリガーメッセージ ](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md) | キャンペーン管理とオーケストレーション | リアルタイムの行動応答メッセージにより、収益機会を獲得 |
+| [&#x200B; バッチ送信メッセージの有効化 &#x200B;](/help/blueprints/use-case-patterns/campaign-management-orchestration/batch-outbound-message-activation.md) | キャンペーン管理とオーケストレーション | 電子メール、SMS、プッシュチャネルを通じて、販売を促進するターゲットを絞ったバッチキャンペーンを提供する |
+| [&#x200B; イベントトリガーメッセージ &#x200B;](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md) | キャンペーン管理とオーケストレーション | リアルタイムの行動応答メッセージにより、収益機会を獲得 |
 | [購買グループベースのマーケティングとジャーニー管理](/help/blueprints/use-case-patterns/b2b/buying-group-marketing.md) | キャンペーン管理とオーケストレーション | B2B購買グループのジャーニーをオーケストレーションし、セールスパイプラインの進行を加速 |

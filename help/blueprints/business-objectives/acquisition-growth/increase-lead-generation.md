@@ -32,4 +32,4 @@ ht-degree: 7%
 | --- | --- | --- |
 | [B2B Audience アクティベーション](/help/blueprints/use-case-patterns/b2b/account-audience-activation.md) | オーディエンスの構築と活用 | アカウントベースのオーディエンスをアクティベートして、ターゲットアカウントからリードを生成 |
 | [購買グループベースのマーケティングとジャーニー管理](/help/blueprints/use-case-patterns/b2b/buying-group-marketing.md) | キャンペーン管理とオーケストレーション | 購買グループをターゲットにした複数のステークホルダーによる施策を調整し、適格なB2B リードを生成 |
-| [ バッチ送信メッセージの有効化 ](/help/blueprints/use-case-patterns/campaign-management-orchestration/batch-outbound-message-activation.md) | キャンペーン管理とオーケストレーション | 見込み客セグメントにターゲットを絞ったバッチキャンペーンを提供し、リード獲得を促進したい |
+| [&#x200B; バッチ送信メッセージの有効化 &#x200B;](/help/blueprints/use-case-patterns/campaign-management-orchestration/batch-outbound-message-activation.md) | キャンペーン管理とオーケストレーション | 見込み客セグメントにターゲットを絞ったバッチキャンペーンを提供し、リード獲得を促進したい |

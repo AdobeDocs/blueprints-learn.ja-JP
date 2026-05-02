@@ -14,7 +14,7 @@ ht-degree: 52%
 # プロファイルエンリッチメントのブループリントのためのカスタムデータサイエンス
 
 >[!TIP]
->このブループリントは、「オーディエンスの構築とアクティベーション」の下の[ ユースケースパターン ](/help/blueprints/use-case-patterns/audience-building-activation/data-science-profile-enrichment.md)としても利用できます。
+>このブループリントは、「オーディエンスの構築とアクティベーション」の下の[&#x200B; ユースケースパターン &#x200B;](/help/blueprints/use-case-patterns/audience-building-activation/data-science-profile-enrichment.md)としても利用できます。
 
 プロファイル エンリッチメント ブループリントのカスタム データ サイエンスでは、データを使用してモデルをトレーニング、デプロイ、スコアリングし、データ サイエンスおよび機械学習ツールから[!DNL Experience Platform]と[!DNL Real-Time Customer Data Platform]に関する機械学習インサイトを提供する方法を示します。
 
@@ -32,7 +32,7 @@ ht-degree: 52%
 
 ## ガードレール
 
-* データサイエンスの結果を[!DNL Experience Platform]に取り込む際のガードレールとエンドツーエンドの遅延について詳しくは、[ デプロイメントガードレール ドキュメント ](../experience-platform/guardrails.md)で参照されているデータ取り込みガードレールとレイテンシ図を参照してください。
+* データサイエンスの結果を[!DNL Experience Platform]に取り込む際のガードレールとエンドツーエンドの遅延について詳しくは、[&#x200B; デプロイメントガードレール ドキュメント &#x200B;](../experience-platform/guardrails.md)で参照されているデータ取り込みガードレールとレイテンシ図を参照してください。
 
 ## 関連ドキュメント
 

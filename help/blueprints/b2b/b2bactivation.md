@@ -5,10 +5,17 @@ solution: Real-Time Customer Data Platform
 kt: 9311
 exl-id: 5215d077-b0a9-4417-ae9b-f4961d4a73fa
 TQID: https://experienceleague.adobe.com/-YX20LT7VkWqGr4ciUM1iNYS9DnZAwj57K-bUy-zVsg
-product_v2: id: fdddec33-c9cb-4459-b8b6-2664395a6f10
-feature_v2: id: ba929a52-9339-4154-9487-317dc875a3c7
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2:
+  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+feature_v2:
+  - id: ba929a52-9339-4154-9487-317dc875a3c7
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 95ba7aa681e67efb136adac15dc7894cb413a4f0
 workflow-type: tm+mt
 source-wordcount: 1034
@@ -19,7 +26,7 @@ ht-degree: 52%
 # B2B オーディエンスおよびプロファイルのアクティベーションブループリント
 
 >[!TIP]
->このブループリントは、[ ユースケースパターン ](/help/blueprints/use-case-patterns/b2b/account-audience-activation.md)としてB2B Activation &amp; Marketingで利用することもできます。
+>このブループリントは、[&#x200B; ユースケースパターン &#x200B;](/help/blueprints/use-case-patterns/b2b/account-audience-activation.md)としてB2B Activation &amp; Marketingで利用することもできます。
 
 個々の顧客に関連付けられたアカウント、オポチュニティおよびリード情報を使用して、アクションにつながる B2B プロファイルを作成し、チャネルをまたいだパーソナライゼーションとターゲティングを改善します。
 
@@ -40,13 +47,13 @@ ht-degree: 52%
 
 ## アーキテクチャ
 
-![B2B Activation Blueprintの参照アーキテクチャ ](assets/b2b-activation.png)
+![B2B Activation Blueprintの参照アーキテクチャ &#x200B;](assets/b2b-activation.png)
 
 ## ガードレール
 
 * Marketo Engage 関連のガードレールおよび実装手順は、Marketo Engage がソースまたは宛先として使用されている場合にのみ該当します。
 
-* データモデル、サイズ、セグメント化の詳細とガードレールについては、[ デプロイメントガードレール ドキュメント ](../experience-platform/guardrails.md)を参照してください
+* データモデル、サイズ、セグメント化の詳細とガードレールについては、[&#x200B; デプロイメントガードレール ドキュメント &#x200B;](../experience-platform/guardrails.md)を参照してください
 
 
 ### 複数のインスタンスと IMS 組織のサポート：
