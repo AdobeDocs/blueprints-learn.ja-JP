@@ -49,7 +49,7 @@ ht-degree: 54%
 
 >[!NOTE]
 >
->ハブでのプロファイル検索は、web/モバイルのインバウンドパーソナライゼーションなど、スループットが高く、低遅延のユースケースを対象としたものではありません。 ハブでのプロファイル検索は、エージェントによるサポートやセールスインタラクションなど、低遅延のシナリオを目的としています。 web/モバイルのパーソナライゼーションやリアルタイムのオファー決定など、低遅延で高スループットのシナリオの場合は、Edge プロファイルを活用する必要があります。 Edge プロファイルは、Real-time Customer Data Platformの[&#x200B; カスタム Personalization Connection](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/personalization/custom-personalization)を通じてリアルタイム アクセスを有効にします。
+>ハブでのプロファイル検索は、web/モバイルのインバウンドパーソナライゼーションなど、スループットが高く、低遅延のユースケースを対象としたものではありません。 ハブでのプロファイル検索は、エージェントによるサポートやセールスインタラクションなど、低遅延のシナリオを目的としています。 web/モバイルのパーソナライゼーションやリアルタイムのオファー決定など、低遅延で高スループットのシナリオの場合は、Edge プロファイルを活用する必要があります。 Edge プロファイルは、Real-time Customer Data Platformの[&#x200B; カスタム Personalization Connection](https://experienceleague.adobe.com/ja/docs/experience-platform/destinations/catalog/personalization/custom-personalization)を通じてリアルタイム アクセスを有効にします。
 
 ## ユースケース
 
