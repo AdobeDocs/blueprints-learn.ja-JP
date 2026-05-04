@@ -5,11 +5,25 @@ solution: Journey Optimizer, Campaign, Campaign v8, Campaign v8 Client Console
 version: Campaign v8, Campaign v8 Client Console
 exl-id: 447a1b60-f217-4295-a0df-32292c4742b0
 TQID: https://experienceleague.adobe.com/EWmi1DKRUqfWUqK0u-pfXkdUlzDc6-HjC0i1QqOocpk
-product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2: id: b12f6872-9271-4369-85e5-86969a0b99a2id: b82389f8-9b5e-4083-8e3b-3cef299fb8b9id: d556b755-390a-43f0-be32-a08cf6236126id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2: id: af7571a6-3ddb-4c1c-abdf-4d4dde592140id: cfc95e9b-b035-4403-a6a9-b27a8a053a37
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: e0eb8757-182f-49f3-94a4-1587d16f5094id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2:
+  - id: b12f6872-9271-4369-85e5-86969a0b99a2
+  - id: b82389f8-9b5e-4083-8e3b-3cef299fb8b9
+  - id: d556b755-390a-43f0-be32-a08cf6236126
+  - id: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2:
+  - id: af7571a6-3ddb-4c1c-abdf-4d4dde592140
+  - id: cfc95e9b-b035-4403-a6a9-b27a8a053a37
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+  - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
 source-git-commit: a99add31cc9f485db119ca00426798545e6a7316
 workflow-type: tm+mt
 source-wordcount: 795
@@ -76,7 +90,7 @@ ht-degree: 56%
 
 #### ソース／宛先
 
-1. ストリーミング APIとソースコネクタを使用して[ データを [!DNL Experience Platform]](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2020.1.dataingestion&lang=ja)に取り込みます。
+1. ストリーミング APIとソースコネクタを使用して[&#x200B; データを [!DNL Experience Platform]](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2020.1.dataingestion&lang=ja)に取り込みます。
 
 ### Journey Optimizer
 
@@ -89,7 +103,7 @@ ht-degree: 56%
 
 * メッセージングテンプレートは、適切なパーソナライゼーションコンテキストで設定する必要があります。
 * [!DNL Campaign]標準の場合：トランザクションメッセージングログをExperience Platformに書き出すように、書き出しワークフローを設定する必要があります。 推奨は、最大4時間ごとに実行することです。
-* [!DNL Campaign] v8.4では、Experience PlatformのAdobe [!DNL Campaign] Managed Services Source Connectorを活用して、CampaignからExperience Platformに配信およびトラッキングイベントを同期できます。 詳しくは、[Source コネクタ ](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=ja) ドキュメントを参照してください。
+* [!DNL Campaign] v8.4では、Experience PlatformのAdobe [!DNL Campaign] Managed Services Source Connectorを活用して、CampaignからExperience Platformに配信およびトラッキングイベントを同期できます。 詳しくは、[Source コネクタ &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=ja) ドキュメントを参照してください。
 
 ### モバイルプッシュ設定（オプション）
 
@@ -100,7 +114,7 @@ ht-degree: 56%
    * [!DNL Edge Network]のID
    * モバイルコア
 1. モバイルアプリのデプロイメントとweb デプロイメント用の専用データストリームがあることを確認します。
-1. 詳しくは、[Adobe Journey Optimizer モバイルガイド ](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/push-notification/)を参照してください。
+1. 詳しくは、[Adobe Journey Optimizer モバイルガイド &#x200B;](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/push-notification/)を参照してください。
 
    >[!IMPORTANT]
    >Journey Optimizer 経由でリアルタイムの通信を送信し、Campaign 経由でバッチプッシュ通知を送信する場合、Journey Optimizer と Campaign の両方でモバイルトークンを収集する必要が生じる場合があります。 Campaign v8 では、プッシュトークンをキャプチャするために Campaign SDK を排他的に使用する必要があります。
