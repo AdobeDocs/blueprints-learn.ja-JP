@@ -62,9 +62,9 @@ ht-degree: 56%
 
 ## ガードレール
 
-* [Journey Optimizer Guardrails製品の制限事項](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/get-started/guardrails)
+* [Journey Optimizer Guardrails製品の制限事項](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/get-started/guardrails)
 
-* [ガードレールとエンドツーエンドの遅延ガイダンス](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/architecture-overview/guardrails.html)
+* [ガードレールとエンドツーエンドの遅延ガイダンス](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/architecture-overview/guardrails.html?lang=ja)
 
 ## 実装手順
 

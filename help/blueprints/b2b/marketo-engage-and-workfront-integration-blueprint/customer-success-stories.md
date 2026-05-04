@@ -26,14 +26,14 @@ ht-degree: 50%
 
 複数の業界のアドビの顧客は、組織全体の効率と可視性を促進するために、マーケティング計画と実行の整合性を取ることの価値を認識しています。 詳しくは、以下のリンクを参照してください。
 
-* Adobe上のAdobe（ユーザー事例）: [Adobe Marketo EngageとAdobe Workfrontを組み合わせて、Adobeでシームレスで効果的なキャンペーンオーケストレーションを実現](https://business.adobe.com/customer-success-stories/adobe-campaign-orchestration-case-study){target="_blank"}
+* Adobe上のAdobe（ユーザー事例）: [Adobe Marketo EngageとAdobe Workfrontを組み合わせて、Adobeでシームレスで効果的なキャンペーンオーケストレーションを実現](https://business.adobe.com/jp/customer-success-stories/adobe-campaign-orchestration-case-study){target="_blank"}
 
 * Nokia （ウェビナー）: [NokiaがAdobeを使用してキャンペーンの計画と実行を強化する方法](https://engage.adobe.com/MarWF22Q4WBR-Registration.html){target="_blank"}
 
-* Lumen （summit breakout）: [Lumenがオムニチャネルの顧客体験の俊敏性を高める方法 – S710](https://business.adobe.com/summit/2022/sessions/how-lumen-drives-agility-for-omnichannel-customer-s710.html){target="_blank"}
+* Lumen （summit breakout）: [Lumenがオムニチャネルの顧客体験の俊敏性を高める方法 – S710](https://business.adobe.com/jp/summit/2022/sessions/how-lumen-drives-agility-for-omnichannel-customer-s710.html){target="_blank"}
 
 * BNY Mellon （Summit Breakout）: [BNY Mellonが人物、プロセス、Adobe テクノロジーを使用してキャンペーンの実行を改善した方法 – S127](https://business.adobe.com/events/experience-makers-live/2022/sessions/how-bny-mellon-improved-campaign-execution-with-pe-s127.html){target="_blank"}
 
-* Commvault （ユーザー事例）:[Commvaultは、Adobe Marketo Engageを活用してマーケティングセンターオブエクセレンスを構築し、年間1,800件以上のキャンペーンを実施しています](https://business.adobe.com/customer-success-stories/commvault-case-study){target="_blank"}
+* Commvault （ユーザー事例）:[Commvaultは、Adobe Marketo Engageを活用してマーケティングセンターオブエクセレンスを構築し、年間1,800件以上のキャンペーンを実施しています](https://business.adobe.com/jp/customer-success-stories/commvault-case-study){target="_blank"}
 
 * Poly （ブログ）: [PolyがAdobe Experience Cloudを使って新しいオーディエンスにリーチした方法](https://business.adobe.com/blog/basics/how-poly-shifted-gears-reach-new-audiences-adobe-experience-cloud){target="_blank"}

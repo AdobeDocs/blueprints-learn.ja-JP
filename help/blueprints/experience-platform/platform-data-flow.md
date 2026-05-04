@@ -34,4 +34,4 @@ ht-degree: 54%
 
 ## データイングレスとエグレスのパターン
 
-すべてのデータ取り込み、収集、イングレスおよびエグレス パターンの詳細なリストについては、[&#x200B; データ取り込みドキュメント &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/collection/home)を参照してください。
+すべてのデータ取り込み、収集、イングレスおよびエグレス パターンの詳細なリストについては、[&#x200B; データ取り込みドキュメント &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/collection/home)を参照してください。
