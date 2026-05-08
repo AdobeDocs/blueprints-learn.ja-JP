@@ -75,7 +75,7 @@ The architecture above supports the following use case patterns:
 - **画像パス** – 常に`assets/{filename}` （ページのトピックフォルダーに対して）。 絶対パスは使用しないでください。
 - **Adobeの商品名** – 本文と箇条書きで`[!DNL ...]`を囲みます。 例：`[!DNL Real-Time CDP]`、`[!DNL Journey Optimizer]`、`[!DNL Experience Platform]`。
 - **ユースケースパターンリンク** – 常に絶対`/help/blueprints/use-case-patterns/{category}/{file}.md`形式を使用して、このコンテンツをトランスクルージョンする可能性のあるページからリンクを解決します。
-- **Experience League リンク** — `https://experienceleague.adobe.com/`で始まる絶対URL。 ローカライズされたバリエーションよりも、規範的なドキュメントのURLを優先する。
+- **Experience League リンク** — `https://experienceleague.adobe.com/ja`で始まる絶対URL。 ローカライズされたバリエーションよりも、規範的なドキュメントのURLを優先する。
 
 ## セクションの順序
 

@@ -71,7 +71,7 @@ ht-degree: 2%
 
 8. **プライマリデータフロー/統合ポイント** – 図に表示されている主要なフローと統合の境界を説明する3 ～ 7個の箇条書き（例：`Real-time event ingestion from Web SDK to Edge Network`、`Profile synchronization between Experience Platform Hub and Edge`）。
 
-9. **Experience League リンク** – 関連するExperience League ドキュメントへの3 ～ 6個のリンクを使用して、さらに詳しく読むことができます。 それぞれ`https://experienceleague.adobe.com/`で始まる必要があります。
+9. **Experience League リンク** – 関連するExperience League ドキュメントへの3 ～ 6個のリンクを使用して、さらに詳しく読むことができます。 それぞれ`https://experienceleague.adobe.com/ja`で始まる必要があります。
 
    **最初に候補者を推薦します。** Adobeのソリューションとページの目的に基づいて、Experience Leagueに関する4～8の妥当な記事（例：各名前付きソリューションの標準的なランディングページや概要ページ、主要な統合ガイド、デプロイメント参照）を提案します。 推奨事項ごとに、次の項目を提示します。
    - 記事タイトル
@@ -176,7 +176,7 @@ ht-degree: 2%
 
 2. **ユースケースパターンリンク** — ファイル内のすべてのパターンリンクは、`/help/blueprints/use-case-patterns/`の下にある既存のマークダウンファイルを指しています。 `Read`またはグロブを使用して、各ターゲットが存在することを確認します。
 
-3. **Experience League リンク** — `## Further reading` セクションのすべてのURLが`https://experienceleague.adobe.com/`で始まることをスポットチェックします。
+3. **Experience League リンク** — `## Further reading` セクションのすべてのURLが`https://experienceleague.adobe.com/ja`で始まることをスポットチェックします。
 
 4. **目次エントリの配置** – 新しいエントリは正しいサブセクション内にあり、4 スペースのインデントを使用し、パスは生成されたファイルの場所と正確に一致します。
 

@@ -98,7 +98,7 @@ exl-id: [UUID - if this is already popultated keep it as is. Disregard and remov
 ## Adobe Experience Leagueの参照
 
 - **リンクするタイミング**：製品ドキュメント、API リファレンス、ガードレール、チュートリアル、設定手順については、Experience Leagueにリンクします。 長い手順を複製しないでください。要約してリンクします。
-- **URL形式**：完全なURLを使用します。 `https://experienceleague.adobe.com/docs/...`または`https://experienceleague.adobe.com/en/docs/...`を優先します。 開発者ドキュメントの場合、`https://developer.adobe.com/...`も有効です。
+- **URL形式**：完全なURLを使用します。 `https://experienceleague.adobe.com/docs/?lang=ja...`または`https://experienceleague.adobe.com/ja/docs/...`を優先します。 開発者ドキュメントの場合、`https://developer.adobe.com/...`も有効です。
 - **リンクテキスト**：説明テキストを使用します（例：「[ スキーマを作成] (url)」は「ここをクリック」ではありません）。 リンクテキスト内の製品名には、適切な場合は`[!DNL Product Name]`を使用します。
 - **関連ドキュメントのセクション**: 「関連ドキュメント」セクションでブループリントを終了し、リンクをカテゴリ別にグループ化します（例：配信先の設定、SDK ドキュメント、プロファイルとセグメント化、チュートリアル）。
 
