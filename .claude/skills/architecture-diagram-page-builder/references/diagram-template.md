@@ -9,7 +9,7 @@ ht-degree: 0%
 
 これは、アーキテクチャ ダイアグラム ページの完全なマークダウン テンプレートです。 `{placeholder}`ごとに、スキルワークフローのフェーズ 1で収集された値に置き換えます。 適用されない任意のセクション（例：`>[!MORELIKETHIS]` ブロック）を削除します。生成されたファイルに空のプレースホルダーを残さないでください。
 
----
+&#x200B;---
 
 ```markdown
 ---
@@ -60,7 +60,7 @@ The architecture above supports the following use case patterns:
 - [{Article 3 title}]({Experience League URL 3})
 ```
 
----
+&#x200B;---
 
 ## Frontmatterのルール
 
