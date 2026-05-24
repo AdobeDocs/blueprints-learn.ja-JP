@@ -3,10 +3,10 @@ title: ユースケースカタログ
 description: 業種ごとのユースケースを確認し、実装パターンやビジネス目標へのリンクとともに、Adobe Experience Platformとアプリケーションのジャーニーの適切な出発点を見つけましょう。
 doc-type: overview-page
 exl-id: 38593314-b8c9-49f6-85db-a4345ec444e7
-source-git-commit: 95ba7aa681e67efb136adac15dc7894cb413a4f0
+source-git-commit: e79d9d6490e4f50c4611dd879b53f0e63a90cd65
 workflow-type: tm+mt
 source-wordcount: '4157'
-ht-degree: 31%
+ht-degree: 30%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 31%
 
 業界の使用例では、特定分野の組織がAdobe Experience Platformとアプリケーションを適用して、測定可能なビジネス成果を達成する方法を示しています。 各ユースケースでは、具体的なビジネスシナリオ、予想される影響、詳細な実装ガイダンスを提供する [&#x200B; ユースケースパターン &#x200B;](/help/blueprints/use-case-patterns/overview.md) へのリンクについて説明します。
 
-業界別に参照して組織に関連するユースケースを見つけたら、実装リファレンスのパターンリンク（意思決定ガイダンス、機能チェーン、Experience Leagueのドキュメントなど）に従います。
+業界別に検索して自社に関連するユースケースを見つけ、意思決定ガイダンス、実行計画、Experience Leagueのドキュメントなどの実装に関する参考資料のパターンリンクに従ってください。
 
 | 業種 | 主要テーマ |
 | --- | --- |
@@ -31,7 +31,7 @@ ht-degree: 31%
 
 ## ユースケースと実装ガイダンスの連携
 
-各ユースケースは、**ユースケースパターン** にリンクしています。これは、ユースケースを実現するために必要な機能チェーン、決定ポイントおよび設定手順を説明する、繰り返し可能な実装アプローチです。 次に、ユースケースパターンが [&#x200B; 主要なビジネス目標 &#x200B;](/help/blueprints/business-objectives/overview.md) に関連付けられ、実装作業と戦略的成果の連携を支援します。
+各ユースケースは、**ユースケースパターン**&#x200B;にリンクしています。これは、ユースケースを実現するために必要な実行計画、決定ポイント、設定ステップを説明する、繰り返し可能な実装アプローチです。 次に、ユースケースパターンが [&#x200B; 主要なビジネス目標 &#x200B;](/help/blueprints/business-objectives/overview.md) に関連付けられ、実装作業と戦略的成果の連携を支援します。
 
 ```
 Industry Use Case → Use Case Pattern → Key Business Objective

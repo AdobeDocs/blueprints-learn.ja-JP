@@ -4,7 +4,7 @@ description: Adobe Adobe Experience Platformを実装するためのユースケ
 solution: Experience Platform, Real-Time Customer Data Platform, Journey Optimizer
 doc-type: overview-page
 exl-id: 58caa6ad-0d1c-4290-9614-c68c9c9028bb
-source-git-commit: 8284380fb9202991f3da7d755225da2e38a50cac
+source-git-commit: e79d9d6490e4f50c4611dd879b53f0e63a90cd65
 workflow-type: tm+mt
 source-wordcount: '1007'
 ht-degree: 0%
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # ユースケースパターン
 
-ユースケースパターンは、Adobe Experience Platformとアプリケーションの繰り返し可能な実装アプローチを定義します。 各パターンは、特定の機能、それを提供する機能チェーン、関連するアプリケーション、およびそれがサポートする[主なビジネス目標](/help/blueprints/business-objectives/overview.md)を表します。
+ユースケースパターンは、Adobe Experience Platformとアプリケーションの繰り返し可能な実装アプローチを定義します。 各パターンは、特定の機能、それを提供する実行計画、関連するアプリケーション、およびそれがサポートする[主なビジネス目標](/help/blueprints/business-objectives/overview.md)を表します。
 
 以下の表を使用して、実装ニーズに一致するパターンを見つけ、オプション、フェーズ、決定ガイダンス、Experience League ドキュメントなどの実装リファレンスへのリンクに従います。
 
