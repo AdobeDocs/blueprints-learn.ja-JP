@@ -1,9 +1,9 @@
 ---
 name: architecture-diagram-page-builder
 description: Adobe Experience Platform ブループリントリポジトリ用の新しいアーキテクチャ図ページの作成をガイドします。 このスキルは、新しいトップレベルのアーキテクチャ図、統合アーキテクチャページ、またはアプリケーションアーキテクチャの概要を追加する際に使用します。 アーキテクチャページでは、トップレベルのAEPとアプリケーションアーキテクチャおよび主要な統合ポイントについて説明します。詳細なユースケースは含まれません（ユースケースのpattern-builderに属するもの）。 ワークフロー全体を処理します。ページ情報の収集、マークダウン ファイルの生成、正しいトピックフォルダーへの配置、TOC.mdの更新です。
-source-git-commit: 83e85d946e455cde46001af0a2112637b7fe24cc
+source-git-commit: e79d9d6490e4f50c4611dd879b53f0e63a90cd65
 workflow-type: tm+mt
-source-wordcount: '1396'
+source-wordcount: '1393'
 ht-degree: 2%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 2%
 - 図に示す主要なデータフローと統合ポイントのリスト
 - アプリケーションドメインの詳細については、Experience Leagueのリンクを参照してください
 
-詳細なユースケースのコンテンツを提供する場所は&#x200B;**not**&#x200B;です。 KPI、ビジネス目標、戦術的なユースケースの例、ファンクションチェーン、ペルソナのストーリーは、代わりに`use-case-pattern-builder` スキルで生成されたユースケースパターンページに属しています。 完全なガードレールについては、`references/scope-guardrails.md`を参照してください。
+詳細なユースケースのコンテンツを提供する場所は&#x200B;**not**&#x200B;です。 KPI、ビジネス目標、戦術的なユースケースの例、機能、ペルソナのストーリーは、代わりに`use-case-pattern-builder` スキルで生成されたユースケースパターンページに属しています。 完全なガードレールについては、`references/scope-guardrails.md`を参照してください。
 
 ## 開始する前に読む必要があります
 
@@ -71,7 +71,7 @@ ht-degree: 2%
 
 8. **プライマリデータフロー/統合ポイント** – 図に表示されている主要なフローと統合の境界を説明する3 ～ 7個の箇条書き（例：`Real-time event ingestion from Web SDK to Edge Network`、`Profile synchronization between Experience Platform Hub and Edge`）。
 
-9. **Experience League リンク** – 関連するExperience League ドキュメントへの3 ～ 6個のリンクを使用して、さらに詳しく読むことができます。 それぞれ`https://experienceleague.adobe.com/ja`で始まる必要があります。
+9. **Experience League リンク** – 関連するExperience League ドキュメントへの3 ～ 6個のリンクを使用して、さらに詳しく読むことができます。 それぞれ`https://experienceleague.adobe.com/`で始まる必要があります。
 
    **最初に候補者を推薦します。** Adobeのソリューションとページの目的に基づいて、Experience Leagueに関する4～8の妥当な記事（例：各名前付きソリューションの標準的なランディングページや概要ページ、主要な統合ガイド、デプロイメント参照）を提案します。 推奨事項ごとに、次の項目を提示します。
    - 記事タイトル
@@ -95,7 +95,7 @@ ht-degree: 2%
 - KPIまたは測定式
 - ビジネス目標やビジネス影響のストーリー
 - 戦術的なユースケース例（特定のパーソナライゼーションシナリオ、キャンペーンの例など）
-- 関数チェーン （`A > B > C > D` スタイル）
+- 機能（`A > B > C > D` スタイル）
 - ペルソナ主導のstorytelling
 
 計画されたコンテンツがアーキテクチャページスコープ（トップレベルのアーキテクチャ、システムデータフロー、統合ポイント、デプロイメントトポロジ、エッジとハブ）内に留まる場合は、ユーザーに確認し、フェーズ 3に進みます。
@@ -176,7 +176,7 @@ ht-degree: 2%
 
 2. **ユースケースパターンリンク** — ファイル内のすべてのパターンリンクは、`/help/blueprints/use-case-patterns/`の下にある既存のマークダウンファイルを指しています。 `Read`またはグロブを使用して、各ターゲットが存在することを確認します。
 
-3. **Experience League リンク** — `## Further reading` セクションのすべてのURLが`https://experienceleague.adobe.com/ja`で始まることをスポットチェックします。
+3. **Experience League リンク** — `## Further reading` セクションのすべてのURLが`https://experienceleague.adobe.com/`で始まることをスポットチェックします。
 
 4. **目次エントリの配置** – 新しいエントリは正しいサブセクション内にあり、4 スペースのインデントを使用し、パスは生成されたファイルの場所と正確に一致します。
 
@@ -192,4 +192,4 @@ ht-degree: 2%
 - アーキテクチャ図は通常、SVG（鮮明さと拡大・縮小に適しています）ですが、ラスターソースのアートワークではPNGを使用できます。
 - 埋め込まれたインラインスタイル文字列（`border:1px solid #4a4a4a; width:90%; margin-bottom: 15px;`）と`class="modal-image"`が必要です。これらは、Experience League モーダル ズーム操作を有効にします。`<img>`
 - ユーザーがまだ存在しない新しいトピックフォルダーのページを作成する場合は、TOC.mdに`+ Architecture Diagrams and Blueprints{#architecture-diagrams}`の下に新しいトップレベルサブセクションが必要であることを警告します。 ユーザーの明示的な承認とは別のステップとして処理する必要があります。
-- アーキテクチャ図で&#x200B;*単一ユースケースのエンドツーエンド* （KPI、ビジネス目標、機能チェーン）を広く文書化している場合、ユーザーを`use-case-pattern-builder`にリダイレクトします。これはアーキテクチャページではありません。
+- アーキテクチャ図で&#x200B;*単一のユースケースのエンドツーエンド* （KPI、ビジネス目標、機能）を広く文書化している場合、ユーザーを`use-case-pattern-builder`にリダイレクトします。これはアーキテクチャページではありません。

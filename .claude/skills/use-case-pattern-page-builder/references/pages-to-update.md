@@ -1,8 +1,8 @@
 ---
-source-git-commit: 83e85d946e455cde46001af0a2112637b7fe24cc
+source-git-commit: e79d9d6490e4f50c4611dd879b53f0e63a90cd65
 workflow-type: tm+mt
 source-wordcount: '220'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 # ユースケースパターン追加時に更新するページ
@@ -64,5 +64,5 @@ ht-degree: 100%
 - [ ] ファイルでは kebab-case 命名規則を使用します
 - [ ] すべてのExperience League リンクは有効な URL です
 - [ Adobeの製品名 ] は `[!DNL ...]` 構文を使用します
-- [ 関数チェーン ] 区切り記号 ` > ` 使用します
+- [ ]実行プランでは、` > `区切り記号の形式が使用されています
 - [ パターンファイル ]、必要なすべてのセクションが含まれています（pattern-template.md を参照）。
