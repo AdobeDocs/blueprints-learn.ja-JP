@@ -43,7 +43,7 @@ ht-degree: 72%
 
 ## 関連ドキュメント
 
-クラウドストレージとエンタープライズ宛先の設定に関する追加の詳細については、[宛先ドキュメント &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/cloud-storage/overview)を参照してください。
+クラウドストレージとエンタープライズ宛先の設定に関する追加の詳細については、[宛先ドキュメント &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/destinations/catalog/cloud-storage/overview)を参照してください。
 
 ## ガードレール
 

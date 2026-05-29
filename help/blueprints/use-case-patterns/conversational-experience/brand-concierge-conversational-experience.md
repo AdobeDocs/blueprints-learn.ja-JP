@@ -112,4 +112,4 @@ ht-degree: 1%
 
 ## 関連ドキュメント
 
-実装ガイダンスと詳細については、Adobe Experience Leagueの[Brand Conciergeの概要](https://experienceleague.adobe.com/en/docs/brand-concierge/content/documentation/overview)を参照してください。
+実装ガイダンスと詳細については、Adobe Experience Leagueの[Brand Conciergeの概要](https://experienceleague.adobe.com/ja/docs/brand-concierge/content/documentation/overview)を参照してください。
