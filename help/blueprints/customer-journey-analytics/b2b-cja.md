@@ -3,7 +3,7 @@ title: B2B Customer Journey Analyticsの設計図
 description: アカウントベースのレポートとジャーニー分析のために、Customer Journey AnalyticsにB2B アカウント、商談、購買グループのデータを含めます。
 solution: Customer Journey Analytics
 exl-id: d55ed43d-aabf-4722-9ae9-a2aef99f19e0
-source-git-commit: 8284380fb9202991f3da7d755225da2e38a50cac
+source-git-commit: 213e2d7d73d91fa7b487289dfe62685bc32d5029
 workflow-type: tm+mt
 source-wordcount: '743'
 ht-degree: 7%
@@ -37,7 +37,7 @@ Customer Journey Analytics B2B editionなら、B2B企業のアカウントベー
 
 ## アーキテクチャ
 
-![B2B アカウントと商談データをジャーニー分析に統合したCustomer Journey Analytics アーキテクチャ &#x200B;](assets/CJA.svg){zoomable="yes"}
+![B2B アカウントと商談データをジャーニー分析に統合したCustomer Journey Analytics アーキテクチャ &#x200B;](assets/CJA.png){zoomable="yes"}
 
 Experience Platform（B2Bおよびイベントデータセット）からCJA接続を介して[!DNL Customer Journey Analytics]にデータフローが実行されます。 B2Bのディメンションはデータビューで公開されるため、アカウント、商談、人物のレベルで分析とオーディエンスを構築できます。
 

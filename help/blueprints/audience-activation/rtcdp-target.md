@@ -34,7 +34,7 @@ topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 95ba7aa681e67efb136adac15dc7894cb413a4f0
+source-git-commit: 213e2d7d73d91fa7b487289dfe62685bc32d5029
 workflow-type: tm+mt
 source-wordcount: 735
 ht-degree: 37%
@@ -75,15 +75,15 @@ ht-degree: 37%
 
 アーキテクチャ
 
-![&#x200B; オンライン/オフライン Web Personalization ブループリントの参照アーキテクチャ &#x200B;](assets/RTCDP+Target.svg)
+![&#x200B; オンライン/オフライン Web Personalization ブループリントの参照アーキテクチャ &#x200B;](assets/RTCDP+Target.png)
 
 シーケンスの詳細
 
-![&#x200B; オンライン/オフライン Web Personalization ブループリントの参照アーキテクチャ &#x200B;](assets/RTCDP+Target_flow.svg)
+![&#x200B; オンライン/オフライン Web Personalization ブループリントの参照アーキテクチャ &#x200B;](assets/RTCDP+Target_flow.png)
 
 概要アーキテクチャ
 
-![&#x200B; オンライン/オフライン Web Personalization ブループリントの参照アーキテクチャ &#x200B;](assets/personalization_with_apps.svg)
+![&#x200B; オンライン/オフライン Web Personalization ブループリントの参照アーキテクチャ &#x200B;](assets/personalization_with_apps.png)
 
 ## 関連ドキュメント
 

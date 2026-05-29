@@ -6,7 +6,7 @@ short-description: RTCDP のプロファイルとオーディエンスを Adobe 
 solution: Real-Time Customer Data Platform, Target, Experience Platform
 kt: 7194
 thumbnail: thumb-web-personalization-scenario2.jpg
-source-git-commit: 8284380fb9202991f3da7d755225da2e38a50cac
+source-git-commit: 213e2d7d73d91fa7b487289dfe62685bc32d5029
 workflow-type: tm+mt
 source-wordcount: '1086'
 ht-degree: 33%
@@ -45,15 +45,15 @@ ht-degree: 33%
 
 アーキテクチャ
 
-![&#x200B; オンライン/オフライン Web Personalization ブループリントの参照アーキテクチャ &#x200B;](/help/blueprints/audience-activation/assets/RTCDP+Target.svg)
+![&#x200B; オンライン/オフライン Web Personalization ブループリントの参照アーキテクチャ &#x200B;](/help/blueprints/audience-activation/assets/RTCDP+Target.png)
 
 シーケンスの詳細
 
-![&#x200B; オンライン/オフライン Web Personalization ブループリントの参照アーキテクチャ &#x200B;](/help/blueprints/audience-activation/assets/RTCDP+Target_flow.svg)
+![&#x200B; オンライン/オフライン Web Personalization ブループリントの参照アーキテクチャ &#x200B;](/help/blueprints/audience-activation/assets/RTCDP+Target_flow.png)
 
 概要アーキテクチャ
 
-![&#x200B; オンライン/オフライン Web Personalization ブループリントの参照アーキテクチャ &#x200B;](/help/blueprints/audience-activation/assets/personalization_with_apps.svg)
+![&#x200B; オンライン/オフライン Web Personalization ブループリントの参照アーキテクチャ &#x200B;](/help/blueprints/audience-activation/assets/personalization_with_apps.png)
 
 ## 実装パターン
 

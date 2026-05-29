@@ -3,7 +3,7 @@ title: 配信先でのオーディエンスの活用
 description: Adobe Real-Time CDPを使用して、ターゲティングまたは抑制のためにオーディエンスセグメントを評価し、外部の宛先に公開する方法を説明します。
 solution: Real-Time Customer Data Platform, Experience Platform
 exl-id: b0b9d937-45d2-48f9-ac4c-3611c6e35f58
-source-git-commit: e79d9d6490e4f50c4611dd879b53f0e63a90cd65
+source-git-commit: 213e2d7d73d91fa7b487289dfe62685bc32d5029
 workflow-type: tm+mt
 source-wordcount: '7080'
 ht-degree: 1%
@@ -94,7 +94,7 @@ ht-degree: 1%
 
 次のリファレンスアーキテクチャでは、Real-Time CDPから、クラウドストレージ、ストリーミングエンドポイント、SaaS アプリケーションなどのエンタープライズ宛先に、オーディエンスとプロファイルデータがどのように流れるのかを示しています。
 
-![&#x200B; エンタープライズ宛先に対するオーディエンスとプロファイルのアクティブ化のための参照アーキテクチャ &#x200B;](/help/blueprints/audience-activation/assets/known_activation.svg)
+![&#x200B; エンタープライズ宛先に対するオーディエンスとプロファイルのアクティブ化のための参照アーキテクチャ &#x200B;](/help/blueprints/audience-activation/assets/known_activation.png)
 
 ## 基盤となる能力
 

@@ -19,9 +19,9 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: 95ba7aa681e67efb136adac15dc7894cb413a4f0
+source-git-commit: 213e2d7d73d91fa7b487289dfe62685bc32d5029
 workflow-type: tm+mt
-source-wordcount: 2349
+source-wordcount: 2322
 ht-degree: 0%
 
 ---
@@ -67,7 +67,7 @@ Journey Optimizer B2B editionが提供する強化されたB2B機能により、
 
 次の図が示すように、フォームまたはLinkedInのアクティベーションを通じて詳細を収集し、チャットボットとのやり取りが発生したときにソリューションのインテントを選定できます。
 
-![購買グループジャーニー](./assets/buying-group-journey-diagram.svg){zoomable="yes"}
+![購買グループジャーニー](./assets/buying-group-journey-diagram.png){zoomable="yes"}
 
 購買グループの完了率が十分に高い場合は、SQLまたはSOLを通じてグループをセールス部門と共有し、アカウントのリードを完了済みのセールスに変換します。
 
