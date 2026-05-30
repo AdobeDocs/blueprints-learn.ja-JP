@@ -92,7 +92,7 @@ ht-degree: 4%
 
 次のリファレンスアーキテクチャでは、Real-Time CDPから、クラウドストレージ、ストリーミングエンドポイント、SaaS アプリケーションなどのエンタープライズ宛先に、オーディエンスとプロファイルデータがどのように流れるのかを示しています。
 
-![ エンタープライズ宛先に対するオーディエンスとプロファイルのアクティブ化のための参照アーキテクチャ ](/help/blueprints/audience-activation/assets/known_activation.png)
+![&#x200B; エンタープライズ宛先に対するオーディエンスとプロファイルのアクティブ化のための参照アーキテクチャ &#x200B;](/help/blueprints/audience-activation/assets/known_activation.png)
 
 ## 関連ドキュメント
 

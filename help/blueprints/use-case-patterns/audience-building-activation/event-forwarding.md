@@ -40,7 +40,7 @@ ht-degree: 0%
 
 **KPI:**&#x200B;効率、コスト削減
 
-詳しくは、[ データ品質とガバナンスの改善](../../business-objectives/cost-efficiency/improve-data-quality-governance.md)を参照してください。
+詳しくは、[&#x200B; データ品質とガバナンスの改善](../../business-objectives/cost-efficiency/improve-data-quality-governance.md)を参照してください。
 
 ### マーケティングテクノロジーの統合と近代化
 
@@ -48,7 +48,7 @@ ht-degree: 0%
 
 **KPI:** コスト削減、効率性、市場投入までの時間
 
-詳しくは、[ マーケティングテクノロジーの統合と近代化](../../business-objectives/cost-efficiency/consolidate-modernize-marketing-technology.md)を参照してください。
+詳しくは、[&#x200B; マーケティングテクノロジーの統合と近代化](../../business-objectives/cost-efficiency/consolidate-modernize-marketing-technology.md)を参照してください。
 
 ## 戦術的なユースケース
 
