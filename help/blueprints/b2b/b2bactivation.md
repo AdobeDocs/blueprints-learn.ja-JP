@@ -16,9 +16,9 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 95ba7aa681e67efb136adac15dc7894cb413a4f0
+source-git-commit: b8b25146021472c6f513435df8e3be88254d9c3f
 workflow-type: tm+mt
-source-wordcount: 1034
+source-wordcount: 1036
 ht-degree: 52%
 
 ---
@@ -34,7 +34,7 @@ ht-degree: 52%
 
 * アカウント、商談、リードを含む B2B データに対して、複数のチャネルをまたいでターゲティングとパーソナライゼーションをおこなうための顧客のオーディエンスを作成します。
 * ターゲティングとパーソナライゼーションのために、Experience Platform の宛先に対してオーディエンスをアクティブ化します。
-* アカウントのオーディエンス（企業リストなど）を作成し、LinkedInなどの配信先を通じてターゲティングします。この配信先では、企業のリストを入力として受け入れたり、クラウドストレージの宛先に書き出して、ターゲティングやセールスを実施します。
+* アカウントのオーディエンス（企業リストなど）を構築し、LinkedInやクラウドストレージなどの配信先を通じて、これらの企業をターゲティングできます。 詳しくは、[B2B Account Activation to Advertising Destinations and File Destinations](b2b-account-activation.md)を参照してください。
 
 ## アプリケーション
 
