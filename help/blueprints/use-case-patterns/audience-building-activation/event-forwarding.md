@@ -88,26 +88,26 @@ ht-degree: 0%
 
 **イベント転送**
 
-- [イベント転送の概要](https://experienceleague.adobe.com/en/docs/experience-platform/tags/event-forwarding/overview)
-- [イベント転送の概要](https://experienceleague.adobe.com/en/docs/experience-platform/tags/event-forwarding/getting-started)
-- [イベント転送モニタリング](https://experienceleague.adobe.com/en/docs/experience-platform/tags/event-forwarding/monitoring)
-- [イベント転送シークレット](https://experienceleague.adobe.com/en/docs/experience-platform/tags/event-forwarding/secrets)
+- [イベント転送の概要](https://experienceleague.adobe.com/ja/docs/experience-platform/tags/event-forwarding/overview)
+- [イベント転送の概要](https://experienceleague.adobe.com/ja/docs/experience-platform/tags/event-forwarding/getting-started)
+- [イベント転送モニタリング](https://experienceleague.adobe.com/ja/docs/experience-platform/tags/event-forwarding/monitoring)
+- [イベント転送シークレット](https://experienceleague.adobe.com/ja/docs/experience-platform/tags/event-forwarding/secrets)
 
 **イベント転送拡張機能**
 
-- [サーバーサイド拡張機能カタログ](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/server/overview)
-- [Adobe Cloud Connector拡張機能](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/server/cloud-connector/overview)
-- [Meta Conversions API拡張機能](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/server/meta/overview)
-- [Google Cloud Platform拡張機能](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/server/google-cloud-platform/overview)
-- [AWS拡張機能](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/server/aws/overview)
-- [Snowflake拡張機能](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/server/snowflake/overview)
-- [Google Ads Enhanced Conversions拡張機能](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/server/google-ads-enhanced-conversions/overview)
-- [Mailchimp拡張機能](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/server/mailchimp/overview)
+- [サーバーサイド拡張機能カタログ](https://experienceleague.adobe.com/ja/docs/experience-platform/tags/extensions/server/overview)
+- [Adobe Cloud Connector拡張機能](https://experienceleague.adobe.com/ja/docs/experience-platform/tags/extensions/server/cloud-connector/overview)
+- [Meta Conversions API拡張機能](https://experienceleague.adobe.com/ja/docs/experience-platform/tags/extensions/server/meta/overview)
+- [Google Cloud Platform拡張機能](https://experienceleague.adobe.com/ja/docs/experience-platform/tags/extensions/server/google-cloud-platform/overview)
+- [AWS拡張機能](https://experienceleague.adobe.com/ja/docs/experience-platform/tags/extensions/server/aws/overview)
+- [Snowflake拡張機能](https://experienceleague.adobe.com/ja/docs/experience-platform/tags/extensions/server/snowflake/overview)
+- [Google Ads Enhanced Conversions拡張機能](https://experienceleague.adobe.com/ja/docs/experience-platform/tags/extensions/server/google-ads-enhanced-conversions/overview)
+- [Mailchimp拡張機能](https://experienceleague.adobe.com/ja/docs/experience-platform/tags/extensions/server/mailchimp/overview)
 
 **データ収集とEdge Network**
 
-- [データストリームの設定](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/configure)
-- [データストリーム概要](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/overview)
-- [Web SDKの概要](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/home)
-- [Edge Network Server APIの概要](https://experienceleague.adobe.com/en/docs/experience-platform/edge-network-server-api/overview)
-- [タグの概要](https://experienceleague.adobe.com/en/docs/experience-platform/tags/home)
+- [データストリームの設定](https://experienceleague.adobe.com/ja/docs/experience-platform/datastreams/configure)
+- [データストリーム概要](https://experienceleague.adobe.com/ja/docs/experience-platform/datastreams/overview)
+- [Web SDKの概要](https://experienceleague.adobe.com/ja/docs/experience-platform/web-sdk/home)
+- [Edge Network Server APIの概要](https://experienceleague.adobe.com/ja/docs/experience-platform/edge-network-server-api/overview)
+- [タグの概要](https://experienceleague.adobe.com/ja/docs/experience-platform/tags/home)

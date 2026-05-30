@@ -108,70 +108,70 @@ ht-degree: 3%
 
 ### [!DNL Customer Journey Analytics] – はじめに
 
-- [CJAの概要](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-overview)
-- [CJAのガードレール](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-admin/guardrails)
+- [CJAの概要](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/cja-overview/cja-overview)
+- [CJAのガードレール](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/cja-admin/guardrails)
 
 ### 接続
 
-- [接続の概要](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-connections/overview)
-- [接続の作成または編集](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-connections/create-connection)
-- [接続の管理](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-connections/manage-connections)
+- [接続の概要](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/cja-connections/overview)
+- [接続の作成または編集](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/cja-connections/create-connection)
+- [接続の管理](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/cja-connections/manage-connections)
 
 ### データビュー
 
-- [データビューの概要](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/data-views)
-- [データビューの作成または編集](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/create-dataview)
-- [コンポーネント設定の概要](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/component-settings/overview)
-- [永続性の設定](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/component-settings/persistence)
-- [アトリビューション設定](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/component-settings/attribution)
-- [書式設定](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/component-settings/format)
-- [指標の重複排除](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/component-settings/metric-deduplication)
-- [値を含める/除外](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/component-settings/include-exclude-values)
-- [セッション設定](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/session-settings)
-- [派生フィールド](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/derived-fields)
+- [データビューの概要](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/cja-dataviews/data-views)
+- [データビューの作成または編集](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/cja-dataviews/create-dataview)
+- [コンポーネント設定の概要](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/cja-dataviews/component-settings/overview)
+- [永続性の設定](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/cja-dataviews/component-settings/persistence)
+- [アトリビューション設定](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/cja-dataviews/component-settings/attribution)
+- [書式設定](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/cja-dataviews/component-settings/format)
+- [指標の重複排除](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/cja-dataviews/component-settings/metric-deduplication)
+- [値を含める/除外](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/cja-dataviews/component-settings/include-exclude-values)
+- [セッション設定](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/cja-dataviews/session-settings)
+- [派生フィールド](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/cja-dataviews/derived-fields)
 
 ### Workspaceと分析
 
-- [Workspaceの概要](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/home)
-- [プロジェクトの作成](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/build-workspace-project/create-projects)
-- [フリーフォームテーブル](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/freeform-table/freeform-table)
-- [フローの可視化](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/flow/flow)
-- [フォールアウトの可視化](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/fallout/fallout-flow)
-- [コホートテーブル](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/cohort-table/cohort-analysis)
-- [アトリビューションパネル](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/panels/attribution)
+- [Workspaceの概要](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/cja-workspace/home)
+- [プロジェクトの作成](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/cja-workspace/build-workspace-project/create-projects)
+- [フリーフォームテーブル](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/cja-workspace/visualizations/freeform-table/freeform-table)
+- [フローの可視化](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/cja-workspace/visualizations/flow/flow)
+- [フォールアウトの可視化](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/cja-workspace/visualizations/fallout/fallout-flow)
+- [コホートテーブル](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/cja-workspace/visualizations/cohort-table/cohort-analysis)
+- [アトリビューションパネル](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/cja-workspace/panels/attribution)
 - [ディメンションの分類](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/components/dimensions/t-breakdown-fa)
-- [プロジェクトの共有](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/curate-share/share-projects)
-- [プロジェクトのスケジュール](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/curate-share/send-schedule-files)
-- [書き出しの概要](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/export/export-cloud)
+- [プロジェクトの共有](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/cja-workspace/curate-share/share-projects)
+- [プロジェクトのスケジュール](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/cja-workspace/curate-share/send-schedule-files)
+- [書き出しの概要](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/cja-workspace/export/export-cloud)
 
 ### ガイド付き分析
 
-- [ガイド付き分析の概要](https://experienceleague.adobe.com/en/docs/analytics-platform/using/guided-analysis/overview)
+- [ガイド付き分析の概要](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/guided-analysis/overview)
 - [Funnel ビュー](https://experienceleague.adobe.com/en/docs/analytics-platform/using/guided-analysis/funnel/funnel)
-- [トレンド表示](https://experienceleague.adobe.com/en/docs/analytics-platform/using/guided-analysis/trends/usage)
-- [エンゲージメントの頻度ビュー](https://experienceleague.adobe.com/en/docs/analytics-platform/using/guided-analysis/trends/frequency)
-- [顧客維持ビュー](https://experienceleague.adobe.com/en/docs/analytics-platform/using/guided-analysis/retention/retention-rates)
-- [アクティブな成長ビュー](https://experienceleague.adobe.com/en/docs/analytics-platform/using/guided-analysis/user-growth/active)
-- [リリースの影響ビュー](https://experienceleague.adobe.com/en/docs/analytics-platform/using/guided-analysis/impact/release)
-- [初回使用の影響ビュー](https://experienceleague.adobe.com/en/docs/analytics-platform/using/guided-analysis/impact/first-use)
-- [タイムラインビュー](https://experienceleague.adobe.com/en/docs/analytics-platform/using/guided-analysis/streams/timeline)
+- [トレンド表示](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/guided-analysis/trends/usage)
+- [エンゲージメントの頻度ビュー](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/guided-analysis/trends/frequency)
+- [顧客維持ビュー](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/guided-analysis/retention/retention-rates)
+- [アクティブな成長ビュー](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/guided-analysis/user-growth/active)
+- [リリースの影響ビュー](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/guided-analysis/impact/release)
+- [初回使用の影響ビュー](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/guided-analysis/impact/first-use)
+- [タイムラインビュー](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/guided-analysis/streams/timeline)
 
 ### コンポーネント
 
-- [フィルターの概要](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-components/cja-filters/filters-overview)
-- [フィルターの作成](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-components/cja-filters/create-filters)
-- [計算指標の概要](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-components/cja-calcmetrics/calc-metr-overview)
-- [計算指標の作成](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-components/cja-calcmetrics/cm-workflow/cm-build-metrics)
-- [計算指標関数](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-components/cja-calcmetrics/cm-functions)
-- [注釈の概要](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-components/annotations/overview)
+- [フィルターの概要](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/cja-components/cja-filters/filters-overview)
+- [フィルターの作成](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/cja-components/cja-filters/create-filters)
+- [計算指標の概要](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/cja-components/cja-calcmetrics/calc-metr-overview)
+- [計算指標の作成](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/cja-components/cja-calcmetrics/cm-workflow/cm-build-metrics)
+- [計算指標関数](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/cja-components/cja-calcmetrics/cm-functions)
+- [注釈の概要](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/cja-components/annotations/overview)
 - [日付範囲](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-components/date-ranges/overview)
-- [指標コンポーネント](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-components/apply-create-metrics)
+- [指標コンポーネント](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/cja-components/apply-create-metrics)
 
 ### オーディエンスの公開
 
-- [オーディエンスの概要](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-components/audiences/audiences-overview)
-- [オーディエンスの作成と公開](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-components/audiences/publish)
-- [オーディエンスの管理](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-components/audiences/manage)
+- [オーディエンスの概要](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/cja-components/audiences/audiences-overview)
+- [オーディエンスの作成と公開](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/cja-components/audiences/publish)
+- [オーディエンスの管理](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/cja-components/audiences/manage)
 
 ### コンテンツ分析
 
@@ -180,27 +180,27 @@ ht-degree: 3%
 
 ### ダッシュボードとスコアカード
 
-- [モバイルスコアカードの作成](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dashboards/create-scorecard)
+- [モバイルスコアカードの作成](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/cja-dashboards/create-scorecard)
 - [スコアカードの設定とキュレート](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dashboards/curate)
-- [Adobe Analyticsダッシュボード：エグゼクティブガイド](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dashboards/set-up-execs)
-- [概要数値のビジュアライゼーション](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/summary-number-change)
+- [Adobe Analyticsダッシュボード：エグゼクティブガイド](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/cja-dashboards/set-up-execs)
+- [概要数値のビジュアライゼーション](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/cja-workspace/visualizations/summary-number-change)
 
 ### AEP財団
 
-- [データセットの概要](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/overview)
-- [XDM システムの概要](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/home)
-- [ソースの概要](https://experienceleague.adobe.com/en/docs/experience-platform/sources/home)
-- [ID サービスの概要](https://experienceleague.adobe.com/en/docs/experience-platform/identity/home)
-- [オーディエンスポータルの概要](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/audience-portal)
+- [データセットの概要](https://experienceleague.adobe.com/ja/docs/experience-platform/catalog/datasets/overview)
+- [XDM システムの概要](https://experienceleague.adobe.com/ja/docs/experience-platform/xdm/home)
+- [ソースの概要](https://experienceleague.adobe.com/ja/docs/experience-platform/sources/home)
+- [ID サービスの概要](https://experienceleague.adobe.com/ja/docs/experience-platform/identity/home)
+- [オーディエンスポータルの概要](https://experienceleague.adobe.com/ja/docs/experience-platform/segmentation/ui/audience-portal)
 
 ### AJOレポートの統合
 
-- [AJO + CJA統合ガイド](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/reporting/channel-report/cja-ajo)
+- [AJO + CJA統合ガイド](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/reporting/channel-report/cja-ajo)
 - [キャンペーンメールレポート](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/reporting/channel-report/reporting/campaign-global-report-cja-email)
 - [ジャーニーメールレポート](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/reporting/channel-report/reporting/journey-global-report-cja-email)
 
 ### チュートリアルとガイド
 
-- [スキーマ構成の基本](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/composition)
-- [Web SDKの概要](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/home)
-- [データストリームの設定](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/configure)
+- [スキーマ構成の基本](https://experienceleague.adobe.com/ja/docs/experience-platform/xdm/schema/composition)
+- [Web SDKの概要](https://experienceleague.adobe.com/ja/docs/experience-platform/web-sdk/home)
+- [データストリームの設定](https://experienceleague.adobe.com/ja/docs/experience-platform/datastreams/configure)
