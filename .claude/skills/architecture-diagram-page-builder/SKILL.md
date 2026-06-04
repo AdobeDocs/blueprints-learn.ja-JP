@@ -174,7 +174,7 @@ ht-degree: 1%
 
 2. **ユースケースパターンリンク** — ファイル内のすべてのパターンリンクは、`/help/blueprints/use-case-patterns/`の下にある既存のマークダウンファイルを指しています。 `Read`またはグロブを使用して、各ターゲットが存在することを確認します。
 
-3. **Experience League リンク** — `## Further reading` セクションのすべてのURLが`https://experienceleague.adobe.com/`で始まることをスポットチェックします。
+3. **Experience League リンク** — `## Further reading` セクションのすべてのURLが`https://experienceleague.adobe.com/ja`で始まることをスポットチェックします。
 
 4. **目次エントリの配置** – 新しいエントリは正しいサブセクション内にあり、4 スペースのインデントを使用し、パスは生成されたファイルの場所と正確に一致します。
 
