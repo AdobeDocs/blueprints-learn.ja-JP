@@ -3,9 +3,9 @@ title: 行動の推奨事項
 description: 選択戦略とランキングモデルを使用して、アイテムとコンテンツのレコメンデーションを生成する方法について説明します。
 solution: Journey Optimizer, Real-Time Customer Data Platform
 exl-id: db16e773-e0da-46c4-9fa5-d16f04feb46b
-source-git-commit: 349d26f612d4002d1de3d27c7f893bd63ac467a3
+source-git-commit: 9ea30e48ec0fade2f9a97b185e35fbfa93f49c43
 workflow-type: tm+mt
-source-wordcount: '1639'
+source-wordcount: '1652'
 ht-degree: 5%
 
 ---
@@ -36,19 +36,25 @@ AJO Decisioningの選択戦略とランキングモデルを使用して、行�
 
 このユースケースパターンでは、次のビジネス目標をサポートしています。
 
-### [&#x200B; クロスセルとアップセルの収益を促進](../../business-objectives/revenue-monetization/drive-cross-sell-upsell-revenue.md)
+### クロスセルとアップセルの売上向上
+
+[クロスセルとアップセルの売上向上](../../business-objectives/revenue-monetization/drive-cross-sell-upsell-revenue.md)
 
 行動や購入履歴にもとづいて、既存顧客に補完的な商品やサービスを宣伝します。
 
 **KPI:** アップセル/クロスセル %、増分収益、顧客生涯価値
 
-### [&#x200B; コンバージョン率を向上](../../business-objectives/revenue-monetization/increase-conversion-rates.md)
+### コンバージョン率の向上
+
+[コンバージョン率の向上](../../business-objectives/revenue-monetization/increase-conversion-rates.md)
 
 購入、サインアップ、フォーム送信など、望ましいアクションを実行した訪問者と見込み顧客の割合を向上させます。
 
 **KPI:** コンバージョン率、リードコンバージョン、リード単価
 
-### [&#x200B; パーソナライズされた顧客体験の提供](../../business-objectives/customer-experience/deliver-personalized-customer-experiences.md)
+### パーソナライズされた顧客体験の実現
+
+[パーソナライズされた顧客体験の実現](../../business-objectives/customer-experience/deliver-personalized-customer-experiences.md)
 
 個人の好み、行動、ライフサイクルのステージに合わせて、コンテンツ、オファー、メッセージを調整。
 
