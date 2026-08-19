@@ -13,7 +13,7 @@ ht-degree: 0%
 # Account Journey Orchestration - Paid Media Controller
 
 >[!TIP]
->このブループリントは、[ ユースケースパターン ](/help/blueprints/use-case-patterns/b2b/paid-media-orchestration.md)としてB2B Activation &amp; Marketingで利用することもできます。
+>このブループリントは、[&#x200B; ユースケースパターン &#x200B;](/help/blueprints/use-case-patterns/b2b/paid-media-orchestration.md)としてB2B Activation &amp; Marketingで利用することもできます。
 
 ## 概要
 
@@ -71,14 +71,14 @@ B2Bの有料メディアを大規模に運用しているマーケティング�
 
 ## B2B AEPのデータモデリング
 
-データドリブン型のオーケストレーションでは、スキーマを設計することが重要です。 AEP/RTCDPのアカウントプロファイルと人物プロファイルには、**スプリットパス条件**&#x200B;で使用される属性（例：追跡フラグ、ソリューションの興味、ペルソナ、インテントカテゴリ、エンゲージメントスコア）が含まれている必要があります。 B2B スキーマ（XDM ビジネスアカウント、XDM個人プロファイル、リレーショナル）は、階層とデータソースを表す必要があります。 詳しくは、[RTCDP B2B スキーマ ](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/b2b-overview)および[Journey Optimizer B2B edition ドキュメント ](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/guide-overview)を参照してください。
+データドリブン型のオーケストレーションでは、スキーマを設計することが重要です。 AEP/RTCDPのアカウントプロファイルと人物プロファイルには、**スプリットパス条件**&#x200B;で使用される属性（例：追跡フラグ、ソリューションの興味、ペルソナ、インテントカテゴリ、エンゲージメントスコア）が含まれている必要があります。 B2B スキーマ（XDM ビジネスアカウント、XDM個人プロファイル、リレーショナル）は、階層とデータソースを表す必要があります。 詳しくは、[RTCDP B2B スキーマ &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/b2b-overview)および[Journey Optimizer B2B edition ドキュメント &#x200B;](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/guide-overview)を参照してください。
 
 **注：** ジャーニーの分割パスロジックでは、プロファイルと、サポートされている場合はリレーショナルデータが使用されます。ウォーターフォールロジックに必要なフィールドがジャーニーで使用できることを確認してください。
 
 ### ガードレール
 
 - **Journey Optimizer B2B edition** — ジャーニーの制限、ノードの制限、宛先のサポートについては、[製品の説明](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer-b2b.html)を参照してください。
-- **Real-Time CDP** — セグメント化とアクティブ化の制限については、[RTCDP ガードレール ](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/guardrails/overview)を参照してください。
+- **Real-Time CDP** — セグメント化とアクティブ化の制限については、[RTCDP ガードレール &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/guardrails/overview)を参照してください。
 
 ## 実装
 
