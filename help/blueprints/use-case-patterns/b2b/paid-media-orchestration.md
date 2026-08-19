@@ -2,9 +2,9 @@
 title: AJO B2B Paid Media Controller
 description: ペイドメディアの宛先に対するキャンペーンの優先度とアカウントのアクティベーション
 solution: Journey Optimizer B2B Edition
-source-git-commit: 8284380fb9202991f3da7d755225da2e38a50cac
+source-git-commit: 796e113c40b6b4e8b56e5fbbd22122c066c30c6f
 workflow-type: tm+mt
-source-wordcount: '1541'
+source-wordcount: '1544'
 ht-degree: 0%
 
 ---
@@ -67,14 +67,14 @@ B2Bの有料メディアを大規模に運用しているマーケティング�
 
 ## B2B AEPのデータモデリング
 
-データドリブン型のオーケストレーションでは、スキーマを設計することが重要です。 AEP/RTCDPのアカウントプロファイルと人物プロファイルには、**スプリットパス条件**&#x200B;で使用される属性（例：追跡フラグ、ソリューションの興味、ペルソナ、インテントカテゴリ、エンゲージメントスコア）が含まれている必要があります。 B2B スキーマ（XDM ビジネスアカウント、XDM個人プロファイル、リレーショナル）は、階層とデータソースを表す必要があります。 詳しくは、[RTCDP B2B スキーマ &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/b2b-overview)および[AJO B2B ドキュメント &#x200B;](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/home)を参照してください。
+データドリブン型のオーケストレーションでは、スキーマを設計することが重要です。 AEP/RTCDPのアカウントプロファイルと人物プロファイルには、**スプリットパス条件**&#x200B;で使用される属性（例：追跡フラグ、ソリューションの興味、ペルソナ、インテントカテゴリ、エンゲージメントスコア）が含まれている必要があります。 B2B スキーマ（XDM ビジネスアカウント、XDM個人プロファイル、リレーショナル）は、階層とデータソースを表す必要があります。 詳しくは、[RTCDP B2B スキーマ ](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/b2b-overview)および[Journey Optimizer B2B edition ドキュメント ](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/guide-overview)を参照してください。
 
 **注：** ジャーニーの分割パスロジックでは、プロファイルと、サポートされている場合はリレーショナルデータが使用されます。ウォーターフォールロジックに必要なフィールドがジャーニーで使用できることを確認してください。
 
 ### ガードレール
 
-- **Journey Optimizer B2B edition** — ジャーニーの制限、ノードの制限、宛先のサポートについては、[製品の説明](https://helpx.adobe.com/jp/legal/product-descriptions/adobe-journey-optimizer-b2b.html)を参照してください。
-- **Real-Time CDP** — セグメント化とアクティブ化の制限については、[RTCDP ガードレール &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/rtcdp/guardrails/overview)を参照してください。
+- **Journey Optimizer B2B edition** — ジャーニーの制限、ノードの制限、宛先のサポートについては、[製品の説明](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer-b2b.html)を参照してください。
+- **Real-Time CDP** — セグメント化とアクティブ化の制限については、[RTCDP ガードレール ](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/guardrails/overview)を参照してください。
 
 ## 実装
 
@@ -127,6 +127,6 @@ B2Bの有料メディアを大規模に運用しているマーケティング�
 
 ## 関連ドキュメント
 
-- [購買グループベースのマーケティングとジャーニー管理の設計図](https://experienceleague.adobe.com/ja/docs/blueprints-learn/architecture/b2b-activation/b2b-buying-group-journeys) — AJO B2Bのアカウントと購買グループのジャーニー。
-- [Adobe Journey Optimizer B2B edition](https://experienceleague.adobe.com/ja/docs/journey-optimizer-b2b) – 製品ドキュメント。
+- [購買グループベースのマーケティングとジャーニー管理の設計図](https://experienceleague.adobe.com/en/docs/blueprints-learn/architecture/b2b-activation/b2b-buying-group-journeys) — AJO B2Bのアカウントと購買グループのジャーニー。
+- [Adobe Journey Optimizer B2B edition](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b) – 製品ドキュメント。
 - [Real-time Customer Data Platform B2B edition](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/b2b-overview) — アカウントオーディエンスとアクティベーション。
