@@ -101,68 +101,68 @@ B2B企業は、基本的な課題に直面しています。購入に関する�
 
 ### [!DNL Journey Optimizer B2B Edition]
 
-- [Journey Optimizer B2B edition ドキュメントホーム](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/guide-overview)
-- [購買グループの概要](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/buying-groups/buying-groups-overview)
-- [ソリューションへの関心](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/buying-groups/solution-interests)
-- [役割テンプレート](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/buying-groups/buying-groups-role-templates)
-- [購買グループの作成](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/buying-groups/buying-groups-create)
-- [購買グループステージ](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/buying-groups/buying-group-stages)
-- [アカウントジャーニーの概要](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/account-journeys/journey-overview)
-- [アカウントジャーニーノード](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/account-journeys/journey-nodes)
-- [セールスアラートメール](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/journey-content/email-channel/sales-alert-email)
-- [CRM セールスインサイト](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/accounts/buying-groups/incrm-insights)
+- [Journey Optimizer B2B edition ドキュメントホーム](https://experienceleague.adobe.com/ja/docs/journey-optimizer-b2b/user/guide-overview)
+- [購買グループの概要](https://experienceleague.adobe.com/ja/docs/journey-optimizer-b2b/user/buying-groups/buying-groups-overview)
+- [ソリューションへの関心](https://experienceleague.adobe.com/ja/docs/journey-optimizer-b2b/user/buying-groups/solution-interests)
+- [役割テンプレート](https://experienceleague.adobe.com/ja/docs/journey-optimizer-b2b/user/buying-groups/buying-groups-role-templates)
+- [購買グループの作成](https://experienceleague.adobe.com/ja/docs/journey-optimizer-b2b/user/buying-groups/buying-groups-create)
+- [購買グループステージ](https://experienceleague.adobe.com/ja/docs/journey-optimizer-b2b/user/buying-groups/buying-group-stages)
+- [アカウントジャーニーの概要](https://experienceleague.adobe.com/ja/docs/journey-optimizer-b2b/user/account-journeys/journey-overview)
+- [アカウントジャーニーノード](https://experienceleague.adobe.com/ja/docs/journey-optimizer-b2b/user/account-journeys/journey-nodes)
+- [セールスアラートメール](https://experienceleague.adobe.com/ja/docs/journey-optimizer-b2b/user/journey-content/email-channel/sales-alert-email)
+- [CRM セールスインサイト](https://experienceleague.adobe.com/ja/docs/journey-optimizer-b2b/user/accounts/buying-groups/incrm-insights)
 
 ### B2B メールとコンテンツ
 
-- [B2B メールオーサリング](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/journey-content/email-channel/email-authoring)
-- [B2B SMS オーサリング](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/journey-content/sms-authoring)
-- [メール作成用コンテンツの生成](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/journey-content/email-channel/ai-assistant-emails)
+- [B2B メールオーサリング](https://experienceleague.adobe.com/ja/docs/journey-optimizer-b2b/user/journey-content/email-channel/email-authoring)
+- [B2B SMS オーサリング](https://experienceleague.adobe.com/ja/docs/journey-optimizer-b2b/user/journey-content/sms-authoring)
+- [メール作成用コンテンツの生成](https://experienceleague.adobe.com/ja/docs/journey-optimizer-b2b/user/journey-content/email-channel/ai-assistant-emails)
 
 ### B2B分析とダッシュボード
 
-- [購買グループダッシュボード](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/dashboards/buying-groups-dashboard)
-- [エンゲージメントダッシュボード](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/dashboards/engagement-dashboard)
-- [インテリジェントダッシュボード](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/dashboards/intelligent-dashboard)
+- [購買グループダッシュボード](https://experienceleague.adobe.com/ja/docs/journey-optimizer-b2b/user/dashboards/buying-groups-dashboard)
+- [エンゲージメントダッシュボード](https://experienceleague.adobe.com/ja/docs/journey-optimizer-b2b/user/dashboards/engagement-dashboard)
+- [インテリジェントダッシュボード](https://experienceleague.adobe.com/ja/docs/journey-optimizer-b2b/user/dashboards/intelligent-dashboard)
 - [CJA B2B editionの概要](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b)
 
 ### [!DNL RT-CDP B2B Edition]
 
 - [RT-CDP B2B editionの概要](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/b2b-overview)
-- [Real-Time CDPのB2B スキーマ](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/schemas/b2b)
-- [アカウントオーディエンス](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/types/account-audiences)
-- [Marketo Engage ソースコネクタ](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/adobe-applications/marketo/marketo)
+- [Real-Time CDPのB2B スキーマ](https://experienceleague.adobe.com/ja/docs/experience-platform/rtcdp/schemas/b2b)
+- [アカウントオーディエンス](https://experienceleague.adobe.com/ja/docs/experience-platform/segmentation/types/account-audiences)
+- [Marketo Engage ソースコネクタ](https://experienceleague.adobe.com/ja/docs/experience-platform/sources/connectors/adobe-applications/marketo/marketo)
 
 ### データ基盤
 
-- [XDM システムの概要](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/home)
-- [ID サービスの概要](https://experienceleague.adobe.com/en/docs/experience-platform/identity/home)
-- [ソースの概要](https://experienceleague.adobe.com/en/docs/experience-platform/sources/home)
-- [セグメント サービスの概要](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/home)
+- [XDM システムの概要](https://experienceleague.adobe.com/ja/docs/experience-platform/xdm/home)
+- [ID サービスの概要](https://experienceleague.adobe.com/ja/docs/experience-platform/identity/home)
+- [ソースの概要](https://experienceleague.adobe.com/ja/docs/experience-platform/sources/home)
+- [セグメント サービスの概要](https://experienceleague.adobe.com/ja/docs/experience-platform/segmentation/home)
 
 ### チャネル設定
 
-- [メール設定の基本を学ぶ](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/email/configure-email/get-started-email-config)
-- [SMS チャネルの設定](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/sms/configure-sms/sms-configuration)
+- [メール設定の基本を学ぶ](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/channels/email/configure-email/get-started-email-config)
+- [SMS チャネルの設定](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/channels/sms/configure-sms/sms-configuration)
 
 ### データガバナンスとプライバシー
 
-- [データガバナンスの概要](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/home)
-- [高度なデータライフサイクル管理](https://experienceleague.adobe.com/en/docs/experience-platform/data-lifecycle/home)
+- [データガバナンスの概要](https://experienceleague.adobe.com/ja/docs/experience-platform/data-governance/home)
+- [高度なデータライフサイクル管理](https://experienceleague.adobe.com/ja/docs/experience-platform/data-lifecycle/home)
 
 ### 宛先
 
-- [宛先の概要](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/home)
-- [宛先カタログ](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/overview)
-- [LinkedIn Matched Audiencesの宛先](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/social/linkedin)
+- [宛先の概要](https://experienceleague.adobe.com/ja/docs/experience-platform/destinations/home)
+- [宛先カタログ](https://experienceleague.adobe.com/ja/docs/experience-platform/destinations/catalog/overview)
+- [LinkedIn Matched Audiencesの宛先](https://experienceleague.adobe.com/ja/docs/experience-platform/destinations/catalog/social/linkedin)
 
 ### ガードレール
 
-- [リアルタイムの顧客プロファイルのガードレール](https://experienceleague.adobe.com/en/docs/experience-platform/profile/guardrails)
+- [リアルタイムの顧客プロファイルのガードレール](https://experienceleague.adobe.com/ja/docs/experience-platform/profile/guardrails)
 - [セグメント化のガードレール](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/guardrails)
-- [取り込みのガードレール](https://experienceleague.adobe.com/en/docs/experience-platform/ingestion/guardrails)
-- [Journey Optimizerのガードレール](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/get-started/guardrails)
+- [取り込みのガードレール](https://experienceleague.adobe.com/ja/docs/experience-platform/ingestion/guardrails)
+- [Journey Optimizerのガードレール](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/get-started/guardrails)
 
 ### チュートリアルと基本を学ぶ
 
-- [AJO B2B edition入門](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/guide-overview)
+- [AJO B2B edition入門](https://experienceleague.adobe.com/ja/docs/journey-optimizer-b2b/user/guide-overview)
 - [RT-CDP B2B edition チュートリアル](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/b2b-tutorial)
