@@ -1,11 +1,11 @@
 ---
 title: 購買グループベースのマーケティングおよびジャーニー管理
 description: リードを購買グループに選別するアカウントレベルのジャーニーを開発して、B2B マーケティングの効果を向上させる方法を学びましょう。
-solution: Journey Optimizer, Real-Time Customer Data Platform
+solution: Journey Optimizer B2B Edition, Real-Time Customer Data Platform
 exl-id: 2bf57f67-80c8-4368-98d2-05706427772d
-source-git-commit: 349d26f612d4002d1de3d27c7f893bd63ac467a3
+source-git-commit: c0a9cba3d6a55fae8f149f7ca479625458cd1b22
 workflow-type: tm+mt
-source-wordcount: '1563'
+source-wordcount: '1572'
 ht-degree: 1%
 
 ---
@@ -99,9 +99,9 @@ B2B企業は、基本的な課題に直面しています。購入に関する�
 
 次のリソースでは、このガイドで参照されているアプリケーションと機能に関する追加の詳細を提供します。
 
-### [!DNL AJO B2B Edition]
+### [!DNL Journey Optimizer B2B Edition]
 
-- [AJO B2B edition ドキュメントホーム](https://experienceleague.adobe.com/ja/docs/journey-optimizer-b2b/user/guide-overview)
+- [Journey Optimizer B2B edition ドキュメントホーム](https://experienceleague.adobe.com/ja/docs/journey-optimizer-b2b/user/guide-overview)
 - [購買グループの概要](https://experienceleague.adobe.com/ja/docs/journey-optimizer-b2b/user/buying-groups/buying-groups-overview)
 - [ソリューションへの関心](https://experienceleague.adobe.com/ja/docs/journey-optimizer-b2b/user/buying-groups/solution-interests)
 - [役割テンプレート](https://experienceleague.adobe.com/ja/docs/journey-optimizer-b2b/user/buying-groups/buying-groups-role-templates)
@@ -109,14 +109,14 @@ B2B企業は、基本的な課題に直面しています。購入に関する�
 - [購買グループステージ](https://experienceleague.adobe.com/ja/docs/journey-optimizer-b2b/user/buying-groups/buying-group-stages)
 - [アカウントジャーニーの概要](https://experienceleague.adobe.com/ja/docs/journey-optimizer-b2b/user/account-journeys/journey-overview)
 - [アカウントジャーニーノード](https://experienceleague.adobe.com/ja/docs/journey-optimizer-b2b/user/account-journeys/journey-nodes)
-- [セールスアラートメール](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/content/sales-alert-email)
-- [CRM セールスインサイト](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/buying-groups/crm-sales-insights)
+- [セールスアラートメール](https://experienceleague.adobe.com/ja/docs/journey-optimizer-b2b/user/journey-content/email-channel/sales-alert-email)
+- [CRM セールスインサイト](https://experienceleague.adobe.com/ja/docs/journey-optimizer-b2b/user/accounts/buying-groups/incrm-insights)
 
 ### B2B メールとコンテンツ
 
-- [B2B メールオーサリング](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/content/email-authoring)
-- [AJO B2BでのSMS オーサリング](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/content/sms-authoring)
-- [メール作成用AI アシスタントによって作成されたものです](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/content/ai-assistant-emails)
+- [B2B メールオーサリング](https://experienceleague.adobe.com/ja/docs/journey-optimizer-b2b/user/journey-content/email-channel/email-authoring)
+- [B2B SMS オーサリング](https://experienceleague.adobe.com/ja/docs/journey-optimizer-b2b/user/journey-content/sms-authoring)
+- [メール作成用コンテンツの生成](https://experienceleague.adobe.com/ja/docs/journey-optimizer-b2b/user/journey-content/email-channel/ai-assistant-emails)
 
 ### B2B分析とダッシュボード
 
