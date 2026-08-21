@@ -19,10 +19,10 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: 213e2d7d73d91fa7b487289dfe62685bc32d5029
+source-git-commit: b3bc4a99bf083cccc5cec076caf7faa2d8258501
 workflow-type: tm+mt
-source-wordcount: 2322
-ht-degree: 0%
+source-wordcount: 2351
+ht-degree: 1%
 
 ---
 
@@ -146,7 +146,7 @@ RTCDP ガードレールの詳細については、[Real-Time CDP ガードレ�
 
    最初のステップでは、B2Bのユースケースのニーズに適合し、バッチとリアルタイムの両方のデータソースをカバーするように設計されたエクスペリエンススキーマを定義し、作成します。 このデザインは、企業がアカウントや個人のエンティティをどのように考えているか、また、企業がサポートしたいユースケースを表している必要があります。 スキーマをB2B スキーマにするには、[RTCDP B2B スキーマ ドキュメント &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/xdm/tutorials/relationship-b2b)で使用可能な構造に従う必要があります。
 
-   便利な方法は、図からエンティティ名を取得し、同じ方法でラベルを付けることによって、スキーマ内のエンティティを特定することです。 一部のスキーマは、RTCDP B2Bで機能するために`sourceKey`などの特定のキーを必要とすることに注意してください。 短期的には、アカウントと個人の関係を通じた&#x200B;_多対多_&#x200B;の関係は、Journey Optimizer B2Bではサポートされていません。 最適な出発点として、アクセラレータースクリプトを使用します。
+   便利な方法は、図からエンティティ名を取得し、同じ方法でラベルを付けることによって、スキーマ内のエンティティを特定することです。 一部のスキーマは、RTCDP B2Bで機能するために`sourceKey`などの特定のキーを必要とすることに注意してください。  最適な出発点として、アクセラレータースクリプトを使用します。
 
    * [RTCDP B2B スキーマ作成スクリプト &#x200B;](https://github.com/adobe/experience-platform-postman-samples/tree/master/Postman%20Collections/CDP%20Namespaces%20and%20Schemas%20Utility)を使用して、初期スキーマを生成します
    * 生成されたスキーマにユースケース固有のフィールドを追加して、組織のニーズに合わせてスキーマを完成させます。
