@@ -1,0 +1,94 @@
+---
+hold: true
+title: 検証と検証
+description: UIでストリーミングデータセットをプレビューし、SQL クエリを実行して、取り込んだレコードとネストされたスキーマフィールドを検証します。
+doc-type: article
+solution: Experience Platform
+exl-id: fbdb0b6b-08b6-49b8-b6ab-d59d5941c678
+source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+workflow-type: tm+mt
+source-wordcount: '279'
+ht-degree: 0%
+
+---
+
+
+# 検証と検証
+
+## データセットのプレビュー
+
+1. **データセット**&#x200B;をクリック
+1. **作成したデータセット名を**&#x200B;検索して&#x200B;**クリック**&#x200B;します。
+
+![ データセット ペインで作成されたデータセットにアクセス ](assets/verification-and-validation-access-the-dataset-in-the-datasets-pane.png " データセット ペインでデータセットにアクセス ")
+
+
+
+1. 右上隅の「**データセットをプレビュー**」をクリックします
+
+![ データセット画面の右上隅にある「データセットをプレビュー」ボタン ](assets/verification-and-validation-preview-dataset-button.png " データセットをプレビューは右上隅にあります")
+
+
+
+1. **スキーマ階層を示す左側のペインをクリックして、取り込んだレコードと同じレコードを**&#x200B;および&#x200B;**検証**&#x200B;します。
+
+![ スキーマ階層ペインを使用した取り込みレコードの検証と検証](assets/verification-and-validation-verify-and-validate-the-dataset.png " データセットの検証と検証")
+
+>[!NOTE]
+>
+>**データセットのプレビュー**&#x200B;には、データセットの最初の数行のみが表示されます。 配列オブジェクトは表示できません。
+
+
+
+## クエリデータセット
+
+1. プレビューを&#x200B;**閉じる**
+1. データセット画面で、**テーブル名**&#x200B;のコピーアイコンをクリックします。 下の例の画面では、テーブル名は`customer_account_sm`です
+
+![ クエリで使用するためにデータセット画面からテーブル名をコピーする](assets/verification-and-validation-copy-the-table-name.png " テーブル名をコピーする")
+
+
+
+1. **クエリ** セクションに移動します
+
+1. 「**クエリを作成**」をクリック
+
+![ クエリセクションからクエリエディターにアクセス ](assets/verification-and-validation-access-the-query-editor.png " クエリエディターにアクセス ")
+
+
+
+1. **拡張クエリエディター**&#x200B;の切り替えスイッチをオンにします
+
+拡張クエリエディター切り替えが有効になっている![ クエリエディターインターフェイス ](assets/verification-and-validation-enhanced-query-editor-toggle.png " クエリエディターインターフェイス ")
+
+
+
+1. 次のSQL クエリを&#x200B;**Editor**&#x200B;にコピー&amp;ペーストします。 `<table_name>`を手順2で取得した値に置き換えることを忘れないでください。
+
+```sql
+SELECT * FROM <table_name>
+```
+
+
+
+1. 「**再生**」ボタンを押します。
+
+1. **結果をプレビュー**&#x200B;します。
+
+1. また、次のSQL クエリを実行して、データとともにXDM スキーマを取得します。
+
+```sql
+SELECT to_json(shippingAddress) FROM <table_name>
+```
+
+
+
+1. `postalCode` **ノード**&#x200B;のデータにアクセスするには、次のように入力します。
+
+```sql
+SELECT shippingAddress.postalCode FROM <table_name>
+```
+
+>[!TIP]
+>
+>おめでとうございます。  Real-Time Customer Profilesのサンプルセットの取り込みと作成が完了しました
