@@ -74,7 +74,7 @@ Adobe Experience Platformでは、Edge Networkに送信したばかりのイベ�
 >
 >**segmentMembershipの読み方？**
 >
->[https://experienceleague.adobe.com/en/docs/experience-platform/xdm/field-groups/profile/segmentation](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/field-groups/profile/segmentation)
+>[https://experienceleague.adobe.com/ja/docs/experience-platform/xdm/field-groups/profile/segmentation](https://experienceleague.adobe.com/ja/docs/experience-platform/xdm/field-groups/profile/segmentation)
 >
 >**ups:**&#x200B;これは、AEPでサポートされているさまざまな種類のオーディエンスのマップキーです。  ups キーには、ルールビルダーで作成されたオーディエンスが含まれます。  その他のオーディエンスは、他のキー（AAMなど）に含まれます。
 >

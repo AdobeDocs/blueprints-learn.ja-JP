@@ -60,7 +60,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->様々なAccept ヘッダーについて詳しくは、こちらを参照してください – > [Experience League Schema API Endpoint](https://experienceleague.adobe.com/docs/experience-platform/xdm/api/schemas.html?lang=en#lookup)
+>様々なAccept ヘッダーについて詳しくは、こちらを参照してください – > [Experience League Schema API Endpoint](https://experienceleague.adobe.com/docs/experience-platform/xdm/api/schemas.html?lang=ja#lookup)
 
 
 

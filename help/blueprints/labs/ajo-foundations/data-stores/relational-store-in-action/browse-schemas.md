@@ -69,4 +69,4 @@ Connection 5G リレーショナルデータモデルは既に作成されてい
 
 これで、スキーマと関係UIを簡単に操作できるようになりました。  特定のスキーマを選択し、移動して関係を表示し、キャンペーンオーケストレーションでデータを理解し、使用するのに役立ちます。
 
-ご興味のある方は、[こちら](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/data-management/get-started-schemas)をご覧ください。
+ご興味のある方は、[こちら](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/data-management/get-started-schemas)をご覧ください。

@@ -91,7 +91,7 @@ Experience Platform UIで、次の操作を行って、宛先カタログに移�
 >
 >Experience Leagueのガバナンスポリシーの詳細については、こちらをご覧ください
 >
->[https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/overview.html?lang=en#core-actions](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/overview.html?lang=en#core-actions)
+>[https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/overview.html?lang=ja#core-actions](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/overview.html?lang=ja#core-actions)
 
 ## オーディエンスの選択
 

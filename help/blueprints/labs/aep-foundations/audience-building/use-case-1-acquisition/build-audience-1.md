@@ -246,7 +246,7 @@ IPhone 14を追加
 >
 >コンテナは、イベント変数または配列要素を参照する方法です。 この記事では、このラミフィケーションについて詳しく説明していますが、簡単に説明するために、配列内の単一の要素が両方の条件を満たしているか、条件を2つの要素に分散できるかを指定できます。
 >
->[https://experienceleaguecommunities.adobe.com/t5/adobe-experience-platform-blogs/how-exactly-do-containers-work-in-aep-segmentation-a-deeper-look/ba-p/458780](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-platform-blogs/how-exactly-do-containers-work-in-aep-segmentation-a-deeper-look/ba-p/458780)
+>[https://experienceleaguecommunities.adobe.com/t5/adobe-experience-platform-blogs/how-exactly-do-containers-work-in-aep-segmentation-a-deeper-look/ba-p/458780?profile.language=ja](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-platform-blogs/how-exactly-do-containers-work-in-aep-segmentation-a-deeper-look/ba-p/458780?profile.language=ja)
 
 >[!WARNING]
 >

@@ -110,4 +110,4 @@ ht-degree: 0%
 
 これで、作成したキャンペーンをテストして、フローと動作を把握する方法を確認しました。 ここでは、テストフローの実行時に、メールチャネル設定に様々な設定を使用する仕組みがよく理解されていました。
 
-キャンペーンテストモード [について詳しくは、](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/campaigns/orchestrated-campaigns/launch/start-monitor-campaigns)を参照してください。
+キャンペーンテストモード [について詳しくは、](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/campaigns/orchestrated-campaigns/launch/start-monitor-campaigns)を参照してください。
