@@ -31,7 +31,7 @@ ht-degree: 0%
 
 
 
-2. すべてのキャンペーンアクティビティのテスト実行が開始され、結果を検証します
+&#x200B;2. すべてのキャンペーンアクティビティのテスト実行が開始され、結果を検証します
 
 ![進行中のキャンペーンアクティビティのテスト実行](assets/test-the-campaign-verify-execution-results.png)
 
@@ -41,15 +41,15 @@ ht-degree: 0%
 
 1. メール配信をテストするには、「**プロファイル属性を使用したメール**」アクティビティをクリックし、右側のペインで「**テストを実行**」をクリックします
 
-![ プロファイル属性アクティビティを使用してメールのテストを実行](assets/test-the-campaign-run-test-profile-attribute.png)
+![&#x200B; プロファイル属性アクティビティを使用してメールのテストを実行](assets/test-the-campaign-run-test-profile-attribute.png)
 
-2. 確認メッセージを待ってから、**レポートを表示**&#x200B;をクリックして、電子メールテストの詳細を確認します
+&#x200B;2. 確認メッセージを待ってから、**レポートを表示**&#x200B;をクリックして、電子メールテストの詳細を確認します
 
-![ レポートを表示をクリックして、電子メールテストの詳細を表示します](assets/test-the-campaign-view-report-1.png)
+![&#x200B; レポートを表示をクリックして、電子メールテストの詳細を表示します](assets/test-the-campaign-view-report-1.png)
 
-3. メールレポートページには、キャンペーン統計と実行ステータスが表示されます。 電子メールテストは、エラーがないことを確認するためのアクティビティの検証であり、電子メールを送信しません。 通常、\～**5**&#x200B;分で完了します。
+&#x200B;3. メールレポートページには、キャンペーン統計と実行ステータスが表示されます。 電子メールテストは、エラーがないことを確認するためのアクティビティの検証であり、電子メールを送信しません。 通常、\～**5**&#x200B;分で完了します。
 
-![ キャンペーン統計を含むメールレポートページ ](assets/test-the-campaign-campaign-statistics-1.png)
+![&#x200B; キャンペーン統計を含むメールレポートページ &#x200B;](assets/test-the-campaign-campaign-statistics-1.png)
 
 >[!NOTE]
 >
@@ -57,11 +57,11 @@ ht-degree: 0%
 
 
 
-4. 電子メールテストが完了すると、結果が表示されます。 エラーの割合がいくつかあります。理由を確認するには、**詳細を表示**&#x200B;をクリックしてください。
+&#x200B;4. 電子メールテストが完了すると、結果が表示されます。 エラーの割合がいくつかあります。理由を確認するには、**詳細を表示**&#x200B;をクリックしてください。
 
 ![詳細リンクを表示するエラー率](assets/test-the-campaign-error-rate-view-more.png)
 
-5. 理由は`Email address not found in profile`です
+&#x200B;5. 理由は`Email address not found in profile`です
 
 ![理由：メールアドレスがプロファイルに見つかりません](assets/test-the-campaign-email-not-found-reason.png)
 
@@ -81,13 +81,13 @@ ht-degree: 0%
 
 ![Target Dimension アクティビティを使用してメールのテストを実行](assets/test-the-campaign-run-test-target-dimension.png)
 
-2. 確認メッセージを待ってから、**レポートを表示**&#x200B;をクリックして、電子メールテストの詳細を確認します
+&#x200B;2. 確認メッセージを待ってから、**レポートを表示**&#x200B;をクリックして、電子メールテストの詳細を確認します
 
-![ レポートを表示をクリックして、電子メールテストの詳細を表示します](assets/test-the-campaign-view-report-2.png)
+![&#x200B; レポートを表示をクリックして、電子メールテストの詳細を表示します](assets/test-the-campaign-view-report-2.png)
 
-3. 電子メールテストが完了すると、結果が表示されます。 この場合、エラーは発生しません
+&#x200B;3. 電子メールテストが完了すると、結果が表示されます。 この場合、エラーは発生しません
 
-エラーのない![ キャンペーン統計](assets/test-the-campaign-campaign-statistics-2.png)
+エラーのない![&#x200B; キャンペーン統計](assets/test-the-campaign-campaign-statistics-2.png)
 
 >[!NOTE]
 >

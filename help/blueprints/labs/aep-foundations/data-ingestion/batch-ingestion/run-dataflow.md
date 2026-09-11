@@ -19,7 +19,7 @@ ht-degree: 0%
 
 **終了**&#x200B;をクリックすると、**データフロー**&#x200B;画面に戻ります。 データフローの作成には数分かかります。 最初のランは数分で開始されます。
 
-新しく作成されたデータフローと実行ステータスを表示する![ データフロー画面](assets/run-dataflow-dataflows-sources-screen.png)
+新しく作成されたデータフローと実行ステータスを表示する![&#x200B; データフロー画面](assets/run-dataflow-dataflows-sources-screen.png)
 
 >[!NOTE]
 >

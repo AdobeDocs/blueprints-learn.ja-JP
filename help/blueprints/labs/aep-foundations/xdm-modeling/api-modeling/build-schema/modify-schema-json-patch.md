@@ -79,13 +79,13 @@ JSON PATCHの詳細については、以下のリンクを参照してくださ�
 1. リクエストに加えた編集を保存します
 1. `Send` ボタンをクリックしてリクエストを実行します
 
-![ ステップ 2 – 変更されるオブジェクトのAPI呼び出しのパスを取得](assets/modify-schema-json-patch-step-2-fetch-object-path.jpeg " ステップ 2 – 変更されるオブジェクトのパスを取得するステップ ")
+![&#x200B; ステップ 2 – 変更されるオブジェクトのAPI呼び出しのパスを取得](assets/modify-schema-json-patch-step-2-fetch-object-path.jpeg " ステップ 2 – 変更されるオブジェクトのパスを取得するステップ ")
 
 
 
 応答を確認し、**plan** オブジェクトのJSON ポインターパスが、以下に強調表示されている各プロパティを使用して構築されていることに注意してください。
 
-![ プランオブジェクトへのJSON ポインターパスを構成するハイライト表示されたプロパティ ](assets/modify-schema-json-patch-customer-account-details-path-to-the-plan-object.png "顧客アカウントの詳細プランオブジェクトへのパス ")
+![&#x200B; プランオブジェクトへのJSON ポインターパスを構成するハイライト表示されたプロパティ &#x200B;](assets/modify-schema-json-patch-customer-account-details-path-to-the-plan-object.png "顧客アカウントの詳細プランオブジェクトへのパス ")
 
 
 
@@ -133,10 +133,10 @@ JSON PATCHの詳細については、以下のリンクを参照してくださ�
 
 
 
-2. リクエストの本文を次の情報で更新します
+&#x200B;2. リクエストの本文を次の情報で更新します
 
 - **op** ->` add`
-- **パス** -> `path from previous step +`` the new field name`
+- **パス** -> `path from previous step +`&#x200B;` the new field name`
 - **値** ->
   - **title** -> `Plan Description`
   - **type** -> `string`
@@ -152,13 +152,13 @@ API リクエストは次のようになります
 
 
 
-3. すべてが良好に見える場合`Save`
+&#x200B;3. すべてが良好に見える場合`Save`
 
-4. PATCHを実行するための呼び出し`Execute`
+&#x200B;4. PATCHを実行するための呼び出し`Execute`
 
 `200 OK `応答が表示され、次のようにフィールドグループに`planDescription` フィールドが表示されます。
 
-planDescription](assets/modify-schema-json-patch-step-3-200-ok-successful-patch.png "手順3 - 200 OK成功したPATCH")でフィールドグループに正常にパッチを適用した後、![200 OK応答
+planDescription![&#128279;](assets/modify-schema-json-patch-step-3-200-ok-successful-patch.png "手順3 - 200 OK成功したPATCH")でフィールドグループに正常にパッチを適用した後、200 OK応答
 
 >[!TIP]
 >
@@ -170,4 +170,4 @@ planDescription](assets/modify-schema-json-patch-step-3-200-ok-successful-patch.
 
 UIでスキーマを参照し、新しく追加したフィールドを確認します。  すごいですよね？
 
-![ プランの説明フィールドは、Experience Platform UIのJSON パッチ後にスキーマに表示されます](assets/modify-schema-json-patch-plan-description-added-to-field-group.png " プランの説明は、お客様アカウントの詳細 – サンドボックス \&lt;your number> フィールドグループに追加されました。 スキーマ JSON")を変更
+![&#x200B; プランの説明フィールドは、Experience Platform UIのJSON パッチ後にスキーマに表示されます](assets/modify-schema-json-patch-plan-description-added-to-field-group.png " プランの説明は、お客様アカウントの詳細 – サンドボックス \&lt;your number> フィールドグループに追加されました。 スキーマ JSON")を変更

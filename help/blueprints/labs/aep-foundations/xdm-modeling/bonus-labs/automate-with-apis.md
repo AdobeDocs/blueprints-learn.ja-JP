@@ -41,7 +41,7 @@ APIを使用してデプロイメントを自動化する方法を確認する�
 >
 >「実行」ボタンは、Postman ワークスペースの右上にあります
 
-![Automation with API フォルダーのPostman ワークスペースの右上にある「実行」ボタン ](assets/automate-with-apis-click-folder-run-button.png " フォルダー「実行」をクリック ")
+![Automation with API フォルダーのPostman ワークスペースの右上にある「実行」ボタン &#x200B;](assets/automate-with-apis-click-folder-run-button.png " フォルダー「実行」をクリック ")
 
 
 
@@ -65,6 +65,6 @@ APIを使用してデプロイメントを自動化する方法を確認する�
 
 ![Postmanで作成された2つのデータセット：自動スキーマに一致する接頭辞](assets/automate-with-apis-datasets-created-in-ui.png "自動化データセット ")
 
-> [!TIP]
+&#x200B;> [!TIP]
 >
 >おめでとうございます。  ID名前空間、フィールドグループ、スキーマ、ID/関係記述子のデプロイメントを自動化し、プロファイルのスキーマを有効にし、スキーマを使用してデータセットを生成するだけです

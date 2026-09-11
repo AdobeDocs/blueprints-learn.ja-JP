@@ -27,7 +27,7 @@ ht-degree: 0%
 
 3. 必須クラスと関連するフィールドグループがスキーマに追加されることに注意してください
 
-クラスとフィールドグループを含むExperience Platform UIに表示される![ サンプル顧客スキーマ ](assets/view-schema-ui-view-of-sample-customer-schema.png " サンプル顧客スキーマのUI ビュー")
+クラスとフィールドグループを含むExperience Platform UIに表示される![&#x200B; サンプル顧客スキーマ &#x200B;](assets/view-schema-ui-view-of-sample-customer-schema.png " サンプル顧客スキーマのUI ビュー")
 
 
 ## API経由で表示
@@ -43,10 +43,10 @@ ht-degree: 0%
 
 `$meta:altId`を追加した後の最終要求の例
 
-![ メタデータ :altIdをURL](assets/view-schema-final-step-5-request.png "最後のステップ 5 リクエスト ")に追加したステップ 5 リクエスト
+![&#x200B; メタデータ :altIdをURL](assets/view-schema-final-step-5-request.png "最後のステップ 5 リクエスト ")に追加したステップ 5 リクエスト
 
 
 
 `200 OK`応答を受け取った場合は、レンズを通じて作成したスキーマをXDM JSON構造を参照できます
 
-完全なサンプル顧客アカウントスキーマ JSON](assets/view-schema-sample-customer-account-schema.png " サンプル顧客アカウントスキーマ ")を示す![200 OK応答
+完全なサンプル顧客アカウントスキーマ JSON![&#128279;](assets/view-schema-sample-customer-account-schema.png " サンプル顧客アカウントスキーマ ")を示す200 OK応答

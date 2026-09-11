@@ -30,7 +30,7 @@ ht-degree: 0%
 
 **リクエスト**
 
-![ ステップ 1 - XDM標準フィールドグループ API リクエストを取得](assets/get-standard-field-groups-step-1-request.jpeg " ステップ 1 - リクエスト ")
+![&#x200B; ステップ 1 - XDM標準フィールドグループ API リクエストを取得](assets/get-standard-field-groups-step-1-request.jpeg " ステップ 1 - リクエスト ")
 
 >[!NOTE]
 >
@@ -64,7 +64,7 @@ ht-degree: 0%
 1. フィールドグループの`$id`をコピーし、後で参照できるように保存します
 1. 上記の他の2つのフィールドグループについて、手順1と2を繰り返します
 
-![API応答にあるデモグラフィックの詳細フィールドグループ ](assets/get-standard-field-groups-demographic-details-field-group.png)
+![API応答にあるデモグラフィックの詳細フィールドグループ &#x200B;](assets/get-standard-field-groups-demographic-details-field-group.png)
 
 >[!WARNING]
 >

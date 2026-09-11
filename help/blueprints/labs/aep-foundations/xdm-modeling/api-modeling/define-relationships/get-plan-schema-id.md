@@ -33,7 +33,7 @@ ht-degree: 0%
 1. 呼び出し応答で`dep: Plan [Lookup] ` スキーマを検索します
 1. スキーマの`$id`をコピーし、後で参照できるように保存します
 
-![Dep: プラン検索スキーマ $id （API応答に含まれる） ](assets/get-plan-schema-id-dep-lookup-plan-schema-sid.png "dep: ルックアップ プラン スキーマ $id")
+![Dep: プラン検索スキーマ $id （API応答に含まれる） &#x200B;](assets/get-plan-schema-id-dep-lookup-plan-schema-sid.png "dep: ルックアップ プラン スキーマ $id")
 
 >[!NOTE]
 >

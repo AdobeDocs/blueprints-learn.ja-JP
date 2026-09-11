@@ -24,7 +24,7 @@ ht-degree: 0%
 これらのラボは、このラボを開始する前に完了している必要があります。
 
 - **Data Stores — リレーショナルストアの動作** **—>** [Profile Target Dimension](../../data-stores/relational-store-in-action/profile-target-dimension.md)
-- **データストア – メールチャネルの設定 – >** [ プロファイルの設定](../../data-stores/configure-email-channels/configure-for-profile.md)
+- **データストア – メールチャネルの設定 – >** [&#x200B; プロファイルの設定](../../data-stores/configure-email-channels/configure-for-profile.md)
   *（完了までに最大3時間かかる場合があります）*
 
 まだ完了していない場合は、以下の項目を記入してください

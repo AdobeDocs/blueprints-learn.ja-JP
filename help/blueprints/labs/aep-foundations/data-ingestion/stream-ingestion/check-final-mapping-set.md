@@ -17,7 +17,7 @@ ht-degree: 0%
 
 ## パススルーマッピング
 
-> [!NOTE]
+&#x200B;> [!NOTE]
 >
 >続行する前に、最終的なマッピングが以下に示す内容と一致していることを確認してください。
 
@@ -62,7 +62,7 @@ ht-degree: 0%
 | concat （date\_part （&quot;mm&quot;, date （birth\_Date, &quot;yyyy-M-d&quot;））.toString （）, &quot;-&quot;, date\_part （&quot;dd&quot;, date （birth\_Date, &quot;yyyy-M-d&quot;））.toString （）） | person.birthDayAndMonth |
 | date\_part （&quot;yyyy&quot;,date （birth\_Date,&quot;yyyy-M-d&quot;）） | person.birthYear |
 
-> [!NOTE]
+&#x200B;> [!NOTE]
 >
 >続行する前に、最終的なマッピングが以下に示す内容と一致していることを確認してください
 

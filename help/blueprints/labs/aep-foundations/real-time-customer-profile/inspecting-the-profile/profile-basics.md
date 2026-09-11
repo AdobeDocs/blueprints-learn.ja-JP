@@ -24,7 +24,7 @@ ht-degree: 0%
 1. 左側のパネルの&#x200B;**プロファイル**&#x200B;をクリックします
 1. 上部ナビゲーションの&#x200B;**結合スキーマ**&#x200B;をクリックします
 
-![ プロファイルの上部ナビゲーションの下の結合スキーマビュー](assets/profile-basics-profile-union-view.png " プロファイル結合ビュー")
+![&#x200B; プロファイルの上部ナビゲーションの下の結合スキーマビュー](assets/profile-basics-profile-union-view.png " プロファイル結合ビュー")
 
 >[!NOTE]
 >
@@ -32,7 +32,7 @@ ht-degree: 0%
 
 XDM Individual Profile クラスの結合スキーマを確認し、テナント名前空間を展開します。 **LID手法**&#x200B;および&#x200B;**XDM モデリング ラボ**&#x200B;で定義した様々なスキーマに由来するいくつかの項目が、ここに表示されます。
 
-![ テナント名前空間フィールドを表示するように拡張されたXDM個人プロファイルクラスの結合スキーマビュー](assets/profile-basics-union-schema-tenant-namespace-objects.png " テナントオブジェクトのプロファイル結合スキーマビュー")
+![&#x200B; テナント名前空間フィールドを表示するように拡張されたXDM個人プロファイルクラスの結合スキーマビュー](assets/profile-basics-union-schema-tenant-namespace-objects.png " テナントオブジェクトのプロファイル結合スキーマビュー")
 
 **アカウント** オブジェクトをクリックし、画面の右側のパネルに表示される内容を確認します。 オブジェクトの詳細、その形成に貢献したスキーマとデータセット、およびその他の関連情報を確認できるようになりました。
 
@@ -53,13 +53,13 @@ XDM Individual Profile クラスの結合スキーマを確認し、テナント
 1. 「**表示**」ボタンをクリックして、プロファイルを検索します
 1. プロファイルへの&#x200B;**リンク**&#x200B;をクリックすると、プロファイルの詳細が表示されます
 
-電子メール名前空間とdepeche.mode@dep.comが入力された![ プロファイルビューア参照タブ ](assets/profile-basics-profile-viewer-browse-tab.png " プロファイルビューア（参照） ")
+電子メール名前空間とdepeche.mode@dep.comが入力された![&#x200B; プロファイルビューア参照タブ &#x200B;](assets/profile-basics-profile-viewer-browse-tab.png " プロファイルビューア（参照） ")
 
 
 
 今すぐご覧ください。
 
-電子メールで検索した後、![Depeche Mode プロファイルの詳細ページ ](assets/profile-basics-depeche-mode-profile-details.png "Depeche Mode プロファイルの詳細")
+電子メールで検索した後、![Depeche Mode プロファイルの詳細ページ &#x200B;](assets/profile-basics-depeche-mode-profile-details.png "Depeche Mode プロファイルの詳細")
 
 上部のナビゲーションの各タブを確認して、プロファイルのDepeche Modeを確認してください。 以下のタブを使用します。
 
@@ -240,7 +240,7 @@ XDM Individual Profile クラスの結合スキーマを確認し、テナント
 
 この画面が表示されます。
 
-デペッシュ モード プロファイル用の![ID グラフ ビジュアライザー、詳細、選択したID パネル ](assets/profile-basics-identity-graph-view-of-depeche-mode.png " デペッシュ モード プロファイルのID グラフ ビュー")
+デペッシュ モード プロファイル用の![ID グラフ ビジュアライザー、詳細、選択したID パネル &#x200B;](assets/profile-basics-identity-graph-view-of-depeche-mode.png " デペッシュ モード プロファイルのID グラフ ビュー")
 
 上記のビューは、Depeche Mode プロファイルのID グラフで、3つの主要な領域に分かれています。
 
@@ -279,7 +279,7 @@ XDM Individual Profile クラスの結合スキーマを確認し、テナント
 1. 前のセクションで保存したcustomerID値を使用して、ID値を更新します
 1. 「**表示**」ボタンをクリックします
 
-顧客ID名前空間と値が入力された![ プロファイルビューアでDepeche モードを検索](assets/profile-basics-lookup-depeche-mode-using-customerid.png "顧客ID")を使用したDepeche モードの検索
+顧客ID名前空間と値が入力された![&#x200B; プロファイルビューアでDepeche モードを検索](assets/profile-basics-lookup-depeche-mode-using-customerid.png "顧客ID")を使用したDepeche モードの検索
 
 
 

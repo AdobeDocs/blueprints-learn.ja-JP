@@ -15,7 +15,7 @@ ht-degree: 0%
 
 # Postman インストール
 
-> [!NOTE]
+&#x200B;> [!NOTE]
 >
 >このコースでは、さまざまなラボにPostmanが必要です。  Postmanが既にインストールされている場合でも、Environment Files and API Collectionがインストールされ、適切に設定されていることを確認するには、このラボを参照する必要があります。
 
@@ -25,7 +25,7 @@ ht-degree: 0%
 
 Postman web サイトに移動し、Postman アプリをダウンロードするか、Web バージョンを利用します – > [https://www.postman.com/download/](https://www.postman.com/download/)
 
-![ デスクトップアプリのインストールまたはweb バージョンの使用に関するPostmanのダウンロードページ ](assets/postman-installation-download-page.png)
+![&#x200B; デスクトップアプリのインストールまたはweb バージョンの使用に関するPostmanのダウンロードページ &#x200B;](assets/postman-installation-download-page.png)
 
 
 
@@ -33,7 +33,7 @@ Postman web サイトに移動し、Postman アプリをダウンロードする
 
 Postmanを開き、アプリケーションのいくつかの領域をすばやく確認します。 Experience Platformを使用する上で本当に必要なのは、アプリケーションのいくつかの重要な領域に集中することだけです。
 
-![ サイドバー、ヘッダー、メイン作業領域、フッターを強調表示するPostman インターフェイス ](assets/postman-installation-interface-overview.png "Postman インターフェイス ")
+![&#x200B; サイドバー、ヘッダー、メイン作業領域、フッターを強調表示するPostman インターフェイス &#x200B;](assets/postman-installation-interface-overview.png "Postman インターフェイス ")
 
 ## サイドバー
 

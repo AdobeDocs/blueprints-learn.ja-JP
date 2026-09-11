@@ -41,7 +41,7 @@ ht-degree: 1%
 
 ### 検索するエンティティの識別
 
-ほとんどのリクエストでは、XIDを既に知っておく必要はなく、メールアドレス、CRM ID、ロイヤルティ IDなどの既知のID値でエンティティを識別するために`entityId`と`entityIdNS`を使用します。 XIDは、IDを表すためにID サービスが生成および内部的に割り当てるbase64 エンコードされた識別子で、その名前空間とID値を単一のコンパクトトークンに統合します（詳細は[ ネイティブ XID](https://experienceleague.adobe.com/docs/experience-platform/identity/api/list-native-id.html?lang=ja)を参照）。
+ほとんどのリクエストでは、XIDを既に知っておく必要はなく、メールアドレス、CRM ID、ロイヤルティ IDなどの既知のID値でエンティティを識別するために`entityId`と`entityIdNS`を使用します。 XIDは、IDを表すためにID サービスが生成および内部的に割り当てるbase64 エンコードされた識別子で、その名前空間とID値を単一のコンパクトトークンに統合します（詳細は[&#x200B; ネイティブ XID](https://experienceleague.adobe.com/docs/experience-platform/identity/api/list-native-id.html?lang=ja)を参照）。
 
 | パラメーター | タイプ | 説明 | 例 |
 | ------------ | ------ | ---------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------- |
@@ -64,7 +64,7 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->追加のID ルックアップオプション、イベントフィルタリング （`startTime`、`endTime`、`property`、`orderby`、`limit`）、フィールド選択、結合ポリシーの上書きなど、クエリパラメーターの完全なリストについては、[ プロファイルエンティティ API リファレンス ](https://developer.adobe.com/experience-platform-apis/references/profile#tag/Entities)を参照してください。
+>追加のID ルックアップオプション、イベントフィルタリング （`startTime`、`endTime`、`property`、`orderby`、`limit`）、フィールド選択、結合ポリシーの上書きなど、クエリパラメーターの完全なリストについては、[&#x200B; プロファイルエンティティ API リファレンス &#x200B;](https://developer.adobe.com/experience-platform-apis/references/profile#tag/Entities)を参照してください。
 
 >[!WARNING]
 >
@@ -80,7 +80,7 @@ Entity Lookup APIについて詳しくは、前のラボのDepeche Mode プロ�
 1. **エンティティ検索（属性）** リクエストをクリックして開きます
 1. **送信** ボタンをクリックして呼び出しを実行します
 
-](assets/profile-and-identity-apis-entity-lookup-attributes-request.png "Profile Entity Lookup （attributes） API")を送信する前のEntity Lookup （attributes）呼び出し用の![Postman リクエストペイン
+![&#128279;](assets/profile-and-identity-apis-entity-lookup-attributes-request.png "Profile Entity Lookup （attributes） API")を送信する前のEntity Lookup （attributes）呼び出し用のPostman リクエストペイン
 
 正常なリクエストには`200 OK`を返す必要があり、Depeche Mode プロファイルのすべての属性を含む結果が表示されます。
 
@@ -96,7 +96,7 @@ Entity APIには、応答で返される内容を変更するために利用で�
 1. **フィールド**&#x200B;という名前の&#x200B;**キー**&#x200B;の横にあるチェックボックスをオンにします
 1. **送信** ボタンをクリックしてリクエストを実行します
 
-![応答をフィルタリングするためにフィールドパラメーターを有効にしたエンティティ検索（属性）リクエスト ](assets/profile-and-identity-apis-entity-lookup-attributes-with-filter-enabled.png)
+![応答をフィルタリングするためにフィールドパラメーターを有効にしたエンティティ検索（属性）リクエスト &#x200B;](assets/profile-and-identity-apis-entity-lookup-attributes-with-filter-enabled.png)
 
 >[!NOTE]
 >
@@ -104,9 +104,9 @@ Entity APIには、応答で返される内容を変更するために利用で�
 
 リクエストが成功した場合は`200 OK`で応答する必要があります。有効にしたパラムフィルターで指定されたフィールド（名、姓、アクティブな製品の配列）のみが表示されます。
 
-![ フィルター処理された200 OK応答で、名、姓、およびアクティブ製品のフィールドのみが表示される](assets/profile-and-identity-apis-successful-filtered-attributes-response.png " フィルターが有効になっているプロファイル エンティティ検索（属性） API応答")
+![&#x200B; フィルター処理された200 OK応答で、名、姓、およびアクティブ製品のフィールドのみが表示される](assets/profile-and-identity-apis-successful-filtered-attributes-response.png " フィルターが有効になっているプロファイル エンティティ検索（属性） API応答")
 
-> [!TIP]
+&#x200B;> [!TIP]
 >
 >おめでとうございます。  Profile Entity APIを使用してプロファイルの属性を検索しました
 
@@ -117,7 +117,7 @@ Entity APIには、応答で返される内容を変更するために利用で�
 1. **エンティティ検索（イベント）** リクエストをクリックして開きます
 1. **送信** ボタンをクリックして呼び出しを実行します
 
-![送信前のエンティティ検索（イベント）呼び出しに対するPostmanのリクエストペイン ](assets/profile-and-identity-apis-entity-lookup-events-request.png)
+![送信前のエンティティ検索（イベント）呼び出しに対するPostmanのリクエストペイン &#x200B;](assets/profile-and-identity-apis-entity-lookup-events-request.png)
 
 正常なリクエストには`200 OK`を返す必要があり、Depeche Mode プロファイルのすべてのイベントを含む結果が表示されます。
 
@@ -129,7 +129,7 @@ Entity APIには、応答で返される内容を変更するために利用で�
 
 Params セクションでそれらを有効にし、リクエストを実行することで、いくつか試すことができます。  試してみて、どのように機能するかを確認してください！
 
-パラメーターのセクション ](assets/profile-and-identity-apis-entity-lookup-events-query-params.png " エクスペリエンスイベントのプロファイルエンティティ検索")で追加のクエリパラメーターを有効にした![ エンティティ検索（イベント）リクエスト
+パラメーターのセクション ![&#128279;](assets/profile-and-identity-apis-entity-lookup-events-query-params.png " エクスペリエンスイベントのプロファイルエンティティ検索")で追加のクエリパラメーターを有効にした エンティティ検索（イベント）リクエスト
 
 **クエリパラメーター定義の例**
 
@@ -162,7 +162,7 @@ Params セクションでそれらを有効にし、リクエストを実行す�
 
 
 
-](assets/profile-and-identity-apis-list-linked-identities-request.png " リンクされたIDをリスト API")を送信する前にリンクされたIDのリスト呼び出しを行うための![Postmanのリクエストペイン
+![&#128279;](assets/profile-and-identity-apis-list-linked-identities-request.png " リンクされたIDをリスト API")を送信する前にリンクされたIDのリスト呼び出しを行うためのPostmanのリクエストペイン
 
 応答が成功した場合は、次のスクリーンショットのようになります
 

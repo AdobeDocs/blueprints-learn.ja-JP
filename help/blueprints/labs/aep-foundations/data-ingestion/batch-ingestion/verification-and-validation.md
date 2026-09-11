@@ -20,13 +20,13 @@ ht-degree: 0%
 1. **データセット**&#x200B;をクリック
 1. **作成したデータセット名を**&#x200B;検索して&#x200B;**クリック**&#x200B;します。
 
-![ データセット ペインでデータセット名を検索してクリック ](assets/verification-and-validation-access-dataset-in-datasets-pane.png " データセット ペインでデータセットにアクセス ")
+![&#x200B; データセット ペインでデータセット名を検索してクリック &#x200B;](assets/verification-and-validation-access-dataset-in-datasets-pane.png " データセット ペインでデータセットにアクセス ")
 
 
 
 1. 右上隅の「**データセットをプレビュー**」をクリックします
 
-![ データセット画面の右上隅にある「データセットをプレビュー」ボタンの場所](assets/verification-and-validation-preview-dataset-button-location.png " データセットをプレビューは右上隅にあります")
+![&#x200B; データセット画面の右上隅にある「データセットをプレビュー」ボタンの場所](assets/verification-and-validation-preview-dataset-button-location.png " データセットをプレビューは右上隅にあります")
 
 
 
@@ -45,7 +45,7 @@ ht-degree: 0%
 1. プレビューを&#x200B;**閉じる**
 1. データセット画面で、**テーブル名**&#x200B;のコピーアイコンをクリックします。 下の例の画面では、テーブル名は`customer_account_sm`です
 
-![ データセット画面のテーブル名の横にあるコピーアイコン ](assets/verification-and-validation-copy-table-name.png " テーブル名をコピー")
+![&#x200B; データセット画面のテーブル名の横にあるコピーアイコン &#x200B;](assets/verification-and-validation-copy-table-name.png " テーブル名をコピー")
 
 
 
@@ -53,7 +53,7 @@ ht-degree: 0%
 
 1. 「**クエリを作成**」をクリック
 
-![ クエリセクションの「クエリを作成」ボタン ](assets/verification-and-validation-access-the-query-editor.png)
+![&#x200B; クエリセクションの「クエリを作成」ボタン &#x200B;](assets/verification-and-validation-access-the-query-editor.png)
 
 
 
@@ -67,7 +67,7 @@ SELECT * FROM <table_name>
 
 1. 「**再生**」ボタンを押します。
 
-![SQL クエリと再生ボタンを備えたクエリエディターインターフェイス ](assets/verification-and-validation-query-editor-interface.png " クエリエディターインターフェイス ")
+![SQL クエリと再生ボタンを備えたクエリエディターインターフェイス &#x200B;](assets/verification-and-validation-query-editor-interface.png " クエリエディターインターフェイス ")
 
 
 

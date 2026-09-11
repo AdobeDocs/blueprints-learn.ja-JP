@@ -48,9 +48,9 @@ IPhone 14の注文を行ったプロファイルのみを検索するオーデ�
 
 >[!NOTE]
 >
->* 注文「フォルダー」には「i」がありません。 説明は入力されていても内容が記載されておらず、マーケターがその説明を試して使用したり、説明を知りたがったりする可能性があるため、混乱の原因となる可能性があります。
->* イベントカードの「i」は、イベントタイプが1つのフィールドであり、多くはないので、タイプが何であるかを繰り返すだけです。
->* 概要データは、結合されたプロファイルの2%以上に値が存在する場合にのみ表示されます。 これは、文字列をフィルタリングする際のオートコンプリートも駆動します。
+>&#x200B;* 注文「フォルダー」には「i」がありません。 説明は入力されていても内容が記載されておらず、マーケターがその説明を試して使用したり、説明を知りたがったりする可能性があるため、混乱の原因となる可能性があります。
+>&#x200B;* イベントカードの「i」は、イベントタイプが1つのフィールドであり、多くはないので、タイプが何であるかを繰り返すだけです。
+>&#x200B;* 概要データは、結合されたプロファイルの2%以上に値が存在する場合にのみ表示されます。 これは、文字列をフィルタリングする際のオートコンプリートも駆動します。
 
 
 
@@ -58,7 +58,7 @@ IPhone 14の注文を行ったプロファイルのみを検索するオーデ�
 
 ![注文済みイベントタイプカードをキャンバスにドラッグします](assets/build-audience-1-drag-order-placed-event-onto-canvas.png)
 
-> [!TIP]
+&#x200B;> [!TIP]
 >
 >**オプション：**
 >
@@ -74,7 +74,7 @@ IPhone 14の注文を行ったプロファイルのみを検索するオーデ�
 >
 >イベントタイプカードを使用したフィルタリングは、イベントタイプフィールドを使用したフィルタリングと同じです
 >
->![ イベントタイプカードを使用したフィルタリングは、「イベントタイプ」フィールドを使用したフィルタリングと同じです](assets/build-audience-1-event-type-card-vs-field-comparison.png)
+>![&#x200B; イベントタイプカードを使用したフィルタリングは、「イベントタイプ」フィールドを使用したフィルタリングと同じです](assets/build-audience-1-event-type-card-vs-field-comparison.png)
 >
 >イベントタイプカードを使用する利点：
 >
@@ -163,7 +163,7 @@ IPhoneで絞り込める機能を探しています。 選択肢は3つありま
 - 製品
 - SKU
 
-![ フィルターする3つのフィールドオプション：名前、製品、SKU](assets/build-audience-1-name-product-sku-field-options.png)
+![&#x200B; フィルターする3つのフィールドオプション：名前、製品、SKU](assets/build-audience-1-name-product-sku-field-options.png)
 
 全員が良い候補者かもしれませんが、私たちは知りません。  各項目の詳細については、「i」をクリックしてください。
 
@@ -179,7 +179,7 @@ IPhoneで絞り込める機能を探しています。 選択肢は3つありま
 
 「データのあるフィールドのみを表示」をオンにする
 
-![ 「データを含むフィールドのみを表示」をオンにする](assets/build-audience-1-turn-on-show-only-fields-with-data.png)
+![&#x200B; 「データを含むフィールドのみを表示」をオンにする](assets/build-audience-1-turn-on-show-only-fields-with-data.png)
 
 >[!NOTE]
 >
@@ -195,7 +195,7 @@ IPhoneで絞り込める機能を探しています。 選択肢は3つありま
 
 XDM ExperienceEvent/製品リスト項目/開発/モデルにドリルダウンします
 
-![XDM ExperienceEvent / 製品リスト項目/開発/モデル ](assets/build-audience-1-drill-down-to-product-list-items-model.png)にドリルダウンします
+![XDM ExperienceEvent / 製品リスト項目/開発/モデル &#x200B;](assets/build-audience-1-drill-down-to-product-list-items-model.png)にドリルダウンします
 
 モデルはこのように見えますが、説明はありません。
 
@@ -209,7 +209,7 @@ IPhone 14を追加
 
 配置されたイベントの上で、「Any time」を「Today」に変更します
 
-![ イベント時間フィルターを「任意の時間」から「今日」に変更](assets/build-audience-1-change-any-time-to-today.png)
+![&#x200B; イベント時間フィルターを「任意の時間」から「今日」に変更](assets/build-audience-1-change-any-time-to-today.png)
 
 >[!NOTE]
 >
@@ -227,11 +227,11 @@ IPhone 14を追加
 
 青いボタン **Activate Audience**&#x200B;をDestinationにクリックします
 
-![ 「Activate Audience to Destination](assets/build-audience-1-activate-audience-to-destination.png)」をクリック
+![&#x200B; 「Activate Audience to Destination](assets/build-audience-1-activate-audience-to-destination.png)」をクリック
 
 「**Streaming DEP Webhook** Destination」を選択し、「Next」をクリックします
 
-![ ストリーミング DEP Webhookの宛先を選択し、「次へ」をクリックします](assets/build-audience-1-select-streaming-dep-webhook-destination.png)
+![&#x200B; ストリーミング DEP Webhookの宛先を選択し、「次へ」をクリックします](assets/build-audience-1-select-streaming-dep-webhook-destination.png)
 
 マッピングを変更しないで、「次へ」と「終了」をクリックします
 

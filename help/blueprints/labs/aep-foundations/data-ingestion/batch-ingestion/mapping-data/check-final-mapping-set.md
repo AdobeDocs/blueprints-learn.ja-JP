@@ -15,11 +15,11 @@ ht-degree: 0%
 
 # 最終マッピングセットをチェック
 
-> [!NOTE]
+&#x200B;> [!NOTE]
 >
 >ストリーミング取り込みラボからアクセスする場合は、以下のリンクをクリックして、そのラボの次の手順に進んでください。
 >
->[ ストリーミング取り込みラボ – 最終マッピングセットを確認](../../stream-ingestion/check-final-mapping-set.md)
+>[&#x200B; ストリーミング取り込みラボ – 最終マッピングセットを確認](../../stream-ingestion/check-final-mapping-set.md)
 
 
 
@@ -52,7 +52,7 @@ ht-degree: 0%
 | shipping\_state | shippingAddress.state |
 | shipping\_street\_address | shippingAddress.street1 |
 
-> [!NOTE]
+&#x200B;> [!NOTE]
 >
 >続行する前に、最終的なマッピングが以下に示す内容と一致していることを確認してください。
 
@@ -66,6 +66,6 @@ ht-degree: 0%
 | concat （date\_part （&quot;month&quot;, date （birth\_Date,&quot;M/d/yyyy&quot;））.toString （）, &quot;-&quot;, date\_part （&quot;day&quot;, date （birth\_Date,&quot;M/d/yyyy&quot;）.toString （）） | person.birthDayAndMonth |
 | date\_part （&quot;yyyy&quot;,date （birth\_Date,&quot;M/d/yyyy&quot;）） | person.birthYear |
 
-> [!NOTE]
+&#x200B;> [!NOTE]
 >
 >続行する前に、最終的なマッピングが以下に示す内容と一致していることを確認してください

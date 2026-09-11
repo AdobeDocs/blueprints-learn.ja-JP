@@ -40,7 +40,7 @@ AJOのAI アシスタントは、よりスマートでブランドに即した�
 
 この演習では、AI アシスタントを使用して作成したメールを改善します。
 
-> [!NOTE]
+&#x200B;> [!NOTE]
 >
 >AI アシスタントは&#x200B;**非決定論的**&#x200B;です。つまり、使用されるたびに少し異なるコンテンツが生成される可能性があります。 練習中に表示される内容は、このガイドのスクリーンショットや例と完全に一致しない場合があります。 それは構いません。同じ結果を期待するのではなく、プロセスと概念を学ぶことに焦点を当てます。
 
@@ -52,20 +52,20 @@ AJOのAI アシスタントは、よりスマートでブランドに即した�
 4. 「**件名**」フィールドを選択します。
 5. **AI アシスタント アイコン**&#x200B;をクリックします。 （以下を参照）
 
-![件名フィールドツールバーのAI アシスタントアイコン ](assets/ai-assistant-and-content-personalization-ai-assistant-icon.png)
+![件名フィールドツールバーのAI アシスタントアイコン &#x200B;](assets/ai-assistant-and-content-personalization-ai-assistant-icon.png)
 
-6. 初期設定では、ブランドガイドラインが選択されています。
-7. プロンプトを入力します。
+&#x200B;6. 初期設定では、ブランドガイドラインが選択されています。
+&#x200B;7. プロンプトを入力します。
 
 >IPhone 17を発表しました。件名の魅力的さを強調し
 
-8. **Generate**&#x200B;を押します。
-9. 生成された4つのバリエーションを確認します。
-10. 最適な整列スコアのバリエーションを選択し、**選択**&#x200B;をクリックします。
+&#x200B;8. **Generate**&#x200B;を押します。
+&#x200B;9. 生成された4つのバリエーションを確認します。
+&#x200B;10. 最適な整列スコアのバリエーションを選択し、**選択**&#x200B;をクリックします。
 
 ![AI アシスタントから最適に調整された件名のバリエーションを選択](assets/ai-assistant-and-content-personalization-select-subject-line-variant.png)
 
-> [!NOTE]
+&#x200B;> [!NOTE]
 >
 >結果はラボガイドとは完全に異なる場合があるため、心配する必要はありません。 正しいタイトルと思われるものを選択し、ラボに進みます。
 
@@ -76,34 +76,34 @@ AJOのAI アシスタントは、よりスマートでブランドに即した�
 
 1. 「メール本文を編集」ボタンをクリックしてメールを開きます。
 
-![ キャンペーンエディターでのメール本文の編集ボタン ](assets/ai-assistant-and-content-personalization-edit-email-body-button.png)
+![&#x200B; キャンペーンエディターでのメール本文の編集ボタン &#x200B;](assets/ai-assistant-and-content-personalization-edit-email-body-button.png)
 
-2. 「**Product Catchy line**」見出しをクリックします。
-3. 「**テキストを生成して選択**」をクリックして、AI アシスタントを開きます
+&#x200B;2. 「**Product Catchy line**」見出しをクリックします。
+&#x200B;3. 「**テキストを生成して選択**」をクリックして、AI アシスタントを開きます
 
 ![AI アシスタントを開くテキストオプションを生成して選択](assets/ai-assistant-and-content-personalization-generate-and-select-text.png)
 
-4. ドロップダウンから「**接続5G ブランドガイドライン**」を選択します。
+&#x200B;4. ドロップダウンから「**接続5G ブランドガイドライン**」を選択します。
 
 AI アシスタント ドロップダウンで「![接続5G ブランドガイドライン」オプションが選択されました](assets/ai-assistant-and-content-personalization-brand-guidelines-dropdown.png)
 
-5. プロンプト：
+&#x200B;5. プロンプト：
 
 >*iPhone 17のローンチに向けて、注目を集める大胆な見出しを作成します。 10語以内にする*
 
-6. 「テキスト設定」をクリックして、トーンとコミュニケーション戦略を変更します。 コミュニケーション戦略を&#x200B;**FOMO （見逃すことへの恐れ）**&#x200B;に、言語を&#x200B;**英語**&#x200B;に、トーンを&#x200B;**刺激的**&#x200B;に変更します。 ダイヤルを下げて短いバージョンを使用します。
+&#x200B;6. 「テキスト設定」をクリックして、トーンとコミュニケーション戦略を変更します。 コミュニケーション戦略を&#x200B;**FOMO （見逃すことへの恐れ）**&#x200B;に、言語を&#x200B;**英語**&#x200B;に、トーンを&#x200B;**刺激的**&#x200B;に変更します。 ダイヤルを下げて短いバージョンを使用します。
 
-![FOMO コミュニケーション戦略と刺激的なトーンを選択したテキスト設定パネル ](assets/ai-assistant-and-content-personalization-text-settings-fomo-tone.png)
+![FOMO コミュニケーション戦略と刺激的なトーンを選択したテキスト設定パネル &#x200B;](assets/ai-assistant-and-content-personalization-text-settings-fomo-tone.png)
 
-7. 「**生成**」ボタンをクリックします
-8. 最適なバージョンを確認して選択し，
-9. テキストが長い場合は、スライダーを使用して&#x200B;**「短いテキスト」**&#x200B;にして、テキストを再生成します。
+&#x200B;7. 「**生成**」ボタンをクリックします
+&#x200B;8. 最適なバージョンを確認して選択し，
+&#x200B;9. テキストが長い場合は、スライダーを使用して&#x200B;**「短いテキスト」**&#x200B;にして、テキストを再生成します。
 
 
 
 ![短いテキストスライダーを使用して、短い見出しを再生成](assets/ai-assistant-and-content-personalization-shorter-text-slider.png)
 
-10. テキストに問題がなければ、**選択**&#x200B;をクリックします
+&#x200B;10. テキストに問題がなければ、**選択**&#x200B;をクリックします
 
 ![生成されたヒーロー見出しのテキストの選択](assets/ai-assistant-and-content-personalization-select-generated-hero-text.png)
 
@@ -115,19 +115,19 @@ AIを活用して課題を特定する方法を解説します。
 
 ![評価用にテンプレート化されたプレースホルダーテキストが選択されました](assets/ai-assistant-and-content-personalization-select-templated-text.png)
 
-2. 次に示すように、「評価」ボタンをクリックします。
+&#x200B;2. 次に示すように、「評価」ボタンをクリックします。
 
-![AI アシスタントのテキストパネルの「評価」ボタン ](assets/ai-assistant-and-content-personalization-click-evaluate-button.png)
+![AI アシスタントのテキストパネルの「評価」ボタン &#x200B;](assets/ai-assistant-and-content-personalization-click-evaluate-button.png)
 
-3. 次の手順1と2に示すように、元のコンテンツはブランドに合わせて自動的に選択されます。 「**評価**」ボタンをクリックして続行します。
+&#x200B;3. 次の手順1と2に示すように、元のコンテンツはブランドに合わせて自動的に選択されます。 「**評価**」ボタンをクリックして続行します。
 
 ![評価の前に、ブランドガイドラインを使用して元のコンテンツが自動的に選択されました](assets/ai-assistant-and-content-personalization-evaluate-brand-alignment.png)
 
-4. 予想どおり、ブランドガイドラインに違反するエラーが多数発生しています。 これらはAIを使って修正することができますが、この場合、既存のマテリアルを修正することはできません。 そのままにしておき、ブランド基準に完全に合致した新しいコンテンツをゼロから制作することになります。
+&#x200B;4. 予想どおり、ブランドガイドラインに違反するエラーが多数発生しています。 これらはAIを使って修正することができますが、この場合、既存のマテリアルを修正することはできません。 そのままにしておき、ブランド基準に完全に合致した新しいコンテンツをゼロから制作することになります。
 
-![ ブランドガイドライン違反を示すAI アシスタント評価結果](assets/ai-assistant-and-content-personalization-brand-guideline-errors.png)
+![&#x200B; ブランドガイドライン違反を示すAI アシスタント評価結果](assets/ai-assistant-and-content-personalization-brand-guideline-errors.png)
 
-5. 以下のプロンプトでAIを使用して生成された新しい段落を使用します。 説明テキストに対しても、以下のプロンプトを使用して同じ方法を使用できます。
+&#x200B;5. 以下のプロンプトでAIを使用して生成された新しい段落を使用します。 説明テキストに対しても、以下のプロンプトを使用して同じ方法を使用できます。
 
 プロンプト：
 
@@ -156,11 +156,11 @@ AIによる画像生成に取り組む前に、どのような体験を構築で
 
 ![画像コンポーネントをiPhone 17 ファミリーブロックの下にドラッグする](assets/ai-assistant-and-content-personalization-drag-image-component.png)
 
-2. 外側をクリックして、画像プレースホルダーを選択します。 （必ず画像をクリックしてください。そうしないと、「Firefly」オプションが表示されません）。
+&#x200B;2. 外側をクリックして、画像プレースホルダーを選択します。 （必ず画像をクリックしてください。そうしないと、「Firefly」オプションが表示されません）。
 
 ![Firefly オプションにアクセスするための画像プレースホルダーの選択](assets/ai-assistant-and-content-personalization-select-image-placeholder.png)
 
-3. **Firefly**&#x200B;で、**生成をクリックして画像**&#x200B;を選択します。
+&#x200B;3. **Firefly**&#x200B;で、**生成をクリックして画像**&#x200B;を選択します。
 
 ![Fireflyの下の画像オプションを生成して選択](assets/ai-assistant-and-content-personalization-firefly-generate-select-image.png)
 
@@ -171,18 +171,18 @@ AIによる画像生成に取り組む前に、どのような体験を構築で
 
 ![画像の参照スタイル用に接続5G ブランド ガイドラインを選択](assets/ai-assistant-and-content-personalization-select-brand-guideline-reference.png)
 
-3. 「アップロード画像」をクリックします
+&#x200B;3. 「アップロード画像」をクリックします
 
-![Firefly参照スタイルパネルの「画像をアップロード」ボタン ](assets/ai-assistant-and-content-personalization-click-upload-image.png)
+![Firefly参照スタイルパネルの「画像をアップロード」ボタン &#x200B;](assets/ai-assistant-and-content-personalization-click-upload-image.png)
 
-4. ツールキットフォルダーからreference.jpgを選択します
+&#x200B;4. ツールキットフォルダーからreference.jpgを選択します
 
-![ ツールキット フォルダーからreference.jpgを選択しています](assets/ai-assistant-and-content-personalization-select-reference-jpg.png)
+![&#x200B; ツールキット フォルダーからreference.jpgを選択しています](assets/ai-assistant-and-content-personalization-select-reference-jpg.png)
 
-5. 画像プロンプトを追加
+&#x200B;5. 画像プロンプトを追加
    `Portrait-oriented image of a confident man in his early to mid-40s, standing alone at night in a neon-lit urban street, focused on his smartphone. Cinematic cyberpunk-inspired city atmosphere with colorful LED signs, cool blue and warm orange lighting, shallow depth of field, soft bokeh lights in the background. Modern lifestyle, tech-savvy mood, realistic skin tones, high contrast, photorealistic, professional lighting, ultra-detailed`.
 
-![ ポートレートの説明が入力されたFirefly画像プロンプトフィールド ](assets/ai-assistant-and-content-personalization-firefly-image-prompt.png)
+![&#x200B; ポートレートの説明が入力されたFirefly画像プロンプトフィールド &#x200B;](assets/ai-assistant-and-content-personalization-firefly-image-prompt.png)
 
 ## 画像設定の選択
 
@@ -204,17 +204,17 @@ AIによる画像生成に取り組む前に、どのような体験を構築で
 
 ![Fireflyで生成された画像の結果を確認する](assets/ai-assistant-and-content-personalization-review-firefly-results.png)
 
-2. 目的の選択画像の&#x200B;**選択**&#x200B;をクリックします。
+&#x200B;2. 目的の選択画像の&#x200B;**選択**&#x200B;をクリックします。
 
 ![目的の生成されたFirefly画像の選択](assets/ai-assistant-and-content-personalization-select-firefly-image.png)
 
-3. アップロードモーダルの入力を求められた場合は、**次へ**&#x200B;をクリックします。
+&#x200B;3. アップロードモーダルの入力を求められた場合は、**次へ**&#x200B;をクリックします。
 
-![ モーダルプロンプトをアップロードして「次へ」をクリック ](assets/ai-assistant-and-content-personalization-upload-modal-next.png)
+![&#x200B; モーダルプロンプトをアップロードして「次へ」をクリック &#x200B;](assets/ai-assistant-and-content-personalization-upload-modal-next.png)
 
-4. 次に、**読み込み**&#x200B;をクリックします。
+&#x200B;4. 次に、**読み込み**&#x200B;をクリックします。
 
-![選択した画像を挿入するインポートボタン ](assets/ai-assistant-and-content-personalization-click-import-button.png)
+![選択した画像を挿入するインポートボタン &#x200B;](assets/ai-assistant-and-content-personalization-click-import-button.png)
 
 ## ブロック設計を最終決定
 
@@ -222,7 +222,7 @@ AIによる画像生成に取り組む前に、どのような体験を構築で
 
 いくつかのイテレーションとバリエーションを経て、最終版のデザインが完成します。 最後のレイアウトは例に似ています。
 
-![丸みを帯びた画像コーナーを持つ最終的な電子メールブロックのデザイン ](assets/ai-assistant-and-content-personalization-final-block-design.png)
+![丸みを帯びた画像コーナーを持つ最終的な電子メールブロックのデザイン &#x200B;](assets/ai-assistant-and-content-personalization-final-block-design.png)
 
 この時点で、AIを活用してコンテンツ制作を加速し、向上させることに自信を持つはずです。
 

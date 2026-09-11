@@ -21,7 +21,7 @@ ht-degree: 0%
 
 
 
-![ パススルーマッピングに関するAI/ML ベースのコンテキストの推奨事項を示すマッピング画面](assets/overview-ai-ml-based-contextual-recommendations.png "AI/ML ベースのコンテキストの推奨事項")
+![&#x200B; パススルーマッピングに関するAI/ML ベースのコンテキストの推奨事項を示すマッピング画面](assets/overview-ai-ml-based-contextual-recommendations.png "AI/ML ベースのコンテキストの推奨事項")
 
 >[!NOTE]
 >

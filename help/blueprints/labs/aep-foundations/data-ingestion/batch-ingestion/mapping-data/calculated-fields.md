@@ -19,7 +19,7 @@ ht-degree: 0%
 
 sms\_optIn フィールドは、顧客アカウントスキーマの必須フィールドです。 問題は、ストリーミングソースのsms\_optIn フィールドが&#x200B;*null*&#x200B;値を送信できるので、それに対処するために計算フィールドが必要になることです。そうしないと、これらのレコードは取り込みからスキップされ、損失が発生します。
 
-![ ターゲットスキーマ ](assets/calculated-fields-consents-marketing-sms-val-schema-field.png " スキーマ ")に示すように、consents.marketing.sms.val フィールド
+![&#x200B; ターゲットスキーマ &#x200B;](assets/calculated-fields-consents-marketing-sms-val-schema-field.png " スキーマ ")に示すように、consents.marketing.sms.val フィールド
 
 
 
@@ -55,19 +55,19 @@ iif(sms_optIn == null or sms_optIn == "", 'n', sms_optIn)
 1. 右側のペインで、ターゲットスキーマパネルが開きます。 検索ボックスに&#x200B;**sms**&#x200B;と入力します
 1. **val** フィールドを選択します
 
-![計算フィールドマッピング用にsms.val フィールドが選択されたターゲットスキーマパネル ](assets/calculated-fields-map-calculated-field-to-target-xdm-field.png)
+![計算フィールドマッピング用にsms.val フィールドが選択されたターゲットスキーマパネル &#x200B;](assets/calculated-fields-map-calculated-field-to-target-xdm-field.png)
 
 
 
 最終的なマッピングは次のようになります。
 
-![ ターゲットスキーマにマッピングされたsms_options計算フィールドを含む最終マッピング画面](assets/calculated-fields-final-mapping-screen.png)
+![&#x200B; ターゲットスキーマにマッピングされたsms_options計算フィールドを含む最終マッピング画面](assets/calculated-fields-final-mapping-screen.png)
 
 
 
 1. マッピングを検証して、正しく表示されるようにします
 
-![sms_optin マッピングが有効であることを確認する「検証」ボタン ](assets/calculated-fields-validate-mappings.png)
+![sms_optin マッピングが有効であることを確認する「検証」ボタン &#x200B;](assets/calculated-fields-validate-mappings.png)
 
 >[!NOTE]
 >

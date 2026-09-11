@@ -20,7 +20,7 @@ ht-degree: 0%
 - ユースケースをアーキテクチャワークブックにマッピング — [以下のワークブックを印刷]
 - ペン、鉛筆、またはハイライター
 
-ファイルをダウンロード — [ アーキテクチャ演習への機能のマッピング.pdf](assets/lab-exercise-mapping-capabilities-to-architecture-exercise.pdf)
+ファイルをダウンロード — [&#x200B; アーキテクチャ演習への機能のマッピング.pdf](assets/lab-exercise-mapping-capabilities-to-architecture-exercise.pdf)
 
 **3つのConnection 5G ユースケースのそれぞれについて、次の操作を行います。**
 

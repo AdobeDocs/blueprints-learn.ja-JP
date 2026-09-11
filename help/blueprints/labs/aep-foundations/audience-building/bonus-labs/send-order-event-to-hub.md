@@ -42,7 +42,7 @@ ht-degree: 0%
 
 
 
-![ ストリーミング評価を使用して、オーディエンスを注文イベントストリーミングとして（15分以内）保存](assets/send-order-event-to-hub-save-streaming-evaluation-rule.png)
+![&#x200B; ストリーミング評価を使用して、オーディエンスを注文イベントストリーミングとして（15分以内）保存](assets/send-order-event-to-hub-save-streaming-evaluation-rule.png)
 
 ## 宛先にアクティベート
 
@@ -52,7 +52,7 @@ ht-degree: 0%
 
 
 
-![注文オーディエンスの「宛先にアクティベート」をクリック ](assets/send-order-event-to-hub-click-activate-to-destination.png)
+![注文オーディエンスの「宛先にアクティベート」をクリック &#x200B;](assets/send-order-event-to-hub-click-activate-to-destination.png)
 
 ### 宛先
 
@@ -60,13 +60,13 @@ ht-degree: 0%
 
 
 
-![ ストリーミング DEP Webhookの宛先を選択](assets/send-order-event-to-hub-select-streaming-destination.png)
+![&#x200B; ストリーミング DEP Webhookの宛先を選択](assets/send-order-event-to-hub-select-streaming-destination.png)
 
 ### マッピング
 
 マッピングを単独のままにして、「次へ」をクリックします
 
-![ マッピングを変更せずに、「次へ」をクリックします](assets/send-order-event-to-hub-leave-mapping-click-next.png)
+![&#x200B; マッピングを変更せずに、「次へ」をクリックします](assets/send-order-event-to-hub-leave-mapping-click-next.png)
 
 「Finish」をクリックします
 
@@ -93,7 +93,7 @@ ht-degree: 0%
 1. 左側のパネルの&#x200B;**ソース**&#x200B;に移動し、上部のナビゲーションの&#x200B;**アカウント**&#x200B;をクリックします
 1. **dep: HTTP API \[raw]**&#x200B;を検索し、行を強調表示して、**ストリーミングエンドポイント**&#x200B;の値を後で参照できる場所にコピーして保存します
 
- アカウントを作成し、そのストリーミングエンドポイントをコピーします] （assets/send-order-event-to-hub-http-api-raw-streaming-endpoint.png &quot;dep: HTTP API \[raw]&quot;）
+ アカウントを作成し、そのストリーミングエンドポイントをコピーします&rbrack; （assets/send-order-event-to-hub-http-api-raw-streaming-endpoint.png &quot;dep: HTTP API \[raw]&quot;）
 
 ## データフローIDの検索
 
@@ -115,11 +115,11 @@ ht-degree: 0%
 
 最終的なAPI リクエストは、次のようになります
 
-> [!CAUTION]
+&#x200B;> [!CAUTION]
 >
 >まだ実行しないでください。
 
-![ ストリーミングエンドポイントとデータフローIDが入力された注文イベント APIの作成リクエストを完了しました](assets/send-order-event-to-hub-final-order-api-request.png)
+![&#x200B; ストリーミングエンドポイントとデータフローIDが入力された注文イベント APIの作成リクエストを完了しました](assets/send-order-event-to-hub-final-order-api-request.png)
 
 
 ## APIの実行

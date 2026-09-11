@@ -45,20 +45,20 @@ AJO Architectural Foundations ラボパックは、DEP CLIを使用してサン�
 ## 前提条件
 
 - **ライセンス使用権限。** Real-Time CDP（ストリーミングセグメンテーション付き）およびAdobe Journey Optimizer（オーケストレーションキャンペーン付き）を使用したIMS組織の管理者権限
-- **アクセス権。** [Developer Console セットアップ ](developer-console-setup.md)から作成したAPI資格情報を含む、ターゲットサンドボックスに対するすべての権限を持つExperience Platform ロール。
+- **アクセス権。** [Developer Console セットアップ &#x200B;](developer-console-setup.md)から作成したAPI資格情報を含む、ターゲットサンドボックスに対するすべての権限を持つExperience Platform ロール。
 - **Developer Console資格情報。** Adobe Experience Platform APIとAdobe Journey Optimizer APIの両方を含むプロジェクト。 まだ使用していない場合は、まず[Developer Consoleの設定](developer-console-setup.md)に従ってください
 - **サンドボックス。** 空です。タイプ `dev`で、デプロイメントを開始する前に少なくとも120分間「準備完了」状態です
 - **Node.js.** WindowsまたはMacの最新のLTS バージョン
 
 ## &#x200B;1. CLIのインストール
 
-1. [dep-cli リポジトリ ](https://github.com/adobe/dep-cli)を複製またはダウンロードします
+1. [dep-cli リポジトリ &#x200B;](https://github.com/adobe/dep-cli)を複製またはダウンロードします
 1. `dep-cli` ディレクトリから、`npm install`を実行します
 1. `npm start`でCLIを開始
 
 >[!NOTE]
 >
->上記のコマンドを実行する前に、Node.jsが必要です。 まだNode.jsがインストールされていない場合は、最初にwikiの[Node.js Setup](https://github.com/adobe/dep-cli/wiki/Nodejs-Setup) ページを参照してください。 スクリーンショットや既存のインストールの更新方法など、完全なインストールの詳細については、[ インストール ](https://github.com/adobe/dep-cli/wiki/Installation)wiki ページを参照してください
+>上記のコマンドを実行する前に、Node.jsが必要です。 まだNode.jsがインストールされていない場合は、最初にwikiの[Node.js Setup](https://github.com/adobe/dep-cli/wiki/Nodejs-Setup) ページを参照してください。 スクリーンショットや既存のインストールの更新方法など、完全なインストールの詳細については、[&#x200B; インストール &#x200B;](https://github.com/adobe/dep-cli/wiki/Installation)wiki ページを参照してください
 
 ## &#x200B;2. 環境ファイルの設定
 
@@ -75,7 +75,7 @@ CLIは、環境ファイルが指す任意のサンドボックスにデプロ�
 | `SCOPES` | Experience Platform APIとAdobe Journey Optimizer API スコープ <br />*（例：cjm.suppression\_service.client.delete、cjm.suppression\_service.client.all、openid、session、AdobeID、read\_organizations、additional\_info.projectedProductContext）*&#x200B;の両方を含める必要があります |
 | `SANDBOX_NAME` | ターゲットにするサンドボックスは空で、タイプ `dev`である必要があります |
 
-3. ファイルを保存して閉じる
+&#x200B;3. ファイルを保存して閉じる
 
 >[!NOTE]
 >
@@ -118,7 +118,6 @@ CLIは、環境ファイルが指す任意のサンドボックスにデプロ�
 >[!NOTE]
 >
 >手順4と5を個別に実行する代わりに、手順6を使用します。伝搬待機を処理すると、1回のパスで同じことを実行します。
-
 > [!NOTE]
 >
 >上記のすべての待機時間は、CLIによって自動的にチェックされます。 あまりに早い段階で実行すると、ブロックされ、待機する時間が示されます。

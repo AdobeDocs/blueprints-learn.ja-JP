@@ -15,7 +15,7 @@ ht-degree: 1%
 
 # デプロイメントの手順
 
-> [!NOTE]
+&#x200B;> [!NOTE]
 >
 >これは、ラボを自分のペースで進めている場合にのみ必要です。 ライブトレーニングコースやイベントを受講している場合は、サンドボックスが既に展開されています。
 
@@ -45,13 +45,13 @@ AEP Foundations ラボパックは、ラボ全体で使用するスキーマ、�
 
 ## &#x200B;1. CLIのインストール
 
-1. [dep-cli リポジトリ ](https://github.com/adobe/dep-cli)を複製またはダウンロードします
+1. [dep-cli リポジトリ &#x200B;](https://github.com/adobe/dep-cli)を複製またはダウンロードします
 1. `dep-cli` ディレクトリから、`npm install`を実行します
 1. `npm start`でCLIを開始
 
 >[!NOTE]
 >
->上記のコマンドを実行する前に、Node.jsが必要です。 まだNode.jsがインストールされていない場合は、最初にwikiの[Node.js Setup](https://github.com/adobe/dep-cli/wiki/Nodejs-Setup) ページを参照してください。 スクリーンショットや既存のインストールの更新方法など、完全なインストールの詳細については、[ インストール ](https://github.com/adobe/dep-cli/wiki/Installation)wiki ページを参照してください
+>上記のコマンドを実行する前に、Node.jsが必要です。 まだNode.jsがインストールされていない場合は、最初にwikiの[Node.js Setup](https://github.com/adobe/dep-cli/wiki/Nodejs-Setup) ページを参照してください。 スクリーンショットや既存のインストールの更新方法など、完全なインストールの詳細については、[&#x200B; インストール &#x200B;](https://github.com/adobe/dep-cli/wiki/Installation)wiki ページを参照してください
 
 ## &#x200B;2. 環境ファイルの設定
 
@@ -68,7 +68,7 @@ CLIは、環境ファイルが指す任意のサンドボックスにデプロ�
 | `SCOPES` | Experience Platform API スコープ（openid、session、AdobeID、read_organizations、additional_info.projectedProductContext）を含める必要があります |
 | `SANDBOX_NAME` | ターゲットにするサンドボックスは空で、タイプ `dev`である必要があります |
 
-3. ファイルを保存して閉じる
+&#x200B;3. ファイルを保存して閉じる
 
 >[!NOTE]
 >
@@ -90,7 +90,7 @@ CLIは、環境ファイルが指す任意のサンドボックスにデプロ�
 
 ステップ 1は実行に約2分かかり、ステップ 2は約6分、ステップ 3は独自の待ち時間のない迅速な検証です。 ステップ間の60分と15分のギャップは、AEPが2時間のタイムラインの大部分を占める、舞台裏でのデータ伝播を完了させるための時間です。
 
-> [!NOTE]
+&#x200B;> [!NOTE]
 >
 >CLIは、これらの待機時間を自動的にチェックします。 ステップを早く実行しすぎると、ブロックされ、残り時間が示されます。自分で時計を追跡する必要はありません。
 

@@ -37,17 +37,17 @@ ht-degree: 0%
 
 
 
-![ ステップ 2 – 顧客アカウント詳細フィールド グループ API リクエストの作成](assets/create-custom-field-groups-step-2-field-group-request.png " ステップ 2 – 顧客アカウント詳細フィールド グループの作成")
+![&#x200B; ステップ 2 – 顧客アカウント詳細フィールド グループ API リクエストの作成](assets/create-custom-field-groups-step-2-field-group-request.png " ステップ 2 – 顧客アカウント詳細フィールド グループの作成")
 
 
 
 実行する前に、リクエストの本文を確認します。 フィールドグループの構造セクションで説明されている必須フィールドは、次のように表示されます。
 
-![ リクエスト本文](assets/create-custom-field-groups-field-group-structure.png " フィールドグループ構造")に示すように、カスタムフィールドグループの必須フィールド
+![&#x200B; リクエスト本文](assets/create-custom-field-groups-field-group-structure.png " フィールドグループ構造")に示すように、カスタムフィールドグループの必須フィールド
 
 
 
-![ カスタムフィールド定義パスを参照するallOf プロパティ ](assets/create-custom-field-groups-field-group-structure-allof.png " フィールドグループ構造allOf")
+![&#x200B; カスタムフィールド定義パスを参照するallOf プロパティ &#x200B;](assets/create-custom-field-groups-field-group-structure-allof.png " フィールドグループ構造allOf")
 
 >[!NOTE]
 >
@@ -61,27 +61,27 @@ ht-degree: 0%
 
 
 
-![ シート計画ドット表記法をXDM JSON構造に変換](assets/create-custom-field-groups-plan-dot-notation-to-xdm-json.png "計画ドット表記法をXDM JSONに変換")
+![&#x200B; シート計画ドット表記法をXDM JSON構造に変換](assets/create-custom-field-groups-plan-dot-notation-to-xdm-json.png "計画ドット表記法をXDM JSONに変換")
 
 
 
-![ シートのアカウントと顧客IDのドット表記をXDMに変換](assets/create-custom-field-groups-account-customer-id-dot-notation-to-xdm.png " アカウントと顧客IDのドット表記をXDM")に変換
+![&#x200B; シートのアカウントと顧客IDのドット表記をXDMに変換](assets/create-custom-field-groups-account-customer-id-dot-notation-to-xdm.png " アカウントと顧客IDのドット表記をXDM")に変換
 
 
 
-2. 次の形式を使用して、フィールドグループの`title`と`description`を更新します：`Customer Account Details - Sandbox <your number here>`
+&#x200B;2. 次の形式を使用して、フィールドグループの`title`と`description`を更新します：`Customer Account Details - Sandbox <your number here>`
 
 
 
-![ カスタムフィールドグループに入力されたタイトルと説明の例](assets/create-custom-field-groups-field-group-title-description-example.png " フィールドグループのタイトルと説明の例")
+![&#x200B; カスタムフィールドグループに入力されたタイトルと説明の例](assets/create-custom-field-groups-field-group-title-description-example.png " フィールドグループのタイトルと説明の例")
 
 
 
-3. 「`Send`」ボタンをクリックして実行します。  以下のスクリーンショットのような応答が表示されるはずです。
+&#x200B;3. 「`Send`」ボタンをクリックして実行します。  以下のスクリーンショットのような応答が表示されるはずです。
 
-4. 新しく作成した顧客アカウントの詳細フィールドグループの`$id`値をコピーします。
+&#x200B;4. 新しく作成した顧客アカウントの詳細フィールドグループの`$id`値をコピーします。
 
-![ カスタムフィールドグループを作成した後のAPI応答が成功しました](assets/create-custom-field-groups-step-2-create-custom-field-group-success.png "手順2 - カスタムフィールドグループの成功の作成")
+![&#x200B; カスタムフィールドグループを作成した後のAPI応答が成功しました](assets/create-custom-field-groups-step-2-create-custom-field-group-success.png "手順2 - カスタムフィールドグループの成功の作成")
 
 >[!WARNING]
 >

@@ -17,7 +17,7 @@ ht-degree: 0%
 
 1. `XDM Schema Lab -> Create Identity Descriptors` フォルダーの`Step 1 - Create Primary Identity for Customer Account Schema` API リクエストをクリックします
 
-![手順1 – お客様のアカウント スキーマのプライマリ IDの作成Postman リクエスト ](assets/create-primary-identity-step-1-postman-request.jpeg "手順1 – お客様のアカウント スキーマのプライマリ IDの作成")
+![手順1 – お客様のアカウント スキーマのプライマリ IDの作成Postman リクエスト &#x200B;](assets/create-primary-identity-step-1-postman-request.jpeg "手順1 – お客様のアカウント スキーマのプライマリ IDの作成")
 
 >[!CAUTION]
 >
@@ -25,7 +25,7 @@ ht-degree: 0%
 
 
 
-1. [ スキーマの作成](../build-schema/create-schema.md) ラボステップから保存した`$id`を使用して、リクエストの本文の`xdm:sourceSchema`値を更新します
+1. [&#x200B; スキーマの作成](../build-schema/create-schema.md) ラボステップから保存した`$id`を使用して、リクエストの本文の`xdm:sourceSchema`値を更新します
 
 1. リクエスト本文の`xdm:isPrimary`値を`true`に更新します
 
@@ -55,6 +55,6 @@ ht-degree: 0%
 
 ![201 プライマリ ID記述子の作成後に応答を作成しました](assets/create-primary-identity-201-created-response.png " プライマリ ID記述子の作成に成功しました")
 
-> [!TIP]
+&#x200B;> [!TIP]
 >
 >おめでとうございます。  スキーマでプライマリ ID記述子を作成したばかりです

@@ -23,7 +23,7 @@ ht-degree: 1%
 
 設定された&#x200B;**ビルドオーディエンス**&#x200B;を含むキャンバスが表示されます。 フローの最後にある&#x200B;**+**&#x200B;をクリックし、フロー制御セクションから&#x200B;**Fork** アクティビティを追加します
 
-![ カンバスにフォーク フロー制御アクティビティを追加](assets/add-fork-activity-add-fork-flow-control.png)
+![&#x200B; カンバスにフォーク フロー制御アクティビティを追加](assets/add-fork-activity-add-fork-flow-control.png)
 
 >[!NOTE]
 >

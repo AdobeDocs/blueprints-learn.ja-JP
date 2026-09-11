@@ -33,7 +33,7 @@ ht-degree: 0%
 >
 >実際には、**Backfill** オプションは、すべてのファイルの1回限りのバックフィルを行い、その後の実行は新しいファイルを取ります。
 
-![頻度、間隔、およびバックフィルのオプションを設定したデータフロー実行のスケジュール ](assets/schedule-dataflow-scheduling-dataflow-run.png " データフロー実行のスケジュール ")
+![頻度、間隔、およびバックフィルのオプションを設定したデータフロー実行のスケジュール &#x200B;](assets/schedule-dataflow-scheduling-dataflow-run.png " データフロー実行のスケジュール ")
 
 データフローを確認し、**完了をクリックします。**
 
@@ -47,7 +47,7 @@ ht-degree: 0%
 
 ![実行なしステータスの新しいデータフローを示すデータフロー画面](assets/schedule-dataflow-dataflows-screen-no-runs-status.png " データフローソース画面")
 
-> [!NOTE]
+&#x200B;> [!NOTE]
 >
 >バックエンドが更新をUIにプッシュしないため、ステータスの更新を確認するには、ページを継続的に更新する必要があります。
 

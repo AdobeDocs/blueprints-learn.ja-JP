@@ -21,7 +21,7 @@ ht-degree: 0%
 1. Postmanの右上隅に環境ドロップダウンボックスが表示されます。  `AEP Bootcamp`環境を選択してください
 1. `Send` ボタンをクリックして呼び出しを実行します
 
-送信前にサンドボックス呼び出しを取得するための![Postman リクエストペイン ](assets/sandbox-access-check-sandbox-request.png " サンドボックス API呼び出しを取得")
+送信前にサンドボックス呼び出しを取得するための![Postman リクエストペイン &#x200B;](assets/sandbox-access-check-sandbox-request.png " サンドボックス API呼び出しを取得")
 
 
 

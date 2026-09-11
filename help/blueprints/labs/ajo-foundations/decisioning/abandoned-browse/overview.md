@@ -21,7 +21,7 @@ ht-degree: 0%
 >
 >以下のラボは、このラボを開始する前に完了している必要があります
 
-- **データストア – アクション中のプロファイル** **—>** [ データストリームを作成](../../data-stores/profile-in-action/create-datastream.md)
+- **データストア – アクション中のプロファイル** **—>** [&#x200B; データストリームを作成](../../data-stores/profile-in-action/create-datastream.md)
 
 これらのラボを完了していない場合は、続行する前に今すぐそれを行ってください。
 

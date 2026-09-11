@@ -25,7 +25,7 @@ ht-degree: 0%
    - sms\_optIn
 1. 「検証」ボタンをクリックして、マッピングを再検証します
 
-![ フィールドを削除した後にマッピングを再検証するために使用される「検証」ボタン ](assets/fix-passthrough-mappings-re-validate-mappings-using-validate-button.png "検証ボタンを使用してマッピングを再検証")
+![&#x200B; フィールドを削除した後にマッピングを再検証するために使用される「検証」ボタン &#x200B;](assets/fix-passthrough-mappings-re-validate-mappings-using-validate-button.png "検証ボタンを使用してマッピングを再検証")
 
 >[!NOTE]
 >
@@ -78,11 +78,11 @@ AIやマシンラーニングによるレコメンデーションが有効であ
 
 
 
-![ マッピングリストを操作して各マッピングエラーを修正する](assets/fix-passthrough-mappings-work-through-mapping-errors.png " マッピングとマッピングエラーの修正を行う")
+![&#x200B; マッピングリストを操作して各マッピングエラーを修正する](assets/fix-passthrough-mappings-work-through-mapping-errors.png " マッピングとマッピングエラーの修正を行う")
 
 
 
-![ パススルーマッピングを修正するための正しいフィールドを選択するためのターゲットスキーマパネル ](assets/fix-passthrough-mappings-choose-correct-target-field.png "適切なターゲットフィールドを選択し、パススルー要件に一致することを確認します")
+![&#x200B; パススルーマッピングを修正するための正しいフィールドを選択するためのターゲットスキーマパネル &#x200B;](assets/fix-passthrough-mappings-choose-correct-target-field.png "適切なターゲットフィールドを選択し、パススルー要件に一致することを確認します")
 
 >[!WARNING]
 >

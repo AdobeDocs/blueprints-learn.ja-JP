@@ -26,7 +26,7 @@ XDMの一部であるすべてのスキーマは、同じ方法で構成され�
 
 このラボでは、以前に入力したマッピングシートを使用して、Connection 5G顧客アカウントスキーマを構築します。 ラボのこの部分を完了すると、次のようなスキーマが表示されます。
 
-![ クラスとフィールドグループを組み合わせた接続5G顧客アカウントスキーマを完了しました](assets/overview-connection-5g-customer-account-schema.png "接続5G – 顧客アカウントスキーマ ")
+![&#x200B; クラスとフィールドグループを組み合わせた接続5G顧客アカウントスキーマを完了しました](assets/overview-connection-5g-customer-account-schema.png "接続5G – 顧客アカウントスキーマ ")
 
 
 

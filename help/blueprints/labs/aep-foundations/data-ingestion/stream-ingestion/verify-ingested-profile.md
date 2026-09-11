@@ -42,7 +42,7 @@ Adobe Experience Platform内でストリーミングデータを検証するに�
 
 あなたのプロファイルを見て、あなたがストリーミングしたものと一致することを検証してください。 すごいですね！
 
-![ ストリーミングされた顧客アカウントレコードに一致するプロファイル詳細ビュー](assets/verify-ingested-profile-profile-detail-view.png)
+![&#x200B; ストリーミングされた顧客アカウントレコードに一致するプロファイル詳細ビュー](assets/verify-ingested-profile-profile-detail-view.png)
 
 >[!NOTE]
 >

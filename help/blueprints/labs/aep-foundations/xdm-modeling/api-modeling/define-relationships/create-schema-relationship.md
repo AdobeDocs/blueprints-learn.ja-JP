@@ -21,13 +21,13 @@ ht-degree: 0%
 >
 >リクエストを実行しないでください…まだ
 
-![手順2 - API リクエストを計画する関係記述子顧客アカウント ](assets/create-schema-relationship-step-2-descriptor-request.png "手順2 - プランする関係記述子顧客アカウント ")
+![手順2 - API リクエストを計画する関係記述子顧客アカウント &#x200B;](assets/create-schema-relationship-step-2-descriptor-request.png "手順2 - プランする関係記述子顧客アカウント ")
 
 
 
-2. API呼び出しの本文で次のプロパティを更新します。
+&#x200B;2. API呼び出しの本文で次のプロパティを更新します。
 
-- `xdm:sourceSchema` プロパティの値を、[ スキーマの作成](../build-schema/create-schema.md) ラボステップから保存した顧客アカウントスキーマの`$id`に設定します
+- `xdm:sourceSchema` プロパティの値を、[&#x200B; スキーマの作成](../build-schema/create-schema.md) ラボステップから保存した顧客アカウントスキーマの`$id`に設定します
 - `xdm:sourceProperty`の値を、顧客アカウントスキーマの`planID` フィールドのパスに設定します。
 - `xdm:destinationSchema` プロパティの値を、最初の手順で保存した`dep: Lookup Plan` スキーマの`$id`に設定します
 
@@ -58,9 +58,9 @@ ht-degree: 0%
 
 
 
-3. `Save` ボタンを使用し続ける前に、リクエストを保存してください
+&#x200B;3. `Save` ボタンを使用し続ける前に、リクエストを保存してください
 
-4. `Send` ボタンをクリックしてAPIを実行します
+&#x200B;4. `Send` ボタンをクリックしてAPIを実行します
 
 次のような`201 Created`応答が表示されます
 

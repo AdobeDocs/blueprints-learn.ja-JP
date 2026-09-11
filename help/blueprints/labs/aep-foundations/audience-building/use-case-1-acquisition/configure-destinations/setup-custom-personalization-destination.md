@@ -15,7 +15,7 @@ ht-degree: 0%
 
 # カスタム Personalizationの宛先の設定
 
-[ カスタム Personalization Destination](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/personalization/custom-personalization)を使用すると、Edgeでオーディエンスを利用できるようになります。これは、通常はNetwork Server APIを使用して、パーソナライズに使用します。
+[&#x200B; カスタム Personalization Destination](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/personalization/custom-personalization)を使用すると、Edgeでオーディエンスを利用できるようになります。これは、通常はNetwork Server APIを使用して、パーソナライズに使用します。
 
 このラボでは、プロファイル属性をEdgeに送信できるように、カスタム Personalizationの宛先を設定します。
 
@@ -32,7 +32,7 @@ ht-degree: 0%
 1. 次に、**Personalization**&#x200B;のカテゴリを選択します
 1. 画面の中央に、**属性を持つカスタム Personalization**&#x200B;というタイトルの宛先が表示されます。 そのカードの「**設定**」ボタンをクリックします。
 
-![ カスタム Personalizationの宛先カタログを参照](assets/setup-custom-personalization-destination-browse-destination-catalog.png " カスタム Personalizationの宛先カタログを参照")
+![&#x200B; カスタム Personalizationの宛先カタログを参照](assets/setup-custom-personalization-destination-browse-destination-catalog.png " カスタム Personalizationの宛先カタログを参照")
 
 
 
@@ -67,7 +67,7 @@ ht-degree: 0%
 
 **オンサイト Personalization**&#x200B;を選択し、**作成** ボタンをクリックします
 
-![ ガバナンスポリシーの選択](assets/setup-custom-personalization-destination-select-governance-policy.png " ガバナンスポリシーの選択")
+![&#x200B; ガバナンスポリシーの選択](assets/setup-custom-personalization-destination-select-governance-policy.png " ガバナンスポリシーの選択")
 
 >[!NOTE]
 >
@@ -105,7 +105,7 @@ ht-degree: 0%
 | ---------------------- | ------------ |
 | \_tenantName.plan.name | プラン名 |
 
-> [!NOTE]
+&#x200B;> [!NOTE]
 >
 >**\_tenantName**&#x200B;をテナント名に置き換えることを忘れないでください
 
@@ -132,4 +132,4 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->これは、[自動適用](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/enforcement/auto-enforcement)が[ データ使用ポリシー](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/policies/overview)と照合するポイントです。 作成したルールでマーケティングアクションを確認し、エラーを発生させます。
+>これは、[自動適用](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/enforcement/auto-enforcement)が[&#x200B; データ使用ポリシー](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/policies/overview)と照合するポイントです。 作成したルールでマーケティングアクションを確認し、エラーを発生させます。

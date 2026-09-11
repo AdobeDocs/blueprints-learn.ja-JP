@@ -21,11 +21,11 @@ ht-degree: 0%
 >
 >リクエストを実行しないでください…まだ
 
-![ ステップ 2 - Customer Account Schema Postman リクエストの電子メールアドレス IDの作成](assets/create-other-identities-step-2-postman-request.jpeg " ステップ 2 – 電子メールアドレス ID記述子の作成")
+![&#x200B; ステップ 2 - Customer Account Schema Postman リクエストの電子メールアドレス IDの作成](assets/create-other-identities-step-2-postman-request.jpeg " ステップ 2 – 電子メールアドレス ID記述子の作成")
 
 
 
-1. [ スキーマの作成](../build-schema/create-schema.md) ラボステップから保存した`$id`を使用して、リクエストの本文の`xdm:sourceSchema`値を更新します
+1. [&#x200B; スキーマの作成](../build-schema/create-schema.md) ラボステップから保存した`$id`を使用して、リクエストの本文の`xdm:sourceSchema`値を更新します
 
 1. リクエスト本文の`xdm:isPrimary`値を`false`に更新します
 

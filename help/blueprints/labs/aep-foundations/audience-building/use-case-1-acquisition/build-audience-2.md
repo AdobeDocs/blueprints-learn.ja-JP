@@ -53,7 +53,7 @@ IPhone 14のアクティブな行を持たないすべてのプロファイル�
 1. オーディエンスを「*様はiPhone 14*&#x200B;を所有しています」として保存
    - 上記のPixel 7と同じ手順を実行します（時間がある場合）。
 
-![ オーディエンスを「iPhone 14を所有」として保存します。](assets/build-audience-2-save-audience-as-owns-iphone-14.png)
+![&#x200B; オーディエンスを「iPhone 14を所有」として保存します。](assets/build-audience-2-save-audience-as-owns-iphone-14.png)
 
 >[!TIP]
 >
@@ -98,15 +98,15 @@ IPhone 14のアクティブな行を持たないすべてのプロファイル�
 
 2. 新しいオーディエンスを作成します。 「Owns iPhone 14 Audience Batch」オーディエンスをカンバスに追加し、「Convert to Rules」をクリックします。
 
-![Owns iPhone 14 バッチオーディエンスをキャンバスに追加し、「ルールに変換」をクリック ](assets/build-audience-2-audience-to-the-canvas-and-click-convert-to-rules.png)
+![Owns iPhone 14 バッチオーディエンスをキャンバスに追加し、「ルールに変換」をクリック &#x200B;](assets/build-audience-2-audience-to-the-canvas-and-click-convert-to-rules.png)
 
-![ キャンバス上のルールに変換されたオーディエンス ](assets/build-audience-2-audience-to-the-canvas-and-click-convert-to-rules-2.png)
+![&#x200B; キャンバス上のルールに変換されたオーディエンス &#x200B;](assets/build-audience-2-audience-to-the-canvas-and-click-convert-to-rules-2.png)
 
 
 
-3. 右下隅の「説明」、「名前」、「評価方法」を「ストリーミング」に更新し、評価方法の横にあるフォルダーアイコンをクリックします。 これを確認する必要があります。
+&#x200B;3. 右下隅の「説明」、「名前」、「評価方法」を「ストリーミング」に更新し、評価方法の横にあるフォルダーアイコンをクリックします。 これを確認する必要があります。
 
-![ フォルダーアイコンをクリックした後、評価方法がストリーミングに設定されました](assets/build-audience-2-evaluation-method-streaming-folder-icon.png)
+![&#x200B; フォルダーアイコンをクリックした後、評価方法がストリーミングに設定されました](assets/build-audience-2-evaluation-method-streaming-folder-icon.png)
 
 
 
@@ -118,13 +118,13 @@ IPhone 14のアクティブな行を持たないすべてのプロファイル�
 >
 >パスを見て、どこかに「プロパティ」がある場合は、これを示すことができます
 >
->![ プロパティを含むパスにより、評価メソッドがバッチ ](assets/build-audience-2-path-contains-properties-forces-batch.png)に強制的に渡されます
+>![&#x200B; プロパティを含むパスにより、評価メソッドがバッチ &#x200B;](assets/build-audience-2-path-contains-properties-forces-batch.png)に強制的に渡されます
 
 
 
 
 
-4. 製品名の既存の値を置き換えて、XDM個人プロファイルスキーマから取得します
+&#x200B;4. 製品名の既存の値を置き換えて、XDM個人プロファイルスキーマから取得します
 
 次のパスを置き換えます。
 
@@ -140,26 +140,26 @@ IPhone 14のアクティブな行を持たないすべてのプロファイル�
 
 
 
-5. 「評価方法」を「ストリーミング」に変更し、フォルダーアイコンをクリックします
+&#x200B;5. 「評価方法」を「ストリーミング」に変更し、フォルダーアイコンをクリックします
 
-![評価方法をストリーミングに変更し、フォルダーアイコン ](assets/build-audience-2-change-evaluation-method-to-streaming.png)をクリックします
+![評価方法をストリーミングに変更し、フォルダーアイコン &#x200B;](assets/build-audience-2-change-evaluation-method-to-streaming.png)をクリックします
 
 
 
-6. 新しいストリーミング対象オーディエンスの場合は、説明を入力します。
+&#x200B;6. 新しいストリーミング対象オーディエンスの場合は、説明を入力します。
 
 - オーディエンスを「*様はiPhone 14*」オーディエンスとして保存します。
 - 青いボタン **Activate Audience**&#x200B;をDestinationにクリックします
 
-![ ストリーミングの対象となるオーディエンスの宛先に対するオーディエンスのアクティブ化をクリック ](assets/build-audience-2-activate-audience-to-destination.png)
+![&#x200B; ストリーミングの対象となるオーディエンスの宛先に対するオーディエンスのアクティブ化をクリック &#x200B;](assets/build-audience-2-activate-audience-to-destination.png)
 
 
 
-7. **Streaming DEP Webhook**&#x200B;宛先を選択し、**Next**&#x200B;をクリックします
+&#x200B;7. **Streaming DEP Webhook**&#x200B;宛先を選択し、**Next**&#x200B;をクリックします
 
-8. 「**次へ**」と「**終了**」をクリックします
+&#x200B;8. 「**次へ**」と「**終了**」をクリックします
 
-> [!NOTE]
+&#x200B;> [!NOTE]
 >
 >バッチとストリーミングまたはEdgeを選択する理由：
 >

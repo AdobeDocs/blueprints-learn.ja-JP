@@ -26,7 +26,7 @@ ht-degree: 0%
    - **ID値** -> `henry.creel@emailsim.io`
 2. 「**イベント**」タブをクリックします。 `orders.shipped` イベントを探します。
 
-プロファイルの「イベント」タブに表示される![orders.shipped イベント ](assets/validate-event-ingested-orders-shipped-event.png)
+プロファイルの「イベント」タブに表示される![orders.shipped イベント &#x200B;](assets/validate-event-ingested-orders-shipped-event.png)
 
 >[!WARNING]
 >
@@ -39,11 +39,11 @@ ht-degree: 0%
 
 
 
-3. プロファイルが&#x200B;**オーディエンス**&#x200B;に適格であることを検証します（数分かかる場合があります）。
+&#x200B;3. プロファイルが&#x200B;**オーディエンス**&#x200B;に適格であることを検証します（数分かかる場合があります）。
    - Any Event Edge（15分以内）
    - 任意のイベントストリーミング（15分以内）
 
-![任意のイベント Edgeおよび任意のイベントストリーミングオーディエンスに適格なプロファイル ](assets/validate-event-ingested-profile-qualified-audiences.png)
+![任意のイベント Edgeおよび任意のイベントストリーミングオーディエンスに適格なプロファイル &#x200B;](assets/validate-event-ingested-profile-qualified-audiences.png)
 
 
 
@@ -56,8 +56,8 @@ ht-degree: 0%
 
 ![Postman リクエスト本文でメールアドレスが変更されました](assets/validate-event-ingested-change-email-in-postman-body.png)
 
-3. **保存**&#x200B;して、**送信**&#x200B;をクリックします。
-4. 手順1～3に戻り、電子メールアドレスを使用して検証します。
+&#x200B;3. **保存**&#x200B;して、**送信**&#x200B;をクリックします。
+&#x200B;4. 手順1～3に戻り、電子メールアドレスを使用して検証します。
 
 ## まとめ
 

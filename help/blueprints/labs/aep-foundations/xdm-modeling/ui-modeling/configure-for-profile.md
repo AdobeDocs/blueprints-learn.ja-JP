@@ -23,7 +23,7 @@ Paper Connection 5G ERDのXDMを見ると、顧客アカウントスキーマに
 
 
 
-![Paper顧客アカウントスキーマ上の5G XDMと関連する参照テーブル ](assets/configure-for-profile-connection-5g-erd-customer-account-schema.jpeg "Paper顧客アカウントスキーマ上の5G XDMと関連する参照テーブル ")への接続
+![Paper顧客アカウントスキーマ上の5G XDMと関連する参照テーブル &#x200B;](assets/configure-for-profile-connection-5g-erd-customer-account-schema.jpeg "Paper顧客アカウントスキーマ上の5G XDMと関連する参照テーブル ")への接続
 
 
 ## プライマリ ID フィールドをマーク
@@ -36,13 +36,13 @@ Paper Connection 5G ERDのXDMを見ると、顧客アカウントスキーマに
 1. ドロップダウンから&#x200B;**customerID**&#x200B;名前空間を選択します
 1. 完了したら、右側のパネルの「**適用**」ボタンをクリックし、変更を&#x200B;**保存**&#x200B;します。
 
-![customerID フィールドをプライマリ IDとしてマーク ](assets/configure-for-profile-mark-customerid-as-primary-identity.png "プライマリ IDとして_dxp.customerIDをマーク ")
+![customerID フィールドをプライマリ IDとしてマーク &#x200B;](assets/configure-for-profile-mark-customerid-as-primary-identity.png "プライマリ IDとして_dxp.customerIDをマーク ")
 
 >[!NOTE]
 >
 >以下のように「適用」をクリックした後、フィールドにサムプリントが表示されていることを検証します
 >
->IDとしてマークした後、フィールドに表示される![ サムプリントアイコン ](assets/configure-for-profile-identity-thumbprint-icon.png)
+>IDとしてマークした後、フィールドに表示される![&#x200B; サムプリントアイコン &#x200B;](assets/configure-for-profile-identity-thumbprint-icon.png)
 >
 >
 
@@ -52,7 +52,7 @@ Paper Connection 5G ERDのXDMを見ると、顧客アカウントスキーマに
 >
 >
 >
->プライマリ ID フィールドと非プライマリ ID フィールドを示す左側のパネルの![ID セクション ](assets/configure-for-profile-identities-list-in-left-rail.png)
+>プライマリ ID フィールドと非プライマリ ID フィールドを示す左側のパネルの![ID セクション &#x200B;](assets/configure-for-profile-identities-list-in-left-rail.png)
 
 
 
@@ -65,7 +65,7 @@ Paper Connection 5G ERDのXDMを見ると、顧客アカウントスキーマに
 1. ドロップダウンから&#x200B;**電子メール** ID名前空間を選択します
 1. **変更を適用して**&#x200B;保存
 
-![personalEmail.address フィールドをIDとしてマーク ](assets/configure-for-profile-mark-personal-email-as-identity.png "personalEmail.addressをIDとしてマーク ")
+![personalEmail.address フィールドをIDとしてマーク &#x200B;](assets/configure-for-profile-mark-personal-email-as-identity.png "personalEmail.addressをIDとしてマーク ")
 
 >[!NOTE]
 >
@@ -82,7 +82,7 @@ ERDに概説されている顧客アカウントスキーマにプランスキ�
 1. 以下に示すように、プランオブジェクト内の&#x200B;**planID** フィールドを選択します
 1. 右側のパネルで「**関係を追加**」アイコンをクリックします
 
-![planID フィールドで選択した関係を追加アイコン ](assets/configure-for-profile-add-relationship-to-planid-field.png "planID フィールドに関係を追加")
+![planID フィールドで選択した関係を追加アイコン &#x200B;](assets/configure-for-profile-add-relationship-to-planid-field.png "planID フィールドに関係を追加")
 
 
 
@@ -92,7 +92,7 @@ ERDに概説されている顧客アカウントスキーマにプランスキ�
 1. 「参照スキーマ」選択ボックスで、**dep: Plan \[Lookup]**&#x200B;という名前のスキーマを選択します（これは事前に作成されたものです）
 1. 「**適用**」と「**保存**」をクリック
 
-![Depとの1対1の関係の定義：プラン [参照] スキーマ ](assets/configure-for-profile-define-one-to-one-relationship.png)
+![Depとの1対1の関係の定義：プラン [参照] スキーマ &#x200B;](assets/configure-for-profile-define-one-to-one-relationship.png)
 
 
 
@@ -116,9 +116,9 @@ ERDに概説されている顧客アカウントスキーマにプランスキ�
 1. 表示されるモーダルで、「**有効化**」ボタンをクリックします
 1. 完了したら、スキーマを&#x200B;**保存**&#x200B;することを忘れないでください。
 
-顧客アカウントスキーマの右側のパネルで![ プロファイルトグルが有効になっています](assets/configure-for-profile-schema-profile-toggle.png " スキーマプロファイルトグル ")
+顧客アカウントスキーマの右側のパネルで![&#x200B; プロファイルトグルが有効になっています](assets/configure-for-profile-schema-profile-toggle.png " スキーマプロファイルトグル ")
 
-![ プロファイルスイッチを切り替えた後に表示されるモーダルの「有効にする」ボタン ](assets/configure-for-profile-enable-profile-modal.png)
+![&#x200B; プロファイルスイッチを切り替えた後に表示されるモーダルの「有効にする」ボタン &#x200B;](assets/configure-for-profile-enable-profile-modal.png)
 
 >[!TIP]
 >
@@ -141,7 +141,6 @@ XDM Individual Profile クラスを参照し、XDM ExperienceEventやPlan クラ
 >[!NOTE]
 >
 >表示されるスキーマは、サンドボックス内のすべてのプロファイル対応スキーマの集約された結合ビューです。 階層XDM構造内の類似したフィールドは結合されますが、名前や階層が異なるフィールドは全体的なビューに追加されます。
-
 > [!NOTE]
 >
 >XDM Individual Profile ベースのクラスのみが、同様の名前のフィールド間で結合を実行します。

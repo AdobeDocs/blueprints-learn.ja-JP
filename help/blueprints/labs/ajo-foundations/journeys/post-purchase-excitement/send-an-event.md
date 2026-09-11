@@ -51,11 +51,11 @@ API リクエストを作成するには、API リクエストの本文に次の
 1. **dep：注文（ストリーム）**&#x200B;のレコードを検索するには、データフローリンクをクリックします
 1. 右側のパネルのコピーで、**データフローID**&#x200B;値を後で参照できる場所に保存します
 
-> [!WARNING]
+&#x200B;> [!WARNING]
 >
 >行の空のスペースをクリックします。  青いリンクをクリックしないでください。
 
-右側のパネルに表示される![ データフローID値](assets/send-an-event-dataflow-id-in-right-rail.png "Web データフローとデータセット ID")
+右側のパネルに表示される![&#x200B; データフローID値](assets/send-an-event-dataflow-id-in-right-rail.png "Web データフローとデータセット ID")
 
 
 
@@ -68,7 +68,7 @@ API リクエストを作成するには、API リクエストの本文に次の
 - **フォルダー** —> `Profile & Journey Labs`
 - **API リクエスト** —> `Ship Order Event`
 
-![Postman コレクションにあるShip Order Event リクエスト ](assets/send-an-event-open-ship-order-event-postman.png)
+![Postman コレクションにあるShip Order Event リクエスト &#x200B;](assets/send-an-event-open-ship-order-event-postman.png)
 
 
 
@@ -80,11 +80,11 @@ API リクエストを作成するには、API リクエストの本文に次の
    - **緑** —> `Dataflow ID`
      - 値はGUIDのように見えます（httpで始まりません）
 
-> [!CAUTION]
+&#x200B;> [!CAUTION]
 >
 >まだ実行しないでください。
 
-![ ストリーミングエンドポイント URLとデータフローIDをPostman ヘッダーに貼り付けました](assets/send-an-event-paste-headers-in-postman.png)
+![&#x200B; ストリーミングエンドポイント URLとデータフローIDをPostman ヘッダーに貼り付けました](assets/send-an-event-paste-headers-in-postman.png)
 
 ## APIの実行
 

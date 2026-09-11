@@ -15,7 +15,7 @@ ht-degree: 0%
 
 # 開発者コンソールの設定
 
-> [!NOTE]
+&#x200B;> [!NOTE]
 >
 >これは、ラボを自分のペースで進めている場合にのみ必要です。 ライブトレーニングコースやイベントを受講している場合は、サンドボックスが既に展開されています。
 
@@ -23,7 +23,7 @@ DEP CLIは、Adobe Developer Console プロジェクトのOAuth サーバー間�
 
 >[!NOTE]
 >
->Adobe Experience Platformの資格情報（および必要に応じてAdobe Journey Optimizer）を含むDeveloper Console プロジェクトが既にある場合は、このセクションをスキップして、[ デプロイメント手順](deployment-instructions.md)に進みます。
+>Adobe Experience Platformの資格情報（および必要に応じてAdobe Journey Optimizer）を含むDeveloper Console プロジェクトが既にある場合は、このセクションをスキップして、[&#x200B; デプロイメント手順](deployment-instructions.md)に進みます。
 
 ## 前提条件
 

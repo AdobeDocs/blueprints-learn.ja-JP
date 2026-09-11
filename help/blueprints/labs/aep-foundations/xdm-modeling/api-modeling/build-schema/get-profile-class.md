@@ -34,7 +34,7 @@ API リクエストを実行した後、次の手順を実行して、XDM Indivi
 1. 応答で`XDM Individual Profile` クラスを検索します
 1. `XDM Individual Profile` クラスの`$id`をコピーし、後で参照できる場所に保存します。
 
-![API応答にあるXDM個人プロファイルクラス ](assets/get-profile-class-xdm-individual-profile-class.png "XDM個人プロファイルクラス ")
+![API応答にあるXDM個人プロファイルクラス &#x200B;](assets/get-profile-class-xdm-individual-profile-class.png "XDM個人プロファイルクラス ")
 
 >[!WARNING]
 >

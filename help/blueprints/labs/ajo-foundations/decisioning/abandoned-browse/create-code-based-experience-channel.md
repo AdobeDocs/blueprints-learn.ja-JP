@@ -45,7 +45,7 @@ ht-degree: 0%
 
 ![JSON形式が選択されたコードベースのエクスペリエンスチャネル設定を完了しました](assets/create-code-based-experience-channel-completed-config.png)
 
-9. すべての問題が解決したら、右上隅にある青い&#x200B;**送信** ボタンをクリックします。
+&#x200B;9. すべての問題が解決したら、右上隅にある青い&#x200B;**送信** ボタンをクリックします。
 
 >[!TIP]
 >

@@ -56,7 +56,7 @@ AdobeがAPIをどのように保護し、それらを使用するために必要
 1. Postmanの右上隅に、環境ドロップダウンが表示されます。 ドロップダウンから`AEP Bootcamp`環境を選択します
 1. 次に、「送信」ボタンをクリックして呼び出しを実行します
 
-![IMS Authenticate呼び出しを送信してアクセストークンを生成した後のPostman リクエスト ](assets/access-token-execute-ims-authenticate-request.png)
+![IMS Authenticate呼び出しを送信してアクセストークンを生成した後のPostman リクエスト &#x200B;](assets/access-token-execute-ims-authenticate-request.png)
 
 レスポンスの成功は次のようになります。
 

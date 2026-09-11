@@ -46,19 +46,19 @@ IPhone 14の製品ページを訪問したオーディエンスを構築する
 
 
 
-2. 説明を入力してストリーミングにします。
+&#x200B;2. 説明を入力してストリーミングにします。
 
-3. 配置されたイベントの上で、「Any time」を「Today」に変更します
+&#x200B;3. 配置されたイベントの上で、「Any time」を「Today」に変更します
 
-![ イベント時間フィルターを「任意の時間」から「今日」に変更](assets/build-audience-1-change-any-time-to-today.png)
+![&#x200B; イベント時間フィルターを「任意の時間」から「今日」に変更](assets/build-audience-1-change-any-time-to-today.png)
 
-4. このオーディエンスを「*任意のページを訪問*」として保存
+&#x200B;4. このオーディエンスを「*任意のページを訪問*」として保存
 
-5. 青いボタン **Activate Audience**&#x200B;をDestinationにクリックします
+&#x200B;5. 青いボタン **Activate Audience**&#x200B;をDestinationにクリックします
 
-6. 「**Streaming DEP Webhook** Destination」を選択し、「Next」をクリックします
+&#x200B;6. 「**Streaming DEP Webhook** Destination」を選択し、「Next」をクリックします
 
-7. 「次へ」をクリックして終了
+&#x200B;7. 「次へ」をクリックして終了
 
 ## オーディエンスの作成（iPhone 14 ページを訪問したが、所有/注文していない）
 
@@ -68,7 +68,7 @@ IPhone 14の製品ページを訪問したオーディエンスを構築する
 
 
 
-2. 「ページ名」に移動し、「ページ名」フィールドをイベントに追加して、フィルタリングできるようにします。
+&#x200B;2. 「ページ名」に移動し、「ページ名」フィールドをイベントに追加して、フィルタリングできるようにします。
 
 - XDM ExperienceEvent —> Web —> Web ページの詳細 – >名前
 
@@ -76,11 +76,11 @@ IPhone 14の製品ページを訪問したオーディエンスを構築する
 
 
 
-3. Addに「iPhone 14」が含まれる
+&#x200B;3. Addに「iPhone 14」が含まれる
 
 ![を追加すると、「iPhone 14」の条件が含まれます](assets/build-audience-3-add-contains-iphone-14.png)
 
-> [!TIP]
+&#x200B;> [!TIP]
 >
 >**「ページ」の検索中**
 >
@@ -94,13 +94,13 @@ IPhone 14の製品ページを訪問したオーディエンスを構築する
 >
 >検索で説明が検索されない
 >
->![ ページを検索しても、ページ名フィールドが表示されません](assets/build-audience-3-searching-for-page-does-not-find-field.png)
+>![&#x200B; ページを検索しても、ページ名フィールドが表示されません](assets/build-audience-3-searching-for-page-does-not-find-field.png)
 
 
 
-4. 配置されたイベントの上で、「Any time」を「Today」に変更します
+&#x200B;4. 配置されたイベントの上で、「Any time」を「Today」に変更します
 
-![ イベント時間フィルターを「任意の時間」から「今日」に変更](assets/build-audience-1-change-any-time-to-today.png)
+![&#x200B; イベント時間フィルターを「任意の時間」から「今日」に変更](assets/build-audience-1-change-any-time-to-today.png)
 
 >[!NOTE]
 >
@@ -108,19 +108,19 @@ IPhone 14の製品ページを訪問したオーディエンスを構築する
 
 
 
-5. これがストリーミングであることを検証し、説明を入力します。
+&#x200B;5. これがストリーミングであることを検証し、説明を入力します。
 
-6. オーディエンスを「*訪問済みiPhone 14 Page*」として保存
+&#x200B;6. オーディエンスを「*訪問済みiPhone 14 Page*」として保存
 
-![ オーディエンスを「訪問済みiPhone 14 Page」として保存](assets/build-audience-3-save-audience-as-visited-iphone-14-page.png)
+![&#x200B; オーディエンスを「訪問済みiPhone 14 Page」として保存](assets/build-audience-3-save-audience-as-visited-iphone-14-page.png)
 
 
 
-7. 青いボタン **Activate Audience**&#x200B;をDestinationにクリックします
+&#x200B;7. 青いボタン **Activate Audience**&#x200B;をDestinationにクリックします
 
-8. 「**Streaming DEP Webhook** Destination」を選択し、「Next」をクリックします
+&#x200B;8. 「**Streaming DEP Webhook** Destination」を選択し、「Next」をクリックします
 
-9. 「次へ」をクリックして終了
+&#x200B;9. 「次へ」をクリックして終了
 
 
 
@@ -135,24 +135,23 @@ IPhone 14の製品ページを訪問したオーディエンスを構築する
 
 
 
-5. 説明を入力してください。
+&#x200B;5. 説明を入力してください。
 
-6. ストリーミングに変更
+&#x200B;6. ストリーミングに変更
 
-7. 「*iPhone 14 Pageを訪問しましたが、所有/注文していません*」として保存
+&#x200B;7. 「*iPhone 14 Pageを訪問しましたが、所有/注文していません*」として保存
 
-8. 青いボタン **Activate Audience**&#x200B;をDestinationにクリックします
+&#x200B;8. 青いボタン **Activate Audience**&#x200B;をDestinationにクリックします
 
-9. 「**Streaming DEP Webhook** Destination」を選択し、「Next」をクリックします
+&#x200B;9. 「**Streaming DEP Webhook** Destination」を選択し、「Next」をクリックします
 
-10. 「次へ」をクリックして終了
+&#x200B;10. 「次へ」をクリックして終了
 
 >[!NOTE]
 >
 >**時間フィルター**
 >
 >要件には時間の要件がありませんでしたので、3年前に誰かが訪問した場合、彼らは資格を得るでしょう。 これらが機能する場合とそうでない場合もあります。 尋ねる価値があります。 1つ追加したのは、現在web サイトを訪問した人々に基づいてアクティブ化しているからです。  あらゆるユースケースで機能するとは限りません。  時間フィルターを追加した場合、Edge オーディエンスがストリーミングやバッチに移行するまでにどの程度時間を遡ることができますか？
-
 > [!NOTE]
 >
 >**これを分割するメリット**
@@ -177,7 +176,7 @@ IPhone 14の製品ページを訪問したオーディエンスを構築する
 
 これらのオーディエンスをすべて4つではなく1つのオーディエンスに構築した場合、各オーディエンスが個別にストリーミングされていても、バッチ評価方法が適用されます。
 
-![ ストリーミングではなくバッチ評価で、1つの組み合わせオーディエンスを作成します](assets/build-audience-3-why-are-we-creating-multiple-audiences.png)
+![&#x200B; ストリーミングではなくバッチ評価で、1つの組み合わせオーディエンスを作成します](assets/build-audience-3-why-are-we-creating-multiple-audiences.png)
 
 
 
