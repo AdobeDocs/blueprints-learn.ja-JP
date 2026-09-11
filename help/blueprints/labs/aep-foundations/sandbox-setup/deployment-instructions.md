@@ -1,11 +1,10 @@
 ---
-hold: true
 title: デプロイメントの手順
 description: DEP CLIを使用して、AEP Foundations ラボパックのスキーマ、データセット、データフロー、サンプルプロファイルデータをサンドボックスにデプロイします。
 doc-type: article
 solution: Experience Platform
 exl-id: 9f2b6d4a-8e1c-4b7a-a3d5-6c9f0e2a4b8d
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 0b33b2740ee7f5af73d64f217b4475650c1d28a0
 workflow-type: tm+mt
 source-wordcount: '749'
 ht-degree: 1%
@@ -15,7 +14,7 @@ ht-degree: 1%
 
 # デプロイメントの手順
 
-&#x200B;> [!NOTE]
+>[!NOTE]
 >
 >これは、ラボを自分のペースで進めている場合にのみ必要です。 ライブトレーニングコースやイベントを受講している場合は、サンドボックスが既に展開されています。
 
@@ -45,30 +44,30 @@ AEP Foundations ラボパックは、ラボ全体で使用するスキーマ、�
 
 ## &#x200B;1. CLIのインストール
 
-1. [dep-cli リポジトリ &#x200B;](https://github.com/adobe/dep-cli)を複製またはダウンロードします
+1. [dep-cli リポジトリ ](https://github.com/adobe/dep-cli)を複製またはダウンロードします
 1. `dep-cli` ディレクトリから、`npm install`を実行します
 1. `npm start`でCLIを開始
 
 >[!NOTE]
 >
->上記のコマンドを実行する前に、Node.jsが必要です。 まだNode.jsがインストールされていない場合は、最初にwikiの[Node.js Setup](https://github.com/adobe/dep-cli/wiki/Nodejs-Setup) ページを参照してください。 スクリーンショットや既存のインストールの更新方法など、完全なインストールの詳細については、[&#x200B; インストール &#x200B;](https://github.com/adobe/dep-cli/wiki/Installation)wiki ページを参照してください
+>上記のコマンドを実行する前に、Node.jsが必要です。 まだNode.jsがインストールされていない場合は、最初にwikiの[Node.js Setup](https://github.com/adobe/dep-cli/wiki/Nodejs-Setup) ページを参照してください。 スクリーンショットや既存のインストールの更新方法など、完全なインストールの詳細については、[ インストール ](https://github.com/adobe/dep-cli/wiki/Installation)wiki ページを参照してください
 
 ## &#x200B;2. 環境ファイルの設定
 
 CLIは、環境ファイルが指す任意のサンドボックスにデプロイされるので、何かを実行する前に正しく設定する必要があります。
 
 1. `envFiles/sample-env.json`をコピーして、新しい名前（例：`my-env.json`）を付けます
-2. ファイルを開き、[Developer Console Setup](developer-console-setup.md)の値を使用して次のフィールドに入力します。
+1. ファイルを開き、[Developer Console Setup](developer-console-setup.md)の値を使用して次のフィールドに入力します。
 
-| **フィールド** | **値** |
-| --------------- | ------------------------------------------------------------------------------------------------------------------------------------- |
-| `API_KEY` | クライアント ID |
-| `CLIENT_SECRET` | クライアント秘密鍵 |
-| `IMS_ORG` | 組織ID |
-| `SCOPES` | Experience Platform API スコープ（openid、session、AdobeID、read_organizations、additional_info.projectedProductContext）を含める必要があります |
-| `SANDBOX_NAME` | ターゲットにするサンドボックスは空で、タイプ `dev`である必要があります |
+   | **フィールド** | **値** |
+   | --------------- | ------------------------------------------------------------------------------------------------------------------------------------- |
+   | `API_KEY` | クライアント ID |
+   | `CLIENT_SECRET` | クライアント秘密鍵 |
+   | `IMS_ORG` | 組織ID |
+   | `SCOPES` | Experience Platform API スコープ（openid、session、AdobeID、read_organizations、additional_info.projectedProductContext）を含める必要があります |
+   | `SANDBOX_NAME` | ターゲットにするサンドボックスは空で、タイプ `dev`である必要があります |
 
-&#x200B;3. ファイルを保存して閉じる
+1. ファイルを保存して閉じる
 
 >[!NOTE]
 >
@@ -90,7 +89,7 @@ CLIは、環境ファイルが指す任意のサンドボックスにデプロ�
 
 ステップ 1は実行に約2分かかり、ステップ 2は約6分、ステップ 3は独自の待ち時間のない迅速な検証です。 ステップ間の60分と15分のギャップは、AEPが2時間のタイムラインの大部分を占める、舞台裏でのデータ伝播を完了させるための時間です。
 
-&#x200B;> [!NOTE]
+>[!NOTE]
 >
 >CLIは、これらの待機時間を自動的にチェックします。 ステップを早く実行しすぎると、ブロックされ、残り時間が示されます。自分で時計を追跡する必要はありません。
 

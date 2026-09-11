@@ -1,11 +1,10 @@
 ---
-hold: true
 title: ストリーミング宛先の設定
 description: Webhook エンドポイント、ガバナンスポリシー、オーディエンス、フィールドマッピングを使用してHTTP API ストリーミング宛先を設定し、セグメントのアクティベーションをテストします。
 doc-type: article
 solution: Experience Platform
 exl-id: c52d301f-b308-40fc-a59c-ace1c96ccd13
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
 workflow-type: tm+mt
 source-wordcount: '736'
 ht-degree: 0%
@@ -55,15 +54,15 @@ Experience Platform UIで、次の操作を行って、宛先カタログに移�
 1. 接続タイプ **なし**
 1. **宛先に接続**&#x200B;をクリックします
 
-![宛先に接続](assets/setup-streaming-destination-connect-to-destination.png "宛先に接続")
+   ![宛先に接続](assets/setup-streaming-destination-connect-to-destination.png "宛先に接続")
 
->[!NOTE]
->
->通常、この段階では認証資格情報を追加しますが、このWebhookには必要ありません。
+   >[!NOTE]
+   >
+   >通常、この段階では認証資格情報を追加しますが、このWebhookには必要ありません。
 
 
 
-&#x200B;3. 宛先の設定の詳細を次のように入力します。
+3. 宛先の設定の詳細を次のように入力します。
 
 - **名前** -> `Streaming DEP Webhook - [Your Initials]`
 - **説明** -> `[your webhook endpoint you copied above]`
@@ -92,7 +91,7 @@ Experience Platform UIで、次の操作を行って、宛先カタログに移�
 >
 >Experience Leagueのガバナンスポリシーの詳細については、こちらをご覧ください
 >
->[https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/overview.html?lang=ja#core-actions](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/overview.html?lang=ja#core-actions)
+>[https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/overview.html?lang=en#core-actions](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/overview.html?lang=en#core-actions)
 
 ## オーディエンスの選択
 
@@ -114,11 +113,11 @@ Experience Platform UIで、次の操作を行って、宛先カタログに移�
 
 
 
-![&#x200B; モデルフィールドを選択](assets/setup-streaming-destination-select-model-field.png " モデルフィールドを選択")
+![ モデルフィールドを選択](assets/setup-streaming-destination-select-model-field.png " モデルフィールドを選択")
 
 
 
-![最終モデルフィールド &#x200B;](assets/setup-streaming-destination-final-model-field.png "最終モデルフィールド ")
+![最終モデルフィールド ](assets/setup-streaming-destination-final-model-field.png "最終モデルフィールド ")
 
 >[!NOTE]
 >

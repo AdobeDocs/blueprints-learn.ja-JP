@@ -1,11 +1,10 @@
 ---
-hold: true
 title: オプション
 description: オーディエンスルール内のイベントを集約するのではなく、アップストリームで計算された事前集約された利用属性を使用して、完全ストリーミングオーディエンスを構築できます。
 doc-type: article
 solution: Experience Platform
 exl-id: fe6ee041-814f-41c1-91cf-c3473cbca0c2
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
 workflow-type: tm+mt
 source-wordcount: '316'
 ht-degree: 0%
@@ -33,19 +32,19 @@ ht-degree: 0%
 1. 新しいオーディエンスの作成
 1. 「Attributes not Event」タブで「Agg」を検索し、2つの集計をキャンバスにドラッグします。 それぞれに適切な演算子と値を設定します。
 
-![各集計に適切な演算子と値を設定する](assets/option-2-use-pre-aggregates-set-operators-and-values.png)
+   ![各集計に適切な演算子と値を設定する](assets/option-2-use-pre-aggregates-set-operators-and-values.png)
 
 
 
-&#x200B;3. プロファイルでプラン名を検索して追加します（XDM Individual Profile/Devbc/プラン詳細/プラン名）。 Selectは「Ultimate」と等しくありません
+3. プロファイルでプラン名を検索して追加します（XDM Individual Profile/Devbc/プラン詳細/プラン名）。 Selectは「Ultimate」と等しくありません
 
-![&#x200B; プラン名を選択すると、Ultimateと一致しません](assets/option-2-use-pre-aggregates-select-does-not-equal-ultimate.png)
+   ![ プラン名を選択すると、Ultimateと一致しません](assets/option-2-use-pre-aggregates-select-does-not-equal-ultimate.png)
 
 
 
-&#x200B;4. 説明を入力してください。  評価方法がストリーミングであることを検証します。
+4. 説明を入力してください。  評価方法がストリーミングであることを検証します。
 
-&#x200B;5. オーディエンスを「*請求データ使用率は高いがUltimate プラン （Agg）*」として保存します
+5. オーディエンスを「*請求データ使用率は高いがUltimate プラン （Agg）*」として保存します
 
 >[!NOTE]
 >

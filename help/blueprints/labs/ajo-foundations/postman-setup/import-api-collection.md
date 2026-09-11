@@ -1,11 +1,10 @@
 ---
-hold: true
 title: API コレクションのインポート
 description: bootcampのPostman API コレクションを読み込み、その環境変数がサンドボックスに対して正しく解決することを検証します。
 doc-type: article
 solution: Experience Platform
 exl-id: 7562c7f1-0d60-4a3a-8bce-fa42bda08962
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
 workflow-type: tm+mt
 source-wordcount: '432'
 ht-degree: 0%
@@ -25,11 +24,11 @@ ht-degree: 0%
 
 1. **AJO Bootcamp （Labs）.postman\_collection.json** ファイルをダウンロードします。
 
-ファイルをダウンロード — [AJO Bootcamp （Labs）.postman_collection.json](assets/ajo-bootcamp-labs.postman_collection.json)
+   ファイルをダウンロード — [AJO Bootcamp （Labs）.postman_collection.json](assets/ajo-bootcamp-labs.postman_collection.json)
 
-&#x200B;2. 以前と同様に、「**読み込み**」ボタンをクリックします。
-&#x200B;3. **AJO Bootcamp （Labs）.postman\_collection.json** ファイルのローカル URLを読み込みモーダルテキストボックスに貼り付けるか、読み込みダイアログボックスにドロップします。  これにより、自動読み込みがトリガーされます。
-&#x200B;4. 読み込みプロセスが完了したら、左側のナビゲーションバーの&#x200B;**コレクション**&#x200B;をクリックし、**AJO Bootcamp （Labs）** フォルダーを展開すると、新しく読み込まれたコレクションが表示されます
+2. 以前と同様に、「**読み込み**」ボタンをクリックします。
+3. **AJO Bootcamp （Labs）.postman\_collection.json** ファイルのローカル URLを読み込みモーダルテキストボックスに貼り付けるか、読み込みダイアログボックスにドロップします。  これにより、自動読み込みがトリガーされます。
+4. 読み込みプロセスが完了したら、左側のナビゲーションバーの&#x200B;**コレクション**&#x200B;をクリックし、**AJO Bootcamp （Labs）** フォルダーを展開すると、新しく読み込まれたコレクションが表示されます
 
 ![postman コレクションの読み込みを確認](assets/import-api-collection-verify-collection-imported.png)
 
@@ -53,13 +52,13 @@ ht-degree: 0%
 1. 必要に応じて、左側のパネルの&#x200B;**コレクション**&#x200B;をクリックし、**プロファイルとジャーニーラボ** フォルダーを展開します。
 2. **Web イベントの作成** リクエストをクリックすると、環境変数が&#x200B;**red**&#x200B;であることがわかります
 
-環境が選択されていないため、環境変数が赤で強調表示されている![Postman リクエスト &#x200B;](assets/import-api-collection-environment-variables-shown-red.png "postman環境変数が赤で表示されていることを確認")
+   環境が選択されていないため、環境変数が赤で強調表示されている![Postman リクエスト ](assets/import-api-collection-environment-variables-shown-red.png "postman環境変数が赤で表示されていることを確認")
 
-&#x200B;3. 右上隅の&#x200B;**環境ドロップダウン**&#x200B;をクリックし、**AJO Bootcamp**&#x200B;環境を選択します。
+3. 右上隅の&#x200B;**環境ドロップダウン**&#x200B;をクリックし、**AJO Bootcamp**&#x200B;環境を選択します。
 
-![正しいPostman環境を選択](assets/import-api-collection-select-postman-environment.png)
+   ![正しいPostman環境を選択](assets/import-api-collection-select-postman-environment.png)
 
-&#x200B;4. 適切な環境を選択すると、EDGE\_REGION変数のブルーが明るくなります。 これは、変数が選択した環境の値を持つことを示します。 データストリームをまだ作成していないため、DATASTREAM\_CONFIG変数は赤のままです。そのため、その環境変数の値をまだ持っていません。 Edge\_REGIONにカーソルを合わせると、環境値の値が表示されます。
+4. 適切な環境を選択すると、EDGE\_REGION変数のブルーが明るくなります。 これは、変数が選択した環境の値を持つことを示します。 データストリームをまだ作成していないため、DATASTREAM\_CONFIG変数は赤のままです。そのため、その環境変数の値をまだ持っていません。 Edge\_REGIONにカーソルを合わせると、環境値の値が表示されます。
 
 ![Postman EDGE_REGION変数が入力され、赤で表示されなくなりました](assets/import-api-collection-environment-works-with-collection.png "Postmanがコレクションで機能することを確認")
 

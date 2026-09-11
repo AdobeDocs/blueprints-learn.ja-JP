@@ -1,11 +1,10 @@
 ---
-hold: true
 title: エラーの監視とデバッグ
 description: ストリーミングエンドツーエンドのモニタリングダッシュボードを使用して、ストリーミングデータフロー内のINGEST、DCVS、MAPPER エラーを特定および解釈します。
 doc-type: article
 solution: Experience Platform
 exl-id: 268abf15-14ac-45e3-8cd7-8d180ee5b1e3
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 0b33b2740ee7f5af73d64f217b4475650c1d28a0
 workflow-type: tm+mt
 source-wordcount: '432'
 ht-degree: 0%
@@ -25,13 +24,13 @@ ht-degree: 0%
 
 1. **監視 – > エンドツーエンドのストリーミング**&#x200B;に移動し、**データフロー**&#x200B;を見つけます。
 
-![監視セクションでストリーミングデータフローを探す](assets/monitoring-and-debugging-errors-locate-your-dataflow-in-monitoring.png "監視")でデータフローを探す
+   ![監視セクションでストリーミングデータフローを探す](assets/monitoring-and-debugging-errors-locate-your-dataflow-in-monitoring.png "監視")でデータフローを探す
 
 
 
 1. 「**ダッシュボード**」タブをプレビューして、バッチ取り込みワークフローに関連するパイプライン指標を表示することができます。
 
-すべてのバッチ取り込みワークフローの指標を表示する![&#x200B; ダッシュボードタブ &#x200B;](assets/monitoring-and-debugging-errors-dashboard-tab-metrics.png "すべてのバッチ取り込みワークフローの指標を表示する")
+すべてのバッチ取り込みワークフローの指標を表示する![ ダッシュボードタブ ](assets/monitoring-and-debugging-errors-dashboard-tab-metrics.png "すべてのバッチ取り込みワークフローの指標を表示する")
 
 >[!NOTE]
 >
@@ -43,30 +42,30 @@ ht-degree: 0%
 
 1. 手順に従っていなかったためにデータフローにエラーが発生した場合は、次のようになります。
 
-マッピングエラーを含むストリーミングデータフローの![&#x200B; エラーが報告されました](assets/monitoring-and-debugging-errors-failures-reported.png " エラーが報告されました")
+   マッピングエラーを含むストリーミングデータフローの![ エラーが報告されました](assets/monitoring-and-debugging-errors-failures-reported.png " エラーが報告されました")
 
 
 
 1. 「失敗」をクリックすると、次の画面が表示されます。
 
-![取り込み、DCVS、およびMAPPER エラーの詳細を示すエラー診断画面](assets/monitoring-and-debugging-errors-preview-error-diagnostics.png " エラー診断のプレビュー")
+   ![取り込み、DCVS、およびMAPPER エラーの詳細を示すエラー診断画面](assets/monitoring-and-debugging-errors-preview-error-diagnostics.png " エラー診断のプレビュー")
 
->[!NOTE]
->
->マイクロバッチが成功すると、レコードをデータレイクに書き込むのに時間が必要になるため、15分以上かかる場合があります。
+   >[!NOTE]
+   >
+   >マイクロバッチが成功すると、レコードをデータレイクに書き込むのに時間が必要になるため、15分以上かかる場合があります。
 
 
 
 1. エラーメッセージを分析し、**ソース/ターゲットフィールド、**&#x200B;を特定し、コードを探します。
 
-- **INGEST XXXX** - データの破損または形式の問題、つまり正規表現の形式に従っていないことが原因で、これは重大なエラーです。
-- **DCVS XXXX** – このエラーは`required` フィールドで発生します。 値が存在しない場合、または（列挙リスト内ではなく）正しくマッピングされていない場合、これらの行はスキップされます。
-- **MAPPER XXXX** – これらは警告であり、行はスキップされません。 しかし、値は「無効化」されている可能性があります。そのため、下流のアクティビティに影響を与えないことを確認する必要があります。
+   - **INGEST XXXX** - データの破損または形式の問題、つまり正規表現の形式に従っていないことが原因で、これは重大なエラーです。
+   - **DCVS XXXX** – このエラーは`required` フィールドで発生します。 値が存在しない場合、または（列挙リスト内ではなく）正しくマッピングされていない場合、これらの行はスキップされます。
+   - **MAPPER XXXX** – これらは警告であり、行はスキップされません。 しかし、値は「無効化」されている可能性があります。そのため、下流のアクティビティに影響を与えないことを確認する必要があります。
 
 1. エラーから回復するには、**ソース/データフロー/データフロー名/データフローを更新**&#x200B;に移動して、マッピングを修正する必要があります。
 
-&#x200B;> [!NOTE]
+>[!NOTE]
 >
 >JSON サンプルファイルを再アップロードするには、まずJSON サンプルファイルを削除し、もう一度追加して、検証のために新しいコピーでマッパーが更新されるようにします。
 
-![&#x200B; ソース/データフロー/データフロー名/データフロー名/マッピングを修正するためのデータフローの更新](assets/monitoring-and-debugging-errors-update-dataflow-navigation.png " データフローの更新")をクリック
+![ ソース/データフロー/データフロー名/データフロー名/マッピングを修正するためのデータフローの更新](assets/monitoring-and-debugging-errors-update-dataflow-navigation.png " データフローの更新")をクリック

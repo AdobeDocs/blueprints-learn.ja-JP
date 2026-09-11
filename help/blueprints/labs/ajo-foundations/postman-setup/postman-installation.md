@@ -1,11 +1,10 @@
 ---
-hold: true
 title: Postman インストール
 description: Postmanをインストールし、コレクション、環境、ワークスペースインターフェイスに慣れてから、後のラボでAPI呼び出しを行います。
 doc-type: article
 solution: Experience Platform
 exl-id: c277edb5-f758-4955-bcd7-b15a9b9ab949
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 0b33b2740ee7f5af73d64f217b4475650c1d28a0
 workflow-type: tm+mt
 source-wordcount: '530'
 ht-degree: 0%
@@ -19,7 +18,7 @@ ht-degree: 0%
 
 このラボの最後には、Postmanをインストールし、基本的なワークスペースと環境を設定して、今後のラボで必要なAPI呼び出しを行えるようにします。
 
-&#x200B;> [!IMPORTANT]
+>[!IMPORTANT]
 >
 >このコースでは、さまざまなラボにPostmanが必要です。  既にPostmanをインストールしている場合でも、環境ファイルとAPI コレクションがインストールされ、適切に設定されていることを確認するには、このラボを完了する必要があります。
 
@@ -29,7 +28,7 @@ ht-degree: 0%
 
 Postman web サイトに移動し、Postman アプリをダウンロードするか、Web バージョンを利用します – > [https://www.postman.com/download/](https://www.postman.com/download/)
 
-![Postman web サイトのPostman ダウンロードページ &#x200B;](assets/postman-installation-postman-download.png)
+![Postman web サイトのPostman ダウンロードページ ](assets/postman-installation-postman-download.png)
 
 ## Postman ワークスペースの作成（オプション）
 
@@ -41,7 +40,7 @@ Postman *を初めて利用する*&#x200B;場合、これが初めてのイン�
 
 Postmanを開き、アプリケーションのいくつかの領域をすばやく確認します。 Experience Platformを利用する上で本当に必要なのは、アプリケーションのいくつかの重要な領域に集中することだけです。
 
-![&#x200B; サイドバー、ヘッダー、メイン作業領域のラベルが付いたPostman インターフェイスの概要](assets/postman-installation-interface-overview.png "Postman インターフェイス ")
+![ サイドバー、ヘッダー、メイン作業領域のラベルが付いたPostman インターフェイスの概要](assets/postman-installation-interface-overview.png "Postman インターフェイス ")
 
 ## サイドバー
 

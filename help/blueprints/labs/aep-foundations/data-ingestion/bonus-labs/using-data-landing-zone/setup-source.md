@@ -1,11 +1,10 @@
 ---
-hold: true
 title: ソースの設定
 description: サンプルの顧客アカウントファイルをデータランディングゾーンにアップロードし、新しいクラウドストレージソースデータフローを設定します。
 doc-type: article
 solution: Experience Platform
 exl-id: 1c80e71b-19a7-45e9-9961-d72b3f03ecae
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
 workflow-type: tm+mt
 source-wordcount: '540'
 ht-degree: 0%
@@ -19,7 +18,7 @@ ht-degree: 0%
 
 ラボで使用できるように、Azure Storage Explorerを介してサンプルデータファイルをデータランディングゾーンにアップロードする必要があります。  これを行うには、次の操作を行います。
 
-1. [&#x200B; サンプルファイル &#x200B;](../../sample-files.md)をダウンロード
+1. [ サンプルファイル ](../../sample-files.md)をダウンロード
 1. **Lab\_Customer\_Account.csv** ファイルをドラッグ&amp;ドロップするか、前の手順で保存したデータランディングゾーンにアップロードします。
 
 アップロードされた画面は以下のスクリーンショットのようになります。
@@ -28,14 +27,14 @@ ht-degree: 0%
 >
 >ファイルを&#x200B;*プロジェクト* フォルダーにアップロードしないでください。 ラボでは使用しないプリロード済みのデータが含まれています。
 
-![&#x200B; プロジェクトフォルダーではなく、アップロードされたLab_Customer_Account.csv ファイルを示すデータランディングゾーンファイルブラウザー](assets/setup-source-make-sure-you-do-not-upload-the-file.png)
+![ プロジェクトフォルダーではなく、アップロードされたLab_Customer_Account.csv ファイルを示すデータランディングゾーンファイルブラウザー](assets/setup-source-make-sure-you-do-not-upload-the-file.png)
 
 ## ソースに移動
 
 1. Adobe Experience Platformに移動し、**ソース** -> **カタログ** -> **クラウドストレージ**&#x200B;に移動します。
 1. データランディングゾーンの&#x200B;**設定** / **データを追加**&#x200B;をクリックします
 
-![&#x200B; データランディングゾーンのクラウドストレージソースのデータアクションの設定または追加](assets/setup-source-add-data-landing-zone-source.png " データランディングゾーンへのアクセス ")
+![ データランディングゾーンのクラウドストレージソースのデータアクションの設定または追加](assets/setup-source-add-data-landing-zone-source.png " データランディングゾーンへのアクセス ")
 
 >[!NOTE]
 >
@@ -45,25 +44,25 @@ ht-degree: 0%
 
 1. **Lab\_Customer\_Account.csv**&#x200B;を選択します
 
-![Adobe Experience Platform Storage ExplorerでプレビューするLab_Customer_Account.csv ファイルの選択](assets/setup-source-select-lab-customer-account-csv.png "Azure内のAzure Storage Explorer ファイルへのアクセス ")
+   ![Adobe Experience Platform Storage ExplorerでプレビューするLab_Customer_Account.csv ファイルの選択](assets/setup-source-select-lab-customer-account-csv.png "Azure内のAzure Storage Explorer ファイルへのアクセス ")
 
 1. プレビューペインで、次の属性を確認し、次の点を確認します。
 
-- **sms\_optIn**&#x200B;は、複数の値が欠落している同意フィールドです（「 – 」としてプレビューに表示）。
-- **account\_create\_date**&#x200B;に適切な日付形式がありません。 1つの文字列に、日付と時刻の値と共に文字列値が含まれます。
-- **account\_end\_date**&#x200B;の日付形式が適切です。
+   - **sms\_optIn**&#x200B;は、複数の値が欠落している同意フィールドです（「 – 」としてプレビューに表示）。
+   - **account\_create\_date**&#x200B;に適切な日付形式がありません。 1つの文字列に、日付と時刻の値と共に文字列値が含まれます。
+   - **account\_end\_date**&#x200B;の日付形式が適切です。
 
 
 
-ファイルのプレビュー![&#128279;](assets/setup-source-sms-optin-missing-values.png "sms_optin")に複数の値が表示されているsms_optIn フィールド
+   ファイルのプレビュー](assets/setup-source-sms-optin-missing-values.png "sms_optin")に複数の値が表示されている![sms_optIn フィールド
 
 
 
-ファイルのプレビューに表示される![account_create_dateおよびaccount_end_date フィールド &#x200B;](assets/setup-source-account-create-date-account-end-date.png "account_create_dateおよびaccount_end_date")
+   ファイルのプレビューに表示される![account_create_dateおよびaccount_end_date フィールド ](assets/setup-source-account-create-date-account-end-date.png "account_create_dateおよびaccount_end_date")
 
->[!NOTE]
->
->このラボの後のマッピングステップで、欠落している値、日付、不適切な形式のフィールドを処理する必要があります
+   >[!NOTE]
+   >
+   >このラボの後のマッピングステップで、欠落している値、日付、不適切な形式のフィールドを処理する必要があります
 
 1. 画面の右上隅にある&#x200B;**次へ**&#x200B;をクリックして、次の手順に進みます
 
@@ -76,12 +75,12 @@ ht-degree: 0%
 1. ドロップダウンリストから「**dep：顧客アカウント**」スキーマを選択します。
 1. 「**プロファイルデータセット**」トグルボックスをオンにします。
 （これをオンにしない場合、プロファイルストアはこのデータセットに入力される新しいデータを監視できず、したがって、このデータをプロファイルに取り込むことができません）
-1. **部分取り込みを有効にする**&#x200B;をオンにします。
+1. **部分取り込みを有効にする**をオンにします。
 （これをオンにしないと、いずれかのレコードにエラーがある場合、取り込みが失敗する可能性があります）
 1. データフロー名を&#x200B;**Customer Account Batch Ingestion - \&lt;Your Initials>**&#x200B;に設定します
 1. すべてのアラートを有効にする&#x200B;**ソースデータフローの開始/成功/失敗**
 
-新しいデータセット、プロファイル切り替え、部分的な取り込み設定が設定された![&#x200B; データフローの詳細画面](assets/setup-source-dataflow-detail-screen-settings.png " データフローの詳細")
+新しいデータセット、プロファイル切り替え、部分的な取り込み設定が設定された![ データフローの詳細画面](assets/setup-source-dataflow-detail-screen-settings.png " データフローの詳細")
 
 >[!CAUTION]
 >

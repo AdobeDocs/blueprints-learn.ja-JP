@@ -1,11 +1,10 @@
 ---
-hold: true
 title: 開発者コンソールの設定
 description: DEP CLIのOAuth サーバー間の資格情報を使用してAdobe Developer Console プロジェクトを作成し、サンドボックスに対して認証します。
 doc-type: article
 solution: Experience Platform
 exl-id: 4a7c9e2b-1d3f-4a6e-8b9c-2d5e7f1a3c6b
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 0b33b2740ee7f5af73d64f217b4475650c1d28a0
 workflow-type: tm+mt
 source-wordcount: '387'
 ht-degree: 0%
@@ -15,7 +14,7 @@ ht-degree: 0%
 
 # 開発者コンソールの設定
 
-&#x200B;> [!NOTE]
+>[!NOTE]
 >
 >これは、ラボを自分のペースで進めている場合にのみ必要です。 ライブトレーニングコースやイベントを受講している場合は、サンドボックスが既に展開されています。
 
@@ -23,7 +22,7 @@ DEP CLIは、Adobe Developer Console プロジェクトのOAuth サーバー間�
 
 >[!NOTE]
 >
->Adobe Experience Platformの資格情報（および必要に応じてAdobe Journey Optimizer）を含むDeveloper Console プロジェクトが既にある場合は、このセクションをスキップして、[&#x200B; デプロイメント手順](deployment-instructions.md)に進みます。
+>Adobe Experience Platformの資格情報（および必要に応じてAdobe Journey Optimizer）を含むDeveloper Console プロジェクトが既にある場合は、このセクションをスキップして、[ デプロイメント手順](deployment-instructions.md)に進みます。
 
 ## 前提条件
 

@@ -1,11 +1,10 @@
 ---
-hold: true
 title: Edge オーディエンスの作成
 description: Edgeで評価されたオーディエンスを構築し、公開します。それぞれに対応するバッチを使用して、リアルタイムのイベントに対する対応を比較できます。
 doc-type: article
 solution: Experience Platform
 exl-id: 79265a8f-81dd-41a3-89c5-c6646e435328
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
 workflow-type: tm+mt
 source-wordcount: '362'
 ht-degree: 0%
@@ -29,7 +28,7 @@ ht-degree: 0%
 
 
 
-「オーディエンスを作成」ボタンと「ルールを作成」オプションが強調表示された![&#x200B; オーディエンスページ &#x200B;](assets/create-edge-audience-create-audience-step-1.png)
+「オーディエンスを作成」ボタンと「ルールを作成」オプションが強調表示された![ オーディエンスページ ](assets/create-edge-audience-create-audience-step-1.png)
 
 
 
@@ -42,13 +41,13 @@ ht-degree: 0%
 1. **Audiences**&#x200B;に移動し、**Experience Platform** フォルダーをクリックします
 1. **dep: Any Event Streaming （within the hour）**&#x200B;という名前のオーディエンスをキャンバスにドラッグ&amp;ドロップ
 
-![Depをドラッグする：任意のイベントストリーミング（1時間以内）のオーディエンスをルールビルダーキャンバスにドラッグします](assets/create-edge-audience-drag-audience-to-canvas.png)
+   ![Depをドラッグする：任意のイベントストリーミング（1時間以内）のオーディエンスをルールビルダーキャンバスにドラッグします](assets/create-edge-audience-drag-audience-to-canvas.png)
 
 
 
 1. 下の&#x200B;**アイコン**&#x200B;の表示をクリックし、**変換**&#x200B;をクリックして、オーディエンスをキャンバス内の一連のルールに変換します
 
-![&#x200B; オーディエンスを一連のルールに変換するために使用されるキャンバス内の変換アイコン &#x200B;](assets/create-edge-audience-convert-to-rules-icon.png)
+![ オーディエンスを一連のルールに変換するために使用されるキャンバス内の変換アイコン ](assets/create-edge-audience-convert-to-rules-icon.png)
 
 ## イベントルールを更新
 
@@ -58,7 +57,7 @@ ht-degree: 0%
 1. 15
 1. 分
 
-![過去15分間にトリガーに設定されたイベントルール &#x200B;](assets/create-edge-audience-update-event-rules.png)
+![過去15分間にトリガーに設定されたイベントルール ](assets/create-edge-audience-update-event-rules.png)
 
 ## セグメントを公開
 

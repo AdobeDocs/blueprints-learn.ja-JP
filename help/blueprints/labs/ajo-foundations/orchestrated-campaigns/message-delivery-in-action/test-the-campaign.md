@@ -1,11 +1,10 @@
 ---
-hold: true
 title: キャンペーンのテスト
 description: オーケストレーションされたキャンペーンをテストモードで実行し、AEP プロファイルベースのメールチャネルがリレーショナルベースのチャネルが回避する配信エラーを生成する理由を解釈する方法を説明します。
 doc-type: article
 solution: Experience Platform
 exl-id: e77ae8ab-f18f-4683-8fdd-ba4f4629d96c
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
 workflow-type: tm+mt
 source-wordcount: '667'
 ht-degree: 0%
@@ -23,15 +22,15 @@ ht-degree: 0%
 
 1. 2つのメールフローを設定すると、キャンペーンは次のようになります。 **開始** ボタンをクリックして、**テストモード**&#x200B;でキャンペーンを実行します
 
-![開始をクリックして、テストモードでキャンペーンを実行します](assets/test-the-campaign-click-start-test-mode.png)
+   ![開始をクリックして、テストモードでキャンペーンを実行します](assets/test-the-campaign-click-start-test-mode.png)
 
->[!NOTE]
->
->前のラボで説明したように、テストモードを使用すると、キャンペーンの実行とさまざまなアクティビティの結果を検証できます。 各アクティビティは、フローの最後に達するまで順次実行されます。
+   >[!NOTE]
+   >
+   >前のラボで説明したように、テストモードを使用すると、キャンペーンの実行とさまざまなアクティビティの結果を検証できます。 各アクティビティは、フローの最後に達するまで順次実行されます。
 
 
 
-&#x200B;2. すべてのキャンペーンアクティビティのテスト実行が開始され、結果を検証します
+2. すべてのキャンペーンアクティビティのテスト実行が開始され、結果を検証します
 
 ![進行中のキャンペーンアクティビティのテスト実行](assets/test-the-campaign-verify-execution-results.png)
 
@@ -41,27 +40,27 @@ ht-degree: 0%
 
 1. メール配信をテストするには、「**プロファイル属性を使用したメール**」アクティビティをクリックし、右側のペインで「**テストを実行**」をクリックします
 
-![&#x200B; プロファイル属性アクティビティを使用してメールのテストを実行](assets/test-the-campaign-run-test-profile-attribute.png)
+   ![ プロファイル属性アクティビティを使用してメールのテストを実行](assets/test-the-campaign-run-test-profile-attribute.png)
 
-&#x200B;2. 確認メッセージを待ってから、**レポートを表示**&#x200B;をクリックして、電子メールテストの詳細を確認します
+2. 確認メッセージを待ってから、**レポートを表示**&#x200B;をクリックして、電子メールテストの詳細を確認します
 
-![&#x200B; レポートを表示をクリックして、電子メールテストの詳細を表示します](assets/test-the-campaign-view-report-1.png)
+   ![ レポートを表示をクリックして、電子メールテストの詳細を表示します](assets/test-the-campaign-view-report-1.png)
 
-&#x200B;3. メールレポートページには、キャンペーン統計と実行ステータスが表示されます。 電子メールテストは、エラーがないことを確認するためのアクティビティの検証であり、電子メールを送信しません。 通常、\～**5**&#x200B;分で完了します。
+3. メールレポートページには、キャンペーン統計と実行ステータスが表示されます。 電子メールテストは、エラーがないことを確認するためのアクティビティの検証であり、電子メールを送信しません。 通常、\～**5**&#x200B;分で完了します。
 
-![&#x200B; キャンペーン統計を含むメールレポートページ &#x200B;](assets/test-the-campaign-campaign-statistics-1.png)
+   ![ キャンペーン統計を含むメールレポートページ ](assets/test-the-campaign-campaign-statistics-1.png)
 
->[!NOTE]
->
->最終的なテスト結果を確認するには、ページを数回更新する必要がある場合があります。
+   >[!NOTE]
+   >
+   >最終的なテスト結果を確認するには、ページを数回更新する必要がある場合があります。
 
 
 
-&#x200B;4. 電子メールテストが完了すると、結果が表示されます。 エラーの割合がいくつかあります。理由を確認するには、**詳細を表示**&#x200B;をクリックしてください。
+4. 電子メールテストが完了すると、結果が表示されます。 エラーの割合がいくつかあります。理由を確認するには、**詳細を表示**&#x200B;をクリックしてください。
 
-![詳細リンクを表示するエラー率](assets/test-the-campaign-error-rate-view-more.png)
+   ![詳細リンクを表示するエラー率](assets/test-the-campaign-error-rate-view-more.png)
 
-&#x200B;5. 理由は`Email address not found in profile`です
+5. 理由は`Email address not found in profile`です
 
 ![理由：メールアドレスがプロファイルに見つかりません](assets/test-the-campaign-email-not-found-reason.png)
 
@@ -79,15 +78,15 @@ ht-degree: 0%
 
 1. Target Dimension **アクティビティを使用して、**&#x200B;電子メールに対して同じプロセスを繰り返します
 
-![Target Dimension アクティビティを使用してメールのテストを実行](assets/test-the-campaign-run-test-target-dimension.png)
+   ![Target Dimension アクティビティを使用してメールのテストを実行](assets/test-the-campaign-run-test-target-dimension.png)
 
-&#x200B;2. 確認メッセージを待ってから、**レポートを表示**&#x200B;をクリックして、電子メールテストの詳細を確認します
+2. 確認メッセージを待ってから、**レポートを表示**&#x200B;をクリックして、電子メールテストの詳細を確認します
 
-![&#x200B; レポートを表示をクリックして、電子メールテストの詳細を表示します](assets/test-the-campaign-view-report-2.png)
+   ![ レポートを表示をクリックして、電子メールテストの詳細を表示します](assets/test-the-campaign-view-report-2.png)
 
-&#x200B;3. 電子メールテストが完了すると、結果が表示されます。 この場合、エラーは発生しません
+3. 電子メールテストが完了すると、結果が表示されます。 この場合、エラーは発生しません
 
-エラーのない![&#x200B; キャンペーン統計](assets/test-the-campaign-campaign-statistics-2.png)
+エラーのない![ キャンペーン統計](assets/test-the-campaign-campaign-statistics-2.png)
 
 >[!NOTE]
 >
@@ -111,4 +110,4 @@ ht-degree: 0%
 
 これで、作成したキャンペーンをテストして、フローと動作を把握する方法を確認しました。 ここでは、テストフローの実行時に、メールチャネル設定に様々な設定を使用する仕組みがよく理解されていました。
 
-キャンペーンテストモード [について詳しくは、](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/campaigns/orchestrated-campaigns/launch/start-monitor-campaigns)を参照してください。
+キャンペーンテストモード [について詳しくは、](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/campaigns/orchestrated-campaigns/launch/start-monitor-campaigns)を参照してください。

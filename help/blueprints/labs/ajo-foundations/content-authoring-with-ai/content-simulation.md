@@ -1,11 +1,10 @@
 ---
-hold: true
 title: コンテンツシミュレーション
 description: Adobe Journey Optimizerのシミュレーションツールとサンプルプロファイルデータを使用して、パーソナライズされたフィールド、コンテンツのバリエーション、フォールバック動作を検証する方法について説明します。
 doc-type: article
 solution: Experience Platform
 exl-id: 3e2b064f-5680-461c-a49e-2a61514e146f
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
 workflow-type: tm+mt
 source-wordcount: '443'
 ht-degree: 0%
@@ -27,12 +26,12 @@ ht-degree: 0%
 
 ## 概要
 
-この最後のモジュールでは、Adobe Journey Optimizerのシミュレーションツールを使用して、**2つの条件付きバリエーション**&#x200B;を使用してメールをテストします。
+この最後のモジュールでは、Adobe Journey Optimizerのシミュレーションツールを使用して、**2つの条件付きバリエーション**を使用してメールをテストします。
 これにより、さまざまな顧客がパーソナライズされたメッセージをどのように体験するのかをプレビューし、キャンペーンを開始する前の正確性を確保できます。
 
 ツールキットからサンプル テスト プロファイル ファイル **sample.csv**&#x200B;を使用します。
 
-![&#x200B; ツールキットのテストプロファイルファイル sample.csvのサンプル &#x200B;](assets/content-simulation-sample-csv-toolkit-file.png)
+![ ツールキットのテストプロファイルファイル sample.csvのサンプル ](assets/content-simulation-sample-csv-toolkit-file.png)
 
 ## シミュレーションツールを開く
 
@@ -40,7 +39,7 @@ ht-degree: 0%
 1. 「**コンテンツをシミュレート**」をクリックします。
 1. 「**コンテンツのバリエーションをシミュレート**」を選択します。
 
-![&#x200B; 「コンテンツをシミュレート」をクリックし、「コンテンツのバリエーションをシミュレート」を選択](assets/content-simulation-click-simulate-content-variation.png)
+![ 「コンテンツをシミュレート」をクリックし、「コンテンツのバリエーションをシミュレート」を選択](assets/content-simulation-click-simulate-content-variation.png)
 
 数秒後にシミュレーションパネルが開きます。
 
@@ -51,11 +50,11 @@ ht-degree: 0%
    - **Jason** → 40歳未満
 2. 「**入力データをアップロード**」をクリックします。
 
-![&#x200B; シミュレーションパネルの「入力データをアップロード」ボタン &#x200B;](assets/content-simulation-click-upload-input-data.png)
+   ![ シミュレーションパネルの「入力データをアップロード」ボタン ](assets/content-simulation-click-upload-input-data.png)
 
-&#x200B;3. **sample.csv**&#x200B;を選択し、**続行**&#x200B;をクリックします。
+3. **sample.csv**&#x200B;を選択し、**続行**&#x200B;をクリックします。
 
-![sample.csvを選択して「続行」をクリック &#x200B;](assets/content-simulation-choose-sample-csv-continue.png)
+![sample.csvを選択して「続行」をクリック ](assets/content-simulation-choose-sample-csv-continue.png)
 
 AJOがファイルを処理し、プレビューを準備します。
 
@@ -68,19 +67,19 @@ AJOには、アップロードされたプロファイルに基づいて、両�
 
 - **Alex** → **バリアント 1** （40歳以上）が表示されます
 
-40![&#128279;](assets/content-simulation-variant-1-age-above-40.png)より上の年齢のAlex プロファイルレンダリングのバリアント 1
+40](assets/content-simulation-variant-1-age-above-40.png)より上の年齢の![Alex プロファイルレンダリングのバリアント 1
 
 上にスクロールすると、以下のように、名前が付いたパーソナライズされたフィールドも表示されます。
 
-バリアント 1![&#128279;](assets/content-simulation-personalized-name-field-variant-1.png)のAlexに表示される パーソナライズされた名前フィールド
+バリアント 1](assets/content-simulation-personalized-name-field-variant-1.png)のAlexに表示される![ パーソナライズされた名前フィールド
 
 - **Jason** →見る&#x200B;**バリアント 2** （40歳未満）
 
-40![&#128279;](assets/content-simulation-variant-2-age-below-40.png)歳未満のJason プロファイルのレンダリング バリアント 2
+40](assets/content-simulation-variant-2-age-below-40.png)歳未満の![Jason プロファイルのレンダリング バリアント 2
 
 ジェイソンのフルネームも。 なんてクールなんだろう。
 
-バリアント 2![&#128279;](assets/content-simulation-personalized-name-field-variant-2.png)のJasonに表示される パーソナライズされたフルネーム フィールド
+バリアント 2](assets/content-simulation-personalized-name-field-variant-2.png)のJasonに表示される![ パーソナライズされたフルネーム フィールド
 
 
 

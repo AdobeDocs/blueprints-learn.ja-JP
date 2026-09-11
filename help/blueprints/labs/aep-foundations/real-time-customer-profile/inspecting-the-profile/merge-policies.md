@@ -1,11 +1,10 @@
 ---
-hold: true
 title: 結合ポリシー
 description: IDをつなぎ合わせることなく結合ポリシーを作成し、電子メール、顧客ID、GAIDでプロファイル検索を比較して、ID グラフがプロファイルアセンブリをどのように形成するのかを確認できます。
 doc-type: article
 solution: Experience Platform
 exl-id: ac7eb22f-141e-4cd8-9a2f-6a9687c3e839
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 0b33b2740ee7f5af73d64f217b4475650c1d28a0
 workflow-type: tm+mt
 source-wordcount: '1401'
 ht-degree: 0%
@@ -30,7 +29,7 @@ ht-degree: 0%
    - タイムスタンプの優先度 – すべてのデータセットの最新のレコードを真実のセットとして使用し、他のすべてのレコードが最近から最も古い順にギャップを埋めるようにします
    - データセットの優先度 – プロファイルの形成に使用できるXDM個人プロファイルデータセットと、それらを組み立てる順序を選択します
 
-&#x200B;> [!NOTE]
+>[!NOTE]
 >
 >データセットの優先順位の結合方法を選択すると、プロファイルの形成で使用できるXDM個人プロファイルとXDM エクスペリエンスイベントのデータセットを選択できます。
 >
@@ -65,7 +64,7 @@ ID グラフを使用しない結合ポリシーを作成して、プロファ�
 1. 上部のナビゲーションで「**ポリシーを結合**」をクリックします
 1. 画面の右端にある&#x200B;**結合ポリシーの作成**&#x200B;をクリックします
 
-![結合ポリシー画面の右上付近にある結合ポリシーの作成をクリック &#x200B;](assets/merge-policies-click-create-merge-policy-button.png)
+![結合ポリシー画面の右上付近にある結合ポリシーの作成をクリック ](assets/merge-policies-click-create-merge-policy-button.png)
 
 ## 設定
 
@@ -87,7 +86,7 @@ ID グラフを使用しない結合ポリシーを作成して、プロファ�
 1. 結合メソッドで、**順序のタイムスタンプ**&#x200B;を選択します
 1. 「**次へ**」をクリック
 
-![&#x200B; プロファイルデータセットの結合メソッドとして順序付けされたタイムスタンプの選択](assets/merge-policies-select-timestamp-ordered-merge-method.png "結合メソッドの選択")
+![ プロファイルデータセットの結合メソッドとして順序付けされたタイムスタンプの選択](assets/merge-policies-select-timestamp-ordered-merge-method.png "結合メソッドの選択")
 
 ## エクスペリエンスイベントデータセットの選択
 
@@ -95,7 +94,7 @@ ID グラフを使用しない結合ポリシーを作成して、プロファ�
 
 したがって、この手順では何もする必要がないので、**次へ**&#x200B;をクリックするだけです。
 
-![&#x200B; タイムスタンプの順序付き結合に対して、何も設定しないエクスペリエンスイベントデータセットのステップ &#x200B;](assets/merge-policies-select-experience-event-datasets.png)
+![ タイムスタンプの順序付き結合に対して、何も設定しないエクスペリエンスイベントデータセットのステップ ](assets/merge-policies-select-experience-event-datasets.png)
 
 ## レビュー
 
@@ -110,7 +109,7 @@ ID グラフを使用しない結合ポリシーを作成して、プロファ�
 
 プロファイルのID グラフであるDepeche Modeは、以下のスクリーンショットのようです。 プロファイルサービスの仕組みを理解するには、組み立てプロセスでこのID グラフを使用することを無視するのが最善の方法です。
 
-リンクされたIDを表示するDepeche Mode プロファイルの![ID グラフ &#x200B;](assets/merge-policies-depeche-mode-identity-graph.png)
+リンクされたIDを表示するDepeche Mode プロファイルの![ID グラフ ](assets/merge-policies-depeche-mode-identity-graph.png)
 
 ## メールを使用した比較
 
@@ -122,9 +121,9 @@ ID グラフを使用しない結合ポリシーを作成して、プロファ�
 1. 「**表示**」ボタンをクリックして、プロファイルを検索します
 1. プロファイルへの&#x200B;**リンク**&#x200B;をクリックすると、プロファイルの詳細が表示されます
 
-![&#x200B; デフォルトのタイムスタンプベースの結合ポリシーを使用して電子メールでDepeche Mode プロファイルを検索](assets/merge-policies-lookup-depeche-mode-default-merge-policy.png " デフォルトのタイムスタンプベースの結合ポリシーを使用したDepeche Modeの検索")
+   ![ デフォルトのタイムスタンプベースの結合ポリシーを使用して電子メールでDepeche Mode プロファイルを検索](assets/merge-policies-lookup-depeche-mode-default-merge-policy.png " デフォルトのタイムスタンプベースの結合ポリシーを使用したDepeche Modeの検索")
 
-Depeche Mode プロファイルを別に検索しますが、今回は&#x200B;**ID ステッチなし**&#x200B;結合ポリシーを使用します。
+   Depeche Mode プロファイルを別に検索しますが、今回は&#x200B;**ID ステッチなし**&#x200B;結合ポリシーを使用します。
 
 1. 左パネルの&#x200B;**プロファイル**&#x200B;を右クリックし、**新しいタブで開く**&#x200B;を選択します
 1. 上部のナビゲーションで「**参照**」を選択します
@@ -138,7 +137,7 @@ Depeche Mode プロファイルを別に検索しますが、今回は&#x200B;**
 
 プロファイルの両方のビューを比較すると、それらが非常に異なることに気づくはずです。 一部の属性とIDが、**ID ステッチなし**&#x200B;結合ポリシーを使用するバージョンにありません。
 
-![&#x200B; デフォルトのタイムスタンプベースの結合ポリシーを使用して組み立てられたDepeche Mode プロファイル &#x200B;](assets/merge-policies-default-timebased-merge-policy-result.png " デフォルトのタイムベースの結合ポリシー")
+![ デフォルトのタイムスタンプベースの結合ポリシーを使用して組み立てられたDepeche Mode プロファイル ](assets/merge-policies-default-timebased-merge-policy-result.png " デフォルトのタイムベースの結合ポリシー")
 
 ![No ID ステッチ結合ポリシーを使用して組み立てられたDepeche Mode プロファイル。属性とIDが欠落しています](assets/merge-policies-no-id-stitching-merge-policy-result.png "ID ステッチ結合ポリシーがありません")
 
@@ -160,7 +159,7 @@ Depeche Mode プロファイルを別に検索しますが、今回は&#x200B;**
 
 ID ステッチなし結合ポリシーを使用してcustomerIDでDepeche モードを検索する場合、![属性タブが空です](assets/merge-policies-customerid-lookup-attributes-tab.png)
 
-customerID![&#128279;](assets/merge-policies-customerid-lookup-events-tab.png)でDepeche Modeを検索する際に、customerIDをプライマリ IDとするイベントのみを表示する イベントタブ
+customerID](assets/merge-policies-customerid-lookup-events-tab.png)でDepeche Modeを検索する際に、customerIDをプライマリ IDとするイベントのみを表示する![ イベントタブ
 
 **自分に質問する**
 
@@ -198,7 +197,7 @@ ID グラフをプロファイルストアと共に使用する場合、ID グ�
 
 ID グラフを使用しない場合、プロファイルストアは単一の識別子（プライマリ ID）を使用してプロファイルフラグメントのみを取得できます
 
-&#x200B;> [!TIP]
+>[!TIP]
 >
 >**時間が空いているため、実験を行います…:**
 >

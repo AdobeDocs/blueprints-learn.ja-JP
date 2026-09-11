@@ -1,11 +1,10 @@
 ---
-hold: true
 title: オーケストレーションされたキャンペーンの作成
 description: オーケストレーションされたキャンペーンのシェルを作成し、そのデフォルトのスケジューリングオプションを確認する方法を説明します。
 doc-type: article
 solution: Experience Platform
 exl-id: e4e8eabd-ab91-4693-9b8a-0f94dd15db13
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
 workflow-type: tm+mt
 source-wordcount: '270'
 ht-degree: 0%
@@ -25,20 +24,20 @@ ht-degree: 0%
 
 1. まず、ブラウザーの右上にあるアプリドロワーからアプリケーションを選択して、Adobe Journey Optimizer アプリケーションにログインしていることを確認します
 
-![&#x200B; アプリドロワーからAdobe Journey Optimizerを選択](assets/create-an-orchestrated-campaign-select-ajo-app.png)
+   ![ アプリドロワーからAdobe Journey Optimizerを選択](assets/create-an-orchestrated-campaign-select-ajo-app.png)
 
 
 
-&#x200B;2. 左側のナビゲーションパネルで、**キャンペーン**&#x200B;を選択します
-&#x200B;3. 次に、右上の「**キャンペーンを作成**」ボタンをクリックします
+2. 左側のナビゲーションパネルで、**キャンペーン**&#x200B;を選択します
+3. 次に、右上の「**キャンペーンを作成**」ボタンをクリックします
 
-![&#x200B; キャンペーンナビゲーションの「キャンペーンを作成」ボタン &#x200B;](assets/create-an-orchestrated-campaign-click-create-campaign.png)
+   ![ キャンペーンナビゲーションの「キャンペーンを作成」ボタン ](assets/create-an-orchestrated-campaign-click-create-campaign.png)
 
 
 
-&#x200B;4. 表示されるモーダルで、**Orchestration - Marketing**&#x200B;を選択し、**Confirm**&#x200B;をクリックします
+4. 表示されるモーダルで、**Orchestration - Marketing**&#x200B;を選択し、**Confirm**&#x200B;をクリックします
 
-![&#x200B; オーケストレーション – マーケティングを選択し、「確認」をクリックします](assets/create-an-orchestrated-campaign-select-orchestration-marketing.png)
+![ オーケストレーション – マーケティングを選択し、「確認」をクリックします](assets/create-an-orchestrated-campaign-select-orchestration-marketing.png)
 
 ## キャンペーン設定
 
@@ -48,11 +47,11 @@ ht-degree: 0%
    - **結合ポリシー** —> `Default Timebased`
    - **タグ** —> *空のままにする*
 
-完了すると、画面は以下のようになります。
+   完了すると、画面は以下のようになります。
 
-![&#x200B; キャンペーン設定が名前と結合ポリシーで入力されました](assets/create-an-orchestrated-campaign-settings-filled.png)
+   ![ キャンペーン設定が名前と結合ポリシーで入力されました](assets/create-an-orchestrated-campaign-settings-filled.png)
 
-&#x200B;2. 「**保存**」ボタンをクリックして続行します。
+2. 「**保存**」ボタンをクリックして続行します。
 
 
 
@@ -62,7 +61,7 @@ ht-degree: 0%
 
 デフォルトは常に&#x200B;**できるだけ早く**&#x200B;に設定されます。 この演習では、既定値を使用しますが、他にも多くのオプションを利用できます。
 
-キャンペーンワークフローが「スケジューラーオプション」を実行する頻度の![&#x200B; スケジューラーオプション &#x200B;](assets/create-an-orchestrated-campaign-scheduler-options.png " スケジューラーオプション ")
+キャンペーンワークフローが「スケジューラーオプション」を実行する頻度の![ スケジューラーオプション ](assets/create-an-orchestrated-campaign-scheduler-options.png " スケジューラーオプション ")
 
 
 

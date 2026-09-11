@@ -1,11 +1,10 @@
 ---
-hold: true
 title: 行をフィルタリング
 description: 分割アクティビティを使用してオプトアウトした顧客行を除外し、ディメンションの変更を使用して、ワークフローのターゲットディメンションとSMS チャネル設定を整合させる方法を説明します。
 doc-type: article
 solution: Experience Platform
 exl-id: fb556a27-5c73-4457-ae98-dba43d445c7f
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
 workflow-type: tm+mt
 source-wordcount: '776'
 ht-degree: 0%
@@ -25,35 +24,35 @@ ht-degree: 0%
 
 1. フォークアクティビティの下部のトランジションにある&#x200B;**+** アイコンをクリックし、ポップアップで「**分割**」アクティビティを選択します。
 
-![下部のフォーク ブランチに分割アクティビティを追加](assets/filter-the-lines-add-split-activity.png)
+   ![下部のフォーク ブランチに分割アクティビティを追加](assets/filter-the-lines-add-split-activity.png)
 
 
 
-&#x200B;2. 右側のパネルでラベルを更新し、次の内容を示します：`Filter out opt'd out lines`
+2. 右側のパネルでラベルを更新し、次の内容を示します：`Filter out opt'd out lines`
 
-![&#x200B; オプトアウト行を除外するように設定されたアクティビティ ラベルを分割](assets/filter-the-lines-set-split-label.png)
-
-
-
-&#x200B;3. 右側のパネルで、「**サブセット**」セクションを展開し、「**フィルターを作成**」ボタンをクリックします
-
-![&#x200B; サブセットセクションでフィルターボタンを作成](assets/filter-the-lines-create-filter-button.png)
+   ![ オプトアウト行を除外するように設定されたアクティビティ ラベルを分割](assets/filter-the-lines-set-split-label.png)
 
 
 
-&#x200B;4. SMS メッセージからオプトアウトされるすべての顧客行を削除する条件を追加し、**確認**&#x200B;をクリックします。
+3. 右側のパネルで、「**サブセット**」セクションを展開し、「**フィルターを作成**」ボタンをクリックします
 
-![SMSから顧客行を削除する条件](assets/filter-the-lines-sms-optin-condition.png)
-
->[!NOTE]
->
->条件の作成方法を理解する必要がありますが、最終的な結果は上記のスクリーンショットと一致します。  分かったぞ！
+   ![ サブセットセクションでフィルターボタンを作成](assets/filter-the-lines-create-filter-button.png)
 
 
 
-&#x200B;5. 右上の「保存」ボタンをクリックして、作品を保存します。  あなたのキャンバスは今このように見えます\...
+4. SMS メッセージからオプトアウトされるすべての顧客行を削除する条件を追加し、**確認**&#x200B;をクリックします。
 
-![分割アクティビティを保存した後のワークフローキャンバス &#x200B;](assets/filter-the-lines-canvas-after-split-save.png)
+   ![SMSから顧客行を削除する条件](assets/filter-the-lines-sms-optin-condition.png)
+
+   >[!NOTE]
+   >
+   >条件の作成方法を理解する必要がありますが、最終的な結果は上記のスクリーンショットと一致します。  分かったぞ！
+
+
+
+5. 右上の「保存」ボタンをクリックして、作品を保存します。  あなたのキャンバスは今このように見えます\...
+
+![分割アクティビティを保存した後のワークフローキャンバス ](assets/filter-the-lines-canvas-after-split-save.png)
 
 
 
@@ -61,19 +60,19 @@ ht-degree: 0%
 
 1. ワークフローキャンバスで、追加した分割条件の後にある&#x200B;**+** アイコンをクリックし、**SMS アクティビティ**&#x200B;を選択します
 
-![分割条件の後にSMS アクティビティを追加](assets/filter-the-lines-add-sms-activity.png)
+   ![分割条件の後にSMS アクティビティを追加](assets/filter-the-lines-add-sms-activity.png)
 
-![SMS アクティビティがワークフローキャンバスに追加されました](assets/filter-the-lines-sms-activity-on-canvas.png)
-
-
-
-&#x200B;2. 右側のパネルで「SMSを編集」ボタンをクリックして、SMS メッセージの設定を開始します
-
-![右側のパネルの「SMSを編集」ボタン &#x200B;](assets/filter-the-lines-edit-sms-button.png)
+   ![SMS アクティビティがワークフローキャンバスに追加されました](assets/filter-the-lines-sms-activity-on-canvas.png)
 
 
 
-&#x200B;3. 上部のナビゲーションで「アクション」メニュー項目をクリックし、SMS設定ドロップダウンから、以前に作成したチャネルを選択します。
+2. 右側のパネルで「SMSを編集」ボタンをクリックして、SMS メッセージの設定を開始します
+
+   ![右側のパネルの「SMSを編集」ボタン ](assets/filter-the-lines-edit-sms-button.png)
+
+
+
+3. 上部のナビゲーションで「アクション」メニュー項目をクリックし、SMS設定ドロップダウンから、以前に作成したチャネルを選択します。
 
 ![SMS設定ドロップダウンに結果エラーが表示されない](assets/filter-the-lines-sms-configuration-no-results.png)
 
@@ -109,27 +108,27 @@ SMSのチャネル設定は既に事前に設定されており、現在はこ�
 
 1. SMS編集画面の「戻る」ボタンをクリックします
 
-![SMS編集画面を終了するには、「戻る」ボタンを押します](assets/filter-the-lines-exit-sms-editor.png)
+   ![SMS編集画面を終了するには、「戻る」ボタンを押します](assets/filter-the-lines-exit-sms-editor.png)
 
 
 
-&#x200B;2. ワークフローキャンバスで、フィルターとSMS アクティビティの間にある&#x200B;**+** **アイコン**&#x200B;をクリックし、**ディメンションの変更**&#x200B;を選択します。
+2. ワークフローキャンバスで、フィルターとSMS アクティビティの間にある&#x200B;**+** **アイコン**&#x200B;をクリックし、**ディメンションの変更**&#x200B;を選択します。
 
-![&#x200B; フィルターとSMSの間でディメンション変更アクティビティを追加](assets/filter-the-lines-add-change-dimension.png)
+   ![ フィルターとSMSの間でディメンション変更アクティビティを追加](assets/filter-the-lines-add-change-dimension.png)
 
 
 
-&#x200B;3. 右側で、次の情報を使用して変更ディメンションを更新します。
+3. 右側で、次の情報を使用して変更ディメンションを更新します。
    - **ラベル：** `Convert Line to Account`
    - **新しいターゲットディメンション：**`dep-rel: Customer Account`
 
-![行をアカウントに変換するように設定されたディメンションの変更](assets/filter-the-lines-change-dimension-settings.png)
+   ![行をアカウントに変換するように設定されたディメンションの変更](assets/filter-the-lines-change-dimension-settings.png)
 
 
 
-&#x200B;4. キャンバスの右上にある「**保存**」ボタンをクリックして、作品を保存します。 完了すると、ワークフローは次のようになります。
+4. キャンバスの右上にある「**保存**」ボタンをクリックして、作品を保存します。 完了すると、ワークフローは次のようになります。
 
-![変更ディメンションを追加した後のワークフローキャンバス &#x200B;](assets/filter-the-lines-workflow-after-change-dimension.png)
+![変更ディメンションを追加した後のワークフローキャンバス ](assets/filter-the-lines-workflow-after-change-dimension.png)
 
 
 
@@ -141,17 +140,17 @@ SMSのチャネル設定は既に事前に設定されており、現在はこ�
 
 1. ワークフローキャンバスのSMS アクティビティをクリックし、左側のパネルで「**SMSを編集**」ボタンをクリックします
 
-![SMS メッセージを再構成するためのSMSの編集ボタン &#x200B;](assets/filter-the-lines-edit-sms-button.png)
+   ![SMS メッセージを再構成するためのSMSの編集ボタン ](assets/filter-the-lines-edit-sms-button.png)
 
->[!NOTE]
->
->この画面の読み込みに時間がかかります。  迷惑だと思いますし、修正だと信じています
-
-
+   >[!NOTE]
+   >
+   >この画面の読み込みに時間がかかります。  迷惑だと思いますし、修正だと信じています
 
 
 
-&#x200B;2. 上部のナビゲーションで&#x200B;**アクション** メニュー項目をクリックし、SMS設定ドロップダウンから、以前に作成したチャネルを選択します。
+
+
+2. 上部のナビゲーションで&#x200B;**アクション** メニュー項目をクリックし、SMS設定ドロップダウンから、以前に作成したチャネルを選択します。
 
 ![SMS設定で、選択したチャネルが正常に表示されました](assets/filter-the-lines-sms-configuration-selected.png)
 

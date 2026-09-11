@@ -1,11 +1,10 @@
 ---
-hold: true
 title: カスタム Personalizationの宛先の設定
 description: サードパーティのパーソナライゼーションシステムでリアルタイムに使用するために、Edge Networkにプロファイル属性を送信するカスタム Personalizationの宛先を設定します。
 doc-type: article
 solution: Experience Platform
 exl-id: 46073f7c-00f4-4a4f-9fa3-8827ef15ec4a
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 0b33b2740ee7f5af73d64f217b4475650c1d28a0
 workflow-type: tm+mt
 source-wordcount: '545'
 ht-degree: 0%
@@ -15,7 +14,7 @@ ht-degree: 0%
 
 # カスタム Personalizationの宛先の設定
 
-[&#x200B; カスタム Personalization Destination](https://experienceleague.adobe.com/ja/docs/experience-platform/destinations/catalog/personalization/custom-personalization)を使用すると、Edgeでオーディエンスを利用できるようになります。これは、通常はNetwork Server APIを使用して、パーソナライズに使用します。
+[ カスタム Personalization Destination](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/personalization/custom-personalization)を使用すると、Edgeでオーディエンスを利用できるようになります。これは、通常はNetwork Server APIを使用して、パーソナライズに使用します。
 
 このラボでは、プロファイル属性をEdgeに送信できるように、カスタム Personalizationの宛先を設定します。
 
@@ -25,14 +24,14 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Adobe Targetを使用したパーソナライズには、[Adobe Target Destination.](https://experienceleague.adobe.com/ja/docs/experience-platform/destinations/catalog/personalization/adobe-target-v2)を使用します。 このビヘイビアーは、カスタム Personalizationと同じです。
+>Adobe Targetを使用したパーソナライズには、[Adobe Target Destination.](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/personalization/adobe-target-v2)を使用します。 このビヘイビアーは、カスタム Personalizationと同じです。
 
 1. 左側のパネルで「**宛先**」をクリックします
 1. 上部パネルで「**カタログ**」をクリックします
 1. 次に、**Personalization**&#x200B;のカテゴリを選択します
 1. 画面の中央に、**属性を持つカスタム Personalization**&#x200B;というタイトルの宛先が表示されます。 そのカードの「**設定**」ボタンをクリックします。
 
-![&#x200B; カスタム Personalizationの宛先カタログを参照](assets/setup-custom-personalization-destination-browse-destination-catalog.png " カスタム Personalizationの宛先カタログを参照")
+![ カスタム Personalizationの宛先カタログを参照](assets/setup-custom-personalization-destination-browse-destination-catalog.png " カスタム Personalizationの宛先カタログを参照")
 
 
 
@@ -67,7 +66,7 @@ ht-degree: 0%
 
 **オンサイト Personalization**&#x200B;を選択し、**作成** ボタンをクリックします
 
-![&#x200B; ガバナンスポリシーの選択](assets/setup-custom-personalization-destination-select-governance-policy.png " ガバナンスポリシーの選択")
+![ ガバナンスポリシーの選択](assets/setup-custom-personalization-destination-select-governance-policy.png " ガバナンスポリシーの選択")
 
 >[!NOTE]
 >
@@ -105,7 +104,7 @@ ht-degree: 0%
 | ---------------------- | ------------ |
 | \_tenantName.plan.name | プラン名 |
 
-&#x200B;> [!NOTE]
+>[!NOTE]
 >
 >**\_tenantName**&#x200B;をテナント名に置き換えることを忘れないでください
 
@@ -121,7 +120,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->プロファイル属性には機密データが含まれる場合があるため、Edge上で属性を取得するには、すべての[Edge Network Server API](https://experienceleague.adobe.com/ja/docs/experience-platform/edge-network-server-api/overview)呼び出しを認証済みコンテキストで実行する必要があります。
+>プロファイル属性には機密データが含まれる場合があるため、Edge上で属性を取得するには、すべての[Edge Network Server API](https://experienceleague.adobe.com/en/docs/experience-platform/edge-network-server-api/overview)呼び出しを認証済みコンテキストで実行する必要があります。
 
 
 ### レビュー
@@ -132,4 +131,4 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->これは、[自動適用](https://experienceleague.adobe.com/ja/docs/experience-platform/data-governance/enforcement/auto-enforcement)が[&#x200B; データ使用ポリシー](https://experienceleague.adobe.com/ja/docs/experience-platform/data-governance/policies/overview)と照合するポイントです。 作成したルールでマーケティングアクションを確認し、エラーを発生させます。
+>これは、[自動適用](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/enforcement/auto-enforcement)が[ データ使用ポリシー](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/policies/overview)と照合するポイントです。 作成したルールでマーケティングアクションを確認し、エラーを発生させます。

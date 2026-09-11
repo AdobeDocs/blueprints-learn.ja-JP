@@ -1,11 +1,10 @@
 ---
-hold: true
 title: プラン参照IDの作成
 description: スキーマレジストリ APIを使用して、参照スキーマに参照ID記述子を作成し、バッチセグメント化で使用できるようにします。
 doc-type: article
 solution: Experience Platform
 exl-id: b3b8f480-af3b-4bf8-b74e-3842f59691b6
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
 workflow-type: tm+mt
 source-wordcount: '243'
 ht-degree: 0%
@@ -17,17 +16,17 @@ ht-degree: 0%
 
 1. `XDM Schema Lab -> Create Relationship Descriptors` フォルダーの`Step 3 - Reference Descriptor for Plan` API リクエストをクリックします
 
->[!CAUTION]
->
->リクエストを実行しないでください…まだ
+   >[!CAUTION]
+   >
+   >リクエストを実行しないでください…まだ
 
-![&#x200B; ステップ 3 - プラン スキーマ API リクエストの参照記述子](assets/create-plan-reference-identity-step-3-descriptor-request.jpeg " ステップ 3 - プラン スキーマの参照記述子")
+   ![ ステップ 3 - プラン スキーマ API リクエストの参照記述子](assets/create-plan-reference-identity-step-3-descriptor-request.jpeg " ステップ 3 - プラン スキーマの参照記述子")
 
 
 
-&#x200B;2. API呼び出しの本文で次のプロパティを更新します。
+2. API呼び出しの本文で次のプロパティを更新します。
 
-- `xdm:sourceSchema` プロパティの値を、[&#x200B; スキーマの作成](../build-schema/create-schema.md) ステップから保存した`Customer Account` スキーマの`$id`に更新します
+- `xdm:sourceSchema` プロパティの値を、[ スキーマの作成](../build-schema/create-schema.md) ステップから保存した`Customer Account` スキーマの`$id`に更新します
 - `xdm:sourceProperty`の値を`Customer Account` スキーマの`planID` フィールドのパスに更新します
 
 >[!NOTE]
@@ -54,9 +53,9 @@ ht-degree: 0%
 
 
 
-&#x200B;3. `Save` ボタンを使用し続ける前に、リクエストを保存してください
+3. `Save` ボタンを使用し続ける前に、リクエストを保存してください
 
-&#x200B;4. `Send` ボタンをクリックしてAPIを実行します
+4. `Send` ボタンをクリックしてAPIを実行します
 
 次のような`201 Created`応答が表示されます
 

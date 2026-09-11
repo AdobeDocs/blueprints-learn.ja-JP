@@ -1,11 +1,10 @@
 ---
-hold: true
 title: 取り込まれたイベントを検証
 description: 注文出荷イベントがプロファイルに取り込まれたことを確認し、予想されるオーディエンスに対して認定されます。
 doc-type: article
 solution: Experience Platform
 exl-id: c04397dd-8b5c-48a8-82b5-78188b8374f1
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
 workflow-type: tm+mt
 source-wordcount: '274'
 ht-degree: 0%
@@ -26,24 +25,24 @@ ht-degree: 0%
    - **ID値** -> `henry.creel@emailsim.io`
 2. 「**イベント**」タブをクリックします。 `orders.shipped` イベントを探します。
 
-プロファイルの「イベント」タブに表示される![orders.shipped イベント &#x200B;](assets/validate-event-ingested-orders-shipped-event.png)
+   プロファイルの「イベント」タブに表示される![orders.shipped イベント ](assets/validate-event-ingested-orders-shipped-event.png)
 
->[!WARNING]
->
->**message.feedback** イベントが発生しました。  これらはジャーニーによるもので、通常は失敗または除外を示します。  それらをクリックし、`reason`を確認します。
->
->本番環境では、次のような例に遭遇する可能性があります。
->
->- EmailNoAddressFoundInProfile （電子メールを持っていないプロファイルに電子メールを送信しようとしました）
->- EmailNoConsent （同意が「いいえ」に設定されているプロファイルに電子メールを送信しようとしました。
+   >[!WARNING]
+   >
+   >**message.feedback** イベントが発生しました。  これらはジャーニーによるもので、通常は失敗または除外を示します。  それらをクリックし、`reason`を確認します。
+   >
+   >本番環境では、次のような例に遭遇する可能性があります。
+   >
+   >- EmailNoAddressFoundInProfile （電子メールを持っていないプロファイルに電子メールを送信しようとしました）
+   >- EmailNoConsent （同意が「いいえ」に設定されているプロファイルに電子メールを送信しようとしました。
 
 
 
-&#x200B;3. プロファイルが&#x200B;**オーディエンス**&#x200B;に適格であることを検証します（数分かかる場合があります）。
+3. プロファイルが&#x200B;**オーディエンス**&#x200B;に適格であることを検証します（数分かかる場合があります）。
    - Any Event Edge（15分以内）
    - 任意のイベントストリーミング（15分以内）
 
-![任意のイベント Edgeおよび任意のイベントストリーミングオーディエンスに適格なプロファイル &#x200B;](assets/validate-event-ingested-profile-qualified-audiences.png)
+![任意のイベント Edgeおよび任意のイベントストリーミングオーディエンスに適格なプロファイル ](assets/validate-event-ingested-profile-qualified-audiences.png)
 
 
 
@@ -54,10 +53,10 @@ ht-degree: 0%
 1. Postmanに戻り、**出荷注文イベント**&#x200B;を見つけます
 2. **Body**&#x200B;をクリックし、**電子メールアドレス**&#x200B;を自分のものに変更します。
 
-![Postman リクエスト本文でメールアドレスが変更されました](assets/validate-event-ingested-change-email-in-postman-body.png)
+   ![Postman リクエスト本文でメールアドレスが変更されました](assets/validate-event-ingested-change-email-in-postman-body.png)
 
-&#x200B;3. **保存**&#x200B;して、**送信**&#x200B;をクリックします。
-&#x200B;4. 手順1～3に戻り、電子メールアドレスを使用して検証します。
+3. **保存**&#x200B;して、**送信**&#x200B;をクリックします。
+4. 手順1～3に戻り、電子メールアドレスを使用して検証します。
 
 ## まとめ
 

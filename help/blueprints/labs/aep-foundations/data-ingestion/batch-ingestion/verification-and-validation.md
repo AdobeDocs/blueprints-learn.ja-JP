@@ -1,11 +1,10 @@
 ---
-hold: true
 title: 検証と検証
 description: UIで取り込んだデータセットをプレビューし、SQL クエリを実行して、バッチ取り込まれたレコードとネストされたスキーマフィールドを検証します。
 doc-type: article
 solution: Experience Platform
 exl-id: 7e7cd43d-cc24-4a40-a175-2c651436ab79
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
 workflow-type: tm+mt
 source-wordcount: '304'
 ht-degree: 0%
@@ -20,13 +19,13 @@ ht-degree: 0%
 1. **データセット**&#x200B;をクリック
 1. **作成したデータセット名を**&#x200B;検索して&#x200B;**クリック**&#x200B;します。
 
-![&#x200B; データセット ペインでデータセット名を検索してクリック &#x200B;](assets/verification-and-validation-access-dataset-in-datasets-pane.png " データセット ペインでデータセットにアクセス ")
+   ![ データセット ペインでデータセット名を検索してクリック ](assets/verification-and-validation-access-dataset-in-datasets-pane.png " データセット ペインでデータセットにアクセス ")
 
 
 
 1. 右上隅の「**データセットをプレビュー**」をクリックします
 
-![&#x200B; データセット画面の右上隅にある「データセットをプレビュー」ボタンの場所](assets/verification-and-validation-preview-dataset-button-location.png " データセットをプレビューは右上隅にあります")
+   ![ データセット画面の右上隅にある「データセットをプレビュー」ボタンの場所](assets/verification-and-validation-preview-dataset-button-location.png " データセットをプレビューは右上隅にあります")
 
 
 
@@ -45,7 +44,7 @@ ht-degree: 0%
 1. プレビューを&#x200B;**閉じる**
 1. データセット画面で、**テーブル名**&#x200B;のコピーアイコンをクリックします。 下の例の画面では、テーブル名は`customer_account_sm`です
 
-![&#x200B; データセット画面のテーブル名の横にあるコピーアイコン &#x200B;](assets/verification-and-validation-copy-table-name.png " テーブル名をコピー")
+   ![ データセット画面のテーブル名の横にあるコピーアイコン ](assets/verification-and-validation-copy-table-name.png " テーブル名をコピー")
 
 
 
@@ -53,21 +52,21 @@ ht-degree: 0%
 
 1. 「**クエリを作成**」をクリック
 
-![&#x200B; クエリセクションの「クエリを作成」ボタン &#x200B;](assets/verification-and-validation-access-the-query-editor.png)
+   ![ クエリセクションの「クエリを作成」ボタン ](assets/verification-and-validation-access-the-query-editor.png)
 
 
 
 1. 次のSQL クエリを&#x200B;**Editor**&#x200B;にコピー&amp;ペーストします。 `<table_name>`を手順6で取得した値に置き換えることを忘れないでください。
 
-```sql
-SELECT * FROM <table_name>
-```
+   ```sql
+   SELECT * FROM <table_name>
+   ```
 
 
 
 1. 「**再生**」ボタンを押します。
 
-![SQL クエリと再生ボタンを備えたクエリエディターインターフェイス &#x200B;](assets/verification-and-validation-query-editor-interface.png " クエリエディターインターフェイス ")
+   ![SQL クエリと再生ボタンを備えたクエリエディターインターフェイス ](assets/verification-and-validation-query-editor-interface.png " クエリエディターインターフェイス ")
 
 
 

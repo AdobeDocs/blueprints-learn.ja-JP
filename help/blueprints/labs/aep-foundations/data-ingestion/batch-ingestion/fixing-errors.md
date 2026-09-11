@@ -1,11 +1,10 @@
 ---
-hold: true
 title: エラーの修正
 description: 日付の書式設定エラーの計算フィールド式を修正し、ソース、ID、プロファイルのモニタリング指標を使用して成功を確認します。
 doc-type: article
 solution: Experience Platform
 exl-id: 7a3d0c15-4d58-497e-bfa5-9421d5d2eea7
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
 workflow-type: tm+mt
 source-wordcount: '659'
 ht-degree: 0%
@@ -19,17 +18,17 @@ ht-degree: 0%
 
 1. **person.birthDayAndMonth** XDM フィールドに入力する計算フィールドの横にある矢印アイコンをクリックします
 
-![birthDayAndMonth修正のための計算フィールド式エディター](assets/fixing-errors-update-the-calculated-expression.png)
+   ![birthDayAndMonth修正のための計算フィールド式エディター](assets/fixing-errors-update-the-calculated-expression.png)
 
 1. 以下の計算フィールドコードを使用して式を更新し、**プレビュー**&#x200B;をクリックします
 
-```none
-concat(date_part("mm", date(birth_Date, "M/d/yyyy")).toString(),"-", date_part("dd", date(birth_Date, "M/d/yyyy")).toString())
-```
+   ```none
+   concat(date_part("mm", date(birth_Date, "M/d/yyyy")).toString(),"-", date_part("dd", date(birth_Date, "M/d/yyyy")).toString())
+   ```
 
->[!NOTE]
->
->データは2桁の月と2桁の日として表示されます（例：4月27日を04-27として示します）。 `mm`と`dd` パラメーターは0個のパディングを追加します。
+   >[!NOTE]
+   >
+   >データは2桁の月と2桁の日として表示されます（例：4月27日を04-27として示します）。 `mm`と`dd` パラメーターは0個のパディングを追加します。
 
 1. すべてが正常に見える場合&#x200B;**計算フィールドを保存**&#x200B;します
 
@@ -41,7 +40,7 @@ concat(date_part("mm", date(birth_Date, "M/d/yyyy")).toString(),"-", date_part("
 
 数分後、データフロー実行が実行され、成功が表示されます。
 
-顧客アカウントの取り込みに成功したことを示す![&#x200B; データフロー実行ステータス &#x200B;](assets/fixing-errors-successful-customer-account-ingestion.png "顧客アカウントの取り込みに成功")
+顧客アカウントの取り込みに成功したことを示す![ データフロー実行ステータス ](assets/fixing-errors-successful-customer-account-ingestion.png "顧客アカウントの取り込みに成功")
 
 
 
@@ -54,7 +53,7 @@ concat(date_part("mm", date(birth_Date, "M/d/yyyy")).toString(),"-", date_part("
    - **レコードが失敗しました：**&#x200B;ここに0が表示されます。 これは、取り込みエラーとDCVS エラーの合計数を表します。 MAPPERの警告は除外されます。
    - **取り込み率：**&#x200B;これは、受信したレコードに対して取り込まれたレコードの比率です。 受信したレコードの100%が正常に処理されました
 
-監視画面の![&#x200B; ソースカードに、受信、取り込み、失敗したレコードが表示されている](assets/fixing-errors-sources-ingestion-metrics.png " ソース取り込み指標")
+監視画面の![ ソースカードに、受信、取り込み、失敗したレコードが表示されている](assets/fixing-errors-sources-ingestion-metrics.png " ソース取り込み指標")
 
 >[!NOTE]
 >
@@ -102,7 +101,7 @@ concat(date_part("mm", date(birth_Date, "M/d/yyyy")).toString(),"-", date_part("
 >
 >**スキップされたレコード**&#x200B;指標は、プロファイルでは使用できません。
 
-監視画面の![&#x200B; プロファイルカードに表示されているプロファイルフラグメント指標](assets/fixing-errors-profile-service-ingestion-metrics.png " プロファイルサービス取り込み指標")
+監視画面の![ プロファイルカードに表示されているプロファイルフラグメント指標](assets/fixing-errors-profile-service-ingestion-metrics.png " プロファイルサービス取り込み指標")
 
 >[!NOTE]
 >

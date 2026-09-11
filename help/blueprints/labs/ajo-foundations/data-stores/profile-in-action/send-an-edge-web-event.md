@@ -1,11 +1,10 @@
 ---
-hold: true
 title: Edge web イベントの送信
 description: データストリーム IDを使用して、Postman API呼び出しを介してシミュレートされたweb イベントをAdobe Edge Networkに送信する方法を説明します。
 doc-type: article
 solution: Experience Platform
 exl-id: 0823bcf7-35d9-492e-ad8d-3e8327f77dd8
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
 workflow-type: tm+mt
 source-wordcount: '437'
 ht-degree: 0%
@@ -56,7 +55,7 @@ API リクエストを実行する前に、データストリーム IDをPostman
 >1. 左側のパネルで「**データストリーム**」（「データ収集」見出しの下）をクリックします
 >2. データストリームを選択し、**データストリーム ID**&#x200B;値をコピーします
 >
->![&#x200B; コピーするデータストリーム IDを示すデータストリームリスト &#x200B;](assets/send-an-edge-web-event-gather-datastream-id.png)
+>![ コピーするデータストリーム IDを示すデータストリームリスト ](assets/send-an-edge-web-event-gather-datastream-id.png)
 
 
 
@@ -73,18 +72,18 @@ API リクエストを実行する前に、データストリーム IDをPostman
 
 1. 右上の「**リクエストの変数**」をクリックします
 
-Postman ツールバーの「![&#x200B; リクエスト内の変数」オプション &#x200B;](assets/send-an-edge-web-event-click-variables-in-request.png)
+   Postman ツールバーの「![ リクエスト内の変数」オプション ](assets/send-an-edge-web-event-click-variables-in-request.png)
 
-&#x200B;2. ページの最初のステップから&#x200B;**データストリーム ID**&#x200B;を使用して、**DATASTREAM_CONFIG** **Value**&#x200B;を更新します。
+2. ページの最初のステップから&#x200B;**データストリーム ID**&#x200B;を使用して、**DATASTREAM_CONFIG** **Value**&#x200B;を更新します。
 
-![DATASTREAM_CONFIG変数がデータストリーム ID](assets/send-an-edge-web-event-update-datastream-config-variable.png)で更新されました
+   ![DATASTREAM_CONFIG変数がデータストリーム ID](assets/send-an-edge-web-event-update-datastream-config-variable.png)で更新されました
 
-&#x200B;3. **更新プログラムを保存**&#x200B;します（ctrl+sまたはcommand+s）
-&#x200B;4. 環境サイドバーの右上隅にある「**X**」をクリックして、サイドバーを閉じます
+3. **更新プログラムを保存**&#x200B;します（ctrl+sまたはcommand+s）
+4. 環境サイドバーの右上隅にある「**X**」をクリックして、サイドバーを閉じます
 
-![保存後にPostman環境サイドバーを閉じる](assets/send-an-edge-web-event-close-environment-sidebar.png)
+   ![保存後にPostman環境サイドバーを閉じる](assets/send-an-edge-web-event-close-environment-sidebar.png)
 
-&#x200B;5. すべての変数が青になり、環境に値が含まれるようになったため、**Web イベントの作成**&#x200B;要求を送信する準備ができました。
+5. すべての変数が青になり、環境に値が含まれるようになったため、**Web イベントの作成**&#x200B;要求を送信する準備ができました。
 
 ![すべての変数が入力されたWeb イベントリクエストを作成](assets/send-an-edge-web-event-request-ready-to-send.png)
 

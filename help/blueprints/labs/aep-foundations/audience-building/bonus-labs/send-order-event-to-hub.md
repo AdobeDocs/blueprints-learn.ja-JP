@@ -1,11 +1,10 @@
 ---
-hold: true
 title: Hubへの注文イベントの送信
 description: APIを介して注文イベントをハブにストリーミングする方法、ストリーミング注文セグメントを作成する方法、宛先にアクティベートする方法、プロファイル結果を検証する方法について説明します。
 doc-type: article
 solution: Experience Platform
 exl-id: d5de39d7-7340-487a-86fa-504344daeab7
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 0b33b2740ee7f5af73d64f217b4475650c1d28a0
 workflow-type: tm+mt
 source-wordcount: '669'
 ht-degree: 0%
@@ -42,7 +41,7 @@ ht-degree: 0%
 
 
 
-![&#x200B; ストリーミング評価を使用して、オーディエンスを注文イベントストリーミングとして（15分以内）保存](assets/send-order-event-to-hub-save-streaming-evaluation-rule.png)
+![ ストリーミング評価を使用して、オーディエンスを注文イベントストリーミングとして（15分以内）保存](assets/send-order-event-to-hub-save-streaming-evaluation-rule.png)
 
 ## 宛先にアクティベート
 
@@ -52,7 +51,7 @@ ht-degree: 0%
 
 
 
-![注文オーディエンスの「宛先にアクティベート」をクリック &#x200B;](assets/send-order-event-to-hub-click-activate-to-destination.png)
+![注文オーディエンスの「宛先にアクティベート」をクリック ](assets/send-order-event-to-hub-click-activate-to-destination.png)
 
 ### 宛先
 
@@ -60,13 +59,13 @@ ht-degree: 0%
 
 
 
-![&#x200B; ストリーミング DEP Webhookの宛先を選択](assets/send-order-event-to-hub-select-streaming-destination.png)
+![ ストリーミング DEP Webhookの宛先を選択](assets/send-order-event-to-hub-select-streaming-destination.png)
 
 ### マッピング
 
 マッピングを単独のままにして、「次へ」をクリックします
 
-![&#x200B; マッピングを変更せずに、「次へ」をクリックします](assets/send-order-event-to-hub-leave-mapping-click-next.png)
+![ マッピングを変更せずに、「次へ」をクリックします](assets/send-order-event-to-hub-leave-mapping-click-next.png)
 
 「Finish」をクリックします
 
@@ -93,7 +92,7 @@ ht-degree: 0%
 1. 左側のパネルの&#x200B;**ソース**&#x200B;に移動し、上部のナビゲーションの&#x200B;**アカウント**&#x200B;をクリックします
 1. **dep: HTTP API \[raw]**&#x200B;を検索し、行を強調表示して、**ストリーミングエンドポイント**&#x200B;の値を後で参照できる場所にコピーして保存します
 
- アカウントを作成し、そのストリーミングエンドポイントをコピーします&rbrack; （assets/send-order-event-to-hub-http-api-raw-streaming-endpoint.png &quot;dep: HTTP API \[raw]&quot;）
+ アカウントを作成し、そのストリーミングエンドポイントをコピーします] （assets/send-order-event-to-hub-http-api-raw-streaming-endpoint.png &quot;dep: HTTP API \[raw]&quot;）
 
 ## データフローIDの検索
 
@@ -115,11 +114,11 @@ ht-degree: 0%
 
 最終的なAPI リクエストは、次のようになります
 
-&#x200B;> [!CAUTION]
+>[!CAUTION]
 >
 >まだ実行しないでください。
 
-![&#x200B; ストリーミングエンドポイントとデータフローIDが入力された注文イベント APIの作成リクエストを完了しました](assets/send-order-event-to-hub-final-order-api-request.png)
+![ ストリーミングエンドポイントとデータフローIDが入力された注文イベント APIの作成リクエストを完了しました](assets/send-order-event-to-hub-final-order-api-request.png)
 
 
 ## APIの実行

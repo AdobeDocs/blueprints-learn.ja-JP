@@ -1,11 +1,10 @@
 ---
-hold: true
 title: 事前作業
 description: 請求の使用状況とプラン名に関するスキーマフィールドを調査し、説明が欠落している場合やフィールドが重複している場合に、オーディエンスビルダーを混乱させる可能性があることを強調します。
 doc-type: article
 solution: Experience Platform
 exl-id: c26de19e-82da-4070-a918-2d2c8ef2c116
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 0b33b2740ee7f5af73d64f217b4475650c1d28a0
 workflow-type: tm+mt
 source-wordcount: '285'
 ht-degree: 0%
@@ -22,15 +21,15 @@ ht-degree: 0%
 1. 新しいオーディエンスの作成
 1. 属性で「使用状況」を検索します。 「i」をクリックして説明を確認します（なし）。
 
-![属性での使用状況の検索 – 説明が表示されていません](assets/pre-work-search-usage-in-attributes.png)
+   ![属性での使用状況の検索 – 説明が表示されていません](assets/pre-work-search-usage-in-attributes.png)
 
 
 
-&#x200B;3. イベントで「使用状況」を検索します。  「i」をクリックして説明を確認します（なし）。
+3. イベントで「使用状況」を検索します。  「i」をクリックして説明を確認します（なし）。
 
-![&#x200B; イベントでの使用状況の検索 – 説明なし](assets/pre-work-search-usage-in-events.png)
+![ イベントでの使用状況の検索 – 説明なし](assets/pre-work-search-usage-in-events.png)
 
-&#x200B;> [!NOTE]
+>[!NOTE]
 >
 >これらにはどちらも説明がないので、マーケターはいくつかの仮定を立て、間違って推測する可能性があります。
 >
@@ -41,7 +40,8 @@ ht-degree: 0%
 >- 特定のユースケースで推奨/推奨されるか？
 >
 >これらの情報を説明することで、より的確に誘導できます。
-> [!NOTE]
+
+>[!NOTE]
 >
 >「請求」を検索してみてください。  プロファイル属性として表示されないことに注意してください。  「請求データ使用状況」フィールドとともに、イベントタイプカードとして表示されます。
 >

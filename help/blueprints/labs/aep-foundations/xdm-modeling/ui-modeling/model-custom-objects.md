@@ -1,11 +1,10 @@
 ---
-hold: true
 title: カスタムオブジェクトのモデル化
 description: スキーマエディターで、列挙値を含むカスタムアカウント、プラン、customerIDのフィールドとオブジェクトを構築して、標準フィールドグループに対応しないデータをモデル化します。
 doc-type: article
 solution: Experience Platform
 exl-id: 8c39b226-05f3-458a-b023-c59221a6713a
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
 workflow-type: tm+mt
 source-wordcount: '996'
 ht-degree: 0%
@@ -36,11 +35,11 @@ ht-degree: 0%
 
 1. スキーマの上部にある「**+（追加）**」ボタンをクリックして、新しいフィールドを追加します
 
-![&#x200B; スキーマの上部にある（+） ボタンを追加して、カスタムフィールドを追加します](assets/model-custom-objects-add-a-custom-field-to-your-schema.png)
+   ![ スキーマの上部にある（+） ボタンを追加して、カスタムフィールドを追加します](assets/model-custom-objects-add-a-custom-field-to-your-schema.png)
 
->[!NOTE]
->
->右側のパネルが開き、入力するフィールドがいくつか表示されます
+   >[!NOTE]
+   >
+   >右側のパネルが開き、入力するフィールドがいくつか表示されます
 
 
 
@@ -73,14 +72,14 @@ ht-degree: 0%
 
 1. 作成したアカウントオブジェクトの下に、以下のフィールドを追加します。
 
-| フィールド名 | 表示名 | タイプ |
-| ------------ | ------------- | ---------- |
-| *createDate* | *作成日* | *日時* |
-| *endDate* | *終了日* | *日時* |
+   | フィールド名 | 表示名 | タイプ |
+   | ------------ | ------------- | ---------- |
+   | *createDate* | *作成日* | *日時* |
+   | *endDate* | *終了日* | *日時* |
 
->[!NOTE]
->
->新しいフィールドを追加する際に、「**割り当て**」オプションが既に入力されており、アカウントオブジェクトに使用したフィールドグループを参照していることがわかります。
+   >[!NOTE]
+   >
+   >新しいフィールドを追加する際に、「**割り当て**」オプションが既に入力されており、アカウントオブジェクトに使用したフィールドグループを参照していることがわかります。
 
 
 
@@ -88,28 +87,28 @@ ht-degree: 0%
 
 
 
-![&#x200B; アカウントオブジェクトと子フィールドを追加した顧客アカウントスキーマ &#x200B;](assets/model-custom-objects-account-object-with-child-fields.png)
+   ![ アカウントオブジェクトと子フィールドを追加した顧客アカウントスキーマ ](assets/model-custom-objects-account-object-with-child-fields.png)
 
 
 
 1. アカウントオブジェクトにさらに1つのカスタムフィールドを追加します。 アカウントオブジェクトの横にある「**+（追加）**」ボタンをクリックします。  次のフィールドを作成します。
 
-| フィールド名 | 表示名 | タイプ | 列挙 |
-| ----------- | ----------------- | -------- | --------------------------------------- |
-| *acqSource* | *獲得したSource* | *文字列* | *web :: Web *<br />*inStore :: In Store* |
+   | フィールド名 | 表示名 | タイプ | 列挙 |
+   | ----------- | ----------------- | -------- | --------------------------------------- |
+   | *acqSource* | *獲得したSource* | *文字列* | *web :: Web *<br />*inStore :: In Store* |
 
-このフィールドには標準化された値が必要なので、フィールドプロパティ内で&#x200B;**列挙と推奨値** オプションを使用します。 取り込み時にこのフィールドの検証を追加し、わかりやすいラベルを追加するには、**列挙** ラジオボタンを選択します。 次に示すように、列挙値を追加します。
+   このフィールドには標準化された値が必要なので、フィールドプロパティ内で&#x200B;**列挙と推奨値** オプションを使用します。 取り込み時にこのフィールドの検証を追加し、わかりやすいラベルを追加するには、**列挙** ラジオボタンを選択します。 次に示すように、列挙値を追加します。
 
-- *web :: Web*
-- *inStore :: In Store*
+   - *web :: Web*
+   - *inStore :: In Store*
 
 
 
-![取得Source フィールドに追加されたWebおよびinStoreの列挙値](assets/model-custom-objects-enum-values-for-acquisition-source-field.png)
+   ![取得Source フィールドに追加されたWebおよびinStoreの列挙値](assets/model-custom-objects-enum-values-for-acquisition-source-field.png)
 
->[!NOTE]
->
->列挙と推奨値の目標は、エンドユーザーのセグメンテーションを簡単にすることです。 列挙は、データ取り込み時に検証を適用しますが、推奨値は適用されません。 この機能について詳しくは、こちらのドキュメントをご覧ください – > [https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/fields/enum.html?lang=ja#enums-and-suggested-values](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/fields/enum.html?lang=ja#enums-and-suggested-values)
+   >[!NOTE]
+   >
+   >列挙と推奨値の目標は、エンドユーザーのセグメンテーションを簡単にすることです。 列挙は、データ取り込み時に検証を適用しますが、推奨値は適用されません。 この機能について詳しくは、こちらのドキュメントをご覧ください – > [https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/fields/enum.html?lang=en#enums-and-suggested-values](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/fields/enum.html?lang=en#enums-and-suggested-values)
 
 
 
@@ -152,7 +151,7 @@ ht-degree: 0%
 
 
 
-![&#x200B; プランオブジェクトと子フィールドを含む顧客アカウントスキーマ &#x200B;](assets/model-custom-objects-plan-object-with-child-fields.png)
+![ プランオブジェクトと子フィールドを含む顧客アカウントスキーマ ](assets/model-custom-objects-plan-object-with-child-fields.png)
 
 >[!TIP]
 >
@@ -180,7 +179,7 @@ ht-degree: 0%
 
 最終的な結果は、完了時に以下のスクリーンショットのようになります
 
-![customerID フィールドがルート &#x200B;](assets/model-custom-objects-customerid-field-added.png)に追加された顧客アカウントスキーマ
+![customerID フィールドがルート ](assets/model-custom-objects-customerid-field-added.png)に追加された顧客アカウントスキーマ
 
 
 
@@ -188,7 +187,7 @@ ht-degree: 0%
 
 
 
-![すべてのカスタムオブジェクトとフィールドが追加された最終スキーマ &#x200B;](assets/model-custom-objects-final-schema-with-custom-objects.jpeg " カスタムオブジェクトを使用した最終スキーマ ")
+![すべてのカスタムオブジェクトとフィールドが追加された最終スキーマ ](assets/model-custom-objects-final-schema-with-custom-objects.jpeg " カスタムオブジェクトを使用した最終スキーマ ")
 
 >[!TIP]
 >

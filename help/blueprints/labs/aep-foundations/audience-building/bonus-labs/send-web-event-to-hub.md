@@ -1,11 +1,10 @@
 ---
-hold: true
 title: Web イベントをHubに送信
 description: Postmanを使用してWeb イベントをHubに直接送信し、プロファイルに到達し、ストリーミングセグメントに適格であることを検証する方法を説明します。
 doc-type: article
 solution: Experience Platform
 exl-id: a8343499-b4d5-4540-8fe1-7497bc20e437
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 0b33b2740ee7f5af73d64f217b4475650c1d28a0
 workflow-type: tm+mt
 source-wordcount: '500'
 ht-degree: 0%
@@ -40,7 +39,7 @@ ht-degree: 0%
 1. 左側のパネルの&#x200B;**ソース**&#x200B;に移動し、上部のナビゲーションの&#x200B;**アカウント**&#x200B;をクリックします
 1. **dep: HTTP API \[raw]**&#x200B;を検索し、行を強調表示して、**ストリーミングエンドポイント**&#x200B;の値を後で参照できる場所にコピーして保存します
 
- アカウントを作成し、そのストリーミングエンドポイントをコピーします&rbrack; （assets/send-order-event-to-hub-http-api-raw-streaming-endpoint.png &quot;dep: HTTP API \[raw]&quot;）
+ アカウントを作成し、そのストリーミングエンドポイントをコピーします] （assets/send-order-event-to-hub-http-api-raw-streaming-endpoint.png &quot;dep: HTTP API \[raw]&quot;）
 
 ## Web データフローIDの検索
 
@@ -63,11 +62,11 @@ ht-degree: 0%
 
 最終的なAPI リクエストは、次のようになります
 
-&#x200B;> [!CAUTION]
+>[!CAUTION]
 >
 >まだ実行しないでください。
 
-![&#x200B; ストリーミングエンドポイントとデータフローIDが](assets/send-web-event-to-hub-final-web-api-request.png)に入力されたWeb イベント APIの作成リクエストを完了しました
+![ ストリーミングエンドポイントとデータフローIDが](assets/send-web-event-to-hub-final-web-api-request.png)に入力されたWeb イベント APIの作成リクエストを完了しました
 
 ## APIの実行
 

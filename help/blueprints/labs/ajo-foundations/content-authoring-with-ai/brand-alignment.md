@@ -1,11 +1,10 @@
 ---
-hold: true
 title: ブランド一致
 description: AJOのAI主導のブランド調整スコアを使用して、メールコンテンツをブランドガイドラインに照らして評価し、AIのレコメンデーションを適用してコンプライアンスを改善する方法を紹介します。
 doc-type: article
 solution: Experience Platform
 exl-id: 2385232e-9059-469a-975d-3c7ace146c29
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
 workflow-type: tm+mt
 source-wordcount: '780'
 ht-degree: 0%
@@ -46,11 +45,11 @@ Adobe Journey Optimizerには、**Connection 5G**&#x200B;の公開されたブ�
 2. 右側のパネルの「**ブランドの調整**」タブ、またはサイドバーの「**%」アイコン**」を見つけます。
 3. クリックしてパネルを開きます。
 
-![&#x200B; サイドバーの「ブランドの調整」タブと割合アイコン &#x200B;](assets/brand-alignment-open-panel-icon.png)
+   ![ サイドバーの「ブランドの調整」タブと割合アイコン ](assets/brand-alignment-open-panel-icon.png)
 
-&#x200B;4. 適切なブランドが適用されていることを確認する：
+4. 適切なブランドが適用されていることを確認する：
    - **接続5G** （デフォルト）。
-&#x200B;5. 「**スコアを評価**」をクリックします。
+5. 「**スコアを評価**」をクリックします。
 
 **ブランドスコアとフィードバックの解釈：**&#x200B;しばらくすると、コンテンツのブランドコンプライアンススコアが表示されます。 このスコアは、カラーインジケーター（緑、黄、赤）および評価時間とともに、評価（例：高、Medium、低）またはパーセンテージとして表示できます。 スコアが高い場合はコンテンツとブランドガイドラインが強く一致し、スコアが中または低い場合は中程度または不十分であることを示します。
 
@@ -66,7 +65,7 @@ Adobe Journey Optimizerには、**Connection 5G**&#x200B;の公開されたブ�
 
 
 
-評価後の![&#x200B; ブランドコンプライアンスのスコアとフィードバック &#x200B;](assets/brand-alignment-score-and-feedback.png)
+評価後の![ ブランドコンプライアンスのスコアとフィードバック ](assets/brand-alignment-score-and-feedback.png)
 
 
 ## 整合性スコアの確認
@@ -79,7 +78,7 @@ Adobe Journey Optimizerには、**Connection 5G**&#x200B;の公開されたブ�
 - タイムスタンプ
 - ガイドラインのカテゴリ（トーン、スタイル、画像など）
 
-![&#x200B; ガイドライン カテゴリの分類を含むブランド調整スコア &#x200B;](assets/brand-alignment-guideline-categories-score.png)
+![ ガイドライン カテゴリの分類を含むブランド調整スコア ](assets/brand-alignment-guideline-categories-score.png)
 
 結果を解釈して、メールがConnection 5G ガイドラインにどの程度適合しているかを把握します。
 
@@ -95,7 +94,7 @@ Adobe Journey Optimizerには、**Connection 5G**&#x200B;の公開されたブ�
    - 商標の使用がありません
    - 画像スタイル違反
 
-![&#x200B; ガイドライン カテゴリの分類を含むブランド調整スコア &#x200B;](assets/brand-alignment-guideline-categories-score.png)
+![ ガイドライン カテゴリの分類を含むブランド調整スコア ](assets/brand-alignment-guideline-categories-score.png)
 
 
 ## AI レコメンデーションを適用
@@ -103,25 +102,25 @@ Adobe Journey Optimizerには、**Connection 5G**&#x200B;の公開されたブ�
 1. メール内のフラグ付きのテキストブロックや画像をクリックします。
 2. 以下に示すように、前の演習で貼り付けた段落を使用します。
 
-![貼り付けられた説明段落](assets/brand-alignment-flagged-text-block.png)のフラグ付きテキストブロック
+   ![貼り付けられた説明段落](assets/brand-alignment-flagged-text-block.png)のフラグ付きテキストブロック
 
-&#x200B;3. AIが提供する修正案を使用します。 次に示すように、アイコンをクリックします。
+3. AIが提供する修正案を使用します。 次に示すように、アイコンをクリックします。
 
-![提案された変更を適用するためのAI提案アイコン &#x200B;](assets/brand-alignment-ai-suggestion-icon.png)
+   ![提案された変更を適用するためのAI提案アイコン ](assets/brand-alignment-ai-suggestion-icon.png)
 
-&#x200B;4. 以下に示すように、「**AIで修正**」ボタンをクリックします。
+4. 以下に示すように、「**AIで修正**」ボタンをクリックします。
 
-![&#x200B; フラグ付きガイドラインのAI ボタンで修正](assets/brand-alignment-fix-with-ai-button.png)
+   ![ フラグ付きガイドラインのAI ボタンで修正](assets/brand-alignment-fix-with-ai-button.png)
 
-&#x200B;5. 下の図のように、緑でハイライト表示された変更が提案され、取り消し線で赤で表示されたテキストが削除されます。 また、スコアが更新されています（この場合は80%）。 変更を有効にするには、**適用** ボタンをクリックします。
+5. 下の図のように、緑でハイライト表示された変更が提案され、取り消し線で赤で表示されたテキストが削除されます。 また、スコアが更新されています（この場合は80%）。 変更を有効にするには、**適用** ボタンをクリックします。
 
-![削除されたテキストが赤で強調表示された、緑で強調表示された変更](assets/brand-alignment-apply-suggested-changes.png)
+   ![削除されたテキストが赤で強調表示された、緑で強調表示された変更](assets/brand-alignment-apply-suggested-changes.png)
 
-&#x200B;6. 変更は新しいテキストで適用されます。
-&#x200B;7. AIを利用するか、手作業で編集するかにかかわらず、強調されているすべての領域を確認し、コンテンツを修正するために必要な更新をおこないます。 続行する前に、必要なすべての変更が完了していることを確認してください。
-&#x200B;8. 変更を保存します。
+6. 変更は新しいテキストで適用されます。
+7. AIを利用するか、手作業で編集するかにかかわらず、強調されているすべての領域を確認し、コンテンツを修正するために必要な更新をおこないます。 続行する前に、必要なすべての変更が完了していることを確認してください。
+8. 変更を保存します。
 
-![&#x200B; フラグ付きコンテンツの修正後に変更を保存する](assets/brand-alignment-save-changes.png)
+![ フラグ付きコンテンツの修正後に変更を保存する](assets/brand-alignment-save-changes.png)
 
 
 ## ブランドスコアの再評価
@@ -131,18 +130,18 @@ Adobe Journey Optimizerには、**Connection 5G**&#x200B;の公開されたブ�
 3. 「**スコアを再評価**」をクリックします。
 4. 新しいスコアと前のスコアを比較します。
 
-![再評価されたブランド スコアと前のスコアの比較](assets/brand-alignment-re-evaluate-score-comparison.png)
+   ![再評価されたブランド スコアと前のスコアの比較](assets/brand-alignment-re-evaluate-score-comparison.png)
 
-例：
+   例：
 
-- 元のスコア：**56%**
-- 更新されたスコア：**90%**
+   - 元のスコア：**56%**
+   - 更新されたスコア：**90%**
 
-これは、更新がブランド基準に沿ったメールであることを示しています。
+   これは、更新がブランド基準に沿ったメールであることを示しています。
 
-&#x200B;5. 「**保存**」をクリックして、メールを確定します。
+5. 「**保存**」をクリックして、メールを確定します。
 
-![電子メールを確定するための保存ボタン &#x200B;](assets/brand-alignment-save-finalize-email.png)
+![電子メールを確定するための保存ボタン ](assets/brand-alignment-save-finalize-email.png)
 
 ## まとめ
 

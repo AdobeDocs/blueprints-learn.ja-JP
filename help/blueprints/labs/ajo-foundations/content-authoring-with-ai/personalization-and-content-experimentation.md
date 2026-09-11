@@ -1,11 +1,10 @@
 ---
-hold: true
 title: Personalizationとコンテンツのテスト
 description: Adobe Journey Optimizerで、プロファイル属性とHandlebars構文を使用してメールコンテンツをパーソナライズし、年齢ベースの条件付きコンテンツのバリエーションを構築する方法を説明します。
 doc-type: article
 solution: Experience Platform
 exl-id: b79327e0-dfc4-49bf-a112-3675c825c479
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
 workflow-type: tm+mt
 source-wordcount: '1238'
 ht-degree: 0%
@@ -47,25 +46,25 @@ Adobe Journey OptimizerのPersonalizationなら、個々のプロファイル、
 2. ヒーロータイトルの上にテキストブロックを追加します。コンテンツ：**こんにちは、**
 3. 「**パーソナライゼーション**」アイコンをクリックします。
 
-![&#x200B; メールテキストツールバーのパーソナライゼーションアイコン &#x200B;](assets/personalization-and-content-experimentation-click-personalization-icon.png)
+   ![ メールテキストツールバーのパーソナライゼーションアイコン ](assets/personalization-and-content-experimentation-click-personalization-icon.png)
 
-&#x200B;4. **F**&#x200B;**first Name**&#x200B;を検索します。
+4. **F****first Name**を検索します。
 
-![&#x200B; パーソナライゼーションパネルでFirst Name属性を検索しています](assets/personalization-and-content-experimentation-search-first-name-field.png)
+   ![ パーソナライゼーションパネルでFirst Name属性を検索しています](assets/personalization-and-content-experimentation-search-first-name-field.png)
 
-&#x200B;5. **+**&#x200B;をクリックして、エクスプレッション領域に追加します。
-&#x200B;6. **名** フィールドの後に&#x200B;**スペース**&#x200B;を追加します。
+5. **+**&#x200B;をクリックして、エクスプレッション領域に追加します。
+6. **名** フィールドの後に&#x200B;**スペース**&#x200B;を追加します。
 
-![式エリアの「名」フィールドの後にスペースを追加する](assets/personalization-and-content-experimentation-add-space-after-first-name.png)
+   ![式エリアの「名」フィールドの後にスペースを追加する](assets/personalization-and-content-experimentation-add-space-after-first-name.png)
 
-&#x200B;7. 上記のプロセスを繰り返しますが、今回は&#x200B;**姓**&#x200B;を検索して追加します。
+7. 上記のプロセスを繰り返しますが、今回は&#x200B;**姓**&#x200B;を検索して追加します。
 
-最後の構文では、ファーストネーム変数とラストネーム変数が明確に分けて表示されます。
+   最後の構文では、ファーストネーム変数とラストネーム変数が明確に分けて表示されます。
 
-![式の構文で最初と最後の名前の変数が明確に区切られています](assets/personalization-and-content-experimentation-first-last-name-syntax-separated.png)
+   ![式の構文で最初と最後の名前の変数が明確に区切られています](assets/personalization-and-content-experimentation-first-last-name-syntax-separated.png)
 
-&#x200B;8. フラグメントを検証します。 コンテンツをフラグメントとして保存するオプションがあることに注意してください。 これは、他のメールコンテンツの作成にフルネームを使用している場合に実行する絶好の機会です。 これをスキップして次のステップに進みます。
-&#x200B;9. **保存**&#x200B;をクリック
+8. フラグメントを検証します。 コンテンツをフラグメントとして保存するオプションがあることに注意してください。 これは、他のメールコンテンツの作成にフルネームを使用している場合に実行する絶好の機会です。 これをスキップして次のステップに進みます。
+9. **保存**&#x200B;をクリック
 
 あなたの見解はこのようなものです。 中括弧は変数で構成され、各個人は自分の名前を含むメールを受信します。
 
@@ -98,33 +97,33 @@ Adobe Journey Optimizerの動的コンテンツを利用すれば、オーディ
 
 前のモジュールで作成したブロックを覚えていますか？ 君のイメージは僕のとは違う。
 
-前のモジュールで作成された![画像ブロック &#x200B;](assets/personalization-and-content-experimentation-existing-image-block.png)
+前のモジュールで作成された![画像ブロック ](assets/personalization-and-content-experimentation-existing-image-block.png)
 
 40歳未満の人に対して別の画像を作成し（40代半ばの人のFirefly画像を作成したことを覚えておいてください）、この演習に使用します。
 
 1. 既存の画像ブロックを選択します。 （画像をクリックし）、**条件付きブロック**&#x200B;をクリックします。
 2. 「**バリアントを追加**」をクリックします。
 
-![条件付き画像ブロックにバリアントを追加](assets/personalization-and-content-experimentation-click-add-variant-button.png)
+   ![条件付き画像ブロックにバリアントを追加](assets/personalization-and-content-experimentation-click-add-variant-button.png)
 
-&#x200B;3. 最初のバリエーションの名前を&#x200B;**40**&#x200B;より上の年齢に変更します。
+3. 最初のバリエーションの名前を&#x200B;**40**&#x200B;より上の年齢に変更します。
 
-![最初のバリエーションの名前を40](assets/personalization-and-content-experimentation-rename-variant-age-above-40.png)を超える年齢に変更します
+   ![最初のバリエーションの名前を40](assets/personalization-and-content-experimentation-rename-variant-age-above-40.png)を超える年齢に変更します
 
-&#x200B;4. **「バリアントを追加」ボタン**&#x200B;をクリックして新しいバリアントを作成し、40歳未満の年齢&#x200B;**に変更します。**
+4. **「バリアントを追加」ボタン**&#x200B;をクリックして新しいバリアントを作成し、40歳未満の年齢&#x200B;**に変更します。**
 
-![新しいバリエーションを作成し、40](assets/personalization-and-content-experimentation-create-variant-age-below-40.png)未満の年齢に変更しています
+   ![新しいバリエーションを作成し、40](assets/personalization-and-content-experimentation-create-variant-age-below-40.png)未満の年齢に変更しています
 
-&#x200B;5. 「20歳半ばの頃」などのプロンプトを使用して、Fireflyを使用して画像を作成することもできます。 ただし、時間を節約するために、「**variant-age-below-40.jpg**」という名前の画像が既にツールキットに用意されています。
-&#x200B;6. 画像をクリックしてメディアを読み込みます。
+5. 「20歳半ばの頃」などのプロンプトを使用して、Fireflyを使用して画像を作成することもできます。 ただし、時間を節約するために、「**variant-age-below-40.jpg**」という名前の画像が既にツールキットに用意されています。
+6. 画像をクリックしてメディアを読み込みます。
 
-![画像をクリックして、40以下のバリアントのメディアを読み込む](assets/personalization-and-content-experimentation-click-image-import-media.png)
+   ![画像をクリックして、40以下のバリアントのメディアを読み込む](assets/personalization-and-content-experimentation-click-image-import-media.png)
 
-&#x200B;7. **variant-age-below-40.jpg**&#x200B;画像を選択します。 **Next**&#x200B;をクリックして読み込み、最後にフォルダーの&#x200B;**Import**&#x200B;を押します（デフォルトでは既にフォルダーに入っている必要があります）。
+7. **variant-age-below-40.jpg**&#x200B;画像を選択します。 **Next**&#x200B;をクリックして読み込み、最後にフォルダーの&#x200B;**Import**&#x200B;を押します（デフォルトでは既にフォルダーに入っている必要があります）。
 
-![variant-age-below-40.jpg画像の選択と読み込み](assets/personalization-and-content-experimentation-select-below-40-image.png)
+   ![variant-age-below-40.jpg画像の選択と読み込み](assets/personalization-and-content-experimentation-select-below-40-image.png)
 
-&#x200B;8. バリエーションを切り替えてみると、別の画像が適用されていることがわかります。
+8. バリエーションを切り替えてみると、別の画像が適用されていることがわかります。
 
 これまでのところ、デザインは構築されましたが、ロジックはまだ適用されていません。 次の手順では、ロジックを適用します。
 
@@ -140,22 +139,22 @@ Adobe Journey Optimizerの動的コンテンツを利用すれば、オーディ
 1. 40 **より上の**&#x200B;年齢のバリエーションを選択してマウスポインターを置きます。
 2. **条件付きロジック** アイコンをクリックします。
 
-![40以上のバリアントの条件付きロジックのアイコン &#x200B;](assets/personalization-and-content-experimentation-click-conditional-logic-icon.png)
+   ![40以上のバリアントの条件付きロジックのアイコン ](assets/personalization-and-content-experimentation-click-conditional-logic-icon.png)
 
-&#x200B;3. 新規条件を作成します。
+3. 新規条件を作成します。
 
-![40 バリアントを超える年齢の新しい条件を作成しています](assets/personalization-and-content-experimentation-create-new-condition.png)
+   ![40 バリアントを超える年齢の新しい条件を作成しています](assets/personalization-and-content-experimentation-create-new-condition.png)
 
-&#x200B;4. 属性リストで&#x200B;**年**&#x200B;を検索します。
-&#x200B;5. **誕生年**&#x200B;をキャンバスにドラッグします。
-&#x200B;6. 条件を次に設定：
+4. 属性リストで&#x200B;**年**&#x200B;を検索します。
+5. **誕生年**&#x200B;をキャンバスにドラッグします。
+6. 条件を次に設定：
    - **birthYear \&lt; 1986**
 
-![条件がbirthYear 1986年未満に設定されました](assets/personalization-and-content-experimentation-birthyear-lt-1986.png)
+   ![条件がbirthYear 1986年未満に設定されました](assets/personalization-and-content-experimentation-birthyear-lt-1986.png)
 
-&#x200B;7. 条件に名前を付けます：**40**&#x200B;より上の年齢
-&#x200B;8. 説明を追加 – 40 **を超えるユーザーの「**&#x200B;画像バリアント」
-&#x200B;9. 「**追加→選択**」をクリックします。
+7. 条件に名前を付けます：**40**&#x200B;より上の年齢
+8. 説明を追加 – 40 **を超えるユーザーの「**&#x200B;画像バリアント」
+9. 「**追加→選択**」をクリックします。
 
 ![追加をクリックして、40条件を超える年齢を選択](assets/personalization-and-content-experimentation-click-add-select-age-above-40.png)します
 
@@ -166,11 +165,11 @@ Adobe Journey Optimizerの動的コンテンツを利用すれば、オーディ
 2. 手順を繰り返しますが、ロジックを次のように変更します。
    - **birthYear >= 1986**
 
-![条件がbirthYearに変更されました（1986年以降） &#x200B;](assets/personalization-and-content-experimentation-condition-birthyear-greater-1986.png)
+   ![条件がbirthYearに変更されました（1986年以降） ](assets/personalization-and-content-experimentation-condition-birthyear-greater-1986.png)
 
-&#x200B;3. 条件に名前を付けます：**年齢が40**&#x200B;未満
-&#x200B;4. 説明を追加します。 40 **未満のユーザーの「**&#x200B;画像のバリアント」
-&#x200B;5. 「**追加→選択**」をクリックします。
+3. 条件に名前を付けます：**年齢が40**&#x200B;未満
+4. 説明を追加します。 40 **未満のユーザーの「**&#x200B;画像のバリアント」
+5. 「**追加→選択**」をクリックします。
 
 ![追加をクリックしてから、40歳未満の年齢を選択](assets/personalization-and-content-experimentation-click-add-select-age-below-40.png)
 
@@ -195,7 +194,7 @@ Adobe Journey Optimizerの動的コンテンツを利用すれば、オーディ
 
 「**保存**」ボタンをクリックして、電子メールを保存します。
 
-![両方のバリエーションを含む電子メールを保存する保存ボタン &#x200B;](assets/personalization-and-content-experimentation-click-save-button-email.png)
+![両方のバリエーションを含む電子メールを保存する保存ボタン ](assets/personalization-and-content-experimentation-click-save-button-email.png)
 
 
 ## まとめ

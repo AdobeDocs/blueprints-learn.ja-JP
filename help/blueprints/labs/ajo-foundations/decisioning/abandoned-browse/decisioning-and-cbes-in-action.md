@@ -1,11 +1,10 @@
 ---
-hold: true
 title: 意思決定とCBEの活用
 description: Postmanを使用して、テストプロファイルにエクスペリエンスイベントを送信し、実施要件、ランキング、頻度の上限によって正しいオファーが返されることを検証します。
 doc-type: article
 solution: Experience Platform
 exl-id: 540e50c9-bf39-49a4-ae63-c1d7b94f6b8c
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 0b33b2740ee7f5af73d64f217b4475650c1d28a0
 workflow-type: tm+mt
 source-wordcount: '2147'
 ht-degree: 0%
@@ -34,17 +33,17 @@ ht-degree: 0%
 1. 必要に応じて、左側のパネルの&#x200B;**顧客**&#x200B;項目を展開し、**プロファイル**&#x200B;をクリックします
 1. 「**参照**」タブをクリックすると、既に作成されたプロファイルまたは以前のラボの一部として作成したプロファイルの中に、次の3つのプロファイルが表示されます。
 
-Postman コレクションの各プロファイルに対応するエクスペリエンスイベントを検索します
+   Postman コレクションの各プロファイルに対応するエクスペリエンスイベントを検索します
 
 1. 必要に応じて、Postmanを開きます
 1. **EDGE\_REGION**&#x200B;および&#x200B;**DATASTREAM\_CONFIG**&#x200B;の環境変数が引き続き設定されていることを確認します。 もう一度設定する必要がある場合は、「環境とコレクションの読み込み」ラボの手順を確認してください。
 1. **Decisioning Lab** フォルダーを展開します。 プロファイルごとに2つのエクスペリエンスイベントが表示されます。
 
-![&#x200B; プロファイルごとに2つのエクスペリエンスイベントが表示されているPostman Decisioning Lab フォルダー](assets/decisioning-and-cbes-in-action-postman-collection-folder.png)
+![ プロファイルごとに2つのエクスペリエンスイベントが表示されているPostman Decisioning Lab フォルダー](assets/decisioning-and-cbes-in-action-postman-collection-folder.png)
 
 ## Experience Eventsでの送信
 
-&#x200B;> [!IMPORTANT]
+>[!IMPORTANT]
 >
 >このセクションの冒頭のテキスト説明をスキップしないでください。
 
@@ -69,70 +68,70 @@ Postman コレクションでは、各プロファイルに2つのExperience Eve
 1. **Bob - Page Bottom Data Collection** リクエストをクリックします。
 2. 「**Body**」タブをクリックし、IdentityMapのcustomerID名前空間など、認証されたことを示すパラメーターと、「phones\:apple\:iphone 17\:overview」のページ名に渡される「web.webPageDetails.name」パラメーターが渡されます。
 
-![Bob - PostmanのPage Bottom Data Collection リクエスト本文](assets/decisioning-and-cbes-in-action-bob-page-bottom-request.png)
+   ![Bob - PostmanのPage Bottom Data Collection リクエスト本文](assets/decisioning-and-cbes-in-action-bob-page-bottom-request.png)
 
-&#x200B;3. 右上隅の&#x200B;**送信**&#x200B;をクリックして、ページビューを送信します。 類似した応答が返されます
+3. 右上隅の&#x200B;**送信**&#x200B;をクリックして、ページビューを送信します。 類似した応答が返されます
 
-![BobのPage Bottom データ収集イベントを送信した後に応答を受信しました](assets/decisioning-and-cbes-in-action-bob-data-collection-response.png)
+   ![BobのPage Bottom データ収集イベントを送信した後に応答を受信しました](assets/decisioning-and-cbes-in-action-bob-data-collection-response.png)
 
-&#x200B;4. 適切な応答を受け取ったら、**送信**&#x200B;をもう一度クリックして、同じページの下部イベントを2回目に再送信します。 数秒待ってから、3回目のデータ収集呼び出しをBob プロファイルに送信します。 合計3件のページ最下部の通話を送信しました。
+4. 適切な応答を受け取ったら、**送信**&#x200B;をもう一度クリックして、同じページの下部イベントを2回目に再送信します。 数秒待ってから、3回目のデータ収集呼び出しをBob プロファイルに送信します。 合計3件のページ最下部の通話を送信しました。
 
-現時点では、これらのヒットを処理し、ボブを「dep: Interested in iPhone 17」ストリーミングセグメントに追加しています。 それが完了すると、ボブはジャーニーに入れられます。 ジャーニーに入ると、ボブのジャーニーとセグメントへのボブの入り口がEdge プロファイルストアに投影されるまでにわずか数分かかります。
+   現時点では、これらのヒットを処理し、ボブを「dep: Interested in iPhone 17」ストリーミングセグメントに追加しています。 それが完了すると、ボブはジャーニーに入れられます。 ジャーニーに入ると、ボブのジャーニーとセグメントへのボブの入り口がEdge プロファイルストアに投影されるまでにわずか数分かかります。
 
-&#x200B;5. AJO UIに戻り、左側のパネルの「**プロファイル**」をクリックし、続いて「**参照**」タブをクリックします。
-&#x200B;6. 値&#x200B;**287415903**&#x200B;の&#x200B;**customerID**&#x200B;名前空間を使用して、ボブのプロファイルを検索します。
+5. AJO UIに戻り、左側のパネルの「**プロファイル**」をクリックし、続いて「**参照**」タブをクリックします。
+6. 値&#x200B;**287415903**&#x200B;の&#x200B;**customerID**&#x200B;名前空間を使用して、ボブのプロファイルを検索します。
 
-![customerID名前空間を使用してBobのプロファイルを検索しています](assets/decisioning-and-cbes-in-action-search-bob-profile.png)
+   ![customerID名前空間を使用してBobのプロファイルを検索しています](assets/decisioning-and-cbes-in-action-search-bob-profile.png)
 
-&#x200B;7. **表示**&#x200B;をクリックして、ボブのプロファイルを開きます（ボブのプロファイルの色は、スクリーンショットに表示されている色と異なる場合があります）。
+7. **表示**&#x200B;をクリックして、ボブのプロファイルを開きます（ボブのプロファイルの色は、スクリーンショットに表示されている色と異なる場合があります）。
 
-![&#x200B; ボブのプロフィールページがAJOで開きました](assets/decisioning-and-cbes-in-action-bob-profile-opened.png)
+   ![ ボブのプロフィールページがAJOで開きました](assets/decisioning-and-cbes-in-action-bob-profile-opened.png)
 
-&#x200B;8. Bobのプロファイルが開いたら、「**オーディエンスメンバーシップ**」タブをクリックすると、少なくともAEP Hubの観点から、Bobが「dep: iPhone 17に興味がある」セグメントのメンバーであることがわかります。
-&#x200B;9. 「**属性、**」をクリックし、「**Edge**」ラジオボタンを選択して、Edge ビューに切り替えます。
+8. Bobのプロファイルが開いたら、「**オーディエンスメンバーシップ**」タブをクリックすると、少なくともAEP Hubの観点から、Bobが「dep: iPhone 17に興味がある」セグメントのメンバーであることがわかります。
+9. 「**属性、**」をクリックし、「**Edge**」ラジオボタンを選択して、Edge ビューに切り替えます。
 
-プロファイルビューを切り替える「![Edge」ラジオボタン付きの「属性」タブ &#x200B;](assets/decisioning-and-cbes-in-action-edge-view-toggle.png)
+   プロファイルビューを切り替える「![Edge」ラジオボタン付きの「属性」タブ ](assets/decisioning-and-cbes-in-action-edge-view-toggle.png)
 
->[!WARNING]
->
->ラジオボタンをEdgeに切り替えるには、「属性」タブをクリックする必要があるUIのバグがあります。
+   >[!WARNING]
+   >
+   >ラジオボタンをEdgeに切り替えるには、「属性」タブをクリックする必要があるUIのバグがあります。
 
 
 
-&#x200B;10. **Audience メンバーシップ、**&#x200B;をもう一度クリックすると、これらの手順を十分にすばやく実行した場合、Edgeが選択され、BobにAudience メンバーシップがないことが表示されます
+10. **Audience メンバーシップ、**&#x200B;をもう一度クリックすると、これらの手順を十分にすばやく実行した場合、Edgeが選択され、BobにAudience メンバーシップがないことが表示されます
 
 ![まだオーディエンスメンバーシップが表示されていないBobのプロフィールのEdge ビュー](assets/decisioning-and-cbes-in-action-edge-audience-membership-empty.png)
 
-&#x200B;11. 新しいブラウザータブで、作成したジャーニーに移動し、そのタブをクリックします。 1つのプロファイルがノードに入力され、CBE ジャーニーに配置されていることがわかります。
+11. 新しいブラウザータブで、作成したジャーニーに移動し、そのタブをクリックします。 1つのプロファイルがノードに入力され、CBE ジャーニーに配置されていることがわかります。
 
-![CBE ノードに入力されたボブのプロフィールを示すジャーニーキャンバス &#x200B;](assets/decisioning-and-cbes-in-action-bob-enters-journey.png)
+![CBE ノードに入力されたボブのプロフィールを示すジャーニーキャンバス ](assets/decisioning-and-cbes-in-action-bob-enters-journey.png)
 
 この時点で、ボブはジャーニーに入り、Edge図法は現在、Edge上のボブのプロフィールを更新する図法を組み立てています。
 
-&#x200B;12. Postmanに切り替えて、BobのExperience Event呼び出しの2番目の&#x200B;**Bob - Page Top Fetchをクリックします。**
-&#x200B;13. **送信**&#x200B;をクリックします。 どうなるのでしょうか？
+12. Postmanに切り替えて、BobのExperience Event呼び出しの2番目の&#x200B;**Bob - Page Top Fetchをクリックします。**
+13. **送信**&#x200B;をクリックします。 どうなるのでしょうか？
     - BobのEdge プロファイルがまだ更新されていない場合は、Data Collection呼び出しから得たものと非常によく似た応答が返されます。 この場合は、もう1分か2分待ってから、BobのPage Top Fetch呼び出しを再度送信してみてください。
     - BobのEdge プロファイルが更新された場合、以前に設定したJSONと、レポートに使用する追加情報を含む応答が返されます。 しかし、先に進む前に、iPhone17のオファーはボブが提供されるべきですか？
 
       ボブは1974年に生まれ、1966年よりも大きいので、2番目のランキング式の基準に適格となり、彼のGeneric、Base、Pro オファーの優先順位スコアはそれぞれ100を掛け、100、200、300のオファースコアを与えます。 ただし、Bob Basicにはプラン ID 1があるため、UltraまたはPro レベルのオファーの対象にはなりません。 したがって、スコアが200のベース層オファーが表示されます。 応答で確認できます（おそらく下にスクロールする必要があります）。
 
-Bob![&#128279;](assets/decisioning-and-cbes-in-action-bob-base-offer-response.png)に対して返されたベース層オファーを示すPostmanの応答
+Bob](assets/decisioning-and-cbes-in-action-bob-base-offer-response.png)に対して返されたベース層オファーを示す![Postmanの応答
 
-&#x200B;14. このPostman リクエストは、このオファーの表示通知を自動的に送信するので、AJOはこのオファーに対するインプレッションを既に1つ以上記録しています。 もう一度&#x200B;**送信**&#x200B;をクリックして、2回目のインプレッションを送信します。 基本オファーが再び返されたことを確認します。
-&#x200B;15. 3つのインプレッションの周波数キャップは、Base、Pro、Ultraの各モデルに適用されます。 3回目に&#x200B;**送信**&#x200B;をクリックすると、ベース層で3回目の応答が得られ、別のインプレッションが記録されます。
-&#x200B;16. 「**送信**」を4回目にクリックすると、どうなりますか？ 基本レベルのオファーの使用頻度の上限に達し、応答で汎用オファーを受け取ります。
+14. このPostman リクエストは、このオファーの表示通知を自動的に送信するので、AJOはこのオファーに対するインプレッションを既に1つ以上記録しています。 もう一度&#x200B;**送信**&#x200B;をクリックして、2回目のインプレッションを送信します。 基本オファーが再び返されたことを確認します。
+15. 3つのインプレッションの周波数キャップは、Base、Pro、Ultraの各モデルに適用されます。 3回目に&#x200B;**送信**&#x200B;をクリックすると、ベース層で3回目の応答が得られ、別のインプレッションが記録されます。
+16. 「**送信**」を4回目にクリックすると、どうなりますか？ 基本レベルのオファーの使用頻度の上限に達し、応答で汎用オファーを受け取ります。
 
 ![使用頻度の上限に達した後に返された汎用オファーを示すPostmanの回答](assets/decisioning-and-cbes-in-action-bob-generic-offer-after-cap.png)
 
-&#x200B;17. **送信**&#x200B;をもう一度クリックすると、汎用階層オファーが表示されます。 「送信」を100回以上クリックすると、フリークエンシーキャップがリセットされた翌日まで同じオファーが返されます。
+17. **送信**&#x200B;をもう一度クリックすると、汎用階層オファーが表示されます。 「送信」を100回以上クリックすると、フリークエンシーキャップがリセットされた翌日まで同じオファーが返されます。
 
 >[!WARNING]
 >
 >AJOでは、日は深夜GMTにリセットされます。 深夜GMTの後に別のFetch呼び出しを送信する場合は、代わりにベース層オファーが返されます。
 
-&#x200B;18. Journey Orchestration UIに戻り、作成した&#x200B;**iPhone 17 Abandon Browse** ジャーニーをクリックします。 ジャーニーが公開されているため、統計情報が表示されます。 1つのプロファイルがノードに入力され、現在CBE ジャーニーにあることがわかります。
+18. Journey Orchestration UIに戻り、作成した&#x200B;**iPhone 17 Abandon Browse** ジャーニーをクリックします。 ジャーニーが公開されているため、統計情報が表示されます。 1つのプロファイルがノードに入力され、現在CBE ジャーニーにあることがわかります。
 
-![現在CBE ノードにある1つのプロファイルを示すジャーニーレポート &#x200B;](assets/decisioning-and-cbes-in-action-bob-enters-journey.png)
+![現在CBE ノードにある1つのプロファイルを示すジャーニーレポート ](assets/decisioning-and-cbes-in-action-bob-enters-journey.png)
 
 >[!NOTE]
 >
@@ -147,15 +146,15 @@ Bob![&#128279;](assets/decisioning-and-cbes-in-action-bob-base-offer-response.pn
 3. 3つのプロファイルがストリーミングセグメントの対象となるまで数分待ってから、ジャーニーを入力し、CBEをEdge プロファイルに投影します。
 4. ページの先頭にFetch呼び出しを必要に応じて何度でも送信して、決定ルールとランキング式が期待どおりに機能していることを確認します。
 
-**決定プロファイル：期待される動作**
+   **決定プロファイル：期待される動作**
 
-| 名 | 姓 | ファーストオファー | セカンドオファー | 3rd オファー | 第4回オファー |
-| ---------- | ------------ | --------- | --------- | --------- | --------- |
-| ボブ | 基本 | ベース | 汎用 | 汎用 | 汎用 |
-| Peter | Professional | Pro | ベース | 汎用 | 汎用 |
-| ウルスラ | Ultimate | Ultra | Pro | ベース | 汎用 |
+   | 名 | 姓 | ファーストオファー | セカンドオファー | 3rd オファー | 第4回オファー |
+   | ---------- | ------------ | --------- | --------- | --------- | --------- |
+   | ボブ | 基本 | ベース | 汎用 | 汎用 | 汎用 |
+   | Peter | Professional | Pro | ベース | 汎用 | 汎用 |
+   | ウルスラ | Ultimate | Ultra | Pro | ベース | 汎用 |
 
-&#x200B;5. 終了したら、ジャーニーに戻ります。 3つのプロファイルがすべてノードに入力され、CBE ジャーニーにあることがわかります。
+5. 終了したら、ジャーニーに戻ります。 3つのプロファイルがすべてノードに入力され、CBE ジャーニーにあることがわかります。
 
 >[!NOTE]
 >

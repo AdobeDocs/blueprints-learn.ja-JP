@@ -1,11 +1,10 @@
 ---
-hold: true
 title: イベントの送信
 description: Postmanを使用すると、シミュレートされたOrder Shipped イベントをEdgeに送信するのではなく、Hubに直接ストリーミングしてジャーニーをトリガーできます。
 doc-type: article
 solution: Experience Platform
 exl-id: a0f75f5a-e3b3-42a2-8547-f075a7661a22
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 0b33b2740ee7f5af73d64f217b4475650c1d28a0
 workflow-type: tm+mt
 source-wordcount: '431'
 ht-degree: 0%
@@ -51,11 +50,11 @@ API リクエストを作成するには、API リクエストの本文に次の
 1. **dep：注文（ストリーム）**&#x200B;のレコードを検索するには、データフローリンクをクリックします
 1. 右側のパネルのコピーで、**データフローID**&#x200B;値を後で参照できる場所に保存します
 
-&#x200B;> [!WARNING]
+>[!WARNING]
 >
 >行の空のスペースをクリックします。  青いリンクをクリックしないでください。
 
-右側のパネルに表示される![&#x200B; データフローID値](assets/send-an-event-dataflow-id-in-right-rail.png "Web データフローとデータセット ID")
+右側のパネルに表示される![ データフローID値](assets/send-an-event-dataflow-id-in-right-rail.png "Web データフローとデータセット ID")
 
 
 
@@ -68,7 +67,7 @@ API リクエストを作成するには、API リクエストの本文に次の
 - **フォルダー** —> `Profile & Journey Labs`
 - **API リクエスト** —> `Ship Order Event`
 
-![Postman コレクションにあるShip Order Event リクエスト &#x200B;](assets/send-an-event-open-ship-order-event-postman.png)
+![Postman コレクションにあるShip Order Event リクエスト ](assets/send-an-event-open-ship-order-event-postman.png)
 
 
 
@@ -80,11 +79,11 @@ API リクエストを作成するには、API リクエストの本文に次の
    - **緑** —> `Dataflow ID`
      - 値はGUIDのように見えます（httpで始まりません）
 
-&#x200B;> [!CAUTION]
+>[!CAUTION]
 >
 >まだ実行しないでください。
 
-![&#x200B; ストリーミングエンドポイント URLとデータフローIDをPostman ヘッダーに貼り付けました](assets/send-an-event-paste-headers-in-postman.png)
+![ ストリーミングエンドポイント URLとデータフローIDをPostman ヘッダーに貼り付けました](assets/send-an-event-paste-headers-in-postman.png)
 
 ## APIの実行
 

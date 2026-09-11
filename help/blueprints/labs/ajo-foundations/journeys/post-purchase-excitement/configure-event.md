@@ -1,11 +1,10 @@
 ---
-hold: true
 title: イベントの設定
 description: ジャーニーのエントリトリガーとして機能するように、ID名前空間設定を含む単一の注文出荷イベントを作成および設定します。
 doc-type: article
 solution: Experience Platform
 exl-id: 4d1c1d4d-0dc6-4ea1-aa3c-f959bb3b9aa8
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
 workflow-type: tm+mt
 source-wordcount: '574'
 ht-degree: 0%
@@ -33,49 +32,49 @@ ht-degree: 0%
 
 1. 管理メニューの左側のパネルで「**設定**」をクリックし、「イベント」タイルで「**管理**」ボタンをクリックします
 
-![設定](assets/configure-event-open-events-manage.png)のイベントタイルの「管理」ボタン
+   ![設定](assets/configure-event-open-events-manage.png)のイベントタイルの「管理」ボタン
 
-&#x200B;2. 右上の「**イベントを作成**」ボタンをクリックします
+2. 右上の「**イベントを作成**」ボタンをクリックします
 
-![右上の「イベントを作成」ボタン &#x200B;](assets/configure-event-click-create-event-button.png)
+   ![右上の「イベントを作成」ボタン ](assets/configure-event-click-create-event-button.png)
 
-&#x200B;3. イベントの設定を次のように更新します。
+3. イベントの設定を次のように更新します。
    - **名前** = `orderShipped`
    - **種類** = `Unitary`
    - **イベント ID タイプ** = `Rule based`
    - **スキーマ** = `dep: Orders v.1`
 
-![orderShipped イベントが単一タイプとdepで設定されました：受注v.1 スキーマ &#x200B;](assets/configure-event-set-name-type-schema.png)
+   ![orderShipped イベントが単一タイプとdepで設定されました：受注v.1 スキーマ ](assets/configure-event-set-name-type-schema.png)
 
-&#x200B;4. `Fields`入力ボックスで、**鉛筆アイコン**&#x200B;をクリックします
+4. `Fields`入力ボックスで、**鉛筆アイコン**&#x200B;をクリックします
 
-フィールド入力ボックスの![鉛筆アイコン &#x200B;](assets/configure-event-click-fields-pencil-icon.png)
+   フィールド入力ボックスの![鉛筆アイコン ](assets/configure-event-click-fields-pencil-icon.png)
 
-&#x200B;5. 次のフィールドを選択してイベントに追加し、完了したら&#x200B;**OK** ボタンをクリックします
+5. 次のフィールドを選択してイベントに追加し、完了したら&#x200B;**OK** ボタンをクリックします
    - `Event Type (eventType)`
    - `Order ID (orderID)`
 
-![&#x200B; イベントに追加するイベントタイプおよび注文ID フィールドが選択されました](assets/configure-event-select-eventtype-orderid-fields.png)
+   ![ イベントに追加するイベントタイプおよび注文ID フィールドが選択されました](assets/configure-event-select-eventtype-orderid-fields.png)
 
->[!NOTE]
->
->注文ID フィールドのみを選択し、注文😁のすべてのフィールドを選択しないでください
+   >[!NOTE]
+   >
+   >注文ID フィールドのみを選択し、注文😁のすべてのフィールドを選択しないでください
 
 
 
-&#x200B;6. `Event Id condition input`で、**鉛筆アイコン**&#x200B;をクリックします
+6. `Event Id condition input`で、**鉛筆アイコン**&#x200B;をクリックします
 
-イベント ID条件入力![&#128279;](assets/configure-event-click-event-id-condition-pencil.png)の鉛筆アイコン
+   イベント ID条件入力](assets/configure-event-click-event-id-condition-pencil.png)の![鉛筆アイコン
 
-&#x200B;7. **&#x200B;**&#x200B;`Event Type` フィールドをキャンバスにドラッグします
+7. **** `Event Type` フィールドをキャンバスにドラッグします
 
-![&#x200B; イベントタイプフィールドを条件キャンバスにドラッグします](assets/configure-event-drag-event-type-field-onto-canvas.png)
+   ![ イベントタイプフィールドを条件キャンバスにドラッグします](assets/configure-event-drag-event-type-field-onto-canvas.png)
 
-&#x200B;8. 表示される選択ボックスで、**orders.shipped.**&#x200B;というタイトルの値を探して確認します 次に、**OK** ボタンをクリックします。
+8. 表示される選択ボックスで、**orders.shipped.**&#x200B;というタイトルの値を探して確認します 次に、**OK** ボタンをクリックします。
 
-選択ボックスで![orders.shipped値がチェックされました](assets/configure-event-select-orders-shipped-value.png)
+   選択ボックスで![orders.shipped値がチェックされました](assets/configure-event-select-orders-shipped-value.png)
 
-&#x200B;9. 次に、名前空間とプロファイル識別子の最後の2つの値を、次に示す値で更新します。
+9. 次に、名前空間とプロファイル識別子の最後の2つの値を、次に示す値で更新します。
    - **名前空間** —> `Email`
    - **プロファイル識別子** —> `personalEmail`
 

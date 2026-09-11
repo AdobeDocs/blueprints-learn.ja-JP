@@ -1,11 +1,10 @@
 ---
-hold: true
 title: オーディエンスの構築
 description: オーケストレーションキャンペーンで「オーディエンスを作成」アクティビティを使用して、リレーショナルスキーマ条件を使用して、特定の電話機でアクティブな顧客行をターゲットにする方法を説明します。
 doc-type: article
 solution: Experience Platform
 exl-id: 697d3edb-2b63-4038-a934-3587495e17f7
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
 workflow-type: tm+mt
 source-wordcount: '856'
 ht-degree: 0%
@@ -25,11 +24,11 @@ ht-degree: 0%
 
 1. キャンバスで&#x200B;**+記号**&#x200B;をクリックし、**オーディエンスを作成** アクティビティを選択してワークフローに追加します
 
-![&#x200B; ワークフローキャンバスにオーディエンスアクティビティを作成](assets/build-an-audience-add-activity.png)を追加
+   ![ ワークフローキャンバスにオーディエンスアクティビティを作成](assets/build-an-audience-add-activity.png)を追加
 
 
 
-&#x200B;2. 右側のパネルには、オーディエンスを作成プロパティがあります。 ラベルを更新して、次の状態を示します：`Active Lines with Apple`
+2. 右側のパネルには、オーディエンスを作成プロパティがあります。 ラベルを更新して、次の状態を示します：`Active Lines with Apple`
 
 ![Appleを使用して、アクティブな行に設定されたオーディエンスラベルを作成](assets/build-an-audience-set-label.png)
 
@@ -40,9 +39,9 @@ ht-degree: 0%
 
 1. ターゲティングディメンションボックスの&#x200B;**検索アイコン**&#x200B;をクリックします
 
-![&#x200B; ターゲティングディメンションボックス内の検索アイコン &#x200B;](assets/build-an-audience-search-targeting-dimension.png)
+   ![ ターゲティングディメンションボックス内の検索アイコン ](assets/build-an-audience-search-targeting-dimension.png)
 
-&#x200B;2. ポップアップで、**dep-rel: Customer Line**&#x200B;という名前のテーブルを検索して選択し、**確認** ボタンをクリックします。
+2. ポップアップで、**dep-rel: Customer Line**&#x200B;という名前のテーブルを検索して選択し、**確認** ボタンをクリックします。
 
 ![dep-rel：顧客行テーブルを選択し、「確認」をクリックします](assets/build-an-audience-select-customer-line-table.png)
 
@@ -62,11 +61,11 @@ ht-degree: 0%
 
 1. 右側のパネルで「**オーディエンスを作成**」ボタンをクリックします
 
-![右側のパネルに「オーディエンスを作成」ボタン &#x200B;](assets/build-an-audience-click-create-audience.png)
+   ![右側のパネルに「オーディエンスを作成」ボタン ](assets/build-an-audience-click-create-audience.png)
 
-&#x200B;2. 次に、**条件を追加** ボタンをクリックします
+2. 次に、**条件を追加** ボタンをクリックします
 
-![&#x200B; オーディエンス定義の「条件を追加」ボタン &#x200B;](assets/build-an-audience-click-add-condition.png)
+![ オーディエンス定義の「条件を追加」ボタン ](assets/build-an-audience-click-add-condition.png)
 
 
 
@@ -80,11 +79,11 @@ ht-degree: 0%
    - **属性**: `Active Line`
    - **値**: `true`
 
-![条件1がtrue](assets/build-an-audience-condition-active-line-true.png)に等しいアクティブな行に設定されました
+   ![条件1がtrue](assets/build-an-audience-condition-active-line-true.png)に等しいアクティブな行に設定されました
 
-&#x200B;2. 条件の適格カウントを表示するには、**更新** アイコンをクリックします。
+2. 条件の適格カウントを表示するには、**更新** アイコンをクリックします。
 
-条件1![&#128279;](assets/build-an-audience-condition-1-refresh-count.png)に対する241の適格カウントを示す更新アイコン
+条件1](assets/build-an-audience-condition-1-refresh-count.png)に対する241の適格カウントを示す![更新アイコン
 
 >[!TIP]
 >
@@ -96,31 +95,31 @@ ht-degree: 0%
 
 1. **条件を追加** ボタンをクリックし、**>** アイコンをクリックして&#x200B;**dep-rel:** **製品\[Lookup]** スキーマを選択します
 
-![詳細：製品[検索] スキーマを選択するには、> アイコン &#x200B;](assets/build-an-audience-select-product-lookup-schema.png)をクリックします
+   ![詳細：製品[検索] スキーマを選択するには、> アイコン ](assets/build-an-audience-select-product-lookup-schema.png)をクリックします
 
 
-&#x200B;2. **Make**&#x200B;という名前のフィールドを探し、3つのドットをクリックして、**値の分布**&#x200B;を選択します
+2. **Make**&#x200B;という名前のフィールドを探し、3つのドットをクリックして、**値の分布**&#x200B;を選択します
 
-![Make フィールドの値の分布オプション &#x200B;](assets/build-an-audience-make-distribution-of-values.png)
-
-
-
-&#x200B;3. 様々な値に注意してください。 `Apple`だけが必要です。幸いなことに、スペルが100も異なりません。 **Apple フィールド**&#x200B;をクリックして選択し、右上の&#x200B;**属性と値を選択ボタン**&#x200B;をクリックします。
-
-![属性と値を選択ボタンで選択されたApple値](assets/build-an-audience-select-apple-attribute-value.png)
-
->[!NOTE]
->
->これは、データアーキテクトが列挙を使用してスキーマを設計すべき場所の代表例です。  これにより、マーケターは、値を手動で選択したり入力したりする必要がなくなります。  データアーキテクトは恥だ！
+   ![Make フィールドの値の分布オプション ](assets/build-an-audience-make-distribution-of-values.png)
 
 
 
-&#x200B;4. `Make` フィールドは、以下に示す条件と共に自動的に追加されます。
+3. 様々な値に注意してください。 `Apple`だけが必要です。幸いなことに、スペルが100も異なりません。 **Apple フィールド**&#x200B;をクリックして選択し、右上の&#x200B;**属性と値を選択ボタン**&#x200B;をクリックします。
+
+   ![属性と値を選択ボタンで選択されたApple値](assets/build-an-audience-select-apple-attribute-value.png)
+
+   >[!NOTE]
+   >
+   >これは、データアーキテクトが列挙を使用してスキーマを設計すべき場所の代表例です。  これにより、マーケターは、値を手動で選択したり入力したりする必要がなくなります。  データアーキテクトは恥だ！
+
+
+
+4. `Make` フィールドは、以下に示す条件と共に自動的に追加されます。
    - **演算子：** `Equal to`
    - **値：** `Apple`
    - **大文字と小文字を区別：** `Enabled`
 
-&#x200B;5. **計算アイコン**&#x200B;をクリックすると、結果は85になります。
+5. **計算アイコン**&#x200B;をクリックすると、結果は85になります。
 
 ![条件2の計算カウント （85](assets/build-an-audience-condition-2-final-count.png)）
 
@@ -134,15 +133,15 @@ ht-degree: 0%
 
 1. ターゲットプロファイルの見出しの下の右側のパネルにある&#x200B;**計算アイコン**&#x200B;をクリックすると、オーディエンスサイズの正確な見積もりを取得できます。 **65**&#x200B;が&#x200B;**最終回数**&#x200B;として表示されます。
 
-![最終的なオーディエンスサイズが65](assets/build-an-audience-calculate-final-audience-size.png)であることを示す計算アイコン
+   ![最終的なオーディエンスサイズが65](assets/build-an-audience-calculate-final-audience-size.png)であることを示す計算アイコン
 
->[!NOTE]
->
->個々の条件が異なる数値（条件#1 —> 241および条件#2 —> 85）を返したが、最終的なオーディエンスサイズは2つの条件のうち小さいものでした。  これはAND演算子のおかげです。
+   >[!NOTE]
+   >
+   >個々の条件が異なる数値（条件#1 —> 241および条件#2 —> 85）を返したが、最終的なオーディエンスサイズは2つの条件のうち小さいものでした。  これはAND演算子のおかげです。
 
 
 
-&#x200B;2. **65**&#x200B;の最終的なカウントが表示された場合は、画面の右上にある&#x200B;**確認** ボタンをクリックし、右上の&#x200B;**保存** ボタンをクリックして作業を保存します。
+2. **65**&#x200B;の最終的なカウントが表示された場合は、画面の右上にある&#x200B;**確認** ボタンをクリックし、右上の&#x200B;**保存** ボタンをクリックして作業を保存します。
 
 
 
@@ -154,7 +153,7 @@ ht-degree: 0%
 
 **この場合、最終的なオーディエンスサイズは何ですか？**
 
-![&#x200B; レコード数が0の最後の条件「最後の条件は0」 &#x200B;](assets/build-an-audience-challenge-zero-count-condition.png "最後の条件は0")
+![ レコード数が0の最後の条件「最後の条件は0」 ](assets/build-an-audience-challenge-zero-count-condition.png "最後の条件は0")
 
 ## 回答
 

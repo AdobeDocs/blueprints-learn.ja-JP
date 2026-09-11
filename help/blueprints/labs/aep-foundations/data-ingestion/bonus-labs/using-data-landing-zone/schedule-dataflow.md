@@ -1,11 +1,10 @@
 ---
-hold: true
 title: データフローのスケジュール
 description: バックフィルを有効にした15分間の定期的なデータフロースケジュールを設定し、UTC開始時間が実行に与える影響を理解します。
 doc-type: article
 solution: Experience Platform
 exl-id: 9865b1eb-0d98-4cae-a928-69ea897607ca
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 0b33b2740ee7f5af73d64f217b4475650c1d28a0
 workflow-type: tm+mt
 source-wordcount: '335'
 ht-degree: 0%
@@ -33,7 +32,7 @@ ht-degree: 0%
 >
 >実際には、**Backfill** オプションは、すべてのファイルの1回限りのバックフィルを行い、その後の実行は新しいファイルを取ります。
 
-![頻度、間隔、およびバックフィルのオプションを設定したデータフロー実行のスケジュール &#x200B;](assets/schedule-dataflow-scheduling-dataflow-run.png " データフロー実行のスケジュール ")
+![頻度、間隔、およびバックフィルのオプションを設定したデータフロー実行のスケジュール ](assets/schedule-dataflow-scheduling-dataflow-run.png " データフロー実行のスケジュール ")
 
 データフローを確認し、**完了をクリックします。**
 
@@ -47,7 +46,7 @@ ht-degree: 0%
 
 ![実行なしステータスの新しいデータフローを示すデータフロー画面](assets/schedule-dataflow-dataflows-screen-no-runs-status.png " データフローソース画面")
 
-&#x200B;> [!NOTE]
+>[!NOTE]
 >
 >バックエンドが更新をUIにプッシュしないため、ステータスの更新を確認するには、ページを継続的に更新する必要があります。
 

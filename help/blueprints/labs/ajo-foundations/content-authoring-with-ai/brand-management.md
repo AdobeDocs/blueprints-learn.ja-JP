@@ -1,11 +1,10 @@
 ---
-hold: true
 title: ブランド管理
 description: Adobe Journey Optimizerでブランドガイドライン PDFをアップロードし、抽出した詳細を絞り込んで、コンテンツツール全体で使用するための公開方法を説明します。
 doc-type: article
 solution: Experience Platform
 exl-id: 84be70f5-6c3b-40e2-ad38-ac737363f845
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
 workflow-type: tm+mt
 source-wordcount: '1414'
 ht-degree: 0%
@@ -49,9 +48,9 @@ Connection 5G Brand Guideline ドキュメントから始め、それをアッ�
 
 1. ツールキット フォルダーから&#x200B;**Connection 5G Brand Guideline** PDFを開きます（必ず先に解凍してください）。
 
-ツールキット フォルダーから![Connection 5G Brand Guideline PDFを開きました](assets/brand-management-open-brand-guideline-pdf.png)
+   ツールキット フォルダーから![Connection 5G Brand Guideline PDFを開きました](assets/brand-management-open-brand-guideline-pdf.png)
 
-&#x200B;2. ドキュメントを確認して、Connection 5Gに使用されるコンテンツを理解します。
+2. ドキュメントを確認して、Connection 5Gに使用されるコンテンツを理解します。
    - 声の調子
    - 色とビジュアルスタイル
    - スタイルとメッセージの例
@@ -64,39 +63,39 @@ Connection 5G Brand Guideline ドキュメントから始め、それをアッ�
 1. Adobe Journey Optimizerで、左側のナビゲーションに移動し、**ブランド**&#x200B;をクリックします。
 2. 「**ブランドを作成**」をクリックします。
 
-![&#x200B; ブランドセクションの「ブランドを作成」ボタン &#x200B;](assets/brand-management-click-create-brand-button.png)
+   ![ ブランドセクションの「ブランドを作成」ボタン ](assets/brand-management-click-create-brand-button.png)
 
-&#x200B;3. **名前** フィールドに、`Connection 5G Brand Guidelines`と入力します
-&#x200B;4. アップロード領域で、**Connection5g Brand Guidelines.pdf** ファイルをドラッグ&amp;ドロップします（または、**ファイルを選択**&#x200B;してコンピューターから選択します）。
+3. **名前** フィールドに、`Connection 5G Brand Guidelines`と入力します
+4. アップロード領域で、**Connection5g Brand Guidelines.pdf** ファイルをドラッグ&amp;ドロップします（または、**ファイルを選択**&#x200B;してコンピューターから選択します）。
 
-![Connection5g Brand Guidelines PDFをアップロード領域にドラッグ&amp;ドロップします](assets/brand-management-upload-brand-guideline-pdf.png)
+   ![Connection5g Brand Guidelines PDFをアップロード領域にドラッグ&amp;ドロップします](assets/brand-management-upload-brand-guideline-pdf.png)
 
-&#x200B;5. 「**ブランドを作成**」をクリックして、抽出を開始します。
+5. 「**ブランドを作成**」をクリックして、抽出を開始します。
 
-AJOがファイルを分析する際に、進行状況の画面が表示されます。 ドキュメントのサイズによっては数分かかる場合があります。
+   AJOがファイルを分析する際に、進行状況の画面が表示されます。 ドキュメントのサイズによっては数分かかる場合があります。
 
-AJOがブランドガイドラインファイルを分析する際に表示される![進行状況の画面](assets/brand-management-extraction-progress-screen.png)
+   AJOがブランドガイドラインファイルを分析する際に表示される![進行状況の画面](assets/brand-management-extraction-progress-screen.png)
 
-&#x200B;6. 抽出が完了したら、次の操作を行います。
+6. 抽出が完了したら、次の操作を行います。
    - 上部に緑色の確認バーが表示されます。
    - 自動的にブランド設定画面にリダイレクトされます。
    - コンテンツおよびビジュアル作成標準は、アップロードされたブランドガイドラインファイルに基づいて自動的に入力されるようになりました。
 
-![抽出が完了した後にブランド設定画面が表示される](assets/brand-management-brand-configuration-populated.png)
+   ![抽出が完了した後にブランド設定画面が表示される](assets/brand-management-brand-configuration-populated.png)
 
-&#x200B;7. 「**公開**」ボタンをクリックして、ブランドガイドラインを公開します。
+7. 「**公開**」ボタンをクリックして、ブランドガイドラインを公開します。
 
-![&#x200B; ブランドガイドラインの「公開」ボタン &#x200B;](assets/brand-management-click-publish-button.png)
+   ![ ブランドガイドラインの「公開」ボタン ](assets/brand-management-click-publish-button.png)
 
-&#x200B;8. 確認するには「公開」ボタンを押して確認します。
+8. 確認するには「公開」ボタンを押して確認します。
 
-![&#x200B; ブランドガイドラインの公開ダイアログを確認](assets/brand-management-confirm-publish-dialog.png)
+   ![ ブランドガイドラインの公開ダイアログを確認](assets/brand-management-confirm-publish-dialog.png)
 
-ページの下部に緑色の確認バーが表示され、ブランドの公開が成功したことを示します。
+   ページの下部に緑色の確認バーが表示され、ブランドの公開が成功したことを示します。
 
-&#x200B;9. メインのブランドページでクリックし、ブランドがライブになったことが表示されます（これは、**&quot;Live&quot;**&#x200B;というラベルの付いた緑のドットで表示されます）。
+9. メインのブランドページでクリックし、ブランドがライブになったことが表示されます（これは、**&quot;Live&quot;**&#x200B;というラベルの付いた緑のドットで表示されます）。
 
-緑色のLive ステータスラベルを付けた新しいブランドを表示する![&#x200B; ブランドリスト &#x200B;](assets/brand-management-brand-live-status-label.png)
+緑色のLive ステータスラベルを付けた新しいブランドを表示する![ ブランドリスト ](assets/brand-management-brand-live-status-label.png)
 
 
 ## ブランドタブの確認
@@ -129,7 +128,7 @@ AJOがブランドガイドラインファイルを分析する際に表示さ�
 - タグラインとスローガン
 - 商標を含める場合などの法的ルール
 
-![&#x200B; ブランドトーン、フレーズ、法務ルールを定義する「スタイル」タブ &#x200B;](assets/brand-management-writing-style-tab.png)
+![ ブランドトーン、フレーズ、法務ルールを定義する「スタイル」タブ ](assets/brand-management-writing-style-tab.png)
 
 自然言語でルールを追加および調整し、電子メールやSMSなどの特定のチャネルにのみルールを適用することもできます。 これにより、AI アシスタントやコンテンツ制作者が、柔軟かつ正確にコンテンツの作成方法を制御できるようになります。
 
@@ -142,7 +141,7 @@ AJOがブランドガイドラインファイルを分析する際に表示さ�
 - アイコンのルール
 - Visual DosとDon&#39;t
 
-![写真、イラスト、図像化ルールをカバーするビジュアルコンテンツタブ &#x200B;](assets/brand-management-visual-content-tab.png)
+![写真、イラスト、図像化ルールをカバーするビジュアルコンテンツタブ ](assets/brand-management-visual-content-tab.png)
 
 これにより、画像からアイコンに至るまで、あらゆるものが一貫性を持ち、Connection 5Gのコアバリューに沿ったものになります。
 
@@ -153,33 +152,33 @@ AJOがブランドガイドラインファイルを分析する際に表示さ�
 
 1. 作成したブランドをクリックします
 
-![新しく作成したConnection 5G ブランドカードをクリックする](assets/brand-management-click-created-brand-card.png)
+   ![新しく作成したConnection 5G ブランドカードをクリックする](assets/brand-management-click-created-brand-card.png)
 
-&#x200B;2. 「**ブランドを編集**」をクリックします。 確認タブが表示されます。**ブランドを編集**&#x200B;をもう一度クリックして確認します。
+2. 「**ブランドを編集**」をクリックします。 確認タブが表示されます。**ブランドを編集**&#x200B;をもう一度クリックして確認します。
 
-![&#x200B; ブランドボタンと確認タブの編集](assets/brand-management-click-edit-brand-button.png)
+   ![ ブランドボタンと確認タブの編集](assets/brand-management-click-edit-brand-button.png)
 
-&#x200B;3. 「**ブランドについて**」タブに移動します。
+3. 「**ブランドについて**」タブに移動します。
 
-![編集中に「ブランドについて」タブに移動する](assets/brand-management-about-the-brand-tab-edit.png)
+   ![編集中に「ブランドについて」タブに移動する](assets/brand-management-about-the-brand-tab-edit.png)
 
-&#x200B;4. **ガイドの原則**、**ビジョン**、または類似の詳細な説明のセクションを探します。
+4. **ガイドの原則**、**ビジョン**、または類似の詳細な説明のセクションを探します。
 
-「ブランドについて」タブの「![&#x200B; ガイドラインとビジョン」セクション &#x200B;](assets/brand-management-guiding-principles-vision-section.png)
+   「ブランドについて」タブの「![ ガイドラインとビジョン」セクション ](assets/brand-management-guiding-principles-vision-section.png)
 
-&#x200B;5. 次のテキストを追加します。
+5. 次のテキストを追加します。
 
-**ビジョン：**
+   **ビジョン：**
 
->すべての個人が、どこにいても、生活、仕事、遊びを向上させる信頼性の高い接続を利用できるようにします。
+   >すべての個人が、どこにいても、生活、仕事、遊びを向上させる信頼性の高い接続を利用できるようにします。
 
-**市場でのポジショニング：**
+   **市場でのポジショニング：**
 
->Connection 5Gは、比類のない信頼性、シンプルさ、将来に向けたイノベーションで際立った、デジタルライフスタイルのために設計されたプレミアムスピードのモバイルサービスを提供します。
+   >Connection 5Gは、比類のない信頼性、シンプルさ、将来に向けたイノベーションで際立った、デジタルライフスタイルのために設計されたプレミアムスピードのモバイルサービスを提供します。
 
-![&#x200B; ブランドに追加されたビジョンと市場ポジショニングのテキスト &#x200B;](assets/brand-management-vision-market-positioning-added.png)
+   ![ ブランドに追加されたビジョンと市場ポジショニングのテキスト ](assets/brand-management-vision-market-positioning-added.png)
 
-&#x200B;6. **保存**&#x200B;をクリックします。 （**保存** ボタンが表示されない場合は、最初に「**概要**」タブをクリックしてから、**保存**」をクリックしてください）。
+6. **保存**&#x200B;をクリックします。 （**保存** ボタンが表示されない場合は、最初に「**概要**」タブをクリックしてから、**保存**」をクリックしてください）。
 
 >[!TIP]
 >
@@ -192,36 +191,36 @@ AJOがブランドガイドラインファイルを分析する際に表示さ�
 
 1. 「**書き方**」タブに移動します。
 
-![除外ルールを追加するために「スタイルの書き込み」タブが開きました](assets/brand-management-writing-style-tab-exclusion.png)
+   ![除外ルールを追加するために「スタイルの書き込み」タブが開きました](assets/brand-management-writing-style-tab-exclusion.png)
 
-&#x200B;2. **ブランドのコミュニケーション スタイル** セクションに属していることを確認してください。
+2. **ブランドのコミュニケーション スタイル** セクションに属していることを確認してください。
 
-「書き方」タブの![&#x200B; ブランドコミュニケーションスタイルのセクション &#x200B;](assets/brand-management-brand-communication-style-section.png)
+   「書き方」タブの![ ブランドコミュニケーションスタイルのセクション ](assets/brand-management-brand-communication-style-section.png)
 
-&#x200B;3. **しない**&#x200B;領域で、**プラス** アイコンをクリックして、新しいルールを追加します。
+3. **しない**&#x200B;領域で、**プラス** アイコンをクリックして、新しいルールを追加します。
 
-![&#x200B; プラスのアイコンを使用して新しいルールを追加する](assets/brand-management-add-donts-rule-plus-icon.png)
+   ![ プラスのアイコンを使用して新しいルールを追加する](assets/brand-management-add-donts-rule-plus-icon.png)
 
-&#x200B;4. ルールを次のように設定します。
+4. ルールを次のように設定します。
    - **除外：** `Be pushy`
 
->[!NOTE]
->
->これは、「しない」ルールとして追加されます。つまり、企業はクッキーレスのCTAを望んでいません
+   >[!NOTE]
+   >
+   >これは、「しない」ルールとして追加されます。つまり、企業はクッキーレスのCTAを望んでいません
 
-**チャネル：**&#x200B;電子メール
+   **チャネル：**&#x200B;電子メール
 
-**要素：** ボタン
+   **要素：** ボタン
 
-&#x200B;5. 「**追加**」をクリックします。
+5. 「**追加**」をクリックします。
 
-![&#x200B; プッシュ除外ルールのボタンを追加](assets/brand-management-click-add-rule-button.png)
+   ![ プッシュ除外ルールのボタンを追加](assets/brand-management-click-add-rule-button.png)
 
-&#x200B;6. 新しい「しない」ルールがリストに`Be pushy`として表示されることを確認します。
+6. 新しい「しない」ルールがリストに`Be pushy`として表示されることを確認します。
 
-![&#x200B; ルール リストでプッシュしないルールが確認されました](assets/brand-management-be-pushy-dont-rule-confirmed.png)
+   ![ ルール リストでプッシュしないルールが確認されました](assets/brand-management-be-pushy-dont-rule-confirmed.png)
 
-&#x200B;7. **保存**&#x200B;をクリックします。
+7. **保存**&#x200B;をクリックします。
 
 このルールは、AI アシスタントや作成者がメールボタンのコピーに取り組む際にいつでも適用され、CTAとConnection 5Gのトーンの整合性を保ちます。
 
@@ -240,15 +239,15 @@ AI アシスタントと作成者に対して![電子メールボタンの除外
 1. 「**概要**」タブに戻ります。 **保存**&#x200B;をクリックします。
 2. 右上隅の「**公開**」をクリックします。
 
-![右上隅の「公開」ボタン &#x200B;](assets/brand-management-click-publish-top-right.png)
+   ![右上隅の「公開」ボタン ](assets/brand-management-click-publish-top-right.png)
 
-&#x200B;3. Connection 5Gの更新されたブランドガイドラインを公開しようとしていることを説明する確認ダイアログが表示されます。 「**公開**」をもう一度クリックして確認します。
+3. Connection 5Gの更新されたブランドガイドラインを公開しようとしていることを説明する確認ダイアログが表示されます。 「**公開**」をもう一度クリックして確認します。
 
-![更新されたブランドガイドラインを公開するための確認ダイアログ &#x200B;](assets/brand-management-confirm-publish-updated-guidelines.png)
+   ![更新されたブランドガイドラインを公開するための確認ダイアログ ](assets/brand-management-confirm-publish-updated-guidelines.png)
 
-&#x200B;4. 緑色の確認バーが表示されるのを待ちます。
-&#x200B;5. 「**戻る**」をクリックして、ブランドリストに戻ります。
-&#x200B;6. **接続5G ブランドガイドライン**&#x200B;に新しいカードが表示され、ステータスが「ライブで利用可能」であることを確認します。
+4. 緑色の確認バーが表示されるのを待ちます。
+5. 「**戻る**」をクリックして、ブランドリストに戻ります。
+6. **接続5G ブランドガイドライン**&#x200B;に新しいカードが表示され、ステータスが「ライブで利用可能」であることを確認します。
 
 ![接続5G ブランドガイドライン カードにライブステータスが表示されている](assets/brand-management-brand-guidelines-card-live-status.png)
 

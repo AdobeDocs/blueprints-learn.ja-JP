@@ -1,11 +1,10 @@
 ---
-hold: true
 title: イベントの監視
 description: Adobe Experience Platform Assuranceを使用してデバッグセッションを作成し、Postmanを介して検証済みイベントを送信し、エッジイベント処理ログを調べます。
 doc-type: article
 solution: Experience Platform
 exl-id: 94b200c0-6714-4996-a266-119cc8f7f4e2
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
 workflow-type: tm+mt
 source-wordcount: '436'
 ht-degree: 1%
@@ -21,11 +20,11 @@ ht-degree: 1%
 
 1. Adobe Experience Platform/Assurance/Create Sessionに移動します
 
-![Adobe Experience Platform Assuranceに移動してセッションを作成](assets/monitor-your-event-navigate-to-assurance-create-session.png)
+   ![Adobe Experience Platform Assuranceに移動してセッションを作成](assets/monitor-your-event-navigate-to-assurance-create-session.png)
 
 
 
-&#x200B;2. 「**開始**」ボタンをクリックします
+2. 「**開始**」ボタンをクリックします
 
 ![開始ボタンをクリックして、Assurance セッションの設定を開始します](assets/monitor-your-event-click-start-button.png)
 
@@ -38,39 +37,39 @@ ht-degree: 1%
    - このURLは、お客様の実際のサイトに置き換えられます
 1. 「次へ」ボタンをクリックします
 
-![&#x200B; セッション名とURLを入力したら、「次へ」をクリックします](assets/monitor-your-event-click-next-button.png)
+   ![ セッション名とURLを入力したら、「次へ」をクリックします](assets/monitor-your-event-click-next-button.png)
 
-&#x200B;4. 後で参照できる場所にリンクをコピー
+4. 後で参照できる場所にリンクをコピー
 
-&#x200B;5. 「**完了**」ボタンをクリックします
+5. 「**完了**」ボタンをクリックします
 
-![Assurance セッション リンクをコピーして、「完了」をクリックします](assets/monitor-your-event-copy-link.png)
-
-
-
-&#x200B;6. **設定**&#x200B;に移動します
-
-![Assurance セッションの「設定」タブに移動します](assets/monitor-your-event-navigate-to-settings.png "設定をクリックします")
+   ![Assurance セッション リンクをコピーして、「完了」をクリックします](assets/monitor-your-event-copy-link.png)
 
 
 
-&#x200B;7. **+** ボタンをクリックして&#x200B;**イベントトランザクション**&#x200B;および&#x200B;**Edge Delivery**&#x200B;を有効にし、**完了**&#x200B;します
+6. **設定**&#x200B;に移動します
 
-![&#x200B; イベントトランザクションとEdge Deliveryを有効にし、「完了」をクリックします](assets/monitor-your-event-enable-event-transactions-and-edge-delivery.png)
+   ![Assurance セッションの「設定」タブに移動します](assets/monitor-your-event-navigate-to-settings.png "設定をクリックします")
+
+
+
+7. **+** ボタンをクリックして&#x200B;**イベントトランザクション**&#x200B;および&#x200B;**Edge Delivery**&#x200B;を有効にし、**完了**&#x200B;します
+
+![ イベントトランザクションとEdge Deliveryを有効にし、「完了」をクリックします](assets/monitor-your-event-enable-event-transactions-and-edge-delivery.png)
 
 
 ## Postmanを開く
 
 Postman/Web イベントの作成/Edge（認証なし）/ヘッダーに移動します
 
-1. 上記のAssuranceからコピーしたリンクを含む&#x200B;**x-adobe-aep-validation-token**&#x200B;をHeadersに追加します。 Assuranceからコピーしたリンクで、=の後のID **の値だけを**&#x200B;取得します。 e.g. [https://www.adobe.com/?adb\_validation\_sessionid=](https://www.adobe.com/?adb_validation_sessionid=efa4a9ed-02d8-4647-80fa-f01a5be273d0) [`efa4a9ed-02d8-4647-80fa-f01a5be273d0`](https://www.adobe.com/?adb_validation_sessionid=efa4a9ed-02d8-4647-80fa-f01a5be273d0)
+1. 上記のAssuranceからコピーしたリンクを含む&#x200B;**x-adobe-aep-validation-token**&#x200B;をHeadersに追加します。 Assuranceからコピーしたリンクで、=の後のID **の値だけを**&#x200B;取得します。 e.g. [https://www.adobe.com/?adb\_validation\_sessionid=](https://www.adobe.com/?adb_validation_sessionid=efa4a9ed-02d8-4647-80fa-f01a5be273d0)[`efa4a9ed-02d8-4647-80fa-f01a5be273d0`](https://www.adobe.com/?adb_validation_sessionid=efa4a9ed-02d8-4647-80fa-f01a5be273d0)
 1. 完全なURLではなく、[`efa4a9ed-02d8-4647-80fa-f01a5be273d0`](https://www.adobe.com/?adb_validation_sessionid=efa4a9ed-02d8-4647-80fa-f01a5be273d0)値だけを使用します
 
-![x-adobe-aep-validation-token ヘッダーをPostmanのAssurance セッション IDに追加](assets/monitor-your-event-populate-the-x-adobe-aep-validation-token.png)
+   ![x-adobe-aep-validation-token ヘッダーをPostmanのAssurance セッション IDに追加](assets/monitor-your-event-populate-the-x-adobe-aep-validation-token.png)
 
 
 
-&#x200B;3. Postmanで、**Web イベントの作成Edge （認証なし）** リクエストを保存して実行します
+3. Postmanで、**Web イベントの作成Edge （認証なし）** リクエストを保存して実行します
 
 
 
@@ -78,13 +77,13 @@ Postman/Web イベントの作成/Edge（認証なし）/ヘッダーに移動�
 
 Assuranceに戻ると、たくさんのイベントが表示されます。 検索にデータストリーム IDを配置して、関連するイベントタイプだけを絞り込むことができます
 
-![&#x200B; データストリーム IDを検索してAssurance イベントをフィルタリング &#x200B;](assets/monitor-your-event-filter-using-search.png)
+![ データストリーム IDを検索してAssurance イベントをフィルタリング ](assets/monitor-your-event-filter-using-search.png)
 
 
 
 イベントを選択し、必要に応じて右側のパネルでメッセージを開きます。
 
-![&#x200B; イベントを選択し、右側のパネルでメッセージを展開する](assets/monitor-your-event-expand-messages.png)
+![ イベントを選択し、右側のパネルでメッセージを展開する](assets/monitor-your-event-expand-messages.png)
 
 確認するイベントタイプ：
 

@@ -1,11 +1,10 @@
 ---
-hold: true
 title: プロファイルのストリーミング
 description: PostmanとストリーミングエンドポイントおよびデータフローIDを使用して、HTTP APIを介してAdobe Experience Platformに顧客プロファイルレコードを送信します。
 doc-type: article
 solution: Experience Platform
 exl-id: 937d153c-9230-4f5a-a397-6c177a3ea890
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
 workflow-type: tm+mt
 source-wordcount: '632'
 ht-degree: 0%
@@ -79,18 +78,18 @@ curl --location '' \
 
 1. **ストリーミングエンドポイント**&#x200B;値をコピーし、ローカルマシンに保存します（前のセクションの手順から移動していない場合）。 離れた場所に移動した場合は、ソース/アカウントで見つけることができます。
 
->[!NOTE]
->
->離れた場所に移動した場合は、次の操作を行うことで、このページにアクセスできます。
->
->- 左側のパネルの&#x200B;**ソース**&#x200B;をクリックします
->- 「**アカウント**」タブにアクセスしていることを確認し、「**ストリーミング取り込み – \&lt; イニシャル >**」というタイトルのアカウントを作成しました
+   >[!NOTE]
+   >
+   >離れた場所に移動した場合は、次の操作を行うことで、このページにアクセスできます。
+   >
+   >- 左側のパネルの&#x200B;**ソース**&#x200B;をクリックします
+   >- 「**アカウント**」タブにアクセスしていることを確認し、「**ストリーミング取り込み – \&lt; イニシャル >**」というタイトルのアカウントを作成しました
 
->[!NOTE]
->
->この値が表示されない場合は、行をクリックしてデータフロー行を選択していないことを確認してください。  青いリンクをクリックしないでください
+   >[!NOTE]
+   >
+   >この値が表示されない場合は、行をクリックしてデータフロー行を選択していないことを確認してください。  青いリンクをクリックしないでください
 
-アカウントの詳細の右側に表示される![&#x200B; ストリーミングエンドポイント URL](assets/stream-a-profile-streaming-endpoint-url-on-the-right.png)
+   アカウントの詳細の右側に表示される![ ストリーミングエンドポイント URL](assets/stream-a-profile-streaming-endpoint-url-on-the-right.png)
 
 
 
@@ -106,34 +105,34 @@ Postman アプリケーションに切り替え、収集した情報でCreate Cu
 
 1. Postmanを開き、**Data Ingestion Lab -> Create Customer Account** API リクエストに移動して開きます
 
-![Create Customer Account API リクエストをPostmanで開く](assets/stream-a-profile-create-customer-account-api-request.png)
+   ![Create Customer Account API リクエストをPostmanで開く](assets/stream-a-profile-create-customer-account-api-request.png)
 
 
 
 1. 以前に保存した&#x200B;**ストリーミングエンドポイント**&#x200B;値をリクエストのURLにコピーして貼り付けます
 
-![&#x200B; ストリーミングエンドポイントの値が顧客アカウント作成リクエスト URL](assets/stream-a-profile-create-customer-account-streaming-endpoint-url.png)に貼り付けられました
+   ![ ストリーミングエンドポイントの値が顧客アカウント作成リクエスト URL](assets/stream-a-profile-create-customer-account-streaming-endpoint-url.png)に貼り付けられました
 
 
 
 1. 以前に保存したデータフローID値を&#x200B;**x-adobe-flow-id** ヘッダー値にコピーして貼り付けます
 
-x-adobe-flow-id ヘッダー値![&#128279;](assets/stream-a-profile-copy-paste-x-adobe-flow-id.png)に貼り付けられた データフローID
+   x-adobe-flow-id ヘッダー値](assets/stream-a-profile-copy-paste-x-adobe-flow-id.png)に貼り付けられた![ データフローID
 
 
 
 1. リクエストの本文で、次のような属性を更新します。
 
-- **firstName** ->名
-- **lastName** ->姓
-- **email** ->電子メールアドレス
-- **birth_Date** -> YYYY-MM-DD
+   - **firstName** ->名
+   - **lastName** ->姓
+   - **email** ->電子メールアドレス
+   - **birth_Date** -> YYYY-MM-DD
 
-**5. リクエストを**&#x200B;保存
+   **5. リクエストを**&#x200B;保存
 
 1. 「**送信**」ボタンをクリックして、顧客アカウントプロファイルでストリーミングするリクエストを実行します
 
-![お客様アカウントの作成リクエストをPostmanで送信する準備が完了しました](assets/stream-a-profile-final-create-customer-account-request.png)
+   ![お客様アカウントの作成リクエストをPostmanで送信する準備が完了しました](assets/stream-a-profile-final-create-customer-account-request.png)
 
 
 
