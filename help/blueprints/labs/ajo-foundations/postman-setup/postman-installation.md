@@ -28,7 +28,7 @@ ht-degree: 0%
 
 Postman web サイトに移動し、Postman アプリをダウンロードするか、Web バージョンを利用します – > [https://www.postman.com/download/](https://www.postman.com/download/)
 
-![Postman web サイトのPostman ダウンロードページ ](assets/postman-installation-postman-download.png)
+![Postman web サイトのPostman ダウンロードページ &#x200B;](assets/postman-installation-postman-download.png)
 
 ## Postman ワークスペースの作成（オプション）
 
@@ -40,7 +40,7 @@ Postman *を初めて利用する*&#x200B;場合、これが初めてのイン�
 
 Postmanを開き、アプリケーションのいくつかの領域をすばやく確認します。 Experience Platformを利用する上で本当に必要なのは、アプリケーションのいくつかの重要な領域に集中することだけです。
 
-![ サイドバー、ヘッダー、メイン作業領域のラベルが付いたPostman インターフェイスの概要](assets/postman-installation-interface-overview.png "Postman インターフェイス ")
+![&#x200B; サイドバー、ヘッダー、メイン作業領域のラベルが付いたPostman インターフェイスの概要](assets/postman-installation-interface-overview.png "Postman インターフェイス ")
 
 ## サイドバー
 

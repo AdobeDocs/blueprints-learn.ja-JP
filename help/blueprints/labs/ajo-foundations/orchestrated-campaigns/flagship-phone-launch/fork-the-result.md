@@ -27,7 +27,7 @@ ht-degree: 0%
 
 1. ワークフローキャンバスで、「**+** **アイコン**」をクリックし、「**フォークアクティビティ**」を選択します
 
-   ![ オーディエンスを作成アクティビティの後にフォーク アクティビティを追加](assets/fork-the-result-add-fork-activity.png)
+   ![&#x200B; オーディエンスを作成アクティビティの後にフォーク アクティビティを追加](assets/fork-the-result-add-fork-activity.png)
 
 
 
@@ -41,7 +41,7 @@ ht-degree: 0%
 
    キャンバスが完成したら、このように表示されます…
 
-   ![分岐アクティビティを追加した後のワークフローキャンバス ](assets/fork-the-result-final-canvas.png)
+   ![分岐アクティビティを追加した後のワークフローキャンバス &#x200B;](assets/fork-the-result-final-canvas.png)
 
    >[!NOTE]
    >
@@ -51,7 +51,7 @@ ht-degree: 0%
 
 3. ワークフローキャンバスの上部にある「**保存**」をクリックします。
 
-![ ワークフローキャンバスツールバーの「保存」ボタン ](assets/fork-the-result-click-save.png)
+![&#x200B; ワークフローキャンバスツールバーの「保存」ボタン &#x200B;](assets/fork-the-result-click-save.png)
 
 >[!TIP]
 >

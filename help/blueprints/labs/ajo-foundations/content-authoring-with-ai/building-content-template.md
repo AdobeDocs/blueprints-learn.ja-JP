@@ -52,7 +52,7 @@ ht-degree: 0%
 
 1. **コンテンツ管理→コンテンツテンプレート**&#x200B;に移動します。
 
-   ![ コンテンツ管理に移動してからコンテンツテンプレート ](assets/building-content-template-navigate-content-templates.png)
+   ![&#x200B; コンテンツ管理に移動してからコンテンツテンプレート &#x200B;](assets/building-content-template-navigate-content-templates.png)
 
 2. 「**テンプレートを作成**」をクリックし、次の項目を入力します。
    - **名前：** `Promotional Template`
@@ -63,7 +63,7 @@ ht-degree: 0%
 
 3. 「**作成**」をクリックします。
 
-![ プロモーションテンプレートの作成を完了するボタンを作成](assets/building-content-template-click-create-button.png)
+![&#x200B; プロモーションテンプレートの作成を完了するボタンを作成](assets/building-content-template-click-create-button.png)
 
 
 ## 件名を追加して電子メールデザイナーを開く
@@ -89,15 +89,15 @@ ht-degree: 0%
 
 1. ツールキット フォルダー`promotional-template-final.html`からテンプレート html ファイルをアップロードします
 
-   ![ ツールキット フォルダーからpromotional-template-final.htmlをアップロードしています](assets/building-content-template-upload-html-template-file.png)
+   ![&#x200B; ツールキット フォルダーからpromotional-template-final.htmlをアップロードしています](assets/building-content-template-upload-html-template-file.png)
 
 2. 「インポート」ボタンをクリックして、テンプレートを&#x200B;**インポート**&#x200B;します。
 
-   ![ アップロードしたHTML テンプレートを読み込むボタン ](assets/building-content-template-click-import-button.png)
+   ![&#x200B; アップロードしたHTML テンプレートを読み込むボタン &#x200B;](assets/building-content-template-click-import-button.png)
 
 3. レイアウトがレンダリングされるのを待ちます。 画像のリンク切れやブランディングの欠落などの問題が発生します。 （プレースホルダーアセットがあるため、これは期待される動作です）
 
-![壊れた画像リンクとブランディングプレースホルダーが表示されているレンダリングされたテンプレート ](assets/building-content-template-rendered-template-broken-images.png)
+![壊れた画像リンクとブランディングプレースホルダーが表示されているレンダリングされたテンプレート &#x200B;](assets/building-content-template-rendered-template-broken-images.png)
 
 
 ## テンプレート構造を見る
@@ -112,7 +112,7 @@ Adobe Journey Optimizerの「本文」セクションは、メールまたはペ
 
 Adobe Journey Optimizerの「本文」セクションの「**設定**」および「**スタイル**」オプションを使用すると、メールまたはページの基本的な外観とレイアウトを定義できます。 これらのコントロールは、ボディがすべてのコンポーネントの親となるため、デザイン全体に影響を与えます。
 
-![本文セクションの右側のパネルの設定とスタイルのオプション ](assets/building-content-template-body-settings-style-panel.png)
+![本文セクションの右側のパネルの設定とスタイルのオプション &#x200B;](assets/building-content-template-body-settings-style-panel.png)
 
 
 左側のレールバーには、次のセクションがあります。
@@ -124,7 +124,7 @@ Adobe Journey Optimizerの「本文」セクションの「**設定**」およ�
 
 前の演習で作成したヘッダーフラグメントは、以下のように表示されます。 ヘッダーフラグメントがドラフトモードではなく、青色のドットで「ライブ」と表示されていることを確認します。 残りのセクションは確認に時間をかけます。
 
-![左側のサイドバーに青い点が表示されたライブのヘッダーフラグメント ](assets/building-content-template-header-fragment-live-sidebar.png)
+![左側のサイドバーに青い点が表示されたライブのヘッダーフラグメント &#x200B;](assets/building-content-template-header-fragment-live-sidebar.png)
 
 >[!NOTE]
 >
@@ -142,23 +142,23 @@ Adobe Journey Optimizerの「本文」セクションの「**設定**」およ�
 
    このような表示になります。
 
-   ![ コンテンツの上に新しい列を追加した後のテンプレート レイアウト ](assets/building-content-template-column-added-above-content.png)
+   ![&#x200B; コンテンツの上に新しい列を追加した後のテンプレート レイアウト &#x200B;](assets/building-content-template-column-added-above-content.png)
 
 2. 背景には、テンプレートの背景色が使用されています。現在は黒です。 **背景色を白に設定します。 右側のパネルの「スタイル」タブで「**」をクリックし、カラーピッカーから白い色を使用します。
 
-   ![ カラーピッカーを使用して列の背景色を白に設定](assets/building-content-template-set-background-color-white.png)
+   ![&#x200B; カラーピッカーを使用して列の背景色を白に設定](assets/building-content-template-set-background-color-white.png)
 
 3. **フラグメント**&#x200B;を開き、**ヘッダー** フラグメントにドラッグします。
 
-   ![ フラグメントパネルからヘッダーフラグメントをテンプレートにドラッグする](assets/building-content-template-drag-header-fragment-into-template.png)
+   ![&#x200B; フラグメントパネルからヘッダーフラグメントをテンプレートにドラッグする](assets/building-content-template-drag-header-fragment-into-template.png)
 
 4. 次に示すように、ヘッダーフラグメントがテンプレートに整列していることに注意してください。
 
-   ![ テンプレート内でヘッダーフラグメントがきれいに整列](assets/building-content-template-header-fragment-aligned-template.png)
+   ![&#x200B; テンプレート内でヘッダーフラグメントがきれいに整列](assets/building-content-template-header-fragment-aligned-template.png)
 
 5. **保存** ボタンをクリックしてテンプレートを保存し、**戻る**&#x200B;をクリックします。
 
-戻る](assets/building-content-template-click-save-button-template.png)をクリックする前にテンプレートを保存するには、![保存ボタンを使用します
+戻る![&#128279;](assets/building-content-template-click-save-button-template.png)をクリックする前にテンプレートを保存するには、保存ボタンを使用します
 
 >[!NOTE]
 >

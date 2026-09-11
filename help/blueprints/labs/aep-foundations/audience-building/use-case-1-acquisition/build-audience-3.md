@@ -49,7 +49,7 @@ IPhone 14の製品ページを訪問したオーディエンスを構築する
 
 3. 配置されたイベントの上で、「Any time」を「Today」に変更します
 
-   ![ イベント時間フィルターを「任意の時間」から「今日」に変更](assets/build-audience-1-change-any-time-to-today.png)
+   ![&#x200B; イベント時間フィルターを「任意の時間」から「今日」に変更](assets/build-audience-1-change-any-time-to-today.png)
 
 4. このオーディエンスを「*任意のページを訪問*」として保存
 
@@ -93,13 +93,13 @@ IPhone 14の製品ページを訪問したオーディエンスを構築する
    >
    >検索で説明が検索されない
    >
-   >![ ページを検索しても、ページ名フィールドが表示されません](assets/build-audience-3-searching-for-page-does-not-find-field.png)
+   >![&#x200B; ページを検索しても、ページ名フィールドが表示されません](assets/build-audience-3-searching-for-page-does-not-find-field.png)
 
 
 
 4. 配置されたイベントの上で、「Any time」を「Today」に変更します
 
-   ![ イベント時間フィルターを「任意の時間」から「今日」に変更](assets/build-audience-1-change-any-time-to-today.png)
+   ![&#x200B; イベント時間フィルターを「任意の時間」から「今日」に変更](assets/build-audience-1-change-any-time-to-today.png)
 
    >[!NOTE]
    >
@@ -111,7 +111,7 @@ IPhone 14の製品ページを訪問したオーディエンスを構築する
 
 6. オーディエンスを「*訪問済みiPhone 14 Page*」として保存
 
-   ![ オーディエンスを「訪問済みiPhone 14 Page」として保存](assets/build-audience-3-save-audience-as-visited-iphone-14-page.png)
+   ![&#x200B; オーディエンスを「訪問済みiPhone 14 Page」として保存](assets/build-audience-3-save-audience-as-visited-iphone-14-page.png)
 
 
 
@@ -134,17 +134,17 @@ IPhone 14の製品ページを訪問したオーディエンスを構築する
 
 
 
-5. 説明を入力してください。
+&#x200B;5. 説明を入力してください。
 
-6. ストリーミングに変更
+&#x200B;6. ストリーミングに変更
 
-7. 「*iPhone 14 Pageを訪問しましたが、所有/注文していません*」として保存
+&#x200B;7. 「*iPhone 14 Pageを訪問しましたが、所有/注文していません*」として保存
 
-8. 青いボタン **Activate Audience**&#x200B;をDestinationにクリックします
+&#x200B;8. 青いボタン **Activate Audience**&#x200B;をDestinationにクリックします
 
-9. 「**Streaming DEP Webhook** Destination」を選択し、「Next」をクリックします
+&#x200B;9. 「**Streaming DEP Webhook** Destination」を選択し、「Next」をクリックします
 
-10. 「次へ」をクリックして終了
+&#x200B;10. 「次へ」をクリックして終了
 
 >[!NOTE]
 >
@@ -176,7 +176,7 @@ IPhone 14の製品ページを訪問したオーディエンスを構築する
 
 これらのオーディエンスをすべて4つではなく1つのオーディエンスに構築した場合、各オーディエンスが個別にストリーミングされていても、バッチ評価方法が適用されます。
 
-![ ストリーミングではなくバッチ評価で、1つの組み合わせオーディエンスを作成します](assets/build-audience-3-why-are-we-creating-multiple-audiences.png)
+![&#x200B; ストリーミングではなくバッチ評価で、1つの組み合わせオーディエンスを作成します](assets/build-audience-3-why-are-we-creating-multiple-audiences.png)
 
 
 

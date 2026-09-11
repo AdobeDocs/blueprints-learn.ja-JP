@@ -56,7 +56,7 @@ ht-degree: 7%
 
 1. マッピング出力をプレビューします。 すべての属性をスクロールして、右側の属性の横に赤い感嘆符が表示されないようにします。
 
-   ![ マッピングされた属性にエラーのないマッピング画面をプレビュー](assets/verify-and-schedule-dataflow-preview-mapping-screen.png " マッピング画面をプレビューすると、次のようになります")
+   ![&#x200B; マッピングされた属性にエラーのないマッピング画面をプレビュー](assets/verify-and-schedule-dataflow-preview-mapping-screen.png " マッピング画面をプレビューすると、次のようになります")
 
 1. プレビューの左側のナビゲーションで、**productListItems** オブジェクト配列を選択します。 右側が更新され、そのオブジェクト配列内の属性のみが表示されます。
 

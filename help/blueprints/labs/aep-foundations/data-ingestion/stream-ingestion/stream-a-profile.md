@@ -89,7 +89,7 @@ curl --location '' \
    >
    >この値が表示されない場合は、行をクリックしてデータフロー行を選択していないことを確認してください。  青いリンクをクリックしないでください
 
-   アカウントの詳細の右側に表示される![ ストリーミングエンドポイント URL](assets/stream-a-profile-streaming-endpoint-url-on-the-right.png)
+   アカウントの詳細の右側に表示される![&#x200B; ストリーミングエンドポイント URL](assets/stream-a-profile-streaming-endpoint-url-on-the-right.png)
 
 
 
@@ -111,13 +111,13 @@ Postman アプリケーションに切り替え、収集した情報でCreate Cu
 
 1. 以前に保存した&#x200B;**ストリーミングエンドポイント**&#x200B;値をリクエストのURLにコピーして貼り付けます
 
-   ![ ストリーミングエンドポイントの値が顧客アカウント作成リクエスト URL](assets/stream-a-profile-create-customer-account-streaming-endpoint-url.png)に貼り付けられました
+   ![&#x200B; ストリーミングエンドポイントの値が顧客アカウント作成リクエスト URL](assets/stream-a-profile-create-customer-account-streaming-endpoint-url.png)に貼り付けられました
 
 
 
 1. 以前に保存したデータフローID値を&#x200B;**x-adobe-flow-id** ヘッダー値にコピーして貼り付けます
 
-   x-adobe-flow-id ヘッダー値](assets/stream-a-profile-copy-paste-x-adobe-flow-id.png)に貼り付けられた![ データフローID
+   x-adobe-flow-id ヘッダー値![&#128279;](assets/stream-a-profile-copy-paste-x-adobe-flow-id.png)に貼り付けられた データフローID
 
 
 

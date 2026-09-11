@@ -64,7 +64,7 @@ ID グラフを使用しない結合ポリシーを作成して、プロファ�
 1. 上部のナビゲーションで「**ポリシーを結合**」をクリックします
 1. 画面の右端にある&#x200B;**結合ポリシーの作成**&#x200B;をクリックします
 
-![結合ポリシー画面の右上付近にある結合ポリシーの作成をクリック ](assets/merge-policies-click-create-merge-policy-button.png)
+![結合ポリシー画面の右上付近にある結合ポリシーの作成をクリック &#x200B;](assets/merge-policies-click-create-merge-policy-button.png)
 
 ## 設定
 
@@ -86,7 +86,7 @@ ID グラフを使用しない結合ポリシーを作成して、プロファ�
 1. 結合メソッドで、**順序のタイムスタンプ**&#x200B;を選択します
 1. 「**次へ**」をクリック
 
-![ プロファイルデータセットの結合メソッドとして順序付けされたタイムスタンプの選択](assets/merge-policies-select-timestamp-ordered-merge-method.png "結合メソッドの選択")
+![&#x200B; プロファイルデータセットの結合メソッドとして順序付けされたタイムスタンプの選択](assets/merge-policies-select-timestamp-ordered-merge-method.png "結合メソッドの選択")
 
 ## エクスペリエンスイベントデータセットの選択
 
@@ -94,7 +94,7 @@ ID グラフを使用しない結合ポリシーを作成して、プロファ�
 
 したがって、この手順では何もする必要がないので、**次へ**&#x200B;をクリックするだけです。
 
-![ タイムスタンプの順序付き結合に対して、何も設定しないエクスペリエンスイベントデータセットのステップ ](assets/merge-policies-select-experience-event-datasets.png)
+![&#x200B; タイムスタンプの順序付き結合に対して、何も設定しないエクスペリエンスイベントデータセットのステップ &#x200B;](assets/merge-policies-select-experience-event-datasets.png)
 
 ## レビュー
 
@@ -109,7 +109,7 @@ ID グラフを使用しない結合ポリシーを作成して、プロファ�
 
 プロファイルのID グラフであるDepeche Modeは、以下のスクリーンショットのようです。 プロファイルサービスの仕組みを理解するには、組み立てプロセスでこのID グラフを使用することを無視するのが最善の方法です。
 
-リンクされたIDを表示するDepeche Mode プロファイルの![ID グラフ ](assets/merge-policies-depeche-mode-identity-graph.png)
+リンクされたIDを表示するDepeche Mode プロファイルの![ID グラフ &#x200B;](assets/merge-policies-depeche-mode-identity-graph.png)
 
 ## メールを使用した比較
 
@@ -121,7 +121,7 @@ ID グラフを使用しない結合ポリシーを作成して、プロファ�
 1. 「**表示**」ボタンをクリックして、プロファイルを検索します
 1. プロファイルへの&#x200B;**リンク**&#x200B;をクリックすると、プロファイルの詳細が表示されます
 
-   ![ デフォルトのタイムスタンプベースの結合ポリシーを使用して電子メールでDepeche Mode プロファイルを検索](assets/merge-policies-lookup-depeche-mode-default-merge-policy.png " デフォルトのタイムスタンプベースの結合ポリシーを使用したDepeche Modeの検索")
+   ![&#x200B; デフォルトのタイムスタンプベースの結合ポリシーを使用して電子メールでDepeche Mode プロファイルを検索](assets/merge-policies-lookup-depeche-mode-default-merge-policy.png " デフォルトのタイムスタンプベースの結合ポリシーを使用したDepeche Modeの検索")
 
    Depeche Mode プロファイルを別に検索しますが、今回は&#x200B;**ID ステッチなし**&#x200B;結合ポリシーを使用します。
 
@@ -137,7 +137,7 @@ ID グラフを使用しない結合ポリシーを作成して、プロファ�
 
 プロファイルの両方のビューを比較すると、それらが非常に異なることに気づくはずです。 一部の属性とIDが、**ID ステッチなし**&#x200B;結合ポリシーを使用するバージョンにありません。
 
-![ デフォルトのタイムスタンプベースの結合ポリシーを使用して組み立てられたDepeche Mode プロファイル ](assets/merge-policies-default-timebased-merge-policy-result.png " デフォルトのタイムベースの結合ポリシー")
+![&#x200B; デフォルトのタイムスタンプベースの結合ポリシーを使用して組み立てられたDepeche Mode プロファイル &#x200B;](assets/merge-policies-default-timebased-merge-policy-result.png " デフォルトのタイムベースの結合ポリシー")
 
 ![No ID ステッチ結合ポリシーを使用して組み立てられたDepeche Mode プロファイル。属性とIDが欠落しています](assets/merge-policies-no-id-stitching-merge-policy-result.png "ID ステッチ結合ポリシーがありません")
 
@@ -159,7 +159,7 @@ ID グラフを使用しない結合ポリシーを作成して、プロファ�
 
 ID ステッチなし結合ポリシーを使用してcustomerIDでDepeche モードを検索する場合、![属性タブが空です](assets/merge-policies-customerid-lookup-attributes-tab.png)
 
-customerID](assets/merge-policies-customerid-lookup-events-tab.png)でDepeche Modeを検索する際に、customerIDをプライマリ IDとするイベントのみを表示する![ イベントタブ
+customerID![&#128279;](assets/merge-policies-customerid-lookup-events-tab.png)でDepeche Modeを検索する際に、customerIDをプライマリ IDとするイベントのみを表示する イベントタブ
 
 **自分に質問する**
 

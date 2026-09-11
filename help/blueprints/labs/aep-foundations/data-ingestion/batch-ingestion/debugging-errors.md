@@ -21,15 +21,15 @@ ht-degree: 0%
 1. **データフロー実行開始日**&#x200B;をクリック
 1. **エラー診断のプレビュー**&#x200B;をクリックして、失敗した各行の具体的な詳細を確認します
 
-失敗を示す![ データフロー実行ステータス ](assets/debugging-errors-dataflow-run-failure.png " データフロー実行エラー")
+失敗を示す![&#x200B; データフロー実行ステータス &#x200B;](assets/debugging-errors-dataflow-run-failure.png " データフロー実行エラー")
 
-![ データフロー実行の詳細画面のエラー診断リンクのプレビュー](assets/debugging-errors-preview-error-diagnostics-link.png " エラー診断のプレビュー")
+![&#x200B; データフロー実行の詳細画面のエラー診断リンクのプレビュー](assets/debugging-errors-preview-error-diagnostics-link.png " エラー診断のプレビュー")
 
 
 
 画面には、エラーコードが完全なエラーメッセージと失敗した行の意味に関する詳細が表示されます。
 
-エラーコード、メッセージ、失敗した行を表示する![ エラー診断の詳細画面](assets/debugging-errors-error-diagnostics-detail-screen.png " エラー診断プレビュー")
+エラーコード、メッセージ、失敗した行を表示する![&#x200B; エラー診断の詳細画面](assets/debugging-errors-error-diagnostics-detail-screen.png " エラー診断プレビュー")
 
 >[!NOTE]
 >

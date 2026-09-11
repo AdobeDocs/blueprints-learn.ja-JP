@@ -18,7 +18,7 @@ ht-degree: 0%
 
 ラボで使用できるように、Azure Storage Explorerを介してサンプルデータファイルをデータランディングゾーンにアップロードする必要があります。  これを行うには、次の操作を行います。
 
-1. [ サンプルファイル ](../../sample-files.md)をダウンロード
+1. [&#x200B; サンプルファイル &#x200B;](../../sample-files.md)をダウンロード
 1. **Lab\_Customer\_Account.csv** ファイルをドラッグ&amp;ドロップするか、前の手順で保存したデータランディングゾーンにアップロードします。
 
 アップロードされた画面は以下のスクリーンショットのようになります。
@@ -27,14 +27,14 @@ ht-degree: 0%
 >
 >ファイルを&#x200B;*プロジェクト* フォルダーにアップロードしないでください。 ラボでは使用しないプリロード済みのデータが含まれています。
 
-![ プロジェクトフォルダーではなく、アップロードされたLab_Customer_Account.csv ファイルを示すデータランディングゾーンファイルブラウザー](assets/setup-source-make-sure-you-do-not-upload-the-file.png)
+![&#x200B; プロジェクトフォルダーではなく、アップロードされたLab_Customer_Account.csv ファイルを示すデータランディングゾーンファイルブラウザー](assets/setup-source-make-sure-you-do-not-upload-the-file.png)
 
 ## ソースに移動
 
 1. Adobe Experience Platformに移動し、**ソース** -> **カタログ** -> **クラウドストレージ**&#x200B;に移動します。
 1. データランディングゾーンの&#x200B;**設定** / **データを追加**&#x200B;をクリックします
 
-![ データランディングゾーンのクラウドストレージソースのデータアクションの設定または追加](assets/setup-source-add-data-landing-zone-source.png " データランディングゾーンへのアクセス ")
+![&#x200B; データランディングゾーンのクラウドストレージソースのデータアクションの設定または追加](assets/setup-source-add-data-landing-zone-source.png " データランディングゾーンへのアクセス ")
 
 >[!NOTE]
 >
@@ -54,11 +54,11 @@ ht-degree: 0%
 
 
 
-   ファイルのプレビュー](assets/setup-source-sms-optin-missing-values.png "sms_optin")に複数の値が表示されている![sms_optIn フィールド
+   ファイルのプレビュー![&#128279;](assets/setup-source-sms-optin-missing-values.png "sms_optin")に複数の値が表示されているsms_optIn フィールド
 
 
 
-   ファイルのプレビューに表示される![account_create_dateおよびaccount_end_date フィールド ](assets/setup-source-account-create-date-account-end-date.png "account_create_dateおよびaccount_end_date")
+   ファイルのプレビューに表示される![account_create_dateおよびaccount_end_date フィールド &#x200B;](assets/setup-source-account-create-date-account-end-date.png "account_create_dateおよびaccount_end_date")
 
    >[!NOTE]
    >
@@ -75,12 +75,12 @@ ht-degree: 0%
 1. ドロップダウンリストから「**dep：顧客アカウント**」スキーマを選択します。
 1. 「**プロファイルデータセット**」トグルボックスをオンにします。
 （これをオンにしない場合、プロファイルストアはこのデータセットに入力される新しいデータを監視できず、したがって、このデータをプロファイルに取り込むことができません）
-1. **部分取り込みを有効にする**をオンにします。
+1. **部分取り込みを有効にする**&#x200B;をオンにします。
 （これをオンにしないと、いずれかのレコードにエラーがある場合、取り込みが失敗する可能性があります）
 1. データフロー名を&#x200B;**Customer Account Batch Ingestion - \&lt;Your Initials>**&#x200B;に設定します
 1. すべてのアラートを有効にする&#x200B;**ソースデータフローの開始/成功/失敗**
 
-新しいデータセット、プロファイル切り替え、部分的な取り込み設定が設定された![ データフローの詳細画面](assets/setup-source-dataflow-detail-screen-settings.png " データフローの詳細")
+新しいデータセット、プロファイル切り替え、部分的な取り込み設定が設定された![&#x200B; データフローの詳細画面](assets/setup-source-dataflow-detail-screen-settings.png " データフローの詳細")
 
 >[!CAUTION]
 >

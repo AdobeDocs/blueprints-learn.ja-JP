@@ -46,7 +46,7 @@ ht-degree: 0%
 1. **フォルダー** -> プロファイルラボ
 1. **API リクエスト** -> Web イベント Edgeの作成（認証なし）
 
-![Profile Lab フォルダーのCreate Web Event Edge （No Auth） API リクエストへのPostman サイドバーナビゲーション ](assets/send-an-edge-event-navigate-to-the-postman-call.png)
+![Profile Lab フォルダーのCreate Web Event Edge （No Auth） API リクエストへのPostman サイドバーナビゲーション &#x200B;](assets/send-an-edge-event-navigate-to-the-postman-call.png)
 
 ## API リクエストを変更
 
@@ -57,7 +57,7 @@ API リクエストを実行する前に、リクエストに追加の情報を�
 1. 左側のパネルで「**データストリーム**」（「データ収集」見出しの下）をクリックします
 1. データストリームを選択し、**データストリーム ID**&#x200B;値をコピーします
 
-![ コピー用にハイライト表示されたデータストリーム ID値を持つデータストリームリスト ](assets/send-an-edge-event-gather-datastream-id.png)
+![&#x200B; コピー用にハイライト表示されたデータストリーム ID値を持つデータストリームリスト &#x200B;](assets/send-an-edge-event-gather-datastream-id.png)
 
 ## Postman クエリパラメーターの更新
 
@@ -65,13 +65,13 @@ API リクエストを実行する前に、リクエストに追加の情報を�
 1. 前の手順のデータストリーム IDで&#x200B;**値**&#x200B;を更新します
 1. 「**保存**」ボタンをクリックして、更新を保存します
 
-![ データストリーム ID値が値フィールドに貼り付けられたPostman パラメーターのタブ ](assets/send-an-edge-event-update-datastream-id-param.png "DataStreamIdの更新")
+![&#x200B; データストリーム ID値が値フィールドに貼り付けられたPostman パラメーターのタブ &#x200B;](assets/send-an-edge-event-update-datastream-id-param.png "DataStreamIdの更新")
 
 
 
 メールアドレスを変更
 
-![ テスター自身の電子メールアドレスに更新された電子メール値を示すPostman リクエスト本文](assets/send-an-edge-event-change-email-param.png "電子メールを電子メールに変更")
+![&#x200B; テスター自身の電子メールアドレスに更新された電子メール値を示すPostman リクエスト本文](assets/send-an-edge-event-change-email-param.png "電子メールを電子メールに変更")
 
 ## APIの実行
 
@@ -109,18 +109,18 @@ Adobe Experience Platformでは、Edge Networkに送信したばかりのイベ�
 1. **表示**&#x200B;をクリックしてプロファイルを検索します
 1. **プロファイル ID**&#x200B;をクリックしてプロファイルを開きます
 
-   ![ プロファイル一致したプロファイルを開くには、「表示」リンクを使用して検索結果を参照してください](assets/send-an-edge-event-lookup-profile.png "検索プロファイル ")
+   ![&#x200B; プロファイル一致したプロファイルを開くには、「表示」リンクを使用して検索結果を参照してください](assets/send-an-edge-event-lookup-profile.png "検索プロファイル ")
 
 1. 上部のナビゲーションの&#x200B;**イベント**&#x200B;をクリックすると、送信したばかりのイベントが表示されます
 
-   Edgeに送信されたエクスペリエンスイベントを表示する![ プロファイルイベント タブ ](assets/send-an-edge-event-view-profile-event.png " プロファイルイベントを表示")
+   Edgeに送信されたエクスペリエンスイベントを表示する![&#x200B; プロファイルイベント タブ &#x200B;](assets/send-an-edge-event-view-profile-event.png " プロファイルイベントを表示")
 
 1. 上部のナビゲーションの「オーディエンスメンバーシップ」タブを確認して、プロファイルがオーディエンスに適格であることを検証します。 次の項目が表示されます。
 
 - Any Event Edge（15分以内）
 - dep：任意のイベントストリーミング（時間内）
 
-任意のイベント Edgeとdep：任意のイベントストリーミングオーディエンス ](assets/send-an-edge-event-any-event-streaming-within-the-last-hour.png)の資格を示す「![ オーディエンスメンバーシップ」タブ
+任意のイベント Edgeとdep：任意のイベントストリーミングオーディエンス ![&#128279;](assets/send-an-edge-event-any-event-streaming-within-the-last-hour.png)の資格を示す「 オーディエンスメンバーシップ」タブ
 
 ## チェックの解釈方法
 

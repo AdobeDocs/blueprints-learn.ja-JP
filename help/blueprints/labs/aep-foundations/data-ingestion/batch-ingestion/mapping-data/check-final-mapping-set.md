@@ -18,7 +18,7 @@ ht-degree: 0%
 >
 >ストリーミング取り込みラボからアクセスする場合は、以下のリンクをクリックして、そのラボの次の手順に進んでください。
 >
->[ ストリーミング取り込みラボ – 最終マッピングセットを確認](../../stream-ingestion/check-final-mapping-set.md)
+>[&#x200B; ストリーミング取り込みラボ – 最終マッピングセットを確認](../../stream-ingestion/check-final-mapping-set.md)
 
 
 

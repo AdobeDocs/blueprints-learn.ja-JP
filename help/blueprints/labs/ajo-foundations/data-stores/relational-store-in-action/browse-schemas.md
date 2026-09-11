@@ -40,7 +40,7 @@ Connection 5G リレーショナルデータモデルは既に作成されてい
 
 1. 「**関係**」タブをクリックし、「**関係図を表示**」ボタンをクリックします
 
-   ![関係図を表示ボタン付きの「関係」タブ ](assets/browse-schemas-relationships-tab.png)
+   ![関係図を表示ボタン付きの「関係」タブ &#x200B;](assets/browse-schemas-relationships-tab.png)
 
 
 
@@ -53,13 +53,13 @@ Connection 5G リレーショナルデータモデルは既に作成されてい
 
 4. ERDで、**3 ドット**&#x200B;をクリックし、**関連エンティティを表示**&#x200B;を選択します
 
-   ![ERD コンテキストメニューで「関連エンティティを表示」オプション ](assets/browse-schemas-show-related-entities.png)
+   ![ERD コンテキストメニューで「関連エンティティを表示」オプション &#x200B;](assets/browse-schemas-show-related-entities.png)
 
 
 
 5. dep-rel：顧客アカウントに直接関連するすべてのテーブルを含むERDを表示します。 オプションで、ERDをPNG ファイルとしてダウンロードできます。
 
-顧客アカウントに関連するテーブルを示す![ エンティティ関係ダイアグラム ](assets/browse-schemas-erd-diagram.png)
+顧客アカウントに関連するテーブルを示す![&#x200B; エンティティ関係ダイアグラム &#x200B;](assets/browse-schemas-erd-diagram.png)
 
 >[!TIP]
 >

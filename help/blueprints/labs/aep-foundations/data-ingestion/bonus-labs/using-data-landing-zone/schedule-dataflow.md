@@ -32,7 +32,7 @@ ht-degree: 0%
 >
 >実際には、**Backfill** オプションは、すべてのファイルの1回限りのバックフィルを行い、その後の実行は新しいファイルを取ります。
 
-![頻度、間隔、およびバックフィルのオプションを設定したデータフロー実行のスケジュール ](assets/schedule-dataflow-scheduling-dataflow-run.png " データフロー実行のスケジュール ")
+![頻度、間隔、およびバックフィルのオプションを設定したデータフロー実行のスケジュール &#x200B;](assets/schedule-dataflow-scheduling-dataflow-run.png " データフロー実行のスケジュール ")
 
 データフローを確認し、**完了をクリックします。**
 

@@ -23,7 +23,7 @@ ht-degree: 0%
 1. 必要に応じて、左側のパネルの&#x200B;**決定** メニュー項目を展開し、**カタログ**&#x200B;をクリックします。
 2. デフォルトでは、「オファー」ページが表示されます。 右上隅の「**スキーマを編集**」ボタンをクリックします。
 
-   ![ オファーカタログページの「スキーマを編集」ボタン ](assets/create-offer-attributes-edit-schema-button.png)
+   ![&#x200B; オファーカタログページの「スキーマを編集」ボタン &#x200B;](assets/create-offer-attributes-edit-schema-button.png)
 
    >[!TIP]
    >
@@ -47,11 +47,11 @@ ht-degree: 0%
 
 4. すべてのプロパティが次のスクリーンショットのように入力されていることを確認します。
 
-   ](assets/create-offer-attributes-device-object-field-properties.png)に入力された新しいデバイスオブジェクトの![ フィールドプロパティ
+   ![&#128279;](assets/create-offer-attributes-device-object-field-properties.png)に入力された新しいデバイスオブジェクトの フィールドプロパティ
 
 5. すべてのフィールドが正しいことを確認したら、「フィールドプロパティ」メニュー（右側のパネル）の下部にある青い&#x200B;**適用** ボタンをクリックして、スキーマに適用された変更を確認します。
 
-![ オファースキーマに適用されたデバイス フィールド グループ ](assets/create-offer-attributes-device-object-applied.png)
+![&#x200B; オファースキーマに適用されたデバイス フィールド グループ &#x200B;](assets/create-offer-attributes-device-object-applied.png)
 
 >[!TIP]
 >
@@ -73,7 +73,7 @@ ht-degree: 0%
    - すべてのフィールドが正しいことを確認したら、青い&#x200B;**適用** ボタンをクリックして、スキーマに適用された変更を確認します
 2. 前の手順を繰り返して、**モデル**&#x200B;と&#x200B;**階層**&#x200B;の2つの追加の属性を追加します。 同じ命名パターン、タイプ、フィールドグループを使用します。 終了すると、スキーマは次のようになります。
 
-   ![完了したMake、Model、およびTier フィールドを示すオファースキーマ ](assets/create-offer-attributes-make-model-tier-fields.png)
+   ![完了したMake、Model、およびTier フィールドを示すオファースキーマ &#x200B;](assets/create-offer-attributes-make-model-tier-fields.png)
 
 3. 新しいXDM フィールド/属性がすべて作成されたら、右上隅の&#x200B;**保存**&#x200B;をクリックすると、画面の下部に緑色の「スキーマが正常に保存されました」メッセージが表示されます。 これで、このセクションの手順を完了しました。
 

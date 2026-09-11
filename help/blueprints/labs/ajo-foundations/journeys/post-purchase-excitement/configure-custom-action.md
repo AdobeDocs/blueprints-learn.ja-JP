@@ -32,7 +32,7 @@ ht-degree: 0%
 
 1. 右上の「**アクションを作成**」ボタンをクリックします
 
-   ![右上の「アクションを作成」ボタン ](assets/configure-custom-action-click-create-action-button.png)
+   ![右上の「アクションを作成」ボタン &#x200B;](assets/configure-custom-action-click-create-action-button.png)
 
 2. 表示される設定パネルで、次に示すように次の基本値を更新します。
    - **名前**: `GetShippingDetails`
@@ -61,7 +61,7 @@ ht-degree: 0%
 
 - **認証タイプ**: `No Authentication`
 
-![ カスタムアクション用に設定されたエンドポイント URL、メソッドおよびクエリパラメーター](assets/configure-custom-action-endpoint-details-configured.png)
+![&#x200B; カスタムアクション用に設定されたエンドポイント URL、メソッドおよびクエリパラメーター](assets/configure-custom-action-endpoint-details-configured.png)
 
 ![認証タイプがエンドポイントの認証なし](assets/configure-custom-action-endpoint-details-configured--2.png)に設定されました
 
@@ -75,7 +75,7 @@ ht-degree: 0%
 
    ![鉛筆アイコンを使用して、ペイロード領域でフィールド設定画面を開く](assets/configure-custom-action-open-field-configuration.png)
 
-   応答ペイロードの![ フィールド設定画面](assets/configure-custom-action-open-field-configuration--2.png)
+   応答ペイロードの![&#x200B; フィールド設定画面](assets/configure-custom-action-open-field-configuration--2.png)
 
 
 
@@ -95,7 +95,7 @@ ht-degree: 0%
 
 3. 応答ペイロードが表示されます。 「**保存**」ボタンをクリックします。
 
-![保存ボタンで表示される応答ペイロード ](assets/configure-custom-action-save-response-payload.png)
+![保存ボタンで表示される応答ペイロード &#x200B;](assets/configure-custom-action-save-response-payload.png)
 
 >[!NOTE]
 >
@@ -107,7 +107,7 @@ ht-degree: 0%
 
 1. 右下のパネルにある「**テストリクエストを送信**」ボタンをクリックして、何も失敗していないことを確認します😀
 
-   ![右下のパネルに「テストリクエストを送信」ボタン ](assets/configure-custom-action-click-send-test-request.png)
+   ![右下のパネルに「テストリクエストを送信」ボタン &#x200B;](assets/configure-custom-action-click-send-test-request.png)
 
 
 
@@ -119,7 +119,7 @@ ht-degree: 0%
 
 3. **送信ボタン**&#x200B;をクリックすると、すべて正常に動作した場合は、応答コード 200とペイロードのプレビューが表示されます（下図を参照）。..
 
-   ![ テストリクエストを送信した後の応答コード 200とペイロードのプレビュー](assets/configure-custom-action-response-200-preview.png)
+   ![&#x200B; テストリクエストを送信した後の応答コード 200とペイロードのプレビュー](assets/configure-custom-action-response-200-preview.png)
 
    プレビュー
 

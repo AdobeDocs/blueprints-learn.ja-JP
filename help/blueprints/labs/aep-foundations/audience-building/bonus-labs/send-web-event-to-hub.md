@@ -39,7 +39,7 @@ ht-degree: 0%
 1. 左側のパネルの&#x200B;**ソース**&#x200B;に移動し、上部のナビゲーションの&#x200B;**アカウント**&#x200B;をクリックします
 1. **dep: HTTP API \[raw]**&#x200B;を検索し、行を強調表示して、**ストリーミングエンドポイント**&#x200B;の値を後で参照できる場所にコピーして保存します
 
- アカウントを作成し、そのストリーミングエンドポイントをコピーします] （assets/send-order-event-to-hub-http-api-raw-streaming-endpoint.png &quot;dep: HTTP API \[raw]&quot;）
+ アカウントを作成し、そのストリーミングエンドポイントをコピーします&rbrack; （assets/send-order-event-to-hub-http-api-raw-streaming-endpoint.png &quot;dep: HTTP API \[raw]&quot;）
 
 ## Web データフローIDの検索
 
@@ -66,7 +66,7 @@ ht-degree: 0%
 >
 >まだ実行しないでください。
 
-![ ストリーミングエンドポイントとデータフローIDが](assets/send-web-event-to-hub-final-web-api-request.png)に入力されたWeb イベント APIの作成リクエストを完了しました
+![&#x200B; ストリーミングエンドポイントとデータフローIDが](assets/send-web-event-to-hub-final-web-api-request.png)に入力されたWeb イベント APIの作成リクエストを完了しました
 
 ## APIの実行
 

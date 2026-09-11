@@ -60,7 +60,7 @@ API リクエストを実行する前に、リクエストに追加の情報を�
 1. 左側のパネルで「**データストリーム**」（「データ収集」見出しの下）をクリックします
 1. データストリームを選択し、**データストリーム ID**&#x200B;値をコピーします
 
-![ データストリーム ID値をコピー](assets/send-an-edge-event-gather-datastream-id.png)
+![&#x200B; データストリーム ID値をコピー](assets/send-an-edge-event-gather-datastream-id.png)
 
 ## Postman クエリパラメーターの更新
 
@@ -69,9 +69,9 @@ API リクエストを実行する前に、リクエストに追加の情報を�
 1. 「**保存**」ボタンをクリックして、更新を保存します
 1. メールアドレスを変更
 
-![ データストリーム IDでパラメーター値を更新し、「保存」をクリックします](assets/send-an-edge-event-update-datastreamid.png)
+![&#x200B; データストリーム IDでパラメーター値を更新し、「保存」をクリックします](assets/send-an-edge-event-update-datastreamid.png)
 
-![ リクエスト本文のメール値を自分のメールに変更](assets/send-an-edge-event-change-email-to-your-email.png)
+![&#x200B; リクエスト本文のメール値を自分のメールに変更](assets/send-an-edge-event-change-email-to-your-email.png)
 
 ## APIの実行
 
@@ -119,7 +119,7 @@ API リクエストを実行する前に、リクエストに追加の情報を�
 
 Webhook.siteでは、Postman リクエストを介して送信したのと同じペイロード本文がすぐに表示されます。
 
-![ ペイロードは、イベント転送後にwebhook.siteに表示されます](assets/send-an-edge-event-payload-appears-on-webhook-site.png)
+![&#x200B; ペイロードは、イベント転送後にwebhook.siteに表示されます](assets/send-an-edge-event-payload-appears-on-webhook-site.png)
 
 >[!NOTE]
 >
@@ -138,17 +138,17 @@ Adobe Experience Platformでは、Edge Networkに送信したばかりのイベ�
 1. **表示**&#x200B;をクリックしてプロファイルを検索します
 1. **プロファイル ID**&#x200B;をクリックしてプロファイルを開きます
 
-   ![ プロファイルを検索し、プロファイル IDをクリックして開きます](assets/send-an-edge-event-lookup-profile.png)
+   ![&#x200B; プロファイルを検索し、プロファイル IDをクリックして開きます](assets/send-an-edge-event-lookup-profile.png)
 
 
 
-3. 上部のナビゲーションの&#x200B;**イベント**&#x200B;をクリックすると、送信したばかりのイベントが表示されます
+&#x200B;3. 上部のナビゲーションの&#x200B;**イベント**&#x200B;をクリックすると、送信したばかりのイベントが表示されます
 
-   ![ プロファイルの「イベント」タブでイベントを表示](assets/send-an-edge-event-view-the-profile-event.png)
+   ![&#x200B; プロファイルの「イベント」タブでイベントを表示](assets/send-an-edge-event-view-the-profile-event.png)
 
 
 
-4. 上部のナビゲーションの「オーディエンスメンバーシップ」タブを確認して、プロファイルがオーディエンスに適格であることを検証します。  次の項目が表示されます。
+&#x200B;4. 上部のナビゲーションの「オーディエンスメンバーシップ」タブを確認して、プロファイルがオーディエンスに適格であることを検証します。  次の項目が表示されます。
 
 - Any Event Edge（過去15分以内）
 - 任意のイベントストリーミング（過去1時間以内）
@@ -156,7 +156,7 @@ Adobe Experience Platformでは、Edge Networkに送信したばかりのイベ�
   - IPhone 14 Pageを訪問しましたが、所有/注文していません
   - IPhone14 ページを訪問
 
-![訪問済みiPhone 14 ページオーディエンスに適格なプロファイル ](assets/send-an-edge-event-visited-iphone-14-page.png)
+![訪問済みiPhone 14 ページオーディエンスに適格なプロファイル &#x200B;](assets/send-an-edge-event-visited-iphone-14-page.png)
 
 ## ストリーミング宛先のアクティベーションの検証
 
@@ -172,7 +172,7 @@ ECIDと電子メールがまだリンクされていない場合、その数分�
 
 時間が経つにつれて、「離脱」ステータスのWebhookにペイロードをさらに受け取り始める必要があります。
 
-![ ストリーミング宛先の「離脱」ステータスを示すWebhook ペイロード ](assets/send-an-edge-event-webhook-exited-status-payload.png)
+![&#x200B; ストリーミング宛先の「離脱」ステータスを示すWebhook ペイロード &#x200B;](assets/send-an-edge-event-webhook-exited-status-payload.png)
 
 ## すべてのチェックを解釈する方法
 

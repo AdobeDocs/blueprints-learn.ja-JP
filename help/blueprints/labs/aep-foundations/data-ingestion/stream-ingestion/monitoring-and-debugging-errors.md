@@ -30,7 +30,7 @@ ht-degree: 0%
 
 1. 「**ダッシュボード**」タブをプレビューして、バッチ取り込みワークフローに関連するパイプライン指標を表示することができます。
 
-すべてのバッチ取り込みワークフローの指標を表示する![ ダッシュボードタブ ](assets/monitoring-and-debugging-errors-dashboard-tab-metrics.png "すべてのバッチ取り込みワークフローの指標を表示する")
+すべてのバッチ取り込みワークフローの指標を表示する![&#x200B; ダッシュボードタブ &#x200B;](assets/monitoring-and-debugging-errors-dashboard-tab-metrics.png "すべてのバッチ取り込みワークフローの指標を表示する")
 
 >[!NOTE]
 >
@@ -42,7 +42,7 @@ ht-degree: 0%
 
 1. 手順に従っていなかったためにデータフローにエラーが発生した場合は、次のようになります。
 
-   マッピングエラーを含むストリーミングデータフローの![ エラーが報告されました](assets/monitoring-and-debugging-errors-failures-reported.png " エラーが報告されました")
+   マッピングエラーを含むストリーミングデータフローの![&#x200B; エラーが報告されました](assets/monitoring-and-debugging-errors-failures-reported.png " エラーが報告されました")
 
 
 
@@ -68,4 +68,4 @@ ht-degree: 0%
 >
 >JSON サンプルファイルを再アップロードするには、まずJSON サンプルファイルを削除し、もう一度追加して、検証のために新しいコピーでマッパーが更新されるようにします。
 
-![ ソース/データフロー/データフロー名/データフロー名/マッピングを修正するためのデータフローの更新](assets/monitoring-and-debugging-errors-update-dataflow-navigation.png " データフローの更新")をクリック
+![&#x200B; ソース/データフロー/データフロー名/データフロー名/マッピングを修正するためのデータフローの更新](assets/monitoring-and-debugging-errors-update-dataflow-navigation.png " データフローの更新")をクリック

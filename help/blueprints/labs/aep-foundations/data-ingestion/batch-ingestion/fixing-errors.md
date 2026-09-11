@@ -40,7 +40,7 @@ ht-degree: 0%
 
 数分後、データフロー実行が実行され、成功が表示されます。
 
-顧客アカウントの取り込みに成功したことを示す![ データフロー実行ステータス ](assets/fixing-errors-successful-customer-account-ingestion.png "顧客アカウントの取り込みに成功")
+顧客アカウントの取り込みに成功したことを示す![&#x200B; データフロー実行ステータス &#x200B;](assets/fixing-errors-successful-customer-account-ingestion.png "顧客アカウントの取り込みに成功")
 
 
 
@@ -53,7 +53,7 @@ ht-degree: 0%
    - **レコードが失敗しました：**&#x200B;ここに0が表示されます。 これは、取り込みエラーとDCVS エラーの合計数を表します。 MAPPERの警告は除外されます。
    - **取り込み率：**&#x200B;これは、受信したレコードに対して取り込まれたレコードの比率です。 受信したレコードの100%が正常に処理されました
 
-監視画面の![ ソースカードに、受信、取り込み、失敗したレコードが表示されている](assets/fixing-errors-sources-ingestion-metrics.png " ソース取り込み指標")
+監視画面の![&#x200B; ソースカードに、受信、取り込み、失敗したレコードが表示されている](assets/fixing-errors-sources-ingestion-metrics.png " ソース取り込み指標")
 
 >[!NOTE]
 >
@@ -101,7 +101,7 @@ ht-degree: 0%
 >
 >**スキップされたレコード**&#x200B;指標は、プロファイルでは使用できません。
 
-監視画面の![ プロファイルカードに表示されているプロファイルフラグメント指標](assets/fixing-errors-profile-service-ingestion-metrics.png " プロファイルサービス取り込み指標")
+監視画面の![&#x200B; プロファイルカードに表示されているプロファイルフラグメント指標](assets/fixing-errors-profile-service-ingestion-metrics.png " プロファイルサービス取り込み指標")
 
 >[!NOTE]
 >

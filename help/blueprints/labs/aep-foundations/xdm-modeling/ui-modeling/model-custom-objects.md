@@ -35,7 +35,7 @@ ht-degree: 0%
 
 1. スキーマの上部にある「**+（追加）**」ボタンをクリックして、新しいフィールドを追加します
 
-   ![ スキーマの上部にある（+） ボタンを追加して、カスタムフィールドを追加します](assets/model-custom-objects-add-a-custom-field-to-your-schema.png)
+   ![&#x200B; スキーマの上部にある（+） ボタンを追加して、カスタムフィールドを追加します](assets/model-custom-objects-add-a-custom-field-to-your-schema.png)
 
    >[!NOTE]
    >
@@ -87,7 +87,7 @@ ht-degree: 0%
 
 
 
-   ![ アカウントオブジェクトと子フィールドを追加した顧客アカウントスキーマ ](assets/model-custom-objects-account-object-with-child-fields.png)
+   ![&#x200B; アカウントオブジェクトと子フィールドを追加した顧客アカウントスキーマ &#x200B;](assets/model-custom-objects-account-object-with-child-fields.png)
 
 
 
@@ -151,7 +151,7 @@ ht-degree: 0%
 
 
 
-![ プランオブジェクトと子フィールドを含む顧客アカウントスキーマ ](assets/model-custom-objects-plan-object-with-child-fields.png)
+![&#x200B; プランオブジェクトと子フィールドを含む顧客アカウントスキーマ &#x200B;](assets/model-custom-objects-plan-object-with-child-fields.png)
 
 >[!TIP]
 >
@@ -179,7 +179,7 @@ ht-degree: 0%
 
 最終的な結果は、完了時に以下のスクリーンショットのようになります
 
-![customerID フィールドがルート ](assets/model-custom-objects-customerid-field-added.png)に追加された顧客アカウントスキーマ
+![customerID フィールドがルート &#x200B;](assets/model-custom-objects-customerid-field-added.png)に追加された顧客アカウントスキーマ
 
 
 
@@ -187,7 +187,7 @@ ht-degree: 0%
 
 
 
-![すべてのカスタムオブジェクトとフィールドが追加された最終スキーマ ](assets/model-custom-objects-final-schema-with-custom-objects.jpeg " カスタムオブジェクトを使用した最終スキーマ ")
+![すべてのカスタムオブジェクトとフィールドが追加された最終スキーマ &#x200B;](assets/model-custom-objects-final-schema-with-custom-objects.jpeg " カスタムオブジェクトを使用した最終スキーマ ")
 
 >[!TIP]
 >

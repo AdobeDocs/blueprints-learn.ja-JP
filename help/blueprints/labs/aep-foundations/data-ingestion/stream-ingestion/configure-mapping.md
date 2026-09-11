@@ -16,7 +16,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->この節に従って、バッチ取り込みラボを正常に完了した場合にのみ行います。  それ以外の場合は、バッチ取り込みラボにある[ マッピングデータ ](../batch-ingestion/mapping-data/overview.md)の手順に従います。
+>この節に従って、バッチ取り込みラボを正常に完了した場合にのみ行います。  それ以外の場合は、バッチ取り込みラボにある[&#x200B; マッピングデータ &#x200B;](../batch-ingestion/mapping-data/overview.md)の手順に従います。
 
 ## マッピングセットの読み込み
 
@@ -26,13 +26,13 @@ ht-degree: 0%
 
 1. マッピング画面の「**マッピングをインポート**」ボタンをクリックします
 
-   ![ マッピング画面に「マッピングを読み込む」ボタン ](assets/configure-mapping-import-mapping-button.png)
+   ![&#x200B; マッピング画面に「マッピングを読み込む」ボタン &#x200B;](assets/configure-mapping-import-mapping-button.png)
 
 
 
 1. 「バッチ取り込み」セクションで作成したデータフローを選択し、選択します。  **顧客アカウントバッチ v2 - \&lt; イニシャル >.**&#x200B;のような名前にする必要があります
 
-![ マッピングセットを](assets/configure-mapping-choose-batch-ingestion-dataflow.png)からインポートするためのバッチ取り込みデータフローの選択
+![&#x200B; マッピングセットを](assets/configure-mapping-choose-batch-ingestion-dataflow.png)からインポートするためのバッチ取り込みデータフローの選択
 
 
 
@@ -43,7 +43,7 @@ ht-degree: 0%
 
 **date**&#x200B;関数を使用する計算フィールドは、使用する日付形式の変更を考慮して更新する必要があります。
 
-バッチ取り込みマッピングセットの読み込み後に表示される![ マッピングエラー](assets/configure-mapping-mapping-after-the-import.png)
+バッチ取り込みマッピングセットの読み込み後に表示される![&#x200B; マッピングエラー](assets/configure-mapping-mapping-after-the-import.png)
 
 
 
@@ -51,7 +51,7 @@ ht-degree: 0%
 
 各計算フィールドの横にある矢印アイコンをクリックして、各計算フィールドを更新し、マッピングを検証します
 
-計算フィールドの数式を編集するためにクリックする![矢印アイコン ](assets/configure-mapping-arrow-to-edit-calculated-field-formula.png)
+計算フィールドの数式を編集するためにクリックする![矢印アイコン &#x200B;](assets/configure-mapping-arrow-to-edit-calculated-field-formula.png)
 
 | ターゲットフィールド | 新しい計算フィールド |
 | ----------------------- | ----------------------------------------------------------------------------------------------------------------------------------- |

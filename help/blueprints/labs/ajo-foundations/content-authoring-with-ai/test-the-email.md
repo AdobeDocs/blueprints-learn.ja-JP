@@ -32,13 +32,13 @@ ht-degree: 0%
 1. 「**コンテンツをシミュレート**」をクリックします。
 2. 「**コンテンツのバリエーションをシミュレート**」を選択します。
 
-   ![ 「コンテンツをシミュレート」をクリックし、「コンテンツのバリエーションをシミュレート」を選択](assets/content-simulation-click-simulate-content-variation.png)
+   ![&#x200B; 「コンテンツをシミュレート」をクリックし、「コンテンツのバリエーションをシミュレート」を選択](assets/content-simulation-click-simulate-content-variation.png)
 
    シミュレーションパネルが開きます。
 
 3. 「**プルーフを送信**」をクリックします。
 
-   ![ シミュレーションパネルの「プルーフを送信」ボタン ](assets/test-the-email-click-send-proof-button.png)
+   ![&#x200B; シミュレーションパネルの「プルーフを送信」ボタン &#x200B;](assets/test-the-email-click-send-proof-button.png)
 
 4. 個人のメールアドレスを追加します。
 
@@ -54,7 +54,7 @@ ht-degree: 0%
    2. バリエーション 2:40未満
 7. 「**プルーフを送信**」をクリックします。 緑色の確認メッセージ「**プルーフが正常に送信されました**」が表示されます
 
-![ プルーフが正常に送信されたことを示す緑色の確認メッセージ ](assets/test-the-email-proofs-sent-successfully-confirmation.png)
+![&#x200B; プルーフが正常に送信されたことを示す緑色の確認メッセージ &#x200B;](assets/test-the-email-proofs-sent-successfully-confirmation.png)
 
 両方の電子メールが受信トレイに届いていることを確認します。
 
@@ -68,7 +68,7 @@ ht-degree: 0%
 
 クリッピングされたメッセージが表示される場合がありますが、フッターリンクの一部が実際のものではないので、問題ありません。 このリンクをクリックすると、バリエーションを含むメールが両方とも送信されていることがわかります。
 
-![ リンクをクリックした後、両方のバリエーションを表示するプルーフメールをクリップしました](assets/test-the-email-clipped-proof-email-variants.png)
+![&#x200B; リンクをクリックした後、両方のバリエーションを表示するプルーフメールをクリップしました](assets/test-the-email-clipped-proof-email-variants.png)
 
 ### AJOでのプルーフ配信の確認
 
@@ -78,7 +78,7 @@ ht-degree: 0%
 2. メール作成画面に戻り、**プルーフを表示**&#x200B;をクリックします。
 3. 配信ログ、タイムスタンプ、送信されたバリエーションを確認します。
 
-![ メール作成画面で「プルーフを表示」ボタン ](assets/test-the-email-click-view-proof-button.png)
+![&#x200B; メール作成画面で「プルーフを表示」ボタン &#x200B;](assets/test-the-email-click-view-proof-button.png)
 
 プルーフメールの詳細をご覧ください。
 

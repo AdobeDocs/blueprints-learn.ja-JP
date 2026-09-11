@@ -24,7 +24,7 @@ ht-degree: 0%
 
 「**コンテンツを編集**」ボタンをクリックするか、**コンテンツ** タブに直接移動します
 
-![ コンテンツボタンとコンテンツタブのナビゲーションを編集する「コンテンツを編集」 ](assets/compose-the-sms-navigate-to-content-tab.png " コンテンツを編集")
+![&#x200B; コンテンツボタンとコンテンツタブのナビゲーションを編集する「コンテンツを編集」 &#x200B;](assets/compose-the-sms-navigate-to-content-tab.png " コンテンツを編集")
 
 
 
@@ -32,7 +32,7 @@ ht-degree: 0%
 
 1. 「**Personalization**」ボタンをクリックして、メッセージを作成します。
 
-   ![SMS メッセージを作成するためのPersonalization ボタン ](assets/compose-the-sms-click-personalization-button.png)
+   ![SMS メッセージを作成するためのPersonalization ボタン &#x200B;](assets/compose-the-sms-click-personalization-button.png)
 
    >[!NOTE]
    >
@@ -54,7 +54,7 @@ ht-degree: 0%
 
 3. 左側のパネルの「**ターゲット属性**」オプションを使用して、下の「**phone\_make**」と「**phone\_model**」というメッセージの2つのフィールドを更新します。  完了したら、メッセージはスクリーンショットと一致する必要があります。
 
-   ![電話のメーカーとモデルがパーソナライズされた最終的なSMS メッセージ ](assets/compose-the-sms-final-message-text.png)
+   ![電話のメーカーとモデルがパーソナライズされた最終的なSMS メッセージ &#x200B;](assets/compose-the-sms-final-message-text.png)
 
    >[!NOTE]
    >
@@ -64,7 +64,7 @@ ht-degree: 0%
 
 4. エディターで&#x200B;**Validate**&#x200B;をクリックし、検証エラーがないことを確認し、**Save** ボタンをクリックします
 
-   ![ メッセージエディターの「検証」ボタンと「保存」ボタン ](assets/compose-the-sms-validate-and-save.png)
+   ![&#x200B; メッセージエディターの「検証」ボタンと「保存」ボタン &#x200B;](assets/compose-the-sms-validate-and-save.png)
 
 
 

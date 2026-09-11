@@ -25,7 +25,7 @@ ht-degree: 0%
    - **ID値** -> `henry.creel@emailsim.io`
 2. 「**イベント**」タブをクリックします。 `orders.shipped` イベントを探します。
 
-   プロファイルの「イベント」タブに表示される![orders.shipped イベント ](assets/validate-event-ingested-orders-shipped-event.png)
+   プロファイルの「イベント」タブに表示される![orders.shipped イベント &#x200B;](assets/validate-event-ingested-orders-shipped-event.png)
 
    >[!WARNING]
    >
@@ -42,7 +42,7 @@ ht-degree: 0%
    - Any Event Edge（15分以内）
    - 任意のイベントストリーミング（15分以内）
 
-![任意のイベント Edgeおよび任意のイベントストリーミングオーディエンスに適格なプロファイル ](assets/validate-event-ingested-profile-qualified-audiences.png)
+![任意のイベント Edgeおよび任意のイベントストリーミングオーディエンスに適格なプロファイル &#x200B;](assets/validate-event-ingested-profile-qualified-audiences.png)
 
 
 

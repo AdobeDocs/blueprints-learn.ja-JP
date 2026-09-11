@@ -37,39 +37,39 @@ ht-degree: 1%
    - このURLは、お客様の実際のサイトに置き換えられます
 1. 「次へ」ボタンをクリックします
 
-   ![ セッション名とURLを入力したら、「次へ」をクリックします](assets/monitor-your-event-click-next-button.png)
+   ![&#x200B; セッション名とURLを入力したら、「次へ」をクリックします](assets/monitor-your-event-click-next-button.png)
 
-4. 後で参照できる場所にリンクをコピー
+&#x200B;4. 後で参照できる場所にリンクをコピー
 
-5. 「**完了**」ボタンをクリックします
+&#x200B;5. 「**完了**」ボタンをクリックします
 
    ![Assurance セッション リンクをコピーして、「完了」をクリックします](assets/monitor-your-event-copy-link.png)
 
 
 
-6. **設定**&#x200B;に移動します
+&#x200B;6. **設定**&#x200B;に移動します
 
    ![Assurance セッションの「設定」タブに移動します](assets/monitor-your-event-navigate-to-settings.png "設定をクリックします")
 
 
 
-7. **+** ボタンをクリックして&#x200B;**イベントトランザクション**&#x200B;および&#x200B;**Edge Delivery**&#x200B;を有効にし、**完了**&#x200B;します
+&#x200B;7. **+** ボタンをクリックして&#x200B;**イベントトランザクション**&#x200B;および&#x200B;**Edge Delivery**&#x200B;を有効にし、**完了**&#x200B;します
 
-![ イベントトランザクションとEdge Deliveryを有効にし、「完了」をクリックします](assets/monitor-your-event-enable-event-transactions-and-edge-delivery.png)
+![&#x200B; イベントトランザクションとEdge Deliveryを有効にし、「完了」をクリックします](assets/monitor-your-event-enable-event-transactions-and-edge-delivery.png)
 
 
 ## Postmanを開く
 
 Postman/Web イベントの作成/Edge（認証なし）/ヘッダーに移動します
 
-1. 上記のAssuranceからコピーしたリンクを含む&#x200B;**x-adobe-aep-validation-token**&#x200B;をHeadersに追加します。 Assuranceからコピーしたリンクで、=の後のID **の値だけを**&#x200B;取得します。 e.g. [https://www.adobe.com/?adb\_validation\_sessionid=](https://www.adobe.com/?adb_validation_sessionid=efa4a9ed-02d8-4647-80fa-f01a5be273d0)[`efa4a9ed-02d8-4647-80fa-f01a5be273d0`](https://www.adobe.com/?adb_validation_sessionid=efa4a9ed-02d8-4647-80fa-f01a5be273d0)
+1. 上記のAssuranceからコピーしたリンクを含む&#x200B;**x-adobe-aep-validation-token**&#x200B;をHeadersに追加します。 Assuranceからコピーしたリンクで、=の後のID **の値だけを**&#x200B;取得します。 e.g. [https://www.adobe.com/?adb\_validation\_sessionid=](https://www.adobe.com/?adb_validation_sessionid=efa4a9ed-02d8-4647-80fa-f01a5be273d0) [`efa4a9ed-02d8-4647-80fa-f01a5be273d0`](https://www.adobe.com/?adb_validation_sessionid=efa4a9ed-02d8-4647-80fa-f01a5be273d0)
 1. 完全なURLではなく、[`efa4a9ed-02d8-4647-80fa-f01a5be273d0`](https://www.adobe.com/?adb_validation_sessionid=efa4a9ed-02d8-4647-80fa-f01a5be273d0)値だけを使用します
 
    ![x-adobe-aep-validation-token ヘッダーをPostmanのAssurance セッション IDに追加](assets/monitor-your-event-populate-the-x-adobe-aep-validation-token.png)
 
 
 
-3. Postmanで、**Web イベントの作成Edge （認証なし）** リクエストを保存して実行します
+&#x200B;3. Postmanで、**Web イベントの作成Edge （認証なし）** リクエストを保存して実行します
 
 
 
@@ -77,13 +77,13 @@ Postman/Web イベントの作成/Edge（認証なし）/ヘッダーに移動�
 
 Assuranceに戻ると、たくさんのイベントが表示されます。 検索にデータストリーム IDを配置して、関連するイベントタイプだけを絞り込むことができます
 
-![ データストリーム IDを検索してAssurance イベントをフィルタリング ](assets/monitor-your-event-filter-using-search.png)
+![&#x200B; データストリーム IDを検索してAssurance イベントをフィルタリング &#x200B;](assets/monitor-your-event-filter-using-search.png)
 
 
 
 イベントを選択し、必要に応じて右側のパネルでメッセージを開きます。
 
-![ イベントを選択し、右側のパネルでメッセージを展開する](assets/monitor-your-event-expand-messages.png)
+![&#x200B; イベントを選択し、右側のパネルでメッセージを展開する](assets/monitor-your-event-expand-messages.png)
 
 確認するイベントタイプ：
 

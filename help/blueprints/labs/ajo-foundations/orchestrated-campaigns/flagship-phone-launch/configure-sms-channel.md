@@ -26,7 +26,7 @@ ht-degree: 0%
 1. **SMS設定** → **API資格情報**&#x200B;を選択します。
 1. 「**API資格情報を作成**」をクリックします。
 
-![管理チャネルメニューのSMS設定とAPI資格情報に移動します。「SMS設定に移動」 ](assets/configure-sms-channel-navigate-to-sms-settings.png "SMS設定に移動")
+![管理チャネルメニューのSMS設定とAPI資格情報に移動します。「SMS設定に移動」 &#x200B;](assets/configure-sms-channel-navigate-to-sms-settings.png "SMS設定に移動")
 
 
 
@@ -35,7 +35,7 @@ ht-degree: 0%
 まず、AJOがアウトバウンド SMS リクエストの送信に使用するAPI コネクタを作成します。
 
 1. 「SMS ベンダー」で「**Twilio**」を選択します。
-1. 独自の[Twilio体験版アカウント ](https://www.twilio.com/try-twilio)を使用して、次のAPI資格情報の詳細を入力します。
+1. 独自の[Twilio体験版アカウント &#x200B;](https://www.twilio.com/try-twilio)を使用して、次のAPI資格情報の詳細を入力します。
    - **名前：** `DEP SMS`
    - **アカウント SID:**&#x200B;がTwilio Console ダッシュボードに見つかりました
    - **認証トークン：**&#x200B;がTwilio Console ダッシュボードに見つかりました（**表示**&#x200B;をクリックすると表示されます）
@@ -45,7 +45,7 @@ ht-degree: 0%
 >
 >この手順を開始する前に、確認済みの電話番号を持つ無料のTwilio体験版アカウントが必要です。 [twilio.com/try-twilio](https://www.twilio.com/try-twilio)にサインアップし、Twilio Console ダッシュボードでアカウント SIDと認証トークンを見つけます。
 
-Twilio ベンダー](assets/configure-sms-channel-enter-api-credentials.png)の![SMS API資格情報フィールド
+Twilio ベンダー![&#128279;](assets/configure-sms-channel-enter-api-credentials.png)のSMS API資格情報フィールド
 
 
 
@@ -61,7 +61,7 @@ Twilio ベンダー](assets/configure-sms-channel-enter-api-credentials.png)の!
 
 2. 「**チャネル設定を作成**」をクリックします。
 
-   ![ チャネル設定の作成ボタン ](assets/configure-sms-channel-click-create-configuration.png)
+   ![&#x200B; チャネル設定の作成ボタン &#x200B;](assets/configure-sms-channel-click-create-configuration.png)
 
 
 
@@ -98,7 +98,7 @@ Twilio ベンダー](assets/configure-sms-channel-enter-api-credentials.png)の!
 
 2. 「**有効**」チェックボックスがオンになっていることを確認します
 
-   ![ オーケストレーションされたキャンペーンに対して有効なチェックボックスがオンになりました](assets/configure-sms-channel-enabled-checkbox.png)
+   ![&#x200B; オーケストレーションされたキャンペーンに対して有効なチェックボックスがオンになりました](assets/configure-sms-channel-enabled-checkbox.png)
 
 
 
@@ -107,9 +107,9 @@ Twilio ベンダー](assets/configure-sms-channel-enter-api-credentials.png)の!
    - **Profile Target Dimension:** `dep-rel: Customer Account - customer_id`
    - **Dimension:** `Customer Line`
 
-   ![ ターゲットディメンションとセカンダリディメンションを使用した実行ディメンション設定](assets/configure-sms-channel-execution-dimension-setup.png)
+   ![&#x200B; ターゲットディメンションとセカンダリディメンションを使用した実行ディメンション設定](assets/configure-sms-channel-execution-dimension-setup.png)
 
-   ![Dimensionは、実行分析コード設定「セカンダリDimension」 ](assets/configure-sms-channel-secondary-dimension-detail.png "セカンダリDimension")で顧客行に設定されています
+   ![Dimensionは、実行分析コード設定「セカンダリDimension」 &#x200B;](assets/configure-sms-channel-secondary-dimension-detail.png "セカンダリDimension")で顧客行に設定されています
 
    >[!NOTE]
    >
@@ -125,7 +125,7 @@ Twilio ベンダー](assets/configure-sms-channel-enter-api-credentials.png)の!
 
 5. ポップアップで、スキーマ **dep-rel: Customer Line**&#x200B;をクリックし、**Mobile Phone**&#x200B;を選択します。
 
-   営業担当者の![ スキーマポップアップ：顧客行スキーマ ](assets/configure-sms-channel-customer-line-schema-popup.png)
+   営業担当者の![&#x200B; スキーマポップアップ：顧客行スキーマ &#x200B;](assets/configure-sms-channel-customer-line-schema-popup.png)
 
    dep-relから![携帯電話フィールドが選択されました：Customer Line スキーマ &quot;携帯電話フィールド&quot;](assets/configure-sms-channel-mobile-phone-field-selected.png "携帯電話フィールド ")
 
@@ -141,13 +141,13 @@ Twilio ベンダー](assets/configure-sms-channel-enter-api-credentials.png)の!
 
 1. **送信** ボタンをクリックして設定を完了すると、成功メッセージが表示されます
 
-   チャネル設定を送信した後の![成功メッセージ ](assets/configure-sms-channel-submit-success-message.png)
+   チャネル設定を送信した後の![成功メッセージ &#x200B;](assets/configure-sms-channel-submit-success-message.png)
 
 
 
 2. チャネル設定インベントリ ページで、次に進む前にステータスが&#x200B;**アクティブ**&#x200B;として表示されていることを確認します
 
-   ![ チャネル設定ステータスがアクティブとして表示されます](assets/configure-sms-channel-active-status.png)
+   ![&#x200B; チャネル設定ステータスがアクティブとして表示されます](assets/configure-sms-channel-active-status.png)
 
    >[!CAUTION]
    >

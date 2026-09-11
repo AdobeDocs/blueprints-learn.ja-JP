@@ -55,7 +55,7 @@ API リクエストを実行する前に、データストリーム IDをPostman
 >1. 左側のパネルで「**データストリーム**」（「データ収集」見出しの下）をクリックします
 >2. データストリームを選択し、**データストリーム ID**&#x200B;値をコピーします
 >
->![ コピーするデータストリーム IDを示すデータストリームリスト ](assets/send-an-edge-web-event-gather-datastream-id.png)
+>![&#x200B; コピーするデータストリーム IDを示すデータストリームリスト &#x200B;](assets/send-an-edge-web-event-gather-datastream-id.png)
 
 
 
@@ -72,7 +72,7 @@ API リクエストを実行する前に、データストリーム IDをPostman
 
 1. 右上の「**リクエストの変数**」をクリックします
 
-   Postman ツールバーの「![ リクエスト内の変数」オプション ](assets/send-an-edge-web-event-click-variables-in-request.png)
+   Postman ツールバーの「![&#x200B; リクエスト内の変数」オプション &#x200B;](assets/send-an-edge-web-event-click-variables-in-request.png)
 
 2. ページの最初のステップから&#x200B;**データストリーム ID**&#x200B;を使用して、**DATASTREAM_CONFIG** **Value**&#x200B;を更新します。
 

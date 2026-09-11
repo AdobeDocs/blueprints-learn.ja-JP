@@ -36,15 +36,15 @@ ht-degree: 0%
 
 
 
-3. プロファイルでプラン名を検索して追加します（XDM Individual Profile/Devbc/プラン詳細/プラン名）。 Selectは「Ultimate」と等しくありません
+&#x200B;3. プロファイルでプラン名を検索して追加します（XDM Individual Profile/Devbc/プラン詳細/プラン名）。 Selectは「Ultimate」と等しくありません
 
-   ![ プラン名を選択すると、Ultimateと一致しません](assets/option-2-use-pre-aggregates-select-does-not-equal-ultimate.png)
+   ![&#x200B; プラン名を選択すると、Ultimateと一致しません](assets/option-2-use-pre-aggregates-select-does-not-equal-ultimate.png)
 
 
 
-4. 説明を入力してください。  評価方法がストリーミングであることを検証します。
+&#x200B;4. 説明を入力してください。  評価方法がストリーミングであることを検証します。
 
-5. オーディエンスを「*請求データ使用率は高いがUltimate プラン （Agg）*」として保存します
+&#x200B;5. オーディエンスを「*請求データ使用率は高いがUltimate プラン （Agg）*」として保存します
 
 >[!NOTE]
 >

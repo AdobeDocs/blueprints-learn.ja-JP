@@ -37,14 +37,14 @@ Adobe Experience Platformでは、Edge Networkに送信したばかりのイベ�
 1. **プロファイル ID**&#x200B;をクリックしてプロファイルを開きます
 1. 最初に「**属性**」タブと「**ハブ**」ラジオボタンをクリックすると、**ハブプロファイル**」が表示されます
 
-![属性タブに表示されるハブプロファイル ](assets/validate-profile-on-hub-attributes-tab.png)
+![属性タブに表示されるハブプロファイル &#x200B;](assets/validate-profile-on-hub-attributes-tab.png)
 
 
 ## イベントの検証
 
 1. 上部のナビゲーションの&#x200B;**イベント**&#x200B;をクリックすると、送信したばかりのイベントが表示されます
 
-プロファイル上のストリーミングイベントを表示する![ イベントタブ ](assets/validate-profile-on-hub-events-tab.png)
+プロファイル上のストリーミングイベントを表示する![&#x200B; イベントタブ &#x200B;](assets/validate-profile-on-hub-events-tab.png)
 
 ## セグメントの検証
 
@@ -52,7 +52,7 @@ Adobe Experience Platformでは、Edge Networkに送信したばかりのイベ�
 
 1. **属性** ヘッダーをクリックし、**JSON**&#x200B;を表示します
 
-   ![ セグメント メンバーシップを示すプロファイル属性JSON ビュー](assets/validate-profile-on-hub-json-view.png)
+   ![&#x200B; セグメント メンバーシップを示すプロファイル属性JSON ビュー](assets/validate-profile-on-hub-json-view.png)
 
 2. **segmentMembership**&#x200B;を検索します。  次のようになります（IDが異なります）
 
@@ -93,7 +93,7 @@ Adobe Experience Platformでは、Edge Networkに送信したばかりのイベ�
    - dep：任意のイベントストリーミング（時間内）
    - dep：任意のイベントEdge（時間内）
 
-適格セグメントを表示する![ オーディエンスメンバーシップタブ ](assets/validate-profile-on-hub-audience-membership-tab.png)
+適格セグメントを表示する![&#x200B; オーディエンスメンバーシップタブ &#x200B;](assets/validate-profile-on-hub-audience-membership-tab.png)
 
 >[!NOTE]
 >

@@ -25,9 +25,9 @@ ht-degree: 0%
 
 
 
-3. イベントで「使用状況」を検索します。  「i」をクリックして説明を確認します（なし）。
+&#x200B;3. イベントで「使用状況」を検索します。  「i」をクリックして説明を確認します（なし）。
 
-![ イベントでの使用状況の検索 – 説明なし](assets/pre-work-search-usage-in-events.png)
+![&#x200B; イベントでの使用状況の検索 – 説明なし](assets/pre-work-search-usage-in-events.png)
 
 >[!NOTE]
 >
