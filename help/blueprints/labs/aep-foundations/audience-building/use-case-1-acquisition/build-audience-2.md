@@ -163,7 +163,7 @@ IPhone 14のアクティブな行を持たないすべてのプロファイル�
 >
 >バッチとストリーミングまたはEdgeを選択する理由：
 >
->最新のガードレール：[https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=en](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=ja)
+>最新のガードレール：[https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=ja](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=ja)
 
 >[!TIP]
 >

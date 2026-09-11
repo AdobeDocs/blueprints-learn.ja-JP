@@ -81,4 +81,4 @@ ht-degree: 0%
 
 リレーショナルスキーマから適切なターゲティングディメンションを選択すると、キャンペーンで「オーディエンスを作成」アクティビティを簡単に使用できるようになりました。 次に、オーディエンスの構築基準を絞り込む条件を追加し、「更新」オプションを使用して、予想される行数を確認しました。
 
-ご興味のある方は、[こちら](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/campaigns/orchestrated-campaigns/design-campaigns/build-audience)をご覧ください。
+ご興味のある方は、[こちら](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/campaigns/orchestrated-campaigns/design-campaigns/build-audience)をご覧ください。

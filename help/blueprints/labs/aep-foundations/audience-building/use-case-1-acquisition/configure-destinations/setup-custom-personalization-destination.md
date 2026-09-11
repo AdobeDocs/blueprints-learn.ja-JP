@@ -15,7 +15,7 @@ ht-degree: 0%
 
 # カスタム Personalizationの宛先の設定
 
-[&#x200B; カスタム Personalization Destination](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/personalization/custom-personalization)を使用すると、Edgeでオーディエンスを利用できるようになります。これは、通常はNetwork Server APIを使用して、パーソナライズに使用します。
+[&#x200B; カスタム Personalization Destination](https://experienceleague.adobe.com/ja/docs/experience-platform/destinations/catalog/personalization/custom-personalization)を使用すると、Edgeでオーディエンスを利用できるようになります。これは、通常はNetwork Server APIを使用して、パーソナライズに使用します。
 
 このラボでは、プロファイル属性をEdgeに送信できるように、カスタム Personalizationの宛先を設定します。
 
@@ -25,7 +25,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Adobe Targetを使用したパーソナライズには、[Adobe Target Destination.](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/personalization/adobe-target-v2)を使用します。 このビヘイビアーは、カスタム Personalizationと同じです。
+>Adobe Targetを使用したパーソナライズには、[Adobe Target Destination.](https://experienceleague.adobe.com/ja/docs/experience-platform/destinations/catalog/personalization/adobe-target-v2)を使用します。 このビヘイビアーは、カスタム Personalizationと同じです。
 
 1. 左側のパネルで「**宛先**」をクリックします
 1. 上部パネルで「**カタログ**」をクリックします
@@ -121,7 +121,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->プロファイル属性には機密データが含まれる場合があるため、Edge上で属性を取得するには、すべての[Edge Network Server API](https://experienceleague.adobe.com/en/docs/experience-platform/edge-network-server-api/overview)呼び出しを認証済みコンテキストで実行する必要があります。
+>プロファイル属性には機密データが含まれる場合があるため、Edge上で属性を取得するには、すべての[Edge Network Server API](https://experienceleague.adobe.com/ja/docs/experience-platform/edge-network-server-api/overview)呼び出しを認証済みコンテキストで実行する必要があります。
 
 
 ### レビュー
@@ -132,4 +132,4 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->これは、[自動適用](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/enforcement/auto-enforcement)が[&#x200B; データ使用ポリシー](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/policies/overview)と照合するポイントです。 作成したルールでマーケティングアクションを確認し、エラーを発生させます。
+>これは、[自動適用](https://experienceleague.adobe.com/ja/docs/experience-platform/data-governance/enforcement/auto-enforcement)が[&#x200B; データ使用ポリシー](https://experienceleague.adobe.com/ja/docs/experience-platform/data-governance/policies/overview)と照合するポイントです。 作成したルールでマーケティングアクションを確認し、エラーを発生させます。

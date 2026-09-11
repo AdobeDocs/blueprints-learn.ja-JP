@@ -168,4 +168,4 @@ dep-relから![携帯電話フィールドが選択されました：Customer Li
 
 これで、SMS チャネルを正常に設定する方法を確認しました。  これはAPI ベースのSMSであるため、プロバイダーによっては、認証に別の方法を使用する場合があります。
 
-ご興味のある方は、[こちら](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/sms/configure-sms/sms-configuration)をご覧ください。
+ご興味のある方は、[こちら](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/channels/sms/configure-sms/sms-configuration)をご覧ください。
