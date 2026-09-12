@@ -69,6 +69,6 @@ ht-degree: 0%
 
 
 
-オブジェクトのコピーのオーバーライドを追加した後のproductListItemsの![結果マッピング ](assets/object-copy-mappings-resultant-mappings-for-productlistitems.png "ProductListItems\[*]の結果マッピングは次のようになります")
+オブジェクトのコピーのオーバーライドを追加した後のproductListItemsの![結果マッピング &#x200B;](assets/object-copy-mappings-resultant-mappings-for-productlistitems.png "ProductListItems\[*]の結果マッピングは次のようになります")
 
-![ オブジェクトのコピーが上書きされた後のproductListItemsの結果マッピングの2番目のビュー](assets/object-copy-mappings-resultant-mappings-for-productlistitems--2.png)
+![&#x200B; オブジェクトのコピーが上書きされた後のproductListItemsの結果マッピングの2番目のビュー](assets/object-copy-mappings-resultant-mappings-for-productlistitems--2.png)

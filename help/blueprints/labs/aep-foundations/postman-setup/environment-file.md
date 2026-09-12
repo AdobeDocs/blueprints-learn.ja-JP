@@ -66,7 +66,7 @@ API呼び出しを行う前に、インポートした環境ファイルのい�
 
 完了すると、環境ファイルは次のようになります。
 
-![CLIENT_SECRET、CLIENT_ID、TECHNICAL_ACCOUNT_ID、およびIMS_ORGの値を更新した後の環境ファイル ](assets/environment-file-with-developer-project-values.png "開発者プロジェクトの値を含む環境ファイル ")
+![CLIENT_SECRET、CLIENT_ID、TECHNICAL_ACCOUNT_ID、およびIMS_ORGの値を更新した後の環境ファイル &#x200B;](assets/environment-file-with-developer-project-values.png "開発者プロジェクトの値を含む環境ファイル ")
 
 ### 他の値を更新
 
@@ -91,7 +91,7 @@ API呼び出しを行う前に、インポートした環境ファイルのい�
 
 完了したら、環境ファイルは次のようになります。
 
-![SANDBOX_NAMEとTENANT_NAMEの値を更新した後の環境ファイル ](assets/environment-file-with-sandbox-name-and-tenant-name.png "SANDBOX_NAME")の環境ファイル
+![SANDBOX_NAMEとTENANT_NAMEの値を更新した後の環境ファイル &#x200B;](assets/environment-file-with-sandbox-name-and-tenant-name.png "SANDBOX_NAME")の環境ファイル
 
 >[!TIP]
 >

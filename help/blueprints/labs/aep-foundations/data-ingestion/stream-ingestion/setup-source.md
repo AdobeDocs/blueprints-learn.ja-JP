@@ -21,7 +21,7 @@ ht-degree: 0%
 1. ソースのリストから「**ストリーミング**」を選択します（「すべてのソース」ラジオボタンが選択されていることを確認します）
 1. HTTP APIの&#x200B;**設定** / **データを追加**&#x200B;をクリックします
 
-![新しいHTTP API ソースアカウントを作成する手順のシーケンス ](assets/setup-source-sequence-of-steps-to-create-a-http-api-account.png)
+![新しいHTTP API ソースアカウントを作成する手順のシーケンス &#x200B;](assets/setup-source-sequence-of-steps-to-create-a-http-api-account.png)
 
 
 
@@ -49,7 +49,7 @@ ht-degree: 0%
 
 「Connected」というメッセージが表示された緑色のチェックボックスが表示されます。 右上の「**次へ**」ボタンをクリックして、引き続きデータフローの設定を行います。
 
-![HTTP API アカウントを設定した後の接続メッセージの緑のチェックボックス ](assets/setup-source-green-checkbox-with-connected-message.png "接続済みの緑のチェックボックス ")が表示されます
+![HTTP API アカウントを設定した後の接続メッセージの緑のチェックボックス &#x200B;](assets/setup-source-green-checkbox-with-connected-message.png "接続済みの緑のチェックボックス ")が表示されます
 
 
 
@@ -57,14 +57,14 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->まだダウンロードしていない場合は、必ず[ サンプルファイル ](../sample-files.md)をダウンロードしてください
+>まだダウンロードしていない場合は、必ず[&#x200B; サンプルファイル &#x200B;](../sample-files.md)をダウンロードしてください
 
 
 
 1. 画面の「Source データスキーマ」セクションで、以前のラボからダウンロードしたローカルファイルシステムからJSON ファイル **Lab\_Single\_Customer\_sample.json**&#x200B;をアップロードします。
 1. ファイルをアップロードすると、プレビューが次のように表示されます。 右上の「**次へ**」ボタンをクリックして続行します。 birth_Date フィールドが、以前のバッチ取り込みラボで見たMM/DD/YYYY形式と異なる形式のYYYY-MM-DDでどのように表示されるかを確認します。
 
-![ パイプラインの設計と検証のためにアップロードされたLab_Single_Customer_sample.json レコードのプレビュー](assets/setup-source-sample-customer-record-for-pipeline-design-and-validation.png)
+![&#x200B; パイプラインの設計と検証のためにアップロードされたLab_Single_Customer_sample.json レコードのプレビュー](assets/setup-source-sample-customer-record-for-pipeline-design-and-validation.png)
 
 >[!NOTE]
 >

@@ -31,7 +31,7 @@ ht-degree: 0%
 
 
 
-![API コレクションファイルのURLをPostmanの読み込みモーダルテキストボックスにペースト ](assets/api-collection-import-modal-paste-url.png " ボタンモーダルテキストボックスの読み込み")
+![API コレクションファイルのURLをPostmanの読み込みモーダルテキストボックスにペースト &#x200B;](assets/api-collection-import-modal-paste-url.png " ボタンモーダルテキストボックスの読み込み")
 
 左側のサイドバーの`Collections` タブの`AEP Foundations Bootcamp`という名前の下にコレクションが入力されています
 

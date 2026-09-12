@@ -30,7 +30,7 @@ ht-degree: 0%
 >- イベントタイプ=order.placedでフィルタリングされたイベント
 >- イベントタイプ=order.canceledでフィルタリングされたイベント
 
-![ イベント時間ウィンドウを1週間以内に変更](assets/build-use-case-3-change-time-to-within-a-week.png)
+![&#x200B; イベント時間ウィンドウを1週間以内に変更](assets/build-use-case-3-change-time-to-within-a-week.png)
 
 
 

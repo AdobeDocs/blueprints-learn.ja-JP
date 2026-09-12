@@ -24,8 +24,8 @@ ht-degree: 0%
 
 
 
-![ サンプルファイルのダウンロードを解凍した後のフォルダー構造](assets/sample-files-extracted-folder-structure.png " フォルダー")
+![&#x200B; サンプルファイルのダウンロードを解凍した後のフォルダー構造](assets/sample-files-extracted-folder-structure.png " フォルダー")
 
 
 
-![抽出されたフォルダー内のサンプルデータファイルのリスト ](assets/sample-files-extracted-file-list.png " サンプルファイル ")
+![抽出されたフォルダー内のサンプルデータファイルのリスト &#x200B;](assets/sample-files-extracted-file-list.png " サンプルファイル ")

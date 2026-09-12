@@ -18,7 +18,7 @@ ht-degree: 0%
 >
 >今後のラボに進む前に、両方のメールチャネル設定が&#x200B;**アクティブ**&#x200B;として表示されていることを確認する必要があります
 
-![ アクティブ状態を示す2つの電子メールチャネル設定](assets/waiting-for-active-status-email-channel-configurations-active.png " アクティブ状態を示す電子メールチャネル設定")
+![&#x200B; アクティブ状態を示す2つの電子メールチャネル設定](assets/waiting-for-active-status-email-channel-configurations-active.png " アクティブ状態を示す電子メールチャネル設定")
 
 >[!TIP]
 >

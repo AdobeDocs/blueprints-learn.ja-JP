@@ -47,4 +47,4 @@ ht-degree: 0%
 
 顧客アカウントスキーマの関係IDを作成します。 次のセクションの手順を実行した後、スキーマは次のようになります。
 
-関係と参照ID記述子を示す![顧客アカウントスキーマ ](assets/overview-schema-with-relationship-identities.png)
+関係と参照ID記述子を示す![顧客アカウントスキーマ &#x200B;](assets/overview-schema-with-relationship-identities.png)
