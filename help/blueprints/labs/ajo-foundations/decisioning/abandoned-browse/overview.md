@@ -1,11 +1,10 @@
 ---
-hold: true
 title: 放棄された参照
 description: 離脱した利用者に向けてエンドツーエンドの意思決定ワークフローを構築し、チャネルをまたいでパーソナライズされた適格性に応じた電話オファーを提供する方法を学びましょう。
 doc-type: overview-page
 solution: Experience Platform
 exl-id: 37b8a0b3-2820-4303-81d2-19890a3c5782
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
 workflow-type: tm+mt
 source-wordcount: '468'
 ht-degree: 0%
@@ -21,7 +20,7 @@ ht-degree: 0%
 >
 >以下のラボは、このラボを開始する前に完了している必要があります
 
-- **データストア – アクション中のプロファイル** **—>** [&#x200B; データストリームを作成](../../data-stores/profile-in-action/create-datastream.md)
+- **データストア – アクション中のプロファイル** **—>** [ データストリームを作成](../../data-stores/profile-in-action/create-datastream.md)
 
 これらのラボを完了していない場合は、続行する前に今すぐそれを行ってください。
 

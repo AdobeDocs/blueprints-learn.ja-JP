@@ -1,11 +1,10 @@
 ---
-hold: true
 title: プラン スキーマ IDを取得
 description: テナントスキーマレジストリ APIをクエリして、リレーションシップ記述子で使用するプラン検索スキーマの$idを検索して保存します。
 doc-type: article
 solution: Experience Platform
 exl-id: f66e0483-b5b3-4493-b752-c4e00211a8bd
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
 workflow-type: tm+mt
 source-wordcount: '171'
 ht-degree: 0%
@@ -33,7 +32,7 @@ ht-degree: 0%
 1. 呼び出し応答で`dep: Plan [Lookup] ` スキーマを検索します
 1. スキーマの`$id`をコピーし、後で参照できるように保存します
 
-![Dep: プラン検索スキーマ $id （API応答に含まれる） &#x200B;](assets/get-plan-schema-id-dep-lookup-plan-schema-sid.png "dep: ルックアップ プラン スキーマ $id")
+![Dep: プラン検索スキーマ $id （API応答に含まれる） ](assets/get-plan-schema-id-dep-lookup-plan-schema-sid.png "dep: ルックアップ プラン スキーマ $id")
 
 >[!NOTE]
 >

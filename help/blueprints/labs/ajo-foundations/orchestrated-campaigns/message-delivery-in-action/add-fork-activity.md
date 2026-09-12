@@ -1,11 +1,10 @@
 ---
-hold: true
 title: フォークアクティビティを追加
 description: オーケストレーションキャンペーンにフォークアクティビティを追加して、オーディエンスデータの2つの同一ブランチを作成する方法を説明します。
 doc-type: article
 solution: Experience Platform
 exl-id: f4055087-29ea-4277-b2eb-4b42cbb65c06
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
 workflow-type: tm+mt
 source-wordcount: '159'
 ht-degree: 1%
@@ -23,7 +22,7 @@ ht-degree: 1%
 
 設定された&#x200B;**ビルドオーディエンス**&#x200B;を含むキャンバスが表示されます。 フローの最後にある&#x200B;**+**&#x200B;をクリックし、フロー制御セクションから&#x200B;**Fork** アクティビティを追加します
 
-![&#x200B; カンバスにフォーク フロー制御アクティビティを追加](assets/add-fork-activity-add-fork-flow-control.png)
+![ カンバスにフォーク フロー制御アクティビティを追加](assets/add-fork-activity-add-fork-flow-control.png)
 
 >[!NOTE]
 >
@@ -33,4 +32,4 @@ ht-degree: 1%
 
 キャンペーンキャンバスで「分岐」アクティビティを使用して、同じデータを流し込む同じ分岐を簡単に作成できるようになりました。 フォーク アクティビティの分岐は、次の手順で使用します。
 
-ご興味のある方は、[こちら](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/campaigns/orchestrated-campaigns/design-campaigns/fork)をご覧ください。
+ご興味のある方は、[こちら](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/campaigns/orchestrated-campaigns/design-campaigns/fork)をご覧ください。

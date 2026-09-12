@@ -1,11 +1,10 @@
 ---
-hold: true
 title: 標準フィールドグループを取得
 description: グローバルスキーマレジストリ APIをクエリして、顧客プロファイルスキーマの構築に必要な標準XDM フィールドグループの$idを検索して保存します。
 doc-type: article
 solution: Experience Platform
 exl-id: 62017ece-eef2-4785-afed-5c690c00ed02
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
 workflow-type: tm+mt
 source-wordcount: '284'
 ht-degree: 0%
@@ -30,7 +29,7 @@ ht-degree: 0%
 
 **リクエスト**
 
-![&#x200B; ステップ 1 - XDM標準フィールドグループ API リクエストを取得](assets/get-standard-field-groups-step-1-request.jpeg " ステップ 1 - リクエスト ")
+![ ステップ 1 - XDM標準フィールドグループ API リクエストを取得](assets/get-standard-field-groups-step-1-request.jpeg " ステップ 1 - リクエスト ")
 
 >[!NOTE]
 >
@@ -64,7 +63,7 @@ ht-degree: 0%
 1. フィールドグループの`$id`をコピーし、後で参照できるように保存します
 1. 上記の他の2つのフィールドグループについて、手順1と2を繰り返します
 
-![API応答にあるデモグラフィックの詳細フィールドグループ &#x200B;](assets/get-standard-field-groups-demographic-details-field-group.png)
+![API応答にあるデモグラフィックの詳細フィールドグループ ](assets/get-standard-field-groups-demographic-details-field-group.png)
 
 >[!WARNING]
 >

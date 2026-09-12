@@ -1,11 +1,10 @@
 ---
-hold: true
 title: パート 2 - キーフィールド
 description: プライマリ、個人、関係IDのフィールドと、ラベル付きERD テーブルをまたいで必要なエクスペリエンスイベントフィールドを特定します。
 doc-type: article
 solution: Experience Platform
 exl-id: 24b6fdbd-0d59-4fe7-828e-c4bc7036db90
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
 workflow-type: tm+mt
 source-wordcount: '679'
 ht-degree: 0%

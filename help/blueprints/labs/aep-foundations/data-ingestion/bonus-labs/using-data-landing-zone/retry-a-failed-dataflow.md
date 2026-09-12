@@ -1,11 +1,10 @@
 ---
-hold: true
 title: 失敗したデータフローの再試行
 description: 失敗したデータフローの実行を再試行して、ソースデータを新しいデータフロー内の更新されたマッピングルールに対して再処理します。
 doc-type: article
 solution: Experience Platform
 exl-id: 83ecf037-e524-4887-b833-5ed96af40419
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
 workflow-type: tm+mt
 source-wordcount: '117'
 ht-degree: 0%

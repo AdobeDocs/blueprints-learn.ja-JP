@@ -1,11 +1,10 @@
 ---
-hold: true
 title: 取り込んだプロファイルを確認
 description: プライマリ ID名前空間を使用して、プロファイルブラウザーでストリーミングプロファイルを検索し、正常な取り込みを確認します。
 doc-type: article
 solution: Experience Platform
 exl-id: d45d6baf-9597-4419-b838-03156ce8cc83
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
 workflow-type: tm+mt
 source-wordcount: '321'
 ht-degree: 0%
@@ -42,7 +41,7 @@ Adobe Experience Platform内でストリーミングデータを検証するに�
 
 あなたのプロファイルを見て、あなたがストリーミングしたものと一致することを検証してください。 すごいですね！
 
-![&#x200B; ストリーミングされた顧客アカウントレコードに一致するプロファイル詳細ビュー](assets/verify-ingested-profile-profile-detail-view.png)
+![ ストリーミングされた顧客アカウントレコードに一致するプロファイル詳細ビュー](assets/verify-ingested-profile-profile-detail-view.png)
 
 >[!NOTE]
 >

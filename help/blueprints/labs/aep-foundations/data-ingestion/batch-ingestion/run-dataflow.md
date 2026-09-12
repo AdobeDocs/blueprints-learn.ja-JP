@@ -1,11 +1,10 @@
 ---
-hold: true
 title: データフローの実行
 description: 設定されたバッチデータフローを実行し、最初のデータ読み込み実行が開始されるとそのステータスを監視します。
 doc-type: article
 solution: Experience Platform
 exl-id: 64441624-75d2-4dc9-a48b-2b28883c510d
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
 workflow-type: tm+mt
 source-wordcount: '138'
 ht-degree: 0%
@@ -19,7 +18,7 @@ ht-degree: 0%
 
 **終了**&#x200B;をクリックすると、**データフロー**&#x200B;画面に戻ります。 データフローの作成には数分かかります。 最初のランは数分で開始されます。
 
-新しく作成されたデータフローと実行ステータスを表示する![&#x200B; データフロー画面](assets/run-dataflow-dataflows-sources-screen.png)
+新しく作成されたデータフローと実行ステータスを表示する![ データフロー画面](assets/run-dataflow-dataflows-sources-screen.png)
 
 >[!NOTE]
 >

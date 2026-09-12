@@ -1,11 +1,10 @@
 ---
-hold: true
 title: 概要
 description: AEP Foundationsのブートキャンプで、リレーショナルからNoSQLへのモデリング、XDM スキーマ、データ取り込み、オーディエンスアクティベーションのカバー範囲をプレビューします。
 doc-type: overview-page
 solution: Experience Platform
 exl-id: b8958725-1e27-4440-bc6a-2b50f64f4076
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
 workflow-type: tm+mt
 source-wordcount: '223'
 ht-degree: 2%

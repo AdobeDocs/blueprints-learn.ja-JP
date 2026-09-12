@@ -1,11 +1,10 @@
 ---
-hold: true
 title: 主力の電話発売
 description: 主力の電話発売後にSMS アップグレードオファーを使用して、アカウント所有者と個々のラインをターゲットとするオーケストレーションキャンペーンの構築の概要を説明します。
 doc-type: overview-page
 solution: Experience Platform
 exl-id: 04c509f1-aa10-4d29-aa59-5e627b79e498
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
 workflow-type: tm+mt
 source-wordcount: '244'
 ht-degree: 0%
@@ -22,7 +21,7 @@ ht-degree: 0%
 >以下のラボは、このラボを開始する前に完了している必要があります
 
 - **Data Stores — リレーショナルストアの動作** **—>** [Profile Target Dimension](../../data-stores/relational-store-in-action/profile-target-dimension.md)
-- **データストア – メールチャネルの設定 – >** [&#x200B; リレーショナル用に設定](../../data-stores/configure-email-channels/configure-for-relational.md)
+- **データストア – メールチャネルの設定 – >** [ リレーショナル用に設定](../../data-stores/configure-email-channels/configure-for-relational.md)
   *（この設定ステップを完了するのに最大3時間かかります）*
 
 これらのラボを完了していない場合は、続行する前に今すぐそれを行ってください。

@@ -1,11 +1,10 @@
 ---
-hold: true
 title: 決定ポリシー
 description: 決定ポリシーが配信チャネルに選択戦略を適用する方法と、個別とグループ化された組み合わせ方法がオファーの順序をどのように変更するかを説明します。
 doc-type: article
 solution: Experience Platform
 exl-id: 21dc67fd-76ac-4b82-ae78-be024c7bfc55
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
 workflow-type: tm+mt
 source-wordcount: '304'
 ht-degree: 0%

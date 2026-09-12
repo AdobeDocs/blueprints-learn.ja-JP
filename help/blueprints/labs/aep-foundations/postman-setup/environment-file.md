@@ -1,11 +1,10 @@
 ---
-hold: true
 title: 環境ファイル
 description: Postman環境ファイルを読み込み、bootcampのAPI呼び出しに必要なデベロッパープロジェクトとサンドボックス変数を入力します。
 doc-type: article
 solution: Experience Platform
 exl-id: 1461fac5-0714-44d4-b5c8-949df6bcff83
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
 workflow-type: tm+mt
 source-wordcount: '480'
 ht-degree: 0%
@@ -67,7 +66,7 @@ API呼び出しを行う前に、インポートした環境ファイルのい�
 
 完了すると、環境ファイルは次のようになります。
 
-![CLIENT_SECRET、CLIENT_ID、TECHNICAL_ACCOUNT_ID、およびIMS_ORGの値を更新した後の環境ファイル &#x200B;](assets/environment-file-with-developer-project-values.png "開発者プロジェクトの値を含む環境ファイル ")
+![CLIENT_SECRET、CLIENT_ID、TECHNICAL_ACCOUNT_ID、およびIMS_ORGの値を更新した後の環境ファイル ](assets/environment-file-with-developer-project-values.png "開発者プロジェクトの値を含む環境ファイル ")
 
 ### 他の値を更新
 
@@ -92,7 +91,7 @@ API呼び出しを行う前に、インポートした環境ファイルのい�
 
 完了したら、環境ファイルは次のようになります。
 
-![SANDBOX_NAMEとTENANT_NAMEの値を更新した後の環境ファイル &#x200B;](assets/environment-file-with-sandbox-name-and-tenant-name.png "SANDBOX_NAME")の環境ファイル
+![SANDBOX_NAMEとTENANT_NAMEの値を更新した後の環境ファイル ](assets/environment-file-with-sandbox-name-and-tenant-name.png "SANDBOX_NAME")の環境ファイル
 
 >[!TIP]
 >

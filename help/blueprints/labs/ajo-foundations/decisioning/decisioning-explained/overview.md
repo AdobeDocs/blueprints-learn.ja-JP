@@ -1,11 +1,10 @@
 ---
-hold: true
 title: 決定の説明
 description: 架空の電話機の立ち上げに、トランプや付箋を使用した実践的なシミュレーションを通じて、AJO意思決定の8つの構成要素を学びましょう。
 doc-type: overview-page
 solution: Experience Platform
 exl-id: 9098cf13-86ac-41d9-b0f2-0f8d988267df
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
 workflow-type: tm+mt
 source-wordcount: '132'
 ht-degree: 0%

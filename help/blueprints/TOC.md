@@ -6,7 +6,7 @@ product: adobe experience platform
 mini-toc-levels: 3
 role: Developer, User
 nudge: orange
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
 workflow-type: tm+mt
 source-wordcount: '1172'
 ht-degree: 15%
@@ -145,12 +145,12 @@ ht-degree: 15%
       + [Journey Optimizer と Adobe Campaign v8](/help/blueprints/customer-journeys/campaign-v8/ajo-and-campaign-v8.md)
     + 非推奨のブループリント{#deprecated-blueprints}
       + Campaign Standard{#campaign-standard}
-        + [[!DNL Campaign Standard]](https://experienceleague.adobe.com/ja/docs/campaign-standard){target="_blank"}
-        + [Real-Time CDPとAdobe [!DNL Campaign Standard]](https://experienceleague.adobe.com/ja/docs/campaign-standard/using/integrating-with-adobe-cloud/adobe-experience-platform/get-started-sources-destinations)
+        + [[!DNL Campaign Standard]](https://experienceleague.adobe.com/en/docs/campaign-standard){target="_blank"}
+        + [Real-Time CDPとAdobe [!DNL Campaign Standard]](https://experienceleague.adobe.com/en/docs/campaign-standard/using/integrating-with-adobe-cloud/adobe-experience-platform/get-started-sources-destinations)
       + Campaign v7{#campaign-v7}
         + [Campaign v7](/help/blueprints/customer-journeys/campaign-v7/campaign-v7-overview.md)
 
-+ {hide-from-toc} ハンズオンラボ{#labs}
++ ハンズオンラボ{#labs}
   + [ハンズオンラボの概要](/help/blueprints/labs/overview.md)
   + 実践的なワークショップ{#workshops}
     + AEP財団{#aep-foundations}

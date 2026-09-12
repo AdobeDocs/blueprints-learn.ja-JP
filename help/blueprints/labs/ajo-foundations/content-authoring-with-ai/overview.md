@@ -1,12 +1,11 @@
 ---
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
 workflow-type: tm+mt
 source-wordcount: '464'
 ht-degree: 5%
 
 ---
 ﻿---
-hold: true
 title: 概要
 description: ブランド、ブランドガイドライン、ジャーニー、テンプレートの概要と、Adobe Journey Optimizerのコンテンツ制作ツールの操作方法について説明します。
 doc-type: overview-page
@@ -23,7 +22,7 @@ exl-id: 70eaf77b-e407-4fbc-8338-ab47784e0721
 >以下のラボは、このラボを開始する前に完了している必要があります
 
 - **Data Stores — リレーショナルストアの動作** **—>** [Profile Target Dimension](../data-stores/relational-store-in-action/profile-target-dimension.md)
-- **データストア – メールチャネルの設定 – >** [&#x200B; リレーショナル用の設定](../data-stores/configure-email-channels/configure-for-relational.md)
+- **データストア – メールチャネルの設定 – >** [ リレーショナル用の設定](../data-stores/configure-email-channels/configure-for-relational.md)
 
 これらのラボを完了していない場合は、続行する前に今すぐそれを行ってください。
 
@@ -117,7 +116,7 @@ AJOのブランドは、一意のID （Connection 5Gなど）を表します。 
 
 それぞれのアイコンをクリックして、UIの詳細を確認します。 このラボでは、各セクションについて詳しく説明します。
 
-![&#x200B; ナビゲーションメニューのAssets、コンテンツテンプレート、フラグメントなどのコンテンツ作成ツール &#x200B;](assets/overview-content-creation-tools-navigation-menu.png)
+![ ナビゲーションメニューのAssets、コンテンツテンプレート、フラグメントなどのコンテンツ作成ツール ](assets/overview-content-creation-tools-navigation-menu.png)
 
 ## 概要
 

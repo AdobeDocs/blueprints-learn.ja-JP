@@ -1,11 +1,10 @@
 ---
-hold: true
 title: 購入後の興奮
 description: サードパーティ APIによる動的なトラッキングの詳細を含む配送通知メールをトリガーする、イベント駆動型の購入後ジャーニーを構築する方法を説明します。
 doc-type: overview-page
 solution: Experience Platform
 exl-id: 570dc378-e7a3-4895-8f14-89d420b6b340
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
 workflow-type: tm+mt
 source-wordcount: '312'
 ht-degree: 0%
@@ -24,7 +23,7 @@ ht-degree: 0%
 これらのラボは、このラボを開始する前に完了している必要があります。
 
 - **Data Stores — リレーショナルストアの動作** **—>** [Profile Target Dimension](../../data-stores/relational-store-in-action/profile-target-dimension.md)
-- **データストア – メールチャネルの設定 – >** [&#x200B; プロファイルの設定](../../data-stores/configure-email-channels/configure-for-profile.md)
+- **データストア – メールチャネルの設定 – >** [ プロファイルの設定](../../data-stores/configure-email-channels/configure-for-profile.md)
   *（完了までに最大3時間かかる場合があります）*
 
 まだ完了していない場合は、以下の項目を記入してください

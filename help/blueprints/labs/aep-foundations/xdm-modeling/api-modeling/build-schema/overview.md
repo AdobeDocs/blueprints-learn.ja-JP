@@ -1,11 +1,10 @@
 ---
-hold: true
 title: スキーマの構築
 description: 既に完成したマッピングシートを使用して、クラスおよび複数のフィールドグループからConnection 5G顧客アカウントスキーマをアセンブリします。
 doc-type: overview-page
 solution: Experience Platform
 exl-id: 6a935c42-0446-43f7-8abc-442ee696a6cf
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
 workflow-type: tm+mt
 source-wordcount: '165'
 ht-degree: 0%
@@ -26,7 +25,7 @@ XDMの一部であるすべてのスキーマは、同じ方法で構成され�
 
 このラボでは、以前に入力したマッピングシートを使用して、Connection 5G顧客アカウントスキーマを構築します。 ラボのこの部分を完了すると、次のようなスキーマが表示されます。
 
-![&#x200B; クラスとフィールドグループを組み合わせた接続5G顧客アカウントスキーマを完了しました](assets/overview-connection-5g-customer-account-schema.png "接続5G – 顧客アカウントスキーマ ")
+![ クラスとフィールドグループを組み合わせた接続5G顧客アカウントスキーマを完了しました](assets/overview-connection-5g-customer-account-schema.png "接続5G – 顧客アカウントスキーマ ")
 
 
 

@@ -1,11 +1,10 @@
 ---
-hold: true
 title: Adobe Experience Platformハンズオンラボ
 description: Adobeのソリューションアーキテクトが制作した、Adobe Experience Platformおよびアプリケーション向けの自習型サンドボックスワークショップ。
 doc-type: overview-page
 solution: Experience Platform
 exl-id: a1b2c3d4-e5f6-7890-abcd-ef1234567890
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
 workflow-type: tm+mt
 source-wordcount: '148'
 ht-degree: 0%

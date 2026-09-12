@@ -1,11 +1,10 @@
 ---
-hold: true
 title: ユースケース#3ースを構築する
 description: コンテナ変数を使用して、1週間以内に同じ注文の注文済みイベントと注文キャンセル済みイベントを一致させるバッチオーディエンスを作成します。
 doc-type: article
 solution: Experience Platform
 exl-id: 4b72b76f-de64-4712-85a6-ec7890b23b97
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
 workflow-type: tm+mt
 source-wordcount: '521'
 ht-degree: 0%
@@ -31,7 +30,7 @@ ht-degree: 0%
 >- イベントタイプ=order.placedでフィルタリングされたイベント
 >- イベントタイプ=order.canceledでフィルタリングされたイベント
 
-![&#x200B; イベント時間ウィンドウを1週間以内に変更](assets/build-use-case-3-change-time-to-within-a-week.png)
+![ イベント時間ウィンドウを1週間以内に変更](assets/build-use-case-3-change-time-to-within-a-week.png)
 
 
 

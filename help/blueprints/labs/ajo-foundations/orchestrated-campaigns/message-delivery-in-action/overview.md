@@ -1,11 +1,10 @@
 ---
-hold: true
 title: メッセージ配信の実際
 description: 基本プランメンバーをターゲットとし、AEP プロファイルとリレーショナルスキーマメールチャネル間の配信動作を比較するオーケストレーションキャンペーンの構築の概要を説明します。
 doc-type: overview-page
 solution: Experience Platform
 exl-id: 84b16fff-f733-439a-9a93-726811e543ce
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
 workflow-type: tm+mt
 source-wordcount: '200'
 ht-degree: 1%

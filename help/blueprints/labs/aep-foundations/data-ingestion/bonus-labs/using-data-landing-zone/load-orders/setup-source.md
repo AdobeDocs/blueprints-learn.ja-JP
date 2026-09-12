@@ -1,11 +1,10 @@
 ---
-hold: true
 title: ソースの設定
 description: 過去の注文JSON ファイルをデータランディングゾーンにアップロードし、注文スキーマをターゲットとする新しいデータフローを設定します。
 doc-type: article
 solution: Experience Platform
 exl-id: 046d50ad-687e-4cdb-a8b1-3c55ab39b68e
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
 workflow-type: tm+mt
 source-wordcount: '353'
 ht-degree: 0%
@@ -19,21 +18,21 @@ ht-degree: 0%
 
 ラボで使用できるように、Azure Storage Explorerを介してサンプルデータファイルをデータランディングゾーンにアップロードする必要があります。  これを行うには、次の操作を行います。
 
-1. [&#x200B; サンプルファイル &#x200B;](../../../sample-files.md)をダウンロード
+1. [ サンプルファイル ](../../../sample-files.md)をダウンロード
 1. **Lab\_Historical\_Orders.json** ファイルをドラッグ&amp;ドロップするか、上から保存したデータランディングゾーンにアップロードします。
 
 
 
 アップロードすると、画面は以下のスクリーンショットのようになります。
 
-データランディングゾーンにアップロードされた![Lab_Historical_Orders.json ファイル &#x200B;](assets/setup-source-lab-historical-orders-json-uploaded-to-dlz.png "DLZ")にアップロードされたLab_Historical_Orders.json
+データランディングゾーンにアップロードされた![Lab_Historical_Orders.json ファイル ](assets/setup-source-lab-historical-orders-json-uploaded-to-dlz.png "DLZ")にアップロードされたLab_Historical_Orders.json
 
 ## ソースに移動
 
 1. Adobe Experience Platformに移動し、**ソース** -> **カタログ** -> **クラウドストレージ**&#x200B;に移動します。
 1. データランディングゾーンの&#x200B;**設定** / **データを追加**&#x200B;をクリックします
 
-![&#x200B; ソース/カタログ/クラウドストレージに移動してデータランディングゾーンを設定する](assets/setup-source-navigate-to-data-landing-zone-source.png " ソース – データランディングゾーン ")
+![ ソース/カタログ/クラウドストレージに移動してデータランディングゾーンを設定する](assets/setup-source-navigate-to-data-landing-zone-source.png " ソース – データランディングゾーン ")
 
 >[!NOTE]
 >

@@ -1,11 +1,10 @@
 ---
-hold: true
 title: オブジェクトコピーマッピング
 description: 製品配列のオブジェクトコピーマッピングを設定し、デフォルトコピーの上にフィールドレベルの上書きを追加して削除します。
 doc-type: article
 solution: Experience Platform
 exl-id: 762d0e19-ed1c-4f4d-91ec-a962bd6277a7
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
 workflow-type: tm+mt
 source-wordcount: '318'
 ht-degree: 0%
@@ -70,6 +69,6 @@ ht-degree: 0%
 
 
 
-オブジェクトのコピーのオーバーライドを追加した後のproductListItemsの![結果マッピング &#x200B;](assets/object-copy-mappings-resultant-mappings-for-productlistitems.png "ProductListItems\[*]の結果マッピングは次のようになります")
+オブジェクトのコピーのオーバーライドを追加した後のproductListItemsの![結果マッピング ](assets/object-copy-mappings-resultant-mappings-for-productlistitems.png "ProductListItems\[*]の結果マッピングは次のようになります")
 
-![&#x200B; オブジェクトのコピーが上書きされた後のproductListItemsの結果マッピングの2番目のビュー](assets/object-copy-mappings-resultant-mappings-for-productlistitems--2.png)
+![ オブジェクトのコピーが上書きされた後のproductListItemsの結果マッピングの2番目のビュー](assets/object-copy-mappings-resultant-mappings-for-productlistitems--2.png)

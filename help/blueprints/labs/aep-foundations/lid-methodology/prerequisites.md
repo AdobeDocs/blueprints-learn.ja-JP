@@ -1,11 +1,10 @@
 ---
-hold: true
 title: 前提条件
 description: データモデリングラボを開始する前に、LID手法のトレーニングシナリオ、学習目標、必要なワークシートを確認します。
 doc-type: article
 solution: Experience Platform
 exl-id: ba582b0b-37a8-4cbb-ba1d-43594f3dd17b
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
 workflow-type: tm+mt
 source-wordcount: '302'
 ht-degree: 0%

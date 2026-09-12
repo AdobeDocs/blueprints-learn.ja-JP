@@ -1,11 +1,10 @@
 ---
-hold: true
 title: 講義
 description: 4層構造のコンテンツ分解モデル、AJOとAEMのコンテンツ統合パターン、AIを活用したコンテンツガバナンスにより、大規模なパーソナライゼーションを実現する方法を解説します。
 doc-type: article
 solution: Experience Platform
 exl-id: 1ac39a70-51f8-426e-97cf-1ff08450d326
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
 workflow-type: tm+mt
 source-wordcount: '551'
 ht-degree: 0%
