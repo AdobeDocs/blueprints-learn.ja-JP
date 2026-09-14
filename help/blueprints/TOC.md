@@ -2,17 +2,15 @@
 user-guide-title: 顧客体験オーケストレーション ビジネス目標、ユースケース、アーキテクチャ図、ブループリント
 breadcrumb-title: ユースケースとブループリント
 user-guide-description: Adobe Experience Platformとそのアプリケーションについて、主要なビジネス目標、ユースケースパターン、業界のユースケースを確認できます。 ビジュアルアーキテクチャ図とブループリントは、システム統合、データフロー、ソリューション設計のための技術参照情報を提供し、ビジネス価値と導入を結び付けます。
-product: adobe experience platform
+product: Adobe Experience Platform
 mini-toc-levels: 3
 role: Developer, User
 nudge: orange
-source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
+source-git-commit: df6c1852a6e0357dc9f166c88e77dcf9d334f955
 workflow-type: tm+mt
-source-wordcount: '1172'
+source-wordcount: '1169'
 ht-degree: 15%
-
 ---
-
 
 # 顧客体験オーケストレーションの設計図 {#architecture}
 
@@ -145,8 +143,8 @@ ht-degree: 15%
       + [Journey Optimizer と Adobe Campaign v8](/help/blueprints/customer-journeys/campaign-v8/ajo-and-campaign-v8.md)
     + 非推奨のブループリント{#deprecated-blueprints}
       + Campaign Standard{#campaign-standard}
-        + [[!DNL Campaign Standard]](https://experienceleague.adobe.com/ja/docs/campaign-standard){target="_blank"}
-        + [Real-Time CDPとAdobe [!DNL Campaign Standard]](https://experienceleague.adobe.com/ja/docs/campaign-standard/using/integrating-with-adobe-cloud/adobe-experience-platform/get-started-sources-destinations)
+        + [[!DNL Campaign Standard]](https://experienceleague.adobe.com/en/docs/campaign-standard){target="_blank"}
+        + [Real-Time CDPとAdobe [!DNL Campaign Standard]](https://experienceleague.adobe.com/en/docs/campaign-standard/using/integrating-with-adobe-cloud/adobe-experience-platform/get-started-sources-destinations)
       + Campaign v7{#campaign-v7}
         + [Campaign v7](/help/blueprints/customer-journeys/campaign-v7/campaign-v7-overview.md)
 
@@ -211,7 +209,6 @@ ht-degree: 15%
             + [スキーマの表示](/help/blueprints/labs/aep-foundations/xdm-modeling/api-modeling/define-relationships/view-schema.md)
           + [まとめ](/help/blueprints/labs/aep-foundations/xdm-modeling/api-modeling/recap.md)
         + Bonus Labs{#aep-xdm-bonus}
-          + [概要](/help/blueprints/labs/aep-foundations/xdm-modeling/bonus-labs/overview.md)
           + [APIによる自動化](/help/blueprints/labs/aep-foundations/xdm-modeling/bonus-labs/automate-with-apis.md)
       + データ取り込み{#aep-ingestion}
         + [講義](/help/blueprints/labs/aep-foundations/data-ingestion/lectures.md)
@@ -240,7 +237,6 @@ ht-degree: 15%
           + [エラーの監視とデバッグ](/help/blueprints/labs/aep-foundations/data-ingestion/stream-ingestion/monitoring-and-debugging-errors.md)
           + [検証と検証](/help/blueprints/labs/aep-foundations/data-ingestion/stream-ingestion/verification-and-validation.md)
         + Bonus Labs{#aep-ingestion-bonus}
-          + [概要](/help/blueprints/labs/aep-foundations/data-ingestion/bonus-labs/overview.md)
           + [CreateDateのMAPPER エラーの修正](/help/blueprints/labs/aep-foundations/data-ingestion/bonus-labs/fix-mapper-errors-for-createdate.md)
           + [注文イベントのストリーム](/help/blueprints/labs/aep-foundations/data-ingestion/bonus-labs/stream-an-order-event.md)
           + データランディングゾーンの活用{#aep-ingestion-dlz}
@@ -287,7 +283,6 @@ ht-degree: 15%
           + [ユースケースを構築3](/help/blueprints/labs/aep-foundations/audience-building/use-case-3-outreach/build-use-case-3.md)
           + [クリティカルシンキングのレビュー](/help/blueprints/labs/aep-foundations/audience-building/use-case-3-outreach/critical-thinking-review.md)
         + Bonus Labs{#aep-audiences-bonus}
-          + [概要](/help/blueprints/labs/aep-foundations/audience-building/bonus-labs/overview.md)
           + [ハブへの注文イベントの送信](/help/blueprints/labs/aep-foundations/audience-building/bonus-labs/send-order-event-to-hub.md)
           + [Web イベントをハブに送信](/help/blueprints/labs/aep-foundations/audience-building/bonus-labs/send-web-event-to-hub.md)
           + [イベントの監視](/help/blueprints/labs/aep-foundations/audience-building/bonus-labs/monitor-your-event.md)

@@ -4,13 +4,11 @@ description: 主力の電話発売後にSMS アップグレードオファーを
 doc-type: overview-page
 solution: Experience Platform
 exl-id: 04c509f1-aa10-4d29-aa59-5e627b79e498
-source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
+source-git-commit: df6c1852a6e0357dc9f166c88e77dcf9d334f955
 workflow-type: tm+mt
-source-wordcount: '244'
+source-wordcount: '283'
 ht-degree: 0%
-
 ---
-
 
 # 主力の電話発売
 
@@ -20,15 +18,20 @@ ht-degree: 0%
 >
 >以下のラボは、このラボを開始する前に完了している必要があります
 
+- **Postman setup** **—>** [Postman インストール ](../../postman-setup/postman-installation.md)
 - **Data Stores — リレーショナルストアの動作** **—>** [Profile Target Dimension](../../data-stores/relational-store-in-action/profile-target-dimension.md)
-- **データストア – メールチャネルの設定 – >** [&#x200B; リレーショナル用に設定](../../data-stores/configure-email-channels/configure-for-relational.md)
+- **データストア – メールチャネルの設定 – >** [ リレーショナル用に設定](../../data-stores/configure-email-channels/configure-for-relational.md)
   *（この設定ステップを完了するのに最大3時間かかります）*
 
-これらのラボを完了していない場合は、続行する前に今すぐそれを行ってください。
+ラボを完了していない場合は、続行する前に今すぐ完了してください。
+
+>[!CAUTION]
+>
+>このラボでは、SMS チャネルの設定ステップを完了するために、サンドボックス内のSMS資格情報が必要です。実際のメッセージは送信されませんが、Twilio資格情報が存在する必要があります。 自分のペースで設定し、まだプロビジョニングしていない場合は、[設定](../../setup.md)を参照してください。
 
 ## ラボの概要
 
-このビデオでは、主要な電話会社のローンチのユースケースが、アカウント所有者と個々のラインをターゲットにしたキャンペーンを構築する前に、重要な考え方の質問とアーキテクチャを再考して、オーケストレーションされたキャンペーンにどのようにマッピングされるかを説明します。
+このビデオでは、主要な電話会社のローンチのユースケースが、オーケストレーションされたキャンペーンにどのように対応するかを学び、アカウントの所有者と個々の行をターゲットにしたキャンペーンを構築する前に、重要な考え方の質問とアーキテクチャを再考します。
 
 >[!VIDEO](https://video.tv.adobe.com/v/3486217/)
 
@@ -44,7 +47,7 @@ ht-degree: 0%
 
 ## ユースケースの説明
 
-メーカーの最新フラッグシップデバイスのローンチ直後に、古いモデルのアカウントホルダーやラインユーザーにターゲットを絞ったメッセージを送信し、モバイルの未来をアップグレードして体験するよう促します。
+メーカーの最新フラッグシップデバイスのローンチ直後に、古いモデルのアカウントホルダーやラインユーザーにターゲットを絞ったメッセージを送信し、最新のモバイルテクノロジーへのアップグレードを促します。
 
 **キーコールアウト：**
 

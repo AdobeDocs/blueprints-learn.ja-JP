@@ -4,13 +4,11 @@ description: AEP Foundations ラボ全体で使用されるリクエストを含
 doc-type: article
 solution: Experience Platform
 exl-id: 18d820c5-56ad-46b8-a9cf-f725555d2db3
-source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
+source-git-commit: df6c1852a6e0357dc9f166c88e77dcf9d334f955
 workflow-type: tm+mt
-source-wordcount: '294'
+source-wordcount: '288'
 ht-degree: 0%
-
 ---
-
 
 # API コレクション
 
@@ -25,15 +23,15 @@ ht-degree: 0%
 1. ファイルをクリックして、ブラウザーの上から`Postman API Collection File`を開きます
 1. ファイルのURLをクリップボードにコピーします
 1. ローカルマシンでPostmanを起動し、ワークスペース内の「`Import`」ボタンをクリックします
-1. `Postman API Collection File`のURLをオーバーレイの読み込みモーダルテキストボックスに貼り付けます。  これにより、自動インポートがトリガーされます
+1. インポート モーダル テキスト ボックスに`Postman API Collection File`のURLを貼り付けます。 これにより、自動インポートがトリガーされます
 
 ![Postman ワークスペースの「読み込み」ボタンをクリックしてAPI コレクションを読み込む](assets/api-collection-click-import-button.png "読み込みボタン ")
 
 
 
-![API コレクションファイルのURLをPostmanの読み込みモーダルテキストボックスにペースト &#x200B;](assets/api-collection-import-modal-paste-url.png " ボタンモーダルテキストボックスの読み込み")
+![API コレクションファイルのURLをPostmanの読み込みモーダルテキストボックスにペースト ](assets/api-collection-import-modal-paste-url.png " ボタンモーダルテキストボックスの読み込み")
 
-左側のサイドバーの`Collections` タブの`AEP Foundations Bootcamp`という名前の下にコレクションが入力されています
+左側のサイドバーの`Collections` タブの下に`AEP Foundations Bootcamp`というコレクションが表示されました
 
 
 
@@ -41,7 +39,7 @@ ht-degree: 0%
 
 ## AEP Foundations Bootcamp コレクションの概要
 
-読み込んだAPI コレクションには、ブートキャンプ全体でラボに必要なすべての必要なAPI呼び出しが含まれています。  各ラボは、独自のAPI セットを持つ特定のフォルダーに編成されます。  今週ラボを通して作業する際は、この点に注意してください。
+読み込んだAPI コレクションには、ブートキャンプ全体でラボに必要なすべてのAPI呼び出しが含まれています。  各ラボは、独自のAPI セットを持つ特定のフォルダーに編成されます。  今週ラボを完了する際には、このフォルダー構造に注意してください。
 
 各フォルダーの詳細は次のとおりです。
 
@@ -50,6 +48,6 @@ ht-degree: 0%
 - **Data Ingestion Lab** - Experience Platformにデータをストリーミングするための一連のリクエストが含まれます
 - **Profile Lab** - リアルタイム顧客プロファイルの特性と行動を表示するための一連のリクエストが含まれます
 
->[!TIP]
+>[!SUCCESS]
 >
 >おめでとうございます。  bootcampのPostman コレクションが正常に読み込まれました

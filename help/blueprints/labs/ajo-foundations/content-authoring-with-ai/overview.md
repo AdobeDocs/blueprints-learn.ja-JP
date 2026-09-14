@@ -1,9 +1,8 @@
 ---
-source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
+source-git-commit: df6c1852a6e0357dc9f166c88e77dcf9d334f955
 workflow-type: tm+mt
-source-wordcount: '464'
-ht-degree: 5%
-
+source-wordcount: '475'
+ht-degree: 4%
 ---
 ﻿---
 title: 概要
@@ -22,19 +21,23 @@ exl-id: 70eaf77b-e407-4fbc-8338-ab47784e0721
 >以下のラボは、このラボを開始する前に完了している必要があります
 
 - **Data Stores — リレーショナルストアの動作** **—>** [Profile Target Dimension](../data-stores/relational-store-in-action/profile-target-dimension.md)
-- **データストア – メールチャネルの設定 – >** [&#x200B; リレーショナル用の設定](../data-stores/configure-email-channels/configure-for-relational.md)
+- **データストア – メールチャネルの設定 – >** [ リレーショナル用の設定](../data-stores/configure-email-channels/configure-for-relational.md)
 
-これらのラボを完了していない場合は、続行する前に今すぐそれを行ってください。
+ラボを完了していない場合は、続行する前に今すぐ完了してください。
+
+>[!CAUTION]
+>
+>このラボでは、サンドボックスでAdobeにデリゲートされたサブドメインが必要です。 自分のペースで進めている場合は、[ セットアップ ](../setup.md)を参照してください。
 
 ## ラボの概要
 
-このビデオでは、この実践的なラボの3つの行為であるConnection 5G ブランドの設定、フラグメント、テンプレート、AI支援メールの作成、シミュレーションとプルーフ送信による検証について説明します。
+このビデオでは、この実践的なラボの3つの部分で何を期待できるかを学習します。Connection 5G ブランドの設定、フラグメントとテンプレートの作成、AI支援メールの作成、シミュレーションとプルーフ送信による検証です。
 
 >[!VIDEO](https://video.tv.adobe.com/v/3491145/)
 
 ## 学習目標
 
-このモジュールの終わりまでに、次のことが可能になります。
+このモジュールの最後までに、次のことができます。
 
 1. Adobe Adobe Journey Optimizerにおけるコンテンツ制作の重要性を解説します。
 1. ブランド、ブランドガイドライン、ジャーニー、テンプレートなどの主要概念を特定し、説明します。
@@ -69,7 +72,7 @@ AJOのブランドは、一意のID （Connection 5Gなど）を表します。 
 - 文体と語調
 - 音声ルール
 - 法的要件
-- 色、画像、図像化などのビジュアル標準
+- ビジュアル標準（色、画像、図像化）
 
 ### &#x200B;3. ジャーニー
 
@@ -94,7 +97,7 @@ AJOのブランドは、一意のID （Connection 5Gなど）を表します。 
 
 1. ブラウザーでAdobe Journey Optimizerを開きます。
 1. 資格情報を使用してログインします。
-1. メインのダッシュボードに移動します。
+1. メインダッシュボードが表示されます。
 
 ### メインナビゲーションメニューを探す
 
@@ -114,9 +117,9 @@ AJOのブランドは、一意のID （Connection 5Gなど）を表します。 
 - コンテンツテンプレート
 - フラグメント
 
-それぞれのアイコンをクリックして、UIの詳細を確認します。 このラボでは、各セクションについて詳しく説明します。
+UIについて詳しくは、それぞれのUIを選択してください。 このラボでは、各セクションについて詳しく説明します。
 
-![&#x200B; ナビゲーションメニューのAssets、コンテンツテンプレート、フラグメントなどのコンテンツ作成ツール &#x200B;](assets/overview-content-creation-tools-navigation-menu.png)
+![ ナビゲーションメニューのAssets、コンテンツテンプレート、フラグメントなどのコンテンツ作成ツール ](assets/overview-content-creation-tools-navigation-menu.png)
 
 ## 概要
 

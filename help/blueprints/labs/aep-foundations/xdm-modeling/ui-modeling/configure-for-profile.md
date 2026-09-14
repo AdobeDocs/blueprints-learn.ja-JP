@@ -4,25 +4,23 @@ description: プライマリ ID フィールドと個人ID フィールドにマ
 doc-type: article
 solution: Experience Platform
 exl-id: 52cfc0d2-ba8c-4f81-9e03-c5c2c5e276b7
-source-git-commit: 0b33b2740ee7f5af73d64f217b4475650c1d28a0
+source-git-commit: df6c1852a6e0357dc9f166c88e77dcf9d334f955
 workflow-type: tm+mt
-source-wordcount: '920'
+source-wordcount: '911'
 ht-degree: 0%
-
 ---
-
 
 # プロファイル用に設定
 
 ## 概要
 
-リアルタイム顧客プロファイルのスキーマを利用するには、まず、適切に設定されていることを確認する必要があります。 これは、LID ラボで特定したものをプライマリ/個人ID、関係IDなどとして取得し、それらの設定が各スキーマに対して確実に行われることを意味します。 すべてが完了したら、次に「スイッチを反転」して、プロファイルで使用するスキーマを有効にできます。
+リアルタイム顧客プロファイルのスキーマを利用するには、まず、スキーマが適切に設定されていることを確認する必要があります。 このステップでは、LID ラボで特定したものをプライマリ/個人ID、関係IDなどとして取得し、各スキーマに設定を確実に行います。 すべてが完了したら、プロファイルで使用するスキーマを有効にします。
 
 Paper Connection 5G ERDのXDMを見ると、顧客アカウントスキーマに関する次の情報が表示されます。  これは、リアルタイム顧客プロファイル内のスキーマを利用するために残っている作業です。
 
 
 
-![Paper顧客アカウントスキーマ上の5G XDMと関連する参照テーブル &#x200B;](assets/configure-for-profile-connection-5g-erd-customer-account-schema.jpeg "Paper顧客アカウントスキーマ上の5G XDMと関連する参照テーブル ")への接続
+![Paper顧客アカウントスキーマ上の5G XDMと関連する参照テーブル ](assets/configure-for-profile-connection-5g-erd-customer-account-schema.jpeg "Paper顧客アカウントスキーマ上の5G XDMと関連する参照テーブル ")への接続
 
 
 ## プライマリ ID フィールドをマーク
@@ -35,36 +33,36 @@ Paper Connection 5G ERDのXDMを見ると、顧客アカウントスキーマに
 1. ドロップダウンから&#x200B;**customerID**&#x200B;名前空間を選択します
 1. 完了したら、右側のパネルの「**適用**」ボタンをクリックし、変更を&#x200B;**保存**&#x200B;します。
 
-![customerID フィールドをプライマリ IDとしてマーク &#x200B;](assets/configure-for-profile-mark-customerid-as-primary-identity.png "プライマリ IDとして_dxp.customerIDをマーク ")
+![customerID フィールドをプライマリ IDとしてマーク ](assets/configure-for-profile-mark-customerid-as-primary-identity.png "プライマリ IDとして_dxp.customerIDをマーク ")
 
 >[!NOTE]
 >
 >以下のように「適用」をクリックした後、フィールドにサムプリントが表示されていることを検証します
 >
->IDとしてマークした後、フィールドに表示される![&#x200B; サムプリントアイコン &#x200B;](assets/configure-for-profile-identity-thumbprint-icon.png)
+>IDとしてマークした後、フィールドに表示される![ サムプリントアイコン ](assets/configure-for-profile-identity-thumbprint-icon.png)
 >
 >
 
 >[!NOTE]
 >
->また、左側のパネルには、次の項目が表示されます。 ID （プライマリまたは非プライマリ）がここに表示され、**プライマリ**&#x200B;のIDも必須フィールドとしてマークされます。
+>また、左側のパネルには次の項目が表示されています。 ID （プライマリまたは非プライマリ）がここに表示され、**プライマリ**&#x200B;のIDも必須フィールドとしてマークされます。
 >
 >
 >
->プライマリ ID フィールドと非プライマリ ID フィールドを示す左側のパネルの![ID セクション &#x200B;](assets/configure-for-profile-identities-list-in-left-rail.png)
+>プライマリ ID フィールドと非プライマリ ID フィールドを示す左側のパネルの![ID セクション ](assets/configure-for-profile-identities-list-in-left-rail.png)
 
 
 
 ## 個人ID フィールドをマークする
 
-リアルタイム顧客プロファイル **で使用されるすべてのスキーマには、オプションで**&#x200B;個の他の個人ID フィールドを含めることができます。 フィールドを個人IDとしてマークするには、以前に作成した顧客アカウントスキーマで次のアクションを実行します。
+各スキーマには、**オプションで**&#x200B;個の他のユーザーID フィールドを含めることができます。 このルールは、リアルタイム顧客プロファイルで使用されるすべてのスキーマに適用されます。 フィールドを個人IDとしてマークするには、以前に作成した顧客アカウントスキーマで次のアクションを実行します。
 
 1. **personalEmail.address** フィールドを選択します
 1. 右側のパネルにある&#x200B;**ID** チェックボックスをオンにします
 1. ドロップダウンから&#x200B;**電子メール** ID名前空間を選択します
 1. **変更を適用して**&#x200B;保存
 
-![personalEmail.address フィールドをIDとしてマーク &#x200B;](assets/configure-for-profile-mark-personal-email-as-identity.png "personalEmail.addressをIDとしてマーク ")
+![personalEmail.address フィールドをIDとしてマーク ](assets/configure-for-profile-mark-personal-email-as-identity.png "personalEmail.addressをIDとしてマーク ")
 
 >[!NOTE]
 >
@@ -74,24 +72,24 @@ Paper Connection 5G ERDのXDMを見ると、顧客アカウントスキーマに
 
 ## スキーマ関係の作成
 
-ERDに概説されている顧客アカウントスキーマにプランスキーマを関連付けるには、関係を定義する必要があります。 顧客アカウントとプラン（ルックアップ）スキーマの間にスキーマ関係を作成するには、次の手順に従います。
+ERDに記載されている顧客アカウントスキーマにプランスキーマを関連付けるには、関係を定義する必要があります。 顧客アカウントとプラン（ルックアップ）スキーマの間にスキーマ関係を作成するには、次の手順に従います。
 
 ### 関係を追加
 
 1. 以下に示すように、プランオブジェクト内の&#x200B;**planID** フィールドを選択します
 1. 右側のパネルで「**関係を追加**」アイコンをクリックします
 
-![planID フィールドで選択した関係を追加アイコン &#x200B;](assets/configure-for-profile-add-relationship-to-planid-field.png "planID フィールドに関係を追加")
+![planID フィールドで選択した関係を追加アイコン ](assets/configure-for-profile-add-relationship-to-planid-field.png "planID フィールドに関係を追加")
 
 
 
 ### 関係を定義
 
 1. タイプ選択ボックスで、**1対1** オプションを選択します
-1. 「参照スキーマ」選択ボックスで、**dep: Plan \[Lookup]**&#x200B;という名前のスキーマを選択します（これは事前に作成されたものです）
+1. 「参照スキーマ」選択ボックスで、**dep: Plan \[Lookup]**&#x200B;という名前のスキーマを選択します（このスキーマは事前に作成されています）
 1. 「**適用**」と「**保存**」をクリック
 
-![Depとの1対1の関係の定義：プラン [参照] スキーマ &#x200B;](assets/configure-for-profile-define-one-to-one-relationship.png)
+![Depとの1対1の関係の定義：プラン [参照] スキーマ ](assets/configure-for-profile-define-one-to-one-relationship.png)
 
 
 
@@ -115,11 +113,11 @@ ERDに概説されている顧客アカウントスキーマにプランスキ�
 1. 表示されるモーダルで、「**有効化**」ボタンをクリックします
 1. 完了したら、スキーマを&#x200B;**保存**&#x200B;することを忘れないでください。
 
-顧客アカウントスキーマの右側のパネルで![&#x200B; プロファイルトグルが有効になっています](assets/configure-for-profile-schema-profile-toggle.png " スキーマプロファイルトグル ")
+顧客アカウントスキーマの右側のパネルで![ プロファイルトグルが有効になっています](assets/configure-for-profile-schema-profile-toggle.png " スキーマプロファイルトグル ")
 
-![&#x200B; プロファイルスイッチを切り替えた後に表示されるモーダルの「有効にする」ボタン &#x200B;](assets/configure-for-profile-enable-profile-modal.png)
+![ プロファイルスイッチを切り替えた後に表示されるモーダルの「有効にする」ボタン ](assets/configure-for-profile-enable-profile-modal.png)
 
->[!TIP]
+>[!SUCCESS]
 >
 >おめでとうございます。  リアルタイム顧客プロファイルで使用するスキーマを作成しました。
 
@@ -127,7 +125,7 @@ ERDに概説されている顧客アカウントスキーマにプランスキ�
 
 ## プロファイル結合スキーマの確認
 
-前述したように、XDMとリアルタイム顧客プロファイルの機能とは、個人のさまざまなフラグメントと行動を組み合わせて作成する能力のことです。  これは、お客様の「和集合」と呼ばれます。  以下の手順では、リアルタイム顧客プロファイル用に設定された各XDM クラスについて、この結合がどのように表示されるかをプレビューします
+前述したように、XDMとリアルタイム顧客プロファイルの機能とは、個人のさまざまなフラグメントと行動を組み合わせて作成する能力のことです。  この集計は、顧客の「和集合」と呼ばれます。  以下の手順では、リアルタイム顧客プロファイル用に設定された各XDM クラスについて、この結合がどのように表示されるかをプレビューします
 
 1. 左側のパネルの&#x200B;**プロファイル**&#x200B;に移動します
 1. 上部メニューの「**結合スキーマ**」タブを選択します

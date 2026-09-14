@@ -4,13 +4,11 @@ description: Postman環境ファイルを読み込み、bootcampのAPI呼び出�
 doc-type: article
 solution: Experience Platform
 exl-id: 1461fac5-0714-44d4-b5c8-949df6bcff83
-source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
+source-git-commit: df6c1852a6e0357dc9f166c88e77dcf9d334f955
 workflow-type: tm+mt
-source-wordcount: '480'
+source-wordcount: '472'
 ht-degree: 0%
-
 ---
-
 
 # 環境ファイル
 
@@ -25,7 +23,7 @@ ht-degree: 0%
 1. ファイルをクリックして、ブラウザーの上から`Environment File`を開きます
 1. ファイルのURLをクリップボードにコピーします
 1. ローカルマシンでPostmanを起動し、ワークスペース内の「`Import`」ボタンをクリックします
-1. `Environment File`のURLをオーバーレイの読み込みモーダルテキストボックスに貼り付けます。  これにより、自動インポートがトリガーされます
+1. `Environment File`のURLをオーバーレイの読み込みモーダルテキストボックスに貼り付けます。  このアクションにより、自動読み込みがトリガーされます
 
 ![Postman ワークスペースの「読み込み」ボタンをクリックして、環境ファイルを読み込みます](assets/environment-file-click-import-button.png "読み込みボタン ")
 
@@ -35,7 +33,7 @@ ht-degree: 0%
 
 
 
-読み込みが完了したら、左側のサイドバーの「`Environments`」タブをクリックして、環境ファイルの存在を検証できます。  以下のような表示になります。
+読み込みが完了したら、左側のサイドバーの「`Environments`」タブをクリックして、環境ファイルが存在することを検証します。  下のような表示になります。
 
 ![AEP Bootcamp環境は、読み込み後に「Postman環境」タブに表示されます](assets/environment-file-aep-bootcamp-environment-listed.png "AEP Bootcamp環境")
 
@@ -58,15 +56,15 @@ API呼び出しを行う前に、インポートした環境ファイルのい�
 
 1. Postmanの左側のサイドバーにある`Environments` タブをクリックします
 1. 次に、`AEP Bootcamp`環境ファイルをクリックします
-1. 次のリストにある変数の`current values`を更新します。
+1. 次に示す変数の`current values`を更新します。
    - CLIENT\_SECRET
    - CLIENT\_ID （API キーとも呼ばれます）
    - TECHNICAL\_ACCOUNT\_ID
    - IMS\_ORG
 
-完了すると、環境ファイルは次のようになります。
+完了すると、環境ファイルは次の画像のようになります。
 
-![CLIENT_SECRET、CLIENT_ID、TECHNICAL_ACCOUNT_ID、およびIMS_ORGの値を更新した後の環境ファイル &#x200B;](assets/environment-file-with-developer-project-values.png "開発者プロジェクトの値を含む環境ファイル ")
+![CLIENT_SECRET、CLIENT_ID、TECHNICAL_ACCOUNT_ID、およびIMS_ORGの値を更新した後の環境ファイル ](assets/environment-file-with-developer-project-values.png "開発者プロジェクトの値を含む環境ファイル ")
 
 ### 他の値を更新
 
@@ -77,22 +75,22 @@ API呼び出しを行う前に、インポートした環境ファイルのい�
 
 >[!NOTE]
 >
->これらのラボを自分のペースで進めている場合（sandbox-assignment.pdfを使用したライブトレーニングイベントではなく）、Adobe Experience Platform UI URLからサンドボックスにログインしている間に両方の値を検索できます。例えば、次のようになります。
+>sandbox-assignment.pdfを使用してライブトレーニングイベントを開催するのではなく、これらのラボを通じて個別に作業する場合は、Adobe Experience Platform UI URLからサンドボックスにログインして両方の値を見つけます。 例：
 >
 >`https://experience.adobe.com/#/@dep/sname:prod/platform/home`
 >
 >- `SANDBOX_NAME`は`sname:`の後の値です。この例では、`prod`
 >- `TENANT_NAME`は`@`記号の後の値で、先頭にアンダースコアが付きます（この例では`_dep`）
 
-1. 次のリストにある変数の`current values`を更新します。
+1. 次に示す変数の`current values`を更新します。
    - SANDBOX\_NAME
    - TENANT\_NAME
 1. 環境ワークスペースの右上にある「`Save`」ボタンをクリックして、更新を保存します
 
 完了したら、環境ファイルは次のようになります。
 
-![SANDBOX_NAMEとTENANT_NAMEの値を更新した後の環境ファイル &#x200B;](assets/environment-file-with-sandbox-name-and-tenant-name.png "SANDBOX_NAME")の環境ファイル
+![SANDBOX_NAMEとTENANT_NAMEの値を更新した後の環境ファイル ](assets/environment-file-with-sandbox-name-and-tenant-name.png "SANDBOX_NAME")の環境ファイル
 
->[!TIP]
+>[!SUCCESS]
 >
 >おめでとうございます。 Postman環境設定が完了しました

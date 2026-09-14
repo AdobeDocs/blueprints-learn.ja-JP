@@ -4,21 +4,19 @@ description: PostmanのProfile Entity APIとIdentity Service Cluster APIを使�
 doc-type: article
 solution: Experience Platform
 exl-id: 1db55c5b-fdf8-4c63-b435-477626bb0450
-source-git-commit: 0b33b2740ee7f5af73d64f217b4475650c1d28a0
+source-git-commit: df6c1852a6e0357dc9f166c88e77dcf9d334f955
 workflow-type: tm+mt
-source-wordcount: '1183'
+source-wordcount: '1143'
 ht-degree: 1%
-
 ---
-
 
 # プロファイルとID API
 
 ## プロファイルエンティティ API
 
-リアルタイム顧客プロファイルを使用する場合、プロファイル APIの使用方法を理解することは非常に重要です。 迅速なトリアージやデバッグの機能を実現すると同時に、コールセンターからキオスクまでのシステム統合で無限の可能性を提供します。
+リアルタイム顧客プロファイルを使用する場合、プロファイル APIの使用方法を理解することは非常に重要です。 これにより、迅速なトリアージやデバッグが可能になるだけでなく、コールセンターからキオスクに至るまで、様々なシステム統合が可能になります。
 
-最も重要なAPIのひとつは、Profile Entity APIです。  このAPIを使用すると、（UIで見たように）個々のプロファイルを検索できますが、パラメーターを使用して、プロファイルの属性またはイベントを表示するかどうかを決定します。
+最も重要なAPIのひとつは、Profile Entity APIです。 このAPIを使用すると、UIで見たように、個々のプロファイルを検索できます。 パラメーターを使用して、プロファイルの属性またはイベントを表示するかどうかを指定します。
 
 以下は、プロファイルエンティティ APIのGET メソッドの仕様の全体です
 
@@ -40,7 +38,7 @@ ht-degree: 1%
 
 ### 検索するエンティティの識別
 
-ほとんどのリクエストでは、XIDを既に知っておく必要はなく、メールアドレス、CRM ID、ロイヤルティ IDなどの既知のID値でエンティティを識別するために`entityId`と`entityIdNS`を使用します。 XIDは、IDを表すためにID サービスが生成および内部的に割り当てるbase64 エンコードされた識別子で、その名前空間とID値を単一のコンパクトトークンに統合します（詳細は[&#x200B; ネイティブ XID](https://experienceleague.adobe.com/docs/experience-platform/identity/api/list-native-id.html?lang=ja)を参照）。
+ほとんどのリクエストでは、`entityId`と`entityIdNS`を使用して、電子メールアドレス、CRM ID、ロイヤルティ IDなどの既知のID値でエンティティを識別します。このIDを既に知っておく必要はありません。 XIDは、IDを表すためにID サービスが生成および内部的に割り当てるbase64 エンコードされた識別子で、その名前空間とID値を単一のコンパクトトークンに統合します（詳細は[ ネイティブ XID](https://experienceleague.adobe.com/docs/experience-platform/identity/api/list-native-id.html?lang=ja)を参照）。
 
 | パラメーター | タイプ | 説明 | 例 |
 | ------------ | ------ | ---------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------- |
@@ -63,7 +61,7 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->追加のID ルックアップオプション、イベントフィルタリング （`startTime`、`endTime`、`property`、`orderby`、`limit`）、フィールド選択、結合ポリシーの上書きなど、クエリパラメーターの完全なリストについては、[&#x200B; プロファイルエンティティ API リファレンス &#x200B;](https://developer.adobe.com/experience-platform-apis/references/profile#tag/Entities)を参照してください。
+>追加のID ルックアップオプション、イベントフィルタリング （`startTime`、`endTime`、`property`、`orderby`、`limit`）、フィールド選択、結合ポリシーの上書きなど、クエリパラメーターの完全なリストについては、[ プロファイルエンティティ API リファレンス ](https://developer.adobe.com/experience-platform-apis/references/profile#tag/Entities)を参照してください。
 
 >[!WARNING]
 >
@@ -79,7 +77,7 @@ Entity Lookup APIについて詳しくは、前のラボのDepeche Mode プロ�
 1. **エンティティ検索（属性）** リクエストをクリックして開きます
 1. **送信** ボタンをクリックして呼び出しを実行します
 
-   ![&#128279;](assets/profile-and-identity-apis-entity-lookup-attributes-request.png "Profile Entity Lookup （attributes） API")を送信する前のEntity Lookup （attributes）呼び出し用のPostman リクエストペイン
+   ](assets/profile-and-identity-apis-entity-lookup-attributes-request.png "Profile Entity Lookup （attributes） API")を送信する前のEntity Lookup （attributes）呼び出し用の![Postman リクエストペイン
 
    正常なリクエストには`200 OK`を返す必要があり、Depeche Mode プロファイルのすべての属性を含む結果が表示されます。
 
@@ -89,23 +87,23 @@ Entity Lookup APIについて詳しくは、前のラボのDepeche Mode プロ�
    >
    >デフォルトでは、プロファイルエンティティリクエストで結合ポリシーが指定されていない場合、サンドボックスのデフォルトの結合ポリシーが使用されます
 
-   Entity APIには、応答で返される内容を変更するために利用できるクエリパラメーターがいくつかあります。
+   Entity APIでは、クエリパラメーターを使用して、応答で返される内容を変更します。
 
 1. エンティティ検索（属性）リクエストで、リクエストの&#x200B;**パラメーター** オプションをクリックします
 1. **フィールド**&#x200B;という名前の&#x200B;**キー**&#x200B;の横にあるチェックボックスをオンにします
 1. **送信** ボタンをクリックしてリクエストを実行します
 
-![応答をフィルタリングするためにフィールドパラメーターを有効にしたエンティティ検索（属性）リクエスト &#x200B;](assets/profile-and-identity-apis-entity-lookup-attributes-with-filter-enabled.png)
+![応答をフィルタリングするためにフィールドパラメーターを有効にしたエンティティ検索（属性）リクエスト ](assets/profile-and-identity-apis-entity-lookup-attributes-with-filter-enabled.png)
 
 >[!NOTE]
 >
->`mergePolicyId`を指定するパラメーターもあります。  この値は、他のAPIを使用するか、UIを使用してIDを検索することで見つけることができます。
+>`mergePolicyId`を指定するパラメーターもあります。 この値を検索するには、他のAPIを使用するか、UIを使用してIDを検索します。
 
 リクエストが成功した場合は`200 OK`で応答する必要があります。有効にしたパラムフィルターで指定されたフィールド（名、姓、アクティブな製品の配列）のみが表示されます。
 
-![&#x200B; フィルター処理された200 OK応答で、名、姓、およびアクティブ製品のフィールドのみが表示される](assets/profile-and-identity-apis-successful-filtered-attributes-response.png " フィルターが有効になっているプロファイル エンティティ検索（属性） API応答")
+![ フィルター処理された200 OK応答で、名、姓、およびアクティブ製品のフィールドのみが表示される](assets/profile-and-identity-apis-successful-filtered-attributes-response.png " フィルターが有効になっているプロファイル エンティティ検索（属性） API応答")
 
->[!TIP]
+>[!SUCCESS]
 >
 >おめでとうございます。  Profile Entity APIを使用してプロファイルの属性を検索しました
 
@@ -116,7 +114,7 @@ Entity Lookup APIについて詳しくは、前のラボのDepeche Mode プロ�
 1. **エンティティ検索（イベント）** リクエストをクリックして開きます
 1. **送信** ボタンをクリックして呼び出しを実行します
 
-![送信前のエンティティ検索（イベント）呼び出しに対するPostmanのリクエストペイン &#x200B;](assets/profile-and-identity-apis-entity-lookup-events-request.png)
+![送信前のエンティティ検索（イベント）呼び出しに対するPostmanのリクエストペイン ](assets/profile-and-identity-apis-entity-lookup-events-request.png)
 
 正常なリクエストには`200 OK`を返す必要があり、Depeche Mode プロファイルのすべてのイベントを含む結果が表示されます。
 
@@ -124,21 +122,21 @@ Entity Lookup APIについて詳しくは、前のラボのDepeche Mode プロ�
 
 デペッシュ モード プロファイルのすべてのイベントを含む![200 OK応答](assets/profile-and-identity-apis-successful-events-api-response.png "正常なプロファイル エンティティ検索（イベント） API応答")
 
-プロファイル属性を検索する場合と同様に、Entity APIには、応答で返される内容を変更するために使用できる、さらに多くのクエリパラメーターがあります。
+プロファイル属性を検索する場合、Entity APIには、応答で返される内容を変更するクエリパラメーターがさらに多くあります。
 
-Params セクションでそれらを有効にし、リクエストを実行することで、いくつか試すことができます。  試してみて、どのように機能するかを確認してください！
+Params セクションでそれらを有効にし、リクエストを実行して、それらのいくつかを試してください。 詳細をご確認ください。
 
-パラメーターのセクション ![&#128279;](assets/profile-and-identity-apis-entity-lookup-events-query-params.png " エクスペリエンスイベントのプロファイルエンティティ検索")で追加のクエリパラメーターを有効にした エンティティ検索（イベント）リクエスト
+パラメーターのセクション ](assets/profile-and-identity-apis-entity-lookup-events-query-params.png " エクスペリエンスイベントのプロファイルエンティティ検索")で追加のクエリパラメーターを有効にした![ エンティティ検索（イベント）リクエスト
 
 **クエリパラメーター定義の例**
 
 | キー | 値 | 説明 |
-| ------------- | ------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| mergePolicyId | \&lt;blank> | 指定されている場合は、参照の実行に使用する結合ポリシーを切り替えることができます。 ラボで空白のままにすると、サンドボックスのデフォルトの結合ポリシーが使用されます |
-| フィールド | eventType,timestamp,identityMap | 指定したフィールドに値があるかどうかに関係なく、各イベントからこれらのフィールドのみが表示されます |
-| プロパティ | eventType=&quot;order.placed&quot; | プロファイルのイベントを「order.placed」タイプのイベントのみにフィルタリングします |
-| orderby | +timestamp | イベントを降順で並べ替えます |
-| 制限 | 5 | 応答に5つのイベントのみが表示されます |
+| ------------- | ------------------------------- | ------------------------------------------------------------------------------------------------------- |
+| mergePolicyId | \&lt;blank> | 参照に使用する結合ポリシーを切り替えます。 空白のままにすると、サンドボックスのデフォルトの結合ポリシーが使用されます |
+| フィールド | eventType,timestamp,identityMap | 各イベントのこれらのフィールドのみが表示されます（値があるかどうかに関係なく） |
+| プロパティ | eventType=&quot;order.placed&quot; | 指定したタイプのイベントのみをフィルタリングします |
+| orderby | +timestamp | イベントを昇順に並べ替えます |
+| 制限 | 5 | 応答に5つのイベントのみを表示 |
 
 >[!NOTE]
 >
@@ -157,13 +155,13 @@ Params セクションでそれらを有効にし、リクエストを実行す�
 
 >[!NOTE]
 >
->リクエストのパラメーターは、ID名前空間とID （値）です。
+>リクエストのパラメーターは、ID名前空間とID （値）です
 
 
 
-![&#128279;](assets/profile-and-identity-apis-list-linked-identities-request.png " リンクされたIDをリスト API")を送信する前にリンクされたIDのリスト呼び出しを行うためのPostmanのリクエストペイン
+](assets/profile-and-identity-apis-list-linked-identities-request.png " リンクされたIDをリスト API")を送信する前にリンクされたIDのリスト呼び出しを行うための![Postmanのリクエストペイン
 
-応答が成功した場合は、次のスクリーンショットのようになります
+応答が成功すると、次のスクリーンショットのようになります
 
 
 

@@ -4,13 +4,11 @@ description: スキーマの参照、Profile Target Dimensionの設定、AEP オ
 doc-type: article
 solution: Experience Platform
 exl-id: 787276d3-5720-447b-ab5c-a910670eb011
-source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
+source-git-commit: df6c1852a6e0357dc9f166c88e77dcf9d334f955
 workflow-type: tm+mt
-source-wordcount: '108'
+source-wordcount: '102'
 ht-degree: 1%
-
 ---
-
 
 # 概要
 
@@ -26,6 +24,6 @@ ht-degree: 1%
 
 
 
->[!TIP]
+>[!SUCCESS]
 >
->おめでとうございます。次のラボに進み、そのラボも行うことができます。
+>おめでとうございます、次のラボに進むことができます！

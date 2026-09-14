@@ -4,19 +4,17 @@ description: スキーマレジストリ APIを使用して、顧客アカウン
 doc-type: article
 solution: Experience Platform
 exl-id: db690081-e857-4875-8bb9-7ac197d73cab
-source-git-commit: 0b33b2740ee7f5af73d64f217b4475650c1d28a0
+source-git-commit: df6c1852a6e0357dc9f166c88e77dcf9d334f955
 workflow-type: tm+mt
-source-wordcount: '145'
+source-wordcount: '144'
 ht-degree: 0%
-
 ---
-
 
 # プライマリ IDの作成
 
 1. `XDM Schema Lab -> Create Identity Descriptors` フォルダーの`Step 1 - Create Primary Identity for Customer Account Schema` API リクエストをクリックします
 
-   ![手順1 – お客様のアカウント スキーマのプライマリ IDの作成Postman リクエスト &#x200B;](assets/create-primary-identity-step-1-postman-request.jpeg "手順1 – お客様のアカウント スキーマのプライマリ IDの作成")
+   ![手順1 – お客様のアカウント スキーマのプライマリ IDの作成Postman リクエスト ](assets/create-primary-identity-step-1-postman-request.jpeg "手順1 – お客様のアカウント スキーマのプライマリ IDの作成")
 
    >[!CAUTION]
    >
@@ -24,7 +22,7 @@ ht-degree: 0%
 
 
 
-1. [&#x200B; スキーマの作成](../build-schema/create-schema.md) ラボステップから保存した`$id`を使用して、リクエストの本文の`xdm:sourceSchema`値を更新します
+1. [ スキーマの作成](../build-schema/create-schema.md) ラボステップから保存した`$id`を使用して、リクエストの本文の`xdm:sourceSchema`値を更新します
 
 1. リクエスト本文の`xdm:isPrimary`値を`true`に更新します
 
@@ -50,10 +48,10 @@ ht-degree: 0%
 
 1. `Save` ボタンを使用し続ける前に、リクエストを保存してください
 
-1. `Send` ボタンをクリックしてAPIを実行します。 次のような`201 Created`応答が表示されます
+1. `Send` ボタンをクリックしてAPIを実行します。 次に示すように、`201 Created`応答が表示されました
 
 ![201 プライマリ ID記述子の作成後に応答を作成しました](assets/create-primary-identity-201-created-response.png " プライマリ ID記述子の作成に成功しました")
 
->[!TIP]
+>[!SUCCESS]
 >
->おめでとうございます。  スキーマでプライマリ ID記述子を作成したばかりです
+>おめでとうございます。  スキーマにプライマリ ID記述子を作成しました

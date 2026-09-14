@@ -1,16 +1,14 @@
 ---
 title: APIによる自動化
-description: スキーマ、フィールドグループ、IDおよびリレーションシップ記述子、データセットを1回のパスで自動的に作成するPostman コレクションを実行します。
+description: スキーマ、フィールドグループ、IDおよびリレーションシップ記述子、データセットの作成を自動化するPostman コレクションを1回の実行で実行します。
 doc-type: article
 solution: Experience Platform
 exl-id: a490f93f-19da-4de3-81c8-4569c49c5354
-source-git-commit: 0b33b2740ee7f5af73d64f217b4475650c1d28a0
+source-git-commit: df6c1852a6e0357dc9f166c88e77dcf9d334f955
 workflow-type: tm+mt
-source-wordcount: '306'
+source-wordcount: '303'
 ht-degree: 0%
-
 ---
-
 
 # APIによる自動化
 
@@ -40,7 +38,7 @@ APIを使用してデプロイメントを自動化する方法を確認する�
    >
    >「実行」ボタンは、Postman ワークスペースの右上にあります
 
-   ![Automation with API フォルダーのPostman ワークスペースの右上にある「実行」ボタン &#x200B;](assets/automate-with-apis-click-folder-run-button.png " フォルダー「実行」をクリック ")
+   ![Automation with API フォルダーのPostman ワークスペースの右上にある「実行」ボタン ](assets/automate-with-apis-click-folder-run-button.png " フォルダー「実行」をクリック ")
 
 
 
@@ -56,7 +54,7 @@ APIを使用してデプロイメントを自動化する方法を確認する�
 
 
 
-1. Experience Platform UIに移動すると、**postman:**&#x200B;というプレフィックスを持つプロファイル用に2つのスキーマと2つのデータセットが作成され、有効になっている必要があります
+1. Experience Platform UIに移動すると、2つのスキーマと2つのデータセットが作成され、**postman:**&#x200B;というプレフィックスが付いたプロファイルに対して有効になります
 
 ![2つのスキーマが作成され、Postmanでプロファイルに対して有効になりました：接頭辞](assets/automate-with-apis-schemas-created-in-ui.png "自動化スキーマ ")
 
@@ -64,6 +62,6 @@ APIを使用してデプロイメントを自動化する方法を確認する�
 
 ![Postmanで作成された2つのデータセット：自動スキーマに一致する接頭辞](assets/automate-with-apis-datasets-created-in-ui.png "自動化データセット ")
 
->[!TIP]
+>[!SUCCESS]
 >
->おめでとうございます。  ID名前空間、フィールドグループ、スキーマ、ID/関係記述子のデプロイメントを自動化し、プロファイルのスキーマを有効にし、スキーマを使用してデータセットを生成するだけです
+>おめでとうございます。  ID名前空間、フィールドグループ、スキーマ、ID/関係記述子のデプロイメントを自動化し、プロファイルのスキーマを有効にして、スキーマを使用してデータセットを生成しました

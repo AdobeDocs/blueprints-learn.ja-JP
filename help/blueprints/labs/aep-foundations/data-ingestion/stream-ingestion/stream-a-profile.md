@@ -4,13 +4,11 @@ description: Postmanとストリーミングエンドポイントおよびデー
 doc-type: article
 solution: Experience Platform
 exl-id: 937d153c-9230-4f5a-a397-6c177a3ea890
-source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
+source-git-commit: df6c1852a6e0357dc9f166c88e77dcf9d334f955
 workflow-type: tm+mt
-source-wordcount: '632'
+source-wordcount: '620'
 ht-degree: 0%
-
 ---
-
 
 # プロファイルのストリーミング
 
@@ -72,7 +70,7 @@ curl --location '' \
 
 ## 必要な値の収集
 
-データをストリーミングする前に、上記の必須の値（ストリーミングエンドポイントのURLと本文コンテンツの「ヘッダー」の値など）をいくつか収集する必要があります。
+データをストリーミングする前に、上記の必須の値（具体的には、ストリーミングエンドポイント URLと本文コンテンツの「ヘッダー」値）を収集します。
 
 次の手順を実行します。
 
@@ -89,7 +87,7 @@ curl --location '' \
    >
    >この値が表示されない場合は、行をクリックしてデータフロー行を選択していないことを確認してください。  青いリンクをクリックしないでください
 
-   アカウントの詳細の右側に表示される![&#x200B; ストリーミングエンドポイント URL](assets/stream-a-profile-streaming-endpoint-url-on-the-right.png)
+   アカウントの詳細の右側に表示される![ ストリーミングエンドポイント URL](assets/stream-a-profile-streaming-endpoint-url-on-the-right.png)
 
 
 
@@ -111,13 +109,13 @@ Postman アプリケーションに切り替え、収集した情報でCreate Cu
 
 1. 以前に保存した&#x200B;**ストリーミングエンドポイント**&#x200B;値をリクエストのURLにコピーして貼り付けます
 
-   ![&#x200B; ストリーミングエンドポイントの値が顧客アカウント作成リクエスト URL](assets/stream-a-profile-create-customer-account-streaming-endpoint-url.png)に貼り付けられました
+   ![ ストリーミングエンドポイントの値が顧客アカウント作成リクエスト URL](assets/stream-a-profile-create-customer-account-streaming-endpoint-url.png)に貼り付けられました
 
 
 
 1. 以前に保存したデータフローID値を&#x200B;**x-adobe-flow-id** ヘッダー値にコピーして貼り付けます
 
-   x-adobe-flow-id ヘッダー値![&#128279;](assets/stream-a-profile-copy-paste-x-adobe-flow-id.png)に貼り付けられた データフローID
+   x-adobe-flow-id ヘッダー値](assets/stream-a-profile-copy-paste-x-adobe-flow-id.png)に貼り付けられた![ データフローID
 
 
 
@@ -136,7 +134,7 @@ Postman アプリケーションに切り替え、収集した情報でCreate Cu
 
 
 
-1. Adobe Experience Platformが正常に受信したことを示す`200 OK`件の応答が返されます
+1. Adobe Experience Platformが正常に受信したことを示す`200 OK`件の応答が返されました
 
 サンプル 200 OK応答
 
@@ -151,8 +149,8 @@ Postman アプリケーションに切り替え、収集した情報でCreate Cu
 
 >[!NOTE]
 >
->応答に&#x200B;**xactionId**&#x200B;を書き留めます。  取り込まれたレコードが表示されない場合にエラーが発生した場合は、環境の問題をデバッグするためにサポートチームが使用するトレーサー弾丸であるため、常にカスタマーサポートチケットの一部として提供する必要があります
+>応答に&#x200B;**xactionId**&#x200B;を書き留めます。  取り込まれたレコードが表示されない場合にエラーが発生した場合は、必ずカスタマーサポートチケットの一部として提供する必要があります。これは、環境の問題をデバッグするためにサポートチームが使用する重要な参照情報です
 
->[!TIP]
+>[!SUCCESS]
 >
 >おめでとうございます。  プロファイルレコードのAdobe Experience Platformへのストリーミングが完了しました

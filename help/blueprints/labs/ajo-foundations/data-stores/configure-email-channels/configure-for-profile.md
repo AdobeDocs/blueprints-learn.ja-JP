@@ -4,13 +4,11 @@ description: ジャーニーとオーケストレーションされたキャン�
 doc-type: article
 solution: Experience Platform
 exl-id: bb85e0aa-554e-4527-bf91-e7fd4f69ce71
-source-git-commit: 0b33b2740ee7f5af73d64f217b4475650c1d28a0
+source-git-commit: df6c1852a6e0357dc9f166c88e77dcf9d334f955
 workflow-type: tm+mt
-source-wordcount: '631'
-ht-degree: 8%
-
+source-wordcount: '656'
+ht-degree: 5%
 ---
-
 
 # プロファイル用に設定
 
@@ -23,14 +21,14 @@ ht-degree: 8%
 1. メニュー&#x200B;**チャネルの管理と一般設定**&#x200B;の下にある&#x200B;**チャネル設定**→→移動します
 2. 「**設定を作成**」ボタンをクリックします
 
-   ![&#x200B; チャネル設定の作成](assets/configure-for-profile-create-configuration-button.png)
+   ![ チャネル設定の作成](assets/configure-for-profile-create-configuration-button.png)
 
 3. 作成ウィザードで、次の値を設定します。
    - **名前：** `Profile-Email`
    - **チャネル：** `Email`
    - **マーケティングアクション：** `Email Targeting`
 
-![&#x200B; チャネル設定の詳細](assets/configure-for-profile-channel-configuration-name-values.png)
+![ チャネル設定の詳細](assets/configure-for-profile-channel-configuration-name-values.png)
 
 >[!NOTE]
 >
@@ -40,19 +38,23 @@ ht-degree: 8%
 
 **メールの種類**&#x200B;を&#x200B;**マーケティング**&#x200B;に設定
 
-![&#x200B; メールの種類](assets/configure-for-profile-set-email-type-marketing.png)
+![ メールの種類](assets/configure-for-profile-set-email-type-marketing.png)
 
 ## サブドメインの設定
 
 **サブドメイン** ドロップダウンから、**email.dep-labs.com**&#x200B;を選択します
 
-![email.dep-labs.comを選択したサブドメインドロップダウン &#x200B;](assets/configure-for-profile-select-email-subdomain.png " サブドメインの設定")
+![email.dep-labs.comを選択したサブドメインドロップダウン ](assets/configure-for-profile-select-email-subdomain.png " サブドメインの設定")
+
+>[!NOTE]
+>
+>自分のペースで事前にプロビジョニングされたサブドメインがない場合は、`email.dep-labs.com`ではなく、ここでAdobeにデリゲートされた独自のサブドメインを選択します。 委任する方法については、[設定](../../setup.md)を参照してください。
 
 ## IP プールの詳細の設定
 
 **IP プール** ドロップダウンから、**マーケティング**&#x200B;を選択します
 
-![&#x200B; マーケティングが選択されたIP プールのドロップダウン &#x200B;](assets/configure-for-profile-select-marketing-ip-pool.png "IP プールの詳細")
+![ マーケティングが選択されたIP プールのドロップダウン ](assets/configure-for-profile-select-marketing-ip-pool.png "IP プールの詳細")
 
 ## リストの登録解除の設定
 
@@ -72,15 +74,15 @@ ht-degree: 8%
    - **メールへの返信：** `reply@email.dep-labs.com`
    - **エラー電子メールのプレフィックス：** `error`
 
-![&#x200B; ヘッダーパラメーター](assets/configure-for-profile-email-header-parameters.png)
+![ ヘッダーパラメーター](assets/configure-for-profile-email-header-parameters.png)
 
 ## BCC メールの設定
 
-空白のままにする
+このフィールドを空白のままにします
 
 >[!NOTE]
 >
->BCC インボックスに送信することで、送信済みメールのコピーを保持できます。 送信されたすべてのメールがこの BCC アドレスにブラインドコピーされるように、目的のメールアドレスを入力します。 BCC アドレスのドメインは、アドビにデリゲートされたサブドメインとは異なる必要があります。 この機能はオプションです。 *メールにBCCを使用する方法*
+>BCC インボックスに送信することで、送信済みメールのコピーを保持できます。 送信されたすべての電子メールをこのBCC アドレスにコピーするには、選択した電子メールアドレスを入力します。 BCC アドレスのドメインは、アドビにデリゲートされたサブドメインとは異なる必要があります。 この機能はオプションです。 *メールにBCCを使用する方法*
 
 ## メール再試行パラメーターの設定
 
@@ -102,7 +104,7 @@ ht-degree: 8%
 
 3. `Address` フィールドの&#x200B;**チェックボックス**&#x200B;をクリックし、**選択** ボタンをクリックします
 
-   ![配送先住所としての個人用メール &#x200B;](assets/configure-for-profile-select-address-checkbox-journeys.png)
+   ![配送先住所としての個人用メール ](assets/configure-for-profile-select-address-checkbox-journeys.png)
 
 4. **プロファイル**&#x200B;の場合、`personalEmail.address`は&#x200B;**実行アドレス** セクションの&#x200B;**配信アドレス**&#x200B;として設定されるようになりました
 
@@ -110,7 +112,7 @@ ht-degree: 8%
 
 5. 「オーケストレーションされたキャンペーン」タブをクリックし、「**有効にする」チェックボックスを** オンにします。
 
-   ![&#x200B; オーケストレーションされたキャンペーン設定](assets/configure-for-profile-enable-orchestrated-campaign-tab.png)
+   ![ オーケストレーションされたキャンペーン設定](assets/configure-for-profile-enable-orchestrated-campaign-tab.png)
 
 6. 「実行」ディメンション見出しの下で、次の設定を行います。
    - **次の1つにつき1つのメッセージを配信します：** `Target Dimension`
@@ -122,7 +124,7 @@ ht-degree: 8%
    - **Source:** `Profile`
    - **配信アドレス：** `click on the Edit icon`
 
-   ![実行アドレス &#x200B;](assets/configure-for-profile-execution-address-source-profile.png)
+   ![実行アドレス ](assets/configure-for-profile-execution-address-source-profile.png)
 
 8. 「`Personal Email`」フォルダーを検索してクリックし、開きます
 
@@ -130,7 +132,7 @@ ht-degree: 8%
 
 9. 個人用メールフォルダー内の`Address` フィールドを選択し、**選択**&#x200B;をクリックします
 
-   ![配送先住所としての個人用メール &#x200B;](assets/configure-for-profile-select-address-field-orchestrated.png)
+   ![配送先住所としての個人用メール ](assets/configure-for-profile-select-address-field-orchestrated.png)
 
 10. **オーケストレーションされたキャンペーン**&#x200B;の場合、**dep-rel：顧客アカウント - customer\_id**&#x200B;は&#x200B;**実行ディメンション**&#x200B;の&#x200B;**プロファイルターゲットDimension**&#x200B;として設定され、**実行アドレス**&#x200B;には&#x200B;**Source**/**プロファイル**、配信アドレス **が**&#x200B;です`personalEmail.address`
 
@@ -138,7 +140,7 @@ ht-degree: 8%
 
 >[!NOTE]
 >
->オーケストレーションキャンペーンの場合は、顧客アカウントをメールでターゲティングするので、プロファイルごとに&#x200B;*1つのメッセージを送信するだけで済みます*。  使用する実行アドレスは、プロファイル自体から取得されます（つまり、**personalEmail.address**&#x200B;属性の下のAEP プロファイルに保存されるもの）。
+>オーケストレーションキャンペーンの場合は、顧客アカウントをメールでターゲティングするので、プロファイルごとに&#x200B;*1つのメッセージを送信するだけで済みます*。  使用する実行アドレスは、プロファイル自体から取得されます（具体的には、**personalEmail.address**&#x200B;属性の下のAEP プロファイルに保存されているものです）
 
 
 ## レビューして保存
@@ -148,7 +150,7 @@ ht-degree: 8%
 
 >[!NOTE]
 >
->メールチャネル設定の処理には、最大2時間かかることが確認されています。  イキーズ！
+>メールチャネル設定の処理には、最大2時間かかることが確認されています。
 >
 >このチャネル設定が処理されるのを待つ間、次の演習に進みます。
 

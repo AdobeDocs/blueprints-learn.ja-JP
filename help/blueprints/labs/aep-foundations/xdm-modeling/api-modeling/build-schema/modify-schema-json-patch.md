@@ -4,24 +4,22 @@ description: JSON PATCH API呼び出しを使用して、既存のテナント�
 doc-type: article
 solution: Experience Platform
 exl-id: c0313594-d998-4525-a0a4-d9d844bed5ef
-source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
+source-git-commit: df6c1852a6e0357dc9f166c88e77dcf9d334f955
 workflow-type: tm+mt
-source-wordcount: '836'
+source-wordcount: '805'
 ht-degree: 0%
-
 ---
-
 
 # スキーマの変更 – JSON パッチ
 
 ## 概要
 
-スキーマを作成した後、作成時に追加するのを忘れたか、数か月後に来たリクエストであったため、`planDescription`という`plan` オブジェクトに戻って追加フィールドを追加する必要があると仮定します。  このタスクを実行するには、新しいフィールドでスキーマを更新する`PATCH`操作を実行するだけです。
+スキーマの構築後、`planDescription`という名前の`plan` オブジェクトに追加のフィールドを追加する必要があるとします。 このニーズは、スキーマの作成時に追加するのを忘れた場合や、数か月後にリクエストが発生した場合に発生する可能性があります。 このタスクを実行するには、スキーマを新しいフィールドで更新する`PATCH`操作を実行します。
 
-JSON PATCHの詳細については、以下のリンクを参照してください。このラボでは、この機能の仕組みについて説明します。😄
+JSON PATCHについて詳しくは、以下のリンクを参照してください。 このラボでは、その仕組みを一般的に理解していると仮定します。
 
 - [https://jsonpatch.com/](https://jsonpatch.com/)
-- [Experience League APIの基本](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-fundamentals.html?lang=ja#json-patch)
+- [Experience League APIの基本](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-fundamentals.html?lang=en#json-patch)
 
 ![見つからないplanDescription フィールドを既存のスキーマにパッチ適用する図](assets/modify-schema-json-patch-patching-missing-plan-description-field.png "見つからないフィールドプランのパッチ適用")
 
@@ -29,16 +27,16 @@ JSON PATCHの詳細については、以下のリンクを参照してくださ�
 >
 >次の点に留意してください。
 >
->- スキーマは、1つの（1）クラスと1つ以上のフィールドグループで構成されます
->- 最初にフィールドグループに追加しない限り、スキーマに新しいフィールドを直接追加することはできません。 これにより、フィールドグループを利用するあらゆるスキーマで、フィールドを再利用できます。
+>- スキーマは、1つのクラスと1つ以上のフィールドグループで構成されます
+>- スキーマに追加する前に、フィールドグループに新しいフィールドを追加する必要があります。 この制限により、フィールドグループを利用するあらゆるスキーマで、フィールドを再利用できます。
 
 
 
-スキーマに新しいフィールドを追加するには、次の操作を順番に実行する必要があります。  これは、次のラボステップで行うことです。
+スキーマに新しいフィールドを追加するには、次の操作を順番に実行する必要があります。 このプロセスは、次のラボステップで実行します。
 
 - 新しいプロパティを追加するフィールドグループを特定します
 - フィールドグループを更新するためのJSON PATCH呼び出しを作成します
-- JSON PATCH呼び出しを実行して、フィールドグループ（スキーマが継承する）を更新します
+- JSON PATCH呼び出しを実行して、（スキーマが継承する）フィールドグループを更新します
 
 
 
@@ -51,23 +49,23 @@ JSON PATCHの詳細については、以下のリンクを参照してくださ�
 
    >[!NOTE]
    >
-   >カスタムフィールドグループ内に`plan` オブジェクトを作成したことを忘れないでください。 XDM スキーマレジストリ内のカスタム作成されたオブジェクトは、`/schemaregistry/tenant/mixins/` パスを使用してAPI呼び出しを行うため、「テナント」と呼ばれます。
+   >カスタムフィールドグループ内に`plan` オブジェクトを作成したことを忘れないでください。 XDM スキーマレジストリ内のカスタム作成されたオブジェクトは「テナント」と呼ばれるので、`/schemaregistry/tenant/mixins/` パスを使用してAPI呼び出しを行います。
 
 
 
 1. 応答で、以前に作成したカスタムフィールドグループ `Customer Account Details - Sandbox <your number here> `のスキーマ IDを検索します
 
-1. `$meta:altId`をコピーし、次の手順で必要になる安全な場所に保存します
+1. `$meta:altId`をコピーし、次の手順に必要な場所に安全に保存します
 
 ![API応答でカスタム顧客アカウント詳細フィールドグループを見つける](assets/modify-schema-json-patch-search-field-group-response.jpeg "顧客アカウント詳細フィールドグループの応答を検索")
 
 >[!CAUTION]
 >
->コピーする適切なフィールドグループを選択してください。  同様に`dep: Customer Account Details`という名前の名前が付いたものがあります。これは、**ではなく**&#x200B;使用してください
+>コピーする適切なフィールドグループを選択してください。 `dep: Customer Account Details`という同じ名前のフィールドグループは使用しないでください
 
 >[!WARNING]
 >
->`$meta:altId `をどこかに保存するまで続行しないでください。  これは、今後のラボステップで必要になります
+>今後のラボステップには`$meta:altId`が必要なので、続行する前に保存しておいてください
 
 
 
@@ -78,13 +76,13 @@ JSON PATCHの詳細については、以下のリンクを参照してくださ�
 1. リクエストに加えた編集を保存します
 1. `Send` ボタンをクリックしてリクエストを実行します
 
-![&#x200B; ステップ 2 – 変更されるオブジェクトのAPI呼び出しのパスを取得](assets/modify-schema-json-patch-step-2-fetch-object-path.jpeg " ステップ 2 – 変更されるオブジェクトのパスを取得するステップ ")
+![ ステップ 2 – 変更されるオブジェクトのAPI呼び出しのパスを取得](assets/modify-schema-json-patch-step-2-fetch-object-path.jpeg " ステップ 2 – 変更されるオブジェクトのパスを取得するステップ ")
 
 
 
 応答を確認し、**plan** オブジェクトのJSON ポインターパスが、以下に強調表示されている各プロパティを使用して構築されていることに注意してください。
 
-![&#x200B; プランオブジェクトへのJSON ポインターパスを構成するハイライト表示されたプロパティ &#x200B;](assets/modify-schema-json-patch-customer-account-details-path-to-the-plan-object.png "顧客アカウントの詳細プランオブジェクトへのパス ")
+![ プランオブジェクトへのJSON ポインターパスを構成するハイライト表示されたプロパティ ](assets/modify-schema-json-patch-customer-account-details-path-to-the-plan-object.png "顧客アカウントの詳細プランオブジェクトへのパス ")
 
 
 
@@ -119,7 +117,7 @@ JSON PATCHの詳細については、以下のリンクを参照してくださ�
 ```
 
 - **op （Operation）** ->これは、PATCHが実行する必要のあるアクションの手順を提供します
-- **パス** ->作成、更新または削除するパスです（つまり、新しいフィールドの場所へのJSON ポインター）
+- **パス** ->作成、更新または削除するパス（つまり、新しいフィールドの場所へのJSON ポインター）です
 - **値** ->これはオプションのフィールドで、既存のフィールドを作成または置換する場合にのみ使用されます
 
 
@@ -135,7 +133,7 @@ JSON PATCHの詳細については、以下のリンクを参照してくださ�
 2. リクエストの本文を次の情報で更新します
 
    - **op** ->` add`
-   - **パス** -> `path from previous step +`&#x200B;` the new field name`
+   - **パス** -> `path from previous step +`` the new field name`
    - **値** ->
      - **title** -> `Plan Description`
      - **type** -> `string`
@@ -155,11 +153,11 @@ JSON PATCHの詳細については、以下のリンクを参照してくださ�
 
 4. PATCHを実行するための呼び出し`Execute`
 
-`200 OK `応答が表示され、次のようにフィールドグループに`planDescription` フィールドが表示されます。
+フィールドグループに`200 OK`応答と`planDescription` フィールドが表示されます（例：）。
 
-planDescription![&#128279;](assets/modify-schema-json-patch-step-3-200-ok-successful-patch.png "手順3 - 200 OK成功したPATCH")でフィールドグループに正常にパッチを適用した後、200 OK応答
+planDescription](assets/modify-schema-json-patch-step-3-200-ok-successful-patch.png "手順3 - 200 OK成功したPATCH")でフィールドグループに正常にパッチを適用した後、![200 OK応答
 
->[!TIP]
+>[!SUCCESS]
 >
 >おめでとうございます。 JSON PATCHを使用してフィールドグループ/スキーマを正常に更新しました
 
@@ -167,6 +165,6 @@ planDescription![&#128279;](assets/modify-schema-json-patch-step-3-200-ok-succes
 
 ## UIでの変更の表示
 
-UIでスキーマを参照し、新しく追加したフィールドを確認します。  すごいですよね？
+UIでスキーマを参照し、新しく追加したフィールドを表示します。
 
-![&#x200B; プランの説明フィールドは、Experience Platform UIのJSON パッチ後にスキーマに表示されます](assets/modify-schema-json-patch-plan-description-added-to-field-group.png " プランの説明は、お客様アカウントの詳細 – サンドボックス \&lt;your number> フィールドグループに追加されました。 スキーマ JSON")を変更
+![ プランの説明フィールドは、Experience Platform UIのJSON パッチ後にスキーマに表示されます](assets/modify-schema-json-patch-plan-description-added-to-field-group.png " プランの説明は、お客様アカウントの詳細 – サンドボックス \&lt;your number> フィールドグループに追加されました。 スキーマ JSON")を変更
