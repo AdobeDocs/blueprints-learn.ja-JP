@@ -18,9 +18,9 @@ ht-degree: 0%
 >
 >以下のラボは、このラボを開始する前に完了している必要があります
 
-- **Postman setup** **—>** [Postman インストール ](../../postman-setup/postman-installation.md)
+- **Postman setup** **—>** [Postman インストール &#x200B;](../../postman-setup/postman-installation.md)
 - **Data Stores — リレーショナルストアの動作** **—>** [Profile Target Dimension](../../data-stores/relational-store-in-action/profile-target-dimension.md)
-- **データストア – メールチャネルの設定 – >** [ リレーショナル用に設定](../../data-stores/configure-email-channels/configure-for-relational.md)
+- **データストア – メールチャネルの設定 – >** [&#x200B; リレーショナル用に設定](../../data-stores/configure-email-channels/configure-for-relational.md)
   *（この設定ステップを完了するのに最大3時間かかります）*
 
 ラボを完了していない場合は、続行する前に今すぐ完了してください。

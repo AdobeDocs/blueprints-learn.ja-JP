@@ -31,7 +31,7 @@ ht-degree: 0%
    - タイトル -> `Sample Customer Schema - <your sandbox number>`
    - 説明 – > `Sample Customer Schema - <your sandbox number>`
 
-4. 完了した以前のラボセクションから保存した`$ids`を`$ref` フィールドに入力します。[ カスタムフィールドグループの作成](./create-custom-field-groups.md)と[ プロファイルクラスの取得](./get-profile-class.md)。 次の各項目に$idがあります。
+4. 完了した以前のラボセクションから保存した`$ids`を`$ref` フィールドに入力します。[&#x200B; カスタムフィールドグループの作成](./create-custom-field-groups.md)と[&#x200B; プロファイルクラスの取得](./get-profile-class.md)。 次の各項目に$idがあります。
 
    - クラス -> XDM個人プロファイル
    - フィールドグループ -> デモグラフィックの詳細
@@ -45,7 +45,7 @@ ht-degree: 0%
 
 5. 最終的な本文を確認し、このようになっていることを確認します
 
-![ タイトル、説明、およびすべての$ref値が入力されたスキーマリクエスト本文を完了しました](assets/create-schema-example-of-final-body-payload.png "最終本文ペイロードの例")
+![&#x200B; タイトル、説明、およびすべての$ref値が入力されたスキーマリクエスト本文を完了しました](assets/create-schema-example-of-final-body-payload.png "最終本文ペイロードの例")
 
 >[!NOTE]
 >

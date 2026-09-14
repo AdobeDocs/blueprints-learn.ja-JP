@@ -29,9 +29,9 @@ ht-degree: 0%
 
 4. **AJO Bootcamp.postman\_environment.json** ファイルのローカル URLを読み込みモーダルテキストボックスに貼り付けるか、読み込みダイアログボックスにドロップします。  このアクションにより、自動読み込みがトリガーされます
 
-   ファイル URLを貼り付けるオプションを表示する![Postman読み込みダイアログ ](assets/import-environment-file-import-button-overlay.png "URL経由のPostman読み込み")
+   ファイル URLを貼り付けるオプションを表示する![Postman読み込みダイアログ &#x200B;](assets/import-environment-file-import-button-overlay.png "URL経由のPostman読み込み")
 
-   ![ ドラッグ&amp;ドロップでドロップされたファイルを受け付けるPostmanの読み込みダイアログ ](assets/import-environment-file-drag-and-drop-import.png " ドラッグ&amp;ドロップによるPostmanの読み込み")
+   ![&#x200B; ドラッグ&amp;ドロップでドロップされたファイルを受け付けるPostmanの読み込みダイアログ &#x200B;](assets/import-environment-file-drag-and-drop-import.png " ドラッグ&amp;ドロップによるPostmanの読み込み")
 
 5. インポートしたら、左側のサイドバーの「**環境**」タブをクリックして、環境が存在することを検証します。 AJO Bootcampをご利用いただけます。
 

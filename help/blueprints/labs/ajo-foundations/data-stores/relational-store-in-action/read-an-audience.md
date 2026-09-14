@@ -26,25 +26,25 @@ Orchestrated Campaignは、すべてのアクティビティにリレーショ�
 
 1. 左側のパネルで、**キャンペーン**&#x200B;をクリックします
 
-   ![ キャンペーンへの左レールナビゲーション ](assets/read-an-audience-navigate-to-campaigns.png)
+   ![&#x200B; キャンペーンへの左レールナビゲーション &#x200B;](assets/read-an-audience-navigate-to-campaigns.png)
 
 2. 「**キャンペーンを作成**」をクリック
 
-   ![ キャンペーンボタンを作成](assets/read-an-audience-create-campaign-button.png)
+   ![&#x200B; キャンペーンボタンを作成](assets/read-an-audience-create-campaign-button.png)
 
 3. **オーケストレーション – マーケティング**&#x200B;を選択し、**確認**&#x200B;をクリックします
 
-   ![ オーケストレーション – マーケティングキャンペーンの種類の選択](assets/read-an-audience-select-orchestration-marketing.png)
+   ![&#x200B; オーケストレーション – マーケティングキャンペーンの種類の選択](assets/read-an-audience-select-orchestration-marketing.png)
 
 4. キャンペーンの詳細を次のように入力し、**保存ボタン**&#x200B;をクリックします
    - 名前：**OC-RSL-ReadAudience-Test**
    - 説明：**RSL読み取りオーディエンステスト**
 
-   名前フィールドと説明フィールドを含む![ キャンペーン設定フォーム ](assets/read-an-audience-campaign-settings-form.png)
+   名前フィールドと説明フィールドを含む![&#x200B; キャンペーン設定フォーム &#x200B;](assets/read-an-audience-campaign-settings-form.png)
 
 5. 確認メッセージを待ちます
 
-キャンペーン設定を保存した後の![確認メッセージ ](assets/read-an-audience-campaign-settings-confirmation.png)
+キャンペーン設定を保存した後の![確認メッセージ &#x200B;](assets/read-an-audience-campaign-settings-confirmation.png)
 
 
 
@@ -56,7 +56,7 @@ Orchestrated Campaignは、すべてのアクティビティにリレーショ�
 
 2. **オーディエンスの読み取り**&#x200B;詳細ペインで、**オーディエンス**&#x200B;の検索アイコンをクリックします
 
-   ![ オーディエンス検索アイコンを表示するオーディエンスの詳細ペイン ](assets/read-an-audience-search-audience-icon.png)
+   ![&#x200B; オーディエンス検索アイコンを表示するオーディエンスの詳細ペイン &#x200B;](assets/read-an-audience-search-audience-icon.png)
 
 3. プロファイル数&#x200B;**9**&#x200B;の&#x200B;**dep：基本プランメンバー** オーディエンスを選択し、**オーディエンスを追加**&#x200B;をクリックします
 
@@ -64,7 +64,7 @@ Orchestrated Campaignは、すべてのアクティビティにリレーショ�
 
 4. 次に、**Entity**&#x200B;のドロップダウンをクリックし、`dep-rel: Customer Account - customer_id` Campaign Target Dimensionを選択します
 
-![お客様アカウントのターゲット Dimensionが選択されたエンティティ ドロップダウン ](assets/read-an-audience-select-entity-target-dimension.png)
+![お客様アカウントのターゲット Dimensionが選択されたエンティティ ドロップダウン &#x200B;](assets/read-an-audience-select-entity-target-dimension.png)
 
 >[!NOTE]
 >
@@ -76,7 +76,7 @@ Orchestrated Campaignは、すべてのアクティビティにリレーショ�
 
 1. **オーディエンスの読み取り** アクティビティの設定が入力されます。 **開始**&#x200B;をクリックして、**テストモード**&#x200B;でキャンペーンを実行します
 
-   ![ テストモードでキャンペーンを実行するための開始ボタン ](assets/read-an-audience-start-test-mode.png)
+   ![&#x200B; テストモードでキャンペーンを実行するための開始ボタン &#x200B;](assets/read-an-audience-start-test-mode.png)
 
    >[!NOTE]
    >
@@ -88,7 +88,7 @@ Orchestrated Campaignは、すべてのアクティビティにリレーショ�
 
 2. テスト実行が開始され、完了時に結果が表示されます。 **結果** ノードをクリックし、「結果をプレビュー」をクリックして実行結果を確認します
 
-   ![結果をプレビューするオプションを含む結果ノード ](assets/read-an-audience-preview-test-results.png)
+   ![結果をプレビューするオプションを含む結果ノード &#x200B;](assets/read-an-audience-preview-test-results.png)
 
 3. **読み取りオーディエンス**&#x200B;の&#x200B;**2** （9つのうち）プロファイルに、リレーショナルスキーマの対応する&#x200B;**ターゲットディメンション**&#x200B;がありません（つまり、プロファイルストアには存在しますが、リレーショナルストアには存在しません）。 Orchestrated Campaignはリレーショナルスキーマで動作するため、**読み取りオーディエンス**&#x200B;からの一致しない`customer_id` （**2**）は削除され、この場合は&#x200B;*一致する* **個のみが、キャンペーン内の** リレーショナルデータ **を活用する後続のアクティビティで使用できます**
 
@@ -100,7 +100,7 @@ Orchestrated Campaignは、すべてのアクティビティにリレーショ�
 
 4. **停止**&#x200B;をクリックして、キャンペーンの&#x200B;**テストモード**&#x200B;を停止します
 
-   ![ キャンペーンテストモードを終了する停止ボタン ](assets/read-an-audience-stop-test-mode.png)
+   ![&#x200B; キャンペーンテストモードを終了する停止ボタン &#x200B;](assets/read-an-audience-stop-test-mode.png)
 
 5. フローの最後にある&#x200B;**+**&#x200B;をクリックし、**ターゲティングアクティビティ**&#x200B;から&#x200B;**分割**&#x200B;を追加します
 
@@ -108,11 +108,11 @@ Orchestrated Campaignは、すべてのアクティビティにリレーショ�
 
 6. **分割** アクティビティの詳細ペインで、**サブセット**&#x200B;という最初の分割を展開します
 
-   ![ サブセットセグメントが展開されたアクティビティの詳細ペインを分割](assets/read-an-audience-expand-subset-split.png)
+   ![&#x200B; サブセットセグメントが展開されたアクティビティの詳細ペインを分割](assets/read-an-audience-expand-subset-split.png)
 
 7. 名前を「**ストア内**」に変更し、**フィルターを作成**&#x200B;をクリックしてフィルター条件を設定します
 
-   ![ セグメント名が「フィルターを作成」オプションで「ストア内」に変更されました](assets/read-an-audience-rename-in-store-segment.png)
+   ![&#x200B; セグメント名が「フィルターを作成」オプションで「ストア内」に変更されました](assets/read-an-audience-rename-in-store-segment.png)
 
 8. **フィルターを作成** r ペインで、**条件を追加**&#x200B;をクリックします
 
@@ -120,53 +120,53 @@ Orchestrated Campaignは、すべてのアクティビティにリレーショ�
 
 9. AEP プロファイルから他の属性は抽出されなかったので、ここで使用できるAEP プロファイル属性は`Customer ID`のみです。 ただし、一致するTarget ディメンションに対応するリレーショナルストアの列は、フィルター条件の設定に使用できます。 **>**&#x200B;をクリックして、**ターゲティングディメンション**&#x200B;を展開します
 
-   ![ ターゲティングディメンションが拡張され、リレーショナルストア列が表示されました](assets/read-an-audience-expand-targeting-dimension.png)
+   ![&#x200B; ターゲティングディメンションが拡張され、リレーショナルストア列が表示されました](assets/read-an-audience-expand-targeting-dimension.png)
 
 10. リストから`Source`を選択し、**確認**&#x200B;をクリックします
 
 ターゲティングディメンション列から![Source属性が選択されました](assets/read-an-audience-select-source-attribute.png)
 
-11. Source列の個別の値は、ドロップダウンで使用できます。 **カスタム条件**&#x200B;の場合、ドロップダウンから「**&quot;ストア内&quot;**」を選択し、**確認**」をクリックして終了します
+&#x200B;11. Source列の個別の値は、ドロップダウンで使用できます。 **カスタム条件**&#x200B;の場合、ドロップダウンから「**&quot;ストア内&quot;**」を選択し、**確認**」をクリックして終了します
 
-![ カスタム条件がストア内](assets/read-an-audience-set-in-store-condition.png)に設定されました
+![&#x200B; カスタム条件がストア内](assets/read-an-audience-set-in-store-condition.png)に設定されました
 
-12. **分割** アクティビティの詳細ペインに戻ると、最初の分割の設定が完了します。 2番目の分割に&#x200B;**セグメントを追加**&#x200B;をクリックします
+&#x200B;12. **分割** アクティビティの詳細ペインに戻ると、最初の分割の設定が完了します。 2番目の分割に&#x200B;**セグメントを追加**&#x200B;をクリックします
 
-![ アクティビティの分割の詳細ペインで「セグメントを追加」ボタン ](assets/read-an-audience-add-segment-button.png)
+![&#x200B; アクティビティの分割の詳細ペインで「セグメントを追加」ボタン &#x200B;](assets/read-an-audience-add-segment-button.png)
 
 **結果**&#x200B;という名前の新しいセグメントが作成されます
 
 ![結果](assets/read-an-audience-new-result-segment.png)という名前の新しいセグメント
 
-13. 「**結果**」の名前を「**実店舗にありません**」に変更し、**フィルターを作成**&#x200B;をクリックしてフィルター条件を設定します
+&#x200B;13. 「**結果**」の名前を「**実店舗にありません**」に変更し、**フィルターを作成**&#x200B;をクリックしてフィルター条件を設定します
 
-![ セグメント名がフィルターオプション ](assets/read-an-audience-rename-not-in-store-segment.png)を使用して実店舗にありません
+![&#x200B; セグメント名がフィルターオプション &#x200B;](assets/read-an-audience-rename-not-in-store-segment.png)を使用して実店舗にありません
 
-14. **フィルターを作成** ペインで、**条件を追加**&#x200B;をクリックします。 上記と同じ方法で、**>**&#x200B;をクリックして&#x200B;**ターゲティングディメンション**&#x200B;を展開し、リストから`Source`を選択して&#x200B;**確認**&#x200B;をクリックします
+&#x200B;14. **フィルターを作成** ペインで、**条件を追加**&#x200B;をクリックします。 上記と同じ方法で、**>**&#x200B;をクリックして&#x200B;**ターゲティングディメンション**&#x200B;を展開し、リストから`Source`を選択して&#x200B;**確認**&#x200B;をクリックします
 
-![ ターゲティングディメンションが拡張され、リレーショナルストア列が表示されました](assets/read-an-audience-expand-targeting-dimension.png)
+![&#x200B; ターゲティングディメンションが拡張され、リレーショナルストア列が表示されました](assets/read-an-audience-expand-targeting-dimension.png)
 
 ターゲティングディメンション列から![Source属性が選択されました](assets/read-an-audience-select-source-attribute.png)
 
-15. **カスタム条件**&#x200B;に対して、ドロップダウンから「**&quot;ストア内&quot;**」を選択し、オペレーターに「**次と等しくない&quot;**」を選択します。 **確認**&#x200B;をクリックして終了します
+&#x200B;15. **カスタム条件**&#x200B;に対して、ドロップダウンから「**&quot;ストア内&quot;**」を選択し、オペレーターに「**次と等しくない&quot;**」を選択します。 **確認**&#x200B;をクリックして終了します
 
-![ カスタム条件がストア内](assets/read-an-audience-set-not-in-store-condition.png)と等しくありません
+![&#x200B; カスタム条件がストア内](assets/read-an-audience-set-not-in-store-condition.png)と等しくありません
 
-16. **分割** アクティビティの詳細ペインに戻ると、2つの分割の設定が完了します。 **開始**&#x200B;をクリックして、**テストモード**&#x200B;でキャンペーンを実行します
+&#x200B;16. **分割** アクティビティの詳細ペインに戻ると、2つの分割の設定が完了します。 **開始**&#x200B;をクリックして、**テストモード**&#x200B;でキャンペーンを実行します
 
-![分割を設定した後、キャンペーンをテストモードで実行するための「開始」ボタン ](assets/read-an-audience-start-test-mode-second-run.png)
+![分割を設定した後、キャンペーンをテストモードで実行するための「開始」ボタン &#x200B;](assets/read-an-audience-start-test-mode-second-run.png)
 
-17. テスト実行が開始され、完了時に結果が表示されます。 リレーショナルスキーマに一致するターゲットディメンションは&#x200B;**7**&#x200B;個しか見つからなかったため、分割操作（**7**&#x200B;と&#x200B;**0**）の後でも同じカウントが観察されます
+&#x200B;17. テスト実行が開始され、完了時に結果が表示されます。 リレーショナルスキーマに一致するターゲットディメンションは&#x200B;**7**&#x200B;個しか見つからなかったため、分割操作（**7**&#x200B;と&#x200B;**0**）の後でも同じカウントが観察されます
 
 ![7と0](assets/read-an-audience-verify-split-counts.png)のカウントを示すアクティビティ結果を分割
 
-18. 各結果ボックスと&#x200B;**結果をプレビュー**&#x200B;をクリックして結果を表示します
+&#x200B;18. 各結果ボックスと&#x200B;**結果をプレビュー**&#x200B;をクリックして結果を表示します
 
-![各分割結果ボックスの「結果をプレビュー」オプション ](assets/read-an-audience-preview-split-results.png)
+![各分割結果ボックスの「結果をプレビュー」オプション &#x200B;](assets/read-an-audience-preview-split-results.png)
 
-19. **停止**&#x200B;をクリックして、キャンペーンの&#x200B;**テストモード**&#x200B;を停止します
+&#x200B;19. **停止**&#x200B;をクリックして、キャンペーンの&#x200B;**テストモード**&#x200B;を停止します
 
-![最後のテストモード実行を終了する停止ボタン ](assets/read-an-audience-stop-test-mode-final.png)
+![最後のテストモード実行を終了する停止ボタン &#x200B;](assets/read-an-audience-stop-test-mode-final.png)
 
 >[!NOTE]
 >

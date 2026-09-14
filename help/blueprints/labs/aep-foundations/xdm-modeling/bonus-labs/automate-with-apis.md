@@ -38,7 +38,7 @@ APIを使用してデプロイメントを自動化する方法を確認する�
    >
    >「実行」ボタンは、Postman ワークスペースの右上にあります
 
-   ![Automation with API フォルダーのPostman ワークスペースの右上にある「実行」ボタン ](assets/automate-with-apis-click-folder-run-button.png " フォルダー「実行」をクリック ")
+   ![Automation with API フォルダーのPostman ワークスペースの右上にある「実行」ボタン &#x200B;](assets/automate-with-apis-click-folder-run-button.png " フォルダー「実行」をクリック ")
 
 
 

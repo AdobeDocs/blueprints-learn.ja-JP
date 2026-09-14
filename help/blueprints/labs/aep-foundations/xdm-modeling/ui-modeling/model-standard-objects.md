@@ -16,13 +16,13 @@ ht-degree: 0%
 
 1. 左側のパネルの「**スキーマ**」タブをクリックします
 
-   左側のレール ナビゲーションの「![ スキーマ」タブ ](assets/model-standard-objects-schemas-tab-left-rail.png "左側のレールを使用してスキーマに移動")
+   左側のレール ナビゲーションの「![&#x200B; スキーマ」タブ &#x200B;](assets/model-standard-objects-schemas-tab-left-rail.png "左側のレールを使用してスキーマに移動")
 
 
 
 1. 上部のナビゲーションには、既存のスキーマを参照するオプションと、現在XDM レジストリにあるフィールドグループとデータタイプを表示するオプションが表示されます。
 
-![ スキーマ、フィールドグループ、およびデータタイプを参照するための上位ナビゲーションオプション ](assets/model-standard-objects-browse-schemas-top-nav.png " スキーマの上位ナビゲーション ")を参照
+![&#x200B; スキーマ、フィールドグループ、およびデータタイプを参照するための上位ナビゲーションオプション &#x200B;](assets/model-standard-objects-browse-schemas-top-nav.png " スキーマの上位ナビゲーション ")を参照
 
 >[!NOTE]
 >
@@ -33,7 +33,7 @@ ht-degree: 0%
 
 1. **スキーマの作成**&#x200B;をクリックして開始
 
-   ![ スキーマの作成ボタン ](assets/model-standard-objects-create-schema-button.png " スキーマの作成")
+   ![&#x200B; スキーマの作成ボタン &#x200B;](assets/model-standard-objects-create-schema-button.png " スキーマの作成")
 
 
 
@@ -57,7 +57,7 @@ XDM Individual Profile クラスベースのスキーマを使用すると、プ
    - **説明** – このスキーマは、個人のID、プラン情報、デモグラフィックの詳細、および連絡先の詳細を収集します。
 1. 右上の「**完了**」ボタンを使用してスキーマを保存します。
 
-![ スキーマに名前を付け、説明を追加して保存](assets/model-standard-objects-name-schema-and-save.png " スキーマに名前を付け、説明を追加して保存")
+![&#x200B; スキーマに名前を付け、説明を追加して保存](assets/model-standard-objects-name-schema-and-save.png " スキーマに名前を付け、説明を追加して保存")
 
 ## デモグラフィックの詳細を追加フィールドグループ
 
@@ -65,7 +65,7 @@ Adobe Experience Platformには、スキーマに追加してカスタマイズ�
 
 1. フィールドグループセクションの左側のパネルの&#x200B;**+（追加）**&#x200B;をクリックします。
 
-   ![左側のパネルの「フィールドグループを追加」ボタン ](assets/model-standard-objects-add-field-group-button.png " フィールドグループを追加")
+   ![左側のパネルの「フィールドグループを追加」ボタン &#x200B;](assets/model-standard-objects-add-field-group-button.png " フィールドグループを追加")
 
 
 
@@ -78,13 +78,13 @@ Adobe Experience Platformには、スキーマに追加してカスタマイズ�
 
    ![拡大鏡をクリックしてフィールドグループの構造をプレビューします](assets/model-standard-objects-click-magnify-glass-to-preview-field-group-structure.png "拡大鏡をクリックしてフィールドグループの構造をプレビューします")
 
-   ![ デモグラフィックの詳細フィールドグループ構造のプレビュー](assets/model-standard-objects-demographic-details-structure-preview.png)
+   ![&#x200B; デモグラフィックの詳細フィールドグループ構造のプレビュー](assets/model-standard-objects-demographic-details-structure-preview.png)
 
 
 
-3. **フィールドグループの横にあるチェックボックスを** オンにし、**フィールドグループを追加** ボタンをクリックします
+&#x200B;3. **フィールドグループの横にあるチェックボックスを** オンにし、**フィールドグループを追加** ボタンをクリックします
 
-![ デモグラフィック詳細フィールドグループを選択してスキーマに追加します](assets/model-standard-objects-select-demographic-details-field-group.png " デモグラフィック詳細フィールドグループを選択してスキーマに追加します")
+![&#x200B; デモグラフィック詳細フィールドグループを選択してスキーマに追加します](assets/model-standard-objects-select-demographic-details-field-group.png " デモグラフィック詳細フィールドグループを選択してスキーマに追加します")
 
 
 ## その他の標準フィールドグループの追加
@@ -96,7 +96,7 @@ Adobe Experience Platformには、スキーマに追加してカスタマイズ�
 
 完了すると、スキーマは以下の画像のようになります。 必ず「**保存**」ボタンをクリックして、作品を保存してください。
 
-デモグラフィックの詳細、個人の連絡先の詳細、同意と環境設定の詳細フィールドグループを追加した後の![ スキーマ ](assets/model-standard-objects-final-schema-after-adding-field-groups.png "保存した後の最終スキーマ ")
+デモグラフィックの詳細、個人の連絡先の詳細、同意と環境設定の詳細フィールドグループを追加した後の![&#x200B; スキーマ &#x200B;](assets/model-standard-objects-final-schema-after-adding-field-groups.png "保存した後の最終スキーマ ")
 
 >[!NOTE]
 >
@@ -123,7 +123,7 @@ Adobe Experience Platformには、スキーマに追加してカスタマイズ�
 1. スキーマで&#x200B;**person** オブジェクトを選択します
 1. 右側のパネルの&#x200B;**関連フィールドの管理**&#x200B;をクリックします
 
-   ![ デモグラフィックの詳細フィールドグループの人物オブジェクトの関連フィールドの管理オプション ](assets/model-standard-objects-manage-related-fields-person-object.png " デモグラフィックの詳細フィールドグループの一部として、人物オブジェクトの関連フィールドを管理")
+   ![&#x200B; デモグラフィックの詳細フィールドグループの人物オブジェクトの関連フィールドの管理オプション &#x200B;](assets/model-standard-objects-manage-related-fields-person-object.png " デモグラフィックの詳細フィールドグループの一部として、人物オブジェクトの関連フィールドを管理")
 
 
 
@@ -146,7 +146,7 @@ Adobe Experience Platformには、スキーマに追加してカスタマイズ�
 
 1. 完了すると、スキーマ内に次のようにperson オブジェクトが表示されます。 スキーマを保存するには、問題がなければ&#x200B;**保存** ボタンをクリックします。
 
-![必須フィールドのみを含む最終人口統計の詳細の個人オブジェクト ](assets/model-standard-objects-final-demographic-details-person-object.png "必須フィールドのみを含む最終人口統計の詳細フィールドグループ ")
+![必須フィールドのみを含む最終人口統計の詳細の個人オブジェクト &#x200B;](assets/model-standard-objects-final-demographic-details-person-object.png "必須フィールドのみを含む最終人口統計の詳細フィールドグループ ")
 
 ### 同意と環境設定フィールドグループ
 
@@ -162,13 +162,13 @@ Adobe Experience Platformには、スキーマに追加してカスタマイズ�
 >
 >スキーマワークスペースの右上隅にある「**フィールドの表示名を表示**」のトグルがオフになっていることを確認します
 >
->![ フィールドの表示名を表示トグルがオフになっています](assets/model-standard-objects-show-display-names-toggle-off.png)
+>![&#x200B; フィールドの表示名を表示トグルがオフになっています](assets/model-standard-objects-show-display-names-toggle-off.png)
 
 
 
 完了すると、最終的なスキーマは次のようになります。 続行する前に、必ず「**保存**」をクリックしてください。
 
-![同意と環境設定フィールドグループの関連フィールドを管理した後のスキーマ ](assets/model-standard-objects-final-consent-and-preferences-fields.png "同意と環境設定フィールドグループの関連フィールドを管理")
+![同意と環境設定フィールドグループの関連フィールドを管理した後のスキーマ &#x200B;](assets/model-standard-objects-final-consent-and-preferences-fields.png "同意と環境設定フィールドグループの関連フィールドを管理")
 
 >[!SUCCESS]
 >

@@ -17,19 +17,19 @@ ht-degree: 0%
 1. **データセット**&#x200B;をクリック
 1. **作成したデータセット名を**&#x200B;検索して&#x200B;**クリック**&#x200B;します。
 
-   ![ データセット ペインで作成されたデータセットにアクセス ](assets/verification-and-validation-access-the-dataset-in-the-datasets-pane.png " データセット ペインでデータセットにアクセス ")
+   ![&#x200B; データセット ペインで作成されたデータセットにアクセス &#x200B;](assets/verification-and-validation-access-the-dataset-in-the-datasets-pane.png " データセット ペインでデータセットにアクセス ")
 
 
 
 1. 右上隅の「**データセットをプレビュー**」をクリックします
 
-   ![ データセット画面の右上隅にある「データセットをプレビュー」ボタン ](assets/verification-and-validation-preview-dataset-button.png " データセットをプレビューは右上隅にあります")
+   ![&#x200B; データセット画面の右上隅にある「データセットをプレビュー」ボタン &#x200B;](assets/verification-and-validation-preview-dataset-button.png " データセットをプレビューは右上隅にあります")
 
 
 
 1. **スキーマ階層を示す左側のペインをクリックして、取り込んだレコードと同じレコードを**&#x200B;および&#x200B;**検証**&#x200B;します。
 
-![ スキーマ階層ペインを使用した取り込みレコードの検証と検証](assets/verification-and-validation-verify-and-validate-the-dataset.png " データセットの検証と検証")
+![&#x200B; スキーマ階層ペインを使用した取り込みレコードの検証と検証](assets/verification-and-validation-verify-and-validate-the-dataset.png " データセットの検証と検証")
 
 >[!NOTE]
 >
@@ -42,7 +42,7 @@ ht-degree: 0%
 1. プレビューを&#x200B;**閉じる**
 1. データセット画面で、**テーブル名**&#x200B;のコピーアイコンをクリックします。 下の例の画面では、テーブル名は`customer_account_sm`です
 
-   ![ クエリで使用するためにデータセット画面からテーブル名をコピーする](assets/verification-and-validation-copy-the-table-name.png " テーブル名をコピーする")
+   ![&#x200B; クエリで使用するためにデータセット画面からテーブル名をコピーする](assets/verification-and-validation-copy-the-table-name.png " テーブル名をコピーする")
 
 
 
@@ -50,13 +50,13 @@ ht-degree: 0%
 
 1. 「**クエリを作成**」をクリック
 
-   ![ クエリセクションからクエリエディターにアクセス ](assets/verification-and-validation-access-the-query-editor.png " クエリエディターにアクセス ")
+   ![&#x200B; クエリセクションからクエリエディターにアクセス &#x200B;](assets/verification-and-validation-access-the-query-editor.png " クエリエディターにアクセス ")
 
 
 
 1. **拡張クエリエディター**&#x200B;を有効にする切替スイッチ
 
-   拡張クエリエディター切り替えが有効になっている![ クエリエディターインターフェイス ](assets/verification-and-validation-enhanced-query-editor-toggle.png " クエリエディターインターフェイス ")
+   拡張クエリエディター切り替えが有効になっている![&#x200B; クエリエディターインターフェイス &#x200B;](assets/verification-and-validation-enhanced-query-editor-toggle.png " クエリエディターインターフェイス ")
 
 
 
