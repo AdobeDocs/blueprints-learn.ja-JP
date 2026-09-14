@@ -19,7 +19,7 @@ ht-degree: 0%
 JSON PATCHについて詳しくは、以下のリンクを参照してください。 このラボでは、その仕組みを一般的に理解していると仮定します。
 
 - [https://jsonpatch.com/](https://jsonpatch.com/)
-- [Experience League APIの基本](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-fundamentals.html?lang=en#json-patch)
+- [Experience League APIの基本](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-fundamentals.html?lang=ja#json-patch)
 
 ![見つからないplanDescription フィールドを既存のスキーマにパッチ適用する図](assets/modify-schema-json-patch-patching-missing-plan-description-field.png "見つからないフィールドプランのパッチ適用")
 

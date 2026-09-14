@@ -182,4 +182,4 @@ Orchestrated Campaignは、すべてのアクティビティにリレーショ�
 
 これで、リレーショナルスキーマを使用するために、Campaignを作成し、Profile Target Dimensionと共にオーディエンスを読み取りアクティビティを実行することがいかに簡単かを確認しました。 「分割」アクティビティを使用して、条件に基づいてオーディエンスを分割しました。 最後に、テストモードは、プロファイルとリレーショナルスキーマの間にデータの一貫性を持つことが重要であることを理解するのに役立ちました。
 
-ご興味のある方は、[こちら](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/campaigns/orchestrated-campaigns/design-campaigns/read-audience)をご覧ください。
+ご興味のある方は、[こちら](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/campaigns/orchestrated-campaigns/design-campaigns/read-audience)をご覧ください。
