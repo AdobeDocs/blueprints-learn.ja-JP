@@ -4,13 +4,11 @@ description: Edge、ストリーミング、バッチアクティベーション
 doc-type: overview-page
 solution: Experience Platform
 exl-id: 9ecadff9-3838-4cd4-93b1-7c23a232f84c
-source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
+source-git-commit: 8b3391d41cd4a3ea6cb52d5167e627b7f6bd2c6e
 workflow-type: tm+mt
-source-wordcount: '151'
+source-wordcount: '175'
 ht-degree: 0%
-
 ---
-
 
 # Edgeのアクティベーション
 
@@ -23,6 +21,10 @@ Adobeには、さまざまなニーズに対応するためのアクティベー
 1. バッチ
 
 イベント転送機能、Edge Audiences、Edge PersonalizationでAdobe Edgeを使用してアクティベートする方法について説明します。 次に、HubからEdgeと外部の宛先の両方にストリーミング宛先を使用する方法を示します。
+
+>[!IMPORTANT]
+>
+>このラボを開始する前に、[Postmanの設定](../../setup.md)を完了してください。 外部宛先に送信されたイベントをキャプチャするには、[webhook.site](https://webhook.site/)へのアクセスも必要です。
 
 >[!NOTE]
 >

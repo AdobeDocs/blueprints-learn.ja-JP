@@ -4,13 +4,17 @@ description: PostmanのProfile Entity APIとIdentity Service Cluster APIを使�
 doc-type: article
 solution: Experience Platform
 exl-id: 1db55c5b-fdf8-4c63-b435-477626bb0450
-source-git-commit: df6c1852a6e0357dc9f166c88e77dcf9d334f955
+source-git-commit: 8b3391d41cd4a3ea6cb52d5167e627b7f6bd2c6e
 workflow-type: tm+mt
-source-wordcount: '1143'
+source-wordcount: '1154'
 ht-degree: 1%
 ---
 
 # プロファイルとID API
+
+>[!IMPORTANT]
+>
+>プロファイルとID APIの演習を開始する前に、[Postmanの設定](../../setup.md)を完了してください。
 
 ## プロファイルエンティティ API
 
@@ -38,7 +42,7 @@ ht-degree: 1%
 
 ### 検索するエンティティの識別
 
-ほとんどのリクエストでは、`entityId`と`entityIdNS`を使用して、電子メールアドレス、CRM ID、ロイヤルティ IDなどの既知のID値でエンティティを識別します。このIDを既に知っておく必要はありません。 XIDは、IDを表すためにID サービスが生成および内部的に割り当てるbase64 エンコードされた識別子で、その名前空間とID値を単一のコンパクトトークンに統合します（詳細は[&#x200B; ネイティブ XID](https://experienceleague.adobe.com/docs/experience-platform/identity/api/list-native-id.html?lang=ja)を参照）。
+ほとんどのリクエストでは、`entityId`と`entityIdNS`を使用して、電子メールアドレス、CRM ID、ロイヤルティ IDなどの既知のID値でエンティティを識別します。このIDを既に知っておく必要はありません。 XIDは、IDを表すためにID サービスが生成および内部的に割り当てるbase64 エンコードされた識別子で、その名前空間とID値を単一のコンパクトトークンに統合します（詳細は[ ネイティブ XID](https://experienceleague.adobe.com/docs/experience-platform/identity/api/list-native-id.html?lang=ja)を参照）。
 
 | パラメーター | タイプ | 説明 | 例 |
 | ------------ | ------ | ---------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------- |
@@ -61,7 +65,7 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->追加のID ルックアップオプション、イベントフィルタリング （`startTime`、`endTime`、`property`、`orderby`、`limit`）、フィールド選択、結合ポリシーの上書きなど、クエリパラメーターの完全なリストについては、[&#x200B; プロファイルエンティティ API リファレンス &#x200B;](https://developer.adobe.com/experience-platform-apis/references/profile#tag/Entities)を参照してください。
+>追加のID ルックアップオプション、イベントフィルタリング （`startTime`、`endTime`、`property`、`orderby`、`limit`）、フィールド選択、結合ポリシーの上書きなど、クエリパラメーターの完全なリストについては、[ プロファイルエンティティ API リファレンス ](https://developer.adobe.com/experience-platform-apis/references/profile#tag/Entities)を参照してください。
 
 >[!WARNING]
 >
@@ -77,7 +81,7 @@ Entity Lookup APIについて詳しくは、前のラボのDepeche Mode プロ�
 1. **エンティティ検索（属性）** リクエストをクリックして開きます
 1. **送信** ボタンをクリックして呼び出しを実行します
 
-   ![&#128279;](assets/profile-and-identity-apis-entity-lookup-attributes-request.png "Profile Entity Lookup （attributes） API")を送信する前のEntity Lookup （attributes）呼び出し用のPostman リクエストペイン
+   ](assets/profile-and-identity-apis-entity-lookup-attributes-request.png "Profile Entity Lookup （attributes） API")を送信する前のEntity Lookup （attributes）呼び出し用の![Postman リクエストペイン
 
    正常なリクエストには`200 OK`を返す必要があり、Depeche Mode プロファイルのすべての属性を含む結果が表示されます。
 
@@ -93,7 +97,7 @@ Entity Lookup APIについて詳しくは、前のラボのDepeche Mode プロ�
 1. **フィールド**&#x200B;という名前の&#x200B;**キー**&#x200B;の横にあるチェックボックスをオンにします
 1. **送信** ボタンをクリックしてリクエストを実行します
 
-![応答をフィルタリングするためにフィールドパラメーターを有効にしたエンティティ検索（属性）リクエスト &#x200B;](assets/profile-and-identity-apis-entity-lookup-attributes-with-filter-enabled.png)
+![応答をフィルタリングするためにフィールドパラメーターを有効にしたエンティティ検索（属性）リクエスト ](assets/profile-and-identity-apis-entity-lookup-attributes-with-filter-enabled.png)
 
 >[!NOTE]
 >
@@ -101,7 +105,7 @@ Entity Lookup APIについて詳しくは、前のラボのDepeche Mode プロ�
 
 リクエストが成功した場合は`200 OK`で応答する必要があります。有効にしたパラムフィルターで指定されたフィールド（名、姓、アクティブな製品の配列）のみが表示されます。
 
-![&#x200B; フィルター処理された200 OK応答で、名、姓、およびアクティブ製品のフィールドのみが表示される](assets/profile-and-identity-apis-successful-filtered-attributes-response.png " フィルターが有効になっているプロファイル エンティティ検索（属性） API応答")
+![ フィルター処理された200 OK応答で、名、姓、およびアクティブ製品のフィールドのみが表示される](assets/profile-and-identity-apis-successful-filtered-attributes-response.png " フィルターが有効になっているプロファイル エンティティ検索（属性） API応答")
 
 >[!SUCCESS]
 >
@@ -114,7 +118,7 @@ Entity Lookup APIについて詳しくは、前のラボのDepeche Mode プロ�
 1. **エンティティ検索（イベント）** リクエストをクリックして開きます
 1. **送信** ボタンをクリックして呼び出しを実行します
 
-![送信前のエンティティ検索（イベント）呼び出しに対するPostmanのリクエストペイン &#x200B;](assets/profile-and-identity-apis-entity-lookup-events-request.png)
+![送信前のエンティティ検索（イベント）呼び出しに対するPostmanのリクエストペイン ](assets/profile-and-identity-apis-entity-lookup-events-request.png)
 
 正常なリクエストには`200 OK`を返す必要があり、Depeche Mode プロファイルのすべてのイベントを含む結果が表示されます。
 
@@ -126,7 +130,7 @@ Entity Lookup APIについて詳しくは、前のラボのDepeche Mode プロ�
 
 Params セクションでそれらを有効にし、リクエストを実行して、それらのいくつかを試してください。 詳細をご確認ください。
 
-パラメーターのセクション ![&#128279;](assets/profile-and-identity-apis-entity-lookup-events-query-params.png " エクスペリエンスイベントのプロファイルエンティティ検索")で追加のクエリパラメーターを有効にした エンティティ検索（イベント）リクエスト
+パラメーターのセクション ](assets/profile-and-identity-apis-entity-lookup-events-query-params.png " エクスペリエンスイベントのプロファイルエンティティ検索")で追加のクエリパラメーターを有効にした![ エンティティ検索（イベント）リクエスト
 
 **クエリパラメーター定義の例**
 
@@ -159,7 +163,7 @@ Params セクションでそれらを有効にし、リクエストを実行し�
 
 
 
-![&#128279;](assets/profile-and-identity-apis-list-linked-identities-request.png " リンクされたIDをリスト API")を送信する前にリンクされたIDのリスト呼び出しを行うためのPostmanのリクエストペイン
+](assets/profile-and-identity-apis-list-linked-identities-request.png " リンクされたIDをリスト API")を送信する前にリンクされたIDのリスト呼び出しを行うための![Postmanのリクエストペイン
 
 応答が成功すると、次のスクリーンショットのようになります
 

@@ -5,9 +5,9 @@ doc-type: article
 
 solution: Experience Platform
 exl-id: 7c1a9e3d-5b8f-4a2e-9c6d-3f7b0e4a8c2d
-source-git-commit: df6c1852a6e0357dc9f166c88e77dcf9d334f955
+source-git-commit: 8b3391d41cd4a3ea6cb52d5167e627b7f6bd2c6e
 workflow-type: tm+mt
-source-wordcount: '323'
+source-wordcount: '357'
 ht-degree: 1%
 ---
 
@@ -34,13 +34,17 @@ AJO Foundations ラボを開始する前に、以下の設定手順を完了し�
 - [環境ファイルを読み込む](postman-setup/import-environment-file.md)
 - [API コレクションのインポート](postman-setup/import-api-collection.md)
 
+## オンデマンド対応
+
+ラボを開始する前に、上記のPostman設定を完了してください。 自習型学習者には、メールに依存するラボ用のデリゲートされたサブドメインと、Flagship phone launch lab用のSMS資格情報も必要です。
+
 ## チャネルの前提条件
 
 このブートキャンプの後半にある2つのラボは、自習型学習者のみが配置する必要がある外部アカウントに依存しています。ライブトレーニングコースやイベントの場合、これらのアカウントは既にプロビジョニングされています。
 
 ### デリゲートされたサブドメイン
 
-[&#x200B; メールチャネルの設定](data-stores/configure-email-channels/overview.md) ラボ – およびそれに依存するすべて（[実際のメッセージ配信](orchestrated-campaigns/message-delivery-in-action/overview.md)、[購入後の興奮](journeys/post-purchase-excitement/overview.md)、[AJO Brands](content-authoring-with-ai/overview.md)）では、メールを送信するためにAdobeにデリゲートされたサブドメインが必要です。 ドメインがまだ存在しない場合は、任意のドメインレジストラー（Namecheapなど）に登録します。 次に、そのサブドメイン（例：`email.yourdomain.com`）をAdobeにデリゲートするには、Adobeの[&#x200B; サブドメインデリゲートの手順](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/configuration/delegate-subdomains/delegate-subdomain)に従います。
+[ メールチャネルの設定](data-stores/configure-email-channels/overview.md) ラボ – およびそれに依存するすべて（[実際のメッセージ配信](orchestrated-campaigns/message-delivery-in-action/overview.md)、[購入後の興奮](journeys/post-purchase-excitement/overview.md)、[AJO Brands](content-authoring-with-ai/overview.md)）では、メールを送信するためにAdobeにデリゲートされたサブドメインが必要です。 ドメインがまだ存在しない場合は、任意のドメインレジストラー（Namecheapなど）に登録します。 次に、そのサブドメイン（例：`email.yourdomain.com`）をAdobeにデリゲートするには、Adobeの[ サブドメインデリゲートの手順](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/configuration/delegate-subdomains/delegate-subdomain)に従います。
 
 >[!NOTE]
 >
@@ -48,4 +52,4 @@ AJO Foundations ラボを開始する前に、以下の設定手順を完了し�
 
 ### SMS 資格情報
 
-[Flagship phone launch](orchestrated-campaigns/flagship-phone-launch/overview.md) ラボは、Twilioを通じてSMS チャネルを設定します。 メッセージは送信されませんが、設定を完了するには作業用の資格情報が必要です。 最も簡単なオプションは、無料の[Twilio体験版アカウント &#x200B;](https://www.twilio.com/try-twilio)です。アカウント SIDと認証トークンを登録して見つける方法については、Twilioの[入門ガイド &#x200B;](https://www.twilio.com/docs/usage/tutorials/how-to-use-your-free-trial-account)を参照してください。
+[Flagship phone launch](orchestrated-campaigns/flagship-phone-launch/overview.md) ラボは、Twilioを通じてSMS チャネルを設定します。 メッセージは送信されませんが、設定を完了するには作業用の資格情報が必要です。 最も簡単なオプションは、無料の[Twilio体験版アカウント ](https://www.twilio.com/try-twilio)です。アカウント SIDと認証トークンを登録して見つける方法については、Twilioの[入門ガイド ](https://www.twilio.com/docs/usage/tutorials/how-to-use-your-free-trial-account)を参照してください。

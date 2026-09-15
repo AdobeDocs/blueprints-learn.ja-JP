@@ -1,16 +1,14 @@
 ---
-title: ユースケース
+title: ユースケース #1 - Acquisition
 description: デバイスの注文や所有をしていない14人のページ訪問者をターゲットとする獲得ユースケースを定義し、オーディエンス構築アプローチを計画します。
 doc-type: overview-page
 solution: Experience Platform
 exl-id: a85b1eb1-88f4-41b2-acce-2e34dbe6aff8
-source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
+source-git-commit: 8b3391d41cd4a3ea6cb52d5167e627b7f6bd2c6e
 workflow-type: tm+mt
-source-wordcount: '223'
+source-wordcount: '242'
 ht-degree: 0%
-
 ---
-
 
 # ユースケース #1 – 獲得
 
@@ -25,6 +23,10 @@ ht-degree: 0%
 **ユースケース定義**
 
 IPhone 14の商品ページにアクセスし、iPhone 14の注文が存在しない、またはアクティブなiPhone 14を持っていないプロファイルをすべてアクティブ化します。
+
+>[!IMPORTANT]
+>
+>このラボを開始する前に、[Postmanの設定](../../setup.md)を完了してください。 アクティブ化されたオーディエンスデータを取得するには、[webhook.site](https://webhook.site/)へのアクセスも必要です。
 
 
 
