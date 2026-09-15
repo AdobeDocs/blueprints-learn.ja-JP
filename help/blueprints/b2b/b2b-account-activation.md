@@ -60,19 +60,19 @@ B2B マーケターは、アカウントベースのエンゲージメントに�
 
 アカウントオーディエンスの設計とアクティブ化については、次のガードレールを参照してください。
 
-- [Real-Time Customer Data Platform B2B editionのガードレール](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/intro/rtcdpb2b-intro/b2b-guardrails?lang=en)
-- [アカウントオーディエンス](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/account-audiences?lang=en)
-- [アカウントオーディエンスのアクティベーション](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/activate-account-audiences?lang=en)
-- [プロファイルとセグメント化のガードレール](https://experienceleague.adobe.com/en/docs/experience-platform/profile/guardrails)
-- [ストリーミングセグメント化の適格基準の更新](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/eligibility-criteria-update)
+- [Real-Time Customer Data Platform B2B editionのガードレール](https://experienceleague.adobe.com/ja/docs/experience-platform/rtcdp/intro/rtcdpb2b-intro/b2b-guardrails?lang=en)
+- [アカウントオーディエンス](https://experienceleague.adobe.com/ja/docs/experience-platform/segmentation/ui/account-audiences?lang=en)
+- [アカウントオーディエンスのアクティベーション](https://experienceleague.adobe.com/ja/docs/experience-platform/destinations/ui/activate/activate-account-audiences?lang=en)
+- [プロファイルとセグメント化のガードレール](https://experienceleague.adobe.com/ja/docs/experience-platform/profile/guardrails)
+- [ストリーミングセグメント化の適格基準の更新](https://experienceleague.adobe.com/ja/docs/experience-platform/segmentation/eligibility-criteria-update)
 
 ## Real-Time Customer Data Platform B2B edition、アカウントオーディエンスの構築およびアクティベーションの実装ステップ
 
-- Real-Time Customer Data Platform B2B editionの実装手順については、次のドキュメントを参照してください。[Real-Time Customer Data Platform B2B editionの概要](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/intro/rtcdpb2b-intro/b2b-tutorial?lang=en)。
-- アカウントオーディエンスの作成手順については、[&#x200B; アカウントオーディエンス &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/account-audiences?lang=en)のドキュメントを参照してください。
-- アカウントオーディエンスのアクティベーション手順については、[&#x200B; アカウントオーディエンスのアクティベーション &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/activate-account-audiences?lang=en)のドキュメントを参照してください。
+- Real-Time Customer Data Platform B2B editionの実装手順については、次のドキュメントを参照してください。[Real-Time Customer Data Platform B2B editionの概要](https://experienceleague.adobe.com/ja/docs/experience-platform/rtcdp/intro/rtcdpb2b-intro/b2b-tutorial?lang=en)。
+- アカウントオーディエンスの作成手順については、[&#x200B; アカウントオーディエンス &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/segmentation/ui/account-audiences?lang=en)のドキュメントを参照してください。
+- アカウントオーディエンスのアクティベーション手順については、[&#x200B; アカウントオーディエンスのアクティベーション &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/destinations/ui/activate/activate-account-audiences?lang=en)のドキュメントを参照してください。
 
-  - [LinkedIn Matched Audiences destination](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/activate-account-audiences?lang=en#required-mappings)に必要なマッピング。
+  - [LinkedIn Matched Audiences destination](https://experienceleague.adobe.com/ja/docs/experience-platform/destinations/ui/activate/activate-account-audiences?lang=en#required-mappings)に必要なマッピング。
 
 ## 実装に関する考慮事項
 
@@ -81,11 +81,11 @@ LinkedIn Matched Audiencesには、オーディエンスサイズの最小要件
 ## 関連ドキュメント
 
 - [B2B オーディエンスとプロファイル アクティベーションの設計図](b2bactivation.md) – 個人レベルとアカウント レベルの両方のB2B アクティベーションをカバーする親の設計図。
-- [Real-Time Customer Data PlatformのB2B edition](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/intro/rtcdpb2b-intro/b2b-overview?lang=en)
-- [アカウントオーディエンスの作成とアクティブ化 – チュートリアルビデオ](https://experienceleague.adobe.com/en/docs/platform-learn/tutorials/audiences/create-audiences-with-b2b-data?lang=en)
-- [アカウントオーディエンスの構築](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/account-audiences?lang=en)
-- [アカウントオーディエンスのアクティベーション](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/activate-account-audiences?lang=en)
-- [Adobe Experience Platform - LinkedIn Destination Connector](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/social/linkedin?lang=en)
-- [Real-Time CDP B2B editionのスキーマ](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/schemas/b2b)
-- [Real-Time CDP B2B editionへのアーキテクチャのアップグレード](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/intro/rtcdpb2b-intro/b2b-architecture-upgrade)
-- [宛先ガードレール](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/guardrails)
+- [Real-Time Customer Data PlatformのB2B edition](https://experienceleague.adobe.com/ja/docs/experience-platform/rtcdp/intro/rtcdpb2b-intro/b2b-overview?lang=en)
+- [アカウントオーディエンスの作成とアクティブ化 – チュートリアルビデオ](https://experienceleague.adobe.com/ja/docs/platform-learn/tutorials/audiences/create-audiences-with-b2b-data?lang=en)
+- [アカウントオーディエンスの構築](https://experienceleague.adobe.com/ja/docs/experience-platform/segmentation/ui/account-audiences?lang=en)
+- [アカウントオーディエンスのアクティベーション](https://experienceleague.adobe.com/ja/docs/experience-platform/destinations/ui/activate/activate-account-audiences?lang=en)
+- [Adobe Experience Platform - LinkedIn Destination Connector](https://experienceleague.adobe.com/ja/docs/experience-platform/destinations/catalog/social/linkedin?lang=en)
+- [Real-Time CDP B2B editionのスキーマ](https://experienceleague.adobe.com/ja/docs/experience-platform/rtcdp/schemas/b2b)
+- [Real-Time CDP B2B editionへのアーキテクチャのアップグレード](https://experienceleague.adobe.com/ja/docs/experience-platform/rtcdp/intro/rtcdpb2b-intro/b2b-architecture-upgrade)
+- [宛先ガードレール](https://experienceleague.adobe.com/ja/docs/experience-platform/destinations/guardrails)
