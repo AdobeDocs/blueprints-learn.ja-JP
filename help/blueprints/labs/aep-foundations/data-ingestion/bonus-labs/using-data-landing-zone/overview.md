@@ -4,31 +4,29 @@ description: SAS URLを使用してAzure Storage Explorerをインストール�
 doc-type: overview-page
 solution: Experience Platform
 exl-id: d61bef25-7039-450d-a8e7-01bb12e8df7c
-source-git-commit: 0b33b2740ee7f5af73d64f217b4475650c1d28a0
+source-git-commit: df6c1852a6e0357dc9f166c88e77dcf9d334f955
 workflow-type: tm+mt
-source-wordcount: '411'
+source-wordcount: '410'
 ht-degree: 0%
-
 ---
-
 
 # データランディングゾーンの活用
 
 ## 前提条件
 
-Azure Storage Explorerをまだダウンロードしていない場合は、このラボの要件であるため、今すぐダウンロードしてください。  ダウンロードは以下のリンクから入手できます。
+Azure Storage Explorerをまだダウンロードしていない場合は、このラボの要件であるため、今すぐダウンロードしてください。  ダウンロードは以下のリンクからダウンロードできます。
 
 [Azure Storage Explorerのダウンロード](https://azure.microsoft.com/en-us/blog/microsoft-azure-data-lake-storage-adls-in-storage-explorer-public-preview/)
 
 1. アプリケーションのインストール
-1. 最初の起動時にエンドユーザー使用許諾契約書に同意する
+1. アプリケーションを初めて開いたときに、エンドユーザー使用許諾契約に同意します
 
 Azure Storage Explorerの![&#x200B; エンドユーザーライセンス契約書画面](assets/overview-end-user-license-agreement-screen.png " エンドユーザーライセンス契約書画面")
 
 
 ## Experience PlatformでのAzure Storage Explorerの設定
 
-1. Azure Storage Explorerを開き、**リソースを選択アイコン**&#x200B;をクリックし、**ADLS Gen 2 Containerまたはdirectory**&#x200B;を選択します
+1. Azure Storage Explorerを開き、**リソースを選択アイコン**&#x200B;をクリックし、**ADLS Gen2 Containerまたはdirectory**&#x200B;を選択します
 
    ![Azure Storage ExplorerのリソースとしてADLS Gen2 コンテナまたはディレクトリを選択しています](assets/overview-choose-the-resource-as-shown-above.png)
 
@@ -85,6 +83,6 @@ Azure Storage Explorerの![&#x200B; エンドユーザーライセンス契約�
 
 ![正常に接続されたData Landing Zone アカウントを示すAzure Storage Explorer](assets/overview-successfully-connected-account.png)
 
->[!TIP]
+>[!SUCCESS]
 >
 >おめでとうございます。  Azure Storage Explorerが正常に設定されました

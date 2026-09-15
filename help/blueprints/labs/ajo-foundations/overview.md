@@ -4,20 +4,18 @@ description: Adobe Adobe Journey Optimizerのアーキテクチャ、ジャー�
 doc-type: overview-page
 solution: Experience Platform
 exl-id: 0b6c3ca7-3061-4d89-a6f8-f4c6a681706a
-source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
+source-git-commit: df6c1852a6e0357dc9f166c88e77dcf9d334f955
 workflow-type: tm+mt
-source-wordcount: '233'
+source-wordcount: '272'
 ht-degree: 1%
-
 ---
-
 
 # 概要
 
 ## 学習すること
 
 1. **Adobe Journey Optimizerのアーキテクチャと機能：**
-   - AJOがAdobe Experience Platform上にネイティブに構築されている仕組みと、パーソナライゼーションスタックのどこに位置するのかを理解します
+   - AJOがAdobe Experience Platform上にネイティブに構築され、パーソナライゼーションツール間でどのように位置付けられているかを理解します
    - オーケストレーションされたリアルタイムのカスタマージャーニーを実現するコア機能をご紹介します
 1. **データストア：**
    - Real-Time Customer ProfileとAJO内のリレーショナルストアを区別します
@@ -51,8 +49,13 @@ ht-degree: 1%
 - CDP、マーケティングオートメーションなどのマーケティングテクノロジープラットフォームの利用
 
 
+## 前提条件
+
+このブートキャンプを自分のペースで進める場合は、事前に外部アカウントを2つのラボに配置する必要があります。**メールチャネルを設定**&#x200B;にはAdobeにデリゲートされたサブドメインが必要で、**Flagship phone launch**&#x200B;にはSMS資格情報が必要です。 詳しくは、[設定](setup.md)を参照してください。
+
+
 ## 概要
 
-この動画では、Adobe Journey Optimizerの概要、大規模なパーソナライゼーションとは何か、なぜ実現が難しいのか、Adobe Experience Platform上にネイティブに構築されたAJOがそうした課題にどのように対応するのかを解説します。
+この動画では、Adobe Journey Optimizerの概要、大規模なパーソナライゼーションとは何か、なぜ実現が難しいのか、そしてAJOがそれらの課題にどのように対処しているかを説明します。 AJOは、Adobe Experience Platform上にネイティブに構築されています。
 
 >[!VIDEO](https://video.tv.adobe.com/v/3486223/)

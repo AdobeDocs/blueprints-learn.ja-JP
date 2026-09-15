@@ -4,19 +4,17 @@ description: Twilio ベースのSMS チャネルとその実行ディメンシ�
 doc-type: article
 solution: Experience Platform
 exl-id: 63c994f2-4b6b-42e9-aa82-cb6697390a08
-source-git-commit: 0b33b2740ee7f5af73d64f217b4475650c1d28a0
+source-git-commit: df6c1852a6e0357dc9f166c88e77dcf9d334f955
 workflow-type: tm+mt
-source-wordcount: '659'
+source-wordcount: '676'
 ht-degree: 0%
-
 ---
-
 
 # SMS チャネルの設定
 
 ## 目標
 
-次の一連の手順では、SMS チャネルを設定します。 これは、施策を構築する際に、後で個々のラインホルダーにメッセージを送信するために必要です。
+次の手順では、SMS チャネルを設定します。 この手順は、後でキャンペーンを構築する際に、個々のラインホルダーにメッセージを送信するために必要です。
 
 
 
@@ -43,7 +41,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->この手順を開始する前に、確認済みの電話番号を持つ無料のTwilio体験版アカウントが必要です。 [twilio.com/try-twilio](https://www.twilio.com/try-twilio)にサインアップし、Twilio Console ダッシュボードでアカウント SIDと認証トークンを見つけます。
+>この手順を開始する前に、確認済みの電話番号を持つ無料のTwilio体験版アカウントが必要です。 [twilio.com/try-twilio](https://www.twilio.com/try-twilio)にサインアップし、Twilio Console ダッシュボードでアカウント SIDと認証トークンを見つけます。 完全なチュートリアルについては、Twilioの[入門ガイド &#x200B;](https://www.twilio.com/docs/usage/tutorials/how-to-use-your-free-trial-account)を参照してください。
 
 Twilio ベンダー![&#128279;](assets/configure-sms-channel-enter-api-credentials.png)のSMS API資格情報フィールド
 
@@ -51,7 +49,7 @@ Twilio ベンダー![&#128279;](assets/configure-sms-channel-enter-api-credentia
 
 ## SMS チャネル設定の作成
 
-次に、このAPI資格情報を、ジャーニーとキャンペーンが使用できるチャネル設定にマッピングします。
+このAPI資格情報を、ジャーニーとキャンペーンで使用できるチャネル設定にマッピングします。
 
 1. **チャネル** → **一般設定** → **チャネル設定**&#x200B;に移動します。
 
@@ -113,7 +111,7 @@ Twilio ベンダー![&#128279;](assets/configure-sms-channel-enter-api-credentia
 
    >[!NOTE]
    >
-   >これは、メッセージを送信する際に、Profile Target Dimensionに一致するメッセージをレコードごとに1つ配信する必要があることをOrchestrated Campaignsに伝えています。
+   >この設定では、メッセージを送信する際に、Profile Target Dimensionに一致するメッセージをレコードごとに1つ配信する必要があることをOrchestrated Campaignsに伝えています。
 
 
 
@@ -151,7 +149,7 @@ Twilio ベンダー![&#128279;](assets/configure-sms-channel-enter-api-credentia
 
    >[!CAUTION]
    >
-   >ステータスが&#x200B;**Active**&#x200B;になるまで待ちます。そうしないと、将来のラボステップが失敗します
+   >ステータスが&#x200B;**アクティブ**&#x200B;になるまで待ちます。そうしないと、今後のラボステップで失敗します
 
 
 
@@ -165,6 +163,6 @@ Twilio ベンダー![&#128279;](assets/configure-sms-channel-enter-api-credentia
 
 ## まとめ
 
-これで、SMS チャネルを正常に設定する方法を確認しました。  これはAPI ベースのSMSであるため、プロバイダーによっては、認証に別の方法を使用する場合があります。
+これで、SMS チャネルを正常に設定する方法を確認しました。  この設定はAPI ベースのSMSであるため、プロバイダーによっては、認証に別の方法を使用する場合があります。
 
 ご興味のある方は、[こちら](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/channels/sms/configure-sms/sms-configuration)をご覧ください。

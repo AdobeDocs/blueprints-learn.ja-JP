@@ -4,19 +4,17 @@ description: オーケストレーションされたキャンペーンをテス�
 doc-type: article
 solution: Experience Platform
 exl-id: e77ae8ab-f18f-4683-8fdd-ba4f4629d96c
-source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
+source-git-commit: df6c1852a6e0357dc9f166c88e77dcf9d334f955
 workflow-type: tm+mt
-source-wordcount: '667'
+source-wordcount: '660'
 ht-degree: 0%
-
 ---
-
 
 # キャンペーンのテスト
 
 ## 目標
 
-次の一連の手順では、キャンペーンをテストモードで実行し、キャンペーンを公開する前にキャンペーン機能を想定どおりに確認します。 この場合、テストモードは実際にはメールを送信しませんが、フロー全体を検証し、問題を早期に特定するのに役立ちます。
+次の一連の手順では、キャンペーンをテストモードで実行し、キャンペーンを公開する前にキャンペーンの機能を想定どおりに確認します。 この場合、テストモードではメールは送信されませんが、フロー全体を検証し、問題を早期に特定するのに役立ちます。
 
 ## ワークフローを開始
 
@@ -30,7 +28,7 @@ ht-degree: 0%
 
 
 
-2. すべてのキャンペーンアクティビティのテスト実行が開始され、結果を検証します
+2. すべてのキャンペーンアクティビティのテスト実行が開始されます。 結果の検証
 
 ![進行中のキャンペーンアクティビティのテスト実行](assets/test-the-campaign-verify-execution-results.png)
 
@@ -52,7 +50,7 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >最終的なテスト結果を確認するには、ページを数回更新する必要がある場合があります。
+   >最終的なテスト結果を確認するには、必要に応じてページを数回更新します。
 
 
 
@@ -84,7 +82,7 @@ ht-degree: 0%
 
    ![&#x200B; レポートを表示をクリックして、電子メールテストの詳細を表示します](assets/test-the-campaign-view-report-2.png)
 
-3. 電子メールテストが完了すると、結果が表示されます。 この場合、エラーは発生しません
+3. 電子メールテストが完了すると、結果が表示されます。 この場合、エラーはありません
 
 エラーのない![&#x200B; キャンペーン統計](assets/test-the-campaign-campaign-statistics-2.png)
 
@@ -98,9 +96,9 @@ ht-degree: 0%
 
 ## ワークフローを停止
 
-**停止** ボタンをクリックして、キャンペーンの&#x200B;**テストモード**&#x200B;を停止します
+キャンペーンの&#x200B;**テストモード**&#x200B;を停止するには、**停止** ボタンをクリックします
 
->[!TIP]
+>[!SUCCESS]
 >
 >両方のメールチャネル設定は同じキャンペーン内でテストされ、AEP プロファイル属性を使用することと、メールチャネル設定でTarget Dimensionを使用することとの違いが観察されました。
 >
@@ -108,6 +106,6 @@ ht-degree: 0%
 
 ## まとめ
 
-これで、作成したキャンペーンをテストして、フローと動作を把握する方法を確認しました。 ここでは、テストフローの実行時に、メールチャネル設定に様々な設定を使用する仕組みがよく理解されていました。
+これで、作成したキャンペーンをテストして、フローと動作を把握する方法を確認しました。 ここでは、テストフローの実行中に、メールチャネル設定のさまざまな設定を使用する仕組みがよく理解されていました。
 
-キャンペーンテストモード [について詳しくは、](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/campaigns/orchestrated-campaigns/launch/start-monitor-campaigns)を参照してください。
+ご興味のある方は、キャンペーンテストモード [こちら](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/campaigns/orchestrated-campaigns/launch/start-monitor-campaigns)の詳細をご覧ください。

@@ -4,13 +4,11 @@ description: UIでストリーミングデータセットをプレビューし�
 doc-type: article
 solution: Experience Platform
 exl-id: fbdb0b6b-08b6-49b8-b6ab-d59d5941c678
-source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
+source-git-commit: df6c1852a6e0357dc9f166c88e77dcf9d334f955
 workflow-type: tm+mt
-source-wordcount: '279'
+source-wordcount: '278'
 ht-degree: 0%
-
 ---
-
 
 # 検証と検証
 
@@ -56,13 +54,13 @@ ht-degree: 0%
 
 
 
-1. **拡張クエリエディター**&#x200B;の切り替えスイッチをオンにします
+1. **拡張クエリエディター**&#x200B;を有効にする切替スイッチ
 
    拡張クエリエディター切り替えが有効になっている![&#x200B; クエリエディターインターフェイス &#x200B;](assets/verification-and-validation-enhanced-query-editor-toggle.png " クエリエディターインターフェイス ")
 
 
 
-1. 次のSQL クエリを&#x200B;**Editor**&#x200B;にコピー&amp;ペーストします。 `<table_name>`を手順2で取得した値に置き換えることを忘れないでください。
+1. 次のSQL クエリをコピーして、**Editor**&#x200B;に貼り付けます。 `<table_name>`を手順2で取得した値に置き換えることを忘れないでください。
 
    ```sql
    SELECT * FROM <table_name>
@@ -88,6 +86,6 @@ ht-degree: 0%
 SELECT shippingAddress.postalCode FROM <table_name>
 ```
 
->[!TIP]
+>[!SUCCESS]
 >
 >おめでとうございます。  Real-Time Customer Profilesのサンプルセットの取り込みと作成が完了しました

@@ -4,13 +4,11 @@ description: リレーショナルスキーマフィールドをIDとしてラ�
 doc-type: article
 solution: Experience Platform
 exl-id: bfc71051-e471-4d5c-a9a7-bb6805a5acb1
-source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
+source-git-commit: df6c1852a6e0357dc9f166c88e77dcf9d334f955
 workflow-type: tm+mt
-source-wordcount: '564'
+source-wordcount: '559'
 ht-degree: 0%
-
 ---
-
 
 # Profile Target Dimension
 
@@ -18,9 +16,9 @@ ht-degree: 0%
 
 次の一連の手順では、UIを移動してスキーマを表示し、IDを設定します。 次に、プロファイルターゲットDimensionを設定します。これは、キャンペーンがターゲットとするエンティティタイプで、配信用にAEP プロファイルと照合されます。
 
-## なぜこれが重要なのか
+## この設定が重要な理由
 
-Profile Target Dimensionは、Real-Time Customer Profileとリレーショナルストア間のデータを結合する方法をAdobe Journey Optimizerに伝えるために使用されます。 この構成の成分は次のとおりです。
+Profile Target Dimensionは、Real-Time Customer Profileとリレーショナルストア間のデータを結合する方法をAdobe Journey Optimizerに伝えるために使用されます。 この設定のコンポーネントは次のとおりです。
 
 - 関係スキーマ
 - 関係スキーマからの単一フィールド
@@ -28,7 +26,7 @@ Profile Target Dimensionは、Real-Time Customer Profileとリレーショナル
 
 >[!CAUTION]
 >
->この設定がなければ、オーディエンスの読み取りや共有は発生せず、オーケストレーションされたキャンペーンからメッセージを送信することもできません
+>オーディエンスの読み取りや共有、オーケストレーションされたキャンペーンからのメッセージの送信を行う前に、この設定を行う必要があります
 
 ## IDのラベル付け
 
@@ -58,7 +56,7 @@ Profile Target Dimensionは、Real-Time Customer Profileとリレーショナル
 
 >[!NOTE]
 >
->「保存」の後、次の手順で「Profile Target Dimension」ドロップダウンに表示されるまでに数分（5分以内）かかります。
+>「保存」の後、次の手順でProfile Target Dimension ドロップダウンに表示されるまでに数分（5分以内）かかります。
 
 ## Profile Target Dimensionの作成
 
@@ -100,7 +98,7 @@ Profile Target Dimensionは、Real-Time Customer Profileとリレーショナル
 >
 >作成されたレコードの名前は、スキーマ名&#x200B;*（dep-rel: Customer Account）*&#x200B;と、ID *（customer\_id）*&#x200B;でラベル付けされたフィールドの連結です
 
->[!TIP]
+>[!SUCCESS]
 >
 >おめでとうございます。 これで、ラボでのProfile Target Dimensionの作成ステップが終了します。
 

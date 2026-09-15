@@ -4,13 +4,11 @@ description: スキーマレジストリ APIを使用して、参照スキーマ
 doc-type: article
 solution: Experience Platform
 exl-id: b3b8f480-af3b-4bf8-b74e-3842f59691b6
-source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
+source-git-commit: df6c1852a6e0357dc9f166c88e77dcf9d334f955
 workflow-type: tm+mt
-source-wordcount: '243'
+source-wordcount: '242'
 ht-degree: 0%
-
 ---
-
 
 # プラン参照IDの作成
 
@@ -57,18 +55,18 @@ ht-degree: 0%
 
 &#x200B;4. `Send` ボタンをクリックしてAPIを実行します
 
-次のような`201 Created`応答が表示されます
+次のような`201 Created`件の回答が表示されました
 
 ![201 Depを作成した後に応答を作成しました：プラン参照ID記述子](assets/create-plan-reference-identity-dep-plan-descriptor-result.png "dep: プラン参照ID記述子")
 
 >[!NOTE]
 >
->参照ID記述子は常にルックアップスキーマ（つまりsourceSchema）で定義されます
+>参照ID記述子は、常にルックアップスキーマ（つまりsourceSchema）で定義されます
 
 >[!NOTE]
 >
->参照ID記述子は、スキーマ UIから関係を作成する際に、バックエンドで自動的に作成されます。 **APIを使用してスキーマを作成する場合にのみ、明示的に作成する必要があります**
+>スキーマ UIから関係を作成すると、参照ID記述子がサーバー上に自動的に作成されます。 **APIを使用してスキーマを作成する場合にのみ、明示的に作成する必要があります**
 
->[!TIP]
+>[!SUCCESS]
 >
->すごいですね！ `dep: Lookup Plan` スキーマを`Customer Account` スキーマに関連付けるために必要なすべての記述子を作成し、バッチセグメント化中に参照できるようにしました
+>すごいですね！ `dep: Lookup Plan` スキーマを`Customer Account` スキーマに関連付け、バッチセグメント化中に参照できるようにするには、必要なすべての記述子を作成しました

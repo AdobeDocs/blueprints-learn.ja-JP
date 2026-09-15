@@ -4,13 +4,11 @@ description: スキーマレジストリ APIを使用して、プロファイル
 doc-type: article
 solution: Experience Platform
 exl-id: 78ebc5b8-d088-48e9-857f-87085a87a280
-source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
+source-git-commit: df6c1852a6e0357dc9f166c88e77dcf9d334f955
 workflow-type: tm+mt
-source-wordcount: '343'
+source-wordcount: '340'
 ht-degree: 0%
-
 ---
-
 
 # スキーマの作成
 
@@ -18,7 +16,7 @@ ht-degree: 0%
 
 >[!CAUTION]
 >
->**呼び出しを実行しません…まだ**
+>**まだ呼び出しを実行しません**
 
 1. `XDM Schema Lab -> Create Schema` フォルダーの`Step 4 - Create Customer Account Schema` API呼び出しをクリックします。
 
@@ -33,7 +31,7 @@ ht-degree: 0%
    - タイトル -> `Sample Customer Schema - <your sandbox number>`
    - 説明 – > `Sample Customer Schema - <your sandbox number>`
 
-4. 完了した以前のラボセクションから保存した`$ids`を`$ref` フィールドに入力します。[&#x200B; カスタムフィールドグループの作成](./create-custom-field-groups.md)と[&#x200B; プロファイルクラスの取得](./get-profile-class.md)。 次の項目ごとに$idを設定する必要があります。
+4. 完了した以前のラボセクションから保存した`$ids`を`$ref` フィールドに入力します。[&#x200B; カスタムフィールドグループの作成](./create-custom-field-groups.md)と[&#x200B; プロファイルクラスの取得](./get-profile-class.md)。 次の各項目に$idがあります。
 
    - クラス -> XDM個人プロファイル
    - フィールドグループ -> デモグラフィックの詳細
@@ -78,6 +76,6 @@ ht-degree: 0%
 >
 >`$id`と`$meta:altId`をどこかに保存するまで続行しないでください。  これらは今後のラボステップで必要になります
 
->[!TIP]
+>[!SUCCESS]
 >
 >**おめでとうございます！ API**&#x200B;のみを使用してスキーマを作成しました
