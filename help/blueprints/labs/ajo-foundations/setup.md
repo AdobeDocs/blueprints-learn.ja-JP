@@ -44,7 +44,7 @@ AJO Foundations ラボを開始する前に、以下の設定手順を完了し�
 
 ### デリゲートされたサブドメイン
 
-[&#x200B; メールチャネルの設定](data-stores/configure-email-channels/overview.md) ラボ – およびそれに依存するすべて（[実際のメッセージ配信](orchestrated-campaigns/message-delivery-in-action/overview.md)、[購入後の興奮](journeys/post-purchase-excitement/overview.md)、[AJO Brands](content-authoring-with-ai/overview.md)）では、メールを送信するためにAdobeにデリゲートされたサブドメインが必要です。 ドメインがまだ存在しない場合は、任意のドメインレジストラー（Namecheapなど）に登録します。 次に、そのサブドメイン（例：`email.yourdomain.com`）をAdobeにデリゲートするには、Adobeの[&#x200B; サブドメインデリゲートの手順](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/configuration/delegate-subdomains/delegate-subdomain)に従います。
+[&#x200B; メールチャネルの設定](data-stores/configure-email-channels/overview.md) ラボ – およびそれに依存するすべて（[実際のメッセージ配信](orchestrated-campaigns/message-delivery-in-action/overview.md)、[購入後の興奮](journeys/post-purchase-excitement/overview.md)、[AJO Brands](content-authoring-with-ai/overview.md)）では、メールを送信するためにAdobeにデリゲートされたサブドメインが必要です。 ドメインがまだ存在しない場合は、任意のドメインレジストラー（Namecheapなど）に登録します。 次に、そのサブドメイン（例：`email.yourdomain.com`）をAdobeにデリゲートするには、Adobeの[&#x200B; サブドメインデリゲートの手順](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/configuration/delegate-subdomains/delegate-subdomain)に従います。
 
 >[!NOTE]
 >
