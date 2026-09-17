@@ -4,15 +4,17 @@ description: Postmanを使用してWeb イベントをHubに直接送信し、�
 doc-type: article
 solution: Experience Platform
 exl-id: a8343499-b4d5-4540-8fe1-7497bc20e437
-source-git-commit: 0b33b2740ee7f5af73d64f217b4475650c1d28a0
+source-git-commit: 8b3391d41cd4a3ea6cb52d5167e627b7f6bd2c6e
 workflow-type: tm+mt
-source-wordcount: '500'
+source-wordcount: '512'
 ht-degree: 0%
-
 ---
 
-
 # Web イベントをHubに送信
+
+>[!IMPORTANT]
+>
+>このラボを開始する前に、[Postmanの設定](../../postman-setup/postman-installation.md)を完了してください。 関連する[外部宛先アクティベーションワークフロー](../use-case-1-acquisition/configure-destinations/setup-streaming-destination.md)の[webhook.site](https://webhook.site/)へのアクセスも必要です。
 
 ## Postmanを開く
 
@@ -85,9 +87,8 @@ ht-degree: 0%
    1. Any Event Edge（15分以内）
       1. 覚えておいてほしいのは、Edgeの評価で保存されたすべてのオーディエンスは、ストリーミングデータが入ってきたときにHubでも評価されるということです
    2. dep：任意のイベントストリーミング（時間内）
-1. 新しいセグメントがない場合、Webhookに何も表示されない場合があります。
-1. イベント転送は何も送信しません。
-   1. なぜでしょうか？ このイベントはEdgeではなくハブに送信されたため、イベント転送の対象として表示されず、Assuranceにも表示されません。
+1. このハブイベントはWebhookに送信されません。
+   1. イベント転送は、ハブに直接送信されるイベントではなく、Edgeに送信されるイベントを処理します。 [external-destination アクティベーションワークフロー](../use-case-1-acquisition/configure-destinations/setup-streaming-destination.md)を使用して、webhook.siteでイベントをキャプチャします。
 1. 少なくとも30分後には、次のデータセットを確認することもできます。
    1. 下のテーブル名をサンドボックスのテーブル名に変更します。  見つけるには、データセット リストに移動し、「`dest`」でフィルターを実行し、データセットを開いて、右側のパネルにテーブル名をコピーします。
 

@@ -1,0 +1,142 @@
+---
+name: use-case-pattern-page-builder
+description: Adobe Experience Platform ブループリントリポジトリの新しいユースケースパターンのコンテンツの作成ガイド。 このスキルは、新しいユースケースパターンを追加する場合、実装ガイダンスコンテンツを作成する場合、またはユーザーがブループリントサイトにパターンを追加することについて言及している場合に使用します。 完全なワークフローを処理：パターン情報の収集、正しいテンプレート構造を持つマークダウンファイルの生成、すべての相互参照ページの更新（TOC.md、overview.md）。
+source-git-commit: 8b3391d41cd4a3ea6cb52d5167e627b7f6bd2c6e
+workflow-type: tm+mt
+source-wordcount: '925'
+ht-degree: 92%
+---
+
+# ユースケースパターンページビルダー
+
+このスキルでは、Adobe Experience Platform ブループリントリポジトリの新しいユースケースパターンの作成について説明します。 完全なワークフローを処理します。ユーザーからパターン情報を収集し、正しいテンプレート構造でマークダウンコンテンツファイルを生成し、新しいパターンが見つかるように、すべての相互参照ページを更新します。
+
+開始する前に、完全なテンプレート構造と更新するページのチェックリストについて次の参照ファイルを読んでください。
+
+- `./references/pattern-template.md` - プレースホルダー値を含んだ完全なマークダウンテンプレート
+- `./references/pages-to-update.md` - パターンを追加する際に更新する必要があるページのチェックリスト
+
+## フェーズ 1：情報収集
+
+ファイルを生成する前に、必要なすべての情報を収集するようユーザーにインタビューします。 次の情報を要求し、すべての項目が提供されるか、明示的に延期されるまで、コンテンツの生成を続行しないでください。
+
+### 必要な情報
+
+1. **パターン名** – 人間が判読できるタイトル（「イベントトリガーメッセージ」など）。
+
+2. **カテゴリ** – 次のいずれか 1 つのみ。
+   - `audience-building-activation`
+   - `personalization`
+   - `campaign-management-orchestration`
+   - `analysis`
+   - `conversational-experience`
+
+3. **プライマリ機能の説明** – このパターンの動作を説明する 1 つの文（概要テーブルおよび現場の説明で使用）。
+
+4. **Adobeの主要ソリューション** – このパターンの中核を成すAdobe製品です。 Journey Optimizer、Real-Time Customer Data Platform、Experience Platform、Customer Journey Analytics、Brand Concierge、Journey Optimizer B2B edition、Real-Time CDP B2B editionなどの中から適切なものを選択します。
+
+5. **サポートされるビジネス目標** - サポート対象の既存のセットから 1 つ以上のビジネス目標 `/help/blueprints/business-objectives/` す。 それぞれに目標名、カテゴリサブフォルダー、ファイル名を含める必要があります。 コンテンツを生成する前に、参照されるファイルが存在することを確認してください。
+
+6. **戦術的なユースケースの例** - 6 ～ 10 の箇条書きシナリオで、このパターンを様々なビジネスコンテキストでどのように適用できるかを説明します。 それぞれに太字のシナリオ名と説明を指定する必要があります。
+
+7. **KPI** - KPI （名前）、説明（測定対象）、測定（式またはアプローチ）の 3 つの列を持つテーブル。
+
+8. **参照リンク** — ユースケースパターンのアプリケーションと機能をカバーする主要なExperience League ドキュメントへの参照リンク。
+
+### オプションですが推奨されます
+
+- ユースケース概要の段落（3 ～ 5 の段落。提供されていない場合は、他の情報からドラフトを作成）
+- アプリケーションの一覧と、各Adobe アプリケーションの役割の説明
+
+ユーザーがオプション項目を提供しない場合は、パターンカテゴリ、ソリューション、実行計画に基づいて、合理的なデフォルトを生成します。
+
+## フェーズ 2：コンテンツの生成
+
+次のパスにパターンマークダウンファイルを生成します。
+
+```
+/help/blueprints/use-case-patterns/{category}/{kebab-case-pattern-name}.md
+```
+
+ファイル名には、パターン名から派生した kebab-case を使用する必要があります。 例えば、「イベントトリガーメッセージ」は `event-triggered-messaging.md` になります。
+
+`./references/pattern-template.md` のテンプレートを使用して、すべてのプレースホルダー値に、収集した情報を入力します。 生成されるファイルには、テンプレートのすべてのセクションを含める必要があります。
+
+1. **YAML frontmatter** - タイトル、説明、ソリューション（コンマ区切り）、exl-id （`xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx` のような UUID プレースホルダーを生成します。公開チームが実際のプレースホルダーを割り当てます）。
+
+2. **冒頭のセクション** – 見出しの後 `# {Pattern name}` 紹介段落と「このガイドを使用して理解する」 文。
+
+3. **ユースケース パターン** – 説明の段落と実行計画。
+
+4. **ユースケースの概要** - パターンの範囲、適用されるタイミング、実行および実行しない内容、一般的な関係者を説明する 3～5 の段落。
+
+5. **主要なビジネス目標** – 各目標は、簡単な説明と KPI の概要行を含むリンクされた見出しです。
+
+6. **戦術的なユースケースの例** - 6 ～ 10 のシナリオを箇条書きで表示します。
+
+7. **主要業績評価指標** - KPI、説明、測定列を含むテーブル。
+
+8. **アプリケーション** -`[!DNL ...]` しい形式と説明を含むAdobe アプリケーションのリストです。
+
+## フェーズ 3：相互参照の更新
+
+パターンファイルを生成した後、次のファイルを更新します。 詳しいチェックリストについては、`./references/pages-to-update.md` を参照してください。
+
+### TOC.md
+
+**ファイル：** `/help/blueprints/TOC.md`
+
+正しいカテゴリセクションに新しいエントリを追加します。 カテゴリは、次の目次セクションにマッピングされます。
+
+| カテゴリ見出し | 目次セクションの見出し |
+| --- | --- |
+| `audience-building-activation` | `+ Audience Building & Activation{#audience-building-activation}` |
+| `personalization` | `+ Personalization{#personalization-patterns}` |
+| `campaign-management-orchestration` | `+ Campaign Management & Orchestration{#campaign-orchestration-patterns}` |
+| `analysis` | `+ Analysis{#analysis-patterns}` |
+| `conversational-experience` | `+ Conversational Experience{#conversational-experience-patterns}` |
+
+入力形式は次のとおりです。
+
+```
+    + [{{Pattern Title}}](/help/blueprints/use-case-patterns/{{category}}/{{filename}}.md)
+```
+
+一致するセクションの最後の既存エントリの後に新しいエントリを追加します。 正確なインデント（`+` の前の 4 つのスペース）を保持します。
+
+### 概要ページ
+
+**ファイル：** `/help/blueprints/use-case-patterns/overview.md`
+
+新しい行を正しいカテゴリ テーブルに追加します。 形式は次のとおりです。
+
+```
+| [{{Pattern Title}}]({{category}}/{{filename}}.md) | {{Primary capability description}} | [!DNL {{Solution1}}], [!DNL {{Solution2}}] |
+```
+
+一致するカテゴリ テーブルの最後の既存の行の後に新しい行を追加します。
+
+## フェーズ 4：検証
+
+すべてのファイルを作成および更新したら、次の点を確認します。
+
+1. **ビジネス目標のリンク** - パターンファイル内のすべてのビジネス目標のリンクは、`/help/blueprints/business-objectives/` の下の既存のファイルを指します。 ワークスペース検索またはファイル読み取りを使用して、各ターゲットファイルが存在することを確認します。
+
+2. **目次エントリの配置** – 新しい目次エントリは正しいカテゴリセクション内にあり、正しいインデントとパス形式を使用します。
+
+3. **概要テーブル行** – 新しい概要テーブルは正しいカテゴリテーブルにあり、既存の行と同じ列形式に従います。
+
+4. **ファイル名** - パターンファイル名はケバブケースを使用し、TOC.md と overview.md の両方で参照されるパスと一致します。
+
+5. **Frontmatter の完全性** - パターンファイルには、タイトル、説明、ソリューションおよび exl-id が YAML frontmatter に含まれています。
+
+6. **Experience League リンク** – 任意のExperience League URL が妥当かどうかをスポットチェックします（`https://experienceleague.adobe.com/ja` から開始）。
+
+検証エラーをユーザーに報告し、タスクの完了を検討する前に修正します。
+
+## 備考
+
+- テーブルおよび本文では、既存のパターンファイルの規則に従って、Adobe製品名の `[!DNL ...]` 構文を常に使用してください。
+- frontmatter の `exl-id` は、プレースホルダーの UUID にする必要があります。 パブリッシングパイプラインが実際の値を割り当てます。
+- ユーザーが一度に複数のパターンを作成する場合は、各パターンに対してフェーズ 2 ～ 4 を繰り返しますが、フェーズ 1 ですべての情報を収集します。
+- 上記のリストに存在しない新しいカテゴリが必要な場合は、TOC.md と overview.md で新しいセクションを作成する必要があることをユーザーに警告し、別の手順として処理します。

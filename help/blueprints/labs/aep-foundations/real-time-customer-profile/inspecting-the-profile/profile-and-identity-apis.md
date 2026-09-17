@@ -4,13 +4,17 @@ description: PostmanのProfile Entity APIとIdentity Service Cluster APIを使�
 doc-type: article
 solution: Experience Platform
 exl-id: 1db55c5b-fdf8-4c63-b435-477626bb0450
-source-git-commit: df6c1852a6e0357dc9f166c88e77dcf9d334f955
+source-git-commit: 8b3391d41cd4a3ea6cb52d5167e627b7f6bd2c6e
 workflow-type: tm+mt
-source-wordcount: '1143'
+source-wordcount: '1154'
 ht-degree: 1%
 ---
 
 # プロファイルとID API
+
+>[!IMPORTANT]
+>
+>プロファイルとID APIの演習を開始する前に、[Postmanの設定](../../setup.md)を完了してください。
 
 ## プロファイルエンティティ API
 

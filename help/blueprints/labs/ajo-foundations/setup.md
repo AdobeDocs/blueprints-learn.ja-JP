@@ -5,9 +5,9 @@ doc-type: article
 
 solution: Experience Platform
 exl-id: 7c1a9e3d-5b8f-4a2e-9c6d-3f7b0e4a8c2d
-source-git-commit: df6c1852a6e0357dc9f166c88e77dcf9d334f955
+source-git-commit: 8b3391d41cd4a3ea6cb52d5167e627b7f6bd2c6e
 workflow-type: tm+mt
-source-wordcount: '323'
+source-wordcount: '357'
 ht-degree: 1%
 ---
 
@@ -33,6 +33,10 @@ AJO Foundations ラボを開始する前に、以下の設定手順を完了し�
 - [Postman インストール](postman-setup/postman-installation.md)
 - [環境ファイルを読み込む](postman-setup/import-environment-file.md)
 - [API コレクションのインポート](postman-setup/import-api-collection.md)
+
+## オンデマンド対応
+
+ラボを開始する前に、上記のPostman設定を完了してください。 自習型学習者には、メールに依存するラボ用のデリゲートされたサブドメインと、Flagship phone launch lab用のSMS資格情報も必要です。
 
 ## チャネルの前提条件
 

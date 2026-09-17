@@ -7,20 +7,24 @@ exl-id: b89f77f7-96a4-4f3f-8123-c62989b64c2b
 TQID: https://experienceleague.adobe.com/eCN6p4FgOY5k3JqjlMx55YJjYMChqTiwxH-LWagH7pk
 product_v2:
   - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+    internal-label: Real-Time Customer Data Platform
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: a99add31cc9f485db119ca00426798545e6a7316
+    internal-label: Personalization
+source-git-commit: 7f0b624616480cf563142c08eb0598d1dd55d551
 workflow-type: tm+mt
-source-wordcount: 287
-ht-degree: 82%
-
+source-wordcount: '352'
+ht-degree: 67%
 ---
-
 # B2B分析、アクティベーション、マーケティングのブループリント
 
 B2B データドリブン型マーケティングでは、オーディエンスとプロファイルのアクティベーションが成功のカギです。 ただし、多くのブランドでは、依然としてチャネルファーストのアクティベーションに注力し、多くの場合、リーチやパーソナライズ機能に一貫性がありません。
@@ -31,6 +35,8 @@ B2B データドリブン型マーケティングでは、オーディエンス�
 |---|---|---|
 | **[B2B Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/b2b.html?lang=ja)** | <ul><li>B2B アカウント情報をカスタマージャーニー分析に含めます</li></ul> | <ul><li>Adobe Customer Journey Analytics</li></ul> |
 | **[B2B Audience アクティベーション](b2bactivation.md)** | <ul><li>Web、メールおよび広告チャネルにわたって B2B Audience をターゲット設定します</li></ul> | <ul><li>Adobe Real-time Customer Data Platform B2B エディション</li></ul> |
+| **[B2B オーディエンスとプロファイルのアクティブ化](b2b-audience-profile-activation.md)** | <ul><li>チャネルと宛先をまたいで、統合されたB2B プロファイルから、個人と企業のオーディエンスを作成し、活性化できます</li></ul> | <ul><li>Adobe Real-Time Customer Data Platform B2B edition</li><li>Adobe Journey Optimizer B2B edition</li><li>Adobe Customer Journey Analytics B2B edition</li></ul> |
+| **[B2B アカウントのアクティベーション](b2b-account-activation.md)** | <ul><li>ターゲティング、セールスアウトリーチ、分析のために、広告宛先やクラウドストレージにアカウントオーディエンスをアクティベートします</li></ul> | <ul><li>Adobe Real-Time Customer Data Platform B2B edition</li></ul> |
 | **[購買グループベースのマーケティングとジャーニー管理](/help/blueprints/b2b/b2b-buying-group-journeys.md)** | <ul><li>購買グループのリードを絞り込むアカウントジャーニーを設計および構築し、リードを絞り込むマーケティング活動の効果を高め、販売機会につなげる</li></ul> | <ul><li>Adobe Journey Optimizer B2B edition</li><li>Adobe Real-time Customer Data Platform B2B エディション</li><li>Adobe Marketo Engage</li></ul> |
 | **[Marketo Engage と Workfront 統合ブループリント：概要](/help/blueprints/b2b/marketo-engage-and-workfront-integration-blueprint/overview.md)** | <ul><li>B2B マーケティングキャンペーンの計画、開発および実行を最適化します</li></ul> | <ul><li>Adobe Marketo Engage</li></ul><ul><li>Adobe Workfront + Workfront Fusion</li></ul> |
 | **[Marketo Engage と Workfront 統合ブループリント：取り込みと作成](/help/blueprints/b2b/marketo-engage-and-workfront-integration-blueprint/intake-and-create.md)** | <ul><li>B2B マーケティングキャンペーンリクエストのキャンペーン開発実行への取り込みを自動化します</li></ul> | <ul><li>Adobe Marketo Engage</li></ul><ul><li>Adobe Workfront + Workfront Fusion</li></ul> |

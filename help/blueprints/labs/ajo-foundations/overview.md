@@ -4,9 +4,9 @@ description: Adobe Adobe Journey Optimizerのアーキテクチャ、ジャー�
 doc-type: overview-page
 solution: Experience Platform
 exl-id: 0b6c3ca7-3061-4d89-a6f8-f4c6a681706a
-source-git-commit: df6c1852a6e0357dc9f166c88e77dcf9d334f955
+source-git-commit: 8b3391d41cd4a3ea6cb52d5167e627b7f6bd2c6e
 workflow-type: tm+mt
-source-wordcount: '272'
+source-wordcount: '274'
 ht-degree: 1%
 ---
 
@@ -51,7 +51,7 @@ ht-degree: 1%
 
 ## 前提条件
 
-このブートキャンプを自分のペースで進める場合は、事前に外部アカウントを2つのラボに配置する必要があります。**メールチャネルを設定**&#x200B;にはAdobeにデリゲートされたサブドメインが必要で、**Flagship phone launch**&#x200B;にはSMS資格情報が必要です。 詳しくは、[設定](setup.md)を参照してください。
+このブートキャンプを自分のペースで進めている場合は、ラボを始める前に[Postmanの設定](setup.md#postman-setup)を完了してください。 **電子メールチャネルの設定**&#x200B;とその依存ラボには、Adobeにデリゲートされたサブドメインが必要です。また、**Flagship phone launch**&#x200B;にはSMS資格情報が必要です。 詳しくは、[設定](setup.md)を参照してください。
 
 
 ## 概要

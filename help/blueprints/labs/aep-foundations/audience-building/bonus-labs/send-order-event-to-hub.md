@@ -4,15 +4,17 @@ description: APIを介して注文イベントをハブにストリーミング�
 doc-type: article
 solution: Experience Platform
 exl-id: d5de39d7-7340-487a-86fa-504344daeab7
-source-git-commit: 0b33b2740ee7f5af73d64f217b4475650c1d28a0
+source-git-commit: 8b3391d41cd4a3ea6cb52d5167e627b7f6bd2c6e
 workflow-type: tm+mt
-source-wordcount: '669'
+source-wordcount: '696'
 ht-degree: 0%
-
 ---
 
-
 # Hubへの注文イベントの送信
+
+>[!IMPORTANT]
+>
+>このラボを開始する前に、[Postmanの設定](../../postman-setup/postman-installation.md)を完了してください。 また、[獲得ユースケース &#x200B;](../use-case-1-acquisition/configure-destinations/setup-streaming-destination.md)で作成された[webhook.site](https://webhook.site/)および&#x200B;**ストリーミング DEP Webhook**&#x200B;宛先へのアクセスも必要です。
 
 ## HubへのストリーミングとEdgeの比較
 
