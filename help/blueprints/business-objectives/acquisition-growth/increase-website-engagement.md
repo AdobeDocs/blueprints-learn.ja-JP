@@ -1,36 +1,34 @@
 ---
-title: Web サイトエンゲージメントの向上
-description: 関連するエクスペリエンスを通じて、サイトでの時間、セッションあたりのページ数および web コンテンツとのインタラクションを向上させる方法について説明します。
+title: Web サイトのエンゲージメントの向上
+description: 関連するエクスペリエンスを通じて、サイトでの滞在時間、セッションごとのページ、web コンテンツとのインタラクションを改善する方法を紹介します。
 solution: Experience Platform, Real-Time Customer Data Platform, Journey Optimizer
-source-git-commit: 61c2666b4546222423e85e52270b436c59d846a3
+exl-id: 41d03772-678a-4039-b470-6053c39e53aa
+source-git-commit: ccfd8c987a0090ca690e15a4bd89f4d96ec9c01f
 workflow-type: tm+mt
 source-wordcount: '192'
-ht-degree: 4%
-
+ht-degree: 10%
 ---
+# web サイトのエンゲージメントの向上
 
-
-# Web サイトエンゲージメントの向上
-
-関連するエクスペリエンスを通じて、サイトでの時間、セッションあたりのページ数、web コンテンツとのインタラクションを改善します。 この目的は、コンテンツとコンバージョンパスを通じて、訪問者のエンゲージメントと進捗を維持する、コンテキストに応じてパーソナライズされた web エクスペリエンスを提供することに重点を置いています。
+適切なエクスペリエンスを通じて、サイトでの滞在時間、セッションごとのページ、web コンテンツとのインタラクションを改善できます。 この目標は、コンテクストに即してパーソナライズされたweb エクスペリエンスを提供し、訪問者をコンテンツやコンバージョンパスに誘導して、エンゲージメントを促進するのに役立ちます。
 
 ## 主要業績評価指標
 
-次の KPI は、この目標に対する進捗状況を測定します。
+次のKPIは、この目標に対する進捗状況を測定します。
 
 | KPI | 説明 |
 | --- | --- |
-| ページ滞在時間 | 訪問者がキーページに滞在する平均時間 |
-| エンゲージメント | クリック、スクロール、コンテンツ消費を含む、インタラクションの複合スコア |
-| コンバージョン率 | 目的のアクションを完了するエンゲージメントのある訪問者の割合 |
+| ページ滞在時間 | 訪問者が主要なページに費やす平均時間 |
+| エンゲージメント | クリック数、スクロール数、コンテンツの利用状況などのインタラクションの複合スコア |
+| コンバージョン率 | 望ましいアクションを完了したエンゲージメント済みの訪問者の割合 |
 
-## 関連するユースケースパターン
+## 関連するユースケースのパターン
 
-このビジネス目標をサポートするユースケースのパターンを次に示します。
+このビジネス目標をサポートするユースケースパターンは、次のとおりです。
 
-| パターン | カテゴリ | この目的をサポートする方法 |
+| パターン | カテゴリ | この目標をどのようにサポートしているか |
 | --- | --- | --- |
-| [&#x200B; 匿名訪問者の Web Personalization](/help/blueprints/use-case-patterns/personalization/anonymous-visitor-web-personalization.md) | パーソナライズ機能 | セッション内の行動に基づいて、未識別の訪問者にパーソナライズされた web コンテンツを配信し、エンゲージメントを強化します |
-| [&#x200B; 既知の訪問者の Web/アプリPersonalization](/help/blueprints/use-case-patterns/personalization/known-visitor-web-app-personalization.md) | パーソナライズ機能 | 完全なプロファイルデータを使用して、認証済み訪問者の web およびアプリのエクスペリエンスをパーソナライズします |
-| [&#x200B; 行動に関する推奨事項 &#x200B;](/help/blueprints/use-case-patterns/personalization/behavioral-recommendation.md) | パーソナライズ機能 | 訪問者のエンゲージメントを維持するための AI 駆動型コンテンツおよび製品レコメンデーションを配信します |
-| [Brand Conciergeの会話体験 &#x200B;](/help/blueprints/use-case-patterns/conversational-experience/brand-concierge-conversational-experience.md) | 会話経験 | コンテンツ検出を通じて訪問者をガイドする、AI を活用した対話型エクスペリエンスを提供します |
+| [ 匿名訪問者の Web Personalization](/help/blueprints/use-case-patterns/personalization/anonymous-visitor-web-personalization.md) | パーソナライズ機能 | セッション中の行動にもとづいて、未特定の訪問者にパーソナライズされたweb コンテンツを提供し、エンゲージメントを向上させたい |
+| [ 既知の訪問者の Web/アプリPersonalization](/help/blueprints/use-case-patterns/personalization/known-visitor-web-app-personalization.md) | パーソナライズ機能 | プロファイルデータを完全に活用して、認証済みの訪問者に対してwebおよびアプリ体験をパーソナライズ |
+| [ 行動に関する推奨事項 ](/help/blueprints/use-case-patterns/personalization/behavioral-recommendation.md) | パーソナライズ機能 | 訪問者の関心を維持するためのAIを活用したコンテンツと商品レコメンデーションの提供 |
+| [Brand Conciergeの会話体験](/help/blueprints/use-case-patterns/conversational-experience/brand-concierge-conversational-experience.md) | 会話体験 | コンテンツの発見を通じて訪問者をガイドする、AIを活用した会話体験を提供します |

@@ -1,35 +1,33 @@
 ---
-title: マーケティング費用と ROI の最適化
-description: ターゲティング、アトリビューション、オーディエンス抑制、予算割り当てを改善して、マーケティング投資回収率（ROI）を向上させる方法を説明します。
+title: マーケティングの支出とROIの最適化
+description: ターゲティング、アトリビューション、オーディエンスの抑制、予算配分の改善を通じて、マーケティングのROIを向上させる方法を紹介します。
 solution: Experience Platform, Real-Time Customer Data Platform
-source-git-commit: 61c2666b4546222423e85e52270b436c59d846a3
+exl-id: c744898b-bcb1-4338-ab97-e2fe6d4883b8
+source-git-commit: ccfd8c987a0090ca690e15a4bd89f4d96ec9c01f
 workflow-type: tm+mt
 source-wordcount: '186'
-ht-degree: 2%
-
+ht-degree: 3%
 ---
+# マーケティングの支出とROIの最適化
 
-
-# マーケティング費用と ROI の最適化
-
-ターゲティング、アトリビューション、オーディエンス抑制、予算配分の改善を通じて、マーケティング投資回収率（ROI）を向上させます。 この目的は、オーディエンスの精度からパフォーマンス測定や継続的な再割り当て、最もパフォーマンスの高いチャネルと戦術に至るまで、マーケティング費用の最適化の全サイクルを対象としています。
+ターゲティング、アトリビューション、オーディエンスの抑制、予算配分の改善を通じて、マーケティングのROIを向上できます。 この目標は、オーディエンスの精度から、パフォーマンスの測定、継続的な再配分、最もパフォーマンスの高いチャネルと戦術まで、マーケティング費用の最適化サイクル全体に対応します。
 
 ## 主要業績評価指標
 
-次の KPI は、この目標に対する進捗状況を測定します。
+次のKPIは、この目標に対する進捗状況を測定します。
 
 | KPI | 説明 |
 | --- | --- |
-| コスト削減 | ターゲティングと抑制の改善による、マーケティング費用の無駄の削減 |
-| 顧客獲得コスト | 最適化によって削減される、新規顧客の獲得コストの合計 |
-| 増分収益 | マーケティングの最適化の取り組みに起因する追加収益 |
+| コストの削減 | ターゲティングと抑制の改善による、マーケティング費用の無駄な削減 |
+| 顧客獲得コスト | 新規顧客獲得までの総コストを最適化により削減 |
+| 売上増加 | マーケティング最適化の取り組みに起因する売上の増加 |
 
-## 関連するユースケースパターン
+## 関連するユースケースのパターン
 
-このビジネス目標をサポートするユースケースのパターンを次に示します。
+このビジネス目標をサポートするユースケースパターンは、次のとおりです。
 
-| パターン | カテゴリ | この目的をサポートする方法 |
+| パターン | カテゴリ | この目標をどのようにサポートしているか |
 | --- | --- | --- |
-| [&#x200B; 宛先へのAudience Activation](/help/blueprints/use-case-patterns/audience-building-activation/audience-activation-to-destinations.md) | オーディエンスの構築とアクティベーション | 精度の高いターゲティングと既存顧客の抑制を可能にして、メディア支出の効率を最大化 |
-| [Segment Match を使用した Audience Collaboration](/help/blueprints/use-case-patterns/audience-building-activation/audience-collaboration-segment-match.md) | オーディエンスの構築とアクティベーション | 組織間でのオーディエンスの共有と重複分析により、ターゲティングの効率を向上 |
-| [Customer Analytics &amp; Insightのジェネレーション &#x200B;](/help/blueprints/use-case-patterns/analysis/customer-analytics-insight-generation.md) | 分析 | クロスチャネルパフォーマンス分析を提供して、予算の配分と最適化の決定を通知します。 |
+| [宛先へのAudience Activation](/help/blueprints/use-case-patterns/audience-building-activation/audience-activation-to-destinations.md) | オーディエンスの構築と活用 | 正確なターゲティングと既存顧客の抑制が可能になり、メディア費用の効率を最大化 |
+| [ セグメント一致を持つAudience Collaboration](/help/blueprints/use-case-patterns/audience-building-activation/audience-collaboration-segment-match.md) | オーディエンスの構築と活用 | 組織全体でのオーディエンスの共有と重複分析を通じて、ターゲティングの効率を向上 |
+| [Customer Analytics &amp; Insight Generation](/help/blueprints/use-case-patterns/analysis/customer-analytics-insight-generation.md) | 分析 | クロスチャネルのパフォーマンス分析を通じて、予算の割り当てと最適化に関する意思決定を促進 |

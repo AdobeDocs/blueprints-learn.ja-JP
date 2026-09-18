@@ -1,38 +1,36 @@
 ---
-title: パーソナライズされた顧客体験の提供
-description: 個々の環境設定、行動、ライフサイクルステージに合わせてコンテンツ、オファーおよびメッセージを調整する方法を説明します。
+title: パーソナライズされた顧客体験の実現
+description: 個人の好み、行動、ライフサイクルのステージに合わせて、コンテンツ、オファー、メッセージを調整する方法を学びましょう。
 solution: Experience Platform, Real-Time Customer Data Platform, Journey Optimizer
-source-git-commit: 61c2666b4546222423e85e52270b436c59d846a3
+exl-id: 442567ac-ee71-4907-841b-1fd06e1522ae
+source-git-commit: ccfd8c987a0090ca690e15a4bd89f4d96ec9c01f
 workflow-type: tm+mt
 source-wordcount: '233'
-ht-degree: 3%
-
+ht-degree: 12%
 ---
+# パーソナライズされた顧客体験の実現
 
-
-# パーソナライズされた顧客体験の提供
-
-コンテンツ、オファーおよびメッセージングを、個々の環境設定、行動およびライフサイクルステージに合わせて調整します。 この目的は、リアルタイムの顧客データと意思決定を使用して、カスタマージャーニーのあらゆるチャネルとタッチポイントにわたって関連性の高い、コンテキストに沿ったエクスペリエンスを提供することに焦点を当てています。
+個人の好み、行動、ライフサイクルのステージに合わせて、コンテンツ、オファー、メッセージを調整。 この目標は、リアルタイムの顧客データを利用して、カスタマージャーニーのあらゆるチャネルや顧客接点をまたいで、適切でコンテキストに即したエクスペリエンスを提供することを目的としています。
 
 ## 主要業績評価指標
 
-次の KPI は、この目標に対する進捗状況を測定します。
+次のKPIは、この目標に対する進捗状況を測定します。
 
 | KPI | 説明 |
 | --- | --- |
-| エンゲージメント | チャネル全体で顧客インタラクションの頻度と深度を増やす |
-| コンバージョン率 | パーソナライズされたコンテンツとオファーを通じたコンバージョンの向上 |
-| 顧客満足度（CSAT） | パーソナライズされたエクスペリエンスの品質を反映した顧客満足度スコア |
+| エンゲージメント | チャネルをまたいだ顧客インタラクションの頻度と深さの向上 |
+| コンバージョン率 | パーソナライズされたコンテンツとオファーによるコンバージョンの向上 |
+| 顧客満足度（CSAT） | パーソナライズされた顧客体験の質を反映した顧客満足度スコア |
 
-## 関連するユースケースパターン
+## 関連するユースケースのパターン
 
-このビジネス目標をサポートするユースケースのパターンを次に示します。
+このビジネス目標をサポートするユースケースパターンは、次のとおりです。
 
-| パターン | カテゴリ | この目的をサポートする方法 |
+| パターン | カテゴリ | この目標をどのようにサポートしているか |
 | --- | --- | --- |
-| [&#x200B; 匿名訪問者の Web Personalization](/help/blueprints/use-case-patterns/personalization/anonymous-visitor-web-personalization.md) | パーソナライズ機能 | セッション内の行動シグナルに基づいて、未識別の訪問者にパーソナライズされた web コンテンツを配信します |
-| [&#x200B; 既知の訪問者の Web/アプリPersonalization](/help/blueprints/use-case-patterns/personalization/known-visitor-web-app-personalization.md) | パーソナライズ機能 | 完全なプロファイルとセグメントデータを使用して、認証済み訪問者の web およびアプリのエクスペリエンスをパーソナライズします |
-| [Offer Decisioning](/help/blueprints/use-case-patterns/personalization/offer-decisioning.md) | パーソナライズ機能 | 一元化された決定ロジックと顧客プロファイルデータを使用して、チャネル全体で次に最適なオファーを選択します |
-| [&#x200B; イベントトリガーメッセージ &#x200B;](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md) | キャンペーンの管理とオーケストレーション | 顧客の行動に対して、コンテキストに応じたパーソナライズされたメッセージをリアルタイムで提供します。 |
-| [Decisioning を使用したクロスチャネルジャーニー](/help/blueprints/use-case-patterns/campaign-management-orchestration/cross-channel-journey-with-decisioning.md) | キャンペーンの管理とオーケストレーション | リアルタイムのコンテンツと Offer Decisioning を使用して、複数のステップから成るパーソナライズされたジャーニーを編成します |
-| [Brand Conciergeの会話体験 &#x200B;](/help/blueprints/use-case-patterns/conversational-experience/brand-concierge-conversational-experience.md) | 会話経験 | 顧客のコンテキストに基づいて、AI を活用し、パーソナライズされた対話型エクスペリエンスを提供します |
+| [ 匿名訪問者の Web Personalization](/help/blueprints/use-case-patterns/personalization/anonymous-visitor-web-personalization.md) | パーソナライズ機能 | セッション中の行動シグナルにもとづいて、未特定の訪問者にパーソナライズされたweb コンテンツを提供する |
+| [ 既知の訪問者の Web/アプリPersonalization](/help/blueprints/use-case-patterns/personalization/known-visitor-web-app-personalization.md) | パーソナライズ機能 | プロファイルとセグメントデータを活用して、認証済みの訪問者に対してwebおよびアプリ体験をパーソナライズします |
+| [Offer Decisioning](/help/blueprints/use-case-patterns/personalization/offer-decisioning.md) | パーソナライズ機能 | 一元化された意思決定ロジックと顧客プロファイルデータを利用して、チャネルをまたいで次善のオファーを選択 |
+| [ イベントトリガーメッセージ ](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md) | キャンペーン管理とオーケストレーション | 顧客の行動に合わせて、コンテクストに即してパーソナライズされたメッセージをリアルタイムで配信 |
+| [Decisioning を使用したクロスチャネルジャーニー](/help/blueprints/use-case-patterns/campaign-management-orchestration/cross-channel-journey-with-decisioning.md) | キャンペーン管理とオーケストレーション | リアルタイムのコンテンツとオファー決定により、マルチステップのパーソナライズされたジャーニーを編成 |
+| [Brand Conciergeの会話体験](/help/blueprints/use-case-patterns/conversational-experience/brand-concierge-conversational-experience.md) | 会話体験 | 顧客のコンテキストに基づいて、AIを活用し、パーソナライズされた会話体験を提供する |

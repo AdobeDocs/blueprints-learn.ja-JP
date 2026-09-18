@@ -1,36 +1,34 @@
 ---
 title: 顧客エンゲージメントの向上
-description: すべてのデジタルタッチポイントと物理タッチポイントで、インタラクションの頻度と深度を上げる方法を説明します。
+description: オンラインとオフラインのあらゆる顧客接点をまたいで、顧客とのやり取りの頻度を高め、詳細な情報を提供する方法を学びましょう。
 solution: Experience Platform, Real-Time Customer Data Platform, Journey Optimizer
-source-git-commit: 61c2666b4546222423e85e52270b436c59d846a3
+exl-id: 9a2143c7-f962-4651-886a-a4be6ceff3fc
+source-git-commit: ccfd8c987a0090ca690e15a4bd89f4d96ec9c01f
 workflow-type: tm+mt
 source-wordcount: '190'
-ht-degree: 3%
-
+ht-degree: 11%
 ---
-
-
 # 顧客エンゲージメントの向上
 
-すべてのデジタルタッチポイントと物理的タッチポイントで、インタラクションの頻度と深度を高めます。 この目的は、チャネルをまたいでブランドとの関係をより深め、より頻繁にエンゲージメントを促進する、関連性の高いタイムリーなインタラクションを提供することに焦点を当てています。
+あらゆるデジタルおよび物理的な顧客接点をまたいで、インタラクションの頻度と深さを向上させましょう。 この目標は、チャネルをまたいで、より深い関係と、より頻繁なエンゲージメントを促進する、関連性の高いタイムリーなインタラクションを提供することに重点を置いています。
 
 ## 主要業績評価指標
 
-次の KPI は、この目標に対する進捗状況を測定します。
+次のKPIは、この目標に対する進捗状況を測定します。
 
 | KPI | 説明 |
 | --- | --- |
-| エンゲージメント | チャネル間のインタラクションの頻度、深さ、幅の複合尺度 |
-| ページ滞在時間 | 訪問者が web コンテンツの操作に費やした平均時間 |
-| 開封率 | アウトバウンドコミュニケーションとのエンゲージメントを示すメールとメッセージの開封率 |
+| エンゲージメント | チャネルをまたいだインタラクションの頻度、深さ、幅広さの複合メジャー |
+| ページ滞在時間 | 訪問者がweb コンテンツを利用する平均時間 |
+| 開封率 | アウトバウンドコミュニケーションへのエンゲージメントを示す、電子メールとメッセージの開封率 |
 
-## 関連するユースケースパターン
+## 関連するユースケースのパターン
 
-このビジネス目標をサポートするユースケースのパターンを次に示します。
+このビジネス目標をサポートするユースケースパターンは、次のとおりです。
 
-| パターン | カテゴリ | この目的をサポートする方法 |
+| パターン | カテゴリ | この目標をどのようにサポートしているか |
 | --- | --- | --- |
-| [&#x200B; 既知の訪問者の Web/アプリPersonalization](/help/blueprints/use-case-patterns/personalization/known-visitor-web-app-personalization.md) | パーソナライズ機能 | 認証済み訪問者のエンゲージメントの深さを増すパーソナライズされた web およびアプリエクスペリエンスを提供します |
-| [&#x200B; バッチ送信メッセージの有効化 &#x200B;](/help/blueprints/use-case-patterns/campaign-management-orchestration/batch-outbound-message-activation.md) | キャンペーンの管理とオーケストレーション | メール、SMS、プッシュチャネルをまたいでターゲットバッチキャンペーンを通じてエンゲージメントを促進します |
-| [&#x200B; 複数ステップの調整されたジャーニー](/help/blueprints/use-case-patterns/campaign-management-orchestration/multi-step-orchestrated-journey.md) | キャンペーンの管理とオーケストレーション | パーソナライズされたコンテンツとタイミングを使用したマルチタッチエンゲージメントジャーニーを通じて顧客をガイドします |
-| [Brand Conciergeの会話体験 &#x200B;](/help/blueprints/use-case-patterns/conversational-experience/brand-concierge-conversational-experience.md) | 会話経験 | AI を活用した対話型インタラクションにより、エンゲージメントの深度を増やす |
+| [ 既知の訪問者の Web/アプリPersonalization](/help/blueprints/use-case-patterns/personalization/known-visitor-web-app-personalization.md) | パーソナライズ機能 | 認証された訪問者に対して、パーソナライズされたweb体験とアプリ体験を提供し、エンゲージメントを強化 |
+| [ バッチ送信メッセージの有効化 ](/help/blueprints/use-case-patterns/campaign-management-orchestration/batch-outbound-message-activation.md) | キャンペーン管理とオーケストレーション | 電子メール、SMS、プッシュチャネルをまたいでターゲットを絞ったバッチキャンペーンにより、エンゲージメントを促進 |
+| [ 複数ステップの調整されたジャーニー](/help/blueprints/use-case-patterns/campaign-management-orchestration/multi-step-orchestrated-journey.md) | キャンペーン管理とオーケストレーション | パーソナライズされたコンテンツとタイミングで、マルチタッチエンゲージメントジャーニーを通じて顧客を誘導します |
+| [Brand Conciergeの会話体験](/help/blueprints/use-case-patterns/conversational-experience/brand-concierge-conversational-experience.md) | 会話体験 | AIを活用した対話型インタラクションで、エンゲージメントの深さを向上 |
