@@ -30,4 +30,4 @@ ht-degree: 10%
 | --- | --- | --- |
 | [Offer Decisioning](/help/blueprints/use-case-patterns/personalization/offer-decisioning.md) | パーソナライズ機能 | 顧客価値とエンゲージメント履歴にもとづいて、パーソナライズされたロイヤルティオファーと特典を提供 |
 | [Decisioning を使用したクロスチャネルジャーニー](/help/blueprints/use-case-patterns/campaign-management-orchestration/cross-channel-journey-with-decisioning.md) | キャンペーン管理とオーケストレーション | チャネルをまたいでパーソナライズされた意思決定を行い、ロイヤルティジャーニーを構築して、エンゲージメントを強化 |
-| [ 複数ステップの調整されたジャーニー](/help/blueprints/use-case-patterns/campaign-management-orchestration/multi-step-orchestrated-journey.md) | キャンペーン管理とオーケストレーション | パーソナライズされた顧客接点を利用して、マルチタッチロイヤルティとリテンションジャーニーを通じて顧客を誘導できます |
+| [&#x200B; 複数ステップの調整されたジャーニー](/help/blueprints/use-case-patterns/campaign-management-orchestration/multi-step-orchestrated-journey.md) | キャンペーン管理とオーケストレーション | パーソナライズされた顧客接点を利用して、マルチタッチロイヤルティとリテンションジャーニーを通じて顧客を誘導できます |

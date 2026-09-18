@@ -30,5 +30,5 @@ ht-degree: 10%
 | --- | --- | --- |
 | [Offer Decisioning](/help/blueprints/use-case-patterns/personalization/offer-decisioning.md) | パーソナライズ機能 | 顧客プロファイルと適格性にもとづいて、チャネルをまたいで次善のオファーを選択し、アップセルとクロスセルを促進 |
 | [Decisioning を使用したクロスチャネルジャーニー](/help/blueprints/use-case-patterns/campaign-management-orchestration/cross-channel-journey-with-decisioning.md) | キャンペーン管理とオーケストレーション | リアルタイムの意思決定により、マルチステップのジャーニーを調整し、最適なクロスセルとアップセルオファーを提供 |
-| [ 行動に関する推奨事項 ](/help/blueprints/use-case-patterns/personalization/behavioral-recommendation.md) | パーソナライズ機能 | 購入と閲覧の行動に基づいて、AIを活用した商品レコメンデーションを生成 |
-| [ 既知の訪問者の Web/アプリPersonalization](/help/blueprints/use-case-patterns/personalization/known-visitor-web-app-personalization.md) | パーソナライズ機能 | 認証された訪問者にパーソナライズされた商品レコメンデーションとプロモーションを提供する |
+| [&#x200B; 行動に関する推奨事項 &#x200B;](/help/blueprints/use-case-patterns/personalization/behavioral-recommendation.md) | パーソナライズ機能 | 購入と閲覧の行動に基づいて、AIを活用した商品レコメンデーションを生成 |
+| [&#x200B; 既知の訪問者の Web/アプリPersonalization](/help/blueprints/use-case-patterns/personalization/known-visitor-web-app-personalization.md) | パーソナライズ機能 | 認証された訪問者にパーソナライズされた商品レコメンデーションとプロモーションを提供する |
