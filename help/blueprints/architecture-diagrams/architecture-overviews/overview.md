@@ -15,7 +15,7 @@ ht-degree: 0%
 | ダイアグラム | 説明 |
 | --- | --- |
 | [Adobe Experience Cloud](experience-cloud.md) | Adobe Experience Cloudのアプリケーションとサービスが、Adobe Experience Platformの基盤にどのように統合されているのかを示す、エンタープライズアーキテクチャ |
-| [Adobe Experience Platformとアプリケーション ](platform-applications.md) | Adobe Experience PlatformとAdobe Experience Cloud製品の連携 |
+| [Adobe Experience Platformとアプリケーション &#x200B;](platform-applications.md) | Adobe Experience PlatformとAdobe Experience Cloud製品の連携 |
 | [Adobe Experience Platform データフロー](platform-data-flow.md) | Adobe Experience Platformとの間のデータの取り込みおよび出力パス |
-| [Adobe Experience Platformとアプリケーションのガードレール ](guardrails.md) | Adobe Experience Platformおよびアプリケーションのシステムの制約、パフォーマンスへの期待、待ち時間のガードレール |
+| [Adobe Experience Platformとアプリケーションのガードレール &#x200B;](guardrails.md) | Adobe Experience Platformおよびアプリケーションのシステムの制約、パフォーマンスへの期待、待ち時間のガードレール |
 | [Adobe Experience Platform Web SDKとEdge Network](websdk.md) | Web SDKとEdge Networkのデータ収集フロー |

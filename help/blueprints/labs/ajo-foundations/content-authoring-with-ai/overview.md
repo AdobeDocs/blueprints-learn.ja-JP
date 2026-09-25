@@ -19,13 +19,13 @@ ht-degree: 4%
 >以下のラボは、このラボを開始する前に完了している必要があります
 
 - **Data Stores — リレーショナルストアの動作** **—>** [Profile Target Dimension](../data-stores/relational-store-in-action/profile-target-dimension.md)
-- **データストア – メールチャネルの設定 – >** [ リレーショナル用の設定](../data-stores/configure-email-channels/configure-for-relational.md)
+- **データストア – メールチャネルの設定 – >** [&#x200B; リレーショナル用の設定](../data-stores/configure-email-channels/configure-for-relational.md)
 
 ラボを完了していない場合は、続行する前に今すぐ完了してください。
 
 >[!CAUTION]
 >
->このラボでは、サンドボックスでAdobeにデリゲートされたサブドメインが必要です。 自分のペースで進めている場合は、[ セットアップ ](../setup.md)を参照してください。
+>このラボでは、サンドボックスでAdobeにデリゲートされたサブドメインが必要です。 自分のペースで進めている場合は、[&#x200B; セットアップ &#x200B;](../setup.md)を参照してください。
 
 ## ラボの概要
 
@@ -117,7 +117,7 @@ AJOのブランドは、一意のID （Connection 5Gなど）を表します。 
 
 UIについて詳しくは、それぞれのUIを選択してください。 このラボでは、各セクションについて詳しく説明します。
 
-![ ナビゲーションメニューのAssets、コンテンツテンプレート、フラグメントなどのコンテンツ作成ツール ](assets/overview-content-creation-tools-navigation-menu.png)
+![&#x200B; ナビゲーションメニューのAssets、コンテンツテンプレート、フラグメントなどのコンテンツ作成ツール &#x200B;](assets/overview-content-creation-tools-navigation-menu.png)
 
 ## 概要
 

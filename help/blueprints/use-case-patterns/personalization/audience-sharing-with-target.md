@@ -46,7 +46,7 @@ ht-degree: 32%
 ### Web/Mobile SDKまたは[!DNL Edge Network] APIを使用した実装パターン 1 - [!DNL Edge Network] （推奨されるアプローチ）
 
 * Web/Mobile SDKで[!DNL Edge Network]を使用しています。 リアルタイムのエッジセグメント化には、Web／Mobile SDK または Edge API 実装アプローチが必要です。
-* [SDK ベースの実装については、Experience Platform Webおよびモバイル SDK ブループリント ](/help/blueprints/architecture-diagrams/architecture-overviews/websdk.md)を参照してください。
+* [SDK ベースの実装については、Experience Platform Webおよびモバイル SDK ブループリント &#x200B;](/help/blueprints/architecture-diagrams/architecture-overviews/websdk.md)を参照してください。
 * モバイル SDKで使用するには、[Adobe Journey Optimizer - Decisioning拡張機能](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer-decisioning/)をインストールする必要があります。
 * [Edge プロファイルを使用したAdobe TargetのAPI ベースの実装については、 [!DNL Edge Network] Server API](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/overview.html?lang=ja)を参照してください。
 

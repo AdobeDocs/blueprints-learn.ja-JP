@@ -42,4 +42,4 @@ Adobe Customer Journey Analyticsは、複数のインタラクションチャネ
 * コンバージョンおよびエンゲージメント向上につながったキャンペーン
 * セルフサービスエクスペリエンスを最適化するためのツール使用状況分析
 
-Customer Journey Analyticsのユースケースの完全なリストについては、[Customer Journey Analyticsのユースケースに関するドキュメント ](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/cja-usecases.html?lang=ja)を参照してください。
+Customer Journey Analyticsのユースケースの完全なリストについては、[Customer Journey Analyticsのユースケースに関するドキュメント &#x200B;](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/cja-usecases.html?lang=ja)を参照してください。

@@ -21,7 +21,7 @@ ht-degree: 0%
 1. 左側のパネルで「イベント転送」をクリックします
 2. 「New Property」をクリックして
 
-   ![新しいプロパティボタンが強調表示されたイベント転送セクション ](assets/create-property-new-property-button.png "新しいイベント転送プロパティを作成")
+   ![新しいプロパティボタンが強調表示されたイベント転送セクション &#x200B;](assets/create-property-new-property-button.png "新しいイベント転送プロパティを作成")
 
 3. 次の数式を使用してプロパティ名を更新します：`Event Forward Property SB + [sandbox number]`。 最終名称は次のようになります。**イベント転送プロパティ SB01**
 
@@ -33,13 +33,13 @@ ht-degree: 0%
 
 1. 作成したイベント転送プロパティをクリックします
 
-   ![新しく作成されたプロパティがハイライト表示されたイベント転送プロパティのリスト ](assets/create-property-open-new-property.png " イベントプロパティを開く")
+   ![新しく作成されたプロパティがハイライト表示されたイベント転送プロパティのリスト &#x200B;](assets/create-property-open-new-property.png " イベントプロパティを開く")
 
 
 
 2. 以下のような画面が表示されます。  **拡張機能**&#x200B;をクリックします。
 
-   「拡張機能」タブが強調表示された![ イベント転送プロパティの概要画面](assets/create-property-click-extensions-tab.png)
+   「拡張機能」タブが強調表示された![&#x200B; イベント転送プロパティの概要画面](assets/create-property-click-extensions-tab.png)
 
 
 
@@ -49,13 +49,13 @@ ht-degree: 0%
 5. **Adobe Cloud Connector** カードをクリックします
 6. 右側のパネルで「**Install**」ボタンをクリックします
 
-![Adobe Cloud Connector カードとインストールボタンがハイライト表示された拡張機能カタログ ](assets/create-property-install-cloud-connector-extension.png)
+![Adobe Cloud Connector カードとインストールボタンがハイライト表示された拡張機能カタログ &#x200B;](assets/create-property-install-cloud-connector-extension.png)
 
 
 
 インストールをクリックすると、次に示すように、プロパティの「インストール済み」拡張機能の下に拡張機能が表示されます
 
-![Adobe Cloud Connector拡張機能が正常にインストールされたことを示すインストール済み拡張機能リスト ](assets/create-property-extension-installed-confirmation.png "完全にインストールされた拡張機能")
+![Adobe Cloud Connector拡張機能が正常にインストールされたことを示すインストール済み拡張機能リスト &#x200B;](assets/create-property-extension-installed-confirmation.png "完全にインストールされた拡張機能")
 
 ## データ要素を作成
 
@@ -67,13 +67,13 @@ ht-degree: 0%
 
 
 
-   ![ データ要素のリンクがハイライト表示された左パネルのナビゲーション ](assets/create-property-navigate-to-data-elements.png " データ要素に移動")
+   ![&#x200B; データ要素のリンクがハイライト表示された左パネルのナビゲーション &#x200B;](assets/create-property-navigate-to-data-elements.png " データ要素に移動")
 
 
 
 2. 「**新しいデータ要素を作成**」ボタンをクリックします
 
-   ![新しいデータ要素を作成ボタンが強調表示されたデータ要素ページ ](assets/create-property-create-new-data-element-button.png "新しいデータ要素を作成")
+   ![新しいデータ要素を作成ボタンが強調表示されたデータ要素ページ &#x200B;](assets/create-property-create-new-data-element-button.png "新しいデータ要素を作成")
 
 
 
@@ -85,13 +85,13 @@ ht-degree: 0%
    | 拡張機能 | コア |
    | データ要素タイプ | カスタムコード |
 
-   ![ データ要素の設定（名前、拡張機能、データ要素タイプのフィールドが設定されている） ](assets/create-property-data-element-config-step-1.png " データ要素の設定")
+   ![&#x200B; データ要素の設定（名前、拡張機能、データ要素タイプのフィールドが設定されている） &#x200B;](assets/create-property-data-element-config-step-1.png " データ要素の設定")
 
 
 
 4. ボタン **エディターを開く**&#x200B;をクリックして、次のカスタムコードを追加します。
 
-   ![ カスタムコード用に「エディターを開く」ボタンがハイライト表示されたデータ要素の設定](assets/create-property-open-custom-code-editor.png " エディターを開く")
+   ![&#x200B; カスタムコード用に「エディターを開く」ボタンがハイライト表示されたデータ要素の設定](assets/create-property-open-custom-code-editor.png " エディターを開く")
 
 
 
@@ -120,7 +120,7 @@ ht-degree: 0%
 
 完了すると、データ要素が追加されたことを確認する次の画面が表示されます。
 
-![新しく保存されたデータ要素がプロパティに追加されたことを示すデータ要素リスト ](assets/create-property-data-element-saved-confirmation.png)
+![新しく保存されたデータ要素がプロパティに追加されたことを示すデータ要素リスト &#x200B;](assets/create-property-data-element-saved-confirmation.png)
 
 
 ## ルールの作成
@@ -136,19 +136,19 @@ ht-degree: 0%
 
 1. 左側のパネルで「**ルール**」をクリックします
 
-   ![ ルール リンクがハイライト表示された左側のレール ナビゲーション ](assets/create-property-navigate-to-rules.png)
+   ![&#x200B; ルール リンクがハイライト表示された左側のレール ナビゲーション &#x200B;](assets/create-property-navigate-to-rules.png)
 
 
 
 2. 次に、**新しいルールの作成**&#x200B;をクリックします
 
-   ![新しいルールを作成ボタンが強調表示されたルールページ ](assets/create-property-new-rule-button.png)
+   ![新しいルールを作成ボタンが強調表示されたルールページ &#x200B;](assets/create-property-new-rule-button.png)
 
 
 
 3. 次の数式を使用してルール名を更新します：`"EF Rule SB" + [your sandbox number]` （EF ルール SB01）。 次に示すように、ブラウザーウィンドウの右上にサンドボックス番号が表示されます。
 
-   ![ ブラウザーウィンドウの右上隅に、ルール名](assets/create-property-sandbox-number-location.png)で使用されているサンドボックス番号が表示されています
+   ![&#x200B; ブラウザーウィンドウの右上隅に、ルール名](assets/create-property-sandbox-number-location.png)で使用されているサンドボックス番号が表示されています
 
 4. 完了したら、**保存**&#x200B;をクリックします
 
@@ -156,7 +156,7 @@ ht-degree: 0%
    >
    >ルール名が`"EF Rule SB" + [sandbox number]`の数式パターンに従っていることを確認してください
 
-   ![EF ルール サンドボックスの名前付けパターンで入力されたルール名フィールド ](assets/create-property-add-rule-name.png " ルールに名前を追加")
+   ![EF ルール サンドボックスの名前付けパターンで入力されたルール名フィールド &#x200B;](assets/create-property-add-rule-name.png " ルールに名前を追加")
 
 
 
@@ -175,7 +175,7 @@ ht-degree: 0%
 1. ブラウザーの新しいタブで次のリンクを開きます – > [https://webhook.site](https://webhook.site/)
 2. 表示された一意のURLをコピーし、安全な場所に保存します
 
-   コピー用に一意のURLがハイライト表示された![Webhook.site ページ ](assets/create-property-webhooksite-copy-url.png)
+   コピー用に一意のURLがハイライト表示された![Webhook.site ページ &#x200B;](assets/create-property-webhooksite-copy-url.png)
 
 
 
@@ -188,11 +188,11 @@ ht-degree: 0%
 | メソッド | 投稿 |
 | URL | ストリーミング宛先の設定に使用したのと同じWebhook URLを使用します。 ブラウザーで新しいタブを開き、「宛先」/「参照」に移動すると、見つけることができます |
 | 本文 | Raw |
-| Body Data | \{ &quot;data&quot;: \{ &quot;event&quot;: &quot;\{\{Data Object\}}&quot; } } |
+| Body Data | \{ &quot;data&quot;: \{ &quot;event&quot;: &quot;\{\{Data Object\}&#x200B;}&quot; } } |
 
 >[!NOTE]
 >
->ここで参照されている\{{Data Object\}\}は、前に作成したデータ要素です。 ここで、下流システムの要件は、イベントオブジェクトをデータオブジェクトにラップすることでした。 ここにフォーマットを入力してください。
+>ここで参照されている\{&#x200B;{Data Object\}\}は、前に作成したデータ要素です。 ここで、下流システムの要件は、イベントオブジェクトをデータオブジェクトにラップすることでした。 ここにフォーマットを入力してください。
 >
 >\{\{Data Object\}\}を複数のフィールド（ページ名、購入など）に分割した場合、各フィールドを目的の場所に配置するJSON構造を変換して、宛先の一致をより詳細に制御できます。
 
@@ -222,13 +222,13 @@ ht-degree: 0%
 
 1. 左側のパネルで「**公開フロー**」をクリックします
 
-   ![公開フローのリンクがハイライト表示された左パネルのナビゲーション ](assets/create-property-navigate-to-publishing-flow.png "公開フローに移動")
+   ![公開フローのリンクがハイライト表示された左パネルのナビゲーション &#x200B;](assets/create-property-navigate-to-publishing-flow.png "公開フローに移動")
 
 
 
 2. 「**ライブラリを追加**」ボタンをクリック
 
-   ライブラリを追加ボタンがハイライト表示された![公開フローページ ](assets/create-property-add-library-button.png " ライブラリを追加")
+   ライブラリを追加ボタンがハイライト表示された![公開フローページ &#x200B;](assets/create-property-add-library-button.png " ライブラリを追加")
 
 
 

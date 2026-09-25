@@ -48,7 +48,7 @@ ht-degree: 0%
 
 4. イベントカードの上の時間を「任意の時間」から「最後の時間」に変更し、値を6日に変更します
 
-   ![ イベント時間ウィンドウを「過去6か月間」に変更](assets/option-1-using-audiences-to-aggregate-change-time-to-last-6-months.png)
+   ![&#x200B; イベント時間ウィンドウを「過去6か月間」に変更](assets/option-1-using-audiences-to-aggregate-change-time-to-last-6-months.png)
 
 
 
@@ -77,13 +77,13 @@ ht-degree: 0%
 
 1. ハイパーリンクをクリックせずに、オーディエンスリスト UIの行を選択すると、先ほど作成した行がハイライト表示されます。 ハイライト表示されたら、「コピー」をクリックします。
 
-   ![ オーディエンス行を選択し、「](assets/option-1-using-audiences-to-aggregate-select-row-and-click-copy.png)」をクリックします
+   ![&#x200B; オーディエンス行を選択し、「](assets/option-1-using-audiences-to-aggregate-select-row-and-click-copy.png)」をクリックします
 
 
 
 2. コピーをクリックして編集します。  イベントカードをクリックし、合計を平均に変更します。 「以上」を「以上」に、値を「20」に変更します。 説明に疑似コードをコピーします。
 
-   ![ オーディエンスの説明に疑似コードをコピー](assets/option-1-using-audiences-to-aggregate-copy-pseudo-code-into-description.png)
+   ![&#x200B; オーディエンスの説明に疑似コードをコピー](assets/option-1-using-audiences-to-aggregate-copy-pseudo-code-into-description.png)
 
 
 
@@ -108,7 +108,7 @@ ht-degree: 0%
 
 1. オーディエンス / Experience Platformをクリックします。 「プラン名」の横に、「請求使用量合計」 > 140 GBおよび「請求使用量平均」 >= 20 GBをドラッグします。
 
-   ![ プラン名](assets/option-1-using-audiences-to-aggregate-20-gb-next-to-plan-name.png)の横にある請求使用オーディエンスをドラッグします
+   ![&#x200B; プラン名](assets/option-1-using-audiences-to-aggregate-20-gb-next-to-plan-name.png)の横にある請求使用オーディエンスをドラッグします
 
 
 
@@ -126,7 +126,7 @@ ht-degree: 0%
 
 1. **プラン名（プラン名）**&#x200B;をXDM個人プロファイル/Devbc/プラン詳細>**プラン名**&#x200B;に置き換えます
 
-   ![ プラン名（プラン名）を非正規化されたプラン名フィールドに置き換える](assets/option-1-using-audiences-to-aggregate-replace-denormalized-plan-name.png)
+   ![&#x200B; プラン名（プラン名）を非正規化されたプラン名フィールドに置き換える](assets/option-1-using-audiences-to-aggregate-replace-denormalized-plan-name.png)
 
    >[!NOTE]
    >

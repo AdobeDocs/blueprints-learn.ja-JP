@@ -34,4 +34,4 @@ B2B データドリブン型マーケティングでは、オーディエンス�
 | ダイアグラム | 説明 |
 | --- | --- |
 | [B2B オーディエンスとプロファイルのアクティブ化](b2b-audience-profile-activation.md) | Real-Time Customer Data Platform B2B editionを利用して、アカウントベースおよびピープルベースのオーディエンスを活用しましょう |
-| [B2B アカウントのアクティベーション ](b2b-account-activation.md) | 広告やファイルベースの配信先を通じたB2B アカウントのターゲティング |
+| [B2B アカウントのアクティベーション &#x200B;](b2b-account-activation.md) | 広告やファイルベースの配信先を通じたB2B アカウントのターゲティング |

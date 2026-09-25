@@ -111,11 +111,11 @@ Experience Platform UIで、次の操作を行って、宛先カタログに移�
 
 
 
-![ モデルフィールドを選択](assets/setup-streaming-destination-select-model-field.png " モデルフィールドを選択")
+![&#x200B; モデルフィールドを選択](assets/setup-streaming-destination-select-model-field.png " モデルフィールドを選択")
 
 
 
-![最終モデルフィールド ](assets/setup-streaming-destination-final-model-field.png "最終モデルフィールド ")
+![最終モデルフィールド &#x200B;](assets/setup-streaming-destination-final-model-field.png "最終モデルフィールド ")
 
 >[!NOTE]
 >

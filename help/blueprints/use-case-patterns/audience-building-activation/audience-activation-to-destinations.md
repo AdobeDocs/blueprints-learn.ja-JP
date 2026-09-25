@@ -90,7 +90,7 @@ ht-degree: 4%
 
 次のリファレンスアーキテクチャでは、Real-Time CDPから、クラウドストレージ、ストリーミングエンドポイント、SaaS アプリケーションなどのエンタープライズ宛先に、オーディエンスとプロファイルデータがどのように流れるのかを示しています。
 
-![Adobe Real-Time CDP アクティベーションの参照アーキテクチャ ](/help/blueprints/architecture-diagrams/audience-profile-activation/assets/real_time_cdp_activation.png)
+![Adobe Real-Time CDP アクティベーションの参照アーキテクチャ &#x200B;](/help/blueprints/architecture-diagrams/audience-profile-activation/assets/real_time_cdp_activation.png)
 
 ## 関連ドキュメント
 

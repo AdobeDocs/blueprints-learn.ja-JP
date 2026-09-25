@@ -36,7 +36,7 @@ ht-degree: 0%
 
 1. プロファイルでプラン名を検索して追加します（XDM Individual Profile/Devbc/プラン詳細/プラン名）。 Selectは「Ultimate」と等しくありません
 
-   ![ プラン名を選択すると、Ultimateと一致しません](assets/option-2-use-pre-aggregates-select-does-not-equal-ultimate.png)
+   ![&#x200B; プラン名を選択すると、Ultimateと一致しません](assets/option-2-use-pre-aggregates-select-does-not-equal-ultimate.png)
 
 
 

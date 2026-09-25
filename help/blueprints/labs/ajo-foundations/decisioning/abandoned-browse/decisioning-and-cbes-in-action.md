@@ -37,7 +37,7 @@ ht-degree: 0%
 1. **EDGE\_REGION**&#x200B;および&#x200B;**DATASTREAM\_CONFIG**&#x200B;の環境変数が引き続き設定されていることを確認します。 もう一度設定する必要がある場合は、「環境とコレクションの読み込み」ラボの手順を確認してください。
 1. **Decisioning Lab** フォルダーを展開します。 プロファイルごとに2つのエクスペリエンスイベントが表示されます。
 
-![ プロファイルごとに2つのエクスペリエンスイベントが表示されているPostman Decisioning Lab フォルダー](assets/decisioning-and-cbes-in-action-postman-collection-folder.png)
+![&#x200B; プロファイルごとに2つのエクスペリエンスイベントが表示されているPostman Decisioning Lab フォルダー](assets/decisioning-and-cbes-in-action-postman-collection-folder.png)
 
 ## Experience Eventsでの送信
 
@@ -83,12 +83,12 @@ Postman コレクションでは、各プロファイルに2つのExperience Eve
 
 7. **表示**&#x200B;をクリックして、ボブのプロファイルを開きます（ボブのプロファイルの色は、スクリーンショットに表示されている色と異なる場合があります）。
 
-   ![ ボブのプロフィールページがAJOで開きました](assets/decisioning-and-cbes-in-action-bob-profile-opened.png)
+   ![&#x200B; ボブのプロフィールページがAJOで開きました](assets/decisioning-and-cbes-in-action-bob-profile-opened.png)
 
 8. Bobのプロファイルが開いたら、「**オーディエンスメンバーシップ**」タブをクリックすると、少なくともAEP Hubの観点から、Bobが「dep: iPhone 17に興味がある」セグメントのメンバーであることがわかります。
 9. 「**属性、**」をクリックし、「**Edge**」ラジオボタンを選択して、Edge ビューに切り替えます。
 
-   プロファイルビューを切り替える「![Edge」ラジオボタン付きの「属性」タブ ](assets/decisioning-and-cbes-in-action-edge-view-toggle.png)
+   プロファイルビューを切り替える「![Edge」ラジオボタン付きの「属性」タブ &#x200B;](assets/decisioning-and-cbes-in-action-edge-view-toggle.png)
 
    >[!WARNING]
    >
@@ -102,7 +102,7 @@ Postman コレクションでは、各プロファイルに2つのExperience Eve
 
 1. 新しいブラウザータブで、作成したジャーニーに移動し、そのタブをクリックします。 1つのプロファイルがノードに入力され、CBE ジャーニーに配置されていることがわかります。
 
-   ![CBE ノードに入力されたボブのプロフィールを示すジャーニーキャンバス ](assets/decisioning-and-cbes-in-action-bob-enters-journey.png)
+   ![CBE ノードに入力されたボブのプロフィールを示すジャーニーキャンバス &#x200B;](assets/decisioning-and-cbes-in-action-bob-enters-journey.png)
 
    この時点で、ボブはジャーニーに入り、Edge図法は現在、Edge上のボブのプロフィールを更新する図法を組み立てています。
 
@@ -113,7 +113,7 @@ Postman コレクションでは、各プロファイルに2つのExperience Eve
 
      ボブは1974年に生まれ、1966年よりも大きいので、2番目のランキング式の基準に適格となり、彼のGeneric、Base、Pro オファーの優先順位スコアはそれぞれ100を掛け、100、200、300のオファースコアを与えます。 ただし、Bob Basicにはプラン ID 1があるため、UltraまたはPro レベルのオファーの対象にはなりません。 したがって、スコアが200のベース層オファーが表示されます。 応答で確認できます（おそらく下にスクロールする必要があります）。
 
-   Bob](assets/decisioning-and-cbes-in-action-bob-base-offer-response.png)に対して返されたベース層オファーを示す![Postmanの応答
+   Bob![&#128279;](assets/decisioning-and-cbes-in-action-bob-base-offer-response.png)に対して返されたベース層オファーを示すPostmanの応答
 
 1. このPostman リクエストは、このオファーの表示通知を自動的に送信するので、AJOはこのオファーに対するインプレッションを既に1つ以上記録しています。 もう一度&#x200B;**送信**&#x200B;をクリックして、2回目のインプレッションを送信します。 基本オファーが再び返されたことを確認します。
 1. 3つのインプレッションの周波数キャップは、Base、Pro、Ultraの各モデルに適用されます。 3回目に&#x200B;**送信**&#x200B;をクリックすると、ベース層で3回目の応答が得られ、別のインプレッションが記録されます。
@@ -129,7 +129,7 @@ Postman コレクションでは、各プロファイルに2つのExperience Eve
 
 1. Journey Orchestration UIに戻り、作成した&#x200B;**iPhone 17 Abandon Browse** ジャーニーをクリックします。 ジャーニーが公開されているため、統計情報が表示されます。 1つのプロファイルがノードに入力され、現在CBE ジャーニーにあることがわかります。
 
-![現在CBE ノードにある1つのプロファイルを示すジャーニーレポート ](assets/decisioning-and-cbes-in-action-bob-enters-journey.png)
+![現在CBE ノードにある1つのプロファイルを示すジャーニーレポート &#x200B;](assets/decisioning-and-cbes-in-action-bob-enters-journey.png)
 
 >[!NOTE]
 >
