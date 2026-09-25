@@ -54,10 +54,10 @@ ht-degree: 5%
 
 B2B オーディエンスとプロファイルを設計する際には、次のガードレールと適格性に関するドキュメントを参照してください。
 
-- [Real-Time Customer Data Platform B2B editionのガードレール](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/intro/rtcdpb2b-intro/b2b-guardrails?lang=en)
-- [Real-Time CDP B2B editionのセグメント化ユースケース](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/segmentation/b2b)
-- [プロファイルとセグメント化のガードレール](https://experienceleague.adobe.com/en/docs/experience-platform/profile/guardrails)
-- [ストリーミングセグメント化の適格基準の更新](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/eligibility-criteria-update)
+- [Real-Time Customer Data Platform B2B editionのガードレール](https://experienceleague.adobe.com/ja/docs/experience-platform/rtcdp/intro/rtcdpb2b-intro/b2b-guardrails?lang=en)
+- [Real-Time CDP B2B editionのセグメント化ユースケース](https://experienceleague.adobe.com/ja/docs/experience-platform/rtcdp/segmentation/b2b)
+- [プロファイルとセグメント化のガードレール](https://experienceleague.adobe.com/ja/docs/experience-platform/profile/guardrails)
+- [ストリーミングセグメント化の適格基準の更新](https://experienceleague.adobe.com/ja/docs/experience-platform/segmentation/eligibility-criteria-update)
 
 ### 複数のインスタンスとIMS組織のサポート
 
@@ -76,33 +76,33 @@ B2B オーディエンスとプロファイルを設計する際には、次の�
 
 #### Experience Platformのプロファイルとセグメンテーションガードレール
 
-Experience Platform プロファイルとセグメント化のガードレールについては、[&#x200B; プロファイルとセグメント化のガードレール &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/profile/guardrails)を参照してください。
+Experience Platform プロファイルとセグメント化のガードレールについては、[&#x200B; プロファイルとセグメント化のガードレール &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/profile/guardrails)を参照してください。
 
 アカウント、リード、商談などのB2B エンティティを含むセグメントは、複数のエンティティの関係に依存し、**バッチ**&#x200B;で評価されます。 対照的に、**ストリーミングセグメンテーション**&#x200B;は、B2B エンティティを組み込まない人物およびイベントに限定されたオーディエンスに対してサポートされます。 ほぼリアルタイムのB2B アクティベーションのシナリオについては、バッチ評価されたB2B オーディエンスを、ストリーミングオーディエンスやエッジオーディエンスの入力として使用することを検討してください。
 
 #### Experience Platform - Marketo Engage Source Connector
 
-- ドキュメント [こちら](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/adobe-applications/marketo/marketo)を参照してください。
+- ドキュメント [こちら](https://experienceleague.adobe.com/ja/docs/experience-platform/sources/connectors/adobe-applications/marketo/marketo)を参照してください。
 
 #### Experience Platform - Marketo Destination Connector
 
-- ドキュメント [こちら](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/adobe/marketo-engage-connection)を参照してください。
+- ドキュメント [こちら](https://experienceleague.adobe.com/ja/docs/experience-platform/destinations/catalog/adobe/marketo-engage-connection)を参照してください。
 
 #### 宛先ガードレール
 
-- 各宛先に関する具体的なガイダンスについては、宛先ドキュメントを参照してください：[宛先ガードレール &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/guardrails)。
+- 各宛先に関する具体的なガイダンスについては、宛先ドキュメントを参照してください：[宛先ガードレール &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/destinations/guardrails)。
 - Facebook、Google Customer Match &amp; DV360、Microsoft Bing、The Trade Desk、Amazon Ads、Bombora、Demandbaseなどの広告配信先では、スキーマおよびID戦略（メール、モバイル広告ID、アドレスフィールド、アカウント ID）で選択した識別子が、マッピング機能およびそれらの配信先でサポートされているIDと一致していることを確認します。
 
 ## 実装手順
 
-Real-Time Customer Data PlatformのB2B editionの実装と設定方法に関するガイダンスについては、Real-Time CDP B2B editionのドキュメント「[Real-Time Customer Data PlatformのB2B edition](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/intro/rtcdpb2b-intro/b2b-overview)」を参照してください。
+Real-Time Customer Data PlatformのB2B editionの実装と設定方法に関するガイダンスについては、Real-Time CDP B2B editionのドキュメント「[Real-Time Customer Data PlatformのB2B edition](https://experienceleague.adobe.com/ja/docs/experience-platform/rtcdp/intro/rtcdpb2b-intro/b2b-overview)」を参照してください。
 
 一般的な実装パターンは、次のふたつです。
 
 - B2B データとプロファイルを、Marketo Engage（および接続されたCRM）からRTCDP B2B editionに取り込みます。
 - 適切なソースコネクタを使用して、CRMなどのB2B システムから、B2B データをRTCDP B2B editionに直接取り込むことができます。
 
-RTCDP B2B アーキテクチャのアップグレードの一環として、以前に使用されていたパターンの一部がB2B エンティティで非推奨（廃止予定）になりました。 詳細については、詳細なドキュメント [こちら](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/intro/rtcdpb2b-intro/b2b-architecture-upgrade)を参照してください。
+RTCDP B2B アーキテクチャのアップグレードの一環として、以前に使用されていたパターンの一部がB2B エンティティで非推奨（廃止予定）になりました。 詳細については、詳細なドキュメント [こちら](https://experienceleague.adobe.com/ja/docs/experience-platform/rtcdp/intro/rtcdpb2b-intro/b2b-architecture-upgrade)を参照してください。
 
 ## 実装に関する考慮事項
 
@@ -116,13 +116,13 @@ RTCDP B2B アーキテクチャのアップグレードの一環として、以�
 
 ## 関連ドキュメント
 
-- [Real-Time Customer Data PlatformのB2B edition](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/intro/rtcdpb2b-intro/b2b-overview)
-- [Real-Time Customer Data Platform B2B editionの基本を学ぶ](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/intro/rtcdpb2b-intro/b2b-tutorial?lang=en)
-- [Real-Time Customer Data Platform B2B editionのガードレール](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/intro/rtcdpb2b-intro/b2b-guardrails?lang=en)
-- [Real-Time Customer Data Platform B2B editionのスキーマ](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/schemas/b2b)
-- [Real-Time CDP B2B editionへのアーキテクチャのアップグレード](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/intro/rtcdpb2b-intro/b2b-architecture-upgrade)
-- [Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform)
-- [Marketo Engage](https://experienceleague.adobe.com/en/docs/marketo/using/home)
-- [Adobe Experience Platform - Marketo Source Connector](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/adobe-applications/marketo/marketo)
-- [Adobe Experience Platform - Marketo Destination Connector](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/core-marketo-concepts/smart-lists-and-static-lists/static-lists/push-an-adobe-experience-platform-segment-to-a-marketo-static-list)
-- [宛先ガードレール](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/guardrails)
+- [Real-Time Customer Data PlatformのB2B edition](https://experienceleague.adobe.com/ja/docs/experience-platform/rtcdp/intro/rtcdpb2b-intro/b2b-overview)
+- [Real-Time Customer Data Platform B2B editionの基本を学ぶ](https://experienceleague.adobe.com/ja/docs/experience-platform/rtcdp/intro/rtcdpb2b-intro/b2b-tutorial?lang=en)
+- [Real-Time Customer Data Platform B2B editionのガードレール](https://experienceleague.adobe.com/ja/docs/experience-platform/rtcdp/intro/rtcdpb2b-intro/b2b-guardrails?lang=en)
+- [Real-Time Customer Data Platform B2B editionのスキーマ](https://experienceleague.adobe.com/ja/docs/experience-platform/rtcdp/schemas/b2b)
+- [Real-Time CDP B2B editionへのアーキテクチャのアップグレード](https://experienceleague.adobe.com/ja/docs/experience-platform/rtcdp/intro/rtcdpb2b-intro/b2b-architecture-upgrade)
+- [Adobe Experience Platform](https://experienceleague.adobe.com/ja/docs/experience-platform)
+- [Marketo Engage](https://experienceleague.adobe.com/ja/docs/marketo/using/home)
+- [Adobe Experience Platform - Marketo Source Connector](https://experienceleague.adobe.com/ja/docs/experience-platform/sources/connectors/adobe-applications/marketo/marketo)
+- [Adobe Experience Platform - Marketo Destination Connector](https://experienceleague.adobe.com/ja/docs/marketo/using/product-docs/core-marketo-concepts/smart-lists-and-static-lists/static-lists/push-an-adobe-experience-platform-segment-to-a-marketo-static-list)
+- [宛先ガードレール](https://experienceleague.adobe.com/ja/docs/experience-platform/destinations/guardrails)

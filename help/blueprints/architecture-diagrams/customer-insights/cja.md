@@ -48,6 +48,6 @@ Adobe Customer Journey Analyticsは、Adobe Experience Platformなどのソー�
 
 ## 関連トピックス
 
-- [Customer Journey Analyticsの概要](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-overview)
-- [Customer Journey Analyticsとの連携](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-connections/create-connection)
-- [Customer Journey Analytics オーディエンスの公開](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-components/audiences/publish)
+- [Customer Journey Analyticsの概要](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/cja-overview/cja-overview)
+- [Customer Journey Analyticsとの連携](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/cja-connections/create-connection)
+- [Customer Journey Analytics オーディエンスの公開](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/cja-components/audiences/publish)

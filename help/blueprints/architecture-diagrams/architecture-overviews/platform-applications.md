@@ -61,7 +61,7 @@ ht-degree: 19%
 
 >[!MORELIKETHIS]
 >
->[Experience Cloud アプリケーション統合の統合設定](https://experienceleague.adobe.com/docs/integrations-learn/experience-cloud/overview.html?lang=en)。
+>[Experience Cloud アプリケーション統合の統合設定](https://experienceleague.adobe.com/docs/integrations-learn/experience-cloud/overview.html?lang=ja)。
 
 
 ## アーキテクチャ図
