@@ -1,14 +1,14 @@
 ---
 user-guide-title: 顧客体験オーケストレーション ビジネス目標、ユースケース、アーキテクチャ図、ブループリント
 breadcrumb-title: ユースケースとブループリント
-user-guide-description: Adobe Experience Platformとそのアプリケーションについて、主要なビジネス目標、ユースケースパターン、業界のユースケースを確認できます。 ビジュアルアーキテクチャ図とブループリントは、システム統合、データフロー、ソリューション設計のための技術参照情報を提供し、ビジネス価値と導入を結び付けます。
+user-guide-description: Adobe Experience Platformとアプリケーションの主要なビジネス目標、ユースケースパターン、業界ユースケースをご紹介します。 ビジュアルアーキテクチャ図とブループリントは、ビジネス価値と実装を結びつけるシステム統合、データフロー、ソリューション設計に関する技術参照を提供します。
 product: Adobe Experience Platform
 mini-toc-levels: 3
 role: Developer, User
 nudge: orange
-source-git-commit: 7f0b624616480cf563142c08eb0598d1dd55d551
+source-git-commit: 7349d665e8bea0dfff5d088e2c3a56f33e5924cb
 workflow-type: tm+mt
-source-wordcount: '1174'
+source-wordcount: '1043'
 ht-degree: 15%
 ---
 
@@ -64,7 +64,7 @@ ht-degree: 15%
     + [複数ステップの調整されたジャーニー](/help/blueprints/use-case-patterns/campaign-management-orchestration/multi-step-orchestrated-journey.md)
     + [Decisioning を使用したクロスチャネルジャーニー](/help/blueprints/use-case-patterns/campaign-management-orchestration/cross-channel-journey-with-decisioning.md)
     + [Campaign v8 バッチオーケストレーションとトランザクションメッセージ](/help/blueprints/use-case-patterns/campaign-management-orchestration/campaign-v8-orchestration.md)
-    + [Journey Optimizerとサードパーティメッセージの統合](/help/blueprints/use-case-patterns/campaign-management-orchestration/third-party-messaging.md)
+    + [Journey Optimizerとサードパーティ製メッセージの統合](/help/blueprints/use-case-patterns/campaign-management-orchestration/third-party-messaging.md)
   + 分析{#analysis-patterns}
     + [Customer Analytics &amp; Insightの生成](/help/blueprints/use-case-patterns/analysis/customer-analytics-insight-generation.md)
   + B2B アクティベーションとマーケティング{#b2b-patterns}
@@ -89,65 +89,39 @@ ht-degree: 15%
   + [通信](/help/blueprints/industry-use-cases/telecommunications/telecommunications-overview.md)
   + [テクノロジー](/help/blueprints/industry-use-cases/technology/technology-overview.md)
   + [旅行およびホスピタリティ](/help/blueprints/industry-use-cases/travel-hospitality/travel-hospitality-overview.md)
-+ アーキテクチャ図とブループリント{#architecture-diagrams}
-  + アーキテクチャの概要{#architecture-overview}
-    + [Experience Cloud](/help/blueprints/experience-platform/experience-cloud.md)
-    + [Experience Platformとアプリケーション](/help/blueprints/experience-platform/platform-applications.md)
-    + [Experience Platform データフロー](/help/blueprints/experience-platform/platform-data-flow.md)
-    + [Experience Platformのガードレール](/help/blueprints/experience-platform/guardrails.md)
-    + デプロイメント{#deployment}
-      + [Experience Platform Web SDK &amp; [!DNL Edge Network]](/help/blueprints/experience-platform/deployment/websdk.md)
-      + [アプリケーション SDK](/help/blueprints/experience-platform/deployment/appsdk.md)
-  + オーディエンスとプロファイルのアクティベーション{#audience-activation}
-    + [デバイスベース - Audience Managerによる匿名オーディエンスターゲティング](/help/blueprints/audience-activation/audience-manager.md)
-    + Real-Time Customer Data Platform（RTCDP） {#known-customer-audience-activation}
-      + [ソーシャルおよび広告の宛先へのオーディエンスのアクティベーション](/help/blueprints/audience-activation/advertising-activation.md)
-      + [オーディエンスとプロファイルのエンタープライズ配信先へのアクティベーションの設計図](/help/blueprints/audience-activation/enterprise-destinations.md)
-      + [サポートとセールスのシナリオのためのリアルタイムのプロファイルアクセス](/help/blueprints/audience-activation/customer-activity.md)
-      + [webとモバイルのパーソナライゼーションのためのリアルタイムのエッジプロファイルアクセス](/help/blueprints/audience-activation/real-time-lookup.md)
-      + [Segment Matchによるオーディエンスの共同作業](/help/blueprints/audience-activation/segment-match.md)
-      + [Adobe Targetによる既知の顧客パーソナライゼーション](/help/blueprints/audience-activation/rtcdp-target.md)
-      + [プロファイルエンリッチメントのためのカスタムデータサイエンス](/help/blueprints/audience-activation/data-science.md)
-  + B2B アクティベーション/マーケティング{#b2b-activation}
-    + [概要](/help/blueprints/b2b/overview.md)
-    + [B2B アクティベーション](/help/blueprints/b2b/b2bactivation.md)
-    + [B2B オーディエンスとプロファイルのアクティベーション](/help/blueprints/b2b/b2b-audience-profile-activation.md)
-    + [B2B アカウントのアクティベーション](/help/blueprints/b2b/b2b-account-activation.md)
-    + [購買グループベースのマーケティングとジャーニー管理](/help/blueprints/b2b/b2b-buying-group-journeys.md)
-    + [Marketoデータを活用したB2B ジャーニー](/help/blueprints/b2b/b2b-journeys-with-marketo.md)
-    + [B2B有料メディアコントローラー](/help/blueprints/b2b/ajo-b2b-paid-media-controller.md)
-    + Marketo EngageとWorkfrontの連携の設計図{#marketo-engage-and-workfront-integration-blueprint}
-      + [概要](/help/blueprints/b2b/marketo-engage-and-workfront-integration-blueprint/overview.md)
-      + [受注と作成](/help/blueprints/b2b/marketo-engage-and-workfront-integration-blueprint/intake-and-create.md)
-      + [レビューと承認](/help/blueprints/b2b/marketo-engage-and-workfront-integration-blueprint/review-and-approve-blueprint.md)
-      + [顧客の成功事例](/help/blueprints/b2b/marketo-engage-and-workfront-integration-blueprint/customer-success-stories.md)
-  + Customer Journey Analytics{#customer-journey-analytics}
-    + [概要](/help/blueprints/customer-journey-analytics/overview.md)
-    + [B2B Customer Journey Analytics](/help/blueprints/customer-journey-analytics/b2b-cja.md)
-    + [RTCDPへのCJA オーディエンスの共有](/help/blueprints/customer-journey-analytics/cja-rtcdp.md)
-    + [CJA と Journey Optimizer](/help/blueprints/customer-journey-analytics/cja-ajo.md)
-    + [データ分析とインテリジェンス](/help/blueprints/customer-journey-analytics/analysis.md)
++ アーキテクチャ図{#architecture-diagrams}
+  + [概要](/help/blueprints/architecture-diagrams/overview.md)
+  + アーキテクチャの概要{#architecture-overviews}
+    + [概要](/help/blueprints/architecture-diagrams/architecture-overviews/overview.md)
+    + [Adobe Experience Cloud](/help/blueprints/architecture-diagrams/architecture-overviews/experience-cloud.md)
+    + [Adobe Experience Platformとアプリケーション](/help/blueprints/architecture-diagrams/architecture-overviews/platform-applications.md)
+    + [Adobe Experience Platform データフロー](/help/blueprints/architecture-diagrams/architecture-overviews/platform-data-flow.md)
+    + [Adobe Experience Platformとアプリケーションのガードレール](/help/blueprints/architecture-diagrams/architecture-overviews/guardrails.md)
+    + [Adobe Experience Platform Web SDK &amp; [!DNL Edge Network]](/help/blueprints/architecture-diagrams/architecture-overviews/websdk.md)
+  + オーディエンスとプロファイルのアクティベーション{#audience-profile-activation}
+    + [概要](/help/blueprints/architecture-diagrams/audience-profile-activation/overview.md)
+    + [Adobe Real-Time CDPの活用](/help/blueprints/architecture-diagrams/audience-profile-activation/rtcdp-activation.md)
+    + [リアルタイムのEdgeプロファイルアクセス](/help/blueprints/architecture-diagrams/audience-profile-activation/real-time-lookup.md)
+    + [Adobe Real-Time CDPとAdobe Targetの統合](/help/blueprints/architecture-diagrams/audience-profile-activation/rtcdp-target-integration.md)
+  + B2B アクティベーション/マーケティング{#b2b-activation-marketing}
+    + [概要](/help/blueprints/architecture-diagrams/b2b-activation-marketing/overview.md)
+    + [B2B オーディエンスとプロファイルのアクティベーション](/help/blueprints/architecture-diagrams/b2b-activation-marketing/b2b-audience-profile-activation.md)
+    + [B2B アカウントのアクティベーション](/help/blueprints/architecture-diagrams/b2b-activation-marketing/b2b-account-activation.md)
+  + 顧客インサイト{#customer-insights}
+    + [概要](/help/blueprints/architecture-diagrams/customer-insights/overview.md)
+    + [Adobe Customer Journey Analytics](/help/blueprints/architecture-diagrams/customer-insights/cja.md)
+    + [Adobe Customer Journey AnalyticsとAdobe Journey Optimizerの統合](/help/blueprints/architecture-diagrams/customer-insights/cja-ajo-integration.md)
   + カスタマージャーニー{#customer-journeys}
-    + [概要](/help/blueprints/customer-journeys/overview.md)
+    + [概要](/help/blueprints/architecture-diagrams/customer-journeys/overview.md)
     + Journey Optimizer{#journey-optimizer}
-      + [Journey Optimizer](/help/blueprints/customer-journeys/journey-optimizer/journey-optimizer-overview.md)
-      + [AJO ジャーニー](/help/blueprints/customer-journeys/journey-optimizer/journey-optimizer-journeys.md)
-      + [AJO キャンペーン](/help/blueprints/customer-journeys/journey-optimizer/journey-optimizer-campaigns.md)
-      + [サードパーティーメッセージ](/help/blueprints/customer-journeys/journey-optimizer/3rd-party-messaging.md)
-    + 意思決定管理{#decision-management}
-      + [概要](/help/blueprints/customer-journeys/decision-management/decision-management-overview.md)
-      + [Edgeの意思決定管理](/help/blueprints/customer-journeys/decision-management/decision-management-edge.md)
-      + [Hub上の意思決定管理](/help/blueprints/customer-journeys/decision-management/decision-management-hub.md)
+      + [Journey Optimizer](/help/blueprints/architecture-diagrams/customer-journeys/journey-optimizer/journey-optimizer-overview.md)
+      + [AJO ジャーニー](/help/blueprints/architecture-diagrams/customer-journeys/journey-optimizer/journey-optimizer-journeys.md)
+      + [AJO キャンペーン](/help/blueprints/architecture-diagrams/customer-journeys/journey-optimizer/journey-optimizer-campaigns.md)
+      + [サードパーティーメッセージ](/help/blueprints/architecture-diagrams/customer-journeys/journey-optimizer/3rd-party-messaging.md)
     + Campaign v8{#campaign-v8}
-      + [Campaign v8](/help/blueprints/customer-journeys/campaign-v8/campaign-v8-overview.md)
-      + [Adobeを使用したReal-Time CDP [!DNL Campaign] v8](/help/blueprints/customer-journeys/campaign-v8/rtcdp-and-campaign-v8.md)
-      + [Journey Optimizer と Adobe Campaign v8](/help/blueprints/customer-journeys/campaign-v8/ajo-and-campaign-v8.md)
-    + 非推奨のブループリント{#deprecated-blueprints}
-      + Campaign Standard{#campaign-standard}
-        + [[!DNL Campaign Standard]](https://experienceleague.adobe.com/ja/docs/campaign-standard){target="_blank"}
-        + [Real-Time CDPとAdobe [!DNL Campaign Standard]](https://experienceleague.adobe.com/ja/docs/campaign-standard/using/integrating-with-adobe-cloud/adobe-experience-platform/get-started-sources-destinations)
-      + Campaign v7{#campaign-v7}
-        + [Campaign v7](/help/blueprints/customer-journeys/campaign-v7/campaign-v7-overview.md)
+      + [Campaign v8](/help/blueprints/architecture-diagrams/customer-journeys/campaign-v8/campaign-v8-overview.md)
+      + [Adobeを使用したReal-Time CDP [!DNL Campaign] v8](/help/blueprints/architecture-diagrams/customer-journeys/campaign-v8/rtcdp-and-campaign-v8.md)
+      + [Journey Optimizer と Adobe Campaign v8](/help/blueprints/architecture-diagrams/customer-journeys/campaign-v8/ajo-and-campaign-v8.md)
 
 + ハンズオンラボ{#labs}
   + [ハンズオンラボの概要](/help/blueprints/labs/overview.md)

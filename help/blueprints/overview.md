@@ -6,20 +6,23 @@ exl-id: 52898310-9723-4ec2-ba10-f45fefe29e93
 TQID: https://experienceleague.adobe.com/hScp-97-JZqFMfBJdM6820M95dVE7YoagKJYfruEdao
 product_v2:
   - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
 feature_v2:
   - id: daec7ead-f475-492a-a3b3-02ae08565d6f
+    internal-label: Implementation
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: d63e7dbc225a99171dc6b0e7491b517757a5c6d8
+    internal-label: Implementation
+source-git-commit: 79738031788419872e32b8f754febacbfd18cc06
 workflow-type: tm+mt
-source-wordcount: 359
+source-wordcount: '370'
 ht-degree: 4%
-
 ---
-
 # 顧客体験オーケストレーションのユースケースとアーキテクチャ図
 
 このサイトには、**主なビジネス目標**&#x200B;が含まれており、Adobe Experience Platformとアプリケーションで達成できる主なビジネス価値と目標の例を示しています。 **ユースケースパターン**&#x200B;は、繰り返し可能な実装アプローチを使用した、共通のプラットフォームおよびアプリケーション機能について説明します。 **業界の使用例**&#x200B;の例では、垂直固有のビジネスシナリオにパターンを適用します。 **アーキテクチャ図とブループリント**&#x200B;は、システム統合ポイント、データとコンテンツのフロー、一連の操作を示す視覚的なアーキテクチャ図とデータ フロー参照図で、ソリューション設計の技術参照用に提供されます。 これらのレイヤーを組み合わせることで、ビジネス価値を実装の依存関係やアーキテクチャに結びつけることができます。
@@ -93,34 +96,36 @@ Adobe Experience Platformとアプリケーションのシステム統合ポイ�
 <table>
 <tr>
   <td>
-    <a href="experience-platform/guardrails.md">
-      <img alt="Experience Platform HubとEdgeのアーキテクチャ" src="experience-platform/assets/aep_edge_hub_latency_v1.png" />
+    <a href="architecture-diagrams/architecture-overviews/guardrails.md">
+      <img alt="Experience Platform HubとEdgeのアーキテクチャ" src="architecture-diagrams/architecture-overviews/assets/aep_edge_hub_latency.png" />
     </a>
     <div>
-      <a href="experience-platform/guardrails.md">
+      <a href="architecture-diagrams/architecture-overviews/guardrails.md">
     <strong>Experience Platform ハブとEdge アーキテクチャおよびガードレール図</strong>
     </a>
     </div>
   </td>
    <td>
-    <a href="experience-platform/deployment/websdk.md">
-      <img alt="Edgeのシーケンス図" src="experience-platform/deployment/assets/web_sdk_sequence.svg" />
+    <a href="architecture-diagrams/architecture-overviews/websdk.md">
+      <img alt="Edgeのシーケンス図" src="architecture-diagrams/architecture-overviews/assets/sdk_sequence_diagram.png" />
     </a>
     <div>
-      <a href="experience-platform/deployment/websdk.md">
+      <a href="architecture-diagrams/architecture-overviews/websdk.md">
     <strong>Web SDKとEdge Network シーケンス図</strong>
     </a>
     </div>
   </td>
   <td>
-    <a href="customer-journeys/journey-optimizer/journey-optimizer-overview.md">
-      <img alt="Journey Optimizerの概要図" src="customer-journeys/journey-optimizer/images/ajo-architecture.svg" />
+    <a href="architecture-diagrams/customer-journeys/journey-optimizer/journey-optimizer-overview.md">
+      <img alt="Journey Optimizerの概要図" src="architecture-diagrams/customer-journeys/journey-optimizer/images/ajo-architecture.png" />
     </a>
     <div>
-      <a href="customer-journeys/journey-optimizer/journey-optimizer-overview.md">
+      <a href="architecture-diagrams/customer-journeys/journey-optimizer/journey-optimizer-overview.md">
     <strong>Adobe Journey Optimizerの概要ダイアグラム </strong>
     </a>
     </div>
   </td>
 </tr>
 </table>
+
+[すべてのアーキテクチャ図とブループリントを見る](architecture-diagrams/overview.md)

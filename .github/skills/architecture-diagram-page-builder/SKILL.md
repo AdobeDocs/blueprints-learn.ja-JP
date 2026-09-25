@@ -1,9 +1,9 @@
 ---
 name: architecture-diagram-page-builder
 description: Adobe Experience Platform ブループリントリポジトリ用の新しいアーキテクチャ図ページの作成をガイドします。 このスキルは、新しいトップレベルのアーキテクチャ図、統合アーキテクチャページ、またはアプリケーションアーキテクチャの概要を追加する際に使用します。 アーキテクチャページでは、トップレベルのAEPとアプリケーションアーキテクチャおよび主要な統合ポイントについて説明します。詳細なユースケースは含まれません（ユースケースのpattern-builderに属するもの）。 ワークフロー全体を処理します。ページ情報の収集、マークダウン ファイルの生成、正しいトピックフォルダーへの配置、TOC.mdの更新です。
-source-git-commit: 8b3391d41cd4a3ea6cb52d5167e627b7f6bd2c6e
+source-git-commit: ce7331f279a6e59db95ca3b763148440598cde84
 workflow-type: tm+mt
-source-wordcount: '1563'
+source-wordcount: '1568'
 ht-degree: 1%
 ---
 
@@ -119,8 +119,8 @@ ht-degree: 1%
    - 1-2図の目的を説明する文
    - 標準規則を使用して埋め込まれた画像：
 
-     ```html
-     <img src="assets/{filename}" alt="{Alt Text}" style="border:1px solid #4a4a4a; width:90%; margin-bottom: 15px;" class="modal-image" />
+     ```markdown
+     ![{Alt Text}](assets/{filename}){width="1000" zoomable="yes"}
      ```
 
 6. **`## Use case patterns supported`** – 箇条書きリスト。 各弾丸：
@@ -147,12 +147,11 @@ ht-degree: 1%
 
 | トピックフォルダー | 目次サブセクション |
 | --- | --- |
-| `experience-platform/` | `+ Architecture overviews{#architecture-overview}` |
-| `experience-platform/deployment/` | `+ Deployment{#deployment}` （アーキテクチャの概要のサブセクション） |
-| `audience-activation/` | `+ Audience & Profile Activation{#audience-activation}` |
-| `b2b/` | `+ B2B activation & marketing{#b2b-activation}` |
-| `customer-journey-analytics/` | `+ Customer Journey Analytics{#customer-journey-analytics}` |
-| `customer-journeys/` | `+ Customer journeys{#customer-journeys}` |
+| `architecture-diagrams/architecture-overviews/` | `+ Architecture overviews{#architecture-overviews}` |
+| `architecture-diagrams/audience-profile-activation/` | `+ Audience & Profile Activation{#audience-profile-activation}` |
+| `architecture-diagrams/b2b-activation-marketing/` | `+ B2B activation & marketing{#b2b-activation-marketing}` |
+| `architecture-diagrams/customer-insights/` | `+ Customer Insights{#customer-insights}` |
+| `architecture-diagrams/customer-journeys/` | `+ Customer journeys{#customer-journeys}` |
 
 エントリ形式（4 スペースインデント + `+`）:
 
@@ -172,7 +171,7 @@ ht-degree: 1%
 
 2. **ユースケースパターンリンク** — ファイル内のすべてのパターンリンクは、`/help/blueprints/use-case-patterns/`の下にある既存のマークダウンファイルを指しています。 ワークスペース検索またはファイル読み取りを使用して、各ターゲットが存在することを確認します。
 
-3. **Experience League リンク** — `## Further reading` セクションのすべてのURLが`https://experienceleague.adobe.com/ja`で始まることをスポットチェックします。
+3. **Experience League リンク** — `## Further reading` セクションのすべてのURLが`https://experienceleague.adobe.com/`で始まることをスポットチェックします。
 
 4. **目次エントリの配置** – 新しいエントリは正しいサブセクション内にあり、4 スペースのインデントを使用し、パスは生成されたファイルの場所と正確に一致します。
 
@@ -186,6 +185,6 @@ ht-degree: 1%
 
 - Adobeの製品名には、既存のページの規則に従って、本文と箇条書きで常に`[!DNL ...]`構文を使用します。
 - アーキテクチャ図は通常、SVG（鮮明さと拡大・縮小に適しています）ですが、ラスターソースのアートワークではPNGを使用できます。
-- 埋め込まれたインラインスタイル文字列（`border:1px solid #4a4a4a; width:90%; margin-bottom: 15px;`）と`class="modal-image"`が必要です。これらは、Experience League モーダル ズーム操作を有効にします。`<img>`
-- ユーザーがまだ存在しない新しいトピックフォルダーのページを作成する場合は、TOC.mdに`+ Architecture Diagrams and Blueprints{#architecture-diagrams}`の下に新しいトップレベルサブセクションが必要であることを警告します。 ユーザーの明示的な承認とは別のステップとして処理する必要があります。
+- 図のズームには、説明的なalt テキスト、相対`assets/{filename}` パス、および`{width="1000" zoomable="yes"}`を含むMarkdown画像を使用します。
+- ユーザーがまだ存在しない新しいトピックフォルダーのページを作成する場合は、代わりに`architecture-diagram-category-builder` スキルを停止して使用します。これは、命名規則の適用、TOC.md サブセクションの作成、カテゴリ `overview.md`、ランディングページのカードグリッドを処理します。 このスキル内から新しいトピックフォルダーを作成しないでください。
 - アーキテクチャ図で&#x200B;*単一のユースケースのエンドツーエンド* （KPI、ビジネス目標、機能）を広く文書化している場合、ユーザーを`use-case-pattern-builder`にリダイレクトします。これはアーキテクチャページではありません。
