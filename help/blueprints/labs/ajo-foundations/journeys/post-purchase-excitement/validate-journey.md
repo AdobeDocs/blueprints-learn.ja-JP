@@ -117,7 +117,7 @@ limit 50
 
 >[!NOTE]
 >
->各フィールドの意味について詳しくは、AJO スキーマ ディクショナリを参照し、ジャーニーステップイベントスキーマ [https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=en](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=en)にドロップダウンを変更してください。
+>各フィールドの意味について詳しくは、AJO スキーマ ディクショナリを参照し、ジャーニーステップイベントスキーマ [https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=ja](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=ja)にドロップダウンを変更してください。
 
 
 

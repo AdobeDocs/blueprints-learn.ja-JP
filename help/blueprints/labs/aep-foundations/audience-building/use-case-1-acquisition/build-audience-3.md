@@ -156,7 +156,7 @@ IPhone 14の製品ページを訪問したオーディエンスを構築する
 >
 >簡単な要件ですが、いくつかの理由により、多くのオーディエンスに分割しました。 要件はストリーミングですが、これらの2つの要件により、オーディエンスがバッチに変わります。 ストリーミングの適格性ルールについて詳しくは、こちらを参照してください。
 >
->[https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/streaming-segmentation.html](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/streaming-segmentation.html)
+>[https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/streaming-segmentation.html?lang=ja](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/streaming-segmentation.html?lang=ja)
 
 >[!NOTE]
 >
@@ -166,7 +166,7 @@ IPhone 14の製品ページを訪問したオーディエンスを構築する
 >
 >オーディエンス内でオーディエンスを使用する場合、AEPは可能な場合にシーケンス化を試みることを理解する必要があります。 例えば、これが不可能なエッジケースがあります。オーディエンスのオーディエンスを使用すると、プロファイルの失格は24時間ごとに発生します。
 >
->[https://experienceleaguecommunities.adobe.com/t5/adobe-experience-platform-blogs/peeking-underneath-the-hood-of-segments-in-aep-adobe-experience/ba-p/453535](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-platform-blogs/peeking-underneath-the-hood-of-segments-in-aep-adobe-experience/ba-p/453535)
+>[https://experienceleaguecommunities.adobe.com/t5/adobe-experience-platform-blogs/peeking-underneath-the-hood-of-segments-in-aep-adobe-experience/ba-p/453535?profile.language=ja](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-platform-blogs/peeking-underneath-the-hood-of-segments-in-aep-adobe-experience/ba-p/453535?profile.language=ja)
 
 
 
