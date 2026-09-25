@@ -33,7 +33,7 @@ Adobe [!DNL Experience Platform]とそのリアルタイム顧客プロファイ
 
 ## アーキテクチャ
 
-![ バッチメッセージとAdobe Experience Platform統合パターンの参照アーキテクチャ ](images/campaign-v8-with-rtcdp.png){width="1000" zoomable="yes"}
+![&#x200B; バッチメッセージとAdobe Experience Platform統合パターンの参照アーキテクチャ &#x200B;](images/campaign-v8-with-rtcdp.png){width="1000" zoomable="yes"}
 
 <br>
 

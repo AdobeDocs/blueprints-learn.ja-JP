@@ -40,7 +40,7 @@ B2B マーケターは、アカウントベースのエンゲージメントに�
 
 ## アーキテクチャ
 
-![B2B Account Activation ブループリントの参照アーキテクチャ ](assets/b2b-account-activation.png){width="1000" zoomable="yes"}
+![B2B Account Activation ブループリントの参照アーキテクチャ &#x200B;](assets/b2b-account-activation.png){width="1000" zoomable="yes"}
 
 ## アカウントオーディエンスの宛先
 
@@ -69,8 +69,8 @@ B2B マーケターは、アカウントベースのエンゲージメントに�
 ## Real-Time Customer Data Platform B2B edition、アカウントオーディエンスの構築およびアクティベーションの実装ステップ
 
 - Real-Time Customer Data Platform B2B editionの実装手順については、次のドキュメントを参照してください。[Real-Time Customer Data Platform B2B editionの概要](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/intro/rtcdpb2b-intro/b2b-tutorial?lang=en)。
-- アカウントオーディエンスの作成手順については、[ アカウントオーディエンス ](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/account-audiences?lang=en)のドキュメントを参照してください。
-- アカウントオーディエンスのアクティベーション手順については、[ アカウントオーディエンスのアクティベーション ](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/activate-account-audiences?lang=en)のドキュメントを参照してください。
+- アカウントオーディエンスの作成手順については、[&#x200B; アカウントオーディエンス &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/account-audiences?lang=en)のドキュメントを参照してください。
+- アカウントオーディエンスのアクティベーション手順については、[&#x200B; アカウントオーディエンスのアクティベーション &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/activate-account-audiences?lang=en)のドキュメントを参照してください。
 
   - [LinkedIn Matched Audiences destination](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/activate-account-audiences?lang=en#required-mappings)に必要なマッピング。
 

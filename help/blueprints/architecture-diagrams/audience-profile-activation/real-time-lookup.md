@@ -1,6 +1,6 @@
 ---
 title: リアルタイムのEdgeプロファイルアクセス
-description: '[!UICONTROL  リアルタイムの顧客プロファイル ]がエッジでアクセスし、リアルタイムのwebおよびモバイルのパーソナライゼーションのコンテキストを提供します。'
+description: '[!UICONTROL &#x200B; リアルタイムの顧客プロファイル &#x200B;]がエッジでアクセスし、リアルタイムのwebおよびモバイルのパーソナライゼーションのコンテキストを提供します。'
 solution: Real-Time Customer Data Platform, Data Collection
 kt: 719
 exl-id: 61b81d00-c4bd-41b2-8161-683814947b56
@@ -41,9 +41,9 @@ ht-degree: 8%
 # リアルタイムのEdgeプロファイルアクセス
 
 >[!TIP]
->このアーキテクチャは、Personalizationの[ ユースケースパターン ](/help/blueprints/use-case-patterns/personalization/edge-profile-access.md)としても文書化されています。
+>このアーキテクチャは、Personalizationの[&#x200B; ユースケースパターン &#x200B;](/help/blueprints/use-case-patterns/personalization/edge-profile-access.md)としても文書化されています。
 
-この図は、web アプリケーションとモバイルアプリケーションがエッジで[!UICONTROL  リアルタイム顧客プロファイル ]のAdobe Experience Platformにアクセスし、高スループットで低遅延のパーソナライズを実現する方法を示しています。
+この図は、web アプリケーションとモバイルアプリケーションがエッジで[!UICONTROL &#x200B; リアルタイム顧客プロファイル &#x200B;]のAdobe Experience Platformにアクセスし、高スループットで低遅延のパーソナライズを実現する方法を示しています。
 
 アプリケーションは、ミリ秒単位の遅延で、エッジにあるリアルタイムのプロファイル属性およびオーディエンスにアクセスできます。 プロファイルに属性、オーディエンスメンバーシップ、モデル駆動機能を属性として保存し、webとモバイルのチャネル全体で同じページと次のページのパーソナライゼーションをリアルタイムで実行できます。
 
@@ -69,11 +69,11 @@ ht-degree: 8%
 
 ## アーキテクチャ図
 
-![ リアルタイム Edge プロファイル アクセスの参照アーキテクチャ ](assets/real_time_edge_profile_access.png){width="1000" zoomable="yes"}
+![&#x200B; リアルタイム Edge プロファイル アクセスの参照アーキテクチャ &#x200B;](assets/real_time_edge_profile_access.png){width="1000" zoomable="yes"}
 
 ## ガードレール
 
-* [[!UICONTROL  リアルタイム顧客プロファイル ] データのガードレール](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=ja)
+* [[!UICONTROL &#x200B; リアルタイム顧客プロファイル &#x200B;] データのガードレール](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=ja)
 * [Edge Network ガードレール](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/guardrails.html)
 * Edge プロファイルには、14日間の有効期間（TTL）があります。 ユーザーが14日間エッジでアクティブでなかった場合、エッジプロファイルは期限切れになり、ハブから取得する必要が生じる可能性があり、最初のページのパーソナライゼーションに影響を与える可能性があります。
 * Edge personalizationは、エッジセグメント化の条件を満たすオーディエンスに対して、リアルタイムのオーディエンスメンバーシップの評価をサポートします。 ハブからのバッチオーディエンスとストリーミングオーディエンスも、適切な設定でエッジで利用できます。
@@ -82,7 +82,7 @@ ht-degree: 8%
 
 ### 配信先設定
 
-* [ カスタム Personalization Connection](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/personalization/custom-personalization) - プライマリ実装ガイド
+* [&#x200B; カスタム Personalization Connection](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/personalization/custom-personalization) - プライマリ実装ガイド
 * [Personalizationの宛先の概要](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/personalization/overview)
 * [エッジのパーソナライゼーション宛先に対するオーディエンスのアクティブ化](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/activate-edge-personalization-destinations)
 * [エッジ上のプロファイル属性をリアルタイムで検索し](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/activate-edge-profile-lookup)
@@ -97,7 +97,7 @@ ht-degree: 8%
 
 ### プロファイルとセグメント化に関するドキュメント
 
-* [[!UICONTROL  リアルタイム顧客プロファイル ] ドキュメント](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html)
+* [[!UICONTROL &#x200B; リアルタイム顧客プロファイル &#x200B;] ドキュメント](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html)
 * [プロファイルガードレール](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=ja)
 
 ### チュートリアル

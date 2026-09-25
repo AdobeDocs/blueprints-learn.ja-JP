@@ -54,11 +54,11 @@ Web SDK でサポートされるアプリケーション機能の詳細な概要
 
 次のアーキテクチャ図は、Experience Platform Web SDK を使用したデプロイメントパスとデータ収集を示しています。
 
-![Experience Platform Webとモバイル SDKを使用した実装のための参照アーキテクチャ ](assets/sdk_data_flow_diagram.png){width="1000" zoomable="yes"}
+![Experience Platform Webとモバイル SDKを使用した実装のための参照アーキテクチャ &#x200B;](assets/sdk_data_flow_diagram.png){width="1000" zoomable="yes"}
 
 Experience Edge、Experience Platform サービス、アプリケーションのシーケンス図
 
-![ オンライン/オフライン Web Personalization シナリオの参照アーキテクチャ ](assets/sdk_sequence_diagram.png){width="1000" zoomable="yes"}
+![&#x200B; オンライン/オフライン Web Personalization シナリオの参照アーキテクチャ &#x200B;](assets/sdk_sequence_diagram.png){width="1000" zoomable="yes"}
 
 ## リファレンスドキュメント
 

@@ -68,8 +68,8 @@ ht-degree: 19%
 
 このアーキテクチャ図に、Adobe Experience Platform が Adobe Experience Cloud アプリケーションおよびアプリケーションサービスとどのように関わっているかを示します。
 
-![Experience Platformとアプリケーション ](assets/aep_apps_overview.png){width="1000" zoomable="yes"}
+![Experience Platformとアプリケーション &#x200B;](assets/aep_apps_overview.png){width="1000" zoomable="yes"}
 
 ## 詳細なアーキテクチャ図
 
-![Experience Platformとアプリケーション ](assets/aep_apps_detailed.png){width="1000" zoomable="yes"}
+![Experience Platformとアプリケーション &#x200B;](assets/aep_apps_detailed.png){width="1000" zoomable="yes"}

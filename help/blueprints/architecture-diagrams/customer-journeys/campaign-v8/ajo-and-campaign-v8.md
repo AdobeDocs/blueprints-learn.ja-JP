@@ -102,7 +102,7 @@ ht-degree: 55%
 
 #### ソース／宛先
 
-1. ストリーミング APIとソースコネクタを使用して[ データを [!DNL Experience Platform]](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2020.1.dataingestion&lang=ja)に取り込みます。
+1. ストリーミング APIとソースコネクタを使用して[&#x200B; データを [!DNL Experience Platform]](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2020.1.dataingestion&lang=ja)に取り込みます。
 
 ### Journey Optimizer
 
@@ -115,7 +115,7 @@ ht-degree: 55%
 
 * メッセージングテンプレートは、適切なパーソナライゼーションコンテキストで設定する必要があります。
 * [!DNL Campaign]標準の場合：トランザクションメッセージングログをExperience Platformに書き出すように、書き出しワークフローを設定する必要があります。 推奨は、最大4時間ごとに実行することです。
-* [!DNL Campaign] v8.4では、Experience PlatformのAdobe [!DNL Campaign] Managed Services Source Connectorを活用して、CampaignからExperience Platformに配信およびトラッキングイベントを同期できます。 詳しくは、[Source コネクタ ](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=ja) ドキュメントを参照してください。
+* [!DNL Campaign] v8.4では、Experience PlatformのAdobe [!DNL Campaign] Managed Services Source Connectorを活用して、CampaignからExperience Platformに配信およびトラッキングイベントを同期できます。 詳しくは、[Source コネクタ &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=ja) ドキュメントを参照してください。
 
 ### モバイルプッシュ設定（オプション）
 
@@ -126,7 +126,7 @@ ht-degree: 55%
    * [!DNL Edge Network]のID
    * モバイルコア
 1. モバイルアプリのデプロイメントとweb デプロイメント用の専用データストリームがあることを確認します。
-1. 詳しくは、[Adobe Journey Optimizer モバイルガイド ](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/push-notification/)を参照してください。
+1. 詳しくは、[Adobe Journey Optimizer モバイルガイド &#x200B;](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/push-notification/)を参照してください。
 
    >[!IMPORTANT]
    >Journey Optimizer 経由でリアルタイムの通信を送信し、Campaign 経由でバッチプッシュ通知を送信する場合、Journey Optimizer と Campaign の両方でモバイルトークンを収集する必要が生じる場合があります。 Campaign v8 では、プッシュトークンをキャプチャするために Campaign SDK を排他的に使用する必要があります。

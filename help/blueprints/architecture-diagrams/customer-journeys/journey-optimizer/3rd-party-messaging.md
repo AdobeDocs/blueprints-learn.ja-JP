@@ -37,7 +37,7 @@ ht-degree: 15%
 # サードパーティーメッセージ
 
 >[!TIP]
->このアーキテクチャは、「キャンペーン管理とオーケストレーション」の下に[ ユースケースパターン ](/help/blueprints/use-case-patterns/campaign-management-orchestration/third-party-messaging.md)として文書化されています。
+>このアーキテクチャは、「キャンペーン管理とオーケストレーション」の下に[&#x200B; ユースケースパターン &#x200B;](/help/blueprints/use-case-patterns/campaign-management-orchestration/third-party-messaging.md)として文書化されています。
 
 Adobe Journey Optimizerをサードパーティのメッセージングシステムと組み合わせて使用し、パーソナライズされたコミュニケーションを送信する方法を示します。
 
@@ -50,7 +50,7 @@ Adobe Journey Optimizerをサードパーティのメッセージングシステ
 <br>
 
 トポロジには、[!DNL Journey Optimizer]がサードパーティにトランザクションペイロードを送信していることが表示されます
-カスタムアクションまたはREST API統合によるメッセージングアプリケーション。 [ サードパーティのメッセージのユースケース パターンを使用](/help/blueprints/use-case-patterns/campaign-management-orchestration/third-party-messaging.md)
+カスタムアクションまたはREST API統合によるメッセージングアプリケーション。 [&#x200B; サードパーティのメッセージのユースケース パターンを使用](/help/blueprints/use-case-patterns/campaign-management-orchestration/third-party-messaging.md)
 前提条件、ガードレール、導入ガイダンスに関する情報を提供します。
 
 <br>

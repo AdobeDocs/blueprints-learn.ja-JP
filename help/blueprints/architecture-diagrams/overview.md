@@ -10,7 +10,7 @@ ht-degree: 0%
 ---
 # アーキテクチャ図
 
-アーキテクチャ図とは、システムの統合ポイント、データとコンテンツのフロー、一連の処理など、Adobe Experience Platformとアプリケーションが連携する過程を視覚的かつ技術的に示したものです。 [ ユースケースパターン ](/help/blueprints/use-case-patterns/overview.md)のステップバイステップのガイダンスに入る前に、ソリューションの設計を理解するために使用します。
+アーキテクチャ図とは、システムの統合ポイント、データとコンテンツのフロー、一連の処理など、Adobe Experience Platformとアプリケーションが連携する過程を視覚的かつ技術的に示したものです。 [&#x200B; ユースケースパターン &#x200B;](/help/blueprints/use-case-patterns/overview.md)のステップバイステップのガイダンスに入る前に、ソリューションの設計を理解するために使用します。
 
 これらの図は、次のカテゴリに整理されています。 特定のカテゴリーのランディングページやリードダイアグラムに移動するには、カードを選択します。左側のナビゲーションを使用して、カテゴリー内のあらゆるダイアグラムを参照します。
 
@@ -79,6 +79,6 @@ ht-degree: 0%
 
 ## 関連コンテンツ
 
-* [ ユースケースパターン ](/help/blueprints/use-case-patterns/overview.md) – これらのアーキテクチャ上に構築される反復可能な実装アプローチ
+* [&#x200B; ユースケースパターン &#x200B;](/help/blueprints/use-case-patterns/overview.md) – これらのアーキテクチャ上に構築される反復可能な実装アプローチ
 * [主なビジネス目標](/help/blueprints/business-objectives/overview.md) – これらのアーキテクチャが達成するビジネス成果
-* [業界ユースケース ](/help/blueprints/industry-use-cases/use-case-catalog.md) – これらのパターンの垂直固有のアプリケーション
+* [業界ユースケース &#x200B;](/help/blueprints/industry-use-cases/use-case-catalog.md) – これらのパターンの垂直固有のアプリケーション

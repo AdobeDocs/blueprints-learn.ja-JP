@@ -36,7 +36,7 @@ ht-degree: 12%
 # [!DNL Journey Optimizer] -ジャーニー
 
 >[!TIP]
->このアーキテクチャは、「キャンペーン管理とオーケストレーション」の下に[ ユースケースパターン ](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md)として文書化されています。
+>このアーキテクチャは、「キャンペーン管理とオーケストレーション」の下に[&#x200B; ユースケースパターン &#x200B;](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md)として文書化されています。
 
 ジャーニーは、顧客一人ひとりの行動にもとづいて、パーソナライズされたマルチステップのエクスペリエンスを提供する、リアルタイムのイベント駆動型ワークフローです。 メール、SMS、プッシュ通知、アプリ内メッセージ、コードベースのエクスペリエンス、カスタム API ベースの統合など、幅広いチャネルをサポートしており、顧客が好みの顧客接点でコンテキストに沿って顧客とエンゲージすることができます。
 

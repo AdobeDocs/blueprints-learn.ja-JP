@@ -15,14 +15,14 @@ ht-degree: 0%
 
 アーキテクチャは、[!DNL Real-Time CDP]個のオーディエンスとプロファイルから宛先アプリケーションへの共有アクティベーションパスを示しています。 広告およびソーシャルプラットフォーム向けの配信先アクティベーションだけでなく、保存、分析、下流のアプリケーションワークフローに使用されるエンタープライズ配信先も含まれます。
 
-![Adobe Real-Time CDP オーディエンスとプロファイル アクティベーション アーキテクチャ ](assets/real_time_cdp_activation.png){width="1000" zoomable="yes"}
+![Adobe Real-Time CDP オーディエンスとプロファイル アクティベーション アーキテクチャ &#x200B;](assets/real_time_cdp_activation.png){width="1000" zoomable="yes"}
 
 ## サポートされるユースケースパターン
 
 上記のアーキテクチャは、次のユースケースパターンをサポートしています。
 
-- [ オーディエンスの宛先へのアクティベーション ](/help/blueprints/use-case-patterns/audience-building-activation/audience-activation-to-destinations.md) – 広告、ソーシャル、クラウドストレージ、CRM、その他のエンタープライズ宛先に対して評価オーディエンスをアクティベートします。
-- [匿名の訪問者のweb パーソナライゼーション ](/help/blueprints/use-case-patterns/personalization/anonymous-visitor-web-personalization.md) — デジタルチャネルをまたいで、オーディエンスのアクティブ化とプロファイルベースのパーソナライゼーションをサポートします。
+- [&#x200B; オーディエンスの宛先へのアクティベーション &#x200B;](/help/blueprints/use-case-patterns/audience-building-activation/audience-activation-to-destinations.md) – 広告、ソーシャル、クラウドストレージ、CRM、その他のエンタープライズ宛先に対して評価オーディエンスをアクティベートします。
+- [匿名の訪問者のweb パーソナライゼーション &#x200B;](/help/blueprints/use-case-patterns/personalization/anonymous-visitor-web-personalization.md) — デジタルチャネルをまたいで、オーディエンスのアクティブ化とプロファイルベースのパーソナライゼーションをサポートします。
 
 ## プライマリデータフローと統合ポイント
 

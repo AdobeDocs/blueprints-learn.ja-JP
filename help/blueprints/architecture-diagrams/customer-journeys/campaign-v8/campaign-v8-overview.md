@@ -46,7 +46,7 @@ ht-degree: 29%
 # Campaign v8
 
 >[!TIP]
->このアーキテクチャは、「キャンペーン管理とオーケストレーション」の下に[ ユースケースパターン ](/help/blueprints/use-case-patterns/campaign-management-orchestration/campaign-v8-orchestration.md)として文書化されています。
+>このアーキテクチャは、「キャンペーン管理とオーケストレーション」の下に[&#x200B; ユースケースパターン &#x200B;](/help/blueprints/use-case-patterns/campaign-management-orchestration/campaign-v8-orchestration.md)として文書化されています。
 
 Adobe Campaign v8は、電子メールやダイレクトメールなどの従来のマーケティングチャネル向けに設計された、次世代のキャンペーン管理プラットフォームです。 複雑なセグメンテーションやオーディエンスのターゲティングをサポートする強力なETL機能とデータ管理機能に加えて、マルチタッチでバッチ主導型のマーケティングプログラムを構築するための強力なオーケストレーションエンジンを提供します。
 
@@ -82,17 +82,17 @@ Adobe Campaign v8は、電子メールやダイレクトメールなどの従来
 
 ## アーキテクチャ図
 
-[Campaign v8 デプロイメントモデル ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/architecture/architecture.html#ac-deployment){target="_blank"}の詳細をご覧ください。
+[Campaign v8 デプロイメントモデル &#x200B;](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/architecture/architecture.html#ac-deployment){target="_blank"}の詳細をご覧ください。
 
 ### Campaign Enterprise （FFDA）のデプロイメント
 
-![Campaign v8 （FFDA）デプロイメントの参照アーキテクチャ ](images/campaign-v8-ffda.png){width="1000" zoomable="yes"}
+![Campaign v8 （FFDA）デプロイメントの参照アーキテクチャ &#x200B;](images/campaign-v8-ffda.png){width="1000" zoomable="yes"}
 
 <br>
 
 ### Campaign v8 FDA デプロイメント
 
-![Campaign v8 （FDA）の参照アーキテクチャ ](images/campaign-v8-fda.png){width="1000" zoomable="yes"}
+![Campaign v8 （FDA）の参照アーキテクチャ &#x200B;](images/campaign-v8-fda.png){width="1000" zoomable="yes"}
 
 <br>
 

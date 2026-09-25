@@ -26,7 +26,7 @@ Adobe Customer Journey Analyticsは、Adobe Experience Platformなどのソー�
 
 この図は、接続、データビュー、分析、オーディエンスの作成のために、顧客インタラクションデータをCustomer Journey Analyticsに取り込む主要な流れを示しています。
 
-![Adobe Customer Journey Analytics コアアーキテクチャ ](assets/cja.png){width="1000" zoomable="yes"}
+![Adobe Customer Journey Analytics コアアーキテクチャ &#x200B;](assets/cja.png){width="1000" zoomable="yes"}
 
 ## アーキテクチャの派生
 

@@ -34,7 +34,7 @@ ht-degree: 6%
 # [!DNL Journey Optimizer] - キャンペーンオーケストレーション
 
 >[!TIP]
->このアーキテクチャは、「キャンペーン管理とオーケストレーション」の下に[ ユースケースパターン ](/help/blueprints/use-case-patterns/campaign-management-orchestration/batch-outbound-message-activation.md)として文書化されています。
+>このアーキテクチャは、「キャンペーン管理とオーケストレーション」の下に[&#x200B; ユースケースパターン &#x200B;](/help/blueprints/use-case-patterns/campaign-management-orchestration/batch-outbound-message-activation.md)として文書化されています。
 
 AJO Campaign Orchestrationを使用すると、マーケターは、電子メール、SMS、プッシュ通知、ダイレクトメールなどのアウトバウンドチャネルをまたいで、スケジュールされたオーディエンスベースのマルチステップのコミュニケーションを設計して実行できます。 リアルタイムの顧客プロファイルから得られるリアルタイムのデータを利用して、個々の顧客行動に対応するジャーニーとは異なり、施策は、オーディエンスを計画的にターゲティングし、各オーディエンスに合わせて調整されたマーケティング施策です。 キャンペーンとジャーニーを組み合わせることで、ブランドエンゲージメント戦略を推進する補完的なアプローチを提供し、ジャーニーはパーソナライズされたレスポンシブなエクスペリエンスを提供します。
 

@@ -85,7 +85,7 @@ ht-degree: 17%
 
 この図は、データ収集、Edge Network、[!DNL Real-Time Customer Data Platform]および[!DNL Adobe Target]の主な統合ポイントを示しています。
 
-![Real-Time Customer Data PlatformとAdobe Targetの統合のためのアーキテクチャ ](assets/real_time_cdp_target.png){zoomable="yes"}
+![Real-Time Customer Data PlatformとAdobe Targetの統合のためのアーキテクチャ &#x200B;](assets/real_time_cdp_target.png){zoomable="yes"}
 
 ## データフロー図
 
