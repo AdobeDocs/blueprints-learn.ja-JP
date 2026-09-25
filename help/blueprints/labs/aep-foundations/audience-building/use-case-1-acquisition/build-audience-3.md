@@ -1,16 +1,14 @@
 ---
-title: Audience
+title: オーディエンスを構築 #3
 description: Adobe iPhone 14の商品ページの訪問者のオーディエンスを構築し、オーディエンスを活用して他のオーディエンスと組み合わせることで、ストリーミングをアクティベートできます。
 doc-type: article
 solution: Experience Platform
 exl-id: 999f9a20-1655-4eab-a796-a19d69a06879
-source-git-commit: 0b33b2740ee7f5af73d64f217b4475650c1d28a0
+source-git-commit: 96308d5726def849ef22540a5d13618017c40cc3
 workflow-type: tm+mt
-source-wordcount: '1062'
+source-wordcount: '1061'
 ht-degree: 0%
-
 ---
-
 
 # Audience #3の構築
 
@@ -49,7 +47,7 @@ IPhone 14の製品ページを訪問したオーディエンスを構築する
 
 3. 配置されたイベントの上で、「Any time」を「Today」に変更します
 
-   ![&#x200B; イベント時間フィルターを「任意の時間」から「今日」に変更](assets/build-audience-1-change-any-time-to-today.png)
+   ![ イベント時間フィルターを「任意の時間」から「今日」に変更](assets/build-audience-1-change-any-time-to-today.png)
 
 4. このオーディエンスを「*任意のページを訪問*」として保存
 
@@ -93,13 +91,13 @@ IPhone 14の製品ページを訪問したオーディエンスを構築する
    >
    >検索で説明が検索されない
    >
-   >![&#x200B; ページを検索しても、ページ名フィールドが表示されません](assets/build-audience-3-searching-for-page-does-not-find-field.png)
+   >![ ページを検索しても、ページ名フィールドが表示されません](assets/build-audience-3-searching-for-page-does-not-find-field.png)
 
 
 
 4. 配置されたイベントの上で、「Any time」を「Today」に変更します
 
-   ![&#x200B; イベント時間フィルターを「任意の時間」から「今日」に変更](assets/build-audience-1-change-any-time-to-today.png)
+   ![ イベント時間フィルターを「任意の時間」から「今日」に変更](assets/build-audience-1-change-any-time-to-today.png)
 
    >[!NOTE]
    >
@@ -111,7 +109,7 @@ IPhone 14の製品ページを訪問したオーディエンスを構築する
 
 6. オーディエンスを「*訪問済みiPhone 14 Page*」として保存
 
-   ![&#x200B; オーディエンスを「訪問済みiPhone 14 Page」として保存](assets/build-audience-3-save-audience-as-visited-iphone-14-page.png)
+   ![ オーディエンスを「訪問済みiPhone 14 Page」として保存](assets/build-audience-3-save-audience-as-visited-iphone-14-page.png)
 
 
 
@@ -134,17 +132,17 @@ IPhone 14の製品ページを訪問したオーディエンスを構築する
 
 
 
-&#x200B;5. 説明を入力してください。
+1. 説明を入力してください。
 
-&#x200B;6. ストリーミングに変更
+1. ストリーミングに変更
 
-&#x200B;7. 「*iPhone 14 Pageを訪問しましたが、所有/注文していません*」として保存
+1. 「*iPhone 14 Pageを訪問しましたが、所有/注文していません*」として保存
 
-&#x200B;8. 青いボタン **Activate Audience**&#x200B;をDestinationにクリックします
+1. 青いボタン **Activate Audience**&#x200B;をDestinationにクリックします
 
-&#x200B;9. 「**Streaming DEP Webhook** Destination」を選択し、「Next」をクリックします
+1. 「**Streaming DEP Webhook** Destination」を選択し、「Next」をクリックします
 
-&#x200B;10. 「次へ」をクリックして終了
+1. 「次へ」をクリックして終了
 
 >[!NOTE]
 >
@@ -158,7 +156,7 @@ IPhone 14の製品ページを訪問したオーディエンスを構築する
 >
 >簡単な要件ですが、いくつかの理由により、多くのオーディエンスに分割しました。 要件はストリーミングですが、これらの2つの要件により、オーディエンスがバッチに変わります。 ストリーミングの適格性ルールについて詳しくは、こちらを参照してください。
 >
->[https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/streaming-segmentation.html?lang=ja](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/streaming-segmentation.html?lang=ja)
+>[https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/streaming-segmentation.html](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/streaming-segmentation.html)
 
 >[!NOTE]
 >
@@ -168,7 +166,7 @@ IPhone 14の製品ページを訪問したオーディエンスを構築する
 >
 >オーディエンス内でオーディエンスを使用する場合、AEPは可能な場合にシーケンス化を試みることを理解する必要があります。 例えば、これが不可能なエッジケースがあります。オーディエンスのオーディエンスを使用すると、プロファイルの失格は24時間ごとに発生します。
 >
->[https://experienceleaguecommunities.adobe.com/t5/adobe-experience-platform-blogs/peeking-underneath-the-hood-of-segments-in-aep-adobe-experience/ba-p/453535?profile.language=ja](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-platform-blogs/peeking-underneath-the-hood-of-segments-in-aep-adobe-experience/ba-p/453535?profile.language=ja)
+>[https://experienceleaguecommunities.adobe.com/t5/adobe-experience-platform-blogs/peeking-underneath-the-hood-of-segments-in-aep-adobe-experience/ba-p/453535](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-platform-blogs/peeking-underneath-the-hood-of-segments-in-aep-adobe-experience/ba-p/453535)
 
 
 
@@ -176,7 +174,7 @@ IPhone 14の製品ページを訪問したオーディエンスを構築する
 
 これらのオーディエンスをすべて4つではなく1つのオーディエンスに構築した場合、各オーディエンスが個別にストリーミングされていても、バッチ評価方法が適用されます。
 
-![&#x200B; ストリーミングではなくバッチ評価で、1つの組み合わせオーディエンスを作成します](assets/build-audience-3-why-are-we-creating-multiple-audiences.png)
+![ ストリーミングではなくバッチ評価で、1つの組み合わせオーディエンスを作成します](assets/build-audience-3-why-are-we-creating-multiple-audiences.png)
 
 
 

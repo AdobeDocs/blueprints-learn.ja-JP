@@ -1,9 +1,8 @@
 ---
-source-git-commit: 7511cc0e5c099d5d3ee1275a374cd9ffdc972335
+source-git-commit: c766cd3153efce4635089d008daf3eb426eb7a24
 workflow-type: tm+mt
-source-wordcount: '664'
-ht-degree: 0%
-
+source-wordcount: '690'
+ht-degree: 1%
 ---
 # ブループリント評価ルーブリック
 
@@ -21,7 +20,7 @@ Adobe Workfrontの導入の目的を達成するために考えられるアプ�
 正規シェイプ：`.claude/skills/use-case-pattern-builder/references/pattern-template.md`。
 - **アーキテクチャ図** — システムの機能を表す視覚図、
 データフローがあります。 ストーリーは最小限に抑え、ダイアグラムはアーティファクトです。
-正規の例：[platform-data-flow.md](../help/blueprints/experience-platform/platform-data-flow.md)
+正規の例：[platform-data-flow.md](../help/blueprints/architecture-diagrams/architecture-overviews/platform-data-flow.md)
 
 ## スコアリング
 
@@ -42,11 +41,11 @@ Adobe Workfrontの導入の目的を達成するために考えられるアプ�
 
 ### ダイアグラム信号（各= +1 ダイアグラム）
 
-&#x200B;6. システム トポロジを示す&#x200B;**アーキテクチャ/データフロー画像** — `.svg`、`.png`または`.jpg`、
+6. システム トポロジを示す&#x200B;**アーキテクチャ/データフロー画像** — `.svg`、`.png`または`.jpg`、
 データフロー、または統合矢印。
-&#x200B;7. **システム間の統合トポロジ、デプロイメントの形状、またはガードレール** – 方法を説明します
+7. **システム間の統合トポロジ、デプロイメントの形状、またはガードレール** – 方法を説明します
 コンポーネントは、データの保存場所、デプロイメントモデル（エッジとハブの比較）、または容量制限に接続します。
-&#x200B;8. **Audience is solution architect** — デプロイメント、SDK、edge、hubなどを使用したフレーミング
+8. **Audience is solution architect** — デプロイメント、SDK、edge、hubなどを使用したフレーミング
 マーケター向けのフレーミングではなく、アーキテクト向けの用語（キャンペーン，
 audiences）。
 
@@ -62,7 +61,7 @@ audiences）。
 推奨事項= `Duplicate`。 移行アクションは、ブループリントを純粋なものに簡素化することです
 アーキテクチャ図を作成し、既存のパターンに「ユースケースパターンを参照」のクロスリンクを追加します。
 既存のパターンパスを`duplicate_of`列に記録します。
-3. **ファイルは`experience-platform/`にあり、ビジネス目標信号（#1）**&#x200B;がありません。デフォルト→
+3. **ファイルは`experience-platform/`にあり、ビジネス目標信号（#1）**がありません。デフォルト→
    他のスコアに関係なく`Diagram`。 このフォルダーはアーキテクチャ概要層です。
 
 ### スコアベースのレコメンデーション（上書きしない場合）
@@ -89,7 +88,7 @@ audiences）。
      `audience-building-activation`, `personalization`, `campaign-management-orchestration`,
      `analysis`、`conversational-experience`、または`(new) <name>`というラベルの付いた新しいカテゴリ。
    - `proposed_pattern_title` – 既存のパターンに続く、アクション指向の短いタイトル
-命名スタイル：
+     命名スタイル：
 6. `Diagram`および`Split`件の推奨事項について、次を提案します。
    - `proposed_diagram_title` – 通常、既存のタイトルはビジネスフレームでトリミングされます。
 7. ブループリントの範囲を既存のパターンカタログと比較して見つかった重複をキャプチャします

@@ -4,13 +4,11 @@ description: 優先度、適格性ルール、頻度の上限を設定し、階�
 doc-type: article
 solution: Experience Platform
 exl-id: 76214d87-5107-4829-9d6e-91073e1008ca
-source-git-commit: 0b33b2740ee7f5af73d64f217b4475650c1d28a0
+source-git-commit: 96308d5726def849ef22540a5d13618017c40cc3
 workflow-type: tm+mt
 source-wordcount: '1623'
 ht-degree: 0%
-
 ---
-
 
 # オファーアイテムの作成
 
@@ -35,7 +33,7 @@ ht-degree: 0%
 1. 必要に応じて、左側のパネルで「**Decisioning**」を展開し、「**カタログ**」をクリックします
 2. 空のオファーページが表示されます。
 
-   オファー項目を作成する前に![空のオファーカタログページ &#x200B;](assets/create-offer-items-empty-offers-page.png)
+   オファー項目を作成する前に![空のオファーカタログページ ](assets/create-offer-items-empty-offers-page.png)
 
 3. 青い「**項目を作成**」ボタンをクリックします。 「オファー項目を作成」ページが開きます。
 4. 「オファー名」フィールドに、テキスト **iphone:17\:generic**&#x200B;を入力します。 必要に応じて説明を入力します。
@@ -63,7 +61,7 @@ ht-degree: 0%
    >
    >拡張したデバイス領域は、前の節でカスタム属性を使用して「パーソナライズされたオファー項目 – エクスペリエンス決定」スキーマが更新されたときに作成された「デバイス」親オブジェクトと同じです。 Tier フィールド、Model フィールド、Make フィールドは、追加された個々の属性です。
    >
-   >![層、モデル、およびMake属性フィールドを表示するデバイスの親オブジェクト &#x200B;](assets/create-offer-items-device-attribute-fields.png)
+   >![層、モデル、およびMake属性フィールドを表示するデバイスの親オブジェクト ](assets/create-offer-items-device-attribute-fields.png)
 
    >[!WARNING]
    >
@@ -84,7 +82,7 @@ ht-degree: 0%
 >
 >実際には、より複雑なオファーでは、オファー項目が正しく作成されていることを確認するために、適切な承認プロセスを実行する必要があります。 このラボで時間を節約するには、作成するすべてのオファー項目を承認するだけです。
 
-&#x200B;12. オファー項目タイトルの横にある&#x200B;**左向き矢印**&#x200B;をクリックして「オファー」ページに戻ると、iphone:17\:generic offerが表示されます。
+1. オファー項目タイトルの横にある&#x200B;**左向き矢印**&#x200B;をクリックして「オファー」ページに戻ると、iphone:17\:generic offerが表示されます。
 
 ## 基本モデルのオファー項目の作成
 
@@ -125,7 +123,7 @@ ht-degree: 0%
 8. すべてが期待どおりに表示されていることを確認し、**保存** ボタンをクリックします。 保存したら、**承認をクリックします。**
 9. 承認されたら、タイトルの横にある左向き矢印をクリックし、オファーページに戻ります。 2つのオファーが表示され、それぞれに適切な優先度が設定されています。
 
-![汎用オファー項目と基本オファー項目の優先順位を一覧表示するオファーページ &#x200B;](assets/create-offer-items-first-two-offers-priority.png)
+![汎用オファー項目と基本オファー項目の優先順位を一覧表示するオファーページ ](assets/create-offer-items-first-two-offers-priority.png)
 
 ## 上層モデルのオファー項目の作成
 
@@ -150,9 +148,9 @@ ht-degree: 0%
 
 ![超階層オファー項目の設定が完了しました](assets/create-offer-items-ultra-offer-final-config.png)
 
-&#x200B;11. すべての設定が正しいことを確認したら、このオファー項目を保存して承認します。 これで、4つのオファー項目がすべて表示され、それぞれに独自の優先順位が付いています。
+1. すべての設定が正しいことを確認したら、このオファー項目を保存して承認します。 これで、4つのオファー項目がすべて表示され、それぞれに独自の優先順位が付いています。
 
-![独自の優先順位を持つ4つのオファーアイテムをすべて一覧表示するオファーページ &#x200B;](assets/create-offer-items-all-four-offers-priority.png)
+![独自の優先順位を持つ4つのオファーアイテムをすべて一覧表示するオファーページ ](assets/create-offer-items-all-four-offers-priority.png)
 
 >[!NOTE]
 >

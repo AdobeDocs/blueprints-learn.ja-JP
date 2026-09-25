@@ -1,15 +1,13 @@
 ---
-source-git-commit: df6c1852a6e0357dc9f166c88e77dcf9d334f955
-workflow-type: tm+mt
-source-wordcount: '475'
-ht-degree: 4%
----
-﻿---
 title: 概要
 description: ブランド、ブランドガイドライン、ジャーニー、テンプレートの概要と、Adobe Journey Optimizerのコンテンツ制作ツールの操作方法について説明します。
 doc-type: overview-page
 solution: Experience Platform
 exl-id: 70eaf77b-e407-4fbc-8338-ab47784e0721
+source-git-commit: 05f7ecfb00f92af29838452abf4069758bb6f1b3
+workflow-type: tm+mt
+source-wordcount: '475'
+ht-degree: 4%
 ---
 
 # 概要
@@ -21,13 +19,13 @@ exl-id: 70eaf77b-e407-4fbc-8338-ab47784e0721
 >以下のラボは、このラボを開始する前に完了している必要があります
 
 - **Data Stores — リレーショナルストアの動作** **—>** [Profile Target Dimension](../data-stores/relational-store-in-action/profile-target-dimension.md)
-- **データストア – メールチャネルの設定 – >** [&#x200B; リレーショナル用の設定](../data-stores/configure-email-channels/configure-for-relational.md)
+- **データストア – メールチャネルの設定 – >** [ リレーショナル用の設定](../data-stores/configure-email-channels/configure-for-relational.md)
 
 ラボを完了していない場合は、続行する前に今すぐ完了してください。
 
 >[!CAUTION]
 >
->このラボでは、サンドボックスでAdobeにデリゲートされたサブドメインが必要です。 自分のペースで進めている場合は、[&#x200B; セットアップ &#x200B;](../setup.md)を参照してください。
+>このラボでは、サンドボックスでAdobeにデリゲートされたサブドメインが必要です。 自分のペースで進めている場合は、[ セットアップ ](../setup.md)を参照してください。
 
 ## ラボの概要
 
@@ -119,7 +117,7 @@ AJOのブランドは、一意のID （Connection 5Gなど）を表します。 
 
 UIについて詳しくは、それぞれのUIを選択してください。 このラボでは、各セクションについて詳しく説明します。
 
-![&#x200B; ナビゲーションメニューのAssets、コンテンツテンプレート、フラグメントなどのコンテンツ作成ツール &#x200B;](assets/overview-content-creation-tools-navigation-menu.png)
+![ ナビゲーションメニューのAssets、コンテンツテンプレート、フラグメントなどのコンテンツ作成ツール ](assets/overview-content-creation-tools-navigation-menu.png)
 
 ## 概要
 

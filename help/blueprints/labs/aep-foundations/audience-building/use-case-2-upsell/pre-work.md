@@ -4,13 +4,11 @@ description: 請求の使用状況とプラン名に関するスキーマフィ�
 doc-type: article
 solution: Experience Platform
 exl-id: c26de19e-82da-4070-a918-2d2c8ef2c116
-source-git-commit: 0b33b2740ee7f5af73d64f217b4475650c1d28a0
+source-git-commit: 96308d5726def849ef22540a5d13618017c40cc3
 workflow-type: tm+mt
 source-wordcount: '285'
 ht-degree: 0%
-
 ---
-
 
 # 事前作業
 
@@ -25,9 +23,9 @@ ht-degree: 0%
 
 
 
-&#x200B;3. イベントで「使用状況」を検索します。  「i」をクリックして説明を確認します（なし）。
+1. イベントで「使用状況」を検索します。  「i」をクリックして説明を確認します（なし）。
 
-![&#x200B; イベントでの使用状況の検索 – 説明なし](assets/pre-work-search-usage-in-events.png)
+![ イベントでの使用状況の検索 – 説明なし](assets/pre-work-search-usage-in-events.png)
 
 >[!NOTE]
 >

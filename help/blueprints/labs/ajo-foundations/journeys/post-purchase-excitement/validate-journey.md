@@ -4,13 +4,11 @@ description: 入口と出口の数、メール配信レポート、ステップ�
 doc-type: article
 solution: Experience Platform
 exl-id: 2e6e73e5-6bd8-4dde-ba06-29b67f927131
-source-git-commit: 0b33b2740ee7f5af73d64f217b4475650c1d28a0
+source-git-commit: 96308d5726def849ef22540a5d13618017c40cc3
 workflow-type: tm+mt
 source-wordcount: '527'
 ht-degree: 0%
-
 ---
-
 
 # ジャーニーを検証
 
@@ -23,13 +21,13 @@ ht-degree: 0%
 1. 「Order Shipped」ジャーニーに移動し、閉じた場合は開きます
 2. 少なくとも2つのプロファイルが入力されています
 
-   ![&#x200B; ジャーニーに表示されたプロファイル入力済み数](assets/validate-journey-profile-entered-count.png)
+   ![ ジャーニーに表示されたプロファイル入力済み数](assets/validate-journey-profile-entered-count.png)
 
 3. 右上の「**レポートを表示** -> **過去24時間**」をクリックします。
 4. デフォルトでは、**ジャーニー** タブ（左側のパネル）に表示されます
    - エントリと離脱が表示されます（カウントは、送信したイベント数、テスト、エラーなどによって異なります）。
 
-![出入りを示すジャーニータブのレポート &#x200B;](assets/validate-journey-journey-tab-enters-exits.png)
+![出入りを示すジャーニータブのレポート ](assets/validate-journey-journey-tab-enters-exits.png)
 
 すべてがきれいに処理された場合（下にスクロールして確認します）:
 
@@ -55,16 +53,16 @@ ht-degree: 0%
 
 3外部イベント
 
-&#x200B;5. **電子メール** タブ（左側のパネル）をクリックします
+1. **電子メール** タブ（左側のパネル）をクリックします
    - **電子メール – パフォーマンスの送信**
      - **配信済み**&#x200B;および&#x200B;**送信済み**&#x200B;の値が表示されます（カウントは、送信したイベント数やエラーなどによって異なります）。
      - エラーがないことを願います（以前に問題が発生した場合を除く）
    - **電子メール – 統計**
      - 電子メール - 3件のターゲティング、送信、配信
 
-   送信パフォーマンスと統計を表示する![電子メールタブ &#x200B;](assets/validate-journey-email-tab-sending-performance.png)
+   送信パフォーマンスと統計を表示する![電子メールタブ ](assets/validate-journey-email-tab-sending-performance.png)
 
-&#x200B;6. **電子メールの受信トレイ**&#x200B;を確認し、電子メールが届いているかどうかを確認します（以下のようになります）
+1. **電子メールの受信トレイ**&#x200B;を確認し、電子メールが届いているかどうかを確認します（以下のようになります）
    - *,*&#x200B;ご注文からETAが発送されました：*10/17/2026* トラッキング番号：*051009364*
 
    >[!NOTE]
@@ -81,7 +79,7 @@ ht-degree: 0%
 
 
 
-&#x200B;7. *30 ～ 60分後*、次のデータレイクでデータセットを確認することもできます。**クエリ** -> **クエリを作成** -> **SQLをコピー/ペースト** -> **実行**
+1. *30 ～ 60分後*、次のデータレイクでデータセットを確認することもできます。**クエリ** -> **クエリを作成** -> **SQLをコピー/ペースト** -> **実行**
 
 >[!NOTE]
 >
@@ -93,7 +91,7 @@ WHERE timestamp >= CURRENT_DATE
 LIMIT 10
 ```
 
-dep_orders データセット ![&#128279;](assets/validate-journey-query-service-dataset-results.png)の クエリサービス結果
+dep_orders データセット ](assets/validate-journey-query-service-dataset-results.png)の![ クエリサービス結果
 
 ## ボーナス（ステップイベントを確認）
 
@@ -119,7 +117,7 @@ limit 50
 
 >[!NOTE]
 >
->各フィールドの意味について詳しくは、AJO スキーマ ディクショナリを参照し、ジャーニーステップイベントスキーマ [https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=ja](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=ja)にドロップダウンを変更してください。
+>各フィールドの意味について詳しくは、AJO スキーマ ディクショナリを参照し、ジャーニーステップイベントスキーマ [https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=en](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=en)にドロップダウンを変更してください。
 
 
 

@@ -4,13 +4,11 @@ description: Postmanを使用して、テストプロファイルにエクスペ
 doc-type: article
 solution: Experience Platform
 exl-id: 540e50c9-bf39-49a4-ae63-c1d7b94f6b8c
-source-git-commit: 0b33b2740ee7f5af73d64f217b4475650c1d28a0
+source-git-commit: 96308d5726def849ef22540a5d13618017c40cc3
 workflow-type: tm+mt
 source-wordcount: '2147'
 ht-degree: 0%
-
 ---
-
 
 # 意思決定とCBEの活用
 
@@ -39,7 +37,7 @@ ht-degree: 0%
 1. **EDGE\_REGION**&#x200B;および&#x200B;**DATASTREAM\_CONFIG**&#x200B;の環境変数が引き続き設定されていることを確認します。 もう一度設定する必要がある場合は、「環境とコレクションの読み込み」ラボの手順を確認してください。
 1. **Decisioning Lab** フォルダーを展開します。 プロファイルごとに2つのエクスペリエンスイベントが表示されます。
 
-![&#x200B; プロファイルごとに2つのエクスペリエンスイベントが表示されているPostman Decisioning Lab フォルダー](assets/decisioning-and-cbes-in-action-postman-collection-folder.png)
+![ プロファイルごとに2つのエクスペリエンスイベントが表示されているPostman Decisioning Lab フォルダー](assets/decisioning-and-cbes-in-action-postman-collection-folder.png)
 
 ## Experience Eventsでの送信
 
@@ -85,12 +83,12 @@ Postman コレクションでは、各プロファイルに2つのExperience Eve
 
 7. **表示**&#x200B;をクリックして、ボブのプロファイルを開きます（ボブのプロファイルの色は、スクリーンショットに表示されている色と異なる場合があります）。
 
-   ![&#x200B; ボブのプロフィールページがAJOで開きました](assets/decisioning-and-cbes-in-action-bob-profile-opened.png)
+   ![ ボブのプロフィールページがAJOで開きました](assets/decisioning-and-cbes-in-action-bob-profile-opened.png)
 
 8. Bobのプロファイルが開いたら、「**オーディエンスメンバーシップ**」タブをクリックすると、少なくともAEP Hubの観点から、Bobが「dep: iPhone 17に興味がある」セグメントのメンバーであることがわかります。
 9. 「**属性、**」をクリックし、「**Edge**」ラジオボタンを選択して、Edge ビューに切り替えます。
 
-   プロファイルビューを切り替える「![Edge」ラジオボタン付きの「属性」タブ &#x200B;](assets/decisioning-and-cbes-in-action-edge-view-toggle.png)
+   プロファイルビューを切り替える「![Edge」ラジオボタン付きの「属性」タブ ](assets/decisioning-and-cbes-in-action-edge-view-toggle.png)
 
    >[!WARNING]
    >
@@ -102,36 +100,36 @@ Postman コレクションでは、各プロファイルに2つのExperience Eve
 
 ![まだオーディエンスメンバーシップが表示されていないBobのプロフィールのEdge ビュー](assets/decisioning-and-cbes-in-action-edge-audience-membership-empty.png)
 
-&#x200B;11. 新しいブラウザータブで、作成したジャーニーに移動し、そのタブをクリックします。 1つのプロファイルがノードに入力され、CBE ジャーニーに配置されていることがわかります。
+1. 新しいブラウザータブで、作成したジャーニーに移動し、そのタブをクリックします。 1つのプロファイルがノードに入力され、CBE ジャーニーに配置されていることがわかります。
 
-![CBE ノードに入力されたボブのプロフィールを示すジャーニーキャンバス &#x200B;](assets/decisioning-and-cbes-in-action-bob-enters-journey.png)
+   ![CBE ノードに入力されたボブのプロフィールを示すジャーニーキャンバス ](assets/decisioning-and-cbes-in-action-bob-enters-journey.png)
 
-この時点で、ボブはジャーニーに入り、Edge図法は現在、Edge上のボブのプロフィールを更新する図法を組み立てています。
+   この時点で、ボブはジャーニーに入り、Edge図法は現在、Edge上のボブのプロフィールを更新する図法を組み立てています。
 
-&#x200B;12. Postmanに切り替えて、BobのExperience Event呼び出しの2番目の&#x200B;**Bob - Page Top Fetchをクリックします。**
-&#x200B;13. **送信**&#x200B;をクリックします。 どうなるのでしょうか？
-    - BobのEdge プロファイルがまだ更新されていない場合は、Data Collection呼び出しから得たものと非常によく似た応答が返されます。 この場合は、もう1分か2分待ってから、BobのPage Top Fetch呼び出しを再度送信してみてください。
-    - BobのEdge プロファイルが更新された場合、以前に設定したJSONと、レポートに使用する追加情報を含む応答が返されます。 しかし、先に進む前に、iPhone17のオファーはボブが提供されるべきですか？
+1. Postmanに切り替えて、BobのExperience Event呼び出しの2番目の&#x200B;**Bob - Page Top Fetchをクリックします。**
+1. **送信**&#x200B;をクリックします。 どうなるのでしょうか？
+   - BobのEdge プロファイルがまだ更新されていない場合は、Data Collection呼び出しから得たものと非常によく似た応答が返されます。 この場合は、もう1分か2分待ってから、BobのPage Top Fetch呼び出しを再度送信してみてください。
+   - BobのEdge プロファイルが更新された場合、以前に設定したJSONと、レポートに使用する追加情報を含む応答が返されます。 しかし、先に進む前に、iPhone17のオファーはボブが提供されるべきですか？
 
-      ボブは1974年に生まれ、1966年よりも大きいので、2番目のランキング式の基準に適格となり、彼のGeneric、Base、Pro オファーの優先順位スコアはそれぞれ100を掛け、100、200、300のオファースコアを与えます。 ただし、Bob Basicにはプラン ID 1があるため、UltraまたはPro レベルのオファーの対象にはなりません。 したがって、スコアが200のベース層オファーが表示されます。 応答で確認できます（おそらく下にスクロールする必要があります）。
+     ボブは1974年に生まれ、1966年よりも大きいので、2番目のランキング式の基準に適格となり、彼のGeneric、Base、Pro オファーの優先順位スコアはそれぞれ100を掛け、100、200、300のオファースコアを与えます。 ただし、Bob Basicにはプラン ID 1があるため、UltraまたはPro レベルのオファーの対象にはなりません。 したがって、スコアが200のベース層オファーが表示されます。 応答で確認できます（おそらく下にスクロールする必要があります）。
 
-Bob![&#128279;](assets/decisioning-and-cbes-in-action-bob-base-offer-response.png)に対して返されたベース層オファーを示すPostmanの応答
+   Bob](assets/decisioning-and-cbes-in-action-bob-base-offer-response.png)に対して返されたベース層オファーを示す![Postmanの応答
 
-&#x200B;14. このPostman リクエストは、このオファーの表示通知を自動的に送信するので、AJOはこのオファーに対するインプレッションを既に1つ以上記録しています。 もう一度&#x200B;**送信**&#x200B;をクリックして、2回目のインプレッションを送信します。 基本オファーが再び返されたことを確認します。
-&#x200B;15. 3つのインプレッションの周波数キャップは、Base、Pro、Ultraの各モデルに適用されます。 3回目に&#x200B;**送信**&#x200B;をクリックすると、ベース層で3回目の応答が得られ、別のインプレッションが記録されます。
-&#x200B;16. 「**送信**」を4回目にクリックすると、どうなりますか？ 基本レベルのオファーの使用頻度の上限に達し、応答で汎用オファーを受け取ります。
+1. このPostman リクエストは、このオファーの表示通知を自動的に送信するので、AJOはこのオファーに対するインプレッションを既に1つ以上記録しています。 もう一度&#x200B;**送信**&#x200B;をクリックして、2回目のインプレッションを送信します。 基本オファーが再び返されたことを確認します。
+1. 3つのインプレッションの周波数キャップは、Base、Pro、Ultraの各モデルに適用されます。 3回目に&#x200B;**送信**&#x200B;をクリックすると、ベース層で3回目の応答が得られ、別のインプレッションが記録されます。
+1. 「**送信**」を4回目にクリックすると、どうなりますか？ 基本レベルのオファーの使用頻度の上限に達し、応答で汎用オファーを受け取ります。
 
-![使用頻度の上限に達した後に返された汎用オファーを示すPostmanの回答](assets/decisioning-and-cbes-in-action-bob-generic-offer-after-cap.png)
+   ![使用頻度の上限に達した後に返された汎用オファーを示すPostmanの回答](assets/decisioning-and-cbes-in-action-bob-generic-offer-after-cap.png)
 
-&#x200B;17. **送信**&#x200B;をもう一度クリックすると、汎用階層オファーが表示されます。 「送信」を100回以上クリックすると、フリークエンシーキャップがリセットされた翌日まで同じオファーが返されます。
+1. **送信**&#x200B;をもう一度クリックすると、汎用階層オファーが表示されます。 「送信」を100回以上クリックすると、フリークエンシーキャップがリセットされた翌日まで同じオファーが返されます。
 
->[!WARNING]
->
->AJOでは、日は深夜GMTにリセットされます。 深夜GMTの後に別のFetch呼び出しを送信する場合は、代わりにベース層オファーが返されます。
+   >[!WARNING]
+   >
+   >AJOでは、日は深夜GMTにリセットされます。 深夜GMTの後に別のFetch呼び出しを送信する場合は、代わりにベース層オファーが返されます。
 
-&#x200B;18. Journey Orchestration UIに戻り、作成した&#x200B;**iPhone 17 Abandon Browse** ジャーニーをクリックします。 ジャーニーが公開されているため、統計情報が表示されます。 1つのプロファイルがノードに入力され、現在CBE ジャーニーにあることがわかります。
+1. Journey Orchestration UIに戻り、作成した&#x200B;**iPhone 17 Abandon Browse** ジャーニーをクリックします。 ジャーニーが公開されているため、統計情報が表示されます。 1つのプロファイルがノードに入力され、現在CBE ジャーニーにあることがわかります。
 
-![現在CBE ノードにある1つのプロファイルを示すジャーニーレポート &#x200B;](assets/decisioning-and-cbes-in-action-bob-enters-journey.png)
+![現在CBE ノードにある1つのプロファイルを示すジャーニーレポート ](assets/decisioning-and-cbes-in-action-bob-enters-journey.png)
 
 >[!NOTE]
 >

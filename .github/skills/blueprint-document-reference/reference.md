@@ -1,5 +1,5 @@
 ---
-source-git-commit: 8b3391d41cd4a3ea6cb52d5167e627b7f6bd2c6e
+source-git-commit: c766cd3153efce4635089d008daf3eb426eb7a24
 workflow-type: tm+mt
 source-wordcount: '630'
 ht-degree: 4%
@@ -14,7 +14,7 @@ ht-degree: 4%
 | **シナリオの設計図** | 単一のユースケース：アーキテクチャ、ステップ、ガードレール | e.g. `real-time-lookup.md`, `journey-optimizer-journeys.md` |
 | **目次** | ナビゲーション。コンテンツテンプレートとして使用しない | `help/blueprints/TOC.md` |
 
-&#x200B;---
+---
 
 ## フルセクション参照
 
@@ -45,7 +45,7 @@ ht-degree: 4%
 - **ブループリントシナリオ**&#x200B;または&#x200B;**統合パターン**: シナリオ名、簡単な説明、およびシナリオのブループリントへのリンクを含むテーブル。
 - **前提条件**、**ガードレール**、**関連ドキュメント**：上記と同様。簡潔に保ちます。
 
-&#x200B;---
+---
 
 ## Adobe Experience League — エージェントの指示
 
@@ -64,7 +64,7 @@ Experience Leagueの長い手順をブループリントにペーストしない
 | コンテンツタイプ | ベース URL | パスの例 |
 |--------------|----------|--------------|
 | Experience Platform docs | `https://experienceleague.adobe.com/docs/experience-platform/` | `.../profile/home.html`, `.../destinations/catalog/...` |
-| Experience League （en） | `https://experienceleague.adobe.com/ja/docs/` | `/en/`と同じ構造です。 |
+| Experience League （en） | `https://experienceleague.adobe.com/en/docs/` | `/en/`と同じ構造です。 |
 | Journey Optimizer | `https://experienceleague.adobe.com/docs/journey-optimizer/` | `.../using/get-started/guardrails.html` |
 | Web SDK | `https://experienceleague.adobe.com/docs/experience-platform/web-sdk/` | `.../home.html`, `.../commands/command-responses.html` |
 | Edge Network Server API | `https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/` | `.../overview.html`, `.../guardrails.html` |
@@ -76,7 +76,7 @@ Experience Leagueの長い手順をブループリントにペーストしない
 
 ### Markdownでのリンクの書式
 
-- **説明リンクテキスト**: `[Create schemas](https://experienceleague.adobe.com/ja...)`は「ここをクリック」ではありません。
+- **説明リンクテキスト**: `[Create schemas](https://experienceleague.adobe.com/...)`は「ここをクリック」ではありません。
 - **テキスト内の商品名**: Adobe スタイルごとに`[!DNL Product Name]`を使用します（例：`[!DNL Real-time Customer Profile]`）。
 - **外部リンク**: テンプレートまたはパイプラインが必要な場合にのみ`{target="_blank"}`を追加します（リポジトリの既存のブループリントを確認してください）。
 
@@ -97,19 +97,19 @@ Experience Leagueの長い手順をブループリントにペーストしない
 ## Related documentation
 
 ### Destination configurations
-* [Custom Personalization Connection](https://experienceleague.adobe.com/ja/docs/experience-platform/destinations/catalog/personalization/custom-personalization)
-* [Activate audiences to edge personalization destinations](https://experienceleague.adobe.com/ja/docs/experience-platform/destinations/ui/activate/activate-edge-personalization-destinations)
+* [Custom Personalization Connection](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/personalization/custom-personalization)
+* [Activate audiences to edge personalization destinations](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/activate-edge-personalization-destinations)
 
 ### SDK documentation
-* [Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/web-sdk/home.html?lang=ja)
-* [Edge Network Server API](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/overview.html?lang=ja)
+* [Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/web-sdk/home.html)
+* [Edge Network Server API](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/overview.html)
 
 ### Profile and segmentation
-* [Real-time Customer Profile](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=ja)
-* [Profile Guardrails](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=ja)
+* [Real-time Customer Profile](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html)
+* [Profile Guardrails](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html)
 ```
 
-&#x200B;---
+---
 
 ## リポジトリと目次
 
@@ -117,13 +117,13 @@ Experience Leagueの長い手順をブループリントにペーストしない
 - **Assets**: ブループリント （例：`assets/`、`images/`）または共有フォルダー（例：`experience-platform/assets/`）に配置します。
 - **目次**: ブループリントページを追加、名前変更、または移動する際に`help/blueprints/TOC.md`を編集します。 フロントマター（`user-guide-title`、`breadcrumb-title`、`user-guide-description`、`product`、`mini-toc-levels`、`role`）と`+`階層を保持します。
 
-&#x200B;---
+---
 
 ## このリポジトリの参照例
 
-- **シナリオの設計図（長いフォーム）**: `help/blueprints/audience-activation/real-time-lookup.md`
-- **タブとテーブルを含む概要/ハブ**: `help/blueprints/customer-journeys/journey-optimizer/journey-optimizer-overview.md`
-- **ガードレール中心**: `help/blueprints/experience-platform/guardrails.md`
+- **シナリオの設計図（長いフォーム）**: `help/blueprints/architecture-diagrams/audience-profile-activation/real-time-lookup.md`
+- **タブとテーブルを含む概要/ハブ**: `help/blueprints/architecture-diagrams/customer-journeys/journey-optimizer/journey-optimizer-overview.md`
+- **ガードレール中心**: `help/blueprints/architecture-diagrams/architecture-overviews/guardrails.md`
 - **ナビゲーション**: `help/blueprints/TOC.md`、`help/blueprints/overview.md`
 
 これらのパターンを、セクションの順序、フロントマター、ダイアグラムの配置、Experience League リンクの使用状況に使用します。

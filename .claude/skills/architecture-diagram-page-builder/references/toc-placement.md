@@ -1,9 +1,8 @@
 ---
-source-git-commit: 83e85d946e455cde46001af0a2112637b7fe24cc
+source-git-commit: c766cd3153efce4635089d008daf3eb426eb7a24
 workflow-type: tm+mt
-source-wordcount: '369'
+source-wordcount: '407'
 ht-degree: 0%
-
 ---
 # TOC.md プレースメント リファレンス
 
@@ -13,18 +12,19 @@ ht-degree: 0%
 
 すべてのアーキテクチャ図ページは、TOC.mdのトップレベル `+ Architecture Diagrams and Blueprints{#architecture-diagrams}` セクションの下にあります。 このセクションでは、いくつかのサブセクションでページをトピック別にグループ化します。
 
+これらのサブセクションのフォルダー名、目次アンカー、目次ラベルは、`../../architecture-diagram-category-builder/references/naming-conventions.md`の命名規則に従う必要があります。新しいカテゴリが必要になった場合は、そのファイルを参照してください（このカテゴリではなく、`architecture-diagram-category-builder` スキルを使用してください）。
+
 ## サブスクルーマッピング
 
 新しいページのトピックフォルダーに一致するサブセクションを選択します。
 
 | トピックフォルダー | 目次サブセクション見出し |
 | --- | --- |
-| `experience-platform/` | `+ Architecture overviews{#architecture-overview}` |
-| `experience-platform/deployment/` | `+ Deployment{#deployment}` （`Architecture overviews`内にネストされたサブサブセクション） |
-| `audience-activation/` | `+ Audience & Profile Activation{#audience-activation}` |
-| `b2b/` | `+ B2B activation & marketing{#b2b-activation}` |
-| `customer-journey-analytics/` | `+ Customer Journey Analytics{#customer-journey-analytics}` |
-| `customer-journeys/` | `+ Customer journeys{#customer-journeys}` |
+| `architecture-diagrams/architecture-overviews/` | `+ Architecture overviews{#architecture-overviews}` |
+| `architecture-diagrams/audience-profile-activation/` | `+ Audience & Profile Activation{#audience-profile-activation}` |
+| `architecture-diagrams/b2b-activation-marketing/` | `+ B2B activation & marketing{#b2b-activation-marketing}` |
+| `architecture-diagrams/customer-insights/` | `+ Customer Insights{#customer-insights}` |
+| `architecture-diagrams/customer-journeys/` | `+ Customer journeys{#customer-journeys}` |
 
 ユーザーがこのテーブルにないトピックフォルダーを提案した場合は、それを新しいトップレベルのサブセクションとして扱い、一時停止して、作成するかどうかを確認するようにユーザーに依頼します。 新しいサブセクションを静かに発明しないでください。
 
@@ -43,63 +43,57 @@ ht-degree: 0%
 
 ## ネストされたサブセクション
 
-`+ Architecture overviews{#architecture-overview}`には、SDK ページ用のネストされた`+ Deployment{#deployment}` ブロックが含まれています。 新しいページが`experience-platform/deployment/`未満の場合は、インデントの&#x200B;**6**&#x200B;個のスペースを含む`Deployment`内にエントリを配置します。
-
-```
-      + [{Page title}](/help/blueprints/experience-platform/deployment/{filename}.md)
-```
-
-その他のサブセクション （`Audience & Profile Activation`、`B2B activation & marketing`など） ネストされたグループ化を含めることもできます。エントリを配置する前に、セクションを調べます。 ネストされたグループが存在し、新しいページがその中に属する場合は、さらに2つのスペースをインデントします。それ以外の場合は、サブセクションの最上位レベルにエントリを配置します。
+`+ Architecture overviews{#architecture-overviews}`にはネストされたグループ化がありません。`architecture-diagrams/architecture-overviews/`の下のすべてのページ （SDK デプロイメントページを含む、`websdk.md`、`appsdk.md`など）は、同じ4つのスペースのインデントレベルに配置されています。 その他のサブセクション （`Audience & Profile Activation`、`B2B activation & marketing`など） ネストされたグループ化が含まれている可能性があります。エントリを配置する前に、セクションを調べます。 ネストされたグループが存在し、新しいページがその中に属する場合は、さらに2つのスペースをインデントします。それ以外の場合は、サブセクションの最上位レベルにエントリを配置します。
 
 ## 使用例
 
 ### 例1 — トップレベルのAEP ページ
 
-- トピックフォルダー：`experience-platform/`
+- トピックフォルダー：`architecture-diagrams/architecture-overviews/`
 - ファイル名：`mix-modeler-integration.md`
 - ページタイトル：`Adobe Mix Modeler integration with Experience Platform`
 
 エントリ：
 
 ```
-    + [Adobe Mix Modeler integration with Experience Platform](/help/blueprints/experience-platform/mix-modeler-integration.md)
+    + [Adobe Mix Modeler integration with Experience Platform](/help/blueprints/architecture-diagrams/architecture-overviews/mix-modeler-integration.md)
 ```
 
-`+ Architecture overviews{#architecture-overview}`の下に配置しました。
+`+ Architecture overviews{#architecture-overviews}`の下に配置しました。
 
 ### 例2 - AJOジャーニーアーキテクチャ
 
-- トピックフォルダー：`customer-journeys/`
+- トピックフォルダー：`architecture-diagrams/customer-journeys/`
 - ファイル名：`cross-channel-journey-architecture.md`
 - ページタイトル：`Cross-channel journey architecture`
 
 エントリ：
 
 ```
-    + [Cross-channel journey architecture](/help/blueprints/customer-journeys/cross-channel-journey-architecture.md)
+    + [Cross-channel journey architecture](/help/blueprints/architecture-diagrams/customer-journeys/cross-channel-journey-architecture.md)
 ```
 
 `+ Customer journeys{#customer-journeys}`の下に配置しました。
 
-### 例3 - デプロイメント SDK ページ
+### 例3 - SDKのデプロイメントページ
 
-- トピックフォルダー：`experience-platform/deployment/`
+- トピックフォルダー：`architecture-diagrams/architecture-overviews/`
 - ファイル名：`mobile-sdk-architecture.md`
 - ページタイトル：`Mobile SDK deployment architecture`
 
-エントリ（6文字のスペースインデントに注意）:
+エントリ（他のアーキテクチャ概要ページと同じ4つのスペースインデント）:
 
 ```
-      + [Mobile SDK deployment architecture](/help/blueprints/experience-platform/deployment/mobile-sdk-architecture.md)
+    + [Mobile SDK deployment architecture](/help/blueprints/architecture-diagrams/architecture-overviews/mobile-sdk-architecture.md)
 ```
 
-`+ Architecture overviews{#architecture-overview}`内の`+ Deployment{#deployment}`の下に配置されました。
+`+ Architecture overviews{#architecture-overviews}`の下に配置しました。
 
 ## 検証
 
 TOC.mdを編集した後、影響を受けるサブセクションを再度読み、確認します。
 
-1. 新しいエントリでは、インデントのスペースを4つだけ使用します（`Deployment`の下にネストされている場合は6つ）。
+1. 新しいエントリでは、インデントのスペースを4つだけ使用します（サブセクション固有のグループ化の下にネストされている場合は6つ、例：`Audience & Profile Activation` RTCDPのグループ化）。
 2. リンクターゲットは、ディスク上のファイルパス（`.md`拡張子を含む）と一致します。
 3. エントリは正しいサブセクション内にグループ化され、サブセクション間でフローティングされません。
 4. 既存のエントリは並べ替えまたは変更されませんでした。

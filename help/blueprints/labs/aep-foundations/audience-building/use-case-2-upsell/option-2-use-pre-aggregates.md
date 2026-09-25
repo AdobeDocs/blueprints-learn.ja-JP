@@ -1,16 +1,14 @@
 ---
-title: オプション
+title: オプション #2 - use pre-aggregates
 description: オーディエンスルール内のイベントを集約するのではなく、アップストリームで計算された事前集約された利用属性を使用して、完全ストリーミングオーディエンスを構築できます。
 doc-type: article
 solution: Experience Platform
 exl-id: fe6ee041-814f-41c1-91cf-c3473cbca0c2
-source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
+source-git-commit: 96308d5726def849ef22540a5d13618017c40cc3
 workflow-type: tm+mt
-source-wordcount: '316'
+source-wordcount: '312'
 ht-degree: 0%
-
 ---
-
 
 # オプション #2 – 事前集計を使用
 
@@ -36,15 +34,15 @@ ht-degree: 0%
 
 
 
-&#x200B;3. プロファイルでプラン名を検索して追加します（XDM Individual Profile/Devbc/プラン詳細/プラン名）。 Selectは「Ultimate」と等しくありません
+1. プロファイルでプラン名を検索して追加します（XDM Individual Profile/Devbc/プラン詳細/プラン名）。 Selectは「Ultimate」と等しくありません
 
-   ![&#x200B; プラン名を選択すると、Ultimateと一致しません](assets/option-2-use-pre-aggregates-select-does-not-equal-ultimate.png)
+   ![ プラン名を選択すると、Ultimateと一致しません](assets/option-2-use-pre-aggregates-select-does-not-equal-ultimate.png)
 
 
 
-&#x200B;4. 説明を入力してください。  評価方法がストリーミングであることを検証します。
+1. 説明を入力してください。  評価方法がストリーミングであることを検証します。
 
-&#x200B;5. オーディエンスを「*請求データ使用率は高いがUltimate プラン （Agg）*」として保存します
+1. オーディエンスを「*請求データ使用率は高いがUltimate プラン （Agg）*」として保存します
 
 >[!NOTE]
 >

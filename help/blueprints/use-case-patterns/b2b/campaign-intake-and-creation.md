@@ -1,31 +1,23 @@
 ---
 title: 取り込みと作成のブループリント
-description: 取り込みと作成 - Marketo Engage と Workfront 統合ブループリント
-source-git-commit: 8284380fb9202991f3da7d755225da2e38a50cac
+description: 受注と作成 – Marketo EngageとWorkfrontの統合
+source-git-commit: c2381a0f7223d8cbb0dae05d056fd45ff5701f0f
 workflow-type: tm+mt
-source-wordcount: '1372'
+source-wordcount: '1319'
 ht-degree: 86%
-
 ---
-
 # 取り込みと作成のブループリント {#intake-and-create}
 
 新しいキャンペーンを立ち上げるためにマーケティングオペレーションチームに寄せられる多数のマーケティングリクエストは、機能の高いチームに反復的なタスクの繰返しを強い、燃え尽き症候群やイノベーションの停滞を引き起こしてしまう可能性があります。
 
 キャンペーンリクエストを送信するプロセスを確立し、よくリクエストされるマーケティングキャンペーンの作成を自動化することにより、キャンペーンの速度を上げ、エラーを減らし、リクエストをマーケティング業務の適切なメンバーにルーティングし、リソースの使用率を調整して改善し、マーケティング業務をより戦略的なタスクに集中させることができます。
 
-WorkfrontとMarketo Engageを使用すると、システム間接続により、[Workfront リクエストフォーム &#x200B;](https://experienceleague.adobe.com/docs/workfront/using/administration-and-setup/customize/custom-forms/create-or-edit-a-custom-form.html?lang=ja){target="_blank"}の詳細を利用してMarketo Engage プログラムを作成し、件名、電子メールのコピー、画像、日付、時間、イベント情報などの主要な変数に入力できます。
+WorkfrontとMarketo Engageを使用すると、システム間接続により、[Workfront リクエストフォーム ](https://experienceleague.adobe.com/docs/workfront/using/administration-and-setup/customize/custom-forms/create-or-edit-a-custom-form.html?lang=ja){target="_blank"}の詳細を利用してMarketo Engage プログラムを作成し、件名、電子メールのコピー、画像、日付、時間、イベント情報などの主要な変数に入力できます。
 
 この統合を実現するには、Workfront Fusion を使用します。これは Workfront と他のシステム間のワークフローを自動化できる作業自動化レイヤーです。
 
 以下のワークフローは、キャンペーンマネージャーが Workfront リクエストフォームを使用して行うウェビナーのリクエストを示しています。 続いて、リクエストで送信された詳細により、Marketo Engage でウェビナー用に作成されるプログラムとメールがトリガーされます。 さらに、メールのコンテンツを入力するための詳細がリクエストフォームから取得されます。
 さらに、リクエストフォームから詳細が取得され、メールのコンテンツが入力されます。
-
-![&#x200B; ブループリントの取り込みと作成](/help/blueprints/b2b/marketo-engage-and-workfront-integration-blueprint/assets/intake-and-create-1.png){zoomable="yes"}
-
->[!TIP]
->
->マーケティングキャンペーンの作業の整理に使用される Workfront の様々なタイプのオブジェクトと、Marketo Engage プログラムへのマッピング方法について詳しくは、[Marketo と Workfront の概要](/help/blueprints/b2b/marketo-engage-and-workfront-integration-blueprint/overview.md){target="_blank"}をご覧ください。
 
 ## 自動化のためのキャンペーン開発プロセスを準備 {#prepare-your-campaign-development-process-for-automation}
 
@@ -95,13 +87,11 @@ Marketo Engage のプログラムテンプレートを使用してセンター�
 
 再利用可能なプログラムテンプレートのセットを用意したら、このブループリントで概説されている自動化を使用して、取り組みをさらに拡大し、キャンペーン開発をより迅速に進めることができます。
 
-独自のセンターオブエクセレンスの設立について詳しくは、[Marketo コミュニティ &#x200B;](https://nation.marketo.com/t5/product-blogs/marketo-master-class-center-of-excellence-with-chelsea-kiko/ba-p/243221){target="_blank"}を参照して、ベストプラクティスをご確認ください。
+独自のセンターオブエクセレンスの設立について詳しくは、[Marketo コミュニティ ](https://nation.marketo.com/t5/product-blogs/marketo-master-class-center-of-excellence-with-chelsea-kiko/ba-p/243221){target="_blank"}を参照して、ベストプラクティスをご確認ください。
 
 ### トークンを使用してコンテンツを入力する {#use-tokens-to-populate-content}
 
 Marketo Engage では、トークンを使用してコンテンツをキャンペーンアセットに入力することができます。 例えば、センターオブエクセレンスからメールテンプレートを複製した後、Workfront Fusion は Workfront のキャンペーンリクエストから詳細を取得し、Marketo Engage プログラムのマイトークンに渡すことができます。 その後、トークンの値をメールに直接継承して、メールを構築することができます。
-
-![&#x200B; トークンを使用してコンテンツ図を入力](/help/blueprints/b2b/marketo-engage-and-workfront-integration-blueprint/assets/intake-and-create-2.png){zoomable="yes"}
 
 ### AEM Assets から画像を入力 {#populate-images-from-aem-assets}
 
@@ -149,12 +139,8 @@ Workfront リクエストから新しい Marketo Engage プログラムの作成
 
 ここでは、事前定義済みの[Marketo Engage](https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-fusion/fusion-apps-and-modules/workfront-modules.html?lang=ja){target="_blank"}および[Workfront](https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-fusion/fusion-apps-and-modules/marketo-modules.html?lang=ja){target="_blank"} モジュールを使用してWorkflow logicをFusionで組み立てる方法の例を示します。これにより、より迅速に自動化を実現できます。
 
-![取り込みおよび作成の自動化フロー](/help/blueprints/b2b/marketo-engage-and-workfront-integration-blueprint/assets/intake-and-create-3.png)
-
 ## リソース {#resources}
 
 * [Adobe Marketo Engage Modules](https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-fusion/fusion-apps-and-modules/marketo-modules.html?lang=ja){target="_blank"}
 
 * [Adobe Workfront Modules](https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-fusion/fusion-apps-and-modules/workfront-modules.html?lang=ja){target="_blank"}
-
-* [MarketoとWorkfrontの概要](/help/blueprints/b2b/marketo-engage-and-workfront-integration-blueprint/overview.md){target="_blank"}
