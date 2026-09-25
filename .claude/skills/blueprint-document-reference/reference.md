@@ -1,9 +1,8 @@
 ---
-source-git-commit: 83e85d946e455cde46001af0a2112637b7fe24cc
+source-git-commit: c766cd3153efce4635089d008daf3eb426eb7a24
 workflow-type: tm+mt
-source-wordcount: '614'
-ht-degree: 1%
-
+source-wordcount: '630'
+ht-degree: 4%
 ---
 # ブループリントドキュメントリファレンス – 詳細ガイド
 
@@ -122,9 +121,9 @@ Experience Leagueの長い手順をブループリントにペーストしない
 
 ## このリポジトリの参照例
 
-- **シナリオの設計図（長いフォーム）**: `help/blueprints/audience-activation/real-time-lookup.md`
-- **タブとテーブルを含む概要/ハブ**: `help/blueprints/customer-journeys/journey-optimizer/journey-optimizer-overview.md`
-- **ガードレール中心**: `help/blueprints/experience-platform/guardrails.md`
+- **シナリオの設計図（長いフォーム）**: `help/blueprints/architecture-diagrams/audience-profile-activation/real-time-lookup.md`
+- **タブとテーブルを含む概要/ハブ**: `help/blueprints/architecture-diagrams/customer-journeys/journey-optimizer/journey-optimizer-overview.md`
+- **ガードレール中心**: `help/blueprints/architecture-diagrams/architecture-overviews/guardrails.md`
 - **ナビゲーション**: `help/blueprints/TOC.md`、`help/blueprints/overview.md`
 
 これらのパターンを、セクションの順序、フロントマター、ダイアグラムの配置、Experience League リンクの使用状況に使用します。

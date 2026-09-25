@@ -4,13 +4,11 @@ description: スキーマレジストリ APIを使用して、カスタム顧客
 doc-type: article
 solution: Experience Platform
 exl-id: d3262db9-7c0b-476a-843f-1a2c224ee792
-source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
+source-git-commit: 96308d5726def849ef22540a5d13618017c40cc3
 workflow-type: tm+mt
 source-wordcount: '458'
 ht-degree: 0%
-
 ---
-
 
 # カスタムフィールドグループの作成
 
@@ -68,7 +66,7 @@ ht-degree: 0%
 
 
 
-&#x200B;2. 次の形式を使用して、フィールドグループの`title`と`description`を更新します：`Customer Account Details - Sandbox <your number here>`
+1. 次の形式を使用して、フィールドグループの`title`と`description`を更新します：`Customer Account Details - Sandbox <your number here>`
 
 
 
@@ -76,9 +74,9 @@ ht-degree: 0%
 
 
 
-&#x200B;3. 「`Send`」ボタンをクリックして実行します。  以下のスクリーンショットのような応答が表示されるはずです。
+1. 「`Send`」ボタンをクリックして実行します。  以下のスクリーンショットのような応答が表示されるはずです。
 
-&#x200B;4. 新しく作成した顧客アカウントの詳細フィールドグループの`$id`値をコピーします。
+1. 新しく作成した顧客アカウントの詳細フィールドグループの`$id`値をコピーします。
 
 ![&#x200B; カスタムフィールドグループを作成した後のAPI応答が成功しました](assets/create-custom-field-groups-step-2-create-custom-field-group-success.png "手順2 - カスタムフィールドグループの成功の作成")
 

@@ -4,13 +4,11 @@ description: スキーマレジストリ APIを使用して、顧客アカウン
 doc-type: article
 solution: Experience Platform
 exl-id: c9079585-fff1-4ee1-8992-93825fcde759
-source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
+source-git-commit: 96308d5726def849ef22540a5d13618017c40cc3
 workflow-type: tm+mt
 source-wordcount: '319'
 ht-degree: 0%
-
 ---
-
 
 # スキーマ関係の作成
 
@@ -57,9 +55,9 @@ ht-degree: 0%
 
 
 
-&#x200B;3. `Save` ボタンを使用し続ける前に、リクエストを保存してください
+1. `Save` ボタンを使用し続ける前に、リクエストを保存してください
 
-&#x200B;4. `Send` ボタンをクリックしてAPIを実行します
+1. `Send` ボタンをクリックしてAPIを実行します
 
 次のような`201 Created`応答が表示されます
 

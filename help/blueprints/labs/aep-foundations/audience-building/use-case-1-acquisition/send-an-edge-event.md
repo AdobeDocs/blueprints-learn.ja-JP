@@ -4,13 +4,11 @@ description: 未認証のweb イベントをPostman経由でEdgeに送信し、�
 doc-type: article
 solution: Experience Platform
 exl-id: 465d09da-e30f-404c-8778-5df06e5a199f
-source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
+source-git-commit: 96308d5726def849ef22540a5d13618017c40cc3
 workflow-type: tm+mt
 source-wordcount: '1087'
 ht-degree: 0%
-
 ---
-
 
 # Edge イベントの送信
 
@@ -142,13 +140,13 @@ Adobe Experience Platformでは、Edge Networkに送信したばかりのイベ�
 
 
 
-&#x200B;3. 上部のナビゲーションの&#x200B;**イベント**&#x200B;をクリックすると、送信したばかりのイベントが表示されます
+1. 上部のナビゲーションの&#x200B;**イベント**&#x200B;をクリックすると、送信したばかりのイベントが表示されます
 
    ![&#x200B; プロファイルの「イベント」タブでイベントを表示](assets/send-an-edge-event-view-the-profile-event.png)
 
 
 
-&#x200B;4. 上部のナビゲーションの「オーディエンスメンバーシップ」タブを確認して、プロファイルがオーディエンスに適格であることを検証します。  次の項目が表示されます。
+1. 上部のナビゲーションの「オーディエンスメンバーシップ」タブを確認して、プロファイルがオーディエンスに適格であることを検証します。  次の項目が表示されます。
 
 - Any Event Edge（過去15分以内）
 - 任意のイベントストリーミング（過去1時間以内）

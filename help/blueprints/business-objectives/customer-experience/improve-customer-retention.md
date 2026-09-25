@@ -1,35 +1,33 @@
 ---
-title: 顧客維持の向上
-description: 価値主導のエクスペリエンスと継続的な関係育成を通じて、既存の顧客の関心を維持し、更新する方法を説明します。
+title: 顧客維持率の向上
+description: 価値主導の体験と継続的な関係育みを通じて、既存顧客を惹きつけ、維持する方法を学びましょう。
 solution: Experience Platform, Real-Time Customer Data Platform, Journey Optimizer
-source-git-commit: 61c2666b4546222423e85e52270b436c59d846a3
+exl-id: 806e0d2e-71e4-4a50-9de0-a4fae1170b55
+source-git-commit: ccfd8c987a0090ca690e15a4bd89f4d96ec9c01f
 workflow-type: tm+mt
 source-wordcount: '184'
-ht-degree: 3%
-
+ht-degree: 10%
 ---
+# 顧客維持率の向上
 
-
-# 顧客維持の向上
-
-価値主導のエクスペリエンスと継続的な関係育成を通じて、既存の顧客のエンゲージメントと更新を維持します。 この目的は、リスクの高い顧客を特定し、タイムリーに介入を行い、チャーンを減らし、長期的な関係を維持するために継続的なエンゲージメントを維持することに焦点を当てています。
+価値主導の体験と継続的な関係育成を通じて、既存顧客との関係を維持し、更新する。 この目標は、リスクのある顧客を特定し、タイムリーな介入を実現し、顧客離れを低減し、長期的な関係を維持するための継続的なエンゲージメントを維持することに重点を置いています。
 
 ## 主要業績評価指標
 
-次の KPI は、この目標に対する進捗状況を測定します。
+次のKPIは、この目標に対する進捗状況を測定します。
 
 | KPI | 説明 |
 | --- | --- |
-| 定着 | 定義された期間アクティブなままの顧客の割合 |
-| 顧客のライフタイムバリュー | 関係全体にわたる顧客の予測収益の合計 |
-| エンゲージメント | チャネルをまたいだ顧客インタラクションの頻度と深度 |
+| 定着 | 定義された期間にアクティブであり続ける顧客の割合 |
+| 顧客のライフタイムバリュー | 顧客との関係全体における総売上予測 |
+| エンゲージメント | チャネルをまたいだ顧客インタラクションの頻度と深さ |
 
-## 関連するユースケースパターン
+## 関連するユースケースのパターン
 
-このビジネス目標をサポートするユースケースのパターンを次に示します。
+このビジネス目標をサポートするユースケースパターンは、次のとおりです。
 
-| パターン | カテゴリ | この目的をサポートする方法 |
+| パターン | カテゴリ | この目標をどのようにサポートしているか |
 | --- | --- | --- |
-| [&#x200B; 複数ステップの調整されたジャーニー](/help/blueprints/use-case-patterns/campaign-management-orchestration/multi-step-orchestrated-journey.md) | キャンペーンの管理とオーケストレーション | パーソナライズされた介入を使用したマルチタッチのリテンション ジャーニーにより、リスクの高い顧客をガイドします |
-| [Decisioning を使用したクロスチャネルジャーニー](/help/blueprints/use-case-patterns/campaign-management-orchestration/cross-channel-journey-with-decisioning.md) | キャンペーンの管理とオーケストレーション | リアルタイムの意思決定でリテンションジャーニーを調整し、最適な再エンゲージメントコンテンツとチャネルを選択します |
-| [Offer Decisioning](/help/blueprints/use-case-patterns/personalization/offer-decisioning.md) | パーソナライズ機能 | 顧客価値とチャーンリスクに基づいて、リテンション重視のオファーとインセンティブを提示します |
+| [&#x200B; 複数ステップの調整されたジャーニー](/help/blueprints/use-case-patterns/campaign-management-orchestration/multi-step-orchestrated-journey.md) | キャンペーン管理とオーケストレーション | パーソナライズされた介入により、マルチタッチのリテンションジャーニーを通じて、リスクのある顧客を誘導 |
+| [Decisioning を使用したクロスチャネルジャーニー](/help/blueprints/use-case-patterns/campaign-management-orchestration/cross-channel-journey-with-decisioning.md) | キャンペーン管理とオーケストレーション | リアルタイムの意思決定によりリテンションジャーニーを調整し、最適なリエンゲージメントコンテンツとチャネルを選択 |
+| [Offer Decisioning](/help/blueprints/use-case-patterns/personalization/offer-decisioning.md) | パーソナライズ機能 | 顧客価値と解約リスクにもとづいて、リテンションに重点を置いたオファーとインセンティブを提示 |

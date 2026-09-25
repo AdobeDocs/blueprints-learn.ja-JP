@@ -1,15 +1,13 @@
 ---
 title: プロファイルエンリッチメントのためのカスタムデータサイエンスブループリント
-description: データ サイエンスに基づくインサイトを [!DNL Experience Platform] に取り込んで、リアルタイム顧客プロファイルを強化する方法について説明します。
+description: データ サイエンスに基づくインサイトを[!DNL Experience Platform]に取り込んで、リアルタイム顧客プロファイルを強化する方法について説明します。
 solution: Data Collection
 kt: 7203
-source-git-commit: 8284380fb9202991f3da7d755225da2e38a50cac
+source-git-commit: 0c41931afad32e806d57271439e31dda84a4b2ca
 workflow-type: tm+mt
-source-wordcount: '432'
-ht-degree: 64%
-
+source-wordcount: '421'
+ht-degree: 63%
 ---
-
 # プロファイルエンリッチメントのブループリントのためのカスタムデータサイエンス
 
 プロファイル エンリッチメント ブループリントのカスタム データ サイエンスでは、データを使用してモデルをトレーニング、デプロイ、スコアリングし、データ サイエンスおよび機械学習ツールから[!DNL Experience Platform]と[!DNL Real-Time Customer Data Platform]に関する機械学習インサイトを提供する方法を示します。
@@ -22,13 +20,9 @@ ht-degree: 64%
 * より詳細なパーソナライズ機能と最適化されたジャーニーのために、[!UICONTROL リアルタイム顧客プロファイル]をモデル主導のインサイトおよび属性でエンリッチメントします。
 * 顧客のライフタイムバリュー、コンバージョン傾向やチャーン傾向、製品およびコンテンツの親和性、エンゲージメントスコアなどの顧客インサイトを判別するためのモデルをトレーニングおよびスコアリングします。
 
-## アーキテクチャ
-
-<img src="/help/blueprints/audience-activation/assets/data_science.svg" alt="プロファイルエンリッチメントのためのカスタムデータサイエンスブループリントの参照アーキテクチャ" style="width:90%; border:1px solid #4a4a4a" />
-
 ## ガードレール
 
-* データサイエンスの結果を[!DNL Experience Platform]に取り込む際のガードレールとエンドツーエンドの遅延について詳しくは、[&#x200B; デプロイメントガードレール ドキュメント &#x200B;](/help/blueprints/experience-platform/guardrails.md)で参照されているデータ取り込みガードレールとレイテンシ図を参照してください。
+* データサイエンスの結果を[!DNL Experience Platform]に取り込む際のガードレールとエンドツーエンドの遅延について詳しくは、[&#x200B; デプロイメントガードレール ドキュメント &#x200B;](/help/blueprints/architecture-diagrams/architecture-overviews/guardrails.md)で参照されているデータ取り込みガードレールとレイテンシ図を参照してください。
 
 ## 実装に関する考慮事項
 

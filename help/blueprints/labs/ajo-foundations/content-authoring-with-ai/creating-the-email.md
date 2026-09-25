@@ -4,13 +4,11 @@ description: Adobe Journey Optimizerでブランドコンテンツテンプレ�
 doc-type: article
 solution: Experience Platform
 exl-id: bf823714-7298-48fc-a18b-9bf2462ae52e
-source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
+source-git-commit: 96308d5726def849ef22540a5d13618017c40cc3
 workflow-type: tm+mt
 source-wordcount: '669'
 ht-degree: 0%
-
 ---
-
 
 # 電子メールの作成
 
@@ -69,27 +67,27 @@ ht-degree: 0%
 
 ![&#x200B; キャンペーンメールアクティビティのメールオプションの編集](assets/creating-the-email-click-edit-email.png)
 
-&#x200B;11. 「**アクション」タブ**&#x200B;をクリックし、**メール設定**&#x200B;を選択します。 サンドボックスにはこれがリレーショナルメールとして表示される場合があります。 （任意を選択）
+1. 「**アクション」タブ**&#x200B;をクリックし、**メール設定**&#x200B;を選択します。 サンドボックスにはこれがリレーショナルメールとして表示される場合があります。 （任意を選択）
 
-メール設定が選択された![&#x200B; アクションタブ &#x200B;](assets/creating-the-email-action-tab-email-configuration.png)
+   メール設定が選択された![&#x200B; アクションタブ &#x200B;](assets/creating-the-email-action-tab-email-configuration.png)
 
-&#x200B;12. **コンテンツ タブ**&#x200B;をクリックします
+1. **コンテンツ タブ**&#x200B;をクリックします
 
-![電子メールエディターの「コンテンツ」タブ &#x200B;](assets/creating-the-email-click-content-tab.png)
+   ![電子メールエディターの「コンテンツ」タブ &#x200B;](assets/creating-the-email-click-content-tab.png)
 
-&#x200B;13. 「**コンテンツテンプレートを適用**」をクリック
+1. 「**コンテンツテンプレートを適用**」をクリック
 
-![&#x200B; メールエディターでのコンテンツテンプレートの適用オプション &#x200B;](assets/creating-the-email-click-apply-content-template.png)
+   ![&#x200B; メールエディターでのコンテンツテンプレートの適用オプション &#x200B;](assets/creating-the-email-click-apply-content-template.png)
 
-&#x200B;14. 作成したテンプレート **「プロモーションテンプレート」**&#x200B;を選択し、**確認**&#x200B;をクリックします
+1. 作成したテンプレート **「プロモーションテンプレート」**&#x200B;を選択し、**確認**&#x200B;をクリックします
 
-![&#x200B; プロモーションテンプレートを選択して「確認」をクリック &#x200B;](assets/creating-the-email-select-promotional-template-confirm.png)
+   ![&#x200B; プロモーションテンプレートを選択して「確認」をクリック &#x200B;](assets/creating-the-email-select-promotional-template-confirm.png)
 
-&#x200B;15. **メール本文を編集**&#x200B;をクリックします
+1. **メール本文を編集**&#x200B;をクリックします
 
-![&#x200B; テンプレートの適用後にメール本文オプションを編集](assets/creating-the-email-click-edit-email-body.png)
+   ![&#x200B; テンプレートの適用後にメール本文オプションを編集](assets/creating-the-email-click-edit-email-body.png)
 
-&#x200B;16. 新しいヘッダー、ヒーロー、フッター、コンテンツブロックが正しく表示されることを確認します。
+1. 新しいヘッダー、ヒーロー、フッター、コンテンツブロックが正しく表示されることを確認します。
 
 ![&#x200B; ヘッダー、ヒーロー、フッター、コンテンツブロックがメールに正しく表示される](assets/creating-the-email-header-hero-footer-blocks-confirmed.png)
 

@@ -6,13 +6,11 @@ short-description: RTCDP のプロファイルとオーディエンスを Adobe 
 solution: Real-Time Customer Data Platform, Target, Experience Platform
 kt: 7194
 thumbnail: thumb-web-personalization-scenario2.jpg
-source-git-commit: 045fac8362795eefcac0ef5202fe7a90cb6875da
+source-git-commit: 0c41931afad32e806d57271439e31dda84a4b2ca
 workflow-type: tm+mt
-source-wordcount: '1086'
-ht-degree: 33%
-
+source-wordcount: '1045'
+ht-degree: 32%
 ---
-
 
 # Adobe Targetを使用した既知のCustomer Personalization
 
@@ -41,20 +39,6 @@ ht-degree: 33%
 | **Adobe Edgeを利用して、Adobe Real-Time CDPからAdobe Targetにオーディエンスをストリーミングおよびバッチで共有** | - Edge ネットワークを通じて、Real-time Customer Data Platform から Target へのストリーミングおよびバッチオーディエンスを共有します。 <br>- リアルタイムで評価されるオーディエンスには、Web SDKとEdge Networkの実装が必要です。 | - Adobe TargetのWeb/Mobile SDKまたはEdge APIの実装は、ストリーミングおよびバッチ RTCDP オーディエンスをAdobe Targetと共有するために必要ではありませんが、リアルタイムのエッジセグメント評価を有効にするために必要です。 <br>- AT.js を使用する場合、ECID ID 名前空間に対するプロファイル統合のみがサポートされます。 <br>- Edgeでカスタム ID名前空間を検索するには、Web SDK/Edge APIのデプロイメントが必要です。各IDはID マップでIDとして設定する必要があります。 <br>- ターゲットの宛先はReal-time Customer Data Platform Destinationsで設定する必要がありますが、RTCDPのデフォルトの実稼動サンドボックスのみがサポートされています。 <br>- Target との統合には、Experience Platform インスタンスと同じ IMS Org が必要です。 |
 | **Audience Sharing Service アプローチを使用して、Real-time Customer Data PlatformからTargetおよびAudience Managerへのストリーミングとバッチ オーディエンスの共有** |  – この統合パターンは、Audience Managerのサードパーティデータとオーディエンスからの追加のエンリッチメントが必要な場合に活用できます。 | - Web/Mobile SDKは、ストリーミングおよびバッチオーディエンスをTargetに共有するために必要ではありませんが、リアルタイムのエッジセグメント評価を有効にするために必要です。 <br>- AT.js を使用する場合、ECID ID 名前空間に対するプロファイル統合のみがサポートされます。 <br>- Edgeでカスタム ID名前空間を検索するには、Web SDK/Edge APIのデプロイメントが必要です。各IDはID マップでIDとして設定する必要があります。 <br>- オーディエンス共有サービスを介したオーディエンス予測をプロビジョニングする必要があります。 <br>- Target との統合には、Experience Platform インスタンスと同じ IMS Org が必要です。 <br>- デフォルトの実稼動サンドボックスのオーディエンスのみが、オーディエンス共有コアサービスをサポートします。 |
 
-## リアルタイム、ストリーミングおよびバッチオーディエンスの Adobe Target への共有
-
-アーキテクチャ
-
-![&#x200B; オンライン/オフライン Web Personalization ブループリントの参照アーキテクチャ &#x200B;](/help/blueprints/audience-activation/assets/RTCDP-Target.png)
-
-シーケンスの詳細
-
-![&#x200B; オンライン/オフライン Web Personalization ブループリントの参照アーキテクチャ &#x200B;](/help/blueprints/audience-activation/assets/RTCDP-Target_flow.png)
-
-概要アーキテクチャ
-
-![&#x200B; オンライン/オフライン Web Personalization ブループリントの参照アーキテクチャ &#x200B;](/help/blueprints/audience-activation/assets/personalization_with_apps.png)
-
 ## 実装パターン
 
 既知のお客様のパーソナライズ機能は、いくつかの実装方法でサポートされます。
@@ -62,7 +46,7 @@ ht-degree: 33%
 ### Web/Mobile SDKまたは[!DNL Edge Network] APIを使用した実装パターン 1 - [!DNL Edge Network] （推奨されるアプローチ）
 
 * Web/Mobile SDKで[!DNL Edge Network]を使用しています。 リアルタイムのエッジセグメント化には、Web／Mobile SDK または Edge API 実装アプローチが必要です。
-* [SDK ベースの実装については、Experience Platform Webおよびモバイル SDK ブループリント &#x200B;](/help/blueprints/experience-platform/deployment/websdk.md)を参照してください。
+* [SDK ベースの実装については、Experience Platform Webおよびモバイル SDK ブループリント &#x200B;](/help/blueprints/architecture-diagrams/architecture-overviews/websdk.md)を参照してください。
 * モバイル SDKで使用するには、[Adobe Journey Optimizer - Decisioning拡張機能](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer-decisioning/)をインストールする必要があります。
 * [Edge プロファイルを使用したAdobe TargetのAPI ベースの実装については、 [!DNL Edge Network] Server API](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/overview.html?lang=ja)を参照してください。
 
@@ -71,7 +55,7 @@ ht-degree: 33%
 従来のアプリケーション固有の SDK（AT.js や AppMeasurement.js など）を使用。 リアルタイムエッジセグメント評価は、この実装方法ではサポートされていません。 ただし、この実装アプローチでは、Experience Platform ハブからのストリーミングおよびバッチオーディエンス共有がサポートされます。
 
 [Adobe Target Connector ドキュメントを参照してください](https://experienceleague.adobe.com/ja/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection)
-[&#x200B; アプリケーション固有のSDK ブループリントを参照](/help/blueprints/experience-platform/deployment/appsdk.md)
+[Experience Platform Web SDK ブループリントを参照](/help/blueprints/architecture-diagrams/architecture-overviews/websdk.md)
 
 ## 実装に関する考慮事項
 

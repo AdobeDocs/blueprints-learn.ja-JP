@@ -1,23 +1,21 @@
 ---
-title: Journey Optimizer - サードパーティメッセージングのブループリント
-description: Adobe Journey Optimizerをサードパーティのメッセージングシステムと共に使用して、パーソナライズされたコミュニケーションを送信する方法を示します。
+title: Journey Optimizer - サードパーティメッセージのブループリント
+description: Adobe Journey Optimizerをサードパーティのメッセージングシステムと組み合わせて使用し、パーソナライズされたコミュニケーションを送信する方法を示します。
 solution: Journey Optimizer
-source-git-commit: 8284380fb9202991f3da7d755225da2e38a50cac
+source-git-commit: 79738031788419872e32b8f754febacbfd18cc06
 workflow-type: tm+mt
 source-wordcount: '563'
-ht-degree: 62%
-
+ht-degree: 58%
 ---
+# サードパーティメッセージの設計図
 
-# サードパーティメッセージングのブループリント
-
-Adobe Journey Optimizerをサードパーティのメッセージングシステムと共に使用して、パーソナライズされたコミュニケーションを送信する方法を示します。
+Adobe Journey Optimizerをサードパーティのメッセージングシステムと組み合わせて使用し、パーソナライズされたコミュニケーションを送信する方法を示します。
 
 <br>
 
 ## アーキテクチャ
 
-<img src="/help/blueprints/customer-journeys/journey-optimizer/images/3rd-party-messaging-architecture.svg" alt="参照アーキテクチャ Journey Optimizer ブループリント" style="width:100%; border:1px solid #4a4a4a" class="modal-image" />
+<img src="/help/blueprints/architecture-diagrams/customer-journeys/journey-optimizer/images/ajo-third-party-messaging.png" alt="参照アーキテクチャ Journey Optimizer ブループリント" style="width:100%; border:1px solid #4a4a4a" class="modal-image" />
 
 <br>
 
@@ -71,9 +69,9 @@ Adobe Journey Optimizerをサードパーティのメッセージングシステ
 1. Experience Platform データソースを設定し、ジャーニーの一部としてキャッシュするフィールドを決定します
 1. カスタマージャーニーの開始に使用されるストリーミングデータは、オーケストレーション IDを取得するには、まず設定する必要があります。 このオーケストレーション IDは、取り込み中に使用するために開発者に提供されます
 1. 外部データソースを設定
-1. サードパーティアプリケーションのカスタムアクションを設定
+1. サードパーティアプリケーションのカスタムアクションの設定
 
-### モバイルプッシュ設定（オプションでサードパーティがトークンを収集する場合があります）
+### モバイルプッシュ設定（サードパーティがトークンを収集する場合があるため、オプション）
 
 1. Experience Platform Mobile SDK を実装して、プッシュトークンとログイン情報を収集し、既知の顧客プロファイルに結び付けます
 1. Adobe タグを活用し、次の拡張子を持つモバイルプロパティを作成します。

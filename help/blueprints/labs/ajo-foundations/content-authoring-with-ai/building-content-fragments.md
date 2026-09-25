@@ -4,13 +4,11 @@ description: 電子メールデザインを、Adobe Journey Optimizerのテン�
 doc-type: article
 solution: Experience Platform
 exl-id: 253a9332-dc08-420d-ac11-2bf342f0dc38
-source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
+source-git-commit: 96308d5726def849ef22540a5d13618017c40cc3
 workflow-type: tm+mt
 source-wordcount: '899'
 ht-degree: 0%
-
 ---
-
 
 # コンテンツフラグメントの作成
 
@@ -136,29 +134,29 @@ ht-degree: 0%
 
 ![&#x200B; ロゴのアップロードを選択した後、「次へ」をクリック &#x200B;](assets/building-content-fragments-upload-logo-click-next.png)
 
-&#x200B;11. 作成した&#x200B;**アセットフォルダー**&#x200B;を選択し、**読み込み**&#x200B;をクリックします。 ファイルはフォルダーに保存されます。
+1. 作成した&#x200B;**アセットフォルダー**&#x200B;を選択し、**読み込み**&#x200B;をクリックします。 ファイルはフォルダーに保存されます。
 
-![作成したアセットフォルダーを選択し、「読み込み」をクリック &#x200B;](assets/building-content-fragments-select-asset-folder-import.png)
+   ![作成したアセットフォルダーを選択し、「読み込み」をクリック &#x200B;](assets/building-content-fragments-select-asset-folder-import.png)
 
-&#x200B;12. ロゴは正しく配置されていますが、大きすぎるため、サイズを変更する必要があります。 ロゴのサイズを変更するには、プロパティを更新します。 次に示すように、スライダーをドラッグして、**スタイル タブ**&#x200B;をクリックし、幅を40%に設定します。
+1. ロゴは正しく配置されていますが、大きすぎるため、サイズを変更する必要があります。 ロゴのサイズを変更するには、プロパティを更新します。 次に示すように、スライダーをドラッグして、**スタイル タブ**&#x200B;をクリックし、幅を40%に設定します。
 
->[!NOTE]
->
->トグルボタンがオンになっている場合、40の数値はピクセルではなく%を表します。 絶対ピクセルパーフェクト値を設定する場合は、ボタンをpxに切り替えます。
+   >[!NOTE]
+   >
+   >トグルボタンがオンになっている場合、40の数値はピクセルではなく%を表します。 絶対ピクセルパーフェクト値を設定する場合は、ボタンをpxに切り替えます。
 
 
 
-![&#x200B; ロゴのサイズを変更するには、タブ幅スライダーを40%に設定](assets/building-content-fragments-resize-logo-width-slider.png)
+   ![&#x200B; ロゴのサイズを変更するには、タブ幅スライダーを40%に設定](assets/building-content-fragments-resize-logo-width-slider.png)
 
-&#x200B;13. 「**&quot;保存&quot;**&#x200B;をクリックすると、フラグメントが保存されます。 確認に緑色のバーの通知が表示されます。
+1. 「**&quot;保存&quot;**&#x200B;をクリックすると、フラグメントが保存されます。 確認に緑色のバーの通知が表示されます。
 
-![&#x200B; フラグメントを保存した後の確認バーが緑色になる](assets/building-content-fragments-save-fragment-confirmation.png)
+   ![&#x200B; フラグメントを保存した後の確認バーが緑色になる](assets/building-content-fragments-save-fragment-confirmation.png)
 
-&#x200B;14. 保存されたフラグメントはドラフトモードです。 使用する前に、公開する必要があります。 「**戻る**」ボタンをクリックします。
+1. 保存されたフラグメントはドラフトモードです。 使用する前に、公開する必要があります。 「**戻る**」ボタンをクリックします。
 
-![公開前にドラフトフラグメントを残すボタン &#x200B;](assets/building-content-fragments-click-back-button-draft.png)
+   ![公開前にドラフトフラグメントを残すボタン &#x200B;](assets/building-content-fragments-click-back-button-draft.png)
 
-&#x200B;15. 「**公開**」ボタンをクリックします。 「フラグメントを公開しています。これには時間がかかる場合があります。 一度通知します」 確認について。 フラグメントをテンプレート作成に使用する準備ができました。
+1. 「**公開**」ボタンをクリックします。 「フラグメントを公開しています。これには時間がかかる場合があります。 一度通知します」 確認について。 フラグメントをテンプレート作成に使用する準備ができました。
 
 ![公開ボタンと公開フラグメントの確認メッセージ &#x200B;](assets/building-content-fragments-click-publish-fragment-button.png)
 

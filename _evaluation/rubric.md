@@ -1,9 +1,8 @@
 ---
-source-git-commit: 7511cc0e5c099d5d3ee1275a374cd9ffdc972335
+source-git-commit: c766cd3153efce4635089d008daf3eb426eb7a24
 workflow-type: tm+mt
-source-wordcount: '664'
-ht-degree: 0%
-
+source-wordcount: '690'
+ht-degree: 1%
 ---
 # ブループリント評価ルーブリック
 
@@ -21,7 +20,7 @@ Adobe Workfrontの導入の目的を達成するために考えられるアプ�
 正規シェイプ：`.claude/skills/use-case-pattern-builder/references/pattern-template.md`。
 - **アーキテクチャ図** — システムの機能を表す視覚図、
 データフローがあります。 ストーリーは最小限に抑え、ダイアグラムはアーティファクトです。
-正規の例：[platform-data-flow.md](../help/blueprints/experience-platform/platform-data-flow.md)
+正規の例：[platform-data-flow.md](../help/blueprints/architecture-diagrams/architecture-overviews/platform-data-flow.md)
 
 ## スコアリング
 
@@ -89,7 +88,7 @@ audiences）。
      `audience-building-activation`, `personalization`, `campaign-management-orchestration`,
      `analysis`、`conversational-experience`、または`(new) <name>`というラベルの付いた新しいカテゴリ。
    - `proposed_pattern_title` – 既存のパターンに続く、アクション指向の短いタイトル
-命名スタイル：
+     命名スタイル：
 6. `Diagram`および`Split`件の推奨事項について、次を提案します。
    - `proposed_diagram_title` – 通常、既存のタイトルはビジネスフレームでトリミングされます。
 7. ブループリントの範囲を既存のパターンカタログと比較して見つかった重複をキャプチャします

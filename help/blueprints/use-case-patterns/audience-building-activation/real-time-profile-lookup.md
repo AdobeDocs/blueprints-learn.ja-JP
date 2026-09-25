@@ -3,13 +3,11 @@ title: サポートとセールスのシナリオのためのリアルタイム�
 description: '[!UICONTROL リアルタイム顧客プロファイル]を検索し、担当者がサポートおよび販売を支援する際のコンテキストを提供します。'
 solution: Data Collection
 kt: 7195
-source-git-commit: 8284380fb9202991f3da7d755225da2e38a50cac
+source-git-commit: 0c41931afad32e806d57271439e31dda84a4b2ca
 workflow-type: tm+mt
-source-wordcount: '493'
-ht-degree: 66%
-
+source-wordcount: '484'
+ht-degree: 65%
 ---
-
 # サポートとセールスのシナリオのためのリアルタイムのプロファイルアクセス
 
 サポートおよびセールス シナリオのリアルタイム プロファイル アクセス ブループリントでは、外部アプリケーションが[!UICONTROL &#x200B; リアルタイム顧客プロファイル &#x200B;]を使用してAdobe Experience Platformにアクセスする方法を示します。
@@ -25,10 +23,6 @@ ht-degree: 66%
 ## ユースケース
 
 * 担当者がサポートするインタラクションに、詳細な消費者コンテキスト（サポートおよび販売エクスペリエンスなど）を提供します。 Experience Platform のプロファイルルックアップを使用して、担当者は、最近の購入、キャンペーンインタラクション、傾向、オーディエンスメンバーシップ、リアルタイム顧客プロファイルに格納されたその他の属性およびインサイトなど、消費者に対するより詳細なコンテキストを受け取ることができます。
-
-## アーキテクチャ
-
-<img src="/help/blueprints/audience-activation/assets/customer_activity_hub.svg" alt="顧客アクティビティハブブループリントの参照アーキテクチャ" style="width:90%; border:1px solid #4a4a4a"  class="modal-image" />
 
 ## ガードレール
 

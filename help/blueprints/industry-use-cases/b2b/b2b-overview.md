@@ -3,20 +3,18 @@ title: B2B ユースケース
 description: B2B企業がAdobe Experience Platformを利用して、パイプラインを加速し、リード品質を向上させ、顧客を拡大する方法をご確認ください。
 solution: Experience Platform, Real-Time Customer Data Platform, Journey Optimizer
 exl-id: 6073bdc4-e148-455e-aa4e-3d5226d4b5a2
-source-git-commit: 8284380fb9202991f3da7d755225da2e38a50cac
+source-git-commit: c766cd3153efce4635089d008daf3eb426eb7a24
 workflow-type: tm+mt
 source-wordcount: '3479'
 ht-degree: 0%
-
 ---
-
 # B2B ユースケース
 
 Adobe Adobe Experience Platformを利用すれば、アカウントレベルと個人レベルのデータを統合し、マーケティング部門と営業部門が連携して、カスタマージャーニーの各段階で適切な体験を提供できます。 パイプラインのアクセラレーションから顧客の拡大に至るまで、これらのユースケースは、B2B部門が複雑なデータをどのように測定可能なビジネス成果に変えるかを示しています。
 
 >[!NOTE]
 >
->アカウントベースのアクティベーションや購買グループの管理など、B2Bに特化したアーキテクチャの設計図については、[B2B アクティベーションとマーケティングの設計図](/help/blueprints/b2b/overview.md)を参照してください。
+>アカウントベースのアクティベーションや購買グループの管理など、B2Bに特化したアーキテクチャの設計図については、[B2B アクティベーションとマーケティングの設計図](/help/blueprints/architecture-diagrams/b2b-activation-marketing/overview.md)を参照してください。
 
 ## Account-Based Marketing Personalization
 

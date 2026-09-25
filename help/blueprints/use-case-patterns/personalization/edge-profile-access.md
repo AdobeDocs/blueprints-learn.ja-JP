@@ -3,13 +3,11 @@ title: webおよびモバイルPersonalizationのリアルタイムEdgeプロフ
 description: '[!UICONTROL &#x200B; リアルタイムの顧客プロファイル &#x200B;]がエッジでアクセスし、リアルタイムのwebおよびモバイルのパーソナライゼーションのコンテキストを提供します。'
 solution: Real-Time Customer Data Platform, Data Collection
 kt: 719
-source-git-commit: 8284380fb9202991f3da7d755225da2e38a50cac
+source-git-commit: 79738031788419872e32b8f754febacbfd18cc06
 workflow-type: tm+mt
-source-wordcount: '1936'
+source-wordcount: '1933'
 ht-degree: 11%
-
 ---
-
 # webおよびモバイルPersonalizationのリアルタイムEdgeプロファイルアクセス
 
 Webおよびモバイル向けのリアルタイムのEdge プロファイルへのアクセス Personalization ブループリントでは、Webおよびモバイルアプリケーションがエッジの[!UICONTROL Real-time Customer Profile]を使用してAdobe Experience Platformにアクセスし、高スループットで低遅延のパーソナライズを実現する方法を示しています。
@@ -50,7 +48,7 @@ Webおよびモバイル向けのリアルタイムのEdge プロファイルへ
 
 ## アーキテクチャ図
 
-<img src="/help/blueprints/audience-activation/assets/real-time-edge-lookup.svg" alt="WebおよびモバイルPersonalization用Edge プロファイルアクセスのリファレンスアーキテクチャ" style="width:90%; border:1px solid #4a4a4a"  class="modal-image" />
+<img src="/help/blueprints/architecture-diagrams/audience-profile-activation/assets/real_time_edge_profile_access.png" alt="Real-time Edge Profile Accessのリファレンスアーキテクチャ" style="width:90%; border:1px solid #4a4a4a"  class="modal-image" />
 
 ## ガードレール
 
@@ -69,7 +67,7 @@ Edgeのパーソナライゼーションは、Real-time Customer Data Platform�
 * このアプローチは、オーディエンスメンバーシップにもとづくエッジパーソナライゼーションに低遅延で最高のパフォーマンスをもたらします。
 * リアルタイムのエッジセグメント化には、Web/Mobile SDKを導入する必要があります。
 * Web SDKとモバイル SDK **だけでも、オーディエンスメンバーシップに基づくパーソナライゼーションをサポートします**。
-* [SDK ベースの実装については、Experience Platform Webおよびモバイル SDK ブループリント &#x200B;](/help/blueprints/experience-platform/deployment/websdk.md)を参照してください。
+* [SDK ベースの実装については、Experience Platform Webおよびモバイル SDK ブループリント &#x200B;](/help/blueprints/architecture-diagrams/architecture-overviews/websdk.md)を参照してください。
 * Mobile SDKを実装する場合、[Adobe Journey Optimizer - Decisioning拡張機能](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer-decisioning/)をMobile SDKにインストールする必要があります。
 
 ### パターン 2:Edge Network Server APIを使用した属性ベースのパーソナライゼーション（プロファイル属性に必要）

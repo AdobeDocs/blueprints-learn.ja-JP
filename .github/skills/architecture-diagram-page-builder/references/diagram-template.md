@@ -1,7 +1,7 @@
 ---
-source-git-commit: 8b3391d41cd4a3ea6cb52d5167e627b7f6bd2c6e
+source-git-commit: ce7331f279a6e59db95ca3b763148440598cde84
 workflow-type: tm+mt
-source-wordcount: '234'
+source-wordcount: '230'
 ht-degree: 0%
 ---
 # アーキテクチャ図ページテンプレート
@@ -28,13 +28,13 @@ solution: {Comma-separated Adobe solutions, e.g. Experience Platform, Journey Op
 
 {1-2 sentence explanation of what the diagram shows and why it matters.}
 
-<img src="assets/{filename-1}" alt="{Alt text for diagram 1}" style="border:1px solid #4a4a4a; width:90%; margin-bottom: 15px;" class="modal-image" />
+![{Alt text for diagram 1}](assets/{filename-1}){width="1000" zoomable="yes"}
 
 ## {Diagram 2 section title}
 
 {1-2 sentence explanation.}
 
-<img src="assets/{filename-2}" alt="{Alt text for diagram 2}" style="border:1px solid #4a4a4a; width:90%; margin-bottom: 15px;" class="modal-image" />
+![{Alt text for diagram 2}](assets/{filename-2}){width="1000" zoomable="yes"}
 
 ## Primary data flows and integration points
 
@@ -70,7 +70,7 @@ The architecture above supports the following use case patterns:
 
 - **One H1** — ページタイトル。 `title`の前面部分を正確に一致させます。
 - **図ごとに1つのH2。** 図のセクション内にH3を配置しない。1～2文のイントロと画像を配置します。
-- **`<img>`埋め込み** — インラインスタイルと`class="modal-image"`が必要です。 Experience Leagueモーダルズーム操作を実行します。
+- **Markdown image embed** – わかりやすいalt テキストを入力し、図に`{width="1000" zoomable="yes"}`を使用します。
 - **画像パス** – 常に`assets/{filename}` （ページのトピックフォルダーに対して）。 絶対パスは使用しないでください。
 - **Adobeの商品名** – 本文と箇条書きで`[!DNL ...]`を囲みます。 例：`[!DNL Real-Time CDP]`、`[!DNL Journey Optimizer]`、`[!DNL Experience Platform]`。
 - **ユースケースパターンリンク** – 常に絶対`/help/blueprints/use-case-patterns/{category}/{file}.md`形式を使用して、このコンテンツをトランスクルージョンする可能性のあるページからリンクを解決します。

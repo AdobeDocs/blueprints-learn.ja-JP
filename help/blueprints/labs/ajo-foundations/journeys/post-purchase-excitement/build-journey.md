@@ -4,13 +4,11 @@ description: 「注文発送」イベントに応答し、ETAを発送するた�
 doc-type: article
 solution: Experience Platform
 exl-id: 4dd15071-51e5-445a-932d-690d9a73a913
-source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
+source-git-commit: 96308d5726def849ef22540a5d13618017c40cc3
 workflow-type: tm+mt
 source-wordcount: '1061'
 ht-degree: 0%
-
 ---
-
 
 # ジャーニーを構築
 
@@ -159,8 +157,8 @@ ht-degree: 0%
 
    ```json
    {{profile.person.name.firstName}}, your order has shipped
-   ETA: 
-   Tracking Number: 
+   ETA:
+   Tracking Number:
    ```
 
 8. パーソナライゼーションフィールドを次のように追加します（**左側のパネルのフィールドの横にあるプラス「+」記号をクリックします**）。
@@ -188,7 +186,7 @@ ht-degree: 0%
 
 ![右上と左上のボタンと後向き矢印を保存](assets/build-journey-save-and-back-arrow.png)
 
-&#x200B;12. 最後に、左上の&#x200B;**\&lt; Back icon**&#x200B;をクリックして、ジャーニーキャンバスに戻ります
+1. 最後に、左上の&#x200B;**\&lt; Back icon**&#x200B;をクリックして、ジャーニーキャンバスに戻ります
 
 左上の![戻るアイコンをクリックして、ジャーニーキャンバスに戻ります](assets/build-journey-back-icon-to-journey-canvas.png)
 

@@ -4,7 +4,7 @@ description: UIで個人プロファイルスキーマを作成し、デモグ�
 doc-type: article
 solution: Experience Platform
 exl-id: ea516c0b-3644-483c-a167-0264cc795449
-source-git-commit: df6c1852a6e0357dc9f166c88e77dcf9d334f955
+source-git-commit: 96308d5726def849ef22540a5d13618017c40cc3
 workflow-type: tm+mt
 source-wordcount: '990'
 ht-degree: 0%
@@ -82,7 +82,7 @@ Adobe Experience Platformには、スキーマに追加してカスタマイズ�
 
 
 
-&#x200B;3. **フィールドグループの横にあるチェックボックスを** オンにし、**フィールドグループを追加** ボタンをクリックします
+1. **フィールドグループの横にあるチェックボックスを** オンにし、**フィールドグループを追加** ボタンをクリックします
 
 ![&#x200B; デモグラフィック詳細フィールドグループを選択してスキーマに追加します](assets/model-standard-objects-select-demographic-details-field-group.png " デモグラフィック詳細フィールドグループを選択してスキーマに追加します")
 

@@ -1,16 +1,14 @@
 ---
-title: Audience
+title: オーディエンスを構築 #3
 description: Adobe iPhone 14の商品ページの訪問者のオーディエンスを構築し、オーディエンスを活用して他のオーディエンスと組み合わせることで、ストリーミングをアクティベートできます。
 doc-type: article
 solution: Experience Platform
 exl-id: 999f9a20-1655-4eab-a796-a19d69a06879
-source-git-commit: 0b33b2740ee7f5af73d64f217b4475650c1d28a0
+source-git-commit: 96308d5726def849ef22540a5d13618017c40cc3
 workflow-type: tm+mt
-source-wordcount: '1062'
+source-wordcount: '1061'
 ht-degree: 0%
-
 ---
-
 
 # Audience #3の構築
 
@@ -134,17 +132,17 @@ IPhone 14の製品ページを訪問したオーディエンスを構築する
 
 
 
-&#x200B;5. 説明を入力してください。
+1. 説明を入力してください。
 
-&#x200B;6. ストリーミングに変更
+1. ストリーミングに変更
 
-&#x200B;7. 「*iPhone 14 Pageを訪問しましたが、所有/注文していません*」として保存
+1. 「*iPhone 14 Pageを訪問しましたが、所有/注文していません*」として保存
 
-&#x200B;8. 青いボタン **Activate Audience**&#x200B;をDestinationにクリックします
+1. 青いボタン **Activate Audience**&#x200B;をDestinationにクリックします
 
-&#x200B;9. 「**Streaming DEP Webhook** Destination」を選択し、「Next」をクリックします
+1. 「**Streaming DEP Webhook** Destination」を選択し、「Next」をクリックします
 
-&#x200B;10. 「次へ」をクリックして終了
+1. 「次へ」をクリックして終了
 
 >[!NOTE]
 >

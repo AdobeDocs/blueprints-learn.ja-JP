@@ -3,13 +3,11 @@ title: 配信先でのオーディエンスの活用
 description: Adobe Real-Time CDPを使用して、ターゲティングまたは抑制のためにオーディエンスセグメントを評価し、外部の宛先に公開する方法を説明します。
 solution: Real-Time Customer Data Platform, Experience Platform
 exl-id: b0b9d937-45d2-48f9-ac4c-3611c6e35f58
-source-git-commit: 349d26f612d4002d1de3d27c7f893bd63ac467a3
+source-git-commit: 0c41931afad32e806d57271439e31dda84a4b2ca
 workflow-type: tm+mt
-source-wordcount: '1365'
+source-wordcount: '1363'
 ht-degree: 4%
-
 ---
-
 # 配信先でのオーディエンスの活用
 
 このガイドでは、Adobe [!DNL Real-Time Customer Data Platform] （RT-CDP）のオーディエンスセグメントを評価し、ターゲティング、抑制、類似モデリング、分析の強化のために、アドプラットフォーム、クラウドストレージ、CRM システム、データパートナーに公開する宛先へのオーディエンスアクティベーションのユースケースパターンについて説明します。 このパターンの仕組み、ビジネス目標、戦術的なユースケース、関連するAdobe アプリケーションについて理解する必要があるソリューションアーキテクト、マーケティングテクノロジスト、実装エンジニア向けに設計されています。
@@ -92,7 +90,7 @@ ht-degree: 4%
 
 次のリファレンスアーキテクチャでは、Real-Time CDPから、クラウドストレージ、ストリーミングエンドポイント、SaaS アプリケーションなどのエンタープライズ宛先に、オーディエンスとプロファイルデータがどのように流れるのかを示しています。
 
-![&#x200B; エンタープライズ宛先に対するオーディエンスとプロファイルのアクティブ化のための参照アーキテクチャ &#x200B;](/help/blueprints/audience-activation/assets/known_activation.png)
+![Adobe Real-Time CDP アクティベーションの参照アーキテクチャ &#x200B;](/help/blueprints/architecture-diagrams/audience-profile-activation/assets/real_time_cdp_activation.png)
 
 ## 関連ドキュメント
 

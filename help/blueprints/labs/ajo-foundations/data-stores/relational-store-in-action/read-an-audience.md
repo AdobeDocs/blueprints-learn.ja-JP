@@ -4,7 +4,7 @@ description: オーケストレーションされたキャンペーンでProfile
 doc-type: article
 solution: Experience Platform
 exl-id: f825efe9-4349-4195-a017-c956c15df946
-source-git-commit: df6c1852a6e0357dc9f166c88e77dcf9d334f955
+source-git-commit: 96308d5726def849ef22540a5d13618017c40cc3
 workflow-type: tm+mt
 source-wordcount: '1264'
 ht-degree: 0%
@@ -126,45 +126,45 @@ Orchestrated Campaignは、すべてのアクティビティにリレーショ�
 
 ターゲティングディメンション列から![Source属性が選択されました](assets/read-an-audience-select-source-attribute.png)
 
-&#x200B;11. Source列の個別の値は、ドロップダウンで使用できます。 **カスタム条件**&#x200B;の場合、ドロップダウンから「**&quot;ストア内&quot;**」を選択し、**確認**」をクリックして終了します
+1. Source列の個別の値は、ドロップダウンで使用できます。 **カスタム条件**&#x200B;の場合、ドロップダウンから「**&quot;ストア内&quot;**」を選択し、**確認**」をクリックして終了します
 
-![&#x200B; カスタム条件がストア内](assets/read-an-audience-set-in-store-condition.png)に設定されました
+   ![&#x200B; カスタム条件がストア内](assets/read-an-audience-set-in-store-condition.png)に設定されました
 
-&#x200B;12. **分割** アクティビティの詳細ペインに戻ると、最初の分割の設定が完了します。 2番目の分割に&#x200B;**セグメントを追加**&#x200B;をクリックします
+1. **分割** アクティビティの詳細ペインに戻ると、最初の分割の設定が完了します。 2番目の分割に&#x200B;**セグメントを追加**&#x200B;をクリックします
 
-![&#x200B; アクティビティの分割の詳細ペインで「セグメントを追加」ボタン &#x200B;](assets/read-an-audience-add-segment-button.png)
+   ![&#x200B; アクティビティの分割の詳細ペインで「セグメントを追加」ボタン &#x200B;](assets/read-an-audience-add-segment-button.png)
 
-**結果**&#x200B;という名前の新しいセグメントが作成されます
+   **結果**&#x200B;という名前の新しいセグメントが作成されます
 
-![結果](assets/read-an-audience-new-result-segment.png)という名前の新しいセグメント
+   ![結果](assets/read-an-audience-new-result-segment.png)という名前の新しいセグメント
 
-&#x200B;13. 「**結果**」の名前を「**実店舗にありません**」に変更し、**フィルターを作成**&#x200B;をクリックしてフィルター条件を設定します
+1. 「**結果**」の名前を「**実店舗にありません**」に変更し、**フィルターを作成**&#x200B;をクリックしてフィルター条件を設定します
 
-![&#x200B; セグメント名がフィルターオプション &#x200B;](assets/read-an-audience-rename-not-in-store-segment.png)を使用して実店舗にありません
+   ![&#x200B; セグメント名がフィルターオプション &#x200B;](assets/read-an-audience-rename-not-in-store-segment.png)を使用して実店舗にありません
 
-&#x200B;14. **フィルターを作成** ペインで、**条件を追加**&#x200B;をクリックします。 上記と同じ方法で、**>**&#x200B;をクリックして&#x200B;**ターゲティングディメンション**&#x200B;を展開し、リストから`Source`を選択して&#x200B;**確認**&#x200B;をクリックします
+1. **フィルターを作成** ペインで、**条件を追加**&#x200B;をクリックします。 上記と同じ方法で、**>**&#x200B;をクリックして&#x200B;**ターゲティングディメンション**&#x200B;を展開し、リストから`Source`を選択して&#x200B;**確認**&#x200B;をクリックします
 
-![&#x200B; ターゲティングディメンションが拡張され、リレーショナルストア列が表示されました](assets/read-an-audience-expand-targeting-dimension.png)
+   ![&#x200B; ターゲティングディメンションが拡張され、リレーショナルストア列が表示されました](assets/read-an-audience-expand-targeting-dimension.png)
 
-ターゲティングディメンション列から![Source属性が選択されました](assets/read-an-audience-select-source-attribute.png)
+   ターゲティングディメンション列から![Source属性が選択されました](assets/read-an-audience-select-source-attribute.png)
 
-&#x200B;15. **カスタム条件**&#x200B;に対して、ドロップダウンから「**&quot;ストア内&quot;**」を選択し、オペレーターに「**次と等しくない&quot;**」を選択します。 **確認**&#x200B;をクリックして終了します
+1. **カスタム条件**&#x200B;に対して、ドロップダウンから「**&quot;ストア内&quot;**」を選択し、オペレーターに「**次と等しくない&quot;**」を選択します。 **確認**&#x200B;をクリックして終了します
 
-![&#x200B; カスタム条件がストア内](assets/read-an-audience-set-not-in-store-condition.png)と等しくありません
+   ![&#x200B; カスタム条件がストア内](assets/read-an-audience-set-not-in-store-condition.png)と等しくありません
 
-&#x200B;16. **分割** アクティビティの詳細ペインに戻ると、2つの分割の設定が完了します。 **開始**&#x200B;をクリックして、**テストモード**&#x200B;でキャンペーンを実行します
+1. **分割** アクティビティの詳細ペインに戻ると、2つの分割の設定が完了します。 **開始**&#x200B;をクリックして、**テストモード**&#x200B;でキャンペーンを実行します
 
-![分割を設定した後、キャンペーンをテストモードで実行するための「開始」ボタン &#x200B;](assets/read-an-audience-start-test-mode-second-run.png)
+   ![分割を設定した後、キャンペーンをテストモードで実行するための「開始」ボタン &#x200B;](assets/read-an-audience-start-test-mode-second-run.png)
 
-&#x200B;17. テスト実行が開始され、完了時に結果が表示されます。 リレーショナルスキーマに一致するターゲットディメンションは&#x200B;**7**&#x200B;個しか見つからなかったため、分割操作（**7**&#x200B;と&#x200B;**0**）の後でも同じカウントが観察されます
+1. テスト実行が開始され、完了時に結果が表示されます。 リレーショナルスキーマに一致するターゲットディメンションは&#x200B;**7**&#x200B;個しか見つからなかったため、分割操作（**7**&#x200B;と&#x200B;**0**）の後でも同じカウントが観察されます
 
-![7と0](assets/read-an-audience-verify-split-counts.png)のカウントを示すアクティビティ結果を分割
+   ![7と0](assets/read-an-audience-verify-split-counts.png)のカウントを示すアクティビティ結果を分割
 
-&#x200B;18. 各結果ボックスと&#x200B;**結果をプレビュー**&#x200B;をクリックして結果を表示します
+1. 各結果ボックスと&#x200B;**結果をプレビュー**&#x200B;をクリックして結果を表示します
 
-![各分割結果ボックスの「結果をプレビュー」オプション &#x200B;](assets/read-an-audience-preview-split-results.png)
+   ![各分割結果ボックスの「結果をプレビュー」オプション &#x200B;](assets/read-an-audience-preview-split-results.png)
 
-&#x200B;19. **停止**&#x200B;をクリックして、キャンペーンの&#x200B;**テストモード**&#x200B;を停止します
+1. **停止**&#x200B;をクリックして、キャンペーンの&#x200B;**テストモード**&#x200B;を停止します
 
 ![最後のテストモード実行を終了する停止ボタン &#x200B;](assets/read-an-audience-stop-test-mode-final.png)
 

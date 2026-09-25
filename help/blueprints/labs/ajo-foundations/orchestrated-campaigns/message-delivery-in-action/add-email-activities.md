@@ -4,13 +4,11 @@ description: オーケストレーションされたキャンペーンで異な�
 doc-type: article
 solution: Experience Platform
 exl-id: e911a251-9f9f-484c-a2de-101b0fc2c417
-source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
+source-git-commit: 96308d5726def849ef22540a5d13618017c40cc3
 workflow-type: tm+mt
 source-wordcount: '479'
 ht-degree: 0%
-
 ---
-
 
 # メールアクティビティの追加
 
@@ -72,7 +70,7 @@ ht-degree: 0%
 
 ![保存と閉じるボタンを含む確認ダイアログ &#x200B;](assets/add-email-activities-save-and-close-dialog.png)
 
-&#x200B;11. メール本文に追加されたテキストを含む、メールのプロパティとアクションを確認します。 **左向き矢印**&#x200B;をクリックして、キャンペーンキャンバスに戻ります
+1. メール本文に追加されたテキストを含む、メールのプロパティとアクションを確認します。 **左向き矢印**&#x200B;をクリックして、キャンペーンキャンバスに戻ります
 
 ![Campaign キャンバスに戻る](assets/add-email-activities-back-to-campaign-canvas.png)
 

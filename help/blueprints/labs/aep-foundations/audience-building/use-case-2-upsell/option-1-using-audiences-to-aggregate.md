@@ -1,16 +1,14 @@
 ---
-title: オプション#1 - オーディエンスを使用した集計
+title: オプション #1 - using Audiences to aggregate
 description: 請求使用状況イベントと非正規化されたプラン データに対するオーディエンス内の合計と平均集計を使用してオーディエンスを構築し、ストリーミング評価を有効にします。
 doc-type: article
 solution: Experience Platform
 exl-id: da019755-07a3-406c-8ac7-7878325a14bf
-source-git-commit: 0b33b2740ee7f5af73d64f217b4475650c1d28a0
+source-git-commit: 96308d5726def849ef22540a5d13618017c40cc3
 workflow-type: tm+mt
-source-wordcount: '818'
+source-wordcount: '813'
 ht-degree: 0%
-
 ---
-
 
 # オプション#1 - オーディエンスを使用した集計
 
@@ -108,15 +106,15 @@ ht-degree: 0%
 
 
 
-&#x200B;5. オーディエンス / Experience Platformをクリックします。 「プラン名」の横に、「請求使用量合計」 > 140 GBおよび「請求使用量平均」 >= 20 GBをドラッグします。
+1. オーディエンス / Experience Platformをクリックします。 「プラン名」の横に、「請求使用量合計」 > 140 GBおよび「請求使用量平均」 >= 20 GBをドラッグします。
 
    ![&#x200B; プラン名](assets/option-1-using-audiences-to-aggregate-20-gb-next-to-plan-name.png)の横にある請求使用オーディエンスをドラッグします
 
 
 
-&#x200B;6. 説明に疑似コードをコピーします
+1. 説明に疑似コードをコピーします
 
-&#x200B;7. これはストリーミング可能か確認してください。 **ストリーミングできません**。 次のように変更します。
+1. これはストリーミング可能か確認してください。 **ストリーミングできません**。 次のように変更します。
 
    >[!NOTE]
    >
@@ -126,7 +124,7 @@ ht-degree: 0%
 
 
 
-&#x200B;8. **プラン名（プラン名）**&#x200B;をXDM個人プロファイル/Devbc/プラン詳細>**プラン名**&#x200B;に置き換えます
+1. **プラン名（プラン名）**&#x200B;をXDM個人プロファイル/Devbc/プラン詳細>**プラン名**&#x200B;に置き換えます
 
    ![&#x200B; プラン名（プラン名）を非正規化されたプラン名フィールドに置き換える](assets/option-1-using-audiences-to-aggregate-replace-denormalized-plan-name.png)
 
@@ -142,7 +140,7 @@ ht-degree: 0%
 
 
 
-&#x200B;9. これをストリーミングとして保存できることを検証します。 オーディエンスを「*請求データ使用率は高いが、Ultimate プランはありません*」として保存します
+1. これをストリーミングとして保存できることを検証します。 オーディエンスを「*請求データ使用率は高いが、Ultimate プランはありません*」として保存します
 
 >[!NOTE]
 >

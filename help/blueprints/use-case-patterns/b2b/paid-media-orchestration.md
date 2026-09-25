@@ -2,20 +2,18 @@
 title: AJO B2B Paid Media Controller
 description: ペイドメディアの宛先に対するキャンペーンの優先度とアカウントのアクティベーション
 solution: Journey Optimizer B2B Edition
-source-git-commit: 796e113c40b6b4e8b56e5fbbd22122c066c30c6f
+source-git-commit: c2381a0f7223d8cbb0dae05d056fd45ff5701f0f
 workflow-type: tm+mt
-source-wordcount: '1544'
+source-wordcount: '1499'
 ht-degree: 0%
-
 ---
-
 # AJO B2B - Account Journey Orchestration - Paid Media Controller
 
 ## 概要
 
 B2Bの有料メディアを大規模に運用しているマーケティング部門では、次のような問題が繰り返し発生します。**アカウントが一度に複数のキャンペーンに参加してしまいます** （ペルソナ、カテゴリ認知、ソリューション主導、追求）これは、メッセージを希薄化し、オーディエンスの疲労を招き、LinkedIn Account Match （アカウントの宛先）全体で手作業によるリスト作業（アップロード、除外、抑制）を余儀なくします。 **ウォーターフォール優先順位付け**&#x200B;と&#x200B;**自動キャンペーン割り当て**&#x200B;がなければ、どのアカウントがどのメッセージを受け取るかを決定する場所は一つではなく、操作は拡張されません。
 
-**有料メディアコントローラー**&#x200B;は、この問題に対処する際に最適なソリューションです。 **Adobe Journey Optimizer B2B edition （AJO B2B）**&#x200B;と&#x200B;**Adobe Experience Platform （AEP）**&#x200B;を一緒に使用します。1つの&#x200B;**アカウントジャーニー**&#x200B;がReal-Time CDPから適格アカウントオーディエンスを読み取り、**スプリットパス （ウォーターフォール）ロジック**&#x200B;を適用して、各アカウントを正確に1つのキャンペーン層に割り当て、**各パスを有料メディア宛先（**&#x200B;例、LinkedIn Matched Audiences **）など）にハンドオフ）にします。**&#x200B;その結果、正確な制御、重複の低減、マルチチャネルのB2B有料メディアオーケストレーションの繰り返し可能なパターンが実現しました。
+**有料メディアコントローラー**&#x200B;は、この問題に対処する際に最適なソリューションです。 **Adobe Journey Optimizer B2B Edition（AJO B2B）**&#x200B;と&#x200B;**Adobe Experience Platform（AEP）**&#x200B;を一緒に使用します。1つの&#x200B;**アカウントジャーニー**&#x200B;がReal-Time CDPから適格アカウントオーディエンスを読み取り、**スプリットパス（ウォーターフォール）ロジック**&#x200B;を適用して、各アカウントを1つのキャンペーン階層に割り当て、**各パスを有料メディア宛先（**&#x200B;例、LinkedIn Matched Audiences **）に）にします。手作業ハンドオフなし。**&#x200B;その結果、正確な制御、重複の低減、マルチチャネルのB2B有料メディアオーケストレーションの繰り返し可能なパターンが実現しました。
 
 ## ユースケース：マーケターの事例：コントローラーが重要な理由
 
@@ -50,7 +48,7 @@ B2Bの有料メディアを大規模に運用しているマーケティング�
 
 アカウントに特化したソリューションには、次のアプリケーションとサービスが必要です。
 
-- **Adobe Journey Optimizer B2B edition** — アカウントジャーニー、スプリットパス（ウォーターフォール）ロジック、宛先に対するアクティブ化。
+- **Adobe Journey Optimizer B2B Edition** — アカウントジャーニー、スプリットパス（ウォーターフォール）ロジック、宛先に対するアクティブ化。
 - **Adobe Real-time Customer Data Platform （RTCDP） B2B edition** — アカウントプロファイル、アカウントオーディエンス（有料メディアの適格アカウントなど）。
 
 ## アーキテクチャ
@@ -61,19 +59,15 @@ B2Bの有料メディアを大規模に運用しているマーケティング�
 2. **オーケストレーション** — AJO B2B アカウントジャーニー：**オーディエンス** （適格アカウント）→ **パスを分割** （ウォーターフォール：例：ソリューション主導の→の追求→ Persona → Category → Foundational） → **宛先にアクティベート** （LinkedInまたはその他の有料メディアへのパスあたり）。
 3. **宛先** – 有料メディアチャネル（LinkedIn Matched Audiencesなど）は、各ジャーニーパスからアカウントレベルのアクティベーションを受け取ります。手動でのリストのアップロードは行われません。
 
-## アーキテクチャ図
-
-<img src="/help/blueprints/b2b/assets/ajo-b2b-paid-media-activation-architecture.svg" alt="AJO B2B有料メディアコントローラーのアーキテクチャ" style="width:90%; border:1px solid #4a4a4a" class="modal-image" />
-
 ## B2B AEPのデータモデリング
 
-データドリブン型のオーケストレーションでは、スキーマを設計することが重要です。 AEP/RTCDPのアカウントプロファイルと人物プロファイルには、**スプリットパス条件**&#x200B;で使用される属性（例：追跡フラグ、ソリューションの興味、ペルソナ、インテントカテゴリ、エンゲージメントスコア）が含まれている必要があります。 B2B スキーマ（XDM ビジネスアカウント、XDM個人プロファイル、リレーショナル）は、階層とデータソースを表す必要があります。 詳しくは、[RTCDP B2B スキーマ &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/b2b-overview)および[Journey Optimizer B2B edition ドキュメント &#x200B;](https://experienceleague.adobe.com/ja/docs/journey-optimizer-b2b/user/guide-overview)を参照してください。
+データドリブン型のオーケストレーションでは、スキーマを設計することが重要です。 AEP/RTCDPのアカウントプロファイルと人物プロファイルには、**スプリットパス条件**&#x200B;で使用される属性（例：追跡フラグ、ソリューションの興味、ペルソナ、インテントカテゴリ、エンゲージメントスコア）が含まれている必要があります。 B2B スキーマ（XDM ビジネスアカウント、XDM個人プロファイル、リレーショナル）は、階層とデータソースを表す必要があります。 詳しくは、[RTCDP B2B スキーマ &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/b2b-overview)および[Journey Optimizer B2B Edition ドキュメント &#x200B;](https://experienceleague.adobe.com/ja/docs/journey-optimizer-b2b/user/guide-overview)を参照してください。
 
 **注：** ジャーニーの分割パスロジックでは、プロファイルと、サポートされている場合はリレーショナルデータが使用されます。ウォーターフォールロジックに必要なフィールドがジャーニーで使用できることを確認してください。
 
 ### ガードレール
 
-- **Journey Optimizer B2B edition** — ジャーニーの制限、ノードの制限、宛先のサポートについては、[製品の説明](https://helpx.adobe.com/jp/legal/product-descriptions/adobe-journey-optimizer-b2b.html)を参照してください。
+- **Journey Optimizer B2B Edition** — ジャーニーの制限、ノードの制限、宛先のサポートについては、[製品の説明](https://helpx.adobe.com/jp/legal/product-descriptions/adobe-journey-optimizer-b2b.html)を参照してください。
 - **Real-Time CDP** — セグメント化とアクティブ化の制限については、[RTCDP ガードレール &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/rtcdp/guardrails/overview)を参照してください。
 
 ## 実装
@@ -107,10 +101,6 @@ B2Bの有料メディアを大規模に運用しているマーケティング�
    - 各アカウントが1つのパス（最初に一致する条件）のみを入力することを確認します。
    - アクティベーションを確認：アカウントは適切な宛先に表示され、意図したとおりに優先度の低いキャンペーンから除外されます。
 
-## 実装図
-
-<img src="/help/blueprints/b2b/assets/ajo-b2b-paid-media-controller-canvas.svg" alt="AJO B2B Paid Media Controller Canvas" style="width:90%; border:1px solid #4a4a4a" class="modal-image" />
-
 ### Audience Activation
 
 1. **LinkedIn （およびその他の宛先）に対してアクティブ化します。**
@@ -127,6 +117,5 @@ B2Bの有料メディアを大規模に運用しているマーケティング�
 
 ## 関連ドキュメント
 
-- [購買グループベースのマーケティングとジャーニー管理の設計図](https://experienceleague.adobe.com/ja/docs/blueprints-learn/architecture/b2b-activation/b2b-buying-group-journeys) — AJO B2Bのアカウントと購買グループのジャーニー。
-- [Adobe Journey Optimizer B2B edition](https://experienceleague.adobe.com/ja/docs/journey-optimizer-b2b) – 製品ドキュメント。
+- [Adobe Journey Optimizer B2B Edition](https://experienceleague.adobe.com/ja/docs/journey-optimizer-b2b) – 製品ドキュメント。
 - [Real-time Customer Data Platform B2B edition](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/b2b-overview) — アカウントオーディエンスとアクティベーション。

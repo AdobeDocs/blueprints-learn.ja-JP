@@ -3,13 +3,11 @@ title: 匿名訪問者の Web Personalization
 description: セッション中の行動シグナルにもとづいて、未特定の訪問者にパーソナライズされたweb コンテンツを配信する方法を説明します。
 solution: Journey Optimizer, Real-Time Customer Data Platform
 exl-id: e2446801-ffce-40e6-bfe9-abec623c9201
-source-git-commit: 349d26f612d4002d1de3d27c7f893bd63ac467a3
+source-git-commit: 0c41931afad32e806d57271439e31dda84a4b2ca
 workflow-type: tm+mt
-source-wordcount: '1739'
+source-wordcount: '1706'
 ht-degree: 4%
-
 ---
-
 # 匿名訪問者のweb パーソナライゼーション
 
 このガイドでは、[!DNL Adobe Journey Optimizer] （AJO）、[!DNL Adobe Real-Time Customer Data Platform] （RT-CDP）、[!DNL Adobe Experience Platform] （AEP）を使用して、セッション中の行動シグナルに基づいて匿名（未識別）訪問者にパーソナライズされたweb コンテンツを配信する、匿名の訪問者web パーソナライゼーションのユースケースパターンについて説明します。 このパターンの仕組み、ビジネス目標、戦術的なユースケース、関連するAdobe アプリケーションについて理解する必要があるソリューションアーキテクト、マーケティングテクノロジスト、実装エンジニア向けに設計されています。
@@ -102,12 +100,6 @@ AJOのweb チャネルを通じて、セッション中の行動シグナルに�
 - **[!DNL Adobe Real-Time Customer Data Platform]（RT-CDP）** — セッション内の行動シグナルに基づくリアルタイムのオーディエンス評価のためのEdge セグメンテーション、匿名エッジプロファイル管理
 - **[!DNL Adobe Experience Platform]（AEP）** — ビヘイビアーシグナル収集の[!DNL Web SDK]、リアルタイムデータルーティングおよびパーソナライゼーション配信の[!DNL Edge Network]、データストリーム設定
 
-## アーキテクチャ
-
-次のリファレンスアーキテクチャは、エッジで匿名の訪問者シグナルを収集し、オーディエンスルールと比較して評価し、パーソナライズされたコンテンツを配信するために使用する方法を示しています。
-
-![匿名オーディエンスのアクティブ化とパーソナライゼーションのための参照アーキテクチャ &#x200B;](/help/blueprints/audience-activation/assets/anonymous_activation.png)
-
 ## 関連ドキュメント
 
 次のExperience League リソースでは、このユースケースパターンで使用される機能に関する詳細を提供しています。
@@ -115,7 +107,7 @@ AJOのweb チャネルを通じて、セッション中の行動シグナルに�
 **Web チャネルとコードベースのエクスペリエンス**
 
 - [web チャネルの基本を学ぶ](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/channels/web/get-started-web)
-- [web エクスペリエンスの構築](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/channels/web/create-web)
+- [Web エクスペリエンスの作成](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/channels/web/create-web)
 - [コードベースのエクスペリエンスチャネル](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/code-based/get-started-code-based)
 - [コードベースのエクスペリエンス設定](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/code-based/code-based-configuration)
 

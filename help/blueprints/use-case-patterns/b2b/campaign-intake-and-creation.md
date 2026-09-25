@@ -1,13 +1,11 @@
 ---
 title: 取り込みと作成のブループリント
-description: 取り込みと作成 - Marketo Engage と Workfront 統合ブループリント
-source-git-commit: 8284380fb9202991f3da7d755225da2e38a50cac
+description: 受注と作成 – Marketo EngageとWorkfrontの統合
+source-git-commit: c2381a0f7223d8cbb0dae05d056fd45ff5701f0f
 workflow-type: tm+mt
-source-wordcount: '1372'
+source-wordcount: '1319'
 ht-degree: 86%
-
 ---
-
 # 取り込みと作成のブループリント {#intake-and-create}
 
 新しいキャンペーンを立ち上げるためにマーケティングオペレーションチームに寄せられる多数のマーケティングリクエストは、機能の高いチームに反復的なタスクの繰返しを強い、燃え尽き症候群やイノベーションの停滞を引き起こしてしまう可能性があります。
@@ -20,12 +18,6 @@ WorkfrontとMarketo Engageを使用すると、システム間接続により、
 
 以下のワークフローは、キャンペーンマネージャーが Workfront リクエストフォームを使用して行うウェビナーのリクエストを示しています。 続いて、リクエストで送信された詳細により、Marketo Engage でウェビナー用に作成されるプログラムとメールがトリガーされます。 さらに、メールのコンテンツを入力するための詳細がリクエストフォームから取得されます。
 さらに、リクエストフォームから詳細が取得され、メールのコンテンツが入力されます。
-
-![&#x200B; ブループリントの取り込みと作成](/help/blueprints/b2b/marketo-engage-and-workfront-integration-blueprint/assets/intake-and-create-1.png){zoomable="yes"}
-
->[!TIP]
->
->マーケティングキャンペーンの作業の整理に使用される Workfront の様々なタイプのオブジェクトと、Marketo Engage プログラムへのマッピング方法について詳しくは、[Marketo と Workfront の概要](/help/blueprints/b2b/marketo-engage-and-workfront-integration-blueprint/overview.md){target="_blank"}をご覧ください。
 
 ## 自動化のためのキャンペーン開発プロセスを準備 {#prepare-your-campaign-development-process-for-automation}
 
@@ -101,8 +93,6 @@ Marketo Engage のプログラムテンプレートを使用してセンター�
 
 Marketo Engage では、トークンを使用してコンテンツをキャンペーンアセットに入力することができます。 例えば、センターオブエクセレンスからメールテンプレートを複製した後、Workfront Fusion は Workfront のキャンペーンリクエストから詳細を取得し、Marketo Engage プログラムのマイトークンに渡すことができます。 その後、トークンの値をメールに直接継承して、メールを構築することができます。
 
-![&#x200B; トークンを使用してコンテンツ図を入力](/help/blueprints/b2b/marketo-engage-and-workfront-integration-blueprint/assets/intake-and-create-2.png){zoomable="yes"}
-
 ### AEM Assets から画像を入力 {#populate-images-from-aem-assets}
 
 Marketo Engage トークンを AEM Assets のアセットへのリンクと組み合わせて利用することにより、メールとランディングページの開発をさらに自動化することができます。 キャンペーンリクエスト担当者は、リクエストプロセスの一環として、AEM Assets から公開済みの画像リンクを送信することができます。 その後、Workfront Fusion は、これらのリンクを取得し、Marketo Engage トークンを使用してメールの HTML に埋め込むことができます。
@@ -149,12 +139,8 @@ Workfront リクエストから新しい Marketo Engage プログラムの作成
 
 ここでは、事前定義済みの[Marketo Engage](https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-fusion/fusion-apps-and-modules/workfront-modules.html?lang=ja){target="_blank"}および[Workfront](https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-fusion/fusion-apps-and-modules/marketo-modules.html?lang=ja){target="_blank"} モジュールを使用してWorkflow logicをFusionで組み立てる方法の例を示します。これにより、より迅速に自動化を実現できます。
 
-![取り込みおよび作成の自動化フロー](/help/blueprints/b2b/marketo-engage-and-workfront-integration-blueprint/assets/intake-and-create-3.png)
-
 ## リソース {#resources}
 
 * [Adobe Marketo Engage Modules](https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-fusion/fusion-apps-and-modules/marketo-modules.html?lang=ja){target="_blank"}
 
 * [Adobe Workfront Modules](https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-fusion/fusion-apps-and-modules/workfront-modules.html?lang=ja){target="_blank"}
-
-* [MarketoとWorkfrontの概要](/help/blueprints/b2b/marketo-engage-and-workfront-integration-blueprint/overview.md){target="_blank"}

@@ -4,13 +4,11 @@ description: 受信エクスペリエンスイベントをWebhook エンドポ�
 doc-type: article
 solution: Experience Platform
 exl-id: eabd5f75-7706-4c96-982e-2512509bdc55
-source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
+source-git-commit: 96308d5726def849ef22540a5d13618017c40cc3
 workflow-type: tm+mt
 source-wordcount: '1123'
 ht-degree: 0%
-
 ---
-
 
 # プロパティを作成
 
@@ -208,7 +206,7 @@ ht-degree: 0%
 
 
 
-&#x200B;4. 完了すると、アクションがルールに追加されます。 **保存**&#x200B;をクリックして続行します。
+1. 完了すると、アクションがルールに追加されます。 **保存**&#x200B;をクリックして続行します。
 
 ![保存ボタンが強調表示された設定されたアクションを表示するルールエディター](assets/create-property-save-rule-button.png " ルールを保存")
 
