@@ -36,7 +36,7 @@ ht-degree: 0%
 1. 必要に応じて、左側のパネルで「**Decisioning**」を展開し、「**カタログ**」をクリックします
 1. 空のオファーページが表示されます。
 
-   オファー項目を作成する前に![空のオファーカタログページ ](assets/create-offer-items-empty-offers-page.png)
+   オファー項目を作成する前に![空のオファーカタログページ &#x200B;](assets/create-offer-items-empty-offers-page.png)
 
 1. 青い「**項目を作成**」ボタンをクリックします。 「オファー項目を作成」ページが開きます。
 1. 「オファー名」フィールドに、テキスト **iphone:17\:generic**&#x200B;を入力します。 必要に応じて説明を入力します。
@@ -65,7 +65,7 @@ ht-degree: 0%
    >
    >拡張したデバイス領域は、前の節でカスタム属性を使用して「パーソナライズされたオファー項目 – エクスペリエンス決定」スキーマが更新されたときに作成された「デバイス」親オブジェクトと同じです。 Tier フィールド、Model フィールド、Make フィールドは、追加された個々の属性です。
    >
-   >![層、モデル、およびMake属性フィールドを表示するデバイスの親オブジェクト ](assets/create-offer-items-device-attribute-fields.png)
+   >![層、モデル、およびMake属性フィールドを表示するデバイスの親オブジェクト &#x200B;](assets/create-offer-items-device-attribute-fields.png)
 
    >[!WARNING]
    >
@@ -127,7 +127,7 @@ ht-degree: 0%
 8. すべてが期待どおりに表示されていることを確認し、**保存** ボタンをクリックします。 保存したら、**承認をクリックします。**
 9. 承認されたら、タイトルの横にある左向き矢印をクリックし、オファーページに戻ります。 2つのオファーが表示され、それぞれに適切な優先度が設定されています。
 
-![汎用オファー項目と基本オファー項目の優先順位を一覧表示するオファーページ ](assets/create-offer-items-first-two-offers-priority.png)
+![汎用オファー項目と基本オファー項目の優先順位を一覧表示するオファーページ &#x200B;](assets/create-offer-items-first-two-offers-priority.png)
 
 ## 上層モデルのオファー項目の作成
 
@@ -154,7 +154,7 @@ ht-degree: 0%
 
 1. すべての設定が正しいことを確認したら、このオファー項目を保存して承認します。 これで、4つのオファー項目がすべて表示され、それぞれに独自の優先順位が付いています。
 
-![独自の優先順位を持つ4つのオファーアイテムをすべて一覧表示するオファーページ ](assets/create-offer-items-all-four-offers-priority.png)
+![独自の優先順位を持つ4つのオファーアイテムをすべて一覧表示するオファーページ &#x200B;](assets/create-offer-items-all-four-offers-priority.png)
 
 >[!NOTE]
 >
