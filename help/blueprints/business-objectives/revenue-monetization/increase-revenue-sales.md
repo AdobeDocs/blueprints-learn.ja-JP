@@ -3,13 +3,18 @@ title: 売上と売上を増加
 description: 最適化されたデジタルチャネル、キャンペーン、カスタマージャーニーを通じて、売上を増加させる方法を解説します。
 solution: Experience Platform, Real-Time Customer Data Platform, Journey Optimizer
 exl-id: 080e49a7-f4fb-4ffd-96d5-cce6d018c4f7
-source-git-commit: 8284380fb9202991f3da7d755225da2e38a50cac
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
+  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+    internal-label: Real-Time Customer Data Platform
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+    internal-label: Journey Optimizer
+source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
 workflow-type: tm+mt
 source-wordcount: '179'
 ht-degree: 7%
-
 ---
-
 # 売上と売上を増加
 
 最適化されたデジタルチャネル、キャンペーン、カスタマージャーニーを通じて、売上の増加を促進。 この目標には、獲得からリテンションに至るまで、収益創出のあらゆる活動を含み、データ主導のターゲティングとマルチチャネルエンゲージメントを活用して、取引量と価値を最大化します。

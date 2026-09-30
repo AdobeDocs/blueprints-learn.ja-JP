@@ -3,13 +3,18 @@ title: ヘルスケアのユースケース
 description: 医療機関がAdobe Experience Platformを利用して、患者エンゲージメントを向上させ、ケア調整を合理化し、より優れた医療成果を達成する方法をご覧ください。
 solution: Experience Platform, Real-Time Customer Data Platform, Journey Optimizer
 exl-id: 8da82711-a783-488d-a0ed-070b33ecbbc4
-source-git-commit: 5cbdfd028816a872c9424daf29aabe8db1954197
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
+  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+    internal-label: Real-Time Customer Data Platform
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+    internal-label: Journey Optimizer
+source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
 workflow-type: tm+mt
 source-wordcount: '3589'
 ht-degree: 0%
-
 ---
-
 # ヘルスケアのユースケース
 
 医療機関は、Adobe Experience Platformを使用して、統合された患者プロファイルを構築し、あらゆる顧客接点をまたいでパーソナライズされたタイムリーなコミュニケーションを実現しています。 医療チームは、臨床、行動、嗜好に関するデータを一ヶ所にまとめることで、最高水準のプライバシーとコンプライアンスを維持しながら、患者により効果的にアプローチすることができます。

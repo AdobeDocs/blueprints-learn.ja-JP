@@ -3,13 +3,18 @@ title: 金融業界のユースケース
 description: 金融機関がAdobe Experience Platformを利用して、どのように商品オファーをパーソナライズし、顧客離れを防ぎ、顧客関係を強化しているかをご確認ください。
 solution: Experience Platform, Real-Time Customer Data Platform, Journey Optimizer
 exl-id: 1f22d684-11bd-473d-8b10-5f88cb0cd088
-source-git-commit: 0236bd326730ee9a0be621ee0e60ddc3d352410d
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
+  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+    internal-label: Real-Time Customer Data Platform
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+    internal-label: Journey Optimizer
+source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
 workflow-type: tm+mt
 source-wordcount: '4039'
 ht-degree: 0%
-
 ---
-
 # 金融業界のユースケース
 
 金融機関は、Adobe Adobe Experience Platformを活用して、銀行、融資、投資のチャネルをまたいで顧客データを統合し、顧客関係を強化して成長を促進するパーソナライズされた体験を実現しています。 アカウントのアクティビティ、取引履歴、行動シグナルをまとめることで、顧客が期待する信頼とコンプライアンスを維持しながら、適切なオファーをタイミングよく提供できます。

@@ -3,13 +3,18 @@ title: 通信のユースケース
 description: 多くの通信企業が、Adobe Experience Platformを利用して、顧客離れを低減し、デバイスとプランのアップグレードを促進して、顧客エンゲージメントを向上させている方法をご確認ください。
 solution: Experience Platform, Real-Time Customer Data Platform, Journey Optimizer
 exl-id: 653632f0-81be-435c-a703-56c5bc132794
-source-git-commit: 4b4d85f80abaa6219e7ea210864a07a141564921
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
+  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+    internal-label: Real-Time Customer Data Platform
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+    internal-label: Journey Optimizer
+source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
 workflow-type: tm+mt
 source-wordcount: '3527'
 ht-degree: 0%
-
 ---
-
 # 通信のユースケース
 
 通信企業は、Adobe Experience Platformを利用して、各購読者の全体像を構築し、パーソナライズされた体験を提供することで、解約を減らし、プランとデバイスのアップグレードを増やし、長期的な顧客関係を強化することができます。 通信事業者は、ネットワークの使用状況データ、請求に関する情報、顧客とのやり取りをつなぎ合わせることで、加入者のニーズを予測し、好みのチャネルを通じて適切なタイミングでエンゲージすることができます。

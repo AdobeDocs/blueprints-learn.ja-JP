@@ -3,13 +3,14 @@ title: ユースケースカタログ
 description: 業種ごとのユースケースを確認し、実装パターンやビジネス目標へのリンクとともに、Adobe Experience Platformとアプリケーションのジャーニーの適切な出発点を見つけましょう。
 doc-type: overview-page
 exl-id: 38593314-b8c9-49f6-85db-a4345ec444e7
-source-git-commit: e79d9d6490e4f50c4611dd879b53f0e63a90cd65
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
+source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
 workflow-type: tm+mt
 source-wordcount: '4157'
 ht-degree: 30%
-
 ---
-
 # ユースケースカタログ
 
 業界の使用例では、特定分野の組織がAdobe Experience Platformとアプリケーションを適用して、測定可能なビジネス成果を達成する方法を示しています。 各ユースケースでは、具体的なビジネスシナリオ、予想される影響、詳細な実装ガイダンスを提供する [&#x200B; ユースケースパターン &#x200B;](/help/blueprints/use-case-patterns/overview.md) へのリンクについて説明します。

@@ -4,13 +4,18 @@ description: Adobe Adobe Experience Platformを実装するためのユースケ
 solution: Experience Platform, Real-Time Customer Data Platform, Journey Optimizer
 doc-type: overview-page
 exl-id: 58caa6ad-0d1c-4290-9614-c68c9c9028bb
-source-git-commit: e79d9d6490e4f50c4611dd879b53f0e63a90cd65
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
+  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+    internal-label: Real-Time Customer Data Platform
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+    internal-label: Journey Optimizer
+source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
 workflow-type: tm+mt
-source-wordcount: '1007'
-ht-degree: 0%
-
+source-wordcount: '1098'
+ht-degree: 8%
 ---
-
 # ユースケースパターン
 
 ユースケースパターンは、Adobe Experience Platformとアプリケーションの繰り返し可能な実装アプローチを定義します。 各パターンは、特定の機能、それを提供する実行計画、関連するアプリケーション、およびそれがサポートする[主なビジネス目標](/help/blueprints/business-objectives/overview.md)を表します。
@@ -72,7 +77,7 @@ ht-degree: 0%
 | [B2B オーディエンスのアクティブ化](b2b/account-audience-activation.md) | web、電子メール、広告のチャネルをまたいで、アカウントベースのB2B オーディエンスを活用できます | [!DNL Real-Time CDP] B2B edition |
 | [購買グループベースのマーケティングとジャーニー管理](b2b/buying-group-marketing.md) | リードを購買グループに選別するアカウントレベルのジャーニーを作成して、B2B マーケティングの効果を向上できます | [!DNL Journey Optimizer] B2B edition、[!DNL Real-Time CDP] B2B edition |
 | [B2B分析](b2b/account-analytics.md) | クロスチャネルのカスタマージャーニー分析にB2B アカウントレベルの情報を含める | [!DNL Customer Journey Analytics] B2B edition、[!DNL Real-Time CDP] B2B edition |
-| Marketo Data[&#128279;](b2b/marketo-data-journeys.md)を使用するB2B ジャーニー | 購買グループのジャーニーとアカウントエンゲージメントを調整するために、MarketoデータをJourney Optimizer B2B editionに導入します | [!DNL Journey Optimizer] B2B edition、[!DNL Marketo Engage]、[!DNL Real-Time CDP] B2B edition |
+| Marketo Data[&#128279;](b2b/marketo-data-journeys.md)を使用するB2B ジャーニー | Adobe Journey Optimizer B2B EditionとMarketoのデータを組み合わせて、購買グループのジャーニーとアカウントエンゲージメントを調整できます | [!DNL Journey Optimizer] B2B edition、[!DNL Marketo Engage]、[!DNL Real-Time CDP] B2B edition |
 | [AJO B2B Paid Media Controller](b2b/paid-media-orchestration.md) | ウォーターフォールロジックを使用してB2B有料メディアキャンペーンを調整し、アカウントをキャンペーンに割り当て、配信先にアクティベートします | [!DNL Journey Optimizer] B2B edition、[!DNL Real-Time CDP] B2B edition |
 | [MarketoとWorkfrontの取り込みと作成](b2b/campaign-intake-and-creation.md) | Workfront formsとFusionを使用して、マーケティングキャンペーンのリクエスト受付とMarketo Engageプログラムの作成を自動化 | [!DNL Marketo Engage], [!DNL Workfront], [!DNL Workfront Fusion] |
 | [MarketoとWorkfrontのレビューと承認](b2b/campaign-review-and-approval.md) | Fusionの自動化機能を使用して、Workfrontの校正および承認ワークフローとMarketo Engageのメールアセットを統合できます | [!DNL Marketo Engage], [!DNL Workfront], [!DNL Workfront Fusion] |
@@ -94,33 +99,33 @@ ht-degree: 0%
 *解約したお客様は、90日以内に購入していません。 ターゲットを絞ったオファーでリエンゲージメントする必要があります。*
 
 - **オファーの選択は動的ですか（異なる顧客は、適格性またはランキングに基づいて異なるオファーを受け取ります）?**
-   - はい[&#x200B; オファー決定](personalization/offer-decisioning.md)をオファーレイヤーとして→用し、再エンゲージメント シーケンス用に[&#x200B; マルチステップのオーケストレーションされたジャーニー](campaign-management-orchestration/multi-step-orchestrated-journey.md)に折り返します
-   - [&#x200B; マルチステップのオーケストレーションされたジャーニー](campaign-management-orchestration/multi-step-orchestrated-journey.md)のみ→は、（対象となるすべての解約した顧客に対して同じオファー）はありません
+  - はい[&#x200B; オファー決定](personalization/offer-decisioning.md)をオファーレイヤーとして→用し、再エンゲージメント シーケンス用に[&#x200B; マルチステップのオーケストレーションされたジャーニー](campaign-management-orchestration/multi-step-orchestrated-journey.md)に折り返します
+  - [&#x200B; マルチステップのオーケストレーションされたジャーニー](campaign-management-orchestration/multi-step-orchestrated-journey.md)のみ→は、（対象となるすべての解約した顧客に対して同じオファー）はありません
 
 ### 購入後のフォローアップ
 
 *お客様は購入を完了しました。 確認、クロスセルのレコメンデーション、およびロイヤルティ報酬の通知を送信する場合。*
 
 - **シーケンスでは、リアルタイムのイベント（例：要求された報酬、レビューされた製品）に基づいてアダプティブ分岐が必要ですか？**
-   - はい→ [&#x200B; マルチステップ オーケストレーション ジャーニー](campaign-management-orchestration/multi-step-orchestrated-journey.md)
-   - いいえ（固定シーケンス、分岐なし） → [&#x200B; バッチアウトバウンドメッセージのアクティベーション &#x200B;](campaign-management-orchestration/batch-outbound-message-activation.md)
+  - はい→ [&#x200B; マルチステップ オーケストレーション ジャーニー](campaign-management-orchestration/multi-step-orchestrated-journey.md)
+  - いいえ（固定シーケンス、分岐なし） → [&#x200B; バッチアウトバウンドメッセージのアクティベーション &#x200B;](campaign-management-orchestration/batch-outbound-message-activation.md)
 - **パーソナライズされた商品レコメンデーションが含まれていますか？**
-   - はい→ コンテンツ レイヤーで[行動レコメンデーション &#x200B;](personalization/behavioral-recommendation.md)を使用して拡張できます
+  - はい→ コンテンツ レイヤーで[行動レコメンデーション &#x200B;](personalization/behavioral-recommendation.md)を使用して拡張できます
 
 ### ロイヤルティマイルストーンパーソナライゼーション
 
 *顧客が新しいロイヤルティ階層に到達しました。 パーソナライズされたweb コンテンツを表示し、お祝いのメッセージを送信する必要があります。*
 
 - **Web コンテンツはパーソナライズされていますか（層またはセグメントごとに異なるコンテンツ）?**
-   - はい→Web サーフェスの[既知の訪問者のweb/アプリのパーソナライゼーション &#x200B;](personalization/known-visitor-web-app-personalization.md)
+  - はい→Web サーフェスの[既知の訪問者のweb/アプリのパーソナライゼーション &#x200B;](personalization/known-visitor-web-app-personalization.md)
 - **送信メッセージは、1回の送信またはナーチャリング シーケンスですか？**
-   - 1回→送信[&#x200B; イベントトリガーメッセージ &#x200B;](campaign-management-orchestration/event-triggered-messaging.md)
-   - シーケンス → [&#x200B; マルチステップのオーケストレーションされたジャーニー](campaign-management-orchestration/multi-step-orchestrated-journey.md)
+  - 1回→送信[&#x200B; イベントトリガーメッセージ &#x200B;](campaign-management-orchestration/event-triggered-messaging.md)
+  - シーケンス → [&#x200B; マルチステップのオーケストレーションされたジャーニー](campaign-management-orchestration/multi-step-orchestrated-journey.md)
 
 ### リエンゲージメントキャンペーン
 
 *非アクティブなユーザーのセグメントには、マルチタッチの再アクティブ化シーケンスが必要です。*
 
 - **個々のメッセージは、リアルタイムで複数のオファーのバリエーションから選択する必要がありますか？**
-   - はい→ [意思決定を行うクロスチャネルジャーニー](campaign-management-orchestration/cross-channel-journey-with-decisioning.md)
-   - → [&#x200B; マルチステップ オーケストレーション ジャーニー](campaign-management-orchestration/multi-step-orchestrated-journey.md)がありません
+  - はい→ [意思決定を行うクロスチャネルジャーニー](campaign-management-orchestration/cross-channel-journey-with-decisioning.md)
+  - → [&#x200B; マルチステップ オーケストレーション ジャーニー](campaign-management-orchestration/multi-step-orchestrated-journey.md)がありません

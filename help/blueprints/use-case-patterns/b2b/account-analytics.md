@@ -3,13 +3,16 @@ title: B2B 分析
 description: クロスチャネルのカスタマージャーニー分析にB2B アカウントレベルの情報を含める方法について説明します。
 solution: Customer Journey Analytics, Real-Time Customer Data Platform
 exl-id: 9d576e5c-cbd2-4c60-a6b0-88f8b8b963b4
-source-git-commit: 349d26f612d4002d1de3d27c7f893bd63ac467a3
+product_v2:
+  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+    internal-label: Customer Journey Analytics
+  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+    internal-label: Real-Time Customer Data Platform
+source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
 workflow-type: tm+mt
 source-wordcount: '1811'
 ht-degree: 2%
-
 ---
-
 # B2B分析
 
 このガイドでは、[!DNL Customer Journey Analytics] （[!DNL CJA]）B2B editionと[!DNL Real-Time Customer Data Platform] （[!DNL RT-CDP]）B2B editionを使用して、B2B アカウントレベルの情報をクロスチャネルのカスタマージャーニー分析に組み込むB2B分析のユースケースパターンについて説明します。 このパターンの仕組み、ビジネス目標、戦術的なユースケース、関連するAdobe アプリケーションについて理解する必要があるソリューションアーキテクト、マーケティングテクノロジスト、実装エンジニア向けに設計されています。

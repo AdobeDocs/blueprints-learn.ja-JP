@@ -3,13 +3,16 @@ title: Brand Concierge会話体験
 description: デジタル資産を、AIを活用したブランドの基準に即した会話体験に変換し、顧客を発見する方法を解説します。
 solution: Experience Platform, Real-Time Customer Data Platform
 exl-id: a9545328-316d-446a-9308-18af61c58d1c
-source-git-commit: 349d26f612d4002d1de3d27c7f893bd63ac467a3
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
+  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+    internal-label: Real-Time Customer Data Platform
+source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
 workflow-type: tm+mt
 source-wordcount: '961'
 ht-degree: 1%
-
 ---
-
 # Brand Conciergeの会話体験
 
 このガイドでは、[!DNL Adobe Experience Platform] （AEP）および[!DNL Real-Time Customer Data Platform] （[!DNL RT-CDP]）と統合された[!DNL Adobe Brand Concierge]を使用したAIによる会話体験の概要を説明します。 デジタルプロパティ全体で、ブランドの基準に即した会話型エージェントを展開する必要があるソリューションアーキテクト、マーケティングテクノロジスト、実装エンジニア向けに設計されています。

@@ -2,7 +2,10 @@
 title: AJO B2B Paid Media Controller
 description: ペイドメディアの宛先に対するキャンペーンの優先度とアカウントのアクティベーション
 solution: Journey Optimizer B2B Edition
-source-git-commit: c2381a0f7223d8cbb0dae05d056fd45ff5701f0f
+product_v2:
+  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
+source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
 workflow-type: tm+mt
 source-wordcount: '1499'
 ht-degree: 0%
@@ -68,7 +71,7 @@ B2Bの有料メディアを大規模に運用しているマーケティング�
 ### ガードレール
 
 - **Journey Optimizer B2B Edition** — ジャーニーの制限、ノードの制限、宛先のサポートについては、[製品の説明](https://helpx.adobe.com/jp/legal/product-descriptions/adobe-journey-optimizer-b2b.html)を参照してください。
-- **Real-Time CDP** — セグメント化とアクティブ化の制限については、[RTCDP ガードレール &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/rtcdp/guardrails/overview)を参照してください。
+- **Real-Time CDP** — セグメント化とアクティブ化の制限については、[RTCDP ガードレール &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/guardrails/overview)を参照してください。
 
 ## 実装
 

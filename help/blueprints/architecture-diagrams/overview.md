@@ -3,7 +3,10 @@ title: アーキテクチャ図
 description: Adobe Experience Platformとそのアプリケーションに関するビジュアルアーキテクチャとデータフローの参照図。プラットフォームアーキテクチャ、オーディエンスアクティベーション、B2B マーケティング、カスタマーインサイト、カスタマージャーニーをカバーしています。
 solution: Experience Platform
 doc-type: overview-page
-source-git-commit: 79738031788419872e32b8f754febacbfd18cc06
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
+source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
 workflow-type: tm+mt
 source-wordcount: '294'
 ht-degree: 0%

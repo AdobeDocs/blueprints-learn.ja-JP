@@ -3,13 +3,18 @@ title: 保険のユースケース
 description: 保険会社がAdobe Adobe Experience Platformを活用して、ポリシー管理をパーソナライズし、請求体験を向上させ、顧客維持を促進する方法をご覧ください。
 solution: Experience Platform, Real-Time Customer Data Platform, Journey Optimizer
 exl-id: a082598f-555b-49a4-b201-a55bee793959
-source-git-commit: 5cbdfd028816a872c9424daf29aabe8db1954197
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
+  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+    internal-label: Real-Time Customer Data Platform
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+    internal-label: Journey Optimizer
+source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
 workflow-type: tm+mt
 source-wordcount: '2543'
 ht-degree: 0%
-
 ---
-
 # 保険のユースケース
 
 保険会社は、Adobe Adobe Experience Platformを活用して、保険契約者のデータを、保険契約管理、保険金請求、エンゲージメントシステムをまたいで統合し、顧客関係のあらゆる段階でパーソナライズされたコミュニケーションを提供しています。 行動シグナルとポリシー情報や請求情報を結びつけることで、保険会社は関連性の高いオファー、タイムリーなサービス更新、顧客維持率と生涯価値を高める有意義なサポートなどを提供し、顧客を積極的に引き付けることができます。

@@ -3,13 +3,16 @@ title: バッチ送信メッセージの有効化
 description: 1回のバッチ実行でオーディエンスを評価し、スケジュールされたアウトバウンドメッセージを配信する方法を説明します。
 solution: Journey Optimizer, Real-Time Customer Data Platform
 exl-id: 192853ce-02ab-46e6-9092-3db5354bc19c
-source-git-commit: 349d26f612d4002d1de3d27c7f893bd63ac467a3
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+    internal-label: Journey Optimizer
+  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+    internal-label: Real-Time Customer Data Platform
+source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
 workflow-type: tm+mt
 source-wordcount: '1701'
 ht-degree: 4%
-
 ---
-
 # バッチアウトバウンドメッセージのアクティベーション
 
 このガイドでは、[!DNL Adobe Journey Optimizer] （AJO）と[!DNL Adobe Real-Time Customer Data Platform] （RT-CDP）を使用して、スケジュールされたアウトバウンドメッセージを定義されたオーディエンスセグメントに配信する、バッチアウトバウンドメッセージのアクティベーションのユースケースパターンについて説明します。 このパターンの仕組み、ビジネス目標、戦術的なユースケース、関連するAdobe アプリケーションについて理解する必要があるソリューションアーキテクト、マーケティングテクノロジスト、実装エンジニア向けに設計されています。
@@ -169,7 +172,7 @@ ht-degree: 4%
 - [ジャーニーライブレポート](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/reports/journey-live-report)
 - [ジャーニーグローバルレポート](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/reports/journey-global-report-cja)
 - [Customer Journey Analyticsの操作](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/reports/report-cja-manage)
-- [AJO + CJA統合ガイド](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/reporting/channel-report/cja-ajo)
+- [AJO + CJA統合ガイド](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/reporting/channel-report/cja-ajo)
 
 ### データガバナンスと同意
 

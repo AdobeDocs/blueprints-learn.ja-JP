@@ -3,7 +3,12 @@ title: マーケティングの支出とROIの最適化
 description: ターゲティング、アトリビューション、オーディエンスの抑制、予算配分の改善を通じて、マーケティングのROIを向上させる方法を紹介します。
 solution: Experience Platform, Real-Time Customer Data Platform
 exl-id: c744898b-bcb1-4338-ab97-e2fe6d4883b8
-source-git-commit: ccfd8c987a0090ca690e15a4bd89f4d96ec9c01f
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
+  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+    internal-label: Real-Time Customer Data Platform
+source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
 workflow-type: tm+mt
 source-wordcount: '186'
 ht-degree: 3%

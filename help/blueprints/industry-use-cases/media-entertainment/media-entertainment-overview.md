@@ -3,13 +3,18 @@ title: メディア&エンターテインメントのユースケース
 description: メディア&エンターテインメント企業が、Adobe Experience Platformを利用して、コンテンツ発見をパーソナライズし、購読者離れを低減して、オーディエンスのエンゲージメントを向上させている方法をご確認ください。
 solution: Experience Platform, Real-Time Customer Data Platform, Journey Optimizer
 exl-id: cfcf689f-9579-447f-9ef9-72e0c80c1f27
-source-git-commit: e8185f348f926acab2ca2e0c3cd55c08c663cf41
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
+  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+    internal-label: Real-Time Customer Data Platform
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+    internal-label: Journey Optimizer
+source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
 workflow-type: tm+mt
 source-wordcount: '3363'
 ht-degree: 0%
-
 ---
-
 # メディア&amp;エンターテインメントのユースケース
 
 メディア&amp;エンターテインメント企業は、Adobe Experience Platformを利用して、ストリーミングプラットフォーム、コンテンツライブラリ、購読者アカウントからのオーディエンスデータを統合し、各視聴者またはリスナーの単一のビューを作成できます。 この基盤により、パーソナライズされたコンテンツの発見、積極的な購読者維持、オーディエンスの再訪を促すエンゲージメント戦略が可能になります。

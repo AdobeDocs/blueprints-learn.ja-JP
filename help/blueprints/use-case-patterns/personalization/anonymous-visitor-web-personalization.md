@@ -3,7 +3,12 @@ title: 匿名訪問者の Web Personalization
 description: セッション中の行動シグナルにもとづいて、未特定の訪問者にパーソナライズされたweb コンテンツを配信する方法を説明します。
 solution: Journey Optimizer, Real-Time Customer Data Platform
 exl-id: e2446801-ffce-40e6-bfe9-abec623c9201
-source-git-commit: 0c41931afad32e806d57271439e31dda84a4b2ca
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+    internal-label: Journey Optimizer
+  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+    internal-label: Real-Time Customer Data Platform
+source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
 workflow-type: tm+mt
 source-wordcount: '1706'
 ht-degree: 4%

@@ -3,13 +3,16 @@ title: 既知の訪問者の Web/アプリPersonalization
 description: リアルタイムのプロファイルとセグメントメンバーシップにもとづいて、特定された訪問者にパーソナライズされたコンテンツ、オファー、プロモーションを配信する方法を説明します。
 solution: Journey Optimizer, Real-Time Customer Data Platform
 exl-id: 585adc0e-f528-4a09-b931-ef6b45fa8ec8
-source-git-commit: 349d26f612d4002d1de3d27c7f893bd63ac467a3
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+    internal-label: Journey Optimizer
+  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+    internal-label: Real-Time Customer Data Platform
+source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
 workflow-type: tm+mt
 source-wordcount: '1819'
 ht-degree: 4%
-
 ---
-
 # 既知の訪問者のweb/アプリのパーソナライゼーション
 
 このガイドでは、[!DNL Adobe Journey Optimizer] （AJO）と[!DNL Adobe Real-Time Customer Data Platform] （RT-CDP）を使用して、デジタルサーフェス全体で特定された訪問者にパーソナライズされたコンテンツを配信する、既知の訪問者web/アプリのパーソナライゼーションのユースケースパターンについて説明します。 このパターンの仕組み、ビジネス目標、戦術的なユースケース、関連するAdobe アプリケーションについて理解する必要があるソリューションアーキテクト、マーケティングテクノロジスト、実装エンジニア向けに設計されています。
@@ -99,13 +102,13 @@ web、モバイル、アプリ、コンテンツカードサーフェスをま�
 ### web チャネルのパーソナライゼーション
 
 - [web チャネルの基本を学ぶ](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/channels/web/get-started-web)
-- [web エクスペリエンスの構築](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/channels/web/create-web)
+- [Web エクスペリエンスの作成](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/channels/web/create-web)
 - [web チャネル設定](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/web/web-configuration)
 
 ### アプリ内とコンテンツカードのチャネル
 
 - [アプリ内チャネルの概要](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/channels/in-app/get-started-in-app)
-- [アプリ内チャネルの前提条件](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/channels/in-app/inapp-configuration)
+- [アプリ内チャネルの前提条件](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/in-app/inapp-configuration)
 - [アプリ内メッセージの作成](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/channels/in-app/create-in-app)
 - [コンテンツカードチャネル](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/content-card/get-started-content-card)
 - [コンテンツカード設定](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/content-card/content-card-configuration)

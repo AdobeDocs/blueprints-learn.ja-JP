@@ -3,13 +3,16 @@ title: 新規顧客の獲得
 description: ターゲットを絞った顧客獲得施策、類似オーディエンス、有料メディアの最適化など、顧客基盤を拡大する方法を学びましょう。
 solution: Experience Platform, Real-Time Customer Data Platform
 exl-id: 57b2da92-f099-4c82-899b-9023f1ac81dc
-source-git-commit: 8284380fb9202991f3da7d755225da2e38a50cac
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
+  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+    internal-label: Real-Time Customer Data Platform
+source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
 workflow-type: tm+mt
 source-wordcount: '226'
 ht-degree: 6%
-
 ---
-
 # 新規顧客の獲得
 
 ターゲットを絞った獲得キャンペーン、類似オーディエンス、有料メディアの最適化により、顧客基盤を拡大できます。 この目標は、正確なオーディエンスのターゲティングと既存顧客の抑制を通じて、コスト効率を維持しながら、新しい見込み顧客に大規模にリーチすることに重点を置いています。

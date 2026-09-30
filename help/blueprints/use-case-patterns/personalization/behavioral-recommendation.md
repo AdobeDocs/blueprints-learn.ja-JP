@@ -3,13 +3,16 @@ title: 行動の推奨事項
 description: 選択戦略とランキングモデルを使用して、アイテムとコンテンツのレコメンデーションを生成する方法について説明します。
 solution: Journey Optimizer, Real-Time Customer Data Platform
 exl-id: db16e773-e0da-46c4-9fa5-d16f04feb46b
-source-git-commit: 9ea30e48ec0fade2f9a97b185e35fbfa93f49c43
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+    internal-label: Journey Optimizer
+  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+    internal-label: Real-Time Customer Data Platform
+source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
 workflow-type: tm+mt
 source-wordcount: '1652'
 ht-degree: 5%
-
 ---
-
 # 行動レコメンデーション
 
 このガイドでは、[!DNL Adobe Journey Optimizer] （AJO） Decisioning、[!DNL Real-Time Customer Data Platform] （RT-CDP）、[!DNL Adobe Experience Platform] （AEP）を使用して、web、モバイルアプリ、メールチャネルをまたいでパーソナライズされたレコメンデーションエクスペリエンスを配信する、行動レコメンデーションのユースケースパターンについて説明します。 このパターンの仕組み、ビジネス目標、戦術的なユースケース、関連するAdobe アプリケーションについて理解する必要があるソリューションアーキテクト、マーケティングテクノロジスト、実装エンジニア向けに設計されています。

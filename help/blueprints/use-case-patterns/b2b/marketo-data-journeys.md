@@ -2,7 +2,10 @@
 title: Adobe Marketo Data Blueprintを活用したB2Bジャーニー
 description: Marketo Engage データを使用したJourney Optimizer B2B Editionの迅速なデプロイメントの設計図。
 solution: Journey Optimizer B2B Edition
-source-git-commit: c2381a0f7223d8cbb0dae05d056fd45ff5701f0f
+product_v2:
+  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
+source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
 workflow-type: tm+mt
 source-wordcount: '2069'
 ht-degree: 2%
@@ -202,7 +205,7 @@ Marketo Engageを使用したB2B ジャーニーに適用されるガードレ�
 
 * [Adobe Journey Optimizer B2B Edition – 製品説明](https://helpx.adobe.com/jp/legal/product-descriptions/adobe-journey-optimizer-b2b.html)
 Journey Optimizer B2B Editionの特定のガードレールと使用パラメーターが含まれています。
-* [Adobe Experience Platformのデプロイメントガードレール](https://experienceleague.adobe.com/ja/docs/blueprints-learn/architecture/architecture-overview/guardrails?lang=en)
+* [Adobe Experience Platformのデプロイメントガードレール](https://experienceleague.adobe.com/en/docs/blueprints-learn/architecture/architecture-overview/guardrails?lang=en)
 Adobe Experience Platform ソリューション全体の一般的なアーキテクチャおよびデプロイメントのガードレールについて説明します。
 * [Adobe Marketo Engage – 製品説明](https://helpx.adobe.com/jp/legal/product-descriptions/adobe-marketo-engage---product-description.html#performance-guardrails)
 アクティベーションやCRM同期に関する考慮事項など、Marketo Engageのパフォーマンスと使用ガードレールを詳しく説明します。

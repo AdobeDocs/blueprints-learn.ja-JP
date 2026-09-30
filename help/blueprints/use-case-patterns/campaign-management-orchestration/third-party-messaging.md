@@ -2,7 +2,10 @@
 title: Journey Optimizer - サードパーティメッセージのブループリント
 description: Adobe Journey Optimizerをサードパーティのメッセージングシステムと組み合わせて使用し、パーソナライズされたコミュニケーションを送信する方法を示します。
 solution: Journey Optimizer
-source-git-commit: 79738031788419872e32b8f754febacbfd18cc06
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+    internal-label: Journey Optimizer
+source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
 workflow-type: tm+mt
 source-wordcount: '563'
 ht-degree: 58%
@@ -37,7 +40,7 @@ Adobe Journey Optimizerをサードパーティのメッセージングシステ
 
 [Journey Optimizer Guardrails製品リンク](https://experienceleague.adobe.com/docs/journeys/using/starting-with-journeys/limitations.html?lang=ja)
 
-[ガードレールとエンドツーエンドのレイテンシーガイダンス](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/architecture-overview/guardrails.html?lang=ja)
+[ガードレールとエンドツーエンドのレイテンシーガイダンス](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/architecture-overview/guardrails.html)
 
 <br>
 

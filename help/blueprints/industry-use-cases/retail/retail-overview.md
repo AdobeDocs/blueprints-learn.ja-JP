@@ -3,13 +3,18 @@ title: 小売業界のユースケース
 description: 小売企業がAdobe Experience Platformを利用して、ショッピング体験をパーソナライズし、放棄されたカートを復元して、顧客ロイヤルティを向上させている方法をご確認ください。
 solution: Experience Platform, Real-Time Customer Data Platform, Journey Optimizer
 exl-id: 89a5b6b5-bb71-4154-bb3b-f6dbbbef13eb
-source-git-commit: 5cbdfd028816a872c9424daf29aabe8db1954197
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
+  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+    internal-label: Real-Time Customer Data Platform
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+    internal-label: Journey Optimizer
+source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
 workflow-type: tm+mt
 source-wordcount: '6082'
 ht-degree: 0%
-
 ---
-
 # 小売業界のユースケース
 
 小売企業は、Adobe Experience Platformを利用して、オンラインストア、実店舗、ロイヤルティプログラムからの顧客データを統合し、各顧客の単一の顧客像を構築しています。 この基盤により、パーソナライズされたショッピング体験、失った売上を回復するタイムリーなアウトリーチ、顧客をリピーターにするロイヤルティ戦略が可能になります。
