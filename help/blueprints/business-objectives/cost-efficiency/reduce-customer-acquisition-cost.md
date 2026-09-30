@@ -34,4 +34,4 @@ ht-degree: 3%
 | パターン | カテゴリ | この目標をどのようにサポートしているか |
 | --- | --- | --- |
 | [宛先へのAudience Activation](/help/blueprints/use-case-patterns/audience-building-activation/audience-activation-to-destinations.md) | オーディエンスの構築と活用 | 獲得施策から既存顧客を除外し、正確にターゲットを絞ったオーディエンスを公開することで、広告費の無駄を削減する |
-| [ セグメント一致を持つAudience Collaboration](/help/blueprints/use-case-patterns/audience-building-activation/audience-collaboration-segment-match.md) | オーディエンスの構築と活用 | オーディエンスの重複を分析および共有し、組織全体のターゲティング効率を向上 |
+| [&#x200B; セグメント一致を持つAudience Collaboration](/help/blueprints/use-case-patterns/audience-building-activation/audience-collaboration-segment-match.md) | オーディエンスの構築と活用 | オーディエンスの重複を分析および共有し、組織全体のターゲティング効率を向上 |

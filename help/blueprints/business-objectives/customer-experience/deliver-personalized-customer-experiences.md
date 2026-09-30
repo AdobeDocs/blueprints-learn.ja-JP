@@ -35,9 +35,9 @@ ht-degree: 12%
 
 | パターン | カテゴリ | この目標をどのようにサポートしているか |
 | --- | --- | --- |
-| [ 匿名訪問者の Web Personalization](/help/blueprints/use-case-patterns/personalization/anonymous-visitor-web-personalization.md) | パーソナライズ機能 | セッション中の行動シグナルにもとづいて、未特定の訪問者にパーソナライズされたweb コンテンツを提供する |
-| [ 既知の訪問者の Web/アプリPersonalization](/help/blueprints/use-case-patterns/personalization/known-visitor-web-app-personalization.md) | パーソナライズ機能 | プロファイルとセグメントデータを活用して、認証済みの訪問者に対してwebおよびアプリ体験をパーソナライズします |
+| [&#x200B; 匿名訪問者の Web Personalization](/help/blueprints/use-case-patterns/personalization/anonymous-visitor-web-personalization.md) | パーソナライズ機能 | セッション中の行動シグナルにもとづいて、未特定の訪問者にパーソナライズされたweb コンテンツを提供する |
+| [&#x200B; 既知の訪問者の Web/アプリPersonalization](/help/blueprints/use-case-patterns/personalization/known-visitor-web-app-personalization.md) | パーソナライズ機能 | プロファイルとセグメントデータを活用して、認証済みの訪問者に対してwebおよびアプリ体験をパーソナライズします |
 | [Offer Decisioning](/help/blueprints/use-case-patterns/personalization/offer-decisioning.md) | パーソナライズ機能 | 一元化された意思決定ロジックと顧客プロファイルデータを利用して、チャネルをまたいで次善のオファーを選択 |
-| [ イベントトリガーメッセージ ](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md) | キャンペーン管理とオーケストレーション | 顧客の行動に合わせて、コンテクストに即してパーソナライズされたメッセージをリアルタイムで配信 |
+| [&#x200B; イベントトリガーメッセージ &#x200B;](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md) | キャンペーン管理とオーケストレーション | 顧客の行動に合わせて、コンテクストに即してパーソナライズされたメッセージをリアルタイムで配信 |
 | [Decisioning を使用したクロスチャネルジャーニー](/help/blueprints/use-case-patterns/campaign-management-orchestration/cross-channel-journey-with-decisioning.md) | キャンペーン管理とオーケストレーション | リアルタイムのコンテンツとオファー決定により、マルチステップのパーソナライズされたジャーニーを編成 |
 | [Brand Conciergeの会話体験](/help/blueprints/use-case-patterns/conversational-experience/brand-concierge-conversational-experience.md) | 会話体験 | 顧客のコンテキストに基づいて、AIを活用し、パーソナライズされた会話体験を提供する |

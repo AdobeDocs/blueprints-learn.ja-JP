@@ -53,7 +53,7 @@ ht-degree: 3%
 
 - **KPI:**&#x200B;効率、生産性
 
-このビジネス目標について詳しくは、[ データ主導の意思決定を有効にする](/help/blueprints/business-objectives/analytics-insights/enable-data-driven-decision-making.md)を参照してください。
+このビジネス目標について詳しくは、[&#x200B; データ主導の意思決定を有効にする](/help/blueprints/business-objectives/analytics-insights/enable-data-driven-decision-making.md)を参照してください。
 
 **マーケティングアトリビューションの改善**
 
@@ -61,7 +61,7 @@ ht-degree: 3%
 
 - **KPI:**&#x200B;効率、増分収益
 
-このビジネス目標について詳しくは、[ マーケティングアトリビューションの改善](/help/blueprints/business-objectives/analytics-insights/improve-marketing-attribution.md)を参照してください。
+このビジネス目標について詳しくは、[&#x200B; マーケティングアトリビューションの改善](/help/blueprints/business-objectives/analytics-insights/improve-marketing-attribution.md)を参照してください。
 
 **マーケティング費用とROIの最適化**
 
@@ -69,7 +69,7 @@ ht-degree: 3%
 
 - **KPI:**&#x200B;効率、増分収益
 
-このビジネス目標について詳しくは、[ マーケティング費用とROIの最適化](/help/blueprints/business-objectives/cost-efficiency/optimize-marketing-spend-roi.md)を参照してください。
+このビジネス目標について詳しくは、[&#x200B; マーケティング費用とROIの最適化](/help/blueprints/business-objectives/cost-efficiency/optimize-marketing-spend-roi.md)を参照してください。
 
 ## 戦術的なユースケース
 

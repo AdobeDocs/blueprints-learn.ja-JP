@@ -25,20 +25,20 @@ ht-degree: 0%
 
 1. まず、ブラウザーの右上にあるアプリドロワーからアプリケーションを選択して、Adobe Journey Optimizer アプリケーションにログインしていることを確認します
 
-   ![ アプリドロワーからAdobe Journey Optimizerを選択](assets/create-an-orchestrated-campaign-select-ajo-app.png)
+   ![&#x200B; アプリドロワーからAdobe Journey Optimizerを選択](assets/create-an-orchestrated-campaign-select-ajo-app.png)
 
 
 
 2. 左側のナビゲーションパネルで、**キャンペーン**&#x200B;を選択します
 3. 次に、右上の「**キャンペーンを作成**」ボタンをクリックします
 
-   ![ キャンペーンナビゲーションの「キャンペーンを作成」ボタン ](assets/create-an-orchestrated-campaign-click-create-campaign.png)
+   ![&#x200B; キャンペーンナビゲーションの「キャンペーンを作成」ボタン &#x200B;](assets/create-an-orchestrated-campaign-click-create-campaign.png)
 
 
 
 4. 表示されるモーダルで、**Orchestration - Marketing**&#x200B;を選択し、**Confirm**&#x200B;をクリックします
 
-![ オーケストレーション – マーケティングを選択し、「確認」をクリックします](assets/create-an-orchestrated-campaign-select-orchestration-marketing.png)
+![&#x200B; オーケストレーション – マーケティングを選択し、「確認」をクリックします](assets/create-an-orchestrated-campaign-select-orchestration-marketing.png)
 
 ## キャンペーン設定
 
@@ -50,7 +50,7 @@ ht-degree: 0%
 
    完了すると、画面は以下のようになります。
 
-   ![ キャンペーン設定が名前と結合ポリシーで入力されました](assets/create-an-orchestrated-campaign-settings-filled.png)
+   ![&#x200B; キャンペーン設定が名前と結合ポリシーで入力されました](assets/create-an-orchestrated-campaign-settings-filled.png)
 
 2. 「**保存**」ボタンをクリックして続行します。
 
@@ -62,7 +62,7 @@ ht-degree: 0%
 
 デフォルトは常に&#x200B;**できるだけ早く**&#x200B;に設定されます。 この演習では、既定値を使用しますが、他にも多くのオプションを利用できます。
 
-キャンペーンワークフローが「スケジューラーオプション」を実行する頻度の![ スケジューラーオプション ](assets/create-an-orchestrated-campaign-scheduler-options.png " スケジューラーオプション ")
+キャンペーンワークフローが「スケジューラーオプション」を実行する頻度の![&#x200B; スケジューラーオプション &#x200B;](assets/create-an-orchestrated-campaign-scheduler-options.png " スケジューラーオプション ")
 
 
 

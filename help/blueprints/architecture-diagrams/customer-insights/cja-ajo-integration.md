@@ -22,7 +22,7 @@ ht-degree: 0%
 
 Journey Optimizerの配信データとインタラクションデータを、Experience PlatformおよびCustomer Journey Analyticsと連携させ、レポート、分析、オーディエンスを作成できます。
 
-![Adobe Customer Journey AnalyticsとAdobe Journey Optimizerの統合アーキテクチャ ](assets/cja_ajo_integration.png){width="1000" zoomable="yes"}
+![Adobe Customer Journey AnalyticsとAdobe Journey Optimizerの統合アーキテクチャ &#x200B;](assets/cja_ajo_integration.png){width="1000" zoomable="yes"}
 
 ## プライマリデータフローと統合ポイント
 
@@ -35,7 +35,7 @@ Journey Optimizerの配信データとインタラクションデータを、Exp
 ## サポートされるユースケースパターン
 
 - [顧客分析とinsight generation](/help/blueprints/use-case-patterns/analysis/customer-analytics-insight-generation.md) — チャネル全体でキャンペーンとジャーニーの動作を分析します。
-- [ イベント トリガーのメッセージ ](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md) – 顧客およびジャーニーのシグナルを使用して、オーケストレーションされたメッセージをサポートします。
+- [&#x200B; イベント トリガーのメッセージ &#x200B;](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md) – 顧客およびジャーニーのシグナルを使用して、オーケストレーションされたメッセージをサポートします。
 
 ## 関連トピックス
 

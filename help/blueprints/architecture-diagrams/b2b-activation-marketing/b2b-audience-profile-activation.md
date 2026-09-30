@@ -51,7 +51,7 @@ ht-degree: 5%
 
 ## アーキテクチャ
 
-![B2B オーディエンスとプロファイル アクティベーションの設計図に関する参照アーキテクチャ ](assets/b2b-audience-profile-activation.png){width="1000" zoomable="yes"}
+![B2B オーディエンスとプロファイル アクティベーションの設計図に関する参照アーキテクチャ &#x200B;](assets/b2b-audience-profile-activation.png){width="1000" zoomable="yes"}
 
 ## ガードレール
 
@@ -79,7 +79,7 @@ B2B オーディエンスとプロファイルを設計する際には、次の�
 
 #### Experience Platformのプロファイルとセグメンテーションガードレール
 
-Experience Platform プロファイルとセグメント化のガードレールについては、[ プロファイルとセグメント化のガードレール ](https://experienceleague.adobe.com/en/docs/experience-platform/profile/guardrails)を参照してください。
+Experience Platform プロファイルとセグメント化のガードレールについては、[&#x200B; プロファイルとセグメント化のガードレール &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/profile/guardrails)を参照してください。
 
 アカウント、リード、商談などのB2B エンティティを含むセグメントは、複数のエンティティの関係に依存し、**バッチ**&#x200B;で評価されます。 対照的に、**ストリーミングセグメンテーション**&#x200B;は、B2B エンティティを組み込まない人物およびイベントに限定されたオーディエンスに対してサポートされます。 ほぼリアルタイムのB2B アクティベーションのシナリオについては、バッチ評価されたB2B オーディエンスを、ストリーミングオーディエンスやエッジオーディエンスの入力として使用することを検討してください。
 
@@ -93,7 +93,7 @@ Experience Platform プロファイルとセグメント化のガードレール
 
 #### 宛先ガードレール
 
-- 各宛先に関する具体的なガイダンスについては、宛先ドキュメントを参照してください：[宛先ガードレール ](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/guardrails)。
+- 各宛先に関する具体的なガイダンスについては、宛先ドキュメントを参照してください：[宛先ガードレール &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/guardrails)。
 - Facebook、Google Customer Match &amp; DV360、Microsoft Bing、The Trade Desk、Amazon Ads、Bombora、Demandbaseなどの広告配信先では、スキーマおよびID戦略（メール、モバイル広告ID、アドレスフィールド、アカウント ID）で選択した識別子が、マッピング機能およびそれらの配信先でサポートされているIDと一致していることを確認します。
 
 ## 実装手順

@@ -64,7 +64,7 @@ Connection 5G Brand Guideline ドキュメントから始め、それをアッ�
 1. Adobe Journey Optimizerで、左側のナビゲーションに移動し、**ブランド**&#x200B;をクリックします。
 2. 「**ブランドを作成**」をクリックします。
 
-   ![ ブランドセクションの「ブランドを作成」ボタン ](assets/brand-management-click-create-brand-button.png)
+   ![&#x200B; ブランドセクションの「ブランドを作成」ボタン &#x200B;](assets/brand-management-click-create-brand-button.png)
 
 3. **名前** フィールドに、`Connection 5G Brand Guidelines`と入力します
 4. アップロード領域で、**Connection5g Brand Guidelines.pdf** ファイルをドラッグ&amp;ドロップします（または、**ファイルを選択**&#x200B;してコンピューターから選択します）。
@@ -86,17 +86,17 @@ Connection 5G Brand Guideline ドキュメントから始め、それをアッ�
 
 7. 「**公開**」ボタンをクリックして、ブランドガイドラインを公開します。
 
-   ![ ブランドガイドラインの「公開」ボタン ](assets/brand-management-click-publish-button.png)
+   ![&#x200B; ブランドガイドラインの「公開」ボタン &#x200B;](assets/brand-management-click-publish-button.png)
 
 8. 確認するには「公開」ボタンを押して確認します。
 
-   ![ ブランドガイドラインの公開ダイアログを確認](assets/brand-management-confirm-publish-dialog.png)
+   ![&#x200B; ブランドガイドラインの公開ダイアログを確認](assets/brand-management-confirm-publish-dialog.png)
 
    ページの下部に緑色の確認バーが表示され、ブランドの公開が成功したことを示します。
 
 9. メインのブランドページでクリックし、ブランドがライブになったことが表示されます（これは、**&quot;Live&quot;**&#x200B;というラベルの付いた緑のドットで表示されます）。
 
-緑色のLive ステータスラベルを付けた新しいブランドを表示する![ ブランドリスト ](assets/brand-management-brand-live-status-label.png)
+緑色のLive ステータスラベルを付けた新しいブランドを表示する![&#x200B; ブランドリスト &#x200B;](assets/brand-management-brand-live-status-label.png)
 
 
 ## ブランドタブの確認
@@ -129,7 +129,7 @@ Connection 5G Brand Guideline ドキュメントから始め、それをアッ�
 - タグラインとスローガン
 - 商標を含める場合などの法的ルール
 
-![ ブランドトーン、フレーズ、法務ルールを定義する「スタイル」タブ ](assets/brand-management-writing-style-tab.png)
+![&#x200B; ブランドトーン、フレーズ、法務ルールを定義する「スタイル」タブ &#x200B;](assets/brand-management-writing-style-tab.png)
 
 自然言語でルールを追加および調整し、電子メールやSMSなどの特定のチャネルにのみルールを適用することもできます。 これにより、AI アシスタントやコンテンツ制作者が、柔軟かつ正確にコンテンツの作成方法を制御できるようになります。
 
@@ -142,7 +142,7 @@ Connection 5G Brand Guideline ドキュメントから始め、それをアッ�
 - アイコンのルール
 - Visual DosとDon&#39;t
 
-![写真、イラスト、図像化ルールをカバーするビジュアルコンテンツタブ ](assets/brand-management-visual-content-tab.png)
+![写真、イラスト、図像化ルールをカバーするビジュアルコンテンツタブ &#x200B;](assets/brand-management-visual-content-tab.png)
 
 これにより、画像からアイコンに至るまで、あらゆるものが一貫性を持ち、Connection 5Gのコアバリューに沿ったものになります。
 
@@ -157,7 +157,7 @@ Connection 5G Brand Guideline ドキュメントから始め、それをアッ�
 
 2. 「**ブランドを編集**」をクリックします。 確認タブが表示されます。**ブランドを編集**&#x200B;をもう一度クリックして確認します。
 
-   ![ ブランドボタンと確認タブの編集](assets/brand-management-click-edit-brand-button.png)
+   ![&#x200B; ブランドボタンと確認タブの編集](assets/brand-management-click-edit-brand-button.png)
 
 3. 「**ブランドについて**」タブに移動します。
 
@@ -165,7 +165,7 @@ Connection 5G Brand Guideline ドキュメントから始め、それをアッ�
 
 4. **ガイドの原則**、**ビジョン**、または類似の詳細な説明のセクションを探します。
 
-   「ブランドについて」タブの「![ ガイドラインとビジョン」セクション ](assets/brand-management-guiding-principles-vision-section.png)
+   「ブランドについて」タブの「![&#x200B; ガイドラインとビジョン」セクション &#x200B;](assets/brand-management-guiding-principles-vision-section.png)
 
 5. 次のテキストを追加します。
 
@@ -177,7 +177,7 @@ Connection 5G Brand Guideline ドキュメントから始め、それをアッ�
 
    >Connection 5Gは、比類のない信頼性、シンプルさ、将来に向けたイノベーションで際立った、デジタルライフスタイルのために設計されたプレミアムスピードのモバイルサービスを提供します。
 
-   ![ ブランドに追加されたビジョンと市場ポジショニングのテキスト ](assets/brand-management-vision-market-positioning-added.png)
+   ![&#x200B; ブランドに追加されたビジョンと市場ポジショニングのテキスト &#x200B;](assets/brand-management-vision-market-positioning-added.png)
 
 6. **保存**&#x200B;をクリックします。 （**保存** ボタンが表示されない場合は、最初に「**概要**」タブをクリックしてから、**保存**」をクリックしてください）。
 
@@ -196,11 +196,11 @@ Connection 5G Brand Guideline ドキュメントから始め、それをアッ�
 
 2. **ブランドのコミュニケーション スタイル** セクションに属していることを確認してください。
 
-   「書き方」タブの![ ブランドコミュニケーションスタイルのセクション ](assets/brand-management-brand-communication-style-section.png)
+   「書き方」タブの![&#x200B; ブランドコミュニケーションスタイルのセクション &#x200B;](assets/brand-management-brand-communication-style-section.png)
 
 3. **しない**&#x200B;領域で、**プラス** アイコンをクリックして、新しいルールを追加します。
 
-   ![ プラスのアイコンを使用して新しいルールを追加する](assets/brand-management-add-donts-rule-plus-icon.png)
+   ![&#x200B; プラスのアイコンを使用して新しいルールを追加する](assets/brand-management-add-donts-rule-plus-icon.png)
 
 4. ルールを次のように設定します。
    - **除外：** `Be pushy`
@@ -215,11 +215,11 @@ Connection 5G Brand Guideline ドキュメントから始め、それをアッ�
 
 5. 「**追加**」をクリックします。
 
-   ![ プッシュ除外ルールのボタンを追加](assets/brand-management-click-add-rule-button.png)
+   ![&#x200B; プッシュ除外ルールのボタンを追加](assets/brand-management-click-add-rule-button.png)
 
 6. 新しい「しない」ルールがリストに`Be pushy`として表示されることを確認します。
 
-   ![ ルール リストでプッシュしないルールが確認されました](assets/brand-management-be-pushy-dont-rule-confirmed.png)
+   ![&#x200B; ルール リストでプッシュしないルールが確認されました](assets/brand-management-be-pushy-dont-rule-confirmed.png)
 
 7. **保存**&#x200B;をクリックします。
 
@@ -240,11 +240,11 @@ AI アシスタントと作成者に対して![電子メールボタンの除外
 1. 「**概要**」タブに戻ります。 **保存**&#x200B;をクリックします。
 2. 右上隅の「**公開**」をクリックします。
 
-   ![右上隅の「公開」ボタン ](assets/brand-management-click-publish-top-right.png)
+   ![右上隅の「公開」ボタン &#x200B;](assets/brand-management-click-publish-top-right.png)
 
 3. Connection 5Gの更新されたブランドガイドラインを公開しようとしていることを説明する確認ダイアログが表示されます。 「**公開**」をもう一度クリックして確認します。
 
-   ![更新されたブランドガイドラインを公開するための確認ダイアログ ](assets/brand-management-confirm-publish-updated-guidelines.png)
+   ![更新されたブランドガイドラインを公開するための確認ダイアログ &#x200B;](assets/brand-management-confirm-publish-updated-guidelines.png)
 
 4. 緑色の確認バーが表示されるのを待ちます。
 5. 「**戻る**」をクリックして、ブランドリストに戻ります。

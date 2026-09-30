@@ -32,4 +32,4 @@ ht-degree: 4%
 
 | パターン | カテゴリ | この目標をどのようにサポートしているか |
 | --- | --- | --- |
-| [ イベント転送](/help/blueprints/use-case-patterns/audience-building-activation/event-forwarding.md) | オーディエンスの構築と活用 | Adobe以外の配信先に対して、一貫性のある管理されたイベントデータを配信し、データ品質を統合 |
+| [&#x200B; イベント転送](/help/blueprints/use-case-patterns/audience-building-activation/event-forwarding.md) | オーディエンスの構築と活用 | Adobe以外の配信先に対して、一貫性のある管理されたイベントデータを配信し、データ品質を統合 |

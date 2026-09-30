@@ -21,8 +21,8 @@ ht-degree: 0%
 >
 >以下のラボは、このラボを開始する前に完了している必要があります
 
-- **Postman setup** **—>** [Postman インストール ](../../postman-setup/postman-installation.md)
-- **データストア – アクション中のプロファイル** **—>** [ データストリームを作成](../../data-stores/profile-in-action/create-datastream.md)
+- **Postman setup** **—>** [Postman インストール &#x200B;](../../postman-setup/postman-installation.md)
+- **データストア – アクション中のプロファイル** **—>** [&#x200B; データストリームを作成](../../data-stores/profile-in-action/create-datastream.md)
 
 ラボを完了していない場合は、続行する前に今すぐ完了してください。
 

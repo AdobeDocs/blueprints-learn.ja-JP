@@ -21,9 +21,9 @@ ht-degree: 0%
 1. サンドボックスへの開発者アクセス権を持つAdobe IDを使用してログインします。これは、[Developer Console設定](../../sandbox-setup/developer-console-setup.md)を完了するために使用したものと同じです。
 1. **アカウントを選択**&#x200B;画面で、**会社または学校アカウント**&#x200B;を選択します。
 
-![Adobeのログインページ（Adobe IDにログインするためのページ） ](assets/login-and-browse-adobe-login-page.png "Adobeのログインページ ")
+![Adobeのログインページ（Adobe IDにログインするためのページ） &#x200B;](assets/login-and-browse-adobe-login-page.png "Adobeのログインページ ")
 
-![Adobe パスワード入力ページ ](assets/login-and-browse-adobe-password-page.png "Adobe パスワード ページ ")
+![Adobe パスワード入力ページ &#x200B;](assets/login-and-browse-adobe-password-page.png "Adobe パスワード ページ ")
 
 ![会社または学校アカウントのオプションを使用してアカウント画面を選択](assets/login-and-browse-select-company-or-school-account.png " プロフィールの選択を求めるプロンプトを表示してAdobeにログイン ")
 
@@ -36,18 +36,18 @@ ht-degree: 0%
 >
 >この画面が表示されず、Experience Platformに直接起動される場合があります。  その場合は、この手順をスキップしてください。
 
-![Experience Platform アイコン付きのクイック アクセス パネル ](assets/login-and-browse-quick-access-experience-platform.png "Experience Platformのクイック アクセス ")
+![Experience Platform アイコン付きのクイック アクセス パネル &#x200B;](assets/login-and-browse-quick-access-experience-platform.png "Experience Platformのクイック アクセス ")
 
 
 ## スキーマに移動
 
 1. 左側のパネルの「**スキーマ**」タブをクリックします
 
-   左側のレール ナビゲーションの「![ スキーマ」タブ ](assets/login-and-browse-schemas-tab-left-rail.png "左側のレールを使用してスキーマに移動")
+   左側のレール ナビゲーションの「![&#x200B; スキーマ」タブ &#x200B;](assets/login-and-browse-schemas-tab-left-rail.png "左側のレールを使用してスキーマに移動")
 
 1. 上部のナビゲーションには、既存のスキーマを参照するオプションと、現在XDM レジストリにあるフィールドグループとデータタイプを表示するオプションが表示されます。
 
-![ スキーマ、フィールドグループ、およびデータタイプを参照するための上位ナビゲーションオプション ](assets/login-and-browse-browse-schemas-top-nav.png " スキーマの上位ナビゲーション ")を参照
+![&#x200B; スキーマ、フィールドグループ、およびデータタイプを参照するための上位ナビゲーションオプション &#x200B;](assets/login-and-browse-browse-schemas-top-nav.png " スキーマの上位ナビゲーション ")を参照
 
 >[!NOTE]
 >

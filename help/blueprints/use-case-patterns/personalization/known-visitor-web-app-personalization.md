@@ -43,7 +43,7 @@ web、モバイル、アプリ、コンテンツカードサーフェスをま�
 
 ### パーソナライズされた顧客体験の実現
 
-個人の好み、行動、ライフサイクルのステージに合わせて、コンテンツ、オファー、メッセージを調整。 詳しくは、[ パーソナライズされた顧客体験の提供](../../business-objectives/customer-experience/deliver-personalized-customer-experiences.md)を参照してください。
+個人の好み、行動、ライフサイクルのステージに合わせて、コンテンツ、オファー、メッセージを調整。 詳しくは、[&#x200B; パーソナライズされた顧客体験の提供](../../business-objectives/customer-experience/deliver-personalized-customer-experiences.md)を参照してください。
 
 **KPI:**&#x200B;のエンゲージメント、コンバージョン率、顧客満足度（CSAT）
 

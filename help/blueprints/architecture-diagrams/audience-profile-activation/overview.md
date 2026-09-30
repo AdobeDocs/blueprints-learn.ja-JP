@@ -17,6 +17,6 @@ ht-degree: 6%
 
 | ダイアグラム | 説明 |
 | --- | --- |
-| [Adobe Real-Time CDP アクティベーション ](rtcdp-activation.md) | 配信先やアプリケーションでオーディエンスを活用 |
-| [ リアルタイム Edge プロファイルへのアクセス ](real-time-lookup.md) | エッジでのプロファイルデータへの低遅延アクセス |
+| [Adobe Real-Time CDP アクティベーション &#x200B;](rtcdp-activation.md) | 配信先やアプリケーションでオーディエンスを活用 |
+| [&#x200B; リアルタイム Edge プロファイルへのアクセス &#x200B;](real-time-lookup.md) | エッジでのプロファイルデータへの低遅延アクセス |
 | [Adobe Real-Time CDPとAdobe Targetの統合](rtcdp-target-integration.md) | Real-Time CDPのオーディエンスとプロファイルコンテキストが、Edge Networkを通じてAdobe Targetとどのように連携するかを理解します |

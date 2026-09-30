@@ -30,7 +30,7 @@ Edge イベント処理を有効にするために、必要なサービスを使
 1. **データ収集**&#x200B;の下の左側のパネルで、**データストリーム**&#x200B;をクリックします
 1. 次に、**新しいデータストリーム**&#x200B;をクリックして作成します
 
-![新しいデータストリームボタンがハイライト表示されたデータストリームリスト ](assets/create-datastream-new-datastream-button.png)
+![新しいデータストリームボタンがハイライト表示されたデータストリームリスト &#x200B;](assets/create-datastream-new-datastream-button.png)
 
 ## データストリームの設定
 
@@ -45,7 +45,7 @@ Edge イベント処理を有効にするために、必要なサービスを使
 >
 >「保存してマッピングを追加」をクリックしないでください。  誤って入力した場合は、キャンセルするだけです
 
-![名前およびマッピングスキーマフィールドを含むデータストリーム設定フォーム ](assets/create-datastream-configure-datastream-form.png " データストリームの設定")
+![名前およびマッピングスキーマフィールドを含むデータストリーム設定フォーム &#x200B;](assets/create-datastream-configure-datastream-form.png " データストリームの設定")
 
 
 
@@ -59,7 +59,7 @@ Edge イベント処理を有効にするために、必要なサービスを使
 
 1. 画面の中央にある青い&#x200B;**サービスを追加** ボタンをクリックします
 
-   ![ データストリーム設定画面の「サービスを追加」ボタン ](assets/create-datastream-add-service-button.png)
+   ![&#x200B; データストリーム設定画面の「サービスを追加」ボタン &#x200B;](assets/create-datastream-add-service-button.png)
 
 2. 次の項目を設定します。
    - **サービス** -> `Adobe Experience Platform`
@@ -69,7 +69,7 @@ Edge イベント処理を有効にするために、必要なサービスを使
    - **チェックボックスを選択** -> `Adobe Journey Optimizer`
 3. 完了したら、**保存**&#x200B;をクリックします
 
-![ イベントおよびプロファイルデータセットフィールドを含むAdobe Experience Platform サービス設定ダイアログ ](assets/create-datastream-configure-aep-service.png)
+![&#x200B; イベントおよびプロファイルデータセットフィールドを含むAdobe Experience Platform サービス設定ダイアログ &#x200B;](assets/create-datastream-configure-aep-service.png)
 
 これで、データストリームにサービスが追加されました
 
@@ -77,7 +77,7 @@ Edge イベント処理を有効にするために、必要なサービスを使
 
 **Copy**&#x200B;および&#x200B;**save** the **Datastream ID**&#x200B;をローカルコンピューターに保存します（後でPostmanで使用します）
 
-後で使用するためにコピーして保存する![ データストリーム ID フィールド ](assets/create-datastream-copy-datastream-id.png)
+後で使用するためにコピーして保存する![&#x200B; データストリーム ID フィールド &#x200B;](assets/create-datastream-copy-datastream-id.png)
 
 ## まとめ
 

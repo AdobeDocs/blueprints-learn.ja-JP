@@ -46,7 +46,7 @@ Adobe Journey Optimizerには、**Connection 5G**&#x200B;の公開されたブ�
 2. 右側のパネルの「**ブランドの調整**」タブ、またはサイドバーの「**%」アイコン**」を見つけます。
 3. クリックしてパネルを開きます。
 
-   ![ サイドバーの「ブランドの調整」タブと割合アイコン ](assets/brand-alignment-open-panel-icon.png)
+   ![&#x200B; サイドバーの「ブランドの調整」タブと割合アイコン &#x200B;](assets/brand-alignment-open-panel-icon.png)
 
 4. 適切なブランドが適用されていることを確認する：
    - **接続5G** （デフォルト）。
@@ -66,7 +66,7 @@ Adobe Journey Optimizerには、**Connection 5G**&#x200B;の公開されたブ�
 
 
 
-評価後の![ ブランドコンプライアンスのスコアとフィードバック ](assets/brand-alignment-score-and-feedback.png)
+評価後の![&#x200B; ブランドコンプライアンスのスコアとフィードバック &#x200B;](assets/brand-alignment-score-and-feedback.png)
 
 
 ## 整合性スコアの確認
@@ -79,7 +79,7 @@ Adobe Journey Optimizerには、**Connection 5G**&#x200B;の公開されたブ�
 - タイムスタンプ
 - ガイドラインのカテゴリ（トーン、スタイル、画像など）
 
-![ ガイドライン カテゴリの分類を含むブランド調整スコア ](assets/brand-alignment-guideline-categories-score.png)
+![&#x200B; ガイドライン カテゴリの分類を含むブランド調整スコア &#x200B;](assets/brand-alignment-guideline-categories-score.png)
 
 結果を解釈して、メールがConnection 5G ガイドラインにどの程度適合しているかを把握します。
 
@@ -95,7 +95,7 @@ Adobe Journey Optimizerには、**Connection 5G**&#x200B;の公開されたブ�
    - 商標の使用がありません
    - 画像スタイル違反
 
-![ ガイドライン カテゴリの分類を含むブランド調整スコア ](assets/brand-alignment-guideline-categories-score.png)
+![&#x200B; ガイドライン カテゴリの分類を含むブランド調整スコア &#x200B;](assets/brand-alignment-guideline-categories-score.png)
 
 
 ## AI レコメンデーションを適用
@@ -107,11 +107,11 @@ Adobe Journey Optimizerには、**Connection 5G**&#x200B;の公開されたブ�
 
 3. AIが提供する修正案を使用します。 次に示すように、アイコンをクリックします。
 
-   ![提案された変更を適用するためのAI提案アイコン ](assets/brand-alignment-ai-suggestion-icon.png)
+   ![提案された変更を適用するためのAI提案アイコン &#x200B;](assets/brand-alignment-ai-suggestion-icon.png)
 
 4. 以下に示すように、「**AIで修正**」ボタンをクリックします。
 
-   ![ フラグ付きガイドラインのAI ボタンで修正](assets/brand-alignment-fix-with-ai-button.png)
+   ![&#x200B; フラグ付きガイドラインのAI ボタンで修正](assets/brand-alignment-fix-with-ai-button.png)
 
 5. 下の図のように、緑でハイライト表示された変更が提案され、取り消し線で赤で表示されたテキストが削除されます。 また、スコアが更新されています（この場合は80%）。 変更を有効にするには、**適用** ボタンをクリックします。
 
@@ -121,7 +121,7 @@ Adobe Journey Optimizerには、**Connection 5G**&#x200B;の公開されたブ�
 7. AIを利用するか、手作業で編集するかにかかわらず、強調されているすべての領域を確認し、コンテンツを修正するために必要な更新をおこないます。 続行する前に、必要なすべての変更が完了していることを確認してください。
 8. 変更を保存します。
 
-![ フラグ付きコンテンツの修正後に変更を保存する](assets/brand-alignment-save-changes.png)
+![&#x200B; フラグ付きコンテンツの修正後に変更を保存する](assets/brand-alignment-save-changes.png)
 
 
 ## ブランドスコアの再評価
@@ -142,7 +142,7 @@ Adobe Journey Optimizerには、**Connection 5G**&#x200B;の公開されたブ�
 
 5. 「**保存**」をクリックして、メールを確定します。
 
-![電子メールを確定するための保存ボタン ](assets/brand-alignment-save-finalize-email.png)
+![電子メールを確定するための保存ボタン &#x200B;](assets/brand-alignment-save-finalize-email.png)
 
 ## まとめ
 

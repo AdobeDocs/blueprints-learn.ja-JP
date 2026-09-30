@@ -21,16 +21,16 @@ ht-degree: 0%
 >
 >以下のラボは、このラボを開始する前に完了している必要があります
 
-- **Postman setup** **—>** [Postman インストール ](../../postman-setup/postman-installation.md)
+- **Postman setup** **—>** [Postman インストール &#x200B;](../../postman-setup/postman-installation.md)
 - **Data Stores — リレーショナルストアの動作** **—>** [Profile Target Dimension](../../data-stores/relational-store-in-action/profile-target-dimension.md)
-- **データストア – メールチャネルの設定 – >** [ プロファイルの設定](../../data-stores/configure-email-channels/configure-for-profile.md)
+- **データストア – メールチャネルの設定 – >** [&#x200B; プロファイルの設定](../../data-stores/configure-email-channels/configure-for-profile.md)
   *（この手順を完了するのに最大3時間かかります）*
 
 まだ完了していない場合は、次の操作を行ってください
 
 >[!CAUTION]
 >
->このラボでは、サンドボックスでAdobeにデリゲートされたサブドメインが必要です。 自分のペースで進めている場合は、[ セットアップ ](../../setup.md)を参照してください。
+>このラボでは、サンドボックスでAdobeにデリゲートされたサブドメインが必要です。 自分のペースで進めている場合は、[&#x200B; セットアップ &#x200B;](../../setup.md)を参照してください。
 
 ## ラボの概要
 

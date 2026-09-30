@@ -15,7 +15,7 @@ ht-degree: 86%
 
 キャンペーンリクエストを送信するプロセスを確立し、よくリクエストされるマーケティングキャンペーンの作成を自動化することにより、キャンペーンの速度を上げ、エラーを減らし、リクエストをマーケティング業務の適切なメンバーにルーティングし、リソースの使用率を調整して改善し、マーケティング業務をより戦略的なタスクに集中させることができます。
 
-WorkfrontとMarketo Engageを使用すると、システム間接続により、[Workfront リクエストフォーム ](https://experienceleague.adobe.com/docs/workfront/using/administration-and-setup/customize/custom-forms/create-or-edit-a-custom-form.html?lang=ja){target="_blank"}の詳細を利用してMarketo Engage プログラムを作成し、件名、電子メールのコピー、画像、日付、時間、イベント情報などの主要な変数に入力できます。
+WorkfrontとMarketo Engageを使用すると、システム間接続により、[Workfront リクエストフォーム &#x200B;](https://experienceleague.adobe.com/docs/workfront/using/administration-and-setup/customize/custom-forms/create-or-edit-a-custom-form.html?lang=ja){target="_blank"}の詳細を利用してMarketo Engage プログラムを作成し、件名、電子メールのコピー、画像、日付、時間、イベント情報などの主要な変数に入力できます。
 
 この統合を実現するには、Workfront Fusion を使用します。これは Workfront と他のシステム間のワークフローを自動化できる作業自動化レイヤーです。
 
@@ -90,7 +90,7 @@ Marketo Engage のプログラムテンプレートを使用してセンター�
 
 再利用可能なプログラムテンプレートのセットを用意したら、このブループリントで概説されている自動化を使用して、取り組みをさらに拡大し、キャンペーン開発をより迅速に進めることができます。
 
-独自のセンターオブエクセレンスの設立について詳しくは、[Marketo コミュニティ ](https://nation.marketo.com/t5/product-blogs/marketo-master-class-center-of-excellence-with-chelsea-kiko/ba-p/243221){target="_blank"}を参照して、ベストプラクティスをご確認ください。
+独自のセンターオブエクセレンスの設立について詳しくは、[Marketo コミュニティ &#x200B;](https://nation.marketo.com/t5/product-blogs/marketo-master-class-center-of-excellence-with-chelsea-kiko/ba-p/243221){target="_blank"}を参照して、ベストプラクティスをご確認ください。
 
 ### トークンを使用してコンテンツを入力する {#use-tokens-to-populate-content}
 

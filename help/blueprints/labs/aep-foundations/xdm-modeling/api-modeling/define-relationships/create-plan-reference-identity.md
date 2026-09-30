@@ -21,13 +21,13 @@ ht-degree: 0%
    >
    >リクエストを実行しないでください…まだ
 
-   ![ ステップ 3 - プラン スキーマ API リクエストの参照記述子](assets/create-plan-reference-identity-step-3-descriptor-request.jpeg " ステップ 3 - プラン スキーマの参照記述子")
+   ![&#x200B; ステップ 3 - プラン スキーマ API リクエストの参照記述子](assets/create-plan-reference-identity-step-3-descriptor-request.jpeg " ステップ 3 - プラン スキーマの参照記述子")
 
 
 
 2. API呼び出しの本文で次のプロパティを更新します。
 
-- `xdm:sourceSchema` プロパティの値を、[ スキーマの作成](../build-schema/create-schema.md) ステップから保存した`Customer Account` スキーマの`$id`に更新します
+- `xdm:sourceSchema` プロパティの値を、[&#x200B; スキーマの作成](../build-schema/create-schema.md) ステップから保存した`Customer Account` スキーマの`$id`に更新します
 - `xdm:sourceProperty`の値を`Customer Account` スキーマの`planID` フィールドのパスに更新します
 
 >[!NOTE]

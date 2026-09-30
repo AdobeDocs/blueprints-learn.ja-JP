@@ -53,7 +53,7 @@ ht-degree: 0%
 1. 必要に応じて、左側のパネルの&#x200B;**コレクション**&#x200B;をクリックし、**プロファイルとジャーニーラボ** フォルダーを展開します。
 2. **Web イベントの作成** リクエストをクリックすると、環境変数が&#x200B;**red**&#x200B;であることがわかります
 
-   環境が選択されていないため、環境変数が赤で強調表示されている![Postman リクエスト ](assets/import-api-collection-environment-variables-shown-red.png "postman環境変数が赤で表示されていることを確認")
+   環境が選択されていないため、環境変数が赤で強調表示されている![Postman リクエスト &#x200B;](assets/import-api-collection-environment-variables-shown-red.png "postman環境変数が赤で表示されていることを確認")
 
 3. 右上隅の&#x200B;**環境ドロップダウン**&#x200B;をクリックし、**AJO Bootcamp**&#x200B;環境を選択します。
 

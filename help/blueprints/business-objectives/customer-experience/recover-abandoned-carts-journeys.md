@@ -35,5 +35,5 @@ ht-degree: 8%
 
 | パターン | カテゴリ | この目標をどのようにサポートしているか |
 | --- | --- | --- |
-| [ イベントトリガーメッセージ ](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md) | キャンペーン管理とオーケストレーション | カートやジャーニーの放棄イベントをリアルタイムで検出し、トリガーのリカバリーメッセージを送信 |
-| [ 複数ステップの調整されたジャーニー](/help/blueprints/use-case-patterns/campaign-management-orchestration/multi-step-orchestrated-journey.md) | キャンペーン管理とオーケストレーション | インセンティブとチャネルのフォールバックを高めながら、マルチステップのリカバリージャーニーを編成 |
+| [&#x200B; イベントトリガーメッセージ &#x200B;](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md) | キャンペーン管理とオーケストレーション | カートやジャーニーの放棄イベントをリアルタイムで検出し、トリガーのリカバリーメッセージを送信 |
+| [&#x200B; 複数ステップの調整されたジャーニー](/help/blueprints/use-case-patterns/campaign-management-orchestration/multi-step-orchestrated-journey.md) | キャンペーン管理とオーケストレーション | インセンティブとチャネルのフォールバックを高めながら、マルチステップのリカバリージャーニーを編成 |

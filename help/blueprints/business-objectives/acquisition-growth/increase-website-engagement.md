@@ -35,7 +35,7 @@ ht-degree: 10%
 
 | パターン | カテゴリ | この目標をどのようにサポートしているか |
 | --- | --- | --- |
-| [ 匿名訪問者の Web Personalization](/help/blueprints/use-case-patterns/personalization/anonymous-visitor-web-personalization.md) | パーソナライズ機能 | セッション中の行動にもとづいて、未特定の訪問者にパーソナライズされたweb コンテンツを提供し、エンゲージメントを向上させたい |
-| [ 既知の訪問者の Web/アプリPersonalization](/help/blueprints/use-case-patterns/personalization/known-visitor-web-app-personalization.md) | パーソナライズ機能 | プロファイルデータを完全に活用して、認証済みの訪問者に対してwebおよびアプリ体験をパーソナライズ |
-| [ 行動に関する推奨事項 ](/help/blueprints/use-case-patterns/personalization/behavioral-recommendation.md) | パーソナライズ機能 | 訪問者の関心を維持するためのAIを活用したコンテンツと商品レコメンデーションの提供 |
+| [&#x200B; 匿名訪問者の Web Personalization](/help/blueprints/use-case-patterns/personalization/anonymous-visitor-web-personalization.md) | パーソナライズ機能 | セッション中の行動にもとづいて、未特定の訪問者にパーソナライズされたweb コンテンツを提供し、エンゲージメントを向上させたい |
+| [&#x200B; 既知の訪問者の Web/アプリPersonalization](/help/blueprints/use-case-patterns/personalization/known-visitor-web-app-personalization.md) | パーソナライズ機能 | プロファイルデータを完全に活用して、認証済みの訪問者に対してwebおよびアプリ体験をパーソナライズ |
+| [&#x200B; 行動に関する推奨事項 &#x200B;](/help/blueprints/use-case-patterns/personalization/behavioral-recommendation.md) | パーソナライズ機能 | 訪問者の関心を維持するためのAIを活用したコンテンツと商品レコメンデーションの提供 |
 | [Brand Conciergeの会話体験](/help/blueprints/use-case-patterns/conversational-experience/brand-concierge-conversational-experience.md) | 会話体験 | コンテンツの発見を通じて訪問者をガイドする、AIを活用した会話体験を提供します |

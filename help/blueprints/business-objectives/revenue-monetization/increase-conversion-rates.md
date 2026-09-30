@@ -35,7 +35,7 @@ ht-degree: 9%
 
 | パターン | カテゴリ | この目標をどのようにサポートしているか |
 | --- | --- | --- |
-| [ 匿名訪問者の Web Personalization](/help/blueprints/use-case-patterns/personalization/anonymous-visitor-web-personalization.md) | パーソナライズ機能 | 未知の訪問者に対してweb エクスペリエンスをパーソナライズし、オンサイトのコンバージョンを向上 |
-| [ 既知の訪問者の Web/アプリPersonalization](/help/blueprints/use-case-patterns/personalization/known-visitor-web-app-personalization.md) | パーソナライズ機能 | プロファイルデータにもとづいて、既知の訪問者にパーソナライズされたコンテンツやオファーを提供し、コンバージョンを促進できます |
-| [ イベントトリガーメッセージ ](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md) | キャンペーン管理とオーケストレーション | 行動シグナルに応答してリアルタイムのコンテクストメッセージを送信し、意図した瞬間のコンバージョンを把握できます |
+| [&#x200B; 匿名訪問者の Web Personalization](/help/blueprints/use-case-patterns/personalization/anonymous-visitor-web-personalization.md) | パーソナライズ機能 | 未知の訪問者に対してweb エクスペリエンスをパーソナライズし、オンサイトのコンバージョンを向上 |
+| [&#x200B; 既知の訪問者の Web/アプリPersonalization](/help/blueprints/use-case-patterns/personalization/known-visitor-web-app-personalization.md) | パーソナライズ機能 | プロファイルデータにもとづいて、既知の訪問者にパーソナライズされたコンテンツやオファーを提供し、コンバージョンを促進できます |
+| [&#x200B; イベントトリガーメッセージ &#x200B;](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md) | キャンペーン管理とオーケストレーション | 行動シグナルに応答してリアルタイムのコンテクストメッセージを送信し、意図した瞬間のコンバージョンを把握できます |
 | [Brand Conciergeの会話体験](/help/blueprints/use-case-patterns/conversational-experience/brand-concierge-conversational-experience.md) | 会話体験 | AIを活用した会話を通じて訪問者を誘導し、摩擦を減らし、コンバージョンを加速させます |

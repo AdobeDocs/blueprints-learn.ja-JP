@@ -24,7 +24,7 @@ Azure Storage Explorerをまだダウンロードしていない場合は、こ�
 1. アプリケーションのインストール
 1. アプリケーションを初めて開いたときに、エンドユーザー使用許諾契約に同意します
 
-Azure Storage Explorerの![ エンドユーザーライセンス契約書画面](assets/overview-end-user-license-agreement-screen.png " エンドユーザーライセンス契約書画面")
+Azure Storage Explorerの![&#x200B; エンドユーザーライセンス契約書画面](assets/overview-end-user-license-agreement-screen.png " エンドユーザーライセンス契約書画面")
 
 
 ## Experience PlatformでのAzure Storage Explorerの設定
@@ -58,7 +58,7 @@ Azure Storage Explorerの![ エンドユーザーライセンス契約書画面]
    - 次に、**データランディングゾーン** カードを探します
    - データランディングゾーンカードをクリックし、右側のパネルで「**資格情報を表示**」をクリックします
 
-   ![Adobe Experience Platformの「資格情報を表示」オプションを使用したデータランディングゾーンのソースカード ](assets/overview-data-landing-zone-view-credentials.png "Adobe Experience PlatformのデータランディングゾーンのSource カードへのアクセス ")
+   ![Adobe Experience Platformの「資格情報を表示」オプションを使用したデータランディングゾーンのソースカード &#x200B;](assets/overview-data-landing-zone-view-credentials.png "Adobe Experience PlatformのデータランディングゾーンのSource カードへのアクセス ")
 
 
 

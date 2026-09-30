@@ -44,4 +44,4 @@ ht-degree: 0%
 
 顧客アカウントスキーマのプライマリ IDと非プライマリ IDの両方を作成します。 次のセクションの手順を実行した後、スキーマは次のようになります。
 
-![ プライマリ ID記述子と非プライマリ ID記述子を作成した後の顧客アカウントスキーマ ](assets/overview-schema-with-primary-and-non-primary-identities.png)
+![&#x200B; プライマリ ID記述子と非プライマリ ID記述子を作成した後の顧客アカウントスキーマ &#x200B;](assets/overview-schema-with-primary-and-non-primary-identities.png)

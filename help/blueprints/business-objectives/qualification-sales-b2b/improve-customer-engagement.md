@@ -35,7 +35,7 @@ ht-degree: 11%
 
 | パターン | カテゴリ | この目標をどのようにサポートしているか |
 | --- | --- | --- |
-| [ 既知の訪問者の Web/アプリPersonalization](/help/blueprints/use-case-patterns/personalization/known-visitor-web-app-personalization.md) | パーソナライズ機能 | 認証された訪問者に対して、パーソナライズされたweb体験とアプリ体験を提供し、エンゲージメントを強化 |
-| [ バッチ送信メッセージの有効化 ](/help/blueprints/use-case-patterns/campaign-management-orchestration/batch-outbound-message-activation.md) | キャンペーン管理とオーケストレーション | 電子メール、SMS、プッシュチャネルをまたいでターゲットを絞ったバッチキャンペーンにより、エンゲージメントを促進 |
-| [ 複数ステップの調整されたジャーニー](/help/blueprints/use-case-patterns/campaign-management-orchestration/multi-step-orchestrated-journey.md) | キャンペーン管理とオーケストレーション | パーソナライズされたコンテンツとタイミングで、マルチタッチエンゲージメントジャーニーを通じて顧客を誘導します |
+| [&#x200B; 既知の訪問者の Web/アプリPersonalization](/help/blueprints/use-case-patterns/personalization/known-visitor-web-app-personalization.md) | パーソナライズ機能 | 認証された訪問者に対して、パーソナライズされたweb体験とアプリ体験を提供し、エンゲージメントを強化 |
+| [&#x200B; バッチ送信メッセージの有効化 &#x200B;](/help/blueprints/use-case-patterns/campaign-management-orchestration/batch-outbound-message-activation.md) | キャンペーン管理とオーケストレーション | 電子メール、SMS、プッシュチャネルをまたいでターゲットを絞ったバッチキャンペーンにより、エンゲージメントを促進 |
+| [&#x200B; 複数ステップの調整されたジャーニー](/help/blueprints/use-case-patterns/campaign-management-orchestration/multi-step-orchestrated-journey.md) | キャンペーン管理とオーケストレーション | パーソナライズされたコンテンツとタイミングで、マルチタッチエンゲージメントジャーニーを通じて顧客を誘導します |
 | [Brand Conciergeの会話体験](/help/blueprints/use-case-patterns/conversational-experience/brand-concierge-conversational-experience.md) | 会話体験 | AIを活用した対話型インタラクションで、エンゲージメントの深さを向上 |

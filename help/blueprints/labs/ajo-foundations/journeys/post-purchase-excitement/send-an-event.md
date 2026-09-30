@@ -55,7 +55,7 @@ API リクエストを作成するには、API リクエストの本文に次の
 >
 >行の空のスペースをクリックします。  青いリンクをクリックしないでください。
 
-右側のパネルに表示される![ データフローID値](assets/send-an-event-dataflow-id-in-right-rail.png "Web データフローとデータセット ID")
+右側のパネルに表示される![&#x200B; データフローID値](assets/send-an-event-dataflow-id-in-right-rail.png "Web データフローとデータセット ID")
 
 
 
@@ -68,7 +68,7 @@ API リクエストを作成するには、API リクエストの本文に次の
 - **フォルダー** —> `Profile & Journey Labs`
 - **API リクエスト** —> `Ship Order Event`
 
-![Postman コレクションにあるShip Order Event リクエスト ](assets/send-an-event-open-ship-order-event-postman.png)
+![Postman コレクションにあるShip Order Event リクエスト &#x200B;](assets/send-an-event-open-ship-order-event-postman.png)
 
 
 
@@ -84,7 +84,7 @@ API リクエストを作成するには、API リクエストの本文に次の
 >
 >まだ実行しないでください。
 
-![ ストリーミングエンドポイント URLとデータフローIDをPostman ヘッダーに貼り付けました](assets/send-an-event-paste-headers-in-postman.png)
+![&#x200B; ストリーミングエンドポイント URLとデータフローIDをPostman ヘッダーに貼り付けました](assets/send-an-event-paste-headers-in-postman.png)
 
 ## APIの実行
 

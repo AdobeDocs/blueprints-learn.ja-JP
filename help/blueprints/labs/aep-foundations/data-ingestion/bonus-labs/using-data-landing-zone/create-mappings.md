@@ -17,4 +17,4 @@ ht-degree: 0%
 
 前のラボで行った処理を使用して、ファイルを正常にマッピングする方法を確認できます。
 
-![ データランディングゾーンのソースファイルのデータフローマッピング画面の例](assets/create-mappings-ai-ml-based-contextual-recommendations.png)
+![&#x200B; データランディングゾーンのソースファイルのデータフローマッピング画面の例](assets/create-mappings-ai-ml-based-contextual-recommendations.png)

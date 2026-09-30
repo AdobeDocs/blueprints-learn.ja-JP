@@ -21,20 +21,20 @@ ht-degree: 0%
 1. **顧客アカウント** スキーマを検索
 1. IDがスキーマに追加されます
 
-![ スキーマ閲覧ビューで、スキーマに追加されたIDが表示される](assets/view-schema-schema-ui-with-identities.png "IDを含むスキーマ UI ビュー")
+![&#x200B; スキーマ閲覧ビューで、スキーマに追加されたIDが表示される](assets/view-schema-schema-ui-with-identities.png "IDを含むスキーマ UI ビュー")
 
 
 ## API経由で表示
 
 1. `Step 3 - Get Customer Account Schema and its descriptors` APIをクリックして選択します。
 
-   ![手順3 – 記述子を含む顧客アカウントスキーマの取得API リクエスト ](assets/view-schema-step-3-get-customer-account-schema-w-descriptors.png "手順3 – 記述子を含む顧客アカウントスキーマの取得")
+   ![手順3 – 記述子を含む顧客アカウントスキーマの取得API リクエスト &#x200B;](assets/view-schema-step-3-get-customer-account-schema-w-descriptors.png "手順3 – 記述子を含む顧客アカウントスキーマの取得")
 
 
 
 1. リクエストのURLで、`<replace me>`を前のセクションから保存した`$meta:altId`に置き換えます（スキーマを作成します）。次に示すように、呼び出しの最後まで
 
-   ![altIdがURLに追加された最終ステップ 5 リクエスト ](assets/view-schema-final-step-5-request.png "最終ステップ 5 リクエスト ")
+   ![altIdがURLに追加された最終ステップ 5 リクエスト &#x200B;](assets/view-schema-final-step-5-request.png "最終ステップ 5 リクエスト ")
 
 
 
@@ -44,7 +44,7 @@ ht-degree: 0%
 
 これで`200 OK`応答が表示され、XDM JSON構造のレンズを通じて作成したスキーマを参照できるようになります
 
-![ スキーマのXDM JSON構造を示すAPI応答の本文](assets/view-schema-body-of-the-api-response.png "API応答の本文")
+![&#x200B; スキーマのXDM JSON構造を示すAPI応答の本文](assets/view-schema-body-of-the-api-response.png "API応答の本文")
 
 
 

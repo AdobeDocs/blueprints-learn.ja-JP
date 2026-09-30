@@ -23,7 +23,7 @@ DEP CLIは、Adobe Developer Console プロジェクトのOAuth サーバー間�
 
 >[!NOTE]
 >
->Adobe Experience Platformの資格情報（および必要に応じてAdobe Journey Optimizer）を含むDeveloper Console プロジェクトが既にある場合は、このセクションをスキップして、[ デプロイメント手順](deployment-instructions.md)に進みます。
+>Adobe Experience Platformの資格情報（および必要に応じてAdobe Journey Optimizer）を含むDeveloper Console プロジェクトが既にある場合は、このセクションをスキップして、[&#x200B; デプロイメント手順](deployment-instructions.md)に進みます。
 
 ## 前提条件
 

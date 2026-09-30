@@ -23,7 +23,7 @@ ht-degree: 0%
 
 1. 「**属性**」タブと「**Edge**」ラジオボタンをクリックすると、Edge プロファイルが表示されます
 
-   ![属性タブに表示されるEdge プロファイル ](assets/validate-profile-on-edge-attributes-tab.png)
+   ![属性タブに表示されるEdge プロファイル &#x200B;](assets/validate-profile-on-edge-attributes-tab.png)
 
    >[!NOTE]
    >
@@ -33,7 +33,7 @@ ht-degree: 0%
 
 2. 「Audience Membership」タブをクリックします。  **blank**&#x200B;になります。
 
-Edge プロファイルの「![空のオーディエンスメンバーシップ」タブ ](assets/validate-profile-on-edge-empty-audience-membership-tab.png)
+Edge プロファイルの「![空のオーディエンスメンバーシップ」タブ &#x200B;](assets/validate-profile-on-edge-empty-audience-membership-tab.png)
 
 >[!NOTE]
 >

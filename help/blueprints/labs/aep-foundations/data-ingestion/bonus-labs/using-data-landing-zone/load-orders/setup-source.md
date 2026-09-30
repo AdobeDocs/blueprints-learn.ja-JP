@@ -19,21 +19,21 @@ ht-degree: 0%
 
 ラボで使用できるように、Azure Storage Explorerを介してサンプルデータファイルをデータランディングゾーンにアップロードする必要があります。  これを行うには、次の操作を行います。
 
-1. [ サンプルファイル ](../../../sample-files.md)をダウンロード
+1. [&#x200B; サンプルファイル &#x200B;](../../../sample-files.md)をダウンロード
 1. **Lab\_Historical\_Orders.json** ファイルをドラッグ&amp;ドロップするか、上から保存したデータランディングゾーンにアップロードします。
 
 
 
 アップロードすると、画面は以下のスクリーンショットのようになります。
 
-データランディングゾーンにアップロードされた![Lab_Historical_Orders.json ファイル ](assets/setup-source-lab-historical-orders-json-uploaded-to-dlz.png "DLZ")にアップロードされたLab_Historical_Orders.json
+データランディングゾーンにアップロードされた![Lab_Historical_Orders.json ファイル &#x200B;](assets/setup-source-lab-historical-orders-json-uploaded-to-dlz.png "DLZ")にアップロードされたLab_Historical_Orders.json
 
 ## ソースに移動
 
 1. Adobe Experience Platformに移動し、**ソース** -> **カタログ** -> **クラウドストレージ**&#x200B;に移動します。
 1. データランディングゾーンの&#x200B;**設定** / **データを追加**&#x200B;をクリックします
 
-![ ソース/カタログ/クラウドストレージに移動してデータランディングゾーンを設定する](assets/setup-source-navigate-to-data-landing-zone-source.png " ソース – データランディングゾーン ")
+![&#x200B; ソース/カタログ/クラウドストレージに移動してデータランディングゾーンを設定する](assets/setup-source-navigate-to-data-landing-zone-source.png " ソース – データランディングゾーン ")
 
 >[!NOTE]
 >

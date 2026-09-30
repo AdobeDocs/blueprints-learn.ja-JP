@@ -45,13 +45,13 @@ AEP Foundations ラボパックは、ラボ全体で使用するスキーマ、�
 
 ## &#x200B;1. CLIのインストール
 
-1. [dep-cli リポジトリ ](https://github.com/adobe/dep-cli)を複製またはダウンロードします
+1. [dep-cli リポジトリ &#x200B;](https://github.com/adobe/dep-cli)を複製またはダウンロードします
 1. `dep-cli` ディレクトリから、`npm install`を実行します
 1. `npm start`でCLIを開始
 
 >[!NOTE]
 >
->上記のコマンドを実行する前に、Node.jsが必要です。 まだNode.jsがインストールされていない場合は、最初にwikiの[Node.js Setup](https://github.com/adobe/dep-cli/wiki/Nodejs-Setup) ページを参照してください。 スクリーンショットや既存のインストールの更新方法など、完全なインストールの詳細については、[ インストール ](https://github.com/adobe/dep-cli/wiki/Installation)wiki ページを参照してください
+>上記のコマンドを実行する前に、Node.jsが必要です。 まだNode.jsがインストールされていない場合は、最初にwikiの[Node.js Setup](https://github.com/adobe/dep-cli/wiki/Nodejs-Setup) ページを参照してください。 スクリーンショットや既存のインストールの更新方法など、完全なインストールの詳細については、[&#x200B; インストール &#x200B;](https://github.com/adobe/dep-cli/wiki/Installation)wiki ページを参照してください
 
 ## &#x200B;2. 環境ファイルの設定
 

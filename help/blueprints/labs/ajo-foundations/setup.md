@@ -46,7 +46,7 @@ AJO Foundations ラボを開始する前に、以下の設定手順を完了し�
 
 ### デリゲートされたサブドメイン
 
-[ メールチャネルの設定](data-stores/configure-email-channels/overview.md) ラボ – およびそれに依存するすべて（[実際のメッセージ配信](orchestrated-campaigns/message-delivery-in-action/overview.md)、[購入後の興奮](journeys/post-purchase-excitement/overview.md)、[AJO Brands](content-authoring-with-ai/overview.md)）では、メールを送信するためにAdobeにデリゲートされたサブドメインが必要です。 ドメインがまだ存在しない場合は、任意のドメインレジストラー（Namecheapなど）に登録します。 次に、そのサブドメイン（例：`email.yourdomain.com`）をAdobeにデリゲートするには、Adobeの[ サブドメインデリゲートの手順](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/configuration/delegate-subdomains/delegate-subdomain)に従います。
+[&#x200B; メールチャネルの設定](data-stores/configure-email-channels/overview.md) ラボ – およびそれに依存するすべて（[実際のメッセージ配信](orchestrated-campaigns/message-delivery-in-action/overview.md)、[購入後の興奮](journeys/post-purchase-excitement/overview.md)、[AJO Brands](content-authoring-with-ai/overview.md)）では、メールを送信するためにAdobeにデリゲートされたサブドメインが必要です。 ドメインがまだ存在しない場合は、任意のドメインレジストラー（Namecheapなど）に登録します。 次に、そのサブドメイン（例：`email.yourdomain.com`）をAdobeにデリゲートするには、Adobeの[&#x200B; サブドメインデリゲートの手順](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/configuration/delegate-subdomains/delegate-subdomain)に従います。
 
 >[!NOTE]
 >
@@ -54,4 +54,4 @@ AJO Foundations ラボを開始する前に、以下の設定手順を完了し�
 
 ### SMS 資格情報
 
-[Flagship phone launch](orchestrated-campaigns/flagship-phone-launch/overview.md) ラボは、Twilioを通じてSMS チャネルを設定します。 メッセージは送信されませんが、設定を完了するには作業用の資格情報が必要です。 最も簡単なオプションは、無料の[Twilio体験版アカウント ](https://www.twilio.com/try-twilio)です。アカウント SIDと認証トークンを登録して見つける方法については、Twilioの[入門ガイド ](https://www.twilio.com/docs/usage/tutorials/how-to-use-your-free-trial-account)を参照してください。
+[Flagship phone launch](orchestrated-campaigns/flagship-phone-launch/overview.md) ラボは、Twilioを通じてSMS チャネルを設定します。 メッセージは送信されませんが、設定を完了するには作業用の資格情報が必要です。 最も簡単なオプションは、無料の[Twilio体験版アカウント &#x200B;](https://www.twilio.com/try-twilio)です。アカウント SIDと認証トークンを登録して見つける方法については、Twilioの[入門ガイド &#x200B;](https://www.twilio.com/docs/usage/tutorials/how-to-use-your-free-trial-account)を参照してください。

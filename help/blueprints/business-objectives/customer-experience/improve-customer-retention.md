@@ -35,6 +35,6 @@ ht-degree: 10%
 
 | パターン | カテゴリ | この目標をどのようにサポートしているか |
 | --- | --- | --- |
-| [ 複数ステップの調整されたジャーニー](/help/blueprints/use-case-patterns/campaign-management-orchestration/multi-step-orchestrated-journey.md) | キャンペーン管理とオーケストレーション | パーソナライズされた介入により、マルチタッチのリテンションジャーニーを通じて、リスクのある顧客を誘導 |
+| [&#x200B; 複数ステップの調整されたジャーニー](/help/blueprints/use-case-patterns/campaign-management-orchestration/multi-step-orchestrated-journey.md) | キャンペーン管理とオーケストレーション | パーソナライズされた介入により、マルチタッチのリテンションジャーニーを通じて、リスクのある顧客を誘導 |
 | [Decisioning を使用したクロスチャネルジャーニー](/help/blueprints/use-case-patterns/campaign-management-orchestration/cross-channel-journey-with-decisioning.md) | キャンペーン管理とオーケストレーション | リアルタイムの意思決定によりリテンションジャーニーを調整し、最適なリエンゲージメントコンテンツとチャネルを選択 |
 | [Offer Decisioning](/help/blueprints/use-case-patterns/personalization/offer-decisioning.md) | パーソナライズ機能 | 顧客価値と解約リスクにもとづいて、リテンションに重点を置いたオファーとインセンティブを提示 |

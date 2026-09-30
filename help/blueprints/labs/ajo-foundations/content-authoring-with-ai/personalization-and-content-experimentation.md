@@ -47,11 +47,11 @@ Adobe Journey OptimizerのPersonalizationなら、個々のプロファイル、
 2. ヒーロータイトルの上にテキストブロックを追加します。コンテンツ：**こんにちは、**
 3. 「**パーソナライゼーション**」アイコンをクリックします。
 
-   ![ メールテキストツールバーのパーソナライゼーションアイコン ](assets/personalization-and-content-experimentation-click-personalization-icon.png)
+   ![&#x200B; メールテキストツールバーのパーソナライゼーションアイコン &#x200B;](assets/personalization-and-content-experimentation-click-personalization-icon.png)
 
-4. **F****first Name**を検索します。
+4. **F**&#x200B;**first Name**&#x200B;を検索します。
 
-   ![ パーソナライゼーションパネルでFirst Name属性を検索しています](assets/personalization-and-content-experimentation-search-first-name-field.png)
+   ![&#x200B; パーソナライゼーションパネルでFirst Name属性を検索しています](assets/personalization-and-content-experimentation-search-first-name-field.png)
 
 5. **+**&#x200B;をクリックして、エクスプレッション領域に追加します。
 6. **名** フィールドの後に&#x200B;**スペース**&#x200B;を追加します。
@@ -98,7 +98,7 @@ Adobe Journey Optimizerの動的コンテンツを利用すれば、オーディ
 
 前のモジュールで作成したブロックを覚えていますか？ 君のイメージは僕のとは違う。
 
-前のモジュールで作成された![画像ブロック ](assets/personalization-and-content-experimentation-existing-image-block.png)
+前のモジュールで作成された![画像ブロック &#x200B;](assets/personalization-and-content-experimentation-existing-image-block.png)
 
 40歳未満の人に対して別の画像を作成し（40代半ばの人のFirefly画像を作成したことを覚えておいてください）、この演習に使用します。
 
@@ -140,7 +140,7 @@ Adobe Journey Optimizerの動的コンテンツを利用すれば、オーディ
 1. 40 **より上の**&#x200B;年齢のバリエーションを選択してマウスポインターを置きます。
 2. **条件付きロジック** アイコンをクリックします。
 
-   ![40以上のバリアントの条件付きロジックのアイコン ](assets/personalization-and-content-experimentation-click-conditional-logic-icon.png)
+   ![40以上のバリアントの条件付きロジックのアイコン &#x200B;](assets/personalization-and-content-experimentation-click-conditional-logic-icon.png)
 
 3. 新規条件を作成します。
 
@@ -166,7 +166,7 @@ Adobe Journey Optimizerの動的コンテンツを利用すれば、オーディ
 2. 手順を繰り返しますが、ロジックを次のように変更します。
    - **birthYear >= 1986**
 
-   ![条件がbirthYearに変更されました（1986年以降） ](assets/personalization-and-content-experimentation-condition-birthyear-greater-1986.png)
+   ![条件がbirthYearに変更されました（1986年以降） &#x200B;](assets/personalization-and-content-experimentation-condition-birthyear-greater-1986.png)
 
 3. 条件に名前を付けます：**年齢が40**&#x200B;未満
 4. 説明を追加します。 40 **未満のユーザーの「**&#x200B;画像のバリアント」
@@ -195,7 +195,7 @@ Adobe Journey Optimizerの動的コンテンツを利用すれば、オーディ
 
 「**保存**」ボタンをクリックして、電子メールを保存します。
 
-![両方のバリエーションを含む電子メールを保存する保存ボタン ](assets/personalization-and-content-experimentation-click-save-button-email.png)
+![両方のバリエーションを含む電子メールを保存する保存ボタン &#x200B;](assets/personalization-and-content-experimentation-click-save-button-email.png)
 
 
 ## まとめ
