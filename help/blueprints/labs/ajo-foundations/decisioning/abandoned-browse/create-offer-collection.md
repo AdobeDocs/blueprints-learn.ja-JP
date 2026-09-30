@@ -4,13 +4,14 @@ description: 関連するオファー項目を、属性ベースのルールを�
 doc-type: article
 solution: Experience Platform
 exl-id: 0a54f4dc-2112-474a-8383-9dd1497c3c74
-source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
+source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
 workflow-type: tm+mt
 source-wordcount: '512'
 ht-degree: 0%
-
 ---
-
 
 # オファーコレクションを作成
 
@@ -23,13 +24,13 @@ ht-degree: 0%
 1. 必要に応じて、左側のパネルで「**Decisioning**」を展開し、「**カタログ**」をクリックします。 前のセクションで作成した4つのオファーが表示されます。
 2. オファー名の左側にある&#x200B;**コレクション**&#x200B;をクリックします
 
-   カタログページの「![&#x200B; コレクション」タブ &#x200B;](assets/create-offer-collection-collections-tab.png)
+   カタログページの「![ コレクション」タブ ](assets/create-offer-collection-collections-tab.png)
 
 3. 青い&#x200B;**コレクションを作成**&#x200B;をクリックして、新しいコレクションを作成します。
 4. コレクションに&#x200B;**iPhone 17 Collection**&#x200B;という名前を付けます
 5. 「コレクションのルール」セクションで、テキストが含まれているテキストボックスをクリックします&#x200B;**_クリックして決定項目を作成します_**。 クリックすると、ルールを作成するためのオプションが表示されます。
 
-   決定項目の作成用に![&#x200B; コレクション ルール テキスト ボックスを開きます](assets/create-offer-collection-create-decision-item.png)
+   決定項目の作成用に![ コレクション ルール テキスト ボックスを開きます](assets/create-offer-collection-create-decision-item.png)
 
 6. **属性を選択** ボタンをクリックし、**デバイス/Make**&#x200B;をクリックしてオファー項目スキーマ内を移動します。 **保存、**&#x200B;をクリックすると、「Make」属性が決定ルールに追加されます。
 
@@ -41,7 +42,7 @@ ht-degree: 0%
 
 7. 「次と等しい」演算子を配置したままにして、「値」フィールドにテキスト **iPhone**&#x200B;を入力すると、項目の数が4に変わり、すべてのオファー項目がその条件を満たしていることが示されます
 
-   iPhone条件に一致する4つのオファーアイテムを示す![&#x200B; コレクション規則](assets/create-offer-collection-four-matching-offers.png)
+   iPhone条件に一致する4つのオファーアイテムを示す![ コレクション規則](assets/create-offer-collection-four-matching-offers.png)
 
    >[!NOTE]
    >
@@ -49,7 +50,7 @@ ht-degree: 0%
 
 8. 4つのオファーアイテムをすべて選択した状態で、青い&#x200B;**作成** ボタンをクリックします。 これにより、新しく作成したコレクションを表示するページに移動します。
 
-![新しく作成されたiPhone 17 コレクションのページ &#x200B;](assets/create-offer-collection-created-collection-page.png)
+![新しく作成されたiPhone 17 コレクションのページ ](assets/create-offer-collection-created-collection-page.png)
 
 >[!NOTE]
 >

@@ -4,7 +4,10 @@ description: サードパーティ APIによる動的なトラッキングの詳
 doc-type: overview-page
 solution: Experience Platform
 exl-id: 570dc378-e7a3-4895-8f14-89d420b6b340
-source-git-commit: df6c1852a6e0357dc9f166c88e77dcf9d334f955
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
+source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
 workflow-type: tm+mt
 source-wordcount: '326'
 ht-degree: 0%
@@ -18,16 +21,16 @@ ht-degree: 0%
 >
 >以下のラボは、このラボを開始する前に完了している必要があります
 
-- **Postman setup** **—>** [Postman インストール &#x200B;](../../postman-setup/postman-installation.md)
+- **Postman setup** **—>** [Postman インストール ](../../postman-setup/postman-installation.md)
 - **Data Stores — リレーショナルストアの動作** **—>** [Profile Target Dimension](../../data-stores/relational-store-in-action/profile-target-dimension.md)
-- **データストア – メールチャネルの設定 – >** [&#x200B; プロファイルの設定](../../data-stores/configure-email-channels/configure-for-profile.md)
+- **データストア – メールチャネルの設定 – >** [ プロファイルの設定](../../data-stores/configure-email-channels/configure-for-profile.md)
   *（この手順を完了するのに最大3時間かかります）*
 
 まだ完了していない場合は、次の操作を行ってください
 
 >[!CAUTION]
 >
->このラボでは、サンドボックスでAdobeにデリゲートされたサブドメインが必要です。 自分のペースで進めている場合は、[&#x200B; セットアップ &#x200B;](../../setup.md)を参照してください。
+>このラボでは、サンドボックスでAdobeにデリゲートされたサブドメインが必要です。 自分のペースで進めている場合は、[ セットアップ ](../../setup.md)を参照してください。
 
 ## ラボの概要
 

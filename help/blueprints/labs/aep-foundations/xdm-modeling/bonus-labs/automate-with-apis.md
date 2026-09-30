@@ -4,7 +4,10 @@ description: スキーマ、フィールドグループ、IDおよびリレー�
 doc-type: article
 solution: Experience Platform
 exl-id: a490f93f-19da-4de3-81c8-4569c49c5354
-source-git-commit: df6c1852a6e0357dc9f166c88e77dcf9d334f955
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
+source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
 workflow-type: tm+mt
 source-wordcount: '303'
 ht-degree: 0%
@@ -38,7 +41,7 @@ APIを使用してデプロイメントを自動化する方法を確認する�
    >
    >「実行」ボタンは、Postman ワークスペースの右上にあります
 
-   ![Automation with API フォルダーのPostman ワークスペースの右上にある「実行」ボタン &#x200B;](assets/automate-with-apis-click-folder-run-button.png " フォルダー「実行」をクリック ")
+   ![Automation with API フォルダーのPostman ワークスペースの右上にある「実行」ボタン ](assets/automate-with-apis-click-folder-run-button.png " フォルダー「実行」をクリック ")
 
 
 

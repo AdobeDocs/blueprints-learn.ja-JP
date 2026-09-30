@@ -4,7 +4,10 @@ description: オーケストレーションされたキャンペーンをテス�
 doc-type: article
 solution: Experience Platform
 exl-id: e77ae8ab-f18f-4683-8fdd-ba4f4629d96c
-source-git-commit: df6c1852a6e0357dc9f166c88e77dcf9d334f955
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
+source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
 workflow-type: tm+mt
 source-wordcount: '660'
 ht-degree: 0%
@@ -38,15 +41,15 @@ ht-degree: 0%
 
 1. メール配信をテストするには、「**プロファイル属性を使用したメール**」アクティビティをクリックし、右側のペインで「**テストを実行**」をクリックします
 
-   ![&#x200B; プロファイル属性アクティビティを使用してメールのテストを実行](assets/test-the-campaign-run-test-profile-attribute.png)
+   ![ プロファイル属性アクティビティを使用してメールのテストを実行](assets/test-the-campaign-run-test-profile-attribute.png)
 
 2. 確認メッセージを待ってから、**レポートを表示**&#x200B;をクリックして、電子メールテストの詳細を確認します
 
-   ![&#x200B; レポートを表示をクリックして、電子メールテストの詳細を表示します](assets/test-the-campaign-view-report-1.png)
+   ![ レポートを表示をクリックして、電子メールテストの詳細を表示します](assets/test-the-campaign-view-report-1.png)
 
 3. メールレポートページには、キャンペーン統計と実行ステータスが表示されます。 電子メールテストは、エラーがないことを確認するためのアクティビティの検証であり、電子メールを送信しません。 通常、\～**5**&#x200B;分で完了します。
 
-   ![&#x200B; キャンペーン統計を含むメールレポートページ &#x200B;](assets/test-the-campaign-campaign-statistics-1.png)
+   ![ キャンペーン統計を含むメールレポートページ ](assets/test-the-campaign-campaign-statistics-1.png)
 
    >[!NOTE]
    >
@@ -80,11 +83,11 @@ ht-degree: 0%
 
 2. 確認メッセージを待ってから、**レポートを表示**&#x200B;をクリックして、電子メールテストの詳細を確認します
 
-   ![&#x200B; レポートを表示をクリックして、電子メールテストの詳細を表示します](assets/test-the-campaign-view-report-2.png)
+   ![ レポートを表示をクリックして、電子メールテストの詳細を表示します](assets/test-the-campaign-view-report-2.png)
 
 3. 電子メールテストが完了すると、結果が表示されます。 この場合、エラーはありません
 
-エラーのない![&#x200B; キャンペーン統計](assets/test-the-campaign-campaign-statistics-2.png)
+エラーのない![ キャンペーン統計](assets/test-the-campaign-campaign-statistics-2.png)
 
 >[!NOTE]
 >
@@ -108,4 +111,4 @@ ht-degree: 0%
 
 これで、作成したキャンペーンをテストして、フローと動作を把握する方法を確認しました。 ここでは、テストフローの実行中に、メールチャネル設定のさまざまな設定を使用する仕組みがよく理解されていました。
 
-ご興味のある方は、キャンペーンテストモード [こちら](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/campaigns/orchestrated-campaigns/launch/start-monitor-campaigns)の詳細をご覧ください。
+ご興味のある方は、キャンペーンテストモード [こちら](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/campaigns/orchestrated-campaigns/launch/start-monitor-campaigns)の詳細をご覧ください。

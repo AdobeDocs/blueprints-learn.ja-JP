@@ -4,13 +4,14 @@ description: 注文出荷イベントがプロファイルに取り込まれた�
 doc-type: article
 solution: Experience Platform
 exl-id: c04397dd-8b5c-48a8-82b5-78188b8374f1
-source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
+source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
 workflow-type: tm+mt
 source-wordcount: '274'
 ht-degree: 0%
-
 ---
-
 
 # 取り込まれたイベントを検証
 
@@ -25,7 +26,7 @@ ht-degree: 0%
    - **ID値** -> `henry.creel@emailsim.io`
 2. 「**イベント**」タブをクリックします。 `orders.shipped` イベントを探します。
 
-   プロファイルの「イベント」タブに表示される![orders.shipped イベント &#x200B;](assets/validate-event-ingested-orders-shipped-event.png)
+   プロファイルの「イベント」タブに表示される![orders.shipped イベント ](assets/validate-event-ingested-orders-shipped-event.png)
 
    >[!WARNING]
    >
@@ -42,7 +43,7 @@ ht-degree: 0%
    - Any Event Edge（15分以内）
    - 任意のイベントストリーミング（15分以内）
 
-![任意のイベント Edgeおよび任意のイベントストリーミングオーディエンスに適格なプロファイル &#x200B;](assets/validate-event-ingested-profile-qualified-audiences.png)
+![任意のイベント Edgeおよび任意のイベントストリーミングオーディエンスに適格なプロファイル ](assets/validate-event-ingested-profile-qualified-audiences.png)
 
 
 

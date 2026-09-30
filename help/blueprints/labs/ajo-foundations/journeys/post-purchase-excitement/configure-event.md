@@ -4,13 +4,14 @@ description: ジャーニーのエントリトリガーとして機能するよ�
 doc-type: article
 solution: Experience Platform
 exl-id: 4d1c1d4d-0dc6-4ea1-aa3c-f959bb3b9aa8
-source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
+source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
 workflow-type: tm+mt
 source-wordcount: '574'
 ht-degree: 0%
-
 ---
-
 
 # イベントの設定
 
@@ -36,7 +37,7 @@ ht-degree: 0%
 
 2. 右上の「**イベントを作成**」ボタンをクリックします
 
-   ![右上の「イベントを作成」ボタン &#x200B;](assets/configure-event-click-create-event-button.png)
+   ![右上の「イベントを作成」ボタン ](assets/configure-event-click-create-event-button.png)
 
 3. イベントの設定を次のように更新します。
    - **名前** = `orderShipped`
@@ -44,17 +45,17 @@ ht-degree: 0%
    - **イベント ID タイプ** = `Rule based`
    - **スキーマ** = `dep: Orders v.1`
 
-   ![orderShipped イベントが単一タイプとdepで設定されました：受注v.1 スキーマ &#x200B;](assets/configure-event-set-name-type-schema.png)
+   ![orderShipped イベントが単一タイプとdepで設定されました：受注v.1 スキーマ ](assets/configure-event-set-name-type-schema.png)
 
 4. `Fields`入力ボックスで、**鉛筆アイコン**&#x200B;をクリックします
 
-   フィールド入力ボックスの![鉛筆アイコン &#x200B;](assets/configure-event-click-fields-pencil-icon.png)
+   フィールド入力ボックスの![鉛筆アイコン ](assets/configure-event-click-fields-pencil-icon.png)
 
 5. 次のフィールドを選択してイベントに追加し、完了したら&#x200B;**OK** ボタンをクリックします
    - `Event Type (eventType)`
    - `Order ID (orderID)`
 
-   ![&#x200B; イベントに追加するイベントタイプおよび注文ID フィールドが選択されました](assets/configure-event-select-eventtype-orderid-fields.png)
+   ![ イベントに追加するイベントタイプおよび注文ID フィールドが選択されました](assets/configure-event-select-eventtype-orderid-fields.png)
 
    >[!NOTE]
    >
@@ -64,11 +65,11 @@ ht-degree: 0%
 
 6. `Event Id condition input`で、**鉛筆アイコン**&#x200B;をクリックします
 
-   イベント ID条件入力![&#128279;](assets/configure-event-click-event-id-condition-pencil.png)の鉛筆アイコン
+   イベント ID条件入力](assets/configure-event-click-event-id-condition-pencil.png)の![鉛筆アイコン
 
-7. **&#x200B;**&#x200B;`Event Type` フィールドをキャンバスにドラッグします
+7. **** `Event Type` フィールドをキャンバスにドラッグします
 
-   ![&#x200B; イベントタイプフィールドを条件キャンバスにドラッグします](assets/configure-event-drag-event-type-field-onto-canvas.png)
+   ![ イベントタイプフィールドを条件キャンバスにドラッグします](assets/configure-event-drag-event-type-field-onto-canvas.png)
 
 8. 表示される選択ボックスで、**orders.shipped.**&#x200B;というタイトルの値を探して確認します 次に、**OK** ボタンをクリックします。
 

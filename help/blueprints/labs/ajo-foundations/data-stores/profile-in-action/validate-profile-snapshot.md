@@ -4,13 +4,14 @@ description: プロファイルスナップショットデータセットをク�
 doc-type: article
 solution: Experience Platform
 exl-id: 1e7befcf-d952-47a2-86d9-33ef71eec57a
-source-git-commit: 0b33b2740ee7f5af73d64f217b4475650c1d28a0
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
+source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
 workflow-type: tm+mt
 source-wordcount: '359'
 ht-degree: 0%
-
 ---
-
 
 # プロファイルスナップショットの検証
 
@@ -22,7 +23,7 @@ ht-degree: 0%
 
 1. データ管理セクションの左側のナビゲーションで「**データセット**」をクリックし、上部パネルにある「**参照」タブ**」をクリックします
 
-   データ管理セクションの「![&#x200B; データセットの参照」タブ &#x200B;](assets/validate-profile-snapshot-datasets-browse-tab.png)
+   データ管理セクションの「![ データセットの参照」タブ ](assets/validate-profile-snapshot-datasets-browse-tab.png)
 
 2. **検索ボックス**&#x200B;に「`profile`」と入力し、**タイトルが「Profile-Snapshot...」の行**&#x200B;をクリックします。右側のパネルに&#x200B;**テーブル名**&#x200B;をコピーして、次の手順で参照できる場所に貼り付けます。
 
@@ -32,7 +33,7 @@ ht-degree: 0%
 
 
 
-   ![&#x200B; プロファイルとスナップショットのデータセットの検索結果](assets/validate-profile-snapshot-dataset-search.png)
+   ![ プロファイルとスナップショットのデータセットの検索結果](assets/validate-profile-snapshot-dataset-search.png)
 
 3. クエリエディターに戻り、以下のSQLをエディターにコピー&amp;ペーストします
 
@@ -69,7 +70,7 @@ ht-degree: 0%
 5. 左上の矢印をクリックして、**クエリを実行**
 6. 結果は以下のとおりです（しかし、あなたがヘンリーを探しているなら、あなたは彼を見つけません）
 
-![&#x200B; スナップショット内のストリーミングプロファイルに一致しないクエリ結果](assets/validate-profile-snapshot-query-results-no-match.png)
+![ スナップショット内のストリーミングプロファイルに一致しないクエリ結果](assets/validate-profile-snapshot-query-results-no-match.png)
 
 >[!NOTE]
 >

@@ -4,7 +4,10 @@ description: SAS URLを使用してAzure Storage Explorerをインストール�
 doc-type: overview-page
 solution: Experience Platform
 exl-id: d61bef25-7039-450d-a8e7-01bb12e8df7c
-source-git-commit: df6c1852a6e0357dc9f166c88e77dcf9d334f955
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
+source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
 workflow-type: tm+mt
 source-wordcount: '410'
 ht-degree: 0%
@@ -21,7 +24,7 @@ Azure Storage Explorerをまだダウンロードしていない場合は、こ�
 1. アプリケーションのインストール
 1. アプリケーションを初めて開いたときに、エンドユーザー使用許諾契約に同意します
 
-Azure Storage Explorerの![&#x200B; エンドユーザーライセンス契約書画面](assets/overview-end-user-license-agreement-screen.png " エンドユーザーライセンス契約書画面")
+Azure Storage Explorerの![ エンドユーザーライセンス契約書画面](assets/overview-end-user-license-agreement-screen.png " エンドユーザーライセンス契約書画面")
 
 
 ## Experience PlatformでのAzure Storage Explorerの設定
@@ -55,7 +58,7 @@ Azure Storage Explorerの![&#x200B; エンドユーザーライセンス契約�
    - 次に、**データランディングゾーン** カードを探します
    - データランディングゾーンカードをクリックし、右側のパネルで「**資格情報を表示**」をクリックします
 
-   ![Adobe Experience Platformの「資格情報を表示」オプションを使用したデータランディングゾーンのソースカード &#x200B;](assets/overview-data-landing-zone-view-credentials.png "Adobe Experience PlatformのデータランディングゾーンのSource カードへのアクセス ")
+   ![Adobe Experience Platformの「資格情報を表示」オプションを使用したデータランディングゾーンのソースカード ](assets/overview-data-landing-zone-view-credentials.png "Adobe Experience PlatformのデータランディングゾーンのSource カードへのアクセス ")
 
 
 

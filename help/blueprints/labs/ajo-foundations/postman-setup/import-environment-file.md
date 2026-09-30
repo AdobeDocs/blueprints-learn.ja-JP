@@ -4,7 +4,10 @@ description: Postman環境ファイルを読み込み、bootcamp全体のAPI呼�
 doc-type: article
 solution: Experience Platform
 exl-id: a5d45656-e3f5-4207-823c-ad33d4ef26a4
-source-git-commit: df6c1852a6e0357dc9f166c88e77dcf9d334f955
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
+source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
 workflow-type: tm+mt
 source-wordcount: '453'
 ht-degree: 0%
@@ -29,9 +32,9 @@ ht-degree: 0%
 
 4. **AJO Bootcamp.postman\_environment.json** ファイルのローカル URLを読み込みモーダルテキストボックスに貼り付けるか、読み込みダイアログボックスにドロップします。  このアクションにより、自動読み込みがトリガーされます
 
-   ファイル URLを貼り付けるオプションを表示する![Postman読み込みダイアログ &#x200B;](assets/import-environment-file-import-button-overlay.png "URL経由のPostman読み込み")
+   ファイル URLを貼り付けるオプションを表示する![Postman読み込みダイアログ ](assets/import-environment-file-import-button-overlay.png "URL経由のPostman読み込み")
 
-   ![&#x200B; ドラッグ&amp;ドロップでドロップされたファイルを受け付けるPostmanの読み込みダイアログ &#x200B;](assets/import-environment-file-drag-and-drop-import.png " ドラッグ&amp;ドロップによるPostmanの読み込み")
+   ![ ドラッグ&amp;ドロップでドロップされたファイルを受け付けるPostmanの読み込みダイアログ ](assets/import-environment-file-drag-and-drop-import.png " ドラッグ&amp;ドロップによるPostmanの読み込み")
 
 5. インポートしたら、左側のサイドバーの「**環境**」タブをクリックして、環境が存在することを検証します。 AJO Bootcampをご利用いただけます。
 

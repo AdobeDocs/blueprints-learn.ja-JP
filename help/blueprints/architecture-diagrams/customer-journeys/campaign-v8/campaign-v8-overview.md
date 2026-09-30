@@ -4,10 +4,12 @@ description: Campaign v8のアーキテクチャについて説明します。
 solution: Campaign,Campaign v8
 version: Campaign v8
 exl-id: 89b3a761-9cb3-4e01-8da0-043e634fa61f
-TQID: https://experienceleague.adobe.com/1FmOmeJcV9zxUt6bXHYVV9z6qcQSIBkTHOcu5tJ8yJ0
+TQID: 'https://experienceleague.adobe.com/1FmOmeJcV9zxUt6bXHYVV9z6qcQSIBkTHOcu5tJ8yJ0'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
     internal-label: Campaigns
@@ -38,7 +40,7 @@ topic_v2:
     internal-label: Implementation
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
     internal-label: Data management
-source-git-commit: 79738031788419872e32b8f754febacbfd18cc06
+source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
 workflow-type: tm+mt
 source-wordcount: '1056'
 ht-degree: 29%
@@ -46,7 +48,7 @@ ht-degree: 29%
 # Campaign v8
 
 >[!TIP]
->このアーキテクチャは、「キャンペーン管理とオーケストレーション」の下に[&#x200B; ユースケースパターン &#x200B;](/help/blueprints/use-case-patterns/campaign-management-orchestration/campaign-v8-orchestration.md)として文書化されています。
+>このアーキテクチャは、「キャンペーン管理とオーケストレーション」の下に[ ユースケースパターン ](/help/blueprints/use-case-patterns/campaign-management-orchestration/campaign-v8-orchestration.md)として文書化されています。
 
 Adobe Campaign v8は、電子メールやダイレクトメールなどの従来のマーケティングチャネル向けに設計された、次世代のキャンペーン管理プラットフォームです。 複雑なセグメンテーションやオーディエンスのターゲティングをサポートする強力なETL機能とデータ管理機能に加えて、マルチタッチでバッチ主導型のマーケティングプログラムを構築するための強力なオーケストレーションエンジンを提供します。
 
@@ -82,17 +84,17 @@ Adobe Campaign v8は、電子メールやダイレクトメールなどの従来
 
 ## アーキテクチャ図
 
-[Campaign v8 デプロイメントモデル &#x200B;](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/architecture/architecture.html#ac-deployment){target="_blank"}の詳細をご覧ください。
+[Campaign v8 デプロイメントモデル ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/architecture/architecture.html#ac-deployment){target="_blank"}の詳細をご覧ください。
 
 ### Campaign Enterprise （FFDA）のデプロイメント
 
-![Campaign v8 （FFDA）デプロイメントの参照アーキテクチャ &#x200B;](images/campaign-v8-ffda.png){width="1000" zoomable="yes"}
+![Campaign v8 （FFDA）デプロイメントの参照アーキテクチャ ](images/campaign-v8-ffda.png){width="1000" zoomable="yes"}
 
 <br>
 
 ### Campaign v8 FDA デプロイメント
 
-![Campaign v8 （FDA）の参照アーキテクチャ &#x200B;](images/campaign-v8-fda.png){width="1000" zoomable="yes"}
+![Campaign v8 （FDA）の参照アーキテクチャ ](images/campaign-v8-fda.png){width="1000" zoomable="yes"}
 
 <br>
 
@@ -172,11 +174,11 @@ Adobe Campaign v8は、電子メールやダイレクトメールなどの従来
 
 ## 実装手順
 
-[Adobe Campaign v8 の実装](https://experienceleague.adobe.com/docs/campaign/campaign-v8/implement/implement.html?lang=ja)の入門ガイドを参照してください。
+[Adobe Campaign v8 の実装](https://experienceleague.adobe.com/docs/campaign/campaign-v8/implement/implement.html)の入門ガイドを参照してください。
 
 ## 関連ドキュメント
 
-- [Campaign v8 ドキュメント](https://experienceleague.adobe.com/docs/campaign-v8.html?lang=ja)
+- [Campaign v8 ドキュメント](https://experienceleague.adobe.com/docs/campaign-v8.html)
 - [Campaign v8製品説明](https://helpx.adobe.com/jp/legal/product-descriptions/adobe-campaign-managed-cloud-services.html)
-- [Experience Platform Tags ドキュメント](https://experienceleague.adobe.com/docs/launch.html?lang=ja)
-- [Experience Platform Mobile SDKのドキュメント](https://experienceleague.adobe.com/docs/mobile.html?lang=ja)
+- [Experience Platform Tags ドキュメント](https://experienceleague.adobe.com/docs/launch.html)
+- [Experience Platform Mobile SDKのドキュメント](https://experienceleague.adobe.com/docs/mobile.html)

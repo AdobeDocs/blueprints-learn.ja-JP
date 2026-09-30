@@ -4,13 +4,14 @@ description: データストリーム IDを使用して、Postman API呼び出�
 doc-type: article
 solution: Experience Platform
 exl-id: 0823bcf7-35d9-492e-ad8d-3e8327f77dd8
-source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
+source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
 workflow-type: tm+mt
 source-wordcount: '437'
 ht-degree: 0%
-
 ---
-
 
 # Edge web イベントの送信
 
@@ -55,7 +56,7 @@ API リクエストを実行する前に、データストリーム IDをPostman
 >1. 左側のパネルで「**データストリーム**」（「データ収集」見出しの下）をクリックします
 >2. データストリームを選択し、**データストリーム ID**&#x200B;値をコピーします
 >
->![&#x200B; コピーするデータストリーム IDを示すデータストリームリスト &#x200B;](assets/send-an-edge-web-event-gather-datastream-id.png)
+>![ コピーするデータストリーム IDを示すデータストリームリスト ](assets/send-an-edge-web-event-gather-datastream-id.png)
 
 
 
@@ -72,7 +73,7 @@ API リクエストを実行する前に、データストリーム IDをPostman
 
 1. 右上の「**リクエストの変数**」をクリックします
 
-   Postman ツールバーの「![&#x200B; リクエスト内の変数」オプション &#x200B;](assets/send-an-edge-web-event-click-variables-in-request.png)
+   Postman ツールバーの「![ リクエスト内の変数」オプション ](assets/send-an-edge-web-event-click-variables-in-request.png)
 
 2. ページの最初のステップから&#x200B;**データストリーム ID**&#x200B;を使用して、**DATASTREAM_CONFIG** **Value**&#x200B;を更新します。
 

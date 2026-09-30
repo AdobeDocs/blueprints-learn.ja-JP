@@ -4,7 +4,10 @@ description: オーケストレーションされたキャンペーン用に、A
 doc-type: overview-page
 solution: Experience Platform
 exl-id: ebcb3c09-27b8-4a7a-9e30-76b5b61e72ae
-source-git-commit: df6c1852a6e0357dc9f166c88e77dcf9d334f955
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
+source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
 workflow-type: tm+mt
 source-wordcount: '138'
 ht-degree: 0%
@@ -14,7 +17,7 @@ ht-degree: 0%
 
 >[!CAUTION]
 >
->このラボでは、サンドボックスでAdobeにデリゲートされたサブドメインが必要です。 自分のペースでまだ設定していない場合は、続行する前に[&#x200B; セットアップ &#x200B;](../../setup.md)を参照してください。この手順は完了するのに最大3時間かかることがあります。
+>このラボでは、サンドボックスでAdobeにデリゲートされたサブドメインが必要です。 自分のペースでまだ設定していない場合は、続行する前に[ セットアップ ](../../setup.md)を参照してください。この手順は完了するのに最大3時間かかることがあります。
 
 ## ラボの概要
 

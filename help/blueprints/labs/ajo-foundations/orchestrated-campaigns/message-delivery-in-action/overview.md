@@ -4,7 +4,10 @@ description: 基本プランメンバーをターゲットとし、AEP プロフ
 doc-type: overview-page
 solution: Experience Platform
 exl-id: 84b16fff-f733-439a-9a93-726811e543ce
-source-git-commit: df6c1852a6e0357dc9f166c88e77dcf9d334f955
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
+source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
 workflow-type: tm+mt
 source-wordcount: '214'
 ht-degree: 0%
@@ -25,7 +28,7 @@ ht-degree: 0%
 
 >[!CAUTION]
 >
->このラボでは、サンドボックスでAdobeにデリゲートされたサブドメインが必要です。 自分のペースで進めている場合は、[&#x200B; セットアップ &#x200B;](../../setup.md)を参照してください。
+>このラボでは、サンドボックスでAdobeにデリゲートされたサブドメインが必要です。 自分のペースで進めている場合は、[ セットアップ ](../../setup.md)を参照してください。
 
 ## ラボの概要
 

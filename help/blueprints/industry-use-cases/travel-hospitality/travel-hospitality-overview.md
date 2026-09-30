@@ -3,13 +3,18 @@ title: 旅行&観光業界のユースケース
 description: 旅行&観光業界が、どのようにAdobe Experience Platformを利用して、予約体験をパーソナライズし、放棄された予約を回復し、顧客ロイヤルティを向上しているかをご確認ください。
 solution: Experience Platform, Real-Time Customer Data Platform, Journey Optimizer
 exl-id: fbdcc015-96a4-4015-93e2-3fc7db375c13
-source-git-commit: 5cbdfd028816a872c9424daf29aabe8db1954197
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
+  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+    internal-label: Real-Time Customer Data Platform
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+    internal-label: Journey Optimizer
+source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
 workflow-type: tm+mt
 source-wordcount: '3744'
 ht-degree: 0%
-
 ---
-
 # 旅行&amp;観光業界のユースケース
 
 旅行&amp;観光業界では、Adobe Experience Platformを利用して、予約エンジン、ロイヤルティプログラム、不動産管理システム、デジタル接点から収集したゲストデータを統合し、各旅行者の単一の顧客像を構築しています。 この統合基盤は、予約を促すパーソナライズされた体験、放棄された予約の回復、リピート訪問を促進するゲストロイヤルティの構築を可能にします。
@@ -64,7 +69,7 @@ AIを活用した傾向スコアリングを使用して、購買意欲の高い
 
 ### 導入方法
 
-[&#x200B; マルチステップ オーケストレーションされたジャーニー](/help/blueprints/use-case-patterns/campaign-management-orchestration/multi-step-orchestrated-journey.md) パターンを使用します。 このマルチステップのジャーニーでは、予約した顧客に対してアップセルの機会をタイミングよく提供し、顧客が既に購入したものや以前のメッセージとのエンゲージメントにもとづいてオファーを調整します。 これは、ユースケースで、エンゲージメントイベントと在庫の可用性にもとづく条件分岐を使用して、数日かけて複数のメッセージを順序付けて送信する必要がある場合に適したパターンです。単一のトリガーメッセージでは、アップセルのアクション間の依存関係や、旅行日の近さにもとづくタイミング調整を処理できません。
+[ マルチステップ オーケストレーションされたジャーニー](/help/blueprints/use-case-patterns/campaign-management-orchestration/multi-step-orchestrated-journey.md) パターンを使用します。 このマルチステップのジャーニーでは、予約した顧客に対してアップセルの機会をタイミングよく提供し、顧客が既に購入したものや以前のメッセージとのエンゲージメントにもとづいてオファーを調整します。 これは、ユースケースで、エンゲージメントイベントと在庫の可用性にもとづく条件分岐を使用して、数日かけて複数のメッセージを順序付けて送信する必要がある場合に適したパターンです。単一のトリガーメッセージでは、アップセルのアクション間の依存関係や、旅行日の近さにもとづくタイミング調整を処理できません。
 
 ### 技術的な考慮事項
 
@@ -84,7 +89,7 @@ AIを活用した傾向スコアリングを使用して、購買意欲の高い
 
 ### 導入方法
 
-[&#x200B; マルチステップ オーケストレーションされたジャーニー](/help/blueprints/use-case-patterns/campaign-management-orchestration/multi-step-orchestrated-journey.md) パターンを使用します。 このマルチステップのジャーニーでは、一度離脱した顧客に対して、顧客の反応にもとづいてインセンティブからインセンティブへと進化する一連のプログレッシブなメッセージを提供して、リエンゲージメントします。 これは、個別のトリガーイベントがなく、タイミングを顧客ライフサイクルモデルや季節的な予約パターンから計算する必要がある場合に適したパターンです。イベントトリガー型メッセージでは、プログレッシブエスカレーションロジックや一般的な旅行計画ウィンドウの周囲のオファーに時間を割く必要性を処理できません。
+[ マルチステップ オーケストレーションされたジャーニー](/help/blueprints/use-case-patterns/campaign-management-orchestration/multi-step-orchestrated-journey.md) パターンを使用します。 このマルチステップのジャーニーでは、一度離脱した顧客に対して、顧客の反応にもとづいてインセンティブからインセンティブへと進化する一連のプログレッシブなメッセージを提供して、リエンゲージメントします。 これは、個別のトリガーイベントがなく、タイミングを顧客ライフサイクルモデルや季節的な予約パターンから計算する必要がある場合に適したパターンです。イベントトリガー型メッセージでは、プログレッシブエスカレーションロジックや一般的な旅行計画ウィンドウの周囲のオファーに時間を割く必要性を処理できません。
 
 ### 技術的な考慮事項
 
@@ -164,7 +169,7 @@ AIを活用した傾向スコアリングを使用して、購買意欲の高い
 
 ### 導入方法
 
-Decisioning[&#128279;](/help/blueprints/use-case-patterns/campaign-management-orchestration/cross-channel-journey-with-decisioning.md) パターンで クロスチャネルジャーニーを使用します。 このアプローチは、ジャーニーオーケストレーションとリアルタイムの意思決定を組み合わせることで、ロイヤルティメンバーごとに適切なチャネルを通じて、層、好み、最近のアクティビティに適応させた適切なオファーを提供します。 これは、重複するオファーを防ぐために、ジャーニーがチャネルをまたいで配信を調整する必要がある場合や、オファーの選択に階層ベースの適格性ルールと引き換え制約が必要な場合に適したパターンです。ジャーニーオーケストレーションだけでは、必要なマルチチャネルの意思決定レイヤーを提供できません。
+Decisioning](/help/blueprints/use-case-patterns/campaign-management-orchestration/cross-channel-journey-with-decisioning.md) パターンで[ クロスチャネルジャーニーを使用します。 このアプローチは、ジャーニーオーケストレーションとリアルタイムの意思決定を組み合わせることで、ロイヤルティメンバーごとに適切なチャネルを通じて、層、好み、最近のアクティビティに適応させた適切なオファーを提供します。 これは、重複するオファーを防ぐために、ジャーニーがチャネルをまたいで配信を調整する必要がある場合や、オファーの選択に階層ベースの適格性ルールと引き換え制約が必要な場合に適したパターンです。ジャーニーオーケストレーションだけでは、必要なマルチチャネルの意思決定レイヤーを提供できません。
 
 ### 技術的な考慮事項
 
@@ -184,7 +189,7 @@ Decisioning[&#128279;](/help/blueprints/use-case-patterns/campaign-management-or
 
 ### 導入方法
 
-[&#x200B; イベントをトリガーにしたメッセージ &#x200B;](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md) パターンを使用します。 このアプローチにより、不完全な予約イベントが検出されると、トリガーで自動的にリマインダーが表示され、顧客が好むチャネルでタイムリーなメッセージを配信します。 これは、トリガーが個別の顧客行動（予約の開始）であり、必要なレスポンスが、各メッセージが過去のエンゲージメントや可用性の変化に依存するマルチステップのシーケンスではなく、優先チャネルをまたいだ時間制限のある配信である場合に適したパターンです。
+[ イベントをトリガーにしたメッセージ ](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md) パターンを使用します。 このアプローチにより、不完全な予約イベントが検出されると、トリガーで自動的にリマインダーが表示され、顧客が好むチャネルでタイムリーなメッセージを配信します。 これは、トリガーが個別の顧客行動（予約の開始）であり、必要なレスポンスが、各メッセージが過去のエンゲージメントや可用性の変化に依存するマルチステップのシーケンスではなく、優先チャネルをまたいだ時間制限のある配信である場合に適したパターンです。
 
 ### 技術的な考慮事項
 
@@ -204,7 +209,7 @@ Decisioning[&#128279;](/help/blueprints/use-case-patterns/campaign-management-or
 
 ### 導入方法
 
-[&#x200B; バッチアウトバウンドメッセージのアクティベーション &#x200B;](/help/blueprints/use-case-patterns/campaign-management-orchestration/batch-outbound-message-activation.md) パターンを使用します。 このアプローチにより、大規模なオーディエンスにパーソナライズされた季節ごとのキャンペーンメッセージをスケジュールごとに配信し、季節ごとの旅行パターンや嗜好にもとづいて顧客をセグメンテーションできます。 これは、オーディエンスが大規模で、季節の予約履歴によって事前に定義されており、イベント主導ではなく季節のプランニングウィンドウに基づいて配信タイミングがスケジュールされ、リアルタイムの分岐や意思決定が必要ない場合に適したパターンです。
+[ バッチアウトバウンドメッセージのアクティベーション ](/help/blueprints/use-case-patterns/campaign-management-orchestration/batch-outbound-message-activation.md) パターンを使用します。 このアプローチにより、大規模なオーディエンスにパーソナライズされた季節ごとのキャンペーンメッセージをスケジュールごとに配信し、季節ごとの旅行パターンや嗜好にもとづいて顧客をセグメンテーションできます。 これは、オーディエンスが大規模で、季節の予約履歴によって事前に定義されており、イベント主導ではなく季節のプランニングウィンドウに基づいて配信タイミングがスケジュールされ、リアルタイムの分岐や意思決定が必要ない場合に適したパターンです。
 
 ### 技術的な考慮事項
 
@@ -224,7 +229,7 @@ Decisioning[&#128279;](/help/blueprints/use-case-patterns/campaign-management-or
 
 ### 導入方法
 
-[行動レコメンデーション &#x200B;](/help/blueprints/use-case-patterns/personalization/behavioral-recommendation.md) パターンを使用します。 このアプローチでは、顧客の予約パターンと行動から学習したAIを活用したモデルを使用して、各顧客に最も関連性の高いグループ旅行のオプションを提案します。 これは、商品セットが大規模で継続的に変化し、価格や在庫状況に合わせてグループパッケージが進化し、適格性ルールによって決定される一連のオファーではなく、グループの予約履歴の行動パターンによって選択が決まる場合に適したパターンです。
+[行動レコメンデーション ](/help/blueprints/use-case-patterns/personalization/behavioral-recommendation.md) パターンを使用します。 このアプローチでは、顧客の予約パターンと行動から学習したAIを活用したモデルを使用して、各顧客に最も関連性の高いグループ旅行のオプションを提案します。 これは、商品セットが大規模で継続的に変化し、価格や在庫状況に合わせてグループパッケージが進化し、適格性ルールによって決定される一連のオファーではなく、グループの予約履歴の行動パターンによって選択が決まる場合に適したパターンです。
 
 ### 技術的な考慮事項
 
@@ -263,7 +268,7 @@ Decisioning[&#128279;](/help/blueprints/use-case-patterns/campaign-management-or
 
 ### 導入方法
 
-[&#x200B; イベントをトリガーにしたメッセージ &#x200B;](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md) パターンを使用して、ゲストの誕生日が届いたときに、パーソナライズされた誕生日メッセージとオファーを送信します。 これは、プロファイル属性日付トリガーに基づいて1つのイベント駆動型メッセージが送信される場合に適したパターンです。
+[ イベントをトリガーにしたメッセージ ](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md) パターンを使用して、ゲストの誕生日が届いたときに、パーソナライズされた誕生日メッセージとオファーを送信します。 これは、プロファイル属性日付トリガーに基づいて1つのイベント駆動型メッセージが送信される場合に適したパターンです。
 
 ### 技術的な考慮事項
 
@@ -282,7 +287,7 @@ Decisioning[&#128279;](/help/blueprints/use-case-patterns/campaign-management-or
 
 ### 導入方法
 
-アクティブな宛先キャンペーンウィンドウ中に、[&#x200B; バッチアウトバウンドメッセージのアクティベーション &#x200B;](/help/blueprints/use-case-patterns/campaign-management-orchestration/batch-outbound-message-activation.md) パターンを使用して、適格なオーディエンスセグメントにプロモーションメッセージを送信します。 これは、パーソナライズされたプロモーションメッセージを、スケジュールされたバッチで配信し、期限付きのキャンペーンを通じて定義されたオーディエンスにリーチする必要がある場合に適したパターンです。
+アクティブな宛先キャンペーンウィンドウ中に、[ バッチアウトバウンドメッセージのアクティベーション ](/help/blueprints/use-case-patterns/campaign-management-orchestration/batch-outbound-message-activation.md) パターンを使用して、適格なオーディエンスセグメントにプロモーションメッセージを送信します。 これは、パーソナライズされたプロモーションメッセージを、スケジュールされたバッチで配信し、期限付きのキャンペーンを通じて定義されたオーディエンスにリーチする必要がある場合に適したパターンです。
 
 ### 技術的な考慮事項
 

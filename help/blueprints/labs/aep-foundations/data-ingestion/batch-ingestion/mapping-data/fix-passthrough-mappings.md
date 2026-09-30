@@ -4,13 +4,14 @@ description: 検証する前に、ターゲットフィールドの割り当て�
 doc-type: article
 solution: Experience Platform
 exl-id: b06cc091-661e-4ff4-b6e5-f16bc5128b6b
-source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
+source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
 workflow-type: tm+mt
 source-wordcount: '445'
 ht-degree: 0%
-
 ---
-
 
 # パススルーマッピングの修正
 
@@ -24,7 +25,7 @@ ht-degree: 0%
    - sms\_optIn
 1. 「検証」ボタンをクリックして、マッピングを再検証します
 
-![&#x200B; フィールドを削除した後にマッピングを再検証するために使用される「検証」ボタン &#x200B;](assets/fix-passthrough-mappings-re-validate-mappings-using-validate-button.png "検証ボタンを使用してマッピングを再検証")
+![ フィールドを削除した後にマッピングを再検証するために使用される「検証」ボタン ](assets/fix-passthrough-mappings-re-validate-mappings-using-validate-button.png "検証ボタンを使用してマッピングを再検証")
 
 >[!NOTE]
 >
@@ -77,11 +78,11 @@ AIやマシンラーニングによるレコメンデーションが有効であ
 
 
 
-![&#x200B; マッピングリストを操作して各マッピングエラーを修正する](assets/fix-passthrough-mappings-work-through-mapping-errors.png " マッピングとマッピングエラーの修正を行う")
+![ マッピングリストを操作して各マッピングエラーを修正する](assets/fix-passthrough-mappings-work-through-mapping-errors.png " マッピングとマッピングエラーの修正を行う")
 
 
 
-![&#x200B; パススルーマッピングを修正するための正しいフィールドを選択するためのターゲットスキーマパネル &#x200B;](assets/fix-passthrough-mappings-choose-correct-target-field.png "適切なターゲットフィールドを選択し、パススルー要件に一致することを確認します")
+![ パススルーマッピングを修正するための正しいフィールドを選択するためのターゲットスキーマパネル ](assets/fix-passthrough-mappings-choose-correct-target-field.png "適切なターゲットフィールドを選択し、パススルー要件に一致することを確認します")
 
 >[!WARNING]
 >

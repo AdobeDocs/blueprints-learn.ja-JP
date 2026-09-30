@@ -6,7 +6,14 @@ short-description: RTCDP のプロファイルとオーディエンスを Adobe 
 solution: Real-Time Customer Data Platform, Target, Experience Platform
 kt: 7194
 thumbnail: thumb-web-personalization-scenario2.jpg
-source-git-commit: 0c41931afad32e806d57271439e31dda84a4b2ca
+product_v2:
+  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+    internal-label: Real-Time Customer Data Platform
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
+source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
 workflow-type: tm+mt
 source-wordcount: '1045'
 ht-degree: 32%
@@ -28,7 +35,7 @@ ht-degree: 32%
 
 ### リファレンスドキュメント
 
-* [Adobe Real-Time CDPのAdobe Target Connection](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection.html?lang=ja)
+* [Adobe Real-Time CDPのAdobe Target Connection](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection.html)
 * [Edge データストリーム設定](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/datastreams.html?lang=ja)
 
 ## 統合パターン
@@ -46,7 +53,7 @@ ht-degree: 32%
 ### Web/Mobile SDKまたは[!DNL Edge Network] APIを使用した実装パターン 1 - [!DNL Edge Network] （推奨されるアプローチ）
 
 * Web/Mobile SDKで[!DNL Edge Network]を使用しています。 リアルタイムのエッジセグメント化には、Web／Mobile SDK または Edge API 実装アプローチが必要です。
-* [SDK ベースの実装については、Experience Platform Webおよびモバイル SDK ブループリント &#x200B;](/help/blueprints/architecture-diagrams/architecture-overviews/websdk.md)を参照してください。
+* [SDK ベースの実装については、Experience Platform Webおよびモバイル SDK ブループリント ](/help/blueprints/architecture-diagrams/architecture-overviews/websdk.md)を参照してください。
 * モバイル SDKで使用するには、[Adobe Journey Optimizer - Decisioning拡張機能](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer-decisioning/)をインストールする必要があります。
 * [Edge プロファイルを使用したAdobe TargetのAPI ベースの実装については、 [!DNL Edge Network] Server API](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/overview.html?lang=ja)を参照してください。
 
@@ -54,7 +61,7 @@ ht-degree: 32%
 
 従来のアプリケーション固有の SDK（AT.js や AppMeasurement.js など）を使用。 リアルタイムエッジセグメント評価は、この実装方法ではサポートされていません。 ただし、この実装アプローチでは、Experience Platform ハブからのストリーミングおよびバッチオーディエンス共有がサポートされます。
 
-[Adobe Target Connector ドキュメントを参照してください](https://experienceleague.adobe.com/ja/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection)
+[Adobe Target Connector ドキュメントを参照してください](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection)
 [Experience Platform Web SDK ブループリントを参照](/help/blueprints/architecture-diagrams/architecture-overviews/websdk.md)
 
 ## 実装に関する考慮事項

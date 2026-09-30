@@ -4,13 +4,14 @@ description: 次のラボに進む前に、両方のメールチャネル設定�
 doc-type: article
 solution: Experience Platform
 exl-id: 37a079c1-2d5f-4586-b3d1-a6402d8b795f
-source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
+source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
 workflow-type: tm+mt
 source-wordcount: '93'
 ht-degree: 0%
-
 ---
-
 
 # アクティブステータスの待機中
 
@@ -18,7 +19,7 @@ ht-degree: 0%
 >
 >今後のラボに進む前に、両方のメールチャネル設定が&#x200B;**アクティブ**&#x200B;として表示されていることを確認する必要があります
 
-![&#x200B; アクティブ状態を示す2つの電子メールチャネル設定](assets/waiting-for-active-status-email-channel-configurations-active.png " アクティブ状態を示す電子メールチャネル設定")
+![ アクティブ状態を示す2つの電子メールチャネル設定](assets/waiting-for-active-status-email-channel-configurations-active.png " アクティブ状態を示す電子メールチャネル設定")
 
 >[!TIP]
 >

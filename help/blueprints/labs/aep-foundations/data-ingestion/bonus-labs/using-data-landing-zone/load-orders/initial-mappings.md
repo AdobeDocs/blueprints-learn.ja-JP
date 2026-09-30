@@ -4,13 +4,14 @@ description: 計算フィールド式を使用して、エクスペリエンス�
 doc-type: article
 solution: Experience Platform
 exl-id: 4052d104-bf0c-4b2d-a298-8075279aeaf8
-source-git-commit: 0b33b2740ee7f5af73d64f217b4475650c1d28a0
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
+source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
 workflow-type: tm+mt
 source-wordcount: '382'
 ht-degree: 0%
-
 ---
-
 
 # 初期マッピング
 
@@ -20,7 +21,7 @@ ht-degree: 0%
 
 1. マッピングステップでは、マシンラーニングレコメンデーションはほとんどの属性を自動的にマッピングします。 しかし、いくつかのエラーもあります。 最初の画面は以下のようになります。
 
-![&#x200B; マッピング画面に表示される_idとタイムスタンプは、マッピングされていないフィールドとしてML](assets/initial-mappings-id-timestamp-unmapped-fields.png "_idで推奨されていません。タイムスタンプは、ML Recommenderが")のマッピングを生成しない2つのフィールドです
+![ マッピング画面に表示される_idとタイムスタンプは、マッピングされていないフィールドとしてML](assets/initial-mappings-id-timestamp-unmapped-fields.png "_idで推奨されていません。タイムスタンプは、ML Recommenderが")のマッピングを生成しない2つのフィールドです
 
 >[!NOTE]
 >
@@ -34,9 +35,9 @@ ht-degree: 0%
    concat(orderID, "-", lastOrderStatusUpdate)
    ```
 
-   ![&#x200B; マッピング _idの計算フィールド、保存の準備](assets/initial-mappings-calculated-field-for-id-mapping.png " マッピング _idの計算フィールドは、これに似ています。 「保存」をクリックして、計算フィールドを保存します")
+   ![ マッピング _idの計算フィールド、保存の準備](assets/initial-mappings-calculated-field-for-id-mapping.png " マッピング _idの計算フィールドは、これに似ています。 「保存」をクリックして、計算フィールドを保存します")
 
-   ![計算フィールドを_id属性にマッピング &#x200B;](assets/initial-mappings-map-calculated-field-to-id.png "計算フィールドを_id")にマッピング
+   ![計算フィールドを_id属性にマッピング ](assets/initial-mappings-map-calculated-field-to-id.png "計算フィールドを_id")にマッピング
 
 1. ターゲットスキーマの&#x200B;**timestamp** フィールドが、次の計算フィールドにマッピングされていることを確認します。
 
@@ -44,13 +45,13 @@ ht-degree: 0%
    lastOrderStatusUpdate
    ```
 
-   ![&#x200B; タイムスタンプマッピングのフィールド式のプレビューを計算](assets/initial-mappings-expression-preview.png "次の式を書き込み、「プレビュー」をクリックします。 この値は大文字と小文字が区別され、正確に次のように記述する必要があります。")
+   ![ タイムスタンプマッピングのフィールド式のプレビューを計算](assets/initial-mappings-expression-preview.png "次の式を書き込み、「プレビュー」をクリックします。 この値は大文字と小文字が区別され、正確に次のように記述する必要があります。")
 
    ![計算フィールド式「inStore」を注文にマッピングしています。_devbc.acqSource](assets/initial-mappings-map-instore-expression-to-acqsource.png)
 
 1. 計算フィールド式&#x200B;**&quot;inStore&quot;**&#x200B;を&#x200B;**の順序にマッピングします。\_devbc.acqSource**
 
-![店舗内の計算フィールド式を書き込み、「プレビュー」をクリック &#x200B;](assets/initial-mappings-write-instore-expression-preview.png "次の式を書き込み、「プレビュー」をクリックします。 この値は大文字と小文字が区別され、正確に次のように記述する必要があります。")
+![店舗内の計算フィールド式を書き込み、「プレビュー」をクリック ](assets/initial-mappings-write-instore-expression-preview.png "次の式を書き込み、「プレビュー」をクリックします。 この値は大文字と小文字が区別され、正確に次のように記述する必要があります。")
 
 ## 重複マッピングの処理
 

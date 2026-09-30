@@ -4,13 +4,14 @@ description: オーディエンスを保存してSMS メッセージを送信す
 doc-type: article
 solution: Experience Platform
 exl-id: 8f1d0839-e4ca-4b7c-bc97-4e271a457296
-source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
+source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
 workflow-type: tm+mt
 source-wordcount: '259'
 ht-degree: 0%
-
 ---
-
 
 # 結果をフォーク
 
@@ -27,7 +28,7 @@ ht-degree: 0%
 
 1. ワークフローキャンバスで、「**+** **アイコン**」をクリックし、「**フォークアクティビティ**」を選択します
 
-   ![&#x200B; オーディエンスを作成アクティビティの後にフォーク アクティビティを追加](assets/fork-the-result-add-fork-activity.png)
+   ![ オーディエンスを作成アクティビティの後にフォーク アクティビティを追加](assets/fork-the-result-add-fork-activity.png)
 
 
 
@@ -41,7 +42,7 @@ ht-degree: 0%
 
    キャンバスが完成したら、このように表示されます…
 
-   ![分岐アクティビティを追加した後のワークフローキャンバス &#x200B;](assets/fork-the-result-final-canvas.png)
+   ![分岐アクティビティを追加した後のワークフローキャンバス ](assets/fork-the-result-final-canvas.png)
 
    >[!NOTE]
    >
@@ -51,7 +52,7 @@ ht-degree: 0%
 
 3. ワークフローキャンバスの上部にある「**保存**」をクリックします。
 
-![&#x200B; ワークフローキャンバスツールバーの「保存」ボタン &#x200B;](assets/fork-the-result-click-save.png)
+![ ワークフローキャンバスツールバーの「保存」ボタン ](assets/fork-the-result-click-save.png)
 
 >[!TIP]
 >

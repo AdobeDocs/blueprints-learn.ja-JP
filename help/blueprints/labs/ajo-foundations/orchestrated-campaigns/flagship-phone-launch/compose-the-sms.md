@@ -4,13 +4,14 @@ description: リレーショナルストアの電話メーカー属性とモデ�
 doc-type: article
 solution: Experience Platform
 exl-id: 3deb822b-8374-4537-a260-f4f6f4d67569
-source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
+source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
 workflow-type: tm+mt
 source-wordcount: '409'
 ht-degree: 0%
-
 ---
-
 
 # SMSの作成
 
@@ -24,7 +25,7 @@ ht-degree: 0%
 
 「**コンテンツを編集**」ボタンをクリックするか、**コンテンツ** タブに直接移動します
 
-![&#x200B; コンテンツボタンとコンテンツタブのナビゲーションを編集する「コンテンツを編集」 &#x200B;](assets/compose-the-sms-navigate-to-content-tab.png " コンテンツを編集")
+![ コンテンツボタンとコンテンツタブのナビゲーションを編集する「コンテンツを編集」 ](assets/compose-the-sms-navigate-to-content-tab.png " コンテンツを編集")
 
 
 
@@ -32,7 +33,7 @@ ht-degree: 0%
 
 1. 「**Personalization**」ボタンをクリックして、メッセージを作成します。
 
-   ![SMS メッセージを作成するためのPersonalization ボタン &#x200B;](assets/compose-the-sms-click-personalization-button.png)
+   ![SMS メッセージを作成するためのPersonalization ボタン ](assets/compose-the-sms-click-personalization-button.png)
 
    >[!NOTE]
    >
@@ -54,7 +55,7 @@ ht-degree: 0%
 
 3. 左側のパネルの「**ターゲット属性**」オプションを使用して、下の「**phone\_make**」と「**phone\_model**」というメッセージの2つのフィールドを更新します。  完了したら、メッセージはスクリーンショットと一致する必要があります。
 
-   ![電話のメーカーとモデルがパーソナライズされた最終的なSMS メッセージ &#x200B;](assets/compose-the-sms-final-message-text.png)
+   ![電話のメーカーとモデルがパーソナライズされた最終的なSMS メッセージ ](assets/compose-the-sms-final-message-text.png)
 
    >[!NOTE]
    >
@@ -64,7 +65,7 @@ ht-degree: 0%
 
 4. エディターで&#x200B;**Validate**&#x200B;をクリックし、検証エラーがないことを確認し、**Save** ボタンをクリックします
 
-   ![&#x200B; メッセージエディターの「検証」ボタンと「保存」ボタン &#x200B;](assets/compose-the-sms-validate-and-save.png)
+   ![ メッセージエディターの「検証」ボタンと「保存」ボタン ](assets/compose-the-sms-validate-and-save.png)
 
 
 

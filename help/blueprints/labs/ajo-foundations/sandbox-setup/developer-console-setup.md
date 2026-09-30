@@ -4,13 +4,14 @@ description: DEP CLIで使用されるExperience PlatformおよびJourney Optimi
 doc-type: article
 solution: Experience Platform
 exl-id: 8b8f2a3e-2f4a-4b0e-9c5a-6e0c2b7a1d4f
-source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
+source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
 workflow-type: tm+mt
 source-wordcount: '454'
 ht-degree: 0%
-
 ---
-
 
 # Developer Consoleの設定
 
@@ -22,7 +23,7 @@ DEP CLIは、Adobe Developer Console プロジェクトのOAuth サーバー間�
 
 >[!NOTE]
 >
->Adobe Experience Platformの資格情報（および必要に応じてAdobe Journey Optimizer）を含むDeveloper Console プロジェクトが既にある場合は、この節をスキップして、[&#x200B; デプロイメント手順](deployment-instructions.md)に進みます。
+>Adobe Experience Platformの資格情報（および必要に応じてAdobe Journey Optimizer）を含むDeveloper Console プロジェクトが既にある場合は、この節をスキップして、[ デプロイメント手順](deployment-instructions.md)に進みます。
 
 ## 前提条件
 

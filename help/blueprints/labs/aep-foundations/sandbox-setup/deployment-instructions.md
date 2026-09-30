@@ -4,13 +4,14 @@ description: DEP CLIを使用して、AEP Foundations ラボパックのスキ�
 doc-type: article
 solution: Experience Platform
 exl-id: 9f2b6d4a-8e1c-4b7a-a3d5-6c9f0e2a4b8d
-source-git-commit: 0b33b2740ee7f5af73d64f217b4475650c1d28a0
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
+source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
 workflow-type: tm+mt
 source-wordcount: '749'
 ht-degree: 1%
-
 ---
-
 
 # デプロイメントの手順
 
@@ -44,13 +45,13 @@ AEP Foundations ラボパックは、ラボ全体で使用するスキーマ、�
 
 ## &#x200B;1. CLIのインストール
 
-1. [dep-cli リポジトリ &#x200B;](https://github.com/adobe/dep-cli)を複製またはダウンロードします
+1. [dep-cli リポジトリ ](https://github.com/adobe/dep-cli)を複製またはダウンロードします
 1. `dep-cli` ディレクトリから、`npm install`を実行します
 1. `npm start`でCLIを開始
 
 >[!NOTE]
 >
->上記のコマンドを実行する前に、Node.jsが必要です。 まだNode.jsがインストールされていない場合は、最初にwikiの[Node.js Setup](https://github.com/adobe/dep-cli/wiki/Nodejs-Setup) ページを参照してください。 スクリーンショットや既存のインストールの更新方法など、完全なインストールの詳細については、[&#x200B; インストール &#x200B;](https://github.com/adobe/dep-cli/wiki/Installation)wiki ページを参照してください
+>上記のコマンドを実行する前に、Node.jsが必要です。 まだNode.jsがインストールされていない場合は、最初にwikiの[Node.js Setup](https://github.com/adobe/dep-cli/wiki/Nodejs-Setup) ページを参照してください。 スクリーンショットや既存のインストールの更新方法など、完全なインストールの詳細については、[ インストール ](https://github.com/adobe/dep-cli/wiki/Installation)wiki ページを参照してください
 
 ## &#x200B;2. 環境ファイルの設定
 

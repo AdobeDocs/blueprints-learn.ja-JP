@@ -4,16 +4,17 @@ description: 以前のラボ手法を適用して、データランディング�
 doc-type: article
 solution: Experience Platform
 exl-id: 80052fd3-a824-4b71-ae7e-ce587f925950
-source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
+source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
 workflow-type: tm+mt
 source-wordcount: '52'
 ht-degree: 0%
-
 ---
-
 
 # マッピングの作成
 
 前のラボで行った処理を使用して、ファイルを正常にマッピングする方法を確認できます。
 
-![&#x200B; データランディングゾーンのソースファイルのデータフローマッピング画面の例](assets/create-mappings-ai-ml-based-contextual-recommendations.png)
+![ データランディングゾーンのソースファイルのデータフローマッピング画面の例](assets/create-mappings-ai-ml-based-contextual-recommendations.png)

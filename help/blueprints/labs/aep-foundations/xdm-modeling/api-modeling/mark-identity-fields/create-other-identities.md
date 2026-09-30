@@ -4,13 +4,14 @@ description: スキーマレジストリ APIを使用して、顧客アカウン
 doc-type: article
 solution: Experience Platform
 exl-id: 22c40299-fb93-4d41-a23b-f8629df3e7b9
-source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
+source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
 workflow-type: tm+mt
 source-wordcount: '137'
 ht-degree: 0%
-
 ---
-
 
 # 他のIDを作成
 
@@ -20,11 +21,11 @@ ht-degree: 0%
    >
    >リクエストを実行しないでください…まだ
 
-   ![&#x200B; ステップ 2 - Customer Account Schema Postman リクエストの電子メールアドレス IDの作成](assets/create-other-identities-step-2-postman-request.jpeg " ステップ 2 – 電子メールアドレス ID記述子の作成")
+   ![ ステップ 2 - Customer Account Schema Postman リクエストの電子メールアドレス IDの作成](assets/create-other-identities-step-2-postman-request.jpeg " ステップ 2 – 電子メールアドレス ID記述子の作成")
 
 
 
-1. [&#x200B; スキーマの作成](../build-schema/create-schema.md) ラボステップから保存した`$id`を使用して、リクエストの本文の`xdm:sourceSchema`値を更新します
+1. [ スキーマの作成](../build-schema/create-schema.md) ラボステップから保存した`$id`を使用して、リクエストの本文の`xdm:sourceSchema`値を更新します
 
 1. リクエスト本文の`xdm:isPrimary`値を`false`に更新します
 

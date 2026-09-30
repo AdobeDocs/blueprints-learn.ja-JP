@@ -4,13 +4,14 @@ description: 既存のデータセットに対してバッチソースデータ�
 doc-type: article
 solution: Experience Platform
 exl-id: 6f26f742-27e8-445a-8005-21d4e59dc3d0
-source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
+source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
 workflow-type: tm+mt
 source-wordcount: '357'
 ht-degree: 0%
-
 ---
-
 
 # 新しいデータフローの作成
 
@@ -20,7 +21,7 @@ ht-degree: 0%
    **ソース** -> **カタログ** -> **ローカルシステム**
 1. 次に、**ローカルファイルアップロード** カードの「**データを追加**」ボタンをクリックします
 
-![&#x200B; ソースカタログ内のローカルファイルアップロードカードの「データを追加」ボタン &#x200B;](assets/create-a-new-dataflow-local-file-upload-add-data.png " データランディングゾーンにアクセス ")
+![ ソースカタログ内のローカルファイルアップロードカードの「データを追加」ボタン ](assets/create-a-new-dataflow-local-file-upload-add-data.png " データランディングゾーンにアクセス ")
 
 
 
@@ -28,7 +29,7 @@ ht-degree: 0%
 
 1. データフローの詳細画面で、**既存のデータセット**&#x200B;を選択します。
 1. 以前に作成したデータセットを使用します。名前は&#x200B;**顧客アカウント - \&lt; イニシャル >**&#x200B;です
-1. **プロファイルデータセット**&#x200B;の切り替えがオンになっていることを確認します。
+1. **プロファイルデータセット**の切り替えがオンになっていることを確認します。
 （これをオンにしない場合、プロファイルストアはこのデータセットに入力される新しいデータを監視できず、このデータをプロファイルに取り込むことができません）
 1. **部分取り込みを有効にする** トグルがオンになっていることを確認してください
 （このオプションをオンにしない場合、レコードの1つにエラーがある場合、取り込み全体が失敗する可能性があります）
@@ -57,11 +58,11 @@ ht-degree: 0%
 
 
 
-![&#x200B; マッピング画面にマッピングボタンを読み込む](assets/create-a-new-dataflow-import-mapping-button.png " マッピングボタンを読み込む")
+![ マッピング画面にマッピングボタンを読み込む](assets/create-a-new-dataflow-import-mapping-button.png " マッピングボタンを読み込む")
 
 
 
-![&#x200B; マッピングをインポートするデータフローを選択するためのダイアログ &#x200B;](assets/create-a-new-dataflow-select-dataflow-to-import-mapping-from.png " マッピングをインポートするデータフローを選択")
+![ マッピングをインポートするデータフローを選択するためのダイアログ ](assets/create-a-new-dataflow-select-dataflow-to-import-mapping-from.png " マッピングをインポートするデータフローを選択")
 
 >[!NOTE]
 >

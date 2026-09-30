@@ -4,13 +4,14 @@ description: DEP CLIを使用して、AJO Architectural Foundations ラボパッ
 doc-type: article
 solution: Experience Platform
 exl-id: 3d6e9a1c-7b2f-4e8a-9d0c-1f5a8b6c2e3d
-source-git-commit: 0b33b2740ee7f5af73d64f217b4475650c1d28a0
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
+source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
 workflow-type: tm+mt
 source-wordcount: '942'
 ht-degree: 1%
-
 ---
-
 
 # デプロイメントの手順
 
@@ -44,20 +45,20 @@ AJO Architectural Foundations ラボパックは、DEP CLIを使用してサン�
 ## 前提条件
 
 - **ライセンス使用権限。** Real-Time CDP（ストリーミングセグメンテーション付き）およびAdobe Journey Optimizer（オーケストレーションキャンペーン付き）を使用したIMS組織の管理者権限
-- **アクセス権。** [Developer Console セットアップ &#x200B;](developer-console-setup.md)から作成したAPI資格情報を含む、ターゲットサンドボックスに対するすべての権限を持つExperience Platform ロール。
+- **アクセス権。** [Developer Console セットアップ ](developer-console-setup.md)から作成したAPI資格情報を含む、ターゲットサンドボックスに対するすべての権限を持つExperience Platform ロール。
 - **Developer Console資格情報。** Adobe Experience Platform APIとAdobe Journey Optimizer APIの両方を含むプロジェクト。 まだ使用していない場合は、まず[Developer Consoleの設定](developer-console-setup.md)に従ってください
 - **サンドボックス。** 空です。タイプ `dev`で、デプロイメントを開始する前に少なくとも120分間「準備完了」状態です
 - **Node.js.** WindowsまたはMacの最新のLTS バージョン
 
 ## &#x200B;1. CLIのインストール
 
-1. [dep-cli リポジトリ &#x200B;](https://github.com/adobe/dep-cli)を複製またはダウンロードします
+1. [dep-cli リポジトリ ](https://github.com/adobe/dep-cli)を複製またはダウンロードします
 1. `dep-cli` ディレクトリから、`npm install`を実行します
 1. `npm start`でCLIを開始
 
 >[!NOTE]
 >
->上記のコマンドを実行する前に、Node.jsが必要です。 まだNode.jsがインストールされていない場合は、最初にwikiの[Node.js Setup](https://github.com/adobe/dep-cli/wiki/Nodejs-Setup) ページを参照してください。 スクリーンショットや既存のインストールの更新方法など、完全なインストールの詳細については、[&#x200B; インストール &#x200B;](https://github.com/adobe/dep-cli/wiki/Installation)wiki ページを参照してください
+>上記のコマンドを実行する前に、Node.jsが必要です。 まだNode.jsがインストールされていない場合は、最初にwikiの[Node.js Setup](https://github.com/adobe/dep-cli/wiki/Nodejs-Setup) ページを参照してください。 スクリーンショットや既存のインストールの更新方法など、完全なインストールの詳細については、[ インストール ](https://github.com/adobe/dep-cli/wiki/Installation)wiki ページを参照してください
 
 ## &#x200B;2. 環境ファイルの設定
 

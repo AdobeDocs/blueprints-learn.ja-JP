@@ -4,13 +4,14 @@ description: 完全な注文マッピングセットを確認し、出力をプ�
 doc-type: article
 solution: Experience Platform
 exl-id: b7f0c43b-092c-45ba-b95b-27cb4a49d110
-source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
+source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
 workflow-type: tm+mt
 source-wordcount: '403'
 ht-degree: 7%
-
 ---
-
 
 # データフローの検証とスケジュール
 
@@ -56,7 +57,7 @@ ht-degree: 7%
 
 1. マッピング出力をプレビューします。 すべての属性をスクロールして、右側の属性の横に赤い感嘆符が表示されないようにします。
 
-   ![&#x200B; マッピングされた属性にエラーのないマッピング画面をプレビュー](assets/verify-and-schedule-dataflow-preview-mapping-screen.png " マッピング画面をプレビューすると、次のようになります")
+   ![ マッピングされた属性にエラーのないマッピング画面をプレビュー](assets/verify-and-schedule-dataflow-preview-mapping-screen.png " マッピング画面をプレビューすると、次のようになります")
 
 1. プレビューの左側のナビゲーションで、**productListItems** オブジェクト配列を選択します。 右側が更新され、そのオブジェクト配列内の属性のみが表示されます。
 

@@ -2,7 +2,14 @@
 title: Adobe Customer Journey AnalyticsとAdobe Journey Optimizerの統合
 description: Adobe Customer Journey AnalyticsでAdobe Journey Optimizerのキャンペーンとジャーニーのインサイトを分析し、オーディエンスを公開してジャーニーを展開するためのアーキテクチャ。
 solution: Customer Journey Analytics, Journey Optimizer, Experience Platform
-source-git-commit: ce7331f279a6e59db95ca3b763148440598cde84
+product_v2:
+  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+    internal-label: Customer Journey Analytics
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+    internal-label: Journey Optimizer
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
+source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
 workflow-type: tm+mt
 source-wordcount: '264'
 ht-degree: 0%
@@ -15,7 +22,7 @@ ht-degree: 0%
 
 Journey Optimizerの配信データとインタラクションデータを、Experience PlatformおよびCustomer Journey Analyticsと連携させ、レポート、分析、オーディエンスを作成できます。
 
-![Adobe Customer Journey AnalyticsとAdobe Journey Optimizerの統合アーキテクチャ &#x200B;](assets/cja_ajo_integration.png){width="1000" zoomable="yes"}
+![Adobe Customer Journey AnalyticsとAdobe Journey Optimizerの統合アーキテクチャ ](assets/cja_ajo_integration.png){width="1000" zoomable="yes"}
 
 ## プライマリデータフローと統合ポイント
 
@@ -28,10 +35,10 @@ Journey Optimizerの配信データとインタラクションデータを、Exp
 ## サポートされるユースケースパターン
 
 - [顧客分析とinsight generation](/help/blueprints/use-case-patterns/analysis/customer-analytics-insight-generation.md) — チャネル全体でキャンペーンとジャーニーの動作を分析します。
-- [&#x200B; イベント トリガーのメッセージ &#x200B;](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md) – 顧客およびジャーニーのシグナルを使用して、オーケストレーションされたメッセージをサポートします。
+- [ イベント トリガーのメッセージ ](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md) – 顧客およびジャーニーのシグナルを使用して、オーケストレーションされたメッセージをサポートします。
 
 ## 関連トピックス
 
-- [Journey Optimizer レポート](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/reporting/reports/sharing-overview)
-- [Customer Journey Analyticsの概要](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/cja-overview/cja-overview)
-- [Customer Journey Analytics オーディエンスの公開](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/cja-components/audiences/publish)
+- [Journey Optimizer レポート](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/reporting/reports/sharing-overview)
+- [Customer Journey Analyticsの概要](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-overview)
+- [Customer Journey Analytics オーディエンスの公開](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-components/audiences/publish)

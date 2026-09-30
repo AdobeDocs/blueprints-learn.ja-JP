@@ -4,7 +4,10 @@ description: Orchestrated Campaignsのみのリレーショナルスキーマの
 doc-type: article
 solution: Experience Platform
 exl-id: 6f299942-79a6-42c2-8a5b-dd4bccd6aad4
-source-git-commit: df6c1852a6e0357dc9f166c88e77dcf9d334f955
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
+source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
 workflow-type: tm+mt
 source-wordcount: '535'
 ht-degree: 3%
@@ -21,14 +24,14 @@ ht-degree: 3%
 1. メニュー&#x200B;**チャネルの管理と一般設定**&#x200B;の下にある&#x200B;**チャネル設定**→→移動します
 2. 「**設定を作成**」ボタンをクリックします
 
-   ![&#x200B; チャネル設定の作成](assets/configure-for-profile-create-configuration-button.png)
+   ![ チャネル設定の作成](assets/configure-for-profile-create-configuration-button.png)
 
 3. 作成ウィザードで、次の値を設定します。
    - **名前：** `Relational-Email`
    - **チャネル：** `Email`
    - **マーケティングアクション：** `Email Targeting`
 
-![&#x200B; チャネル設定の詳細](assets/configure-for-relational-channel-configuration-name-values.png)
+![ チャネル設定の詳細](assets/configure-for-relational-channel-configuration-name-values.png)
 
 >[!NOTE]
 >
@@ -42,13 +45,13 @@ ht-degree: 3%
 
 **メールの種類**&#x200B;を&#x200B;**マーケティング**&#x200B;に設定
 
-![&#x200B; メール設定](assets/configure-for-profile-set-email-type-marketing.png)
+![ メール設定](assets/configure-for-profile-set-email-type-marketing.png)
 
 ## サブドメインの設定
 
 **サブドメイン** ドロップダウンから、**email.dep-labs.com**&#x200B;を選択します
 
-![email.dep-labs.comを選択したサブドメインドロップダウン &#x200B;](assets/configure-for-profile-select-email-subdomain.png " サブドメインの設定")
+![email.dep-labs.comを選択したサブドメインドロップダウン ](assets/configure-for-profile-select-email-subdomain.png " サブドメインの設定")
 
 >[!NOTE]
 >
@@ -58,7 +61,7 @@ ht-degree: 3%
 
 **IP プール** ドロップダウンから、**マーケティング**&#x200B;を選択します
 
-![&#x200B; マーケティングが選択されたIP プールのドロップダウン &#x200B;](assets/configure-for-profile-select-marketing-ip-pool.png "IP プールの詳細の設定")
+![ マーケティングが選択されたIP プールのドロップダウン ](assets/configure-for-profile-select-marketing-ip-pool.png "IP プールの詳細の設定")
 
 ## リストの登録解除の設定
 
@@ -67,7 +70,7 @@ ht-degree: 3%
 1. リンク管理で、**Adobe managed**&#x200B;が選択されていることを確認します
 1. 同意レベルの場合、これが&#x200B;**チャネル**&#x200B;に設定されていることを確認してください
 
-![&#x200B; リストの登録解除の設定](assets/configure-for-profile-configure-list-unsubscribe-settings.png)
+![ リストの登録解除の設定](assets/configure-for-profile-configure-list-unsubscribe-settings.png)
 
 ## ヘッダーパラメーターの設定
 
@@ -78,7 +81,7 @@ ht-degree: 3%
    - **メールへの返信：** `reply@email.dep-labs.com`
    - **エラー電子メールのプレフィックス：** `error`
 
-![&#x200B; ヘッダーパラメーター](assets/configure-for-profile-email-header-parameters.png)
+![ ヘッダーパラメーター](assets/configure-for-profile-email-header-parameters.png)
 
 ## BCC メールの設定
 
@@ -100,13 +103,13 @@ ht-degree: 3%
 
 1. 「オーケストレーションされたキャンペーン」タブで、「**有効にする」チェックボックスを** オンにします。
 
-   ![&#x200B; オーケストレーションされたキャンペーンの設定](assets/configure-for-profile-enable-orchestrated-campaign-tab.png)
+   ![ オーケストレーションされたキャンペーンの設定](assets/configure-for-profile-enable-orchestrated-campaign-tab.png)
 
 2. 実行ディメンションで、次の設定を行います。
    - **次の1つにつき1つのメッセージを配信します：** `Target Dimension `
    - **Profile Target Dimension:** `dep-rel: Customer Account - customer_id`
 
-   ![実行ディメンション &#x200B;](assets/configure-for-relational-execution-dimension-target-settings.png)
+   ![実行ディメンション ](assets/configure-for-relational-execution-dimension-target-settings.png)
 
 3. 「実行アドレス」で、次の設定を行います。
    - **Source:** `Target Dimension`

@@ -4,7 +4,10 @@ description: 顧客アカウントスキーマの作成、JSON パッチの適�
 doc-type: article
 solution: Experience Platform
 exl-id: 0279cd68-af7b-43b4-8c6c-d8f8f96f0c0e
-source-git-commit: df6c1852a6e0357dc9f166c88e77dcf9d334f955
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
+source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
 workflow-type: tm+mt
 source-wordcount: '351'
 ht-degree: 0%
@@ -26,12 +29,12 @@ ht-degree: 0%
 
 Adobeで作成したフィールドグループと、独自に作成したフィールドグループ（テナント）の両方で`$ref`を使用してスキーマを作成しました。 また、スキーマが表すクラス （つまり、XDM個人プロファイル）も`$ref`個あります
 
-$ref![&#128279;](assets/recap-customer-account-schema.png "顧客アカウントスキーマ ")を介してフィールドグループとクラスを参照する顧客アカウントスキーマ
+$ref](assets/recap-customer-account-schema.png "顧客アカウントスキーマ ")を介してフィールドグループとクラスを参照する![顧客アカウントスキーマ
 
 
 ## 顧客アカウントスキーマにJSON パッチを適用した
 
-JSON パッチメソッドを使用して、顧客アカウントスキーマを変更し、プランオブジェクトに新しいフィールドを追加しました。 これは、[&#x200B; カスタムフィールドグループを作成](build-schema/create-custom-field-groups.md)で定義した`Customer Account Details`というカスタムフィールドグループにパッチを適用することで、スキーマ自体にパッチを適用するのではなく、パッチを適用することで実現しました。`$ref`
+JSON パッチメソッドを使用して、顧客アカウントスキーマを変更し、プランオブジェクトに新しいフィールドを追加しました。 これは、[ カスタムフィールドグループを作成](build-schema/create-custom-field-groups.md)で定義した`Customer Account Details`というカスタムフィールドグループにパッチを適用することで、スキーマ自体にパッチを適用するのではなく、パッチを適用することで実現しました。`$ref`
 
 ![JSON パッチリクエストで、顧客アカウントの詳細フィールドグループにplanDescription フィールドを追加](assets/recap-json-patch-plan-description-field.png "planDescription フィールドのJSON パッチ ")
 
@@ -43,7 +46,7 @@ JSON パッチメソッドを使用して、顧客アカウントスキーマを
 1. `_devbc.customerID` フィールドが&#x200B;**プライマリ** IDとして設定されました
 1. `personalEmail.address` フィールドは&#x200B;**プライマリとして設定されませんでした**
 
-プライマリ ID記述子と非プライマリ ID記述子を示す![顧客アカウントスキーマ &#x200B;](assets/recap-marked-identity-fields.png "顧客アカウントスキーマ ID フィールド ")
+プライマリ ID記述子と非プライマリ ID記述子を示す![顧客アカウントスキーマ ](assets/recap-marked-identity-fields.png "顧客アカウントスキーマ ID フィールド ")
 
 ## 参照の関係を作成しました
 

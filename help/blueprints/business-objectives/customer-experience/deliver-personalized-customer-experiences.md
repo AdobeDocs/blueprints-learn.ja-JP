@@ -3,7 +3,14 @@ title: パーソナライズされた顧客体験の実現
 description: 個人の好み、行動、ライフサイクルのステージに合わせて、コンテンツ、オファー、メッセージを調整する方法を学びましょう。
 solution: Experience Platform, Real-Time Customer Data Platform, Journey Optimizer
 exl-id: 442567ac-ee71-4907-841b-1fd06e1522ae
-source-git-commit: ccfd8c987a0090ca690e15a4bd89f4d96ec9c01f
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
+  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+    internal-label: Real-Time Customer Data Platform
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+    internal-label: Journey Optimizer
+source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
 workflow-type: tm+mt
 source-wordcount: '233'
 ht-degree: 12%
@@ -28,9 +35,9 @@ ht-degree: 12%
 
 | パターン | カテゴリ | この目標をどのようにサポートしているか |
 | --- | --- | --- |
-| [&#x200B; 匿名訪問者の Web Personalization](/help/blueprints/use-case-patterns/personalization/anonymous-visitor-web-personalization.md) | パーソナライズ機能 | セッション中の行動シグナルにもとづいて、未特定の訪問者にパーソナライズされたweb コンテンツを提供する |
-| [&#x200B; 既知の訪問者の Web/アプリPersonalization](/help/blueprints/use-case-patterns/personalization/known-visitor-web-app-personalization.md) | パーソナライズ機能 | プロファイルとセグメントデータを活用して、認証済みの訪問者に対してwebおよびアプリ体験をパーソナライズします |
+| [ 匿名訪問者の Web Personalization](/help/blueprints/use-case-patterns/personalization/anonymous-visitor-web-personalization.md) | パーソナライズ機能 | セッション中の行動シグナルにもとづいて、未特定の訪問者にパーソナライズされたweb コンテンツを提供する |
+| [ 既知の訪問者の Web/アプリPersonalization](/help/blueprints/use-case-patterns/personalization/known-visitor-web-app-personalization.md) | パーソナライズ機能 | プロファイルとセグメントデータを活用して、認証済みの訪問者に対してwebおよびアプリ体験をパーソナライズします |
 | [Offer Decisioning](/help/blueprints/use-case-patterns/personalization/offer-decisioning.md) | パーソナライズ機能 | 一元化された意思決定ロジックと顧客プロファイルデータを利用して、チャネルをまたいで次善のオファーを選択 |
-| [&#x200B; イベントトリガーメッセージ &#x200B;](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md) | キャンペーン管理とオーケストレーション | 顧客の行動に合わせて、コンテクストに即してパーソナライズされたメッセージをリアルタイムで配信 |
+| [ イベントトリガーメッセージ ](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md) | キャンペーン管理とオーケストレーション | 顧客の行動に合わせて、コンテクストに即してパーソナライズされたメッセージをリアルタイムで配信 |
 | [Decisioning を使用したクロスチャネルジャーニー](/help/blueprints/use-case-patterns/campaign-management-orchestration/cross-channel-journey-with-decisioning.md) | キャンペーン管理とオーケストレーション | リアルタイムのコンテンツとオファー決定により、マルチステップのパーソナライズされたジャーニーを編成 |
 | [Brand Conciergeの会話体験](/help/blueprints/use-case-patterns/conversational-experience/brand-concierge-conversational-experience.md) | 会話体験 | 顧客のコンテキストに基づいて、AIを活用し、パーソナライズされた会話体験を提供する |

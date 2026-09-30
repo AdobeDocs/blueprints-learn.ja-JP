@@ -4,7 +4,10 @@ description: ジャーニーテストモードシミュレーターを使用し�
 doc-type: article
 solution: Experience Platform
 exl-id: fc3dbfb9-b44b-4866-acc9-398a8b52f2b9
-source-git-commit: 96308d5726def849ef22540a5d13618017c40cc3
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
+source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
 workflow-type: tm+mt
 source-wordcount: '398'
 ht-degree: 0%
@@ -22,7 +25,7 @@ ht-degree: 0%
 2. **ジャーニー**&#x200B;をクリックして開きます
 3. **アラート**&#x200B;をクリックして、エラーがないことを確認します（警告は問題ありません）
 
-   ジャーニーを開いた後にエラーが表示されない![&#x200B; アラートパネル &#x200B;](assets/test-journey-alerts-no-errors.png)
+   ジャーニーを開いた後にエラーが表示されない![ アラートパネル ](assets/test-journey-alerts-no-errors.png)
 
    >[!NOTE]
    >
@@ -32,7 +35,7 @@ ht-degree: 0%
 
 4. **Simulate**&#x200B;をクリックし、左側の&#x200B;**テストモード**&#x200B;を選択します
 
-   左側の「シミュレート」で![&#x200B; テストモードを選択](assets/test-journey-select-test-mode.png)
+   左側の「シミュレート」で![ テストモードを選択](assets/test-journey-select-test-mode.png)
 
 
 
@@ -48,7 +51,7 @@ ht-degree: 0%
    - **注文ID**: `123`
 6. 「**送信**」をクリックします（送信をクリックした後、応答に数秒かかります）
 
-   ![&#x200B; イベントフォームに入力して送信をクリックしたトリガー](assets/test-journey-trigger-event-send.png)
+   ![ イベントフォームに入力して送信をクリックしたトリガー](assets/test-journey-trigger-event-send.png)
 
    >[!WARNING]
    >
@@ -64,7 +67,7 @@ ht-degree: 0%
 
 7. **Results** ->左側の&#x200B;**Show Log**&#x200B;をクリックします
 
-![&#x200B; テストイベントをトリガーした後、結果の下にログオプションを表示](assets/test-journey-show-log-results.png)
+![ テストイベントをトリガーした後、結果の下にログオプションを表示](assets/test-journey-show-log-results.png)
 
 >[!NOTE]
 >
@@ -106,11 +109,11 @@ ht-degree: 0%
 1. ブラウザー&#x200B;**タブ**&#x200B;を&#x200B;**閉じる**
 1. 右上の&#x200B;**テストモードを閉じる**
 
-   ![右上の「テストモードを閉じる」ボタン &#x200B;](assets/test-journey-close-test-mode.png)
+   ![右上の「テストモードを閉じる」ボタン ](assets/test-journey-close-test-mode.png)
 
 1. 右上のジャーニー「**公開**」をクリックします
 
-   右上のジャーニーの「![公開」ボタン &#x200B;](assets/test-journey-publish-journey.png)
+   右上のジャーニーの「![公開」ボタン ](assets/test-journey-publish-journey.png)
 
 1. 左上の\&lt; – 矢印をクリックして、**ジャーニー**&#x200B;を&#x200B;**閉じる**
 

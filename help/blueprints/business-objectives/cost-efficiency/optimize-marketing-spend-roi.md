@@ -3,7 +3,12 @@ title: マーケティングの支出とROIの最適化
 description: ターゲティング、アトリビューション、オーディエンスの抑制、予算配分の改善を通じて、マーケティングのROIを向上させる方法を紹介します。
 solution: Experience Platform, Real-Time Customer Data Platform
 exl-id: c744898b-bcb1-4338-ab97-e2fe6d4883b8
-source-git-commit: ccfd8c987a0090ca690e15a4bd89f4d96ec9c01f
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
+  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+    internal-label: Real-Time Customer Data Platform
+source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
 workflow-type: tm+mt
 source-wordcount: '186'
 ht-degree: 3%
@@ -29,5 +34,5 @@ ht-degree: 3%
 | パターン | カテゴリ | この目標をどのようにサポートしているか |
 | --- | --- | --- |
 | [宛先へのAudience Activation](/help/blueprints/use-case-patterns/audience-building-activation/audience-activation-to-destinations.md) | オーディエンスの構築と活用 | 正確なターゲティングと既存顧客の抑制が可能になり、メディア費用の効率を最大化 |
-| [&#x200B; セグメント一致を持つAudience Collaboration](/help/blueprints/use-case-patterns/audience-building-activation/audience-collaboration-segment-match.md) | オーディエンスの構築と活用 | 組織全体でのオーディエンスの共有と重複分析を通じて、ターゲティングの効率を向上 |
+| [ セグメント一致を持つAudience Collaboration](/help/blueprints/use-case-patterns/audience-building-activation/audience-collaboration-segment-match.md) | オーディエンスの構築と活用 | 組織全体でのオーディエンスの共有と重複分析を通じて、ターゲティングの効率を向上 |
 | [Customer Analytics &amp; Insight Generation](/help/blueprints/use-case-patterns/analysis/customer-analytics-insight-generation.md) | 分析 | クロスチャネルのパフォーマンス分析を通じて、予算の割り当てと最適化に関する意思決定を促進 |

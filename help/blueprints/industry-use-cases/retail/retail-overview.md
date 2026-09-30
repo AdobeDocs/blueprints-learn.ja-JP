@@ -3,13 +3,18 @@ title: 小売業界のユースケース
 description: 小売企業がAdobe Experience Platformを利用して、ショッピング体験をパーソナライズし、放棄されたカートを復元して、顧客ロイヤルティを向上させている方法をご確認ください。
 solution: Experience Platform, Real-Time Customer Data Platform, Journey Optimizer
 exl-id: 89a5b6b5-bb71-4154-bb3b-f6dbbbef13eb
-source-git-commit: 5cbdfd028816a872c9424daf29aabe8db1954197
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
+  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+    internal-label: Real-Time Customer Data Platform
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+    internal-label: Journey Optimizer
+source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
 workflow-type: tm+mt
 source-wordcount: '6082'
 ht-degree: 0%
-
 ---
-
 # 小売業界のユースケース
 
 小売企業は、Adobe Experience Platformを利用して、オンラインストア、実店舗、ロイヤルティプログラムからの顧客データを統合し、各顧客の単一の顧客像を構築しています。 この基盤により、パーソナライズされたショッピング体験、失った売上を回復するタイムリーなアウトリーチ、顧客をリピーターにするロイヤルティ戦略が可能になります。
@@ -24,7 +29,7 @@ ht-degree: 0%
 
 ### 導入方法
 
-[行動レコメンデーション &#x200B;](/help/blueprints/use-case-patterns/personalization/behavioral-recommendation.md) パターンを使用します。 このアプローチでは、顧客とのやり取りから継続的に学習するAIを活用したレコメンデーションモデルを利用して、一人ひとりに最も関連性の高い商品を特定します。 これは、アイテムセットが大規模で継続的に変化し、適格性ルールによって管理される一連のオファーではなく、行動の親和性によって選択が決定される場合に適したパターンです。
+[行動レコメンデーション ](/help/blueprints/use-case-patterns/personalization/behavioral-recommendation.md) パターンを使用します。 このアプローチでは、顧客とのやり取りから継続的に学習するAIを活用したレコメンデーションモデルを利用して、一人ひとりに最も関連性の高い商品を特定します。 これは、アイテムセットが大規模で継続的に変化し、適格性ルールによって管理される一連のオファーではなく、行動の親和性によって選択が決定される場合に適したパターンです。
 
 ### 技術的な考慮事項
 
@@ -44,7 +49,7 @@ ht-degree: 0%
 
 ### 導入方法
 
-[&#x200B; イベントをトリガーにしたメッセージ &#x200B;](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md) パターンを使用します。 このアプローチは、在庫のしきい値イベントに応答し、在庫量が定義された制限を下回ると自動的に緊急性メッセージを送信します。 これは、トリガーが顧客行動ではなくシステムイベントであり、必要なコミュニケーションが持続的なナーチャリングの順序ではなく、即座に反応する場合に適したパターンです。
+[ イベントをトリガーにしたメッセージ ](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md) パターンを使用します。 このアプローチは、在庫のしきい値イベントに応答し、在庫量が定義された制限を下回ると自動的に緊急性メッセージを送信します。 これは、トリガーが顧客行動ではなくシステムイベントであり、必要なコミュニケーションが持続的なナーチャリングの順序ではなく、即座に反応する場合に適したパターンです。
 
 ### 技術的な考慮事項
 
@@ -82,7 +87,7 @@ ht-degree: 0%
 
 ### 導入方法
 
-[&#x200B; イベントをトリガーにしたメッセージ &#x200B;](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md) パターンを使用します。 このアプローチは、製品価格の変動イベントに対応し、顧客の興味を示すシグナルと照合して、タイムリーな通知を提供します。 これは、トリガーがカタログシステムイベントであり、配信ウィンドウが時間的制約を受ける場合に適したパターンです。持続したジャーニーは遅すぎるため、最初の通知を超えてマルチステップのフォローアップが必要ありません。
+[ イベントをトリガーにしたメッセージ ](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md) パターンを使用します。 このアプローチは、製品価格の変動イベントに対応し、顧客の興味を示すシグナルと照合して、タイムリーな通知を提供します。 これは、トリガーがカタログシステムイベントであり、配信ウィンドウが時間的制約を受ける場合に適したパターンです。持続したジャーニーは遅すぎるため、最初の通知を超えてマルチステップのフォローアップが必要ありません。
 
 ### 技術的な考慮事項
 
@@ -101,7 +106,7 @@ ht-degree: 0%
 
 ### 導入方法
 
-[&#x200B; マルチステップ オーケストレーションされたジャーニー](/help/blueprints/use-case-patterns/campaign-management-orchestration/multi-step-orchestrated-journey.md) パターンを使用します。 この定期的なスケジュールされたジャーニーでは、購入頻度の予測を使用して、顧客が再入力を必要とする可能性が高いタイミングでリマインダーを送信します。 これは、個別のトリガーイベントがない場合に適したパターンで、タイミングは購入頻度モデルから計算して動的に再調整する必要があります。イベントトリガー型メッセージでは、顧客が早期または遅延で再注文した場合、予測スケジューリングやタイミング調整を処理できません。
+[ マルチステップ オーケストレーションされたジャーニー](/help/blueprints/use-case-patterns/campaign-management-orchestration/multi-step-orchestrated-journey.md) パターンを使用します。 この定期的なスケジュールされたジャーニーでは、購入頻度の予測を使用して、顧客が再入力を必要とする可能性が高いタイミングでリマインダーを送信します。 これは、個別のトリガーイベントがない場合に適したパターンで、タイミングは購入頻度モデルから計算して動的に再調整する必要があります。イベントトリガー型メッセージでは、顧客が早期または遅延で再注文した場合、予測スケジューリングやタイミング調整を処理できません。
 
 ### 技術的な考慮事項
 
@@ -120,7 +125,7 @@ ht-degree: 0%
 
 ### 導入方法
 
-[行動レコメンデーション &#x200B;](/help/blueprints/use-case-patterns/personalization/behavioral-recommendation.md) パターンを使用します。 このアプローチでは、選択戦略とランキングモデルを利用して、各訪問者のプロファイルとリアルタイムの行動にもとづいて、カテゴリーページ上の商品を並べ替えます。 これは、タスクが、行動の親和性シグナルを使用して、大規模でオープンな製品セットをランク付けする際に適したパターンです。どの製品が表示されるかを制限する適格性ルールやビジネス上の制約がないため、オファーを決定するのはここでは適切ではありません。
+[行動レコメンデーション ](/help/blueprints/use-case-patterns/personalization/behavioral-recommendation.md) パターンを使用します。 このアプローチでは、選択戦略とランキングモデルを利用して、各訪問者のプロファイルとリアルタイムの行動にもとづいて、カテゴリーページ上の商品を並べ替えます。 これは、タスクが、行動の親和性シグナルを使用して、大規模でオープンな製品セットをランク付けする際に適したパターンです。どの製品が表示されるかを制限する適格性ルールやビジネス上の制約がないため、オファーを決定するのはここでは適切ではありません。
 
 ### 技術的な考慮事項
 
@@ -139,7 +144,7 @@ ht-degree: 0%
 
 ### 導入方法
 
-[&#x200B; マルチステップ オーケストレーションされたジャーニー](/help/blueprints/use-case-patterns/campaign-management-orchestration/multi-step-orchestrated-journey.md) パターンを使用します。 このマルチステップの購入後フローでは、分岐ロジックを使用して、製品タイプ、顧客セグメント、シリーズの過去のメールとのエンゲージメントに基づいてフォローアップメッセージをカスタマイズします。 フォローアップは複数日にまたがり、フルフィルメントのステータスイベントに依存し、商品カテゴリと返品イベントにもとづいて分岐されるため、このパターンは正しいものです。1つのトリガーメッセージで、購入後のタイムライン全体で必要な条件付きロジックをサポートすることはできません。
+[ マルチステップ オーケストレーションされたジャーニー](/help/blueprints/use-case-patterns/campaign-management-orchestration/multi-step-orchestrated-journey.md) パターンを使用します。 このマルチステップの購入後フローでは、分岐ロジックを使用して、製品タイプ、顧客セグメント、シリーズの過去のメールとのエンゲージメントに基づいてフォローアップメッセージをカスタマイズします。 フォローアップは複数日にまたがり、フルフィルメントのステータスイベントに依存し、商品カテゴリと返品イベントにもとづいて分岐されるため、このパターンは正しいものです。1つのトリガーメッセージで、購入後のタイムライン全体で必要な条件付きロジックをサポートすることはできません。
 
 ### 技術的な考慮事項
 
@@ -158,7 +163,7 @@ VIPプログラムは、トップクラスの顧客から強力なエンゲー�
 
 ### 導入方法
 
-Decisioning[&#128279;](/help/blueprints/use-case-patterns/campaign-management-orchestration/cross-channel-journey-with-decisioning.md) パターンで クロスチャネルジャーニーを使用します。 このアプローチは、ジャーニーオーケストレーションとリアルタイムのオファー決定能力を組み合わせたもので、VIPの各ユーザーが、あらゆるチャネルをまたいで最も関連性の高い限定オファーを受け取れるようにします。 これは、重複するオファーを防ぐために、ジャーニーがチャネルをまたいで配信を調整する必要がある場合や、オファーの選択に適格性ルールとビジネス上の制約が必要な場合に適したパターンです。マルチステップオーケストレーションだけでは、各VIPがどの排他的なオファーを受け取るかを管理するために必要なリアルタイムの意思決定レイヤーを提供できません。
+Decisioning](/help/blueprints/use-case-patterns/campaign-management-orchestration/cross-channel-journey-with-decisioning.md) パターンで[ クロスチャネルジャーニーを使用します。 このアプローチは、ジャーニーオーケストレーションとリアルタイムのオファー決定能力を組み合わせたもので、VIPの各ユーザーが、あらゆるチャネルをまたいで最も関連性の高い限定オファーを受け取れるようにします。 これは、重複するオファーを防ぐために、ジャーニーがチャネルをまたいで配信を調整する必要がある場合や、オファーの選択に適格性ルールとビジネス上の制約が必要な場合に適したパターンです。マルチステップオーケストレーションだけでは、各VIPがどの排他的なオファーを受け取るかを管理するために必要なリアルタイムの意思決定レイヤーを提供できません。
 
 ### 技術的な考慮事項
 
@@ -178,7 +183,7 @@ Decisioning[&#128279;](/help/blueprints/use-case-patterns/campaign-management-or
 
 ### 導入方法
 
-[&#x200B; イベントをトリガーにしたメッセージ &#x200B;](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md) パターンを使用します。 このアプローチでは、再入荷イベントの通知をトリガーし、在庫の更新を顧客通知の登録と照合して、タイムリーなアラートを配信します。 トリガーは個別の在庫システムイベントであり、配送は時間を要します（在庫が再び早く売り切れる可能性があります）。また、コミュニケーションは継続的なジャーニーではなく、単一の通知であるため、これは正しいパターンです。
+[ イベントをトリガーにしたメッセージ ](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md) パターンを使用します。 このアプローチでは、再入荷イベントの通知をトリガーし、在庫の更新を顧客通知の登録と照合して、タイムリーなアラートを配信します。 トリガーは個別の在庫システムイベントであり、配送は時間を要します（在庫が再び早く売り切れる可能性があります）。また、コミュニケーションは継続的なジャーニーではなく、単一の通知であるため、これは正しいパターンです。
 
 ### 技術的な考慮事項
 
@@ -313,7 +318,7 @@ Decisioning[&#128279;](/help/blueprints/use-case-patterns/campaign-management-or
 
 ### 導入方法
 
-[&#x200B; マルチステップ オーケストレーションされたジャーニー](/help/blueprints/use-case-patterns/campaign-management-orchestration/multi-step-orchestrated-journey.md) パターンを使用して、最初の購入目標が達成されたときに、待機ステップ、エンゲージメントに基づくチャネル分岐、抑制を含む複数日のオンボーディングシーケンスを設計します。 これは、ユースケースにおいて、時系列で条件付きのロジックを使用するコミュニケーションフローが必要な場合に適したパターンです。つまり、ひとつのトリガーだけでは、新規顧客をオンボーディング体験に導くことはできません。
+[ マルチステップ オーケストレーションされたジャーニー](/help/blueprints/use-case-patterns/campaign-management-orchestration/multi-step-orchestrated-journey.md) パターンを使用して、最初の購入目標が達成されたときに、待機ステップ、エンゲージメントに基づくチャネル分岐、抑制を含む複数日のオンボーディングシーケンスを設計します。 これは、ユースケースにおいて、時系列で条件付きのロジックを使用するコミュニケーションフローが必要な場合に適したパターンです。つまり、ひとつのトリガーだけでは、新規顧客をオンボーディング体験に導くことはできません。
 
 ### 技術的な考慮事項
 
@@ -332,7 +337,7 @@ Decisioning[&#128279;](/help/blueprints/use-case-patterns/campaign-management-or
 
 ### 導入方法
 
-[&#x200B; イベントをトリガーにしたメッセージ &#x200B;](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md) パターンを使用すると、購入の意図がまだアクティブな間に、直ちにトリガーされたコミュニケーションでカート放棄イベントに応答できます。 これは、個別の顧客行動がトリガーである場合に適したパターンです。主な要件は、複数週のナーチャリングや、ビジネスの制約による複雑なオファー決定ではなく、タイムリーでパーソナライズされた対応です。
+[ イベントをトリガーにしたメッセージ ](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md) パターンを使用すると、購入の意図がまだアクティブな間に、直ちにトリガーされたコミュニケーションでカート放棄イベントに応答できます。 これは、個別の顧客行動がトリガーである場合に適したパターンです。主な要件は、複数週のナーチャリングや、ビジネスの制約による複雑なオファー決定ではなく、タイムリーでパーソナライズされた対応です。
 
 ### 技術的な考慮事項
 
@@ -352,7 +357,7 @@ Decisioning[&#128279;](/help/blueprints/use-case-patterns/campaign-management-or
 
 ### 導入方法
 
-[&#x200B; マルチステップ オーケストレーションされたジャーニー](/help/blueprints/use-case-patterns/campaign-management-orchestration/multi-step-orchestrated-journey.md) パターンを使用して、重要なマイルストーン（注文確認、発送、配送、配送後のフォローアップ）に合わせた購入後の一連のコミュニケーションを調整します。 これは、ユースケースが複数の目的を持つ複数の日に及ぶ場合に適したパターンです。ひとつのトリガーメッセージでは、取引確認からロイヤルティ構築、レビューの勧誘に至るまで、対応できません。
+[ マルチステップ オーケストレーションされたジャーニー](/help/blueprints/use-case-patterns/campaign-management-orchestration/multi-step-orchestrated-journey.md) パターンを使用して、重要なマイルストーン（注文確認、発送、配送、配送後のフォローアップ）に合わせた購入後の一連のコミュニケーションを調整します。 これは、ユースケースが複数の目的を持つ複数の日に及ぶ場合に適したパターンです。ひとつのトリガーメッセージでは、取引確認からロイヤルティ構築、レビューの勧誘に至るまで、対応できません。
 
 ### 技術的な考慮事項
 
@@ -371,7 +376,7 @@ Decisioning[&#128279;](/help/blueprints/use-case-patterns/campaign-management-or
 
 ### 導入方法
 
-[&#x200B; マルチステップ オーケストレーションされたジャーニー](/help/blueprints/use-case-patterns/campaign-management-orchestration/multi-step-orchestrated-journey.md) パターンを使用して、顧客が次の階層レベルを下回ったときに定義された支出しきい値に達したときに顧客に入り、一連の特典メッセージとインセンティブオファーを通じて顧客を導く階層近接キャンペーンを構築します。 これは、ユースケースにおいて、計算されたプロファイル属性を経時的に監視し、顧客の目標に向けた進捗状況に合わせてマルチステップのキャンペーンを調整する必要がある場合に適したパターンです。
+[ マルチステップ オーケストレーションされたジャーニー](/help/blueprints/use-case-patterns/campaign-management-orchestration/multi-step-orchestrated-journey.md) パターンを使用して、顧客が次の階層レベルを下回ったときに定義された支出しきい値に達したときに顧客に入り、一連の特典メッセージとインセンティブオファーを通じて顧客を導く階層近接キャンペーンを構築します。 これは、ユースケースにおいて、計算されたプロファイル属性を経時的に監視し、顧客の目標に向けた進捗状況に合わせてマルチステップのキャンペーンを調整する必要がある場合に適したパターンです。
 
 ### 技術的な考慮事項
 
@@ -390,7 +395,7 @@ Decisioning[&#128279;](/help/blueprints/use-case-patterns/campaign-management-or
 
 ### 導入方法
 
-[&#x200B; クロスチャネルジャーニーとDecisioning](/help/blueprints/use-case-patterns/campaign-management-orchestration/cross-channel-journey-with-decisioning.md) パターンを使用して、エンゲージメント履歴、チャネルの好み、リアルタイムの応答シグナルなどにもとづいて、パーソナライズされたチャネルシーケンスを通じて顧客をルーティングするキャンペーンを構築します。 キャンペーンで、あらゆるキャンペーン受信者に固定シーケンスを送信するのではなく、ジャーニー内のエンゲージメントにもとづいて、管理されたオファー選択、チャネル設定のルーティング、動的な分岐が必要な場合に、このパターンが適しています。
+[ クロスチャネルジャーニーとDecisioning](/help/blueprints/use-case-patterns/campaign-management-orchestration/cross-channel-journey-with-decisioning.md) パターンを使用して、エンゲージメント履歴、チャネルの好み、リアルタイムの応答シグナルなどにもとづいて、パーソナライズされたチャネルシーケンスを通じて顧客をルーティングするキャンペーンを構築します。 キャンペーンで、あらゆるキャンペーン受信者に固定シーケンスを送信するのではなく、ジャーニー内のエンゲージメントにもとづいて、管理されたオファー選択、チャネル設定のルーティング、動的な分岐が必要な場合に、このパターンが適しています。
 
 ### 技術的な考慮事項
 
@@ -428,7 +433,7 @@ AI コンシェルジュ機能を備えた小売企業では、セルフサー�
 
 ### 導入方法
 
-[&#x200B; イベントをトリガーにしたメッセージ &#x200B;](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md) パターンを使用して、顧客の誕生日が届いたときに、パーソナライズされた誕生日メッセージを送信します。 これは、プロファイル属性日付トリガーに基づいて1つのイベント駆動型メッセージが送信される場合に適したパターンです。
+[ イベントをトリガーにしたメッセージ ](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md) パターンを使用して、顧客の誕生日が届いたときに、パーソナライズされた誕生日メッセージを送信します。 これは、プロファイル属性日付トリガーに基づいて1つのイベント駆動型メッセージが送信される場合に適したパターンです。
 
 ### 技術的な考慮事項
 
@@ -446,7 +451,7 @@ AI コンシェルジュ機能を備えた小売企業では、セルフサー�
 
 ### 導入方法
 
-[&#x200B; イベントトリガーメッセージ &#x200B;](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md) パターンを使用して、買い物客の生年月日プロファイル属性に基づいて誕生日メッセージとオファーをトリガーします。 これは、顧客プロファイルに関連付けられた特定のカレンダー日付に、単一のパーソナライズされたメッセージを配信する必要がある場合に適したパターンです。
+[ イベントトリガーメッセージ ](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md) パターンを使用して、買い物客の生年月日プロファイル属性に基づいて誕生日メッセージとオファーをトリガーします。 これは、顧客プロファイルに関連付けられた特定のカレンダー日付に、単一のパーソナライズされたメッセージを配信する必要がある場合に適したパターンです。
 
 ### 技術的な考慮事項
 
@@ -464,7 +469,7 @@ AI コンシェルジュ機能を備えた小売企業では、セルフサー�
 
 ### 導入方法
 
-[&#x200B; バッチアウトバウンドメッセージのアクティベーション &#x200B;](/help/blueprints/use-case-patterns/campaign-management-orchestration/batch-outbound-message-activation.md) パターンを使用して、今後の試合に先立って、セグメント化されたファンのオーディエンスにプロモーションメッセージを送信します。 パーソナライズされたメッセージのバッチを、スケジュールどおりに事前に構築されたオーディエンスセグメントに送信する必要がある場合、このパターンが適しています。
+[ バッチアウトバウンドメッセージのアクティベーション ](/help/blueprints/use-case-patterns/campaign-management-orchestration/batch-outbound-message-activation.md) パターンを使用して、今後の試合に先立って、セグメント化されたファンのオーディエンスにプロモーションメッセージを送信します。 パーソナライズされたメッセージのバッチを、スケジュールどおりに事前に構築されたオーディエンスセグメントに送信する必要がある場合、このパターンが適しています。
 
 ### 技術的な考慮事項
 
@@ -482,7 +487,7 @@ AI コンシェルジュ機能を備えた小売企業では、セルフサー�
 
 ### 導入方法
 
-アクティブなキャンペーンウィンドウ中に、[&#x200B; バッチアウトバウンドメッセージのアクティベーション &#x200B;](/help/blueprints/use-case-patterns/campaign-management-orchestration/batch-outbound-message-activation.md) パターンを使用して、適格なオーディエンスセグメントにプロモーションメッセージを送信します。 これは、パーソナライズされたプロモーションメッセージを、スケジュールされたバッチで配信し、期限付きのキャンペーンを通じて定義されたオーディエンスにリーチする必要がある場合に適したパターンです。
+アクティブなキャンペーンウィンドウ中に、[ バッチアウトバウンドメッセージのアクティベーション ](/help/blueprints/use-case-patterns/campaign-management-orchestration/batch-outbound-message-activation.md) パターンを使用して、適格なオーディエンスセグメントにプロモーションメッセージを送信します。 これは、パーソナライズされたプロモーションメッセージを、スケジュールされたバッチで配信し、期限付きのキャンペーンを通じて定義されたオーディエンスにリーチする必要がある場合に適したパターンです。
 
 ### 技術的な考慮事項
 

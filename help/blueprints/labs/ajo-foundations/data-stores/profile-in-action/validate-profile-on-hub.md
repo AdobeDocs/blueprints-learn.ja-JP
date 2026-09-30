@@ -4,13 +4,14 @@ description: Real-Time Customer Profile Hubでプロファイルを検索し、�
 doc-type: article
 solution: Experience Platform
 exl-id: f1c8b1ac-e57c-48c6-aa91-5c83f79ce7e3
-source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
+source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
 workflow-type: tm+mt
 source-wordcount: '397'
 ht-degree: 0%
-
 ---
-
 
 # ハブでプロファイルを検証
 
@@ -37,14 +38,14 @@ Adobe Experience Platformでは、Edge Networkに送信したばかりのイベ�
 1. **プロファイル ID**&#x200B;をクリックしてプロファイルを開きます
 1. 最初に「**属性**」タブと「**ハブ**」ラジオボタンをクリックすると、**ハブプロファイル**」が表示されます
 
-![属性タブに表示されるハブプロファイル &#x200B;](assets/validate-profile-on-hub-attributes-tab.png)
+![属性タブに表示されるハブプロファイル ](assets/validate-profile-on-hub-attributes-tab.png)
 
 
 ## イベントの検証
 
 1. 上部のナビゲーションの&#x200B;**イベント**&#x200B;をクリックすると、送信したばかりのイベントが表示されます
 
-プロファイル上のストリーミングイベントを表示する![&#x200B; イベントタブ &#x200B;](assets/validate-profile-on-hub-events-tab.png)
+プロファイル上のストリーミングイベントを表示する![ イベントタブ ](assets/validate-profile-on-hub-events-tab.png)
 
 ## セグメントの検証
 
@@ -52,7 +53,7 @@ Adobe Experience Platformでは、Edge Networkに送信したばかりのイベ�
 
 1. **属性** ヘッダーをクリックし、**JSON**&#x200B;を表示します
 
-   ![&#x200B; セグメント メンバーシップを示すプロファイル属性JSON ビュー](assets/validate-profile-on-hub-json-view.png)
+   ![ セグメント メンバーシップを示すプロファイル属性JSON ビュー](assets/validate-profile-on-hub-json-view.png)
 
 2. **segmentMembership**&#x200B;を検索します。  次のようになります（IDが異なります）
 
@@ -74,7 +75,7 @@ Adobe Experience Platformでは、Edge Networkに送信したばかりのイベ�
 >
 >**segmentMembershipの読み方？**
 >
->[https://experienceleague.adobe.com/ja/docs/experience-platform/xdm/field-groups/profile/segmentation](https://experienceleague.adobe.com/ja/docs/experience-platform/xdm/field-groups/profile/segmentation)
+>[https://experienceleague.adobe.com/en/docs/experience-platform/xdm/field-groups/profile/segmentation](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/field-groups/profile/segmentation)
 >
 >**ups:**&#x200B;これは、AEPでサポートされているさまざまな種類のオーディエンスのマップキーです。  ups キーには、ルールビルダーで作成されたオーディエンスが含まれます。  その他のオーディエンスは、他のキー（AAMなど）に含まれます。
 >
@@ -93,7 +94,7 @@ Adobe Experience Platformでは、Edge Networkに送信したばかりのイベ�
    - dep：任意のイベントストリーミング（時間内）
    - dep：任意のイベントEdge（時間内）
 
-適格セグメントを表示する![&#x200B; オーディエンスメンバーシップタブ &#x200B;](assets/validate-profile-on-hub-audience-membership-tab.png)
+適格セグメントを表示する![ オーディエンスメンバーシップタブ ](assets/validate-profile-on-hub-audience-membership-tab.png)
 
 >[!NOTE]
 >

@@ -4,7 +4,10 @@ description: テストモードでオーケストレーションされたCampaig
 doc-type: article
 solution: Experience Platform
 exl-id: c3b35b27-92ae-44ca-a5fb-3f76990f9db4
-source-git-commit: df6c1852a6e0357dc9f166c88e77dcf9d334f955
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
+source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
 workflow-type: tm+mt
 source-wordcount: '678'
 ht-degree: 0%
@@ -22,11 +25,11 @@ ht-degree: 0%
 
 1. 完了すると、最終的なワークフローは次のようになります。 すべてが正常に表示されることを再確認します。 ご覧の通り：
 
-   ![&#x200B; テストの準備ができた最終的なワークフローキャンバス &#x200B;](assets/run-the-workflow-final-workflow-canvas.png)
+   ![ テストの準備ができた最終的なワークフローキャンバス ](assets/run-the-workflow-final-workflow-canvas.png)
 
 2. ワークフローをまだ停止していない場合は、右上の「**停止**」ボタンをクリックします。
 
-   ワークフローの右上にある![停止ボタン &#x200B;](assets/run-the-workflow-click-stop-button.png)
+   ワークフローの右上にある![停止ボタン ](assets/run-the-workflow-click-stop-button.png)
 
    >[!NOTE]
    >
@@ -36,21 +39,21 @@ ht-degree: 0%
 
 3. 次に、**開始** ボタンをクリックして、ワークフローをエンドツーエンドで実行およびテストします
 
-   ![&#x200B; ワークフローテストを実行するための開始ボタン &#x200B;](assets/run-the-workflow-click-start-button.png)
+   ![ ワークフローテストを実行するための開始ボタン ](assets/run-the-workflow-click-start-button.png)
 
 
 
 4. **結果**&#x200B;をクリックし、SMS アクティビティに入ってくる結果を確認します（2つの結果があるので、下に示すように左側の結果を使用します）。次に、左側のレールで「**結果をプレビュー**」ボタンをクリックします。
 
-   ![SMS アクティビティの前に選択された左結果のトランジション &#x200B;](assets/run-the-workflow-select-result-transition.png)
+   ![SMS アクティビティの前に選択された左結果のトランジション ](assets/run-the-workflow-select-result-transition.png)
 
-   ![右側のパネルの「結果をプレビュー」ボタン &#x200B;](assets/run-the-workflow-click-preview-results.png)
+   ![右側のパネルの「結果をプレビュー」ボタン ](assets/run-the-workflow-click-preview-results.png)
 
 
 
 5. **33 レコード**&#x200B;が表示され、ターゲティングディメンションが顧客ID （プロファイルへの結合キー）と一致します
 
-顧客ID![&#128279;](assets/run-the-workflow-33-records-customer-id.png)に一致するターゲティングディメンションを含む33 レコード
+顧客ID](assets/run-the-workflow-33-records-customer-id.png)に一致するターゲティングディメンションを含む![33 レコード
 
 
 
@@ -88,7 +91,7 @@ ht-degree: 0%
 
 5. 結果のプレビュー画面で、テーブルの一番下までスクロールすると、**4件のレコード**&#x200B;に&#x200B;**空白のターゲティングディメンション**&#x200B;があることがわかります。
 
-テーブルの下部に空白のターゲティングディメンションを含む![4件のレコード &#x200B;](assets/run-the-workflow-4-records-missing-dimension.png)
+テーブルの下部に空白のターゲティングディメンションを含む![4件のレコード ](assets/run-the-workflow-4-records-missing-dimension.png)
 
 
 

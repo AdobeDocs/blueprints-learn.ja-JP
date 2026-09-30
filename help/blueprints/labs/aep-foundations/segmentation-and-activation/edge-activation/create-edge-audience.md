@@ -4,13 +4,14 @@ description: Edgeで評価されたオーディエンスを構築し、公開し
 doc-type: article
 solution: Experience Platform
 exl-id: 79265a8f-81dd-41a3-89c5-c6646e435328
-source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
+source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
 workflow-type: tm+mt
 source-wordcount: '362'
 ht-degree: 0%
-
 ---
-
 
 # Edge オーディエンスの作成
 
@@ -28,7 +29,7 @@ ht-degree: 0%
 
 
 
-「オーディエンスを作成」ボタンと「ルールを作成」オプションが強調表示された![&#x200B; オーディエンスページ &#x200B;](assets/create-edge-audience-create-audience-step-1.png)
+「オーディエンスを作成」ボタンと「ルールを作成」オプションが強調表示された![ オーディエンスページ ](assets/create-edge-audience-create-audience-step-1.png)
 
 
 
@@ -47,7 +48,7 @@ ht-degree: 0%
 
 1. 下の&#x200B;**アイコン**&#x200B;の表示をクリックし、**変換**&#x200B;をクリックして、オーディエンスをキャンバス内の一連のルールに変換します
 
-![&#x200B; オーディエンスを一連のルールに変換するために使用されるキャンバス内の変換アイコン &#x200B;](assets/create-edge-audience-convert-to-rules-icon.png)
+![ オーディエンスを一連のルールに変換するために使用されるキャンバス内の変換アイコン ](assets/create-edge-audience-convert-to-rules-icon.png)
 
 ## イベントルールを更新
 
@@ -57,7 +58,7 @@ ht-degree: 0%
 1. 15
 1. 分
 
-![過去15分間にトリガーに設定されたイベントルール &#x200B;](assets/create-edge-audience-update-event-rules.png)
+![過去15分間にトリガーに設定されたイベントルール ](assets/create-edge-audience-update-event-rules.png)
 
 ## セグメントを公開
 

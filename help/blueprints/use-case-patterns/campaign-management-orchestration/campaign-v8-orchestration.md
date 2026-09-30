@@ -3,7 +3,12 @@ title: Campaign v8 Blueprint, Campaign & Platform
 description: Campaign v8の設計図について説明します。
 solution: Campaign,Campaign v8
 version: Campaign v8
-source-git-commit: 79738031788419872e32b8f754febacbfd18cc06
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
+source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
 workflow-type: tm+mt
 source-wordcount: '1046'
 ht-degree: 29%
@@ -44,7 +49,7 @@ Adobe Campaign v8は、電子メールやダイレクトメールなどの従来
 
 ## アーキテクチャ図
 
-[Campaign v8 デプロイメントモデル &#x200B;](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/architecture/architecture.html#ac-deployment){target="_blank"}の詳細をご覧ください。
+[Campaign v8 デプロイメントモデル ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/architecture/architecture.html#ac-deployment){target="_blank"}の詳細をご覧ください。
 
 ### Campaign Enterprise （FFDA）のデプロイメント
 
@@ -134,11 +139,11 @@ Adobe Campaign v8は、電子メールやダイレクトメールなどの従来
 
 ## 実装手順
 
-[Adobe Campaign v8 の実装](https://experienceleague.adobe.com/docs/campaign/campaign-v8/implement/implement.html?lang=ja)の入門ガイドを参照してください。
+[Adobe Campaign v8 の実装](https://experienceleague.adobe.com/docs/campaign/campaign-v8/implement/implement.html)の入門ガイドを参照してください。
 
 ## 関連ドキュメント
 
-- [Campaign v8 ドキュメント](https://experienceleague.adobe.com/docs/campaign-v8.html?lang=ja)
+- [Campaign v8 ドキュメント](https://experienceleague.adobe.com/docs/campaign-v8.html)
 - [Campaign v8製品説明](https://helpx.adobe.com/jp/legal/product-descriptions/adobe-campaign-managed-cloud-services.html)
-- [Experience Platform Tags ドキュメント](https://experienceleague.adobe.com/docs/launch.html?lang=ja)
-- [Experience Platform Mobile SDKのドキュメント](https://experienceleague.adobe.com/docs/mobile.html?lang=ja)
+- [Experience Platform Tags ドキュメント](https://experienceleague.adobe.com/docs/launch.html)
+- [Experience Platform Mobile SDKのドキュメント](https://experienceleague.adobe.com/docs/mobile.html)

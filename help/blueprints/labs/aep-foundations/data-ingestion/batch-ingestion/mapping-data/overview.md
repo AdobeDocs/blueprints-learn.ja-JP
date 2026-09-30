@@ -4,13 +4,14 @@ description: ソースフィールドとスキーマフィールド間のAI/ML�
 doc-type: overview-page
 solution: Experience Platform
 exl-id: 6c61093d-de03-4b76-9b4b-3e36962047da
-source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
+source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
 workflow-type: tm+mt
 source-wordcount: '116'
 ht-degree: 0%
-
 ---
-
 
 # マッピングデータ
 
@@ -20,7 +21,7 @@ ht-degree: 0%
 
 
 
-![&#x200B; パススルーマッピングに関するAI/ML ベースのコンテキストの推奨事項を示すマッピング画面](assets/overview-ai-ml-based-contextual-recommendations.png "AI/ML ベースのコンテキストの推奨事項")
+![ パススルーマッピングに関するAI/ML ベースのコンテキストの推奨事項を示すマッピング画面](assets/overview-ai-ml-based-contextual-recommendations.png "AI/ML ベースのコンテキストの推奨事項")
 
 >[!NOTE]
 >

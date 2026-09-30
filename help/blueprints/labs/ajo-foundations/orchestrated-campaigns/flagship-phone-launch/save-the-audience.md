@@ -4,13 +4,14 @@ description: ディメンションを変更し、重複を削除して、オー�
 doc-type: article
 solution: Experience Platform
 exl-id: 6422ea8d-146b-4fc7-86e6-491f77590ca1
-source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
+source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
 workflow-type: tm+mt
 source-wordcount: '805'
 ht-degree: 0%
-
 ---
-
 
 # オーディエンスを保存
 
@@ -24,7 +25,7 @@ ht-degree: 0%
 
 1. ワークフローキャンバスで、**オーディエンスを保存** ブランチの&#x200B;**+** **アイコン**&#x200B;をクリックし、アクティビティのリストから「**ディメンションを変更**」アクティビティを選択します
 
-   ![&#x200B; オーディエンスを保存ブランチにディメンションの変更アクティビティを追加](assets/save-the-audience-add-change-dimension.png)
+   ![ オーディエンスを保存ブランチにディメンションの変更アクティビティを追加](assets/save-the-audience-add-change-dimension.png)
 
 
 
@@ -32,7 +33,7 @@ ht-degree: 0%
    - **ラベル：** `Convert Line to Account`
    - **新しいターゲットディメンション：** `dep-rel: Customer Account`
 
-   ![&#x200B; ディメンション ラベルと新しいターゲット ディメンション フィールドの変更](assets/save-the-audience-change-dimension-label.png)
+   ![ ディメンション ラベルと新しいターゲット ディメンション フィールドの変更](assets/save-the-audience-change-dimension-label.png)
 
    ![顧客アカウントが新しいターゲットディメンションとして選択されました](assets/save-the-audience-select-customer-account.png)
 
@@ -44,7 +45,7 @@ ht-degree: 0%
 
 3. 完了すると、キャンバスはこのように表示されます。  あなたの作品を保存！
 
-![&#x200B; ディメンション変更アクティビティを追加した後のワークフローキャンバス &#x200B;](assets/save-the-audience-canvas-after-change-dimension.png)
+![ ディメンション変更アクティビティを追加した後のワークフローキャンバス ](assets/save-the-audience-canvas-after-change-dimension.png)
 
 
 
@@ -52,7 +53,7 @@ ht-degree: 0%
 
 1. ディメンションの変更アクティビティの後に&#x200B;**+** **アイコン**&#x200B;をクリックし、アクティビティのリストから&#x200B;**重複排除** アクティビティを選択します
 
-   ![&#x200B; ディメンションの変更後に重複排除アクティビティを追加](assets/save-the-audience-add-deduplication-activity.png)
+   ![ ディメンションの変更後に重複排除アクティビティを追加](assets/save-the-audience-add-deduplication-activity.png)
 
 
 
@@ -64,9 +65,9 @@ ht-degree: 0%
 
 3. 次に、**+属性を追加** ボタンをクリックし、**顧客ID**&#x200B;というタイトルのスキーマからフィールドを選択します
 
-   ![重複排除アクティビティの「属性を追加」ボタン &#x200B;](assets/save-the-audience-add-attribute-button.png)
+   ![重複排除アクティビティの「属性を追加」ボタン ](assets/save-the-audience-add-attribute-button.png)
 
-   ![&#x200B; スキーマから顧客ID フィールドが選択されました](assets/save-the-audience-select-customer-id-field.png)
+   ![ スキーマから顧客ID フィールドが選択されました](assets/save-the-audience-select-customer-id-field.png)
 
 
 
@@ -84,7 +85,7 @@ ht-degree: 0%
 
 5. 完了すると、キャンバスはこのようになります。 次に進む前に、右上の「**保存**」ボタンをクリックします。
 
-![&#x200B; キャンバスで重複排除アクティビティが完全に構成されました](assets/save-the-audience-deduplication-configured.png)
+![ キャンバスで重複排除アクティビティが完全に構成されました](assets/save-the-audience-deduplication-configured.png)
 
 
 
@@ -98,7 +99,7 @@ ht-degree: 0%
    - **オーディエンスラベル**: `Apple Upgrade Eligible Customer Accounts`
    - **プロファイルマッピングフィールド**: `dep-rel: Customer Account - customer id`
 
-![&#x200B; オーディエンスラベルとプロファイルマッピングフィールド設定を保存](assets/save-the-audience-label-and-profile-mapping.png)
+![ オーディエンスラベルとプロファイルマッピングフィールド設定を保存](assets/save-the-audience-label-and-profile-mapping.png)
 
 >[!NOTE]
 >
@@ -113,7 +114,7 @@ ht-degree: 0%
 - **Source オーディエンスフィールド** —>は、リレーショナルスキーマからのフィールドを指します
 - **ターゲットオーディエンスフィールド** —> オーディエンスの保存の一部として作成されるフィールドの名前
 
-![&#x200B; オーディエンスを保存アクティビティにデフォルトの顧客ID フィールドが追加されました](assets/save-the-audience-default-field-added.png)
+![ オーディエンスを保存アクティビティにデフォルトの顧客ID フィールドが追加されました](assets/save-the-audience-default-field-added.png)
 
 >[!NOTE]
 >
@@ -125,7 +126,7 @@ ht-degree: 0%
 
 1. 次に示すように、デフォルトのターゲットオーディエンスフィールドの名前を&#x200B;**Customer\_ID**&#x200B;に変更します。
 
-   ![&#x200B; ターゲットオーディエンスフィールドの名前がCustomer_ID](assets/save-the-audience-field-renamed.png)に変更されました
+   ![ ターゲットオーディエンスフィールドの名前がCustomer_ID](assets/save-the-audience-field-renamed.png)に変更されました
 
    >[!TIP]
    >
@@ -138,7 +139,7 @@ ht-degree: 0%
    - 行をアカウントに変換：`65`
    - 重複排除の顧客ID: `46`
 
-![&#x200B; ビルド、変換、重複排除のカウントを示すワークフローのテスト実行](assets/save-the-audience-test-run-counts.png)
+![ ビルド、変換、重複排除のカウントを示すワークフローのテスト実行](assets/save-the-audience-test-run-counts.png)
 
 >[!NOTE]
 >
@@ -154,7 +155,7 @@ ht-degree: 0%
 
 オーディエンスを保存する前に重複排除を行わない場合はどうなりますか？  オーディエンスは65のレコードをすべて保存するのか、46のレコードのみを保存するのか？
 
-![事前に重複排除なしでオーディエンスチャレンジシナリオを保存する「事前に重複排除アクティビティを使用してオーディエンスを保存」 &#x200B;](assets/save-the-audience-challenge-without-dedup.png "事前に重複排除アクティビティを使用してオーディエンスを保存")
+![事前に重複排除なしでオーディエンスチャレンジシナリオを保存する「事前に重複排除アクティビティを使用してオーディエンスを保存」 ](assets/save-the-audience-challenge-without-dedup.png "事前に重複排除アクティビティを使用してオーディエンスを保存")
 
 
 

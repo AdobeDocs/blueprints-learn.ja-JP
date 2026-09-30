@@ -4,13 +4,14 @@ description: プレビューエラー診断を使用して、失敗したデー�
 doc-type: article
 solution: Experience Platform
 exl-id: beee191b-a860-494c-873f-ab2e407ffbf5
-source-git-commit: 0b33b2740ee7f5af73d64f217b4475650c1d28a0
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
+source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
 workflow-type: tm+mt
 source-wordcount: '288'
 ht-degree: 0%
-
 ---
-
 
 # エラーのデバッグ
 
@@ -21,15 +22,15 @@ ht-degree: 0%
 1. **データフロー実行開始日**&#x200B;をクリック
 1. **エラー診断のプレビュー**&#x200B;をクリックして、失敗した各行の具体的な詳細を確認します
 
-失敗を示す![&#x200B; データフロー実行ステータス &#x200B;](assets/debugging-errors-dataflow-run-failure.png " データフロー実行エラー")
+失敗を示す![ データフロー実行ステータス ](assets/debugging-errors-dataflow-run-failure.png " データフロー実行エラー")
 
-![&#x200B; データフロー実行の詳細画面のエラー診断リンクのプレビュー](assets/debugging-errors-preview-error-diagnostics-link.png " エラー診断のプレビュー")
+![ データフロー実行の詳細画面のエラー診断リンクのプレビュー](assets/debugging-errors-preview-error-diagnostics-link.png " エラー診断のプレビュー")
 
 
 
 画面には、エラーコードが完全なエラーメッセージと失敗した行の意味に関する詳細が表示されます。
 
-エラーコード、メッセージ、失敗した行を表示する![&#x200B; エラー診断の詳細画面](assets/debugging-errors-error-diagnostics-detail-screen.png " エラー診断プレビュー")
+エラーコード、メッセージ、失敗した行を表示する![ エラー診断の詳細画面](assets/debugging-errors-error-diagnostics-detail-screen.png " エラー診断プレビュー")
 
 >[!NOTE]
 >

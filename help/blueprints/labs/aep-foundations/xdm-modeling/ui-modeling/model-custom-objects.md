@@ -4,7 +4,10 @@ description: スキーマエディターで、列挙値を含むカスタムア�
 doc-type: article
 solution: Experience Platform
 exl-id: 8c39b226-05f3-458a-b023-c59221a6713a
-source-git-commit: df6c1852a6e0357dc9f166c88e77dcf9d334f955
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
+source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
 workflow-type: tm+mt
 source-wordcount: '988'
 ht-degree: 0%
@@ -33,7 +36,7 @@ ht-degree: 0%
 
 1. スキーマの上部にある「**+（追加）**」ボタンをクリックして、新しいフィールドを追加します
 
-   ![&#x200B; スキーマの上部にある（+） ボタンを追加して、カスタムフィールドを追加します](assets/model-custom-objects-add-a-custom-field-to-your-schema.png)
+   ![ スキーマの上部にある（+） ボタンを追加して、カスタムフィールドを追加します](assets/model-custom-objects-add-a-custom-field-to-your-schema.png)
 
    >[!NOTE]
    >
@@ -85,7 +88,7 @@ ht-degree: 0%
 
 
 
-   ![&#x200B; アカウントオブジェクトと子フィールドを追加した顧客アカウントスキーマ &#x200B;](assets/model-custom-objects-account-object-with-child-fields.png)
+   ![ アカウントオブジェクトと子フィールドを追加した顧客アカウントスキーマ ](assets/model-custom-objects-account-object-with-child-fields.png)
 
 
 
@@ -106,7 +109,7 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >列挙と推奨値の目標は、エンドユーザーのセグメンテーションを簡単にすることです。 列挙は、データ取り込み時に検証を適用しますが、推奨値は適用されません。 この機能について詳しくは、こちらのドキュメントをご覧ください – > [https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/fields/enum.html?lang=ja#enums-and-suggested-values](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/fields/enum.html?lang=ja#enums-and-suggested-values)
+   >列挙と推奨値の目標は、エンドユーザーのセグメンテーションを簡単にすることです。 列挙は、データ取り込み時に検証を適用しますが、推奨値は適用されません。 この機能について詳しくは、こちらのドキュメントをご覧ください – > [https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/fields/enum.html?lang=en#enums-and-suggested-values](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/fields/enum.html?lang=en#enums-and-suggested-values)
 
 
 
@@ -149,7 +152,7 @@ ht-degree: 0%
 
 
 
-![&#x200B; プランオブジェクトと子フィールドを含む顧客アカウントスキーマ &#x200B;](assets/model-custom-objects-plan-object-with-child-fields.png)
+![ プランオブジェクトと子フィールドを含む顧客アカウントスキーマ ](assets/model-custom-objects-plan-object-with-child-fields.png)
 
 >[!TIP]
 >
@@ -177,7 +180,7 @@ ht-degree: 0%
 
 最終的な結果は、以下のスクリーンショットのようになります
 
-![customerID フィールドがルート &#x200B;](assets/model-custom-objects-customerid-field-added.png)に追加された顧客アカウントスキーマ
+![customerID フィールドがルート ](assets/model-custom-objects-customerid-field-added.png)に追加された顧客アカウントスキーマ
 
 
 
@@ -185,7 +188,7 @@ ht-degree: 0%
 
 
 
-![すべてのカスタムオブジェクトとフィールドが追加された最終スキーマ &#x200B;](assets/model-custom-objects-final-schema-with-custom-objects.jpeg " カスタムオブジェクトを使用した最終スキーマ ")
+![すべてのカスタムオブジェクトとフィールドが追加された最終スキーマ ](assets/model-custom-objects-final-schema-with-custom-objects.jpeg " カスタムオブジェクトを使用した最終スキーマ ")
 
 >[!SUCCESS]
 >

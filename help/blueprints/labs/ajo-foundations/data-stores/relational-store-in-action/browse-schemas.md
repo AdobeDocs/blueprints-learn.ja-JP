@@ -4,13 +4,14 @@ description: Adobe Experience Platformでリレーショナルスキーマを参
 doc-type: article
 solution: Experience Platform
 exl-id: ac0e6743-4a83-4a8b-9bc6-f012b636312e
-source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
+source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
 workflow-type: tm+mt
 source-wordcount: '310'
 ht-degree: 0%
-
 ---
-
 
 # スキーマを参照
 
@@ -40,7 +41,7 @@ Connection 5G リレーショナルデータモデルは既に作成されてい
 
 1. 「**関係**」タブをクリックし、「**関係図を表示**」ボタンをクリックします
 
-   ![関係図を表示ボタン付きの「関係」タブ &#x200B;](assets/browse-schemas-relationships-tab.png)
+   ![関係図を表示ボタン付きの「関係」タブ ](assets/browse-schemas-relationships-tab.png)
 
 
 
@@ -53,13 +54,13 @@ Connection 5G リレーショナルデータモデルは既に作成されてい
 
 4. ERDで、**3 ドット**&#x200B;をクリックし、**関連エンティティを表示**&#x200B;を選択します
 
-   ![ERD コンテキストメニューで「関連エンティティを表示」オプション &#x200B;](assets/browse-schemas-show-related-entities.png)
+   ![ERD コンテキストメニューで「関連エンティティを表示」オプション ](assets/browse-schemas-show-related-entities.png)
 
 
 
 5. dep-rel：顧客アカウントに直接関連するすべてのテーブルを含むERDを表示します。 オプションで、ERDをPNG ファイルとしてダウンロードできます。
 
-顧客アカウントに関連するテーブルを示す![&#x200B; エンティティ関係ダイアグラム &#x200B;](assets/browse-schemas-erd-diagram.png)
+顧客アカウントに関連するテーブルを示す![ エンティティ関係ダイアグラム ](assets/browse-schemas-erd-diagram.png)
 
 >[!TIP]
 >
@@ -69,4 +70,4 @@ Connection 5G リレーショナルデータモデルは既に作成されてい
 
 これで、スキーマと関係UIを簡単に操作できるようになりました。  特定のスキーマを選択し、移動して関係を表示し、キャンペーンオーケストレーションでデータを理解し、使用するのに役立ちます。
 
-ご興味のある方は、[こちら](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/data-management/get-started-schemas)をご覧ください。
+ご興味のある方は、[こちら](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/data-management/get-started-schemas)をご覧ください。

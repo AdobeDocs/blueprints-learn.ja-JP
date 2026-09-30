@@ -4,7 +4,10 @@ description: Postman環境ファイルを読み込み、bootcampのAPI呼び出�
 doc-type: article
 solution: Experience Platform
 exl-id: 1461fac5-0714-44d4-b5c8-949df6bcff83
-source-git-commit: df6c1852a6e0357dc9f166c88e77dcf9d334f955
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
+source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
 workflow-type: tm+mt
 source-wordcount: '472'
 ht-degree: 0%
@@ -64,7 +67,7 @@ API呼び出しを行う前に、インポートした環境ファイルのい�
 
 完了すると、環境ファイルは次の画像のようになります。
 
-![CLIENT_SECRET、CLIENT_ID、TECHNICAL_ACCOUNT_ID、およびIMS_ORGの値を更新した後の環境ファイル &#x200B;](assets/environment-file-with-developer-project-values.png "開発者プロジェクトの値を含む環境ファイル ")
+![CLIENT_SECRET、CLIENT_ID、TECHNICAL_ACCOUNT_ID、およびIMS_ORGの値を更新した後の環境ファイル ](assets/environment-file-with-developer-project-values.png "開発者プロジェクトの値を含む環境ファイル ")
 
 ### 他の値を更新
 
@@ -89,7 +92,7 @@ API呼び出しを行う前に、インポートした環境ファイルのい�
 
 完了したら、環境ファイルは次のようになります。
 
-![SANDBOX_NAMEとTENANT_NAMEの値を更新した後の環境ファイル &#x200B;](assets/environment-file-with-sandbox-name-and-tenant-name.png "SANDBOX_NAME")の環境ファイル
+![SANDBOX_NAMEとTENANT_NAMEの値を更新した後の環境ファイル ](assets/environment-file-with-sandbox-name-and-tenant-name.png "SANDBOX_NAME")の環境ファイル
 
 >[!SUCCESS]
 >

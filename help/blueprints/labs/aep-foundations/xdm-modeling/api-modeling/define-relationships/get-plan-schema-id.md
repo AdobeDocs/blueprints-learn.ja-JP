@@ -4,13 +4,14 @@ description: テナントスキーマレジストリ APIをクエリして、リ
 doc-type: article
 solution: Experience Platform
 exl-id: f66e0483-b5b3-4493-b752-c4e00211a8bd
-source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
+source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
 workflow-type: tm+mt
 source-wordcount: '171'
 ht-degree: 0%
-
 ---
-
 
 # プラン スキーマ IDを取得
 
@@ -32,7 +33,7 @@ ht-degree: 0%
 1. 呼び出し応答で`dep: Plan [Lookup] ` スキーマを検索します
 1. スキーマの`$id`をコピーし、後で参照できるように保存します
 
-![Dep: プラン検索スキーマ $id （API応答に含まれる） &#x200B;](assets/get-plan-schema-id-dep-lookup-plan-schema-sid.png "dep: ルックアップ プラン スキーマ $id")
+![Dep: プラン検索スキーマ $id （API応答に含まれる） ](assets/get-plan-schema-id-dep-lookup-plan-schema-sid.png "dep: ルックアップ プラン スキーマ $id")
 
 >[!NOTE]
 >

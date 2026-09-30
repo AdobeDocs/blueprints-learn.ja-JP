@@ -4,13 +4,14 @@ description: オファー収集、適格性ルール、ランキング式を結�
 doc-type: article
 solution: Experience Platform
 exl-id: 066ad087-6845-4ab5-9a6e-8dad1aa848f8
-source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
+source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
 workflow-type: tm+mt
 source-wordcount: '723'
 ht-degree: 0%
-
 ---
-
 
 # 選択戦略の作成
 
@@ -25,7 +26,7 @@ ht-degree: 0%
 1. 必要に応じて、左側のパネルで「**Decisioning**」を展開し、「**戦略設定**」をクリックします。 「決定ルール」ページに移動します。ここでは、以前に作成した「上位プラン」決定ルールが表示され、上位の電話オファー項目の適格要件として使用されます。
 2. 「ランキング方法」メニューのすぐ下の&#x200B;**選択戦略**&#x200B;をクリックします。 選択戦略が使用できない場合は、青い&#x200B;**選択戦略を作成** ボタンをクリックします。
 
-   ![選択戦略を作成ボタンを使用した選択戦略ページ &#x200B;](assets/create-selection-strategy-create-button.png)
+   ![選択戦略を作成ボタンを使用した選択戦略ページ ](assets/create-selection-strategy-create-button.png)
 
 3. 選択戦略&#x200B;**iPhone 17選択戦略**&#x200B;に名前を付けます
 4. 選択戦略には3つの要素が必要です。
@@ -51,7 +52,7 @@ ht-degree: 0%
 
 7. 所有している唯一のランキング式（**iPhone 17 ランキング式**）の横にあるボックスにチェックを入れ、**保存**&#x200B;をクリックします。 終了すると、選択戦略は次のようになります。
 
-   ![&#x200B; コレクション、実施要件、ランキング式が設定された選択戦略を完了しました](assets/create-selection-strategy-completed-configuration.png)
+   ![ コレクション、実施要件、ランキング式が設定された選択戦略を完了しました](assets/create-selection-strategy-completed-configuration.png)
 
 8. 選択の戦略が正しい場合は、青い「**作成**」ボタンをクリックします。
 

@@ -4,7 +4,10 @@ description: 主力の電話発売後にSMS アップグレードオファーを
 doc-type: overview-page
 solution: Experience Platform
 exl-id: 04c509f1-aa10-4d29-aa59-5e627b79e498
-source-git-commit: df6c1852a6e0357dc9f166c88e77dcf9d334f955
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
+source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
 workflow-type: tm+mt
 source-wordcount: '283'
 ht-degree: 0%
@@ -18,9 +21,9 @@ ht-degree: 0%
 >
 >以下のラボは、このラボを開始する前に完了している必要があります
 
-- **Postman setup** **—>** [Postman インストール &#x200B;](../../postman-setup/postman-installation.md)
+- **Postman setup** **—>** [Postman インストール ](../../postman-setup/postman-installation.md)
 - **Data Stores — リレーショナルストアの動作** **—>** [Profile Target Dimension](../../data-stores/relational-store-in-action/profile-target-dimension.md)
-- **データストア – メールチャネルの設定 – >** [&#x200B; リレーショナル用に設定](../../data-stores/configure-email-channels/configure-for-relational.md)
+- **データストア – メールチャネルの設定 – >** [ リレーショナル用に設定](../../data-stores/configure-email-channels/configure-for-relational.md)
   *（この設定ステップを完了するのに最大3時間かかります）*
 
 ラボを完了していない場合は、続行する前に今すぐ完了してください。

@@ -3,14 +3,17 @@ title: アーキテクチャ図
 description: Adobe Experience Platformとそのアプリケーションに関するビジュアルアーキテクチャとデータフローの参照図。プラットフォームアーキテクチャ、オーディエンスアクティベーション、B2B マーケティング、カスタマーインサイト、カスタマージャーニーをカバーしています。
 solution: Experience Platform
 doc-type: overview-page
-source-git-commit: 79738031788419872e32b8f754febacbfd18cc06
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
+source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
 workflow-type: tm+mt
 source-wordcount: '294'
 ht-degree: 0%
 ---
 # アーキテクチャ図
 
-アーキテクチャ図とは、システムの統合ポイント、データとコンテンツのフロー、一連の処理など、Adobe Experience Platformとアプリケーションが連携する過程を視覚的かつ技術的に示したものです。 [&#x200B; ユースケースパターン &#x200B;](/help/blueprints/use-case-patterns/overview.md)のステップバイステップのガイダンスに入る前に、ソリューションの設計を理解するために使用します。
+アーキテクチャ図とは、システムの統合ポイント、データとコンテンツのフロー、一連の処理など、Adobe Experience Platformとアプリケーションが連携する過程を視覚的かつ技術的に示したものです。 [ ユースケースパターン ](/help/blueprints/use-case-patterns/overview.md)のステップバイステップのガイダンスに入る前に、ソリューションの設計を理解するために使用します。
 
 これらの図は、次のカテゴリに整理されています。 特定のカテゴリーのランディングページやリードダイアグラムに移動するには、カードを選択します。左側のナビゲーションを使用して、カテゴリー内のあらゆるダイアグラムを参照します。
 
@@ -79,6 +82,6 @@ ht-degree: 0%
 
 ## 関連コンテンツ
 
-* [&#x200B; ユースケースパターン &#x200B;](/help/blueprints/use-case-patterns/overview.md) – これらのアーキテクチャ上に構築される反復可能な実装アプローチ
+* [ ユースケースパターン ](/help/blueprints/use-case-patterns/overview.md) – これらのアーキテクチャ上に構築される反復可能な実装アプローチ
 * [主なビジネス目標](/help/blueprints/business-objectives/overview.md) – これらのアーキテクチャが達成するビジネス成果
-* [業界ユースケース &#x200B;](/help/blueprints/industry-use-cases/use-case-catalog.md) – これらのパターンの垂直固有のアプリケーション
+* [業界ユースケース ](/help/blueprints/industry-use-cases/use-case-catalog.md) – これらのパターンの垂直固有のアプリケーション

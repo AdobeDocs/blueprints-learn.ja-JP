@@ -3,13 +3,14 @@ title: B2B Audience Activation
 description: web、電子メール、広告のチャネルをまたいでアカウントベースのB2B オーディエンスを活用する方法について解説します。
 solution: Real-Time Customer Data Platform
 exl-id: 2b979159-37aa-41d4-a6b4-1105538f6546
-source-git-commit: 349d26f612d4002d1de3d27c7f893bd63ac467a3
+product_v2:
+  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+    internal-label: Real-Time Customer Data Platform
+source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
 workflow-type: tm+mt
 source-wordcount: '1540'
 ht-degree: 2%
-
 ---
-
 # B2B オーディエンスのアクティベーション
 
 このガイドでは、[!DNL Adobe Real-Time Customer Data Platform] （[!DNL RT-CDP]）B2B editionを使用して、web、メール、広告、CRM チャネルをまたいでアカウントレベルのオーディエンスを構築、評価、アクティブ化するB2B オーディエンスのアクティベーションのユースケース パターンについて説明します。 このパターンの仕組み、ビジネス目標、戦術的なユースケース、関連するAdobe アプリケーションについて理解する必要があるソリューションアーキテクト、マーケティングテクノロジスト、実装エンジニア向けに設計されています。
@@ -33,7 +34,7 @@ B2B マーケティング部門は、個人レベルではなく、アカウン�
 アクティブ化されたアカウントオーディエンスは、需要創出funnelのユースケースを強化します。[!DNL LinkedIn]のfunnel上部の認知キャンペーン、ディスプレイ広告、[!DNL Marketo Engage]のfunnel中央のナーチャリングプログラム、CRM統合によるfunnel下部のセールスイネーブルメントです。 アカウント抑制オーディエンスは、既存顧客、クローズドまたはアクティブな販売サイクルにあるアカウントを除外することで、支出の無駄を防ぎます。
 
 >[!NOTE]
->ユースケースで、アカウントレベルではなく個人レベル（B2C）でオーディエンスをアクティブ化する場合は、[宛先へのオーディエンスアクティベーション &#x200B;](../audience-building-activation/audience-activation-to-destinations.md)を参照してください。 このパターンでは、標準のRT-CDP データモデルが使用され、B2B editionは必要ありません。
+>ユースケースで、アカウントレベルではなく個人レベル（B2C）でオーディエンスをアクティブ化する場合は、[宛先へのオーディエンスアクティベーション ](../audience-building-activation/audience-activation-to-destinations.md)を参照してください。 このパターンでは、標準のRT-CDP データモデルが使用され、B2B editionは必要ありません。
 
 ## 主なビジネス目標
 
@@ -115,65 +116,65 @@ B2B マーケティング部門は、個人レベルではなく、アカウン�
 **[!DNL RT-CDP]B2B edition**
 
 - [Real-Time CDP B2B editionの概要](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/overview#rtcdp-b2b)
-- [Real-Time CDPのB2B スキーマ](https://experienceleague.adobe.com/ja/docs/experience-platform/rtcdp/schemas/b2b)
-- [アカウントオーディエンス](https://experienceleague.adobe.com/ja/docs/experience-platform/segmentation/types/account-audiences)
-- [RT-CDP B2B edition製品の説明](https://helpx.adobe.com/jp/legal/product-descriptions/real-time-customer-data-platform-b2b-edition-prime-and-ultimate-packages.html)
+- [Real-Time CDPのB2B スキーマ](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/schemas/b2b)
+- [アカウントオーディエンス](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/types/account-audiences)
+- [RT-CDP B2B edition製品の説明](https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-b2b-edition-prime-and-ultimate-packages.html)
 
 **オーディエンスの評価とセグメント化**
 
-- [セグメント サービスの概要](https://experienceleague.adobe.com/ja/docs/experience-platform/segmentation/home)
-- [セグメントビルダーUI ガイド](https://experienceleague.adobe.com/ja/docs/experience-platform/segmentation/ui/segment-builder)
-- [オーディエンス構成](https://experienceleague.adobe.com/ja/docs/experience-platform/segmentation/ui/audience-composition)
-- [ストリーミングセグメンテーション](https://experienceleague.adobe.com/ja/docs/experience-platform/segmentation/methods/streaming-segmentation)
-- [セグメント化のガードレール](https://experienceleague.adobe.com/ja/docs/experience-platform/profile/guardrails)
+- [セグメント サービスの概要](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/home)
+- [セグメントビルダーUI ガイド](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/segment-builder)
+- [オーディエンス構成](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/audience-composition)
+- [ストリーミングセグメンテーション](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/methods/streaming-segmentation)
+- [セグメント化のガードレール](https://experienceleague.adobe.com/en/docs/experience-platform/profile/guardrails)
 
 **宛先とアクティブ化**
 
-- [宛先の概要](https://experienceleague.adobe.com/ja/docs/experience-platform/destinations/home)
-- [宛先カタログ](https://experienceleague.adobe.com/ja/docs/experience-platform/destinations/catalog/overview)
-- [Marketo Engageの宛先](https://experienceleague.adobe.com/ja/docs/experience-platform/destinations/catalog/adobe/marketo-engage)
-- [LinkedIn Matched Audiencesの宛先](https://experienceleague.adobe.com/ja/docs/experience-platform/destinations/catalog/social/linkedin)
-- [Salesforce CRMの宛先](https://experienceleague.adobe.com/ja/docs/experience-platform/destinations/catalog/crm/salesforce)
-- [Microsoft Dynamics 365の宛先](https://experienceleague.adobe.com/ja/docs/experience-platform/destinations/catalog/crm/microsoft-dynamics-365)
-- [Amazon S3の宛先](https://experienceleague.adobe.com/ja/docs/experience-platform/destinations/catalog/cloud-storage/amazon-s3)
-- [ストリーミング配信先でオーディエンスを活用](https://experienceleague.adobe.com/ja/docs/experience-platform/destinations/ui/activate/activate-segment-streaming-destinations)
-- [バッチ配信先でオーディエンスを活用](https://experienceleague.adobe.com/ja/docs/experience-platform/destinations/ui/activate/activate-batch-profile-destinations)
-- [アクティベーションガードレール](https://experienceleague.adobe.com/ja/docs/experience-platform/destinations/guardrails)
+- [宛先の概要](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/home)
+- [宛先カタログ](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/overview)
+- [Marketo Engageの宛先](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/adobe/marketo-engage)
+- [LinkedIn Matched Audiencesの宛先](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/social/linkedin)
+- [Salesforce CRMの宛先](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/crm/salesforce)
+- [Microsoft Dynamics 365の宛先](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/crm/microsoft-dynamics-365)
+- [Amazon S3の宛先](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/cloud-storage/amazon-s3)
+- [ストリーミング配信先でオーディエンスを活用](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/activate-segment-streaming-destinations)
+- [バッチ配信先でオーディエンスを活用](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/activate-batch-profile-destinations)
+- [アクティベーションガードレール](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/guardrails)
 
 **データソースとコネクタ**
 
-- [ソースの概要](https://experienceleague.adobe.com/ja/docs/experience-platform/sources/home)
-- [Marketo Engage コネクタ](https://experienceleague.adobe.com/ja/docs/experience-platform/sources/connectors/adobe-applications/marketo/marketo)
-- [Salesforce コネクタ](https://experienceleague.adobe.com/ja/docs/experience-platform/sources/connectors/crm/salesforce)
+- [ソースの概要](https://experienceleague.adobe.com/en/docs/experience-platform/sources/home)
+- [Marketo Engage コネクタ](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/adobe-applications/marketo/marketo)
+- [Salesforce コネクタ](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/crm/salesforce)
 
 **データモデリングとID**
 
-- [XDM システムの概要](https://experienceleague.adobe.com/ja/docs/experience-platform/xdm/home)
-- [ID サービスの概要](https://experienceleague.adobe.com/ja/docs/experience-platform/identity/home)
-- [プロファイルの概要](https://experienceleague.adobe.com/ja/docs/experience-platform/profile/home)
-- [結合ポリシーの概要](https://experienceleague.adobe.com/ja/docs/experience-platform/profile/merge-policies/overview)
+- [XDM システムの概要](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/home)
+- [ID サービスの概要](https://experienceleague.adobe.com/en/docs/experience-platform/identity/home)
+- [プロファイルの概要](https://experienceleague.adobe.com/en/docs/experience-platform/profile/home)
+- [結合ポリシーの概要](https://experienceleague.adobe.com/en/docs/experience-platform/profile/merge-policies/overview)
 
 **データガバナンスとプライバシー**
 
-- [データガバナンスの概要](https://experienceleague.adobe.com/ja/docs/experience-platform/data-governance/home)
+- [データガバナンスの概要](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/home)
 - [データ使用状況ラベルの概要](https://experienceleague.adobe.com/ja/docs/experience-platform/data-governance/labels/overview)
 - [同意と環境設定](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/consent/adobe/overview)
 
 **監視と監視**
 
-- [アラートの概要](https://experienceleague.adobe.com/ja/docs/experience-platform/observability/alerts/overview)
-- [宛先データフローの監視](https://experienceleague.adobe.com/ja/docs/experience-platform/dataflows/ui/monitor-destinations)
-- [ソースデータフローの監視](https://experienceleague.adobe.com/ja/docs/experience-platform/sources/api-tutorials/monitor)
+- [アラートの概要](https://experienceleague.adobe.com/en/docs/experience-platform/observability/alerts/overview)
+- [宛先データフローの監視](https://experienceleague.adobe.com/en/docs/experience-platform/dataflows/ui/monitor-destinations)
+- [ソースデータフローの監視](https://experienceleague.adobe.com/en/docs/experience-platform/sources/api-tutorials/monitor)
 - [ライセンス使用状況ダッシュボード](https://experienceleague.adobe.com/en/docs/experience-platform/landing/license-usage-and-guardrails/license-usage-dashboard)
 
 **レポートと分析**
 
-- [CJAの概要](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/cja-overview/cja-overview)
-- [接続の概要](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/cja-connections/overview)
-- [データビューの概要](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/cja-dataviews/data-views)
+- [CJAの概要](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-overview)
+- [接続の概要](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-connections/overview)
+- [データビューの概要](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/data-views)
 
 **チュートリアルとガイド**
 
 - [Real-Time CDP B2B editionの導入方法](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/intro/rtcdpb2b-intro)
-- [B2B ソースのスキーマの作成](https://experienceleague.adobe.com/ja/docs/experience-platform/rtcdp/schemas/b2b)
-- [サンドボックスツール](https://experienceleague.adobe.com/ja/docs/experience-platform/sandbox/sandbox-tooling-api/overview)
+- [B2B ソースのスキーマの作成](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/schemas/b2b)
+- [サンドボックスツール](https://experienceleague.adobe.com/en/docs/experience-platform/sandbox/sandbox-tooling-api/overview)

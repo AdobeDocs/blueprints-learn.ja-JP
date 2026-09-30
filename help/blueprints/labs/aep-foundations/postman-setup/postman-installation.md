@@ -4,13 +4,14 @@ description: Postmanをインストールし、bootcamp API labsを開始する�
 doc-type: article
 solution: Experience Platform
 exl-id: 012878d9-fe87-4178-8b36-40b267b06760
-source-git-commit: 0b33b2740ee7f5af73d64f217b4475650c1d28a0
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
+source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
 workflow-type: tm+mt
 source-wordcount: '378'
 ht-degree: 0%
-
 ---
-
 
 # Postman インストール
 
@@ -24,7 +25,7 @@ ht-degree: 0%
 
 Postman web サイトに移動し、Postman アプリをダウンロードするか、Web バージョンを利用します – > [https://www.postman.com/download/](https://www.postman.com/download/)
 
-![&#x200B; デスクトップアプリのインストールまたはweb バージョンの使用に関するPostmanのダウンロードページ &#x200B;](assets/postman-installation-download-page.png)
+![ デスクトップアプリのインストールまたはweb バージョンの使用に関するPostmanのダウンロードページ ](assets/postman-installation-download-page.png)
 
 
 
@@ -32,7 +33,7 @@ Postman web サイトに移動し、Postman アプリをダウンロードする
 
 Postmanを開き、アプリケーションのいくつかの領域をすばやく確認します。 Experience Platformを使用する上で本当に必要なのは、アプリケーションのいくつかの重要な領域に集中することだけです。
 
-![&#x200B; サイドバー、ヘッダー、メイン作業領域、フッターを強調表示するPostman インターフェイス &#x200B;](assets/postman-installation-interface-overview.png "Postman インターフェイス ")
+![ サイドバー、ヘッダー、メイン作業領域、フッターを強調表示するPostman インターフェイス ](assets/postman-installation-interface-overview.png "Postman インターフェイス ")
 
 ## サイドバー
 

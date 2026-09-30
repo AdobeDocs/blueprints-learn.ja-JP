@@ -4,7 +4,10 @@ description: PostmanでOAuth サーバー間アクセストークンを生成し
 doc-type: article
 solution: Experience Platform
 exl-id: e38a1bd4-5a09-40c6-8303-c3770801c864
-source-git-commit: df6c1852a6e0357dc9f166c88e77dcf9d334f955
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
+source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
 workflow-type: tm+mt
 source-wordcount: '562'
 ht-degree: 0%
@@ -53,7 +56,7 @@ AdobeがAPIをどのように保護し、それらを使用するために必要
 1. Postmanの右上隅に、環境ドロップダウンが表示されます。 ドロップダウンから`AEP Bootcamp`環境を選択します
 1. 次に、「送信」ボタンをクリックして呼び出しを実行します
 
-![IMS Authenticate呼び出しを送信してアクセストークンを生成した後のPostman リクエスト &#x200B;](assets/access-token-execute-ims-authenticate-request.png)
+![IMS Authenticate呼び出しを送信してアクセストークンを生成した後のPostman リクエスト ](assets/access-token-execute-ims-authenticate-request.png)
 
 レスポンスの成功は次のようになります。
 

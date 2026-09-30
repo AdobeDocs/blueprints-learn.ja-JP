@@ -4,7 +4,10 @@ description: bootcampのPostman API コレクションを読み込み、その�
 doc-type: article
 solution: Experience Platform
 exl-id: 7562c7f1-0d60-4a3a-8bce-fa42bda08962
-source-git-commit: df6c1852a6e0357dc9f166c88e77dcf9d334f955
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
+source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
 workflow-type: tm+mt
 source-wordcount: '424'
 ht-degree: 0%
@@ -50,7 +53,7 @@ ht-degree: 0%
 1. 必要に応じて、左側のパネルの&#x200B;**コレクション**&#x200B;をクリックし、**プロファイルとジャーニーラボ** フォルダーを展開します。
 2. **Web イベントの作成** リクエストをクリックすると、環境変数が&#x200B;**red**&#x200B;であることがわかります
 
-   環境が選択されていないため、環境変数が赤で強調表示されている![Postman リクエスト &#x200B;](assets/import-api-collection-environment-variables-shown-red.png "postman環境変数が赤で表示されていることを確認")
+   環境が選択されていないため、環境変数が赤で強調表示されている![Postman リクエスト ](assets/import-api-collection-environment-variables-shown-red.png "postman環境変数が赤で表示されていることを確認")
 
 3. 右上隅の&#x200B;**環境ドロップダウン**&#x200B;をクリックし、**AJO Bootcamp**&#x200B;環境を選択します。
 

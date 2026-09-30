@@ -4,7 +4,10 @@ description: サードパーティエンドポイントを呼び出して配送E
 doc-type: article
 solution: Experience Platform
 exl-id: f81cc8be-bc2a-43cb-a2d4-89834aa94dcb
-source-git-commit: df6c1852a6e0357dc9f166c88e77dcf9d334f955
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
+source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
 workflow-type: tm+mt
 source-wordcount: '492'
 ht-degree: 0%
@@ -30,7 +33,7 @@ ht-degree: 0%
 
 1. 右上の「**アクションを作成**」ボタンをクリックします
 
-   ![右上の「アクションを作成」ボタン &#x200B;](assets/configure-custom-action-click-create-action-button.png)
+   ![右上の「アクションを作成」ボタン ](assets/configure-custom-action-click-create-action-button.png)
 
 2. 表示される設定パネルで、次に示すように次の基本値を更新します。
    - **名前**: `GetShippingDetails`
@@ -59,7 +62,7 @@ ht-degree: 0%
 
 - **認証タイプ**: `No Authentication`
 
-![&#x200B; カスタムアクション用に設定されたエンドポイント URL、メソッドおよびクエリパラメーター](assets/configure-custom-action-endpoint-details-configured.png)
+![ カスタムアクション用に設定されたエンドポイント URL、メソッドおよびクエリパラメーター](assets/configure-custom-action-endpoint-details-configured.png)
 
 ![認証タイプがエンドポイントの認証なし](assets/configure-custom-action-endpoint-details-configured--2.png)に設定されました
 
@@ -73,7 +76,7 @@ ht-degree: 0%
 
    ![鉛筆アイコンを使用して、ペイロード領域でフィールド設定画面を開く](assets/configure-custom-action-open-field-configuration.png)
 
-   応答ペイロードの![&#x200B; フィールド設定画面](assets/configure-custom-action-open-field-configuration--2.png)
+   応答ペイロードの![ フィールド設定画面](assets/configure-custom-action-open-field-configuration--2.png)
 
 
 
@@ -93,7 +96,7 @@ ht-degree: 0%
 
 3. 応答ペイロードが表示されます。 「**保存**」ボタンをクリックします。
 
-![保存ボタンで表示される応答ペイロード &#x200B;](assets/configure-custom-action-save-response-payload.png)
+![保存ボタンで表示される応答ペイロード ](assets/configure-custom-action-save-response-payload.png)
 
 >[!NOTE]
 >
@@ -105,7 +108,7 @@ ht-degree: 0%
 
 1. 右下のパネルの「**テストリクエストを送信**」ボタンをクリックして、設定が正しく機能することを確認します
 
-   ![右下のパネルに「テストリクエストを送信」ボタン &#x200B;](assets/configure-custom-action-click-send-test-request.png)
+   ![右下のパネルに「テストリクエストを送信」ボタン ](assets/configure-custom-action-click-send-test-request.png)
 
 
 
@@ -117,7 +120,7 @@ ht-degree: 0%
 
 3. **送信ボタン**&#x200B;をクリックすると、すべて正常に動作した場合は、応答コード 200とペイロードのプレビューが表示されます（下図を参照）。..
 
-   ![&#x200B; テストリクエストを送信した後の応答コード 200とペイロードのプレビュー](assets/configure-custom-action-response-200-preview.png)
+   ![ テストリクエストを送信した後の応答コード 200とペイロードのプレビュー](assets/configure-custom-action-response-200-preview.png)
 
    プレビュー
 

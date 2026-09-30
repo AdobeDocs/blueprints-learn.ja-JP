@@ -4,7 +4,10 @@ description: Postmanとストリーミングエンドポイントおよびデー
 doc-type: article
 solution: Experience Platform
 exl-id: 937d153c-9230-4f5a-a397-6c177a3ea890
-source-git-commit: df6c1852a6e0357dc9f166c88e77dcf9d334f955
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
+source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
 workflow-type: tm+mt
 source-wordcount: '620'
 ht-degree: 0%
@@ -87,7 +90,7 @@ curl --location '' \
    >
    >この値が表示されない場合は、行をクリックしてデータフロー行を選択していないことを確認してください。  青いリンクをクリックしないでください
 
-   アカウントの詳細の右側に表示される![&#x200B; ストリーミングエンドポイント URL](assets/stream-a-profile-streaming-endpoint-url-on-the-right.png)
+   アカウントの詳細の右側に表示される![ ストリーミングエンドポイント URL](assets/stream-a-profile-streaming-endpoint-url-on-the-right.png)
 
 
 
@@ -109,13 +112,13 @@ Postman アプリケーションに切り替え、収集した情報でCreate Cu
 
 1. 以前に保存した&#x200B;**ストリーミングエンドポイント**&#x200B;値をリクエストのURLにコピーして貼り付けます
 
-   ![&#x200B; ストリーミングエンドポイントの値が顧客アカウント作成リクエスト URL](assets/stream-a-profile-create-customer-account-streaming-endpoint-url.png)に貼り付けられました
+   ![ ストリーミングエンドポイントの値が顧客アカウント作成リクエスト URL](assets/stream-a-profile-create-customer-account-streaming-endpoint-url.png)に貼り付けられました
 
 
 
 1. 以前に保存したデータフローID値を&#x200B;**x-adobe-flow-id** ヘッダー値にコピーして貼り付けます
 
-   x-adobe-flow-id ヘッダー値![&#128279;](assets/stream-a-profile-copy-paste-x-adobe-flow-id.png)に貼り付けられた データフローID
+   x-adobe-flow-id ヘッダー値](assets/stream-a-profile-copy-paste-x-adobe-flow-id.png)に貼り付けられた![ データフローID
 
 
 

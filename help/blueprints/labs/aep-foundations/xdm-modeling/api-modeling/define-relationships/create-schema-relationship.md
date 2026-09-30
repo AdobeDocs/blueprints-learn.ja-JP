@@ -4,7 +4,10 @@ description: スキーマレジストリ APIを使用して、顧客アカウン
 doc-type: article
 solution: Experience Platform
 exl-id: c9079585-fff1-4ee1-8992-93825fcde759
-source-git-commit: 96308d5726def849ef22540a5d13618017c40cc3
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
+source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
 workflow-type: tm+mt
 source-wordcount: '319'
 ht-degree: 0%
@@ -18,13 +21,13 @@ ht-degree: 0%
    >
    >リクエストを実行しないでください…まだ
 
-   ![手順2 - API リクエストを計画する関係記述子顧客アカウント &#x200B;](assets/create-schema-relationship-step-2-descriptor-request.png "手順2 - プランする関係記述子顧客アカウント ")
+   ![手順2 - API リクエストを計画する関係記述子顧客アカウント ](assets/create-schema-relationship-step-2-descriptor-request.png "手順2 - プランする関係記述子顧客アカウント ")
 
 
 
 2. API呼び出しの本文で次のプロパティを更新します。
 
-- `xdm:sourceSchema` プロパティの値を、[&#x200B; スキーマの作成](../build-schema/create-schema.md) ラボステップから保存した顧客アカウントスキーマの`$id`に設定します
+- `xdm:sourceSchema` プロパティの値を、[ スキーマの作成](../build-schema/create-schema.md) ラボステップから保存した顧客アカウントスキーマの`$id`に設定します
 - `xdm:sourceProperty`の値を、顧客アカウントスキーマの`planID` フィールドのパスに設定します。
 - `xdm:destinationSchema` プロパティの値を、最初の手順で保存した`dep: Lookup Plan` スキーマの`$id`に設定します
 

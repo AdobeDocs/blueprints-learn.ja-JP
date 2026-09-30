@@ -4,13 +4,14 @@ description: 設定されたバッチデータフローを実行し、最初の�
 doc-type: article
 solution: Experience Platform
 exl-id: 64441624-75d2-4dc9-a48b-2b28883c510d
-source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
+source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
 workflow-type: tm+mt
 source-wordcount: '138'
 ht-degree: 0%
-
 ---
-
 
 # データフローの実行
 
@@ -18,7 +19,7 @@ ht-degree: 0%
 
 **終了**&#x200B;をクリックすると、**データフロー**&#x200B;画面に戻ります。 データフローの作成には数分かかります。 最初のランは数分で開始されます。
 
-新しく作成されたデータフローと実行ステータスを表示する![&#x200B; データフロー画面](assets/run-dataflow-dataflows-sources-screen.png)
+新しく作成されたデータフローと実行ステータスを表示する![ データフロー画面](assets/run-dataflow-dataflows-sources-screen.png)
 
 >[!NOTE]
 >

@@ -4,13 +4,14 @@ description: 計算フィールドの式を作成して、欠けているSMS同�
 doc-type: article
 solution: Experience Platform
 exl-id: ea5d006b-11c5-439c-af01-bc00b919851f
-source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
+source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
 workflow-type: tm+mt
 source-wordcount: '659'
 ht-degree: 0%
-
 ---
-
 
 # 計算フィールド
 
@@ -18,7 +19,7 @@ ht-degree: 0%
 
 sms\_optIn フィールドは、顧客アカウントスキーマの必須フィールドです。 問題は、ストリーミングソースのsms\_optIn フィールドが&#x200B;*null*&#x200B;値を送信できるので、それに対処するために計算フィールドが必要になることです。そうしないと、これらのレコードは取り込みからスキップされ、損失が発生します。
 
-![&#x200B; ターゲットスキーマ &#x200B;](assets/calculated-fields-consents-marketing-sms-val-schema-field.png " スキーマ ")に示すように、consents.marketing.sms.val フィールド
+![ ターゲットスキーマ ](assets/calculated-fields-consents-marketing-sms-val-schema-field.png " スキーマ ")に示すように、consents.marketing.sms.val フィールド
 
 
 
@@ -54,19 +55,19 @@ sms\_optIn フィールドは、顧客アカウントスキーマの必須フィ
 1. 右側のペインで、ターゲットスキーマパネルが開きます。 検索ボックスに&#x200B;**sms**&#x200B;と入力します
 1. **val** フィールドを選択します
 
-   ![計算フィールドマッピング用にsms.val フィールドが選択されたターゲットスキーマパネル &#x200B;](assets/calculated-fields-map-calculated-field-to-target-xdm-field.png)
+   ![計算フィールドマッピング用にsms.val フィールドが選択されたターゲットスキーマパネル ](assets/calculated-fields-map-calculated-field-to-target-xdm-field.png)
 
 
 
    最終的なマッピングは次のようになります。
 
-   ![&#x200B; ターゲットスキーマにマッピングされたsms_options計算フィールドを含む最終マッピング画面](assets/calculated-fields-final-mapping-screen.png)
+   ![ ターゲットスキーマにマッピングされたsms_options計算フィールドを含む最終マッピング画面](assets/calculated-fields-final-mapping-screen.png)
 
 
 
 1. マッピングを検証して、正しく表示されるようにします
 
-![sms_optin マッピングが有効であることを確認する「検証」ボタン &#x200B;](assets/calculated-fields-validate-mappings.png)
+![sms_optin マッピングが有効であることを確認する「検証」ボタン ](assets/calculated-fields-validate-mappings.png)
 
 >[!NOTE]
 >

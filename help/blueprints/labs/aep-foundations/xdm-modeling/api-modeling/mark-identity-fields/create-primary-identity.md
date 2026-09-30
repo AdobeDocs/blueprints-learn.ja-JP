@@ -4,7 +4,10 @@ description: スキーマレジストリ APIを使用して、顧客アカウン
 doc-type: article
 solution: Experience Platform
 exl-id: db690081-e857-4875-8bb9-7ac197d73cab
-source-git-commit: df6c1852a6e0357dc9f166c88e77dcf9d334f955
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
+source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
 workflow-type: tm+mt
 source-wordcount: '144'
 ht-degree: 0%
@@ -14,7 +17,7 @@ ht-degree: 0%
 
 1. `XDM Schema Lab -> Create Identity Descriptors` フォルダーの`Step 1 - Create Primary Identity for Customer Account Schema` API リクエストをクリックします
 
-   ![手順1 – お客様のアカウント スキーマのプライマリ IDの作成Postman リクエスト &#x200B;](assets/create-primary-identity-step-1-postman-request.jpeg "手順1 – お客様のアカウント スキーマのプライマリ IDの作成")
+   ![手順1 – お客様のアカウント スキーマのプライマリ IDの作成Postman リクエスト ](assets/create-primary-identity-step-1-postman-request.jpeg "手順1 – お客様のアカウント スキーマのプライマリ IDの作成")
 
    >[!CAUTION]
    >
@@ -22,7 +25,7 @@ ht-degree: 0%
 
 
 
-1. [&#x200B; スキーマの作成](../build-schema/create-schema.md) ラボステップから保存した`$id`を使用して、リクエストの本文の`xdm:sourceSchema`値を更新します
+1. [ スキーマの作成](../build-schema/create-schema.md) ラボステップから保存した`$id`を使用して、リクエストの本文の`xdm:sourceSchema`値を更新します
 
 1. リクエスト本文の`xdm:isPrimary`値を`true`に更新します
 

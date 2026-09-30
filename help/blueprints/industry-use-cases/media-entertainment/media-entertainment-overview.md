@@ -3,13 +3,18 @@ title: メディア&エンターテインメントのユースケース
 description: メディア&エンターテインメント企業が、Adobe Experience Platformを利用して、コンテンツ発見をパーソナライズし、購読者離れを低減して、オーディエンスのエンゲージメントを向上させている方法をご確認ください。
 solution: Experience Platform, Real-Time Customer Data Platform, Journey Optimizer
 exl-id: cfcf689f-9579-447f-9ef9-72e0c80c1f27
-source-git-commit: e8185f348f926acab2ca2e0c3cd55c08c663cf41
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
+  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+    internal-label: Real-Time Customer Data Platform
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+    internal-label: Journey Optimizer
+source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
 workflow-type: tm+mt
 source-wordcount: '3363'
 ht-degree: 0%
-
 ---
-
 # メディア&amp;エンターテインメントのユースケース
 
 メディア&amp;エンターテインメント企業は、Adobe Experience Platformを利用して、ストリーミングプラットフォーム、コンテンツライブラリ、購読者アカウントからのオーディエンスデータを統合し、各視聴者またはリスナーの単一のビューを作成できます。 この基盤により、パーソナライズされたコンテンツの発見、積極的な購読者維持、オーディエンスの再訪を促すエンゲージメント戦略が可能になります。
@@ -24,7 +29,7 @@ ht-degree: 0%
 
 ### 導入方法
 
-[行動レコメンデーション &#x200B;](/help/blueprints/use-case-patterns/personalization/behavioral-recommendation.md) パターンを使用します。 このアプローチでは、オーディエンスとのインタラクションから継続的に学習するAIを活用したレコメンデーションモデルを利用して、一人ひとりに最も関連性の高いコンテンツを特定します。 これは、アイテムセットが大規模で継続的に変化する（コンテンツカタログ）場合に適したパターンです。また、適格性ルールによって管理される一連のオファーではなく、視聴履歴から学習した行動の親和性にもとづいて選択されます。
+[行動レコメンデーション ](/help/blueprints/use-case-patterns/personalization/behavioral-recommendation.md) パターンを使用します。 このアプローチでは、オーディエンスとのインタラクションから継続的に学習するAIを活用したレコメンデーションモデルを利用して、一人ひとりに最も関連性の高いコンテンツを特定します。 これは、アイテムセットが大規模で継続的に変化する（コンテンツカタログ）場合に適したパターンです。また、適格性ルールによって管理される一連のオファーではなく、視聴履歴から学習した行動の親和性にもとづいて選択されます。
 
 ### 技術的な考慮事項
 
@@ -44,7 +49,7 @@ ht-degree: 0%
 
 ### 導入方法
 
-Decisioning[&#128279;](/help/blueprints/use-case-patterns/campaign-management-orchestration/cross-channel-journey-with-decisioning.md) パターンで クロスチャネルジャーニーを使用します。 このアプローチは、ジャーニーオーケストレーションとリアルタイムの意思決定を組み合わせることで、あらゆるチャネルでリスクのある購読者ごとに最適なリテンションオファーやコンテンツレコメンデーションを選択することができます。 これは、重複するリテンションオファーを防ぐために、ジャーニーがチャネルをまたいで配信を調整する必要がある場合や、オファーの選択に必要な適格性ルールが購読者の価値とリスクレベルに基づいている場合に適したパターンです。マルチステップオーケストレーションだけでは、必要なリアルタイムの意思決定レイヤーを提供できません。
+Decisioning](/help/blueprints/use-case-patterns/campaign-management-orchestration/cross-channel-journey-with-decisioning.md) パターンで[ クロスチャネルジャーニーを使用します。 このアプローチは、ジャーニーオーケストレーションとリアルタイムの意思決定を組み合わせることで、あらゆるチャネルでリスクのある購読者ごとに最適なリテンションオファーやコンテンツレコメンデーションを選択することができます。 これは、重複するリテンションオファーを防ぐために、ジャーニーがチャネルをまたいで配信を調整する必要がある場合や、オファーの選択に必要な適格性ルールが購読者の価値とリスクレベルに基づいている場合に適したパターンです。マルチステップオーケストレーションだけでは、必要なリアルタイムの意思決定レイヤーを提供できません。
 
 ### 技術的な考慮事項
 
@@ -64,7 +69,7 @@ Decisioning[&#128279;](/help/blueprints/use-case-patterns/campaign-management-or
 
 ### 導入方法
 
-[&#x200B; イベントをトリガーにしたメッセージ &#x200B;](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md) パターンを使用します。 このアプローチは、コンテンツリリースイベントに応答し、購読者の嗜好プロファイルに新しいタイトルを照合して、タイムリーで関連性の高い通知を配信します。 これは、トリガーが顧客行動ではなくシステムイベント（コンテンツリリース）であり、必要なコミュニケーションが持続的なナーチャリング手順ではなく、即座に反応する場合に適したパターンです。
+[ イベントをトリガーにしたメッセージ ](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md) パターンを使用します。 このアプローチは、コンテンツリリースイベントに応答し、購読者の嗜好プロファイルに新しいタイトルを照合して、タイムリーで関連性の高い通知を配信します。 これは、トリガーが顧客行動ではなくシステムイベント（コンテンツリリース）であり、必要なコミュニケーションが持続的なナーチャリング手順ではなく、即座に反応する場合に適したパターンです。
 
 ### 技術的な考慮事項
 
@@ -84,7 +89,7 @@ Decisioning[&#128279;](/help/blueprints/use-case-patterns/campaign-management-or
 
 ### 導入方法
 
-[行動レコメンデーション &#x200B;](/help/blueprints/use-case-patterns/personalization/behavioral-recommendation.md) パターンを使用します。 このアプローチでは、選択戦略とランキングモデルを利用して、各訪問者のプロファイルとリアルタイムの行動にもとづいて、ホームページのコンテンツ行と特集タイトルを並べ替えます。 アイテムセットが大規模で継続的に変化しており、選択が動的に行をランク付けする行動の親和性によって駆動される場合、これは適切なパターンです。静的にキュレーションされたセットや属性ベースの簡単なパーソナライゼーションではなくパターンです。
+[行動レコメンデーション ](/help/blueprints/use-case-patterns/personalization/behavioral-recommendation.md) パターンを使用します。 このアプローチでは、選択戦略とランキングモデルを利用して、各訪問者のプロファイルとリアルタイムの行動にもとづいて、ホームページのコンテンツ行と特集タイトルを並べ替えます。 アイテムセットが大規模で継続的に変化しており、選択が動的に行をランク付けする行動の親和性によって駆動される場合、これは適切なパターンです。静的にキュレーションされたセットや属性ベースの簡単なパーソナライゼーションではなくパターンです。
 
 ### 技術的な考慮事項
 
@@ -104,7 +109,7 @@ Decisioning[&#128279;](/help/blueprints/use-case-patterns/campaign-management-or
 
 ### 導入方法
 
-[&#x200B; イベントをトリガーにしたメッセージ &#x200B;](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md) パターンを使用します。 このアプローチでは、ウォッチリストのアクティビティと非アクティビティのシグナルにもとづいてリマインダーをトリガーし、コンテンツが保存されたが開始されていない場合にタイムリーなナッジを送信します。 これは、個別の行動シグナル（ウォッチリストが非アクティブ）がトリガーで、必要なレスポンスがマルチステップのシーケンスや継続的なレコメンデーションストリームではなく、時間に敏感な単一のメッセージである場合に適したパターンです。
+[ イベントをトリガーにしたメッセージ ](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md) パターンを使用します。 このアプローチでは、ウォッチリストのアクティビティと非アクティビティのシグナルにもとづいてリマインダーをトリガーし、コンテンツが保存されたが開始されていない場合にタイムリーなナッジを送信します。 これは、個別の行動シグナル（ウォッチリストが非アクティブ）がトリガーで、必要なレスポンスがマルチステップのシーケンスや継続的なレコメンデーションストリームではなく、時間に敏感な単一のメッセージである場合に適したパターンです。
 
 ### 技術的な考慮事項
 
@@ -124,7 +129,7 @@ Decisioning[&#128279;](/help/blueprints/use-case-patterns/campaign-management-or
 
 ### 導入方法
 
-[&#x200B; マルチステップ オーケストレーションされたジャーニー](/help/blueprints/use-case-patterns/campaign-management-orchestration/multi-step-orchestrated-journey.md) パターンを使用します。 このマルチタッチナーチャリングジャーニーでは、試用中のユーザーのエンゲージメントにもとづいて、コンテンツの発見、価値のデモ、コンバージョンメッセージのシーケンスを導きます。 これは、ユースケースで、エンゲージメントイベントと残りの試用時間に基づく条件分岐を使用して、数日間にわたって順序付きのマルチメッセージのフローを必要とする場合に適したパターンです。1つのトリガーメッセージでは、ステップ間の依存ロジックやケイデンス調整の必要性に対応できません。
+[ マルチステップ オーケストレーションされたジャーニー](/help/blueprints/use-case-patterns/campaign-management-orchestration/multi-step-orchestrated-journey.md) パターンを使用します。 このマルチタッチナーチャリングジャーニーでは、試用中のユーザーのエンゲージメントにもとづいて、コンテンツの発見、価値のデモ、コンバージョンメッセージのシーケンスを導きます。 これは、ユースケースで、エンゲージメントイベントと残りの試用時間に基づく条件分岐を使用して、数日間にわたって順序付きのマルチメッセージのフローを必要とする場合に適したパターンです。1つのトリガーメッセージでは、ステップ間の依存ロジックやケイデンス調整の必要性に対応できません。
 
 ### 技術的な考慮事項
 
@@ -144,7 +149,7 @@ Decisioning[&#128279;](/help/blueprints/use-case-patterns/campaign-management-or
 
 ### 導入方法
 
-[&#x200B; イベントをトリガーにしたメッセージ &#x200B;](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md) パターンを使用します。 このアプローチでは、イベントスケジュールにもとづいて通知をトリガー化し、今後のイベントを顧客の興味プロファイルと照合して、タイムリーなリマインダーを配信します。 これは、トリガーが顧客行動ではなくシステムイベント（イベントスケジュール）であり、必要なコミュニケーションが持続的なナーチャリングの順序ではなく、即座かつ期限付きである場合に適したパターンです。
+[ イベントをトリガーにしたメッセージ ](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md) パターンを使用します。 このアプローチでは、イベントスケジュールにもとづいて通知をトリガー化し、今後のイベントを顧客の興味プロファイルと照合して、タイムリーなリマインダーを配信します。 これは、トリガーが顧客行動ではなくシステムイベント（イベントスケジュール）であり、必要なコミュニケーションが持続的なナーチャリングの順序ではなく、即座かつ期限付きである場合に適したパターンです。
 
 ### 技術的な考慮事項
 
@@ -164,7 +169,7 @@ Decisioning[&#128279;](/help/blueprints/use-case-patterns/campaign-management-or
 
 ### 導入方法
 
-[行動レコメンデーション &#x200B;](/help/blueprints/use-case-patterns/personalization/behavioral-recommendation.md) パターンを使用します。 このアプローチでは、AIを活用してリスニングパターン、スキップ行動、文脈的シグナルを分析し、各ユーザーに合わせたプレイリストを生成し、更新します。 アイテムセットが大規模で継続的に変更され、編集ルールで管理される一連のプレイリストではなく、リスニング履歴やムードシグナルからの行動への親和性によって選択が決定される場合、これは適切なパターンです。
+[行動レコメンデーション ](/help/blueprints/use-case-patterns/personalization/behavioral-recommendation.md) パターンを使用します。 このアプローチでは、AIを活用してリスニングパターン、スキップ行動、文脈的シグナルを分析し、各ユーザーに合わせたプレイリストを生成し、更新します。 アイテムセットが大規模で継続的に変更され、編集ルールで管理される一連のプレイリストではなく、リスニング履歴やムードシグナルからの行動への親和性によって選択が決定される場合、これは適切なパターンです。
 
 ### 技術的な考慮事項
 
@@ -244,7 +249,7 @@ Decisioning[&#128279;](/help/blueprints/use-case-patterns/campaign-management-or
 
 ### 導入方法
 
-[&#x200B; イベントをトリガーにしたメッセージ &#x200B;](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md) パターンを使用します。 このアプローチでは、コンテンツ放棄イベントにもとづいてリマインダーをトリガーします。タイトルの途中で停止し、定義されたウィンドウ内に戻ってこなかった場合に、タイムリーなメッセージを送信します。 これは、離散的な行動シグナル（コンテンツの放棄）がトリガーであり、必要な対応が、マルチステップのジャーニーや動的なオファーの選択ではなく、コンテキストを伴う、時間に敏感な単一のメッセージである場合に適したパターンです。
+[ イベントをトリガーにしたメッセージ ](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md) パターンを使用します。 このアプローチでは、コンテンツ放棄イベントにもとづいてリマインダーをトリガーします。タイトルの途中で停止し、定義されたウィンドウ内に戻ってこなかった場合に、タイムリーなメッセージを送信します。 これは、離散的な行動シグナル（コンテンツの放棄）がトリガーであり、必要な対応が、マルチステップのジャーニーや動的なオファーの選択ではなく、コンテキストを伴う、時間に敏感な単一のメッセージである場合に適したパターンです。
 
 ### 技術的な考慮事項
 

@@ -3,7 +3,12 @@ title: マーケティングテクノロジーの統合と近代化
 description: 拡張性の高い統合プラットフォームに移行し、ツールの断片化と技術的負債を低減する方法をご確認ください。
 solution: Experience Platform, Real-Time Customer Data Platform
 exl-id: 5ab6071e-e1b3-488a-b7ed-3153c9bf6cdb
-source-git-commit: ccfd8c987a0090ca690e15a4bd89f4d96ec9c01f
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
+  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+    internal-label: Real-Time Customer Data Platform
+source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
 workflow-type: tm+mt
 source-wordcount: '140'
 ht-degree: 4%
@@ -28,4 +33,4 @@ ht-degree: 4%
 
 | パターン | カテゴリ | この目標をどのようにサポートしているか |
 | --- | --- | --- |
-| [&#x200B; イベント転送](/help/blueprints/use-case-patterns/audience-building-activation/event-forwarding.md) | オーディエンスの構築と活用 | ポイントツーポイントの統合を、統合されたサーバーサイドのイベント配信レイヤーに置き換え |
+| [ イベント転送](/help/blueprints/use-case-patterns/audience-building-activation/event-forwarding.md) | オーディエンスの構築と活用 | ポイントツーポイントの統合を、統合されたサーバーサイドのイベント配信レイヤーに置き換え |
