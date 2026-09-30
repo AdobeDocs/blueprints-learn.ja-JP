@@ -109,7 +109,7 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >列挙と推奨値の目標は、エンドユーザーのセグメンテーションを簡単にすることです。 列挙は、データ取り込み時に検証を適用しますが、推奨値は適用されません。 この機能について詳しくは、こちらのドキュメントをご覧ください – > [https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/fields/enum.html?lang=en#enums-and-suggested-values](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/fields/enum.html?lang=en#enums-and-suggested-values)
+   >列挙と推奨値の目標は、エンドユーザーのセグメンテーションを簡単にすることです。 列挙は、データ取り込み時に検証を適用しますが、推奨値は適用されません。 この機能について詳しくは、こちらのドキュメントをご覧ください – > [https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/fields/enum.html?lang=ja#enums-and-suggested-values](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/fields/enum.html?lang=ja#enums-and-suggested-values)
 
 
 

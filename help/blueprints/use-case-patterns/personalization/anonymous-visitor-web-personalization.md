@@ -111,30 +111,30 @@ AJOのweb チャネルを通じて、セッション中の行動シグナルに�
 
 **Web チャネルとコードベースのエクスペリエンス**
 
-- [web チャネルの基本を学ぶ](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/web/get-started-web)
-- [Web エクスペリエンスの作成](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/web/create-web)
+- [web チャネルの基本を学ぶ](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/channels/web/get-started-web)
+- [Web エクスペリエンスの作成](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/channels/web/create-web)
 - [コードベースのエクスペリエンスチャネル](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/code-based/get-started-code-based)
 - [コードベースのエクスペリエンス設定](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/code-based/code-based-configuration)
 
 **オーディエンスとセグメント化**
 
-- [セグメント サービスの概要](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/home)
-- [セグメントビルダーUI ガイド](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/segment-builder)
-- [エッジセグメント化](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/methods/edge-segmentation)
-- [ストリーミングセグメンテーション](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/methods/streaming-segmentation)
-- [Profile Query Language リファレンス](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/pql/overview)
+- [セグメント サービスの概要](https://experienceleague.adobe.com/ja/docs/experience-platform/segmentation/home)
+- [セグメントビルダーUI ガイド](https://experienceleague.adobe.com/ja/docs/experience-platform/segmentation/ui/segment-builder)
+- [エッジセグメント化](https://experienceleague.adobe.com/ja/docs/experience-platform/segmentation/methods/edge-segmentation)
+- [ストリーミングセグメンテーション](https://experienceleague.adobe.com/ja/docs/experience-platform/segmentation/methods/streaming-segmentation)
+- [Profile Query Language リファレンス](https://experienceleague.adobe.com/ja/docs/experience-platform/segmentation/pql/overview)
 
 **Personalizationとコンテンツ**
 
 - [パーソナライゼーションの追加](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/personalization/personalize)
 - [Personalizationの構文](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/personalization/personalization-syntax)
 - [動的コンテンツ](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/personalization/dynamic-content)
-- [コンテンツテンプレートの操作](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/content-templates/content-templates)
+- [コンテンツテンプレートの操作](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/content-management/content-templates/content-templates)
 - [コンテンツフラグメントの操作](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/fragments/content-fragments)
 
 **コンテンツ実験**
 
-- [コンテンツ実験を始める](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/content-experiment/content-experiment)
+- [コンテンツ実験を始める](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/content-management/content-experiment/content-experiment)
 - [コンテンツ実験を作成](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/content-experiment/create-content-experiment)
 - [コンテンツ実験レポート](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/content-experiment/experiment-report)
 - [統計計算](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/content-experiment/experiment-calculations)
@@ -142,8 +142,8 @@ AJOのweb チャネルを通じて、セッション中の行動シグナルに�
 **意思決定管理**
 
 - [意思決定管理の概要](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/decisioning/offer-decisioning/get-started-decision/starting-offer-decisioning)
-- [プレースメントの作成](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/decisioning/offer-decisioning/create-components/creating-placements)
-- [決定ルールの作成](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/decisioning/offer-decisioning/create-components/creating-decision-rules)
+- [プレースメントの作成](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/decisioning/offer-decisioning/create-components/creating-placements)
+- [決定ルールの作成](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/decisioning/offer-decisioning/create-components/creating-decision-rules)
 - [パーソナライズされたオファーを作成](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/decisioning/offer-decisioning/create-components/creating-personalized-offers)
 - [フォールバックオファーを作成](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/decisioning/offer-decisioning/create-components/creating-fallback-offers)
 - [コレクションの作成](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/decisioning/offer-decisioning/create-components/creating-collections)
@@ -153,44 +153,44 @@ AJOのweb チャネルを通じて、セッション中の行動シグナルに�
 
 **キャンペーン**
 
-- [キャンペーンの基本を学ぶ](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/campaigns/get-started-with-campaigns)
+- [キャンペーンの基本を学ぶ](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/campaigns/get-started-with-campaigns)
 - [キャンペーンの作成](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/campaigns/create-campaign)
 
 **[!DNL Web SDK]とデータ収集**
 
-- [Web SDKの概要](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/home)
-- [Web SDKのインストール](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/install/overview)
-- [データストリームの設定](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/configure)
-- [タグの概要](https://experienceleague.adobe.com/en/docs/experience-platform/tags/home)
+- [Web SDKの概要](https://experienceleague.adobe.com/ja/docs/experience-platform/web-sdk/home)
+- [Web SDKのインストール](https://experienceleague.adobe.com/ja/docs/experience-platform/web-sdk/install/overview)
+- [データストリームの設定](https://experienceleague.adobe.com/ja/docs/experience-platform/datastreams/configure)
+- [タグの概要](https://experienceleague.adobe.com/ja/docs/experience-platform/tags/home)
 
 **IDとプロファイル**
 
-- [ID サービスの概要](https://experienceleague.adobe.com/en/docs/experience-platform/identity/home)
+- [ID サービスの概要](https://experienceleague.adobe.com/ja/docs/experience-platform/identity/home)
 - [ID名前空間の概要](https://experienceleague.adobe.com/ja/docs/experience-platform/identity/features/namespaces)
-- [結合ポリシーの概要](https://experienceleague.adobe.com/en/docs/experience-platform/profile/merge-policies/overview)
-- [リアルタイム顧客プロファイルの概要](https://experienceleague.adobe.com/en/docs/experience-platform/profile/home)
+- [結合ポリシーの概要](https://experienceleague.adobe.com/ja/docs/experience-platform/profile/merge-policies/overview)
+- [リアルタイム顧客プロファイルの概要](https://experienceleague.adobe.com/ja/docs/experience-platform/profile/home)
 
 **データモデリング**
 
-- [XDM システムの概要](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/home)
-- [スキーマ構成の基本](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/composition)
+- [XDM システムの概要](https://experienceleague.adobe.com/ja/docs/experience-platform/xdm/home)
+- [スキーマ構成の基本](https://experienceleague.adobe.com/ja/docs/experience-platform/xdm/schema/composition)
 
 **レポートと分析**
 
 - [キャンペーンのライブレポート](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/reports/campaign-live-report)
 - [キャンペーングローバルレポート](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/reports/campaign-global-report-cja)
 - [Customer Journey Analyticsの操作](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/reports/report-cja-manage)
-- [Analysis Workspaceの概要](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/home)
-- [CJAの概要](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-overview)
+- [Analysis Workspaceの概要](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/cja-workspace/home)
+- [CJAの概要](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/cja-overview/cja-overview)
 
 **データガバナンスとプライバシー**
 
-- [データガバナンスの概要](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/home)
-- [高度なデータライフサイクル管理の概要](https://experienceleague.adobe.com/en/docs/experience-platform/data-lifecycle/home)
-- [同意と環境設定のフィールドグループ](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/field-groups/profile/consents)
+- [データガバナンスの概要](https://experienceleague.adobe.com/ja/docs/experience-platform/data-governance/home)
+- [高度なデータライフサイクル管理の概要](https://experienceleague.adobe.com/ja/docs/experience-platform/data-lifecycle/home)
+- [同意と環境設定のフィールドグループ](https://experienceleague.adobe.com/ja/docs/experience-platform/xdm/field-groups/profile/consents)
 
 **ガードレール**
 
-- [Journey Optimizerのガードレール](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/get-started/guardrails)
-- [リアルタイムの顧客プロファイルのガードレール](https://experienceleague.adobe.com/en/docs/experience-platform/profile/guardrails)
-- [ID サービスのガードレール](https://experienceleague.adobe.com/en/docs/experience-platform/identity/guardrails)
+- [Journey Optimizerのガードレール](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/get-started/guardrails)
+- [リアルタイムの顧客プロファイルのガードレール](https://experienceleague.adobe.com/ja/docs/experience-platform/profile/guardrails)
+- [ID サービスのガードレール](https://experienceleague.adobe.com/ja/docs/experience-platform/identity/guardrails)

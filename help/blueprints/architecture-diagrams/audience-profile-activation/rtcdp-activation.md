@@ -39,6 +39,6 @@ ht-degree: 0%
 
 ## 関連トピックス
 
-- [Adobe Real-Time CDPの宛先](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/home)
-- [配信先でオーディエンスを活用](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/activate-batch-profile-destinations)
-- [Adobe Real-Time CDPのガードレール](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/guardrails/overview)
+- [Adobe Real-Time CDPの宛先](https://experienceleague.adobe.com/ja/docs/experience-platform/destinations/home)
+- [配信先でオーディエンスを活用](https://experienceleague.adobe.com/ja/docs/experience-platform/destinations/ui/activate/activate-batch-profile-destinations)
+- [Adobe Real-Time CDPのガードレール](https://experienceleague.adobe.com/ja/docs/experience-platform/rtcdp/guardrails/overview)

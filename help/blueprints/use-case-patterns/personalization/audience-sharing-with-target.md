@@ -35,7 +35,7 @@ ht-degree: 32%
 
 ### リファレンスドキュメント
 
-* [Adobe Real-Time CDPのAdobe Target Connection](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection.html)
+* [Adobe Real-Time CDPのAdobe Target Connection](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection.html?lang=ja)
 * [Edge データストリーム設定](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/datastreams.html?lang=ja)
 
 ## 統合パターン
@@ -61,7 +61,7 @@ ht-degree: 32%
 
 従来のアプリケーション固有の SDK（AT.js や AppMeasurement.js など）を使用。 リアルタイムエッジセグメント評価は、この実装方法ではサポートされていません。 ただし、この実装アプローチでは、Experience Platform ハブからのストリーミングおよびバッチオーディエンス共有がサポートされます。
 
-[Adobe Target Connector ドキュメントを参照してください](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection)
+[Adobe Target Connector ドキュメントを参照してください](https://experienceleague.adobe.com/ja/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection)
 [Experience Platform Web SDK ブループリントを参照](/help/blueprints/architecture-diagrams/architecture-overviews/websdk.md)
 
 ## 実装に関する考慮事項

@@ -39,6 +39,6 @@ Journey Optimizerの配信データとインタラクションデータを、Exp
 
 ## 関連トピックス
 
-- [Journey Optimizer レポート](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/reporting/reports/sharing-overview)
-- [Customer Journey Analyticsの概要](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-overview)
-- [Customer Journey Analytics オーディエンスの公開](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-components/audiences/publish)
+- [Journey Optimizer レポート](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/reporting/reports/sharing-overview)
+- [Customer Journey Analyticsの概要](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/cja-overview/cja-overview)
+- [Customer Journey Analytics オーディエンスの公開](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/cja-components/audiences/publish)

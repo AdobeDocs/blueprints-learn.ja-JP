@@ -33,4 +33,4 @@ ht-degree: 1%
 
 キャンペーンキャンバスで「分岐」アクティビティを使用して、同じデータを流し込む同じ分岐を簡単に作成できるようになりました。 フォーク アクティビティの分岐は、次の手順で使用します。
 
-ご興味のある方は、[こちら](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/campaigns/orchestrated-campaigns/design-campaigns/fork)をご覧ください。
+ご興味のある方は、[こちら](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/campaigns/orchestrated-campaigns/design-campaigns/fork)をご覧ください。

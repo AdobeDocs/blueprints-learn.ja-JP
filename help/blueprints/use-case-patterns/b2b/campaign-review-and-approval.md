@@ -74,7 +74,7 @@ Workfront のプロジェクトテンプレートに、マーケティングキ�
 
 ### Workfrontの校正機能を使用して、コメントや注釈を通じて共同作業を行う {#use-workfront-proofing-to-collaborate}
 
-[Workfrontのプルーフ &#x200B;](https://experienceleague.adobe.com/docs/workfront/using/review-and-approve-work/proofing/proofing-overview/proofing-basics.html){target="_blank"}機能により、マーケティング部門は、画像や電子メールなどの新しいアセットを取り込み、コメントや注釈を使用して共同作業を行うことができます。 プルーフの公開準備が整ったら、意思決定者はプルーフツールでアセットを承認できます。
+[Workfrontのプルーフ &#x200B;](https://experienceleague.adobe.com/docs/workfront/using/review-and-approve-work/proofing/proofing-overview/proofing-basics.html?lang=ja){target="_blank"}機能により、マーケティング部門は、画像や電子メールなどの新しいアセットを取り込み、コメントや注釈を使用して共同作業を行うことができます。 プルーフの公開準備が整ったら、意思決定者はプルーフツールでアセットを承認できます。
 
 ### Marketo EngageでWorkfront Proofとトリガーアセットの承認を行い、タスクを完了としてマークします {#approve-workfront-proof-and-trigger-asset-approval-in-marketo-engage}
 
