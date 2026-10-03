@@ -113,7 +113,7 @@ B2B企業は、基本的な課題に直面しています。購入に関する�
 - [アカウントジャーニーの概要](https://experienceleague.adobe.com/ja/docs/journey-optimizer-b2b/user/account-journeys/journey-overview)
 - [アカウントジャーニーノード](https://experienceleague.adobe.com/ja/docs/journey-optimizer-b2b/user/account-journeys/journey-nodes)
 - [セールスアラートメール](https://experienceleague.adobe.com/ja/docs/journey-optimizer-b2b/user/journey-content/email-channel/sales-alert-email)
-- [CRM セールスインサイト](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/accounts/buying-groups/incrm-insights)
+- [CRM セールスインサイト](https://experienceleague.adobe.com/ja/docs/journey-optimizer-b2b/user/accounts/buying-groups/incrm-insights)
 
 ### B2B メールとコンテンツ
 
