@@ -71,7 +71,7 @@ B2Bの有料メディアを大規模に運用しているマーケティング�
 ### ガードレール
 
 - **Journey Optimizer B2B Edition** — ジャーニーの制限、ノードの制限、宛先のサポートについては、[製品の説明](https://helpx.adobe.com/jp/legal/product-descriptions/adobe-journey-optimizer-b2b.html)を参照してください。
-- **Real-Time CDP** — セグメント化とアクティブ化の制限については、[RTCDP ガードレール &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/guardrails/overview)を参照してください。
+- **Real-Time CDP** — セグメント化とアクティブ化の制限については、[RTCDP ガードレール &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/rtcdp/guardrails/overview)を参照してください。
 
 ## 実装
 
