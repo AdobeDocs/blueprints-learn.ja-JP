@@ -79,7 +79,7 @@ Adobe [!DNL Journey Optimizer]は、Adobe Experience Platform上に構築され�
 
 ## アーキテクチャ
 
-![Adobe Journey Optimizerの参照アーキテクチャ &#x200B;](images/ajo-architecture.png){width="1000" zoomable="yes"}
+![Adobe Journey Optimizerの参照アーキテクチャ ](images/ajo-architecture.png){width="1000" zoomable="yes"}
 
 <br>
 
@@ -88,7 +88,7 @@ Adobe [!DNL Journey Optimizer]は、Adobe Experience Platform上に構築され�
 | シナリオ | 説明 |
 | :-- | :-- |
 | [ジャーニー](journey-optimizer-journeys.md) | Adobe Adobe Journey OptimizerのAJOジャーニーは、リアルタイムのイベントやオーディエンスセグメントをトリガーにして、自動的にパーソナライズされた顧客体験を提供できます。これにより、マーケターは、電子メール、SMS、プッシュ通知などのチャネルをまたいで、適切なメッセージを配信できます。 |
-| [&#x200B; キャンペーンオーケストレーション &#x200B;](journey-optimizer-campaigns.md) | AJO Campaign Orchestrationを活用すると、マーケターはリアルタイムのデータとオーディエンスインサイトを活用して、パーソナライズされたクロスチャネルキャンペーンを設計して実行できます。 動的なターゲティング、メッセージ配信、ジャーニーロジックをサポートし、メール、SMS、プッシュ通知、カスタムチャネルをまたいで顧客エンゲージメントを最適化できます。 |
+| [ キャンペーンオーケストレーション ](journey-optimizer-campaigns.md) | AJO Campaign Orchestrationを活用すると、マーケターはリアルタイムのデータとオーディエンスインサイトを活用して、パーソナライズされたクロスチャネルキャンペーンを設計して実行できます。 動的なターゲティング、メッセージ配信、ジャーニーロジックをサポートし、メール、SMS、プッシュ通知、カスタムチャネルをまたいで顧客エンゲージメントを最適化できます。 |
 
 <br>
 
@@ -96,7 +96,7 @@ Adobe [!DNL Journey Optimizer]は、Adobe Experience Platform上に構築され�
 
 | 統合 | 説明 | 技術的な考慮事項 |
 | :-- | :-- | :-- |
-| [&#x200B; サードパーティのメッセージ &#x200B;](3rd-party-messaging.md) | Adobe [!DNL Journey Optimizer]をサードパーティのメッセージングプラットフォームと統合して、パーソナライズされた顧客コミュニケーションを調整および配信する方法を示します。 | <ul><li>サードパーティシステムは&#x200B;**ベアラートークン認証**&#x200B;をサポートする必要があります</li><li>マルチテナントアーキテクチャのため、**静的IPはサポートされていません**。</li><li>サードパーティシステムの&#x200B;**API レート制限**&#x200B;に注意してください。お客様は、**Adobe Journey Optimizer**&#x200B;からのトラフィックを処理するために、追加のキャパシティを購入する必要がある場合があります。</li><li>**意思決定管理**&#x200B;は、メッセージペイロードまたは配信ロジックではサポートされていません。</li></ul> |
+| [ サードパーティのメッセージ ](3rd-party-messaging.md) | Adobe [!DNL Journey Optimizer]をサードパーティのメッセージングプラットフォームと統合して、パーソナライズされた顧客コミュニケーションを調整および配信する方法を示します。 | <ul><li>サードパーティシステムは&#x200B;**ベアラートークン認証**&#x200B;をサポートする必要があります</li><li>マルチテナントアーキテクチャのため、**静的IPはサポートされていません**。</li><li>サードパーティシステムの&#x200B;**API レート制限**&#x200B;に注意してください。お客様は、**Adobe Journey Optimizer**&#x200B;からのトラフィックを処理するために、追加のキャパシティを購入する必要がある場合があります。</li><li>**意思決定管理**&#x200B;は、メッセージペイロードまたは配信ロジックではサポートされていません。</li></ul> |
 | [[!DNL Journey Optimizer] とAdobe Campaign v8](../campaign-v8/ajo-and-campaign-v8.md) | Adobe [!DNL Journey Optimizer]が、Adobe Campaign v8のトランザクションメッセージ機能と連携して、最終的なメッセージ配信を実行する方法を示します。 | <ul><li>メッセージのスロットリングはありません。 5分あたり4,000件のメッセージの上限。</li><li>イベント開始ジャーニーのみをサポート</li><li>意思決定管理は、Campaignで送信されるメッセージではサポートされていません</li></ul> |
 
 <br>
@@ -130,12 +130,12 @@ Adobe [!DNL Experience Platform]:
 
 [[!DNL Journey Optimizer] ガードレール製品リンク](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/get-started/guardrails.html)
 
-[ガードレールとエンドツーエンドのレイテンシーガイダンス](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/architecture-overview/deployment/guardrails.html?lang=ja)
+[ガードレールとエンドツーエンドのレイテンシーガイダンス](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/architecture-overview/deployment/guardrails.html)
 
 ## 関連ドキュメント
 
 - [[!DNL Experience Platform]件のドキュメント](https://experienceleague.adobe.com/docs/experience-platform.html?lang=ja)
 - [[!DNL Experience Platform] タグのドキュメント](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=ja)
-- [[!DNL Experience Platform Mobile SDK]件のドキュメント](https://experienceleague.adobe.com/docs/mobile.html?lang=ja)
-- [[!DNL Journey Optimizer]件のドキュメント](https://experienceleague.adobe.com/docs/journey-optimizer/using/ajo-home.html?lang=ja)
+- [[!DNL Experience Platform Mobile SDK]件のドキュメント](https://experienceleague.adobe.com/docs/mobile.html)
+- [[!DNL Journey Optimizer]件のドキュメント](https://experienceleague.adobe.com/docs/journey-optimizer/using/ajo-home.html)
 - [[!DNL Journey Optimizer]製品の説明](https://helpx.adobe.com/jp/legal/product-descriptions/adobe-journey-optimizer.html)
