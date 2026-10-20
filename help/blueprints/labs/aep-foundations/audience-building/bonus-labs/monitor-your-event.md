@@ -60,8 +60,8 @@ ht-degree: 1%
 
 Postman/Web イベントの作成/Edge（認証なし）/ヘッダーに移動します
 
-1. 上記のAssuranceからコピーしたリンクを含む&#x200B;**x-adobe-aep-validation-token**&#x200B;をHeadersに追加します。 Assuranceからコピーしたリンクで、=の後のID **の値だけを**&#x200B;取得します。 e.g. [https://www.adobe.com/?adb\_validation\_sessionid=](https://www.adobe.com/?adb_validation_sessionid=efa4a9ed-02d8-4647-80fa-f01a5be273d0) [`efa4a9ed-02d8-4647-80fa-f01a5be273d0`](https://www.adobe.com/?adb_validation_sessionid=efa4a9ed-02d8-4647-80fa-f01a5be273d0)
-1. 完全なURLではなく、[`efa4a9ed-02d8-4647-80fa-f01a5be273d0`](https://www.adobe.com/?adb_validation_sessionid=efa4a9ed-02d8-4647-80fa-f01a5be273d0)値だけを使用します
+1. 上記のAssuranceからコピーしたリンクを含む&#x200B;**x-adobe-aep-validation-token**&#x200B;をHeadersに追加します。 Assuranceからコピーしたリンクで、=の後のID **の値だけを**&#x200B;取得します。 e.g. [https://www.adobe.com/jp/?adb\_validation\_sessionid=](https://www.adobe.com/jp/?adb_validation_sessionid=efa4a9ed-02d8-4647-80fa-f01a5be273d0) [`efa4a9ed-02d8-4647-80fa-f01a5be273d0`](https://www.adobe.com/jp/?adb_validation_sessionid=efa4a9ed-02d8-4647-80fa-f01a5be273d0)
+1. 完全なURLではなく、[`efa4a9ed-02d8-4647-80fa-f01a5be273d0`](https://www.adobe.com/jp/?adb_validation_sessionid=efa4a9ed-02d8-4647-80fa-f01a5be273d0)値だけを使用します
 
    ![x-adobe-aep-validation-token ヘッダーをPostmanのAssurance セッション IDに追加](assets/monitor-your-event-populate-the-x-adobe-aep-validation-token.png)
 
