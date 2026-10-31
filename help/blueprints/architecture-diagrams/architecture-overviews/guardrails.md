@@ -54,7 +54,7 @@ ht-degree: 13%
 **Experience Platform サービス**
 
 * [データ取り込みのガードレール](https://experienceleague.adobe.com/docs/experience-platform/ingestion/guardrails.html?lang=ja)
-* [[!DNL Edge Network]個のAPI ガードレール](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/guardrails.html)
+* [[!DNL Edge Network]個のAPI ガードレール](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/guardrails.html?lang=ja)
 * [リアルタイムの顧客プロファイルとセグメンテーションガードレール](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=ja)
 * [IDのガードレール](https://experienceleague.adobe.com/docs/experience-platform/identity/guardrails.html?lang=ja)
 * [クエリサービスガードレール](https://experienceleague.adobe.com/docs/experience-platform/query/guardrails.html?lang=ja)
