@@ -42,16 +42,16 @@ ht-degree: 0%
 1. 「アクションタイプを選択」オーバーレイが表示されたら、**コードベースエクスペリエンス** アクションを選択し、青い&#x200B;**追加** ボタンをクリックします。
 1. 現在表示されている「アクション\：コードベースのエクスペリエンス」プロパティで、「**アクションを設定**」ボタンをクリックします。
 
-   ![ アクションの設定ボタンを使用したコードベースのエクスペリエンスアクションプロパティ ](assets/create-the-journey-configure-action-button.png)
+   ![&#x200B; アクションの設定ボタンを使用したコードベースのエクスペリエンスアクションプロパティ &#x200B;](assets/create-the-journey-configure-action-button.png)
 
 1. **コードベース設定** ドロップダウンを、前のセクションで作成した&#x200B;**jsonOffer\_cbe** cbeに変更します。
 
-   ![ コードベース設定ドロップダウンをjsonOffer_cbe チャネルに設定](assets/create-the-journey-select-jsonoffer-cbe.png)
+   ![&#x200B; コードベース設定ドロップダウンをjsonOffer_cbe チャネルに設定](assets/create-the-journey-select-jsonoffer-cbe.png)
 
 1. 「コードベースの設定」ドロップダウンのすぐ上にある「**コンテンツを編集**」ボタンをクリックします。
 1. 結果のコードベースエクスペリエンスエディター画面で、「**コードを編集**」ボタンをクリックします。 結果の画面では、Experience Event リクエストに返されるJSONを追加します
 
-   ![ コードベースのエクスペリエンスエディターのコード画面を編集](assets/create-the-journey-edit-code-screen.png)
+   ![&#x200B; コードベースのエクスペリエンスエディターのコード画面を編集](assets/create-the-journey-edit-code-screen.png)
 
 1. コードエディターの左端にある「**決定ポリシー**」メニュー項目をクリックし、新しいメニューの「**決定ポリシーを追加**」ボタンをクリックします。
 
@@ -89,7 +89,7 @@ ht-degree: 0%
 
 1. 「**+ ポリシーを挿入**」ボタンをクリックすると、ForEach ループがコードエディターに表示されます。
 
-   決定ポリシーを挿入した後にコードエディターに挿入された![ForEach ループ ](assets/create-the-journey-foreach-loop-inserted.png)
+   決定ポリシーを挿入した後にコードエディターに挿入された![ForEach ループ &#x200B;](assets/create-the-journey-foreach-loop-inserted.png)
 
    >[!NOTE]
    >
@@ -132,11 +132,11 @@ ht-degree: 0%
 1. 上記のスクリーンショットが表示されたら、右上の&#x200B;**保存して閉じる**&#x200B;をクリックして、コードを保存します。 次に、コードベースのエクスペリエンスペリエンスペリエンスペリエンス ページに戻ります。
 1. ジャーニー名の横にある後方矢印&#x200B;**\&lt;** アイコンをクリックすると、キャンバスに戻ります。
 
-   ![ コードベースのエクスペリエンスエディターから戻った後のジャーニーキャンバス ](assets/create-the-journey-return-to-canvas.png)
+   ![&#x200B; コードベースのエクスペリエンスエディターから戻った後のジャーニーキャンバス &#x200B;](assets/create-the-journey-return-to-canvas.png)
 
 1. 青い&#x200B;**保存** ボタンをクリックして、CBE アクションノードを保存します。 ジャーニーは次のようになります。
 
-   完了したCBE アクションノードを示す![ジャーニーキャンバス ](assets/create-the-journey-completed-canvas.png)
+   完了したCBE アクションノードを示す![ジャーニーキャンバス &#x200B;](assets/create-the-journey-completed-canvas.png)
 
 1. ジャーニーが完了したら、右上の青い&#x200B;**公開** ボタンをクリックし、確認ボックスが表示されたら、もう一度&#x200B;**公開** ボタンをクリックします。 しばらくすると、ジャーニーが公開されます。
 
