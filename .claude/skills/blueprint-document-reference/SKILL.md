@@ -1,13 +1,14 @@
 ---
 name: blueprint-document-reference
 description: Adobe Digital Experience Blueprint ドキュメントの作成と編集に関するリファレンス。 新しいブループリントを作成する場合、ブループリントページを追加する場合、またはユーザーがブループリントの構造、セクション、テンプレート、またはAdobe Experience Leagueの参照について尋ねる場合に使用します。
-source-git-commit: 83e85d946e455cde46001af0a2112637b7fe24cc
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
+source-git-commit: b88e86c3ab3b344de7dbc2b207b2b107d9ea27cb
 workflow-type: tm+mt
 source-wordcount: '445'
 ht-degree: 1%
-
 ---
-
 
 # ブループリントドキュメント参照
 
@@ -98,8 +99,8 @@ exl-id: [UUID - if this is already popultated keep it as is. Disregard and remov
 ## Adobe Experience Leagueの参照
 
 - **リンクするタイミング**：製品ドキュメント、API リファレンス、ガードレール、チュートリアル、設定手順については、Experience Leagueにリンクします。 長い手順を複製しないでください。要約してリンクします。
-- **URL形式**：完全なURLを使用します。 `https://experienceleague.adobe.com/docs/?lang=ja...`または`https://experienceleague.adobe.com/ja/docs/...`を優先します。 開発者ドキュメントの場合、`https://developer.adobe.com/...`も有効です。
-- **リンクテキスト**：説明テキストを使用します（例：「[ スキーマを作成] (url)」は「ここをクリック」ではありません）。 リンクテキスト内の製品名には、適切な場合は`[!DNL Product Name]`を使用します。
+- **URL形式**：完全なURLを使用します。 `https://experienceleague.adobe.com/docs/...`または`https://experienceleague.adobe.com/en/docs/...`を優先します。 開発者ドキュメントの場合、`https://developer.adobe.com/...`も有効です。
+- **リンクテキスト**：説明テキストを使用します（例：「[ スキーマを作成](url)」は「ここをクリック」ではありません）。 リンクテキスト内の製品名には、適切な場合は`[!DNL Product Name]`を使用します。
 - **関連ドキュメントのセクション**: 「関連ドキュメント」セクションでブループリントを終了し、リンクをカテゴリ別にグループ化します（例：配信先の設定、SDK ドキュメント、プロファイルとセグメント化、チュートリアル）。
 
 URL パターン、リンクのグループ化、および例の詳細については、[reference.md](reference.md)を参照してください。

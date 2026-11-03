@@ -1,9 +1,13 @@
 ---
-source-git-commit: 2ed15399073fce5ebd1c2ba07b1cf70ec706452c
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
+source-git-commit: b88e86c3ab3b344de7dbc2b207b2b107d9ea27cb
 workflow-type: tm+mt
 source-wordcount: '790'
 ht-degree: 2%
 ---
+
 # ユースケースパターンへの移行ステータス「€」ブループリント
 
 このドキュメントでは、ブループリント再編の取り組みの状況をキャプチャし、セッション全体でクリーンに再開できるようにします。
@@ -46,7 +50,7 @@ B2B セクションの一時停止は解除されました。 公開されてい
 
 | フェーズ | 結果 |
 | --- | --- |
-| A | `B2B Activation & Marketing`個のユースケース パターン カテゴリを作成しました。 3つの既存のパターン （`b2b-audience-activation`&rbrace;&#39; `b2b/account-audience-activation`, `buying-group-based-marketing`&#39;†&#39; `b2b/buying-group-marketing`, `b2b-analytics`&#39;†`b2b/account-analytics`）を再配置†ました。 3件のリダイレクトが追加されました。 |
+| A | `B2B Activation & Marketing`個のユースケース パターン カテゴリを作成しました。 3つの既存のパターン （`b2b-audience-activation`}&#39; `b2b/account-audience-activation`, `buying-group-based-marketing`&#39;†&#39; `b2b/buying-group-marketing`, `b2b-analytics`&#39;†`b2b/account-analytics`）を再配置†ました。 3件のリダイレクトが追加されました。 |
 | B | 4 B2B ブループリントを`use-case-patterns/b2b/`にコピーしました（`marketo-data-journeys`、`paid-media-orchestration`、`campaign-intake-and-creation`、`campaign-review-and-approval`）。 |
 | C | B2B以外の4つのブループリント （`real-time-profile-lookup`、`data-science-profile-enrichment`、`edge-profile-access`、`campaign-v8-orchestration`）をコピーしました。 |
 | D | 2つの分割ブループリント （`audience-sharing-with-target`、`third-party-messaging`）をコピーしました。 |
@@ -112,10 +116,10 @@ B2B セクションの一時停止は解除されました。 公開されてい
 
 ## 未解決の未解決の質問を開く（監査から）
 
-&#x200B;2. `event-triggered-messaging`の不確かな重複としてフラグが立てられた&#x200B;**`journey-optimizer-journeys.md`** ′&#39;。トリミングする前に範囲を確認してください。
-&#x200B;3. **`customer-journey-analytics/analysis.md`**@」の内容は、CJAではなくExperience Platform Query Serviceに関するものです。`experience-platform/`への再配置を検討してください。
-&#x200B;4. **`customer-success-stories.md`**-&quot; リンク専用ページ。ナビゲーションの分類を確認してください。
-&#x200B;5. 過去のTOC アンカーの質問を、完了したB2B アーキテクチャの処分に置き換えました。
+2. `event-triggered-messaging`の不確かな重複としてフラグが立てられた&#x200B;**`journey-optimizer-journeys.md`** ′&#39;。トリミングする前に範囲を確認してください。
+3. **`customer-journey-analytics/analysis.md`**@」の内容は、CJAではなくExperience Platform Query Serviceに関するものです。`experience-platform/`への再配置を検討してください。
+4. **`customer-success-stories.md`**-&quot; リンク専用ページ。ナビゲーションの分類を確認してください。
+5. 過去のTOC アンカーの質問を、完了したB2B アーキテクチャの処分に置き換えました。
 
 ## 再開の方法
 
