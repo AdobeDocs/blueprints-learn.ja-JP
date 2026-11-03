@@ -16,7 +16,7 @@ ht-degree: 0%
 Source: https://experienceleague.adobe.com/en/docs/authoring-guide/using/home
 クロール:2026-03-15
 
----
+&#x200B;---
 
 ## &#x200B;1. メタデータ/フロントマター
 
@@ -55,7 +55,7 @@ Source: https://experienceleague.adobe.com/en/docs/authoring-guide/using/home
 ### 非推奨フィールド
 seo-title, seo-description, audience, difficulty, uuid （移行時代から）
 
----
+&#x200B;---
 
 ## &#x200B;2. MARKDOWN構文（ADOBE風）
 
@@ -121,10 +121,13 @@ seo-title, seo-description, audience, difficulty, uuid （移行時代から）
 
   ```
   ```javascript
+
   code here
+
   ```
 
   ```
+
   
   
 - オプション：`{line-numbers="true"}`、`{start-line="7"}`、`{highlight="11-13, 16"}`
@@ -141,7 +144,7 @@ seo-title, seo-description, audience, difficulty, uuid （移行時代から）
 - Markdown テーブルレイアウトオプション：空白行のテーブルの後に`{style="table-layout:auto"}`を追加
 - 横方向のスクロールバーの表示に問題が発生するため、テーブルの幅が広い/高さが大きすぎないようにします
 
----
+&#x200B;---
 
 ## &#x200B;3. ADOBEの特殊な構文の拡張機能
 
@@ -175,6 +178,7 @@ seo-title, seo-description, audience, difficulty, uuid （移行時代から）
 >[!ERROR]
 >[!SUCCESS]
 ```
+
 - 重要：`>`と`[!`の間にスペースがありません – `> [!NOTE]`ではなく`>[!NOTE]`を使用してください
 - `>[!NOTE]`と本文のテキスト行の間に空白行を追加します
 
@@ -199,6 +203,7 @@ Content here
 Content inside
 +++
 ```
+
 注：ネストされた折りたたみ可能なセクションはサポートされていません。
 
 ### シェードボックス
@@ -214,6 +219,7 @@ Content here
 ```
 >[!VIDEO](https://video.tv.adobe.com/v/ID/?quality=12&learn=on)
 ```
+
 文字起こし用に`{transcript=true}`を追加します。
 
 ### さらに
@@ -239,6 +245,7 @@ Content here
 ```
 [!BADGE Label]{type=Informative url="https://example.com" tooltip="text"}
 ```
+
 種類：`Informative` （青）、`Positive` （緑）、`Negative` （赤）、`Neutral` （灰色）、`Caution` （黄色）
 
 ### テキストの強調表示（プレビュー）
@@ -272,7 +279,7 @@ Content here
 - 水平ルール
 - ネストされた折りたたみ可能なセクション
 
----
+&#x200B;---
 
 ## &#x200B;4. ファイルの命名とフォルダー構造
 
@@ -302,7 +309,7 @@ Content here
 - 目次メタデータ：`user-guide-description`、オプションで`breadcrumb-title`
 - `mini-toc-levels`：右ナビゲーションの見出し表示を制御します（1 ～ 6、デフォルト 2）
 
----
+&#x200B;---
 
 ## &#x200B;5. コンテンツの品質と編集基準
 
@@ -348,7 +355,7 @@ Content here
 - `title` メタデータフィールドのタイトルケースのみ
 - 固有名詞は常に大文字
 
----
+&#x200B;---
 
 ## &#x200B;6. SEOのベストプラクティス
 
@@ -365,7 +372,7 @@ Content here
 - AnswerThePublic、Google Trendsなどのツールを使用して、キーワードを調査します
 - コンテンツは、E-E-A-T （経験、専門知識、権威、信頼性）を実証する必要があります
 
----
+&#x200B;---
 
 ## &#x200B;7. ローカライズ
 
@@ -385,7 +392,7 @@ Content here
 - `[!DNL ProductName]` – 製品名/ブランド名が翻訳されるのを防ぎます
 - 「ローカライズしない」フォルダー内の画像はローカライズから除外されます
 
----
+&#x200B;---
 
 ## &#x200B;8. コンテンツタイプ
 
@@ -396,7 +403,7 @@ Content here
 - **ナレッジベース記事**：一時的に関連する簡単なトラブルシューティングの内容
 - **ランディングページ/ホームページ**：個別に管理（SCCM）
 
----
+&#x200B;---
 
 ## &#x200B;9. 回避すべき一般的な検証エラー
 
