@@ -7,9 +7,9 @@ exl-id: e4e8eabd-ab91-4693-9b8a-0f94dd15db13
 product_v2:
   - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
     internal-label: Experience Platform
-source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
+source-git-commit: c86067364972ee7f0f50fed308f19e797efd087a
 workflow-type: tm+mt
-source-wordcount: '270'
+source-wordcount: '272'
 ht-degree: 0%
 ---
 
@@ -36,7 +36,7 @@ ht-degree: 0%
 
 
 
-4. 表示されるモーダルで、**Orchestration - Marketing**&#x200B;を選択し、**Confirm**&#x200B;をクリックします
+4. 表示されるモーダルで、「**マーケティングとトランザクション**」を選択し、「**確認**」をクリックします
 
 ![&#x200B; オーケストレーション – マーケティングを選択し、「確認」をクリックします](assets/create-an-orchestrated-campaign-select-orchestration-marketing.png)
 
