@@ -4,13 +4,11 @@ description: 「オーディエンスを作成」アクティビティを使用�
 doc-type: article
 solution: Experience Platform
 exl-id: 7576e64b-d99a-4864-b877-f4ae77e1d7bd
-source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
+source-git-commit: 9a38e7016b9fdca00bc49be00fe03a0e8e5ed26d
 workflow-type: tm+mt
 source-wordcount: '477'
 ht-degree: 0%
-
 ---
-
 
 # オーディエンスの構築
 
@@ -40,11 +38,11 @@ ht-degree: 0%
 
    ![&#x200B; オーディエンスの作成ペインで「条件を追加」をクリック &#x200B;](assets/build-an-audience-add-condition.png)
 
-6. 下にスクロールして、横にある&#x200B;**>**&#x200B;をクリックし、`dep-rel: Plan Lookup`を展開します
+6. 下にスクロールして、横にある&#x200B;**>**&#x200B;をクリックし、`dep-rel: Plan [Lookup]`を展開します
 
    ![展開dep-rel: プラン検索](assets/build-an-audience-expand-plan-lookup.png)
 
-7. `dep-rel: Plan Name`を選択し、**確認**&#x200B;をクリックします
+7. `Plan Name`を選択し、**確認**&#x200B;をクリックします
 
    ![担当者を選択：プラン名](assets/build-an-audience-select-plan-name.png)
 

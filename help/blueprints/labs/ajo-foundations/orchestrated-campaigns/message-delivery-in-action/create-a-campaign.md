@@ -7,9 +7,9 @@ exl-id: 5602b0ba-95e2-455f-affd-081df540c999
 product_v2:
   - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
     internal-label: Experience Platform
-source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
+source-git-commit: 5ddc029828ce7ecc167555ed900a136690b10677
 workflow-type: tm+mt
-source-wordcount: '127'
+source-wordcount: '131'
 ht-degree: 4%
 ---
 
@@ -29,9 +29,9 @@ ht-degree: 4%
 
    ![&#x200B; 「キャンペーンを作成」ボタンをクリック &#x200B;](assets/create-a-campaign-click-create-campaign.png)
 
-3. **オーケストレーション – マーケティング**&#x200B;を選択し、**確認**&#x200B;をクリックします
+3. **マーケティングとトランザクションのオーケストレーション**&#x200B;を選択し、**確認**&#x200B;をクリックします
 
-   ![&#x200B; オーケストレーション – マーケティングを選択し、「確認」をクリックします](assets/create-a-campaign-select-orchestration-marketing.png)
+   ![&#x200B; オーケストレーションマーケティングとトランザクションを選択し、「確認」をクリックします](assets/create-a-campaign-select-orchestration-marketing.png)
 
 4. 以下にキャンペーンの詳細を入力し、完了したら&#x200B;**保存ボタン**&#x200B;をクリックします
    - **名前：** `OC-MDL-Campaign-Test`

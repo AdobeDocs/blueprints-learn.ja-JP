@@ -4,13 +4,11 @@ description: オーケストレーションキャンペーンで「オーディ�
 doc-type: article
 solution: Experience Platform
 exl-id: 697d3edb-2b63-4038-a934-3587495e17f7
-source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
+source-git-commit: 44d25df10492b3df80fe3887f75ab71e1ebf4743
 workflow-type: tm+mt
-source-wordcount: '856'
+source-wordcount: '855'
 ht-degree: 0%
-
 ---
-
 
 # オーディエンスの構築
 
@@ -165,6 +163,6 @@ ht-degree: 0%
 
 ## まとめ
 
-最初のオーディエンスが正常に作成され、オーディエンスを作成アクティビティ内でカウントを簡単に作成および検証できるようになりました。
+オーディエンスを作成できました。これで、「オーディエンスを作成」アクティビティ内でカウントを簡単に作成および検証できるようになりました。
 
 ![振り返り後にオーディエンスの作成アクティビティを完了しました](assets/build-an-audience-recap-completed-audience.png)
