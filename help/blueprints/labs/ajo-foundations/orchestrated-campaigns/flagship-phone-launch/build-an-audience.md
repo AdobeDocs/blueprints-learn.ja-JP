@@ -4,13 +4,11 @@ description: オーケストレーションキャンペーンで「オーディ�
 doc-type: article
 solution: Experience Platform
 exl-id: 697d3edb-2b63-4038-a934-3587495e17f7
-source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
+source-git-commit: 44d25df10492b3df80fe3887f75ab71e1ebf4743
 workflow-type: tm+mt
-source-wordcount: '856'
+source-wordcount: '855'
 ht-degree: 0%
-
 ---
-
 
 # オーディエンスの構築
 
@@ -24,7 +22,7 @@ ht-degree: 0%
 
 1. キャンバスで&#x200B;**+記号**&#x200B;をクリックし、**オーディエンスを作成** アクティビティを選択してワークフローに追加します
 
-   ![&#x200B; ワークフローキャンバスにオーディエンスアクティビティを作成](assets/build-an-audience-add-activity.png)を追加
+   ![ ワークフローキャンバスにオーディエンスアクティビティを作成](assets/build-an-audience-add-activity.png)を追加
 
 
 
@@ -39,7 +37,7 @@ ht-degree: 0%
 
 1. ターゲティングディメンションボックスの&#x200B;**検索アイコン**&#x200B;をクリックします
 
-   ![&#x200B; ターゲティングディメンションボックス内の検索アイコン &#x200B;](assets/build-an-audience-search-targeting-dimension.png)
+   ![ ターゲティングディメンションボックス内の検索アイコン ](assets/build-an-audience-search-targeting-dimension.png)
 
 2. ポップアップで、**dep-rel: Customer Line**&#x200B;という名前のテーブルを検索して選択し、**確認** ボタンをクリックします。
 
@@ -61,11 +59,11 @@ ht-degree: 0%
 
 1. 右側のパネルで「**オーディエンスを作成**」ボタンをクリックします
 
-   ![右側のパネルに「オーディエンスを作成」ボタン &#x200B;](assets/build-an-audience-click-create-audience.png)
+   ![右側のパネルに「オーディエンスを作成」ボタン ](assets/build-an-audience-click-create-audience.png)
 
 2. 次に、**条件を追加** ボタンをクリックします
 
-![&#x200B; オーディエンス定義の「条件を追加」ボタン &#x200B;](assets/build-an-audience-click-add-condition.png)
+![ オーディエンス定義の「条件を追加」ボタン ](assets/build-an-audience-click-add-condition.png)
 
 
 
@@ -83,7 +81,7 @@ ht-degree: 0%
 
 2. 条件の適格カウントを表示するには、**更新** アイコンをクリックします。
 
-条件1![&#128279;](assets/build-an-audience-condition-1-refresh-count.png)に対する241の適格カウントを示す更新アイコン
+条件1](assets/build-an-audience-condition-1-refresh-count.png)に対する241の適格カウントを示す![更新アイコン
 
 >[!TIP]
 >
@@ -95,12 +93,12 @@ ht-degree: 0%
 
 1. **条件を追加** ボタンをクリックし、**>** アイコンをクリックして&#x200B;**dep-rel:** **製品\[Lookup]** スキーマを選択します
 
-   ![詳細：製品[検索] スキーマを選択するには、> アイコン &#x200B;](assets/build-an-audience-select-product-lookup-schema.png)をクリックします
+   ![詳細：製品[検索] スキーマを選択するには、> アイコン ](assets/build-an-audience-select-product-lookup-schema.png)をクリックします
 
 
 2. **Make**&#x200B;という名前のフィールドを探し、3つのドットをクリックして、**値の分布**&#x200B;を選択します
 
-   ![Make フィールドの値の分布オプション &#x200B;](assets/build-an-audience-make-distribution-of-values.png)
+   ![Make フィールドの値の分布オプション ](assets/build-an-audience-make-distribution-of-values.png)
 
 
 
@@ -153,7 +151,7 @@ ht-degree: 0%
 
 **この場合、最終的なオーディエンスサイズは何ですか？**
 
-![&#x200B; レコード数が0の最後の条件「最後の条件は0」 &#x200B;](assets/build-an-audience-challenge-zero-count-condition.png "最後の条件は0")
+![ レコード数が0の最後の条件「最後の条件は0」 ](assets/build-an-audience-challenge-zero-count-condition.png "最後の条件は0")
 
 ## 回答
 
@@ -165,6 +163,6 @@ ht-degree: 0%
 
 ## まとめ
 
-最初のオーディエンスが正常に作成され、オーディエンスを作成アクティビティ内でカウントを簡単に作成および検証できるようになりました。
+オーディエンスを作成できました。これで、「オーディエンスを作成」アクティビティ内でカウントを簡単に作成および検証できるようになりました。
 
 ![振り返り後にオーディエンスの作成アクティビティを完了しました](assets/build-an-audience-recap-completed-audience.png)
