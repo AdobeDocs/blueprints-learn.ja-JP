@@ -4,9 +4,9 @@ description: 「注文発送」イベントに応答し、ETAを発送するた�
 doc-type: article
 solution: Experience Platform
 exl-id: 4dd15071-51e5-445a-932d-690d9a73a913
-source-git-commit: 96308d5726def849ef22540a5d13618017c40cc3
+source-git-commit: 93fba2a4818790431306801b43a791508451f344
 workflow-type: tm+mt
-source-wordcount: '1061'
+source-wordcount: '1078'
 ht-degree: 0%
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 ## ジャーニーを作成
 
-**ジャーニー**&#x200B;に移動し、**ジャーニーを作成 – ゼロから作成**&#x200B;をクリックします
+**ジャーニー**&#x200B;に移動し、**ジャーニーを作成**&#x200B;をクリックします
 
 ![ジャーニーを作成 – Adobe Journey Optimizerのゼロから作成](assets/build-journey-create-journey-from-scratch.png)
 
@@ -29,7 +29,7 @@ ht-degree: 0%
 1. 右側のパネルのジャーニープロパティを次のように更新します。
    - **名前**: `Order Shipped Journey`
    - **説明**: `Notify customer that order has shipped. Include shipping details.`
-   - **タグ**: `Default`
+   - **タグ**: *空白のままにする*
    - **ジャーニー指標**: *空白のままにする*
 
      >[!NOTE]
@@ -60,7 +60,7 @@ ht-degree: 0%
 
 2. 問題ないようです。**保存** ボタンをクリックします
 
-![ジャーニープロパティパネルの「保存」ボタン &#x200B;](assets/build-journey-save-journey-properties.png)
+![ジャーニープロパティパネルの「保存」ボタン ](assets/build-journey-save-journey-properties.png)
 
 
 
@@ -69,13 +69,13 @@ ht-degree: 0%
 
 ### 単一イベントの追加
 
-**イベントメニュー**&#x200B;の下の左側のペインから、**orderShipped** イベントを下に示すようにキャンバスにドラッグします
+プラスアイコンをクリックし、**カスタムイベント**&#x200B;に移動し、次に示すように&#x200B;**orderShipped** イベントを選択します
 
 ![orderShipped イベントをイベントメニューからジャーニーキャンバスにドラッグします](assets/build-journey-drag-order-shipped-event-onto-canvas.png)
 
 
 
-![&#x200B; ジャーニーキャンバスに配置された注文の発送イベント &#x200B;](assets/build-journey-drag-order-shipped-event-onto-canvas--2.png)
+![ ジャーニーキャンバスに配置された注文の発送イベント ](assets/build-journey-drag-order-shipped-event-onto-canvas--2.png)
 
 
 
@@ -83,13 +83,13 @@ ht-degree: 0%
 
 ### カスタムアクションを追加
 
-1. 左側のペインで&#x200B;**アクション メニュー**&#x200B;を展開し、orderShipped イベントの後に&#x200B;**GetShippingDetails**&#x200B;という名前で作成したアクションをキャンバスにドラッグしない場合
+1. プラスアイコンをクリックし、**カスタムアクション**&#x200B;に移動し、**GetShippingDetails**&#x200B;という名前のアクションを選択して、orderShipped イベントの後に表示します
 
    ![orderShipped イベントの後に、GetShippingDetails カスタムアクションをキャンバスにドラッグします](assets/build-journey-drag-getshippingdetails-action-onto-canvas.png)
 
 2. 右側のパネルで、「アクセスとプライバシー設定 – > マーケティングアクション」ドロップダウンで、値が&#x200B;**None**&#x200B;に設定されていることを確認します
 
-   アクセスおよびプライバシー設定で![&#x200B; マーケティングアクション ドロップダウンを「なし」に設定](assets/build-journey-set-marketing-action-to-none.png)
+   アクセスおよびプライバシー設定で![ マーケティングアクション ドロップダウンを「なし」に設定](assets/build-journey-set-marketing-action-to-none.png)
 
 3. エンドポイント設定/ クエリパラメーターのメニューで、orderidの横にある&#x200B;**鉛筆アイコン**&#x200B;をクリックします
 
@@ -107,13 +107,13 @@ ht-degree: 0%
 
 ### メールアクションを追加
 
-1. 「アクション」メニューの「**アクション**」アクションを「GetShippingDetails」アクションの後にキャンバスにドラッグ&amp;ドロップします
+1. GetShippingDetails カスタムイベントの後にあるプラスアイコンをクリックし、**アクション**&#x200B;を選択します。
 
-   ![GetShippingDetails アクション &#x200B;](assets/build-journey-drag-email-action-onto-canvas.png)の後で、アクションノードをキャンバスにドラッグします
+   ![GetShippingDetails アクション ](assets/build-journey-drag-email-action-onto-canvas.png)の後で、アクションノードをキャンバスにドラッグします
 
 2. マーケティングアクションに「**電子メール**」を選択し、**追加**&#x200B;を選択します。
 
-   ![&#x200B; マーケティングアクションとしてメールを選択し、「追加」をクリックします](assets/build-journey-select-email-marketing-action.png)
+   ![ マーケティングアクションとしてメールを選択し、「追加」をクリックします](assets/build-journey-select-email-marketing-action.png)
 
 3. 右側のパネルで、**アクションの設定**&#x200B;をクリックします
 
@@ -121,7 +121,7 @@ ht-degree: 0%
 
 4. **メールチャネル設定**&#x200B;を`Profile-Email`に設定し、**コンテンツを編集**&#x200B;をクリックします
 
-![&#x200B; コンテンツを編集リンク &#x200B;](assets/build-journey-set-profile-email-channel-configuration.png)を使用して、メールチャネル設定をProfile-Emailに設定しました
+![ コンテンツを編集リンク ](assets/build-journey-set-profile-email-channel-configuration.png)を使用して、メールチャネル設定をProfile-Emailに設定しました
 
 
 
@@ -135,23 +135,23 @@ ht-degree: 0%
 
 2. 上部のバーで、**ゼロからデザイン** コンテンツブロックをクリックします
 
-   ![上部バーのコンテンツブロックを最初からデザイン &#x200B;](assets/build-journey-click-design-from-scratch.png)
+   ![上部バーのコンテンツブロックを最初からデザイン ](assets/build-journey-click-design-from-scratch.png)
 
-3. 構造コンテナの下の左バーから、**1:1列**&#x200B;をキャンバスにドラッグ&amp;ドロップします
+3. 左側のバーで「コンポーネント」タブに移動し、「構造」コンテナの下から「**1:1 Column**」をキャンバスにドラッグ&amp;ドロップします
 
    ![1:1列構造要素を電子メールキャンバスにドラッグします](assets/build-journey-drag-1-1-column-onto-canvas.png)
 
-4. 次に、コンテンツコンテナの下に、**テキスト** コンポーネントを&#x200B;**1:1列**&#x200B;にドラッグ&amp;ドロップします
+4. 次に、コンテンツ コンテナの下から、**テキスト** コンポーネントを&#x200B;**1:1列**&#x200B;にドラッグします
 
-   ![&#x200B; テキストコンポーネントを1:1列にドラッグします](assets/build-journey-drag-text-component-into-column.png)
+   ![ テキストコンポーネントを1:1列にドラッグします](assets/build-journey-drag-text-component-into-column.png)
 
 5. テキストコンポーネントをクリックし、現在のテキスト **を**&#x200B;削除してから、**Personalizationを追加** アイコンをクリックします
 
-   ![&#x200B; デフォルトのテキストを削除した後にPersonalization アイコンを追加](assets/build-journey-click-add-personalization-icon.png)
+   ![ デフォルトのテキストを削除した後にPersonalization アイコンを追加](assets/build-journey-click-add-personalization-icon.png)
 
 6. 左側のパネルで、**コンテキスト属性** フォルダーをクリックし、**Journey Orchestration** -> **アクション**&#x200B;に移動して、**GetShippingDetails**&#x200B;を選択します
 
-   ![&#x200B; コンテキスト属性 – Journey Orchestration - アクション &#x200B;](assets/build-journey-select-getshippingdetails-contextual-attribute.png)の下にあるGetShippingDetailsを選択します
+   ![ コンテキスト属性 – Journey Orchestration - アクション ](assets/build-journey-select-getshippingdetails-contextual-attribute.png)の下にあるGetShippingDetailsを選択します
 
 7. メールの本文で、次のJSONを&#x200B;**コピーして** Personalization **editor**&#x200B;に貼り付けます
 
@@ -175,11 +175,11 @@ ht-degree: 0%
    >
    >メールでは、コンテキスト属性（ETAとトラッキング番号）とプロファイル属性（名）の組み合わせを使用します。 他のプロファイル属性を追加する場合は、「プロファイル属性」タブをクリックして、表示される任意の項目を選択できます。
    >
-   >プロファイル属性を追加するための![&#x200B; プロファイル属性タブ &#x200B;](assets/build-journey-profile-attributes-tab.png)
+   >プロファイル属性を追加するための![ プロファイル属性タブ ](assets/build-journey-profile-attributes-tab.png)
 
 9. 画面の下部にある「**検証**」ボタンをクリックし、エラーがないことを確認します
 
-   ![画面の下部にエラーが表示されない検証ボタン &#x200B;](assets/build-journey-click-validate-button.png)
+   ![画面の下部にエラーが表示されない検証ボタン ](assets/build-journey-click-validate-button.png)
 
 10. すべて問題ないようです。右上の&#x200B;**保存ボタン**&#x200B;をクリックします
 11. 次に、右上の&#x200B;**保存** ボタンをもう一度クリックし、左上の&#x200B;**\&lt; – 左矢印**&#x200B;をクリックします
@@ -200,13 +200,14 @@ ht-degree: 0%
 
 メインジャーニーのCanvasに戻り、メールノードで読み取り専用フィールドが表示されていることを確認します（**読み取り専用フィールドを表示** アイコンをクリックする必要がある場合があります）
 
-![ジャーニーキャンバスの電子メールノードに表示される読み取り専用フィールド &#x200B;](assets/build-journey-show-read-only-fields-email-node.png)
+![ジャーニーキャンバスの電子メールノードに表示される読み取り専用フィールド ](assets/build-journey-show-read-only-fields-email-node.png)
 
 1. **メールパラメーター**&#x200B;までスクロールし、**パラメーターの上書きを有効にする** アイコンをクリックします
 
    ![電子メールパラメーター](assets/build-journey-enable-parameter-override.png)のパラメーターの上書きアイコンを有効にする
 
-2. 空のテキストボックスをクリックし、左側のパネルで&#x200B;**Context** -> **orderShipped** -> **\_dep**&#x200B;にドリルダウンして、**personalEmail** フィールドをクリックします。  次に、**OK ボタン**&#x200B;をクリックします
+2. 空のテキストボックスをクリックし、左側のパネルで&#x200B;**Context** -> **orderShipped** -> **\_dep**&#x200B;にドリルダウンして、**personalEmail** フィールドをクリックします。  次に、**OK ボタンをクリックします**
+（アンダースコアで始まるテナント名は、環境によって異なる場合があります。この例では_depです）。
 
    ![orderShipped コンテキスト _dep](assets/build-journey-select-personalemail-context-field.png)の下のpersonalEmail フィールドを選択します
 
