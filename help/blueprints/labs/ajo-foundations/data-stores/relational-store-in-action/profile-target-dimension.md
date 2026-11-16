@@ -109,4 +109,4 @@ Profile Target Dimensionは、Real-Time Customer Profileとリレーショナル
 
 これで、スキーマをナビゲートし、属性をIDとしてマークし、プロファイルターゲットDimensionを作成することがいかに簡単かを確認しました。
 
-ご興味のある方は、[こちら](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/campaigns/orchestrated-campaigns/data-configuration/target-dimension)をご覧ください。
+ご興味のある方は、[こちら](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/campaigns/orchestrated-campaigns/data-configuration/target-dimension)をご覧ください。
