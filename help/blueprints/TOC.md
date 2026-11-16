@@ -6,9 +6,9 @@ product: Adobe Experience Platform
 mini-toc-levels: 3
 role: Developer, User
 nudge: orange
-source-git-commit: 7349d665e8bea0dfff5d088e2c3a56f33e5924cb
+source-git-commit: ea991411ae0339bb4a1a36ac994fa76097d37307
 workflow-type: tm+mt
-source-wordcount: '1043'
+source-wordcount: '1040'
 ht-degree: 15%
 ---
 
@@ -106,7 +106,6 @@ ht-degree: 15%
   + B2B アクティベーション/マーケティング{#b2b-activation-marketing}
     + [概要](/help/blueprints/architecture-diagrams/b2b-activation-marketing/overview.md)
     + [B2B オーディエンスとプロファイルのアクティベーション](/help/blueprints/architecture-diagrams/b2b-activation-marketing/b2b-audience-profile-activation.md)
-    + [B2B アカウントのアクティベーション](/help/blueprints/architecture-diagrams/b2b-activation-marketing/b2b-account-activation.md)
   + 顧客インサイト{#customer-insights}
     + [概要](/help/blueprints/architecture-diagrams/customer-insights/overview.md)
     + [Adobe Customer Journey Analytics](/help/blueprints/architecture-diagrams/customer-insights/cja.md)
@@ -340,7 +339,7 @@ ht-degree: 15%
         + [Experience Edge](/help/blueprints/labs/ajo-foundations/decisioning/experience-edge.md)
         + 決定事項の説明{#ajo-decisioning-explained}
           + [概要](/help/blueprints/labs/ajo-foundations/decisioning/decisioning-explained/overview.md)
-          + [概要](/help/blueprints/labs/ajo-foundations/decisioning/decisioning-explained/introduction.md)
+          + [はじめに](/help/blueprints/labs/ajo-foundations/decisioning/decisioning-explained/introduction.md)
           + [決定項目XDM](/help/blueprints/labs/ajo-foundations/decisioning/decisioning-explained/decision-item-xdm.md)
           + [決定項目作成](/help/blueprints/labs/ajo-foundations/decisioning/decisioning-explained/decision-item-creation.md)
           + [コレクション](/help/blueprints/labs/ajo-foundations/decisioning/decisioning-explained/collections.md)
