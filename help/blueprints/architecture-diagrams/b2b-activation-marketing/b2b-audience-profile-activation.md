@@ -19,7 +19,7 @@ ht-degree: 4%
 
 - アカウント、機会、リードなどのB2B データにもとづいて、チャネルをまたいでターゲティングやパーソナライゼーションに関与する人物のオーディエンスを構築できます。
 - **セグメントのセグメント** アプローチを使用して、アカウントレベルおよび商談レベルの属性と個人レベルの行動を組み合わせたマルチエンティティオーディエンスを作成します（例：「過去3日間に価格ページを訪問し、業界Yのアカウントのステージ Xの機会における意思決定者」）。
-- ターゲティングやパーソナライゼーションのためにサポートされているExperience Platformの配信先にピープルオーディエンスをアクティベートし、ターゲティング、セールスアウトリーチ、分析のためにサポートされている広告やクラウドストレージの配信先にアカウントオーディエンスをアクティベートすることができます。 宛先のサポートは、オーディエンスの種類によって異なります。アカウントのアクティベーションについては、[ アカウントオーディエンスの宛先](#account-audience-destinations)を参照してください。
+- ターゲティングやパーソナライゼーションのためにサポートされているExperience Platformの配信先にピープルオーディエンスをアクティベートし、ターゲティング、セールスアウトリーチ、分析のためにサポートされている広告やクラウドストレージの配信先にアカウントオーディエンスをアクティベートすることができます。 宛先のサポートは、オーディエンスの種類によって異なります。アカウントのアクティベーションについては、[&#x200B; アカウントオーディエンスの宛先](#account-audience-destinations)を参照してください。
 
 ### アカウントベースのユースケース
 
@@ -49,7 +49,7 @@ ht-degree: 4%
   - Trade Desk CRM、Criteo、Bingなどの広告プラットフォーム
   - ダウンストリームで使用するAmazon S3、ADLS、Snowflakeなどのクラウドストレージの宛先
 
-  アカウントオーディエンスは、同じ統合B2B データモデルを使用し、[ アカウントオーディエンスの宛先](#account-audience-destinations)にリストされているサポートされている広告およびファイルの宛先に対して個別にアクティブ化されます。
+  アカウントオーディエンスは、同じ統合B2B データモデルを使用し、[&#x200B; アカウントオーディエンスの宛先](#account-audience-destinations)にリストされているサポートされている広告およびファイルの宛先に対して個別にアクティブ化されます。
 
 - **B2Bのインテントおよびイベントソース → RTCDP B2B →オーディエンス→宛先**
 
@@ -59,7 +59,7 @@ ht-degree: 4%
 
 ## アーキテクチャ
 
-![B2B オーディエンスとプロファイル アクティベーションの設計図に関する参照アーキテクチャ ](assets/b2b-audience-profile-activation.png){width="1000" zoomable="yes"}
+![B2B オーディエンスとプロファイル アクティベーションの設計図に関する参照アーキテクチャ &#x200B;](assets/b2b-audience-profile-activation.png){width="1000" zoomable="yes"}
 
 ## アカウントオーディエンスの宛先
 
@@ -74,7 +74,7 @@ ht-degree: 4%
 - Azure・ブロブ
 - AWS S3
 
-サポートされている最新の宛先と必要なマッピングについては、[ アカウントオーディエンスをアクティブ化](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/activate-account-audiences?lang=en)を参照してください。 統合パターンに記載されている人物/オーディエンスの宛先は、必ずしもアカウントオーディエンスをサポートしているわけではありません。
+サポートされている最新の宛先と必要なマッピングについては、[&#x200B; アカウントオーディエンスをアクティブ化](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/activate-account-audiences?lang=en)を参照してください。 統合パターンに記載されている人物/オーディエンスの宛先は、必ずしもアカウントオーディエンスをサポートしているわけではありません。
 
 ## ガードレール
 
@@ -104,7 +104,7 @@ B2B オーディエンスとプロファイルを設計する際には、次の�
 
 #### Experience Platformのプロファイルとセグメンテーションガードレール
 
-Experience Platform プロファイルとセグメント化のガードレールについては、[ プロファイルとセグメント化のガードレール ](https://experienceleague.adobe.com/en/docs/experience-platform/profile/guardrails)を参照してください。
+Experience Platform プロファイルとセグメント化のガードレールについては、[&#x200B; プロファイルとセグメント化のガードレール &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/profile/guardrails)を参照してください。
 
 アカウント、リード、商談などのB2B エンティティを含むセグメントは、複数のエンティティの関係に依存し、**バッチ**&#x200B;で評価されます。 対照的に、**ストリーミングセグメンテーション**&#x200B;は、B2B エンティティを組み込まない人物およびイベントに限定されたオーディエンスに対してサポートされます。 ほぼリアルタイムのB2B アクティベーションのシナリオについては、バッチ評価されたB2B オーディエンスを、ストリーミングオーディエンスやエッジオーディエンスの入力として使用することを検討してください。
 
@@ -118,7 +118,7 @@ Experience Platform プロファイルとセグメント化のガードレール
 
 #### 宛先ガードレール
 
-- 各宛先に関する具体的なガイダンスについては、宛先ドキュメントを参照してください：[宛先ガードレール ](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/guardrails)。
+- 各宛先に関する具体的なガイダンスについては、宛先ドキュメントを参照してください：[宛先ガードレール &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/guardrails)。
 - Facebook、Google Customer Match &amp; DV360、Microsoft Bing、The Trade Desk、Amazon Ads、Bombora、Demandbaseなどの広告配信先では、スキーマおよびID戦略（メール、モバイル広告ID、アドレスフィールド、アカウント ID）で選択した識別子が、マッピング機能およびそれらの配信先でサポートされているIDと一致していることを確認します。
 
 ## 実装手順
@@ -134,8 +134,8 @@ RTCDP B2B アーキテクチャのアップグレードの一環として、以�
 
 アカウントオーディエンスの作成とアクティベーションについては、次を参照してください。
 
-- [ アカウントオーディエンスを作成](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/account-audiences?lang=en)。
-- [ アカウントオーディエンスをアクティブ化](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/activate-account-audiences?lang=en)。
+- [&#x200B; アカウントオーディエンスを作成](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/account-audiences?lang=en)。
+- [&#x200B; アカウントオーディエンスをアクティブ化](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/activate-account-audiences?lang=en)。
 - [LinkedIn Matched Audiences](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/activate-account-audiences?lang=en#required-mappings)に必要なマッピング。
 
 ## 実装に関する考慮事項
@@ -150,7 +150,7 @@ RTCDP B2B アーキテクチャのアップグレードの一環として、以�
 
 - **LinkedIn Matched Audiencesの最小オーディエンスサイズ**
 
-  LinkedIn Matched Audiencesには、オーディエンスサイズの最小要件（300人のマッチング済みメンバーなど）があります。 アクティブなアカウントオーディエンスが要件を満たさない場合は、キャンペーンを開始する前に、オーディエンス定義を拡大して、一致するオーディエンスサイズを増やします。 現在の要件については、[LinkedInの宛先ドキュメント ](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/social/linkedin?lang=en)を参照してください。
+  LinkedIn Matched Audiencesには、オーディエンスサイズの最小要件（300人のマッチング済みメンバーなど）があります。 アクティブなアカウントオーディエンスが要件を満たさない場合は、キャンペーンを開始する前に、オーディエンス定義を拡大して、一致するオーディエンスサイズを増やします。 現在の要件については、[LinkedInの宛先ドキュメント &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/social/linkedin?lang=en)を参照してください。
 
 ## 関連ドキュメント
 
