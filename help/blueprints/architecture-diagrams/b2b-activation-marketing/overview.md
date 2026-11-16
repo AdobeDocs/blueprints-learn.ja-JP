@@ -20,10 +20,10 @@ topic_v2:
     internal-label: Customer experience
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: c2381a0f7223d8cbb0dae05d056fd45ff5701f0f
+source-git-commit: ea991411ae0339bb4a1a36ac994fa76097d37307
 workflow-type: tm+mt
-source-wordcount: '169'
-ht-degree: 80%
+source-wordcount: '164'
+ht-degree: 82%
 ---
 # B2B アクティベーションとマーケティング
 
@@ -33,5 +33,4 @@ B2B データドリブン型マーケティングでは、オーディエンス�
 
 | ダイアグラム | 説明 |
 | --- | --- |
-| [B2B オーディエンスとプロファイルのアクティブ化](b2b-audience-profile-activation.md) | Real-Time Customer Data Platform B2B editionを利用して、アカウントベースおよびピープルベースのオーディエンスを活用しましょう |
-| [B2B アカウントのアクティベーション &#x200B;](b2b-account-activation.md) | 広告やファイルベースの配信先を通じたB2B アカウントのターゲティング |
+| [B2B オーディエンスとプロファイルのアクティブ化](b2b-audience-profile-activation.md) | Real-Time Customer Data Platform B2B editionを使用して、サポートされているチャネルやアカウントオーディエンスをまたいで、広告およびファイルの宛先にピープルオーディエンスをアクティベートできます |
