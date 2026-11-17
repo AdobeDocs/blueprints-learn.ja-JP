@@ -29,7 +29,7 @@ Web イベントがExperience Platform Data Lakeに書き込まれているこ�
 
 1. **クエリ**&#x200B;および&#x200B;**クエリの作成**&#x200B;に移動します
 
-   ![ クエリセクションでクエリ画面を作成](assets/validate-event-on-data-lake-create-query.png)
+   ![&#x200B; クエリセクションでクエリ画面を作成](assets/validate-event-on-data-lake-create-query.png)
 
 2. このSQLをコピーしてクエリに貼り付けます
 
@@ -48,7 +48,7 @@ Web イベントがExperience Platform Data Lakeに書き込まれているこ�
 
 
 
-![ データレイク内のストリーミング web イベントを示すクエリ結果](assets/validate-event-on-data-lake-query-results.png)
+![&#x200B; データレイク内のストリーミング web イベントを示すクエリ結果](assets/validate-event-on-data-lake-query-results.png)
 
 ## まとめ
 
