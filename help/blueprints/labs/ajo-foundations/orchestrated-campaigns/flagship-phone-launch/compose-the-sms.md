@@ -7,9 +7,9 @@ exl-id: 3deb822b-8374-4537-a260-f4f6f4d67569
 product_v2:
   - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
     internal-label: Experience Platform
-source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
+source-git-commit: 4efa9da0ca6b73b4710a15a007712edcaa3ee867
 workflow-type: tm+mt
-source-wordcount: '409'
+source-wordcount: '424'
 ht-degree: 0%
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 0%
 
 「**コンテンツを編集**」ボタンをクリックするか、**コンテンツ** タブに直接移動します
 
-![&#x200B; コンテンツボタンとコンテンツタブのナビゲーションを編集する「コンテンツを編集」 &#x200B;](assets/compose-the-sms-navigate-to-content-tab.png " コンテンツを編集")
+![ コンテンツボタンとコンテンツタブのナビゲーションを編集する「コンテンツを編集」 ](assets/compose-the-sms-navigate-to-content-tab.png " コンテンツを編集")
 
 
 
@@ -33,7 +33,7 @@ ht-degree: 0%
 
 1. 「**Personalization**」ボタンをクリックして、メッセージを作成します。
 
-   ![SMS メッセージを作成するためのPersonalization ボタン &#x200B;](assets/compose-the-sms-click-personalization-button.png)
+   ![SMS メッセージを作成するためのPersonalization ボタン ](assets/compose-the-sms-click-personalization-button.png)
 
    >[!NOTE]
    >
@@ -53,9 +53,9 @@ ht-degree: 0%
 
 
 
-3. 左側のパネルの「**ターゲット属性**」オプションを使用して、下の「**phone\_make**」と「**phone\_model**」というメッセージの2つのフィールドを更新します。  完了したら、メッセージはスクリーンショットと一致する必要があります。
+3. 以下の&#x200B;**phone\_make**&#x200B;および&#x200B;**phone\_model**&#x200B;というメッセージの2つのフィールドを、左側のレールの対応する&#x200B;**ターゲット属性** オプションに置き換えます。  完了したら、メッセージは以下のスクリーンショットと一致する必要があります。 （変数の名前付けパスは、変数をどこから見つけるかを示す手がかりになります）。
 
-   ![電話のメーカーとモデルがパーソナライズされた最終的なSMS メッセージ &#x200B;](assets/compose-the-sms-final-message-text.png)
+   ![電話のメーカーとモデルがパーソナライズされた最終的なSMS メッセージ ](assets/compose-the-sms-final-message-text.png)
 
    >[!NOTE]
    >
@@ -65,7 +65,7 @@ ht-degree: 0%
 
 4. エディターで&#x200B;**Validate**&#x200B;をクリックし、検証エラーがないことを確認し、**Save** ボタンをクリックします
 
-   ![&#x200B; メッセージエディターの「検証」ボタンと「保存」ボタン &#x200B;](assets/compose-the-sms-validate-and-save.png)
+   ![ メッセージエディターの「検証」ボタンと「保存」ボタン ](assets/compose-the-sms-validate-and-save.png)
 
 
 
