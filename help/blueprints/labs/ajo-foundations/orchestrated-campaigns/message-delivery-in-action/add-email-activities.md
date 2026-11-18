@@ -7,9 +7,9 @@ exl-id: e911a251-9f9f-484c-a2de-101b0fc2c417
 product_v2:
   - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
     internal-label: Experience Platform
-source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
+source-git-commit: 526f170e52c0479362c6a72bfd4cbeadc825d464
 workflow-type: tm+mt
-source-wordcount: '479'
+source-wordcount: '462'
 ht-degree: 0%
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 0%
 >
 >続行する前に、両方のメールチャネル設定がステータスでアクティブであることを確認する必要があります。
 >
->![&#x200B; アクティブなステータスを表示する両方のメールチャネル設定](assets/add-email-activities-email-channel-configs-active.png " メールチャネル設定")
+>![ アクティブなステータスを表示する両方のメールチャネル設定](assets/add-email-activities-email-channel-configs-active.png " メールチャネル設定")
 
 
 
@@ -35,19 +35,19 @@ ht-degree: 0%
 
    **電子メール**&#x200B;の詳細ペインが開きます
 
-   ![&#x200B; メールの詳細ペイン &#x200B;](assets/add-email-activities-email-details-pane.png)
+   ![ メールの詳細ペイン ](assets/add-email-activities-email-details-pane.png)
 
 2. **Email** アクティビティのプロファイル属性&#x200B;**を使用してラベルの名前を** Emailに変更し、**メールを編集**&#x200B;をクリックします。 メール本文の作成は、テスト目的でのみ行われます
 
-   ![電子メールアクティビティラベルの名前を変更して、「電子メールを編集」をクリック &#x200B;](assets/add-email-activities-rename-and-edit-email.png)
+   ![電子メールアクティビティラベルの名前を変更して、「電子メールを編集」をクリック ](assets/add-email-activities-rename-and-edit-email.png)
 
 3. 「**アクション**」タブを選択し、ドロップダウンから「**プロファイル – メール**」チャネル設定を選択します
 
-   ![&#x200B; アクション タブでプロファイルと電子メール チャネルの設定を選択](assets/add-email-activities-select-profile-email-channel.png)
+   ![ アクション タブでプロファイルと電子メール チャネルの設定を選択](assets/add-email-activities-select-profile-email-channel.png)
 
 4. 次に、**コンテンツを編集**&#x200B;をクリックして、テストコンテンツを追加します
 
-   ![&#x200B; 「コンテンツを編集」をクリックしてテストコンテンツを追加](assets/add-email-activities-edit-content.png)
+   ![ 「コンテンツを編集」をクリックしてテストコンテンツを追加](assets/add-email-activities-edit-content.png)
 
 5. **件名** （「基本プランメンバー向けアップグレードオファー」）を入力し、**メール本文を編集** ボタンをクリックします
 
@@ -69,22 +69,18 @@ ht-degree: 0%
 
    ![左向き矢印をクリックしてメールDesignerを終了](assets/add-email-activities-exit-email-designer.png)
 
-10. 確認ダイアログがポップアップ表示され、**保存して閉じる** ボタンをクリックします
-
-![保存と閉じるボタンを含む確認ダイアログ &#x200B;](assets/add-email-activities-save-and-close-dialog.png)
-
-1. メール本文に追加されたテキストを含む、メールのプロパティとアクションを確認します。 **左向き矢印**&#x200B;をクリックして、キャンペーンキャンバスに戻ります
+10. メール本文に追加されたテキストを含む、メールのプロパティとアクションを確認します。 **左向き矢印**&#x200B;をクリックして、キャンペーンキャンバスに戻ります
 
 ![Campaign キャンバスに戻る](assets/add-email-activities-back-to-campaign-canvas.png)
 
 ## 下部ブランチのメールアクティビティを追加
 
-キャンペーンキャンバスに戻り、下部フローの&#x200B;**+**&#x200B;をクリックし、**チャネルアクティビティ**&#x200B;から&#x200B;**電子メール**&#x200B;を選択します。 以下を除き、上記と同じ手順（手順2～11）に従います。
+キャンペーンキャンバスに戻り、下部フローの&#x200B;**+**&#x200B;をクリックし、**チャネルアクティビティ**&#x200B;から&#x200B;**電子メール**&#x200B;を選択します。 以下を除き、上記と同じ手順（手順2～10）に従います。
 
 - **電子メール** アクティビティのTarget Dimension **を使用して、ラベルを**&#x200B;電子メールに変更します
 - メール設定で、**Relational-Email** メールチャネル設定を選択します
 
-![&#x200B; リレーショナルメールチャネルで設定された2番目のメールアクティビティ &#x200B;](assets/add-email-activities-bottom-branch-relational-email.png "2番目のメールアクティビティを追加")
+![ リレーショナルメールチャネルで設定された2番目のメールアクティビティ ](assets/add-email-activities-bottom-branch-relational-email.png "2番目のメールアクティビティを追加")
 
 ## まとめ
 
