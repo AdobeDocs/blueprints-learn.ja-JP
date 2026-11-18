@@ -7,9 +7,9 @@ exl-id: fb556a27-5c73-4457-ae98-dba43d445c7f
 product_v2:
   - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
     internal-label: Experience Platform
-source-git-commit: 689f227965176096ccd1785699de65046af4f3d3
+source-git-commit: f189618dc8bfa198b25d646faa3ca0e0f5af5916
 workflow-type: tm+mt
-source-wordcount: '371'
+source-wordcount: '443'
 ht-degree: 0%
 ---
 
@@ -31,13 +31,13 @@ ht-degree: 0%
 
 2. 右側のパネルでラベルを更新し、次の内容を示します：`Filter out opt'd out lines`
 
-   ![&#x200B; オプトアウト行を除外するように設定されたアクティビティ ラベルを分割](assets/filter-the-lines-set-split-label.png)
+   ![ オプトアウト行を除外するように設定されたアクティビティ ラベルを分割](assets/filter-the-lines-set-split-label.png)
 
 
 
 3. 右側のパネルで、「**サブセット**」セクションを展開し、「**フィルターを作成**」ボタンをクリックします
 
-   ![&#x200B; サブセットセクションでフィルターボタンを作成](assets/filter-the-lines-create-filter-button.png)
+   ![ サブセットセクションでフィルターボタンを作成](assets/filter-the-lines-create-filter-button.png)
 
 
 
@@ -53,13 +53,29 @@ ht-degree: 0%
 
 5. 右上の「保存」ボタンをクリックして、作品を保存します。  あなたのキャンバスは今このように見えます\...
 
-![分割アクティビティを保存した後のワークフローキャンバス &#x200B;](assets/filter-the-lines-canvas-after-split-save.png)
+![分割アクティビティを保存した後のワークフローキャンバス ](assets/filter-the-lines-canvas-after-split-save.png)
+
+
+
+## 変更ディメンションを追加
+
+1. ワークフローキャンバスで、追加した分割条件の後にある&#x200B;**+** アイコンをクリックし、**ディメンションの変更** アクティビティを選択します
+
+   ![分割条件の後にディメンション変更アクティビティを追加](assets/filter-the-lines-add-change-dimension-activity.png)
+
+2. 次の概説に従って変更分析コードのプロパティを更新し、**確認**をクリックします。
+ラベル： `Convert Line to Account`
+新しいターゲットディメンション：`dep-rel: Customer Account`
+
+   ![ ターゲットディメンションを編集](assets/filter-the-lines-add-edit-target-dimension.png)
+
+   ![ ターゲットディメンションを編集](assets/filter-the-lines-add-select-target-dimension.png)
 
 
 
 ## SMS アクティビティの追加
 
-1. ワークフローキャンバスで、追加した分割条件の後にある&#x200B;**+** アイコンをクリックし、**モバイルメッセージ「Activity**」を選択します
+1. 追加したディメンションの変更の後にある&#x200B;**+** アイコンをクリックし、**モバイルメッセージ「Activity**」を選択します
 
    ![分割条件の後にモバイルメッセージアクティビティを追加](assets/filter-the-lines-add-sms-activity.png)
 
@@ -67,9 +83,9 @@ ht-degree: 0%
 
 
 
-2. 右側のパネルで「モバイルメッセージを編集」ボタンをクリックして、SMS メッセージの設定を開始します
+2. 右側のパネルで、最初にTargetの選択肢を&#x200B;**セカンダリディメンションごとに1つのメッセージ**&#x200B;に変更し、**モバイルメッセージを編集** ボタンをクリックしてSMS メッセージの設定を開始します
 
-   ![右側のパネルの「モバイルメッセージを編集」ボタン &#x200B;](assets/filter-the-lines-edit-sms-button.png)
+   ![右側のパネルの「モバイルメッセージのターゲット設定と編集」ボタン ](assets/filter-the-lines-edit-sms-button.png)
 
 
 
@@ -82,4 +98,4 @@ ht-degree: 0%
 
 ## まとめ
 
-オプトアウトのためにSMS メッセージでターゲットにすることが許可されていない行をすべてフィルタリングし、ターゲットにすることが許可されたユーザーのSMS アクティビティを追加しました。
+オプトアウトのためにSMS メッセージでターゲットにすることが許可されていない行をすべてフィルタリングし、ディメンションを行からアカウントに変更し、ターゲットにすることが許可されたユーザーのSMS アクティビティを追加しました。
