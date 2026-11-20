@@ -7,9 +7,9 @@ exl-id: fb556a27-5c73-4457-ae98-dba43d445c7f
 product_v2:
   - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
     internal-label: Experience Platform
-source-git-commit: f189618dc8bfa198b25d646faa3ca0e0f5af5916
+source-git-commit: 8d5a87f094e2fba7abd7f5a9acf8e9e775d9b534
 workflow-type: tm+mt
-source-wordcount: '443'
+source-wordcount: '748'
 ht-degree: 0%
 ---
 
@@ -31,13 +31,13 @@ ht-degree: 0%
 
 2. 右側のパネルでラベルを更新し、次の内容を示します：`Filter out opt'd out lines`
 
-   ![&#x200B; オプトアウト行を除外するように設定されたアクティビティ ラベルを分割](assets/filter-the-lines-set-split-label.png)
+   ![ オプトアウト行を除外するように設定されたアクティビティ ラベルを分割](assets/filter-the-lines-set-split-label.png)
 
 
 
 3. 右側のパネルで、「**サブセット**」セクションを展開し、「**フィルターを作成**」ボタンをクリックします
 
-   ![&#x200B; サブセットセクションでフィルターボタンを作成](assets/filter-the-lines-create-filter-button.png)
+   ![ サブセットセクションでフィルターボタンを作成](assets/filter-the-lines-create-filter-button.png)
 
 
 
@@ -53,7 +53,7 @@ ht-degree: 0%
 
 5. 右上の「保存」ボタンをクリックして、作品を保存します。  あなたのキャンバスは今このように見えます\...
 
-![分割アクティビティを保存した後のワークフローキャンバス &#x200B;](assets/filter-the-lines-canvas-after-split-save.png)
+![分割アクティビティを保存した後のワークフローキャンバス ](assets/filter-the-lines-canvas-after-split-save.png)
 
 
 
@@ -63,13 +63,13 @@ ht-degree: 0%
 
    ![分割条件の後にディメンション変更アクティビティを追加](assets/filter-the-lines-add-change-dimension-activity.png)
 
-2. 次の概説に従って変更分析コードのプロパティを更新し、**確認**&#x200B;をクリックします。
+2. 次の概説に従って変更分析コードのプロパティを更新し、**確認**をクリックします。
 ラベル： `Convert Line to Account`
 新しいターゲットディメンション：`dep-rel: Customer Account`
 
-   ![&#x200B; ターゲットディメンションを編集](assets/filter-the-lines-add-edit-target-dimension.png)
+   ![ ターゲットディメンションを編集](assets/filter-the-lines-add-edit-target-dimension.png)
 
-   ![&#x200B; ターゲットディメンションを編集](assets/filter-the-lines-add-select-target-dimension.png)
+   ![ ターゲットディメンションを編集](assets/filter-the-lines-add-select-target-dimension.png)
 
 
 
@@ -83,19 +83,63 @@ ht-degree: 0%
 
 
 
-2. 右側のパネルで、最初にTargetの選択肢を&#x200B;**セカンダリディメンションごとに1つのメッセージ**&#x200B;に変更し、**モバイルメッセージを編集** ボタンをクリックしてSMS メッセージの設定を開始します
+2. 右側のパネルで「**モバイルメッセージを編集**」ボタンをクリックして、SMS メッセージの設定を開始します
 
-   ![右側のパネルの「モバイルメッセージのターゲット設定と編集」ボタン &#x200B;](assets/filter-the-lines-edit-sms-button.png)
+   ![右側のパネルの「モバイルメッセージを編集」ボタン ](assets/filter-the-lines-edit-sms-button-only.png)
 
 
 
 3. 上部のナビゲーションで「アクション」メニュー項目をクリックし、「モバイルメッセージ設定」ドロップダウンから、以前に作成したチャネルを選択します。
 
-![SMS設定で、選択したチャネルが正常に表示されました](assets/filter-the-lines-sms-configuration-selected.png)
+![SMS設定ドロップダウンに結果エラーが表示されない](assets/filter-the-lines-sms-configuration-no-results.png)
 
+>[!CAUTION]
+>
+>申し訳ありません🫨!  なぜ結果が出ないのか？  SMS チャネルを設定していませんか？  製品が壊れていますか？
+>
+>興奮して！!!!!!!!!
+
+
+
+## フリークアウトモーメント
+
+SMSのチャネル設定は既に設定されており、現在はこのように表示されています…
+
+![SMS チャネルの設定ラボで設定された実行の詳細](assets/configure-sms-channel-final-execution-details.png)
+
+**この読み方は次のとおりです：**
+
+- セカンダリディメンション（顧客明細）で見つかった関連レコードの数に関するメッセージを、ターゲットディメンション（顧客アカウント）ごとに1つ配信します
+- セカンダリディメンション（顧客行）にある携帯電話番号を使用して、各SMS配信を実行します
+
+複数のメッセージをひとつのプロファイルに送信できるこのユニークな機能は、ジャーニーとは一線を画すオーケストレーションキャンペーンの主な機能のひとつです。 ただし、モバイルメッセージアクティビティに移行する場合は、顧客アカウントに設定されます。 これにより、送信時にリアルタイム顧客プロファイルに結合して、メッセージの配信と追跡情報をプロファイルに関連付けることができます。
+
+
+それをどのように機能させるかを考えます？ メッセージ実行のターゲットをチャネル設定😀と一致するように変更します
+
+
+
+## ターゲットの変更とSMS メッセージ設定の完了
+
+1. SMS編集画面の「戻る」ボタンをクリックします
+
+   ![SMS編集画面を終了するには、「戻る」ボタンを押します](assets/filter-the-lines-exit-sms-editor.png)
+
+
+
+2. モバイルメッセージアクティビティを選択した状態で、右側のパネルで、最初にTargetの選択肢をプロファイルごとに1つのメッセージから&#x200B;**セカンダリディメンションごとに1つのメッセージ** オプションに変更し、**モバイルメッセージを編集**&#x200B;に戻ります
+
+   ![ ターゲットを変更してから、右側のパネルの「モバイルメッセージを編集」ボタン ](assets/filter-the-lines-edit-sms-button.png)
+
+
+
+3. 上部のナビゲーションで「**アクション**」メニュー項目をクリックし、「モバイルメッセージ設定」ドロップダウンから、以前に作成したチャネルを選択します。
+
+   ![SMS設定で、選択したチャネルが正常に表示されました](assets/filter-the-lines-sms-configuration-selected.png)
 
 
 
 ## まとめ
 
-オプトアウトのためにSMS メッセージでターゲットにすることが許可されていない行をすべてフィルタリングし、ディメンションを行からアカウントに変更し、ターゲットにすることが許可されたユーザーのSMS アクティビティを追加しました。
+オプトアウトのためにSMS メッセージでターゲットにすることが許可されていなかったすべての行をフィルタリングし、ディメンションを行からアカウントに変更し、最終的にターゲットにすることが許可されたユーザーのSMS アクティビティを正常に設定しました。
+また、非常に重要なことを学んでいただけたと思います。**ターゲットは、使用するチャネル設定と一致している必要があります**
