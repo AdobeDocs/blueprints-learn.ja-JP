@@ -31,13 +31,13 @@ ht-degree: 0%
 
 2. 右側のパネルでラベルを更新し、次の内容を示します：`Filter out opt'd out lines`
 
-   ![ オプトアウト行を除外するように設定されたアクティビティ ラベルを分割](assets/filter-the-lines-set-split-label.png)
+   ![&#x200B; オプトアウト行を除外するように設定されたアクティビティ ラベルを分割](assets/filter-the-lines-set-split-label.png)
 
 
 
 3. 右側のパネルで、「**サブセット**」セクションを展開し、「**フィルターを作成**」ボタンをクリックします
 
-   ![ サブセットセクションでフィルターボタンを作成](assets/filter-the-lines-create-filter-button.png)
+   ![&#x200B; サブセットセクションでフィルターボタンを作成](assets/filter-the-lines-create-filter-button.png)
 
 
 
@@ -53,7 +53,7 @@ ht-degree: 0%
 
 5. 右上の「保存」ボタンをクリックして、作品を保存します。  あなたのキャンバスは今このように見えます\...
 
-![分割アクティビティを保存した後のワークフローキャンバス ](assets/filter-the-lines-canvas-after-split-save.png)
+![分割アクティビティを保存した後のワークフローキャンバス &#x200B;](assets/filter-the-lines-canvas-after-split-save.png)
 
 
 
@@ -63,13 +63,13 @@ ht-degree: 0%
 
    ![分割条件の後にディメンション変更アクティビティを追加](assets/filter-the-lines-add-change-dimension-activity.png)
 
-2. 次の概説に従って変更分析コードのプロパティを更新し、**確認**をクリックします。
+2. 次の概説に従って変更分析コードのプロパティを更新し、**確認**&#x200B;をクリックします。
 ラベル： `Convert Line to Account`
 新しいターゲットディメンション：`dep-rel: Customer Account`
 
-   ![ ターゲットディメンションを編集](assets/filter-the-lines-add-edit-target-dimension.png)
+   ![&#x200B; ターゲットディメンションを編集](assets/filter-the-lines-add-edit-target-dimension.png)
 
-   ![ ターゲットディメンションを編集](assets/filter-the-lines-add-select-target-dimension.png)
+   ![&#x200B; ターゲットディメンションを編集](assets/filter-the-lines-add-select-target-dimension.png)
 
 
 
@@ -85,7 +85,7 @@ ht-degree: 0%
 
 2. 右側のパネルで「**モバイルメッセージを編集**」ボタンをクリックして、SMS メッセージの設定を開始します
 
-   ![右側のパネルの「モバイルメッセージを編集」ボタン ](assets/filter-the-lines-edit-sms-button-only.png)
+   ![右側のパネルの「モバイルメッセージを編集」ボタン &#x200B;](assets/filter-the-lines-edit-sms-button-only.png)
 
 
 
@@ -129,7 +129,7 @@ SMSのチャネル設定は既に設定されており、現在はこのよう�
 
 2. モバイルメッセージアクティビティを選択した状態で、右側のパネルで、最初にTargetの選択肢をプロファイルごとに1つのメッセージから&#x200B;**セカンダリディメンションごとに1つのメッセージ** オプションに変更し、**モバイルメッセージを編集**&#x200B;に戻ります
 
-   ![ ターゲットを変更してから、右側のパネルの「モバイルメッセージを編集」ボタン ](assets/filter-the-lines-edit-sms-button.png)
+   ![&#x200B; ターゲットを変更してから、右側のパネルの「モバイルメッセージを編集」ボタン &#x200B;](assets/filter-the-lines-edit-sms-button.png)
 
 
 
