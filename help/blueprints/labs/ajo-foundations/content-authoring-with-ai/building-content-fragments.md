@@ -4,9 +4,9 @@ description: 電子メールデザインを、Adobe Journey Optimizerのテン�
 doc-type: article
 solution: Experience Platform
 exl-id: 253a9332-dc08-420d-ac11-2bf342f0dc38
-source-git-commit: 96308d5726def849ef22540a5d13618017c40cc3
+source-git-commit: d935e9a5179579e35c6aa5fe9e495f5bba1a1b03
 workflow-type: tm+mt
-source-wordcount: '899'
+source-wordcount: '916'
 ht-degree: 0%
 ---
 
@@ -51,7 +51,7 @@ ht-degree: 0%
 
 デザインチームは通常、次のようなテンプレートを提供します。
 
-![&#x200B; デザインチームが提供した汎用デザインテンプレート &#x200B;](assets/building-content-fragments-generic-design-template.png)
+![ デザインチームが提供した汎用デザインテンプレート ](assets/building-content-fragments-generic-design-template.png)
 
 
 ## 手順1：コンテンツフラグメントの作成
@@ -62,7 +62,7 @@ ht-degree: 0%
 
 
 
-![&#x200B; テンプレートを5つのフラグメントに分割](assets/building-content-fragments-five-fragments-identified.png)
+![ テンプレートを5つのフラグメントに分割](assets/building-content-fragments-five-fragments-identified.png)
 
 テンプレートには次の5つのフラグメントが必要であることがわかりました。
 
@@ -82,23 +82,29 @@ ht-degree: 0%
 
 1. 左側のナビゲーションから、**Content Management** セクションを見つけ、**Assets**&#x200B;をクリックします。
 
-   左側のナビゲーションに「![Assets」オプションが表示されたコンテンツ管理セクション &#x200B;](assets/building-content-fragments-content-management-assets-nav.png)
+   左側のナビゲーションに「![Assets」オプションが表示されたコンテンツ管理セクション ](assets/building-content-fragments-content-management-assets-nav.png)
 
 2. Assets管理セクションの「**Assets**」をクリックします。
 
-   ![Assets管理セクションのAssets オプション &#x200B;](assets/building-content-fragments-assets-under-assets-management.png)
+   ![Assets管理セクションのAssets オプション ](assets/building-content-fragments-assets-under-assets-management.png)
 
 3. **「フォルダーを作成」ボタン**&#x200B;をクリックしてフォルダーを作成します。
 
-   ![Assets領域の「フォルダーを作成」ボタン &#x200B;](assets/building-content-fragments-click-create-folder-button.png)
+   ![Assets領域の「フォルダーを作成」ボタン ](assets/building-content-fragments-click-create-folder-button.png)
 
 4. 姓と名のような名前を付けます。 例： Nish\_Pithia\_LabAssets （覚えておいて欲しいもの）
 
    ![新しいアセットフォルダーに姓と名を付ける](assets/building-content-fragments-name-asset-folder.png)
 
-5. **新しいフラグメントを作成します：** コンテンツ管理で、**フラグメント**&#x200B;をクリックし、新しいフラグメントを作成します。
+5. 新しく作成したフォルダーをダブルクリックして、**開く**&#x200B;します。 次に、**Add Assets**&#x200B;をクリックし、ツールキット フォルダーからすべての.pngおよび.jpg画像を参照またはドロップします。 次に、**アップロード**&#x200B;をクリックします
 
-   コンテンツ管理の下の![&#x200B; フラグメントオプションを使用して、新しいフラグメントを作成する](assets/building-content-fragments-click-fragments-create-new.png)
+   ![ 「アセットを追加」をクリックして画像ファイルをアップロード ](assets/building-content-fragments-add-assets-and-upload-image-files.png)
+
+   ![ アップロードをクリック ](assets/building-content-fragments-click-upload.png)
+
+6. **新しいフラグメントを作成します：** コンテンツ管理で、**フラグメント**&#x200B;をクリックし、新しいフラグメントを作成します。
+
+   コンテンツ管理の下の![ フラグメントオプションを使用して、新しいフラグメントを作成する](assets/building-content-fragments-click-fragments-create-new.png)
 
    次のように、わかりやすい名前を付けます。 すべての詳細を次のように追加します。
 
@@ -108,61 +114,55 @@ ht-degree: 0%
 
    **種類：** ビジュアルフラグメントを選択
 
-   ![&#x200B; ヘッダーフラグメント名、説明、ビジュアルフラグメントタイプのフィールド &#x200B;](assets/building-content-fragments-fragment-name-type-details.png)
+   ![ ヘッダーフラグメント名、説明、ビジュアルフラグメントタイプのフィールド ](assets/building-content-fragments-fragment-name-type-details.png)
 
-6. 右上の「**作成ボタン**」をクリックします。
+7. 右上の「**作成ボタン**」をクリックします。
 
-   ![新しいフラグメントダイアログの右上にある「作成」ボタン &#x200B;](assets/building-content-fragments-click-create-button-top-right.png)
+   ![新しいフラグメントダイアログの右上にある「作成」ボタン ](assets/building-content-fragments-click-create-button-top-right.png)
 
    空白のフラグメント作成画面が開きます。
 
-7. 「構造」の下の1:1列をクリックし、以下に示すようにカンバス上でドラッグします。 （以下の画像をクリックしてアニメーショングラフィックをご覧ください）
+8. 左側の列の「**コンポーネント**」タブに移動します。 次に、「構造」の下の「**1:1 Column**」をクリックし、以下に示すようにキャンバス上でドラッグします。 （以下の画像をクリックしてアニメーショングラフィックをご覧ください）
 
-   ![1:1列構造をフラグメントキャンバスにドラッグするデモのアニメーション &#x200B;](assets/building-content-fragments-drag-1-1-columns-structure.gif)
+   ![1:1列構造をフラグメントキャンバスにドラッグする](assets/building-content-fragments-drag-1-1-columns-structure.png)
 
-8. 次に、追加したばかりの1:1行の「**image**」をドラッグします
+9. 次に、追加したばかりの1:1行の「**image**」をドラッグします
 
    ![画像コンポーネントを1:1行にドラッグする](assets/building-content-fragments-drag-image-onto-row.png)
 
-9. 提供されたロゴ画像をアップロードします。 **「メディアの読み込み」ボタンをクリックします。**
+10. **「参照」**&#x200B;をクリックして、提供され、既にAssetsにアップロードされているロゴ画像を選択します。
 
-   ![&#x200B; メディアの読み込みボタンを使用してロゴ画像をアップロード &#x200B;](assets/building-content-fragments-click-import-media-button.png)
+![参照ボタンをクリックしてロゴ画像を選択](assets/building-content-fragments-click-browse-button.png)
 
-10. **ロゴをアップロードします：** ロゴ （*C5G-Logo.png*）を画像のツールキットフォルダーからアップロードし、「次へ」をクリックします。
+11. フォルダーに移動し、ロゴ画像（*C5G-Logo.png*）をクリックし、**選択**&#x200B;をクリックします。
 
-![&#x200B; ツールキット フォルダーからC5G-Logo.pngを選択してアップロード &#x200B;](assets/building-content-fragments-upload-logo-select-file.png)
+![Assets フォルダーからC5G-Logo.pngを選択しています](assets/building-content-fragments-select-logo-from-assets.png)
 
-![&#x200B; ロゴのアップロードを選択した後、「次へ」をクリック &#x200B;](assets/building-content-fragments-upload-logo-click-next.png)
+12. ロゴは正しく配置されていますが、大きすぎるため、サイズを変更する必要があります。 ロゴのサイズを変更するには、プロパティを更新します。 右側の列の「**スタイル**」タブをクリックし、次に示すように、スライダーをドラッグして幅を40%に設定します。
 
-1. 作成した&#x200B;**アセットフォルダー**&#x200B;を選択し、**読み込み**&#x200B;をクリックします。 ファイルはフォルダーに保存されます。
-
-   ![作成したアセットフォルダーを選択し、「読み込み」をクリック &#x200B;](assets/building-content-fragments-select-asset-folder-import.png)
-
-1. ロゴは正しく配置されていますが、大きすぎるため、サイズを変更する必要があります。 ロゴのサイズを変更するには、プロパティを更新します。 次に示すように、スライダーをドラッグして、**スタイル タブ**&#x200B;をクリックし、幅を40%に設定します。
-
-   >[!NOTE]
-   >
-   >トグルボタンがオンになっている場合、40の数値はピクセルではなく%を表します。 絶対ピクセルパーフェクト値を設定する場合は、ボタンをpxに切り替えます。
+>[!NOTE]
+>
+>トグルボタンがオンになっている場合、40の数値はピクセルではなく%を表します。 絶対ピクセルパーフェクト値を設定する場合は、ボタンをpxに切り替えます。
 
 
 
-   ![&#x200B; ロゴのサイズを変更するには、タブ幅スライダーを40%に設定](assets/building-content-fragments-resize-logo-width-slider.png)
+![ ロゴのサイズを変更するには、タブ幅スライダーを40%に設定](assets/building-content-fragments-resize-logo-width-slider.png)
 
-1. 「**&quot;保存&quot;**&#x200B;をクリックすると、フラグメントが保存されます。 確認に緑色のバーの通知が表示されます。
+13. 「**&quot;保存&quot;**&#x200B;をクリックすると、フラグメントが保存されます。 確認に緑色のバーの通知が表示されます。
 
-   ![&#x200B; フラグメントを保存した後の確認バーが緑色になる](assets/building-content-fragments-save-fragment-confirmation.png)
+![ フラグメントを保存した後の確認バーが緑色になる](assets/building-content-fragments-save-fragment-confirmation.png)
 
-1. 保存されたフラグメントはドラフトモードです。 使用する前に、公開する必要があります。 「**戻る**」ボタンをクリックします。
+14. 保存されたフラグメントはドラフトモードです。 使用する前に、公開する必要があります。 「**戻る**」ボタンをクリックします。
 
-   ![公開前にドラフトフラグメントを残すボタン &#x200B;](assets/building-content-fragments-click-back-button-draft.png)
+![公開前にドラフトフラグメントを残すボタン ](assets/building-content-fragments-click-back-button-draft.png)
 
-1. 「**公開**」ボタンをクリックします。 「フラグメントを公開しています。これには時間がかかる場合があります。 一度通知します」 確認について。 フラグメントをテンプレート作成に使用する準備ができました。
+15. 「**公開**」ボタンをクリックします。 「フラグメントを公開しています。これには時間がかかる場合があります。 一度通知します」 確認について。 フラグメントをテンプレート作成に使用する準備ができました。
 
-![公開ボタンと公開フラグメントの確認メッセージ &#x200B;](assets/building-content-fragments-click-publish-fragment-button.png)
+![公開ボタンと公開フラグメントの確認メッセージ ](assets/building-content-fragments-click-publish-fragment-button.png)
 
 ステータスが&#x200B;**「ライブ」**&#x200B;に変更されます。 この時点で、次の手順で使用するヘッダーフラグメントの作成が完了しました。
 
-![&#x200B; ヘッダーフラグメントのステータスがライブに変更されました](assets/building-content-fragments-fragment-status-live.png)
+![ ヘッダーフラグメントのステータスがライブに変更されました](assets/building-content-fragments-fragment-status-live.png)
 
 >[!NOTE]
 >

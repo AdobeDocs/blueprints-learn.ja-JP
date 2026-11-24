@@ -7,9 +7,9 @@ exl-id: 1abab39e-811c-4010-a4f5-a7adc9e4e0a4
 product_v2:
   - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
     internal-label: Experience Platform
-source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
+source-git-commit: efdf51a410acd377a38ec73a9c71964a78320a0b
 workflow-type: tm+mt
-source-wordcount: '404'
+source-wordcount: '405'
 ht-degree: 0%
 ---
 
@@ -33,13 +33,13 @@ ht-degree: 0%
 1. 「**コンテンツをシミュレート**」をクリックします。
 2. 「**コンテンツのバリエーションをシミュレート**」を選択します。
 
-   ![&#x200B; 「コンテンツをシミュレート」をクリックし、「コンテンツのバリエーションをシミュレート」を選択](assets/content-simulation-click-simulate-content-variation.png)
+   ![ 「コンテンツのバリエーションをシミュレート」をクリック ](assets/content-simulation-click-simulate-content-variation.png)
 
    シミュレーションパネルが開きます。
 
 3. 「**プルーフを送信**」をクリックします。
 
-   ![&#x200B; シミュレーションパネルの「プルーフを送信」ボタン &#x200B;](assets/test-the-email-click-send-proof-button.png)
+   ![ シミュレーションパネルの「プルーフを送信」ボタン ](assets/test-the-email-click-send-proof-button.png)
 
 4. 個人のメールアドレスを追加します。
 
@@ -49,13 +49,13 @@ ht-degree: 0%
 
 
 
-5. 両方のバリエーションを選択します。
+5. 最初の2つのバリエーションを選択します（3番目はフォールバックです）。
 6. 件名の接頭辞を追加
    1. バリアント 1:40以上
    2. バリエーション 2:40未満
 7. 「**プルーフを送信**」をクリックします。 緑色の確認メッセージ「**プルーフが正常に送信されました**」が表示されます
 
-![&#x200B; プルーフが正常に送信されたことを示す緑色の確認メッセージ &#x200B;](assets/test-the-email-proofs-sent-successfully-confirmation.png)
+![ プルーフが正常に送信されたことを示す緑色の確認メッセージ ](assets/test-the-email-proofs-sent-successfully-confirmation.png)
 
 両方の電子メールが受信トレイに届いていることを確認します。
 
@@ -69,7 +69,7 @@ ht-degree: 0%
 
 クリッピングされたメッセージが表示される場合がありますが、フッターリンクの一部が実際のものではないので、問題ありません。 このリンクをクリックすると、バリエーションを含むメールが両方とも送信されていることがわかります。
 
-![&#x200B; リンクをクリックした後、両方のバリエーションを表示するプルーフメールをクリップしました](assets/test-the-email-clipped-proof-email-variants.png)
+![ リンクをクリックした後、両方のバリエーションを表示するプルーフメールをクリップしました](assets/test-the-email-clipped-proof-email-variants.png)
 
 ### AJOでのプルーフ配信の確認
 
@@ -79,7 +79,7 @@ ht-degree: 0%
 2. メール作成画面に戻り、**プルーフを表示**&#x200B;をクリックします。
 3. 配信ログ、タイムスタンプ、送信されたバリエーションを確認します。
 
-![&#x200B; メール作成画面で「プルーフを表示」ボタン &#x200B;](assets/test-the-email-click-view-proof-button.png)
+![ メール作成画面で「プルーフを表示」ボタン ](assets/test-the-email-click-view-proof-button.png)
 
 プルーフメールの詳細をご覧ください。
 

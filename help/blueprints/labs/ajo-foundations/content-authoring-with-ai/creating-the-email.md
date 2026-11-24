@@ -7,9 +7,9 @@ exl-id: bf823714-7298-48fc-a18b-9bf2462ae52e
 product_v2:
   - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
     internal-label: Experience Platform
-source-git-commit: 6f54406bc0cda8e0fa5f028201a1ed1c2953e3cf
+source-git-commit: 8a0e198d205b9003fa61cf555debc6c20585b70a
 workflow-type: tm+mt
-source-wordcount: '668'
+source-wordcount: '656'
 ht-degree: 0%
 ---
 
@@ -39,15 +39,15 @@ ht-degree: 0%
 1. メイン画面に戻り、**キャンペーン管理→ジャーニー**&#x200B;をクリックします。
 2. **キャンペーンの作成**&#x200B;をクリックします
 
-   ![ジャーニー管理の「キャンペーンを作成」ボタン &#x200B;](assets/creating-the-email-click-create-campaign-button.png)
+   ![ジャーニー管理の「キャンペーンを作成」ボタン ](assets/creating-the-email-click-create-campaign-button.png)
 
-3. 「**オーケストレーション – マーケティング**」を選択し、**確認**&#x200B;をクリックします
+3. 「**マーケティングとトランザクション**」を選択し、**確認**&#x200B;をクリックします
 
-   ![&#x200B; オーケストレーションの選択 – マーケティングと確認のクリック &#x200B;](assets/creating-the-email-select-orchestration-marketing.png)
+   ![ オーケストレーションの選択 – マーケティングと確認のクリック ](assets/creating-the-email-select-orchestration-marketing.png)
 
 4. キャンペーンに`Flagship Phone Launch Branded`という名前を付けます。 「**保存**」ボタンを押します。
 
-   ![&#x200B; キャンペーンのフラッグシップ Phone Launchをブランド化し、「保存」をクリック &#x200B;](assets/creating-the-email-name-campaign-save.png)します
+   ![ キャンペーンのフラッグシップ Phone Launchをブランド化し、「保存」をクリック ](assets/creating-the-email-name-campaign-save.png)します
 
 5. **以上の署名**&#x200B;をクリックし、**オーディエンスを読み取り** アクティビティを選択します
 
@@ -55,44 +55,44 @@ ht-degree: 0%
 
 6. 次の手順は、**「オーディエンスを読み取り」ボックスを選択し、** オーディエンスフォルダーアイコン **をクリックすることです**
 
-   ![&#x200B; オーディエンスボックスとオーディエンスフォルダーアイコン &#x200B;](assets/creating-the-email-read-audience-folder-icon.png)を読む
+   ![ オーディエンスボックスとオーディエンスフォルダーアイコン ](assets/creating-the-email-read-audience-folder-icon.png)を読む
 
 7. 「**dep: Interest in iPhone 17** audience」を選択し、「**Add Audience**」ボタンをクリックします
 
-   ![iPhone 17 オーディエンスに関心のあるユーザーを選択し、「オーディエンスを追加」をクリック &#x200B;](assets/creating-the-email-select-audience-add-button.png)
+   ![iPhone 17 オーディエンスに関心のあるユーザーを選択し、「オーディエンスを追加」をクリック ](assets/creating-the-email-select-audience-add-button.png)
 
 8. エンティティを選択 – **dep-rel：顧客アカウント - customer\_id** （またはこの部分では問題にならないため）
 9. **以上の署名**&#x200B;をクリックして&#x200B;**電子メールアクティビティ**&#x200B;を追加し、チャネルアクティビティから「**電子メール**」を選択します。
 
-   ![&#x200B; チャネルアクティビティからの電子メールアクティビティの追加](assets/creating-the-email-add-email-channel-activity.png)
+   ![ チャネルアクティビティからの電子メールアクティビティの追加](assets/creating-the-email-add-email-channel-activity.png)
 
 10. **メールを編集**&#x200B;をクリックします。
 
-![&#x200B; キャンペーンメールアクティビティのメールオプションの編集](assets/creating-the-email-click-edit-email.png)
+![ キャンペーンメールアクティビティのメールオプションの編集](assets/creating-the-email-click-edit-email.png)
 
 1. 「**アクション」タブ**&#x200B;をクリックし、**メール設定**&#x200B;を選択します。 サンドボックスにはこれがリレーショナルメールとして表示される場合があります。 （任意を選択）
 
-   メール設定が選択された![&#x200B; アクションタブ &#x200B;](assets/creating-the-email-action-tab-email-configuration.png)
+   メール設定が選択された![ アクションタブ ](assets/creating-the-email-action-tab-email-configuration.png)
 
 1. **コンテンツ タブ**&#x200B;をクリックします
 
-   ![電子メールエディターの「コンテンツ」タブ &#x200B;](assets/creating-the-email-click-content-tab.png)
+   ![電子メールエディターの「コンテンツ」タブ ](assets/creating-the-email-click-content-tab.png)
 
 1. 「**コンテンツテンプレートを適用**」をクリック
 
-   ![&#x200B; メールエディターでのコンテンツテンプレートの適用オプション &#x200B;](assets/creating-the-email-click-apply-content-template.png)
+   ![ メールエディターでのコンテンツテンプレートの適用オプション ](assets/creating-the-email-click-apply-content-template.png)
 
 1. 作成したテンプレート **「プロモーションテンプレート」**&#x200B;を選択し、**確認**&#x200B;をクリックします
 
-   ![&#x200B; プロモーションテンプレートを選択して「確認」をクリック &#x200B;](assets/creating-the-email-select-promotional-template-confirm.png)
+   ![ プロモーションテンプレートを選択して「確認」をクリック ](assets/creating-the-email-select-promotional-template-confirm.png)
 
 1. **メール本文を編集**&#x200B;をクリックします
 
-   ![&#x200B; テンプレートの適用後にメール本文オプションを編集](assets/creating-the-email-click-edit-email-body.png)
+   ![ テンプレートの適用後にメール本文オプションを編集](assets/creating-the-email-click-edit-email-body.png)
 
 1. 新しいヘッダー、ヒーロー、フッター、コンテンツブロックが正しく表示されることを確認します。
 
-![&#x200B; ヘッダー、ヒーロー、フッター、コンテンツブロックがメールに正しく表示される](assets/creating-the-email-header-hero-footer-blocks-confirmed.png)
+![ ヘッダー、ヒーロー、フッター、コンテンツブロックがメールに正しく表示される](assets/creating-the-email-header-hero-footer-blocks-confirmed.png)
 
 
 ## ヒーロー画像と商品画像の置き換え
@@ -101,25 +101,21 @@ ht-degree: 0%
 
 1. 壊れたヒーローバナー画像をクリックします。
 
-   ![&#x200B; プレースホルダーヒーローバナー画像のクリック &#x200B;](assets/creating-the-email-click-broken-hero-banner-image.png)
+   ![ プレースホルダーヒーローバナー画像のクリック ](assets/creating-the-email-click-broken-hero-banner-image.png)
 
 2. 一時ソース URLを削除します。
 
    ![画像から一時ソース URLを削除しています](assets/creating-the-email-remove-temporary-source-url.png)
 
-3. **メディアの読み込み**&#x200B;をクリックします
+3. **アセットをクリック**&#x200B;します
 
-   ![&#x200B; ヒーロー画像のメディアの読み込みボタン &#x200B;](assets/creating-the-email-click-import-media.png)
+   ![ ヒーロー画像のアセットボタンを選択](assets/creating-the-email-click-import-media.png)
 
-4. ツールキットから`hero.png`をアップロードします。 （ファイルをドラッグできます）
+4. フォルダーから`hero.png`を選択し、**選択**&#x200B;をクリックします。
 
-   ![&#x200B; ツールキット フォルダーからhero.pngをアップロードしています](assets/creating-the-email-upload-hero-png-file.png)
+   ![Assets フォルダーからhero.pngを選択しています](assets/creating-the-email-select-hero-png-file.png)
 
-5. **次へ、**&#x200B;をクリックします。アセット **のフォルダー**&#x200B;を選択し、**import**&#x200B;を押します
-
-   ![&#x200B; アセットフォルダーを選択し、ヒーローイメージの読み込みをクリック &#x200B;](assets/creating-the-email-select-folder-import-hero.png)
-
-6. メールテンプレートが正常に表示されます。 次のようです。 **「保存」**&#x200B;をクリックして、作品を保存します。
+5. メールテンプレートが正常に表示されます。 次のようです。 **「保存」**&#x200B;をクリックして、作品を保存します。
 
 ![保存する前に、新しいヒーロー画像でメールテンプレートを更新しました](assets/creating-the-email-save-updated-email-template.png)
 
@@ -128,9 +124,9 @@ ht-degree: 0%
 
 ### 製品画像の置換
 
-先に進み、すべての製品画像（ツールキットフォルダーに用意されている画像）を更新し、好みに丸みを帯びた境界線を追加します。 下の図のように、メールのリンクが壊れていなくても見やすくなります。 すべての製品カードに対して、このプロセスを繰り返します。
+先に進み、すべての商品画像（画像はツールキットフォルダーに提供され、Assetsにアップロードされました）を更新し、お気に入りに丸みを帯びた境界線を追加します。 下の図のように、メールのリンクが壊れていなくても見やすくなります。 すべての製品カードに対して、このプロセスを繰り返します。
 
-![すべての製品画像が更新され、壊れたリンクのないメール &#x200B;](assets/creating-the-email-product-images-updated-no-broken-links.png)
+![すべての製品画像が更新され、壊れたリンクのないメール ](assets/creating-the-email-product-images-updated-no-broken-links.png)
 
 ## まとめ
 
