@@ -52,7 +52,7 @@ AJOのAI アシスタントは、よりスマートでブランドに即した�
 4. 「**件名**」フィールドを選択します。
 5. **AI アイコン**&#x200B;をクリックします。 （以下を参照）
 
-   件名フィールドツールバーの![AI アイコン ](assets/ai-assistant-and-content-personalization-ai-assistant-icon.png)
+   件名フィールドツールバーの![AI アイコン &#x200B;](assets/ai-assistant-and-content-personalization-ai-assistant-icon.png)
 
 6. 初期設定では、ブランドガイドラインが選択されています。
 7. プロンプトを入力します。
@@ -76,7 +76,7 @@ AJOのAI アシスタントは、よりスマートでブランドに即した�
 
 1. 「メール本文を編集」ボタンをクリックしてメールを開きます。
 
-   ![ キャンペーンエディターでのメール本文の編集ボタン ](assets/ai-assistant-and-content-personalization-edit-email-body-button.png)
+   ![&#x200B; キャンペーンエディターでのメール本文の編集ボタン &#x200B;](assets/ai-assistant-and-content-personalization-edit-email-body-button.png)
 
 2. 「**Product Catchy line**」見出しをクリックします。
 3. 「**テキストを生成して選択**」をクリックして、AI支援を開始します
@@ -93,7 +93,7 @@ AJOのAI アシスタントは、よりスマートでブランドに即した�
 
 6. 「テキスト設定」をクリックして、トーンとコミュニケーション戦略を変更します。 コミュニケーション戦略を&#x200B;**FOMO （見逃すことへの恐れ）**&#x200B;に、言語を&#x200B;**英語**&#x200B;に、トーンを&#x200B;**刺激的**&#x200B;に変更します。
 
-   ![FOMO コミュニケーション戦略と刺激的なトーンを選択したテキスト設定パネル ](assets/ai-assistant-and-content-personalization-text-settings-fomo-tone.png)
+   ![FOMO コミュニケーション戦略と刺激的なトーンを選択したテキスト設定パネル &#x200B;](assets/ai-assistant-and-content-personalization-text-settings-fomo-tone.png)
 
 7. 「**生成**」ボタンをクリックします
 8. 最適なバージョンをレビューして&#x200B;**選択**&#x200B;してください
@@ -110,7 +110,7 @@ AIを活用して課題を特定する方法を解説します。
 
 2. 次に示すように、「評価」ボタンをクリックします。
 
-   ![AI テキストパネルの「評価」ボタン ](assets/ai-assistant-and-content-personalization-click-evaluate-button.png)
+   ![AI テキストパネルの「評価」ボタン &#x200B;](assets/ai-assistant-and-content-personalization-click-evaluate-button.png)
 
 3. 次の手順1と2に示すように、元のコンテンツはブランドに合わせて自動的に選択されます。 「**評価**」ボタンをクリックして続行します。
 
@@ -118,7 +118,7 @@ AIを活用して課題を特定する方法を解説します。
 
 4. 予想どおり、ブランドガイドラインに違反するエラーが多数発生しています。 これらはAIを使用して修正できますが、この場合、このプレースホルダーテキストを修正する必要はありません。 代わりに、すべての新しいコンテンツを入力して説明を表示できます。
 
-   ![ ブランドガイドライン違反を示すAI評価結果](assets/ai-assistant-and-content-personalization-brand-guideline-errors.png)
+   ![&#x200B; ブランドガイドライン違反を示すAI評価結果](assets/ai-assistant-and-content-personalization-brand-guideline-errors.png)
 
 5. 以下のプロンプトを使用して、以前のヒーロータイトルと同じ手順を実行するか、時間を節約するために、プレースホルダーテキストを以下に提供される既製の段落に置き換えることもできます。
 
@@ -166,16 +166,16 @@ AIによる画像生成に取り組む前に、どのような体験を構築で
 
 3. **画像をアップロード**&#x200B;をクリックします
 
-   ![Firefly参照スタイルパネルの「画像をアップロード」ボタン ](assets/ai-assistant-and-content-personalization-click-upload-image.png)
+   ![Firefly参照スタイルパネルの「画像をアップロード」ボタン &#x200B;](assets/ai-assistant-and-content-personalization-click-upload-image.png)
 
 4. ツールキットフォルダーからreference.jpgを選択します
 
-   ![ ツールキット フォルダーからreference.jpgを選択しています](assets/ai-assistant-and-content-personalization-select-reference-jpg.png)
+   ![&#x200B; ツールキット フォルダーからreference.jpgを選択しています](assets/ai-assistant-and-content-personalization-select-reference-jpg.png)
 
 5. 画像プロンプトを追加
    `Portrait-oriented image of a confident man in his early to mid-40s, standing alone at night in a neon-lit urban street, focused on his smartphone. Cinematic cyberpunk-inspired city atmosphere with colorful LED signs, cool blue and warm orange lighting, shallow depth of field, soft bokeh lights in the background. Modern lifestyle, tech-savvy mood, realistic skin tones, high contrast, photorealistic, professional lighting, ultra-detailed`.
 
-![ ポートレートの説明が入力されたFirefly画像プロンプトフィールド ](assets/ai-assistant-and-content-personalization-firefly-image-prompt.png)
+![&#x200B; ポートレートの説明が入力されたFirefly画像プロンプトフィールド &#x200B;](assets/ai-assistant-and-content-personalization-firefly-image-prompt.png)
 
 ## 画像設定の選択
 
@@ -193,13 +193,13 @@ AIによる画像生成に取り組む前に、どのような体験を構築で
 
 ![Fireflyの画像の設定（比率、コンテンツの種類、照明を含む）から生成](assets/ai-assistant-and-content-personalization-firefly-image-settings.png)
 
-3. 右側のバリエーションを選択して表示し、後で使用するためにお気に入りの一部をお気に入りに&#x200B;**保存**&#x200B;します。 また、「複数回生成」をクリックすると、より多くのバリエーションを取得できます。
+&#x200B;3. 右側のバリエーションを選択して表示し、後で使用するためにお気に入りの一部をお気に入りに&#x200B;**保存**&#x200B;します。 また、「複数回生成」をクリックすると、より多くのバリエーションを取得できます。
 
-![ バリエーションを参照して一部を保存](assets/ai-assistant-and-content-personalization-browse-image-variations.png)
+![&#x200B; バリエーションを参照して一部を保存](assets/ai-assistant-and-content-personalization-browse-image-variations.png)
 
 ![Assets フォルダーに保存](assets/ai-assistant-and-content-personalization-save-image-variations-into-assets.png)
 
-4. 次に、今のところ、画像生成インターフェイスから&#x200B;**キャンセル**&#x200B;します。
+&#x200B;4. 次に、今のところ、画像生成インターフェイスから&#x200B;**キャンセル**&#x200B;します。
 
 
 
@@ -207,15 +207,15 @@ AIによる画像生成に取り組む前に、どのような体験を構築で
 
 1. 電子メールデザイナーインターフェイスに戻り、画像ブロックの「**参照**」をクリックします。
 
-![画像ブロックの「参照」をクリック ](assets/ai-assistant-and-content-personalization-click-browse-in-image-block.png)
+![画像ブロックの「参照」をクリック &#x200B;](assets/ai-assistant-and-content-personalization-click-browse-in-image-block.png)
 
-2. バリエーションのいずれかを選択し、**選択**&#x200B;をクリックします
+&#x200B;2. バリエーションのいずれかを選択し、**選択**&#x200B;をクリックします
 
-![ バリエーションの1つを選択](assets/ai-assistant-and-content-personalization-select-one-of-your-variations.png)
+![&#x200B; バリエーションの1つを選択](assets/ai-assistant-and-content-personalization-select-one-of-your-variations.png)
 
-3. 右側の列の「**スタイル**」タブを選択し、丸みを帯びた境界線の半径を10に適用します
+&#x200B;3. 右側の列の「**スタイル**」タブを選択し、丸みを帯びた境界線の半径を10に適用します
 
-![丸みを帯びた画像コーナーを持つ最終的な電子メールブロックのデザイン ](assets/ai-assistant-and-content-personalization-final-block-design.png)
+![丸みを帯びた画像コーナーを持つ最終的な電子メールブロックのデザイン &#x200B;](assets/ai-assistant-and-content-personalization-final-block-design.png)
 
 いくつかのイテレーションとバリエーションを経て、最終版のデザインが完成します。 最終的なレイアウトは、上記の例のようになります。
 

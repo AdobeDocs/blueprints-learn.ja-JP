@@ -27,19 +27,19 @@ ht-degree: 0%
 
 ## はじめに
 
-このモジュールでは、Adobe Journey Optimizerのシミュレーションツールを使用して、**2つの条件付きバリエーション**を使用してメールをテストします。
+このモジュールでは、Adobe Journey Optimizerのシミュレーションツールを使用して、**2つの条件付きバリエーション**&#x200B;を使用してメールをテストします。
 これにより、さまざまな顧客がパーソナライズされたメッセージをどのように体験するのかをプレビューし、キャンペーンを開始する前の正確性を確保できます。
 
 ツールキットからサンプル テスト プロファイル ファイル **sample.csv**&#x200B;を使用します。
 
-![ ツールキットのテストプロファイルファイル sample.csvのサンプル ](assets/content-simulation-sample-csv-toolkit-file.png)
+![&#x200B; ツールキットのテストプロファイルファイル sample.csvのサンプル &#x200B;](assets/content-simulation-sample-csv-toolkit-file.png)
 
 ## シミュレーションツールを開く
 
 1. 完成した電子メールを開きます。
 2. メールで「**コンテンツをシミュレート**」をクリックします。
 
-![ 「コンテンツをシミュレート」をクリックし、「コンテンツのバリエーションをシミュレート」を選択](assets/content-simulation-click-simulate-content-variation.png)
+![&#x200B; 「コンテンツをシミュレート」をクリックし、「コンテンツのバリエーションをシミュレート」を選択](assets/content-simulation-click-simulate-content-variation.png)
 
 数秒後にシミュレーションパネルが開きます。
 
@@ -47,14 +47,14 @@ ht-degree: 0%
 
 1. 下部の「**アップロード**」をクリックして、入力データをアップロードします。
 
-   ![ シミュレーションパネルの入力データ用のアップロードボタン ](assets/content-simulation-click-upload-input-data.png)
+   ![&#x200B; シミュレーションパネルの入力データ用のアップロードボタン &#x200B;](assets/content-simulation-click-upload-input-data.png)
 
-3. **sample.csv**&#x200B;を選択し、**続行**&#x200B;をクリックします。
+&#x200B;3. **sample.csv**&#x200B;を選択し、**続行**&#x200B;をクリックします。
 
-   ![sample.csvを選択して「開く」をクリック ](assets/content-simulation-choose-sample-csv-continue.png)
+   ![sample.csvを選択して「開く」をクリック &#x200B;](assets/content-simulation-choose-sample-csv-continue.png)
 
 AJOはファイルを処理し、プレビューを時間内に準備します。
-![ バリエーションのプレビュー](assets/content-simulation-variation-previews.png)
+![&#x200B; バリエーションのプレビュー](assets/content-simulation-variation-previews.png)
 
 
 ## バリエーションのレンダリングを確認
@@ -69,7 +69,7 @@ AJOはファイルを処理し、プレビューを時間内に準備します�
 ![鉛筆アイコンをクリックしてバリエーションの詳細を表示](assets/content-simulation-click-pencil-icon.png)
 
 カードが反転し、パーソナライゼーションの基礎となる詳細が表示されます
-40](assets/content-simulation-variant-1-age-above-40.png)より上の年齢の![Alex プロファイルレンダリングのバリアント 1
+40![&#128279;](assets/content-simulation-variant-1-age-above-40.png)より上の年齢のAlex プロファイルレンダリングのバリアント 1
 
 - **Jason** →見る&#x200B;**バリアント 2** （40歳未満）
 2番目のバリエーションの上にある鉛筆アイコンをクリックして、**バリエーションの詳細を表示**&#x200B;します
@@ -78,11 +78,11 @@ AJOはファイルを処理し、プレビューを時間内に準備します�
 
 ビューを並べ替えて&#x200B;**垂直方向に積み重ね**&#x200B;し、Jasonの詳細とパーソナライゼーションを並べて見ることができます
 
-40](assets/content-simulation-swap-view-to-vertically-stacked.png)歳未満の![Jason プロファイルのレンダリング バリアント 2
+40![&#128279;](assets/content-simulation-swap-view-to-vertically-stacked.png)歳未満のJason プロファイルのレンダリング バリアント 2
 
 メールコンテンツをスクロールすると、Jasonのフルネームと、選択した条件付きコンテンツ画像が表示されます。 なんてクールなんだろう。
 
-バリアント 2](assets/content-simulation-personalized-name-field-variant-2.png)のJasonに表示される![ パーソナライズされたフルネーム フィールド
+バリアント 2![&#128279;](assets/content-simulation-personalized-name-field-variant-2.png)のJasonに表示される パーソナライズされたフルネーム フィールド
 
 
 
