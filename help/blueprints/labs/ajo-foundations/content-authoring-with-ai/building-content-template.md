@@ -4,13 +4,11 @@ description: HTMLを読み込み、以前に作成したヘッダーフラグメ
 doc-type: article
 solution: Experience Platform
 exl-id: e73f06b1-be8a-4096-949c-900db13db9f8
-source-git-commit: 0b33b2740ee7f5af73d64f217b4475650c1d28a0
+source-git-commit: 0ba4d425f258e4c02e1563cdec2da1f815bfcc65
 workflow-type: tm+mt
-source-wordcount: '839'
+source-wordcount: '842'
 ht-degree: 0%
-
 ---
-
 
 # コンテンツテンプレートの作成
 
@@ -104,7 +102,7 @@ ht-degree: 0%
 
 ### 左パネル
 
-Adobe Journey Optimizer（AJO）の「**構造**」および「**コンテンツ**」コンポーネントは、メール、ランディングページ、コンテンツフラグメントをデザインする際に使用される必須の要素です。 構造はレイアウトフレームワークを定義し、コンテンツはレイアウト内に配置された実際の構成要素を提供します。
+「コンポーネント」タブでは、Adobe Journey Optimizer（AJO）の「**構造**」および「**コンテンツ**」コンポーネントが、メール、ランディングページ、コンテンツフラグメントをデザインする際に使用される必須の要素です。 構造はレイアウトフレームワークを定義し、コンテンツはレイアウト内に配置された実際の構成要素を提供します。
 
 Adobe Journey Optimizerの「本文」セクションは、メールまたはページコンテンツのメインコンテナです。 ビジュアルデザイン空間のルーツとして機能し、あらゆる構造コンポーネント（列、レイアウト）とコンテンツコンポーネント（テキスト、画像、ボタンなど）が含まれます ネストされています。
 

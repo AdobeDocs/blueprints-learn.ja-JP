@@ -7,9 +7,9 @@ exl-id: b79327e0-dfc4-49bf-a112-3675c825c479
 product_v2:
   - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
     internal-label: Experience Platform
-source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
+source-git-commit: a9a9e6b1a44f5f104e0454ab52da01fb47db425e
 workflow-type: tm+mt
-source-wordcount: '1238'
+source-wordcount: '1227'
 ht-degree: 0%
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 0%
 1. パーソナライズされたコンテンツブロックに対する条件付きルールの作成。
 1. 誕生年などの属性にもとづいて、バリエーションの切り替えをテストします。
 
-## 概要
+## はじめに
 
 Adobe Journey Optimizerのパーソナライゼーションは、大規模な一対一の体験を可能にします。
 このモジュールでは、次の操作を行います。
@@ -44,12 +44,12 @@ Adobe Journey OptimizerのPersonalizationなら、個々のプロファイル、
 この部分は、パーソナライゼーションをシンプルにします。 プロファイルに基づいて、メールに氏名を追加します。 Personalizationは、定義したXDM Individual Profile スキーマで管理されるプロファイルデータに基づいています。 XDM Individual Profile スキーマは、Journey Optimizerでコンテンツをパーソナライズするために使用できる唯一のスキーマです。
 
 1. 以前のモジュールで作成したメールを開きます。
-2. ヒーロータイトルの上にテキストブロックを追加します。コンテンツ：**こんにちは、**
+2. タイトルのコピーのすぐ上にあるヒーロータイトルのブロックにテキスト **「こんにちは、「**」を追加します
 3. 「**パーソナライゼーション**」アイコンをクリックします。
 
    ![&#x200B; メールテキストツールバーのパーソナライゼーションアイコン &#x200B;](assets/personalization-and-content-experimentation-click-personalization-icon.png)
 
-4. **F**&#x200B;**first Name**&#x200B;を検索します。
+4. **名**&#x200B;を検索します。
 
    ![&#x200B; パーソナライゼーションパネルでFirst Name属性を検索しています](assets/personalization-and-content-experimentation-search-first-name-field.png)
 
@@ -116,13 +116,13 @@ Adobe Journey Optimizerの動的コンテンツを利用すれば、オーディ
    ![新しいバリエーションを作成し、40](assets/personalization-and-content-experimentation-create-variant-age-below-40.png)未満の年齢に変更しています
 
 5. 「20歳半ばの頃」などのプロンプトを使用して、Fireflyを使用して画像を作成することもできます。 ただし、時間を節約するために、「**variant-age-below-40.jpg**」という名前の画像が既にツールキットに用意されています。
-6. 画像をクリックしてメディアを読み込みます。
+6. 画像をクリックし、**アセットを選択**。
 
-   ![画像をクリックして、40以下のバリアントのメディアを読み込む](assets/personalization-and-content-experimentation-click-image-import-media.png)
+   ![画像をクリックして、40以下のバリアントのアセットを選択](assets/personalization-and-content-experimentation-click-image-import-media.png)
 
-7. **variant-age-below-40.jpg**&#x200B;画像を選択します。 **Next**&#x200B;をクリックして読み込み、最後にフォルダーの&#x200B;**Import**&#x200B;を押します（デフォルトでは既にフォルダーに入っている必要があります）。
+7. Assets フォルダーで&#x200B;**variant-age-below-40.jpg**&#x200B;画像を選択し、**Select**&#x200B;をクリックします。
 
-   ![variant-age-below-40.jpg画像の選択と読み込み](assets/personalization-and-content-experimentation-select-below-40-image.png)
+   ![variant-age-below-40.jpg画像の選択と読み込み](assets/personalization-and-content-experimentation-select-below-40-image-from-assets.png)
 
 8. バリエーションを切り替えてみると、別の画像が適用されていることがわかります。
 

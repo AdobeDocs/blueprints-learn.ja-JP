@@ -7,9 +7,9 @@ exl-id: bf823714-7298-48fc-a18b-9bf2462ae52e
 product_v2:
   - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
     internal-label: Experience Platform
-source-git-commit: 6f54406bc0cda8e0fa5f028201a1ed1c2953e3cf
+source-git-commit: 8a0e198d205b9003fa61cf555debc6c20585b70a
 workflow-type: tm+mt
-source-wordcount: '668'
+source-wordcount: '656'
 ht-degree: 0%
 ---
 
@@ -41,7 +41,7 @@ ht-degree: 0%
 
    ![ジャーニー管理の「キャンペーンを作成」ボタン &#x200B;](assets/creating-the-email-click-create-campaign-button.png)
 
-3. 「**オーケストレーション – マーケティング**」を選択し、**確認**&#x200B;をクリックします
+3. 「**マーケティングとトランザクション**」を選択し、**確認**&#x200B;をクリックします
 
    ![&#x200B; オーケストレーションの選択 – マーケティングと確認のクリック &#x200B;](assets/creating-the-email-select-orchestration-marketing.png)
 
@@ -107,19 +107,15 @@ ht-degree: 0%
 
    ![画像から一時ソース URLを削除しています](assets/creating-the-email-remove-temporary-source-url.png)
 
-3. **メディアの読み込み**&#x200B;をクリックします
+3. **アセットをクリック**&#x200B;します
 
-   ![&#x200B; ヒーロー画像のメディアの読み込みボタン &#x200B;](assets/creating-the-email-click-import-media.png)
+   ![&#x200B; ヒーロー画像のアセットボタンを選択](assets/creating-the-email-click-import-media.png)
 
-4. ツールキットから`hero.png`をアップロードします。 （ファイルをドラッグできます）
+4. フォルダーから`hero.png`を選択し、**選択**&#x200B;をクリックします。
 
-   ![&#x200B; ツールキット フォルダーからhero.pngをアップロードしています](assets/creating-the-email-upload-hero-png-file.png)
+   ![Assets フォルダーからhero.pngを選択しています](assets/creating-the-email-select-hero-png-file.png)
 
-5. **次へ、**&#x200B;をクリックします。アセット **のフォルダー**&#x200B;を選択し、**import**&#x200B;を押します
-
-   ![&#x200B; アセットフォルダーを選択し、ヒーローイメージの読み込みをクリック &#x200B;](assets/creating-the-email-select-folder-import-hero.png)
-
-6. メールテンプレートが正常に表示されます。 次のようです。 **「保存」**&#x200B;をクリックして、作品を保存します。
+5. メールテンプレートが正常に表示されます。 次のようです。 **「保存」**&#x200B;をクリックして、作品を保存します。
 
 ![保存する前に、新しいヒーロー画像でメールテンプレートを更新しました](assets/creating-the-email-save-updated-email-template.png)
 
@@ -128,7 +124,7 @@ ht-degree: 0%
 
 ### 製品画像の置換
 
-先に進み、すべての製品画像（ツールキットフォルダーに用意されている画像）を更新し、好みに丸みを帯びた境界線を追加します。 下の図のように、メールのリンクが壊れていなくても見やすくなります。 すべての製品カードに対して、このプロセスを繰り返します。
+先に進み、すべての商品画像（画像はツールキットフォルダーに提供され、Assetsにアップロードされました）を更新し、お気に入りに丸みを帯びた境界線を追加します。 下の図のように、メールのリンクが壊れていなくても見やすくなります。 すべての製品カードに対して、このプロセスを繰り返します。
 
 ![すべての製品画像が更新され、壊れたリンクのないメール &#x200B;](assets/creating-the-email-product-images-updated-no-broken-links.png)
 
