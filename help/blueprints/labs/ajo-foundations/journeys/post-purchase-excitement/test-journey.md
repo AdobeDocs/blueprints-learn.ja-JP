@@ -25,11 +25,11 @@ ht-degree: 0%
 2. **ジャーニー**&#x200B;をクリックして開きます
 3. 最初に、右上の「**検証**」ボタンをクリックします
 
-   ![ クリックしてジャーニーを検証](assets/test-journey-click-validate.png)
+   ![&#x200B; クリックしてジャーニーを検証](assets/test-journey-click-validate.png)
 
 4. **アラート**&#x200B;をクリックして、エラーがないことを確認します（警告は正常です）
 
-   ジャーニーを開いた後にエラーが表示されない![ アラートパネル ](assets/test-journey-alerts-no-errors.png)
+   ジャーニーを開いた後にエラーが表示されない![&#x200B; アラートパネル &#x200B;](assets/test-journey-alerts-no-errors.png)
 
    >[!NOTE]
    >
@@ -39,9 +39,9 @@ ht-degree: 0%
 
 5. **Simulate**&#x200B;をクリックし、**テストモード**&#x200B;を選択します
 
-   ![ 「シミュレート ](assets/test-journey-select-test-mode.png)」を押す
+   ![&#x200B; 「シミュレート &#x200B;](assets/test-journey-select-test-mode.png)」を押す
 
-   ![ テストモードがポップアップで選択されました](assets/test-journey-select-test-mode-in-popup.png)
+   ![&#x200B; テストモードがポップアップで選択されました](assets/test-journey-select-test-mode-in-popup.png)
 
 
 
@@ -57,7 +57,7 @@ ht-degree: 0%
    - **注文ID**: `123`
 7. 「**送信**」をクリックします（送信をクリックした後、応答に数秒かかります）
 
-   ![ イベントフォームに入力して送信をクリックしたトリガー](assets/test-journey-trigger-event-send.png)
+   ![&#x200B; イベントフォームに入力して送信をクリックしたトリガー](assets/test-journey-trigger-event-send.png)
 
    >[!WARNING]
    >
@@ -73,7 +73,7 @@ ht-degree: 0%
 
 8. **Results** ->左側の&#x200B;**Show Log**&#x200B;をクリックします
 
-![ テストイベントをトリガーした後、結果の下にログオプションを表示](assets/test-journey-show-log-results.png)
+![&#x200B; テストイベントをトリガーした後、結果の下にログオプションを表示](assets/test-journey-show-log-results.png)
 
 >[!NOTE]
 >
@@ -115,11 +115,11 @@ ht-degree: 0%
 1. ログのブラウザー&#x200B;**tab**&#x200B;を&#x200B;**閉じる**
 1. 右上の&#x200B;**テストモードを閉じる**
 
-   ![右上の「テストモードを閉じる」ボタン ](assets/test-journey-close-test-mode.png)
+   ![右上の「テストモードを閉じる」ボタン &#x200B;](assets/test-journey-close-test-mode.png)
 
 1. **検証**&#x200B;をもう一度クリックし、右上のジャーニーを&#x200B;**公開**&#x200B;します
 
-   右上のジャーニーの「![公開」ボタン ](assets/test-journey-publish-journey.png)
+   右上のジャーニーの「![公開」ボタン &#x200B;](assets/test-journey-publish-journey.png)
 
 1. 左上の\&lt; – 矢印をクリックして、**ジャーニー**&#x200B;を&#x200B;**閉じる**
 
