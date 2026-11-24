@@ -51,7 +51,7 @@ ht-degree: 0%
 
 デザインチームは通常、次のようなテンプレートを提供します。
 
-![ デザインチームが提供した汎用デザインテンプレート ](assets/building-content-fragments-generic-design-template.png)
+![&#x200B; デザインチームが提供した汎用デザインテンプレート &#x200B;](assets/building-content-fragments-generic-design-template.png)
 
 
 ## 手順1：コンテンツフラグメントの作成
@@ -62,7 +62,7 @@ ht-degree: 0%
 
 
 
-![ テンプレートを5つのフラグメントに分割](assets/building-content-fragments-five-fragments-identified.png)
+![&#x200B; テンプレートを5つのフラグメントに分割](assets/building-content-fragments-five-fragments-identified.png)
 
 テンプレートには次の5つのフラグメントが必要であることがわかりました。
 
@@ -82,15 +82,15 @@ ht-degree: 0%
 
 1. 左側のナビゲーションから、**Content Management** セクションを見つけ、**Assets**&#x200B;をクリックします。
 
-   左側のナビゲーションに「![Assets」オプションが表示されたコンテンツ管理セクション ](assets/building-content-fragments-content-management-assets-nav.png)
+   左側のナビゲーションに「![Assets」オプションが表示されたコンテンツ管理セクション &#x200B;](assets/building-content-fragments-content-management-assets-nav.png)
 
 2. Assets管理セクションの「**Assets**」をクリックします。
 
-   ![Assets管理セクションのAssets オプション ](assets/building-content-fragments-assets-under-assets-management.png)
+   ![Assets管理セクションのAssets オプション &#x200B;](assets/building-content-fragments-assets-under-assets-management.png)
 
 3. **「フォルダーを作成」ボタン**&#x200B;をクリックしてフォルダーを作成します。
 
-   ![Assets領域の「フォルダーを作成」ボタン ](assets/building-content-fragments-click-create-folder-button.png)
+   ![Assets領域の「フォルダーを作成」ボタン &#x200B;](assets/building-content-fragments-click-create-folder-button.png)
 
 4. 姓と名のような名前を付けます。 例： Nish\_Pithia\_LabAssets （覚えておいて欲しいもの）
 
@@ -98,13 +98,13 @@ ht-degree: 0%
 
 5. 新しく作成したフォルダーをダブルクリックして、**開く**&#x200B;します。 次に、**Add Assets**&#x200B;をクリックし、ツールキット フォルダーからすべての.pngおよび.jpg画像を参照またはドロップします。 次に、**アップロード**&#x200B;をクリックします
 
-   ![ 「アセットを追加」をクリックして画像ファイルをアップロード ](assets/building-content-fragments-add-assets-and-upload-image-files.png)
+   ![&#x200B; 「アセットを追加」をクリックして画像ファイルをアップロード &#x200B;](assets/building-content-fragments-add-assets-and-upload-image-files.png)
 
-   ![ アップロードをクリック ](assets/building-content-fragments-click-upload.png)
+   ![&#x200B; アップロードをクリック &#x200B;](assets/building-content-fragments-click-upload.png)
 
 6. **新しいフラグメントを作成します：** コンテンツ管理で、**フラグメント**&#x200B;をクリックし、新しいフラグメントを作成します。
 
-   コンテンツ管理の下の![ フラグメントオプションを使用して、新しいフラグメントを作成する](assets/building-content-fragments-click-fragments-create-new.png)
+   コンテンツ管理の下の![&#x200B; フラグメントオプションを使用して、新しいフラグメントを作成する](assets/building-content-fragments-click-fragments-create-new.png)
 
    次のように、わかりやすい名前を付けます。 すべての詳細を次のように追加します。
 
@@ -114,11 +114,11 @@ ht-degree: 0%
 
    **種類：** ビジュアルフラグメントを選択
 
-   ![ ヘッダーフラグメント名、説明、ビジュアルフラグメントタイプのフィールド ](assets/building-content-fragments-fragment-name-type-details.png)
+   ![&#x200B; ヘッダーフラグメント名、説明、ビジュアルフラグメントタイプのフィールド &#x200B;](assets/building-content-fragments-fragment-name-type-details.png)
 
 7. 右上の「**作成ボタン**」をクリックします。
 
-   ![新しいフラグメントダイアログの右上にある「作成」ボタン ](assets/building-content-fragments-click-create-button-top-right.png)
+   ![新しいフラグメントダイアログの右上にある「作成」ボタン &#x200B;](assets/building-content-fragments-click-create-button-top-right.png)
 
    空白のフラグメント作成画面が開きます。
 
@@ -144,23 +144,23 @@ ht-degree: 0%
     >
     >トグルボタンがオンになっている場合、40の数値はピクセルではなく%を表します。 絶対ピクセルパーフェクト値を設定する場合は、ボタンをpxに切り替えます。
 
-    ![ ロゴのサイズを変更するには、タブ幅スライダーを40%に設定](assets/building-content-fragments-resize-logo-width-slider.png)
+    ![&#x200B; ロゴのサイズを変更するには、タブ幅スライダーを40%に設定](assets/building-content-fragments-resize-logo-width-slider.png)
 
 13. 「**&quot;保存&quot;**&#x200B;をクリックすると、フラグメントが保存されます。 確認に緑色のバーの通知が表示されます。
 
-    ![ フラグメントを保存した後の確認バーが緑色になる](assets/building-content-fragments-save-fragment-confirmation.png)
+    ![&#x200B; フラグメントを保存した後の確認バーが緑色になる](assets/building-content-fragments-save-fragment-confirmation.png)
 
 14. 保存されたフラグメントはドラフトモードです。 使用する前に、公開する必要があります。 「**戻る**」ボタンをクリックします。
 
-    ![公開前にドラフトフラグメントを残すボタン ](assets/building-content-fragments-click-back-button-draft.png)
+    ![公開前にドラフトフラグメントを残すボタン &#x200B;](assets/building-content-fragments-click-back-button-draft.png)
 
 15. 「**公開**」ボタンをクリックします。 「フラグメントを公開しています。これには時間がかかる場合があります。 一度通知します」 確認について。 フラグメントをテンプレート作成に使用する準備ができました。
 
-    ![公開ボタンと公開フラグメントの確認メッセージ ](assets/building-content-fragments-click-publish-fragment-button.png)
+    ![公開ボタンと公開フラグメントの確認メッセージ &#x200B;](assets/building-content-fragments-click-publish-fragment-button.png)
 
 ステータスが&#x200B;**「ライブ」**&#x200B;に変更されます。 この時点で、次の手順で使用するヘッダーフラグメントの作成が完了しました。
 
-![ ヘッダーフラグメントのステータスがライブに変更されました](assets/building-content-fragments-fragment-status-live.png)
+![&#x200B; ヘッダーフラグメントのステータスがライブに変更されました](assets/building-content-fragments-fragment-status-live.png)
 
 >[!NOTE]
 >
