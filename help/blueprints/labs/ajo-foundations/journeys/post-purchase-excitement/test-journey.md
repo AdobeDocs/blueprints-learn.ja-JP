@@ -7,7 +7,7 @@ exl-id: fc3dbfb9-b44b-4866-acc9-398a8b52f2b9
 product_v2:
   - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
     internal-label: Experience Platform
-source-git-commit: cdd5113ade5b2e4b75a5572a3a83aecd2918e297
+source-git-commit: 929145a02a8a2f3505e9e12ff605c500eac1cc79
 workflow-type: tm+mt
 source-wordcount: '429'
 ht-degree: 0%
@@ -25,11 +25,11 @@ ht-degree: 0%
 2. **ジャーニー**&#x200B;をクリックして開きます
 3. 最初に、右上の「**検証**」ボタンをクリックします
 
-   ![&#x200B; クリックしてジャーニーを検証](assets/test-journey-click-validate.png)
+   ![ クリックしてジャーニーを検証](assets/test-journey-click-validate.png)
 
-&#x200B;5. **アラート**&#x200B;をクリックして、エラーがないことを確認します（警告は正常です）
+4. **アラート**&#x200B;をクリックして、エラーがないことを確認します（警告は正常です）
 
-   ジャーニーを開いた後にエラーが表示されない![&#x200B; アラートパネル &#x200B;](assets/test-journey-alerts-no-errors.png)
+   ジャーニーを開いた後にエラーが表示されない![ アラートパネル ](assets/test-journey-alerts-no-errors.png)
 
    >[!NOTE]
    >
@@ -37,11 +37,11 @@ ht-degree: 0%
    >
    >メールのバリエーションにオプトアウトリンクがないことを示します
 
-&#x200B;6. **Simulate**&#x200B;をクリックし、**テストモード**&#x200B;を選択します
+5. **Simulate**&#x200B;をクリックし、**テストモード**&#x200B;を選択します
 
-   ![&#x200B; 「シミュレート &#x200B;](assets/test-journey-select-test-mode.png)」を押す
+   ![ 「シミュレート ](assets/test-journey-select-test-mode.png)」を押す
 
-   ![&#x200B; テストモードがポップアップで選択されました](assets/test-journey-select-test-mode-in-popup.png)
+   ![ テストモードがポップアップで選択されました](assets/test-journey-select-test-mode-in-popup.png)
 
 
 
@@ -51,13 +51,13 @@ ht-degree: 0%
 
 
 
-&#x200B;7. 左側の「**イベントをトリガー**」をクリックし、次のプロパティを入力します。
+6. 左側の「**イベントをトリガー**」をクリックし、次のプロパティを入力します。
    - **イベントタイプ**: `orders.shipped`
    - **個人用メール**: `henry.creel@emailsim.io`
    - **注文ID**: `123`
-&#x200B;8. 「**送信**」をクリックします（送信をクリックした後、応答に数秒かかります）
+7. 「**送信**」をクリックします（送信をクリックした後、応答に数秒かかります）
 
-   ![&#x200B; イベントフォームに入力して送信をクリックしたトリガー](assets/test-journey-trigger-event-send.png)
+   ![ イベントフォームに入力して送信をクリックしたトリガー](assets/test-journey-trigger-event-send.png)
 
    >[!WARNING]
    >
@@ -71,9 +71,9 @@ ht-degree: 0%
 
 
 
-&#x200B;9. **Results** ->左側の&#x200B;**Show Log**&#x200B;をクリックします
+8. **Results** ->左側の&#x200B;**Show Log**&#x200B;をクリックします
 
-![&#x200B; テストイベントをトリガーした後、結果の下にログオプションを表示](assets/test-journey-show-log-results.png)
+![ テストイベントをトリガーした後、結果の下にログオプションを表示](assets/test-journey-show-log-results.png)
 
 >[!NOTE]
 >
@@ -115,11 +115,11 @@ ht-degree: 0%
 1. ログのブラウザー&#x200B;**tab**&#x200B;を&#x200B;**閉じる**
 1. 右上の&#x200B;**テストモードを閉じる**
 
-   ![右上の「テストモードを閉じる」ボタン &#x200B;](assets/test-journey-close-test-mode.png)
+   ![右上の「テストモードを閉じる」ボタン ](assets/test-journey-close-test-mode.png)
 
 1. **検証**&#x200B;をもう一度クリックし、右上のジャーニーを&#x200B;**公開**&#x200B;します
 
-   右上のジャーニーの「![公開」ボタン &#x200B;](assets/test-journey-publish-journey.png)
+   右上のジャーニーの「![公開」ボタン ](assets/test-journey-publish-journey.png)
 
 1. 左上の\&lt; – 矢印をクリックして、**ジャーニー**&#x200B;を&#x200B;**閉じる**
 
