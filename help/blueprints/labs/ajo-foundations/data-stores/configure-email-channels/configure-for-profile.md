@@ -7,9 +7,9 @@ exl-id: bb85e0aa-554e-4527-bf91-e7fd4f69ce71
 product_v2:
   - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
     internal-label: Experience Platform
-source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
+source-git-commit: bcc54e483dddad7417ee13613323198c8ce12bec
 workflow-type: tm+mt
-source-wordcount: '656'
+source-wordcount: '667'
 ht-degree: 5%
 ---
 
@@ -51,6 +51,7 @@ ht-degree: 5%
 
 >[!NOTE]
 >
+>サブドメインは、環境によって異なる場合があります。
 >自分のペースで事前にプロビジョニングされたサブドメインがない場合は、`email.dep-labs.com`ではなく、ここでAdobeにデリゲートされた独自のサブドメインを選択します。 委任する方法については、[設定](../../setup.md)を参照してください。
 
 ## IP プールの詳細の設定

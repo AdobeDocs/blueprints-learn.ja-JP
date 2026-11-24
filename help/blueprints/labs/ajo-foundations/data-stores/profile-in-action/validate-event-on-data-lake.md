@@ -7,9 +7,9 @@ exl-id: 14445089-aa3c-4cce-9d33-80032b6f9868
 product_v2:
   - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
     internal-label: Experience Platform
-source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
+source-git-commit: 8485132cdc2ae67d219d178bda11a9295546f4ce
 workflow-type: tm+mt
-source-wordcount: '170'
+source-wordcount: '175'
 ht-degree: 0%
 ---
 
@@ -38,7 +38,7 @@ Web イベントがExperience Platform Data Lakeに書き込まれているこ�
    where identityMap['email'][0].id = 'henry.creel@emailsim.io'
    ```
 
-3. **実行** クエリ
+3. **再生矢印を押して** クエリを実行
 
 >[!NOTE]
 >

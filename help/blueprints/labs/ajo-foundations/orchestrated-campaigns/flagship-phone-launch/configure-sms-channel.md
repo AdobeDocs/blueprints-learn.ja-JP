@@ -7,9 +7,9 @@ exl-id: 63c994f2-4b6b-42e9-aa82-cb6697390a08
 product_v2:
   - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
     internal-label: Experience Platform
-source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
+source-git-commit: 027d4d3373dd18fa4711e5c403465c03d374de70
 workflow-type: tm+mt
-source-wordcount: '676'
+source-wordcount: '678'
 ht-degree: 0%
 ---
 
@@ -106,11 +106,11 @@ Twilio ベンダー![&#128279;](assets/configure-sms-channel-enter-api-credentia
 3. 次に、**実行ディメンション**&#x200B;のサブセクションの下で、次のように設定されていることを確認します。
    - **次のメッセージを配信：** `Target + Secondary Dimension`
    - **Profile Target Dimension:** `dep-rel: Customer Account - customer_id`
-   - **Dimension:** `Customer Line`
+   - **Dimension:** `dep-rel: Customer Line`
 
    ![&#x200B; ターゲットディメンションとセカンダリディメンションを使用した実行ディメンション設定](assets/configure-sms-channel-execution-dimension-setup.png)
 
-   ![Dimensionは、実行分析コード設定「セカンダリDimension」 &#x200B;](assets/configure-sms-channel-secondary-dimension-detail.png "セカンダリDimension")で顧客行に設定されています
+   ![Dimensionがdep-relに設定されました：実行ディメンション設定のCustomer Lineの「セカンダリDimension」 &#x200B;](assets/configure-sms-channel-secondary-dimension-detail.png "セカンダリDimension")
 
    >[!NOTE]
    >

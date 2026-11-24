@@ -7,9 +7,9 @@ exl-id: e911a251-9f9f-484c-a2de-101b0fc2c417
 product_v2:
   - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
     internal-label: Experience Platform
-source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
+source-git-commit: 526f170e52c0479362c6a72bfd4cbeadc825d464
 workflow-type: tm+mt
-source-wordcount: '479'
+source-wordcount: '462'
 ht-degree: 0%
 ---
 
@@ -69,17 +69,13 @@ ht-degree: 0%
 
    ![左向き矢印をクリックしてメールDesignerを終了](assets/add-email-activities-exit-email-designer.png)
 
-10. 確認ダイアログがポップアップ表示され、**保存して閉じる** ボタンをクリックします
-
-![保存と閉じるボタンを含む確認ダイアログ &#x200B;](assets/add-email-activities-save-and-close-dialog.png)
-
-1. メール本文に追加されたテキストを含む、メールのプロパティとアクションを確認します。 **左向き矢印**&#x200B;をクリックして、キャンペーンキャンバスに戻ります
+10. メール本文に追加されたテキストを含む、メールのプロパティとアクションを確認します。 **左向き矢印**&#x200B;をクリックして、キャンペーンキャンバスに戻ります
 
 ![Campaign キャンバスに戻る](assets/add-email-activities-back-to-campaign-canvas.png)
 
 ## 下部ブランチのメールアクティビティを追加
 
-キャンペーンキャンバスに戻り、下部フローの&#x200B;**+**&#x200B;をクリックし、**チャネルアクティビティ**&#x200B;から&#x200B;**電子メール**&#x200B;を選択します。 以下を除き、上記と同じ手順（手順2～11）に従います。
+キャンペーンキャンバスに戻り、下部フローの&#x200B;**+**&#x200B;をクリックし、**チャネルアクティビティ**&#x200B;から&#x200B;**電子メール**&#x200B;を選択します。 以下を除き、上記と同じ手順（手順2～10）に従います。
 
 - **電子メール** アクティビティのTarget Dimension **を使用して、ラベルを**&#x200B;電子メールに変更します
 - メール設定で、**Relational-Email** メールチャネル設定を選択します
