@@ -7,7 +7,7 @@ exl-id: 1f30c920-7b2b-4343-b663-ebbed1ae4709
 product_v2:
   - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
     internal-label: Experience Platform
-source-git-commit: ea468b0eddaacdb7beaa1227c9c335371d089f34
+source-git-commit: 71aca15b0ca0257d3ea0a84b52fed76ca4e372f0
 workflow-type: tm+mt
 source-wordcount: '1311'
 ht-degree: 5%
@@ -191,31 +191,29 @@ AIによる画像生成に取り組む前に、どのような体験を構築で
 
 2. 「**生成**」ボタンを押します
 
-![Fireflyの画像の設定（比率、コンテンツの種類、照明を含む）から生成](assets/ai-assistant-and-content-personalization-firefly-image-settings.png)
+   ![Fireflyの画像の設定（比率、コンテンツの種類、照明を含む）から生成](assets/ai-assistant-and-content-personalization-firefly-image-settings.png)
 
-&#x200B;3. 右側のバリエーションを選択して表示し、後で使用するためにお気に入りの一部をお気に入りに&#x200B;**保存**&#x200B;します。 また、「複数回生成」をクリックすると、より多くのバリエーションを取得できます。
+3. 右側のバリエーションを選択して表示し、後で使用するためにお気に入りの一部をお気に入りに&#x200B;**保存**&#x200B;します。 また、「複数回生成」をクリックすると、より多くのバリエーションを取得できます。
 
-![&#x200B; バリエーションを参照して一部を保存](assets/ai-assistant-and-content-personalization-browse-image-variations.png)
+   ![&#x200B; バリエーションを参照して一部を保存](assets/ai-assistant-and-content-personalization-browse-image-variations.png)
 
-![Assets フォルダーに保存](assets/ai-assistant-and-content-personalization-save-image-variations-into-assets.png)
+   ![Assets フォルダーに保存](assets/ai-assistant-and-content-personalization-save-image-variations-into-assets.png)
 
-&#x200B;4. 次に、今のところ、画像生成インターフェイスから&#x200B;**キャンセル**&#x200B;します。
-
-
+4. 次に、今のところ、画像生成インターフェイスから&#x200B;**キャンセル**&#x200B;します。
 
 ## ブロック設計を最終決定
 
 1. 電子メールデザイナーインターフェイスに戻り、画像ブロックの「**参照**」をクリックします。
 
-![画像ブロックの「参照」をクリック &#x200B;](assets/ai-assistant-and-content-personalization-click-browse-in-image-block.png)
+   ![画像ブロックの「参照」をクリック &#x200B;](assets/ai-assistant-and-content-personalization-click-browse-in-image-block.png)
 
-&#x200B;2. バリエーションのいずれかを選択し、**選択**&#x200B;をクリックします
+2. バリエーションのいずれかを選択し、**選択**&#x200B;をクリックします
 
-![&#x200B; バリエーションの1つを選択](assets/ai-assistant-and-content-personalization-select-one-of-your-variations.png)
+   ![&#x200B; バリエーションの1つを選択](assets/ai-assistant-and-content-personalization-select-one-of-your-variations.png)
 
-&#x200B;3. 右側の列の「**スタイル**」タブを選択し、丸みを帯びた境界線の半径を10に適用します
+3. 右側の列の「**スタイル**」タブを選択し、丸みを帯びた境界線の半径を10に適用します
 
-![丸みを帯びた画像コーナーを持つ最終的な電子メールブロックのデザイン &#x200B;](assets/ai-assistant-and-content-personalization-final-block-design.png)
+   ![丸みを帯びた画像コーナーを持つ最終的な電子メールブロックのデザイン &#x200B;](assets/ai-assistant-and-content-personalization-final-block-design.png)
 
 いくつかのイテレーションとバリエーションを経て、最終版のデザインが完成します。 最終的なレイアウトは、上記の例のようになります。
 
